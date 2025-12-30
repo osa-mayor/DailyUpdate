@@ -1,0 +1,86 @@
+[
+    {
+        "rank": 1,
+        "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+        "url": "https://huggingface.co/papers/2512.23447",
+        "upvotes": 70,
+        "abstract": "Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities. Our approach treats each expert's router embedding as a proxy token for the tokens assigned to that expert, and feeds perturbed router embeddings through the experts to obtain internal activations. The ERC loss enforces two constraints on these activations: (1) Each expert must exhibit higher activation for its own proxy token than for the proxy tokens of any other expert. (2) Each proxy token must elicit stronger activation from its corresponding expert than from any other expert. These constraints jointly ensure that each router embedding faithfully represents its corresponding expert's capability, while each expert specializes in processing the tokens actually routed to it. The ERC loss is computationally efficient, operating only on n^2 activations, where n is the number of experts. This represents a fixed cost independent of batch size, unlike prior coupling methods that scale with the number of tokens (often millions per batch). Through pre-training MoE-LLMs ranging from 3B to 15B parameters and extensive analysis on trillions of tokens, we demonstrate the effectiveness of the ERC loss. Moreover, the ERC loss offers flexible control and quantitative tracking of expert specialization levels during training, providing valuable insights into MoEs.",
+        "korean_summary": "MoE 모델의 라우터 결정과 전문가 역량을 긴밀하게 결합하고 전문가의 특화를 유도하여 성능을 극대화하는 효율적인 보조 손실(ERC loss)을 제안한다.",
+        "key_points": [
+            "라우터의 임베딩을 해당 전문가에 할당된 토큰의 대리 토큰(proxy token)으로 취급하고, 이 프록시 토큰을 통해 라우터 결정과 전문가 역량을 명시적으로 연결하는 ERC(Expert-Router Coupling) 손실을 도입한다.",
+            "ERC 손실은 두 가지 핵심 제약 조건을 적용한다: (1) 각 전문가는 자신의 프록시 토큰에 가장 높은 활성화를 보여야 하며 (전문화), (2) 각 프록시 토큰은 해당하는 전문가에 의해 가장 강력하게 활성화되어야 한다 (라우터 충실도).",
+            "계산 비용이 전문가 수($n$)에 따른 $n^2$ 활성화로 배치 크기에 독립적인 고정 비용을 가져 계산 효율성이 높으며, 대규모 MoE-LLM 사전 학습을 통해 효과를 입증하고 훈련 중 전문가 전문화 수준의 정량적 추적 및 제어를 제공한다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.23447.png",
+        "local_image_path": "images/Coupling_Experts_and_Routers_in_Mixture-of-Experts_via_an_Auxiliary_Loss_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 2,
+        "title": "LiveTalk: Real-Time Multimodal Interactive Video Diffusion via Improved On-Policy Distillation",
+        "url": "https://huggingface.co/papers/2512.23576",
+        "upvotes": 49,
+        "abstract": "Real-time video generation via diffusion is essential for building general-purpose multimodal interactive AI systems. However, the simultaneous denoising of all video frames with bidirectional attention via an iterative process in diffusion models prevents real-time interaction. While existing distillation methods can make the model autoregressive and reduce sampling steps to mitigate this, they focus primarily on text-to-video generation, leaving the human-AI interaction unnatural and less efficient. This paper targets real-time interactive video diffusion conditioned on a multimodal context, including text, image, and audio, to bridge the gap. Given the observation that the leading on-policy distillation approach Self Forcing encounters challenges (visual artifacts like flickering, black frames, and quality degradation) with multimodal conditioning, we investigate an improved distillation recipe with emphasis on the quality of condition inputs as well as the initialization and schedule for the on-policy optimization. On benchmarks for multimodal-conditioned (audio, image, and text) avatar video generation including HDTF, AVSpeech, and CelebV-HQ, our distilled model matches the visual quality of the full-step, bidirectional baselines of similar or larger size with 20x less inference cost and latency. Further, we integrate our model with audio language models and long-form video inference technique Anchor-Heavy Identity Sinks to build LiveTalk, a real-time multimodal interactive avatar system. System-level evaluation on our curated multi-turn interaction benchmark shows LiveTalk outperforms state-of-the-art models (Sora2, Veo3) in multi-turn video coherence and content quality, while reducing response latency from 1 to 2 minutes to real-time generation, enabling seamless human-AI multimodal interaction.",
+        "korean_summary": "실시간 다중 모달 인터랙티브 비디오 생성을 위해 개선된 온-정책 증류(On-Policy Distillation) 방식을 제안하며, 이를 통해 구축된 LiveTalk 시스템은 기존 SOTA 모델 대비 20배 빠른 속도로 고품질의 다중 턴 상호작용을 가능하게 한다.",
+        "key_points": [
+            "기존 온-정책 증류(Self Forcing) 접근법이 다중 모달 조건화(텍스트, 이미지, 오디오)에서 발생시키는 시각적 아티팩트 문제를 해결하기 위해, 조건 입력 품질과 최적화 스케줄에 중점을 둔 개선된 증류 레시피를 개발하였다.",
+            "제안된 증류 모델은 20배 적은 추론 비용과 지연 시간을 보이면서도, 유사하거나 더 큰 규모의 완전 단계(full-step) 양방향 베이스라인 모델과 동등한 수준의 시각적 품질을 달성하였다.",
+            "개선된 모델을 기반으로 LiveTalk라는 실시간 다중 모달 인터랙티브 아바타 시스템을 구축했으며, 이는 응답 지연 시간을 수 분에서 실시간으로 단축시키고 멀티턴 비디오 일관성 및 콘텐츠 품질에서 최신 SOTA 모델(Sora2, Veo3)을 능가하였다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.23576.png",
+        "local_image_path": "images/LiveTalk_Real-Time_Multimodal_Interactive_Video_Diffusion_via_Improved_On-Policy_Distillation_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 3,
+        "title": "Yume-1.5: A Text-Controlled Interactive World Generation Model",
+        "url": "https://huggingface.co/papers/2512.22096",
+        "upvotes": 48,
+        "abstract": "Recent approaches have demonstrated the promise of using diffusion models to generate interactive and explorable worlds. However, most of these methods face critical challenges such as excessively large parameter sizes, reliance on lengthy inference steps, and rapidly growing historical context, which severely limit real-time performance and lack text-controlled generation capabilities. To address these challenges, we propose \\method, a novel framework designed to generate realistic, interactive, and continuous worlds from a single image or text prompt. \\method achieves this through a carefully designed framework that supports keyboard-based exploration of the generated worlds. The framework comprises three core components: (1) a long-video generation framework integrating unified context compression with linear attention; (2) a real-time streaming acceleration strategy powered by bidirectional attention distillation and an enhanced text embedding scheme; (3) a text-controlled method for generating world events. We have provided the codebase in the supplementary material.",
+        "korean_summary": "Yume-1.5는 기존 모델의 비효율적인 실시간 성능 및 텍스트 제어 부재 문제를 해결하고, 텍스트 또는 단일 이미지를 통해 키보드 탐색이 가능한 현실적이고 연속적인 인터랙티브 세계를 생성하는 새로운 프레임워크입니다.",
+        "key_points": [
+            "통합된 컨텍스트 압축과 선형 어텐션을 통합한 장편 비디오(Long-video) 생성 프레임워크.",
+            "양방향 어텐션 증류(distillation)와 향상된 텍스트 임베딩 스킴을 활용한 실시간 스트리밍 가속 전략.",
+            "생성된 세계 내의 이벤트 발생을 제어하기 위한 텍스트 기반 제어 방법론."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.22096.png",
+        "local_image_path": "images/Yume-1.5_A_Text-Controlled_Interactive_World_Generation_Model_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 4,
+        "title": "SmartSnap: Proactive Evidence Seeking for Self-Verifying Agents",
+        "url": "https://huggingface.co/papers/2512.22322",
+        "upvotes": 33,
+        "abstract": "Agentic reinforcement learning (RL) holds great promise for the development of autonomous agents under complex GUI tasks, but its scalability remains severely hampered by the verification of task completion. Existing task verification is treated as a passive, post-hoc process: a verifier (i.e., rule-based scoring script, reward or critic model, and LLM-as-a-Judge) analyzes the agent's entire interaction trajectory to determine if the agent succeeds. Such processing of verbose context that contains irrelevant, noisy history poses challenges to the verification protocols and therefore leads to prohibitive cost and low reliability. To overcome this bottleneck, we propose SmartSnap, a paradigm shift from this passive, post-hoc verification to proactive, in-situ self-verification by the agent itself. We introduce the Self-Verifying Agent, a new type of agent designed with dual missions: to not only complete a task but also to prove its accomplishment with curated snapshot evidences. Guided by our proposed 3C Principles (Completeness, Conciseness, and Creativity), the agent leverages its accessibility to the online environment to perform self-verification on a minimal, decisive set of snapshots. Such evidences are provided as the sole materials for a general LLM-as-a-Judge verifier to determine their validity and relevance. Experiments on mobile tasks across model families and scales demonstrate that our SmartSnap paradigm allows training LLM-driven agents in a scalable manner, bringing performance gains up to 26.08% and 16.66% respectively to 8B and 30B models. The synergizing between solution finding and evidence seeking facilitates the cultivation of efficient, self-verifying agents with competitive performance against DeepSeek V3.1 and Qwen3-235B-A22B.",
+        "korean_summary": "SmartSnap은 복잡한 GUI 태스크에서 에이전트가 임무 완수를 증명하기 위해 상호작용 궤적 전체 대신 선별된 스냅샷 증거를 수집하는 능동적인 자기 검증 패러다임을 제안하여, LLM 기반 에이전트의 확장성과 성능을 크게 향상시킨다.",
+        "key_points": [
+            "기존의 비효율적이고 수동적인 사후 검증 방식 대신, 에이전트 스스로 수행하는 능동적이고 현장(in-situ) 기반의 자기 검증 방식으로 패러다임을 전환한다.",
+            "새로운 자기 검증 에이전트(Self-Verifying Agent)는 3C 원칙(Completeness, Conciseness, Creativity)의 가이드 아래 임무 완수를 입증하는 최소한의 결정적인 스냅샷 증거를 선별적으로 수집한다.",
+            "이 접근 방식은 LLM 기반 에이전트의 훈련 확장성을 높이며, 모바일 태스크 실험에서 모델 규모에 따라 최대 26.08%의 성능 향상을 달성하고 경쟁적인 결과를 보인다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.22322.png",
+        "local_image_path": "images/SmartSnap_Proactive_Evidence_Seeking_for_Self-Verifying_Agents_img.jpg",
+        "local_figures": [
+            "images/SmartSnap_Proactive_Evidence_Seeking_for_Self-Veri_fig_1.gif"
+        ]
+    },
+    {
+        "rank": 5,
+        "title": "Diffusion Knows Transparency: Repurposing Video Diffusion for Transparent Object Depth and Normal Estimation",
+        "url": "https://huggingface.co/papers/2512.23705",
+        "upvotes": 32,
+        "abstract": "Transparent objects remain notoriously hard for perception systems: refraction, reflection and transmission break the assumptions behind stereo, ToF and purely discriminative monocular depth, causing holes and temporally unstable estimates. Our key observation is that modern video diffusion models already synthesize convincing transparent phenomena, suggesting they have internalized the optical rules. We build TransPhy3D, a synthetic video corpus of transparent/reflective scenes: 11k sequences rendered with Blender/Cycles. Scenes are assembled from a curated bank of category-rich static assets and shape-rich procedural assets paired with glass/plastic/metal materials. We render RGB + depth + normals with physically based ray tracing and OptiX denoising. Starting from a large video diffusion model, we learn a video-to-video translator for depth (and normals) via lightweight LoRA adapters. During training we concatenate RGB and (noisy) depth latents in the DiT backbone and co-train on TransPhy3D and existing frame-wise synthetic datasets, yielding temporally consistent predictions for arbitrary-length input videos. The resulting model, DKT, achieves zero-shot SOTA on real and synthetic video benchmarks involving transparency: ClearPose, DREDS (CatKnown/CatNovel), and TransPhy3D-Test. It improves accuracy and temporal consistency over strong image/video baselines, and a normal variant sets the best video normal estimation results on ClearPose. A compact 1.3B version runs at ~0.17 s/frame. Integrated into a grasping stack, DKT's depth boosts success rates across translucent, reflective and diffuse surfaces, outperforming prior estimators. Together, these results support a broader claim: \"Diffusion knows transparency.\" Generative video priors can be repurposed, efficiently and label-free, into robust, temporally coherent perception for challenging real-world manipulation.",
+        "korean_summary": "비디오 확산 모델이 투명 객체의 광학 규칙을 내재화했다는 관찰을 기반으로, 합성 데이터셋 TransPhy3D와 LoRA 어댑터를 활용하여 투명 객체에 대해 시간적으로 일관된 깊이 및 법선 추정에서 SOTA 성능을 달성하는 비디오-투-비디오 변환 모델 DKT를 개발했다.",
+        "key_points": [
+            "현대 비디오 확산 모델이 투명 객체의 광학적 규칙(굴절, 반사)을 이미 내재화하고 있다는 통찰을 바탕으로, 이를 깊이 및 법선 추정을 위한 견고하고 시간적으로 일관된 인식 시스템으로 재활용(Repurpose)했다.",
+            "물리 기반 렌더링을 사용하여 11k 시퀀스로 구성된 투명/반사 객체 합성 비디오 데이터셋 TransPhy3D를 구축하고, 대규모 비디오 확산 모델 백본에 경량 LoRA 어댑터를 적용하여 DKT(Diffusion Knows Transparency) 모델을 훈련했다.",
+            "DKT는 ClearPose, DREDS 등 투명성 관련 실제 및 합성 비디오 벤치마크에서 zero-shot SOTA 성능을 달성했으며, 파지(grasping) 스택에 통합 시 작업 성공률을 향상시켜 실용적인 로봇 조작에 대한 잠재력을 입증했다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.23705.png",
+        "local_image_path": "images/Diffusion_Knows_Transparency_Repurposing_Video_Diffusion_for_Transparent_Object_Depth_and_Normal_Est_img.jpg",
+        "local_figures": [
+            "images/Diffusion_Knows_Transparency_Repurposing_Video_Dif_fig_1.gif"
+        ]
+    }
+]
