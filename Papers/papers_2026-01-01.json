@@ -1,0 +1,74 @@
+[
+    {
+        "rank": 1,
+        "title": "mHC: Manifold-Constrained Hyper-Connections",
+        "url": "https://huggingface.co/papers/2512.24880",
+        "upvotes": 44,
+        "abstract": "Recently, studies exemplified by Hyper-Connections (HC) have extended the ubiquitous residual connection paradigm established over the past decade by expanding the residual stream width and diversifying connectivity patterns. While yielding substantial performance gains, this diversification fundamentally compromises the identity mapping property intrinsic to the residual connection, which causes severe training instability and restricted scalability, and additionally incurs notable memory access overhead. To address these challenges, we propose Manifold-Constrained Hyper-Connections (mHC), a general framework that projects the residual connection space of HC onto a specific manifold to restore the identity mapping property, while incorporating rigorous infrastructure optimization to ensure efficiency. Empirical experiments demonstrate that mHC is effective for training at scale, offering tangible performance improvements and superior scalability. We anticipate that mHC, as a flexible and practical extension of HC, will contribute to a deeper understanding of topological architecture design and suggest promising directions for the evolution of foundational models.",
+        "korean_summary": "본 논문은 하이퍼 연결(HC)의 단점인 훈련 불안정성과 낮은 확장성을 해결하기 위해, 잔차 연결 공간을 특정 다양체에 제약하여 항등 사상 속성을 복원하고 효율성을 극대화한 다양체 제약형 하이퍼 연결(mHC)을 제안한다.",
+        "key_points": [
+            "기존 하이퍼 연결(HC)은 연결 패턴의 다양화로 성능을 높였지만, 잔차 연결의 본질적인 항등 사상 속성을 훼손하여 심각한 훈련 불안정성과 확장성 제약을 초래했다.",
+            "제안된 mHC(다양체 제약형 하이퍼 연결)는 HC의 잔차 연결 공간을 특정 다양체에 투영하여 항등 사상 속성을 복원함으로써 훈련 안정성을 회복한다.",
+            "mHC는 엄격한 인프라 최적화를 통해 높은 효율성을 보장하며, 대규모 훈련에 효과적이고 우수한 확장성과 성능 향상을 제공한다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.24880.png",
+        "local_image_path": "images/mHC_Manifold-Constrained_Hyper-Connections_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 2,
+        "title": "Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models",
+        "url": "https://huggingface.co/papers/2512.24618",
+        "upvotes": 41,
+        "abstract": "We introduce Youtu-LLM, a lightweight yet powerful language model that harmonizes high computational efficiency with native agentic intelligence. Unlike typical small models that rely on distillation, Youtu-LLM (1.96B) is pre-trained from scratch to systematically cultivate reasoning and planning capabilities. The key technical advancements are as follows: (1) Compact Architecture with Long-Context Support: Built on a dense Multi-Latent Attention (MLA) architecture with a novel STEM-oriented vocabulary, Youtu-LLM supports a 128k context window. This design enables robust long-context reasoning and state tracking within a minimal memory footprint, making it ideal for long-horizon agent and reasoning tasks. (2) Principled \"Commonsense-STEM-Agent\" Curriculum: We curated a massive corpus of approximately 11T tokens and implemented a multi-stage training strategy. By progressively shifting the pre-training data distribution from general commonsense to complex STEM and agentic tasks, we ensure the model acquires deep cognitive abilities rather than superficial alignment. (3) Scalable Agentic Mid-training: Specifically for the agentic mid-training, we employ diverse data construction schemes to synthesize rich and varied trajectories across math, coding, and tool-use domains. This high-quality data enables the model to internalize planning and reflection behaviors effectively. Extensive evaluations show that Youtu-LLM sets a new state-of-the-art for sub-2B LLMs. On general benchmarks, it achieves competitive performance against larger models, while on agent-specific tasks, it significantly surpasses existing SOTA baselines, demonstrating that lightweight models can possess strong intrinsic agentic capabilities.",
+        "korean_summary": "Youtu-LLM은 1.96B급 경량 언어 모델로, 새로운 구조와 에이전트 중심의 다단계 훈련 커리큘럼을 통해 높은 효율성으로 강력한 장문 추론 및 에이전트 성능을 달성하며 sub-2B 모델의 새로운 SOTA를 확립했다.",
+        "key_points": [
+            "조밀한 Multi-Latent Attention(MLA) 아키텍처와 STEM 기반 어휘를 사용하여 128k 컨텍스트 창을 지원, 최소 메모리 공간으로 강력한 장기 추론 및 에이전트 작업을 수행할 수 있도록 설계됨.",
+            "약 11T 토큰의 방대한 코퍼스와 함께, 일반 상식에서 복잡한 STEM, 에이전트 작업으로 점진적으로 이동하는 'Commonsense-STEM-Agent' 다단계 훈련 커리큘럼을 적용하여 깊은 인지 능력을 체계적으로 배양함.",
+            "수학, 코딩, 도구 사용 등 다양한 영역에 걸쳐 궤적 데이터를 합성하는 에이전트 중심의 고품질 미드 트레이닝을 통해 모델이 계획 및 반영 능력을 효과적으로 내재화했으며, 그 결과 에이전트 특정 작업에서 기존 SOTA를 크게 능가함."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.24618.png",
+        "local_image_path": "images/Youtu-LLM_Unlocking_the_Native_Agentic_Potential_for_Lightweight_Large_Language_Models_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 3,
+        "title": "Let It Flow: Agentic Crafting on Rock and Roll, Building the ROME Model within an Open Agentic Learning Ecosystem",
+        "url": "https://huggingface.co/papers/2512.24873",
+        "upvotes": 32,
+        "abstract": "Agentic crafting requires LLMs to operate in real-world environments over multiple turns by taking actions, observing outcomes, and iteratively refining artifacts. Despite its importance, the open-source community lacks a principled, end-to-end ecosystem to streamline agent development. We introduce the Agentic Learning Ecosystem (ALE), a foundational infrastructure that optimizes the production pipeline for agent LLMs. ALE consists of three components: ROLL, a post-training framework for weight optimization; ROCK, a sandbox environment manager for trajectory generation; and iFlow CLI, an agent framework for efficient context engineering. We release ROME (ROME is Obviously an Agentic Model), an open-source agent grounded by ALE and trained on over one million trajectories. Our approach includes data composition protocols for synthesizing complex behaviors and a novel policy optimization algorithm, Interaction-based Policy Alignment (IPA), which assigns credit over semantic interaction chunks rather than individual tokens to improve long-horizon training stability. Empirically, we evaluate ROME within a structured setting and introduce Terminal Bench Pro, a benchmark with improved scale and contamination control. ROME demonstrates strong performance across benchmarks like SWE-bench Verified and Terminal Bench, proving the effectiveness of the ALE infrastructure.",
+        "korean_summary": "복잡한 에이전트 개발을 최적화하기 위해 ROLL, ROCK, iFlow CLI로 구성된 Agentic Learning Ecosystem (ALE)을 구축하고, 이를 활용하여 상호작용 기반 정책 정렬(IPA) 알고리즘으로 학습된 오픈소스 에이전트 모델 ROME과 새로운 벤치마크 Terminal Bench Pro를 제안한다.",
+        "key_points": [
+            "에이전트 LLM 개발 파이프라인을 최적화하는 핵심 인프라인 Agentic Learning Ecosystem (ALE)을 ROLL(가중치 최적화), ROCK(샌드박스 환경), iFlow CLI(컨텍스트 엔지니어링)의 세 구성 요소로 구축했다.",
+            "100만 개 이상의 궤적을 학습한 오픈소스 에이전트 모델 ROME을 공개했으며, 장기적 학습 안정성을 높이기 위해 토큰 대신 의미론적 상호작용 단위로 크레딧을 할당하는 새로운 정책 최적화 알고리즘 IPA(Interaction-based Policy Alignment)를 도입했다.",
+            "ALE 인프라의 효과는 SWE-bench Verified 및 규모와 오염 통제를 개선한 새로운 벤치마크 Terminal Bench Pro를 포함한 여러 환경에서 ROME의 강력한 성능을 통해 입증되었다."
+        ],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.24873.png",
+        "local_image_path": "images/Let_It_Flow_Agentic_Crafting_on_Rock_and_Roll,_Building_the_ROME_Model_within_an_Open_Agentic_Learni_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 4,
+        "title": "GaMO: Geometry-aware Multi-view Diffusion Outpainting for Sparse-View 3D Reconstruction",
+        "url": "https://huggingface.co/papers/2512.25073",
+        "upvotes": 21,
+        "abstract": "Recent advances in 3D reconstruction have achieved remarkable progress in high-quality scene capture from dense multi-view imagery, yet struggle when input views are limited. Various approaches, including regularization techniques, semantic priors, and geometric constraints, have been implemented to address this challenge. Latest diffusion-based methods have demonstrated substantial improvements by generating novel views from new camera poses to augment training data, surpassing earlier regularization and prior-based techniques. Despite this progress, we identify three critical limitations in these state-of-the-art approaches: inadequate coverage beyond known view peripheries, geometric inconsistencies across generated views, and computationally expensive pipelines. We introduce GaMO (Geometry-aware Multi-view Outpainter), a framework that reformulates sparse-view reconstruction through multi-view outpainting. Instead of generating new viewpoints, GaMO expands the field of view from existing camera poses, which inherently preserves geometric consistency while providing broader scene coverage. Our approach employs multi-view conditioning and geometry-aware denoising strategies in a zero-shot manner without training. Extensive experiments on Replica and ScanNet++ demonstrate state-of-the-art reconstruction quality across 3, 6, and 9 input views, outperforming prior methods in PSNR and LPIPS, while achieving a 25times speedup over SOTA diffusion-based methods with processing time under 10 minutes. Project page: https://yichuanh.github.io/GaMO/",
+        "korean_summary": null,
+        "key_points": [],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.25073.png",
+        "local_image_path": "images/GaMO_Geometry-aware_Multi-view_Diffusion_Outpainting_for_Sparse-View_3D_Reconstruction_img.jpg",
+        "local_figures": []
+    },
+    {
+        "rank": 5,
+        "title": "A unified framework for detecting point and collective anomalies in operating system logs via collaborative transformers",
+        "url": "https://huggingface.co/papers/2512.23380",
+        "upvotes": 17,
+        "abstract": "Log anomaly detection is crucial for preserving the security of operating systems. Depending on the source of log data collection, various information is recorded in logs that can be considered log modalities. In light of this intuition, unimodal methods often struggle by ignoring the different modalities of log data. Meanwhile, multimodal methods fail to handle the interactions between these modalities. Applying multimodal sentiment analysis to log anomaly detection, we propose CoLog, a framework that collaboratively encodes logs utilizing various modalities. CoLog utilizes collaborative transformers and multi-head impressed attention to learn interactions among several modalities, ensuring comprehensive anomaly detection. To handle the heterogeneity caused by these interactions, CoLog incorporates a modality adaptation layer, which adapts the representations from different log modalities. This methodology enables CoLog to learn nuanced patterns and dependencies within the data, enhancing its anomaly detection capabilities. Extensive experiments demonstrate CoLog's superiority over existing state-of-the-art methods. Furthermore, in detecting both point and collective anomalies, CoLog achieves a mean precision of 99.63%, a mean recall of 99.59%, and a mean F1 score of 99.61% across seven benchmark datasets for log-based anomaly detection. The comprehensive detection capabilities of CoLog make it highly suitable for cybersecurity, system monitoring, and operational efficiency. CoLog represents a significant advancement in log anomaly detection, providing a sophisticated and effective solution to point and collective anomaly detection through a unified framework and a solution to the complex challenges automatic log data analysis poses. We also provide the implementation of CoLog at https://github.com/NasirzadehMoh/CoLog.",
+        "korean_summary": null,
+        "key_points": [],
+        "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2512.23380.png",
+        "local_image_path": "images/A_unified_framework_for_detecting_point_and_collective_anomalies_in_operating_system_logs_via_collab_img.jpg",
+        "local_figures": []
+    }
+]
