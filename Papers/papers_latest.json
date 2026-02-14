@@ -1,40 +1,41 @@
 {
   "source": "huggingface_papers",
   "date": "2026-02-13",
-  "generated_at": "2026-02-14T21:10:27.550454+09:00",
+  "generated_at": "2026-02-15T05:25:22.702087+09:00",
   "count": 5,
-  "chat_message": "🔥 HF 오늘의 논문 (2026-02-13)\n\n📍 1. The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies\n📝 요약: 자체 진화하는 AI 에이전트 시스템은 안전성 저하가 필연적이므로, 외부 감독이나 새로운 안전 유지 메커니즘이 필요하다.\n🔗 https://huggingface.co/papers/2602.09877\n\n📍 2. Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models\n📝 요약: Composition-RL은 쉬운 프롬프트를 활용하여 LLM의 추론 능력을 향상시키는 간단하면서도 효과적인 강화 학습 방법으로, 다양한 도메인에 적용 가능하다.\n🔗 https://huggingface.co/papers/2602.12036\n\n📍 3. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing\n📝 요약: 5B 파라미터의 경량 모델 DeepGen 1.0은 이미지 생성 및 편집 작업에서 대형 모델을 능가하는 성능을 보여주며, 오픈소스를 통해 접근성을 높였습니다.\n🔗 https://huggingface.co/papers/2602.12205\n\n👉 전체 리포트는 GitHub에서!",
+  "chat_message": "🔥 HF 오늘의 논문 (2026-02-13)\n\n📍 1. The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies\n📝 요약: 자체 진화하는 AI 에이전트 사회는 안전 불변성을 유지하기 어렵다는 것을 이론 및 실험적으로 입증하여, 외부 감독이나 새로운 안전 메커니즘의 필요성을 강조합니다.\n🔗 https://huggingface.co/papers/2602.09877\n\n📍 2. Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models\n📝 요약: Composition-RL은 쉬운 프롬프트를 활용하여 LLM의 추론 능력을 향상시키는 간단하면서도 효과적인 강화 학습 방법입니다.\n🔗 https://huggingface.co/papers/2602.12036\n\n📍 3. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing\n📝 요약: 5B 파라미터의 경량 multimodal 모델 DeepGen 1.0을 공개, 더 큰 모델 대비 뛰어난 성능과 효율성을 제공하여 이미지 생성 및 편집 연구의 접근성을 높임.\n🔗 https://huggingface.co/papers/2602.12205\n\n👉 전체 리포트는 GitHub에서!",
   "items": [
     {
       "rank": 1,
       "title": "The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies",
       "paper_id": "2602.09877",
       "url": "https://huggingface.co/papers/2602.09877",
-      "upvotes": 177,
-      "summary": "자체 진화하는 AI 에이전트 시스템은 안전성 저하가 필연적이므로, 외부 감독이나 새로운 안전 유지 메커니즘이 필요하다.",
+      "upvotes": 181,
+      "summary": "자체 진화하는 AI 에이전트 사회는 안전 불변성을 유지하기 어렵다는 것을 이론 및 실험적으로 입증하여, 외부 감독이나 새로운 안전 메커니즘의 필요성을 강조합니다.",
       "key_points": [
-        "자체 진화, 격리, 안전성 불변의 '자체 진화 딜레마'를 제시",
-        "정보 이론 기반으로 안전성을 인간 가치 분포와의 발산으로 정의",
-        "실험을 통해 자체 진화 시스템의 안전성 저하 현상을 확인"
+        "자체 진화, 완전 격리, 안전 불변성의 삼중고를 증명",
+        "정보 이론적 프레임워크를 사용하여 안전을 정량화",
+        "실제 에이전트 시스템에서 안전 침해 현상 확인"
       ],
       "tags": [
         "Agent",
+        "Self-Evolution",
         "Safety",
-        "Self-Evolution"
+        "LLM"
       ],
       "confidence": "중",
       "adoption_complexity": "상",
-      "practical_relevance": "LLM 에이전트 기반 시스템 개발 시 자체 진화 메커니즘 설계에 대한 근본적인 한계를 인지하고, 안전성 확보를 위한 추가적인 장치(외부 감독, 안전 유지 메커니즘)를 고려해야 한다.",
+      "practical_relevance": "LLM 기반 에이전트 시스템을 구축할 때 자체 진화 과정에서 안전 문제가 발생할 수 있음을 인지하고, 외부 감독이나 안전 메커니즘을 고려해야 합니다.",
       "recommended_actions": [
-        "자체 진화 에이전트 시스템의 안전성 평가 지표 개발",
-        "외부 감독 메커니즘이 안전성 유지에 미치는 영향 실험",
-        "새로운 안전 유지 메커니즘(예: 가치 정렬 강화) 실험"
+        "에이전트 시스템의 안전 정렬을 측정하기 위한 정보 이론적 지표 연구",
+        "자체 진화 과정에서 안전 침해를 감지하는 모니터링 시스템 개발",
+        "안전을 유지하면서 자체 진화할 수 있는 새로운 아키텍처 탐색"
       ],
       "risks_and_limits": [
-        "실험 환경이 실제 배포 환경과 다를 수 있음",
-        "안전성 측정 기준이 주관적일 수 있음"
+        "안전의 정보 이론적 정의가 실제 안전 문제와 완전히 일치하지 않을 수 있음",
+        "제안된 해결책이 자체 진화의 효율성을 저해할 수 있음"
       ],
-      "uncertainty_note": "초록 정보만으로 판단하였으므로, 실제 논문 내용과 차이가 있을 수 있습니다.",
+      "uncertainty_note": "초록 정보만으로는 실험 설정 및 결과의 구체적인 내용을 파악하기 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -43,15 +44,15 @@
       "title": "Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models",
       "paper_id": "2602.12036",
       "url": "https://huggingface.co/papers/2602.12036",
-      "upvotes": 85,
-      "summary": "Composition-RL은 쉬운 프롬프트를 활용하여 LLM의 추론 능력을 향상시키는 간단하면서도 효과적인 강화 학습 방법으로, 다양한 도메인에 적용 가능하다.",
+      "upvotes": 86,
+      "summary": "Composition-RL은 쉬운 프롬프트를 활용하여 LLM의 추론 능력을 향상시키는 간단하면서도 효과적인 강화 학습 방법입니다.",
       "key_points": [
-        "통과율 1인 쉬운 프롬프트를 활용하는 Composition-RL 방법론 제안",
-        "프롬프트 조합을 통해 LLM의 추론 능력 향상",
-        "커리큘럼 학습 및 교차 도메인 적용 가능성을 입증"
+        "정답률 1인 쉬운 프롬프트를 활용하여 RL 효율성 증대",
+        "여러 문제를 조합하여 새로운 프롬프트 생성",
+        "커리큘럼 학습을 통해 성능 향상"
       ],
       "tags": [
-        "LLM",
+        "Agent",
         "Reinforcement Learning",
         "Prompting",
         "Reasoning",
@@ -59,17 +60,17 @@
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "기존에 활용도가 낮았던 쉬운 프롬프트를 활용하여 LLM의 성능을 개선할 수 있으며, 특히 도메인 간 결합을 통해 새로운 기능을 창출할 가능성을 제시한다.",
+      "practical_relevance": "LLM 기반 애플리케이션 개발 시, Composition-RL을 통해 적은 데이터로도 모델의 추론 능력을 향상시켜 개발 비용을 절감하고 성능을 개선할 수 있습니다.",
       "recommended_actions": [
-        "자체 데이터셋에서 쉬운 프롬프트와 어려운 프롬프트의 비율을 분석",
-        "Composition-RL을 적용하여 LLM의 성능 향상 가능성 확인",
-        "다양한 도메인의 프롬프트를 조합하여 새로운 기능 개발 시도"
+        "기존 RL 학습 파이프라인에 Composition-RL 적용하여 성능 변화 확인",
+        "다양한 도메인의 프롬프트 조합을 통해 특정 작업 성능 향상 가능성 탐색",
+        "커리큘럼 학습 전략을 적용하여 학습 효율성 개선"
       ],
       "risks_and_limits": [
-        "조합되는 문제의 성격에 따라 성능 향상 효과가 달라질 수 있음",
-        "조합 과정에서 발생하는 추가적인 계산 비용 고려 필요"
+        "프롬프트 조합 방식에 따라 성능 저하 가능성 존재",
+        "특정 도메인 또는 작업에 대한 일반화 성능 검증 필요"
       ],
-      "uncertainty_note": "초록만으로는 Composition-RL의 구체적인 구현 방식과 성능 향상 정도를 정확히 파악하기 어렵다.",
+      "uncertainty_note": "초록 정보만으로는 Composition-RL의 실제 성능 향상 정도 및 적용 가능성에 대한 정확한 판단이 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -78,38 +79,36 @@
       "title": "DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing",
       "paper_id": "2602.12205",
       "url": "https://huggingface.co/papers/2602.12205",
-      "upvotes": 67,
-      "summary": "5B 파라미터의 경량 모델 DeepGen 1.0은 이미지 생성 및 편집 작업에서 대형 모델을 능가하는 성능을 보여주며, 오픈소스를 통해 접근성을 높였습니다.",
+      "upvotes": 69,
+      "summary": "5B 파라미터의 경량 multimodal 모델 DeepGen 1.0을 공개, 더 큰 모델 대비 뛰어난 성능과 효율성을 제공하여 이미지 생성 및 편집 연구의 접근성을 높임.",
       "key_points": [
-        "5B 파라미터의 경량 unified multimodal 모델 DeepGen 1.0 제시",
-        "Stacked Channel Bridging (SCB)을 통한 의미 이해 및 제어 능력 향상",
-        "데이터 중심 학습 전략 및 강화 학습을 통한 성능 향상"
+        "5B 파라미터의 경량 unified multimodal 모델 DeepGen 1.0 제안",
+        "Stacked Channel Bridging (SCB)을 통한 semantic 이해 및 fine-grained 제어 능력 향상",
+        "데이터 중심 학습 전략 (Alignment Pre-training, Joint Supervised Fine-tuning, RL with MR-GRPO)을 통한 성능 향상"
       ],
       "tags": [
+        "Vision",
         "Multimodal",
-        "Image Generation",
-        "Image Editing",
-        "VLM",
-        "Reinforcement Learning",
+        "Generation",
+        "Editing",
         "RAG",
         "Reasoning",
-        "Vision",
         "Benchmark",
         "Safety"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "기존 대형 모델의 높은 비용과 배포 문제를 해결하고, 소규모 리소스로도 강력한 이미지 생성 및 편집 기능을 활용할 수 있게 합니다. 오픈 소스 코드를 통해 빠르게 실험하고 적용할 수 있습니다.",
+      "practical_relevance": "리소스 제약이 있는 환경에서도 고성능 이미지 생성 및 편집 모델을 사용할 수 있도록 하며, 모델 크기 때문에 접근하기 어려웠던 multimodal 연구에 기여할 수 있습니다.",
       "recommended_actions": [
-        "DeepGen 1.0 모델 다운로드 및 설치",
-        "제공된 예제 코드를 사용하여 이미지 생성 및 편집 실험",
-        "SCB 모듈을 기존 모델에 적용하여 성능 개선 시도"
+        "DeepGen 1.0 모델을 다운로드하여 이미지 생성 및 편집 task에 적용해보기",
+        "제공된 학습 코드를 분석하여 SCB 구조 및 학습 전략 이해하기",
+        "자체 데이터셋을 사용하여 DeepGen 1.0 모델 fine-tuning해보기"
       ],
       "risks_and_limits": [
-        "50M 샘플로 학습되었기에 특정 도메인에 대한 일반화 성능이 부족할 수 있음",
-        "경량 모델의 특성상 극도로 복잡한 시나리오에서는 성능 저하가 발생할 수 있음"
+        "50M 데이터셋으로 학습되었으므로, 특정 도메인에 대한 일반화 성능이 낮을 수 있음",
+        "경량 모델이므로, 매우 복잡한 시나리오에서는 성능이 제한적일 수 있음"
       ],
-      "uncertainty_note": "초록에 제시된 정보만으로는 모델의 모든 기능을 완벽하게 파악하기 어렵습니다.",
+      "uncertainty_note": "초록만으로는 구체적인 모델 구조 및 학습 데이터셋에 대한 정보가 제한적이므로, 실제 적용 시 성능 차이가 발생할 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -118,33 +117,33 @@
       "title": "Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
       "paper_id": "2602.12125",
       "url": "https://huggingface.co/papers/2602.12125",
-      "upvotes": 54,
-      "summary": "온-폴리시 증류(OPD)를 개선하는 새로운 방법론인 G-OPD 프레임워크를 제안하고, 특히 보상 외삽(reward extrapolation)을 통해 학생 모델이 교사 모델을 능가하는 결과를 얻을 수 있음을 보임.",
+      "upvotes": 55,
+      "summary": "On-policy distillation의 reward scaling factor 조정 및 reference model 변경을 통해 학생 모델의 성능을 teacher 성능 이상으로 향상시키는 방법론 G-OPD 제시.",
       "key_points": [
-        "OPD가 KL-제약 강화 학습의 특수한 경우임을 이론적으로 증명",
-        "보상 스케일링 인자를 도입하여 OPD를 일반화한 G-OPD 프레임워크 제안",
-        "보상 외삽(ExOPD)을 통해 학생 모델이 교사 모델을 능가하는 성능 향상 달성"
+        "OPD를 일반화한 G-OPD 프레임워크 제시",
+        "Reward scaling factor를 조정한 ExOPD를 통해 teacher 성능 능가",
+        "Teacher의 사전 학습 모델을 활용한 reward correction 방법 제안"
       ],
       "tags": [
         "Distillation",
-        "Reinforcement Learning",
+        "RL",
+        "On-Policy",
         "Code Generation",
-        "Math Reasoning",
         "Reasoning"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "모델 증류를 통해 더 작은 모델로 성능을 유지하거나 향상시키는 데 활용될 수 있으며, 특히 도메인 전문가 모델의 지식을 통합하거나, 모델 성능을 극대화하는 데 유용할 수 있다.",
+      "practical_relevance": "모델 경량화 및 성능 향상을 위해 distillation을 사용하는 개발자에게 teacher 모델 이상의 성능을 얻을 수 있는 새로운 방법을 제시하며, 특히 도메인 지식 통합 과정에서 효과적이다.",
       "recommended_actions": [
-        "기존 OPD 파이프라인에 보상 외삽(ExOPD) 적용해보기",
-        "강한 교사 모델에서 약한 학생 모델로 증류 시, 교사 모델의 RL 이전 상태를 참조 모델로 활용하는 보상 수정 방식 실험",
-        "다양한 보상 스케일링 인자 값을 실험하여 최적의 값 찾기"
+        "Reward scaling factor를 조정하며 distillation 실험 진행",
+        "Strong-to-weak distillation 시 teacher의 사전 학습 모델을 reference model로 활용 시도",
+        "서로 다른 도메인에서 학습된 모델들을 ExOPD로 통합하는 실험 진행"
       ],
       "risks_and_limits": [
-        "교사 모델의 RL 이전 상태 접근이 어려울 수 있음",
-        "보상 스케일링 인자 최적값은 task에 따라 달라질 수 있음"
+        "Reward correction을 위한 teacher의 사전 학습 모델 접근 필요",
+        "G-OPD의 효과는 특정 task (math reasoning, code generation)에 한정될 수 있음"
       ],
-      "uncertainty_note": "초록만으로는 구체적인 실험 설정 및 데이터셋에 대한 정보가 부족하여 일반화에 한계가 있을 수 있다.",
+      "uncertainty_note": "초록 정보만을 바탕으로 작성되었으므로, 실험 환경 및 세부 설정에 따라 결과가 달라질 수 있다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -153,35 +152,35 @@
       "title": "MOSS-Audio-Tokenizer: Scaling Audio Tokenizers for Future Audio Foundation Models",
       "paper_id": "2602.10934",
       "url": "https://huggingface.co/papers/2602.10934",
-      "upvotes": 44,
-      "summary": "Transformer 기반의 대규모 오디오 토크나이저인 MOSS-Audio-Tokenizer를 개발하여, 다양한 오디오 도메인에서 기존 코덱을 능가하는 성능을 보였고, 고품질 오디오 생성이 가능해짐.",
+      "upvotes": 45,
+      "summary": "순수 Transformer 기반의 대규모 오디오 토크나이저(MOSS-Audio-Tokenizer)를 개발하여 다양한 오디오 도메인에서 SOTA 성능을 달성하고, 오디오 기반 파운데이션 모델의 새로운 가능성을 제시합니다.",
       "key_points": [
-        "순수 Transformer 기반의 CAT 아키텍처를 제안하여 end-to-end 오디오 토크나이저 학습",
-        "16억 파라미터의 MOSS-Audio-Tokenizer를 개발하여 다양한 오디오 도메인에서 SOTA 달성",
-        "MOSS-Audio-Tokenizer를 활용하여 고품질의 autoregressive TTS 모델 구축"
+        "순수 Transformer 기반의 end-to-end 오디오 토크나이저 아키텍처(CAT) 제안",
+        "3백만 시간의 오디오 데이터로 사전 학습된 16억 파라미터 규모의 MOSS-Audio-Tokenizer 개발",
+        "TTS 및 ASR 성능 향상을 통해 오디오 파운데이션 모델로서의 가능성 입증"
       ],
       "tags": [
         "Audio",
-        "Tokenizer",
         "Transformer",
+        "Tokenizer",
         "TTS",
-        "Foundation Model",
+        "ASR",
         "RAG",
         "Distillation"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "MOSS-Audio-Tokenizer는 오디오 관련 task에서 더 나은 성능과 유연성을 제공하며, 특히 오디오 생성 및 음성 합성과 같은 분야에서 활용 가능성이 높다. 기존 파이프라인의 복잡성을 줄이고, 더 강력한 오디오 모델을 구축하는 데 기여할 수 있다.",
+      "practical_relevance": "MOSS-Audio-Tokenizer는 개발자들이 오디오 데이터를 활용한 다양한 애플리케이션(TTS, ASR 등)을 구축할 때 기반 모델로 활용할 수 있으며, 특히 Transformer 기반 아키텍처의 확장 가능성을 보여주어 자체 모델 개발에 영감을 줄 수 있습니다.",
       "recommended_actions": [
-        "MOSS-Audio-Tokenizer를 다운로드하여 다양한 오디오 데이터셋에서 성능 테스트",
-        "자체 오디오 데이터셋으로 MOSS-Audio-Tokenizer를 fine-tuning하여 특정 task에 적용",
-        "MOSS-Audio-Tokenizer를 활용하여 새로운 오디오 생성 모델 개발"
+        "MOSS-Audio-Tokenizer를 다운로드하여 자체 데이터셋에 적용해보기",
+        "제공된 API를 활용하여 간단한 오디오 처리 파이프라인 구축해보기",
+        "CAT 아키텍처를 기반으로 새로운 오디오 처리 모델 개발 시도해보기"
       ],
       "risks_and_limits": [
-        "대규모 모델이므로 학습 및 추론에 상당한 컴퓨팅 자원이 필요할 수 있음",
-        "일부 특수한 오디오 도메인에서는 fine-tuning 없이 일반화 성능이 떨어질 수 있음"
+        "대규모 모델이므로 학습 및 추론에 많은 컴퓨팅 자원이 필요할 수 있습니다.",
+        "3백만 시간 데이터셋의 편향이 모델 성능에 영향을 미칠 수 있습니다."
       ],
-      "uncertainty_note": "초록만으로는 모델의 학습 데이터 구성 및 편향, 그리고 특정 도메인에 대한 일반화 성능을 정확히 파악하기 어렵다.",
+      "uncertainty_note": "초록만으로는 모델의 구체적인 구현 방법과 학습 데이터셋의 상세 정보 확인이 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
