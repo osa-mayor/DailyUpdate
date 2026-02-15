@@ -1,367 +1,350 @@
 {
   "source": "product_hunt",
-  "date": "2026-02-14",
-  "generated_at": "2026-02-15T05:48:49.433696+09:00",
+  "date": "2026-02-15",
+  "generated_at": "2026-02-16T05:50:01.711103+09:00",
   "count": 10,
-  "chat_message": "🚀 Product Hunt 오늘의 Top 5 (2026-02-14)\n\n📦 1. Seedance 2.0\n⭐ Votes: 266\n📝 요약: ByteDance에서 개발한 Seedance 2.0은 AI 기반의 영상 생성 모델로, 특히 시네마틱한 멀티샷 스토리텔링에 특화되어 있어 영상 제작 파이프라인 자동화에 기여할 수 있습니다.\n🔗 바로가기: https://www.producthunt.com/products/pixeldance-seaweed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 2. Cline CLI 2.0\n⭐ Votes: 203\n📝 요약: Cline CLI 2.0은 터미널에서 바로 자율 코딩, 병렬 에이전트, headless CI/CD를 가능하게 하여 개발 생산성을 극대화하는 오픈소스 도구입니다.\n🔗 바로가기: https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 3. TexTab\n⭐ Votes: 161\n📝 요약: TexTab은 AI 기반 작업을 단축키로 만들어 개발 생산성을 향상시키는 도구입니다. 번역, 요약, 재작성 등 다양한 AI 기능을 코드 편집기 내에서 즉시 실행할 수 있습니다.\n🔗 바로가기: https://www.producthunt.com/products/textab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 4. Valentine Online \n⭐ Votes: 156\n📝 요약: 코딩 없이 발렌타인 데이 기념 페이지를 만들 수 있는 툴. 디자인 요소 자동 생성 및 메시지 커스터마이징 기능 제공.\n🔗 바로가기: https://www.producthunt.com/products/valentine-online?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 5. Termsy\n⭐ Votes: 132\n📝 요약: Terms of Service 및 개인정보처리방침 페이지를 자동으로 스캔하여 주요 조항을 강조 표시하고 깔끔하게 요약해주는 도구로, 사용자 동의 전에 정보에 입각한 선택을 돕습니다.\n🔗 바로가기: https://www.producthunt.com/products/termsy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n👉 자세한 내용은 GitHub 리포트에서 확인하세요!",
+  "chat_message": "🚀 Product Hunt 오늘의 Top 5 (2026-02-15)\n\n📦 1. Lunair\n⭐ Votes: 311\n📝 요약: Lunair는 텍스트 기반으로 설명 비디오를 자동으로 생성하고 편집할 수 있게 해주는 툴로, 랜딩 페이지에 빠르게 비디오 추가 및 마케팅 자료 제작에 유용합니다.\n🔗 바로가기: https://www.producthunt.com/products/lunair?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 2. Prompt Library\n⭐ Votes: 210\n📝 요약: Mac에서 프롬프트를 저장, 태깅, 정리하고 단축키로 모든 앱에 즉시 삽입하여 개발 생산성을 향상시키는 도구\n🔗 바로가기: https://www.producthunt.com/products/prompt-library?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 3. Formaly\n⭐ Votes: 195\n📝 요약: AI 기반 대화형 폼 생성 도구로, 자연어 프롬프트를 사용해 폼을 만들고, 채팅으로 피드백을 수집하며, AI 기반 분석 결과를 즉시 얻을 수 있습니다.\n🔗 바로가기: https://www.producthunt.com/products/formaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 4. Plus AI Presentation Agent\n⭐ Votes: 172\n📝 요약: PowerPoint 내에서 AI 에이전트를 통해 프롬프트 기반 슬라이드 생성, 내용 수정, 디자인 개선 등 프레젠테이션 제작 전반을 지원하여 개발팀의 발표 자료 준비 시간을 단축하고 퀄리티를 향상시킬 수 있습니다.\n🔗 바로가기: https://www.producthunt.com/products/plus-ai-presentation-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n📦 5. Habit Island\n⭐ Votes: 161\n📝 요약: Habit Island는 습관 형성 과정을 게임화하여 사용자 몰입도를 높이고, 꾸준한 습관 형성을 유도하는 gamification 솔루션 제공 가능성을 제시합니다.\n🔗 바로가기: https://www.producthunt.com/products/habit-island?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29\n\n👉 자세한 내용은 GitHub 리포트에서 확인하세요!",
   "items": [
     {
       "rank": 1,
-      "name": "Seedance 2.0",
-      "url": "https://www.producthunt.com/products/pixeldance-seaweed?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 266,
-      "tagline": "Advanced AI video creation with precise narrative control",
-      "summary": "ByteDance에서 개발한 Seedance 2.0은 AI 기반의 영상 생성 모델로, 특히 시네마틱한 멀티샷 스토리텔링에 특화되어 있어 영상 제작 파이프라인 자동화에 기여할 수 있습니다.",
+      "name": "Lunair",
+      "url": "https://www.producthunt.com/products/lunair?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 311,
+      "tagline": "Generate studio-quality explainer videos. Instantly.",
+      "summary": "Lunair는 텍스트 기반으로 설명 비디오를 자동으로 생성하고 편집할 수 있게 해주는 툴로, 랜딩 페이지에 빠르게 비디오 추가 및 마케팅 자료 제작에 유용합니다.",
       "key_points": [
-        "간단한 프롬프트로 일관성 있는 캐릭터와 자연스러운 전환, 역동적인 카메라 움직임 생성",
-        "모션, 장면 구성, 스토리 흐름에 대한 세밀한 제어 가능",
-        "AI 비디오 제작을 실제 영화 연출처럼 느끼게 함"
+        "텍스트 기반 비디오 자동 생성 (스크립트 작성으로 비디오 생성)",
+        "커스터마이징 가능한 캐릭터, 장면, 음성, 음악",
+        "수정 가능한 스크립트와 장면"
       ],
       "tags": [
         "AI",
-        "영상생성",
-        "자동화",
-        "콘텐츠제작",
-        "AI Tool",
-        "Prompting",
         "Video",
-        "Design"
+        "Marketing",
+        "Automation",
+        "Content Creation",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "영상 콘텐츠 제작 자동화 가능성을 탐색하고, 복잡한 컷 편집 및 카메라 워크를 AI로 구현하여 개발팀의 창의적인 콘텐츠 제작 역량을 강화할 수 있습니다.",
+      "practical_relevance": "개발팀이 제품 설명, 기능 소개, 변경 사항 설명 등을 위한 비디오 콘텐츠를 빠르게 제작하고 랜딩 페이지에 통합하여 사용자 경험을 개선하고 전환율을 높일 수 있습니다.",
       "recommended_actions": [
-        "간단한 스토리보드 기반 영상 제작 실험",
-        "기존 영상 콘텐츠 스타일을 모방하는 프롬프트 엔지니어링 실험",
-        "Seedance 2.0으로 생성한 영상의 퀄리티와 제작 시간을 기존 방식과 비교"
+        "Lunair를 사용하여 랜딩 페이지용 제품 소개 비디오 생성",
+        "신규 기능 소개를 위한 짧은 비디오 제작",
+        "고객 성공 사례 비디오 자동 생성 후 편집"
       ],
       "risks_and_limits": [
-        "AI 모델이 생성하는 영상의 예술적 품질 및 독창성 제한 가능성",
-        "프롬프트 엔지니어링 난이도 및 결과물의 예측 불가능성",
-        "저작권 관련 문제 발생 가능성"
+        "AI 생성 비디오 품질에 대한 의존성",
+        "커스터마이징 범위의 제한",
+        "비디오 자동 생성 결과물의 예상치 못한 문제 발생 가능성"
       ],
-      "uncertainty_note": "Product Hunt 메타데이터만으로는 모델의 실제 성능 및 API 제공 여부 등을 정확히 파악하기 어렵습니다.",
+      "uncertainty_note": "제품 Hunt 설명 기반이라 실제 사용 편의성, 생성되는 비디오 품질, 커스터마이징 자유도에 대한 정확한 정보는 알 수 없습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 2,
-      "name": "Cline CLI 2.0",
-      "url": "https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 203,
-      "tagline": "Parallel agents & headless CI/CD in your terminal",
-      "summary": "Cline CLI 2.0은 터미널에서 바로 자율 코딩, 병렬 에이전트, headless CI/CD를 가능하게 하여 개발 생산성을 극대화하는 오픈소스 도구입니다.",
+      "name": "Prompt Library",
+      "url": "https://www.producthunt.com/products/prompt-library?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 210,
+      "tagline": "All your best prompts. One shortcut away.",
+      "summary": "Mac에서 프롬프트를 저장, 태깅, 정리하고 단축키로 모든 앱에 즉시 삽입하여 개발 생산성을 향상시키는 도구",
       "key_points": [
-        "병렬 에이전트 지원으로 빌드/테스트 속도 향상",
-        "headless 모드로 CI/CD 파이프라인 통합 용이",
-        "ACP 지원으로 Zed, Neovim 등 다양한 에디터와 호환"
+        "프롬프트 저장 및 관리 용이",
+        "Mac 모든 앱에서 사용 가능",
+        "단축키를 통한 빠른 삽입"
       ],
       "tags": [
-        "CLI",
         "DevTool",
         "Automation",
-        "CI/CD",
-        "Open Source",
-        "Agent",
-        "Design"
+        "Productivity",
+        "Mac",
+        "Prompting"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "개발팀은 Cline CLI 2.0을 통해 자동화된 코딩 워크플로우를 구축하고, CI/CD 파이프라인 효율성을 높이며, 개발 환경의 유연성을 확보할 수 있습니다.",
+      "practical_relevance": "반복적인 프롬프트 입력 작업을 자동화하여 개발자가 코드 작성 및 문제 해결에 더 집중할 수 있도록 지원하며, 일관된 프롬프트 사용을 통해 팀 협업 효율성을 높입니다.",
       "recommended_actions": [
-        "기존 CLI 기반 스크립트를 Cline CLI 병렬 에이전트로 마이그레이션하여 성능 개선 테스트",
-        "headless 모드를 활용하여 CI/CD 파이프라인에 통합하고 빌드/테스트 시간 단축 효과 확인",
-        "Zed 또는 Neovim에서 ACP 기능을 사용하여 코드 자동 완성 및 오류 검사 기능 활용"
+        "자주 사용하는 프롬프트를 등록하고 단축키 설정",
+        "다양한 앱에서 프롬프트 삽입 테스트",
+        "팀 내에서 프롬프트 라이브러리 공유 및 활용 방안 논의"
       ],
       "risks_and_limits": [
-        "오픈소스 특성상 안정성 및 유지보수에 대한 자체적인 책임 필요",
-        "기존 워크플로우와의 통합 과정에서 예상치 못한 문제 발생 가능성",
-        "병렬 에이전트 사용 시 리소스 관리 및 충돌 문제 발생 가능성"
+        "Mac OS에서만 작동",
+        "프롬프트 관리 시스템의 복잡성 증가 가능성"
       ],
-      "uncertainty_note": "Product Hunt 메타데이터만으로는 실제 사용 시 성능 및 통합 호환성에 대한 정확한 판단이 어렵습니다.",
+      "uncertainty_note": "Product Hunt 메타데이터만으로 판단하여 실제 사용 편의성 및 성능에 대한 정보는 제한적입니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 3,
-      "name": "TexTab",
-      "url": "https://www.producthunt.com/products/textab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 161,
-      "tagline": "Turn any AI task into a Keyboard Shortcut",
-      "summary": "TexTab은 AI 기반 작업을 단축키로 만들어 개발 생산성을 향상시키는 도구입니다. 번역, 요약, 재작성 등 다양한 AI 기능을 코드 편집기 내에서 즉시 실행할 수 있습니다.",
+      "name": "Formaly",
+      "url": "https://www.producthunt.com/products/formaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 195,
+      "tagline": "Forms that feel like conversations",
+      "summary": "AI 기반 대화형 폼 생성 도구로, 자연어 프롬프트를 사용해 폼을 만들고, 채팅으로 피드백을 수집하며, AI 기반 분석 결과를 즉시 얻을 수 있습니다.",
       "key_points": [
-        "AI 기반 작업 단축키로 실행",
-        "사용자 정의 가능한 AI 액션",
-        "생산성 향상 및 워크플로우 자동화"
+        "자연어 기반 폼 생성",
+        "채팅 기반 피드백 수집",
+        "AI 기반 분석 결과 제공"
       ],
       "tags": [
-        "DevTool",
+        "Form",
         "AI",
         "Automation",
-        "Shortcut",
-        "AI Tool"
+        "Analytics",
+        "Feedback",
+        "AI Tool",
+        "Chat",
+        "Prompting"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "반복적인 AI 작업을 자동화하여 개발 시간을 단축하고, 문맥 전환 없이 코딩에 집중할 수 있도록 돕습니다. 코드 문서화, 번역, 코드 개선 등에 활용 가능합니다.",
+      "practical_relevance": "프론트엔드 개발팀은 사용자 인터랙션이 높은 폼을 쉽게 구축하고, 데이터 분석팀은 폼을 통해 수집된 데이터를 AI 기반으로 빠르게 분석하여 활용할 수 있습니다.",
       "recommended_actions": [
-        "텍스트 요약 단축키 설정 후 사용",
-        "특정 코드 패턴 자동 수정 단축키 생성",
-        "에러 메시지 번역 단축키 활용"
+        "기존 폼을 Formaly로 대체하여 사용자 경험 개선 실험",
+        "피드백 수집 자동화 파이프라인 구축",
+        "AI 분석 결과를 기반으로 폼 개선"
       ],
       "risks_and_limits": [
-        "AI 모델의 정확성에 의존적",
-        "커스터마이징 복잡도 증가 가능성",
-        "API 사용량 제한 및 비용 발생 가능성"
+        "AI 분석의 정확도에 대한 검증 필요",
+        "데이터 보안 및 개인정보 보호 정책 준수 필요"
       ],
-      "uncertainty_note": "Product Hunt 메타데이터만으로 판단하여 실제 사용성과 기능은 다를 수 있습니다.",
+      "uncertainty_note": "제품 설명만으로는 폼의 복잡성 처리 능력과 AI 분석의 상세 수준을 정확히 파악하기 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 4,
-      "name": "Valentine Online ",
-      "url": "https://www.producthunt.com/products/valentine-online?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 156,
-      "tagline": "Personalized Valentine’s surprise page for your loved one",
-      "summary": "코딩 없이 발렌타인 데이 기념 페이지를 만들 수 있는 툴. 디자인 요소 자동 생성 및 메시지 커스터마이징 기능 제공.",
+      "name": "Plus AI Presentation Agent",
+      "url": "https://www.producthunt.com/products/plus-ai-presentation-agent?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 172,
+      "tagline": "AI agent that helps you design PowerPoint slides",
+      "summary": "PowerPoint 내에서 AI 에이전트를 통해 프롬프트 기반 슬라이드 생성, 내용 수정, 디자인 개선 등 프레젠테이션 제작 전반을 지원하여 개발팀의 발표 자료 준비 시간을 단축하고 퀄리티를 향상시킬 수 있습니다.",
       "key_points": [
-        "노코드 기반 페이지 생성",
-        "개인화된 메시지 및 추억 공유 기능",
-        "간편한 공유 및 배포"
+        "PowerPoint 내에서 직접 작동하는 AI 에이전트",
+        "프롬프트 기반 슬라이드 자동 생성 및 편집 기능 제공",
+        "반복적인 디자인 개선 작업을 채팅 인터페이스로 간소화"
       ],
       "tags": [
-        "No-Code",
-        "Marketing",
-        "Page Builder",
+        "AI",
+        "PowerPoint",
+        "자동화",
+        "프레젠테이션",
+        "생산성",
+        "Agent",
+        "AI Tool",
+        "Chat",
+        "Prompting",
         "Design"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "프론트엔드 개발 리소스 부족 시, 마케팅 팀에서 직접 캠페인 페이지를 제작하고 관리할 수 있어 퍼블리싱 bottleneck 해소에 기여할 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발팀이 기술 발표, 데모 시연, 회의 자료 준비 시 반복적인 슬라이드 제작 작업을 자동화하여 효율성을 높이고, 내용 구성 및 디자인 개선에 집중할 수 있도록 돕습니다.",
       "recommended_actions": [
-        "기존 발렌타인 데이 캠페인 페이지 제작 소요 시간 및 리소스 비교",
-        "마케팅 팀에 해당 툴 소개 및 사용 피드백 수집",
-        "생성된 페이지의 반응형 디자인 및 사용자 경험 테스트"
+        "무료 평가판을 설치하여 프레젠테이션 자동 생성 기능 테스트",
+        "기존 발표 자료를 Plus AI를 통해 리팩토링하여 개선 효과 확인",
+        "개발팀 내 발표 자료 제작 담당자에게 Plus AI 사용법 교육"
       ],
       "risks_and_limits": [
-        "템플릿 기반 디자인의 제한적인 커스터마이징 옵션",
-        "트래픽 급증 시 서비스 안정성 보장 필요"
+        "AI 생성 결과물의 품질은 프롬프트 정확성에 크게 의존",
+        "PowerPoint에 종속적인 도구이므로 다른 프레젠테이션 도구와의 호환성 고려 필요"
       ],
-      "uncertainty_note": "제공된 정보가 제한적이므로, 실제 사용 편의성, 성능, 보안 수준에 대한 추가 검토가 필요합니다.",
+      "uncertainty_note": "제공된 메타데이터만으로는 실제 사용 편의성 및 AI 성능에 대한 정확한 판단이 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 5,
-      "name": "Termsy",
-      "url": "https://www.producthunt.com/products/termsy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 132,
-      "tagline": "Scans terms and conditions for you",
-      "summary": "Terms of Service 및 개인정보처리방침 페이지를 자동으로 스캔하여 주요 조항을 강조 표시하고 깔끔하게 요약해주는 도구로, 사용자 동의 전에 정보에 입각한 선택을 돕습니다.",
+      "name": "Habit Island",
+      "url": "https://www.producthunt.com/products/habit-island?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 161,
+      "tagline": "Build a Kingdom From Habits",
+      "summary": "Habit Island는 습관 형성 과정을 게임화하여 사용자 몰입도를 높이고, 꾸준한 습관 형성을 유도하는 gamification 솔루션 제공 가능성을 제시합니다.",
       "key_points": [
-        "Terms of Service 및 개인정보처리방침 자동 스캔",
-        "중요 조항 하이라이트 및 요약 제공",
-        "빠르고 가벼우며 사용하기 쉬움"
+        "습관 형성을 게임 메커니즘과 결합",
+        "시각적인 진행 상황 표현 (섬 성장)",
+        "보상 시스템 (젬, 업적)"
       ],
       "tags": [
-        "LegalTech",
-        "Automation",
-        "Privacy",
-        "Utility"
+        "Gamification",
+        "UserEngagement",
+        "BehavioralDesign",
+        "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "개발팀은 Terms of Service 및 개인정보처리방침 관련 분석 도구를 자체 개발하는 대신 이 도구를 활용하여 효율성을 높이고, 사용자에게 더 투명한 정보 제공을 고려할 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발팀은 사용자 행동 유도 및 리텐션 개선을 위해 게임화 요소를 서비스에 통합하는 A/B 테스트를 수행할 수 있으며, 사용자 습관 데이터 분석을 통해 맞춤형 기능 개발에 활용할 수 있습니다.",
       "recommended_actions": [
-        "Terms of Service 또는 개인정보처리방침이 있는 서비스에 적용하여 요약 결과 확인",
-        "요약된 결과를 기반으로 자체 서비스 정책 개선 아이디어 발굴",
-        "자사 서비스에 유사한 기능 도입 가능성 검토"
+        "기존 서비스에 간단한 게임 요소 (뱃지, 레벨) 추가하여 사용자 반응 테스트",
+        "사용자 습관 데이터를 기반으로 개인화된 목표 설정 및 알림 기능 구현",
+        "Habit Island와 유사한 시각적 진행 상황 표현 방식 벤치마킹"
       ],
       "risks_and_limits": [
-        "스캔 및 요약 정확도에 대한 의존성",
-        "법적 책임 면피 불가",
-        "지원하는 페이지 형식의 제한"
+        "모든 사용자에게 게임화가 효과적이지 않을 수 있음",
+        "과도한 게임 요소는 오히려 피로감을 유발할 수 있음"
       ],
-      "uncertainty_note": "제공된 메타데이터만으로 판단하므로, 실제 성능 및 기능은 다를 수 있습니다.",
+      "uncertainty_note": "제공된 정보가 제한적이므로, 실제 서비스의 상세 기능 및 효과는 다를 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 6,
-      "name": "WikiTrip 2.0",
-      "url": "https://www.producthunt.com/products/wikitrip?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 100,
-      "tagline": "Location-based audio guide powered by Wikipedia",
-      "summary": "WikiTrip 2.0은 위치 기반 위키피디아 오디오 가이드 앱으로, 주변 정보 학습 경험을 제공하고, 개발팀은 위치 정보 및 오디오 스트리밍 기술 통합 및 개선에 집중해야 합니다.",
-      "key_points": [
-        "위치 기반 위키피디아 콘텐츠 제공",
-        "오디오 가이드 기능으로 운전 중 학습 가능",
-        "여행, 통근 등 다양한 상황에서 활용 가능"
-      ],
+      "name": "UnderSurface",
+      "url": "https://www.producthunt.com/products/undersurface?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 19,
+      "tagline": "A diary that listens back!",
+      "summary": null,
+      "key_points": [],
       "tags": [
-        "Location",
-        "Audio",
-        "Wikipedia",
-        "Travel",
-        "Education",
-        "AI Tool"
+        "Chat",
+        "API"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "개발팀은 사용자 경험 향상을 위해 정확한 위치 정보 제공 및 안정적인 오디오 스트리밍 기술 개발에 집중해야 하며, 위키피디아 데이터 업데이트 자동화 시스템 구축도 고려할 수 있습니다.",
-      "recommended_actions": [
-        "위치 정보 정확도 향상을 위한 GPS 데이터 처리 개선",
-        "오디오 스트리밍 안정성 및 배터리 효율성 개선",
-        "다양한 언어 지원을 위한 위키피디아 번역 API 연동 테스트"
-      ],
-      "risks_and_limits": [
-        "위키피디아 콘텐츠의 정확성 및 신뢰성 문제",
-        "GPS 신호 문제로 인한 위치 정보 오류 가능성"
-      ],
-      "uncertainty_note": "제공된 메타데이터만으로는 앱의 기술적 구현 방식 및 실제 성능을 정확히 파악하기 어렵습니다.",
+      "practical_relevance": null,
+      "recommended_actions": [],
+      "risks_and_limits": [],
+      "uncertainty_note": "Product Hunt 설명(태그라인/디스크립션) 기반 정리이므로 실제 기능/가격/정책은 제품 페이지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 7,
-      "name": "CozyTwo",
-      "url": "https://www.producthunt.com/products/cozytwo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 92,
-      "tagline": "Build a home together, even when you're apart.",
-      "summary": "원격 연애 커플을 위한 가상 공간 제공. 유튜브 동시 시청, 가상 포옹 기능 제공, 구독 기반 수익 모델.",
+      "name": "PenguinBot AI",
+      "url": "https://www.producthunt.com/products/penguinbot-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 16,
+      "tagline": "Your AI-Employee Working 24/7",
+      "summary": "PenguinBot AI는 대화형 인터페이스를 통해 이메일 관리, 작업 스케줄링, 문서 생성, 워크플로우 실행 등 다양한 작업을 자동화하여 개발팀의 반복적인 업무 부담을 줄여줄 수 있는 AI 기반 자동화 도구입니다.",
       "key_points": [
-        "유튜브 동시 시청 기능 (synchronized playback)",
-        "가상 상호작용 기능 (virtual hugs)",
-        "구독 기반 수익 모델 (subscription based)"
+        "24/7 자동 실행: 지속적인 작업 수행으로 개발 생산성 향상",
+        "자율적 실행: 사용자의 지시에 따라 계획, 실행, 관리를 자동화",
+        "다양한 작업 지원: 이메일, 스케줄링, 문서 생성, 워크플로우 자동화 등 다양한 작업 지원"
       ],
       "tags": [
-        "Realtime",
-        "Streaming",
-        "Social"
+        "DevTool",
+        "Automation",
+        "AI",
+        "Productivity",
+        "AI Tool",
+        "Email"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "실시간 동기화 및 커뮤니케이션 기능 구현에 대한 연구 및 사용자 경험 디자인에 대한 인사이트를 얻을 수 있다.",
+      "practical_relevance": "개발팀은 PenguinBot AI를 통해 반복적인 관리 업무를 자동화하고, 핵심 개발 업무에 집중할 수 있어 생산성 향상 및 효율적인 리소스 관리가 가능합니다.",
       "recommended_actions": [
-        "동영상 스트리밍 동기화 기술 조사 (WebSockets, WebRTC)",
-        "가상 상호작용 UI/UX 연구",
-        "구독 모델 구현 및 관리 방식 벤치마킹"
+        "PenguinBot AI를 통해 개발팀 내에서 반복적으로 발생하는 작업 자동화 시나리오 정의",
+        "이메일 알림 자동화, 간단한 문서 생성 자동화 등 작은 규모의 자동화부터 시작",
+        "자동화 결과 및 효율성을 측정하여 점진적으로 자동화 범위 확대"
       ],
       "risks_and_limits": [
-        "동영상 플랫폼 API 변경에 따른 영향",
-        "사용자 트래픽 증가에 따른 서버 부하",
-        "새로운 기능 개발 및 유지보수 비용"
+        "AI의 오작동으로 인한 예기치 않은 결과 발생 가능성",
+        "복잡한 워크플로우 자동화에는 한계가 있을 수 있음"
       ],
-      "uncertainty_note": "Product Hunt 메타데이터만으로는 기술 스택 및 구체적인 구현 방식에 대한 정보가 부족하다.",
+      "uncertainty_note": "Product Hunt의 제한적인 정보만으로 판단했기에, 실제 기능과 성능은 다를 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 8,
-      "name": "OpenBug",
-      "url": "https://www.producthunt.com/products/openbug?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 89,
-      "tagline": "Ticket in, fix out. Every solution trains the next one.",
-      "summary": "OpenBug는 오픈소스 CLI 도구로, 버그 티켓을 기반으로 AI 에이전트가 자동으로 로그 분석, 코드 분석, 서비스 간 연관 관계 분석을 수행하여 수정 diff를 생성하고, 해결 과정은 Git 기반의 공유 런북에 저장되어 팀의 문제 해결 능력을 향상시킵니다.",
+      "name": "Test Your Idea",
+      "url": "https://www.producthunt.com/products/test-your-idea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 14,
+      "tagline": "Find weak spots in your startup idea. Real data, not vibes.",
+      "summary": "아이디어 검증 도구: 20개 이상의 데이터 소스를 분석하여 경쟁, 시장 규모, 수요 등의 측면에서 사업 아이디어의 약점을 파악하고, 개발 전에 실패 가능성을 줄일 수 있도록 지원.",
       "key_points": [
-        "버그 티켓 기반 자동 수정 diff 생성",
-        "AI 에이전트의 로그/코드 분석 및 서비스 연관 분석",
-        "Git 기반 공유 런북을 통한 팀 지식 축적"
+        "20개 이상의 데이터 소스 기반 객관적인 분석 제공",
+        "경쟁 상황, 시장 규모, 수요 신호 등 다각적 검토",
+        "실패 가능성이 높은 아이디어 조기 발견"
       ],
       "tags": [
-        "DevTool",
-        "CLI",
-        "AI",
-        "Automation",
-        "Open Source",
-        "Agent",
-        "AI Tool"
+        "시장조사",
+        "아이디어 검증",
+        "데이터 분석"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "버그 해결 과정을 자동화하고 팀의 문제 해결 노하우를 공유하여 개발 생산성을 향상시키고 반복적인 문제 해결 시간을 단축할 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "개발팀은 이 도구를 활용하여 개발 시작 전 아이디어의 시장성을 객관적으로 검증하고, 불필요한 개발 리소스 낭비를 줄이며 성공 가능성을 높일 수 있습니다.",
       "recommended_actions": [
-        "OpenBug CLI 설치 및 간단한 버그 티켓으로 테스트",
-        "Git 저장소 연동 및 런북 저장 설정 확인",
-        "팀 내 공유 런북 활용 가이드라인 수립"
+        "새로운 사업 아이디어 검증 시 활용",
+        "경쟁사 분석 데이터 확인",
+        "시장 수요 데이터 기반 기능 우선순위 결정"
       ],
       "risks_and_limits": [
-        "AI 에이전트의 분석 정확도 및 수정 제안의 신뢰도 검증 필요",
-        "복잡한 시스템 환경에서의 적용 가능성 및 성능 테스트 필요"
+        "데이터 분석 결과가 모든 성공을 보장하지 않음",
+        "일부 데이터 소스의 정확성/신뢰도 문제 존재 가능성"
       ],
-      "uncertainty_note": "제품 설명이 제한적이므로 실제 성능 및 기능은 사용 환경에 따라 다를 수 있습니다.",
+      "uncertainty_note": "Product Hunt 메타데이터 기반 분석이므로, 기능의 깊이나 실제 데이터 정확도에 대한 정보는 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 9,
-      "name": "Your Love Style",
-      "url": "https://www.producthunt.com/products/your-love-style-a-valentine-s-day-event?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 87,
-      "tagline": "A choose-your-own-adventure game meets personality quiz",
-      "summary": "사용자의 행동 패턴 기반으로 연애 스타일을 분석하는 새로운 방식의 성격 테스트 (choose-your-own-adventure 게임 형식) 도입 가능성 검토",
+      "name": "UserWants",
+      "url": "https://www.producthunt.com/products/userwants?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 13,
+      "tagline": "Stop guessing. Build what users want.",
+      "summary": "UserWants는 사용자 피드백 수집 및 투표를 통해 개발 우선순위를 결정하도록 돕는 간단한 도구입니다. 불필요한 기능 없이 핵심 기능만 제공하여 빠른 제품 출시를 지원합니다.",
       "key_points": [
-        "자기 보고 방식의 한계 극복: 사용자의 실제 행동 기반 분석",
-        "게임 형식으로 몰입도 향상 및 데이터 수집",
-        "무료 및 로그인 불필요로 접근성 향상"
+        "사용자 피드백 수집 및 관리",
+        "투표 기능으로 우선순위 결정",
+        "최소한의 기능으로 빠른 시작 가능"
       ],
       "tags": [
-        "UserBehavior",
-        "Personalization",
-        "Quiz",
-        "Game",
-        "Analytics",
-        "AI Tool"
+        "피드백",
+        "투표",
+        "우선순위",
+        "Product Management"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "사용자 행동 데이터를 수집하고 분석하여 제품 개선 및 개인화된 추천에 활용할 수 있는지 탐색 필요.",
+      "adoption_complexity": "하",
+      "practical_relevance": "개발팀은 UserWants를 통해 사용자들이 실제로 원하는 기능을 파악하고, 개발 리소스를 효과적으로 배분하여 제품 성공 가능성을 높일 수 있습니다.",
       "recommended_actions": [
-        "유사한 성격 테스트 프레임워크 조사 및 비교 분석",
-        "사용자 행동 데이터 수집 및 분석 파이프라인 구축 가능성 검토",
-        "작은 규모의 A/B 테스트를 통해 기존 방식과 비교"
+        "기존 기능 요청 목록을 UserWants에 등록하고 사용자 투표를 받아보기",
+        "새로운 기능 아이디어를 UserWants에 게시하고 피드백 수집하기",
+        "UserWants를 활용하여 다음 스프린트 개발 목표 설정하기"
       ],
       "risks_and_limits": [
-        "게임 형식의 테스트가 실제 연애 성향을 정확하게 반영하는지 검증 필요",
-        "행동 데이터 분석 결과의 해석 및 활용 방안에 대한 추가 연구 필요"
+        "충분한 사용자 참여가 없을 경우 효과가 미미할 수 있음",
+        "복잡한 기능 요구사항을 효과적으로 분류하기 어려울 수 있음"
       ],
-      "uncertainty_note": "제공된 정보가 제한적이므로 실제 연애 성향 분석의 정확도 및 유효성은 불확실함.",
+      "uncertainty_note": "제품 Hunt 메타데이터만으로는 UserWants의 실제 성능 및 사용자 만족도를 정확히 판단하기 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 10,
-      "name": "SnapPoint",
-      "url": "https://www.producthunt.com/products/snappoint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
-      "votes": 86,
-      "tagline": "Make Your System Snap Back Into Alignment",
-      "summary": "개발 환경의 불필요한 파일 및 설정을 찾아 정리하여 일관성 있고 깨끗한 개발 환경을 유지하도록 돕는 오픈소스 시스템 감사 도구 및 패키지 매니저 관리 도구입니다.",
+      "name": "Whyze",
+      "url": "https://www.producthunt.com/products/whyze?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+antigravity_test+%28ID%3A+258588%29",
+      "votes": 12,
+      "tagline": "Understand why users leave your product — not just where",
+      "summary": "Whyze는 AI 기반으로 사용자 이탈 원인을 분석하여, 단순히 차트만 보여주는 것이 아니라 실행 가능한 인사이트를 빠르게 제공하여 개발팀의 사용자 경험 개선 작업을 가속화합니다.",
       "key_points": [
-        "유령 바이너리(ghost binaries) 탐지",
-        "PATH 충돌 해결",
-        "개발 머신 딥 클리닝"
+        "AI를 이용한 퍼널 분석 및 이탈 원인 자동 분석",
+        "차트 대신 근본 원인 분석 제공",
+        "실행 가능한 인사이트를 즉시 제공"
       ],
       "tags": [
-        "DevTool",
-        "환경설정",
-        "자동화",
-        "오픈소스",
-        "클리닝"
+        "AI",
+        "Analytics",
+        "User Behavior",
+        "Funnel Analysis",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "개발 환경의 복잡성을 줄이고 예상치 못한 오류 발생 가능성을 낮춰 개발 생산성을 향상시키고, 새로운 팀원의 온보딩 과정을 더 원활하게 만들어줍니다.",
+      "practical_relevance": "개발팀은 Whyze를 통해 사용자 이탈 문제의 근본적인 원인을 파악하고, 데이터 분석 없이도 빠르게 개선 아이디어를 도출하여 프로덕트 개선 속도를 높일 수 있습니다.",
       "recommended_actions": [
-        "자신의 개발 머신에서 SnapPoint를 실행하여 잠재적인 문제점을 찾아보기",
-        "팀원들과 함께 SnapPoint를 사용하여 개발 환경 일관성 유지 방안 논의",
-        "자동화된 개발 환경 감사 파이프라인 구축 가능성 검토"
+        "Whyze를 통해 주요 퍼널의 이탈 원인 분석",
+        "AI가 제시하는 개선 아이디어들을 실험에 적용",
+        "실험 결과를 Whyze를 통해 지속적으로 모니터링 및 개선"
       ],
       "risks_and_limits": [
-        "오픈소스 프로젝트의 특성상 안정성 및 유지보수에 대한 보장이 부족할 수 있음",
-        "초기 설정 및 구성에 시간 투자가 필요할 수 있음"
+        "AI 분석의 정확도는 데이터 품질에 크게 의존적",
+        "제공되는 인사이트가 모든 사용자 이탈 원인을 포괄하지 못할 수 있음"
       ],
-      "uncertainty_note": "Product Hunt listing 정보만으로는 SnapPoint의 실제 성능과 사용 편의성을 정확히 판단하기 어렵습니다.",
+      "uncertainty_note": "Product Hunt 메타데이터만으로 판단했으므로, 실제 사용 편의성 및 분석 정확도는 다를 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
