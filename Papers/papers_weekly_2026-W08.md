@@ -1,4 +1,4 @@
-# 2026-02-13 Daily Papers (Top 5)
+# 2026-W08 Weekly Papers (Copied from Daily 2026-02-13)
 
 ## 1. [The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies](https://huggingface.co/papers/2602.09877)
 **Upvotes**: 184 | **도입 난이도**: 중 | **신뢰도**: 중

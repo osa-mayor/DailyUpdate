@@ -1,7 +1,7 @@
 {
-  "source": "huggingface_papers",
+  "source": "huggingface_papers_weekly_copy",
   "date": "2026-02-13",
-  "generated_at": "2026-02-16T05:25:20.347830+09:00",
+  "generated_at": "2026-02-16T05:25:20.348677+09:00",
   "count": 5,
   "chat_message": "🔥 HF 오늘의 논문 (2026-02-13)\n\n📍 1. The Devil Behind Moltbook: Anthropic Safety is Always Vanishing in Self-Evolving AI Societies\n📝 요약: 요약 정보 없음\n🔗 https://huggingface.co/papers/2602.09877\n\n📍 2. Composition-RL: Compose Your Verifiable Prompts for Reinforcement Learning of Large Language Models\n📝 요약: Pass rate 1인 쉬운 프롬프트를 활용하여 LLM의 추론 능력을 향상시키는 Composition-RL 기법을 제안하며, 특히 도메인 간 조합을 통해 성능 향상을 기대할 수 있음\n🔗 https://huggingface.co/papers/2602.12036\n\n📍 3. DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing\n📝 요약: 5B 파라미터의 경량화된 통합 멀티모달 모델 DeepGen 1.0을 통해 이미지 생성 및 편집 분야에서 더 큰 모델들을 능가하는 성능을 달성, 오픈소스로 공개하여 접근성을 높임.\n🔗 https://huggingface.co/papers/2602.12205\n\n👉 전체 리포트는 GitHub에서!",
   "items": [
@@ -174,5 +174,7 @@
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
-  ]
+  ],
+  "week": "2026-W08",
+  "source_date": "2026-02-13"
 }
