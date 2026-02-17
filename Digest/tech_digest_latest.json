@@ -1,23 +1,121 @@
 {
   "source": "tech_digest",
-  "date": "2026-02-15",
-  "generated_at": "2026-02-17T13:32:45.605392+09:00",
-  "count": 4,
-  "chat_message": "🧩 오늘의 통합 Tech Digest (HN + Hada)\n\n📍 1. Show GN: KanVibe - 브라우저에서 터미널까지, AI 에이전트를 칸반으로 자동 관리하는 오픈소스\n🗂️ 분류: 큐레이션 | 출처: hada_news\n📝 요약: KanVibe는 여러 AI 에이전트를 동시에 관리할 때 발생하는 비효율성을 해결하기 위해 개발된 오픈소스 칸반 보드입니다. 웹 터미널을 통해 브라우저에서 직접 에이전트를 제어하고, 자동 상태 추적 기능으로 관리 편의성을 높여 개발 생산성을 향상시킵니다.\n🔗 링크: https://github.com/rookedsysc/kanvibe\n💬 Hada 토론: https://news.hada.io/topic?id=26737\n\n📍 2. Amazon's Ring and Google's Nest reveal the severity of U.S. surveillance state\n🗂️ 분류: 보안/프라이버시 | 출처: hacker_news\n📝 요약: Amazon Ring과 Google Nest의 감시 시스템이 미국 감시 국가의 심각성을 드러내고 있다는 기사가 Hacker News에서 큰 논쟁을 불러일으켰습니다. 사람들의 편의를 위해 개인 정보와 자유를 얼마나 포기해야 하는지에 대한 심각한 질문을 던지고 있습니다.\n🔗 링크: https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly\n💬 HN 토론: https://news.ycombinator.com/item?id=47023238\n\n📍 3. Git의 다음 10년을 위한 진화\n🗂️ 분류: 큐레이션 | 출처: hada_news\n📝 요약: Git은 보안, 확장성, 사용성 강화를 목표로 구조적 변화를 진행 중이며, SHA-256 전환, Reftable 도입, 대용량 파일 처리 개선, UI 개선 등이 주요 내용이다. 기존 시스템과의 호환성을 유지하며 점진적으로 발전하여 핵심 버전 관리 도구로서의 역할을 지속할 것이다.\n🔗 링크: https://lwn.net/SubscriberLink/1057561/bddc1e61152fadf6/\n💬 Hada 토론: https://news.hada.io/topic?id=26734\n\n📍 4. How long do job postings stay open?\n🗂️ 분류: 비즈니스/스타트업 | 출처: hacker_news\n📝 요약: 구인 공고가 얼마나 오래 게시되어 있을까요? Corvi.careers의 데이터 분석에 따르면, 평균적으로 3~4주 정도 유지되며, 일부 기업은 4년 이상 공고를 유지하며 인재 풀을 활용하기도 합니다. Hacker News에서는 이러한 관행의 효율성과 투명성에 대한 논의가 있었습니다.\n🔗 링크: https://corvi.careers/blog/job_open_days_by_category_feb_2026/\n💬 HN 토론: https://news.ycombinator.com/item?id=47019102\n\n출처: Hacker News + GeekNews(Hada)\nhttps://news.ycombinator.com/ | https://news.hada.io/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Digest/tech_digest_2026-02-15.md",
+  "date": "2026-02-16",
+  "generated_at": "2026-02-18T06:27:08.365749+09:00",
+  "count": 15,
+  "chat_message": "🧩 오늘의 통합 Tech Digest (HN + Hada + GN)\n\n📍 1. Qwen3.5: Towards Native Multimodal Agents\n🗂️ 분류: AI/ML | 출처: hacker_news\n📝 요약: Qwen3.5는 다양한 기능을 제공하는 멀티모달 에이전트 모델로, 현재 Hacker News에서 높은 관심을 받고 있습니다. 사용자들은 이 모델의 성능과 활용 가능성에 대한 다양한 의견을 제시하고 있습니다.\n🔗 링크: https://qwen.ai/blog?id=qwen3.5\n💬 HN 토론: https://news.ycombinator.com/item?id=47032876\n\n📍 2. 'The dark side of AI': Wall Street weighs recent stock sell-off over disruption fears - Yahoo Finance\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 최근 월가에서는 인공지능(AI)이 여러 산업에 미칠 파괴적 영향에 대한 우려로 주식 시장에 매도세가 나타났다. 특히 소프트웨어, 자산 관리, 운송, 물류 업종에서 AI 기반 도구 출시 후 자동화로 인한 고수수료 압박 가능성이 제기되며 주가가 하락했다. 전문가들은 AI의 어두운 면을 경고하며 다른 산업으로의 확산 가능성을 주시해야 한다고 지적한다. 하지만 일부에서는 과도한 하락이라는 의견도 있으며, AI를 적극적으로 활용하는 금융 및 헬스케어 기업은 오히려 수혜를 볼 수 있다는 분석도 나온다.\n🔗 링크: https://finance.yahoo.com/news/the-dark-side-of-ai-wall-street-weighs-recent-stock-sell-off-over-disruption-fears-160054016.html\n\n📍 3. Kimi Claw - OpenClaw를 클라우드에 원클릭 배포해서 사용하기\n🗂️ 분류: GeekNews | 출처: hada_news\n📝 요약: Kimi 플랫폼은 OpenClaw 배포를 간소화하여 AI 어시스턴트 접근성을 높였다. 사용자는 복잡한 설정 없이 클라우드 기반 AI 어시스턴트를 즉시 활용할 수 있게 되어, 개인 맞춤형 AI 활용의 대중화를 가속할 것으로 기대된다.\n🔗 링크: https://www.kimi.com/bot\n💬 Hada 토론: https://news.hada.io/topic?id=26728\n\n📍 4. Micron Is Spending $200 Billion to Break the AI Memory Bottleneck - The Wall Street Journal\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 마이크론이 인공지능(AI) 메모리 병목 현상을 해결하기 위해 2천억 달러를 투자한다. 이는 AI 기술 발전에 필수적인 고성능 메모리 솔루션 개발에 집중 투자하는 것으로, AI 연산 속도 향상 및 효율성 증대를 목표로 한다. 마이크론의 투자는 차세대 메모리 기술 개발을 가속화하고, AI 산업 전반에 걸쳐 혁신을 촉진할 것으로 기대된다. 특히, 데이터 처리 속도 향상을 통해 AI 모델의 학습 및 추론 능력을 크게 향상시킬 전망이다.\n\n(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)\n🔗 링크: https://www.wsj.com/tech/micron-is-spending-200-billion-to-break-the-ai-memory-bottleneck-a4cc74a1?gaa_at=eafs&gaa_n=AWEtsqeiKYLmkGArgxiAeT8W4NSGRKTSnXKpAK7iR9JCBcJl-QFLSVsdERz6&gaa_ts=69941ce5&gaa_sig=fi5BSmF_VWw2tfmC9bR67GMt8yD32j-GWMUotg21ZacRaUCwuuSTk6KZQhmklb2TzUt3zZbgMnjbbqy-xicm1Q%3D%3D\n\n📍 5. Could India challenge tech boss power at Delhi AI Impact Summit? - BBC\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 인도 델리에서 열리는 AI 임팩트 서밋에서 글로벌 사우스의 AI 발전과 관련된 논의가 진행될 예정이다. 미국과 유럽 중심의 AI 논의에서 벗어나 인도가 주도적으로 AI 기술을 경제 성장과 디지털 주권 확보에 활용하려는 움직임을 보이고 있다. 하지만 언어 지원 부족과 부족한 투자로 인해 더딘 발전 속도를 보이고 있으며, AI 안전 및 책임에 대한 우려도 제기되고 있다. 이번 서밋은 AI 기술 접근성 확대와 글로벌 협력을 통해 AI 거버넌스 구축에 기여할 수 있을지 주목된다.\n🔗 링크: https://www.bbc.com/news/articles/cr5l6gnen72o\n\n출처: Hacker News, GeekNews, Google News\nhttps://news.ycombinator.com/ | https://news.hada.io/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Digest/tech_digest_2026-02-16.md",
   "items": [
+    {
+      "canonical_url": "https://qwen.ai/blog",
+      "title": "Qwen3.5: Towards Native Multimodal Agents",
+      "url": "https://qwen.ai/blog?id=qwen3.5",
+      "summary": "Qwen3.5는 다양한 기능을 제공하는 멀티모달 에이전트 모델로, 현재 Hacker News에서 높은 관심을 받고 있습니다. 사용자들은 이 모델의 성능과 활용 가능성에 대한 다양한 의견을 제시하고 있습니다.",
+      "external_article_summary": "Qwen Chat은 챗봇, 이미지 및 비디오 이해, 이미지 생성, 문서 처리, 웹 검색 통합, 도구 활용 및 결과물 생성 등의 포괄적인 기능을 제공합니다. 특히 멀티모달 입력 처리를 통해 복잡한 작업을 수행할 수 있으며, 다양한 외부 도구와의 연동을 지원하여 사용성을 높였습니다. 이 모델은 다양한 산업 분야에서 활용될 가능성이 높습니다.",
+      "discussion_summary": "최신 LLM 질문에 '세차장으로 차를 몰고 가라'는 부적절한 답변을 내놓는다는 비판이 있습니다. 반면, 한 사용자는 Qwen3.5 모델을 GGUF 형식으로 변환하여 실행할 수 있도록 허깅페이스에 관련 자료를 게시하고, 실행 가이드를 제공하며 긍정적인 반응을 얻고 있습니다.",
+      "key_points": [
+        "Qwen3.5는 이미지, 텍스트 등 다양한 형태의 입력을 처리하고, 여러 외부 도구와 연동하여 복잡한 작업을 수행할 수 있는 멀티모달 에이전트 모델이다.",
+        "모델의 답변 정확성과 안전성에 대한 우려와, GGUF 형식 변환을 통한 접근성 개선 노력에 대한 긍정적인 반응이 공존한다.",
+        "Qwen3.5의 발전은 다양한 산업 분야에서 멀티모달 에이전트의 활용 가능성을 넓히고, 동시에 윤리적인 문제와 기술적 개선 과제를 제시한다."
+      ],
+      "category": "AI/ML",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "Qwen",
+        "AI Agent",
+        "GGUF"
+      ],
+      "published_at_kst": "2026-02-16T18:32:21+09:00",
+      "sources": [
+        "hacker_news"
+      ],
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=47032876"
+      },
+      "merge_score": 0.9362902777777777,
+      "hn_score": 395,
+      "hn_comments": 183,
+      "rank": 1
+    },
+    {
+      "canonical_url": "https://finance.yahoo.com/news/the-dark-side-of-ai-wall-street-weighs-recent-stock-sell-off-over-disruption-fears-160054016.html",
+      "title": "'The dark side of AI': Wall Street weighs recent stock sell-off over disruption fears - Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/the-dark-side-of-ai-wall-street-weighs-recent-stock-sell-off-over-disruption-fears-160054016.html",
+      "summary": "최근 월가에서는 인공지능(AI)이 여러 산업에 미칠 파괴적 영향에 대한 우려로 주식 시장에 매도세가 나타났다. 특히 소프트웨어, 자산 관리, 운송, 물류 업종에서 AI 기반 도구 출시 후 자동화로 인한 고수수료 압박 가능성이 제기되며 주가가 하락했다. 전문가들은 AI의 어두운 면을 경고하며 다른 산업으로의 확산 가능성을 주시해야 한다고 지적한다. 하지만 일부에서는 과도한 하락이라는 의견도 있으며, AI를 적극적으로 활용하는 금융 및 헬스케어 기업은 오히려 수혜를 볼 수 있다는 분석도 나온다.",
+      "category": "AI & LLM",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.8999999999999999,
+      "published_at_kst": "Tue, 17 Feb 2026 06:20:00 GMT",
+      "rank": 2
+    },
+    {
+      "canonical_url": "https://www.kimi.com/bot",
+      "title": "Kimi Claw - OpenClaw를 클라우드에 원클릭 배포해서 사용하기",
+      "url": "https://www.kimi.com/bot",
+      "summary": "Kimi 플랫폼은 OpenClaw 배포를 간소화하여 AI 어시스턴트 접근성을 높였다. 사용자는 복잡한 설정 없이 클라우드 기반 AI 어시스턴트를 즉시 활용할 수 있게 되어, 개인 맞춤형 AI 활용의 대중화를 가속할 것으로 기대된다.",
+      "article_summary": "Kimi 플랫폼에서 OpenClaw를 원클릭으로 클라우드에 배포할 수 있게 되었다. 복잡한 설정 없이 24시간 온라인 상태로 유지되며, Kimi K2.5 Thinking 엔진을 탑재하여 즉시 사용 가능한 AI 어시스턴트를 구축할 수 있다. 사용자는 기존 OpenClaw 계정을 연결하거나 새로운 Kimi Claw를 생성하여 다양한 메시징 앱에서 활용 가능하다. 'Create Kimi Claw' 기능을 통해 개인 맞춤형 AI 어시스턴트를 빠르게 구축할 수 있다는 점이 특징이다.",
+      "discussion_summary": null,
+      "key_points": [
+        "OpenClaw를 Kimi 플랫폼을 통해 클라우드에 원클릭으로 배포하여 몇 초 안에 AI 어시스턴트를 구축할 수 있다.",
+        "별도의 복잡한 설정 없이 24시간 온라인 상태로 유지되며 즉시 사용 가능한 형태로 AI 어시스턴트가 제공된다.",
+        "OpenClaw는 Kimi K2.5 Thinking 엔진을 통해 다양한 스킬을 내장하고 여러 메시징 앱에서 사용자와 자유롭게 대화할 수 있다."
+      ],
+      "category": "GeekNews",
+      "tags": [],
+      "published_at_kst": "2026-02-16T12:23:14+09:00",
+      "sources": [
+        "hada_news"
+      ],
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=26728"
+      },
+      "merge_score": 0.8403243055555556,
+      "rank": 3
+    },
+    {
+      "canonical_url": "https://www.wsj.com/tech/micron-is-spending-200-billion-to-break-the-ai-memory-bottleneck-a4cc74a1",
+      "title": "Micron Is Spending $200 Billion to Break the AI Memory Bottleneck - The Wall Street Journal",
+      "url": "https://www.wsj.com/tech/micron-is-spending-200-billion-to-break-the-ai-memory-bottleneck-a4cc74a1?gaa_at=eafs&gaa_n=AWEtsqeiKYLmkGArgxiAeT8W4NSGRKTSnXKpAK7iR9JCBcJl-QFLSVsdERz6&gaa_ts=69941ce5&gaa_sig=fi5BSmF_VWw2tfmC9bR67GMt8yD32j-GWMUotg21ZacRaUCwuuSTk6KZQhmklb2TzUt3zZbgMnjbbqy-xicm1Q%3D%3D",
+      "summary": "마이크론이 인공지능(AI) 메모리 병목 현상을 해결하기 위해 2천억 달러를 투자한다. 이는 AI 기술 발전에 필수적인 고성능 메모리 솔루션 개발에 집중 투자하는 것으로, AI 연산 속도 향상 및 효율성 증대를 목표로 한다. 마이크론의 투자는 차세대 메모리 기술 개발을 가속화하고, AI 산업 전반에 걸쳐 혁신을 촉진할 것으로 기대된다. 특히, 데이터 처리 속도 향상을 통해 AI 모델의 학습 및 추론 능력을 크게 향상시킬 전망이다.\n\n(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)",
+      "category": "AI & LLM",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.8222222222222222,
+      "published_at_kst": "Tue, 17 Feb 2026 02:00:00 GMT",
+      "rank": 4
+    },
+    {
+      "canonical_url": "https://www.bbc.com/news/articles/cr5l6gnen72o",
+      "title": "Could India challenge tech boss power at Delhi AI Impact Summit? - BBC",
+      "url": "https://www.bbc.com/news/articles/cr5l6gnen72o",
+      "summary": "인도 델리에서 열리는 AI 임팩트 서밋에서 글로벌 사우스의 AI 발전과 관련된 논의가 진행될 예정이다. 미국과 유럽 중심의 AI 논의에서 벗어나 인도가 주도적으로 AI 기술을 경제 성장과 디지털 주권 확보에 활용하려는 움직임을 보이고 있다. 하지만 언어 지원 부족과 부족한 투자로 인해 더딘 발전 속도를 보이고 있으며, AI 안전 및 책임에 대한 우려도 제기되고 있다. 이번 서밋은 AI 기술 접근성 확대와 글로벌 협력을 통해 AI 거버넌스 구축에 기여할 수 있을지 주목된다.",
+      "category": "AI & LLM",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.7444444444444445,
+      "published_at_kst": "Tue, 17 Feb 2026 00:12:58 GMT",
+      "rank": 5
+    },
     {
       "canonical_url": "https://github.com/rookedsysc/kanvibe",
       "title": "Show GN: KanVibe - 브라우저에서 터미널까지, AI 에이전트를 칸반으로 자동 관리하는 오픈소스",
       "url": "https://github.com/rookedsysc/kanvibe",
-      "summary": "KanVibe는 여러 AI 에이전트를 동시에 관리할 때 발생하는 비효율성을 해결하기 위해 개발된 오픈소스 칸반 보드입니다. 웹 터미널을 통해 브라우저에서 직접 에이전트를 제어하고, 자동 상태 추적 기능으로 관리 편의성을 높여 개발 생산성을 향상시킵니다.",
-      "article_summary": "KanVibe는 AI 에이전트 관리를 효율적으로 만들어주는 오픈소스 칸반 보드입니다. 브라우저 기반의 웹 터미널을 통해 에이전트 작업 현황을 한눈에 파악하고, 상태 변화를 자동으로 추적하여 관리 효율성을 높입니다. git worktree, tmux 세션 자동 생성 및 정리 기능과 더불어, Next.js, React, PostgreSQL 등의 최신 기술 스택을 사용했습니다. 개발자는 KanVibe를 통해 여러 AI 에이전트를 동시에 편리하게 관리할 수 있습니다.",
+      "summary": "KanVibe는 AI 에이전트 활용 시 발생하는 관리 복잡성을 해소하는 실용적인 도구입니다. 웹 기반 칸반 보드와 자동화된 상태 추적 기능을 통해 AI 개발 워크플로우를 간소화하고 생산성을 향상시킬 수 있습니다.",
+      "article_summary": "KanVibe는 AI 에이전트 관리를 효율적으로 돕는 오픈소스 칸반 보드입니다. 브랜치별로 다수의 Claude Code 에이전트를 동시에 사용할 때, 작업 현황을 한눈에 파악하기 어렵다는 문제점을 해결하기 위해 개발되었습니다. Next.js 16, React 19, PostgreSQL, xterm.js, WebSocket 기술 스택을 기반으로 구축되었으며, 브라우저 내 웹 터미널과 자동 상태 추적 기능을 제공하여 사용 편의성을 높였습니다. 특히, 프로젝트 등록 시 .claude/hooks/에 Hook 스크립트를 자동 설치하여 프롬프트 전송, AI 재질문, 응답 완료 시 칸반 보드 상태를 자동으로 업데이트합니다.",
       "discussion_summary": null,
       "key_points": [
-        "KanVibe는 여러 Claude Code 에이전트를 동시에 실행할 때 작업 상태를 파악하기 어려운 문제를 해결합니다.",
-        "기존의 tmux 세션 관리 방식의 비효율성을 개선하여, 칸반 보드 기반의 직관적인 AI 에이전트 관리 환경을 제공합니다.",
-        "브라우저 내 웹 터미널과 자동 상태 추적 기능을 통해 AI 에이전트 관리 효율성을 극대화합니다."
+        "KanVibe는 여러 Claude Code 에이전트를 동시에 실행할 때 발생하는 작업 현황 파악의 어려움을 해결합니다.",
+        "브라우저 내 웹 터미널을 통해 별도의 SSH 클라이언트나 tmux attach 없이 에이전트에 직접 접근하고 제어할 수 있습니다.",
+        "Hook 스크립트를 활용한 자동 상태 추적 기능으로, AI 에이전트의 진행 상황에 따라 칸반 보드가 자동으로 업데이트되어 수동 관리의 필요성을 줄입니다."
       ],
-      "category": "큐레이션",
+      "category": "GeekNews",
       "tags": [],
       "published_at_kst": "2026-02-16T21:21:31+09:00",
       "sources": [
@@ -26,54 +124,36 @@
       "source_links": {
         "hada_news": "https://news.hada.io/topic?id=26737"
       },
-      "merge_score": 1.0,
-      "rank": 1
+      "merge_score": 0.705238808932312,
+      "rank": 6
     },
     {
-      "canonical_url": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
-      "title": "Amazon's Ring and Google's Nest reveal the severity of U.S. surveillance state",
-      "url": "https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly",
-      "summary": "Amazon Ring과 Google Nest의 감시 시스템이 미국 감시 국가의 심각성을 드러내고 있다는 기사가 Hacker News에서 큰 논쟁을 불러일으켰습니다. 사람들의 편의를 위해 개인 정보와 자유를 얼마나 포기해야 하는지에 대한 심각한 질문을 던지고 있습니다.",
-      "external_article_summary": "Glenn Greenwald의 기사는 Amazon Ring의 'Search Party' 기능 광고를 통해 미국 내 감시 기술의 침투성을 지적합니다. 이 기능은 잃어버린 애완동물을 찾는 데 도움을 주지만, 동시에 광범위한 감시망을 구축하고 AI를 통해 개인의 활동을 추적할 수 있다는 점을 강조합니다. Google Nest 또한 사용자의 동의 없이도 녹화 기록에 접근할 수 있다는 점에서 개인 정보 침해 논란이 있습니다. 광고는 편리함을 내세워 감시의 위험성을 간과하게 만든다고 비판하며, 미국인들이 개인 정보 보호에 대한 경각심을 다시 가져야 한다고 주장합니다.",
-      "discussion_summary": "Hacker News에서는 편리함을 위해 시민의 자유를 포기하는 것에 대한 광범위한 토론이 있었습니다. 일부 사용자는 감시 기술의 잠재적 이점을 인정하면서도, 남용 가능성과 개인 정보 침해에 대한 우려를 표명했습니다. 기술 발전과 개인 정보 보호 사이의 균형을 어떻게 맞춰야 하는지에 대한 근본적인 질문이 제기되었습니다.",
-      "key_points": [
-        "Amazon Ring과 Google Nest와 같은 가정용 감시 장치가 미국 내 감시 시스템 확장에 기여하고 있습니다.",
-        "편리함을 추구하는 과정에서 개인 정보와 자유를 지나치게 포기할 위험이 있습니다.",
-        "감시 기술의 남용 가능성에 대한 사회적 논의와 규제 마련이 시급합니다."
-      ],
-      "category": "보안/프라이버시",
-      "tags": [
-        "Amazon",
-        "Google",
-        "Ring",
-        "Nest",
-        "감시"
-      ],
-      "published_at_kst": "2026-02-15T21:42:17+09:00",
+      "canonical_url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
+      "title": "New SemiAnalysis InferenceX Data Shows NVIDIA Blackwell Ultra Delivers up to 50x Better Performance and 35x Lower Costs for Agentic AI - NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/data-blackwell-ultra-performance-lower-cost-agentic-ai/",
+      "summary": "엔비디아의 블랙웰 울트라 플랫폼(GB300 NVL72)은 에이전트 AI 분야에서 호퍼 플랫폼 대비 최대 50배 향상된 성능과 35배 낮은 토큰당 비용을 제공한다. 특히 소프트웨어 최적화와 결합하여 낮은 지연 시간과 긴 컨텍스트 처리가 필요한 AI 코딩 어시스턴트 작업에서 획기적인 발전을 이루었다. 클라우드 제공업체와 AI 혁신 기업들은 이미 GB200 NVL72를 대규모로 구축했으며, GB300 NVL72도 생산 환경에 배치하고 있다. 차세대 루빈 플랫폼은 블랙웰 대비 10배 향상된 전력 효율성을 제공하여 토큰당 비용을 1/10로 줄일 것으로 예상된다.",
+      "category": "AI & LLM",
       "sources": [
-        "hacker_news"
+        "google_news"
       ],
-      "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=47023238"
-      },
-      "merge_score": 0.9732217592592592,
-      "hn_score": 821,
-      "hn_comments": 575,
-      "rank": 2
+      "source_links": {},
+      "merge_score": 0.6666666666666667,
+      "published_at_kst": "Mon, 16 Feb 2026 19:26:50 GMT",
+      "rank": 7
     },
     {
       "canonical_url": "https://lwn.net/SubscriberLink/1057561/bddc1e61152fadf6/",
       "title": "Git의 다음 10년을 위한 진화",
       "url": "https://lwn.net/SubscriberLink/1057561/bddc1e61152fadf6/",
-      "summary": "Git은 보안, 확장성, 사용성 강화를 목표로 구조적 변화를 진행 중이며, SHA-256 전환, Reftable 도입, 대용량 파일 처리 개선, UI 개선 등이 주요 내용이다. 기존 시스템과의 호환성을 유지하며 점진적으로 발전하여 핵심 버전 관리 도구로서의 역할을 지속할 것이다.",
-      "article_summary": "Git이 향후 10년을 대비하여 보안, 확장성, 사용성 개선을 중심으로 구조적 변화를 추진하고 있다. SHA-1에서 SHA-256으로의 전환이 핵심 과제이나 생태계 지원 부족으로 도입이 지연되고 있으며, Reftable 도입을 통해 대규모 저장소의 참조 관리 효율성을 높이고 파일 시스템 제약을 해결하려 한다. 또한, 대용량 파일 처리 개선을 위한 기능 개발과 함께 Jujutsu와 같은 최신 버전 관리 시스템의 장점을 흡수하여 사용자 인터페이스를 개선하고 현대적인 워크플로우를 지원할 예정이다. Git은 기존 시스템과의 호환성을 유지하며 점진적인 진화를 통해 핵심 도구로서의 입지를 강화할 계획이다.",
+      "summary": "Git은 SHA-1 보안 취약성, 대형 저장소 증가 등의 문제에 대응하기 위해 점진적인 진화를 선택했다. SHA-256 전환, Reftable 도입, 대용량 파일 처리 개선, UI 개선 등은 Git의 지속적인 발전을 위한 필수적인 변화로, 개발 워크플로우 효율성을 높이고 현대적인 개발 환경에 더욱 적합하게 만들 것이다.",
+      "article_summary": "Git이 향후 10년을 대비하여 보안, 확장성, 사용성 측면에서 구조적 변화를 추진 중이다. 특히 SHA-1에서 SHA-256으로의 전환이 핵심적인데, 2030년까지 SHA-1 사용 금지에 따라 Git 3.0에서 SHA-256이 기본값으로 설정될 예정이다. Reftable 도입을 통해 수백만 개의 참조를 효율적으로 관리하고, Large-object promisors 및 플러그형 객체 데이터베이스를 통해 대용량 파일 처리 성능을 개선하며, Jujutsu의 영향을 받아 UI를 개선하고 새로운 명령어를 추가하여 사용자 경험을 향상시킬 계획이다.",
       "discussion_summary": null,
       "key_points": [
-        "Git은 향후 10년을 대비하여 보안, 확장성, 사용성 개선을 중심으로 구조적 변화를 추진하고 있다.",
-        "SHA-1의 보안 취약점 문제를 해결하기 위해 SHA-256으로의 전환을 추진 중이나, 생태계 지원 부족으로 인해 도입이 지연되고 있다.",
-        "대용량 파일 처리의 효율성을 높이고 사용자 인터페이스를 개선하여 최신 워크플로우를 지원하는 방향으로 발전할 것이다."
+        "전 세계 개발자들이 사용하는 Git이 향후 10년을 대비해 보안, 확장성, 사용성을 중심으로 구조적 변화를 추진하고 있다.",
+        "Git은 대용량 파일 처리 개선을 위해 Large-object promisors와 플러그형 객체 데이터베이스를 개발하고 있으며, Git 2.50 이후 버전에서 점진적으로 통합 중이다.",
+        "Git은 Jujutsu와 같은 신흥 버전 관리 시스템의 영향을 받아 UI 단순화와 새로운 명령어 추가를 통해 현대적인 워크플로우를 지원하려 한다."
       ],
-      "category": "큐레이션",
+      "category": "GeekNews",
       "tags": [],
       "published_at_kst": "2026-02-16T20:10:59+09:00",
       "sources": [
@@ -82,39 +162,144 @@
       "source_links": {
         "hada_news": "https://news.hada.io/topic?id=26734"
       },
-      "merge_score": 0.38,
-      "rank": 3
+      "merge_score": 0.5981429436244234,
+      "rank": 8
     },
     {
-      "canonical_url": "https://corvi.careers/blog/job_open_days_by_category_feb_2026/",
-      "title": "How long do job postings stay open?",
-      "url": "https://corvi.careers/blog/job_open_days_by_category_feb_2026/",
-      "summary": "구인 공고가 얼마나 오래 게시되어 있을까요? Corvi.careers의 데이터 분석에 따르면, 평균적으로 3~4주 정도 유지되며, 일부 기업은 4년 이상 공고를 유지하며 인재 풀을 활용하기도 합니다. Hacker News에서는 이러한 관행의 효율성과 투명성에 대한 논의가 있었습니다.",
-      "external_article_summary": "Corvi.careers는 약 50만 건의 활성 구인 공고를 180일 동안 수집하여 분석했습니다. 분석 결과, 일반적인 구인 공고는 약 20~30일 동안 게시되며, 25%는 59일 이상 유지됩니다. 이는 기업들이 인재를 찾고 채용하는 데 상당한 시간이 소요됨을 보여줍니다. 데이터는 2026년 2월에 업데이트되었으며, 현재 활성 목록의 스냅샷을 제공합니다.",
-      "discussion_summary": "Hacker News에서는 구인 공고 유지 기간에 대한 다양한 의견이 제시되었습니다. 일부 기업은 하나의 공고를 장기간 유지하며 인재를 계속 채용하는 전략을 사용하기도 합니다. 이러한 방식은 효율적일 수 있지만, 구직자 입장에서는 혼란을 야기할 수 있다는 지적도 있습니다.",
+      "canonical_url": "https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/",
+      "title": "What your Bluetooth devices reveal",
+      "url": "https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/",
+      "summary": "블루투스 기기가 자신도 모르게 개인 정보를 얼마나 노출하는지 보여주는 프로젝트 'Bluehood'가 공개되었다. 취약점 WhisperPair(CVE-2025-36911)을 통해 블루투스 이어폰 해킹 및 위치 추적의 위험성을 경고하고 있으며, 사용자의 블루투스 사용 습관에 대한 논의가 활발하다.",
+      "external_article_summary": "Bluehood는 주변 블루투스 장치를 스캔하여 존재 패턴을 분석하는 스캐너다. 특히, WhisperPair 취약점을 통해 공격자가 수억 대의 블루투스 오디오 장치를 원격으로 제어, 대화를 엿듣거나 Google의 Find Hub 네트워크를 통해 위치를 추적할 수 있음을 지적한다. 이 프로젝트는 AI의 도움을 받아 개발되었으며, 블루투스 활성화만으로 누출되는 정보에 대한 이해를 높이는 데 목적을 두고 있다. 개인정보 보호를 위한 AdGuard 사용, Tor 네트워크 블로그 운영, Proton Pass를 사용한 dotfiles 비밀 유지 등 개인정보 보호 방법도 소개한다.",
+      "discussion_summary": "사람들이 블루투스를 항상 켜두는 것에 대한 비판적인 시각이 있다. 한편, 지하철에서 WiFi나 3G가 터지지 않던 시절, 주변 기기 검색을 위해 블루투스를 켜는 사용 사례를 공유하며 기술의 발전과 사용 방식 변화에 대한 의견도 제시되었다.",
       "key_points": [
-        "대부분의 구인 공고는 약 3~4주 동안 게시되지만, 기업에 따라 훨씬 더 오래 유지될 수 있다.",
-        "일부 기업은 장기간 구인 공고를 유지하며 지속적으로 인재 풀을 활용하는 전략을 사용한다.",
-        "장기 구인 공고는 기업에게 효율적일 수 있지만, 구직자에게는 혼란을 줄 수 있다는 점을 고려해야 한다."
+        "블루투스 장치를 통해 개인 정보가 예상보다 많이 유출될 수 있다는 점을 인지해야 한다.",
+        "WhisperPair와 같은 블루투스 취약점을 이용한 해킹 및 위치 추적의 위험성이 존재한다.",
+        "블루투스 사용 습관에 대한 재고와 함께 개인 정보 보호를 위한 적극적인 조치가 필요하다."
       ],
-      "category": "비즈니스/스타트업",
+      "category": "보안/프라이버시",
       "tags": [
-        "채용",
-        "구인 공고",
-        "인사",
-        "HR"
+        "블루투스",
+        "개인정보보호",
+        "해킹",
+        "취약점",
+        "Bluehood"
       ],
-      "published_at_kst": "2026-02-15T07:35:07+09:00",
+      "published_at_kst": "2026-02-16T23:39:32+09:00",
       "sources": [
         "hacker_news"
       ],
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=47019102"
+        "hacker_news": "https://news.ycombinator.com/item?id=47035560"
       },
-      "merge_score": 0.08849490740740741,
-      "hn_score": 26,
-      "hn_comments": 33,
-      "rank": 4
+      "merge_score": 0.5899738957859431,
+      "hn_score": 329,
+      "hn_comments": 131,
+      "rank": 9
+    },
+    {
+      "canonical_url": "https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html",
+      "title": "Alibaba unveils Qwen3.5 as China’s chatbot race shifts to AI agents - CNBC",
+      "url": "https://www.cnbc.com/2026/02/17/china-alibaba-qwen-ai-agent-latest-model.html",
+      "summary": "알리바바 그룹이 챗봇 경쟁이 치열한 중국 AI 시장에서 새로운 AI 모델 시리즈 Qwen3.5를 공개했다. Qwen3.5는 오픈 웨이트 버전과 호스팅 버전으로 제공되며, 특히 에이전트 기능을 강화하여 사용자를 대신해 자율적으로 작업을 수행할 수 있도록 설계되었다. 알리바바는 Qwen3.5가 텍스트, 이미지, 비디오를 동시에 이해하는 멀티모달 기능을 갖추고 있으며, 성능과 비용 면에서 개선되었다고 밝혔다. 또한, OpenAI, Anthropic, Google DeepMind 등 경쟁사 모델과 유사한 수준의 성능을 보인다고 주장하며, 201개 언어 및 방언을 지원한다.",
+      "category": "AI & LLM",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.5888888888888889,
+      "published_at_kst": "Tue, 17 Feb 2026 03:11:00 GMT",
+      "rank": 10
+    },
+    {
+      "canonical_url": "https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/",
+      "title": "Apple introduces a new video podcast experience on Apple Podcasts - Apple",
+      "url": "https://www.apple.com/newsroom/2026/02/apple-introduces-a-new-video-podcast-experience-on-apple-podcasts/",
+      "summary": "애플이 Apple Podcasts에 HLS(HTTP Live Streaming) 기술을 활용한 새로운 비디오 팟캐스트 경험을 도입한다. 이번 업데이트를 통해 팟캐스트 제작자는 콘텐츠 제어 및 수익화 기회를 확대하고, 사용자에게는 고품질 시청 경험을 제공할 수 있게 된다. 사용자는 앱 내에서 오디오와 비디오를 자유롭게 전환하며, 오프라인 시청을 위한 다운로드도 가능하다. 이번 비디오 팟캐스트 기능은 올 봄 iOS 26.4, iPadOS 26.4, visionOS 26.4 베타 버전을 통해 테스트를 시작하며, iPhone, iPad, Apple Vision Pro 및 웹에서 이용할 수 있게 될 예정이다.",
+      "category": "General Tech",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.5111111111111111,
+      "published_at_kst": "Mon, 16 Feb 2026 20:18:32 GMT",
+      "rank": 11
+    },
+    {
+      "canonical_url": "https://zlog.pe.kr/posts/zlog-to-infinity-and-beyond",
+      "title": "Show GN: 오직 AI와의 대화로만 만들어본 블로그 엔진, zlog를 소개합니다.",
+      "url": "https://zlog.pe.kr/posts/zlog-to-infinity-and-beyond",
+      "summary": "zlog는 AI와의 협업을 통해 블로그 엔진 개발의 새로운 가능성을 제시합니다. 개발자는 AI의 도움으로 개발 속도를 획기적으로 단축했지만, 코드 내부 로직에 대한 완벽한 이해가 어려워지는 점을 언급하며 AI 협업 개발의 숙제를 남겼습니다.",
+      "article_summary": "개발자가 AI의 도움을 받아 '구독과 통합' 기능을 핵심으로 하는 블로그 엔진 'zlog'를 개발했습니다. zlog는 사용자가 다른 zlog 사용자의 특정 카테고리를 구독하여 자신의 블로그에서 원하는 디자인으로 통합해 보여주는 기능을 제공합니다. 특히, 이번 프로젝트는 AI에게 말로만 지시하여 PWA, SEO 등의 필수 기능을 구현하고 깃허브에 공개했다는 점에서 주목할 만합니다. 현재 Raspberry Pi 3 환경에서 운영 중이며, README를 포함한 모든 문서도 AI가 작성했습니다.",
+      "discussion_summary": null,
+      "key_points": [
+        "AI의 도움을 받아 개발된 zlog는 '구독과 통합'이라는 핵심 기능을 통해 사용자들이 서로의 콘텐츠를 공유하고 새로운 방식으로 소통할 수 있도록 설계되었습니다.",
+        "zlog는 다른 사용자의 특정 카테고리 콘텐츠를 구독하여 자신의 블로그에서 원하는 디자인으로 통합하여 보여주는 차별화된 사용자 경험을 제공합니다.",
+        "개발자는 zlog 개발 과정에서 AI의 도움으로 개발 속도가 빨라졌지만, 코드 로직에 대한 완벽한 이해가 어려워지는 점을 경험하며 AI 협업 개발의 가능성과 한계를 동시에 느꼈습니다."
+      ],
+      "category": "GeekNews",
+      "tags": [],
+      "published_at_kst": "2026-02-16T22:33:34+09:00",
+      "sources": [
+        "hada_news"
+      ],
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=26739"
+      },
+      "merge_score": 0.45438380314475374,
+      "rank": 12
+    },
+    {
+      "canonical_url": "https://github.com/aperturerobotics/goscript",
+      "title": "GoScript - Go 코드를 TypeScript로 변환하는 트랜스파일러",
+      "url": "https://github.com/aperturerobotics/goscript",
+      "summary": "GoScript는 Go 언어의 강력한 기능을 TypeScript 환경에서 활용할 수 있도록 하는 도구로, 풀스택 개발 환경에서 코드 재사용성을 극대화할 수 있다. Go의 간결한 동시성 모델과 타입 안정성을 프론트엔드 개발에 접목하려는 시도로 보인다.",
+      "article_summary": "Go 코드를 TypeScript로 변환하는 트랜스파일러 GoScript가 등장했다. AST 기반으로 개발된 이 도구는 Go 언어의 알고리즘, 데이터 구조, 동시성 로직을 TypeScript 코드로 바꿔 백엔드와 프론트엔드 간의 코드 재사용성을 높이는 데 기여한다. 특히 Goroutine은 async/await 기반의 비동기 처리로 변환되어 브라우저 환경에서도 실행 가능하다. 또한, VarRef 시스템을 통해 포인터 참조 및 값 전달을 구현하고, encoding/json과 같은 표준 라이브러리를 대부분 호환하는 것이 특징이다.",
+      "discussion_summary": null,
+      "key_points": [
+        "GoScript는 Go 코드를 TypeScript로 변환하여 백엔드와 프론트엔드 간에 비즈니스 로직을 공유할 수 있도록 설계된 AST 기반 트랜스파일러다.",
+        "Go의 주요 기능(Struct, Interface, Channel 등)을 TypeScript 문법으로 매핑하며, Goroutine은 async/await 기반 비동기 처리로 변환되어 브라우저 환경에서도 실행 가능하다.",
+        "CLI 및 API를 통해 Go 패키지를 TypeScript로 컴파일하거나, 프로그램 내에서 직접 변환을 호출할 수 있다."
+      ],
+      "category": "GeekNews",
+      "tags": [],
+      "published_at_kst": "2026-02-16T09:51:01+09:00",
+      "sources": [
+        "hada_news"
+      ],
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=26724"
+      },
+      "merge_score": 0.44420020386985953,
+      "rank": 13
+    },
+    {
+      "canonical_url": "https://9to5google.com/2026/02/16/more-galaxy-buds-4-images-leak/",
+      "title": "More leaked Galaxy Buds 4 images show Samsung is going back to basics - 9to5Google",
+      "url": "https://9to5google.com/2026/02/16/more-galaxy-buds-4-images-leak/",
+      "summary": "삼성의 갤럭시 언팩 행사(2월 25일)를 앞두고 갤럭시 버즈 4의 유출 이미지가 공개되었다. 유출된 이미지를 통해 갤럭시 버즈 4는 이전 모델의 디자인 요소를 일부 계승하면서도, 2010년대 후반의 저가형 이어폰을 연상시키는 단순화된 디자인을 채택한 것으로 보인다. 실리콘 이어팁은 제공되지 않으며, 투명 덮개를 가진 충전 케이스는 이전 버즈 3 모델과 유사한 디자인으로 회귀했다. IP55 등급의 방수 기능을 지원하며, 2개의 AI 비서(Bixby, Gemini) 지원, 3D 사운드 커스터마이징, 헤드 제스처 컨트롤 등의 기능을 제공할 것으로 예상된다.",
+      "category": "General Tech",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.43333333333333335,
+      "published_at_kst": "Mon, 16 Feb 2026 18:10:00 GMT",
+      "rank": 14
+    },
+    {
+      "canonical_url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "title": "Valve’s Steam Deck OLED will be ‘intermittently’ out of stock because of the RAM crisis - The Verge",
+      "url": "https://www.theverge.com/games/879845/valve-steam-deck-oled-out-of-stock-memory-storage-ram-crisis",
+      "summary": "밸브는 스팀 덱 OLED 모델이 메모리 및 저장 공간 부족으로 인해 일부 지역에서 일시적으로 품절될 수 있다고 밝혔다. 이는 최근 미국을 포함한 여러 지역에서 스팀 덱 OLED의 품절 현상이 발생한 원인으로 분석된다. 밸브는 메모리 및 저장 공간 부족 문제로 인해 스팀 머신, 스팀 프레임, 스팀 컨트롤러 출시를 2026년 초로 연기한 바 있다. 또한, 밸브는 256GB LCD 스팀 덱 생산을 중단했다.",
+      "category": "General Tech",
+      "sources": [
+        "google_news"
+      ],
+      "source_links": {},
+      "merge_score": 0.3555555555555555,
+      "published_at_kst": "Tue, 17 Feb 2026 02:57:00 GMT",
+      "rank": 15
     }
   ]
 }
