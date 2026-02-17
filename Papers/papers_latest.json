@@ -1,9 +1,9 @@
 {
   "source": "huggingface_papers",
   "date": "2026-02-16",
-  "generated_at": "2026-02-17T05:29:53.941745+09:00",
+  "generated_at": "2026-02-17T12:42:16.892941+09:00",
   "count": 5,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs\n📝 요약: 요약 정보 없음\n🔗 Hugging Face: https://huggingface.co/papers/2602.10388\n📄 arXiv: https://arxiv.org/abs/2602.10388\n\n📍 2. SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise\n📝 요약: 요약 정보 없음\n🔗 Hugging Face: https://huggingface.co/papers/2602.12783\n📄 arXiv: https://arxiv.org/abs/2602.12783\n\n📍 3. MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs\n📝 요약: 요약 정보 없음\n🔗 Hugging Face: https://huggingface.co/papers/2602.12705\n📄 arXiv: https://arxiv.org/abs/2602.12705\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Papers/papers_2026-02-16.md",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs\n📝 요약: LLM의 downstream 성능 향상을 위해, sparse autoencoder 기반의 feature activation coverage(FAC)라는 새로운 데이터 다양성 측정 지표와 데이터 합성 프레임워크를 제안하고, 이를 통해 적은 데이터로도 성능 향상을 이끌어냄.\n🔗 Hugging Face: https://huggingface.co/papers/2602.10388\n📄 arXiv: https://arxiv.org/abs/2602.10388\n\n📍 2. SQuTR: A Robustness Benchmark for Spoken Query to Text Retrieval under Acoustic Noise\n📝 요약: SQuTR 벤치마크는 음성 질의-텍스트 검색 시스템의 노이즈 환경에서의 성능 저하를 진단하고 개선하는데 유용하며, 실제 사용자 환경에서의 검색 성능 향상에 기여할 수 있습니다.\n🔗 Hugging Face: https://huggingface.co/papers/2602.12783\n📄 arXiv: https://arxiv.org/abs/2602.12783\n\n📍 3. MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs\n📝 요약: MedXIAOHE는 의료 분야의 시각-언어 모델로, 다양한 의료 벤치마크에서 최고 성능을 달성하고 폐쇄형 시스템을 능가하며, 지식 확장, 추론 능력 향상, 신뢰성 개선을 통해 실제 임상 적용 가능성을 높였습니다.\n🔗 Hugging Face: https://huggingface.co/papers/2602.12705\n📄 arXiv: https://arxiv.org/abs/2602.12705\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Papers/papers_2026-02-16.md",
   "items": [
     {
       "rank": 1,
@@ -11,17 +11,32 @@
       "paper_id": "2602.10388",
       "url": "https://huggingface.co/papers/2602.10388",
       "arxiv_url": "https://arxiv.org/abs/2602.10388",
-      "upvotes": 195,
-      "summary": null,
-      "key_points": [],
+      "upvotes": 202,
+      "summary": "LLM의 downstream 성능 향상을 위해, sparse autoencoder 기반의 feature activation coverage(FAC)라는 새로운 데이터 다양성 측정 지표와 데이터 합성 프레임워크를 제안하고, 이를 통해 적은 데이터로도 성능 향상을 이끌어냄.",
+      "key_points": [
+        "Feature Activation Coverage (FAC)라는 새로운 데이터 다양성 측정 지표 제시",
+        "Sparse autoencoder 기반의 다양성 기반 데이터 합성 프레임워크 (FAC Synthesis) 제안",
+        "다양한 LLM 모델 간에 공유 가능한 feature space 존재 확인"
+      ],
       "tags": [
+        "Fine-tuning",
+        "Data Augmentation",
+        "LLM",
+        "Interpretability",
         "RAG"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": null,
-      "recommended_actions": [],
-      "risks_and_limits": [],
+      "practical_relevance": "LLM fine-tuning 시 데이터셋 구축 비용을 줄이고, 적은 데이터로도 모델 성능을 향상시킬 수 있는 가능성을 제시하며, 모델 간 knowledge transfer 전략 수립에 활용 가능합니다.",
+      "recommended_actions": [
+        "FAC metric을 활용하여 현재 fine-tuning 데이터셋의 다양성 분석",
+        "Sparse autoencoder를 사용하여 데이터셋의 부족한 feature 파악 및 보완",
+        "FAC Synthesis 프레임워크를 활용하여 synthetic 데이터 생성 및 fine-tuning 적용"
+      ],
+      "risks_and_limits": [
+        "Sparse autoencoder 학습 및 interpretable feature space 정의의 어려움",
+        "Synthetic 데이터의 현실성 및 일반화 성능에 대한 추가 검증 필요"
+      ],
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -31,19 +46,34 @@
       "paper_id": "2602.12783",
       "url": "https://huggingface.co/papers/2602.12783",
       "arxiv_url": "https://arxiv.org/abs/2602.12783",
-      "upvotes": 131,
-      "summary": null,
-      "key_points": [],
+      "upvotes": 134,
+      "summary": "SQuTR 벤치마크는 음성 질의-텍스트 검색 시스템의 노이즈 환경에서의 성능 저하를 진단하고 개선하는데 유용하며, 실제 사용자 환경에서의 검색 성능 향상에 기여할 수 있습니다.",
+      "key_points": [
+        "실제 환경 노이즈를 반영한 대규모 음성 질의-텍스트 검색 Robustness 벤치마크 SQuTR 제시",
+        "다양한 음성 프로필 및 노이즈 환경을 결합하여 재현 가능한 평가 환경 구축",
+        "기존 시스템의 Robustness 취약점을 분석하고 향후 연구 방향 제시"
+      ],
       "tags": [
-        "RAG",
+        "Speech Recognition",
+        "Information Retrieval",
         "Benchmark",
+        "Robustness",
+        "Noise",
+        "RAG",
         "Evaluation"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": null,
-      "recommended_actions": [],
-      "risks_and_limits": [],
+      "practical_relevance": "실제 서비스 환경에서 발생하는 다양한 노이즈 조건에서 음성 검색 시스템의 성능을 평가하고 개선하는 데 직접적으로 활용할 수 있으며, 사용자 경험 향상에 기여할 수 있습니다.",
+      "recommended_actions": [
+        "SQuTR 데이터셋을 활용하여 기존 음성 검색 시스템의 노이즈 Robustness 평가",
+        "SQuTR 벤치마크를 기반으로 노이즈 제거 또는 음성 향상 기술 적용 후 성능 개선 효과 확인",
+        "새로운 음성 검색 모델 개발 시 SQuTR 데이터셋을 활용하여 Robustness를 평가하고 개선하는 과정에 적용"
+      ],
+      "risks_and_limits": [
+        "합성 음성 데이터가 실제 음성 데이터와 차이가 있을 수 있으며, 일부 특수한 노이즈 환경은 반영되지 않았을 수 있음",
+        "SQuTR 벤치마크는 특정 언어(영어, 중국어) 및 도메인에 편향되어 있을 수 있음"
+      ],
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -53,23 +83,38 @@
       "paper_id": "2602.12705",
       "url": "https://huggingface.co/papers/2602.12705",
       "arxiv_url": "https://arxiv.org/abs/2602.12705",
-      "upvotes": 54,
-      "summary": null,
-      "key_points": [],
+      "upvotes": 56,
+      "summary": "MedXIAOHE는 의료 분야의 시각-언어 모델로, 다양한 의료 벤치마크에서 최고 성능을 달성하고 폐쇄형 시스템을 능가하며, 지식 확장, 추론 능력 향상, 신뢰성 개선을 통해 실제 임상 적용 가능성을 높였습니다.",
+      "key_points": [
+        "Entity-aware continual pretraining을 통한 지식 커버리지 확장",
+        "강화 학습 및 Tool-augmented agentic training을 통한 의료 추론 능력 향상",
+        "사용자 선호도, 증거 기반 추론, 낮은 환각의 긴 보고서 생성을 통한 신뢰성 개선"
+      ],
       "tags": [
+        "MLLM",
+        "Medical AI",
+        "Reasoning",
+        "Reinforcement Learning",
+        "Pretraining",
         "Agent",
         "RAG",
-        "Reasoning",
         "Multimodal",
         "Vision",
         "Benchmark",
         "Evaluation"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": null,
-      "recommended_actions": [],
-      "risks_and_limits": [],
+      "practical_relevance": "의료 분야에 특화된 MLLM을 구축하기 위한 레시피와 같은 역할을 하며, 특히 지식 확장, 추론 능력 향상, 신뢰성 개선에 대한 구체적인 방법을 제시하여 실제 의료 서비스 개발에 참고할 만합니다.",
+      "recommended_actions": [
+        "Entity-aware continual pretraining을 자사의 의료 데이터에 적용해보기",
+        "강화 학습 기반의 추론 엔진을 구축하고 의료 데이터에 적용하여 성능 향상 시도",
+        "사용자 피드백을 반영하는 보고서 생성 메커니즘 구현"
+      ],
+      "risks_and_limits": [
+        "실제 임상 환경에서의 성능 검증 필요",
+        "모델의 해석 가능성과 설명 가능성 확보가 중요"
+      ],
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
@@ -80,37 +125,35 @@
       "url": "https://huggingface.co/papers/2602.11858",
       "arxiv_url": "https://arxiv.org/abs/2602.11858",
       "upvotes": 50,
-      "summary": "MLLM의 미세한 인식 능력 향상을 위해 추론 시점에 zooming을 사용하는 대신, region-to-image distillation을 통해 학습 시점에 zooming 효과를 내도록 하여 inference latency를 줄이고 성능을 향상시켰다.",
+      "summary": "MLLM의 fine-grained 인식 능력을 향상시키기 위해, inference 시점에 zooming하는 대신 학습 시점에 region-grounded supervision을 통해 single-glance 인식 능력을 향상시키는 Region-to-Image Distillation 방법론을 제안하며, fine-grained perception benchmark에서 우수한 성능을 보임.",
       "key_points": [
-        "Region-to-Image Distillation을 통한 MLLM의 fine-grained perception 성능 향상",
-        "Zooming을 학습 단계에 통합하여 inference latency 감소",
-        "Fine-grained perception 평가를 위한 새로운 벤치마크 ZoomBench 제시"
+        "Region-to-Image Distillation: inference 시점 zooming을 training 시점으로 옮겨 single-glance fine-grained perception 능력 향상",
+        "ZoomBench: fine-grained perception 능력을 평가하기 위한 새로운 hybrid-annotated VQA benchmark 제시",
+        "Fine-grained perception 및 일반 multimodal cognition benchmark에서 SOTA 성능 달성"
       ],
       "tags": [
-        "MLLM",
-        "Distillation",
-        "Fine-grained Perception",
-        "VQA",
-        "Zooming",
         "Agent",
+        "Vision",
+        "Distillation",
+        "Fine-grained perception",
+        "MLLM",
         "Reasoning",
         "Multimodal",
-        "Vision",
         "Benchmark",
         "Evaluation",
         "Inference"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "MLLM 기반 서비스를 개발할 때, fine-grained perception 성능이 중요한 경우 (예: GUI 자동화, 의료 영상 분석 등) inference latency 증가 없이 성능 향상을 기대할 수 있다.",
+      "practical_relevance": "기존 MLLM의 미세한 인식 능력 부족 문제를 해결하고 inference latency를 줄여 실제 서비스 적용 가능성을 높임. 특히 작은 객체나 디테일이 중요한 서비스(의료, 제조 등)에서 유용할 수 있다.",
       "recommended_actions": [
-        "제공된 github repository를 통해 pre-trained 모델 사용해보기",
-        "ZoomBench 데이터셋을 이용하여 모델 성능 평가 및 개선",
-        "자체 데이터셋에 Region-to-Image Distillation 적용해보기"
+        "제공된 Github 레포지토리의 코드를 살펴보고, 기존 모델에 적용 가능성 검토",
+        "ZoomBench 데이터셋을 활용하여 모델의 fine-grained perception 성능 평가",
+        "자체 데이터셋에 Region-to-Image Distillation 방법론 적용 및 성능 비교"
       ],
       "risks_and_limits": [
-        "Distillation 과정에서 정보 손실 가능성",
-        "새로운 벤치마크 ZoomBench의 일반화 가능성"
+        "Teacher 모델의 성능에 크게 의존적이며, teacher 모델의 bias가 student 모델에 전이될 수 있음",
+        "ZoomBench 데이터셋의 특성상 특정 fine-grained perception task에만 효과적일 수 있으며, 일반적인 fine-grained perception에 대한 일반화 성능은 불확실함"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null
@@ -121,18 +164,18 @@
       "paper_id": "2602.08683",
       "url": "https://huggingface.co/papers/2602.08683",
       "arxiv_url": "https://arxiv.org/abs/2602.08683",
-      "upvotes": 38,
-      "summary": "동영상 코덱의 정보 이론적 원리를 활용하여 시각적 정보를 압축하고 LLM에 통합함으로써, 기존 Vision 백본 모델 대비 더 적은 연산량과 데이터로 더 높은 성능을 달성하는 새로운 시각 인코더 아키텍처를 제시합니다.",
+      "upvotes": 39,
+      "summary": "동영상 코덱의 정보 이론적 원리를 활용하여 시각 정보를 효율적으로 압축하고 이해하는 새로운 비전 인코더 아키텍처(OneVision-Encoder)를 제안, 기존 모델 대비 성능 향상 및 효율성 증가를 달성함.",
       "key_points": [
-        "코덱 기반의 희소성 연산으로 효율적인 시각 정보 처리",
-        "3D RoPE를 활용한 공간-시간 정보 통합",
-        "대규모 클러스터 판별 학습을 통한 객체 영속성 및 움직임 역학 학습"
+        "동영상 코덱 원리를 활용한 새로운 비전 인코더 아키텍처 (OneVision-Encoder) 제안",
+        "코덱 패치화를 통해 정보량이 많은 영역에 집중, 연산 효율성 극대화",
+        "기존 모델 대비 적은 연산량과 데이터로 더 나은 성능 달성"
       ],
       "tags": [
         "Vision",
-        "LLM",
         "Compression",
         "Codec",
+        "Efficiency",
         "Sparsity",
         "RAG",
         "Reasoning",
@@ -143,15 +186,15 @@
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "비디오/이미지 처리 성능 향상을 위해, 코덱의 정보 압축 원리를 모델 설계에 반영하는 새로운 접근 방식을 제공합니다. LLM 기반의 멀티모달 시스템에서 비전 모델의 효율성을 극대화하는 데 도움이 될 수 있습니다.",
+      "practical_relevance": "실제 서비스에서 비디오/이미지 이해 모델의 효율성을 개선하고 싶을 때, OneVision-Encoder의 코덱 기반 희소성 접근 방식을 활용하여 모델의 연산 비용을 줄이면서도 성능을 유지하거나 향상시킬 수 있다.",
       "recommended_actions": [
-        "자체 데이터셋에 OV-Encoder 적용하여 성능 및 효율성 비교",
-        "기존 비전 모델에 코덱 기반 희소성 연산 도입 시도",
-        "3D RoPE를 활용하여 공간-시간 정보 처리 성능 향상 실험"
+        "OneVision-Encoder의 코덱 패치화 방식을 기존 모델에 적용하여 성능 및 효율성 변화 관찰",
+        "자체 데이터셋에 OneVision-Encoder를 파인튜닝하여 특정 도메인에서의 성능 테스트",
+        "OneVision-Encoder를 LLM과 통합하여 멀티모달 태스크에서의 성능 비교"
       ],
       "risks_and_limits": [
-        "특정 유형의 비디오 데이터에 편향될 가능성",
-        "코덱 패치화 과정에서 중요한 정보 손실 가능성"
+        "코덱 기반 희소성 방식이 특정 유형의 비디오/이미지에만 효과적일 수 있음",
+        "OneVision-Encoder의 구현 복잡도가 높을 수 있으며, 추가적인 엔지니어링 노력이 필요할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null
