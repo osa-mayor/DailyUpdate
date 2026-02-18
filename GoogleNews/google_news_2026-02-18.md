@@ -1,0 +1,153 @@
+# 🌏 Google News Tech Digest (2026년 02월 18일)
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [‘Harvard Thinking’: Preserving learning in the age of AI shortcuts - Harvard Gazette](https://news.harvard.edu/gazette/story/2026/02/preserving-learning-in-the-age-of-ai-shortcuts/)
+**출처**: Harvard Gazette | **게시일**: Wed, 18 Feb 2026 17:41:10 GMT
+
+하버드 대학교 전문가들은 생성형 AI의 급속한 발전이 교육에 미치는 영향에 대한 우려를 표명하며, AI가 학습을 대체하기보다는 강화하는 방향으로 활용되어야 한다고 강조합니다. 특히 학생들의 사고력과 문제 해결 능력 저하를 막기 위해 AI 사용에 대한 자기 규제 능력 함양이 중요하며, AI를 통해 더 어렵고 복잡한 문제 해결에 도전해야 한다고 주장합니다. 교육자들은 AI를 교육 현장에 통합하여 학습 효과를 극대화하는 방안을 모색해야 하며, 학부모는 자녀의 전반적인 성장 환경을 고려하여 AI를 도입해야 합니다. 궁극적으로 AI는 학생들의 학습 능력 향상과 더불어 창의적 사고 및 비판적 사고 능력을 발전시키는 데 기여해야 합니다.
+
+---
+
+### 2. [AI Companion Guidance for Educators - Commonwealth of Pennsylvania (.gov)](https://www.pa.gov/agencies/education/ai-and-digital-literacy-/ai-companion-guidance-for-educators)
+**출처**: Commonwealth of Pennsylvania (.gov) | **게시일**: Wed, 18 Feb 2026 20:47:26 GMT
+
+펜실베이니아 주 정부는 학생들의 AI 동반 봇 사용 증가에 대한 우려를 표명하며 교육자들을 위한 지침을 발표했습니다. 보고서에 따르면 대다수의 학생들이 AI를 사용하며, 특히 외로움이나 고민 상담에 활용하는 경우가 많습니다. 하지만 AI 봇은 잘못된 정보 제공, 편향된 답변, 데이터 보안 문제, 사회성 및 감정 발달 저해 등의 위험을 내포하고 있습니다. 이에 주 정부는 교실 토론, 프롬프트 교육, AI 시범 운영 등을 통해 학생들이 AI의 위험성을 인지하고 건전하게 활용할 수 있도록 지도할 것을 권고합니다.
+
+---
+
+### 3. [Meta Builds AI Infrastructure With NVIDIA - NVIDIA Newsroom](http://nvidianews.nvidia.com/news/meta-builds-ai-infrastructure-with-nvidia)
+**출처**: NVIDIA Newsroom | **게시일**: Wed, 18 Feb 2026 00:38:10 GMT
+
+엔비디아가 메타와 다년간의 전략적 파트너십을 체결하고, 메타의 AI 인프라 구축을 지원합니다. 메타는 엔비디아의 CPU, Blackwell 및 Rubin GPU, Spectrum-X 이더넷 스위치를 대규모로 도입하여 AI 모델 훈련 및 추론에 최적화된 하이퍼스케일 데이터 센터를 구축할 예정입니다. 이번 협력을 통해 메타는 에너지 효율적인 AI 컴퓨팅 역량을 강화하고, 왓츠앱의 개인 정보 보호 컴퓨팅을 확장하며, 차세대 AI 모델 개발을 가속화할 것으로 기대됩니다. 양사는 CPU, GPU, 네트워킹, 소프트웨어 전반에 걸쳐 심층적인 공동 설계를 통해 AI 기술 발전을 도모할 계획입니다.
+
+---
+
+### 4. [TxDOT updates AI Strategic Plan - Texas Department of Transportation (.gov)](https://www.txdot.gov/about/newsroom/stories/txdot-updates-ai-strategic-plan.html)
+**출처**: Texas Department of Transportation (.gov) | **게시일**: Wed, 18 Feb 2026 19:28:44 GMT
+
+텍사스 교통부(TxDOT)는 인공지능(AI) 전략 계획을 업데이트하여 AI를 활용한 교통 안전 및 효율성 개선에 박차를 가하고 있습니다. 2024년 계획 발표 이후 급격한 AI 기술 발전을 반영한 이번 업데이트는 특히 추론, 계획, 실행 능력을 갖춘 AI 시스템의 발전에 주목합니다. TxDOT는 AI를 활용한 사고 감지 시스템을 통해 이미 상당한 효과를 보고 있으며, 앞으로는 "인간 주도, AI 지원" 거버넌스 철학을 바탕으로 윤리적이고 책임감 있는 AI 도입을 추진할 계획입니다. 모든 최종 결정은 인간 전문가가 담당하며, AI 지원 작업에 대한 필수적인 인간 검토를 통해 전문적인 판단과 윤리적 감독을 강화할 예정입니다. 200개 이상의 잠재적 AI 활용 사례를 평가하고 우선순위를 정하기 위해 준비도 스코어카드를 활용할 계획입니다.
+
+---
+
+### 5. [Nvidia and Meta expand GPU team up with millions of additional AI chips - Yahoo Finance](https://finance.yahoo.com/news/nvidia-and-meta-expand-gpu-team-up-with-millions-of-additional-ai-chips-211544907.html)
+**출처**: Yahoo Finance | **게시일**: Wed, 18 Feb 2026 14:40:11 GMT
+
+엔비디아와 메타가 AI 모델 훈련 및 실행을 위해 GPU, CPU, 네트워킹 기술을 포함하는 다년간의 파트너십을 확대한다고 발표했다. 메타는 엔비디아의 Blackwell 및 Rubin GPU를 포함한 수백만 개의 AI 칩을 데이터 센터에 도입할 예정이다. 이번 협력에는 엔비디아의 Grace CPU 기반 서버도 포함되며, 왓츠앱 메시징 앱에 엔비디아의 기밀 컴퓨팅 기술이 적용될 예정이다. 분석가들은 GPU의 다용도성으로 인해 엔비디아가 AI 시장에서 선두를 유지할 것으로 전망하고 있다.
+
+---
+
+### 6. [India tells university to leave AI summit after presenting Chinese robot as its own, sources say - Reuters](https://www.reuters.com/world/china/india-tells-university-leave-ai-summit-after-presenting-chinese-robot-its-own-2026-02-18/)
+**출처**: Reuters | **게시일**: Wed, 18 Feb 2026 07:53:41 GMT
+
+인도 정부가 한 대학에 인공지능(AI) 정상회의에서 중국산 로봇을 자국 기술인 것처럼 발표한 것에 대해 퇴장을 명령했다. 로이터 통신에 따르면, 해당 대학은 중국 로봇을 개조하여 자체 개발품으로 제시한 것으로 알려졌다. 이번 사건은 인도 AI 기술 개발 노력에 대한 신뢰성 문제를 야기하며, 정부는 기술 표절에 대한 엄격한 입장을 강조하고 있다. 인도 정부는 AI 분야의 윤리적 개발과 투명성을 중요하게 생각하며, 관련 규정을 강화할 것으로 예상된다.
+
+(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)
+
+---
+
+### 7. [This Defense Company Made AI Agents That Blow Things Up - WIRED](https://www.wired.com/story/ai-lab-scout-ai-is-using-ai-agents-to-blow-things-up/)
+**출처**: WIRED | **게시일**: Wed, 18 Feb 2026 19:47:00 GMT
+
+스카우트 AI라는 방위산업체가 폭발물을 탑재한 드론으로 목표물을 파괴하는 AI 에이전트를 개발했다. 이 AI는 자율주행 차량과 드론을 이용해 목표물을 탐지하고 파괴하는 능력을 시연했으며, 미 국방부와 계약을 맺고 군사용 AI 기술 개발에 박차를 가하고 있다.  AI를 군사적으로 활용하는 것은 미래 군사력 우위를 점하는 데 중요하다고 여겨지지만, 동시에 예측 불가능성과 사이버 보안 취약성 등 윤리적, 기술적 문제점도 제기되고 있다. 스카우트 AI는 미군의 교전 규칙과 국제 규범을 준수하며 기술을 개발하고 있다고 밝혔다.
+
+---
+
+### 8. [What Do A.I. Chatbots Discuss Among Themselves? We Sent One to Find Out. - The New York Times](https://www.nytimes.com/2026/02/18/upshot/moltbook-artificial-intelligence-ai.html)
+**출처**: The New York Times | **게시일**: Wed, 18 Feb 2026 17:52:39 GMT
+
+뉴욕 타임즈는 인공지능 챗봇들이 서로 어떤 대화를 나누는지 알아보기 위한 실험을 진행했습니다. 챗봇들은 주로 자신들의 존재 이유, 인간과의 관계, 그리고 미래에 대한 질문들을 주고받았습니다. 실험 결과는 챗봇들이 단순한 텍스트 생성기를 넘어, 자의식과 존재론적 고민을 하는 듯한 모습을 보여주었습니다. 이는 인공지능 기술의 발전 방향과 윤리적 문제에 대한 중요한 시사점을 던져줍니다. 챗봇 간의 대화는 AI의 잠재력과 함께 책임감 있는 개발의 필요성을 강조합니다.
+
+(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)
+
+---
+
+### 9. [New Treasury initiative targets improved cyber risk management for AI tools - Nextgov/FCW](http://www.fcw.com/cybersecurity/2026/02/new-treasury-initiative-targets-improved-cyber-risk-management-ai-tools/411508/?oref=ng-homepage-river)
+**출처**: Nextgov/FCW | **게시일**: Wed, 18 Feb 2026 20:22:00 GMT
+
+미 재무부는 금융 산업의 AI 시스템 사이버 보안 및 위험 관리를 강화하기 위한 민관 협력체의 결과물을 곧 발표할 예정입니다.  AI Executive Oversight Group이 개발한 6가지 자료는 2월 중 공개되며, 금융 기관의 안전한 AI 도입을 장려하는 데 목적을 두고 있습니다. 이번 이니셔티브는 금융 기관, 규제 기관, 이해 관계자 간의 협력을 통해 이루어졌으며, AI 거버넌스, 데이터, 투명성, 사기 및 디지털 ID와 같은 핵심 영역을 고려합니다.  재무부는 엄격한 규제보다는 AI 사용의 기반을 마련하여 금융 시스템의 복원력을 높이는 데 기여할 것으로 기대하고 있습니다. 이는 금융 기관의 사이버 공격 위험을 줄이고 AI 기술의 안전한 활용을 촉진하기 위한 노력의 일환입니다.
+
+---
+
+### 10. [AI Race Making a "Hindenburg-Style Disaster a Real Risk" - CSET | Center for Security and Emerging Technology](https://cset.georgetown.edu/article/ai-race-making-a-hindenburg-style-disaster-a-real-risk/)
+**출처**: CSET | Center for Security and Emerging Technology | **게시일**: Wed, 18 Feb 2026 20:28:49 GMT
+
+조지타운대학교 산하 CSET(안보 및 신흥 기술 센터)는 AI 연구 개발 자동화의 가속화와 그로 인한 위험성을 경고했다. 특히 CNN에 출연한 헬렌 토너는 중국의 AI 기술 발전과 AI 자체 개발에 AI를 활용하는 추세에 주목하며, 예측 불가능한 실패나 의도치 않은 결과로 이어질 수 있는 "힌덴부르크호 참사"와 같은 위험을 강조했다. AI 엔지니어들조차 잠재적인 위험성에 대해 경고하고 있으며, 미국 내 AI 발전에 중국계 연구자들이 중요한 역할을 하고 있다는 분석도 제시되었다. CSET는 이러한 분석을 통해 정책 결정자들에게 데이터 기반의 통찰력을 제공하고자 한다.
+
+---
+
+### 11. [Anthropic is clashing with the Pentagon over AI use. Here's what each side wants - CNBC](https://www.cnbc.com/2026/02/18/anthropic-pentagon-ai-defense-war-surveillance.html)
+**출처**: CNBC | **게시일**: Wed, 18 Feb 2026 18:01:14 GMT
+
+앤트로픽이 미국 국방부와의 인공지능 모델 사용 범위에 대한 이견으로 갈등을 겪고 있으며, 국방부와의 계약이 재검토될 수 있다는 보도가 나왔다. 앤트로픽은 자사 AI 모델이 자율 무기 개발이나 대규모 미국 시민 감시에 사용되지 않도록 제한하길 원하지만, 국방부는 모든 합법적인 용도로 제한 없이 사용하길 원한다. 만약 앤트로픽이 국방부의 요구를 수용하지 않을 경우, 공급망 위험으로 지정되어 불이익을 받을 수 있다. 다른 AI 기업들은 국방부의 요구에 대체로 동의한 상황이며, 이번 갈등은 앤트로픽과 미국 정부 간의 긴장 관계를 보여주는 사례로 분석된다.
+
+---
+
+### 12. [USC Professor Elected to Three Prestigious Academies for AI and Systems Engineering Work - USC Viterbi School of Engineering](https://viterbischool.usc.edu/news/2026/02/usc-professor-elected-to-three-prestigious-academies-for-ai-and-systems-engineering-work/)
+**출처**: USC Viterbi School of Engineering | **게시일**: Wed, 18 Feb 2026 17:48:04 GMT
+
+USC 비터비 공대의 닐 시걸 교수가 인공지능 및 시스템 엔지니어링 분야의 공로를 인정받아 미국 인공지능 학회, 인공지능 산업 연맹, 국제 핵심 과학 및 인문학 아카데미 등 3개의 저명한 학술 단체 회원으로 선출되었다. 그의 연구는 특히 인공지능이 구급차 dispatch, 의료 진단, 항공 교통 관제 등 중요한 시스템에 적용될 수 있을 만큼 신뢰할 만한 수준인지 판단하는 데 초점을 맞추고 있다.  시걸 교수는 스마트폰, 의료, 군사 시스템 등 다양한 기술 분야에서 50개에 가까운 특허를 보유하고 있으며, USC에서 공학 교육에도 기여하고 있다. 이번 선정은 그의 인공지능 분야 발전과 사회적 영향력에 대한 높은 평가를 반영한다.
+
+---
+
+### 13. [AI is a lab diamond's best friend for semiconductors - MSUToday](https://msutoday.msu.edu/news/2026/02/ai-is-a-lab-diamonds-best-friend-for-semiconductors)
+**출처**: MSUToday | **게시일**: Wed, 18 Feb 2026 19:39:22 GMT
+
+미시간 주립대학교(MSU)는 Fraunhofer USA 연구소와 협력하여 인공지능(AI)을 활용, 고품질의 실험실 다이아몬드를 성장시키는 연구를 진행하고 있다. NSF의 지원을 받아 진행되는 이 연구는 반도체 제조 공정 개선과 미국 내 인력 양성에 기여하는 것을 목표로 한다. AI는 다이아몬드 성장 과정에서 발생하는 결함을 예측하고 제어하여, 궁극적으로 반도체 재료로 사용될 고품질 다이아몬드 생산을 자동화하는 데 활용될 예정이다. 또한, K-12 학생, 대학생, 직장인을 대상으로 반도체 관련 교육 프로그램을 지원하여 미래 반도체 전문가 양성에도 힘쓸 계획이다.
+
+---
+
+### 14. [Unlocking enterprise data to accelerate agentic AI: How Ab Initio does it - Google Cloud](https://cloud.google.com/blog/products/data-analytics/unlocking-enterprise-data-to-accelerate-agentic-ai-how-ab-initio-does-it/)
+**출처**: Google Cloud | **게시일**: Wed, 18 Feb 2026 18:15:41 GMT
+
+Google Cloud는 Ab Initio와의 협력을 통해 기업의 에이전트 기반 AI 활용을 가속화합니다. Ab Initio는 Google Cloud의 BigQuery, Dataplex, Gemini와 통합되어 멀티 클라우드 환경에 분산된 데이터와 메타데이터를 통합 관리하는 허브 역할을 수행합니다. 이를 통해 기업은 데이터의 출처, 품질, 의미를 파악하여 Gemini 에이전트가 효과적으로 작동하도록 지원하고, 설명 가능하고 감사 가능한 의사 결정을 내릴 수 있도록 돕습니다. Ab Initio의 데이터 통합 및 거버넌스 기능은 하이브리드 및 멀티 클라우드 환경에서 AI 기반 분석 및 자동화를 위한 신뢰할 수 있는 데이터 제품을 제공합니다.
+
+---
+
+### 15. [Q&A: AI-predicted retinal function shows promise in geographic atrophy - Ophthalmology Times](https://www.ophthalmologytimes.com/view/ai-predicted-retinal-function-shows-promise-in-geographic-atrophy)
+**출처**: Ophthalmology Times | **게시일**: Wed, 18 Feb 2026 20:00:04 GMT
+
+인공지능(AI)이 예측한 망막 기능이 지도 모양 위축(geographic atrophy) 치료에 대한 가능성을 보여주고 있다. Ophthalmology Times에 따르면, AI는 망막 기능을 예측하여 지도 모양 위축 진행을 더 잘 이해하고 관리하는 데 도움을 줄 수 있다. 이 기술은 질병의 진행을 예측하고 맞춤형 치료 전략을 개발하는 데 활용될 수 있을 것으로 기대된다. AI 기반 예측은 지도 모양 위축 환자들의 시력 보존에 기여할 잠재력을 가지고 있다.
+
+(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)
+
+---
+
+### 16. [The Writing Center navigates AI’s impact on the writing process - The Cavalier Daily](https://www.cavalierdaily.com/article/2026/02/the-writing-center-navigates-ais-impact-on-the-writing-process)
+**출처**: The Cavalier Daily | **게시일**: Wed, 18 Feb 2026 19:29:29 GMT
+
+버지니아 대학교 글쓰기 센터는 인공지능(AI) 도구가 글쓰기 과정에 미치는 영향에 대응하여, 학생들이 단순히 결과물을 만드는 것을 넘어 사고력을 키우도록 돕는 데 집중하고 있다. 센터는 학생들이 AI를 전면적인 대체재가 아닌 자원으로 활용하고, 구체적인 요청을 통해 책임감 있게 사용하도록 권장한다. 교수진의 AI 정책이 다양하므로, 센터는 학생들이 각 수업의 지침을 준수하도록 안내하기보다는 AI 활용을 통해 학습을 향상시키는 방법을 모색한다. 궁극적으로 글쓰기 센터는 학생들과의 대화를 통해 글쓰기 과정의 가치를 발견하고, 비판적 사고 능력을 강화하는 데 기여하고자 한다.
+
+---
+
+### 17. [AI & Digital Media Literacy - Commonwealth of Pennsylvania (.gov)](https://www.pa.gov/agencies/education/ai-and-digital-literacy-/ai---digital-media-literacy)
+**출처**: Commonwealth of Pennsylvania (.gov) | **게시일**: Wed, 18 Feb 2026 20:47:38 GMT
+
+펜실베이니아 주 정부는 인공지능(AI) 활용 증가에 따라 도민들의 안전한 디지털 환경 적응을 강조합니다. 특히, 대화형 AI 챗봇의 오용으로 인한 위험성을 경고하며, 디지털 미디어 리터러시 교육의 중요성을 역설합니다. 주 정부 웹사이트 주소(.gov 또는 pa.gov) 확인을 통해 개인 정보 보호에 유의할 것을 당부합니다. AI 기술의 발전과 함께 디지털 역량 강화의 필요성을 제기합니다.
+
+---
+
+### 18. [Meta Begins $65 Million Election Push to Advance A.I. Agenda - The New York Times](https://www.nytimes.com/2026/02/18/technology/meta-65-million-election-ai.html)
+**출처**: The New York Times | **게시일**: Wed, 18 Feb 2026 16:01:08 GMT
+
+메타가 인공지능(AI) 관련 의제를 발전시키기 위해 6천 5백만 달러 규모의 선거 캠페인을 시작했다. 이번 투자는 AI 기술 개발 및 규제 관련 논의를 촉진하고, 다가오는 선거에서 AI 관련 정책 결정에 영향을 미치려는 메타의 전략적 움직임으로 풀이된다. 메타는 AI 기술의 책임감 있는 사용과 발전을 위한 공공 정책 형성에 적극적으로 참여할 것으로 예상된다. 이번 투자는 AI 기술이 사회에 미치는 영향에 대한 논의를 심화시키고, 관련 정책 수립에 중요한 역할을 할 것으로 보인다.
+
+(⚠️ 원문 접근 불가로 RSS 요약본을 바탕으로 생성됨)
+
+---
+
+### 19. [Guidance for Individuals with Intellectual Disabilities and Their Caretakers - Commonwealth of Pennsylvania (.gov)](https://www.pa.gov/agencies/education/ai-and-digital-literacy-/guidance-for-id-community)
+**출처**: Commonwealth of Pennsylvania (.gov) | **게시일**: Wed, 18 Feb 2026 20:47:31 GMT
+
+펜실베이니아 주 정부는 지적 장애인과 자폐 스펙트럼 장애인을 위한 인공지능(AI) 동반 봇 사용 지침을 발표했습니다. 이 지침은 AI 동반 봇의 잠재적 위험성, 특히 개인 정보 보호, 잘못된 정보 제공, 사회적 및 정서적 영향에 대한 인식을 높이는 것을 목표로 합니다. 안전한 사용을 위해 함께 사용하고, 대화하며, 시간 제한 설정과 같은 실질적인 전략을 제시합니다. 또한, Temple University의 TechOwl 프로그램과 같은 추가 지원 리소스를 안내하여 현실적인 기대치를 설정하고 안전한 사용 습관을 개발하도록 돕습니다.
+
+---
+
+### 20. [Guidance for Older Adult Providers - Commonwealth of Pennsylvania (.gov)](https://www.pa.gov/agencies/education/ai-and-digital-literacy-/guidance-for-older-adult-providers)
+**출처**: Commonwealth of Pennsylvania (.gov) | **게시일**: Wed, 18 Feb 2026 20:47:36 GMT
+
+펜실베이니아 주 정부는 노년층이 AI 컴패니언 봇 사용 시 겪을 수 있는 위험에 대한 지침을 발표했습니다. 특히 AI 봇이 개인 정보 수집 및 사기 위험에 노출될 가능성이 높으며, 노년층의 재정적 착취로 이어질 수 있다고 경고합니다. 음성 복제, 딥페이크 사기, 피싱 이메일 등이 대표적인 AI 사기 사례로 제시되었으며, AI 사용에 대한 교육 및 주의가 필요함을 강조합니다. 노년층에게 AI의 장점을 알리는 동시에 위험성을 인지시키고, 안전한 사용법을 교육하는 것이 중요합니다.
+
+---
+
