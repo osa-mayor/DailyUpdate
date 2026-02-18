@@ -1,398 +1,375 @@
 {
   "source": "product_hunt",
-  "date": "2026-02-17",
-  "generated_at": "2026-02-18T05:08:53.174390+09:00",
+  "date": "2026-02-18",
+  "generated_at": "2026-02-19T05:12:26.529384+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Figr AI\n⭐ Votes: 321\n📝 요약: Figr AI는 프로덕트 관리자를 위한 AI 에이전트로, 앱의 UX를 분석하고 개선하여 더 나은 프로덕트를 만들도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/figr-design-research-simplified\n🌐 서비스 링크: https://www.producthunt.com/r/MSR5QNHU7TKR5L\n\n📦 2. Boost.space v5\n⭐ Votes: 236\n📝 요약: Boost.space v5는 AI 에이전트와 자동화 시스템이 업무 맥락을 이해하도록 돕는 '공유된 두뇌'를 제공하여, 데이터 사일로 문제를 해결하고 더욱 효율적인 비즈니스 인텔리전스 시스템을 구축하도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/boost-space\n🌐 서비스 링크: https://www.producthunt.com/r/Q2VU5ODIIJU2XZ\n\n📦 3. Qwen3.5\n⭐ Votes: 199\n📝 요약: Qwen3.5는 397B 파라미터 규모의 멀티모달 에이전트 모델로, 17B 모델 수준의 빠른 추론 속도를 제공하여 장기적인 에이전트 작업을 효율적으로 처리할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/qwen3\n🌐 서비스 링크: https://www.producthunt.com/r/GSMFKQQ2OC33T6\n\n📦 4. Mozart for iOS\n⭐ Votes: 196\n📝 요약: 아이디어 떠오르는 대로 즉석에서 음악과 뮤직비디오를 만들어 친구들과 공유하세요!\n🔗 Product Hunt: https://www.producthunt.com/products/mozart-ai\n🌐 서비스 링크: https://www.producthunt.com/r/XPJU46YLT7UOC6\n\n📦 5. Layers\n⭐ Votes: 175\n📝 요약: 개발 코드를 이해하는 마케팅 에이전트가 콘텐츠 제작, 소셜 포스팅, 광고 운영, 인사이트 분석까지 자동화하여 사용자 유입을 늘리고 개발에 집중할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/layers-6\n🌐 서비스 링크: https://www.producthunt.com/r/Z7SJIHSZH2W2CJ\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Product/product_hunt_2026-02-17.md",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Sonnet 4.6\n⭐ Votes: 412\n📝 요약: Claude Sonnet 4.6은 코딩, 컴퓨터 활용, 추론 능력, 에이전트 계획, 지식 작업, 디자인 등 모든 면에서 크게 향상되었으며, 100만 토큰 컨텍스트 창을 지원하는 최신 Sonnet 모델입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/XRJAQEGV3YYNPN\n\n📦 2. Moda\n⭐ Votes: 342\n📝 요약: Moda는 브랜드에 맞는 아름다운 콘텐츠 디자인을 AI로 생성하고, 레이어 기반 편집 기능으로 완벽하게 수정할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/moda-2\n🌐 서비스 링크: https://www.producthunt.com/r/CXN2YMANFHJXCU\n\n📦 3. Omnia\n⭐ Votes: 222\n📝 요약: Omnia는 AI가 당신의 브랜드를 어떻게 인식하는지 보여주고, AI 검색에서 브랜드 인지도를 높이는 콘텐츠 제작을 돕는 AI 가시성 분석 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/omnia-2\n🌐 서비스 링크: https://www.producthunt.com/r/P2QNFKXIJOJQ5N\n\n📦 4. Flixier Generate AI Video in Timeline\n⭐ Votes: 156\n📝 요약: Flixier는 AI 비디오 생성 기능을 편집 타임라인에 통합하여, 별도의 내보내기 없이 한 곳에서 비디오 생성, 편집, 마무리까지 가능하게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/flixier\n🌐 서비스 링크: https://www.producthunt.com/r/2J7TBBVCY7KL7J\n\n📦 5. ClawMetry for OpenClaw\n⭐ Votes: 124\n📝 요약: OpenClaw AI 에이전트의 성능을 실시간으로 모니터링하고 분석할 수 있는 무료 오픈소스 대시보드입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/clawmetry\n🌐 서비스 링크: https://www.producthunt.com/r/JKIL5I3A43NUWI\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Product/product_hunt_2026-02-18.md",
   "items": [
     {
       "rank": 1,
-      "name": "Figr AI",
-      "url": "https://www.producthunt.com/products/figr-design-research-simplified",
-      "service_url": "https://www.producthunt.com/r/MSR5QNHU7TKR5L",
-      "website": "https://www.producthunt.com/r/MSR5QNHU7TKR5L",
-      "votes": 321,
-      "tagline": "Product-aware AI that thinks through UX",
-      "summary": "Figr AI는 프로덕트 관리자를 위한 AI 에이전트로, 앱의 UX를 분석하고 개선하여 더 나은 프로덕트를 만들도록 돕습니다.",
+      "name": "Sonnet 4.6",
+      "url": "https://www.producthunt.com/products/claude",
+      "service_url": "https://www.producthunt.com/r/XRJAQEGV3YYNPN",
+      "website": "https://www.producthunt.com/r/XRJAQEGV3YYNPN",
+      "votes": 412,
+      "tagline": "The most capable Sonnet model yet",
+      "summary": "Claude Sonnet 4.6은 코딩, 컴퓨터 활용, 추론 능력, 에이전트 계획, 지식 작업, 디자인 등 모든 면에서 크게 향상되었으며, 100만 토큰 컨텍스트 창을 지원하는 최신 Sonnet 모델입니다.",
       "key_points": [
-        "실제 앱, Figma, 문서, 분석 데이터 연동을 통해 프로덕트 상황을 정확히 파악",
-        "20만 개 이상의 UX 패턴 기반으로 UX 리뷰, A/B 테스트, 프로토타입 제작 지원",
-        "앱 디자인 언어에 맞춰 일관성 있는 개선안 및 프로토타입 제시"
+        "코딩, 컴퓨터 활용 능력 대폭 향상",
+        "100만 토큰 컨텍스트 창 베타 제공",
+        "Opus 수준의 지능을 훨씬 저렴한 가격으로 제공"
       ],
       "tags": [
         "AI",
-        "UX",
-        "프로덕트 관리",
+        "LLM",
+        "생성 AI",
         "자동화",
-        "분석",
+        "개발",
         "Agent",
-        "AI Tool",
-        "Design",
-        "Analytics"
+        "Design"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Figr AI를 사용하면 프로덕트 관리자가 UX 개선에 필요한 분석 및 디자인 작업을 효율적으로 처리하고, 데이터 기반 의사 결정을 내릴 수 있습니다. 또한, 실제 앱 디자인에 맞는 프로토타입을 빠르게 제작하여 테스트할 수 있습니다.",
+      "practical_relevance": "더욱 강력해진 성능으로 다양한 작업을 효율적으로 처리할 수 있으며, 특히 긴 문맥을 이해해야 하는 작업에서 뛰어난 성능을 보여줍니다. 컴퓨터 활용 능력 향상으로 개발 및 자동화 작업에 유용합니다.",
       "recommended_actions": [
-        "Chrome 확장 프로그램을 설치하여 실제 앱 연동",
-        "Figma 디자인 파일 또는 문서 데이터 가져오기",
-        "UX 리뷰 기능을 통해 앱의 문제점 진단"
+        "긴 문서 요약 및 분석 시 활용",
+        "복잡한 코딩 작업에 투입",
+        "컴퓨터 활용 관련 작업 자동화"
       ],
       "risks_and_limits": [
-        "Chrome 확장 프로그램 호환성 확인 필요",
-        "지원하는 데이터 형식 및 분석 범위 확인 필요"
+        "베타 버전인 100만 토큰 컨텍스트 창의 안정성 확인 필요",
+        "Opus 수준이라고는 하지만, 실제 사용 환경에서의 성능 차이 확인 필요"
       ],
-      "uncertainty_note": "20만 개 이상의 UX 패턴 데이터베이스의 최신 업데이트 주기 및 정확도 확인이 필요합니다.",
+      "uncertainty_note": "벤치마크 외 실제 사용 환경에서 Opus 모델과 어느 정도의 성능 차이를 보이는지 추가적인 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 2,
-      "name": "Boost.space v5",
-      "url": "https://www.producthunt.com/products/boost-space",
-      "service_url": "https://www.producthunt.com/r/Q2VU5ODIIJU2XZ",
-      "website": "https://www.producthunt.com/r/Q2VU5ODIIJU2XZ",
-      "votes": 236,
-      "tagline": "Shared Context for your AI Agents & Automations",
-      "summary": "Boost.space v5는 AI 에이전트와 자동화 시스템이 업무 맥락을 이해하도록 돕는 '공유된 두뇌'를 제공하여, 데이터 사일로 문제를 해결하고 더욱 효율적인 비즈니스 인텔리전스 시스템을 구축하도록 돕습니다.",
+      "name": "Moda",
+      "url": "https://www.producthunt.com/products/moda-2",
+      "service_url": "https://www.producthunt.com/r/CXN2YMANFHJXCU",
+      "website": "https://www.producthunt.com/r/CXN2YMANFHJXCU",
+      "votes": 342,
+      "tagline": "Finally, AI designs you can edit",
+      "summary": "Moda는 브랜드에 맞는 아름다운 콘텐츠 디자인을 AI로 생성하고, 레이어 기반 편집 기능으로 완벽하게 수정할 수 있게 해줍니다.",
       "key_points": [
-        "AI 에이전트 및 자동화에 공유 맥락 제공",
-        "과거 상호작용 및 데이터베이스 상태를 활용",
-        "업무 흐름의 일관성 및 효율성 향상"
+        "그래픽 디자인 훈련을 받은 AI",
+        "슬라이드, 포스터, 광고 등 다양한 콘텐츠 디자인 가능",
+        "레이어 기반의 강력한 편집 기능"
       ],
       "tags": [
-        "AI",
-        "자동화",
-        "데이터 분석",
-        "워크플로우",
-        "비즈니스 인텔리전스",
-        "Agent",
-        "Automation",
+        "AI 디자인",
+        "콘텐츠 제작",
+        "그래픽 편집",
         "AI Tool",
-        "LLM"
+        "Design"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "AI 에이전트와 자동화 시스템의 성능을 극대화하여, 비즈니스 워크플로우의 효율성을 높이고 데이터 기반 의사 결정을 지원합니다. 분산된 정보를 통합하여 전체적인 시야를 확보할 수 있습니다.",
+      "practical_relevance": "디자인 작업 시간을 단축하고 브랜드 아이덴티티에 맞는 콘텐츠를 쉽게 제작할 수 있도록 도와줍니다. 특히, AI가 생성한 디자인을 자유롭게 편집하여 원하는 결과물을 얻을 수 있습니다.",
       "recommended_actions": [
-        "자동화 워크플로우에 Boost.space 적용",
-        "AI 에이전트의 컨텍스트 레이어로 활용",
-        "데이터베이스 연동을 통한 실시간 정보 활용"
+        "AI 디자인 생성 후 편집 기능 활용",
+        "슬라이드 또는 포스터 디자인 생성",
+        "브랜드 컬러 및 스타일 적용"
       ],
       "risks_and_limits": [
-        "초기 설정 및 데이터 연동 과정의 복잡성",
-        "기존 시스템과의 호환성 검토 필요"
+        "AI가 생성한 디자인의 퀄리티가 사용자의 기대에 미치지 못할 수 있습니다.",
+        "편집 기능 숙지에 시간이 필요할 수 있습니다."
       ],
-      "uncertainty_note": "정확한 성능 향상 정도는 실제 사용 환경 및 데이터 특성에 따라 달라질 수 있습니다.",
+      "uncertainty_note": "AI 디자인의 정확성과 다양한 디자인 템플릿 제공 여부에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 3,
-      "name": "Qwen3.5",
-      "url": "https://www.producthunt.com/products/qwen3",
-      "service_url": "https://www.producthunt.com/r/GSMFKQQ2OC33T6",
-      "website": "https://www.producthunt.com/r/GSMFKQQ2OC33T6",
-      "votes": 199,
-      "tagline": "The 397B native multimodal agent with 17B active params",
-      "summary": "Qwen3.5는 397B 파라미터 규모의 멀티모달 에이전트 모델로, 17B 모델 수준의 빠른 추론 속도를 제공하여 장기적인 에이전트 작업을 효율적으로 처리할 수 있습니다.",
+      "name": "Omnia",
+      "url": "https://www.producthunt.com/products/omnia-2",
+      "service_url": "https://www.producthunt.com/r/P2QNFKXIJOJQ5N",
+      "website": "https://www.producthunt.com/r/P2QNFKXIJOJQ5N",
+      "votes": 222,
+      "tagline": "Become the brand AI recommends",
+      "summary": "Omnia는 AI가 당신의 브랜드를 어떻게 인식하는지 보여주고, AI 검색에서 브랜드 인지도를 높이는 콘텐츠 제작을 돕는 AI 가시성 분석 도구입니다.",
       "key_points": [
-        "오픈 웨이트 모델로 자유로운 사용 가능",
-        "시각-언어 모델로 다양한 입력 처리",
-        "선형 어텐션 + MoE 하이브리드 아키텍처로 성능과 속도 모두 확보"
+        "AI가 사용하는 실제 프롬프트 발견",
+        "경쟁사 대비 브랜드 인지도 모니터링",
+        "AI 검색에 최적화된 콘텐츠 제작 지원"
       ],
       "tags": [
-        "AI 모델",
-        "멀티모달",
-        "에이전트",
-        "오픈소스",
-        "Agent"
+        "AI",
+        "브랜드 분석",
+        "콘텐츠 제작",
+        "SEO",
+        "마케팅",
+        "AI Tool",
+        "Prompting"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "복잡한 멀티모달 작업을 처리해야 하는 개발자에게 빠른 속도와 뛰어난 성능을 동시에 제공하며, 오픈 웨이트 모델이므로 자유롭게 실험하고 활용할 수 있습니다.",
+      "practical_relevance": "AI 시대에 맞춰 브랜드 인지도를 높이고, 경쟁사 대비 차별화된 전략을 수립하는 데 도움을 줍니다. 특히 AI 검색 엔진 최적화에 어려움을 겪는 사용자에게 유용합니다.",
       "recommended_actions": [
-        "장기 에이전트 작업에 활용해보기",
-        "이미지 및 텍스트 기반 작업에 적용해보기",
-        "모델 구조 및 파라미터 조정 실험해보기"
+        "AI 프롬프트 발견 기능으로 시장 트렌드 파악",
+        "경쟁사 브랜드 인지도 벤치마킹",
+        "AI 검색 최적화 콘텐츠 제작 기능 활용"
       ],
       "risks_and_limits": [
-        "397B 모델 수준의 리소스 요구 가능성 고려",
-        "오픈 웨이트 모델 사용 관련 라이선스 확인"
+        "AI 분석 결과의 정확도는 사용된 데이터와 알고리즘에 따라 달라질 수 있습니다.",
+        "모든 AI 검색 엔진에 대한 완벽한 최적화를 보장하지 않습니다."
       ],
-      "uncertainty_note": "실제 사용 환경에서의 성능 및 리소스 요구량에 대한 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "Omnia가 제공하는 AI 분석 결과가 실제 비즈니스 성과에 미치는 영향에 대한 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 4,
-      "name": "Mozart for iOS",
-      "url": "https://www.producthunt.com/products/mozart-ai",
-      "service_url": "https://www.producthunt.com/r/XPJU46YLT7UOC6",
-      "website": "https://www.producthunt.com/r/XPJU46YLT7UOC6",
-      "votes": 196,
-      "tagline": "Make a song and a music video while you're on the go",
-      "summary": "아이디어 떠오르는 대로 즉석에서 음악과 뮤직비디오를 만들어 친구들과 공유하세요!",
+      "name": "Flixier Generate AI Video in Timeline",
+      "url": "https://www.producthunt.com/products/flixier",
+      "service_url": "https://www.producthunt.com/r/2J7TBBVCY7KL7J",
+      "website": "https://www.producthunt.com/r/2J7TBBVCY7KL7J",
+      "votes": 156,
+      "tagline": "Extend shots, connect clips, generate from any frame",
+      "summary": "Flixier는 AI 비디오 생성 기능을 편집 타임라인에 통합하여, 별도의 내보내기 없이 한 곳에서 비디오 생성, 편집, 마무리까지 가능하게 해줍니다.",
       "key_points": [
-        "모바일 환경에서 간편하게 음악 스케치 가능",
-        "사진과 미디어를 활용한 맞춤형 뮤직비디오 제작",
-        "탭 한 번으로 간편하게 공유"
+        "AI를 활용하여 비디오 클립을 생성, 확장, 연결 가능",
+        "편집 타임라인 내에서 AI 기능 사용으로 워크플로우 간소화",
+        "별도 프로그램 이동 없이 비디오 편집 및 완성 가능"
       ],
       "tags": [
-        "음악",
-        "뮤직비디오",
-        "창작",
-        "iOS",
+        "AI",
+        "비디오 편집",
+        "생산성",
+        "자동화",
+        "AI Tool",
         "Video"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "이동 중에도 떠오르는 영감을 놓치지 않고 음악으로 표현하고, 나만의 뮤직비디오를 만들어 특별한 순간을 공유할 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "비디오 편집 시간을 단축하고, 여러 도구를 사용할 필요 없이 Flixier 하나로 간편하게 작업할 수 있어 생산성을 높여줍니다.",
       "recommended_actions": [
-        "떠오르는 멜로디를 즉시 녹음하여 스케치하기",
-        "사진이나 비디오 클립을 추가하여 뮤직비디오 만들기",
-        "친구들에게 완성된 음악과 뮤직비디오 공유하기"
+        "AI를 사용하여 새로운 비디오 클립 생성해보기",
+        "기존 클립을 AI로 확장하여 자연스러운 연결 시도해보기",
+        "타임라인 내에서 AI 생성 클립 편집 및 다듬어보기"
       ],
       "risks_and_limits": [
-        "iOS 기기에서만 사용 가능",
-        "저작권 문제가 없는 미디어 사용 권장"
+        "AI 생성 품질은 입력 프레임 및 조건에 따라 달라질 수 있음",
+        "복잡한 편집 작업 시 AI 기능이 기대만큼 작동하지 않을 수 있음"
       ],
-      "uncertainty_note": "음악 제작 및 비디오 편집 기능의 상세 스펙 확인이 필요합니다.",
+      "uncertainty_note": "AI 생성 클립의 저작권 및 상업적 이용 가능 범위에 대한 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 5,
-      "name": "Layers",
-      "url": "https://www.producthunt.com/products/layers-6",
-      "service_url": "https://www.producthunt.com/r/Z7SJIHSZH2W2CJ",
-      "website": "https://www.producthunt.com/r/Z7SJIHSZH2W2CJ",
-      "votes": 175,
-      "tagline": "Marketing agents that know your code for better messaging",
-      "summary": "개발 코드를 이해하는 마케팅 에이전트가 콘텐츠 제작, 소셜 포스팅, 광고 운영, 인사이트 분석까지 자동화하여 사용자 유입을 늘리고 개발에 집중할 수 있도록 돕습니다.",
+      "name": "ClawMetry for OpenClaw",
+      "url": "https://www.producthunt.com/products/clawmetry",
+      "service_url": "https://www.producthunt.com/r/JKIL5I3A43NUWI",
+      "website": "https://www.producthunt.com/r/JKIL5I3A43NUWI",
+      "votes": 124,
+      "tagline": "Real-time observability dashboard for OpenClaw AI agents",
+      "summary": "OpenClaw AI 에이전트의 성능을 실시간으로 모니터링하고 분석할 수 있는 무료 오픈소스 대시보드입니다.",
       "key_points": [
-        "코드 이해 기반의 마케팅 전략 수립",
-        "콘텐츠, 소셜, 광고 자동화",
-        "성장 계획 수립 및 실행"
+        "OpenClaw AI 에이전트 전용으로 설계된 Grafana 스타일 대시보드",
+        "토큰 비용, 하위 에이전트 활동, cron 작업 등 다양한 지표 실시간 모니터링",
+        "단 한 줄의 명령어로 설치 가능 (pip install clawmetry)"
       ],
       "tags": [
         "DevTool",
-        "마케팅 자동화",
-        "분석",
-        "성장",
+        "AI",
+        "모니터링",
+        "오픈소스",
+        "대시보드",
         "Agent",
-        "Marketing"
+        "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "개발자는 마케팅에 신경 쓰지 않고 제품 개발에만 집중할 수 있으며, 마케팅 담당자는 코드에 대한 이해 없이도 효과적인 마케팅 전략을 실행할 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "AI 에이전트의 동작을 시각적으로 파악하고 성능 병목 현상을 쉽게 찾아 개선하여 효율성을 높일 수 있습니다. 실시간 모니터링으로 문제 발생 시 즉각적인 대응이 가능합니다.",
       "recommended_actions": [
-        "성장 계획 자동 생성",
-        "콘텐츠 자동 생성 및 게시",
-        "광고 캠페인 자동 설정 및 운영"
+        "토큰 비용 추적 기능 사용해보기",
+        "실시간 흐름 시각화 기능으로 에이전트 활동 모니터링",
+        "cron 작업 및 메모리 변화 추적 설정해보기"
       ],
       "risks_and_limits": [
-        "코드 이해 기반 마케팅의 정확성 검증 필요",
-        "자동화된 콘텐츠의 품질 확인 필요"
+        "OpenClaw 에이전트와의 호환성 확인 필요",
+        "오픈소스이므로 자체적인 유지보수 및 업데이트 필요"
       ],
-      "uncertainty_note": "실제 사용 사례 및 성공 사례를 통해 자동화 효율성을 확인해야 합니다.",
+      "uncertainty_note": "지원하는 OpenClaw 에이전트의 버전을 확인해야 합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 6,
-      "name": "MiniMax-M2.5",
-      "url": "https://www.producthunt.com/products/minimax-m2-5",
-      "service_url": "https://www.producthunt.com/r/BEFJWYFLECP7ZP",
-      "website": "https://www.producthunt.com/r/BEFJWYFLECP7ZP",
-      "votes": 154,
-      "tagline": "The first open model to beat Sonnet made for productivity",
-      "summary": "MiniMax-M2.5는 생산성을 위해 설계된 오픈 소스 모델로, 코딩, 검색, 에이전트 도구 호출, 사무 작업 등 다양한 분야에서 최고 수준의 성능을 제공하며, 특히 복잡한 작업에서 효율적인 실행 속도를 자랑합니다.",
+      "name": "Travel Animator",
+      "url": "https://www.producthunt.com/products/travel-animator",
+      "service_url": "https://www.producthunt.com/r/VOTWBNKKAFFXMB",
+      "website": "https://www.producthunt.com/r/VOTWBNKKAFFXMB",
+      "votes": 123,
+      "tagline": "Name every stop your way with Place Labels",
+      "summary": "여행 경로 애니메이션 지도에 방문 장소를 라벨로 표시하여 더 명확하고 개인적인 여정 기록을 만들 수 있습니다.",
       "key_points": [
-        "오픈 소스 모델",
-        "코딩, 검색, 에이전트 작업 등 다양한 분야에서 SOTA 성능",
-        "복잡한 작업에서 빠른 실행 속도"
+        "애니메이션 지도에 장소 라벨 추가 가능",
+        "6가지 스타일과 7가지 색상의 라벨 커스터마이징",
+        "Current, Visited, Always-on 모드 지원"
       ],
       "tags": [
-        "생산성",
-        "오픈소스",
-        "AI 모델",
-        "자동화",
-        "개발",
-        "Agent",
-        "Design",
-        "Productivity"
+        "여행",
+        "지도",
+        "애니메이션",
+        "커스터마이징",
+        "기록",
+        "Design"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "MiniMax-M2.5는 다양한 분야에서 높은 성능을 요구하는 사용자에게 생산성 향상을 위한 강력한 도구를 제공하며, 특히 장기적인 에이전트 사용에 경제적인 솔루션이 될 수 있습니다.",
+      "practical_relevance": "애니메이션으로 제작된 여행 경로에 방문 장소들을 시각적으로 쉽게 표시하여 기억을 되살리고 공유하기에 유용합니다. 다양한 스타일과 모드를 통해 사용자 취향에 맞게 라벨을 디자인할 수 있습니다.",
       "recommended_actions": [
-        "코딩 작업 성능 테스트",
-        "검색 작업 효율성 테스트",
-        "에이전트 기반 도구 호출 테스트"
+        "다양한 스타일의 라벨 적용해보기",
+        "Current, Visited, Always-on 모드 변경해보기",
+        "기존 여행 애니메이션에 라벨 추가해보기"
       ],
       "risks_and_limits": [
-        "오픈 소스 모델의 잠재적인 보안 취약점 확인",
-        "특정 작업 환경에서의 호환성 검토"
+        "애니메이션 제작 기능 자체의 학습 필요",
+        "라벨 디자인 옵션이 사용자의 니즈를 모두 충족시키지 못할 수 있음"
       ],
-      "uncertainty_note": "MiniMax-M2.5의 실제 사용 환경에서의 지속적인 성능과 안정성에 대한 사용자 피드백을 확인해야 합니다.",
+      "uncertainty_note": "Travel Animator 자체의 사용법에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 7,
-      "name": "Brainstream",
-      "url": "https://www.producthunt.com/products/brainstream",
-      "service_url": "https://www.producthunt.com/r/YKAIAZCZSR6VG7",
-      "website": "https://www.producthunt.com/r/YKAIAZCZSR6VG7",
-      "votes": 138,
-      "tagline": "Agentic AI notes: smart search, briefs & tasks",
-      "summary": "Brainstream은 AI 기반 노트 앱으로, 흩어진 생각을 정리하고 자동으로 작업을 생성하며, 개인 맞춤 브리핑까지 제공하여 생산성을 높여줍니다.",
-      "key_points": [
-        "AI 기반 자동 작업 생성 및 정리",
-        "음성, 텍스트, 사진 등 다양한 입력 방식 지원",
-        "개인 맞춤형 데일리/위클리 브리핑 제공"
-      ],
+      "name": "Design Rails",
+      "url": "https://www.producthunt.com/products/design-rails-ai-native-brand-in-mins",
+      "service_url": "https://www.producthunt.com/r/OB4CXSZGF6WGRV",
+      "website": "https://www.producthunt.com/r/OB4CXSZGF6WGRV",
+      "votes": 112,
+      "tagline": "Get an agent-ready brand in minutes",
+      "summary": null,
+      "key_points": [],
       "tags": [
-        "AI 노트",
-        "생산성",
-        "자동화",
-        "작업 관리",
         "Agent",
-        "AI Tool"
+        "AI Tool",
+        "Chat",
+        "Design"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "단순히 메모를 넘어, AI가 알아서 할 일을 만들고 정리해주어 시간을 절약하고 업무 효율을 높일 수 있습니다. 아이디어를 빠르게 캡쳐하고, AI가 나머지를 처리하도록 맡기세요.",
-      "recommended_actions": [
-        "음성 메모로 아이디어 빠르게 기록하기",
-        "노트에서 자동으로 생성된 작업 확인하기",
-        "데일리 브리핑을 통해 하루 일정 정리하기"
-      ],
-      "risks_and_limits": [
-        "AI 기능의 정확도 및 개인 정보 처리 방침 확인 필요",
-        "복잡한 작업 분류 및 생성에는 한계가 있을 수 있음"
-      ],
-      "uncertainty_note": "AI 기반 작업 생성 기능의 효율성과 사용자 맞춤 설정 범위에 대한 추가 정보가 필요합니다.",
+      "practical_relevance": null,
+      "recommended_actions": [],
+      "risks_and_limits": [],
+      "uncertainty_note": "Product Hunt 설명(태그라인/디스크립션) 기반 정리이므로 실제 기능/가격/정책은 제품 페이지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 8,
-      "name": "Vela",
-      "url": "https://www.producthunt.com/products/vela-4",
-      "service_url": "https://www.producthunt.com/r/D4ZTFMAYEQILON",
-      "website": "https://www.producthunt.com/r/D4ZTFMAYEQILON",
-      "votes": 137,
-      "tagline": "AI scheduling that works the way a great EA does",
-      "summary": "Vela는 마치 유능한 비서처럼 작동하는 AI 스케줄링 에이전트로, 이메일, SMS, WhatsApp, 전화 등 다양한 채널을 통해 복잡한 미팅 일정을 효율적으로 관리해줍니다.",
+      "name": "Your AI Clone",
+      "url": "https://www.producthunt.com/products/your-ai-clone",
+      "service_url": "https://www.producthunt.com/r/RMUPNE7DZIF2BR",
+      "website": "https://www.producthunt.com/r/RMUPNE7DZIF2BR",
+      "votes": 99,
+      "tagline": "Your clone remembers people you've never met",
+      "summary": "나만의 AI 클론을 만들어 24시간 소통하고, 대화 내용을 기억하여 개인 맞춤 응대를 제공하여 잠재 고객 확보 및 참여를 극대화하세요.",
       "key_points": [
-        "AI 기반 자동 스케줄링",
-        "다양한 채널 지원 (이메일, SMS, WhatsApp, 전화)",
-        "미팅 우선순위 자동 판단"
+        "나의 콘텐츠, 목소리, 개성을 학습한 AI 클론 생성",
+        "AI 클론은 24/7 고객 응대 및 모든 대화 내용 기억",
+        "수익 창출 또는 무료 제공 옵션 선택 가능"
       ],
       "tags": [
         "AI",
         "자동화",
-        "스케줄링",
-        "생산성",
-        "Agent",
-        "AI Tool",
-        "Email"
+        "고객 관리",
+        "개인화",
+        "소통",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "번거로운 미팅 일정 조율 과정을 자동화하여 시간을 절약하고, 중요한 미팅을 놓치지 않도록 도와줍니다. 특히 대규모 인터뷰 일정을 효율적으로 관리해야 할 때 유용합니다.",
+      "practical_relevance": "시간과 장소에 구애받지 않고 고객과 소통하며, 개인화된 경험을 제공하여 관계를 강화하고 새로운 기회를 창출할 수 있습니다. 또한, 콘텐츠 제작자, 기업가, 인플루언서 등이 오디언스와 지속적인 소통을 가능하게 합니다.",
       "recommended_actions": [
-        "미팅 일정 자동 조율 기능 사용해보기",
-        "여러 채널을 통한 일정 공유 기능 사용해보기",
-        "미팅 우선순위 설정 기능 확인해보기"
+        "AI 클론 생성 및 학습 데이터 업로드",
+        "AI 클론의 응답 스타일 및 개성 설정",
+        "AI 클론 페이지 홍보 및 고객과의 상호작용 시작"
       ],
       "risks_and_limits": [
-        "AI가 판단하는 우선순위가 사용자의 의도와 다를 수 있음",
-        "지원 채널 및 언어 확인 필요"
+        "AI 클론이 부적절하거나 오해를 불러일으킬 수 있는 답변을 생성할 가능성",
+        "학습 데이터의 품질에 따라 AI 클론의 정확성과 신뢰도가 달라질 수 있음"
       ],
-      "uncertainty_note": "정확한 가격 정보 및 지원되는 언어는 추가 확인이 필요합니다.",
+      "uncertainty_note": "AI 클론의 장기적인 성능 및 사용자 만족도에 대한 추가적인 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 9,
-      "name": "OpenGraph+",
-      "url": "https://www.producthunt.com/products/opengraph",
-      "service_url": "https://www.producthunt.com/r/G4FFLXLY6QGJCV",
-      "website": "https://www.producthunt.com/r/G4FFLXLY6QGJCV",
-      "votes": 122,
-      "tagline": "Automatic Open Graph images for every page",
-      "summary": "OpenGraph+는 웹 페이지의 Open Graph 이미지를 자동으로 생성 및 업데이트하여 공유 링크의 품질을 높여줍니다.",
+      "name": "SPECTRE",
+      "url": "https://www.producthunt.com/products/spectre-2",
+      "service_url": "https://www.producthunt.com/r/CZQAMGV6OW6DHH",
+      "website": "https://www.producthunt.com/r/CZQAMGV6OW6DHH",
+      "votes": 99,
+      "tagline": "An agentic coding workflow for product builders",
+      "summary": "SPECTRE는 AI 코딩 에이전트를 활용하여 제품 개발 워크플로우를 자동화하고 고품질 결과물을 생성하도록 돕는 에이전트 기반 코딩 도구입니다.",
       "key_points": [
-        "모든 페이지에 자동으로 Open Graph 이미지 생성",
-        "콘텐츠 변경 시 자동 업데이트",
-        "별도의 이미지 디자인이나 렌더링 로직 불필요"
+        "제품 개발 워크플로우 자동화(Scope, Plan, Execute 등)",
+        "AI 코딩 에이전트 활용",
+        "단계별 작업으로 고품질 결과 도출"
       ],
       "tags": [
         "DevTool",
-        "자동화",
-        "Open Graph",
-        "이미지 생성",
-        "Chat",
-        "Vision",
-        "Design"
+        "AI",
+        "Automation",
+        "Workflow",
+        "Agent",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Slack, iMessage 등 그룹 채팅에서 공유되는 링크 미리보기를 개선하여 클릭률을 높이고 사용자 경험을 향상시킵니다. 복잡한 설정 없이 자동으로 최신 이미지를 유지할 수 있습니다.",
+      "practical_relevance": "제품 개발 과정을 체계적으로 관리하고 자동화하여 효율성을 높이고, AI 코딩 에이전트의 성능을 극대화하여 더 나은 결과물을 얻을 수 있습니다.",
       "recommended_actions": [
-        "웹사이트에 OpenGraph+ 연동하기",
-        "생성된 Open Graph 이미지 미리보기 확인하기",
-        "콘텐츠 변경 후 이미지 업데이트 확인하기"
+        "/Scope 명령어로 프로젝트 범위 정의해보기",
+        "/Plan 명령어로 개발 계획 수립해보기",
+        "/Execute 명령어로 AI 에이전트 실행해보기"
       ],
       "risks_and_limits": [
-        "이미지 생성에 시간이 걸릴 수 있음",
-        "OpenGraph+ 서버에 페이지 캡쳐 정보가 저장될 수 있음"
+        "AI 에이전트의 결과물 검토 필요",
+        "복잡한 프로젝트에는 추가적인 조정 필요"
       ],
-      "uncertainty_note": "OpenGraph+의 이미지 생성 방식 및 콘텐츠 업데이트 주기에 대한 추가 정보 확인이 필요합니다.",
+      "uncertainty_note": "제공된 정보만으로는 다양한 AI 코딩 에이전트와의 호환성을 정확히 판단하기 어렵습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
       "rank": 10,
-      "name": "Agent Monitor",
-      "url": "https://www.producthunt.com/products/agent-monitor-track-ai-traffic",
-      "service_url": "https://www.producthunt.com/r/YMYMZQJOY7WGTU",
-      "website": "https://www.producthunt.com/r/YMYMZQJOY7WGTU",
-      "votes": 112,
-      "tagline": "Server-side analytics for AI & bot traffic",
-      "summary": "Agent Monitor는 서버 측 데이터를 활용하여 웹사이트의 AI 및 봇 트래픽을 정확하게 분석하고, Google Analytics 4에서 놓치는 봇 트래픽 정보를 제공하여 데이터 기반의 의사결정을 돕습니다.",
+      "name": "Empirical Health for web",
+      "url": "https://www.producthunt.com/products/empirical-health",
+      "service_url": "https://www.producthunt.com/r/YDLCIZK56UJV22",
+      "website": "https://www.producthunt.com/r/YDLCIZK56UJV22",
+      "votes": 98,
+      "tagline": "Comprehensive preventive heart health solution scaled w/ AI",
+      "summary": "Empirical Health의 웹 버전 출시! 이제 AI 기반 심장 건강 관리 솔루션을 더 큰 화면에서 편리하게 이용하고, 혈액 검사 결과 확인, 의사 상담, 위험도 점수 확인 등을 앱 설치 없이 데스크탑이나 휴대폰에서 가능합니다.",
       "key_points": [
-        "서버 측 데이터 기반의 정확한 봇 트래픽 분석",
-        "AI 봇 (ChatGPT, Gemini, Claude 등) 트래픽 식별 및 분류",
-        "봇 프로필, 랭킹, AI 어시스턴트 트래픽 등 상세 정보 제공"
+        "100개 이상의 바이오마커 혈액 검사 결과 확인 가능",
+        "심장 마비 위험도 점수 확인 및 관리",
+        "의사에게 메시지 보내고, 실험실 검토 예약 가능"
       ],
       "tags": [
-        "AI 분석",
-        "봇 탐지",
-        "웹 분석",
-        "트래픽 분석",
-        "SEO",
-        "Agent",
-        "AI Tool",
-        "Chat",
-        "Analytics"
+        "건강",
+        "AI",
+        "심장 건강",
+        "웹앱",
+        "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "웹사이트의 실제 트래픽 구성을 정확하게 파악하고, 봇 트래픽으로 인한 왜곡을 제거하여 마케팅 및 SEO 전략을 최적화하는 데 도움을 줍니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "앱 설치 없이 데스크탑에서도 동일한 기능을 사용할 수 있어 더욱 편리하며, 특히 많은 양의 혈액 검사 결과를 큰 화면에서 쉽게 확인할 수 있습니다. 의사와의 상담 및 예약 기능도 웹에서 간편하게 이용 가능합니다.",
       "recommended_actions": [
-        "웹사이트에 Agent Monitor 설치 및 서버 측 데이터 연동",
-        "AI 봇 트래픽 비율 확인 및 트래픽 소스 분석",
-        "봇 트래픽 패턴 분석을 통한 웹사이트 보안 강화"
+        "혈액 검사 결과 확인하기",
+        "심장 마비 위험도 점수 확인하기",
+        "의사에게 메시지 보내기"
       ],
       "risks_and_limits": [
-        "서버 측 데이터 수집 및 처리에 따른 기술적 이해 필요",
-        "GA4 등 기존 분석 도구와의 데이터 비교 분석 필요"
+        "기존 Empirical Health iOS/Android 앱 사용자 대상 서비스 확장인지 확인 필요",
+        "AI 기반 심장 건강 관리의 정확도 및 신뢰성에 대한 사용자 후기 참고"
       ],
-      "uncertainty_note": "Agent Monitor의 정확도 및 특정 봇 식별 능력에 대한 추가적인 검증이 필요합니다.",
+      "uncertainty_note": "구체적인 웹 버전의 기능과 UI/UX 디자인에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
