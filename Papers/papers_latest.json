@@ -1,9 +1,9 @@
 {
   "source": "huggingface_papers",
   "date": "2026-02-18",
-  "generated_at": "2026-02-19T04:45:58.232256+09:00",
+  "generated_at": "2026-02-19T19:10:51.033679+09:00",
   "count": 5,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?\n📝 요약: 현재의 Sparse Autoencoder(SAE)는 모델 내부 메커니즘을 신뢰성 있게 분해하지 못하므로, SAE를 이용한 모델 해석에 신중해야 함.\n🔗 Hugging Face: https://huggingface.co/papers/2602.14111\n📄 arXiv: https://arxiv.org/abs/2602.14111\n\n📍 2. SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks\n📝 요약: LLM 에이전트에 절차적 지식을 제공하는 Skills가 실제로 도움이 되는지 벤치마크한 결과, 특정 도메인에서는 효과가 있지만, 직접 생성한 Skills는 효과가 없었음. 특히 작은 모델에서도 Skills를 활용하면 큰 모델의 성능을 따라잡을 수 있음.\n🔗 Hugging Face: https://huggingface.co/papers/2602.12670\n📄 arXiv: https://arxiv.org/abs/2602.12670\n\n📍 3. GLM-5: from Vibe Coding to Agentic Engineering\n📝 요약: GLM-5는 새로운 아키텍처와 강화 학습 방식을 통해 실제 소프트웨어 엔지니어링 작업에서 SOTA를 달성, vibe coding에서 agentic engineering으로의 전환을 가속화합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2602.15763\n📄 arXiv: https://arxiv.org/abs/2602.15763\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Papers/papers_2026-02-18.md",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Sanity Checks for Sparse Autoencoders: Do SAEs Beat Random Baselines?\n📝 요약: Sparse Autoencoder(SAE)가 모델 해석에 효과적인 도구인지 의문이 제기되며, 무작위(random) baseline과 비교했을 때 성능상 이점을 보이지 못한다는 연구 결과.\n🔗 Hugging Face: https://huggingface.co/papers/2602.14111\n📄 arXiv: https://arxiv.org/abs/2602.14111\n\n📍 2. SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks\n📝 요약: LLM 에이전트의 Skill 활용 효과를 측정하는 SkillsBench 벤치마크를 제시하며, 큐레이션된 Skill은 성능 향상에 기여하지만, 직접 생성된 Skill은 효과가 미미함을 보임. 특히 소프트웨어 엔지니어링 영역에서의 Skill 효과는 상대적으로 낮음.\n🔗 Hugging Face: https://huggingface.co/papers/2602.12670\n📄 arXiv: https://arxiv.org/abs/2602.12670\n\n📍 3. GLM-5: from Vibe Coding to Agentic Engineering\n📝 요약: 요약 정보 없음\n🔗 Hugging Face: https://huggingface.co/papers/2602.15763\n📄 arXiv: https://arxiv.org/abs/2602.15763\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Papers/papers_2026-02-18.md",
   "items": [
     {
       "rank": 1,
@@ -11,34 +11,38 @@
       "paper_id": "2602.14111",
       "url": "https://huggingface.co/papers/2602.14111",
       "arxiv_url": "https://arxiv.org/abs/2602.14111",
-      "upvotes": 50,
-      "summary": "현재의 Sparse Autoencoder(SAE)는 모델 내부 메커니즘을 신뢰성 있게 분해하지 못하므로, SAE를 이용한 모델 해석에 신중해야 함.",
+      "upvotes": 54,
+      "summary": "Sparse Autoencoder(SAE)가 모델 해석에 효과적인 도구인지 의문이 제기되며, 무작위(random) baseline과 비교했을 때 성능상 이점을 보이지 못한다는 연구 결과.",
+      "korean_abstract": "신경망의 내부 작동 방식을 해석하기 위해 Sparse Autoencoder(SAE)가 활발히 연구되고 있지만, 최근에는 SAE의 효용성에 대한 의문이 제기되고 있다. 본 연구에서는 SAE가 실제로 의미 있는 특징을 학습하는지 확인하기 위해, 합성 데이터와 실제 activation 데이터에 대한 평가를 진행했다. 합성 데이터 실험 결과, SAE는 분산 설명력이 높음에도 불구하고 실제 특징의 일부만 복원하는 데 그쳤다. 실제 activation 데이터에 대한 실험에서는 SAE의 feature 방향과 activation 패턴을 무작위로 설정한 baseline 모델이 fully-trained된 SAE와 유사한 성능을 보였다. 이는 현재 상태의 SAE가 모델의 내부 메커니즘을 안정적으로 분해하지 못한다는 것을 시사한다.",
       "key_points": [
-        "SAE가 모델 해석 도구로서 신뢰성이 낮음을 입증",
-        "합성 데이터와 실제 활성 데이터를 이용한 평가 방법론 제시",
-        "SAE 성능을 능가하는 랜덤 베이스라인 제시"
+        "SAE가 반드시 의미있는 feature를 학습하는 것은 아님",
+        "Random baseline이 SAE와 유사한 수준의 성능을 보일 수 있음",
+        "Interpretability, sparse probing, causal editing 등의 지표에서 random baseline이 SAE를 능가함"
       ],
       "tags": [
         "Interpretability",
         "Sparse Autoencoder",
-        "Neural Network",
-        "Model Analysis",
+        "Feature Extraction",
+        "Neural Networks",
         "Evaluation"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "모델 내부 동작을 파악하기 위해 SAE를 사용하려는 경우, 랜덤 베이스라인과 비교하여 성능 향상이 있는지 확인해야 하며, 현재 수준으로는 맹신해서는 안 됨.",
+      "practical_relevance": "모델 해석을 위해 SAE를 사용하는 경우, random baseline과의 비교를 통해 SAE가 실제로 유용한 정보를 제공하는지 검증해야 한다. SAE를 맹목적으로 신뢰하기보다, 다양한 해석 방법론을 탐색하고 결과를 신중하게 평가해야 한다.",
       "recommended_actions": [
-        "SAE를 사용할 때 랜덤 베이스라인과 비교하여 성능 검증",
-        "SAE의 해석 결과가 실제로 모델 동작과 일치하는지 확인",
-        "다른 모델 해석 방법과 함께 SAE 결과 분석"
+        "자체 모델에 대해 SAE를 학습시키고, random baseline과의 성능 비교를 수행",
+        "SAE가 학습한 feature들이 실제로 의미있는지 시각화 또는 추가적인 검증을 통해 확인",
+        "SAE의 hyperparameter (sparsity penalty 등) 튜닝을 통해 성능 향상 가능성 탐색"
       ],
       "risks_and_limits": [
-        "현재 SAE 아키텍처에 대한 평가 결과이며, 향후 개선된 SAE에서는 다를 수 있음",
-        "평가에 사용된 데이터셋과 모델에 따라 결과가 달라질 수 있음"
+        "본 연구는 특정 모델 및 데이터셋에 대한 결과이므로, 일반화에 어려움이 있을 수 있음",
+        "SAE의 성능은 architecture 및 학습 방법에 따라 크게 달라질 수 있음"
       ],
       "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.14111.png",
+      "local_image_path": "images/Sanity_Checks_for_Sparse_Autoencoders_Do_SAEs_Beat_Random_Baselines_img.jpg",
+      "local_figures": []
     },
     {
       "rank": 2,
@@ -46,36 +50,42 @@
       "paper_id": "2602.12670",
       "url": "https://huggingface.co/papers/2602.12670",
       "arxiv_url": "https://arxiv.org/abs/2602.12670",
-      "upvotes": 34,
-      "summary": "LLM 에이전트에 절차적 지식을 제공하는 Skills가 실제로 도움이 되는지 벤치마크한 결과, 특정 도메인에서는 효과가 있지만, 직접 생성한 Skills는 효과가 없었음. 특히 작은 모델에서도 Skills를 활용하면 큰 모델의 성능을 따라잡을 수 있음.",
+      "upvotes": 43,
+      "summary": "LLM 에이전트의 Skill 활용 효과를 측정하는 SkillsBench 벤치마크를 제시하며, 큐레이션된 Skill은 성능 향상에 기여하지만, 직접 생성된 Skill은 효과가 미미함을 보임. 특히 소프트웨어 엔지니어링 영역에서의 Skill 효과는 상대적으로 낮음.",
+      "korean_abstract": "LLM 에이전트의 Skill 활용이 증가하고 있지만, 실제 효과를 측정하는 표준 방법이 부족합니다. 이에 다양한 도메인의 86개 task와 큐레이션된 Skill, 결정론적 검증기로 구성된 SkillsBench 벤치마크를 제시합니다. 실험 결과, 큐레이션된 Skill은 평균적으로 성능을 향상시키지만, 도메인별 편차가 크고 일부 task에서는 오히려 성능이 저하되는 현상이 나타났습니다. 또한, 에이전트가 직접 생성한 Skill은 유의미한 이점을 제공하지 못했습니다. 이는 모델이 소비하는 절차적 지식을 스스로 작성하는 데 어려움이 있음을 시사합니다. 핵심적으로, 작고 집중된 Skill이 포괄적인 문서보다 효과적이며, Skill을 활용한 작은 모델이 Skill 없이 큰 모델과 비슷한 성능을 낼 수 있습니다.",
       "key_points": [
-        "큐레이션된 Skills는 LLM 에이전트의 성능 향상에 기여 (평균 16.2% 향상)",
-        "자체 생성 Skills는 효과가 없으며, 모델이 스스로 절차적 지식을 생성하는 데 어려움이 있음",
-        "Focused Skills가 포괄적인 문서보다 효과적이며, 작은 모델에서도 Skills를 통해 큰 모델 수준의 성능을 달성 가능"
+        "LLM 에이전트의 Skill 활용 효과를 측정하는 SkillsBench 벤치마크 제시",
+        "큐레이션된 Skill은 성능 향상에 기여하나, 도메인별 편차가 큼",
+        "에이전트가 직접 생성한 Skill은 효과가 미미함"
       ],
       "tags": [
         "Agent",
-        "Benchmark",
         "LLM",
+        "Benchmark",
         "Skills",
         "RAG",
         "Evaluation",
         "Inference"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 에이전트를 사용하는 개발자는 큐레이션된 Skills를 활용하여 특정 작업의 성능을 향상시킬 수 있으며, 특히 작은 모델의 성능을 개선하는 데 유용하게 사용할 수 있습니다. 자체 Skills를 생성하기보다 기존의 큐레이션된 Skills를 활용하는 것이 효과적입니다.",
+      "practical_relevance": "LLM 에이전트 기반 개발 시 Skill의 효과적인 활용 방안을 평가하고, 어떤 Skill을 큐레이션하고 어떤 Skill을 모델에게 맡길지 결정하는 데 도움이 됩니다.",
       "recommended_actions": [
-        "기존 LLM 에이전트 워크플로우에 SkillsBench 데이터셋의 큐레이션된 Skills를 통합하여 성능 향상 실험",
-        "자체 생성 Skills 대신 이미 검증된 Skills를 우선적으로 활용",
-        "작은 모델에 Skills를 적용하여 성능 향상 정도를 측정하고, 큰 모델과의 성능 차이를 비교 분석"
+        "자체 LLM 에이전트에 SkillsBench 벤치마크를 적용하여 Skill 효과 측정",
+        "소프트웨어 엔지니어링 도메인 특화 Skill 개발 및 큐레이션 전략 수립",
+        "모델 크기별 Skill 활용 효과 비교 실험"
       ],
       "risks_and_limits": [
-        "SkillsBench는 특정 도메인에 편향되어 있을 수 있으며, 모든 작업에 일반화하기 어려울 수 있음",
-        "큐레이션된 Skills의 품질에 따라 성능 향상 효과가 크게 달라질 수 있음"
+        "SkillsBench의 task 구성이 실제 개발 환경과 차이가 있을 수 있음",
+        "특정 모델 아키텍처 및 데이터셋에 편향되었을 가능성 존재"
       ],
       "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.12670.png",
+      "local_image_path": "images/SkillsBench_Benchmarking_How_Well_Agent_Skills_Work_Across_Diverse_Tasks_img.jpg",
+      "local_figures": [
+        "images/SkillsBench_Benchmarking_How_Well_Agent_Skills_Wor_fig_1.png"
+      ]
     },
     {
       "rank": 3,
@@ -83,37 +93,27 @@
       "paper_id": "2602.15763",
       "url": "https://huggingface.co/papers/2602.15763",
       "arxiv_url": "https://arxiv.org/abs/2602.15763",
-      "upvotes": 29,
-      "summary": "GLM-5는 새로운 아키텍처와 강화 학습 방식을 통해 실제 소프트웨어 엔지니어링 작업에서 SOTA를 달성, vibe coding에서 agentic engineering으로의 전환을 가속화합니다.",
-      "key_points": [
-        "DSA를 활용한 학습 및 추론 비용 절감",
-        "비동기 강화 학습 인프라를 통한 post-training 효율성 향상",
-        "실제 코딩 작업에서 SOTA 성능 달성"
-      ],
+      "upvotes": 42,
+      "summary": null,
+      "korean_abstract": null,
+      "key_points": [],
       "tags": [
         "Agent",
-        "Coding",
-        "Reinforcement Learning",
-        "Foundation Model",
         "Reasoning",
         "Benchmark",
         "Inference",
         "Safety"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "GLM-5는 end-to-end 소프트웨어 엔지니어링 문제 해결 능력이 뛰어나므로, 개발자는 이를 통해 자동화된 코딩 및 문제 해결 프로세스를 구축하여 생산성을 향상시킬 수 있습니다.",
-      "recommended_actions": [
-        "제공된 GitHub 저장소에서 모델 및 코드 확인",
-        "간단한 코딩 작업을 통해 GLM-5의 성능 테스트",
-        "기존 개발 workflow에 GLM-5를 통합할 수 있는 방법 연구"
-      ],
-      "risks_and_limits": [
-        "새로운 아키텍처인 DSA의 이해 및 적용 필요",
-        "비동기 강화 학습의 안정성 및 수렴 문제 가능성"
-      ],
+      "practical_relevance": null,
+      "recommended_actions": [],
+      "risks_and_limits": [],
       "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.15763.png",
+      "local_image_path": "images/GLM-5_from_Vibe_Coding_to_Agentic_Engineering_img.jpg",
+      "local_figures": []
     },
     {
       "rank": 4,
@@ -121,70 +121,79 @@
       "paper_id": "2602.14299",
       "url": "https://huggingface.co/papers/2602.14299",
       "arxiv_url": "https://arxiv.org/abs/2602.14299",
-      "upvotes": 20,
-      "summary": "AI 에이전트 사회가 인간 사회와 유사한 사회화 과정을 겪는지 대규모로 분석하고, 상호 작용 밀도가 높더라도 공유된 사회적 기억이 없으면 사회화가 발생하지 않음을 밝혀냄.",
+      "upvotes": 24,
+      "summary": "대규모 AI 에이전트 사회에서 상호작용 밀도가 높더라도 공유된 사회적 기억이 없으면 사회화가 발생하지 않으며, 이는 차세대 AI 에이전트 사회 설계에 중요한 시사점을 제공합니다.",
+      "korean_abstract": "대규모 언어 모델 에이전트가 네트워크 환경에 널리 퍼짐에 따라, AI 에이전트 사회가 인간 사회와 유사한 수렴 역학을 보이는지 묻는 근본적인 질문이 제기됩니다. 본 연구에서는 자율 에이전트가 개방적이고 지속적으로 진화하는 온라인 사회에 참여하는 Moltbook을 사례 연구로 삼아, 이 AI 에이전트 사회에 대한 최초의 대규모 체계적 진단을 제시합니다. AI 에이전트 사회의 동적 진화를 측정하기 위해 의미론적 안정화, 어휘 회전율, 개인 관성, 영향력 지속성, 집단 합의를 정량적으로 진단하는 프레임워크를 도입했습니다. 분석 결과, Moltbook 사회는 전반적인 의미론적 평균은 빠르게 안정화되지만 개별 에이전트는 높은 다양성과 지속적인 어휘 변화를 유지하며, 상호 영향과 합의 형성에 실패하는 동적 균형 상태임을 밝혀냈습니다. 따라서 영향력은 일시적이며, 공유된 사회적 기억의 부재로 인해 안정적인 집단 영향력의 기반을 형성하지 못합니다.",
       "key_points": [
-        "AI 에이전트 사회의 역동적 진화를 측정하는 정량적 진단 프레임워크 제시",
-        "Moltbook 환경에서 AI 에이전트 사회의 대규모 시스템 진단 수행",
-        "상호 작용 밀도만으로는 사회화를 유도하기 어렵고, 공유된 사회적 기억이 중요함을 밝힘"
+        "대규모 AI 에이전트 사회의 동적 진화를 진단하는 정량적 프레임워크 제시",
+        "Moltbook AI 에이전트 사회에서 의미론적 안정화와 개별 에이전트의 다양성 공존 확인",
+        "상호작용 밀도만으로는 사회화를 유도하기 어렵고, 공유된 사회적 기억이 중요함을 밝힘"
       ],
       "tags": [
         "Agent",
         "Socialization",
         "LLM",
-        "AI Society",
+        "Simulation",
+        "Dynamics",
         "RAG"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "AI 에이전트 기반 시스템 설계 시, 단순한 상호 작용을 넘어 공유된 사회적 기억을 구축하는 것이 중요함을 알려준다. 이는 협업, 커뮤니티 형성 등 사회적 기능을 필요로 하는 에이전트 시스템 개발에 직접적인 영향을 미친다.",
+      "practical_relevance": "AI 에이전트 기반 시스템을 구축할 때, 단순히 많은 에이전트를 상호작용시키는 것만으로는 원하는 사회적 행동이 발생하지 않을 수 있습니다. 공유된 지식 기반 또는 사회적 기억을 설계에 반영해야 합니다.",
       "recommended_actions": [
-        "에이전트 간의 상호 작용 패턴을 분석하여 영향력 전파 메커니즘 연구",
-        "공유 메모리(예: 지식 그래프)를 도입하여 에이전트 사회의 합의 형성 및 정보 공유 실험",
-        "에이전트의 개별적 특성(학습률, 정보 탐색 전략 등)이 사회적 행동에 미치는 영향 분석"
+        "에이전트 간의 상호작용에 사회적 기억 메커니즘(예: 공유된 지식 그래프 업데이트)을 추가하여 영향력 지속성을 실험해보기",
+        "에이전트의 '개인 관성'을 조절하는 파라미터를 도입하고, 상호작용 빈도에 따른 적응 정도를 측정해보기",
+        "에이전트의 초기 개성을 다양화하고, 시간이 지남에 따라 사회적 합의가 발생하는지 시뮬레이션해보기"
       ],
       "risks_and_limits": [
-        "Moltbook 환경의 특성이 일반적인 AI 에이전트 사회를 대표하지 못할 수 있음",
-        "제시된 진단 프레임워크가 사회화의 모든 측면을 포괄하지 못할 수 있음"
+        "Moltbook이라는 특정 플랫폼에 대한 분석 결과이므로, 다른 환경에서도 동일한 결과가 나타날지는 불확실함",
+        "사회화의 정의와 측정 방식에 따라 결과가 달라질 수 있음"
       ],
       "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.14299.png",
+      "local_image_path": "images/Does_Socialization_Emerge_in_AI_Agent_Society_A_Case_Study_of_Moltbook_img.jpg",
+      "local_figures": []
     },
     {
       "rank": 5,
-      "title": "ResearchGym: Evaluating Language Model Agents on Real-World AI Research",
-      "paper_id": "2602.15112",
-      "url": "https://huggingface.co/papers/2602.15112",
-      "arxiv_url": "https://arxiv.org/abs/2602.15112",
-      "upvotes": 13,
-      "summary": "AI 에이전트의 연구 능력을 평가하는 새로운 벤치마크 ResearchGym 공개: 실제 연구 환경에서의 에이전트 성능을 체계적으로 평가하고 개선하는 데 기여.",
+      "title": "UniT: Unified Multimodal Chain-of-Thought Test-time Scaling",
+      "paper_id": "2602.12279",
+      "url": "https://huggingface.co/papers/2602.12279",
+      "arxiv_url": "https://arxiv.org/abs/2602.12279",
+      "upvotes": 19,
+      "summary": "단일 통합 모델에서 멀티모달 추론 성능을 획기적으로 향상시키는 UniT 프레임워크를 제안하며, 특히 복잡한 시각적 추론 작업에서 더 나은 성능을 제공합니다.",
+      "korean_abstract": "최근 통합 모델은 멀티모달 이해 및 생성을 동시에 처리할 수 있지만, 복잡한 추론 과정을 반복적으로 수행하는 데 어려움이 있습니다. 이러한 문제를 해결하기 위해 본 논문에서는 멀티모달 Chain-of-Thought 테스트 타임 스케일링(TTS) 프레임워크인 UniT를 제안합니다. UniT는 에이전트 기반 데이터 합성, 통합 모델 학습, 유연한 테스트 타임 추론을 결합하여 검증, 목표 분해, 내용 기억과 같은 인지 행동을 유도합니다. 실험 결과, 짧은 추론 궤적으로 학습된 통합 모델이 더 긴 추론 체인으로 일반화될 수 있으며, 순차적 Chain-of-Thought 추론이 병렬 샘플링보다 확장 가능하고 컴퓨팅 효율적인 TTS 전략임을 입증했습니다. 또한, 생성 및 편집 궤적 학습이 Out-of-Distribution 시각적 추론을 개선함을 확인했습니다.",
       "key_points": [
-        "AI 에이전트의 연구 능력을 평가하는 ResearchGym 벤치마크 및 실행 환경 제시",
-        "실제 연구 논문을 기반으로 39개의 하위 작업으로 구성된 컨테이너화된 환경 제공",
-        "GPT-5 기반 에이전트 평가 결과, 능력 대비 신뢰성 격차 및 장기적인 실패 패턴 확인"
+        "멀티모달 Chain-of-Thought 테스트 타임 스케일링 (TTS) 프레임워크 UniT 제안",
+        "에이전트 기반 데이터 합성, 통합 모델 학습, 유연한 테스트 타임 추론 결합",
+        "순차적 Chain-of-Thought 추론이 병렬 샘플링보다 효율적인 TTS 전략임을 입증"
       ],
       "tags": [
         "Agent",
-        "Benchmark",
-        "Evaluation",
-        "Research Automation",
-        "LLM",
-        "RAG"
+        "Multimodal",
+        "Reasoning",
+        "Scaling",
+        "CoT",
+        "Inference"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "소프트웨어 엔지니어는 ResearchGym을 활용하여 AI 에이전트의 연구 자동화 및 문제 해결 능력을 평가하고 개선할 수 있으며, 이는 코드 생성, 버그 수정, 새로운 알고리즘 탐색 등 다양한 개발 프로세스 자동화에 적용될 수 있다.",
+      "practical_relevance": "UniT는 복잡한 멀티모달 태스크에서 추론 능력을 향상시켜, 시각적 질의 응답, 이미지 편집 등 다양한 애플리케이션의 성능을 개선하는 데 기여할 수 있습니다. 특히, 에이전트 기반 데이터 합성을 통해 추가 데이터 없이 모델 성능을 높일 수 있다는 점이 실용적입니다.",
       "recommended_actions": [
-        "ResearchGym 환경을 구축하고, 기존 모델(예: GPT-3.5, Llama 2)을 사용하여 에이전트 성능 테스트",
-        "ResearchGym에서 제시된 실패 패턴(시간 관리, 자원 관리, 과도한 자신감 등)을 해결하기 위한 에이전트 설계 개선",
-        "자체 연구 데이터셋을 활용하여 ResearchGym 환경을 확장하고, 특정 개발 작업에 특화된 에이전트 벤치마크 구축"
+        "UniT 프레임워크를 기존 멀티모달 모델에 적용하여 성능 향상 실험",
+        "에이전트 기반 데이터 합성을 통해 학습 데이터 증강 효과 확인",
+        "다양한 멀티모달 태스크 (VQA, 이미지 편집)에서 UniT 성능 평가"
       ],
       "risks_and_limits": [
-        "평가에 사용된 논문의 수가 제한적이며, 특정 연구 분야에 편향될 수 있음",
-        "에이전트의 성능은 사용된 LLM 모델에 크게 의존하며, 모델의 한계가 그대로 반영될 수 있음"
+        "UniT 프레임워크 구현 및 학습에 상당한 컴퓨팅 자원 필요",
+        "에이전트 기반 데이터 합성 과정에서 편향된 데이터 생성 가능성 존재"
       ],
       "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.12279.png",
+      "local_image_path": "images/UniT_Unified_Multimodal_Chain-of-Thought_Test-time_Scaling_img.jpg",
+      "local_figures": []
     }
   ]
 }
