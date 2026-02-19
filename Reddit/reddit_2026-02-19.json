@@ -1,9 +1,9 @@
 {
   "source": "reddit",
   "date": "2026-02-19",
-  "generated_at": "2026-02-19T12:38:16.539330+09:00",
+  "generated_at": "2026-02-19T12:41:24.482390+09:00",
   "count": 6,
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA Announcement: StepFun AI, The Opensource Lab Behind Step-3.5-Flash Model (Thursday, 8AM-11AM PST)\nr/LocalLLaMA | 👍 70 | 💬 10\n📝 요약: r/LocalLLaMA 커뮤니티에서 StepFun AI 팀의 AMA(Ask Me Anything)가 예정되어 있으며, Step-3.5-Flash 모델 개발에 대한 질의응답이 진행될 예정입니다. 사용자들은 더 가벼운 버전의 모델과 추론 최적화 전략에 대한 질문을 할 것으로 예상되며, 모델의 성능에 대한 긍정적인 반응과 함께 향후 개선 사항에 대한 의견도 제시되고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r60qu9/ama_announcement_stepfun_ai_the_opensource_lab/\n\n🔥 2. Best Audio Models - Feb 2026\nr/LocalLLaMA | 👍 79 | 💬 42\n📝 요약: r/LocalLLaMA 커뮤니티에서 2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 TTS 모델에 대한 관심이 높습니다. Qwen3 TTS 외에도 Chatterbox, F5 TTS, VibeVoice, MOSS-TTS, Supertonic 등이 언급되었으며, 사용 사례와 설정에 대한 자세한 설명과 함께 오픈 웨이트 모델에 대한 선호도가 나타났습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/\n\n🔥 3. I plugged a $30 radio into my Mac mini and told my AI \"connect to this\" — now I control my smart home and send voice messages over radio with zero internet\nr/LocalLLaMA | 👍 252 | 💬 56\n📝 요약: 우크라이나의 사용자가 전력망 공격으로 인한 인터넷 단절 상황에서 로컬 LLM과 Meshtastic 라디오를 활용하여 스마트 홈을 제어하는 시스템을 구축했습니다. OpenClaw AI 에이전트가 라디오를 통해 메시지를 수신하고, 인터넷 연결 상태에 따라 로컬 모델 또는 클라우드 AI로 라우팅하며, Home Assistant를 통해 스마트 홈 기기를 제어합니다. 커뮤니티에서는 보안 문제와 활용 가능성에 대한 다양한 의견이 제시되었습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8ectu/i_plugged_a_30_radio_into_my_mac_mini_and_told_my/\n\n🔥 4. GPT5.2 Pro derived a new result in theoretical physics\nr/Singularity | 👍 679 | 💬 160\n📝 요약: r/Singularity 커뮤니티에서 GPT-5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 게시글이 화제입니다. 사용자들은 AI의 발전 가능성에 놀라워하면서도, 기존 연구와의 연관성 및 AI의 사고방식에 대한 논쟁을 벌이고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/\n\n🔥 5. Atlas the humanoid robot shows off new skills\nr/Singularity | 👍 3567 | 💬 461\n📝 요약: 보스턴 다이내믹스의 아틀라스 로봇이 새로운 기술을 선보여 Reddit r/Singularity 커뮤니티에서 큰 화제가 되었습니다. 사용자들은 로봇의 운동 능력에 감탄하며 미래 공장의 모습과 격투 게임의 피니시 동작을 연상시키는 등 다양한 반응을 보였습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1qxhcbl/atlas_the_humanoid_robot_shows_off_new_skills/\n\n🔥 6. New Gemini model imminent\nr/Singularity | 👍 145 | 💬 29\n📝 요약: r/Singularity 커뮤니티에서 새로운 Gemini 모델 출시가 임박했다는 게시글이 올라왔습니다. 사용자들은 모델 이름 언급을 통해 이를 예측하고 있으며, 빠른 기술 발전 속도에 주목하고 있습니다. 하지만 벤치마킹에 치중하여 실제 사용 사례에서의 유용성이 떨어질 수 있다는 우려도 제기되고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r8mjwo/new_gemini_model_imminent/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Reddit/reddit_2026-02-19.md",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA Announcement: StepFun AI, The Opensource Lab Behind Step-3.5-Flash Model (Thursday, 8AM-11AM PST)\nr/LocalLLaMA | 👍 70 | 💬 10\n📝 요약: r/LocalLLaMA 커뮤니티에서 StepFun AI 팀의 AMA(Ask Me Anything)가 예정되어 있으며, Step-3.5-Flash 모델 개발에 대한 질의응답이 진행될 예정입니다. 사용자들은 더 가벼운 버전의 모델과 추론 최적화 전략에 대한 질문을 준비하고 있으며, 모델의 성능과 효율성에 대한 기대감을 나타내고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r60qu9/ama_announcement_stepfun_ai_the_opensource_lab/\n\n🔥 2. Best Audio Models - Feb 2026\nr/LocalLLaMA | 👍 78 | 💬 42\n📝 요약: r/LocalLLaMA 커뮤니티에서 2026년 2월 최고의 오디오 모델에 대한 논의가 활발하게 이루어지고 있다. Qwen3 TTS를 비롯한 다양한 모델이 언급되었으며, 특히 오픈 소스 TTS 모델과 관련된 경험 및 추천이 공유되고 있다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/\n\n🔥 3. I plugged a $30 radio into my Mac mini and told my AI \"connect to this\" — now I control my smart home and send voice messages over radio with zero internet\nr/LocalLLaMA | 👍 254 | 💬 56\n📝 요약: 우크라이나 전쟁 중 정전으로 인해 스마트 홈 시스템이 작동하지 않게 된 사용자가, 로컬 LLM과 라디오를 연결하여 인터넷 없이도 스마트 홈을 제어하고 음성 메시지를 보낼 수 있는 시스템을 구축했습니다. OpenClaw AI 에이전트를 사용하여 Meshtastic 라디오를 제어하고, Home Assistant와 연동하여 조명 제어 및 센서 데이터 확인이 가능하며, 커뮤니티에서는 보안 문제와 활용 가능성에 대한 다양한 의견이 제시되었습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8ectu/i_plugged_a_30_radio_into_my_mac_mini_and_told_my/\n\n🔥 4. GPT5.2 Pro derived a new result in theoretical physics\nr/Singularity | 👍 681 | 💬 160\n📝 요약: GPT-5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 내용의 Reddit 게시글입니다. 커뮤니티에서는 AI의 발전 가능성에 대한 기대와 함께, 이미 80년대에 발견된 내용이라는 반론도 제기되고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/\n\n🔥 5. Atlas the humanoid robot shows off new skills\nr/Singularity | 👍 3560 | 💬 461\n📝 요약: 보스턴 다이내믹스의 휴머노이드 로봇 Atlas가 새로운 기술을 선보여 Reddit r/Singularity 커뮤니티에서 큰 호응을 얻고 있습니다. 사용자들은 Atlas의 운동 능력과 제어 능력에 감탄하며, 미래 공장의 모습과 격투 게임의 'FATALITY' 장면을 연상시키는 등 다양한 반응을 보였습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1qxhcbl/atlas_the_humanoid_robot_shows_off_new_skills/\n\n🔥 6. New Gemini model imminent\nr/Singularity | 👍 150 | 💬 30\n📝 요약: r/Singularity 커뮤니티에서 새로운 Gemini 모델 출시가 임박했다는 게시글이 올라왔습니다. 사용자들은 모델 이름 언급을 통해 이를 추측하며, 빠른 기술 발전 속도에 주목하고 있습니다. 하지만 일부 사용자는 실제 사용 사례에서의 유용성보다 벤치마킹에 우선순위를 두는 것에 대한 우려를 표명하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r8mjwo/new_gemini_model_imminent/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Reddit/reddit_2026-02-19.md",
   "items": [
     {
       "source": "reddit",
@@ -14,11 +14,11 @@
       "score": "70",
       "comments_count": 10,
       "pub_date": "2026-02-16T05:11:16",
-      "korean_summary": "r/LocalLLaMA 커뮤니티에서 StepFun AI 팀의 AMA(Ask Me Anything)가 예정되어 있으며, Step-3.5-Flash 모델 개발에 대한 질의응답이 진행될 예정입니다. 사용자들은 더 가벼운 버전의 모델과 추론 최적화 전략에 대한 질문을 할 것으로 예상되며, 모델의 성능에 대한 긍정적인 반응과 함께 향후 개선 사항에 대한 의견도 제시되고 있습니다.",
+      "korean_summary": "r/LocalLLaMA 커뮤니티에서 StepFun AI 팀의 AMA(Ask Me Anything)가 예정되어 있으며, Step-3.5-Flash 모델 개발에 대한 질의응답이 진행될 예정입니다. 사용자들은 더 가벼운 버전의 모델과 추론 최적화 전략에 대한 질문을 준비하고 있으며, 모델의 성능과 효율성에 대한 기대감을 나타내고 있습니다.",
       "key_points": [
         "StepFun AI 팀이 Step-3.5-Flash 모델 관련 AMA를 진행하며, 2월 19일 오전 8시부터 11시(PST)에 별도 스레드에서 진행됩니다.",
-        "사용자들은 모델의 경량화 버전 개발 계획에 대한 질문과 함께, seed-oss 또는 gpt-oss와 유사한 사고 예산 설정 기능 추가에 대한 의견을 제시했습니다.",
-        "Step-3.5-Flash 모델은 속도와 품질 면에서 Qwen 및 Claude 모델과 경쟁력이 있으며, 양자화 접근 방식 및 추론 최적화 전략에 대한 질문이 예상됩니다."
+        "사용자들은 Step-3.5-Flash 모델의 경량화 버전 개발 계획에 대한 질문과 더불어, 양자화 접근 방식 및 추론 최적화 전략에 대한 질문을 준비하고 있습니다.",
+        "Step-3.5-Flash 모델은 속도와 품질 면에서 Qwen 및 Claude 모델과 경쟁력을 갖추고 있다는 평가를 받고 있으며, 사용자들은 모델의 '큰 모델 향기'와 유사한 고급스러운 성능에 만족감을 표하고 있습니다."
       ]
     },
     {
@@ -27,14 +27,13 @@
       "title": "Best Audio Models - Feb 2026",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/",
       "external_link": null,
-      "score": "79",
+      "score": "78",
       "comments_count": 42,
       "pub_date": "2026-02-17T17:01:37",
-      "korean_summary": "r/LocalLLaMA 커뮤니티에서 2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 TTS 모델에 대한 관심이 높습니다. Qwen3 TTS 외에도 Chatterbox, F5 TTS, VibeVoice, MOSS-TTS, Supertonic 등이 언급되었으며, 사용 사례와 설정에 대한 자세한 설명과 함께 오픈 웨이트 모델에 대한 선호도가 나타났습니다.",
+      "korean_summary": "r/LocalLLaMA 커뮤니티에서 2026년 2월 최고의 오디오 모델에 대한 논의가 활발하게 이루어지고 있다. Qwen3 TTS를 비롯한 다양한 모델이 언급되었으며, 특히 오픈 소스 TTS 모델과 관련된 경험 및 추천이 공유되고 있다.",
       "key_points": [
-        "Qwen3 TTS를 포함한 다양한 TTS 모델(Chatterbox, F5 TTS, VibeVoice, MOSS-TTS, Supertonic)이 언급되었으며, MOSS-TTS는 프롬프트 기반 음향 효과 생성 기능이 특징입니다.",
-        "Elevenlabs v3와 같은 폐쇄형 모델이 긴 길이/안정성 요구 사항이 있는 프로덕션 사용 사례에서 오픈 소스 모델보다 우수한 성능을 보이는 것으로 평가됩니다.",
-        "TTS 모델을 쉽게 사용하기 위한 ComfyUI 기반 TTS-Audio-Suite 소프트웨어와, 더 작은 오디오 모델에 대한 필요성이 제기되었습니다."
+        "음성 감지, ASR, TTS, TTM 모델로 marblenet, parakeet, chatterbox, ace-step 등이 언급되었으며, Chatterbox, F5 TTS, VibeVoice 등을 포함하는 TTS 오디오 스위트가 소개되었다.",
+        "Qwen3-TTS 외에 MOSS-TTS가 음향 효과 생성 기능으로 주목받고 있으며, Supertonic과 같이 작고 빠른 모델도 기본적인 음성 합성에 유용하다는 의견이 제시되었다."
       ]
     },
     {
@@ -43,14 +42,14 @@
       "title": "I plugged a $30 radio into my Mac mini and told my AI \"connect to this\" — now I control my smart home and send voice messages over radio with zero internet",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r8ectu/i_plugged_a_30_radio_into_my_mac_mini_and_told_my/",
       "external_link": null,
-      "score": "252",
+      "score": "254",
       "comments_count": 56,
       "pub_date": "2026-02-18T20:30:14",
-      "korean_summary": "우크라이나의 사용자가 전력망 공격으로 인한 인터넷 단절 상황에서 로컬 LLM과 Meshtastic 라디오를 활용하여 스마트 홈을 제어하는 시스템을 구축했습니다. OpenClaw AI 에이전트가 라디오를 통해 메시지를 수신하고, 인터넷 연결 상태에 따라 로컬 모델 또는 클라우드 AI로 라우팅하며, Home Assistant를 통해 스마트 홈 기기를 제어합니다. 커뮤니티에서는 보안 문제와 활용 가능성에 대한 다양한 의견이 제시되었습니다.",
+      "korean_summary": "우크라이나 전쟁 중 정전으로 인해 스마트 홈 시스템이 작동하지 않게 된 사용자가, 로컬 LLM과 라디오를 연결하여 인터넷 없이도 스마트 홈을 제어하고 음성 메시지를 보낼 수 있는 시스템을 구축했습니다. OpenClaw AI 에이전트를 사용하여 Meshtastic 라디오를 제어하고, Home Assistant와 연동하여 조명 제어 및 센서 데이터 확인이 가능하며, 커뮤니티에서는 보안 문제와 활용 가능성에 대한 다양한 의견이 제시되었습니다.",
       "key_points": [
-        "전쟁 중 인터넷 단절 상황에서 로컬 LLM과 라디오 통신을 결합하여 스마트 홈을 제어하는 오프라인 시스템 구축",
-        "OpenClaw AI 에이전트가 Meshtastic 라디오를 인식하고, 메시지를 라우팅하며, Home Assistant와 연동하여 스마트 홈 기기를 제어하는 자동화된 파이썬 데몬 생성",
-        "커뮤니티에서는 보안 취약점, 암호화 방식, 그리고 다른 사용자와의 통신 가능성 등에 대한 질문과 우려가 제기됨"
+        "사용자는 Lilygo T-Echo 라디오와 OpenClaw AI 에이전트를 사용하여 인터넷 연결 없이 로컬 LLM(phi4-mini, gemma3:12b)을 통해 스마트 홈 기기를 제어하고, 텍스트 음성 변환(TTS) 기능을 통해 음성 메시지를 전송할 수 있도록 시스템을 구축했습니다.",
+        "OpenClaw는 Meshtastic 장치를 식별하고 CLI를 설치, 암호화된 채널을 구성하며, 인터넷 연결 상태에 따라 Discord 또는 로컬 모델로 메시지를 라우팅하는 Python 리스너 데몬을 자동으로 구축했습니다. 또한, Home Assistant와 연동하여 스마트 홈 제어를 가능하게 합니다.",
+        "커뮤니티에서는 이 시스템의 보안 취약점(OpenClaw의 위험성)과 잠재적인 도청 가능성에 대한 우려가 제기되었으며, 다른 사용자들은 유사한 시스템을 자녀에게 적용하거나, Meshtastic 네트워크 범위에 대한 질문을 하는 등 다양한 반응을 보였습니다."
       ]
     },
     {
@@ -59,14 +58,14 @@
       "title": "GPT5.2 Pro derived a new result in theoretical physics",
       "url": "https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/",
       "external_link": null,
-      "score": "679",
+      "score": "681",
       "comments_count": 160,
       "pub_date": "2026-02-13T19:24:31",
-      "korean_summary": "r/Singularity 커뮤니티에서 GPT-5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 게시글이 화제입니다. 사용자들은 AI의 발전 가능성에 놀라워하면서도, 기존 연구와의 연관성 및 AI의 사고방식에 대한 논쟁을 벌이고 있습니다.",
+      "korean_summary": "GPT-5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 내용의 Reddit 게시글입니다. 커뮤니티에서는 AI의 발전 가능성에 대한 기대와 함께, 이미 80년대에 발견된 내용이라는 반론도 제기되고 있습니다.",
       "key_points": [
-        "GPT-5.2 Pro가 이론 물리학 분야에서 새로운 결과를 얻어냈으며, 이는 arXiv 논문 및 OpenAI 블로그를 통해 공개되었습니다.",
-        "커뮤니티에서는 AI가 인간의 이해를 뛰어넘는 물리학적 문제를 해결하는 능력에 대해 긍정적인 반응을 보였지만, 일부 사용자는 해당 결과가 이미 1980년대에 발견된 내용이라는 주장을 제기했습니다.",
-        "일부 사용자는 GPT를 활용하여 연구를 가속화한 경험을 공유하며, AI가 특정 문제 해결에 유용하지만 창의적인 사고에는 한계가 있을 수 있다는 의견을 제시했습니다."
+        "GPT-5.2 Pro가 이론 물리학 분야에서 새로운 결과를 얻었으며, 이는 트위터, 논문, 블로그 게시물을 통해 공유되었습니다.",
+        "커뮤니티 반응은 긍정적이며, AI가 인간의 이해를 넘어서는 물리학적 문제를 해결할 수 있다는 점에 주목하고 있습니다. 일부 사용자는 GPT를 활용하여 연구 속도를 가속화했다고 언급했습니다.",
+        "일부에서는 해당 결과가 이미 과거에 발표된 내용이라는 주장이 제기되었으며, AI의 'outside the box thinking' 능력에 대한 의문도 제기되었습니다."
       ]
     },
     {
@@ -75,13 +74,14 @@
       "title": "Atlas the humanoid robot shows off new skills",
       "url": "https://www.reddit.com/r/singularity/comments/1qxhcbl/atlas_the_humanoid_robot_shows_off_new_skills/",
       "external_link": null,
-      "score": "3567",
+      "score": "3560",
       "comments_count": 461,
       "pub_date": "2026-02-06T13:16:26",
-      "korean_summary": "보스턴 다이내믹스의 아틀라스 로봇이 새로운 기술을 선보여 Reddit r/Singularity 커뮤니티에서 큰 화제가 되었습니다. 사용자들은 로봇의 운동 능력에 감탄하며 미래 공장의 모습과 격투 게임의 피니시 동작을 연상시키는 등 다양한 반응을 보였습니다.",
+      "korean_summary": "보스턴 다이내믹스의 휴머노이드 로봇 Atlas가 새로운 기술을 선보여 Reddit r/Singularity 커뮤니티에서 큰 호응을 얻고 있습니다. 사용자들은 Atlas의 운동 능력과 제어 능력에 감탄하며, 미래 공장의 모습과 격투 게임의 'FATALITY' 장면을 연상시키는 등 다양한 반응을 보였습니다.",
       "key_points": [
-        "아틀라스 로봇의 향상된 운동 능력과 제어 능력은 다른 로봇에 비해 매우 인상적이라는 평가를 받았습니다.",
-        "사용자들은 아틀라스 로봇의 움직임을 보며 미래 공장에서 로봇들이 벽을 뛰어넘고 공중 곡예를 하는 모습을 상상했습니다."
+        "Atlas 로봇의 향상된 운동 능력과 균형 감각이 사용자들에게 깊은 인상을 남겼으며, 인간보다 뛰어난 운동 능력에 대한 자조적인 반응도 있었습니다.",
+        "미래 공장에서 Atlas와 같은 로봇들이 벽을 뛰어넘고 공중제비를 하는 모습이 상상력을 자극하며, 로봇 기술 발전의 미래에 대한 기대감을 높였습니다.",
+        "Atlas의 움직임 제어 능력이 다른 로봇에 비해 월등히 뛰어나다는 평가를 받으며, 로봇 기술 분야에서 상당한 진전이 있었음을 시사합니다."
       ]
     },
     {
@@ -90,14 +90,14 @@
       "title": "New Gemini model imminent",
       "url": "https://www.reddit.com/r/singularity/comments/1r8mjwo/new_gemini_model_imminent/",
       "external_link": null,
-      "score": "145",
-      "comments_count": 29,
+      "score": "150",
+      "comments_count": 30,
       "pub_date": "2026-02-19T02:03:43",
-      "korean_summary": "r/Singularity 커뮤니티에서 새로운 Gemini 모델 출시가 임박했다는 게시글이 올라왔습니다. 사용자들은 모델 이름 언급을 통해 이를 예측하고 있으며, 빠른 기술 발전 속도에 주목하고 있습니다. 하지만 벤치마킹에 치중하여 실제 사용 사례에서의 유용성이 떨어질 수 있다는 우려도 제기되고 있습니다.",
+      "korean_summary": "r/Singularity 커뮤니티에서 새로운 Gemini 모델 출시가 임박했다는 게시글이 올라왔습니다. 사용자들은 모델 이름 언급을 통해 이를 추측하며, 빠른 기술 발전 속도에 주목하고 있습니다. 하지만 일부 사용자는 실제 사용 사례에서의 유용성보다 벤치마킹에 우선순위를 두는 것에 대한 우려를 표명하고 있습니다.",
       "key_points": [
-        "새로운 Gemini 모델 출시가 임박했다는 추측이 사용자들 사이에서 제기되고 있으며, 이는 모델 이름 언급을 통해 짐작할 수 있습니다.",
-        "기술 발전 속도가 매우 빠르며, 주요 기업들이 거의 매달 새로운 모델을 출시하는 추세입니다.",
-        "벤치마킹에 집중하는 경향으로 인해 실제 사용 사례에서의 유용성이 저하될 수 있다는 우려가 있습니다."
+        "새로운 Gemini 모델 출시 임박에 대한 추측이 r/Singularity 커뮤니티에서 제기됨.",
+        "기술 발전 속도가 매우 빠르다는 점이 강조되고 있으며, 이는 모델 출시 주기가 짧아지는 현상으로 나타남.",
+        "일부 사용자는 벤치마킹 중심의 개발 방향이 실제 사용 사례에서의 유용성을 저해할 수 있다는 우려를 제기함."
       ]
     }
   ]
