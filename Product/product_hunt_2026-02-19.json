@@ -1,0 +1,464 @@
+{
+  "source": "product_hunt",
+  "date": "2026-02-19",
+  "generated_at": "2026-02-20T05:05:54.222775+09:00",
+  "count": 10,
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Origami.chat\n⭐ Votes: 306\n📝 요약: 프롬프트 하나로 완벽한 잠재 고객 리드 목록을 빠르게 생성하여, 고객 발굴 및 데이터 확보에 드는 시간을 절약해 보세요.\n🔗 Product Hunt: https://www.producthunt.com/products/origami-chat\n🌐 서비스 링크: https://www.producthunt.com/r/NMVUHKBICTPMDX\n\n📦 2. Clawi.ai\n⭐ Votes: 238\n📝 요약: 서버 관리 없이 24시간 내 개인 OpenClaw 어시스턴트를 WhatsApp, Telegram, Discord에서 사용하세요!\n🔗 Product Hunt: https://www.producthunt.com/products/clawi-ai\n🌐 서비스 링크: https://www.producthunt.com/r/FZITZ765ZWI4CO\n\n📦 3. Reloop\n⭐ Votes: 206\n📝 요약: Reloop은 프롬프트 작성 기술 없이도 대화형 AI 에이전트를 통해 아이디어만으로 광고 영상을 빠르게 제작할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/reloop\n🌐 서비스 링크: https://www.producthunt.com/r/ON5VGHUQEFW47Y\n\n📦 4. FF Designer\n⭐ Votes: 163\n📝 요약: AI 디자인 도구의 느린 속도와 반복적인 프롬프트 문제 해결! FF Designer는 즉시 편집 가능한 고품질 UI 디자인을 빠르게 생성하여 작업 효율성을 극대화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/flutterflow\n🌐 서비스 링크: https://www.producthunt.com/r/ULPY3V7GSDA6PJ\n\n📦 5. Monologue for iOS\n⭐ Votes: 160\n📝 요약: 아이폰에서 음성을 텍스트로 변환할 때, 단순 딕테이션이 아닌 문맥에 맞춰 다듬어주는 똑똑한 글쓰기 도구\n🔗 Product Hunt: https://www.producthunt.com/products/monologue-2\n🌐 서비스 링크: https://www.producthunt.com/r/WV4M33GRYXCMSP\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Product/product_hunt_2026-02-19.md",
+  "items": [
+    {
+      "rank": 1,
+      "name": "Origami.chat",
+      "url": "https://www.producthunt.com/products/origami-chat",
+      "service_url": "https://www.producthunt.com/r/NMVUHKBICTPMDX",
+      "website": "https://www.producthunt.com/r/NMVUHKBICTPMDX",
+      "votes": 306,
+      "tagline": "Find your perfect leads with one prompt",
+      "summary": "프롬프트 하나로 완벽한 잠재 고객 리드 목록을 빠르게 생성하여, 고객 발굴 및 데이터 확보에 드는 시간을 절약해 보세요.",
+      "key_points": [
+        "100개 이상의 데이터 소스 활용",
+        "프롬프트 기반의 간편한 사용법",
+        "잠재 고객 발굴, CSV 데이터 보강, 의사 결정권자 정보 획득"
+      ],
+      "tags": [
+        "리드 생성",
+        "자동화",
+        "데이터 분석",
+        "영업",
+        "마케팅",
+        "Chat",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "몇 초 만에 맞춤형 리드 목록을 얻을 수 있어, 영업 및 마케팅 활동의 효율성을 극대화하고 더 많은 잠재 고객에게 도달할 수 있습니다. 특히, 데이터 분석 및 고객 발굴에 어려움을 겪는 사용자에게 유용합니다.",
+      "recommended_actions": [
+        "원하는 고객 특징을 담은 프롬프트 작성해보기",
+        "CSV 파일을 업로드하여 데이터 보강 시도해보기",
+        "특정 산업 분야의 의사 결정권자 리스트 생성해보기"
+      ],
+      "risks_and_limits": [
+        "데이터 소스의 정확도 및 최신 정보 확인 필요",
+        "생성된 리스트의 품질에 대한 사용자 검증 필요"
+      ],
+      "uncertainty_note": "제공되는 데이터 소스의 범위와 업데이트 주기에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Origami.chat.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Origami.chat_media_0.jpg",
+        "images/ph_2026-02-19_Origami.chat_media_1.jpg",
+        "images/ph_2026-02-19_Origami.chat_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 2,
+      "name": "Clawi.ai",
+      "url": "https://www.producthunt.com/products/clawi-ai",
+      "service_url": "https://www.producthunt.com/r/FZITZ765ZWI4CO",
+      "website": "https://www.producthunt.com/r/FZITZ765ZWI4CO",
+      "votes": 238,
+      "tagline": "OpenClaw in the Cloud with Zero Setup and on 24/7",
+      "summary": "서버 관리 없이 24시간 내 개인 OpenClaw 어시스턴트를 WhatsApp, Telegram, Discord에서 사용하세요!",
+      "key_points": [
+        "5분 안에 설정 완료",
+        "서버 관리 불필요",
+        "WhatsApp, Telegram, Discord 지원"
+      ],
+      "tags": [
+        "자동화",
+        "AI 어시스턴트",
+        "생산성",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "더 이상 서버 문제로 씨름하지 마세요. Clawi.ai를 사용하면 개인 OpenClaw 어시스턴트를 쉽고 빠르게 설정하여 24시간 활용할 수 있습니다.",
+      "recommended_actions": [
+        "WhatsApp 연동하여 사용해보기",
+        "Telegram 채널에 연결해보기",
+        "Discord 서버에 초대하여 활용해보기"
+      ],
+      "risks_and_limits": [
+        "OpenClaw 자체의 기능 제한사항 확인",
+        "지원하는 플랫폼 외 사용 가능 여부 확인"
+      ],
+      "uncertainty_note": "OpenClaw 어시스턴트의 구체적인 기능과 성능에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Clawi.ai.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Clawi.ai_media_0.jpg",
+        "images/ph_2026-02-19_Clawi.ai_media_1.jpg",
+        "images/ph_2026-02-19_Clawi.ai_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "Reloop",
+      "url": "https://www.producthunt.com/products/reloop",
+      "service_url": "https://www.producthunt.com/r/ON5VGHUQEFW47Y",
+      "website": "https://www.producthunt.com/r/ON5VGHUQEFW47Y",
+      "votes": 206,
+      "tagline": "Create winning ads without prompts or skills",
+      "summary": "Reloop은 프롬프트 작성 기술 없이도 대화형 AI 에이전트를 통해 아이디어만으로 광고 영상을 빠르게 제작할 수 있게 해줍니다.",
+      "key_points": [
+        "프롬프트 작성 없이 대화만으로 광고 제작 가능",
+        "맞춤형 아바타, 음성 복제, 비디오 편집기, 자동 자막 기능 통합 제공",
+        "아이디어 구상부터 광고 제작까지 단 몇 분 만에 완료"
+      ],
+      "tags": [
+        "AI",
+        "광고",
+        "영상 제작",
+        "자동화",
+        "마케팅",
+        "Agent",
+        "AI Tool",
+        "Chat",
+        "Prompting",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Reloop을 사용하면 광고 제작에 필요한 시간과 노력을 크게 줄일 수 있으며, 특별한 기술 없이도 고품질의 광고를 만들 수 있습니다. 광고 제작 과정을 간소화하여 마케팅 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "아이디어를 채팅으로 설명하고 광고 초안 생성해보기",
+        "맞춤형 아바타 및 음성 복제 기능 사용해보기",
+        "자동 자막 기능을 활용하여 광고 영상에 자막 추가해보기"
+      ],
+      "risks_and_limits": [
+        "AI가 생성하는 광고 품질이 사용자의 기대에 미치지 못할 수 있음",
+        "아직 초기 단계의 서비스이므로 예상치 못한 오류가 발생할 수 있음"
+      ],
+      "uncertainty_note": "Reloop의 광고 제작 품질 및 확장성에 대한 사용자 리뷰를 추가적으로 확인해야 합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Reloop.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Reloop_media_0.jpg",
+        "images/ph_2026-02-19_Reloop_media_1.jpg",
+        "images/ph_2026-02-19_Reloop_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/f90423d3-8b98-4fbf-b669-2cdd63633cf0.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "FF Designer",
+      "url": "https://www.producthunt.com/products/flutterflow",
+      "service_url": "https://www.producthunt.com/r/ULPY3V7GSDA6PJ",
+      "website": "https://www.producthunt.com/r/ULPY3V7GSDA6PJ",
+      "votes": 163,
+      "tagline": "Generate beautiful UI designs that you can instantly edit",
+      "summary": "AI 디자인 도구의 느린 속도와 반복적인 프롬프트 문제 해결! FF Designer는 즉시 편집 가능한 고품질 UI 디자인을 빠르게 생성하여 작업 효율성을 극대화합니다.",
+      "key_points": [
+        "빠른 UI 디자인 생성 속도",
+        "시각적인 편집 기능 제공",
+        "다운로드 및 내보내기 지원"
+      ],
+      "tags": [
+        "디자인",
+        "AI",
+        "UI/UX",
+        "자동화",
+        "AI Tool",
+        "Prompting",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "반복적인 프롬프트 입력 없이 즉시 수정 가능한 완성도 높은 디자인을 얻을 수 있어 디자인 작업 시간을 단축하고 창의적인 작업에 집중할 수 있습니다.",
+      "recommended_actions": [
+        "AI 디자인 생성 기능 사용해보기",
+        "생성된 디자인 즉시 편집해보기",
+        "다양한 내보내기 옵션 확인해보기"
+      ],
+      "risks_and_limits": [
+        "생성된 디자인의 완성도는 사용자의 요구사항에 따라 달라질 수 있습니다.",
+        "복잡한 디자인의 경우, 편집 기능의 제약이 있을 수 있습니다."
+      ],
+      "uncertainty_note": "FF Designer가 지원하는 디자인 템플릿의 종류와 사용자 정의 가능 범위에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_FF_Designer.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_FF_Designer_media_0.jpg",
+        "images/ph_2026-02-19_FF_Designer_media_1.jpg",
+        "images/ph_2026-02-19_FF_Designer_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/feffa86e-491c-48f5-8d90-c6b519c6a099.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Monologue for iOS",
+      "url": "https://www.producthunt.com/products/monologue-2",
+      "service_url": "https://www.producthunt.com/r/WV4M33GRYXCMSP",
+      "website": "https://www.producthunt.com/r/WV4M33GRYXCMSP",
+      "votes": 160,
+      "tagline": "Turn your voice into polished writing—wherever you go.",
+      "summary": "아이폰에서 음성을 텍스트로 변환할 때, 단순 딕테이션이 아닌 문맥에 맞춰 다듬어주는 똑똑한 글쓰기 도구",
+      "key_points": [
+        "음성을 텍스트로 변환 시 문법 및 문맥에 맞게 자동 수정",
+        "필요 없는 단어 제거 및 구두점 자동 추가",
+        "터미널 코딩부터 메시지 전송까지 다양한 앱에서 사용 가능"
+      ],
+      "tags": [
+        "글쓰기",
+        "생산성",
+        "음성인식",
+        "자동화",
+        "AI Tool",
+        "Email"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "이제 음성으로 더 빠르고 효율적으로 글을 쓸 수 있으며, 작성된 텍스트의 품질도 향상됩니다.",
+      "recommended_actions": [
+        "메시지 앱에서 음성으로 빠르게 답장하기",
+        "메모 앱에서 음성으로 아이디어 정리하기",
+        "코딩 시 터미널에서 음성으로 코드 작성해보기"
+      ],
+      "risks_and_limits": [
+        "정확도는 사용 환경(소음, 발음)에 따라 달라질 수 있음",
+        "지원 언어 확인 필요"
+      ],
+      "uncertainty_note": "어떤 언어를 지원하는지, 그리고 오프라인에서도 사용 가능한지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Monologue_for_iOS.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Monologue_for_iOS_media_0.jpg",
+        "images/ph_2026-02-19_Monologue_for_iOS_media_1.jpg",
+        "images/ph_2026-02-19_Monologue_for_iOS_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/b41c1175-5ba8-4f87-bfb2-d41067c8197f.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Kollect Voice Agent",
+      "url": "https://www.producthunt.com/products/kollect-voice-agent",
+      "service_url": "https://www.producthunt.com/r/RDNFXGXVMGMHF2",
+      "website": "https://www.producthunt.com/r/RDNFXGXVMGMHF2",
+      "votes": 115,
+      "tagline": "Collect forms via voice",
+      "summary": "지루한 설문조사를 AI 기반 음성 대화로 바꿔 실시간으로 데이터를 수집하고, 음성으로 설문 양식을 만들 수도 있습니다.",
+      "key_points": [
+        "자연스러운 음성 기반 설문조사",
+        "AI 기반의 대화형 인터페이스",
+        "음성으로 설문 양식 생성 가능"
+      ],
+      "tags": [
+        "AI",
+        "음성인식",
+        "설문조사",
+        "자동화",
+        "데이터수집",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "복잡한 설문지를 일일이 작성할 필요 없이, 음성으로 쉽고 빠르게 데이터를 수집할 수 있어 업무 효율성을 높여줍니다. 특히, 현장 조사나 고객 피드백 수집에 유용합니다.",
+      "recommended_actions": [
+        "음성으로 설문 양식 만들기",
+        "다양한 상황에서 음성 설문조사 진행해보기",
+        "수집된 데이터 분석하기"
+      ],
+      "risks_and_limits": [
+        "AI의 음성 인식 정확도 확인 필요",
+        "개인정보 보호 관련 정책 준수 필요"
+      ],
+      "uncertainty_note": "어떤 언어들을 지원하는지, 그리고 데이터 보안 관련 정책은 어떻게 되는지 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Kollect_Voice_Agent.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Kollect_Voice_Agent_media_1.jpg",
+        "images/ph_2026-02-19_Kollect_Voice_Agent_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/d77cd44a-54db-4099-8921-8ea0cefc6343.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "HyperCaps for macOS",
+      "url": "https://www.producthunt.com/products/hypercaps-for-macos",
+      "service_url": "https://www.producthunt.com/r/2Y5KYVYPGBNGG6",
+      "website": "https://www.producthunt.com/r/2Y5KYVYPGBNGG6",
+      "votes": 110,
+      "tagline": "Turn CapsLock into a Super Key & Boost Productivity",
+      "summary": "맥(macOS) CapsLock 키를 생산성 향상을 위한 '슈퍼 키'로 바꿔, 복잡한 단축키 사용을 간소화하고 작업 효율을 높여줍니다.",
+      "key_points": [
+        "CapsLock 키를 Cmd+Opt+Ctrl+Shift 슈퍼 키로 변환",
+        "Vim 모드로 홈 행에서 방향키 없이 탐색 가능",
+        "탭 한 번으로 Escape 또는 CapsLock 기능 활성화"
+      ],
+      "tags": [
+        "생산성",
+        "단축키",
+        "맥(macOS)",
+        "자동화",
+        "DevTool",
+        "Productivity"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "복잡한 단축키 조합을 누르기 위해 손가락을 꼬는 불편함을 해소하고, CapsLock 키를 활용하여 작업 속도를 향상시켜줍니다.",
+      "recommended_actions": [
+        "CapsLock 키를 슈퍼 키로 설정하고 단축키 사용해보기",
+        "Vim 모드를 활성화하여 문서 편집 시 방향키 없이 탐색해보기",
+        "스마트 탭 설정을 조정하여 Escape 또는 CapsLock 기능 사용해보기"
+      ],
+      "risks_and_limits": [
+        "다른 앱과의 단축키 충돌 가능성 확인",
+        "CapsLock 키 사용 습관 변경에 따른 적응 기간 필요"
+      ],
+      "uncertainty_note": "다양한 앱 환경에서 단축키 충돌 발생 여부 및 사용자별 적응 기간에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_HyperCaps_for_macOS.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_HyperCaps_for_macOS_media_0.jpg",
+        "images/ph_2026-02-19_HyperCaps_for_macOS_media_1.jpg",
+        "images/ph_2026-02-19_HyperCaps_for_macOS_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/79938241-c667-49ef-bf6a-2b5077e86012.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Decks For Good",
+      "url": "https://www.producthunt.com/products/decks-for-good",
+      "service_url": "https://www.producthunt.com/r/3URR37QSR5D46Y",
+      "website": "https://www.producthunt.com/r/3URR37QSR5D46Y",
+      "votes": 104,
+      "tagline": "Get fundraising advice when you give to charity",
+      "summary": "기부하고 투자 전문가에게 피드백받아 성공적인 펀드레이징을 위한 피치덱을 만드세요. 기부금 전액은 자선단체에 전달됩니다.",
+      "key_points": [
+        "기부하고 펀드레이징 피치덱에 대한 투자자 및 창업가의 피드백을 받습니다.",
+        "피드백을 통해 펀드레이징 성공 가능성을 높입니다.",
+        "기부금 100%가 자선단체에 직접 전달됩니다."
+      ],
+      "tags": [
+        "펀드레이징",
+        "피치덱",
+        "기부",
+        "투자",
+        "피드백",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "펀드레이징을 준비하는 스타트업 창업자나 사회적 기업가가 피치덱을 개선하고 투자 유치 가능성을 높이는 데 유용합니다. 동시에 좋은 일도 할 수 있습니다.",
+      "recommended_actions": [
+        "피치덱을 준비하고, Decks For Good에 접속하여 기부할 자선단체를 선택하세요.",
+        "기부 후, 피치덱을 제출하고 피드백을 요청하세요.",
+        "피드백을 바탕으로 피치덱을 개선하고 펀드레이징에 활용하세요."
+      ],
+      "risks_and_limits": [
+        "피드백 제공자의 전문성과 피드백의 질은 보장되지 않을 수 있습니다.",
+        "투자 유치 가능성은 피드백 외에도 다양한 요인에 따라 달라질 수 있습니다."
+      ],
+      "uncertainty_note": "피드백 제공자의 구체적인 배경과 전문 분야에 대한 정보가 더 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Decks_For_Good.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Decks_For_Good_media_0.jpg",
+        "images/ph_2026-02-19_Decks_For_Good_media_1.jpg",
+        "images/ph_2026-02-19_Decks_For_Good_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 9,
+      "name": "AgentReady",
+      "url": "https://www.producthunt.com/products/agentready-2",
+      "service_url": "https://www.producthunt.com/r/LRVFGJCXHYN3VH",
+      "website": "https://www.producthunt.com/r/LRVFGJCXHYN3VH",
+      "votes": 97,
+      "tagline": "Cut your AI token costs by 40-60% with one API call",
+      "summary": null,
+      "key_points": [],
+      "tags": [
+        "Agent",
+        "AI Tool",
+        "LLM",
+        "Vision",
+        "DevTool",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": null,
+      "recommended_actions": [],
+      "risks_and_limits": [],
+      "uncertainty_note": "Product Hunt 설명(태그라인/디스크립션) 기반 정리이므로 실제 기능/가격/정책은 제품 페이지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_AgentReady.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_AgentReady_media_0.jpg",
+        "images/ph_2026-02-19_AgentReady_media_1.jpg",
+        "images/ph_2026-02-19_AgentReady_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 10,
+      "name": "Mengram",
+      "url": "https://www.producthunt.com/products/mengram",
+      "service_url": "https://www.producthunt.com/r/NR6MAZGJFDX3PR",
+      "website": "https://www.producthunt.com/r/NR6MAZGJFDX3PR",
+      "votes": 97,
+      "tagline": "AI memory API with 3 types: facts, events, and workflows",
+      "summary": "Mengram은 AI 에이전트가 학습한 내용을 기억하고 재사용하도록 돕는 API로, 에이전트의 작업 효율성을 극대화합니다.",
+      "key_points": [
+        "사실, 이벤트, 워크플로우 세 가지 유형의 기억 자동 추출",
+        "작업 성공/실패 추적을 통한 최적 경로 학습 및 재사용",
+        "Claude, LangChain, CrewAI, OpenClaw 등 다양한 프레임워크 지원"
+      ],
+      "tags": [
+        "AI",
+        "API",
+        "자동화",
+        "개발툴",
+        "오픈소스",
+        "Agent",
+        "Automation",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "AI 에이전트가 반복적인 작업을 자동화하고, 과거 경험을 바탕으로 더 나은 결정을 내리도록 도와 생산성을 향상시킵니다.",
+      "recommended_actions": [
+        "AI 에이전트에 Mengram 통합하여 기억 저장 기능 활성화",
+        "작업 완료 후 Mengram에 저장된 워크플로우 확인",
+        "성공/실패 추적 데이터 분석으로 에이전트 성능 개선"
+      ],
+      "risks_and_limits": [
+        "API 호출량 제한 확인 필요",
+        "지원하는 프레임워크 버전 확인 필요"
+      ],
+      "uncertainty_note": "실제 사용 환경에서의 성능 및 확장성에 대한 추가 검증이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-02-19_Mengram.jpg",
+      "local_media": [
+        "images/ph_2026-02-19_Mengram_media_0.jpg",
+        "images/ph_2026-02-19_Mengram_media_1.jpg",
+        "images/ph_2026-02-19_Mengram_media_2.jpg"
+      ],
+      "video_links": []
+    }
+  ]
+}
