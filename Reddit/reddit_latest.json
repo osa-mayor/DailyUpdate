@@ -1,9 +1,9 @@
 {
   "source": "reddit",
   "date": "2026-02-21",
-  "generated_at": "2026-02-21T01:47:38.590669+09:00",
+  "generated_at": "2026-02-21T12:59:30.673848+09:00",
   "count": 6,
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA with StepFun AI - Ask Us Anything\nr/LocalLLaMA | 👍 99 | 💬 129\n📝 요약: StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA를 진행합니다. 사용자들은 모델의 버그 수정, 툴 호출 지원, 베이스 모델 공개 가능성, 벤치마크 포함 여부 등에 대한 질문을 쏟아내며 모델에 대한 높은 관심과 개선에 대한 기대를 드러냈습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/\n\n🔥 2. AMA Announcement: StepFun AI, The Opensource Lab Behind Step-3.5-Flash Model (Thursday, 8AM-11AM PST)\nr/LocalLLaMA | 👍 79 | 💬 13\n📝 요약: StepFun AI 팀이 Step-3.5-Flash 모델 관련 AMA를 진행할 예정이며, 사용자들은 더 가벼운 버전, 사고 예산 설정 기능, 그리고 128GB VRAM 이하 모델 개선에 대한 질문을 가지고 있습니다. Step-3.5-Flash는 속도와 품질 면에서 경쟁력이 높아 양자화 방식 및 추론 최적화 전략에 대한 관심이 높습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r60qu9/ama_announcement_stepfun_ai_the_opensource_lab/\n\n🔥 3. GGML.AI has got acquired by Huggingface\nr/LocalLLaMA | 👍 205 | 💬 42\n📝 요약: GGML.AI가 Huggingface에 인수되었다는 소식이 전해졌습니다. 커뮤니티에서는 Huggingface가 AI 분야의 오픈 소스를 계속 지원해주기를 바라며, 특히 GGML 팀에 대한 지속적인 자금 지원을 기대하는 분위기입니다. Llama.cpp의 지속적인 발전을 응원하는 의견도 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r9vywq/ggmlai_has_got_acquired_by_huggingface/\n\n🔥 4. GPT5.2 Pro derived a new result in theoretical physics\nr/Singularity | 👍 689 | 💬 162\n📝 요약: GPT5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 내용의 게시글이 화제입니다. 사용자들은 AI가 인간의 이해를 넘어서는 물리학적 문제를 해결하는 능력에 놀라움을 표하며, 일부는 AI의 도움으로 연구가 가속화되었다는 경험을 공유했습니다. 하지만 일각에서는 해당 결과가 이미 과거에 발표된 내용이라는 주장도 제기되었습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/\n\n🔥 5. Atlas the humanoid robot shows off new skills\nr/Singularity | 👍 3562 | 💬 462\n📝 요약: 보스턴 다이내믹스의 휴머노이드 로봇 Atlas가 새로운 기술을 선보여 큰 관심을 받고 있습니다. 로봇의 운동 능력과 제어 능력에 대한 인상적인 반응이 주를 이루며, 미래 공장의 모습에 대한 상상과 로봇의 뛰어난 운동 능력에 대한 감탄이 나타났습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1qxhcbl/atlas_the_humanoid_robot_shows_off_new_skills/\n\n🔥 6. Average openclaw users online\nr/Singularity | 👍 441 | 💬 78\n📝 요약: OpenClaw 사용자의 평균적인 모습을 묘사한 게시물에 대한 반응입니다. 게시물 속 인물이 게걸음 자세를 취하고 있다는 점, 그리고 AI가 때때로 부정확한 정보를 제공한다는 점에 대한 언급이 있었습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r9tqd3/average_openclaw_users_online/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Reddit/reddit_2026-02-21.md",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA with StepFun AI - Ask Us Anything\nr/LocalLLaMA | 👍 101 | 💬 132\n📝 요약: StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA(Ask Me Anything)를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 베이스 모델 공개 가능성, 벤치마크 포함 여부, 모델 크기 및 확장 전략 등에 대한 질문을 던지며 높은 관심을 보이고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/\n\n🔥 2. Best Audio Models - Feb 2026\nr/LocalLLaMA | 👍 85 | 💬 47\n📝 요약: 2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS와 같은 최신 모델들이 주목받고 있습니다. 사용자들은 다양한 ASR, TTS, STT, 텍스트-음악 모델을 공유하며, 오픈 소스 모델과 상용 모델의 성능 비교, 그리고 실제 사용 사례에 대한 경험을 공유하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/\n\n🔥 3. Deepseek and Gemma ??\nr/LocalLLaMA | 👍 659 | 💬 148\n📝 요약: Deepseek와 Gemma 모델에 대한 논의가 진행 중이며, 과거 Llama 모델의 위치와 유사한 상황이 연출되고 있다는 의견이 있습니다. Gemma 모델은 특정 작업(번역)에서 여전히 강점을 보이지만, Deepseek v4의 새로운 Engram 아키텍처가 판도를 바꿀 수 있다는 기대감도 제기되고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r9uuc6/deepseek_and_gemma/\n\n🔥 4. (Sound on) Gemini 3.1 Pro surpassed every expectation I had for it. This is a game it made after a few hours of back and forth.\nr/Singularity | 👍 260 | 💬 50\n📝 요약: Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들었습니다. 사용자는 간단한 언어로 지시를 내렸고, Gemini는 성능 최적화, 음악 추가, 타이틀 카드 생성 등 다양한 작업을 수행하여 최종적으로 1,800줄의 HTML 코드를 생성했습니다. 커뮤니티에서는 이 결과물에 대해 놀라움을 표하며, 유사한 게임과의 비교, 음악 생성 여부, 그리고 '재미'라는 새로운 기준에 대한 질문이 있었습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1ra7agg/sound_on_gemini_31_pro_surpassed_every/\n\n🔥 5. Taalas: LLMs baked into hardware. No HBM, weights and model architecture in silicon -> 16.000 tokens/second\nr/Singularity | 👍 672 | 💬 265\n📝 요약: Taalas라는 회사가 LLM(대규모 언어 모델)을 하드웨어에 내장하여 1초당 16,000 토큰을 처리하는 기술을 개발했다는 내용이다. 이 기술은 모델과 가중치를 실리콘 칩에 직접 새겨 넣어 지연 시간을 획기적으로 줄이고 전력 효율성을 높이는 것을 목표로 하며, 로봇 공학 분야에 혁신을 가져올 잠재력이 있다는 반응이 있다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1r9frzk/taalas_llms_baked_into_hardware_no_hbm_weights/\n\n🔥 6. Claude Opus 4.6 is going exponential on METR's 50%-time-horizon benchmark, beating all predictions\nr/Singularity | 👍 608 | 💬 154\n📝 요약: Claude Opus 4.6이 METR의 50% 시간 지평선 벤치마크에서 예측을 뛰어넘는 기하급수적인 성능 향상을 보이고 있다는 내용입니다. 커뮤니티에서는 더블링 시간이 3개월 미만일 수 있다는 추정과 함께, 현재 작업 스위트가 거의 포화 상태에 도달하여 측정에 노이즈가 많다는 의견이 제시되었으며, 일부 사용자는 Claude의 예측 능력에 놀라움을 표했습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1ra4lrn/claude_opus_46_is_going_exponential_on_metrs/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/Reddit/reddit_2026-02-21.md",
   "items": [
     {
       "source": "reddit",
@@ -11,93 +11,93 @@
       "title": "AMA with StepFun AI - Ask Us Anything",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/",
       "external_link": null,
-      "score": "99",
-      "comments_count": 129,
+      "score": "101",
+      "comments_count": 132,
       "pub_date": "2026-02-19T07:15:35",
-      "korean_summary": "StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA를 진행합니다. 사용자들은 모델의 버그 수정, 툴 호출 지원, 베이스 모델 공개 가능성, 벤치마크 포함 여부 등에 대한 질문을 쏟아내며 모델에 대한 높은 관심과 개선에 대한 기대를 드러냈습니다.",
+      "korean_summary": "StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA(Ask Me Anything)를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 베이스 모델 공개 가능성, 벤치마크 포함 여부, 모델 크기 및 확장 전략 등에 대한 질문을 던지며 높은 관심을 보이고 있습니다.",
       "key_points": [
-        "StepFun AI 팀이 Step 모델 제품군(Step 3.5 Flash 포함) 관련 AMA를 개최하여 모델 개발 배경 및 향후 계획에 대한 질의응답을 진행합니다.",
-        "사용자들은 Step 3.5 Flash 모델의 버그 수정(무한 루프 문제), vllm, sglang, llama.cpp 등 주요 플랫폼에서의 툴 호출 지원, 베이스 모델 공개 여부 등에 대해 질문했습니다.",
-        "Step 3.5 Flash 모델의 성능과 관련된 질문으로, 토큰/파라미터 비율, MoE 스케일링 법칙, Artificial Analysis 벤치마크 포함 가능성 등이 논의되었습니다."
+        "StepFun AI 팀이 Step 3.5 Flash 모델과 관련된 AMA를 진행하며, CEO, CTO, 연구원 등 다양한 팀원이 참여합니다.",
+        "사용자들은 모델의 버그 수정, 툴 호출 기능 지원, 베이스 모델 공개 여부 등 기술적인 질문과 함께 모델의 성능 측정 및 확장 전략에 대한 질문을 합니다.",
+        "Step 3.5 Flash 모델에 대한 긍정적인 반응과 함께, 모델의 개선 및 활용 방안에 대한 커뮤니티의 높은 관심이 나타납니다."
       ]
     },
     {
       "source": "reddit",
       "subreddit": "LocalLLaMA",
-      "title": "AMA Announcement: StepFun AI, The Opensource Lab Behind Step-3.5-Flash Model (Thursday, 8AM-11AM PST)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r60qu9/ama_announcement_stepfun_ai_the_opensource_lab/",
+      "title": "Best Audio Models - Feb 2026",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/",
       "external_link": null,
-      "score": "79",
-      "comments_count": 13,
-      "pub_date": "2026-02-16T05:11:16",
-      "korean_summary": "StepFun AI 팀이 Step-3.5-Flash 모델 관련 AMA를 진행할 예정이며, 사용자들은 더 가벼운 버전, 사고 예산 설정 기능, 그리고 128GB VRAM 이하 모델 개선에 대한 질문을 가지고 있습니다. Step-3.5-Flash는 속도와 품질 면에서 경쟁력이 높아 양자화 방식 및 추론 최적화 전략에 대한 관심이 높습니다.",
+      "score": "85",
+      "comments_count": 47,
+      "pub_date": "2026-02-17T17:01:37",
+      "korean_summary": "2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS와 같은 최신 모델들이 주목받고 있습니다. 사용자들은 다양한 ASR, TTS, STT, 텍스트-음악 모델을 공유하며, 오픈 소스 모델과 상용 모델의 성능 비교, 그리고 실제 사용 사례에 대한 경험을 공유하고 있습니다.",
       "key_points": [
-        "StepFun AI 팀의 AMA는 Step-3.5-Flash 모델에 대한 질문과 답변을 위해 진행되며, 2월 19일 오전 8시부터 11시 (PST)에 별도 스레드에서 진행됩니다.",
-        "사용자들은 더 작은 모델 버전, 사고 예산 설정 기능, 그리고 128GB VRAM 이하 모델의 성능 향상에 대한 개발 계획에 대해 질문할 것으로 예상됩니다.",
-        "Step-3.5-Flash 모델은 속도와 품질의 균형이 뛰어나다는 평가를 받고 있으며, 특히 양자화 및 추론 최적화 전략에 대한 관심이 높습니다."
+        "다양한 오디오 모델 추천: Marblenet (음성 감지), Parakeet (ASR), Chatterbox (TTS), ACE-step (TTM) 등이 언급되었으며, TTS-Audio-Suite 소프트웨어와 같은 통합 솔루션도 소개되었습니다.",
+        "새로운 모델에 대한 관심: Qwen3-TTS 외에 MOSS-TTS가 음향 효과 생성 기능으로 주목받고 있으며, Supertonic과 같이 작고 빠른 모델도 기본적인 음성 합성에 유용하다는 의견이 제시되었습니다."
       ]
     },
     {
       "source": "reddit",
       "subreddit": "LocalLLaMA",
-      "title": "GGML.AI has got acquired by Huggingface",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r9vywq/ggmlai_has_got_acquired_by_huggingface/",
+      "title": "Deepseek and Gemma ??",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r9uuc6/deepseek_and_gemma/",
       "external_link": null,
-      "score": "205",
-      "comments_count": 42,
-      "pub_date": "2026-02-20T13:54:26",
-      "korean_summary": "GGML.AI가 Huggingface에 인수되었다는 소식이 전해졌습니다. 커뮤니티에서는 Huggingface가 AI 분야의 오픈 소스를 계속 지원해주기를 바라며, 특히 GGML 팀에 대한 지속적인 자금 지원을 기대하는 분위기입니다. Llama.cpp의 지속적인 발전을 응원하는 의견도 있습니다.",
+      "score": "659",
+      "comments_count": 148,
+      "pub_date": "2026-02-20T13:05:36",
+      "korean_summary": "Deepseek와 Gemma 모델에 대한 논의가 진행 중이며, 과거 Llama 모델의 위치와 유사한 상황이 연출되고 있다는 의견이 있습니다. Gemma 모델은 특정 작업(번역)에서 여전히 강점을 보이지만, Deepseek v4의 새로운 Engram 아키텍처가 판도를 바꿀 수 있다는 기대감도 제기되고 있습니다.",
       "key_points": [
-        "Huggingface가 GGML.AI를 인수하면서 오픈 소스 AI에 대한 지원이 강화될 것이라는 기대감이 높습니다.",
-        "커뮤니티는 이번 인수가 GGML 팀의 지속적인 개발 및 커뮤니티 지원에 긍정적인 영향을 미치기를 희망하고 있습니다.",
-        "일부 사용자는 Huggingface가 llama.cpp 관련 분쟁을 해결하는 데 도움을 줄 수 있을지 궁금해하고 있습니다."
+        "Gemma 모델은 번역 작업에서 유사한 크기의 모델보다 우수한 성능을 보이며, 특히 translategemma 모델이 더욱 효과적입니다.",
+        "Deepseek v4는 Engram 아키텍처를 통해 LLM 분야에 혁신을 가져올 잠재력이 있으며, 이는 커뮤니티 내에서 큰 기대를 모으고 있습니다.",
+        "일부 사용자는 더 작은 크기의 Qwen 3.5 모델의 출시를 기다리고 있습니다."
       ]
     },
     {
       "source": "reddit",
       "subreddit": "Singularity",
-      "title": "GPT5.2 Pro derived a new result in theoretical physics",
-      "url": "https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/",
+      "title": "(Sound on) Gemini 3.1 Pro surpassed every expectation I had for it. This is a game it made after a few hours of back and forth.",
+      "url": "https://www.reddit.com/r/singularity/comments/1ra7agg/sound_on_gemini_31_pro_surpassed_every/",
       "external_link": null,
-      "score": "689",
-      "comments_count": 162,
-      "pub_date": "2026-02-13T19:24:31",
-      "korean_summary": "GPT5.2 Pro가 이론 물리학에서 새로운 결과를 도출했다는 내용의 게시글이 화제입니다. 사용자들은 AI가 인간의 이해를 넘어서는 물리학적 문제를 해결하는 능력에 놀라움을 표하며, 일부는 AI의 도움으로 연구가 가속화되었다는 경험을 공유했습니다. 하지만 일각에서는 해당 결과가 이미 과거에 발표된 내용이라는 주장도 제기되었습니다.",
+      "score": "260",
+      "comments_count": 50,
+      "pub_date": "2026-02-20T20:57:32",
+      "korean_summary": "Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들었습니다. 사용자는 간단한 언어로 지시를 내렸고, Gemini는 성능 최적화, 음악 추가, 타이틀 카드 생성 등 다양한 작업을 수행하여 최종적으로 1,800줄의 HTML 코드를 생성했습니다. 커뮤니티에서는 이 결과물에 대해 놀라움을 표하며, 유사한 게임과의 비교, 음악 생성 여부, 그리고 '재미'라는 새로운 기준에 대한 질문이 있었습니다.",
       "key_points": [
-        "GPT5.2 Pro가 이론 물리학 분야에서 새로운 결과를 도출했으며, 이는 트위터, 논문, 블로그 게시물을 통해 공유되었습니다.",
-        "커뮤니티에서는 AI 모델이 인간의 이해를 넘어서는 문제를 해결하는 능력에 대한 놀라움과 함께, 연구 과정에서 AI의 도움을 받은 경험이 공유되었습니다.",
-        "일부 사용자는 해당 결과가 이미 1980년대에 발표된 내용이라는 주장을 제기하며, 전문가의 의견을 구하고 있습니다."
+        "Gemini 3.1 Pro는 사용자의 간단한 지시만으로 게임 개발이 가능하며, 성능 최적화, 음악 추가 등 다양한 기능을 수행할 수 있습니다.",
+        "최종 결과물은 약 1,800줄의 HTML 코드로 구성되었으며, 이는 기존의 코딩 방식에 비해 매우 효율적인 개발 방식임을 시사합니다.",
+        "커뮤니티는 Gemini 3.1 Pro의 능력에 놀라움을 표하면서도, 게임의 '재미'라는 새로운 기준에 대한 질문을 던져 인공지능이 생성한 콘텐츠의 질에 대한 논의를 촉발했습니다."
       ]
     },
     {
       "source": "reddit",
       "subreddit": "Singularity",
-      "title": "Atlas the humanoid robot shows off new skills",
-      "url": "https://www.reddit.com/r/singularity/comments/1qxhcbl/atlas_the_humanoid_robot_shows_off_new_skills/",
+      "title": "Taalas: LLMs baked into hardware. No HBM, weights and model architecture in silicon -> 16.000 tokens/second",
+      "url": "https://www.reddit.com/r/singularity/comments/1r9frzk/taalas_llms_baked_into_hardware_no_hbm_weights/",
       "external_link": null,
-      "score": "3562",
-      "comments_count": 462,
-      "pub_date": "2026-02-06T13:16:26",
-      "korean_summary": "보스턴 다이내믹스의 휴머노이드 로봇 Atlas가 새로운 기술을 선보여 큰 관심을 받고 있습니다. 로봇의 운동 능력과 제어 능력에 대한 인상적인 반응이 주를 이루며, 미래 공장의 모습에 대한 상상과 로봇의 뛰어난 운동 능력에 대한 감탄이 나타났습니다.",
+      "score": "672",
+      "comments_count": 265,
+      "pub_date": "2026-02-19T23:58:26",
+      "korean_summary": "Taalas라는 회사가 LLM(대규모 언어 모델)을 하드웨어에 내장하여 1초당 16,000 토큰을 처리하는 기술을 개발했다는 내용이다. 이 기술은 모델과 가중치를 실리콘 칩에 직접 새겨 넣어 지연 시간을 획기적으로 줄이고 전력 효율성을 높이는 것을 목표로 하며, 로봇 공학 분야에 혁신을 가져올 잠재력이 있다는 반응이 있다.",
       "key_points": [
-        "Atlas 로봇이 이전보다 훨씬 더 정교하고 제어된 움직임을 보여주며, 로봇 기술의 상당한 발전을 입증했습니다.",
-        "커뮤니티는 Atlas의 운동 능력에 감탄하며, 인간의 운동 능력을 능가하는 로봇의 등장에 대한 놀라움을 표현했습니다.",
-        "미래 공장에서 Atlas와 같은 로봇들이 벽을 뛰어넘고 공중 곡예를 하는 모습에 대한 상상이 제기되었습니다."
+        "Taalas는 HBM 없이 모델 아키텍처와 가중치를 실리콘에 새겨 넣어 1초당 16,000 토큰을 처리하는 LLM 하드웨어를 개발했으며, 이는 실시간 음성 모델, 아바타 생성, 컴퓨터 비전 등 지연 시간이 중요한 분야에 적합하다.",
+        "이 회사는 모델에서 ASIC까지 60일 만에 제작하는 기술을 통해 생산 비용을 20배 절감하고 전력 효율성을 10배 향상시켰으며, LoRA 미세 조정도 지원한다.",
+        "커뮤니티에서는 이 기술이 로봇 공학 발전에 기여할 가능성이 높다고 평가하며, 특히 즉각적인 출력 속도에 깊은 인상을 받았다."
       ]
     },
     {
       "source": "reddit",
       "subreddit": "Singularity",
-      "title": "Average openclaw users online",
-      "url": "https://www.reddit.com/r/singularity/comments/1r9tqd3/average_openclaw_users_online/",
+      "title": "Claude Opus 4.6 is going exponential on METR's 50%-time-horizon benchmark, beating all predictions",
+      "url": "https://www.reddit.com/r/singularity/comments/1ra4lrn/claude_opus_46_is_going_exponential_on_metrs/",
       "external_link": null,
-      "score": "441",
-      "comments_count": 78,
-      "pub_date": "2026-02-20T12:11:53",
-      "korean_summary": "OpenClaw 사용자의 평균적인 모습을 묘사한 게시물에 대한 반응입니다. 게시물 속 인물이 게걸음 자세를 취하고 있다는 점, 그리고 AI가 때때로 부정확한 정보를 제공한다는 점에 대한 언급이 있었습니다.",
+      "score": "608",
+      "comments_count": 154,
+      "pub_date": "2026-02-20T19:15:31",
+      "korean_summary": "Claude Opus 4.6이 METR의 50% 시간 지평선 벤치마크에서 예측을 뛰어넘는 기하급수적인 성능 향상을 보이고 있다는 내용입니다. 커뮤니티에서는 더블링 시간이 3개월 미만일 수 있다는 추정과 함께, 현재 작업 스위트가 거의 포화 상태에 도달하여 측정에 노이즈가 많다는 의견이 제시되었으며, 일부 사용자는 Claude의 예측 능력에 놀라움을 표했습니다.",
       "key_points": [
-        "게시물 속 인물의 자세가 게걸음과 유사하다는 의견이 주를 이룹니다.",
-        "AI가 제공하는 정보의 정확성에 대한 의문이 제기되었습니다. 특히, 사용자가 이미 알고 있는 내용에 대해 AI가 오류를 범하는 경우가 있다는 지적이 있습니다."
+        "Claude Opus 4.6은 소프트웨어 작업에서 14.5시간(95% 신뢰 구간 6시간~98시간)의 50% 시간 지평선을 가지며, 이는 보고된 것 중 가장 높은 수치이지만, 현재 작업 세트의 포화로 인해 측정에 노이즈가 많음.",
+        "더블링 시간이 3개월 미만으로 추정되지만, 데이터 포인트가 부족하여 정확한 추론은 어려움.",
+        "Claude가 오프라인 채팅에서 특정 결정을 완벽하게 예측하여 일부 사용자에게 놀라움을 안겨줌."
       ]
     }
   ]
