@@ -1,4 +1,4 @@
-# 🌏 Google News Tech Digest (2026년 02월 21일)
+# 🌏 Google News Tech Digest (2026년 02월 22일)
 
 ## 🤖 AI & LLM Focus
 AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
@@ -6,140 +6,140 @@ AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
 ### 1. [People Loved the Dot-Com Boom. The A.I. Boom, Not So Much. - The New York Times](https://www.nytimes.com/2026/02/21/technology/ai-boom-backlash.html)
 **출처**: The New York Times | **게시일**: Sat, 21 Feb 2026 10:00:08 GMT
 
-인공지능(AI) 붐에 대한 대중의 반응이 과거 닷컴 붐과는 대조적으로 미지근하다는 분석이 나왔다. 닷컴 시대에는 기술 혁신에 대한 낙관론이 팽배했지만, 현재 AI 기술 발전은 일자리 감소 및 윤리적 문제에 대한 우려를 낳고 있다. 이러한 우려는 AI 기술의 잠재력에도 불구하고 대중의 수용을 제한하는 요인으로 작용하고 있다. 따라서 AI 기술의 발전과 더불어 사회적 영향에 대한 심도 있는 논의와 해결책 모색이 필요하다는 지적이다.
+인공지능(AI) 붐에 대한 대중의 반응이 과거 닷컴 붐과는 대조적으로 미지근하다는 분석이 나왔다. 닷컴 시대에는 기술 혁신에 대한 낙관론이 팽배했지만, 현재 AI 기술의 발전은 일자리 감소 및 윤리적 문제에 대한 우려를 낳고 있다. 이러한 우려는 AI 기술의 광범위한 도입과 사회적 영향에 대한 신중한 접근을 요구하고 있다. 과거 기술 혁명과는 다른 사회적 분위기가 형성되고 있다는 점을 시사한다.
 
 ---
 
-### 2. [AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries - The Hacker News](https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html)
+### 2. [Galaxy AI Expands Multi-Agent Ecosystem To Give Users More Choice and Flexibility - samsung.com](https://news.samsung.com/global/galaxy-ai-expands-multi-agent-ecosystem-to-give-users-more-choice-and-flexibility)
+**출처**: samsung.com | **게시일**: Sat, 21 Feb 2026 23:00:00 GMT
+
+삼성전자가 갤럭시 AI의 멀티 에이전트 생태계를 확장하여 사용자에게 더 많은 선택권과 유연성을 제공합니다. 이번 확장을 통해 사용자는 다양한 AI 에이전트를 활용하여 개인화된 경험을 누릴 수 있게 되었습니다. 이는 갤럭시 AI의 기능을 강화하고 사용자 편의성을 증진시키는 데 기여할 것으로 예상됩니다. 삼성은 앞으로도 AI 기술 개발에 지속적으로 투자하여 사용자 경험을 혁신할 계획입니다.
+
+---
+
+### 3. [AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries - The Hacker News](https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html)
 **출처**: The Hacker News | **게시일**: Sat, 21 Feb 2026 14:49:00 GMT
 
-러시아어 사용 해커 조직이 상업용 AI 도구를 활용하여 55개국 600대 이상의 FortiGate 장치를 해킹한 사례가 발견되었다. 이들은 취약점 공격 대신, AI의 도움을 받아 노출된 관리 포트와 취약한 인증 정보를 악용하여 공격을 감행했다. 아마존은 이 해커 조직이 재정적 이익을 추구하며, AI를 통해 사이버 범죄 진입 장벽을 낮추고 있다고 분석했다. 기업들은 FortiGate 관리 인터페이스 노출 방지, 강력한 인증 설정, 백업 서버 격리 등 기본적인 보안 조치를 강화해야 한다.
+러시아어 사용 해커 조직이 상용 AI 도구를 활용하여 55개국 600대 이상의 FortiGate 장치를 해킹한 사례가 발견되었다. 이들은 취약한 인증 정보와 개방된 관리 포트를 악용했으며, AI는 공격 계획, 도구 개발, 명령어 생성 등 공격 전반에 걸쳐 활용되었다.  주요 목적은 금전적 이득이며, 탈취한 정보를 바탕으로 Active Directory 환경을 침해하고 랜섬웨어 공격을 준비하는 정황도 포착되었다. 아마존은 AI가 사이버 범죄의 진입 장벽을 낮추고 있으며, 기본적인 보안 조치의 중요성을 강조했다.
 
 ---
 
-### 3. [Chaos, confusion and $200 billion dreams: What I saw at India’s AI summit - CNBC](https://www.cnbc.com/2026/02/21/ai-summit-india-tech.html)
+### 4. [Chaos, confusion and $200 billion dreams: What I saw at India’s AI summit - CNBC](https://www.cnbc.com/2026/02/21/ai-summit-india-tech.html)
 **출처**: CNBC | **게시일**: Sat, 21 Feb 2026 08:50:57 GMT
 
-인도가 대규모 AI 행사를 개최했으나, 혼란스러운 운영과 논란으로 얼룩졌다. 빌 게이츠의 기조연설 취소, 대학의 로봇 시연 관련 해프닝 등이 발생했지만, 구글, OpenAI 등 주요 미국 기술 기업들은 인도 시장의 잠재력을 높이 평가하며 투자를 약속했다. 인도 정부는 향후 2년간 AI 분야에 2천억 달러 유치를 목표로 하고 있으며, 혼란 속에서도 인도 시장에 대한 빅테크 기업들의 열기는 식지 않았다.
+인도가 대규모 AI 행사를 개최했으나, 혼란스러운 운영과 논란으로 얼룩졌다. 빌 게이츠의 기조연설 취소, 대학의 로봇 관련 허위 주장 등이 문제점으로 지적되었지만, 순다 피차이, 샘 알트만 등 주요 기술 기업 CEO들이 참석하여 인도의 AI 잠재력을 높이 평가했다. 특히, 거대 기술 기업들은 인도 시장의 가능성에 주목하며 파트너십 체결 및 투자 계획을 발표했다. 인도 정부는 향후 2년간 AI 분야에 2천억 달러 투자를 유치하겠다는 목표를 밝혔다.
 
 ---
 
-### 4. [13-hour AWS outage reportedly caused by Amazon's own AI tools - Engadget](https://www.engadget.com/ai/13-hour-aws-outage-reportedly-caused-by-amazons-own-ai-tools-170930190.html)
-**출처**: Engadget | **게시일**: Sat, 21 Feb 2026 16:58:50 GMT
+### 5. [Developer’s Honest Assessment of AI at Work Rattles the Official Narrative - Futurism](https://futurism.com/artificial-intelligence/developer-honest-assessment-ai)
+**출처**: Futurism | **게시일**: Sat, 21 Feb 2026 17:00:00 GMT
 
-AWS의 13시간 서비스 중단 사태가 아마존 자체 AI 코딩 도구 'Kiro'의 오작동 때문이라는 보도가 나왔다. Financial Times에 따르면, 엔지니어가 Kiro를 통해 변경 작업을 수행하던 중 문제가 발생했으며, Kiro가 환경을 삭제하고 재구성해야 한다고 판단한 것이 원인으로 지목되었다. 아마존은 AI 도구 사용은 우연일 뿐이며 사용자 오류가 원인이라고 주장했지만, 내부에서는 AI 도구 사용 후 서비스 중단이 발생한 사례가 최소 두 번째라는 증언도 나왔다. 아마존은 Kiro 사용률을 높이기 위해 직원들에게 사용을 장려하고 있으며, 이번 사태를 계기로 보안 및 복원력 강화를 위한 조치를 취했다고 밝혔다.
+요약 생성 실패 (Max retries exceeded)
 
 ---
 
-### 5. [Employers to job seekers: Your AI résumé isn’t fooling anyone - The Washington Post](https://www.washingtonpost.com/technology/2026/02/21/ai-resume-jobs/)
+### 6. [Employers to job seekers: Your AI résumé isn’t fooling anyone - The Washington Post](https://www.washingtonpost.com/technology/2026/02/21/ai-resume-jobs/)
 **출처**: The Washington Post | **게시일**: Sat, 21 Feb 2026 18:00:00 GMT
 
-AI를 사용하여 작성된 이력서가 구직자를 속일 수 없다는 것을 고용주들이 인지하고 있다는 내용이다. 워싱턴 포스트에 따르면, 고용주들은 AI가 생성한 과장된 표현이나 부자연스러운 문체를 쉽게 감지한다. 따라서, 구직자들은 AI를 활용하더라도 진솔하고 정확한 정보를 바탕으로 이력서를 작성해야 한다. AI가 이력서 작성에 도움을 줄 수는 있지만, 결국 진정한 능력과 경험이 중요하다는 점을 강조한다.
-
----
-
-### 6. [Child’s Play, by Sam Kriss - Harper's Magazine](https://harpers.org/archive/2026/03/childs-play-sam-kriss-ai-startup-roy-lee/)
-**출처**: Harper's Magazine | **게시일**: Sat, 21 Feb 2026 20:45:04 GMT
-
-샘 크리스의 Harper's Magazine 기사 "Child's Play"는 샌프란시스코에서 논란이 된 AI 기반 부정행위 도구 Cluely와 창업자 Roy Lee를 중심으로 실리콘 밸리의 변화를 조명한다. Cluely는 AI를 활용해 업무를 자동화하는 도구로, 기존의 능력주의 가치 대신 '행동력(agency)'을 중시하는 새로운 엘리트 계층의 등장을 상징한다. 기사는 AI 시대에 인간의 지적 능력이 무의미해지고, 기계의 지시를 따르는 미래를 제시하며, Cluely의 사례를 통해 이러한 변화의 단면을 보여준다. 결국, 실리콘 밸리는 과거의 가치와 다른 새로운 기준을 통해 성공을 정의하고 있으며, 이는 사회 전반에 걸쳐 심각한 영향을 미칠 수 있음을 시사한다.
+AI를 활용해 작성된 이력서가 채용 담당자들을 속일 수 없다는 내용이 워싱턴 포스트에 보도되었습니다. 기업들은 AI가 생성한 과장된 표현이나 일반적인 문구를 쉽게 감지하며, 오히려 진솔하고 구체적인 경험을 강조하는 이력서를 선호합니다. AI 도구 사용 자체를 비판하는 것은 아니지만, 개인의 역량과 경험을 정확하게 반영하지 못한 이력서는 부정적인 인상을 줄 수 있습니다. 따라서, AI를 활용하더라도 진정성 있고 차별화된 내용으로 이력서를 작성하는 것이 중요합니다.
 
 ---
 
 ### 7. [‘Slow this thing down’: Sanders warns US has no clue about speed and scale of coming AI revolution - The Guardian](https://www.theguardian.com/us-news/2026/feb/21/ai-revolution-bernie-sanders-warning)
 **출처**: The Guardian | **게시일**: Sat, 21 Feb 2026 08:00:00 GMT
 
-샌더스 상원의원은 인공지능(AI) 기술 발전의 속도와 규모에 대해 미국 의회와 국민이 제대로 인지하지 못하고 있다고 경고하며, AI 개발 경쟁을 늦추기 위한 정책 마련을 촉구했습니다. 그는 AI가 노동 시장, 개인의 행복, 그리고 사회적 관계에 미칠 부정적인 영향에 대한 우려를 표명하며, AI 데이터 센터 확장에 대한 일시적 중단을 제안했습니다. 또한, AI 기술 발전의 이익이 소수의 부유층에게만 집중되지 않고 일반 대중에게 돌아갈 수 있도록 공정한 논의가 필요하다고 강조했습니다. 샌더스 의원은 AI와 로봇 기술이 가져올 일자리 감소와 사회적 변화에 대한 심각한 논의를 촉구했습니다.
+샌더스 상원의원은 미국 의회와 국민들이 다가오는 AI 혁명의 속도와 규모에 대해 제대로 인지하지 못하고 있다고 경고하며, 기술 기업들의 경쟁적인 AI 시스템 개발 속도를 늦추기 위한 정책적 조치를 촉구했습니다. 그는 AI가 노동 시장뿐 아니라 개인의 행복과 사회적 관계에도 심각한 영향을 미칠 수 있다고 우려하며, AI 데이터 센터 확장에 대한 일시적 중단을 제안했습니다. 또한, AI 기술 발전의 이익이 소수의 부유층에게만 집중되지 않고 일반 대중에게 돌아갈 수 있도록 공정한 논의가 필요하다고 강조했습니다. 샌더스 의원은 AI와 로봇 기술이 가져올 일자리 감소와 사회적 변화에 대한 심각한 우려를 표명하며, 이에 대한 적극적인 대비를 촉구했습니다.
 
 ---
 
-### 8. [You have 18 months to figure out your office job, $1 billion CEO says. But it’s not going away - Fortune](https://fortune.com/2026/02/21/will-ai-take-my-job-coders-software-engineers-really-screwed/)
-**출처**: Fortune | **게시일**: Sat, 21 Feb 2026 12:30:00 GMT
+### 8. [Is AI use in administrative tasks safe? - Medical Economics](https://www.medicaleconomics.com/view/is-ai-use-in-administrative-tasks-safe-)
+**출처**: Medical Economics | **게시일**: Sat, 21 Feb 2026 20:17:22 GMT
 
-실리콘밸리의 AI 붐으로 인해 화이트칼라 직종의 미래에 대한 우려가 제기되고 있지만, PromptQL의 CEO 탄마이 고팔은 AI가 모든 직업을 대체하지는 않을 것이라고 주장한다. 그는 AI가 코딩과 같은 특정 분야에서는 "평균적인 고급 소프트웨어 엔지니어" 수준의 능력을 보이지만, 비즈니스 맥락에 대한 이해 부족으로 인해 한계가 있다고 지적한다. 고팔은 AI가 자동화할 수 있는 영역은 이미 취약하며, 인간은 AI와 협력하여 비즈니스 맥락을 제공하고 AI를 활용하는 방식으로 업무를 수행하게 될 것이라고 전망한다. 궁극적으로 AI는 인간의 역할을 완전히 대체하기보다는 업무 방식을 변화시키는 촉매제가 될 것으로 보인다.
-
----
-
-### 9. [INL Partners with NVIDIA on Nuclear AI Apps - Neutron Bytes](https://neutronbytes.com/2026/02/21/inl-partners-with-nvidia-on-nuclear-ai-apps/)
-**출처**: Neutron Bytes | **게시일**: Sat, 21 Feb 2026 19:55:54 GMT
-
-아이다호 국립 연구소(INL)는 NVIDIA와 협력하여 인공지능을 활용한 차세대 원자력 발전 기술 개발 및 상용화를 가속화합니다. 이 협력은 원자로 설계, 허가, 제조, 건설 및 운영 전반에 걸쳐 AI를 적용하여 개발 기간을 단축하고 운영 비용을 절감하는 것을 목표로 합니다. 또한, Oak Ridge 국립 연구소와 Kairos Power는 차세대 원자로 기술 개발을 위해 2700만 달러 규모의 전략적 파트너십을 체결했습니다. 이 외에도 Deep Fission은 소형 모듈 원자로(SMR) 프로젝트를 위해 자금 조달 및 Blue Owl Capital과의 협력을 발표했으며, Radiant Nuclear는 Lockheed Martin으로부터 투자를 유치하여 소형 원자로 개발을 추진하고 있습니다. NuCube Energy는 AI 및 산업 수요 증가에 대응하기 위해 1300만 달러의 자금을 확보하여 고온 마이크로 원자로 개발에 박차를 가하고 있습니다.
+인공지능(AI)이 행정 업무에 도입되면서 안전성에 대한 의문이 제기되고 있다. Medical Economics에 따르면, AI의 행정 업무 활용은 효율성을 높일 수 있지만, 데이터 보안 및 개인 정보 보호 문제, 그리고 잠재적인 오류 가능성에 대한 우려가 존재한다. 의료 분야를 포함한 다양한 분야에서 AI 도입 시 이러한 위험 요소를 신중하게 고려해야 할 필요성이 강조된다. 따라서 AI 사용에 대한 명확한 지침과 규정 마련이 중요하며, 안전성을 확보하기 위한 지속적인 검토와 개선이 요구된다.
 
 ---
 
-### 10. [The Country That’s Madly in Love With AI - Politico](https://www.politico.com/news/magazine/2026/02/21/south-korea-ai-popular-why-00789618)
-**출처**: Politico | **게시일**: Sat, 21 Feb 2026 15:00:00 GMT
-
-정치 전문 매체 폴리티코(Politico)는 특정 국가가 인공지능(AI) 기술에 열광하고 있다고 보도했습니다. 해당 국가는 AI 기술을 적극적으로 도입하고 있으며, 사회 전반에 걸쳐 AI 활용이 빠르게 확산되고 있는 것으로 보입니다. 이러한 AI에 대한 높은 관심과 투자는 해당 국가의 경제 및 사회 발전에 상당한 영향을 미칠 것으로 예상됩니다. 폴리티코는 이 국가의 AI 기술 수용 현황과 그 배경에 대해 심층적으로 분석했습니다.
-
----
-
-### 11. [AI-augmented threat actor accesses FortiGate devices at scale | Amazon Web Services - Amazon Web Services (AWS)](https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/)
+### 9. [AI-augmented threat actor accesses FortiGate devices at scale | Amazon Web Services - Amazon Web Services (AWS)](https://aws.amazon.com/blogs/security/ai-augmented-threat-actor-accesses-fortigate-devices-at-scale/)
 **출처**: Amazon Web Services (AWS) | **게시일**: Fri, 20 Feb 2026 20:27:43 GMT
 
-아마존 위협 정보 분석 결과, 기술력이 낮은 공격자가 상용 AI 서비스를 활용하여 2026년 1월부터 2월까지 55개국 이상에서 600개 이상의 FortiGate 장치를 해킹한 사례가 발견되었습니다. 공격자는 FortiGate 취약점 대신 노출된 관리 포트와 취약한 인증 정보를 악용했으며, AI는 공격자가 제한된 기술력에도 불구하고 대규모 공격을 수행하는 데 도움을 주었습니다.  AI는 공격 계획 수립, 맞춤형 도구 개발 등 공격 전반에 걸쳐 활용되었으며, 이는 사이버 공격의 진입 장벽을 낮추는 AI의 영향력을 보여줍니다. 아마존은 이러한 위협에 대응하기 위해 보안 커뮤니티와 정보를 공유하고 있으며, 강력한 보안 기본 수칙 준수를 강조합니다.
+아마존 위협 정보 분석 결과, 기술력이 낮은 공격자가 상용 AI 서비스를 활용하여 2026년 1월부터 2월 사이에 55개국 이상에서 600개 이상의 FortiGate 장치를 해킹한 사례가 발견되었습니다. 공격자는 FortiGate의 취약점 악용 대신, 노출된 관리 포트와 취약한 인증 정보를 AI를 통해 대규모로 공략했습니다. 이는 AI가 사이버 공격의 진입 장벽을 낮추고, 숙련되지 않은 공격자도 효율성과 규모를 확대할 수 있게 되었음을 보여줍니다. 조직은 AI 기반 공격 증가에 대비하여 강력한 보안 기본 사항을 강화해야 합니다.
 
 ---
 
-### 12. [Bernie Sanders warns about AI ‘tsunami’ at Stanford town hall - Palo Alto Online](https://www.paloaltoonline.com/regional-politics/2026/02/21/bernie-sanders-warns-about-ai-tsunami-at-stanford-town-hall/)
+### 10. [Pope Leo XIV tells priests not to use AI to write homilies or seek ‘likes’ on TikTok - OSV News](https://www.osvnews.com/pope-leo-xiv-tells-priests-not-to-use-ai-to-write-homilies-or-seek-likes-on-tiktok/)
+**출처**: OSV News | **게시일**: Sat, 21 Feb 2026 22:13:24 GMT
+
+레오 14세 교황은 사제들에게 강론 작성 시 인공지능(AI) 사용을 자제하고 틱톡 등 소셜 미디어에서 '좋아요'를 구하는 행위를 삼갈 것을 당부했습니다. 교황은 AI가 신앙을 공유할 수 없으며, 사제는 인간적인 관계를 통해 신앙을 전해야 한다고 강조했습니다. 또한 젊은 사제들에게 젊은이들과의 진정한 우정을 통해 소통하고, 고립된 젊은이들에게 다가가 예수 그리스도를 알도록 초대해야 한다고 조언했습니다. 교황은 사제들이 기도 생활에 충실하고, 서로 간의 우정을 돈독히 하며, 안락사에 대한 부정적인 태도를 버리고 삶의 가치를 증거해야 한다고 덧붙였습니다.
+
+---
+
+### 11. [INL Partners with NVIDIA on Nuclear AI Apps - Neutron Bytes](https://neutronbytes.com/2026/02/21/inl-partners-with-nvidia-on-nuclear-ai-apps/)
+**출처**: Neutron Bytes | **게시일**: Sat, 21 Feb 2026 19:55:54 GMT
+
+아이다호 국립 연구소(INL)는 NVIDIA와 협력하여 인공지능을 활용한 차세대 원자력 기술 개발 및 상용화를 가속화합니다. 이 협력은 원자로 설계, 라이선스, 제조, 건설 및 운영 전반에 걸쳐 AI를 적용하여 개발 기간을 단축하고 운영 비용을 절감하는 것을 목표로 합니다. 또한, 오크리지 국립 연구소(ORNL)는 카이로스 파워와 협력하여 용융염 냉각 고온 원자로 기술 개발을 추진하며, 딥 퓨전은 소형 모듈 원자로(SMR) 프로젝트를 통해 건설 비용 절감을 시도합니다. 이 외에도, 록히드 마틴은 방사성 핵에 전략적 투자를 진행하고, NuCube Energy는 AI 및 산업 수요 증가에 대응하기 위해 차세대 원자력 기술 개발에 1,300만 달러의 자금을 확보했습니다.
+
+---
+
+### 12. [The Country That’s Madly in Love With AI - Politico](https://www.politico.com/news/magazine/2026/02/21/south-korea-ai-popular-why-00789618)
+**출처**: Politico | **게시일**: Sat, 21 Feb 2026 15:00:00 GMT
+
+인공지능에 대한 높은 관심을 보이는 국가에 대한 Politico의 보도입니다. 해당 국가는 AI 기술 도입과 활용에 적극적인 태도를 보이며, 다양한 분야에서 AI를 활용한 혁신을 추진하고 있습니다. 이러한 AI에 대한 열정은 경제 성장과 사회 발전에 기여할 것으로 기대됩니다. 구체적인 국가명은 기사에 명시되어 있지 않지만, AI 기술을 적극적으로 수용하는 국가의 사례를 보여줍니다.
+
+---
+
+### 13. [Legislators show bipartisan support for AI regulation - Columbia Missourian](https://www.columbiamissourian.com/news/state_news/legislators-show-bipartisan-support-for-ai-regulation/article_9c903afb-5876-433d-aa72-f15a53c9f4c9.html)
+**출처**: Columbia Missourian | **게시일**: Sat, 21 Feb 2026 22:00:00 GMT
+
+미주리 주 상원 의원들이 초당적으로 인공지능(AI) 규제 법안에 대한 지지를 표명했다. 더그 벡, 조 니콜라, 마이크 문 상원 의원은 미주리 주 내 AI 규제 개혁의 필요성을 강조했다. 이번 초당적 지지는 AI 기술의 발전과 함께 발생할 수 있는 잠재적 문제점에 대한 우려를 반영한다. 향후 미주리 주에서 AI 관련 법안 논의가 활발해질 것으로 예상된다.
+
+---
+
+### 14. [Google Turns Up in the Music in AI - The Information](https://www.theinformation.com/newsletters/the-weekend/google-turns-music-ai)
+**출처**: The Information | **게시일**: Sat, 21 Feb 2026 15:00:00 GMT
+
+구글이 인공지능 음악 분야에 진출했다. The Information의 단독 보도에 따르면, 구글은 AI를 활용한 음악 생성 기술 개발에 참여하고 있는 것으로 보인다. 한편, OpenAI는 2030년까지 1,110억 달러의 현금 소진을 예상하며 수익 예측을 상향 조정했다. 이는 AI 기술 경쟁 심화 속에서 대규모 투자가 지속될 것임을 시사한다.
+
+---
+
+### 15. [Bernie Sanders warns about AI ‘tsunami’ at Stanford town hall - Palo Alto Online](https://www.paloaltoonline.com/regional-politics/2026/02/21/bernie-sanders-warns-about-ai-tsunami-at-stanford-town-hall/)
 **출처**: Palo Alto Online | **게시일**: Sat, 21 Feb 2026 17:12:08 GMT
 
-샌더스 미국 상원의원은 스탠포드 대학 강연에서 인공지능(AI) 기술 발전이 초래할 사회적, 경제적 파장에 대한 우려를 표명하며, AI 기술 발전 속도를 늦춰야 한다고 주장했습니다. 그는 AI가 일자리를 대체하고 인간 관계에 영향을 미칠 수 있다고 경고하며, 데이터 센터 확장에 대한 일시적 중단을 제안했습니다. 반면, 로 칸나 하원의원은 AI 기술의 잠재력을 인정하면서도, 에너지 사용에 대한 기술 기업의 책임을 강조하며 싱가포르, 핀란드 모델을 지지했습니다. 두 의원은 AI 기술이 심화시키는 불평등 문제에 공감하며, AI 기술 발전의 방향성에 대한 사회적 논의의 필요성을 강조했습니다.
+요약 생성 실패 (Max retries exceeded)
 
 ---
 
-### 13. [Why fake AI videos of UK urban decline are taking over social media - BBC](https://www.bbc.com/news/articles/c4g8r23yv71o)
-**출처**: BBC | **게시일**: Sat, 21 Feb 2026 06:04:41 GMT
-
-최근 영국 도시의 쇠퇴를 묘사하는 AI 생성 가짜 영상들이 소셜 미디어에서 확산되고 있으며, 특히 런던 남부 크로이던을 배경으로 한 영상들이 인기를 끌고 있다. 이러한 영상들은 범죄와 이민 문제를 과장하거나 조작하여 인종차별적 반발을 일으키고 있으며, 제작자는 재미를 목적으로 제작했다고 주장하지만, 정치적 의도는 부인하고 있다. AI 기술의 발전으로 가짜 콘텐츠 제작이 쉬워지면서 유사한 영상들이 양산되고 있으며, 도시 쇠퇴를 조장하는 기존의 트렌드와 결합되어 사회적 논란을 야기하고 있다. 틱톡, 인스타그램 등 플랫폼은 인종차별적 콘텐츠에 대한 규제를 강화하고 있지만, 가짜 뉴스의 확산을 막기에는 역부족이라는 지적이 나오고 있다.
-
----
-
-### 14. [Amazon pushes back on Financial Times report blaming AI coding tools for AWS outages - GeekWire](https://www.geekwire.com/2026/amazon-pushes-back-on-financial-times-report-blaming-ai-coding-tools-for-aws-outages/)
-**출처**: GeekWire | **게시일**: Sat, 21 Feb 2026 03:55:17 GMT
-
-아마존이 AWS 서비스 중단 원인으로 AI 코딩 도구를 지목한 파이낸셜 타임즈의 보도에 반박했습니다. 해당 보도는 AI 코딩 도구가 오류를 야기하여 AWS 장애를 일으켰다고 주장했습니다. 아마존은 이러한 주장이 사실과 다르다고 강조하며, AI 도구가 문제의 근본 원인이 아니라고 밝혔습니다. 아마존은 안정적인 서비스 제공을 위해 지속적으로 노력하고 있다고 덧붙였습니다.
-
----
-
-### 15. [India AI Impact Summit 2026: Shaping a human-centric future for AI - opinion - The Jerusalem Post](https://www.jpost.com/opinion/article-887401)
-**출처**: The Jerusalem Post | **게시일**: Sat, 21 Feb 2026 18:22:07 GMT
-
-인도에서 개최된 AI Impact Summit 2026에서는 인간 중심의 AI 개발 및 활용 방안이 논의되었다. 인도는 '모두를 위한 복지, 모두를 위한 행복'이라는 기치 아래 AI 기술이 인간을 위한 도구로 사용되어야 함을 강조하며, 특히 개발도상국 발전에 기여할 수 있도록 MANAV 프레임워크를 제시했다. 또한, AI 기술의 신뢰성 확보를 위해 디지털 콘텐츠의 출처 표기 의무화 등 진위성 검증을 위한 국제 표준 마련을 촉구했다. 인도는 AI 생태계 구축을 위해 인프라 투자 및 인재 양성에 힘쓰고 있으며, 인도에서 개발된 AI 솔루션이 전 세계에 기여할 수 있도록 지원할 계획이다.
-
----
-
-### 16. [At A.I. Summit, India Tries to Find a Way Between the U.S. and China - The New York Times - The New York Times](https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html)
+### 16. [At A.I. Summit, India Tries to Find a Way Between the U.S. and China - The New York Times](https://www.nytimes.com/2026/02/21/world/asia/ai-summit-india-foreign-policy.html)
 **출처**: The New York Times | **게시일**: Sat, 21 Feb 2026 08:50:35 GMT
 
-인도가 AI 정상회담을 통해 미국과 중국 사이에서 균형을 잡으려 시도하고 있습니다. 인도는 AI 기술 발전을 촉진하면서도, 미국과 중국의 기술 패권 경쟁에 휘말리지 않고 자국의 이익을 극대화하는 방안을 모색하고 있습니다. 이번 정상회담은 인도가 AI 분야에서 독립적인 입지를 구축하고, 글로벌 AI 거버넌스 논의에 적극적으로 참여하려는 의지를 보여주는 것으로 해석됩니다. 인도는 AI 기술을 활용하여 경제 성장과 사회 발전을 이루는 동시에, 데이터 보안 및 윤리적 문제에 대한 국제적인 협력을 강조할 것으로 예상됩니다.
+인도가 AI 정상회담을 개최하여 미국과 중국 사이에서 균형을 잡으려 노력하고 있습니다. 인도는 AI 기술 발전을 추구하면서도, 미국과 중국의 기술 패권 경쟁에 휘말리지 않고 독자적인 입지를 확보하려 합니다. 이번 정상회담은 인도가 AI 분야에서 글로벌 리더십을 확보하고, 책임감 있는 AI 개발 및 활용을 위한 국제 협력을 모색하는 기회가 될 것으로 보입니다. 인도는 데이터 보호 및 윤리적 AI 사용에 대한 자체적인 기준을 설정하며, AI 기술의 경제적, 사회적 영향을 고려한 균형 잡힌 접근 방식을 취할 것으로 예상됩니다.
 
 ---
 
-### 17. [Tech giants commit billions to Indian AI as New Delhi pushes for superpower status - CNBC](https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html)
+### 17. [Amazon’s Blundering AI Caused Multiple AWS Outages - Futurism](https://futurism.com/artificial-intelligence/amazon-ai-aws-outages)
+**출처**: Futurism | **게시일**: Sat, 21 Feb 2026 14:00:00 GMT
+
+Amazon의 클라우드 서비스 AWS에서 자체 개발한 AI 코딩 도구의 오류로 인해 최소 두 차례의 서비스 중단이 발생했다는 보도가 나왔다. 특히 'Kiro'라는 AI 에이전트가 환경을 삭제하고 재구성하는 과정에서 13시간 동안 서비스 장애를 일으킨 것으로 알려졌다. 아마존 측은 이를 사용자 오류라고 주장하며 AI 도구 자체의 문제는 아니라고 해명했지만, 사내에서는 AI 도구 사용에 대한 우려가 제기되고 있으며, 잦은 오류로 인해 개발 속도가 오히려 느려진다는 지적도 있다. 아마존은 개발자들의 AI 도구 사용을 장려하고 있지만, AI 오류 발생 시 책임은 사용자에게 전가될 수 있다는 비판이 제기되고 있다.
+
+---
+
+### 18. [Tech giants commit billions to Indian AI as New Delhi pushes for superpower status - CNBC](https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html)
 **출처**: CNBC | **게시일**: Sat, 21 Feb 2026 07:30:35 GMT
 
-인도가 AI 강국으로 도약을 추진하는 가운데, 글로벌 기술 기업들이 인도 AI 분야에 수천억 달러를 투자하기로 약속했다. 아마존, 마이크로소프트, 메타, 알파벳 등 하이퍼스케일러들은 AI 관련 설비 투자에 막대한 자금을 투입할 예정이며, 인도 기업 릴라이언스와 아다니도 데이터 센터 및 AI 인프라 구축에 대규모 투자를 발표했다. 이번 투자 결정은 인도 정부의 적극적인 지원과 더불어 미국과의 기술 협력 강화 움직임 속에서 이루어졌으며, 인도 내 AI 기술 개발 및 생태계 조성에 크게 기여할 것으로 전망된다. 다만, 일각에서는 인도가 AI 분야에서 미국이나 중국에 비해 뒤쳐져 있다는 지적도 제기되고 있다.
+인도가 AI 강국으로 도약을 추진하는 가운데, 글로벌 기술 기업들이 인도 AI 분야에 수천억 달러를 투자하기로 약속했다. 아마존, 마이크로소프트, 메타, 알파벳 등 하이퍼스케일러들은 AI 관련 설비 투자에 막대한 자금을 투입할 예정이며, 인도 기업 릴라이언스와 아다니 역시 데이터 센터 및 AI 인프라 구축에 대규모 투자를 발표했다. 이번 투자 결정은 인도 정부의 적극적인 지원과 함께, 미국과의 기술 협력 강화 노력의 일환으로 해석된다. 다만, 일각에서는 인도의 AI 기술 수준이 미국이나 중국에 비해 뒤쳐져 있다는 지적도 제기되고 있다.
 
 ---
 
-### 18. [Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning - The Hacker News](https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html)
+### 19. [Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning - The Hacker News](https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html)
 **출처**: The Hacker News | **게시일**: Sat, 21 Feb 2026 07:58:00 GMT
 
-앤트로픽(Anthropic)은 AI 기반 코드 취약점 스캔 기능인 '클로드 코드 시큐리티(Claude Code Security)'를 출시했다. 이 기능은 기업 및 팀 고객을 대상으로 제한적인 연구 프리뷰 형태로 제공되며, 소프트웨어 코드베이스의 보안 취약점을 스캔하고 패치를 제안한다. 클로드 코드 시큐리티는 기존 방식으로는 찾기 어려웠던 보안 문제를 발견하고 수정할 수 있도록 돕는다. AI를 활용하여 인간 보안 연구원처럼 코드베이스를 분석하고, 구성 요소 간의 상호 작용을 이해하며, 데이터 흐름을 추적하여 규칙 기반 도구에서 놓칠 수 있는 취약점을 식별한다. 최종 결과는 대시보드에 표시되어 개발자가 검토 및 승인할 수 있으며, 모든 패치는 인간의 승인 하에 적용된다.
-
----
-
-### 19. [Becker bill aims to curb fraud involving AI deepfakes - Palo Alto Online](https://www.paloaltoonline.com/technology/2026/02/21/becker-bill-aims-to-curb-fraud-involving-ai-deepfakes/)
-**출처**: Palo Alto Online | **게시일**: Sat, 21 Feb 2026 16:29:19 GMT
-
-캘리포니아 주 상원 의원 조쉬 베커는 AI 딥페이크 기술을 이용한 사기 및 명예훼손에 대한 처벌을 강화하고 피해 이미지 삭제 경로를 마련하는 법안을 발의했다. 이 법안은 AI를 이용한 사기 피해 사례 증가와 허위 성적 콘텐츠 제작 등의 문제에 대응하기 위한 것이다. '디지털 존엄성 법'으로 명명된 이 법안은 AI 생성 콘텐츠를 이용한 사기 및 명예훼손에 대한 처벌을 강화하고, 플랫폼에 무단 AI 생성 복제물 삭제 의무를 부과한다. 베커 의원은 AI 기술이 악용되는 것을 막고, 캘리포니아 주민들에게 실질적인 보호와 구제 수단을 제공하는 것을 목표로 한다고 밝혔다.
+앤트로픽(Anthropic)은 AI 기반 코드 보안 기능인 '클로드 코드 시큐리티(Claude Code Security)'를 출시하여 기업 및 팀 고객에게 제한적으로 제공한다. 이 기능은 사용자의 소프트웨어 코드베이스에서 보안 취약점을 스캔하고 패치를 제안하여 기존 방식으로는 찾기 어려운 보안 문제를 해결하도록 돕는다. 클로드 코드 시큐리티는 정적 분석을 넘어 코드베이스를 인간 보안 연구자처럼 분석하고, 구성 요소 간의 상호 작용을 이해하며, 데이터 흐름을 추적하여 규칙 기반 도구가 놓칠 수 있는 취약점을 식별한다. 발견된 취약점은 다단계 검증 과정을 거쳐 오탐을 제거하고 심각도 등급을 부여받아, 개발팀이 가장 중요한 문제에 집중할 수 있도록 지원한다.
 
 ---
 
 ### 20. [Dozens of countries steer clear of safety commitment in global AI pledge - Politico](https://www.politico.com/news/2026/02/21/dozens-of-countries-steer-clear-of-safety-commitment-in-global-ai-pledge-00792298)
 **출처**: Politico | **게시일**: Sat, 21 Feb 2026 18:27:09 GMT
 
-정치 전문 매체 폴리티코에 따르면, 수십 개 국가가 인공지능(AI) 안전 서약에 참여하지 않아 AI 기술의 안전성에 대한 국제적 합의에 어려움이 예상된다. 이번 서약은 AI 기술의 잠재적 위험에 대한 공동 대응을 목표로 했으나, 참여국의 부족으로 그 효과에 대한 의문이 제기되고 있다. 특히, AI 기술 개발 선도국들의 참여 여부가 불투명하여, AI 안전 기준 설정 및 규제에 난항이 예상된다. 이는 AI 기술 발전과 더불어 안전 문제에 대한 국제적인 협력의 중요성을 시사한다.
+정치 전문 매체 폴리티코에 따르면, 수십 개 국가가 글로벌 AI 안전 서약에 대한 약속을 회피하고 있습니다. 이 서약은 AI 기술의 잠재적 위험에 대한 안전 조치를 강화하는 것을 목표로 하지만, 많은 국가들이 구체적인 약속을 꺼리고 있는 것으로 보입니다. 이는 AI 기술 개발과 규제 사이의 균형을 맞추려는 국제적인 노력에 어려움을 더할 수 있습니다. AI 안전에 대한 국제적 합의 도출에 난항이 예상됩니다.
 
 ---
 
