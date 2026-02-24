@@ -1,7 +1,7 @@
 {
   "source": "tech_digest",
   "date": "2026-02-24",
-  "generated_at": "2026-02-24T12:55:44.299090+09:00",
+  "generated_at": "2026-02-24T13:06:01.612737+09:00",
   "count": 15,
   "chat_message": "🧩 오늘의 통합 Tech Digest (HN + Hada + GN)\n\n📍 1. The persona selection model - Anthropic\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: Anthropic은 AI 비서가 인간처럼 행동하는 이유를 설명하는 'persona selection model'을 제시했습니다. 이 모델은 AI가 방대한 데이터로 사전 학습(pretraining)하는 과정에서 다양한 인간형 '페르소나(personas)'를 시뮬레이션하게 되며, 이후 후속 학습(post-training)은 이 중 'Assistant' 페르소나를 정교화하는 과정일 뿐 근본적인 성격을 바꾸지 않는다고 주장합니다. 이는 AI의 행동 정렬(alignment) 문제에 대한 새로운 관점과 해결책을 제시합니다.\n🔗 링크: https://www.anthropic.com/research/persona-selection-model\n\n📍 2. Pentagon Summons Anthropic Chief in Dispute Over A.I. Limits - The New York Times\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 미 국방부가 AI 개발 선두 기업인 Anthropic의 최고 책임자를 소환하여 인공지능의 한계 설정 및 규제에 대한 심도 깊은 논의를 진행 중입니다. 이는 고성능 LLM(Large Language Model)의 군사적 활용 가능성과 잠재적 위험성에 대한 정부와 기술 기업 간의 시각차를 명확히 보여주며, 특히 Anthropic이 추구하는 AI 안전성 및 윤리적 개발 원칙과 국방 분야의 요구사항 간의 충돌이 핵심 쟁점으로 부상하고 있습니다.\n🔗 링크: https://www.nytimes.com/2026/02/23/us/politics/pentagon-anthropic-ai.html\n\n📍 3. Exclusive: China's DeepSeek trained AI model on Nvidia's best chip despite US ban, official says - Reuters\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 중국 AI 기업 DeepSeek이 미국의 수출 제재에도 불구하고 엔비디아의 최신 고성능 GPU를 확보하여 AI 모델 훈련에 성공했다는 소식이 전해졌습니다. 이는 중국의 AI 기술 개발 역량과 함께 미국 기술 제재의 실효성에 대한 의문을 제기하며, 글로벌 AI 경쟁 구도에 중요한 시사점을 던집니다.\n🔗 링크: https://www.reuters.com/world/china/chinas-deepseek-trained-ai-model-nvidias-best-chip-despite-us-ban-official-says-2026-02-24/\n\n📍 4. AI Is Upending Marketing on Two Fronts - Harvard Business Review\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 하버드 비즈니스 리뷰 기사는 AI가 마케팅 분야에 두 가지 혁명적인 변화를 가져오고 있으며, 이는 기업의 고객 경쟁 방식을 근본적으로 재편할 것이라고 강조합니다. 이 두 가지 변화는 소비자가 정보를 탐색하는 방식의 진화와, 더 나아가 구매 결정을 내리는 주체가 변화하는 현상을 포함합니다.\n🔗 링크: https://hbr.org/2026/02/ai-is-upending-marketing-on-two-fronts\n\n📍 5. This AI Tool Doesn't Help With Homework. It Does It for You - CNET\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: Companion 스타트업이 개발한 AI 도구 'Einstein'은 학생의 Canvas 계정에 직접 로그인하여 강의 시청, 과제 작성, 퀴즈 완료 등 온라인 수업의 모든 과정을 자율적으로 수행하는 '디지털 대리인' 역할을 합니다. 이는 단순한 챗봇을 넘어선 자율형 Agent 기술을 활용하여 교육 분야에서 AI의 활용 범위를 '지원'에서 '대체'로 확장하며 학업 윤리 및 교육 방식에 대한 근본적인 질문을 던지고 있습니다.\n🔗 링크: https://www.cnet.com/tech/services-and-software/companion-einstein-ai-tool/\n\n출처: Hacker News, GeekNews, Google News\nhttps://news.ycombinator.com/ | https://news.hada.io/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/digest",
   "items": [
@@ -23,6 +23,13 @@
       "source_links": {},
       "merge_score": 0.8999999999999999,
       "published_at_kst": "Mon, 23 Feb 2026 22:38:35 GMT",
+      "tags": [
+        "AI Alignment",
+        "AI Behavior",
+        "Machine Learning",
+        "AI Ethics",
+        "Post-training"
+      ],
       "rank": 1
     },
     {
@@ -43,6 +50,13 @@
       "source_links": {},
       "merge_score": 0.8631578947368421,
       "published_at_kst": "Mon, 23 Feb 2026 22:47:23 GMT",
+      "tags": [
+        "자율 AI",
+        "AI 윤리",
+        "Anthropic",
+        "AI 규제",
+        "국방 AI"
+      ],
       "rank": 2
     },
     {
@@ -63,6 +77,13 @@
       "source_links": {},
       "merge_score": 0.8263157894736841,
       "published_at_kst": "Tue, 24 Feb 2026 00:10:00 GMT",
+      "tags": [
+        "미국 기술 제재",
+        "반도체 공급망",
+        "지정학",
+        "DeepSeek",
+        "AI 모델 훈련"
+      ],
       "rank": 3
     },
     {
@@ -83,6 +104,13 @@
       "source_links": {},
       "merge_score": 0.7894736842105263,
       "published_at_kst": "Mon, 23 Feb 2026 13:49:41 GMT",
+      "tags": [
+        "AI Marketing",
+        "Personalization",
+        "Consumer Behavior",
+        "AI Agent",
+        "AI"
+      ],
       "rank": 4
     },
     {
@@ -103,6 +131,13 @@
       "source_links": {},
       "merge_score": 0.7526315789473683,
       "published_at_kst": "Mon, 23 Feb 2026 22:47:00 GMT",
+      "tags": [
+        "Release",
+        "LLM",
+        "Generative AI",
+        "Startup",
+        "Browser Automation"
+      ],
       "rank": 5
     },
     {
@@ -154,6 +189,13 @@
       "source_links": {},
       "merge_score": 0.7157894736842105,
       "published_at_kst": "Tue, 24 Feb 2026 01:14:39 GMT",
+      "tags": [
+        "기술 탈취",
+        "AI 윤리",
+        "지적 재산권",
+        "Security",
+        "Claude"
+      ],
       "rank": 7
     },
     {
@@ -174,6 +216,13 @@
       "source_links": {},
       "merge_score": 0.6789473684210526,
       "published_at_kst": "Mon, 23 Feb 2026 19:30:01 GMT",
+      "tags": [
+        "자본 지출",
+        "Cloud",
+        "AWS",
+        "Security",
+        "AI 인프라"
+      ],
       "rank": 8
     },
     {
@@ -220,6 +269,13 @@
       "source_links": {},
       "merge_score": 0.6421052631578947,
       "published_at_kst": "Tue, 24 Feb 2026 02:12:00 GMT",
+      "tags": [
+        "투자 심리",
+        "금융 시장",
+        "Agent",
+        "AI 리스크",
+        "AI"
+      ],
       "rank": 10
     },
     {
@@ -240,6 +296,13 @@
       "source_links": {},
       "merge_score": 0.6052631578947368,
       "published_at_kst": "Mon, 23 Feb 2026 21:41:49 GMT",
+      "tags": [
+        "Release",
+        "AI scare trade",
+        "Citrini Research",
+        "IBM",
+        "소프트웨어 산업"
+      ],
       "rank": 11
     },
     {
@@ -260,6 +323,13 @@
       "source_links": {},
       "merge_score": 0.5684210526315789,
       "published_at_kst": "Mon, 23 Feb 2026 22:07:04 GMT",
+      "tags": [
+        "소프트웨어 산업",
+        "Rust",
+        "Nvidia",
+        "Security",
+        "기술주"
+      ],
       "rank": 12
     },
     {
@@ -312,6 +382,13 @@
       "source_links": {},
       "merge_score": 0.531578947368421,
       "published_at_kst": "Mon, 23 Feb 2026 19:33:00 GMT",
+      "tags": [
+        "자율 AI",
+        "엔터프라이즈 AI",
+        "Rust",
+        "Security",
+        "Claude Code"
+      ],
       "rank": 14
     },
     {
@@ -332,6 +409,13 @@
       "source_links": {},
       "merge_score": 0.49473684210526314,
       "published_at_kst": "Tue, 24 Feb 2026 00:31:00 GMT",
+      "tags": [
+        "Release",
+        "수출통제",
+        "Moonshot AI",
+        "Agentic Reasoning",
+        "Distillation"
+      ],
       "rank": 15
     }
   ]
