@@ -1,7 +1,7 @@
 {
   "source": "tech_digest",
   "date": "2026-02-24",
-  "generated_at": "2026-02-24T09:25:13.488643+09:00",
+  "generated_at": "2026-02-24T09:36:00.916771+09:00",
   "count": 15,
   "chat_message": "🧩 오늘의 통합 Tech Digest (HN + Hada + GN)\n\n📍 1. Anthropic Education Report: The AI Fluency Index - Anthropic\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 요약 생성 실패\n🔗 링크: https://www.anthropic.com/research/AI-fluency-index\n\n📍 2. AI Is Upending Marketing on Two Fronts - Harvard Business Review\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 요약 생성 실패\n🔗 링크: https://hbr.org/2026/02/ai-is-upending-marketing-on-two-fronts\n\n📍 3. Pentagon Summons Anthropic Chief in Dispute Over A.I. Limits - The New York Times\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 미 국방부가 AI 안전 및 윤리적 사용에 대한 이견으로 Anthropic의 CEO를 소환했다. 이는 국방 분야에서 LLM(Large Language Model, 거대 언어 모델)의 활용이 증가하는 가운데, AI 기술의 통제 및 규제에 대한 중요성이 부각되고 있음을 보여준다.\n🔗 링크: https://www.nytimes.com/2026/02/23/us/politics/pentagon-anthropic-ai.html\n\n📍 4. Amazon to spend $12 billion in Louisiana on AI data centers - CNBC\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 아마존이 루이지애나주에 120억 달러를 투자하여 AI 및 클라우드 컴퓨팅을 위한 새로운 데이터 센터 캠퍼스를 건설한다. 이번 투자는 아마존의 AI 역량 강화와 더불어 지역 경제 활성화에도 기여할 것으로 예상되지만, 데이터 센터 건설에 따른 환경 문제와 지역 사회의 우려도 함께 제기되고 있다.\n🔗 링크: https://www.cnbc.com/2026/02/23/amazon-louisiana-ai-data-centers.html\n\n📍 5. AI and Digital Literacy - Commonwealth of Pennsylvania (.gov)\n🗂️ 분류: AI & LLM | 출처: google_news\n📝 요약: 펜실베이니아 주 정부가 AI와 디지털 리터러시(Digital Literacy) 역량 강화를 위한 정책을 추진하고 있음을 시사하는 뉴스입니다. 구체적인 정책 내용은 기사 본문에 명시되어 있지 않아 추가 정보 확인이 필요합니다.\n🔗 링크: https://www.pa.gov/agencies/education/ai-and-digital-literacy\n\n출처: Hacker News, GeekNews, Google News\nhttps://news.ycombinator.com/ | https://news.hada.io/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/digest",
   "items": [
@@ -184,7 +184,9 @@
         "원문 링크와 토론 링크를 함께 확인하면 맥락 파악에 도움이 됩니다."
       ],
       "category": "GeekNews",
-      "tags": [],
+      "tags": [
+        "AI"
+      ],
       "published_at_kst": "2026-02-23T09:37:01+09:00",
       "sources": [
         "hada_news"
