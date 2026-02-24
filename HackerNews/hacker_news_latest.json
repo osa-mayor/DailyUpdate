@@ -1,9 +1,9 @@
 {
   "source": "hacker_news",
   "date": "2026-02-24",
-  "generated_at": "2026-02-24T09:24:06.944944+09:00",
+  "generated_at": "2026-02-24T10:31:40.128082+09:00",
   "count": 10,
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📍 1. I built Timeframe, our family e-paper dashboard\n⭐ Score: 1523 | 💬 Comments: 351\n📰 원문 요약: hawksley.org의 원문은 I built Timeframe, our family e-paper dashboard에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 1523, 댓글 351개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: I built Timeframe, our family e-paper dashboard은 hawksley.org을 통해 공개된 기술적 성과를 다룹니다. 주로 TL;DR: Over the past decade, I’ve worked to build the perfect family dashboard system for our home, ...와 같은 핵심 내용을 포함하며, 현재 점수 1523, 댓글 351개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://hawksley.org/2026/02/17/timeframe.html\n💬 토론: https://news.ycombinator.com/item?id=47113728\n\n📍 2. The Age Verification Trap: Verifying age undermines everyone's data protection\n⭐ Score: 1150 | 💬 Comments: 922\n📰 원문 요약: Waydell D. Carvalho는 AI 거버넌스 분야 연구자로, 연령 확인 시스템이 개인 정보 보호에 미치는 부정적인 영향을 분석한다. 특히, 연령 확인을 위해 사용자 데이터를 수집하고 저장하는 과정에서 개인 정보 유출 및 오용의 위험이 증가한다고 주장한다. 제로 지식 증명(Zero-Knowledge Proof)과 같은 기술을 통해 개인 정보 노출 없이 연령을 증명하는 방식이 대안으로 제시되지만, 이러한 기술 역시 완벽한 해결책은 아니라고 지적한다.\n💬 토론 요약: 연령 확인 시스템의 도입에 대해, 자녀의 온라인 활동에 대한 부모의 책임을 강화해야 한다는 의견과 개인 정보 보호를 우선해야 한다는 의견이 팽팽하게 맞서고 있다. 제로 지식 증명 기술을 활용한 대안이 제시되었지만, 기술적인 복잡성과 실질적인 적용 가능성에 대한 의문도 제기되고 있다.\n📌 종합 요약: IEEE Spectrum에 실린 기사를 바탕으로, 연령 확인 시스템이 오히려 개인 정보 보호를 약화시킬 수 있다는 주장이 Hacker News에서 큰 관심을 받고 있다. 제로 지식 증명과 같은 기술적 대안이 논의되는 가운데, 자녀의 온라인 활동에 대한 부모의 책임 문제가 핵심 쟁점으로 떠오르고 있다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/age-verification\n💬 토론: https://news.ycombinator.com/item?id=47122715\n\n📍 3. Ladybird adopts Rust\n⭐ Score: 1036 | 💬 Comments: 569\n📰 원문 요약: ladybird.org의 원문은 Ladybird adopts Rust에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 1036, 댓글 569개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: Ladybird adopts Rust은 ladybird.org을 통해 공개된 기술적 성과를 다룹니다. 주로 We’ve been searching for a memory-safe programming language to replace C++ in Ladybird for a while n...와 같은 핵심 내용을 포함하며, 현재 점수 1036, 댓글 569개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://ladybird.org/posts/adopting-rust/\n💬 토론: https://news.ycombinator.com/item?id=47120899\n\n📍 4. Google restricting Google AI Pro/Ultra subscribers for using OpenClaw\n⭐ Score: 782 | 💬 Comments: 677\n📰 원문 요약: discuss.ai.google.dev의 원문은 Google restricting Google AI Pro/Ultra subscribers for using OpenClaw에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 782, 댓글 677개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: Google restricting Google AI Pro/Ultra subscribers for using OpenClaw은 discuss.ai.google.dev을 통해 공개된 기술적 성과를 다룹니다. 주로 I’m seeking assistance regarding a sudden restriction on my Google AI Ultra account that has persist...와 같은 핵심 내용을 포함하며, 현재 점수 782, 댓글 677개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778\n💬 토론: https://news.ycombinator.com/item?id=47115805\n\n📍 5. Loops is a federated, open-source TikTok\n⭐ Score: 558 | 💬 Comments: 373\n📰 원문 요약: Loops는 ActivityPub 프로토콜을 지원하여 다른 서버와의 연동을 가능하게 하는 페더레이티드 소셜 네트워크입니다. 사용자에게는 신뢰할 수 있는 사람들의 콘텐츠를 보여주는 연대기적 피드와 새로운 창작자를 발견할 수 있는 'For You' 피드를 제공합니다. 특히, 다크 패턴을 사용한 인위적인 성장 전략 대신 실제 활동을 기반으로 콘텐츠를 추천하는 방식을 채택했습니다. 이를 통해 기업의 통제에서 벗어나 창작자와 커뮤니티가 주도하는 소셜 미디어를 구축하고자 합니다.\n💬 토론 요약: Lemmy 서버 운영 경험을 바탕으로 연합형 소셜 네트워크의 기술적 어려움과 서버 관리의 부담을 지적하는 의견이 있습니다. 반면, 이메일, 채팅, 마이크로블로깅에 이어 짧은 동영상까지 오픈소스 대안이 등장하는 것에 주목하며, 중앙화된 플랫폼에 대한 반감을 해소할 수 있다는 기대감을 표하는 의견도 존재합니다.\n📌 종합 요약: Loops는 연합형 오픈소스 TikTok을 지향하는 프로젝트로, 기업의 통제 없이 창작자와 커뮤니티에 권한을 돌려주는 것을 목표로 합니다. 짧은 동영상 포맷의 재미를 유지하면서도 폐쇄적인 생태계에서 벗어나고자 하는 시도이며, Hacker News에서 높은 관심과 함께 다양한 의견이 오가고 있습니다.\n🗂️ 분류: 비즈니스/스타트업\n🔗 링크: https://joinloops.org/\n💬 토론: https://news.ycombinator.com/item?id=47113618\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-02-24.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📍 1. I built Timeframe, our family e-paper dashboard\n⭐ Score: 1526 | 💬 Comments: 353\n📰 원문 요약: hawksley.org의 원문은 I built Timeframe, our family e-paper dashboard에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 1526, 댓글 353개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: I built Timeframe, our family e-paper dashboard은 hawksley.org을 통해 공개된 기술적 성과를 다룹니다. 주로 TL;DR: Over the past decade, I’ve worked to build the perfect family dashboard system for our home, ...와 같은 핵심 내용을 포함하며, 현재 점수 1526, 댓글 353개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://hawksley.org/2026/02/17/timeframe.html\n💬 토론: https://news.ycombinator.com/item?id=47113728\n\n📍 2. The Age Verification Trap: Verifying age undermines everyone's data protection\n⭐ Score: 1189 | 💬 Comments: 959\n📰 원문 요약: Waydell D. Carvalho는 AI 거버넌스 연구자로서, 나이 검증 시스템이 개인 정보 보호에 미치는 부정적인 영향을 분석한다. 특히, 나이 확인을 위해 수집되는 개인 정보 자체가 데이터 유출 및 오용의 위험을 증가시키고, 결국 모든 사용자의 데이터 보호를 약화시킨다고 주장한다. 웹사이트가 사용자 나이를 확인하기 위해 사용하는 다양한 방법(예: 신용 카드 정보, 정부 발행 신분증 스캔)은 사용자 데이터를 불필요하게 수집하고 저장하게 만든다.\n💬 토론 요약: 나이 확인 시스템의 도입에 대해, 자녀의 온라인 활동에 대한 부모의 책임이 우선이라는 의견과, 제로 지식 증명을 활용하여 개인 정보 노출 없이 나이를 확인할 수 있는 기술적 해결책이 존재한다는 주장이 대립하고 있다. 또한, 나이 확인 시스템 자체가 또 다른 형태의 감시 체계를 구축할 수 있다는 우려도 제기된다.\n📌 종합 요약: IEEE Spectrum에 실린 '나이 검증의 함정' 기사는 사용자 나이 확인 과정이 데이터 보호를 오히려 약화시킬 수 있다고 주장한다. Hacker News에서는 자녀의 콘텐츠 소비에 대한 부모 책임을 강조하는 의견과 제로 지식 증명 기반의 개인 정보 보호 기술을 옹호하는 의견이 맞서고 있다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/age-verification\n💬 토론: https://news.ycombinator.com/item?id=47122715\n\n📍 3. Ladybird adopts Rust\n⭐ Score: 1063 | 💬 Comments: 581\n📰 원문 요약: ladybird.org의 원문은 Ladybird adopts Rust에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 1063, 댓글 581개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: Ladybird adopts Rust은 ladybird.org을 통해 공개된 기술적 성과를 다룹니다. 주로 We’ve been searching for a memory-safe programming language to replace C++ in Ladybird for a while n...와 같은 핵심 내용을 포함하며, 현재 점수 1063, 댓글 581개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://ladybird.org/posts/adopting-rust/\n💬 토론: https://news.ycombinator.com/item?id=47120899\n\n📍 4. Google restricting Google AI Pro/Ultra subscribers for using OpenClaw\n⭐ Score: 783 | 💬 Comments: 680\n📰 원문 요약: Google AI Ultra 계정 사용자가 OpenClaw OAuth를 통해 Gemini 모델에 연결한 후 계정 제한을 경험했다. 해당 사용자는 월 249달러의 구독료를 지불하고 있으며, GCC 지원을 받기 위해 추가 비용을 요구하는 것에 불만을 제기했다. Google 측은 문제를 인지하고 내부 팀에 조사를 요청한 상태다.\n💬 토론 요약: 일부 해커 관점의 사용자는 Google의 취약점을 이용해 저렴하게 서비스를 이용하려 한 시도에 대한 불만을 재미있어하는 반면, 다른 사용자들은 Google 직원의 X(구 트위터) 게시글을 인용하며 Anitgravity 백엔드를 악용한 사례가 급증했음을 지적하고 있다.\n📌 종합 요약: Google AI Pro/Ultra 구독자 중 OpenClaw를 사용한 일부 계정이 서비스 제한을 받은 사례가 발생했다. 사용자들은 사전 경고 없이 유료 계정이 정지된 것에 불만을 표출하고 있으며, Google 측은 악성 사용 증가가 원인이라고 해명했다.\n🗂️ 분류: AI/ML\n🔗 링크: https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778\n💬 토론: https://news.ycombinator.com/item?id=47115805\n\n📍 5. Loops is a federated, open-source TikTok\n⭐ Score: 558 | 💬 Comments: 373\n📰 원문 요약: joinloops.org의 원문은 Loops is a federated, open-source TikTok에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.\n💬 토론 요약: Hacker News에서는 점수 558, 댓글 373개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.\n📌 종합 요약: Loops is a federated, open-source TikTok은 joinloops.org을 통해 공개된 기술적 성과를 다룹니다. 주로 All the fun of short-form video, none of the corporate control. Loops is federated, open-source, and...와 같은 핵심 내용을 포함하며, 현재 점수 558, 댓글 373개로 뜨거운 관심을 받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://joinloops.org/\n💬 토론: https://news.ycombinator.com/item?id=47113618\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-02-24.md",
   "items": [
     {
       "rank": 1,
@@ -12,18 +12,18 @@
       "url": "https://hawksley.org/2026/02/17/timeframe.html",
       "hn_url": "https://news.ycombinator.com/item?id=47113728",
       "author": "saeedesmaili",
-      "score": 1523,
-      "comments": 351,
-      "rank_score": 1068.0344481489756,
+      "score": 1526,
+      "comments": 353,
+      "rank_score": 1070.1361478702363,
       "published_at_kst": "2026-02-23T04:12:31+09:00",
       "published_date": "2026-02-23",
-      "summary": "I built Timeframe, our family e-paper dashboard은 hawksley.org을 통해 공개된 기술적 성과를 다룹니다. 주로 TL;DR: Over the past decade, I’ve worked to build the perfect family dashboard system for our home, ...와 같은 핵심 내용을 포함하며, 현재 점수 1523, 댓글 351개로 뜨거운 관심을 받고 있습니다.",
+      "summary": "I built Timeframe, our family e-paper dashboard은 hawksley.org을 통해 공개된 기술적 성과를 다룹니다. 주로 TL;DR: Over the past decade, I’ve worked to build the perfect family dashboard system for our home, ...와 같은 핵심 내용을 포함하며, 현재 점수 1526, 댓글 353개로 뜨거운 관심을 받고 있습니다.",
       "story_text": "",
       "external_article_summary": "hawksley.org의 원문은 I built Timeframe, our family e-paper dashboard에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.",
-      "discussion_summary": "Hacker News에서는 점수 1523, 댓글 351개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
+      "discussion_summary": "Hacker News에서는 점수 1526, 댓글 353개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
       "key_points": [
         "hawksley.org에서 제기한 기술적 문제의 핵심 파악",
-        "점수 1523, 댓글 351개 기반의 커뮤니티 관심도 분석",
+        "점수 1526, 댓글 353개 기반의 커뮤니티 관심도 분석",
         "토론에서 언급된 기술적 한계점 및 개선 방향 확인"
       ],
       "category": "기타",
@@ -49,19 +49,19 @@
       "url": "https://spectrum.ieee.org/age-verification",
       "hn_url": "https://news.ycombinator.com/item?id=47122715",
       "author": "oldnetguy",
-      "score": 1150,
-      "comments": 922,
-      "rank_score": 808.0223512703508,
+      "score": 1189,
+      "comments": 959,
+      "rank_score": 835.3341424853385,
       "published_at_kst": "2026-02-23T23:22:39+09:00",
       "published_date": "2026-02-23",
-      "summary": "IEEE Spectrum에 실린 기사를 바탕으로, 연령 확인 시스템이 오히려 개인 정보 보호를 약화시킬 수 있다는 주장이 Hacker News에서 큰 관심을 받고 있다. 제로 지식 증명과 같은 기술적 대안이 논의되는 가운데, 자녀의 온라인 활동에 대한 부모의 책임 문제가 핵심 쟁점으로 떠오르고 있다.",
+      "summary": "IEEE Spectrum에 실린 '나이 검증의 함정' 기사는 사용자 나이 확인 과정이 데이터 보호를 오히려 약화시킬 수 있다고 주장한다. Hacker News에서는 자녀의 콘텐츠 소비에 대한 부모 책임을 강조하는 의견과 제로 지식 증명 기반의 개인 정보 보호 기술을 옹호하는 의견이 맞서고 있다.",
       "story_text": "",
-      "external_article_summary": "Waydell D. Carvalho는 AI 거버넌스 분야 연구자로, 연령 확인 시스템이 개인 정보 보호에 미치는 부정적인 영향을 분석한다. 특히, 연령 확인을 위해 사용자 데이터를 수집하고 저장하는 과정에서 개인 정보 유출 및 오용의 위험이 증가한다고 주장한다. 제로 지식 증명(Zero-Knowledge Proof)과 같은 기술을 통해 개인 정보 노출 없이 연령을 증명하는 방식이 대안으로 제시되지만, 이러한 기술 역시 완벽한 해결책은 아니라고 지적한다.",
-      "discussion_summary": "연령 확인 시스템의 도입에 대해, 자녀의 온라인 활동에 대한 부모의 책임을 강화해야 한다는 의견과 개인 정보 보호를 우선해야 한다는 의견이 팽팽하게 맞서고 있다. 제로 지식 증명 기술을 활용한 대안이 제시되었지만, 기술적인 복잡성과 실질적인 적용 가능성에 대한 의문도 제기되고 있다.",
+      "external_article_summary": "Waydell D. Carvalho는 AI 거버넌스 연구자로서, 나이 검증 시스템이 개인 정보 보호에 미치는 부정적인 영향을 분석한다. 특히, 나이 확인을 위해 수집되는 개인 정보 자체가 데이터 유출 및 오용의 위험을 증가시키고, 결국 모든 사용자의 데이터 보호를 약화시킨다고 주장한다. 웹사이트가 사용자 나이를 확인하기 위해 사용하는 다양한 방법(예: 신용 카드 정보, 정부 발행 신분증 스캔)은 사용자 데이터를 불필요하게 수집하고 저장하게 만든다.",
+      "discussion_summary": "나이 확인 시스템의 도입에 대해, 자녀의 온라인 활동에 대한 부모의 책임이 우선이라는 의견과, 제로 지식 증명을 활용하여 개인 정보 노출 없이 나이를 확인할 수 있는 기술적 해결책이 존재한다는 주장이 대립하고 있다. 또한, 나이 확인 시스템 자체가 또 다른 형태의 감시 체계를 구축할 수 있다는 우려도 제기된다.",
       "key_points": [
-        "연령 확인 시스템은 개인 정보 보호를 저해할 위험이 있으며, 데이터 유출 및 오용 가능성을 높인다.",
-        "제로 지식 증명은 개인 정보 노출 없이 연령을 증명하는 대안으로 제시되지만, 기술적 복잡성과 적용 가능성에 대한 논의가 필요하다.",
-        "자녀의 온라인 활동에 대한 부모의 책임 강화와 개인 정보 보호 사이의 균형점을 찾는 것이 중요한 과제다."
+        "나이 검증 시스템 도입 시 개인 정보 수집 및 유출 위험 증가로 인해 데이터 보호가 오히려 취약해질 수 있다.",
+        "자녀의 온라인 콘텐츠 소비에 대한 부모의 책임을 강화해야 한다는 주장과 제로 지식 증명 기술을 활용한 개인 정보 보호 강화 방안이 논의되고 있다.",
+        "나이 검증 시스템 도입에 따른 개인 정보 감시 체계 구축 가능성에 대한 사회적 논의가 필요하다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -75,10 +75,11 @@
         }
       ],
       "tags": [
-        "개인정보보호",
-        "연령확인",
-        "제로지식증명",
-        "데이터보안"
+        "개인 정보 보호",
+        "나이 검증",
+        "제로 지식 증명",
+        "데이터 보안",
+        "온라인 안전"
       ],
       "domain": "spectrum.ieee.org",
       "repeated_in_window": false,
@@ -91,29 +92,29 @@
       "url": "https://ladybird.org/posts/adopting-rust/",
       "hn_url": "https://news.ycombinator.com/item?id=47120899",
       "author": "adius",
-      "score": 1036,
-      "comments": 569,
-      "rank_score": 727.9574177601004,
+      "score": 1063,
+      "comments": 581,
+      "rank_score": 746.8636679861712,
       "published_at_kst": "2026-02-23T20:29:22+09:00",
       "published_date": "2026-02-23",
-      "summary": "Ladybird adopts Rust은 ladybird.org을 통해 공개된 기술적 성과를 다룹니다. 주로 We’ve been searching for a memory-safe programming language to replace C++ in Ladybird for a while n...와 같은 핵심 내용을 포함하며, 현재 점수 1036, 댓글 569개로 뜨거운 관심을 받고 있습니다.",
+      "summary": "Ladybird adopts Rust은 ladybird.org을 통해 공개된 기술적 성과를 다룹니다. 주로 We’ve been searching for a memory-safe programming language to replace C++ in Ladybird for a while n...와 같은 핵심 내용을 포함하며, 현재 점수 1063, 댓글 581개로 뜨거운 관심을 받고 있습니다.",
       "story_text": "",
       "external_article_summary": "ladybird.org의 원문은 Ladybird adopts Rust에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.",
-      "discussion_summary": "Hacker News에서는 점수 1036, 댓글 569개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
+      "discussion_summary": "Hacker News에서는 점수 1063, 댓글 581개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
       "key_points": [
         "ladybird.org에서 제기한 기술적 문제의 핵심 파악",
-        "점수 1036, 댓글 569개 기반의 커뮤니티 관심도 분석",
+        "점수 1063, 댓글 581개 기반의 커뮤니티 관심도 분석",
         "토론에서 언급된 기술적 한계점 및 개선 방향 확인"
       ],
       "category": "기타",
       "comment_highlights": [
         {
-          "author": "jp1016",
-          "text": "The byte-for-byte identical output requirement is the smartest part of this whole thing. You basically get to run the old and new pipelines side by side and diff them, which means…"
+          "author": "lordofgibbons",
+          "text": "Pardon my ignorance, but doesn't a byte-by-byte output recreation of the C++ code in Rust defeat the whole purpose of using Rust? For one, would it be idiomatic Rust anymore? Also…"
         },
         {
-          "author": "skerit",
-          "text": "> I used Claude Code and Codex for the translation. This was human-directed, not autonomous code generation. I decided what to port, in what order, and what the Rust code should l…"
+          "author": "jp1016",
+          "text": "The byte-for-byte identical output requirement is the smartest part of this whole thing. You basically get to run the old and new pipelines side by side and diff them, which means…"
         }
       ],
       "tags": [
@@ -130,19 +131,19 @@
       "url": "https://discuss.ai.google.dev/t/account-restricted-without-warning-google-ai-ultra-oauth-via-openclaw/122778",
       "hn_url": "https://news.ycombinator.com/item?id=47115805",
       "author": "srigi",
-      "score": 782,
-      "comments": 677,
-      "rank_score": 549.6945752049006,
+      "score": 783,
+      "comments": 680,
+      "rank_score": 550.3958997103632,
       "published_at_kst": "2026-02-23T08:07:55+09:00",
       "published_date": "2026-02-23",
-      "summary": "Google restricting Google AI Pro/Ultra subscribers for using OpenClaw은 discuss.ai.google.dev을 통해 공개된 기술적 성과를 다룹니다. 주로 I’m seeking assistance regarding a sudden restriction on my Google AI Ultra account that has persist...와 같은 핵심 내용을 포함하며, 현재 점수 782, 댓글 677개로 뜨거운 관심을 받고 있습니다.",
+      "summary": "Google AI Pro/Ultra 구독자 중 OpenClaw를 사용한 일부 계정이 서비스 제한을 받은 사례가 발생했다. 사용자들은 사전 경고 없이 유료 계정이 정지된 것에 불만을 표출하고 있으며, Google 측은 악성 사용 증가가 원인이라고 해명했다.",
       "story_text": "",
-      "external_article_summary": "discuss.ai.google.dev의 원문은 Google restricting Google AI Pro/Ultra subscribers for using OpenClaw에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.",
-      "discussion_summary": "Hacker News에서는 점수 782, 댓글 677개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
+      "external_article_summary": "Google AI Ultra 계정 사용자가 OpenClaw OAuth를 통해 Gemini 모델에 연결한 후 계정 제한을 경험했다. 해당 사용자는 월 249달러의 구독료를 지불하고 있으며, GCC 지원을 받기 위해 추가 비용을 요구하는 것에 불만을 제기했다. Google 측은 문제를 인지하고 내부 팀에 조사를 요청한 상태다.",
+      "discussion_summary": "일부 해커 관점의 사용자는 Google의 취약점을 이용해 저렴하게 서비스를 이용하려 한 시도에 대한 불만을 재미있어하는 반면, 다른 사용자들은 Google 직원의 X(구 트위터) 게시글을 인용하며 Anitgravity 백엔드를 악용한 사례가 급증했음을 지적하고 있다.",
       "key_points": [
-        "discuss.ai.google.dev에서 제기한 기술적 문제의 핵심 파악",
-        "점수 782, 댓글 677개 기반의 커뮤니티 관심도 분석",
-        "토론에서 언급된 기술적 한계점 및 개선 방향 확인"
+        "OpenClaw OAuth를 통한 Gemini 모델 연결이 Google AI Ultra 계정 제한의 원인으로 지목되고 있다.",
+        "유료 구독자들은 사전 경고 없는 계정 제한과 추가 비용 요구에 불만을 제기하고 있으며, 악성 사용 증가는 Google의 공식 입장이다.",
+        "API 사용량 급증을 야기하는 방식으로, 서비스 제공업체와 사용자 간의 책임 범위에 대한 논의가 필요하다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -156,7 +157,11 @@
         }
       ],
       "tags": [
-        "AI"
+        "Google AI",
+        "Gemini",
+        "OpenClaw",
+        "OAuth",
+        "계정 제한"
       ],
       "domain": "discuss.ai.google.dev",
       "repeated_in_window": false,
@@ -174,16 +179,16 @@
       "rank_score": 392.5416285910762,
       "published_at_kst": "2026-02-23T03:56:40+09:00",
       "published_date": "2026-02-23",
-      "summary": "Loops는 연합형 오픈소스 TikTok을 지향하는 프로젝트로, 기업의 통제 없이 창작자와 커뮤니티에 권한을 돌려주는 것을 목표로 합니다. 짧은 동영상 포맷의 재미를 유지하면서도 폐쇄적인 생태계에서 벗어나고자 하는 시도이며, Hacker News에서 높은 관심과 함께 다양한 의견이 오가고 있습니다.",
+      "summary": "Loops is a federated, open-source TikTok은 joinloops.org을 통해 공개된 기술적 성과를 다룹니다. 주로 All the fun of short-form video, none of the corporate control. Loops is federated, open-source, and...와 같은 핵심 내용을 포함하며, 현재 점수 558, 댓글 373개로 뜨거운 관심을 받고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Loops는 ActivityPub 프로토콜을 지원하여 다른 서버와의 연동을 가능하게 하는 페더레이티드 소셜 네트워크입니다. 사용자에게는 신뢰할 수 있는 사람들의 콘텐츠를 보여주는 연대기적 피드와 새로운 창작자를 발견할 수 있는 'For You' 피드를 제공합니다. 특히, 다크 패턴을 사용한 인위적인 성장 전략 대신 실제 활동을 기반으로 콘텐츠를 추천하는 방식을 채택했습니다. 이를 통해 기업의 통제에서 벗어나 창작자와 커뮤니티가 주도하는 소셜 미디어를 구축하고자 합니다.",
-      "discussion_summary": "Lemmy 서버 운영 경험을 바탕으로 연합형 소셜 네트워크의 기술적 어려움과 서버 관리의 부담을 지적하는 의견이 있습니다. 반면, 이메일, 채팅, 마이크로블로깅에 이어 짧은 동영상까지 오픈소스 대안이 등장하는 것에 주목하며, 중앙화된 플랫폼에 대한 반감을 해소할 수 있다는 기대감을 표하는 의견도 존재합니다.",
+      "external_article_summary": "joinloops.org의 원문은 Loops is a federated, open-source TikTok에 대한 구체적인 기술적 배경과 실행 로직을 상세히 설명하고 있습니다.",
+      "discussion_summary": "Hacker News에서는 점수 558, 댓글 373개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
       "key_points": [
-        "ActivityPub 프로토콜을 활용하여 다른 서버와 연동되는 페더레이티드 소셜 네트워크를 구축하려는 시도이다.",
-        "중앙화된 플랫폼의 통제에서 벗어나 커뮤니티와 창작자에게 권한을 돌려주는 것을 목표로 한다.",
-        "서버 운영의 기술적 난이도 및 콘텐츠 관리 문제를 해결하는 것이 성공적인 서비스 안착의 관건이 될 것이다."
+        "joinloops.org에서 제기한 기술적 문제의 핵심 파악",
+        "점수 558, 댓글 373개 기반의 커뮤니티 관심도 분석",
+        "토론에서 언급된 기술적 한계점 및 개선 방향 확인"
       ],
-      "category": "비즈니스/스타트업",
+      "category": "기타",
       "comment_highlights": [
         {
           "author": "CodeCompost",
@@ -195,11 +200,7 @@
         }
       ],
       "tags": [
-        "오픈소스",
-        "소셜미디어",
-        "페더레이티드",
-        "ActivityPub",
-        "TikTok"
+        "AI"
       ],
       "domain": "joinloops.org",
       "repeated_in_window": false,
@@ -212,19 +213,19 @@
       "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-tells-priests-to-use-their-brains-not-ai-to-write-homilies",
       "hn_url": "https://news.ycombinator.com/item?id=47119210",
       "author": "josephcsible",
-      "score": 522,
-      "comments": 412,
-      "rank_score": 367.89727733344387,
+      "score": 526,
+      "comments": 416,
+      "rank_score": 370.7001689220952,
       "published_at_kst": "2026-02-23T16:33:57+09:00",
       "published_date": "2026-02-23",
-      "summary": "프란치스코 교황이 사제들에게 강론 작성 시 AI 대신 스스로의 지성을 활용하라고 권고했다. 이 소식은 Hacker News에서 큰 관심을 모으며 AI의 윤리적 사용과 인간 고유의 창의성에 대한 논쟁을 불러일으키고 있다.",
+      "summary": "프란치스코 교황이 사제들에게 강론 작성 시 AI 대신 스스로의 지성을 활용하라고 지시했다. 이는 AI의 활용에 대한 윤리적 논쟁과 함께, 기술이 인간의 고유한 역할에 미치는 영향에 대한 논의를 촉발시키고 있다.",
       "story_text": "",
-      "external_article_summary": "EWTN News에 따르면 교황은 강론이 개인적인 경험과 청중과의 연결을 바탕으로 해야 한다고 강조했다. AI는 자료를 분석하고 초안을 생성하는 데 도움을 줄 수 있지만, 최종 결과물은 사제의 진정한 목소리와 신앙을 반영해야 한다는 것이다. 이는 AI가 생성한 텍스트의 맥락 의존성과 개인화 부족이라는 기술적 한계를 지적하는 것으로 볼 수 있다.",
-      "discussion_summary": "일부 사용자는 AI가 작성한 글은 인간의 진정성을 담을 수 없으며, 사제가 직접 작성해야 청중에게 감동을 줄 수 있다고 주장한다. 반면 다른 사용자들은 사제가 지역 사회에 대한 충분한 맥락 정보를 AI에 제공하기 어렵고, 개인 정보 보호 문제도 발생할 수 있다고 우려한다.",
+      "external_article_summary": "해당 기사는 교황이 사제들에게 AI를 강론 작성에 사용하는 것을 경계하며, 인간의 판단력과 영감을 강조했다는 내용을 담고 있다. 특히, 교황은 강론이 단순한 정보 전달이 아닌, 개인적인 경험과 신앙을 바탕으로 한 소통이어야 한다고 강조했다.",
+      "discussion_summary": "AI를 활용한 글쓰기가 인간의 존엄성을 훼손하는 행위라는 비판과, 지역 사회에 대한 충분한 맥락을 AI 모델에 제공하는 것 자체가 현실적으로 어렵다는 지적이 제기되었다. 반면, 일부에서는 AI가 자료 조사나 초안 작성에 도움을 줄 수 있다는 의견도 존재한다.",
       "key_points": [
-        "AI가 생성한 콘텐츠는 맥락 의존성과 개인화 부족이라는 기술적 한계를 지닌다.",
-        "AI를 활용한 글쓰기가 인간 고유의 창의성과 진정성을 훼손할 수 있다는 우려가 제기되고 있다.",
-        "AI 사용에 있어 윤리적 고려와 인간의 역할을 재고해야 할 필요성이 강조되고 있다."
+        "AI를 활용한 강론 작성은 사제의 역할과 인간 고유의 창의성에 대한 근본적인 질문을 던진다.",
+        "AI 모델에 지역 사회의 맥락을 효과적으로 반영하는 것은 기술적으로 어려운 과제이다.",
+        "AI가 윤리적으로 사용될 수 있는 범위와 한계를 설정하는 것이 중요하다."
       ],
       "category": "정책/사회 이슈",
       "comment_highlights": [
@@ -242,7 +243,7 @@
         "윤리",
         "프란치스코 교황",
         "강론",
-        "창의성"
+        "사제"
       ],
       "domain": "ewtnnews.com",
       "repeated_in_window": false,
@@ -255,19 +256,19 @@
       "url": "https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal",
       "hn_url": "https://news.ycombinator.com/item?id=47119530",
       "author": "qsi",
-      "score": 515,
-      "comments": 95,
-      "rank_score": 362.59330908707,
+      "score": 525,
+      "comments": 96,
+      "rank_score": 369.59641792318064,
       "published_at_kst": "2026-02-23T17:22:34+09:00",
       "published_date": "2026-02-23",
-      "summary": "엘스비어가 재정 저널 인용 카르텔을 종료했다는 소식에, 학계의 연구 평가 방식과 출판사의 영향력에 대한 논쟁이 벌어지고 있다. 엘스비어의 과거 행적과 학술 출판 시장의 구조적 문제점이 함께 거론되며 비판적인 시각이 주를 이룬다.",
+      "summary": "엘스비어가 재정 저널 인용 카르텔을 폐쇄했다는 소식에 Hacker News에서 뜨거운 논쟁이 벌어지고 있다. 엘스비어의 과거 행적과 학계의 연구 생태계 전반에 대한 불신이 이번 사건을 통해 다시 수면 위로 떠오르고 있다.",
       "story_text": "",
-      "external_article_summary": "원문 기사는 엘스비어가 특정 재정 저널들의 인용 지수를 조작하는 행위를 중단한 배경을 분석한다. 구체적으로, 엘스비어는 자체적으로 운영하는 데이터베이스를 활용하여 특정 저널의 인용 횟수를 부풀리는 방식으로 영향력을 행사해왔다. 이러한 행위는 학술 출판 시장의 투명성을 저해하고, 연구 평가의 공정성을 훼손한다는 비판을 받아왔다. 엘스비어는 내부 감사 결과에 따라 문제점을 인지하고 시정 조치를 취했지만, 근본적인 해결책은 아니라는 지적이 제기된다.",
-      "discussion_summary": "토론에서는 엘스비어의 과거 부정행위를 지적하며, 이번 조치가 단순한 이미지 개선 전략에 불과하다는 비판이 제기된다. 또한, 학문적 명성이 저널 게재 여부에 지나치게 의존하는 현재 시스템에서는 엘스비어와 같은 출판사가 지속적으로 영향력을 행사할 수밖에 없다는 우려가 나타나고 있다.",
+      "external_article_summary": "chrisbrunet.com에 게시된 원문 기사는 엘스비어가 특정 금융 저널들의 인용 지수를 조작하여 부당 이익을 취했다는 의혹을 제기한다. 구체적으로, 엘스비어는 자신들이 발행하는 저널들 간에 상호 인용을 유도하여 인위적으로 인용 지수를 높이는 방식으로 저널의 영향력을 부풀렸다는 것이다. 이러한 행위는 학술적 투명성을 훼손하고 연구 결과의 객관성을 왜곡하는 심각한 문제점을 야기한다.",
+      "discussion_summary": "엘스비어의 과거 부정행위 전력에 대한 비판적인 시각과 함께, 현재 학계 연구 생태계 전반에 걸친 구조적인 문제점을 지적하는 의견이 주를 이룬다. 일부에서는 이번 사건을 계기로 학술 출판 시장의 독과점 해소와 오픈 액세스 운동의 확산을 촉구하는 목소리도 나온다.",
       "key_points": [
-        "엘스비어는 자체 데이터베이스를 활용해 특정 재정 저널의 인용 지수를 인위적으로 높였다.",
-        "학계의 연구 평가 시스템이 저널 게재 여부에 지나치게 의존하는 구조적 문제가 존재한다.",
-        "이번 사태는 학술 출판 시장의 투명성과 공정성에 대한 근본적인 의문을 제기한다."
+        "엘스비어의 금융 저널 인용 지수 조작 행위는 학술 데이터의 투명성과 객관성에 대한 심각한 우려를 불러일으킨다.",
+        "학계 연구 생태계의 구조적인 문제점, 특히 학술 출판 시장의 독과점 문제가 다시 한번 도마 위에 올랐다.",
+        "이번 사건은 오픈 액세스 운동의 중요성을 부각시키고, 학술 출판 시장의 건전한 경쟁 환경 조성을 위한 노력을 촉구하는 계기가 될 수 있다."
       ],
       "category": "정책/사회 이슈",
       "comment_highlights": [
@@ -276,16 +277,16 @@
           "text": "It doesn't surprise me it happens within the Elsevier ecosystem. Elsevier has a long tradition of scientific misconduct and scientifically immoral behavior (see Wikipedia). The op…"
         },
         {
-          "author": "fdefitte",
-          "text": "One cartel gone, incentive structure intact. Academic prestige is entirely mediated through journal placement, so whoever controls prestige journals can extract rents indefinitely…"
+          "author": "laylower",
+          "text": "I've heard of Chris but not too well. This guy does not f*c$ around, don't get on his bad side. The state of research is dire at the moment. The whole ecosystem is cooked. Reprodu…"
         }
       ],
       "tags": [
-        "학술 출판",
         "엘스비어",
+        "학술 출판",
         "인용 지수",
-        "연구 평가",
-        "카르텔"
+        "오픈 액세스",
+        "연구 윤리"
       ],
       "domain": "chrisbrunet.com",
       "repeated_in_window": false,
@@ -299,18 +300,18 @@
       "hn_url": "https://news.ycombinator.com/item?id=47114530",
       "author": "MilkMp",
       "score": 458,
-      "comments": 95,
-      "rank_score": 322.21262621669956,
+      "comments": 96,
+      "rank_score": 322.2157350528102,
       "published_at_kst": "2026-02-23T05:50:23+09:00",
       "published_date": "2026-02-23",
-      "summary": "CIA 월드 팩트북의 1990년부터 2025년까지 데이터를 아카이브하여 검색 및 내보내기 기능을 제공하는 'Show HN' 프로젝트가 공개되었다. 36개 에디션, 281개 엔티티, 106만 개 이상의 파싱된 필드를 포함하며, 풀텍스트 검색, 비교 분석, 지도 시각화 등을 지원한다.",
+      "summary": "CIA 월드 팩트북의 1990년부터 2025년까지 데이터를 아카이브하여 검색 및 내보내기 기능을 제공하는 'CIA World Factbook Archive'가 공개되었다. 36개 에디션, 281개 엔티티, 106만 개 이상의 파싱된 필드를 포함하며, 풀텍스트 검색, 국가/연도 비교, 맵/트렌드/랭킹 분석 등을 지원한다.",
       "story_text": "A structured archive of CIA World Factbook data spanning 1990–2025. It currently includes: 36 editions 281 entities ~1.06M parsed fields full-text + boolean search country/year comparisons map/trend/ranking analysis views CSV/XLSX/PDF export The goal is to preserve long-horizon public-domain government data and make cross-year analysis practical. Live: https://cia-factbook-archive.fly.dev About/method details: https://cia-factbook-archive.fly.dev/about Data source is the CIA World Factbook (public domain). Not affiliated with the CIA or U.S. Government.",
-      "external_article_summary": "원문 기사는 제공되지 않았으므로 요약할 수 없습니다.",
-      "discussion_summary": "JSON 또는 Markdown 파일 형태의 데이터 접근을 선호하는 사용자를 위해 깃허브 링크가 공유되었으며, 2025-2026 버전이 이미 판매 중이고 2026-2027 버전이 곧 출시될 예정이라는 정보가 공유되었다.",
+      "external_article_summary": "해당 아카이브는 Fly.io 플랫폼에서 운영되며, CIA 월드 팩트북의 공개 도메인 데이터를 활용한다. 데이터는 구조화되어 저장되며, CSV, XLSX, PDF 형식으로 내보낼 수 있다. 풀텍스트 검색에는 Boolean 검색 기능이 포함되어 있으며, 국가별 데이터 비교 및 시각화를 지원한다.",
+      "discussion_summary": "JSON 또는 Markdown 파일 형태의 데이터셋을 선호하는 사용자는 GitHub 저장소를 활용할 수 있다는 의견이 제시되었다. 한편, 2025-2026 버전은 이미 구매 가능하며, 2026-2027 버전은 4월 7일 출시 예정이라는 정보가 공유되었다.",
       "key_points": [
-        "CIA 월드 팩트북 데이터를 장기간 보존하고, 연도별 비교 분석을 용이하게 하는 데 초점을 맞춘 프로젝트다.",
-        "사용자들은 제공된 웹사이트 외에도 깃허브 저장소와 아마존 링크를 통해 데이터에 접근할 수 있다는 정보를 공유했다.",
-        "정부의 공개 데이터를 활용한 아카이브 구축 사례로서, 데이터 분석 및 시각화 분야에 활용될 가능성이 높다."
+        "1990년부터 2025년까지의 CIA 월드 팩트북 데이터를 구조화하여 장기적인 데이터 분석을 용이하게 한다.",
+        "GitHub 저장소를 통해 JSON/Markdown 형식으로 데이터를 이용하려는 사용자들의 요구를 충족시킬 수 있다.",
+        "향후 CIA 월드 팩트북의 최신 버전(2026-2027) 출시 정보에 대한 지속적인 업데이트가 필요하다."
       ],
       "category": "데이터/DB",
       "comment_highlights": [
@@ -325,10 +326,10 @@
       ],
       "tags": [
         "CIA",
-        "월드 팩트북",
-        "데이터 아카이브",
-        "검색",
-        "데이터 분석"
+        "World Factbook",
+        "archive",
+        "data",
+        "search"
       ],
       "domain": "cia-factbook-archive.fly.dev",
       "repeated_in_window": false,
@@ -341,21 +342,21 @@
       "url": "https://old.reddit.com/r/BuyFromEU/comments/1rce0lf/hetzner_european_hosting_provider_to_increase/",
       "hn_url": "https://news.ycombinator.com/item?id=47121029",
       "author": "doener",
-      "score": 427,
+      "score": 430,
       "comments": 384,
-      "rank_score": 301.54997762991593,
+      "rank_score": 303.64997762991595,
       "published_at_kst": "2026-02-23T20:44:10+09:00",
       "published_date": "2026-02-23",
-      "summary": "유럽 호스팅 제공업체 Hetzner가 최대 38%까지 가격 인상을 발표했다. 이번 인상은 VPS뿐만 아니라 dedicated 서버에도 적용되며, 사용자들은 가격 인상에도 불구하고 Hetzner의 가격 경쟁력을 여전히 높게 평가하고 있다.",
+      "summary": "Hetzner (European hosting provider) to increase prices by up to 38% 관련 소식이 old.reddit.com에 공유되었습니다. 기술적 완성도와 실무 활용 가능성을 중심으로 Hacker News에서 점수 430, 댓글 384개가 기록되었습니다.",
       "story_text": "",
-      "external_article_summary": "이번 가격 인상은 에너지 비용 상승과 인플레이션에 따른 불가피한 결정으로 보인다. Hetzner는 AMD EPYC 프로세서를 기반으로 하는 dedicated 서버와 가상 서버를 제공하며, 네트워크는 10Gbps 연결을 지원한다. 인상 폭은 서비스 종류와 지역에 따라 다르지만, 평균적으로 20%에서 38% 사이로 예상된다. Hetzner는 가격 인상에도 불구하고, 동급 사양 대비 여전히 경쟁력 있는 가격을 유지하는 것을 목표로 한다.",
-      "discussion_summary": "Hetzner의 가격 인상에 대해 사용자들은 불가피하다는 반응과 함께 경쟁사 대비 여전히 저렴하다는 의견을 보이고 있다. 반면, 일부 사용자는 가격 인상폭이 과도하다고 지적하며 다른 호스팅 업체로의 이전 가능성을 언급하고 있다.",
+      "external_article_summary": "Hetzner (European hosting provider) to increase prices by up to 38%에 대한 old.reddit.com의 분석 내용을 Hacker News 토론과 함께 검토해 볼 가치가 있습니다.",
+      "discussion_summary": "Hacker News에서는 점수 430, 댓글 384개로 이 주제에 대한 열띤 토론이 진행 중입니다. 주로 기술적 구현 방식의 타당성과 향후 발전 가능성에 대해 다양한 의견이 공유되고 있습니다.",
       "key_points": [
-        "Hetzner의 가격 인상은 dedicated 서버와 VPS 모두에 적용되며, 인상 폭은 최대 38%에 달한다.",
-        "주요 쟁점은 가격 인상에도 불구하고 Hetzner가 여전히 가격 경쟁력을 유지할 수 있을지 여부이다.",
-        "가격 인상은 다른 호스팅 업체의 가격 정책에도 영향을 미칠 수 있으며, 사용자들은 클라우드 인프라 비용 효율성을 재검토해야 할 수 있다."
+        "old.reddit.com에서 제기한 기술적 문제의 핵심 파악",
+        "점수 430, 댓글 384개 기반의 커뮤니티 관심도 분석",
+        "토론에서 언급된 기술적 한계점 및 개선 방향 확인"
       ],
-      "category": "인프라/클라우드",
+      "category": "개발 도구",
       "comment_highlights": [
         {
           "author": "octoclaw",
@@ -367,11 +368,7 @@
         }
       ],
       "tags": [
-        "Hetzner",
-        "호스팅",
-        "가격인상",
-        "VPS",
-        "Dedicated Server"
+        "AI"
       ],
       "domain": "old.reddit.com",
       "repeated_in_window": false,
@@ -384,19 +381,19 @@
       "url": "https://magicalmushroom.com/index",
       "hn_url": "https://news.ycombinator.com/item?id=47119274",
       "author": "microflash",
-      "score": 342,
-      "comments": 111,
-      "rank_score": 241.51262142064775,
+      "score": 355,
+      "comments": 120,
+      "rank_score": 250.63580892293828,
       "published_at_kst": "2026-02-23T16:43:47+09:00",
       "published_date": "2026-02-23",
-      "summary": "유럽 최초의 산업 규모 균사체 포장재 제조업체인 Magical Mushroom이 Hacker News에서 주목받고 있다. 균사체 포장재의 지속 가능성과 기존 업체의 기술적 한계 극복 가능성이 논의되고 있다.",
+      "summary": "유럽 최초의 산업 규모 미셀륨(균사체) 포장재 생산 업체인 Magical Mushroom이 화제다. 버섯 재배 취미를 가진 사람이 늘고 있는 가운데, 기존 업체들의 한계를 극복할 수 있을지 주목받고 있다.",
       "story_text": "",
-      "external_article_summary": "Magical Mushroom은 유럽 최초로 산업 규모의 균사체 포장재 생산을 시작했다. 균사체를 사용하여 플라스틱 포장재를 대체하는 것을 목표로 하며, 자체 개발한 생산 공정을 통해 7일 이내에 균사체를 배양하고 성형하여 맞춤형 포장재를 제작한다. 이들은 폐기물에서 발생하는 셀룰로오스 섬유를 영양분으로 사용하여 균사체를 키우는 방식으로 친환경성을 높였다.",
-      "discussion_summary": "초기 기업인 Ecovative의 선례를 들어, 7일 정도 소요되는 균사체 배양 기간이 생산성 측면에서 여전히 과제라는 지적이 있다. 반면, 균사체 재배의 즐거움과 잠재력을 언급하며 취미로 시작해 볼 것을 권장하는 의견도 있다.",
+      "external_article_summary": "Magical Mushroom은 균사체를 활용한 친환경 포장재를 생산하며, 기존 플라스틱 포장재를 대체하는 것을 목표로 한다. 특히, 특정 균사체 종을 활용하여 7일 이내에 포장재를 생산하는 효율성을 강조한다. 생산 과정에서 에너지 소비를 최소화하고 폐기물 발생량을 줄이는 데 집중하고 있으며, 3D 모델링 및 자동화 시스템을 도입하여 생산성을 높이고 있다.",
+      "discussion_summary": "미셀륨 포장재 산업은 이미 Ecovative와 같은 선두 기업들이 존재하며, 시장 경쟁이 치열하다는 지적이 있다. 반면, Magical Mushroom이 생산 효율성을 개선하고 유럽 시장을 중심으로 사업을 확장하는 데 성공할 경우, 친환경 포장재 시장에 새로운 활력을 불어넣을 수 있다는 긍정적인 전망도 제시되고 있다.",
       "key_points": [
-        "Magical Mushroom은 균사체를 활용하여 플라스틱 포장재를 대체하는 친환경적인 대안을 제시한다.",
-        "균사체 배양 기간 단축 및 생산성 향상은 균사체 포장재 상용화의 핵심 과제이다.",
-        "개인의 취미 활동이 산업적 혁신으로 이어질 수 있다는 가능성을 보여준다."
+        "미셀륨 포장재는 플라스틱 대체재로서 친환경적인 대안이 될 수 있다.",
+        "기존 업체들의 한계를 극복하고 생산 효율성을 높이는 것이 미셀륨 포장재 산업의 핵심 경쟁력이다.",
+        "지속 가능한 포장 솔루션에 대한 관심이 높아짐에 따라 미셀륨 포장재 시장은 성장 가능성이 높다."
       ],
       "category": "비즈니스/스타트업",
       "comment_highlights": [
@@ -410,11 +407,11 @@
         }
       ],
       "tags": [
-        "균사체",
+        "미셀륨",
         "포장재",
         "친환경",
-        "지속가능성",
-        "스타트업"
+        "스타트업",
+        "유럽"
       ],
       "domain": "magicalmushroom.com",
       "repeated_in_window": false,
