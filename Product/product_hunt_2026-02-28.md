@@ -1,0 +1,414 @@
+# 🚀 Product Hunt Daily Top 10 (2026-02-28)
+
+## 1. [Superset](https://www.producthunt.com/products/superset-5)
+**Votes**: 369 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Run an army of Claude Code, Codex, etc. on your machine
+**서비스 링크**: https://www.producthunt.com/r/R3HOCK65ZQLUSW
+
+**태그**: IDE, DevTool, Automation, AI, Agent, AI Tool
+
+<img src="images/ph_2026-02-27_Superset.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Superset은 코딩 에이전트를 활용하여 개발 워크플로우를 10배 향상시키는 IDE입니다. 여러 에이전트를 동시에 실행하고, 작업을 격리하며, 변경 사항을 빠르게 검토할 수 있습니다.
+
+### 🔑 주요 기능
+- 여러 코딩 에이전트를 동시에 실행 가능
+- 각 작업을 격리된 환경에서 실행하여 간섭 방지
+- 에이전트 모니터링 및 알림 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자는 Superset을 통해 여러 코딩 에이전트를 효율적으로 관리하고, 개발 속도를 크게 향상시킬 수 있습니다. 또한, 에이전트 간의 충돌을 방지하여 안정적인 개발 환경을 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다양한 코딩 에이전트 실행해보기
+- 작업 격리 기능 활용하여 에이전트 간 충돌 방지
+- 변경 사항 검토 기능으로 코드 품질 향상
+
+### ⚠️ 사용 전 확인할 점
+- 코딩 에이전트의 성능 및 안정성 확인 필요
+- 격리 환경 설정 및 관리 필요
+
+### 🧭 확인이 더 필요한 정보
+Superset이 지원하는 코딩 에이전트의 종류와 성능에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Superset_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Superset_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Superset_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/20e66498-725b-4f14-b734-98406595fec5.jpeg?auto=format)
+
+---
+
+## 2. [Claude Code Remote Control](https://www.producthunt.com/products/claude-code-remote-access)
+**Votes**: 311 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Continue local sessions from any device with Remote Control
+**서비스 링크**: https://www.producthunt.com/r/GJV7DFV6CCHK6F
+
+**태그**: DevTool, 원격 제어, 생산성, 협업, AI Tool
+
+<img src="images/ph_2026-02-27_Claude_Code_Remote_Control.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude Code 세션을 원격으로 제어하여 어디서든 코딩 작업을 이어갈 수 있습니다.
+
+### 🔑 주요 기능
+- claude.ai/code 및 Claude 모바일 앱과 연동
+- 휴대폰, 태블릿, 브라우저 등 다양한 기기에서 사용 가능
+- 로컬 세션을 중단 없이 원격으로 제어
+
+### 🙋 사용자에게 어떤 점이 좋은가
+언제 어디서든 코딩 작업을 중단 없이 이어갈 수 있어 생산성을 높여줍니다. 특히 이동 중이나 여러 기기를 사용하는 환경에서 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- claude.ai/code에서 코딩 세션 시작
+- Claude 모바일 앱 설치 및 연동
+- 원격 제어 기능을 사용하여 다른 기기에서 세션 접속
+
+### ⚠️ 사용 전 확인할 점
+- 네트워크 연결 상태 확인
+- 보안을 위해 세션 종료 시 로그아웃
+
+### 🧭 확인이 더 필요한 정보
+어떤 방식으로 원격 제어가 이루어지는지에 대한 기술적인 세부 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Claude_Code_Remote_Control_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Claude_Code_Remote_Control_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Claude_Code_Remote_Control_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/91e2def8-748a-4e80-b649-5f64da73ceeb.jpeg?auto=format)
+
+---
+
+## 3. [Perplexity Computer](https://www.producthunt.com/products/perplexity-ai)
+**Votes**: 274 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Everything AI can do, Perplexity Computer does for you.
+**서비스 링크**: https://www.producthunt.com/r/RCRQELJIUMIXUU
+
+**태그**: AI, 자동화, 개발, 생산성, Agent, AI Tool, Design, DevTool
+
+<img src="images/ph_2026-02-27_Perplexity_Computer.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Perplexity Computer는 모든 AI 기능을 통합하여 프로젝트의 처음부터 끝까지 자율적으로 관리할 수 있게 해주는 시스템입니다.
+
+### 🔑 주요 기능
+- 19개의 모델을 병렬로 오케스트레이션
+- 최적의 모델로 작업 자동 라우팅
+- 사용량 기반 가격 책정 및 지출 통제
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI를 활용한 프로젝트를 처음부터 끝까지 자동화하여 시간과 노력을 절약하고, 다양한 AI 모델을 효율적으로 활용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자동 연구 기능 사용해보기
+- 자동 디자인 기능 사용해보기
+- 자동 코드 생성 기능 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 보안 에이전트의 안전성 검토 필요
+- 사용량 기반 가격 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 19개 모델의 구체적인 종류와 성능에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Perplexity_Computer_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Perplexity_Computer_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Perplexity_Computer_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/697951cd-3914-4825-9e94-3009bcda1281.jpeg?auto=format)
+
+---
+
+## 4. [Nano Banana 2](https://www.producthunt.com/products/nano-banana-2-11)
+**Votes**: 251 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Google's latest AI image generation model 
+**서비스 링크**: https://www.producthunt.com/r/5NLVDDHOYWVP3G
+
+**태그**: AI, 이미지 생성, 머신러닝, Google, AI Tool, Vision
+
+<img src="images/ph_2026-02-27_Nano_Banana_2.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Google의 최신 AI 이미지 생성 모델 Nano Banana 2는 빠른 속도로 향상된 세계 지식, 제작 준비 완료 사양, 주제 일관성 등을 제공합니다.
+
+### 🔑 주요 기능
+- 향상된 세계 지식
+- 제작 준비 완료 사양
+- 주제 일관성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Nano Banana 2를 통해 사용자들은 더욱 빠르고 효율적으로 고품질의 이미지를 생성할 수 있으며, 특히 주제 일관성이 중요한 이미지 제작에 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 이미지 생성 시 다양한 프롬프트 시도해보기
+- 주제 일관성 테스트해보기
+- 제작 준비 완료 사양 확인해보기
+
+### ⚠️ 사용 전 확인할 점
+- 생성 이미지의 품질 및 정확도 확인 필요
+- 모델의 잠재적 편향성 고려
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 환경에서의 성능 및 안정성에 대한 추가적인 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Nano_Banana_2_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Nano_Banana_2_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Nano_Banana_2_media_2.jpg)
+
+---
+
+## 5. [Mastra Code](https://www.producthunt.com/products/mastra)
+**Votes**: 159 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: The AI coding agent that never compacts
+**서비스 링크**: https://www.producthunt.com/r/BWYZSHUOCAA5K7
+
+**태그**: DevTool, AI, 코딩 자동화, 생산성, Agent, AI Tool
+
+<img src="images/ph_2026-02-27_Mastra_Code.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mastra Code는 AI 코딩 에이전트로서, 컨텍스트 윈도우 압축 시 중요한 세부 정보를 잃지 않아 장기간 정확한 코딩 세션을 가능하게 합니다.
+
+### 🔑 주요 기능
+- 관찰 메모리 기술을 통해 문맥 압축 시 중요 정보 손실 방지
+- 정확한 장기 코딩 세션 지원
+- 더 빠른 빌드, 병합, 배포 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기존 코딩 에이전트의 컨텍스트 압축 문제점을 해결하여, 장기간 코딩 작업의 효율성과 정확성을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- Mastra Code를 사용하여 장기 코딩 프로젝트 시작
+- 기존 코딩 에이전트와 Mastra Code의 성능 비교
+- 관찰 메모리 기술의 효과 직접 체험
+
+### ⚠️ 사용 전 확인할 점
+- 관찰 메모리 기술의 성능에 대한 의존성
+- 특정 코딩 스타일에 대한 최적화 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Mastra Code의 관찰 메모리 기술이 실제 코딩 환경에서 얼마나 효과적인지 추가적인 사용 후기 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Mastra_Code_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Mastra_Code_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Mastra_Code_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/34c3b84a-4d47-4b52-a2c7-b60a8ae745a2.jpeg?auto=format)
+
+---
+
+## 6. [What's Up With That?](https://www.producthunt.com/products/what-s-up-with-that)
+**Votes**: 138 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Get instant insights about the topic you're reading about
+**서비스 링크**: https://www.producthunt.com/r/N5CRVINZJEDLTT
+
+**태그**: DevTool, AI, Research, Analytics, AI Tool
+
+<img src="images/ph_2026-02-27_What's_Up_With_That.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+What's Up With That?은 브라우저 확장 프로그램으로, 클릭 한 번으로 읽고 있는 기사에 대한 최신 정보를 10초 만에 제공하고, AI 도구를 활용하여 심층 분석 및 맞춤형 연구 계획을 수립할 수 있도록 도와줍니다.
+
+### 🔑 주요 기능
+- 기사 내용을 빠르게 이해하도록 돕는 실시간 정보 제공
+- 35가지 AI 도구를 활용한 심층 분석 및 의사 결정 지원
+- 읽으면서 자동으로 데이터 포인트를 캡처하여 의사 결정에 활용
+
+### 🙋 사용자에게 어떤 점이 좋은가
+전문가 수준의 통찰력을 빠르게 얻고, AI 기반 도구를 통해 분석 효율성을 높여 의사 결정 시간을 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브라우저 확장 프로그램을 설치하고 관심 있는 기사를 읽어보세요.
+- 제공되는 AI 도구들을 활용하여 기사 내용을 분석해보세요.
+- 자동 데이터 캡처 기능을 통해 의사 결정에 필요한 정보를 수집해보세요.
+
+### ⚠️ 사용 전 확인할 점
+- AI 분석 결과의 정확성을 검증해야 합니다.
+- 개인 정보 보호 정책을 확인하고 데이터 수집 범위를 이해해야 합니다.
+
+### 🧭 확인이 더 필요한 정보
+제공되는 AI 도구의 성능과 데이터 분석의 정확성에 대한 사용자 피드백을 추가적으로 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_What's_Up_With_That_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_What's_Up_With_That_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_What's_Up_With_That_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c455ca4b-2432-4acd-86fe-dc7b320ba17b.jpeg?auto=format)
+
+---
+
+## 7. [Hacker News for macOS](https://www.producthunt.com/products/hacker-news-for-macos)
+**Votes**: 132 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: A native macOS client for Hacker News, built with SwiftUI
+**서비스 링크**: https://www.producthunt.com/r/CRKIWMQQHZYHGW
+
+**태그**: macOS, Hacker News, SwiftUI, 개발자, AI Tool
+
+<img src="images/ph_2026-02-27_Hacker_News_for_macOS.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+SwiftUI로 제작된 macOS용 Hacker News 클라이언트로, 웹사이트를 넘어선 네이티브 경험을 제공합니다.
+
+### 🔑 주요 기능
+- 시각적인 그리드 뷰와 썸네일로 스토리 탐색
+- 기사 본문과 댓글을 나란히 보기
+- 다크 모드, 광고 차단, 텍스트 크기 조절 등 다양한 기능 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Hacker News를 더욱 편리하고 몰입감 있게 사용할 수 있으며, macOS 환경에 최적화된 사용자 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다크 모드 적용해 보기
+- 키보드 단축키 사용해 탐색 속도 높이기
+- 관심 있는 기사 북마크하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 환경에서만 사용 가능
+- Hacker News 계정 필요
+
+### 🧭 확인이 더 필요한 정보
+Hacker News API 변경에 따른 앱의 지속적인 유지보수 여부 확인 필요.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Hacker_News_for_macOS_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Hacker_News_for_macOS_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Hacker_News_for_macOS_media_2.jpg)
+
+---
+
+## 8. [lemonpod.ai](https://www.producthunt.com/products/lemonpod-ai)
+**Votes**: 120 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Your daily life recap, narrated as a personal AI podcast
+**서비스 링크**: https://www.producthunt.com/r/PGYZKFZAGMZZWK
+
+**태그**: AI, Podcast, Automation, Productivity, AI Tool, DevTool
+
+<img src="images/ph_2026-02-27_lemonpod.ai.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+레몬팟 AI는 캘린더, 운동 기록, 음악 청취, GitHub 활동 등을 AI가 요약하여 개인 맞춤형 팟캐스트로 제공, 바쁜 일상 속에서 놓치기 쉬운 정보를 간편하게 청취하도록 돕습니다.
+
+### 🔑 주요 기능
+- 개인 활동 데이터를 AI가 요약하여 팟캐스트 생성
+- 다양한 개성을 가진 AI 호스트 선택 가능
+- RSS 또는 앱을 통해 간편하게 청취 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+매일 아침 어제 하루의 주요 활동 요약, 오늘의 할 일, 운동 통계, 즐겨 듣는 음악, 코딩 기록 등을 팟캐스트로 들으며 하루를 효율적으로 시작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- lemonpod.ai 웹사이트 방문
+- AI 호스트 선택
+- RSS 또는 앱을 통해 팟캐스트 구독
+
+### ⚠️ 사용 전 확인할 점
+- 개인 정보 수집 및 활용 동의 필요
+- AI 요약의 정확도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+AI 호스트의 종류와 데이터 요약 정확도에 대한 사용자 후기를 추가적으로 확인하는 것이 좋습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_lemonpod.ai_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_lemonpod.ai_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_lemonpod.ai_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/64141448-c6d7-405b-bbd7-d6dc461eeeb7.jpeg?auto=format)
+
+---
+
+## 9. [Alkemi](https://www.producthunt.com/products/alkemi)
+**Votes**: 105 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Your AI data teammate in Slack
+**서비스 링크**: https://www.producthunt.com/r/BZSHBMSH2RQ42A
+
+**태그**: AI, Slack, 데이터 분석, 협업, 자동화, AI Tool, Analytics
+
+<img src="images/ph_2026-02-27_Alkemi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Alkemi는 Slack에서 바로 데이터 분석을 수행할 수 있도록 도와주는 AI 기반 데이터 분석 도구입니다. 팀원 모두가 데이터 과학자를 옆에 둔 것처럼 데이터를 활용하여 더 나은 의사 결정을 내릴 수 있습니다.
+
+### 🔑 주요 기능
+- Slack에서 대화형 AI를 통해 데이터 분석 가능
+- 팀 협업 환경에서 데이터 기반 의사 결정 지원
+- 보고서 및 차트 즉시 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Slack에서 바로 데이터 분석이 가능하므로, 팀 협업 속도를 높이고 데이터 기반 의사 결정을 더욱 쉽게 내릴 수 있습니다. 데이터 사일로 현상을 해결하고, 모든 팀원이 데이터에 쉽게 접근할 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack에 Alkemi 연동
+- 데이터 소스 연결
+- 자주 묻는 질문 설정
+
+### ⚠️ 사용 전 확인할 점
+- 지원하는 데이터 소스 확인 필요
+- AI 정확도에 대한 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+Alkemi가 지원하는 데이터 소스 및 AI 분석 정확도에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_Alkemi_media_0.jpg)
+![Screenshot](images/ph_2026-02-27_Alkemi_media_1.jpg)
+![Screenshot](images/ph_2026-02-27_Alkemi_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a25aae8e-b742-49a3-95c6-2184a4cf84af.jpeg?auto=format)
+
+---
+
+## 10. [MaxClaw by MiniMax](https://www.producthunt.com/products/minimax-agent)
+**Votes**: 100 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Always-on managed agent based on OpenClaw powered by MiniMax
+**서비스 링크**: https://www.producthunt.com/r/BXGNKIBNLNK34G
+
+**태그**: DevTool, Automation, AI Agent, Agent, API
+
+<img src="images/ph_2026-02-27_MaxClaw_by_MiniMax.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+MiniMax 기반의 OpenClaw 에이전트를 별도 배포 없이 텔레그램, 왓츠앱, 슬랙, 디스코드에서 24시간 사용할 수 있으며, MiniMax 전문가 생태계와 업그레이드된 도구를 통해 실제 업무에 바로 적용 가능합니다.
+
+### 🔑 주요 기능
+- OpenClaw 기반의 MiniMax 에이전트
+- 별도 배포 및 추가 API 비용 없음
+- 텔레그램, 왓츠앱, 슬랙, 디스코드에서 24시간 사용 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+MiniMax의 전문성을 활용하여 다양한 플랫폼에서 즉시 업무 자동화를 구축하고 관리할 수 있어 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 텔레그램에서 에이전트 연결해보기
+- WhatsApp에서 알림 설정해보기
+- Slack 채널에 통합하여 팀 협업 자동화하기
+
+### ⚠️ 사용 전 확인할 점
+- MiniMax 서비스의 안정성 및 가용성 확인 필요
+- OpenClaw 기반 에이전트의 기능 제한 사항 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+MiniMax Expert 생태계의 구체적인 활용 사례 및 지원 범위에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-02-27_MaxClaw_by_MiniMax_media_0.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/365a6173-b430-438e-9f39-3c6d8fd2b21d.jpeg?auto=format)
+
+---
+
