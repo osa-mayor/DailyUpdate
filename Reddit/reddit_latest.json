@@ -1,9 +1,9 @@
 {
   "source": "reddit",
   "date": "2026-02-28",
-  "generated_at": "2026-02-28T09:26:33.885882+09:00",
+  "generated_at": "2026-02-28T13:03:55.332240+09:00",
   "count": 12,
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA with StepFun AI - Ask Us Anything\nr/LocalLLaMA | 👍 121 | 💬 141\n📝 요약: StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 벤치마크 포함 여부, 베이스 모델 공개 가능성 등에 대한 질문을 던지며, 모델에 대한 긍정적인 반응과 함께 다양한 개선 및 활용 방안에 대한 관심을 보이고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/\n\n🔥 2. Best Audio Models - Feb 2026\nr/LocalLLaMA | 👍 107 | 💬 57\n📝 요약: 2026년 2월 기준 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS가 주목받고 있습니다. 사용자들은 ASR, TTS, STT, 텍스트-음악 모델에 대한 선호도를 공유하며, Elevenlabs v3와 같은 폐쇄형 모델이 긴 길이와 안정성 면에서 여전히 우수하다는 의견이 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/\n\n🔥 3. Back in my day, LocalLLaMa were the pioneers!\nr/LocalLLaMA | 👍 207 | 💬 48\n📝 요약: 과거 LocalLLaMA 모델의 발전과 현재의 발전에 대한 놀라움을 표현하는 게시글입니다. 사용자들은 과거에는 상상하기 어려웠던 현재의 모델 성능에 감탄하며, 새로운 LLM 아키텍처에 대한 기대감과 비판적인 시각을 동시에 드러내고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1rgkc1b/back_in_my_day_localllama_were_the_pioneers/\n\n🔥 4. Google releases Nano banana 2 model\nr/Singularity | 👍 782 | 💬 159\n📝 요약: Google이 Nano banana 2 모델을 출시했으며, 사용자들은 이미지 생성 품질이 크게 향상되었다고 평가하고 있습니다. 특히 이전 모델에서 어려움을 겪었던 특정 작업에서 뛰어난 성능을 보여주어 리모델링과 같은 분야에서 활용 가능성이 높아졌다는 의견이 있습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1rfe27w/google_releases_nano_banana_2_model/\n\n🔥 5. (Sound on) Gemini 3.1 Pro surpassed every expectation I had for it. This is a game it made after a few hours of back and forth.\nr/Singularity | 👍 593 | 💬 89\n📝 요약: Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들었습니다. 사용자는 간단한 지시만 내렸고, Gemini 3.1 Pro는 성능 최적화, 음악 추가, 타이틀 카드 생성 등 다양한 작업을 수행하여 1,800줄의 HTML 코드를 생성했습니다. 이 결과에 대해 No Man's Sky 개발팀을 언급하며 놀라워하는 반응과 함께, 게임의 재미에 대한 질문도 있었습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1ra7agg/sound_on_gemini_31_pro_surpassed_every/\n\n🔥 6. Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products\nr/Singularity | 👍 2113 | 💬 672\n📝 요약: 트럼프가 Truth Social에서 Anthropic에 대한 격렬한 비난을 퍼부으며 연방 기관에 해당 제품 사용 중단을 명령했다. 사용자들은 정부의 감시 시도를 막는 것이 '급진 좌파'로 여겨지는 상황에 의아해하며, Anthropic이 도덕적 우위를 점하게 되었다고 평가한다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1rgisrj/trump_goes_on_truth_social_rant_about_anthropic/\n\n🔥 7. [D] Self-Promotion Thread\nr/MachineLearning | 👍 11 | 💬 61\n📝 요약: 머신러닝 커뮤니티에서 개인 프로젝트, 스타트업, 제품 홍보 등을 위한 스레드가 생성되었습니다. 사용자들은 LLM의 프롬프트 주입 탐지 시스템, 연구 PDF 관리 도구, AI 기반 모션 디자인 툴, 시장 분석 도구 등을 소개하고 있으며, 에이전트 워크플로우 확장에 대한 컨퍼런스 발표 모집 공고도 올라왔습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/\n\n🔥 8. [D] Monthly Who's Hiring and Who wants to be Hired?\nr/MachineLearning | 👍 15 | 💬 10\n📝 요약: 머신러닝 관련 구인/구직 게시글들을 모아놓은 스레드입니다. 유럽, 미국 등 다양한 지역에서 ML/NLP 엔지니어, JavaScript 전문가, CTO 등을 구하고 있으며, 원격 근무 및 계약직 형태의 채용 공고가 많습니다. 또한, 과학적 창작 모델 교육 관련 전문가를 찾는 구직자도 있습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/\n\n🔥 9. [D] Edge AI Projects on Jetson Orin – Ideas?\nr/MachineLearning | 👍 7 | 💬 1\n📝 요약: Jetson Orin을 활용한 엣지 AI 프로젝트 아이디어를 구하는 글입니다. 작성자는 SLM 구축 경험, 실시간 ML 파이프라인, 컴퓨터 비전, 이상 감지, 설명 가능한 AI 경험이 있으며, 채용에 도움이 될 만한 창의적이고 야심찬 아이디어를 찾고 있습니다. 농업 및 자동차 산업에서 엣지 컴퓨팅을 활용한 컴퓨터 비전 작업이 많다는 댓글이 있었습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1rghtsb/d_edge_ai_projects_on_jetson_orin_ideas/\n\n🔥 10. Monthly \"Is there a tool for...\" Post\nr/ArtificialInteligence | 👍 50 | 💬 433\n📝 요약: 이 게시물은 특정 AI 도구를 찾는 사용자를 위한 것입니다. 사용자들은 비디오 편집, 전화 응답 자동화, 작업 관리, 이미지 프롬프트 생성 등 다양한 사용 사례에 맞는 AI 도구를 추천받고자 합니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1n5ppdb/monthly_is_there_a_tool_for_post/\n\n🔥 11. Monthly \"Is there a tool for...\" Post\nr/ArtificialInteligence | 👍 1 | 💬 39\n📝 요약: 인공지능 도구 추천을 요청하는 스레드입니다. 사용자들은 텍스트 읽기 지원, 세금 계산 엔진 구축, 음악 교육 지원, 판타지 스포츠 리그 데이터 분석 등 다양한 사용 사례에 맞는 AI 도구를 찾고 있습니다. 커뮤니티는 이러한 질문들이 쏟아지는 것을 방지하고, 유용한 정보 공유의 장을 마련하는 데 긍정적인 반응을 보이고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1qt0wff/monthly_is_there_a_tool_for_post/\n\n🔥 12. Trump orders all federal agencies to phase out use of Anthropic technology\nr/ArtificialInteligence | 👍 220 | 💬 135\n📝 요약: 트럼프 대통령이 모든 연방 기관에 Anthropic 기술 사용 중단을 명령했다는 소식에, 커뮤니티에서는 Anthropic이 윤리적인 AI 시장을 선점하기 위해 유럽으로 이전해야 한다는 의견과, 압력에 굴복하지 않은 Anthropic을 지지하는 반응이 나타났습니다. 특히 국방부가 이 문제에 관여하는 것은 미국 시민에 대한 대규모 감시 또는 완전 자율 무기 사용을 위한 AI 활용 가능성을 시사한다는 분석이 있습니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1rgk4ob/trump_orders_all_federal_agencies_to_phase_out/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n🔥 1. AMA with StepFun AI - Ask Us Anything\nr/LocalLLaMA | 👍 118 | 💬 141\n📝 요약: StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA(Ask Me Anything)를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 벤치마크 포함 여부, 베이스 모델 공개 가능성 등에 대한 질문을 던졌으며, 모델에 대한 긍정적인 반응과 함께 다양한 개선 및 활용 방안에 대한 논의가 이루어졌습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/\n\n🔥 2. Best Audio Models - Feb 2026\nr/LocalLLaMA | 👍 110 | 💬 57\n📝 요약: 2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS와 같은 최신 모델들이 주목받고 있습니다. 사용자들은 ASR, TTS, STT, 텍스트-음악 모델에 대한 선호도와 사용 경험을 공유하며, 오픈 소스 모델과 상용 모델의 성능 비교에 대한 의견을 나누고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/\n\n🔥 3. Back in my day, LocalLLaMa were the pioneers!\nr/LocalLLaMA | 👍 431 | 💬 85\n📝 요약: 과거 로컬 LLM의 발전상을 회상하며, 현재의 발전된 모델과 비교하는 내용입니다. 사용자들은 과거에는 상상하기 어려웠던 수준의 모델이 개인 장비에서 구동되는 것에 놀라워하며, 새로운 LLM 아키텍처에 대한 기대와 회의적인 시각을 동시에 드러내고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1rgkc1b/back_in_my_day_localllama_were_the_pioneers/\n\n🔥 4. Google releases Nano banana 2 model\nr/Singularity | 👍 780 | 💬 160\n📝 요약: Google이 Nano banana 2 모델을 출시했다. 사용자들은 이미지 생성 품질이 크게 향상되었다는 반응을 보이며, 특히 이전에 어려움을 겪었던 작업에서 뛰어난 성능을 보인다고 평가한다. 하지만 일부 사용자는 특정 이미지 스타일이나 PNG 처리에서 여전히 개선이 필요하다고 지적한다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1rfe27w/google_releases_nano_banana_2_model/\n\n🔥 5. (Sound on) Gemini 3.1 Pro surpassed every expectation I had for it. This is a game it made after a few hours of back and forth.\nr/Singularity | 👍 598 | 💬 89\n📝 요약: Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들 수 있다는 내용의 게시글입니다. 사용자는 텍스트 명령만으로 게임의 성능 최적화, 음악 추가, 타이틀 카드 생성 등을 수행했으며, 최종적으로 1,800줄의 HTML 코드가 생성되었습니다. 커뮤니티에서는 이 기술이 게임 개발에 미치는 영향에 대한 우려와 함께, 생성된 콘텐츠의 재미에 대한 질문이 제기되었습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1ra7agg/sound_on_gemini_31_pro_surpassed_every/\n\n🔥 6. Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products\nr/Singularity | 👍 3258 | 💬 882\n📝 요약: 트럼프 전 대통령이 Truth Social에 Anthropic에 대한 불만을 표출하며 연방 기관에 해당 제품 사용 중단을 명령했다는 소식입니다. 이에 대한 반응으로, 사용자들은 대규모 국내 감시를 반대하는 것이 '급진 좌파'로 여겨지는 상황에 대한 비판과 함께 Anthropic에 대한 관심이 증가했다는 의견을 보였습니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1rgisrj/trump_goes_on_truth_social_rant_about_anthropic/\n\n🔥 7. [D] Self-Promotion Thread\nr/MachineLearning | 👍 10 | 💬 61\n📝 요약: 머신러닝 커뮤니티에서 개인 프로젝트, 스타트업, 제품 홍보 등을 위한 스레드가 생성되었습니다. 사용자들은 LLM의 프롬프트 주입 탐지 시스템, 연구 PDF 관리 도구, AI 기반 모션 디자인 툴, 시장 분석 도구 등을 소개하고 있으며, 에이전트 워크플로우 확장에 대한 개발자 컨퍼런스 CFP도 공유되고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/\n\n🔥 8. [D] Monthly Who's Hiring and Who wants to be Hired?\nr/MachineLearning | 👍 15 | 💬 10\n📝 요약: 머신러닝 관련 구인/구직 게시글 요약입니다. 유럽 및 미국에서 원격으로 근무 가능한 머신러닝 엔지니어, JavaScript 전문가, CTO 등을 구하고 있으며, AI 모델 교육 관련 계약직 구직자도 있습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1qrrayn/d_monthly_whos_hiring_and_who_wants_to_be_hired/\n\n🔥 9. [R] ContextCache: Persistent KV Cache with Content-Hash Addressing — 29x TTFT speedup for tool-calling LLMs\nr/MachineLearning | 👍 11 | 💬 14\n📝 요약: ContextCache는 툴 호출 LLM에서 툴 스키마 토큰에 대한 중복된 프리필 계산을 제거하는 영구적인 KV 캐시 시스템입니다. 툴 스키마를 캐싱하여 TTFT(첫 번째 토큰 시간) 속도를 최대 29배까지 향상시키며, 그룹 캐싱을 통해 품질 저하 없이 전체 프리필 품질을 유지합니다. 커뮤니티에서는 이 기술이 로컬 모델을 더 실용적으로 만들 수 있다는 긍정적인 반응을 보였습니다.\n🔗 Reddit: https://www.reddit.com/r/MachineLearning/comments/1rglj2n/r_contextcache_persistent_kv_cache_with/\n\n🔥 10. Monthly \"Is there a tool for...\" Post\nr/ArtificialInteligence | 👍 50 | 💬 433\n📝 요약: 이 게시물은 AI 도구를 찾는 사용자들이 자신의 사용 사례를 설명하고 커뮤니티로부터 추천을 받는 것을 목표로 합니다. 사용자들은 업무 자동화, 개인적인 생산성 향상, 특정 이미지 생성 등 다양한 목적을 위해 AI 도구를 찾고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1n5ppdb/monthly_is_there_a_tool_for_post/\n\n🔥 11. Monthly \"Is there a tool for...\" Post\nr/ArtificialInteligence | 👍 1 | 💬 39\n📝 요약: 인공지능 도구 활용에 대한 질문을 받는 월간 게시물입니다. 사용자들은 특정 사용 사례에 적합한 AI 도구를 추천받거나, 기존 도구에 대한 정보를 얻고자 합니다. 텍스트 읽기 지원, 세금 계산 엔진, 음악 교육 지원, 판타지 스포츠 데이터 분석 등 다양한 분야에서 AI 도구 활용에 대한 문의가 있었습니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1qt0wff/monthly_is_there_a_tool_for_post/\n\n🔥 12. Trump orders all federal agencies to phase out use of Anthropic technology\nr/ArtificialInteligence | 👍 363 | 💬 169\n📝 요약: 트럼프 행정부가 모든 연방 기관에 Anthropic 기술 사용 중단을 명령했다는 소식에, 일부 사용자는 Anthropic이 윤리적인 AI 시장을 공략하기 위해 유럽으로 이전해야 한다고 주장합니다. 또한, 국방부가 이 기술 사용을 두고 논쟁하는 것은 미국 시민에 대한 대규모 감시 또는 완전 자율 무기 개발과 관련이 있을 수 있다는 의견도 있습니다.\n🔗 Reddit: https://www.reddit.com/r/ArtificialInteligence/comments/1rgk4ob/trump_orders_all_federal_agencies_to_phase_out/\n\n출처: Reddit (r/LocalLLaMA, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
@@ -11,21 +11,21 @@
       "title": "AMA with StepFun AI - Ask Us Anything",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r8snay/ama_with_stepfun_ai_ask_us_anything/",
       "external_link": null,
-      "score": "121",
+      "score": "118",
       "comments_count": 141,
       "pub_date": "2026-02-19T07:15:35",
-      "korean_summary": "StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 벤치마크 포함 여부, 베이스 모델 공개 가능성 등에 대한 질문을 던지며, 모델에 대한 긍정적인 반응과 함께 다양한 개선 및 활용 방안에 대한 관심을 보이고 있습니다.",
+      "korean_summary": "StepFun AI 팀이 Step 3.5 Flash 모델을 포함한 Step 모델 제품군에 대한 AMA(Ask Me Anything)를 진행합니다. 사용자들은 모델의 버그 수정 계획, 툴 호출 지원, 벤치마크 포함 여부, 베이스 모델 공개 가능성 등에 대한 질문을 던졌으며, 모델에 대한 긍정적인 반응과 함께 다양한 개선 및 활용 방안에 대한 논의가 이루어졌습니다.",
       "key_points": [
-        "StepFun AI 팀이 Step 모델 제품군(Step 3.5 Flash 포함)에 대한 AMA를 개최하여 사용자들과 소통할 예정입니다.",
-        "사용자들은 모델의 버그 수정, 툴 호출 지원, 벤치마크 포함, 베이스 모델 공개 등 다양한 기술적 질문과 개선 사항을 제안하고 있습니다.",
-        "Step 3.5 Flash 모델에 대한 긍정적인 평가와 함께, 모델의 성능 향상 및 활용 범위 확장에 대한 기대감이 나타나고 있습니다."
+        "StepFun 팀은 Step 3.5 Flash 모델의 무한 루프 버그 수정 계획 및 차기 버전 출시 가능성에 대한 질문을 받았습니다.",
+        "vllm, sglang, llama.cpp 등 주요 플랫폼에서의 툴 호출 지원과 관련된 PR 제출 고려 여부에 대한 문의가 있었습니다.",
+        "베이스 모델 공개를 통한 커뮤니티의 추가적인 fine-tuning 가능성 및 관련 규제 리스크에 대한 질문이 제기되었습니다."
       ],
       "tags": [
-        "Release",
+        "Agent",
+        "오픈소스",
         "LLM",
-        "OpenSource",
         "Benchmark",
-        "Agent"
+        "Release"
       ]
     },
     {
@@ -34,21 +34,20 @@
       "title": "Best Audio Models - Feb 2026",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7bsfd/best_audio_models_feb_2026/",
       "external_link": null,
-      "score": "107",
+      "score": "110",
       "comments_count": 57,
       "pub_date": "2026-02-17T17:01:37",
-      "korean_summary": "2026년 2월 기준 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS가 주목받고 있습니다. 사용자들은 ASR, TTS, STT, 텍스트-음악 모델에 대한 선호도를 공유하며, Elevenlabs v3와 같은 폐쇄형 모델이 긴 길이와 안정성 면에서 여전히 우수하다는 의견이 있습니다.",
+      "korean_summary": "2026년 2월 최고의 오디오 모델에 대한 논의가 진행 중이며, 특히 Qwen3 TTS와 같은 최신 모델들이 주목받고 있습니다. 사용자들은 ASR, TTS, STT, 텍스트-음악 모델에 대한 선호도와 사용 경험을 공유하며, 오픈 소스 모델과 상용 모델의 성능 비교에 대한 의견을 나누고 있습니다.",
       "key_points": [
-        "Marblenet (음성 감지), Parakeet (ASR), Chatterbox (TTS), Ace-step (TTM) 모델이 언급되었습니다.",
-        "MOSS-TTS는 프롬프트 기반의 음향 효과 생성과 같은 추가 기능을 제공하여 관심을 받고 있습니다.",
-        "ComfyUI 기반의 TTS-Audio-Suite 소프트웨어는 Chatterbox, F5 TTS, VibeVoice 등 다양한 TTS 모델을 다운로드하여 사용할 수 있는 옵션을 제공합니다."
+        "Qwen3 TTS 외에 MOSS-TTS가 사운드 효과 생성 기능으로 관심을 받고 있으며, ComfyUI 기반의 TTS-Audio-Suite 소프트웨어가 다양한 TTS 모델(Chatterbox, F5 TTS, VibeVoice 등)을 제공합니다.",
+        "사용자들은 Marblenet(음성 감지), Parakeet(ASR), Chatterbox(TTS), Ace-step(TTM) 모델을 추천하고 있으며, 오픈 소스 TTS 모델의 발전을 위한 저장소(repo) 구축에 대한 요구가 있습니다."
       ],
       "tags": [
-        "오디오모델",
-        "Release",
-        "STT",
         "TTS",
-        "AI"
+        "Release",
+        "오픈소스AI",
+        "AI",
+        "오디오모델"
       ]
     },
     {
@@ -57,19 +56,20 @@
       "title": "Back in my day, LocalLLaMa were the pioneers!",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rgkc1b/back_in_my_day_localllama_were_the_pioneers/",
       "external_link": null,
-      "score": "207",
-      "comments_count": 48,
+      "score": "431",
+      "comments_count": 85,
       "pub_date": "2026-02-27T22:00:57",
-      "korean_summary": "과거 LocalLLaMA 모델의 발전과 현재의 발전에 대한 놀라움을 표현하는 게시글입니다. 사용자들은 과거에는 상상하기 어려웠던 현재의 모델 성능에 감탄하며, 새로운 LLM 아키텍처에 대한 기대감과 비판적인 시각을 동시에 드러내고 있습니다.",
+      "korean_summary": "과거 로컬 LLM의 발전상을 회상하며, 현재의 발전된 모델과 비교하는 내용입니다. 사용자들은 과거에는 상상하기 어려웠던 수준의 모델이 개인 장비에서 구동되는 것에 놀라워하며, 새로운 LLM 아키텍처에 대한 기대와 회의적인 시각을 동시에 드러내고 있습니다.",
       "key_points": [
-        "과거에는 GPT-4 수준의 로컬 모델이 10년 안에 등장할 것이라고 예상하기 어려웠으나, 현재는 2-3k 장비에서 실행되는 MoE 모델이 ChatGPT 3.5보다 훨씬 뛰어난 성능을 보여준다.",
-        "새로운 LLM 아키텍처에 대한 맹목적인 기대감보다는 실제로 사용해보고 판단하려는 신중한 태도가 필요하다는 의견이 제시되었다."
+        "과거에는 GPT-4 수준의 로컬 모델이 10년 안에 등장할 것이라고 예상하기 어려웠으나, 현재는 2-3k 달러 수준의 장비에서 MoE 모델을 구동할 수 있게 되었다.",
+        "새로운 LLM 아키텍처에 대한 맹목적인 기대보다는 직접 사용해보고 판단하려는 신중한 태도가 필요하다는 의견이 제시되었다.",
+        "2023년은 로컬 LLM 발전에 중요한 해로 기억되고 있으며, 당시의 기술적 한계와 현재의 발전을 비교하는 사용자들이 많다."
       ],
       "tags": [
-        "LLM",
-        "LocalLLaMA",
-        "Benchmark",
         "Agent",
+        "LocalLLaMA",
+        "LLM",
+        "Benchmark",
         "AI"
       ]
     },
@@ -79,20 +79,21 @@
       "title": "Google releases Nano banana 2 model",
       "url": "https://www.reddit.com/r/singularity/comments/1rfe27w/google_releases_nano_banana_2_model/",
       "external_link": null,
-      "score": "782",
-      "comments_count": 159,
+      "score": "780",
+      "comments_count": 160,
       "pub_date": "2026-02-26T16:02:44",
-      "korean_summary": "Google이 Nano banana 2 모델을 출시했으며, 사용자들은 이미지 생성 품질이 크게 향상되었다고 평가하고 있습니다. 특히 이전 모델에서 어려움을 겪었던 특정 작업에서 뛰어난 성능을 보여주어 리모델링과 같은 분야에서 활용 가능성이 높아졌다는 의견이 있습니다.",
+      "korean_summary": "Google이 Nano banana 2 모델을 출시했다. 사용자들은 이미지 생성 품질이 크게 향상되었다는 반응을 보이며, 특히 이전에 어려움을 겪었던 작업에서 뛰어난 성능을 보인다고 평가한다. 하지만 일부 사용자는 특정 이미지 스타일이나 PNG 처리에서 여전히 개선이 필요하다고 지적한다.",
       "key_points": [
-        "Nano banana 2 모델은 이미지 생성 품질이 이전보다 크게 향상되어, 특히 복잡한 시나리오에서도 좋은 결과를 보여줍니다.",
-        "일부 사용자는 특정 이미지 포맷(PNG) 처리나 특정 스타일(synthetic cubism) 구현에 여전히 개선의 여지가 있다고 지적합니다."
+        "Google의 Nano banana 2 모델이 출시되었으며, 이미지 생성 API를 통해 접근 가능하다.",
+        "사용자들은 이미지 생성 품질, 특히 이전 모델에서 어려움을 겪었던 작업에서의 성능 향상에 대해 긍정적인 반응을 보였다.",
+        "일부 사용자는 특정 이미지 스타일(예: 합성 큐비즘)이나 PNG 이미지 처리에서 개선이 필요하다고 언급했다."
       ],
       "tags": [
-        "Release",
-        "Image Generation",
-        "Google",
         "Agent",
-        "AI"
+        "Release",
+        "AI",
+        "Image Generation",
+        "Google"
       ]
     },
     {
@@ -101,20 +102,20 @@
       "title": "(Sound on) Gemini 3.1 Pro surpassed every expectation I had for it. This is a game it made after a few hours of back and forth.",
       "url": "https://www.reddit.com/r/singularity/comments/1ra7agg/sound_on_gemini_31_pro_surpassed_every/",
       "external_link": null,
-      "score": "593",
+      "score": "598",
       "comments_count": 89,
       "pub_date": "2026-02-20T20:57:32",
-      "korean_summary": "Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들었습니다. 사용자는 간단한 지시만 내렸고, Gemini 3.1 Pro는 성능 최적화, 음악 추가, 타이틀 카드 생성 등 다양한 작업을 수행하여 1,800줄의 HTML 코드를 생성했습니다. 이 결과에 대해 No Man's Sky 개발팀을 언급하며 놀라워하는 반응과 함께, 게임의 재미에 대한 질문도 있었습니다.",
+      "korean_summary": "Gemini 3.1 Pro를 사용하여 사용자가 원하는 대로 게임을 만들 수 있다는 내용의 게시글입니다. 사용자는 텍스트 명령만으로 게임의 성능 최적화, 음악 추가, 타이틀 카드 생성 등을 수행했으며, 최종적으로 1,800줄의 HTML 코드가 생성되었습니다. 커뮤니티에서는 이 기술이 게임 개발에 미치는 영향에 대한 우려와 함께, 생성된 콘텐츠의 재미에 대한 질문이 제기되었습니다.",
       "key_points": [
-        "Gemini 3.1 Pro는 사용자의 간단한 지시만으로 게임 개발 작업을 수행할 수 있으며, 성능 최적화 및 콘텐츠 추가 등의 복잡한 작업도 가능합니다.",
-        "커뮤니티에서는 Gemini 3.1 Pro의 능력에 놀라워하며, 기존 게임 개발팀에 미칠 영향에 대한 우려와 함께, 생성된 게임의 재미에 대한 질문이 제기되었습니다."
+        "Gemini 3.1 Pro는 사용자의 텍스트 명령을 기반으로 게임 개발 작업을 자동화할 수 있으며, 성능 최적화 및 콘텐츠 추가와 같은 복잡한 작업도 수행 가능합니다.",
+        "커뮤니티 반응은 긍정적인 놀라움과 함께, 게임 개발 분야에 미칠 잠재적 영향에 대한 우려를 동시에 나타내고 있습니다. 특히 기존 게임 개발자들의 일자리에 대한 걱정이 언급되었습니다."
       ],
       "tags": [
-        "Gemini 3.1 Pro",
+        "자동 코드 생성",
         "AI 게임 개발",
-        "AI",
         "Rust",
-        "자동 코드 생성"
+        "AI",
+        "Gemini 3.1 Pro"
       ]
     },
     {
@@ -123,20 +124,20 @@
       "title": "Trump goes on Truth Social rant about Anthropic, orders federal agencies to cease usage of products",
       "url": "https://www.reddit.com/r/singularity/comments/1rgisrj/trump_goes_on_truth_social_rant_about_anthropic/",
       "external_link": null,
-      "score": "2113",
-      "comments_count": 672,
+      "score": "3258",
+      "comments_count": 882,
       "pub_date": "2026-02-27T21:02:04",
-      "korean_summary": "트럼프가 Truth Social에서 Anthropic에 대한 격렬한 비난을 퍼부으며 연방 기관에 해당 제품 사용 중단을 명령했다. 사용자들은 정부의 감시 시도를 막는 것이 '급진 좌파'로 여겨지는 상황에 의아해하며, Anthropic이 도덕적 우위를 점하게 되었다고 평가한다.",
+      "korean_summary": "트럼프 전 대통령이 Truth Social에 Anthropic에 대한 불만을 표출하며 연방 기관에 해당 제품 사용 중단을 명령했다는 소식입니다. 이에 대한 반응으로, 사용자들은 대규모 국내 감시를 반대하는 것이 '급진 좌파'로 여겨지는 상황에 대한 비판과 함께 Anthropic에 대한 관심이 증가했다는 의견을 보였습니다.",
       "key_points": [
-        "트럼프 대통령이 Anthropic 제품 사용 중단을 명령하며 Truth Social에서 비난을 쏟아냈다.",
-        "사용자들은 정부의 대규모 감시를 막는 것이 '급진 좌파' 정책으로 간주되는 것에 대해 비판적인 반응을 보였다.",
-        "일부 사용자는 Anthropic이 정부의 감시 시도에 반대함으로써 Apple과 유사한 도덕적 우위를 확보했다고 주장했다."
+        "트럼프 전 대통령이 Anthropic 제품 사용 중단을 명령하며, 그 이유로 구체적인 내용은 언급되지 않았습니다.",
+        "커뮤니티에서는 대규모 국내 감시 반대가 '급진 좌파'로 치부되는 현 상황에 대한 비판적인 시각이 나타났습니다.",
+        "Anthropic 제품 사용 중단 명령이 오히려 Anthropic에 대한 마케팅 효과를 가져왔다는 의견이 제시되었습니다."
       ],
       "tags": [
-        "Surveillance",
+        "Anthropic",
         "Trump",
         "AI",
-        "Anthropic"
+        "Surveillance"
       ]
     },
     {
@@ -145,21 +146,21 @@
       "title": "[D] Self-Promotion Thread",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1qtjnbc/d_selfpromotion_thread/",
       "external_link": null,
-      "score": "11",
+      "score": "10",
       "comments_count": 61,
       "pub_date": "2026-02-02T03:15:21",
-      "korean_summary": "머신러닝 커뮤니티에서 개인 프로젝트, 스타트업, 제품 홍보 등을 위한 스레드가 생성되었습니다. 사용자들은 LLM의 프롬프트 주입 탐지 시스템, 연구 PDF 관리 도구, AI 기반 모션 디자인 툴, 시장 분석 도구 등을 소개하고 있으며, 에이전트 워크플로우 확장에 대한 컨퍼런스 발표 모집 공고도 올라왔습니다.",
+      "korean_summary": "머신러닝 커뮤니티에서 개인 프로젝트, 스타트업, 제품 홍보 등을 위한 스레드가 생성되었습니다. 사용자들은 LLM의 프롬프트 주입 탐지 시스템, 연구 PDF 관리 도구, AI 기반 모션 디자인 툴, 시장 분석 도구 등을 소개하고 있으며, 에이전트 워크플로우 확장에 대한 개발자 컨퍼런스 CFP도 공유되고 있습니다.",
       "key_points": [
         "PromptForest: LLM의 프롬프트 주입을 탐지하는 오픈 소스 앙상블 시스템으로, DeBERTa, XGBoost, Llama Prompt Guard 86M 모델을 결합하여 낮은 지연 시간과 높은 보정률을 유지합니다.",
-        "NLPaper: 연구 PDF를 저장하고 나중에 쉽게 찾을 수 있도록 돕는 도구로, PDF를 업로드하면 자동으로 태그를 지정하여 검색 효율성을 높입니다.",
-        "AI DevCon 2026: 에이전트 코딩의 인프라 및 패턴에 초점을 맞춘 컨퍼런스로, 실제 결과, 에이전트의 신뢰성/안전성, 협업 등에 대한 발표를 모집합니다."
+        "NLPaper: 연구 PDF를 저장하고 나중에 쉽게 찾을 수 있도록 돕는 도구로, 캡처, 자동 태깅, 회상 기능을 제공하여 PDF 관리의 효율성을 높입니다.",
+        "AI DevCon 2026: 에이전트 코딩의 인프라 및 패턴에 초점을 맞춘 개발자 컨퍼런스로, 실제 결과, 에이전트의 신뢰성/안전성, 협업 사례 등을 찾고 있습니다."
       ],
       "tags": [
-        "LLM",
+        "Agent",
         "AI Tools",
-        "OpenSource",
-        "Startup",
-        "SelfPromotion"
+        "MachineLearning",
+        "LLM",
+        "Developer Conference"
       ]
     },
     {
@@ -171,40 +172,40 @@
       "score": "15",
       "comments_count": 10,
       "pub_date": "2026-01-31T03:30:32",
-      "korean_summary": "머신러닝 관련 구인/구직 게시글들을 모아놓은 스레드입니다. 유럽, 미국 등 다양한 지역에서 ML/NLP 엔지니어, JavaScript 전문가, CTO 등을 구하고 있으며, 원격 근무 및 계약직 형태의 채용 공고가 많습니다. 또한, 과학적 창작 모델 교육 관련 전문가를 찾는 구직자도 있습니다.",
+      "korean_summary": "머신러닝 관련 구인/구직 게시글 요약입니다. 유럽 및 미국에서 원격으로 근무 가능한 머신러닝 엔지니어, JavaScript 전문가, CTO 등을 구하고 있으며, AI 모델 교육 관련 계약직 구직자도 있습니다.",
       "key_points": [
-        "독일 기반 SaaS 스타트업에서 연봉 50k–85k 유로 + 성과 보너스를 제공하는 Applied ML/NLP 엔지니어를 채용하며, 원격 근무가 가능합니다.",
-        "Mercor에서는 Office.js 능숙한 JavaScript 전문가를 시간당 80달러에 계약직으로 채용하여, AI 에이전트의 Microsoft Excel 기능을 향상시키는 업무를 수행합니다.",
-        "Legal Tech 스타트업에서 CTO를 채용하며, 연봉은 10만 달러에서 30만 달러 이상이며, 미국 거주자 또는 시민권자를 대상으로 합니다."
+        "독일 기반 SaaS 스타트업에서 연봉 50k–85k 유로 + 성과 보너스를 제공하는 Applied ML/NLP 엔지니어를 채용합니다. 원격 근무가 가능하며, 하이브리드 ML + 규칙, 프로덕션 시스템 경험을 요구합니다.",
+        "Mercor에서는 Office.js에 능숙한 JavaScript 전문가를 시간당 $80에 계약직으로 채용하여 선도적인 AI 연구소의 교육 이니셔티브를 지원합니다. Microsoft Excel 내에서 AI 에이전트의 기능을 향상시키는 역할을 수행합니다.",
+        "Legal Tech 스타트업에서 CTO를 채용하며, 연봉은 10만 달러에서 30만 달러 이상(RSU 포함)입니다. 미국 거주자 또는 시민권자여야 하며, 풀타임 계약이지만 파트타임 역할도 가능합니다."
       ],
       "tags": [
-        "AI/NLP Engineer",
-        "Remote Work",
-        "Startup",
         "Agent",
-        "Machine Learning Jobs"
+        "원격근무",
+        "JavaScript",
+        "MachineLearning",
+        "AI"
       ]
     },
     {
       "source": "reddit",
       "subreddit": "MachineLearning",
-      "title": "[D] Edge AI Projects on Jetson Orin – Ideas?",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1rghtsb/d_edge_ai_projects_on_jetson_orin_ideas/",
+      "title": "[R] ContextCache: Persistent KV Cache with Content-Hash Addressing — 29x TTFT speedup for tool-calling LLMs",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rglj2n/r_contextcache_persistent_kv_cache_with/",
       "external_link": null,
-      "score": "7",
-      "comments_count": 1,
-      "pub_date": "2026-02-27T20:24:46",
-      "korean_summary": "Jetson Orin을 활용한 엣지 AI 프로젝트 아이디어를 구하는 글입니다. 작성자는 SLM 구축 경험, 실시간 ML 파이프라인, 컴퓨터 비전, 이상 감지, 설명 가능한 AI 경험이 있으며, 채용에 도움이 될 만한 창의적이고 야심찬 아이디어를 찾고 있습니다. 농업 및 자동차 산업에서 엣지 컴퓨팅을 활용한 컴퓨터 비전 작업이 많다는 댓글이 있었습니다.",
+      "score": "11",
+      "comments_count": 14,
+      "pub_date": "2026-02-27T22:47:57",
+      "korean_summary": "ContextCache는 툴 호출 LLM에서 툴 스키마 토큰에 대한 중복된 프리필 계산을 제거하는 영구적인 KV 캐시 시스템입니다. 툴 스키마를 캐싱하여 TTFT(첫 번째 토큰 시간) 속도를 최대 29배까지 향상시키며, 그룹 캐싱을 통해 품질 저하 없이 전체 프리필 품질을 유지합니다. 커뮤니티에서는 이 기술이 로컬 모델을 더 실용적으로 만들 수 있다는 긍정적인 반응을 보였습니다.",
       "key_points": [
-        "Jetson Orin을 활용하여 실제 배포 가능한 엣지 AI 프로젝트 아이디어 모색",
-        "작성자는 다양한 ML 경험 보유 (SLM, 실시간 파이프라인, CV, 이상 감지, XAI)",
-        "농업 및 자동차 산업에서 엣지 기반 컴퓨터 비전 작업의 수요가 있음 (객체 감지, 3D/스테레오 비전 등)"
+        "ContextCache는 툴 스키마의 콘텐츠 해시를 기반으로 KV 상태를 캐싱하여 동일한 툴 세트에 대한 후속 요청 시 캐시된 KV 상태를 복원하고 사용자 쿼리 접미사에 대해서만 순방향 패스를 실행합니다.",
+        "개별 툴 캐싱은 툴 선택 정확도를 크게 떨어뜨리지만, 그룹 캐싱은 모든 툴을 단일 블록으로 캐싱하여 전체 프리필 품질을 유지하며, 다양한 평가 분할에서 일관된 성능을 보입니다.",
+        "Qwen3-8B 모델에서 ContextCache는 툴 수가 5개에서 50개로 증가함에 따라 TTFT를 일정하게 유지하며, 최대 29배의 속도 향상을 제공하고, 프롬프트 토큰의 99%를 건너뛸 수 있습니다."
       ],
       "tags": [
-        "Jetson Orin",
-        "Edge AI",
+        "캐싱",
         "AI",
-        "Computer Vision"
+        "툴 호출",
+        "LLM"
       ]
     },
     {
@@ -216,17 +217,18 @@
       "score": "50",
       "comments_count": 433,
       "pub_date": "2025-09-01T14:09:29",
-      "korean_summary": "이 게시물은 특정 AI 도구를 찾는 사용자를 위한 것입니다. 사용자들은 비디오 편집, 전화 응답 자동화, 작업 관리, 이미지 프롬프트 생성 등 다양한 사용 사례에 맞는 AI 도구를 추천받고자 합니다.",
+      "korean_summary": "이 게시물은 AI 도구를 찾는 사용자들이 자신의 사용 사례를 설명하고 커뮤니티로부터 추천을 받는 것을 목표로 합니다. 사용자들은 업무 자동화, 개인적인 생산성 향상, 특정 이미지 생성 등 다양한 목적을 위해 AI 도구를 찾고 있습니다.",
       "key_points": [
-        "미용사는 고객과의 전체 과정을 담은 긴 비디오에서 필요한 부분만 편집할 수 있는 AI 도구를 찾고 있습니다.",
-        "치매를 앓는 어머니의 반복적인 전화를 AI가 대신 받아 처리해주는 솔루션에 대한 문의가 있습니다. 음성 복제 또는 미세 조정 기능이 필요합니다.",
+        "한 헤어 디자이너는 고객의 전체 시술 과정을 녹화한 비디오에서 필요한 부분만 추출해주는 AI 도구를 찾고 있습니다.",
+        "치매를 앓고 있는 어머니의 반복적인 전화를 AI가 대신 받아 처리해주는 솔루션에 대한 문의가 있습니다. 발신자 음성 복제 또는 미세 조정 기능이 필요합니다.",
         "ADHD를 가진 사용자는 업무 및 개인 작업을 통합 관리할 수 있는 AI 기반 작업 추적 도구를 찾고 있습니다."
       ],
       "tags": [
+        "AI도구",
+        "LLM",
         "자동화",
-        "AI 도구 추천",
         "AI",
-        "LLM"
+        "생산성"
       ]
     },
     {
@@ -238,17 +240,17 @@
       "score": "1",
       "comments_count": 39,
       "pub_date": "2026-02-01T15:09:30",
-      "korean_summary": "인공지능 도구 추천을 요청하는 스레드입니다. 사용자들은 텍스트 읽기 지원, 세금 계산 엔진 구축, 음악 교육 지원, 판타지 스포츠 리그 데이터 분석 등 다양한 사용 사례에 맞는 AI 도구를 찾고 있습니다. 커뮤니티는 이러한 질문들이 쏟아지는 것을 방지하고, 유용한 정보 공유의 장을 마련하는 데 긍정적인 반응을 보이고 있습니다.",
+      "korean_summary": "인공지능 도구 활용에 대한 질문을 받는 월간 게시물입니다. 사용자들은 특정 사용 사례에 적합한 AI 도구를 추천받거나, 기존 도구에 대한 정보를 얻고자 합니다. 텍스트 읽기 지원, 세금 계산 엔진, 음악 교육 지원, 판타지 스포츠 데이터 분석 등 다양한 분야에서 AI 도구 활용에 대한 문의가 있었습니다.",
       "key_points": [
         "대학생이 교과서 챕터를 읽어주는 AI 도구를 찾고 있으며, 브라우저 탭이나 PDF 파일을 읽을 수 있는 기능을 희망합니다.",
-        "개인 음악 교사들을 위한 AI 도구에 대한 문의가 있으며, 학생들의 레슨 향상을 돕는 도구에 대한 필요성이 제기되었습니다.",
-        "판타지 스포츠 리그의 팀 스크린샷을 분석하여 선수 이름 빈도를 계산하는 AI 도구에 대한 질문이 있습니다."
+        "개인 음악 교사들은 학생들의 레슨 향상을 돕는 AI 도구에 대한 정보를 찾고 있으며, 기존 도구의 활용도나 지원 수준에 대한 질문이 있습니다.",
+        "판타지 스포츠 리그에서 AI를 사용하여 팀 소유 현황 그래프를 생성하는 방법을 문의하고 있으며, 스크린샷에서 텍스트를 읽어 선수 이름을 세는 기능을 필요로 합니다."
       ],
       "tags": [
         "사용 사례",
+        "AI 도구 추천",
         "커뮤니티 지원",
-        "AI",
-        "AI 도구 추천"
+        "AI"
       ]
     },
     {
@@ -257,20 +259,19 @@
       "title": "Trump orders all federal agencies to phase out use of Anthropic technology",
       "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1rgk4ob/trump_orders_all_federal_agencies_to_phase_out/",
       "external_link": null,
-      "score": "220",
-      "comments_count": 135,
+      "score": "363",
+      "comments_count": 169,
       "pub_date": "2026-02-27T21:53:02",
-      "korean_summary": "트럼프 대통령이 모든 연방 기관에 Anthropic 기술 사용 중단을 명령했다는 소식에, 커뮤니티에서는 Anthropic이 윤리적인 AI 시장을 선점하기 위해 유럽으로 이전해야 한다는 의견과, 압력에 굴복하지 않은 Anthropic을 지지하는 반응이 나타났습니다. 특히 국방부가 이 문제에 관여하는 것은 미국 시민에 대한 대규모 감시 또는 완전 자율 무기 사용을 위한 AI 활용 가능성을 시사한다는 분석이 있습니다.",
+      "korean_summary": "트럼프 행정부가 모든 연방 기관에 Anthropic 기술 사용 중단을 명령했다는 소식에, 일부 사용자는 Anthropic이 윤리적인 AI 시장을 공략하기 위해 유럽으로 이전해야 한다고 주장합니다. 또한, 국방부가 이 기술 사용을 두고 논쟁하는 것은 미국 시민에 대한 대규모 감시 또는 완전 자율 무기 개발과 관련이 있을 수 있다는 의견도 있습니다.",
       "key_points": [
-        "트럼프 행정부가 Anthropic 기술 사용 중단을 명령함.",
-        "커뮤니티는 Anthropic이 윤리적 AI 시장을 위해 유럽으로 이전해야 한다는 의견과, 압력에 굴복하지 않은 점을 긍정적으로 평가함.",
-        "국방부의 개입은 미국 시민 감시 또는 자율 무기 개발을 위한 AI 사용 가능성을 암시함."
+        "트럼프 행정부의 Anthropic 기술 사용 중단 명령은 단순한 시장 문제가 아닌, 잠재적으로 미국 시민 감시 또는 자율 무기 개발과 관련이 있을 수 있다는 추측이 제기됨.",
+        "Anthropic이 정부의 압력에 굴복하지 않은 것에 대한 긍정적인 반응과 함께, 윤리적 AI 시장을 선도하기 위해 유럽으로 이전해야 한다는 의견이 제시됨."
       ],
       "tags": [
-        "정치",
-        "AI",
         "Anthropic",
-        "인공지능 윤리"
+        "AI 윤리",
+        "AI",
+        "정치"
       ]
     }
   ]
