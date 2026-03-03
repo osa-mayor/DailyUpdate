@@ -1,0 +1,477 @@
+{
+  "source": "product_hunt",
+  "date": "2026-03-04",
+  "generated_at": "2026-03-04T04:58:14.357567+09:00",
+  "count": 10,
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Krisp Accent Conversion \n⭐ Votes: 269\n📝 요약: Krisp Accent Conversion은 실시간으로 외국 억양을 표준 미국식 영어로 변환하여, 국제 팀의 소통 효율성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/krisp\n🌐 서비스 링크: https://www.producthunt.com/r/JWT2SJ36TKUDAI\n\n📦 2. Qwen3.5 Small\n⭐ Votes: 246\n📝 요약: Qwen에서 0.8B부터 9B까지 다양한 사이즈의 Qwen3.5 Small 모델 시리즈를 출시했습니다. 멀티모달 기능과 향상된 아키텍처, 강화 학습을 통해 더 적은 컴퓨팅 자원으로 더 높은 지능을 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/qwen3\n🌐 서비스 링크: https://www.producthunt.com/r/TGCQORIPHE5ZK7\n\n📦 3. getviktor.com\n⭐ Votes: 221\n📝 요약: Viktor는 Slack에서 작동하며, 팀의 업무 방식을 학습하여 문제를 예측하고 자동화를 제안하는 AI 동료입니다. 질문에 답하는 챗봇이 아닌, 실제로 업무를 수행하는 AI입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/viktor\n🌐 서비스 링크: https://www.producthunt.com/r/5ZTZIJGNNKOERG\n\n📦 4. Deep Personality\n⭐ Votes: 211\n📝 요약: Deep Personality는 과학적으로 검증된 28가지 심리 검사를 통해 자신과 파트너의 성격, 애착 유형, 정신 건강, 가치관 등을 분석하고, AI 기반 분석을 제공하여 관계 개선에 도움을 줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/deep-personality\n🌐 서비스 링크: https://www.producthunt.com/r/ZYLAQ5RORV6TZX\n\n📦 5. SuperMoney\n⭐ Votes: 166\n📝 요약: SuperMoney는 AI 기반 개인 금융 앱으로, 단순한 추적을 넘어 돈을 절약할 수 있는 최적의 방법을 제시하여 재정적 스트레스를 해결해 줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/supermoney\n🌐 서비스 링크: https://www.producthunt.com/r/Y3A5X7RVIXRZ7P\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "items": [
+    {
+      "rank": 1,
+      "name": "Krisp Accent Conversion ",
+      "url": "https://www.producthunt.com/products/krisp",
+      "service_url": "https://www.producthunt.com/r/JWT2SJ36TKUDAI",
+      "website": "https://www.producthunt.com/r/JWT2SJ36TKUDAI",
+      "votes": 269,
+      "tagline": "Understand accented speech in real time",
+      "summary": "Krisp Accent Conversion은 실시간으로 외국 억양을 표준 미국식 영어로 변환하여, 국제 팀의 소통 효율성을 높여줍니다.",
+      "key_points": [
+        "실시간 억양 변환: 듣는 사람 입장에서 억양을 표준 미국식 영어로 변환합니다.",
+        "온디바이스 처리: 거의 지연 없이 기기 자체에서 처리됩니다.",
+        "다양한 플랫폼 지원: Zoom, Teams, Meet 등 다양한 화상 회의 플랫폼에서 작동합니다."
+      ],
+      "tags": [
+        "생산성",
+        "AI",
+        "커뮤니케이션",
+        "화상회의"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "억양 차이로 인한 소통의 어려움을 줄여주어, 국제 팀 구성원 간의 협업 효율성을 향상시킵니다. '다시 말씀해 주시겠어요?'라는 질문 없이 즉각적인 이해가 가능해집니다.",
+      "recommended_actions": [
+        "Zoom, Teams, Meet 등 자주 사용하는 화상 회의 플랫폼에서 Krisp Accent Conversion을 활성화하여 사용해 보세요.",
+        "다양한 억양의 영어를 사용하는 동료들과 함께 사용해보고, 효과를 직접 경험해보세요.",
+        "설정에서 억양 변환 강도를 조절하여, 자신에게 가장 적합한 설정을 찾아보세요."
+      ],
+      "risks_and_limits": [
+        "특정 억양이나 발음에는 완벽하게 작동하지 않을 수 있습니다.",
+        "온디바이스 처리 성능에 따라 약간의 지연이 발생할 수 있습니다."
+      ],
+      "uncertainty_note": "지원되는 억양의 종류와 변환 정확도에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Krisp_Accent_Conversion_.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Krisp_Accent_Conversion__media_0.jpg",
+        "images/ph_2026-03-03_Krisp_Accent_Conversion__media_1.jpg",
+        "images/ph_2026-03-03_Krisp_Accent_Conversion__media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/155ef544-5920-4b6f-9fe4-e7b580395493.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Qwen3.5 Small",
+      "url": "https://www.producthunt.com/products/qwen3",
+      "service_url": "https://www.producthunt.com/r/TGCQORIPHE5ZK7",
+      "website": "https://www.producthunt.com/r/TGCQORIPHE5ZK7",
+      "votes": 246,
+      "tagline": "0.8B-9B native multimodal w/ more intelligence, less compute",
+      "summary": "Qwen에서 0.8B부터 9B까지 다양한 사이즈의 Qwen3.5 Small 모델 시리즈를 출시했습니다. 멀티모달 기능과 향상된 아키텍처, 강화 학습을 통해 더 적은 컴퓨팅 자원으로 더 높은 지능을 제공합니다.",
+      "key_points": [
+        "0.8B 및 2B 모델은 엣지 장치에 적합하도록 작고 빠릅니다.",
+        "4B 모델은 강력한 경량 에이전트 기반을 제공합니다.",
+        "9B 모델은 훨씬 큰 모델과의 격차를 좁히고 있습니다."
+      ],
+      "tags": [
+        "AI 모델",
+        "멀티모달",
+        "엣지 컴퓨팅",
+        "강화 학습",
+        "Agent"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "다양한 크기의 모델을 통해 사용자는 자신의 필요에 맞는 최적의 모델을 선택할 수 있으며, 특히 엣지 컴퓨팅 환경이나 리소스가 제한적인 환경에서 유용합니다.",
+      "recommended_actions": [
+        "0.8B 또는 2B 모델을 사용하여 엣지 장치에서 빠른 추론을 테스트해 보세요.",
+        "4B 모델을 사용하여 간단한 에이전트 기반 애플리케이션을 구축해 보세요.",
+        "9B 모델을 사용하여 더 복잡한 작업을 수행하고 기존 모델과의 성능을 비교해 보세요."
+      ],
+      "risks_and_limits": [
+        "모델 크기에 따라 성능이 다르므로, 사용 목적에 맞는 적절한 크기의 모델을 선택해야 합니다.",
+        "아직 초기 버전이므로, 사용 중 예상치 못한 문제가 발생할 수 있습니다."
+      ],
+      "uncertainty_note": "각 모델의 구체적인 성능 벤치마크와 사용 사례에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Qwen3.5_Small.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Qwen3.5_Small_media_0.jpg",
+        "images/ph_2026-03-03_Qwen3.5_Small_media_1.jpg",
+        "images/ph_2026-03-03_Qwen3.5_Small_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "getviktor.com",
+      "url": "https://www.producthunt.com/products/viktor",
+      "service_url": "https://www.producthunt.com/r/5ZTZIJGNNKOERG",
+      "website": "https://www.producthunt.com/r/5ZTZIJGNNKOERG",
+      "votes": 221,
+      "tagline": " Your AI Coworker that proactively executes tasks",
+      "summary": "Viktor는 Slack에서 작동하며, 팀의 업무 방식을 학습하여 문제를 예측하고 자동화를 제안하는 AI 동료입니다. 질문에 답하는 챗봇이 아닌, 실제로 업무를 수행하는 AI입니다.",
+      "key_points": [
+        "Slack에서 3,000개 이상의 도구와 연동하여 작동",
+        "팀의 업무 방식을 학습하여 자동화 제안",
+        "캠페인 관리, 앱 빌드, 보고서 생성, 코드 작성 등 다양한 작업 수행"
+      ],
+      "tags": [
+        "AI",
+        "자동화",
+        "Slack",
+        "생산성",
+        "업무 자동화",
+        "Automation",
+        "AI Tool",
+        "Chat",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "팀의 생산성을 높이고 반복적인 작업을 자동화하여 효율성을 극대화할 수 있습니다. 특히 Slack을 주요 협업 도구로 사용하는 팀에게 유용합니다.",
+      "recommended_actions": [
+        "Slack에 Viktor를 추가하여 연동 가능한 도구 확인",
+        "팀의 일반적인 업무 흐름을 Viktor에게 학습시키기",
+        "Viktor가 제안하는 자동화 워크플로우 시험 적용"
+      ],
+      "risks_and_limits": [
+        "Viktor가 제안하는 자동화가 실제 업무 흐름과 맞지 않을 수 있음",
+        "초기 학습 기간 동안은 기대만큼의 효율을 보이지 않을 수 있음"
+      ],
+      "uncertainty_note": "Viktor의 실제 성능은 회사 규모, 사용 도구, 팀의 협업 방식에 따라 달라질 수 있습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_getviktor.com.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_getviktor.com_media_0.jpg",
+        "images/ph_2026-03-03_getviktor.com_media_1.jpg",
+        "images/ph_2026-03-03_getviktor.com_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/27cdc8b9-6fc7-469c-aa2a-d26a6bc25652.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Deep Personality",
+      "url": "https://www.producthunt.com/products/deep-personality",
+      "service_url": "https://www.producthunt.com/r/ZYLAQ5RORV6TZX",
+      "website": "https://www.producthunt.com/r/ZYLAQ5RORV6TZX",
+      "votes": 211,
+      "tagline": "Science-backed personality insights for you and your partner",
+      "summary": "Deep Personality는 과학적으로 검증된 28가지 심리 검사를 통해 자신과 파트너의 성격, 애착 유형, 정신 건강, 가치관 등을 분석하고, AI 기반 분석을 제공하여 관계 개선에 도움을 줍니다.",
+      "key_points": [
+        "28가지 과학 기반 심리 검사 제공",
+        "AI 기반의 심층적인 성격 분석 제공",
+        "파트너와의 관계 분석 및 비교 기능 제공"
+      ],
+      "tags": [
+        "심리 분석",
+        "관계 개선",
+        "AI",
+        "성격 검사",
+        "AI Tool",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "자신과 타인에 대한 이해를 높여 개인적인 성장과 관계 개선에 도움을 받을 수 있습니다. 특히, 연인, 친구, 동료와의 관계를 심층적으로 분석하여 더 나은 소통과 이해를 가능하게 합니다.",
+      "recommended_actions": [
+        "자신의 성격 특성 검사 진행",
+        "파트너와의 관계 비교 분석",
+        "AI 분석 결과 확인 및 개선점 파악"
+      ],
+      "risks_and_limits": [
+        "검사 결과는 참고 자료일 뿐, 절대적인 기준으로 활용하지 않도록 주의",
+        "AI 분석은 개인적인 편향을 가질 수 있으므로, 다양한 관점에서 해석 필요"
+      ],
+      "uncertainty_note": "AI 분석의 정확도 및 개인별 편차에 대한 추가적인 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Deep_Personality.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Deep_Personality_media_0.jpg",
+        "images/ph_2026-03-03_Deep_Personality_media_1.jpg",
+        "images/ph_2026-03-03_Deep_Personality_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/1a0a9e0f-f563-485e-bc8d-bd80e5c3501c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "SuperMoney",
+      "url": "https://www.producthunt.com/products/supermoney",
+      "service_url": "https://www.producthunt.com/r/Y3A5X7RVIXRZ7P",
+      "website": "https://www.producthunt.com/r/Y3A5X7RVIXRZ7P",
+      "votes": 166,
+      "tagline": "Your money stress, solved by AI.",
+      "summary": "SuperMoney는 AI 기반 개인 금융 앱으로, 단순한 추적을 넘어 돈을 절약할 수 있는 최적의 방법을 제시하여 재정적 스트레스를 해결해 줍니다.",
+      "key_points": [
+        "AI 기반 맞춤형 재정 관리 솔루션",
+        "부채 최적화 및 더 나은 금융 옵션 발견",
+        "재정 계획 유지 및 다음 단계 제시"
+      ],
+      "tags": [
+        "AI",
+        "FinTech",
+        "개인 금융",
+        "재정 관리",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "SuperMoney는 사용자가 재정 상황을 쉽게 파악하고 개선할 수 있도록 도와주며, AI가 제공하는 맞춤형 조언을 통해 돈을 절약하고 재정 목표를 달성하도록 지원합니다.",
+      "recommended_actions": [
+        "부채 최적화 기능 사용해보기",
+        "더 나은 금융 상품 옵션 찾아보기",
+        "개인 재정 계획 설정 및 유지하기"
+      ],
+      "risks_and_limits": [
+        "AI 추천은 사용자의 재정 상황에 따라 다를 수 있으므로, 최종 결정은 신중하게 고려해야 합니다.",
+        "개인 금융 정보 제공 시 보안에 유의해야 합니다."
+      ],
+      "uncertainty_note": "AI 추천의 정확도 및 개인별 맞춤 정도에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_SuperMoney.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_SuperMoney_media_0.jpg",
+        "images/ph_2026-03-03_SuperMoney_media_1.jpg",
+        "images/ph_2026-03-03_SuperMoney_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/c5a2d1d6-cc1d-457a-ac05-11e85481a62b.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Mailercloud Email API Platform",
+      "url": "https://www.producthunt.com/products/mailercloud",
+      "service_url": "https://www.producthunt.com/r/HM6Q6424IVXGVN",
+      "website": "https://www.producthunt.com/r/HM6Q6424IVXGVN",
+      "votes": 152,
+      "tagline": "1,000+ Emails per Second with 99%+ Deliverability",
+      "summary": "Mailercloud Email API는 개발자가 대량의 트랜잭션 및 마케팅 이메일을 초당 1,000건 이상, 99% 이상의 전달률로 보낼 수 있도록 지원합니다.",
+      "key_points": [
+        "초당 1,000건 이상의 이메일 처리량",
+        "99% 이상의 전달률 보장",
+        "실시간 추적, 웹훅 지원, 도메인 인증, 수신함 모니터링 제공"
+      ],
+      "tags": [
+        "DevTool",
+        "Email",
+        "API",
+        "Automation",
+        "Analytics",
+        "AI Tool",
+        "Marketing"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "SaaS 플랫폼, 핀테크 앱, 성장하는 비즈니스에 적합하며, 중요한 이메일이 수신함에 정확히 도달하도록 돕습니다.",
+      "recommended_actions": [
+        "웹훅 설정하여 실시간 이벤트 추적",
+        "도메인 인증을 통해 전달률 향상",
+        "수신함 모니터링 기능으로 이메일 상태 확인"
+      ],
+      "risks_and_limits": [
+        "제공량 이상의 이메일 발송 시 추가 비용 발생 가능성 확인",
+        "API 사용법 숙지 필요"
+      ],
+      "uncertainty_note": "제공되는 API의 구체적인 기능 목록 및 사용량 제한에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Mailercloud_Email_API_Platform.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Mailercloud_Email_API_Platform_media_0.jpg",
+        "images/ph_2026-03-03_Mailercloud_Email_API_Platform_media_1.jpg",
+        "images/ph_2026-03-03_Mailercloud_Email_API_Platform_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/8b8e1dfd-b546-4749-8456-22887436d83c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Springfield Oracle",
+      "url": "https://www.producthunt.com/products/springfield-oracle",
+      "service_url": "https://www.producthunt.com/r/LS567BJQTB5C7A",
+      "website": "https://www.producthunt.com/r/LS567BJQTB5C7A",
+      "votes": 146,
+      "tagline": "Every Simpsons prediction sourced, scored, fact-checked",
+      "summary": "심슨 가족 예측 영상들의 출처를 검증하고, 사실 여부를 확인해주는 데이터베이스입니다.",
+      "key_points": [
+        "심슨 가족 예측의 에피소드 정보 제공",
+        "실제 사건 인용 및 팩트 체크 제공",
+        "AI 생성 가짜 클립 판별"
+      ],
+      "tags": [
+        "데이터베이스",
+        "검증",
+        "팩트체크",
+        "심슨가족",
+        "AI Tool",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "심슨 가족 예측의 진위 여부를 빠르고 정확하게 파악하여 정보의 신뢰도를 높일 수 있습니다.",
+      "recommended_actions": [
+        "관심 있는 예측 검색",
+        "에피소드 정보 확인",
+        "팩트 체크 결과 확인"
+      ],
+      "risks_and_limits": [
+        "데이터베이스에 모든 예측이 포함되어 있지는 않을 수 있음",
+        "팩트 체크는 주관적인 판단이 개입될 수 있음"
+      ],
+      "uncertainty_note": "데이터베이스의 업데이트 빈도 및 정보의 정확성에 대한 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Springfield_Oracle.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Springfield_Oracle_media_0.jpg",
+        "images/ph_2026-03-03_Springfield_Oracle_media_1.jpg",
+        "images/ph_2026-03-03_Springfield_Oracle_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 8,
+      "name": "Secret Sauce 3D",
+      "url": "https://www.producthunt.com/products/secret-sauce-3d",
+      "service_url": "https://www.producthunt.com/r/LSDDKRBBNM7Z5X",
+      "website": "https://www.producthunt.com/r/LSDDKRBBNM7Z5X",
+      "votes": 122,
+      "tagline": "AI tool suite for professional 3D artists",
+      "summary": "Secret Sauce 3D는 3D 아티스트와 매니아를 위한 AI 기반 협업 도구로, 모델링, 텍스처링 등 3D 제작 과정을 가속화하고 고품질 결과물을 쉽게 만들 수 있도록 돕습니다.",
+      "key_points": [
+        "AI 기반 3D 모델링 및 텍스처링 도구",
+        "3D 파이프라인의 각 단계를 지원",
+        "편집 가능한 결과물을 제공하여 기존 워크플로우에 통합 용이"
+      ],
+      "tags": [
+        "3D",
+        "AI",
+        "모델링",
+        "텍스처링",
+        "아트",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "3D 아티스트는 Secret Sauce 3D를 통해 초기 모델링 시간을 단축하고, 텍스처링 작업을 간소화하여 창작 과정에 더 집중할 수 있습니다. 3D 제작 초보자도 쉽게 고품질 결과물을 만들 수 있습니다.",
+      "recommended_actions": [
+        "고해상도 모델 생성 기능 사용해보기",
+        "자동 UV 생성 기능 사용해보기",
+        "텍스처 베이스 생성 기능 사용해보기"
+      ],
+      "risks_and_limits": [
+        "AI 생성 결과물의 품질은 데이터셋에 따라 달라질 수 있음",
+        "기존 3D 소프트웨어와의 호환성 확인 필요"
+      ],
+      "uncertainty_note": "Secret Sauce 3D의 AI 모델이 특정 3D 스타일이나 복잡한 모델에 대해 얼마나 잘 작동하는지 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Secret_Sauce_3D.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Secret_Sauce_3D_media_0.jpg",
+        "images/ph_2026-03-03_Secret_Sauce_3D_media_1.jpg",
+        "images/ph_2026-03-03_Secret_Sauce_3D_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/34fbe476-d797-4c78-944f-6d4cc68cdd6d.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Lavalier AI",
+      "url": "https://www.producthunt.com/products/textio",
+      "service_url": "https://www.producthunt.com/r/ZOQGEIPEBD2JXV",
+      "website": "https://www.producthunt.com/r/ZOQGEIPEBD2JXV",
+      "votes": 120,
+      "tagline": "Interview Intelligence to make confident hiring decisions",
+      "summary": "Lavalier AI는 면접 과정에서 필요한 정보를 제공하여 채용 결정을 더 빠르고 자신 있게 내릴 수 있도록 돕습니다.",
+      "key_points": [
+        "역할 정의 및 맞춤형 면접 질문 생성",
+        "지원자들을 동일한 기준으로 비교 평가",
+        "더욱 빠르고 자신감 있는 채용 결정 지원"
+      ],
+      "tags": [
+        "채용",
+        "AI",
+        "자동화",
+        "인사",
+        "면접",
+        "AI Tool",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Lavalier AI를 사용하면 채용 시간을 절반 이상 단축하고 더 나은 인재를 채용할 수 있습니다. 500 크레딧 보너스와 함께 5개 이상의 역할에 대해 무료로 채용을 진행할 수 있습니다.",
+      "recommended_actions": [
+        "역할 정의 후 면접 질문 생성해보기",
+        "지원자 비교 평가 기능 사용해보기",
+        "보너스 크레딧으로 무료 채용 진행해보기"
+      ],
+      "risks_and_limits": [
+        "AI가 생성한 질문이 모든 역량 평가에 적합하지 않을 수 있음",
+        "지원자 비교 기준 설정 시 편향되지 않도록 주의"
+      ],
+      "uncertainty_note": "AI가 제공하는 면접 정보의 정확도 및 신뢰성에 대한 추가 검증이 필요할 수 있습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Lavalier_AI.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Lavalier_AI_media_0.jpg",
+        "images/ph_2026-03-03_Lavalier_AI_media_1.jpg",
+        "images/ph_2026-03-03_Lavalier_AI_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/bd60c071-9bd0-4484-b1b7-06f88a97615d.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Skyvern MCP & Skills",
+      "url": "https://www.producthunt.com/products/skyvern",
+      "service_url": "https://www.producthunt.com/r/FEIQ6UX3QV5AW5",
+      "website": "https://www.producthunt.com/r/FEIQ6UX3QV5AW5",
+      "votes": 118,
+      "tagline": "Let Claude code and Open Claw automate the web",
+      "summary": "Skyvern MCP를 통해 Claude Code와 OpenClaw 같은 에이전트가 웹 자동화를 구축하고 유지 관리하도록 하여 사용자는 핵심 업무에 집중할 수 있습니다.",
+      "key_points": [
+        "Claude Code 및 OpenClaw와 같은 에이전트 지원",
+        "새로운 웹사이트 자동화 학습 및 등록",
+        "자동화 유지 관리 기능 제공"
+      ],
+      "tags": [
+        "자동화",
+        "웹 에이전트",
+        "개발 도구",
+        "Agent",
+        "Automation",
+        "AI Tool",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Skyvern MCP는 에이전트가 웹 자동화 작업을 보다 효율적으로 수행하도록 지원하여 사용자의 시간과 노력을 절약해 줍니다.",
+      "recommended_actions": [
+        "Claude Code 에이전트 등록",
+        "OpenClaw 에이전트 등록",
+        "새로운 웹사이트 자동화 등록"
+      ],
+      "risks_and_limits": [
+        "지원되는 에이전트 목록 확인",
+        "자동화 유지 관리 범위 확인"
+      ],
+      "uncertainty_note": "Skyvern MCP의 웹사이트 학습 및 자동화 유지 관리 성능에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-03_Skyvern_MCP_&_Skills.jpg",
+      "local_media": [
+        "images/ph_2026-03-03_Skyvern_MCP_&_Skills_media_0.jpg",
+        "images/ph_2026-03-03_Skyvern_MCP_&_Skills_media_1.jpg",
+        "images/ph_2026-03-03_Skyvern_MCP_&_Skills_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/70937dd4-b506-4a6d-bd43-149fde54e84c.gif?auto=format"
+      ]
+    }
+  ]
+}
