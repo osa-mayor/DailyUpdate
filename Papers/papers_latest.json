@@ -1,367 +1,387 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-03-04",
-  "generated_at": "2026-03-04T04:34:49.976746+09:00",
+  "date": "2026-03-05",
+  "generated_at": "2026-03-05T04:34:53.865350+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. From Scale to Speed: Adaptive Test-Time Scaling for Image Editing\n📝 요약: 이미지 편집 시, 편집 난이도에 따라 자원 할당을 동적으로 조절하고, 편집 특화 검증을 통해 효율성을 높이는 Adaptive Edit-CoT (ADE-CoT) 프레임워크를 제안하여, 기존 방식 대비 2배 이상의 속도 향상을 달성했습니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.00141\n📄 arXiv: https://arxiv.org/abs/2603.00141\n\n📍 2. OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens\n📝 요약: OmniLottie는 멀티모달 지시사항으로부터 고품질 벡터 애니메이션을 생성하는 프레임워크로, Lottie 토큰화를 통해 JSON 파일의 복잡성을 해결하고 사전 훈련된 시각-언어 모델을 활용하여 애니메이션 생성 성능을 향상시킴.\n🔗 Hugging Face: https://huggingface.co/papers/2603.02138\n📄 arXiv: https://arxiv.org/abs/2603.02138\n\n📍 3. RubricBench: Aligning Model-Generated Rubrics with Human Standards\n📝 요약: LLM 평가 시 표면적 편향을 줄이기 위해 루브릭 기반 평가가 중요해지고 있지만, 이를 평가할 벤치마크가 부족하여 RubricBench를 제안하고, 모델이 생성한 루브릭과 인간 루브릭 간의 성능 차이를 분석함.\n🔗 Hugging Face: https://huggingface.co/papers/2603.01562\n📄 arXiv: https://arxiv.org/abs/2603.01562\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Utonia: Toward One Encoder for All Point Clouds\n📝 요약: 다양한 3D 데이터 도메인에 걸쳐 일관된 표현을 학습하는 단일 self-supervised point transformer 인코더 Utonia를 제안, 3D 데이터 foundation model의 첫걸음.\n🔗 Hugging Face: https://huggingface.co/papers/2603.03283\n📄 arXiv: https://arxiv.org/abs/2603.03283\n\n📍 2. UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?\n📝 요약: 통합 멀티모달 모델이 특정 시각적 추론 및 다단계 추론 작업에서 기존 VLM보다 성능이 향상될 수 있음을 보였으나, 전반적으로는 성능이 저하되는 경우가 많아 추가 연구가 필요함.\n🔗 Hugging Face: https://huggingface.co/papers/2603.03241\n📄 arXiv: https://arxiv.org/abs/2603.03241\n\n📍 3. BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?\n📝 요약: 기존 코드 에이전트 평가가 단일 레포지토리 버그 수정에만 집중되어 있어, 실제 개발 환경의 복잡성을 반영하지 못한다는 문제점을 지적하고, 이를 해결하기 위한 새로운 벤치마크 BeyondSWE를 제시함.\n🔗 Hugging Face: https://huggingface.co/papers/2603.03194\n📄 arXiv: https://arxiv.org/abs/2603.03194\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "From Scale to Speed: Adaptive Test-Time Scaling for Image Editing",
-      "paper_id": "2603.00141",
-      "url": "https://huggingface.co/papers/2603.00141",
-      "arxiv_url": "https://arxiv.org/abs/2603.00141",
-      "upvotes": 110,
-      "summary": "이미지 편집 시, 편집 난이도에 따라 자원 할당을 동적으로 조절하고, 편집 특화 검증을 통해 효율성을 높이는 Adaptive Edit-CoT (ADE-CoT) 프레임워크를 제안하여, 기존 방식 대비 2배 이상의 속도 향상을 달성했습니다.",
-      "korean_abstract": "이미지 Chain-of-Thought (Image-CoT)는 추론 시간을 늘려 이미지 생성을 개선하는 패러다임이지만, 이미지 편집은 텍스트-이미지 생성과 달리 소스 이미지와 명령어에 의해 제약되므로 기존 Image-CoT 방식 적용 시 비효율적인 자원 할당, 신뢰성 낮은 초기 검증, 중복된 결과 등의 문제가 발생합니다. 이러한 문제 해결을 위해 편집 난이도 기반 동적 자원 할당, 편집 특화 검증을 통한 초기 가지치기, 인스턴스 특화 검증 기반의 조기 종료를 포함하는 ADE-CoT 프레임워크를 제안합니다. 실험 결과, ADE-CoT는 기존 방식 대비 유사한 자원 사용량으로 더 나은 성능을 보이며 2배 이상의 속도 향상을 달성했습니다.",
+      "title": "Utonia: Toward One Encoder for All Point Clouds",
+      "paper_id": "2603.03283",
+      "url": "https://huggingface.co/papers/2603.03283",
+      "arxiv_url": "https://arxiv.org/abs/2603.03283",
+      "upvotes": 108,
+      "summary": "다양한 3D 데이터 도메인에 걸쳐 일관된 표현을 학습하는 단일 self-supervised point transformer 인코더 Utonia를 제안, 3D 데이터 foundation model의 첫걸음.",
+      "korean_abstract": "기존의 point cloud 처리 모델들은 각 도메인(remote sensing, LiDAR, RGB-D, CAD 등)에 특화되어 있어, 다양한 데이터를 통합적으로 처리하는 데 어려움이 있었습니다. 이러한 문제를 해결하기 위해, 본 논문에서는 다양한 도메인의 point cloud 데이터를 self-supervised 방식으로 학습하여 일관된 표현 공간을 학습하는 Utonia를 제안합니다. Utonia는 도메인 간 transfer learning을 가능하게 하며, perception 성능 향상과 함께 새로운 emergent behavior를 보여줍니다. 또한, vision-language-action 정책에 Utonia feature를 통합하여 로봇 조작 능력을 향상시키고, vision-language 모델의 spatial reasoning 능력 향상에도 기여합니다.",
       "key_points": [
-        "편집 난이도에 따른 동적 자원 할당 전략",
-        "영역 localization 및 캡션 일관성을 활용한 편집 특화 검증",
-        "인스턴스 특화 검증 기반의 깊이 우선 탐색을 통한 조기 종료"
+        "다양한 도메인의 point cloud 데이터를 통합하는 단일 self-supervised point transformer 인코더 Utonia 제시",
+        "도메인 간 transfer learning을 통해 perception 성능 향상",
+        "Vision-language-action 정책 및 vision-language 모델과의 통합을 통해 로봇 조작 및 spatial reasoning 능력 향상"
       ],
       "tags": [
-        "Image Editing",
-        "CoT",
-        "Inference Optimization",
-        "MLLM",
+        "3D",
+        "Self-Supervised Learning",
+        "Transformer",
+        "Point Cloud",
+        "Foundation Model",
+        "Reasoning",
+        "Multimodal",
         "Vision",
-        "Benchmark",
-        "Inference"
+        "Video"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "이미지 편집 파이프라인에서 추론 효율성을 극대화하고 싶은 개발자에게 유용하며, 특히 리소스 제약이 있는 환경에서 더욱 효과적입니다. 기존 모델에 쉽게 통합하여 성능 향상을 기대할 수 있습니다.",
+      "practical_relevance": "다양한 3D 데이터 소스를 활용하는 시스템 개발 시, Utonia를 활용하여 데이터 전처리 및 feature extraction 과정을 간소화하고, 모델의 generalization 성능을 향상시킬 수 있습니다.",
       "recommended_actions": [
-        "기존 이미지 편집 모델(Step1X-Edit, BAGEL, FLUX.1 Kontext 등)에 ADE-CoT 프레임워크 적용 실험",
-        "편집 난이도 추정 모듈 및 편집 특화 검증 모듈 구현 및 성능 비교",
-        "실제 서비스 환경에서 ADE-CoT의 성능 및 효율성 검증"
+        "Utonia 모델을 활용하여 기존 point cloud 처리 파이프라인의 성능 개선 실험",
+        "Utonia feature를 vision-language 모델에 통합하여 spatial reasoning 능력 향상 실험",
+        "자체 보유한 다양한 3D 데이터셋에 Utonia를 fine-tuning하여 도메인 특화 모델 개발"
       ],
       "risks_and_limits": [
-        "편집 난이도 추정의 정확성에 따라 성능이 크게 좌우될 수 있음",
-        "편집 특화 검증 모듈의 설계 및 구현 난이도가 높을 수 있음"
+        "특정 도메인에 편향된 데이터셋으로 학습될 경우, generalization 성능 저하 가능성",
+        "Transformer 기반 모델의 특성상, 연산 자원 소모가 클 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.00141.png",
-      "local_image_path": "images/From_Scale_to_Speed_Adaptive_Test-Time_Scaling_for_Image_Editing_img.jpg",
-      "local_figures": []
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03283.png",
+      "local_image_path": "images/Utonia_Toward_One_Encoder_for_All_Point_Clouds_img.jpg",
+      "local_figures": [
+        "images/Utonia_Toward_One_Encoder_for_All_Point_Clouds_fig_2.png"
+      ]
     },
     {
       "rank": 2,
-      "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
-      "paper_id": "2603.02138",
-      "url": "https://huggingface.co/papers/2603.02138",
-      "arxiv_url": "https://arxiv.org/abs/2603.02138",
-      "upvotes": 102,
-      "summary": "OmniLottie는 멀티모달 지시사항으로부터 고품질 벡터 애니메이션을 생성하는 프레임워크로, Lottie 토큰화를 통해 JSON 파일의 복잡성을 해결하고 사전 훈련된 시각-언어 모델을 활용하여 애니메이션 생성 성능을 향상시킴.",
-      "korean_abstract": "벡터 애니메이션 생성은 복잡한 구조적 메타데이터와 포맷팅 토큰으로 인해 어려움이 있습니다. 이러한 문제를 해결하기 위해 OmniLottie는 Lottie JSON 파일을 구조화된 명령과 파라미터 시퀀스로 변환하는 토크나이저를 도입했습니다. 이 토크나이저를 통해 사전 훈련된 시각-언어 모델을 기반으로 멀티모달 지시사항을 따르는 고품질 벡터 애니메이션을 생성할 수 있습니다. 또한, 2백만 개의 벡터 애니메이션 데이터셋인 MMLottie-2M을 구축하여 연구를 지원합니다. 실험 결과, OmniLottie는 멀티모달 지시사항에 부합하는 생생하고 의미론적으로 정렬된 벡터 애니메이션을 생성할 수 있음을 입증했습니다.",
+      "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+      "paper_id": "2603.03241",
+      "url": "https://huggingface.co/papers/2603.03241",
+      "arxiv_url": "https://arxiv.org/abs/2603.03241",
+      "upvotes": 71,
+      "summary": "통합 멀티모달 모델이 특정 시각적 추론 및 다단계 추론 작업에서 기존 VLM보다 성능이 향상될 수 있음을 보였으나, 전반적으로는 성능이 저하되는 경우가 많아 추가 연구가 필요함.",
+      "korean_abstract": "최근 통합 멀티모달 모델은 강력한 생성 능력을 보여주지만, 생성 능력이 이해 능력 향상으로 이어지는지는 불분명하다. 기존 벤치마크는 생성 능력이 이해 능력 향상에 기여하는 특정 작업에 대한 체계적인 탐색이 부족하다. 본 연구에서는 G2U(Generation-to-Understanding) 평가를 7가지 영역과 30가지 하위 작업으로 분류하는 종합 벤치마크인 UniG2U-Bench를 소개한다. 30개 이상의 모델에 대한 광범위한 평가 결과, 통합 모델은 일반적으로 기존 VLM보다 성능이 떨어지고, GtA(Generate-then-Answer) 추론은 직접 추론에 비해 성능을 저하시킨다. 하지만 공간 지능, 시각적 착시, 다단계 추론 하위 작업에서는 향상이 나타났으며, 유사한 추론 구조와 아키텍처를 공유하는 모델은 상관 관계가 있는 동작을 보였다. 이러한 결과는 통합 멀티모달 모델링의 잠재력을 최대한 활용하기 위해 더 다양한 학습 데이터와 새로운 패러다임이 필요함을 시사한다.",
       "key_points": [
-        "Lottie JSON 파일을 토큰화하여 애니메이션 생성 모델의 학습 효율성을 높임",
-        "사전 훈련된 시각-언어 모델을 활용하여 멀티모달 지시사항 기반 애니메이션 생성",
-        "대규모 벡터 애니메이션 데이터셋 MMLottie-2M 구축"
+        "UniG2U-Bench: G2U 평가를 위한 새로운 벤치마크 제시",
+        "통합 모델이 항상 VLM보다 좋은 성능을 보이지 않음",
+        "특정 작업(공간 지능, 시각적 착시, 다단계 추론)에서 통합 모델의 성능 향상 확인"
       ],
       "tags": [
-        "Animation",
-        "Vector Graphics",
-        "Lottie",
-        "Multi-modal",
-        "Tokenizer",
-        "Vision"
+        "Multimodal",
+        "VLM",
+        "Benchmark",
+        "Reasoning",
+        "Vision",
+        "Evaluation",
+        "Inference"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Lottie 애니메이션을 활용하는 앱 개발 시, OmniLottie를 통해 복잡한 애니메이션을 더 쉽게 생성하고 관리할 수 있어 개발 생산성을 향상시킬 수 있습니다.",
+      "practical_relevance": "멀티모달 모델 개발 시, 특정 task에 대한 성능 향상을 위해 통합 모델을 고려할 수 있지만, 전반적인 성능 저하 가능성을 염두에 두고 신중하게 접근해야 함을 알려준다.",
       "recommended_actions": [
-        "OmniLottie 토크나이저를 사용하여 기존 Lottie 파일 구조 분석 및 최적화",
-        "MMLottie-2M 데이터셋을 활용하여 애니메이션 생성 모델 학습 및 성능 비교",
-        "OmniLottie 프레임워크를 기반으로 새로운 애니메이션 생성 기능 개발"
+        "UniG2U-Bench를 활용하여 개발 중인 모델의 G2U 성능 평가",
+        "공간 지능, 시각적 착시 관련 task에서 통합 모델과 기존 VLM의 성능 비교",
+        "다양한 학습 데이터와 새로운 패러다임을 적용하여 통합 모델의 성능 개선 시도"
       ],
       "risks_and_limits": [
-        "특정 스타일이나 복잡한 애니메이션의 경우 생성 품질이 떨어질 수 있음",
-        "사전 훈련된 모델의 성능에 따라 애니메이션 품질이 좌우될 수 있음"
+        "통합 모델이 항상 성능 향상을 보장하지 않음",
+        "UniG2U-Bench가 모든 G2U task를 포괄하지 못할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02138.png",
-      "local_image_path": "images/OmniLottie_Generating_Vector_Animations_via_Parameterized_Lottie_Tokens_img.jpg",
-      "local_figures": []
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03241.png",
+      "local_image_path": "images/UniG2U-Bench_Do_Unified_Models_Advance_Multimodal_Understanding_img.jpg",
+      "local_figures": [
+        "images/UniG2U-Bench_Do_Unified_Models_Advance_Multimodal__fig_1.jpeg",
+        "images/UniG2U-Bench_Do_Unified_Models_Advance_Multimodal__fig_2.jpeg",
+        "images/UniG2U-Bench_Do_Unified_Models_Advance_Multimodal__fig_3.jpeg",
+        "images/UniG2U-Bench_Do_Unified_Models_Advance_Multimodal__fig_4.jpeg"
+      ]
     },
     {
       "rank": 3,
-      "title": "RubricBench: Aligning Model-Generated Rubrics with Human Standards",
-      "paper_id": "2603.01562",
-      "url": "https://huggingface.co/papers/2603.01562",
-      "arxiv_url": "https://arxiv.org/abs/2603.01562",
-      "upvotes": 42,
-      "summary": "LLM 평가 시 표면적 편향을 줄이기 위해 루브릭 기반 평가가 중요해지고 있지만, 이를 평가할 벤치마크가 부족하여 RubricBench를 제안하고, 모델이 생성한 루브릭과 인간 루브릭 간의 성능 차이를 분석함.",
-      "korean_abstract": "LLM의 정렬(alignment)이 복잡해짐에 따라 루브릭 기반 평가가 중요해지고 있지만, 기존 벤치마크는 복잡성과 루브릭 어노테이션이 부족하여 신뢰성 있는 평가가 어려웠다. 이러한 문제점을 해결하기 위해, RubricBench라는 새로운 벤치마크를 구축하여 루브릭 기반 평가의 신뢰성을 평가한다. RubricBench는 다차원 필터링 파이프라인을 사용하여 미묘한 복잡성과 표면적 편향을 가진 어려운 샘플을 선별하고, 전문가가 주석을 단 atomic 루브릭으로 보강했다. 실험 결과, 모델이 생성한 루브릭은 인간이 생성한 루브릭에 비해 성능이 크게 떨어지는 것을 확인했으며, 이는 모델이 유효한 평가 기준을 자율적으로 지정하는 데 어려움을 겪고 있음을 시사한다.",
+      "title": "BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?",
+      "paper_id": "2603.03194",
+      "url": "https://huggingface.co/papers/2603.03194",
+      "arxiv_url": "https://arxiv.org/abs/2603.03194",
+      "upvotes": 44,
+      "summary": "기존 코드 에이전트 평가가 단일 레포지토리 버그 수정에만 집중되어 있어, 실제 개발 환경의 복잡성을 반영하지 못한다는 문제점을 지적하고, 이를 해결하기 위한 새로운 벤치마크 BeyondSWE를 제시함.",
+      "korean_abstract": "기존 코드 에이전트 벤치마크는 단일 레포지토리 내의 버그 수정 능력만을 평가하여 실제 개발 환경의 복잡성을 제대로 반영하지 못한다는 한계가 있었다. 이러한 문제를 해결하기 위해, 레포지토리 간 의존성, 도메인 지식, 전체 레포지토리 생성 등 실제 개발 환경을 반영한 BeyondSWE 벤치마크를 제안한다. BeyondSWE를 통해 다양한 모델을 평가한 결과, 최고 성능 모델도 45% 미만의 성공률을 보였으며, 외부 지식 검색을 활용한 SearchSWE 프레임워크도 일관된 성능 향상을 보이지 못했다. 본 연구는 실제 개발 환경을 반영한 벤치마크와 프레임워크를 제공하여 더욱 강력한 코드 에이전트 연구를 촉진하는 데 기여한다.",
       "key_points": [
-        "루브릭 기반 평가의 신뢰성을 평가하기 위한 새로운 벤치마크 RubricBench 제시",
-        "다차원 필터링 파이프라인을 사용하여 어려운 샘플을 선별하고 전문가 주석으로 보강",
-        "모델이 생성한 루브릭과 인간 루브릭 간의 성능 격차 확인"
+        "기존 코드 에이전트 벤치마크의 한계점을 지적하고, 실제 개발 환경을 반영한 BeyondSWE 벤치마크를 제시",
+        "외부 지식 검색을 통합한 SearchSWE 프레임워크를 개발하여 코드 에이전트의 성능 향상 가능성을 탐색",
+        "실험 결과, 기존 모델들의 성능이 실제 개발 환경에서 요구되는 수준에 미치지 못함을 밝힘"
       ],
       "tags": [
-        "LLM",
-        "Evaluation",
+        "Code Agent",
         "Benchmark",
-        "Alignment",
-        "Safety"
+        "Evaluation",
+        "Search",
+        "SWE",
+        "Agent",
+        "Reasoning"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM을 활용한 코드 생성 또는 평가 시스템 개발 시, 모델이 생성한 평가 기준의 신뢰성을 검증하고 개선하는 데 활용할 수 있다.",
+      "practical_relevance": "코드 에이전트의 실제 적용 가능성을 높이기 위해, 보다 현실적인 시나리오에서의 성능 평가가 중요하다는 점을 강조하며, 개발자들이 실제 문제 해결에 활용할 수 있는 에이전트 개발에 기여한다.",
       "recommended_actions": [
-        "RubricBench 데이터셋을 활용하여 자체 모델의 루브릭 생성 능력을 평가",
-        "모델이 생성한 루브릭을 개선하기 위한 fine-tuning 또는 RAG 실험",
-        "RubricBench의 필터링 파이프라인을 참고하여 hard sample 생성 전략 벤치마킹"
+        "BeyondSWE 벤치마크를 활용하여 개발 중인 코드 에이전트의 성능을 다각도로 평가",
+        "SearchSWE 프레임워크를 기반으로 외부 지식 검색 전략을 개선하여 코드 에이전트의 문제 해결 능력 향상",
+        "다양한 오픈 소스 프로젝트에 BeyondSWE 벤치마크를 적용하여 실제 개발 환경에서의 코드 에이전트 성능 검증"
       ],
       "risks_and_limits": [
-        "RubricBench가 특정 유형의 편향에만 초점을 맞추고 있을 수 있음",
-        "실험 결과가 특정 모델 아키텍처 또는 데이터셋에 따라 달라질 수 있음"
+        "SearchSWE 프레임워크의 검색 전략이 개발자의 실제 검색 패턴과 차이가 있을 수 있음",
+        "BeyondSWE 벤치마크가 모든 실제 개발 시나리오를 완벽하게 반영하지 못할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.01562.png",
-      "local_image_path": "images/RubricBench_Aligning_Model-Generated_Rubrics_with_Human_Standards_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03194.png",
+      "local_image_path": "images/BeyondSWE_Can_Current_Code_Agent_Survive_Beyond_Single-Repo_Bug_Fixing_img.jpg",
       "local_figures": []
     },
     {
       "rank": 4,
-      "title": "OpenAutoNLU: Open Source AutoML Library for NLU",
-      "paper_id": "2603.01824",
-      "url": "https://huggingface.co/papers/2603.01824",
-      "arxiv_url": "https://arxiv.org/abs/2603.01824",
-      "upvotes": 39,
-      "summary": "OpenAutoNLU는 사용하기 쉬운 API를 통해 텍스트 분류 및 NER 작업을 위한 자동화된 NLU 머신러닝 라이브러리를 제공하며, 데이터 품질 진단, OOD 감지, LLM 기능 통합을 통해 사용자 설정 없이도 최적의 학습을 지원합니다.",
-      "korean_abstract": "기존 NLU 솔루션은 수동 설정이 필요했지만, OpenAutoNLU는 데이터 인식을 통해 자동으로 학습 방식을 선택하여 사용자의 번거로움을 줄입니다. 이 오픈 소스 라이브러리는 텍스트 분류와 개체명 인식(NER)을 모두 지원하며, 데이터 품질 진단 기능과 OOD 감지 기능을 내장하고 있습니다. 또한, LLM 기능을 통합하여 다양한 NLU 작업을 지원합니다. OpenAutoNLU는 최소한의 코드로도 강력한 NLU 기능을 활용할 수 있도록 설계되었습니다. 데모 앱은 https://openautonlu.dev 에서 확인할 수 있습니다.",
+      "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+      "paper_id": "2603.03276",
+      "url": "https://huggingface.co/papers/2603.03276",
+      "arxiv_url": "https://arxiv.org/abs/2603.03276",
+      "upvotes": 41,
+      "summary": "언어 모델을 넘어 비전, 텍스트, 비디오 등 다양한 데이터를 활용한 멀티모달 사전 학습의 디자인 공간을 탐색하고, 데이터 규모에 따른 modality별 scaling asymmetry를 분석하여 MoE 기반의 효율적인 멀티모달 모델 구조를 제시합니다.",
+      "korean_abstract": "기존 foundation 모델은 주로 언어에 집중되어 있었으나, 시각 정보를 활용하는 멀티모달 모델에 대한 관심이 증가하고 있다. 하지만 멀티모달 모델의 디자인 공간은 아직 명확하게 정의되지 않았다. 본 연구에서는 언어 사전 학습의 영향을 배제하고, 다양한 데이터(텍스트, 비디오, 이미지-텍스트 쌍 등)를 활용한 from-scratch 사전 학습 실험을 통해 멀티모달 학습에 영향을 미치는 요인들을 분석했다. Representation Autoencoder(RAE)가 시각 이해 및 생성에 효과적인 통합 시각 표현임을 밝혔고, 시각 및 언어 데이터가 상호 보완적임을 확인했다. 또한, MoE 구조가 modality별 데이터 요구량 차이를 효율적으로 처리하여 unified 멀티모달 모델에 적합함을 입증했다.",
       "key_points": [
-        "데이터 인식 기반 자동 학습 방식 선택 (수동 설정 불필요)",
-        "통합된 데이터 품질 진단 및 OOD 감지 기능 제공",
-        "텍스트 분류 및 NER 작업을 위한 LLM 기능 통합"
+        "Representation Autoencoder (RAE) 기반의 통합 시각 표현 학습 방법 제시",
+        "시각 및 언어 데이터의 상호 보완성을 활용한 멀티모달 시너지 효과 입증",
+        "MoE 기반의 효율적인 멀티모달 모델 구조 및 modality별 scaling asymmetry 분석"
       ],
       "tags": [
-        "AutoML",
-        "NLU",
-        "NER",
-        "Text Classification",
-        "LLM"
+        "Multimodal",
+        "Pretraining",
+        "MoE",
+        "Vision",
+        "Scaling Laws",
+        "Video"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "OpenAutoNLU는 개발자가 NLU 모델을 쉽게 구축하고 배포할 수 있도록 자동화된 기능을 제공하며, 데이터 품질 문제와 OOD 문제를 해결하는 데 도움을 주어 모델의 신뢰성을 높일 수 있습니다.",
+      "practical_relevance": "다양한 modality를 통합하여 활용하는 차세대 모델 개발에 필요한 핵심 요소들을 제시하며, 특히 MoE 구조를 활용한 효율적인 모델 설계에 대한 인사이트를 제공합니다.",
       "recommended_actions": [
-        "제공된 데모 앱을 통해 OpenAutoNLU의 기능을 직접 체험해보기",
-        "자체 데이터셋을 사용하여 텍스트 분류 또는 NER 모델 학습해보기",
-        "OOD 감지 기능을 활용하여 모델의 안정성 테스트해보기"
+        "RAE를 활용하여 자체 데이터셋에 대한 시각 표현 학습 실험 진행",
+        "텍스트와 이미지/비디오 데이터를 결합한 멀티모달 데이터셋 구축 및 사전 학습",
+        "MoE 레이어를 모델에 적용하여 modality별 데이터 효율성 개선 시도"
       ],
       "risks_and_limits": [
-        "특정 도메인 또는 언어에 대한 성능 제한 가능성",
-        "자동화된 학습 방식이 항상 최적의 결과를 보장하지 않을 수 있음"
+        "실험 환경 및 데이터셋 구성에 따라 결과가 달라질 수 있음",
+        "MoE 구조의 복잡성으로 인해 학습 및 디버깅 난이도가 높을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.01824.png",
-      "local_image_path": "images/OpenAutoNLU_Open_Source_AutoML_Library_for_NLU_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03276.png",
+      "local_image_path": "images/Beyond_Language_Modeling_An_Exploration_of_Multimodal_Pretraining_img.jpg",
       "local_figures": []
     },
     {
       "rank": 5,
-      "title": "SWE-rebench V2: Language-Agnostic SWE Task Collection at Scale",
-      "paper_id": "2602.23866",
-      "url": "https://huggingface.co/papers/2602.23866",
-      "arxiv_url": "https://arxiv.org/abs/2602.23866",
-      "upvotes": 38,
-      "summary": "다양한 언어에 걸쳐 대규모 소프트웨어 엔지니어링(SWE) 작업을 수집하고 실행 가능한 환경을 구축하는 자동화 파이프라인 SWE-rebench V2를 통해, SWE 에이전트의 RL 학습 데이터 부족 문제를 해결하고 다양한 언어 지원을 가능하게 함.",
-      "korean_abstract": "소프트웨어 엔지니어링 에이전트(SWE)는 강화 학습(RL)을 통해 빠르게 발전하고 있지만, RL 학습은 실행 환경과 신뢰할 수 있는 테스트 스위트를 갖춘 대규모 작업 컬렉션 부족으로 제약됩니다. 기존 벤치마크들은 규모, 다양성, 특정 언어에 편향된 문제점을 가지고 있습니다. 본 논문에서는 실제 SWE 작업을 수집하고 RL 학습 환경을 대규모로 구축하기 위한 언어에 독립적인 자동화 파이프라인인 SWE-rebench V2를 소개합니다. 이 파이프라인은 대화형 설정 에이전트를 통해 저장소별 설치 및 테스트 절차를 합성하고, LLM 심판 앙상블을 사용하여 검증합니다. 이 파이프라인을 사용하여 20개 언어와 3,600개 이상의 저장소에 걸쳐 32,000개 이상의 작업 데이터 세트를 구축하고, 추가적으로 120,000개 이상의 작업 데이터셋을 릴리즈합니다. 수집된 인스턴스는 다양한 언어와 모델에 걸쳐 검증되었으며, 데이터셋, 수집 및 실행 코드를 공개하여 다양한 언어 및 저장소에서 SWE 에이전트의 대규모 학습을 지원합니다.",
+      "title": "Beyond Length Scaling: Synergizing Breadth and Depth for Generative Reward Models",
+      "paper_id": "2603.01571",
+      "url": "https://huggingface.co/papers/2603.01571",
+      "arxiv_url": "https://arxiv.org/abs/2603.01571",
+      "upvotes": 25,
+      "summary": "Mix-GRM은 다양한 추론 방식(B-CoT, D-CoT)을 결합하여 생성 보상 모델의 성능을 크게 향상시키고, 특히 강화 학습을 통해 작업에 맞는 추론 방식을 자동 선택하도록 유도하여 성능을 더욱 극대화합니다.",
+      "korean_abstract": "최근 생성 보상 모델(GRM)은 Chain-of-Thought(CoT) 추론 길이를 늘려 평가 신뢰도를 높이는 데 집중했지만, 획일적인 길이 조정만으로는 다양한 추론 방식의 효과를 제대로 활용하지 못했습니다. 이러한 문제점을 해결하기 위해 Mix-GRM 프레임워크는 원시 추론을 구조화된 B-CoT(다차원 원리 포괄)와 D-CoT(실질적 판단 건전성)로 재구성하고, 지도 학습(SFT) 및 검증 가능한 보상을 활용한 강화 학습(RLVR)을 통해 이러한 메커니즘을 내재화하고 최적화합니다. 실험 결과, Mix-GRM은 여러 벤치마크에서 기존 모델을 능가하는 최고 성능을 달성했으며, B-CoT는 주관적인 선호도 작업에, D-CoT는 객관적인 정확성 작업에 더 효과적임을 확인했습니다. 또한, RLVR은 모델이 작업 요구에 맞춰 추론 스타일을 자동 할당하도록 유도하는 스위칭 증폭기 역할을 수행했습니다.",
       "key_points": [
-        "언어에 독립적인 SWE 작업 수집 및 RL 환경 구축 파이프라인 SWE-rebench V2 개발",
-        "32,000개 이상의 작업과 120,000개 이상의 추가 작업 데이터셋 구축 및 공개",
-        "다양한 언어 및 모델에 대한 진단 연구를 통해 데이터셋 유효성 검증"
+        "다양한 추론 방식(B-CoT, D-CoT)을 결합하여 GRM 성능 향상",
+        "강화 학습을 통해 작업에 맞는 추론 방식 자동 선택",
+        "여러 벤치마크에서 기존 모델 대비 평균 8.2% 성능 향상"
       ],
       "tags": [
-        "SWE",
-        "Agent",
-        "RL",
+        "Generative Reward Model",
+        "Chain-of-Thought",
+        "Reinforcement Learning",
+        "Reasoning",
+        "SFT",
+        "RAG",
         "Benchmark",
-        "Automation",
-        "Vision"
+        "Evaluation"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "다양한 언어와 환경에서 작동하는 SWE 에이전트 개발에 필요한 대규모 학습 데이터를 제공하여, 특정 언어에 종속되지 않고 다양한 환경에서 작동하는 자동화 도구 개발에 기여할 수 있습니다.",
+      "practical_relevance": "Mix-GRM은 개발자가 생성 모델의 추론 능력을 향상시키고, 특정 작업에 최적화된 추론 전략을 자동으로 학습하도록 유도하여 모델 성능을 극대화할 수 있도록 돕습니다.",
       "recommended_actions": [
-        "SWE-rebench V2 데이터셋을 활용하여 자사 에이전트의 다국어 지원 성능 테스트 및 개선",
-        "제공되는 파이프라인을 기반으로 새로운 언어 및 환경에 대한 작업 데이터셋 구축 자동화",
-        "LLM 심판 앙상블을 활용하여 테스트 케이스의 신뢰성 및 적절성 검증 자동화"
+        "Mix-GRM 프레임워크를 활용하여 기존 GRM 모델에 다양한 추론 방식 통합 실험",
+        "RLVR을 적용하여 모델이 작업 유형에 따라 추론 스타일을 자동 조정하도록 학습",
+        "공개된 데이터셋과 모델을 활용하여 특정 작업에 맞는 추론 방식 분석 및 적용"
       ],
       "risks_and_limits": [
-        "생성된 문제 설명의 품질이 낮을 수 있으며, 추가적인 검증 필요",
-        "일부 테스트 케이스가 지나치게 제한적이거나 불완전할 수 있음"
+        "B-CoT 및 D-CoT의 효과는 작업 유형에 따라 다르므로, 적절한 추론 방식 선택이 중요",
+        "RLVR 학습 과정에서 예상치 못한 편향이 발생할 수 있으며, 이에 대한 검증 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.23866.png",
-      "local_image_path": "images/SWE-rebench_V2_Language-Agnostic_SWE_Task_Collection_at_Scale_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.01571.png",
+      "local_image_path": "images/Beyond_Length_Scaling_Synergizing_Breadth_and_Depth_for_Generative_Reward_Models_img.jpg",
       "local_figures": []
     },
     {
       "rank": 6,
-      "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-      "paper_id": "2603.02024",
-      "url": "https://huggingface.co/papers/2603.02024",
-      "arxiv_url": "https://arxiv.org/abs/2603.02024",
-      "upvotes": 35,
-      "summary": "실생활 시나리오 기반의 멀티모달, 멀티 이미지 추론 능력을 평가하는 새로운 벤치마크 MMR-Life를 제시하여, GPT-5 조차 58% 정확도에 그치는 등 기존 MLLM의 한계를 지적하고 향후 멀티모달 추론 시스템 개선의 토대를 마련함.",
-      "korean_abstract": "최근 멀티모달 대형 언어 모델(MLLM)의 추론 능력이 발전했지만, 실제 생활 시나리오에서의 다양한 추론 능력은 충분히 탐구되지 않았고 표준화된 평가 기준도 부족합니다. 이러한 문제점을 해결하기 위해 실제 환경에서 수집한 19,108장의 이미지를 기반으로 2,646개의 다지선다형 질문으로 구성된 MMR-Life 벤치마크를 소개합니다. MMR-Life는 귀납, 유추, 인과, 연역, 귀납, 공간, 시간 등 7가지 추론 유형을 포괄적으로 평가합니다. 37개의 고급 모델을 평가한 결과, GPT-5와 같은 최상위 모델도 58%의 정확도에 그치는 등 상당한 어려움을 보였습니다. 또한, 모델의 사고 길이, 추론 방법, 추론 유형 등이 성능에 미치는 영향을 분석했습니다. MMR-Life는 차세대 멀티모달 추론 시스템을 평가, 분석, 개선하기 위한 포괄적인 기반을 제공합니다.",
+      "title": "Kling-MotionControl Technical Report",
+      "paper_id": "2603.03160",
+      "url": "https://huggingface.co/papers/2603.03160",
+      "arxiv_url": "https://arxiv.org/abs/2603.03160",
+      "upvotes": 19,
+      "summary": "Kling-MotionControl은 DiT 기반의 캐릭터 애니메이션 프레임워크로, 고품질의 제어 가능하고 생생한 캐릭터 애니메이션을 위한 견고한 솔루션을 제공하며, 특히 속도 향상을 위한 distillation 기술이 돋보임.",
+      "korean_abstract": "캐릭터 애니메이션은 driving 비디오의 모션 역학을 참조 이미지로 전달하여 생생한 비디오를 생성하는 것을 목표로 한다. 기존 연구들은 고충실도 캐릭터 애니메이션을 위한 생성 모델에서 발전을 이루었지만, 여전히 개선의 여지가 존재한다. 본 연구에서는 Kling-MotionControl이라는 DiT 기반 프레임워크를 제안하여, body, face, hands의 특징에 맞춰 모션 표현을 조정하고, identity-agnostic 학습을 통해 다양한 캐릭터에 대한 일반화를 보장한다. 또한, multi-stage distillation을 통해 추론 속도를 10배 이상 향상시켰다. Kling-MotionControl은 기존 솔루션 대비 우수한 성능을 보이며, 고품질의 제어 가능하고 생생한 캐릭터 애니메이션을 위한 솔루션임을 입증했다.",
       "key_points": [
-        "실생활 기반 멀티모달 멀티 이미지 추론 벤치마크 MMR-Life 제시",
-        "7가지 추론 유형(귀납, 유추, 인과, 연역, 귀납, 공간, 시간) 포괄",
-        "GPT-5 조차 58% 정확도로, 기존 MLLM의 한계점을 지적"
+        "DiT 기반의 통합 프레임워크 Kling-MotionControl 제시",
+        "Body, Face, Hands에 특화된 모션 표현을 통해 정교한 제어 가능",
+        "Multi-stage distillation을 통한 10배 이상의 추론 속도 향상"
       ],
       "tags": [
-        "Benchmark",
-        "Multimodal",
-        "Reasoning",
+        "Animation",
+        "Generative Model",
+        "Diffusion Model",
+        "Motion Control",
+        "RAG",
         "Vision",
-        "Evaluation"
+        "Video",
+        "Evaluation",
+        "Inference",
+        "Distillation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "실제 환경에서의 멀티모달 추론 성능을 객관적으로 평가하고 개선할 수 있는 벤치마크를 제공하여, 개발자들이 더욱 강력하고 신뢰성 있는 MLLM 기반 애플리케이션을 구축하는 데 기여할 수 있습니다.",
+      "practical_relevance": "애니메이션 및 게임 개발에서 캐릭터의 움직임을 보다 사실적이고 효율적으로 제어할 수 있게 해주며, 특히 실시간 렌더링이 필요한 환경에서 유용하게 사용될 수 있다.",
       "recommended_actions": [
-        "MMR-Life 데이터셋을 활용하여 자사 MLLM 모델의 성능 평가 및 개선",
-        "제시된 7가지 추론 유형별 성능 분석을 통해 모델의 강점과 약점 파악",
-        "사고 길이, 추론 방법 등 다양한 요인이 성능에 미치는 영향 분석"
+        "제공되는 API 및 SDK를 활용하여 기존 캐릭터 애니메이션 파이프라인에 통합",
+        "Multi-stage distillation을 통해 얻을 수 있는 성능 향상 측정",
+        "다양한 캐릭터 및 모션 데이터셋에 대한 일반화 성능 테스트"
       ],
       "risks_and_limits": [
-        "벤치마크가 실제 모든 시나리오를 포괄하지 못할 수 있음",
-        "GPT-5 조차 낮은 성능을 보여, 벤치마크 자체가 너무 어려울 수 있음"
+        "특정 캐릭터 스타일이나 모션에 대한 편향 가능성",
+        "학습 데이터셋의 품질에 따른 성능 변동 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02024.png",
-      "local_image_path": "images/MMR-Life_Piecing_Together_Real-life_Scenes_for_Multimodal_Multi-image_Reasoning_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.03160.png",
+      "local_image_path": "images/Kling-MotionControl_Technical_Report_img.jpg",
       "local_figures": []
     },
     {
       "rank": 7,
-      "title": "CHIMERA: Compact Synthetic Data for Generalizable LLM Reasoning",
-      "paper_id": "2603.00889",
-      "url": "https://huggingface.co/papers/2603.00889",
-      "arxiv_url": "https://arxiv.org/abs/2603.00889",
-      "upvotes": 30,
-      "summary": "CHIMERA 데이터셋은 소규모지만 다양한 과학 분야에 걸쳐 LLM의 추론 능력을 향상시켜, 더 큰 모델에 필적하는 성능을 달성할 수 있게 한다.",
-      "korean_abstract": "LLM은 고품질 추론 데이터에 대한 fine-tuning을 통해 뛰어난 추론 능력을 보여주지만, 데이터 부족, 제한된 도메인, 비싼 annotation 비용으로 인해 확장성에 제약이 있다. 이러한 문제를 해결하기 위해 8개의 주요 과학 분야와 1000개 이상의 세분화된 주제를 포괄하는 9K 샘플의 compact한 synthetic 추론 데이터셋 CHIMERA를 제안한다. CHIMERA는 최첨단 추론 모델에 의해 생성된 풍부하고 긴 CoT 추론 궤적을 제공하며, 자동화된 평가 파이프라인을 통해 문제의 유효성과 정답 여부를 교차 검증한다. CHIMERA로 fine-tuning된 4B Qwen3 모델은 GPQA-Diamond, AIME, Humanity's Last Exam과 같은 어려운 추론 벤치마크에서 DeepSeek-R1 및 Qwen3-235B와 같은 훨씬 큰 모델에 필적하는 강력한 성능을 달성했다.",
+      "title": "How Controllable Are Large Language Models? A Unified Evaluation across Behavioral Granularities",
+      "paper_id": "2603.02578",
+      "url": "https://huggingface.co/papers/2603.02578",
+      "arxiv_url": "https://arxiv.org/abs/2603.02578",
+      "upvotes": 19,
+      "summary": "LLM 제어 가능성을 계층적으로 평가하는 벤치마크(SteerEval)를 제시하여, 미세한 수준의 제어에서 성능 저하가 발생함을 밝혀 LLM의 안전한 배포를 위한 기반을 마련했습니다.",
+      "korean_abstract": "대규모 언어 모델(LLM)은 사회적으로 민감한 영역에 점점 더 많이 배포되고 있지만, 의도 불일치나 일관성 없는 성격 등 예측 불가능한 행동으로 인해 상당한 위험을 초래합니다. 본 연구는 언어 특징, 감정, 성격의 세 가지 도메인에 걸쳐 LLM의 제어 가능성을 평가하는 계층적 벤치마크인 SteerEval을 소개합니다. 각 도메인은 L1(무엇을 표현할지), L2(어떻게 표현할지), L3(어떻게 구체화할지)의 세 가지 사양 수준으로 구성되어, 고수준의 행동 의도를 구체적인 텍스트 출력과 연결합니다. SteerEval을 사용하여 최신 제어 방법을 체계적으로 평가한 결과, 제어 능력이 미세한 수준으로 갈수록 저하되는 경향이 있음을 발견했습니다. 이 벤치마크는 안전하고 제어 가능한 LLM 행동을 위한 원칙적이고 해석 가능한 프레임워크를 제공하며, 향후 연구의 기반이 됩니다.",
       "key_points": [
-        "9K 샘플의 compact한 synthetic 추론 데이터셋 CHIMERA를 구축",
-        "8개 과학 분야, 1K+ 토픽을 포괄하는 넓고 구조화된 커버리지 제공",
-        "자동화된 평가 파이프라인을 통해 문제 유효성 및 정답 검증"
+        "LLM의 제어 가능성을 계층적으로 평가하는 벤치마크 SteerEval 도입.",
+        "언어 특징, 감정, 성격의 세 도메인과 L1, L2, L3 세 가지 사양 수준으로 구성된 평가 프레임워크 제시.",
+        "최신 LLM 제어 방법들이 미세한 수준의 제어(finer-grained levels)에서 성능 저하를 보임을 실증적으로 확인."
       ],
       "tags": [
         "LLM",
-        "Reasoning",
-        "Synthetic Data",
-        "Fine-tuning",
-        "RAG",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "LLM의 추론 능력을 향상시키기 위한 데이터셋 구축 및 활용 방안을 제시하며, 특히 데이터가 부족하거나 annotation 비용이 높은 분야에서 유용하게 활용될 수 있다.",
-      "recommended_actions": [
-        "CHIMERA 데이터셋을 활용하여 LLM fine-tuning 실험 진행",
-        "자체 도메인에 맞는 synthetic 데이터 생성 파이프라인 구축",
-        "CHIMERA의 자동 평가 파이프라인을 활용하여 모델 성능 검증"
-      ],
-      "risks_and_limits": [
-        "Synthetic 데이터의 한계 (실제 데이터와의 괴리)",
-        "데이터셋의 크기가 작아 일반화 성능에 대한 추가 검증 필요"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.00889.png",
-      "local_image_path": "images/CHIMERA_Compact_Synthetic_Data_for_Generalizable_LLM_Reasoning_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "VGGT-Det: Mining VGGT Internal Priors for Sensor-Geometry-Free Multi-View Indoor 3D Object Detection",
-      "paper_id": "2603.00912",
-      "url": "https://huggingface.co/papers/2603.00912",
-      "arxiv_url": "https://arxiv.org/abs/2603.00912",
-      "upvotes": 29,
-      "summary": "VGGT의 내부 semantic/geometric prior를 활용하여 센서 정보 없이 multi-view 이미지로부터 3D object detection 성능을 향상시키는 새로운 프레임워크 VGGT-Det을 제안하고, ScanNet 및 ARKitScenes 데이터셋에서 SOTA 대비 상당한 성능 향상을 달성했다.",
-      "korean_abstract": "기존 multi-view 3D object detection은 정확한 카메라 포즈와 같은 센서 정보에 의존하여 실제 환경에서의 적용이 제한적이었다. 본 논문에서는 센서 정보 없이 multi-view 이미지로부터 3D object detection을 수행하는 새로운 프레임워크 VGGT-Det을 제안한다. VGGT-Det은 VGGT 인코더를 통합하고, Attention-Guided Query Generation (AG)과 Query-Driven Feature Aggregation (QD)라는 두 가지 핵심 컴포넌트를 도입하여 VGGT 내부의 semantic 및 geometric prior를 효과적으로 활용한다. 실험 결과, VGGT-Det은 ScanNet 및 ARKitScenes 데이터셋에서 기존 SOTA 방법 대비 각각 4.4 및 8.6 mAP@0.25 향상을 보여주었다. 이는 VGGT 내부의 semantic 및 geometric prior가 AG 및 QD에 의해 효과적으로 활용될 수 있음을 입증한다.",
-      "key_points": [
-        "센서 정보 없는 multi-view 3D object detection을 위한 새로운 프레임워크 VGGT-Det 제안",
-        "VGGT attention map을 활용한 Attention-Guided Query Generation (AG) 모듈 도입",
-        "Query-Driven Feature Aggregation (QD)을 통해 multi-level geometric feature 효과적 활용"
-      ],
-      "tags": [
-        "3D Object Detection",
-        "Multi-View",
-        "Transformer",
-        "Visual Geometry",
-        "RAG",
-        "Vision"
+        "Evaluation",
+        "Controllability",
+        "Safety",
+        "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "센서 정보 없이 multi-view 이미지만으로 3D object detection이 가능하므로, 로봇이나 AR/VR 환경에서 센서 calibration 비용을 절감하고 유연성을 높일 수 있다.",
+      "practical_relevance": "개발자들은 이 연구를 통해 현재 LLM 제어 방법의 한계를 명확히 이해하고, 더욱 신뢰할 수 있고 안전한 LLM 기반 애플리케이션을 구축하기 위한 방향성을 얻을 수 있습니다. 특히 미세한 수준의 제어가 필요한 서비스 개발 시 주의 깊은 접근이 필요함을 시사합니다.",
       "recommended_actions": [
-        "VGGT-Det을 실제 로봇 환경에 적용하여 성능 테스트",
-        "AG 및 QD 모듈의 hyperparameter 튜닝을 통해 성능 최적화",
-        "다른 backbone 모델과의 결합을 시도하여 확장 가능성 검토"
+        "현재 사용 중인 LLM의 프롬프트 엔지니어링이나 파인튜닝 기법이 L1, L2, L3 각 수준에서 얼마나 효과적인지 자체적으로 평가해보기.",
+        "특정 도메인(예: 고객 응대 챗봇의 감정 조절)에서 미세한 제어가 필요한 경우, SteerEval의 평가 프레임워크를 참고하여 제어 실패 사례를 분석하고 개선 방안 모색.",
+        "다양한 LLM 모델(예: 오픈소스 모델 vs. 상용 API) 간의 제어 가능성 차이를 SteerEval의 관점에서 비교 분석하여 적합한 모델 선택 기준 마련."
       ],
       "risks_and_limits": [
-        "VGGT 성능에 의존적이므로, VGGT 성능이 낮은 경우 VGGT-Det 성능 저하 가능성 존재",
-        "복잡한 구조로 인해 학습 및 추론 시간이 오래 걸릴 수 있음"
+        "현재 LLM 제어 기술이 미세한 수준에서 여전히 한계를 가지고 있음을 보여주므로, 정교한 제어가 필요한 서비스에는 추가적인 연구나 보완책이 필요합니다.",
+        "평가된 '최신 제어 방법'의 구체적인 범위가 명시되지 않아, 모든 LLM 제어 기법에 대한 일반화에는 주의가 필요할 수 있습니다."
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.00912.png",
-      "local_image_path": "images/VGGT-Det_Mining_VGGT_Internal_Priors_for_Sensor-Geometry-Free_Multi-View_Indoor_3D_Object_Detection_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02578.png",
+      "local_image_path": "images/How_Controllable_Are_Large_Language_Models_A_Unified_Evaluation_across_Behavioral_Granularities_img.jpg",
+      "local_figures": [
+        "images/How_Controllable_Are_Large_Language_Models_A_Unifi_fig_1.png"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Qwen3-Coder-Next Technical Report",
+      "paper_id": "2603.00729",
+      "url": "https://huggingface.co/papers/2603.00729",
+      "arxiv_url": "https://arxiv.org/abs/2603.00729",
+      "upvotes": 16,
+      "summary": "Qwen3-Coder-Next는 추론 시 30억 개의 활성 파라미터만 사용하여 강력한 코딩 능력을 제공하는 800억 파라미터의 오픈 소스 코딩 에이전트 모델이며, 에이전트 중심 벤치마크에서 경쟁력 있는 성능을 보입니다.",
+      "korean_abstract": "최근 코딩 에이전트의 중요성이 커지고 있지만, 효율적인 추론을 위한 경량화된 모델에 대한 요구가 높습니다. 본 연구에서는 검증 가능한 코딩 작업과 실행 가능한 환경의 대규모 합성을 통해 에이전트 학습을 수행하고, 중간 학습 및 강화 학습을 통해 환경 피드백으로부터 직접 학습하는 Qwen3-Coder-Next를 제안합니다. 이 모델은 추론 시 30억 개의 파라미터만 활성화하면서도 SWE-Bench 및 Terminal-Bench를 포함한 에이전트 중심 벤치마크에서 경쟁력 있는 성능을 달성했습니다. 연구 결과는 효율적인 추론이 가능한 강력한 코딩 에이전트 개발에 기여하며, 오픈 소스 모델을 통해 연구 및 실제 코딩 에이전트 개발을 지원합니다.",
+      "key_points": [
+        "800억 파라미터 모델이지만 추론 시 30억 파라미터만 활성화하여 효율적인 코딩 능력 제공",
+        "검증 가능한 코딩 작업과 실행 환경을 통한 에이전트 학습 및 환경 피드백 활용",
+        "SWE-Bench 및 Terminal-Bench에서 경쟁력 있는 성능 달성"
+      ],
+      "tags": [
+        "Coding Agent",
+        "Language Model",
+        "Efficient Inference",
+        "Open-Weight",
+        "Agent",
+        "Benchmark",
+        "Inference"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "적은 리소스로도 강력한 코딩 에이전트를 구축할 수 있는 가능성을 제시하며, 실제 개발 환경에서 효율적인 코딩 자동화 및 지원 도구 개발에 활용될 수 있습니다.",
+      "recommended_actions": [
+        "Qwen3-Coder-Next 모델을 다운로드하여 간단한 코딩 작업에 적용해보기",
+        "기존 코딩 에이전트 모델과 Qwen3-Coder-Next의 성능 및 효율성 비교 분석",
+        "자체 데이터셋을 활용하여 Qwen3-Coder-Next 모델을 추가 학습시켜 특정 도메인에 특화된 코딩 에이전트 개발"
+      ],
+      "risks_and_limits": [
+        "활성 파라미터 수가 적기 때문에 복잡한 문제 해결 능력에 제한이 있을 수 있음",
+        "특정 프로그래밍 언어 또는 프레임워크에 대한 편향이 존재할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.00729.png",
+      "local_image_path": "images/Qwen3-Coder-Next_Technical_Report_img.jpg",
       "local_figures": []
     },
     {
       "rank": 9,
-      "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
-      "paper_id": "2603.01940",
-      "url": "https://huggingface.co/papers/2603.01940",
-      "arxiv_url": "https://arxiv.org/abs/2603.01940",
-      "upvotes": 20,
-      "summary": "CoVe 프레임워크는 명시적인 제약 조건을 활용하여 인터랙티브 툴 사용 에이전트의 학습 데이터 생성 및 검증을 효율적으로 수행, 기존 모델 대비 뛰어난 성능을 달성하여 실제 서비스에 적용 가능한 수준의 에이전트 개발을 가능하게 함.",
-      "korean_abstract": "멀티턴 인터랙티브 툴 사용 에이전트 개발은 복잡하고 모호한 사용자 요구사항을 만족시키기 위해 어려움이 많다. 이러한 문제를 해결하기 위해 CoVe(Constraint-Verification)라는 새로운 데이터 합성 프레임워크를 제안한다. CoVe는 명시적인 태스크 제약 조건을 정의하여 복잡한 트래젝토리를 생성하고, 생성된 트래젝토리의 품질을 검증하는 데 활용한다. 이를 통해 지도 학습(SFT)을 위한 고품질 학습 데이터를 생성하고, 강화 학습(RL)을 위한 정확한 보상 신호를 도출한다. τ^2-bench 벤치마크에서 CoVe-4B 모델은 Airline 및 Retail 도메인에서 각각 43.0% 및 59.4%의 성공률을 달성했으며, 유사한 규모의 강력한 베이스라인을 능가하고 최대 17배 더 큰 모델과 경쟁력 있는 성능을 보였다. CoVe는 인터랙티브 툴 사용 에이전트를 위한 효과적이고 효율적인 학습 데이터 합성 방법을 제공한다.",
+      "title": "PRISM: Pushing the Frontier of Deep Think via Process Reward Model-Guided Inference",
+      "paper_id": "2603.02479",
+      "url": "https://huggingface.co/papers/2603.02479",
+      "arxiv_url": "https://arxiv.org/abs/2603.02479",
+      "upvotes": 14,
+      "summary": "PRISM은 단계별 검증을 통해 딥씽킹의 추론 정확도를 높이고, 특히 초기 오류가 많은 경우에도 성능 향상을 가져와 복잡한 문제 해결에 효과적입니다.",
+      "korean_abstract": "기존 딥씽킹 방법들은 추론 과정에서 정확성 신호가 부족하여 오류가 증폭되는 문제점이 있었습니다. 본 논문에서는 딥씽킹 시스템을 기능적으로 분해하고, 단계별 보상 모델(PRM)을 활용하여 추론을 안내하는 PRISM 알고리즘을 제안합니다. PRISM은 후보 해답들을 PRM으로 정의된 에너지 지형 속의 입자로 취급하여, 점수 기반 재샘플링과 확률적 개선을 통해 고품질 추론에 집중하고 다양성을 유지합니다. 수학 및 과학 벤치마크에서 PRISM은 기존 딥씽킹 방법들을 능가하며, 특히 초기 후보군에 정답이 거의 없는 경우에도 일관된 성능 향상을 보였습니다. PRISM은 계산량 대비 정확도 측면에서 효율적인 Pareto frontier에 위치합니다.",
       "key_points": [
-        "명시적 제약 조건 기반 데이터 생성 및 검증",
-        "지도 학습 및 강화 학습을 위한 고품질 데이터 제공",
-        "기존 모델 대비 효율적인 성능 향상"
+        "단계별 검증을 통한 추론 정확도 향상",
+        "오류 증폭 문제 해결 및 초기 오류 많은 경우에도 성능 유지",
+        "수학 및 과학 벤치마크에서 기존 딥씽킹 방법 능가"
       ],
       "tags": [
-        "Agent",
-        "Tool-use",
-        "Data Synthesis",
-        "Constraint-Verification",
-        "Benchmark",
-        "Evaluation"
+        "DeepThink",
+        "Reasoning",
+        "Process Reward Model",
+        "Inference",
+        "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "CoVe 프레임워크는 복잡한 사용자 인터랙션이 필요한 툴 사용 에이전트 개발 시 데이터 구축 및 모델 학습 비용을 절감하고 성능을 향상시킬 수 있어, 실제 서비스에 적용 가능한 수준의 에이전트 개발에 기여할 수 있다.",
+      "practical_relevance": "복잡한 문제 해결을 위한 딥씽킹 시스템 개발 시, PRISM의 단계별 검증 및 보상 모델 기반 추론 방식을 적용하여 성능 향상을 기대할 수 있습니다. 특히 초기 단계에서 오류가 많이 발생할 수 있는 경우에 유용합니다.",
       "recommended_actions": [
-        "CoVe 프레임워크를 활용하여 특정 도메인의 툴 사용 에이전트 학습 데이터 구축",
-        "생성된 데이터를 활용하여 기존 모델 파인튜닝 및 성능 비교",
-        "제약 조건 정의 및 검증 프로세스 개선을 통한 데이터 품질 향상"
+        "PRISM 알고리즘을 기존 딥씽킹 시스템에 통합하여 성능 변화 관찰",
+        "다양한 문제 유형에 대한 PRISM의 효과 검증",
+        "PRM 설계 및 학습 전략 실험"
       ],
       "risks_and_limits": [
-        "제약 조건 정의의 어려움 및 제약 조건의 품질에 따른 성능 변화 가능성",
-        "특정 도메인에 특화된 성능 향상 가능성"
+        "PRM 설계 및 학습에 대한 의존성",
+        "단계별 검증 과정에서 추가적인 계산 비용 발생 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.01940.png",
-      "local_image_path": "images/CoVe_Training_Interactive_Tool-Use_Agents_via_Constraint-Guided_Verification_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.02479.png",
+      "local_image_path": "images/PRISM_Pushing_the_Frontier_of_Deep_Think_via_Process_Reward_Model-Guided_Inference_img.jpg",
       "local_figures": []
     }
   ]
