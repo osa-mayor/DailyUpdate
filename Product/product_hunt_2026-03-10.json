@@ -1,0 +1,463 @@
+{
+  "source": "product_hunt",
+  "date": "2026-03-10",
+  "generated_at": "2026-03-10T04:58:33.968773+09:00",
+  "count": 10,
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Timelaps\n⭐ Votes: 363\n📝 요약: Timelaps는 실시간 인사이트를 통해 마케팅 효과를 측정하고, 4,000명 이상의 소비자 데이터를 기반으로 브랜드 마케팅 성과를 분석하여, 기존 방식 대비 저렴하고 과학적인 마케팅 성과 측정을 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/timelaps\n🌐 서비스 링크: https://www.producthunt.com/r/45H337VA2R5INK\n\n📦 2. Roundtable\n⭐ Votes: 355\n📝 요약: Roundtable은 유럽 투자 펀드 설립 과정을 간소화하여, 수개월 걸리던 작업을 며칠 만에 가능하게 해주는 플랫폼입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/joinroundtable\n🌐 서비스 링크: https://www.producthunt.com/r/E7IIYG2S3D4EKQ\n\n📦 3. Dex\n⭐ Votes: 240\n📝 요약: Dex는 AI 데이터 분석 도구로, 데이터베이스, 스프레드시트, BI 도구를 연결하여 질문하면 즉시 답변과 다음 단계를 추천해 줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/dex-6\n🌐 서비스 링크: https://www.producthunt.com/r/6QGZ7PKRIF6ZAA\n\n📦 4. simply\n⭐ Votes: 233\n📝 요약: Simply는 복잡한 식단이나 제한적인 식단 계획 없이도 건강을 개선하고 싶은 사람들을 위해 공인된 영양사가 만든 실용적인 일일 영양 팁을 제공하는 AI 영양 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/simply-4\n🌐 서비스 링크: https://www.producthunt.com/r/7RQXA6VNZE4NZH\n\n📦 5. SCRAPR\n⭐ Votes: 211\n📝 요약: SCRAPR은 웹사이트 URL을 API처럼 활용하여 코딩 없이도 원하는 데이터를 추출할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/scrapr-universal-web-scraping-api\n🌐 서비스 링크: https://www.producthunt.com/r/CFQLNYN252GSKA\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "items": [
+    {
+      "rank": 1,
+      "name": "Timelaps",
+      "url": "https://www.producthunt.com/products/timelaps",
+      "service_url": "https://www.producthunt.com/r/45H337VA2R5INK",
+      "website": "https://www.producthunt.com/r/45H337VA2R5INK",
+      "votes": 363,
+      "tagline": "Know if your marketing is working with real-time insights",
+      "summary": "Timelaps는 실시간 인사이트를 통해 마케팅 효과를 측정하고, 4,000명 이상의 소비자 데이터를 기반으로 브랜드 마케팅 성과를 분석하여, 기존 방식 대비 저렴하고 과학적인 마케팅 성과 측정을 제공합니다.",
+      "key_points": [
+        "실시간 마케팅 성과 측정 및 분석",
+        "4,000명 이상의 소비자 데이터 기반",
+        "기존 방식 대비 저렴한 비용"
+      ],
+      "tags": [
+        "마케팅 분석",
+        "소비자 데이터",
+        "실시간 인사이트",
+        "Marketing"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Timelaps를 통해 마케팅 캠페인의 효과를 실시간으로 파악하고, 소비자 데이터를 기반으로 개선점을 찾아 마케팅 ROI를 극대화할 수 있습니다.",
+      "recommended_actions": [
+        "마케팅 캠페인 성과 측정 시작",
+        "타겟 고객층 설정 및 데이터 분석",
+        "실시간 인사이트 기반 마케팅 전략 수정"
+      ],
+      "risks_and_limits": [
+        "데이터 샘플의 대표성 확인 필요",
+        "제공되는 인사이트의 해석 능력 요구"
+      ],
+      "uncertainty_note": "제공되는 소비자 데이터의 구체적인 수집 방법 및 분석 알고리즘에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_Timelaps.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_Timelaps_media_0.jpg",
+        "images/ph_2026-03-09_Timelaps_media_1.jpg",
+        "images/ph_2026-03-09_Timelaps_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/f253b81a-11f6-4d91-ac90-0cc36c3fa855.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Roundtable",
+      "url": "https://www.producthunt.com/products/joinroundtable",
+      "service_url": "https://www.producthunt.com/r/E7IIYG2S3D4EKQ",
+      "website": "https://www.producthunt.com/r/E7IIYG2S3D4EKQ",
+      "votes": 355,
+      "tagline": "Launch your EU investment fund in days, not months",
+      "summary": "Roundtable은 유럽 투자 펀드 설립 과정을 간소화하여, 수개월 걸리던 작업을 며칠 만에 가능하게 해주는 플랫폼입니다.",
+      "key_points": [
+        "EUVECA 라이선스를 통해 유럽 전역의 투자자에게 펀드를 마케팅할 수 있습니다.",
+        "디지털 LP 온보딩, 자본 호출 및 배분 관리를 하나의 플랫폼에서 처리할 수 있습니다.",
+        "미국 LP도 환영합니다."
+      ],
+      "tags": [
+        "FinTech",
+        "펀드 관리",
+        "투자",
+        "EUVECA",
+        "AI Tool",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "유럽에서 펀드를 설립하는 데 드는 시간과 비용을 획기적으로 줄여주어, 신규 펀드 매니저가 더 빠르게 시장에 진입할 수 있도록 돕습니다.",
+      "recommended_actions": [
+        "플랫폼 데모 신청하기",
+        "EUVECA 라이선스 정보 확인하기",
+        "디지털 LP 온보딩 기능 살펴보기"
+      ],
+      "risks_and_limits": [
+        "EUVECA 라이선스 조건 확인 필요",
+        "미국 LP 관련 법규 준수 여부 확인 필요"
+      ],
+      "uncertainty_note": "Roundtable 플랫폼 사용 시 발생하는 구체적인 법률 및 세금 관련 비용에 대한 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_Roundtable.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_Roundtable_media_0.jpg",
+        "images/ph_2026-03-09_Roundtable_media_1.jpg",
+        "images/ph_2026-03-09_Roundtable_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "Dex",
+      "url": "https://www.producthunt.com/products/dex-6",
+      "service_url": "https://www.producthunt.com/r/6QGZ7PKRIF6ZAA",
+      "website": "https://www.producthunt.com/r/6QGZ7PKRIF6ZAA",
+      "votes": 240,
+      "tagline": "Ask your data. Get answers and next steps.",
+      "summary": "Dex는 AI 데이터 분석 도구로, 데이터베이스, 스프레드시트, BI 도구를 연결하여 질문하면 즉시 답변과 다음 단계를 추천해 줍니다.",
+      "key_points": [
+        "데이터를 기반으로 의사 결정을 빠르게 내릴 수 있습니다.",
+        "데이터 분석 전문 지식 없이도 데이터 기반 인사이트를 얻을 수 있습니다.",
+        "다양한 데이터 소스를 통합하여 분석할 수 있습니다."
+      ],
+      "tags": [
+        "AI",
+        "데이터 분석",
+        "자동화",
+        "BI",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "창업자는 Dex를 통해 데이터 분석에 드는 시간과 노력을 줄이고, 핵심 비즈니스에 집중할 수 있습니다. 데이터 기반 의사 결정을 통해 더 나은 성과를 기대할 수 있습니다.",
+      "recommended_actions": [
+        "데이터베이스 또는 스프레드시트 연결하기",
+        "데이터에 대한 질문을 영어로 던져보기",
+        "추천된 다음 단계 검토하기"
+      ],
+      "risks_and_limits": [
+        "영어 질문만 지원하므로, 한국어 질문은 불가능합니다.",
+        "지원하는 데이터베이스 및 BI 도구 목록을 확인해야 합니다."
+      ],
+      "uncertainty_note": "어떤 종류의 '다음 단계' 추천을 제공하는지 구체적인 예시가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_Dex.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_Dex_media_0.jpg",
+        "images/ph_2026-03-09_Dex_media_1.jpg",
+        "images/ph_2026-03-09_Dex_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/c74639e9-f977-4506-bf33-7924d7794095.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "simply",
+      "url": "https://www.producthunt.com/products/simply-4",
+      "service_url": "https://www.producthunt.com/r/7RQXA6VNZE4NZH",
+      "website": "https://www.producthunt.com/r/7RQXA6VNZE4NZH",
+      "votes": 233,
+      "tagline": "ai nutrition app",
+      "summary": "Simply는 복잡한 식단이나 제한적인 식단 계획 없이도 건강을 개선하고 싶은 사람들을 위해 공인된 영양사가 만든 실용적인 일일 영양 팁을 제공하는 AI 영양 앱입니다.",
+      "key_points": [
+        "공인 영양사가 제공하는 실용적인 영양 팁",
+        "복잡한 식단 없이 일상 생활에서 적용 가능한 작은 습관 형성",
+        "지속 가능한 건강한 습관 구축 지원"
+      ],
+      "tags": [
+        "건강",
+        "영양",
+        "AI",
+        "습관",
+        "팁",
+        "AI Tool",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "건강 개선을 원하지만 복잡한 정보에 압도당하는 사용자들이 일상에서 쉽게 실천할 수 있는 영양 팁을 얻고, 지속 가능한 건강 습관을 만들 수 있도록 돕습니다.",
+      "recommended_actions": [
+        "매일 제공되는 영양 팁 확인하기",
+        "팁을 일상 생활에 적용해보기",
+        "건강 습관 변화 추적하기"
+      ],
+      "risks_and_limits": [
+        "개인의 건강 상태에 따라 효과가 다를 수 있음",
+        "팁의 효과를 확인하려면 꾸준한 실천이 필요함"
+      ],
+      "uncertainty_note": "개별 사용자에게 최적화된 팁 제공 여부 및 AI 기반 추천의 정확도에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_simply.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_simply_media_0.jpg",
+        "images/ph_2026-03-09_simply_media_1.jpg",
+        "images/ph_2026-03-09_simply_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/8ecb7fc6-b277-4fb0-9ff4-b21cae64c4fc.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "SCRAPR",
+      "url": "https://www.producthunt.com/products/scrapr-universal-web-scraping-api",
+      "service_url": "https://www.producthunt.com/r/CFQLNYN252GSKA",
+      "website": "https://www.producthunt.com/r/CFQLNYN252GSKA",
+      "votes": 211,
+      "tagline": "Turn any website into an API",
+      "summary": "SCRAPR은 웹사이트 URL을 API처럼 활용하여 코딩 없이도 원하는 데이터를 추출할 수 있게 해줍니다.",
+      "key_points": [
+        "웹사이트를 API로 변환",
+        "브라우저 불필요",
+        "코드 작업 불필요"
+      ],
+      "tags": [
+        "DevTool",
+        "Automation",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "웹사이트의 데이터를 쉽게 추출하여 분석, 자동화, 개발 등에 활용할 수 있습니다. API 키 없이도 가능합니다.",
+      "recommended_actions": [
+        "원하는 웹사이트 URL 입력해보기",
+        "추출된 데이터 구조 확인하기",
+        "자동화 스크립트에 적용해보기"
+      ],
+      "risks_and_limits": [
+        "웹사이트 구조 변경 시 데이터 추출 방식 업데이트 필요",
+        "복잡한 웹사이트의 경우 데이터 추출 정확도 확인 필요"
+      ],
+      "uncertainty_note": "SCRAPR이 모든 웹사이트에서 안정적으로 작동하는지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_SCRAPR.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_SCRAPR_media_0.jpg",
+        "images/ph_2026-03-09_SCRAPR_media_1.jpg",
+        "images/ph_2026-03-09_SCRAPR_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 6,
+      "name": "BrandingStudio.ai",
+      "url": "https://www.producthunt.com/products/brandingstudio-ai",
+      "service_url": "https://www.producthunt.com/r/RWEWCHMRCGXAQ3",
+      "website": "https://www.producthunt.com/r/RWEWCHMRCGXAQ3",
+      "votes": 142,
+      "tagline": "Agency-quality branding in 60 minutes, not 6 months",
+      "summary": "BrandingStudio.ai는 AI 기반으로 단 60분 만에 고품질 브랜딩을 제공하여, 창업자가 시간과 비용을 절약하고 빠르게 브랜드를 구축할 수 있도록 돕습니다.",
+      "key_points": [
+        "AI 기반의 7가지 모듈로 브랜드 전략, 경쟁사 분석, 로고, 색상 시스템 등을 자동 생성",
+        "1,000개 이상의 데이터 포인트를 분석하여 정확하고 맞춤화된 브랜드 결과물 제공",
+        "SVG, PDF, 디지털 브랜드 허브 등 다양한 형식으로 결과물을 내보내기 가능"
+      ],
+      "tags": [
+        "브랜딩",
+        "AI",
+        "자동화",
+        "스타트업",
+        "디자인",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "BrandingStudio.ai를 사용하면 창업자는 비싼 에이전시 비용 없이도 빠르고 효율적으로 전문적인 브랜드 아이덴티티를 구축하고, 시장 경쟁력을 강화할 수 있습니다.",
+      "recommended_actions": [
+        "사업에 대한 데이터 입력 후 AI 기반 브랜드 전략 및 경쟁사 분석 결과 확인",
+        "자동 생성된 로고, 색상 시스템, 타이포그래피 등의 브랜드 요소 검토 및 수정",
+        "90일 런치 플랜을 활용하여 브랜드 출시 계획 수립"
+      ],
+      "risks_and_limits": [
+        "AI가 생성한 결과물이 사용자의 기대와 완전히 일치하지 않을 수 있음",
+        "데이터 분석의 정확성은 입력된 데이터의 품질에 따라 달라질 수 있음"
+      ],
+      "uncertainty_note": "AI가 생성하는 브랜드 요소가 실제 시장에서 어떤 반응을 얻을지는 추가적인 검증이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_BrandingStudio.ai.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_BrandingStudio.ai_media_0.jpg",
+        "images/ph_2026-03-09_BrandingStudio.ai_media_1.jpg",
+        "images/ph_2026-03-09_BrandingStudio.ai_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/262b34a3-1c52-43a9-a5f8-7ffed908b7b3.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Nothing Phone (4a) Pro",
+      "url": "https://www.producthunt.com/products/nothing-phone-3",
+      "service_url": "https://www.producthunt.com/r/YFXFQNL775S45U",
+      "website": "https://www.producthunt.com/r/YFXFQNL775S45U",
+      "votes": 130,
+      "tagline": "Redefining the Nothing aesthetic with a metal unibody",
+      "summary": "Nothing Phone (4a) Pro는 풀 메탈 유니바디 디자인과 향상된 카메라 기능을 통해 Nothing의 미학을 재정의합니다.",
+      "key_points": [
+        "슬림한 풀 메탈 유니바디 디자인",
+        "스냅드래곤 7 Gen 4 프로세서 탑재",
+        "최대 140배 텔레포토 줌 지원"
+      ],
+      "tags": [
+        "Android",
+        "Smartphone",
+        "Photography"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Nothing Phone (4a) Pro는 견고한 디자인과 강력한 성능, 향상된 카메라 기능을 통해 사용자에게 프리미엄 모바일 경험을 제공합니다.",
+      "recommended_actions": [
+        "140배 텔레포토 줌으로 사진 촬영해보기",
+        "새로운 Glyph Matrix 경험해보기",
+        "메탈 유니바디 디자인 감상하기"
+      ],
+      "risks_and_limits": [
+        "카메라 모듈 외 투명 디자인이 적용되지 않음",
+        "정확한 배터리 성능 정보 확인 필요"
+      ],
+      "uncertainty_note": "실제 사용 환경에서의 스냅드래곤 7 Gen 4 성능 및 배터리 효율에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_Nothing_Phone_(4a)_Pro.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_Nothing_Phone_(4a)_Pro_media_1.jpg",
+        "images/ph_2026-03-09_Nothing_Phone_(4a)_Pro_media_2.jpg",
+        "images/ph_2026-03-09_Nothing_Phone_(4a)_Pro_media_3.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/d12f153b-9e73-4eac-b23a-c684a1bb2e36.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Unite Pro for macOS",
+      "url": "https://www.producthunt.com/products/unite-for-macos",
+      "service_url": "https://www.producthunt.com/r/5CE4BWJHNLLNBR",
+      "website": "https://www.producthunt.com/r/5CE4BWJHNLLNBR",
+      "votes": 126,
+      "tagline": "Turn websites into Mac apps",
+      "summary": "Unite Pro는 웹사이트를 맥 앱처럼 만들어 생산성을 높여주는 도구입니다.",
+      "key_points": [
+        "웹사이트를 맥 앱으로 빠르게 전환",
+        "윈도우, 사이드바, 메뉴 막대 모드 지원",
+        "독 배지, 알림, AI 오버레이 등 네이티브 기능 추가"
+      ],
+      "tags": [
+        "생산성",
+        "맥 앱",
+        "웹 서비스",
+        "커스터마이징",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "자주 사용하는 웹 서비스를 맥 앱처럼 편리하게 사용하고, 불필요한 방해 요소를 제거하여 업무 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "자주 사용하는 웹사이트 앱으로 만들기",
+        "다양한 모드(Window, Sidebar, Menu Bar) 시험해보기",
+        "독 배지나 알림 기능 설정해보기"
+      ],
+      "risks_and_limits": [
+        "macOS Tahoe 이상에서만 작동",
+        "웹사이트 호환성 확인 필요"
+      ],
+      "uncertainty_note": "어떤 웹사이트들이 Unite Pro와 가장 잘 호환되는지 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_Unite_Pro_for_macOS.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_Unite_Pro_for_macOS_media_0.jpg",
+        "images/ph_2026-03-09_Unite_Pro_for_macOS_media_1.jpg",
+        "images/ph_2026-03-09_Unite_Pro_for_macOS_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 9,
+      "name": "OpenClix",
+      "url": "https://www.producthunt.com/products/openclix-smarter-mobile-engagement",
+      "service_url": "https://www.producthunt.com/r/J426JXHFDPUGFH",
+      "website": "https://www.producthunt.com/r/J426JXHFDPUGFH",
+      "votes": 120,
+      "tagline": "Agent-driven retention flows for mobile apps.",
+      "summary": "OpenClix는 모바일 앱의 사용자 유지율을 높이기 위해 에이전트가 주도하는 푸시 캠페인을 쉽게 실행할 수 있도록 지원합니다. 복잡한 설정 없이 스마트 트리거, 규칙, 스케줄링을 통해 캠페인을 만들고, 에이전트가 결과를 분석하여 참여도를 최적화하고, 비효율적인 캠페인을 중단할 수 있습니다.",
+      "key_points": [
+        "에이전트 주도 푸시 캠페인으로 사용자 유지율 향상",
+        "스마트 트리거, 규칙, 스케줄링으로 캠페인 자동화",
+        "실제 데이터 기반으로 캠페인 성과 분석 및 최적화"
+      ],
+      "tags": [
+        "모바일 앱",
+        "푸시 알림",
+        "사용자 유지",
+        "마케팅 자동화",
+        "성과 분석",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "OpenClix를 사용하면 모바일 앱 팀은 더 빠르게 제품을 출시하고, 알림 피로도를 줄이며, 실제 성과 데이터를 기반으로 반복적인 개선을 할 수 있습니다. 이를 통해 사용자 유지율을 효과적으로 높일 수 있습니다.",
+      "recommended_actions": [
+        "스마트 트리거를 설정하여 특정 행동을 기반으로 푸시 알림 보내기",
+        "A/B 테스트를 통해 다양한 메시지 및 타이밍 전략 실험하기",
+        "캠페인 성과 데이터를 분석하여 참여도가 낮은 사용자 그룹 파악하기"
+      ],
+      "risks_and_limits": [
+        "푸시 알림 전략이 사용자 경험을 저해하지 않도록 주의",
+        "개인 정보 보호 정책 및 관련 법규 준수 필요"
+      ],
+      "uncertainty_note": "OpenClix의 구체적인 가격 정책 및 지원하는 플랫폼에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_OpenClix.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_OpenClix_media_0.jpg",
+        "images/ph_2026-03-09_OpenClix_media_1.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/ea1e293f-ca32-4757-a959-8d36eeb63db9.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "cutefolio",
+      "url": "https://www.producthunt.com/products/cutefolio",
+      "service_url": "https://www.producthunt.com/r/YVBPEM4RBZTBVZ",
+      "website": "https://www.producthunt.com/r/YVBPEM4RBZTBVZ",
+      "votes": 115,
+      "tagline": "build portfolios that actually look cute.",
+      "summary": "cutefolio는 큐트한 디자인으로 시선을 사로잡는 포트폴리오 또는 링크폴리오를 만들 수 있게 해주는 서비스입니다. Linktree보다 더 예쁘고 체계적이며, 분석 기능, 커스텀 도메인 지원 등 다양한 기능을 제공합니다.",
+      "key_points": [
+        "귀엽고 현대적인 디자인",
+        "방문자 분석 및 트래픽 분석 제공",
+        "커스텀 도메인 및 무료 도메인 지원"
+      ],
+      "tags": [
+        "포트폴리오",
+        "링크폴리오",
+        "분석",
+        "디자인",
+        "브랜딩",
+        "AI Tool",
+        "Analytics"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "개인 및 브랜드의 개성을 살린 포트폴리오를 쉽게 만들고, 방문자 분석을 통해 효과적인 콘텐츠 전략을 수립할 수 있습니다.",
+      "recommended_actions": [
+        "다양한 디자인 템플릿 살펴보기",
+        "커스텀 도메인 연결해보기",
+        "방문자 분석 기능 활용해보기"
+      ],
+      "risks_and_limits": [
+        "제공되는 디자인 템플릿의 다양성 확인 필요",
+        "분석 기능의 정확도 및 신뢰성 검토 필요"
+      ],
+      "uncertainty_note": "구체적인 디자인 템플릿 종류와 분석 기능의 상세 정보에 대한 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-09_cutefolio.jpg",
+      "local_media": [
+        "images/ph_2026-03-09_cutefolio_media_0.jpg",
+        "images/ph_2026-03-09_cutefolio_media_1.jpg",
+        "images/ph_2026-03-09_cutefolio_media_2.jpg"
+      ],
+      "video_links": []
+    }
+  ]
+}
