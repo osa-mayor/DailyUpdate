@@ -1,174 +1,123 @@
 {
   "source": "product_hunt",
-  "date": "2026-03-11",
-  "generated_at": "2026-03-11T04:58:35.281121+09:00",
+  "date": "2026-03-16",
+  "generated_at": "2026-03-16T04:04:41.822144+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Visual Translate by Vozo\n⭐ Votes: 447\n📝 요약: Visual Translate는 비디오 속 텍스트를 다시 만들 필요 없이 번역하여, 더빙, 립싱크, 자막과 함께 비디오를 완벽하게 다국어 버전으로 만들 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/vozo\n🌐 서비스 링크: https://www.producthunt.com/r/WDYAIZ3JF4ZRJZ\n\n📦 2. Chronicle 2.0\n⭐ Votes: 401\n📝 요약: Chronicle 2.0은 AI를 활용하여 깔끔하고 보기 좋은 프레젠테이션을 빠르게 제작할 수 있도록 도와주는 디자인 파트너입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/chronicle-6\n🌐 서비스 링크: https://www.producthunt.com/r/CNILDWDEB2RJOP\n\n📦 3. Your Next Store\n⭐ Votes: 351\n📝 요약: Your Next Store는 AI 기반으로 빠르게 커머스 스토어를 구축할 수 있도록 돕는 플랫폼으로, 특히 디자인 중심의 브랜드를 구축하는 에이전시 및 소프트웨어 팀에 유용합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/your-next-store\n🌐 서비스 링크: https://www.producthunt.com/r/JSAOCBLS5PULLD\n\n📦 4. Claude Code Review\n⭐ Votes: 330\n📝 요약: Claude Code Review는 AI가 생성한 코드의 버그를 초기에 잡아내는 멀티 에이전트 코드 리뷰 시스템으로, 팀 및 엔터프라이즈 사용자를 대상으로 연구 프리뷰를 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/TX3N3FXOJTYS3N\n\n📦 5. Fish Audio S2\n⭐ Votes: 239\n📝 요약: Fish Audio S2는 자연어 기반으로 음성 표현을 제어하고 다중 화자 대화를 생성할 수 있는 오픈 소스 TTS 기술입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/fish-speech\n🌐 서비스 링크: https://www.producthunt.com/r/SZPNSLJNJZPMER\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. DynamicLake\n⭐ Votes: 310\n📝 요약: DynamicLake는 Mac에서 Dynamic Island 경험을 제공하여 알림, 드래그 앤 드롭, 파일 변환, 통화, AirDrop, 타이머 등 다양한 기능을 편리하게 사용할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/dynamiclake\n🌐 서비스 링크: https://www.producthunt.com/r/IFBBYGO3QEQNYM\n\n📦 2. Google Workspace CLI\n⭐ Votes: 270\n📝 요약: Google Workspace CLI는 사람과 AI 에이전트가 Drive, Gmail, Calendar 등을 CLI 환경에서 제어하고 자동화할 수 있도록 돕는 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/github-google-workspace-cli\n🌐 서비스 링크: https://www.producthunt.com/r/P6R7Q7CBZWTAFR\n\n📦 3. ClawSecure\n⭐ Votes: 224\n📝 요약: ClawSecure는 OpenClaw AI 에이전트를 위한 CrowdStrike와 같은 완전한 보안 플랫폼으로, 위험한 기술로부터 에이전트를 보호하고 데이터 유출을 방지합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/clawsecure\n🌐 서비스 링크: https://www.producthunt.com/r/XDD2HZ57YTZCDT\n\n📦 4. ElevenCreative by ElevenLabs\n⭐ Votes: 205\n📝 요약: ElevenCreative는 AI 기반으로 오디오 및 비디오 콘텐츠를 생성, 편집, 현지화할 수 있는 플랫폼으로, 콘텐츠 제작 과정을 간소화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/elevencreative-by-elevenlabs\n🌐 서비스 링크: https://www.producthunt.com/r/7NZN4PWH35PU5N\n\n📦 5. Cal.com Agents\n⭐ Votes: 155\n📝 요약: Cal.com에 AI 에이전트 기능을 추가하여 Slack, Telegram 등 다양한 플랫폼에서 자동 스케줄링을 구축하고 관리할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/cal\n🌐 서비스 링크: https://www.producthunt.com/r/B3NXSIRWGV5OKE\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Visual Translate by Vozo",
-      "url": "https://www.producthunt.com/products/vozo",
-      "service_url": "https://www.producthunt.com/r/WDYAIZ3JF4ZRJZ",
-      "website": "https://www.producthunt.com/r/WDYAIZ3JF4ZRJZ",
-      "votes": 447,
-      "tagline": "Translate text in your videos without recreating visuals",
-      "summary": "Visual Translate는 비디오 속 텍스트를 다시 만들 필요 없이 번역하여, 더빙, 립싱크, 자막과 함께 비디오를 완벽하게 다국어 버전으로 만들 수 있게 해줍니다.",
+      "name": "DynamicLake",
+      "url": "https://www.producthunt.com/products/dynamiclake",
+      "service_url": "https://www.producthunt.com/r/IFBBYGO3QEQNYM",
+      "website": "https://www.producthunt.com/r/IFBBYGO3QEQNYM",
+      "votes": 310,
+      "tagline": "Dynamic Island experience for Mac with apps & notifications",
+      "summary": "DynamicLake는 Mac에서 Dynamic Island 경험을 제공하여 알림, 드래그 앤 드롭, 파일 변환, 통화, AirDrop, 타이머 등 다양한 기능을 편리하게 사용할 수 있도록 돕습니다.",
       "key_points": [
-        "비디오 내 텍스트 자동 감지 및 번역",
-        "원래 레이아웃, 스타일, 애니메이션 유지",
-        "슬라이드, 다이어그램, 콜아웃 등 다양한 텍스트 요소 지원"
+        "Mac에서 iPhone의 Dynamic Island 경험을 제공",
+        "알림, 드래그 앤 드롭, 파일 변환 등 다양한 기능 지원",
+        "Mac의 생산성 향상에 기여"
       ],
       "tags": [
-        "비디오 번역",
-        "자동화",
-        "다국어",
-        "콘텐츠 제작",
-        "AI Tool",
-        "Video"
+        "생산성",
+        "Mac",
+        "Dynamic Island",
+        "알림",
+        "유틸리티",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "슬라이드 비디오나 설명 비디오를 다국어 버전으로 쉽게 제작하여 전 세계 시청자에게 도달할 수 있으며, 비주얼 요소를 처음부터 다시 만들 필요가 없어 시간과 비용을 절약할 수 있습니다.",
+      "practical_relevance": "Mac 사용자들은 DynamicLake를 통해 iPhone의 편리한 Dynamic Island 경험을 Mac에서도 누릴 수 있으며, 다양한 기능들을 통해 작업 효율성을 높일 수 있습니다.",
       "recommended_actions": [
-        "기존 슬라이드 비디오를 업로드하여 번역 테스트",
-        "다양한 스타일의 텍스트가 포함된 비디오로 번역 품질 확인",
-        "번역된 비디오를 다양한 플랫폼에 게시하여 반응 확인"
+        "알림 기능 설정 및 확인",
+        "드래그 앤 드롭 기능 사용",
+        "타이머 기능 활용"
       ],
       "risks_and_limits": [
-        "복잡한 애니메이션이나 특수 효과가 적용된 텍스트의 경우 번역 품질이 떨어질 수 있음",
-        "지원하는 언어 및 글꼴 스타일 확인 필요"
+        "macOS 버전 호환성 확인 필요",
+        "시스템 리소스 사용량 확인 필요"
       ],
-      "uncertainty_note": "실제 사용 환경에서 다양한 비디오 유형에 대한 번역 품질 및 정확도에 대한 추가적인 검증이 필요합니다.",
+      "uncertainty_note": "DynamicLake의 다양한 기능들이 실제 사용자 환경에서 얼마나 안정적으로 작동하는지 추가적인 사용 후기 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Visual_Translate_by_Vozo.jpg",
+      "local_image_path": "images/ph_2026-03-15_DynamicLake.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Visual_Translate_by_Vozo_media_0.jpg",
-        "images/ph_2026-03-10_Visual_Translate_by_Vozo_media_1.jpg",
-        "images/ph_2026-03-10_Visual_Translate_by_Vozo_media_2.jpg"
+        "images/ph_2026-03-15_DynamicLake_media_1.jpg",
+        "images/ph_2026-03-15_DynamicLake_media_2.jpg",
+        "images/ph_2026-03-15_DynamicLake_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/c0a3a5ed-2a72-4edb-8e12-5c291ea485bf.jpeg?auto=format"
+        "https://ph-files.imgix.net/bf80d734-5914-4705-bb68-8ab83e65b9f7.jpeg?auto=format"
       ]
     },
     {
       "rank": 2,
-      "name": "Chronicle 2.0",
-      "url": "https://www.producthunt.com/products/chronicle-6",
-      "service_url": "https://www.producthunt.com/r/CNILDWDEB2RJOP",
-      "website": "https://www.producthunt.com/r/CNILDWDEB2RJOP",
-      "votes": 401,
-      "tagline": "AI presentations without the AI slop",
-      "summary": "Chronicle 2.0은 AI를 활용하여 깔끔하고 보기 좋은 프레젠테이션을 빠르게 제작할 수 있도록 도와주는 디자인 파트너입니다.",
+      "name": "Google Workspace CLI",
+      "url": "https://www.producthunt.com/products/github-google-workspace-cli",
+      "service_url": "https://www.producthunt.com/r/P6R7Q7CBZWTAFR",
+      "website": "https://www.producthunt.com/r/P6R7Q7CBZWTAFR",
+      "votes": 270,
+      "tagline": "CLI for Google Workspace ecosystem built for humans & agents",
+      "summary": "Google Workspace CLI는 사람과 AI 에이전트가 Drive, Gmail, Calendar 등을 CLI 환경에서 제어하고 자동화할 수 있도록 돕는 도구입니다.",
       "key_points": [
-        "AI 기반으로 프레젠테이션 초안을 빠르게 생성",
-        "노트, 프롬프트, 기존 자료를 활용 가능",
-        "대화를 통해 슬라이드 수정 및 개선"
+        "Google Workspace 서비스들을 하나의 CLI로 통합 관리",
+        "자동 업데이트를 통해 최신 기능 유지",
+        "100개 이상의 에이전트 스킬을 활용한 워크플로우 자동화"
       ],
       "tags": [
-        "AI",
-        "프레젠테이션",
-        "디자인",
+        "CLI",
+        "Google Workspace",
         "자동화",
-        "AI Tool",
-        "Prompting",
-        "Design"
+        "개발자 도구",
+        "Agent",
+        "Automation",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "몇 분 안에 멋진 프레젠테이션을 만들 수 있으며, 브랜드 스타일에 맞춰 디자인을 유지할 수 있습니다. AI가 초안을 만들어주므로 시간을 절약하고 효율성을 높일 수 있습니다.",
+      "practical_relevance": "GUI 환경이 아닌 CLI 환경에서 Google Workspace를 제어하고 자동화하여 생산성을 높일 수 있습니다. 특히 AI 에이전트와의 연동을 통해 더욱 강력한 자동화 워크플로우를 구축할 수 있습니다.",
       "recommended_actions": [
-        "노트나 프롬프트를 사용하여 새로운 프레젠테이션 초안 생성해보기",
-        "기존 프레젠테이션 자료를 업로드하여 AI가 어떻게 개선하는지 확인해보기",
-        "대화형 인터페이스를 통해 슬라이드 수정해보기"
+        "Drive 파일 목록 조회 및 관리",
+        "Gmail 메일 송수신 자동화",
+        "Calendar 일정 관리 및 자동 알림 설정"
       ],
       "risks_and_limits": [
-        "AI가 생성한 초안은 완벽하지 않을 수 있으므로, 반드시 검토 및 수정 필요",
-        "브랜드 스타일 가이드라인을 정확히 반영하는지 확인 필요"
+        "CLI 환경에 대한 이해 필요",
+        "초기 설정 및 스크립트 작성에 시간 소요 가능성"
       ],
-      "uncertainty_note": "AI가 생성하는 디자인의 품질이 사용자의 기대 수준을 충족하는지 확인이 필요합니다.",
+      "uncertainty_note": "AI 에이전트 스킬의 종류와 활용 범위에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Chronicle_2.0.jpg",
+      "local_image_path": "images/ph_2026-03-15_Google_Workspace_CLI.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Chronicle_2.0_media_0.jpg",
-        "images/ph_2026-03-10_Chronicle_2.0_media_1.jpg",
-        "images/ph_2026-03-10_Chronicle_2.0_media_2.jpg"
+        "images/ph_2026-03-15_Google_Workspace_CLI_media_0.jpg",
+        "images/ph_2026-03-15_Google_Workspace_CLI_media_1.jpg",
+        "images/ph_2026-03-15_Google_Workspace_CLI_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/e9c06885-828a-4cef-9e83-583efac50b07.jpeg?auto=format"
+        "https://ph-files.imgix.net/4e1956a4-eb9e-4318-9735-9261d23ed6a7.jpeg?auto=format"
       ]
     },
     {
       "rank": 3,
-      "name": "Your Next Store",
-      "url": "https://www.producthunt.com/products/your-next-store",
-      "service_url": "https://www.producthunt.com/r/JSAOCBLS5PULLD",
-      "website": "https://www.producthunt.com/r/JSAOCBLS5PULLD",
-      "votes": 351,
-      "tagline": "AI-first platform for building commerce stores, fast",
-      "summary": "Your Next Store는 AI 기반으로 빠르게 커머스 스토어를 구축할 수 있도록 돕는 플랫폼으로, 특히 디자인 중심의 브랜드를 구축하는 에이전시 및 소프트웨어 팀에 유용합니다.",
+      "name": "ClawSecure",
+      "url": "https://www.producthunt.com/products/clawsecure",
+      "service_url": "https://www.producthunt.com/r/XDD2HZ57YTZCDT",
+      "website": "https://www.producthunt.com/r/XDD2HZ57YTZCDT",
+      "votes": 224,
+      "tagline": "The only complete security platform for OpenClaw AI agents",
+      "summary": "ClawSecure는 OpenClaw AI 에이전트를 위한 CrowdStrike와 같은 완전한 보안 플랫폼으로, 위험한 기술로부터 에이전트를 보호하고 데이터 유출을 방지합니다.",
       "key_points": [
-        "AI와 대화를 통해 스토어 구축 가능",
-        "Stripe 연동 및 Next.js 기반의 프로덕션 준비된 앱 제공",
-        "코드 소유권을 완전히 가질 수 있어 유연한 개발 가능"
+        "3단계 보안 감사 제공",
+        "실시간 Watchtower 모니터링",
+        "OWASP ASI의 10/10 전체 커버리지 제공"
       ],
       "tags": [
-        "AI",
-        "커머스",
-        "Next.js",
-        "Stripe",
-        "개발",
-        "Agent",
-        "Automation",
-        "AI Tool",
-        "Chat",
-        "Design",
-        "DevTool",
-        "API"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "AI를 활용하여 스토어 구축 과정을 간소화하고, API를 통해 커머스 기능을 효율적으로 관리할 수 있어 개발 생산성을 높일 수 있습니다.",
-      "recommended_actions": [
-        "AI와 대화를 통해 스토어 디자인 초안 생성해보기",
-        "Stripe 연동 설정 확인하기",
-        "Next.js 앱 코드 구조 살펴보기"
-      ],
-      "risks_and_limits": [
-        "AI 기반 기능의 정확도 및 성능 확인 필요",
-        "Stripe 연동 관련 수수료 및 정책 확인 필요"
-      ],
-      "uncertainty_note": "AI가 제공하는 스토어 디자인 및 기능의 사용자 맞춤화 정도를 추가적으로 확인해야 합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Your_Next_Store.jpg",
-      "local_media": [
-        "images/ph_2026-03-10_Your_Next_Store_media_0.jpg",
-        "images/ph_2026-03-10_Your_Next_Store_media_1.jpg",
-        "images/ph_2026-03-10_Your_Next_Store_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 4,
-      "name": "Claude Code Review",
-      "url": "https://www.producthunt.com/products/claude",
-      "service_url": "https://www.producthunt.com/r/TX3N3FXOJTYS3N",
-      "website": "https://www.producthunt.com/r/TX3N3FXOJTYS3N",
-      "votes": 330,
-      "tagline": "Multi-agent review catching bugs early in AI-generated code",
-      "summary": "Claude Code Review는 AI가 생성한 코드의 버그를 초기에 잡아내는 멀티 에이전트 코드 리뷰 시스템으로, 팀 및 엔터프라이즈 사용자를 대상으로 연구 프리뷰를 제공합니다.",
-      "key_points": [
-        "AI 기반 멀티 에이전트 코드 리뷰",
-        "버그, 보안 문제, 숨겨진 로직 결함 탐지",
-        "오탐 감소를 위한 검증 기능"
-      ],
-      "tags": [
-        "DevTool",
-        "AI",
-        "코드 리뷰",
+        "보안",
+        "AI 에이전트",
+        "모니터링",
         "자동화",
         "Agent",
         "AI Tool",
@@ -176,312 +125,343 @@
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "AI가 생성한 코드의 품질을 높이고, 개발 초기 단계에서 잠재적인 문제를 발견하여 시간과 비용을 절약할 수 있습니다.",
+      "practical_relevance": "AI 에이전트의 보안을 강화하여 데이터 유출 위험을 줄이고, 에이전트 마켓플레이스와 ID 보안을 통해 안전한 AI 활용 환경을 구축할 수 있습니다.",
       "recommended_actions": [
-        "팀 또는 엔터프라이즈 계정으로 연구 프리뷰 신청",
-        "기존 코드 리뷰 프로세스에 통합",
-        "AI 생성 코드에 대한 리뷰 결과 분석"
+        "30초 안에 무료로 에이전트 보안 설정 시작하기",
+        "보안 감사 기능을 통해 에이전트의 취약점 점검하기",
+        "Watchtower 모니터링으로 실시간 보안 상태 확인하기"
       ],
       "risks_and_limits": [
-        "연구 프리뷰 버전이므로 기능 제한이 있을 수 있음",
-        "AI 생성 코드 외의 코드에 대한 효과는 불확실"
+        "OpenClaw AI 에이전트 환경에서만 작동하는지 확인 필요",
+        "제공되는 보안 감사의 깊이와 범위를 확인하여 실제 보안 요구사항에 부합하는지 검토 필요"
       ],
-      "uncertainty_note": "정확도 및 성능에 대한 사용자 피드백 데이터가 더 필요합니다.",
+      "uncertainty_note": "ClawSecure가 제공하는 보안 수준이 실제 위협 환경에서 얼마나 효과적인지 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Claude_Code_Review.jpg",
+      "local_image_path": "images/ph_2026-03-15_ClawSecure.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Claude_Code_Review_media_0.jpg",
-        "images/ph_2026-03-10_Claude_Code_Review_media_1.jpg",
-        "images/ph_2026-03-10_Claude_Code_Review_media_2.jpg"
+        "images/ph_2026-03-15_ClawSecure_media_0.jpg",
+        "images/ph_2026-03-15_ClawSecure_media_1.jpg",
+        "images/ph_2026-03-15_ClawSecure_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/f92632ac-bcda-47d8-bcac-f03c760e4060.jpeg?auto=format"
+        "https://ph-files.imgix.net/03dc75e3-66f9-48cd-a75d-f047eb560538.jpeg?auto=format"
       ]
     },
     {
-      "rank": 5,
-      "name": "Fish Audio S2",
-      "url": "https://www.producthunt.com/products/fish-speech",
-      "service_url": "https://www.producthunt.com/r/SZPNSLJNJZPMER",
-      "website": "https://www.producthunt.com/r/SZPNSLJNJZPMER",
-      "votes": 239,
-      "tagline": "Real Expressive AI Voices",
-      "summary": "Fish Audio S2는 자연어 기반으로 음성 표현을 제어하고 다중 화자 대화를 생성할 수 있는 오픈 소스 TTS 기술입니다.",
+      "rank": 4,
+      "name": "ElevenCreative by ElevenLabs",
+      "url": "https://www.producthunt.com/products/elevencreative-by-elevenlabs",
+      "service_url": "https://www.producthunt.com/r/7NZN4PWH35PU5N",
+      "website": "https://www.producthunt.com/r/7NZN4PWH35PU5N",
+      "votes": 205,
+      "tagline": "The AI creative platform to bring your content to life",
+      "summary": "ElevenCreative는 AI 기반으로 오디오 및 비디오 콘텐츠를 생성, 편집, 현지화할 수 있는 플랫폼으로, 콘텐츠 제작 과정을 간소화합니다.",
       "key_points": [
-        "자연어를 사용하여 음성 톤과 스타일을 제어 가능",
-        "다중 화자 대화 생성을 한 번에 처리",
-        "80개 이상의 언어 지원"
+        "고급 음성, 음악, SFX, 이미지 및 비디오 모델을 활용",
+        "수백만 명의 크리에이터, 마케팅 팀, 미디어 회사 지원",
+        "오디오 및 비디오 콘텐츠 제작, 편집, 현지화를 한 곳에서"
       ],
       "tags": [
-        "TTS",
-        "AI 음성",
-        "오픈소스",
-        "음성 합성",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "사용자는 더욱 실감나고 다양한 표현이 가능한 AI 음성을 쉽게 제작하여 콘텐츠 제작 효율성을 높일 수 있습니다.",
-      "recommended_actions": [
-        "whisper, laughing nervously 같은 자연어 큐 사용해보기",
-        "다양한 언어로 음성 생성해보기",
-        "다중 화자 대화 생성 기능 사용해보기"
-      ],
-      "risks_and_limits": [
-        "오픈 소스 모델이므로 사용 목적에 따른 라이선스 확인 필요",
-        "생성된 음성의 품질은 입력 텍스트 및 설정에 따라 달라질 수 있음"
-      ],
-      "uncertainty_note": "실제 사용 환경에서의 음성 품질 및 안정성에 대한 추가적인 사용자 피드백이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Fish_Audio_S2.jpg",
-      "local_media": [
-        "images/ph_2026-03-10_Fish_Audio_S2_media_0.jpg",
-        "images/ph_2026-03-10_Fish_Audio_S2_media_1.jpg",
-        "images/ph_2026-03-10_Fish_Audio_S2_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/b0fbeb6e-ac80-47ba-adcb-0e3a3ae22736.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "sitefire.ai",
-      "url": "https://www.producthunt.com/products/sitefire-ai",
-      "service_url": "https://www.producthunt.com/r/O5UCCTYDMRG6AP",
-      "website": "https://www.producthunt.com/r/O5UCCTYDMRG6AP",
-      "votes": 183,
-      "tagline": "Marketing suite for the agentic web",
-      "summary": "sitefire.ai는 에이전트 웹을 위한 마케팅 스위트로서, 콘텐츠 분석, 브랜드 인지 기사 작성, CMS 게시, PR 아웃렛 및 UGC 발굴, 맞춤형 아웃리치 제안 등을 자동화하여 SEO 및 콘텐츠 담당자를 대체할 수 있습니다.",
-      "key_points": [
-        "콘텐츠가 인용을 유도하는 방식 분석",
-        "브랜드 인지 기사 자동 작성 및 CMS 게시 (Framer, Webflow)",
-        "AI 답변에 영향을 미치는 PR 아웃렛 및 UGC 발굴 및 맞춤형 아웃리치 제안 제공"
-      ],
-      "tags": [
-        "마케팅 자동화",
-        "콘텐츠 생성",
-        "SEO",
         "AI",
-        "Agent",
+        "오디오",
+        "비디오",
+        "콘텐츠 제작",
+        "편집",
         "AI Tool",
+        "Video",
+        "Vision",
         "Marketing"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "SEO 및 콘텐츠 마케팅 담당자를 고용하지 않고도 에이전트 웹에 대한 마케팅을 자동화하여 시간과 비용을 절약할 수 있습니다.",
+      "practical_relevance": "ElevenCreative를 사용하면 시간과 비용을 절약하면서 고품질의 오디오 및 비디오 콘텐츠를 쉽게 제작하고 관리할 수 있습니다.",
       "recommended_actions": [
-        "콘텐츠 분석 에이전트 사용해보기",
-        "기사 자동 작성 및 게시 기능 사용해보기",
-        "PR 아웃렛 및 UGC 발굴 기능 사용해보기"
+        "오디오 생성 기능 사용해보기",
+        "비디오 편집 기능 사용해보기",
+        "콘텐츠 현지화 기능 사용해보기"
       ],
       "risks_and_limits": [
-        "자동 생성된 콘텐츠의 품질 검토 필요",
-        "아웃리치 제안의 적절성 검토 필요"
+        "AI 모델의 성능은 데이터에 따라 달라질 수 있음",
+        "저작권 관련 문제 발생 가능성 확인 필요"
       ],
-      "uncertainty_note": "자동 생성된 콘텐츠가 실제 SEO 및 마케팅 성과에 미치는 영향에 대한 추가적인 검증이 필요합니다.",
+      "uncertainty_note": "ElevenCreative의 AI 모델이 지원하는 언어 및 콘텐츠 유형에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_sitefire.ai.jpg",
+      "local_image_path": "images/ph_2026-03-15_ElevenCreative_by_ElevenLabs.jpg",
       "local_media": [
-        "images/ph_2026-03-10_sitefire.ai_media_0.jpg",
-        "images/ph_2026-03-10_sitefire.ai_media_1.jpg",
-        "images/ph_2026-03-10_sitefire.ai_media_2.jpg"
+        "images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_0.jpg",
+        "images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_1.jpg",
+        "images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_2.jpg"
       ],
-      "video_links": [
-        "https://ph-files.imgix.net/b435ece3-946b-43b9-b352-d470a4c9d94b.jpeg?auto=format"
-      ]
+      "video_links": []
     },
     {
-      "rank": 7,
-      "name": "New Macaly Agent",
-      "url": "https://www.producthunt.com/products/macaly",
-      "service_url": "https://www.producthunt.com/r/3UNCWIK6UTMB72",
-      "website": "https://www.producthunt.com/r/3UNCWIK6UTMB72",
-      "votes": 171,
-      "tagline": "Nobody tells you what you can ask AI to build",
-      "summary": "Macaly Agent는 AI를 활용하여 랜딩 페이지 생성, 웹사이트 재설계, 스프레드시트 기반 대시보드 구축 등 다양한 작업을 자동화하여 개발 생산성을 극대화합니다.",
+      "rank": 5,
+      "name": "Cal.com Agents",
+      "url": "https://www.producthunt.com/products/cal",
+      "service_url": "https://www.producthunt.com/r/B3NXSIRWGV5OKE",
+      "website": "https://www.producthunt.com/r/B3NXSIRWGV5OKE",
+      "votes": 155,
+      "tagline": "AI Agents coming to the best scheduling tool",
+      "summary": "Cal.com에 AI 에이전트 기능을 추가하여 Slack, Telegram 등 다양한 플랫폼에서 자동 스케줄링을 구축하고 관리할 수 있습니다.",
       "key_points": [
-        "AI 에이전트를 통해 다양한 개발 관련 작업을 자동화",
-        "YouTube 비디오에서 랜딩 페이지 생성, 웹사이트 재설계 등 즉각적인 활용 가능",
-        "데이터베이스 설정, 사용자 인증 및 역할 추가 등 복잡한 작업 지원"
+        "Cal.com API를 통해 자체 에이전트 구축 가능",
+        "Slack, Telegram, OpenClaw 등 다양한 플랫폼 지원",
+        "AI 기반 자동 스케줄링 기능 제공"
       ],
       "tags": [
-        "DevTool",
         "AI",
-        "Automation",
-        "Low-code",
+        "스케줄링",
+        "자동화",
+        "API",
         "Agent",
-        "AI Tool",
-        "Video",
-        "Design"
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "개발자가 반복적인 작업에 소요하는 시간을 줄이고, 더 창의적인 작업에 집중할 수 있도록 돕습니다. AI 기능을 앱에 쉽게 통합할 수 있어 사용자 경험을 향상시킬 수 있습니다.",
+      "practical_relevance": "사람과 에이전트 모두를 위한 AI 기반 스케줄링으로, 업무 효율성을 높이고 예약 관리를 자동화할 수 있습니다.",
       "recommended_actions": [
-        "YouTube 비디오 URL을 사용하여 랜딩 페이지 자동 생성해보기",
-        "기존 웹사이트 URL을 기반으로 새로운 디자인 제안 받아보기",
-        "스프레드시트 데이터를 기반으로 대시보드 자동 생성해보기"
+        "Slack에 Cal.com 에이전트 설치",
+        "Telegram에 Cal.com 에이전트 연동",
+        "Cal.com API를 사용하여 자체 에이전트 구축"
       ],
       "risks_and_limits": [
-        "AI가 생성한 결과물의 품질은 입력 데이터에 따라 달라질 수 있습니다.",
-        "자동화된 결과물을 실제 서비스에 적용하기 전에 반드시 검토해야 합니다."
+        "API 사용 시 기술적인 이해 필요",
+        "AI 에이전트의 초기 설정 및 학습 필요"
       ],
-      "uncertainty_note": "Macaly Agent가 지원하는 특정 기술 스택 및 플랫폼에 대한 정보 확인이 필요합니다.",
+      "uncertainty_note": "AI 에이전트의 성능 및 플랫폼별 지원 범위에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_New_Macaly_Agent.jpg",
+      "local_image_path": "images/ph_2026-03-15_Cal.com_Agents.jpg",
       "local_media": [
-        "images/ph_2026-03-10_New_Macaly_Agent_media_0.jpg",
-        "images/ph_2026-03-10_New_Macaly_Agent_media_1.jpg",
-        "images/ph_2026-03-10_New_Macaly_Agent_media_2.jpg"
+        "images/ph_2026-03-15_Cal.com_Agents_media_0.jpg",
+        "images/ph_2026-03-15_Cal.com_Agents_media_1.jpg",
+        "images/ph_2026-03-15_Cal.com_Agents_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/59b94c5d-32da-4a11-a9bf-f5e93190352c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Motion Software",
+      "url": "https://www.producthunt.com/products/motion-software",
+      "service_url": "https://www.producthunt.com/r/U5LYQMWGJICT26",
+      "website": "https://www.producthunt.com/r/U5LYQMWGJICT26",
+      "votes": 144,
+      "tagline": "Modern screen recordings for Windows, made simple.",
+      "summary": "Motion Software는 Windows에서 간단하게 눈에 띄는 멋진 화면 녹화 비디오를 만들 수 있도록 도와줍니다.",
+      "key_points": [
+        "간단한 화면 녹화 및 편집",
+        "애니메이션 효과를 쉽게 추가",
+        "눈에 띄는 비디오 제작 가능"
+      ],
+      "tags": [
+        "화면 녹화",
+        "비디오 편집",
+        "애니메이션",
+        "Windows",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "별도의 복잡한 편집 과정 없이도 멋진 화면 녹화 영상을 만들 수 있어, 튜토리얼이나 발표 자료 제작 시간을 단축시켜 줍니다.",
+      "recommended_actions": [
+        "화면 녹화 후 애니메이션 효과 추가해보기",
+        "다양한 애니메이션 스타일 적용해보기",
+        "녹화 영상 공유하기"
+      ],
+      "risks_and_limits": [
+        "Windows 운영체제에서만 사용 가능",
+        "애니메이션 효과가 과도하면 오히려 집중도를 떨어뜨릴 수 있음"
+      ],
+      "uncertainty_note": "애니메이션 효과의 종류 및 사용자 맞춤 설정의 자유도에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-15_Motion_Software.jpg",
+      "local_media": [
+        "images/ph_2026-03-15_Motion_Software_media_0.jpg",
+        "images/ph_2026-03-15_Motion_Software_media_1.jpg",
+        "images/ph_2026-03-15_Motion_Software_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 7,
+      "name": "The Banana App",
+      "url": "https://www.producthunt.com/products/the-banana-app",
+      "service_url": "https://www.producthunt.com/r/JUAKJI43NT74TL",
+      "website": "https://www.producthunt.com/r/JUAKJI43NT74TL",
+      "votes": 115,
+      "tagline": "Speak human - Where every word finds its way home",
+      "summary": "바나나 앱은 실시간 음성 번역 통화 서비스로, 사용자의 목소리를 그대로 보존하며 80개 이상의 언어를 지원합니다. 구독 없이 저렴한 가격으로 이용 가능합니다.",
+      "key_points": [
+        "실시간 음성 번역으로 원활한 소통",
+        "사용자 고유의 목소리 및 톤 유지",
+        "합리적인 가격 정책 (첫 1분 무료, 이후 분당 10센트)"
+      ],
+      "tags": [
+        "번역",
+        "음성 통화",
+        "실시간",
+        "국제 통화"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "해외 친구나 비즈니스 파트너와 언어 장벽 없이 자연스럽게 대화할 수 있으며, 번역 품질에 대한 걱정 없이 자신의 목소리로 소통할 수 있습니다.",
+      "recommended_actions": [
+        "첫 1분 무료 통화로 번역 품질 체험",
+        "자주 사용하는 언어 설정 확인",
+        "해외 거주 친구 또는 동료와 통화 시도"
+      ],
+      "risks_and_limits": [
+        "네트워크 환경에 따라 번역 품질이 달라질 수 있음",
+        "지원 언어 목록 확인 필요"
+      ],
+      "uncertainty_note": "실제 통화 품질 및 사용자 목소리 보존 정도에 대한 추가적인 사용 후기 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-15_The_Banana_App.jpg",
+      "local_media": [
+        "images/ph_2026-03-15_The_Banana_App_media_0.jpg",
+        "images/ph_2026-03-15_The_Banana_App_media_1.jpg",
+        "images/ph_2026-03-15_The_Banana_App_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 8,
-      "name": "Spine Swarm",
-      "url": "https://www.producthunt.com/products/spine-2",
-      "service_url": "https://www.producthunt.com/r/X5DFJLLQTNWLIF",
-      "website": "https://www.producthunt.com/r/X5DFJLLQTNWLIF",
-      "votes": 155,
-      "tagline": "Manage a team of AI agents that do real work",
-      "summary": "Spine Swarm은 복잡한 작업을 처음부터 끝까지 완료하는 AI 에이전트 팀을 관리하고 배포하여 ChatGPT, Gemini, Claude보다 철저하고 정확한 결과물을 얻을 수 있게 해줍니다.",
+      "name": "ByteRover Memory System for OpenClaw ",
+      "url": "https://www.producthunt.com/products/byterover",
+      "service_url": "https://www.producthunt.com/r/4FBRDVY2UPH7O6",
+      "website": "https://www.producthunt.com/r/4FBRDVY2UPH7O6",
+      "votes": 114,
+      "tagline": "File-based memory for OpenClaw with >92% retrieval accuracy ",
+      "summary": "ByteRover는 OpenClaw 에이전트에게 92% 이상의 정확도로 문맥, 사실, 의미를 완벽하게 유지하는 파일 기반 메모리 시스템을 제공하여, OpenClaw 사용자들에게 stateful한 경험을 제공합니다.",
       "key_points": [
-        "AI 에이전트 팀 관리 및 배포",
-        "웹 검색, 심층 연구, 전략 문서 작성 등 다양한 작업 수행",
-        "시각적 캔버스에서 감사 가능한 작업 결과 제공"
+        "OpenClaw 에이전트에 stateful 메모리 제공",
+        "92% 이상의 검색 정확도",
+        "로컬-클라우드 호환 및 버전 관리 내장"
       ],
       "tags": [
-        "AI",
-        "자동화",
-        "생산성",
-        "업무 효율성",
-        "Agent",
-        "AI Tool",
-        "Chat",
-        "Prompting"
+        "DevTool",
+        "OpenClaw",
+        "Memory Management",
+        "Agent"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "단 하나의 프롬프트로 복잡한 작업을 자동화하여 시간과 노력을 절약하고, 더 철저하고 정확한 결과물을 얻을 수 있습니다.",
+      "practical_relevance": "OpenClaw 에이전트의 성능을 향상시키고, 문맥 이해도를 높여 더욱 정확하고 효율적인 작업을 수행할 수 있도록 돕습니다. 특히 26,000회 이상의 다운로드 수를 기록하며 사용자들에게 검증된 솔루션입니다.",
       "recommended_actions": [
-        "AI 에이전트 팀을 구성하여 특정 작업 할당",
-        "웹 검색 및 연구 기능 활용",
-        "생성된 전략 문서 및 프레젠테이션 검토"
+        "OpenClaw 에이전트에 ByteRover 메모리 시스템 통합",
+        "파일 기반 메모리 시스템을 활용하여 데이터 관리 효율성 향상",
+        "버전 관리 기능을 통해 데이터 변경 이력 추적"
       ],
       "risks_and_limits": [
-        "AI 에이전트의 결과물이 완벽하지 않을 수 있으므로 검토 필요",
-        "복잡한 작업일수록 프롬프트 엔지니어링 중요"
+        "OpenClaw와의 호환성 및 성능 테스트 필요",
+        "파일 기반 메모리 시스템의 저장 용량 고려"
       ],
-      "uncertainty_note": "AI 에이전트의 성능과 정확도에 대한 사용자 피드백 및 사례 연구가 더 필요합니다.",
+      "uncertainty_note": "정확도 92.19%가 어떤 환경에서 측정되었는지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Spine_Swarm.jpg",
+      "local_image_path": "images/ph_2026-03-15_ByteRover_Memory_System_for_OpenClaw_.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Spine_Swarm_media_0.jpg",
-        "images/ph_2026-03-10_Spine_Swarm_media_1.jpg",
-        "images/ph_2026-03-10_Spine_Swarm_media_2.jpg"
+        "images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_0.jpg",
+        "images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_1.jpg",
+        "images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/57d82dad-6765-4aff-b4db-ab1b47b9e639.jpeg?auto=format"
+        "https://ph-files.imgix.net/cf683cbc-b92a-4437-91e8-6b65ed2e7304.jpeg?auto=format"
       ]
     },
     {
       "rank": 9,
-      "name": "Agent Skills",
-      "url": "https://www.producthunt.com/products/agent-skills-3",
-      "service_url": "https://www.producthunt.com/r/HRAD7U3JSIMZ7I",
-      "website": "https://www.producthunt.com/r/HRAD7U3JSIMZ7I",
-      "votes": 144,
-      "tagline": "Find skills for Claude Code, Cursor, Copilot & more",
-      "summary": "Claude Code, Cursor, Copilot 등 다양한 AI 에이전트 스킬을 한 곳에서 검색하고 보안 감사 정보까지 확인할 수 있는 플랫폼입니다.",
+      "name": "Morgen",
+      "url": "https://www.producthunt.com/products/morgen-2",
+      "service_url": "https://www.producthunt.com/r/AK5JCO2FRGJD6R",
+      "website": "https://www.producthunt.com/r/AK5JCO2FRGJD6R",
+      "votes": 99,
+      "tagline": "Your entire morning in one tab.",
+      "summary": "매일 아침 여러 탭을 열어 확인해야 했던 날씨, 시간, 구독 정보 등을 한 페이지에서 관리하여 시간을 절약해주는 로컬 우선 아침 대시보드입니다.",
       "key_points": [
-        "10만 개 이상의 AI 에이전트 스킬 보유",
-        "30개 이상의 플랫폼 지원",
-        "각 스킬 목록에 대한 보안 감사 제공"
+        "여러 탭을 열 필요 없이 한 페이지에서 모든 정보를 확인",
+        "계정, 클라우드, 트래킹 없이 로컬에서 실행",
+        "날씨, 링크, 세계 시계, 사이트 모니터링, 구독, 달의 위상 등 다양한 정보 제공"
       ],
       "tags": [
-        "AI 에이전트",
-        "스킬 검색",
-        "보안 감사",
-        "개발 도구",
-        "Agent",
-        "AI Tool",
-        "DevTool",
-        "Security"
+        "생산성",
+        "대시보드",
+        "개인정보보호",
+        "시간관리"
       ],
       "confidence": "중",
       "adoption_complexity": "하",
-      "practical_relevance": "여러 AI 에이전트 플랫폼에서 필요한 스킬을 일일이 찾아다닐 필요 없이, Agent Skills에서 한 번에 검색하고 안전하게 사용할 수 있습니다.",
+      "practical_relevance": "매일 아침 반복되는 확인 작업을 간소화하여 업무 시작 전 시간을 효율적으로 사용할 수 있도록 도와줍니다. 개인 정보 보호에 민감한 사용자에게 적합합니다.",
       "recommended_actions": [
-        "Claude Code에서 사용할 스킬 검색",
-        "Cursor에서 사용할 스킬 검색",
-        "Copilot에서 사용할 스킬 검색"
+        "날씨 정보 설정",
+        "자주 방문하는 링크 추가",
+        "구독 정보 등록"
       ],
       "risks_and_limits": [
-        "보안 감사가 완료되지 않은 스킬은 사용에 주의",
-        "제공 플랫폼 외 다른 플랫폼과의 호환성 확인 필요"
+        "로컬 환경에서만 실행되므로 데이터 백업 및 동기화 필요",
+        "클라우드 기반 서비스와의 연동은 지원하지 않음"
       ],
-      "uncertainty_note": "각 스킬의 성능 및 사용자 리뷰 정보는 추가적으로 확인이 필요합니다.",
+      "uncertainty_note": "다양한 운영체제 및 브라우저 환경에서의 호환성 및 성능에 대한 추가적인 사용자 리뷰 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Agent_Skills.jpg",
+      "local_image_path": "images/ph_2026-03-15_Morgen.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Agent_Skills_media_0.jpg",
-        "images/ph_2026-03-10_Agent_Skills_media_1.jpg",
-        "images/ph_2026-03-10_Agent_Skills_media_2.jpg"
+        "images/ph_2026-03-15_Morgen_media_0.jpg",
+        "images/ph_2026-03-15_Morgen_media_1.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 10,
-      "name": "Sonarly",
-      "url": "https://www.producthunt.com/products/sonarly",
-      "service_url": "https://www.producthunt.com/r/RUAT5UXW5LL34U",
-      "website": "https://www.producthunt.com/r/RUAT5UXW5LL34U",
-      "votes": 133,
-      "tagline": "The AI that fixes prod autonomously",
-      "summary": "Sonarly는 AI를 활용하여 Sentry, Datadog 등 모니터링 도구의 알림을 자동으로 분석, 중복 제거하고, 프로덕션 시스템의 맥락을 파악하여 버그를 자율적으로 수정해주는 도구입니다.",
+      "name": "Aura Water: Private Hydration",
+      "url": "https://www.producthunt.com/products/aura-water",
+      "service_url": "https://www.producthunt.com/r/D2DXSMVL7NZECW",
+      "website": "https://www.producthunt.com/r/D2DXSMVL7NZECW",
+      "votes": 99,
+      "tagline": "Offline water tracker with a private AI hydration coach",
+      "summary": "Aura Water는 개인 정보 보호를 중시하는 사용자를 위해 데이터 수집 없이 오프라인에서 작동하는 AI 기반 물 섭취량 추적 및 관리 앱입니다.",
       "key_points": [
-        "AI 기반 자동 문제 해결: 알림 분류, 중복 제거, 버그 수정 자동화",
-        "프로덕션 컨텍스트 활용: 시스템 전체 맥락을 파악하여 정확한 문제 해결",
-        "PR 자동 생성: 문제 원인 분석 및 증거를 포함한 PR 자동 생성"
+        "개인 정보 보호: 데이터 수집 없이 오프라인에서 작동",
+        "AI 코칭: 개인 맞춤형 물 섭취량 관리 및 알림 제공",
+        "습관 형성 지원: 연속 기록 추적 및 상세 인사이트 제공"
       ],
       "tags": [
-        "DevTool",
+        "건강",
+        "습관",
         "AI",
-        "Automation",
-        "Monitoring",
-        "Debugging",
-        "Agent",
+        "개인정보보호",
+        "트래킹",
         "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Sonarly를 통해 개발자는 알림 과다로 인한 피로감을 줄이고, 문제 해결 시간을 단축하여 더 중요한 업무에 집중할 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "개인 정보 걱정 없이 물 마시는 습관을 만들고 건강 관리를 할 수 있으며, ADHD 사용자에게도 유용합니다.",
       "recommended_actions": [
-        "Sentry 또는 Datadog 연동하여 알림 자동 분석 시작",
-        "자동 생성된 PR 검토 및 적용",
-        "Sonarly의 문제 해결 제안 검토 및 개선"
+        "매일 물 섭취량을 기록하고 연속 기록을 확인해 보세요.",
+        "개인 스케줄에 맞춰 알림을 설정하여 규칙적인 습관을 만들어 보세요.",
+        "물 섭취량에 대한 상세 인사이트를 통해 개선점을 찾아보세요."
       ],
       "risks_and_limits": [
-        "Claude Code 및 Opus 4.6 모델의 성능에 따라 결과 정확도 달라질 수 있음",
-        "자동 생성된 PR의 적합성 검토 필요"
+        "모든 데이터가 로컬에 저장되므로, 기기 변경 시 데이터 백업이 필요할 수 있습니다.",
+        "AI 코칭의 정확도는 개인의 사용 패턴에 따라 달라질 수 있습니다."
       ],
-      "uncertainty_note": "Sonarly의 실제 문제 해결 성공률 및 사용 편의성에 대한 추가적인 사용자 후기 확인이 필요합니다.",
+      "uncertainty_note": "AI 코칭 기능의 개인별 맞춤 정도에 대한 추가적인 사용 후기 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-10_Sonarly.jpg",
+      "local_image_path": "images/ph_2026-03-15_Aura_Water_Private_Hydration.jpg",
       "local_media": [
-        "images/ph_2026-03-10_Sonarly_media_0.jpg",
-        "images/ph_2026-03-10_Sonarly_media_1.jpg",
-        "images/ph_2026-03-10_Sonarly_media_2.jpg"
+        "images/ph_2026-03-15_Aura_Water_Private_Hydration_media_0.jpg",
+        "images/ph_2026-03-15_Aura_Water_Private_Hydration_media_1.jpg",
+        "images/ph_2026-03-15_Aura_Water_Private_Hydration_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/0ed8b884-4fcc-4826-b746-819e2a78622d.jpeg?auto=format"
+        "https://ph-files.imgix.net/298e8ab9-a53e-4bc1-b436-676d2e55457d.jpeg?auto=format"
       ]
     }
   ]

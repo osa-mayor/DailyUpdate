@@ -1,0 +1,409 @@
+# 🚀 Product Hunt Daily Top 10 (2026-03-16)
+
+## 1. [DynamicLake](https://www.producthunt.com/products/dynamiclake)
+**Votes**: 310 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Dynamic Island experience for Mac with apps & notifications
+**서비스 링크**: https://www.producthunt.com/r/IFBBYGO3QEQNYM
+
+**태그**: 생산성, Mac, Dynamic Island, 알림, 유틸리티, AI Tool
+
+<img src="images/ph_2026-03-15_DynamicLake.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+DynamicLake는 Mac에서 Dynamic Island 경험을 제공하여 알림, 드래그 앤 드롭, 파일 변환, 통화, AirDrop, 타이머 등 다양한 기능을 편리하게 사용할 수 있도록 돕습니다.
+
+### 🔑 주요 기능
+- Mac에서 iPhone의 Dynamic Island 경험을 제공
+- 알림, 드래그 앤 드롭, 파일 변환 등 다양한 기능 지원
+- Mac의 생산성 향상에 기여
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Mac 사용자들은 DynamicLake를 통해 iPhone의 편리한 Dynamic Island 경험을 Mac에서도 누릴 수 있으며, 다양한 기능들을 통해 작업 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 알림 기능 설정 및 확인
+- 드래그 앤 드롭 기능 사용
+- 타이머 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- macOS 버전 호환성 확인 필요
+- 시스템 리소스 사용량 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+DynamicLake의 다양한 기능들이 실제 사용자 환경에서 얼마나 안정적으로 작동하는지 추가적인 사용 후기 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_DynamicLake_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_DynamicLake_media_2.jpg)
+![Screenshot](images/ph_2026-03-15_DynamicLake_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bf80d734-5914-4705-bb68-8ab83e65b9f7.jpeg?auto=format)
+
+---
+
+## 2. [Google Workspace CLI](https://www.producthunt.com/products/github-google-workspace-cli)
+**Votes**: 270 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: CLI for Google Workspace ecosystem built for humans & agents
+**서비스 링크**: https://www.producthunt.com/r/P6R7Q7CBZWTAFR
+
+**태그**: CLI, Google Workspace, 자동화, 개발자 도구, Agent, Automation, AI Tool
+
+<img src="images/ph_2026-03-15_Google_Workspace_CLI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Google Workspace CLI는 사람과 AI 에이전트가 Drive, Gmail, Calendar 등을 CLI 환경에서 제어하고 자동화할 수 있도록 돕는 도구입니다.
+
+### 🔑 주요 기능
+- Google Workspace 서비스들을 하나의 CLI로 통합 관리
+- 자동 업데이트를 통해 최신 기능 유지
+- 100개 이상의 에이전트 스킬을 활용한 워크플로우 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+GUI 환경이 아닌 CLI 환경에서 Google Workspace를 제어하고 자동화하여 생산성을 높일 수 있습니다. 특히 AI 에이전트와의 연동을 통해 더욱 강력한 자동화 워크플로우를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Drive 파일 목록 조회 및 관리
+- Gmail 메일 송수신 자동화
+- Calendar 일정 관리 및 자동 알림 설정
+
+### ⚠️ 사용 전 확인할 점
+- CLI 환경에 대한 이해 필요
+- 초기 설정 및 스크립트 작성에 시간 소요 가능성
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트 스킬의 종류와 활용 범위에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_Google_Workspace_CLI_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_Google_Workspace_CLI_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_Google_Workspace_CLI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4e1956a4-eb9e-4318-9735-9261d23ed6a7.jpeg?auto=format)
+
+---
+
+## 3. [ClawSecure](https://www.producthunt.com/products/clawsecure)
+**Votes**: 224 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: The only complete security platform for OpenClaw AI agents
+**서비스 링크**: https://www.producthunt.com/r/XDD2HZ57YTZCDT
+
+**태그**: 보안, AI 에이전트, 모니터링, 자동화, Agent, AI Tool, Security
+
+<img src="images/ph_2026-03-15_ClawSecure.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+ClawSecure는 OpenClaw AI 에이전트를 위한 CrowdStrike와 같은 완전한 보안 플랫폼으로, 위험한 기술로부터 에이전트를 보호하고 데이터 유출을 방지합니다.
+
+### 🔑 주요 기능
+- 3단계 보안 감사 제공
+- 실시간 Watchtower 모니터링
+- OWASP ASI의 10/10 전체 커버리지 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트의 보안을 강화하여 데이터 유출 위험을 줄이고, 에이전트 마켓플레이스와 ID 보안을 통해 안전한 AI 활용 환경을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 30초 안에 무료로 에이전트 보안 설정 시작하기
+- 보안 감사 기능을 통해 에이전트의 취약점 점검하기
+- Watchtower 모니터링으로 실시간 보안 상태 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- OpenClaw AI 에이전트 환경에서만 작동하는지 확인 필요
+- 제공되는 보안 감사의 깊이와 범위를 확인하여 실제 보안 요구사항에 부합하는지 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+ClawSecure가 제공하는 보안 수준이 실제 위협 환경에서 얼마나 효과적인지 추가적인 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_ClawSecure_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_ClawSecure_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_ClawSecure_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/03dc75e3-66f9-48cd-a75d-f047eb560538.jpeg?auto=format)
+
+---
+
+## 4. [ElevenCreative by ElevenLabs](https://www.producthunt.com/products/elevencreative-by-elevenlabs)
+**Votes**: 205 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: The AI creative platform to bring your content to life
+**서비스 링크**: https://www.producthunt.com/r/7NZN4PWH35PU5N
+
+**태그**: AI, 오디오, 비디오, 콘텐츠 제작, 편집, AI Tool, Video, Vision, Marketing
+
+<img src="images/ph_2026-03-15_ElevenCreative_by_ElevenLabs.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+ElevenCreative는 AI 기반으로 오디오 및 비디오 콘텐츠를 생성, 편집, 현지화할 수 있는 플랫폼으로, 콘텐츠 제작 과정을 간소화합니다.
+
+### 🔑 주요 기능
+- 고급 음성, 음악, SFX, 이미지 및 비디오 모델을 활용
+- 수백만 명의 크리에이터, 마케팅 팀, 미디어 회사 지원
+- 오디오 및 비디오 콘텐츠 제작, 편집, 현지화를 한 곳에서
+
+### 🙋 사용자에게 어떤 점이 좋은가
+ElevenCreative를 사용하면 시간과 비용을 절약하면서 고품질의 오디오 및 비디오 콘텐츠를 쉽게 제작하고 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 오디오 생성 기능 사용해보기
+- 비디오 편집 기능 사용해보기
+- 콘텐츠 현지화 기능 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 모델의 성능은 데이터에 따라 달라질 수 있음
+- 저작권 관련 문제 발생 가능성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+ElevenCreative의 AI 모델이 지원하는 언어 및 콘텐츠 유형에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_ElevenCreative_by_ElevenLabs_media_2.jpg)
+
+---
+
+## 5. [Cal.com Agents](https://www.producthunt.com/products/cal)
+**Votes**: 155 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: AI Agents coming to the best scheduling tool
+**서비스 링크**: https://www.producthunt.com/r/B3NXSIRWGV5OKE
+
+**태그**: AI, 스케줄링, 자동화, API, Agent, AI Tool
+
+<img src="images/ph_2026-03-15_Cal.com_Agents.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Cal.com에 AI 에이전트 기능을 추가하여 Slack, Telegram 등 다양한 플랫폼에서 자동 스케줄링을 구축하고 관리할 수 있습니다.
+
+### 🔑 주요 기능
+- Cal.com API를 통해 자체 에이전트 구축 가능
+- Slack, Telegram, OpenClaw 등 다양한 플랫폼 지원
+- AI 기반 자동 스케줄링 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사람과 에이전트 모두를 위한 AI 기반 스케줄링으로, 업무 효율성을 높이고 예약 관리를 자동화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack에 Cal.com 에이전트 설치
+- Telegram에 Cal.com 에이전트 연동
+- Cal.com API를 사용하여 자체 에이전트 구축
+
+### ⚠️ 사용 전 확인할 점
+- API 사용 시 기술적인 이해 필요
+- AI 에이전트의 초기 설정 및 학습 필요
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트의 성능 및 플랫폼별 지원 범위에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_Cal.com_Agents_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_Cal.com_Agents_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_Cal.com_Agents_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/59b94c5d-32da-4a11-a9bf-f5e93190352c.jpeg?auto=format)
+
+---
+
+## 6. [Motion Software](https://www.producthunt.com/products/motion-software)
+**Votes**: 144 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Modern screen recordings for Windows, made simple.
+**서비스 링크**: https://www.producthunt.com/r/U5LYQMWGJICT26
+
+**태그**: 화면 녹화, 비디오 편집, 애니메이션, Windows, Video
+
+<img src="images/ph_2026-03-15_Motion_Software.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Motion Software는 Windows에서 간단하게 눈에 띄는 멋진 화면 녹화 비디오를 만들 수 있도록 도와줍니다.
+
+### 🔑 주요 기능
+- 간단한 화면 녹화 및 편집
+- 애니메이션 효과를 쉽게 추가
+- 눈에 띄는 비디오 제작 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 복잡한 편집 과정 없이도 멋진 화면 녹화 영상을 만들 수 있어, 튜토리얼이나 발표 자료 제작 시간을 단축시켜 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 화면 녹화 후 애니메이션 효과 추가해보기
+- 다양한 애니메이션 스타일 적용해보기
+- 녹화 영상 공유하기
+
+### ⚠️ 사용 전 확인할 점
+- Windows 운영체제에서만 사용 가능
+- 애니메이션 효과가 과도하면 오히려 집중도를 떨어뜨릴 수 있음
+
+### 🧭 확인이 더 필요한 정보
+애니메이션 효과의 종류 및 사용자 맞춤 설정의 자유도에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_Motion_Software_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_Motion_Software_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_Motion_Software_media_2.jpg)
+
+---
+
+## 7. [The Banana App](https://www.producthunt.com/products/the-banana-app)
+**Votes**: 115 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Speak human - Where every word finds its way home
+**서비스 링크**: https://www.producthunt.com/r/JUAKJI43NT74TL
+
+**태그**: 번역, 음성 통화, 실시간, 국제 통화
+
+<img src="images/ph_2026-03-15_The_Banana_App.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+바나나 앱은 실시간 음성 번역 통화 서비스로, 사용자의 목소리를 그대로 보존하며 80개 이상의 언어를 지원합니다. 구독 없이 저렴한 가격으로 이용 가능합니다.
+
+### 🔑 주요 기능
+- 실시간 음성 번역으로 원활한 소통
+- 사용자 고유의 목소리 및 톤 유지
+- 합리적인 가격 정책 (첫 1분 무료, 이후 분당 10센트)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+해외 친구나 비즈니스 파트너와 언어 장벽 없이 자연스럽게 대화할 수 있으며, 번역 품질에 대한 걱정 없이 자신의 목소리로 소통할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 첫 1분 무료 통화로 번역 품질 체험
+- 자주 사용하는 언어 설정 확인
+- 해외 거주 친구 또는 동료와 통화 시도
+
+### ⚠️ 사용 전 확인할 점
+- 네트워크 환경에 따라 번역 품질이 달라질 수 있음
+- 지원 언어 목록 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+실제 통화 품질 및 사용자 목소리 보존 정도에 대한 추가적인 사용 후기 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_The_Banana_App_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_The_Banana_App_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_The_Banana_App_media_2.jpg)
+
+---
+
+## 8. [ByteRover Memory System for OpenClaw ](https://www.producthunt.com/products/byterover)
+**Votes**: 114 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: File-based memory for OpenClaw with >92% retrieval accuracy 
+**서비스 링크**: https://www.producthunt.com/r/4FBRDVY2UPH7O6
+
+**태그**: DevTool, OpenClaw, Memory Management, Agent
+
+<img src="images/ph_2026-03-15_ByteRover_Memory_System_for_OpenClaw_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+ByteRover는 OpenClaw 에이전트에게 92% 이상의 정확도로 문맥, 사실, 의미를 완벽하게 유지하는 파일 기반 메모리 시스템을 제공하여, OpenClaw 사용자들에게 stateful한 경험을 제공합니다.
+
+### 🔑 주요 기능
+- OpenClaw 에이전트에 stateful 메모리 제공
+- 92% 이상의 검색 정확도
+- 로컬-클라우드 호환 및 버전 관리 내장
+
+### 🙋 사용자에게 어떤 점이 좋은가
+OpenClaw 에이전트의 성능을 향상시키고, 문맥 이해도를 높여 더욱 정확하고 효율적인 작업을 수행할 수 있도록 돕습니다. 특히 26,000회 이상의 다운로드 수를 기록하며 사용자들에게 검증된 솔루션입니다.
+
+### ✅ 지금 바로 써볼 기능
+- OpenClaw 에이전트에 ByteRover 메모리 시스템 통합
+- 파일 기반 메모리 시스템을 활용하여 데이터 관리 효율성 향상
+- 버전 관리 기능을 통해 데이터 변경 이력 추적
+
+### ⚠️ 사용 전 확인할 점
+- OpenClaw와의 호환성 및 성능 테스트 필요
+- 파일 기반 메모리 시스템의 저장 용량 고려
+
+### 🧭 확인이 더 필요한 정보
+정확도 92.19%가 어떤 환경에서 측정되었는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_ByteRover_Memory_System_for_Op_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cf683cbc-b92a-4437-91e8-6b65ed2e7304.jpeg?auto=format)
+
+---
+
+## 9. [Morgen](https://www.producthunt.com/products/morgen-2)
+**Votes**: 99 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Your entire morning in one tab.
+**서비스 링크**: https://www.producthunt.com/r/AK5JCO2FRGJD6R
+
+**태그**: 생산성, 대시보드, 개인정보보호, 시간관리
+
+<img src="images/ph_2026-03-15_Morgen.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+매일 아침 여러 탭을 열어 확인해야 했던 날씨, 시간, 구독 정보 등을 한 페이지에서 관리하여 시간을 절약해주는 로컬 우선 아침 대시보드입니다.
+
+### 🔑 주요 기능
+- 여러 탭을 열 필요 없이 한 페이지에서 모든 정보를 확인
+- 계정, 클라우드, 트래킹 없이 로컬에서 실행
+- 날씨, 링크, 세계 시계, 사이트 모니터링, 구독, 달의 위상 등 다양한 정보 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+매일 아침 반복되는 확인 작업을 간소화하여 업무 시작 전 시간을 효율적으로 사용할 수 있도록 도와줍니다. 개인 정보 보호에 민감한 사용자에게 적합합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 날씨 정보 설정
+- 자주 방문하는 링크 추가
+- 구독 정보 등록
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 환경에서만 실행되므로 데이터 백업 및 동기화 필요
+- 클라우드 기반 서비스와의 연동은 지원하지 않음
+
+### 🧭 확인이 더 필요한 정보
+다양한 운영체제 및 브라우저 환경에서의 호환성 및 성능에 대한 추가적인 사용자 리뷰 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_Morgen_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_Morgen_media_1.jpg)
+
+---
+
+## 10. [Aura Water: Private Hydration](https://www.producthunt.com/products/aura-water)
+**Votes**: 99 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Offline water tracker with a private AI hydration coach
+**서비스 링크**: https://www.producthunt.com/r/D2DXSMVL7NZECW
+
+**태그**: 건강, 습관, AI, 개인정보보호, 트래킹, AI Tool
+
+<img src="images/ph_2026-03-15_Aura_Water_Private_Hydration.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Aura Water는 개인 정보 보호를 중시하는 사용자를 위해 데이터 수집 없이 오프라인에서 작동하는 AI 기반 물 섭취량 추적 및 관리 앱입니다.
+
+### 🔑 주요 기능
+- 개인 정보 보호: 데이터 수집 없이 오프라인에서 작동
+- AI 코칭: 개인 맞춤형 물 섭취량 관리 및 알림 제공
+- 습관 형성 지원: 연속 기록 추적 및 상세 인사이트 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개인 정보 걱정 없이 물 마시는 습관을 만들고 건강 관리를 할 수 있으며, ADHD 사용자에게도 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 매일 물 섭취량을 기록하고 연속 기록을 확인해 보세요.
+- 개인 스케줄에 맞춰 알림을 설정하여 규칙적인 습관을 만들어 보세요.
+- 물 섭취량에 대한 상세 인사이트를 통해 개선점을 찾아보세요.
+
+### ⚠️ 사용 전 확인할 점
+- 모든 데이터가 로컬에 저장되므로, 기기 변경 시 데이터 백업이 필요할 수 있습니다.
+- AI 코칭의 정확도는 개인의 사용 패턴에 따라 달라질 수 있습니다.
+
+### 🧭 확인이 더 필요한 정보
+AI 코칭 기능의 개인별 맞춤 정도에 대한 추가적인 사용 후기 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-03-15_Aura_Water_Private_Hydration_media_0.jpg)
+![Screenshot](images/ph_2026-03-15_Aura_Water_Private_Hydration_media_1.jpg)
+![Screenshot](images/ph_2026-03-15_Aura_Water_Private_Hydration_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/298e8ab9-a53e-4bc1-b436-676d2e55457d.jpeg?auto=format)
+
+---
+
