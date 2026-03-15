@@ -1,9 +1,9 @@
 {
   "source": "huggingface_papers",
   "date": "2026-03-16",
-  "generated_at": "2026-03-16T00:28:17.877712+09:00",
+  "generated_at": "2026-03-16T04:02:21.374939+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training\n📝 요약: Spatial-TTT는 비디오 스트림에서 공간 정보를 효율적으로 캡처, 구성 및 유지하기 위해 테스트 타임 트레이닝(TTT)을 사용하는 새로운 프레임워크를 제안하며, 특히 3D 공간 인식을 향상시키는 데 중점을 둡니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12255\n📄 arXiv: https://arxiv.org/abs/2603.12255\n\n📍 2. Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections\n📝 요약: 문서 기반 워크플로우 자동화를 위한 멀티모달 에이전트의 전략적 추론 능력을 평가하는 새로운 벤치마크(MADQA)와 평가 프로토콜을 제시하고, 현재 에이전트들이 전략적 계획 수립 능력 부족으로 인해 brute-force 검색에 의존하고 있음을 밝힘.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12180\n📄 arXiv: https://arxiv.org/abs/2603.12180\n\n📍 3. IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse\n📝 요약: IndexCache는 LLM 추론 시 sparse attention의 인덱싱 연산량을 줄여 속도를 향상시키는 기술로, DeepSeek Sparse Attention (DSA) 모델에서 최대 1.82배 prefill 속도 향상 및 1.48배 decode 속도 향상을 보임.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12201\n📄 arXiv: https://arxiv.org/abs/2603.12201\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Spatial-TTT: Streaming Visual-based Spatial Intelligence with Test-Time Training\n📝 요약: Spatial-TTT는 비디오 스트림에서 공간 정보를 효율적으로 캡처, 구성 및 유지하기 위해 테스트 타임 트레이닝(TTT)을 사용하는 새로운 아키텍처와 학습 방법을 제안하며, 특히 3D 공간 인식을 향상시키는 데 기여합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12255\n📄 arXiv: https://arxiv.org/abs/2603.12255\n\n📍 2. Strategic Navigation or Stochastic Search? How Agents and Humans Reason Over Document Collections\n📝 요약: 문서 기반 워크플로우 자동화를 위한 멀티모달 에이전트의 전략적 추론 능력 부족을 밝히고, 이를 평가하는 새로운 벤치마크(MADQA)와 평가 프로토콜을 제시하여, 에이전트의 전략적 추론 능력 향상에 기여합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12180\n📄 arXiv: https://arxiv.org/abs/2603.12180\n\n📍 3. IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse\n📝 요약: IndexCache는 LLM 추론 시 sparse attention의 인덱싱 연산량을 줄여 속도를 향상시키는 기술로, DeepSeek Sparse Attention 모델에서 최대 1.82배 prefill 속도 향상을 보임.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12201\n📄 arXiv: https://arxiv.org/abs/2603.12201\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
@@ -11,13 +11,13 @@
       "paper_id": "2603.12255",
       "url": "https://huggingface.co/papers/2603.12255",
       "arxiv_url": "https://arxiv.org/abs/2603.12255",
-      "upvotes": 71,
-      "summary": "Spatial-TTT는 비디오 스트림에서 공간 정보를 효율적으로 캡처, 구성 및 유지하기 위해 테스트 타임 트레이닝(TTT)을 사용하는 새로운 프레임워크를 제안하며, 특히 3D 공간 인식을 향상시키는 데 중점을 둡니다.",
-      "korean_abstract": "인간은 시각적 관찰 스트림을 통해 실제 공간을 이해하며, 이는 공간 지능에 필수적입니다. 핵심 과제는 단순히 긴 컨텍스트 창이 아니라 공간 정보가 선택, 구성 및 유지되는 방식입니다. 본 논문에서는 테스트 타임 트레이닝(TTT)을 통해 스트리밍 시각 기반 공간 지능을 위한 Spatial-TTT를 제안하며, 파라미터의 하위 집합(fast weights)을 조정하여 장기간의 장면 비디오에서 공간 증거를 캡처하고 구성합니다. 효율적인 공간 비디오 처리를 위해 하이브리드 아키텍처를 설계하고 슬라이딩 윈도우 어텐션과 병렬로 대규모 청크 업데이트를 채택합니다. 또한 공간 인식을 향상시키기 위해 3D 시공간 컨볼루션을 사용하여 TTT 레이어에 적용되는 공간 예측 메커니즘을 도입하여 모델이 프레임 간의 기하학적 대응 및 시간적 연속성을 캡처하도록 장려합니다. 아키텍처 설계 외에도 모델이 fast weights를 업데이트하여 전역 3D 공간 신호를 구조화된 방식으로 기억하고 구성하도록 안내하는 조밀한 3D 공간 설명이 포함된 데이터 세트를 구성합니다. 광범위한 실험을 통해 Spatial-TTT는 장기간 공간 이해를 향상시키고 비디오 공간 벤치마크에서 최첨단 성능을 달성함을 입증했습니다.",
+      "upvotes": 72,
+      "summary": "Spatial-TTT는 비디오 스트림에서 공간 정보를 효율적으로 캡처, 구성 및 유지하기 위해 테스트 타임 트레이닝(TTT)을 사용하는 새로운 아키텍처와 학습 방법을 제안하며, 특히 3D 공간 인식을 향상시키는 데 기여합니다.",
+      "korean_abstract": "인간은 시각적 관찰 스트림을 통해 실제 공간을 이해하며, 이는 공간 지능에 필수적입니다. 핵심 과제는 단순히 긴 컨텍스트 창을 사용하는 것이 아니라 공간 정보가 선택, 구성 및 유지되는 방식입니다. 본 논문에서는 테스트 타임 트레이닝(TTT)을 통해 스트리밍 시각 기반 공간 지능을 위한 Spatial-TTT를 제안하며, 이는 파라미터의 하위 집합(fast weights)을 조정하여 장기간의 장면 비디오에서 공간 증거를 캡처하고 구성합니다. 효율적인 공간 비디오 처리를 위해 하이브리드 아키텍처를 설계하고 슬라이딩 윈도우 어텐션과 병렬로 대규모 청크 업데이트를 채택합니다. 또한 공간 인식을 향상시키기 위해 3D 시공간 컨볼루션을 사용하여 TTT 레이어에 적용되는 공간 예측 메커니즘을 도입하여 모델이 프레임 간의 기하학적 대응 및 시간적 연속성을 캡처하도록 장려합니다. 아키텍처 설계 외에도 모델이 fast weights를 업데이트하여 구조화된 방식으로 글로벌 3D 공간 신호를 기억하고 구성하도록 안내하는 조밀한 3D 공간 설명이 포함된 데이터 세트를 구축합니다. 광범위한 실험을 통해 Spatial-TTT는 장기간 공간 이해를 향상시키고 비디오 공간 벤치마크에서 최첨단 성능을 달성합니다.",
       "key_points": [
         "테스트 타임 트레이닝(TTT)을 활용하여 비디오 스트림에서 공간 정보를 효율적으로 처리",
         "3D 시공간 컨볼루션을 사용한 공간 예측 메커니즘을 통해 공간 인식 향상",
-        "3D 공간 정보를 구조적으로 학습할 수 있는 새로운 데이터셋 구축"
+        "글로벌 3D 공간 신호를 학습하기 위한 새로운 데이터 세트 구축"
       ],
       "tags": [
         "Vision",
@@ -30,15 +30,15 @@
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "비디오 분석, 로보틱스, AR/VR 등에서 실시간으로 공간 정보를 이해하고 활용해야 하는 경우에 유용하며, 특히 제한된 컴퓨팅 자원 환경에서 효율적인 공간 정보 처리에 도움이 될 수 있습니다.",
+      "practical_relevance": "Spatial-TTT는 로봇, AR/VR, 자율 주행 등 실시간으로 공간 정보를 이해하고 활용해야 하는 시스템의 성능을 향상시킬 수 있으며, 특히 장기간의 비디오 스트림에서 일관된 공간 인식을 유지하는 데 유용합니다.",
       "recommended_actions": [
-        "제공된 프로젝트 페이지에서 데모 비디오 및 코드를 확인하여 Spatial-TTT의 작동 방식 이해",
-        "자체 비디오 데이터셋에 Spatial-TTT를 적용하여 공간 인식 성능 테스트",
-        "Spatial-TTT의 공간 예측 메커니즘을 다른 비전 모델에 통합하여 성능 향상 시도"
+        "자체 비디오 데이터에 Spatial-TTT를 적용하여 공간 인식 성능을 테스트",
+        "3D 공간 예측 메커니즘을 다른 비전 모델에 통합하여 성능 향상 가능성 검토",
+        "제공된 데이터 세트를 활용하여 3D 공간 이해 관련 연구 및 개발 진행"
       ],
       "risks_and_limits": [
-        "TTT의 안정성 및 일반화 성능에 대한 추가 검증 필요",
-        "특정 유형의 비디오 데이터(예: 매우 복잡하거나 동적인 장면)에서 성능 저하 가능성"
+        "TTT의 계산 비용이 높을 수 있으며, 실시간 시스템에 적용 시 성능 병목 현상 발생 가능성 존재",
+        "새로운 데이터 세트가 특정 환경에 편향되어 있을 수 있으며, 일반화 성능에 영향 가능성 존재"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -52,32 +52,33 @@
       "paper_id": "2603.12180",
       "url": "https://huggingface.co/papers/2603.12180",
       "arxiv_url": "https://arxiv.org/abs/2603.12180",
-      "upvotes": 50,
-      "summary": "문서 기반 워크플로우 자동화를 위한 멀티모달 에이전트의 전략적 추론 능력을 평가하는 새로운 벤치마크(MADQA)와 평가 프로토콜을 제시하고, 현재 에이전트들이 전략적 계획 수립 능력 부족으로 인해 brute-force 검색에 의존하고 있음을 밝힘.",
-      "korean_abstract": "멀티모달 에이전트는 복잡한 문서 기반 워크플로우 자동화에 유망하지만, 전략적 추론 능력에 대한 의문이 존재한다. 이 문제를 해결하기 위해, 다양한 PDF 문서에 기반한 2,250개의 질문으로 구성된 MADQA 벤치마크를 제시한다. 에이전트의 행동을 평가하기 위해 정확도-노력 간의 균형을 측정하는 새로운 평가 프로토콜을 도입했다. 실험 결과, 최첨단 에이전트가 raw 정확도에서는 인간 검색자와 비슷하지만, 질문 유형이 다르고 전략적 계획 수립이 미흡하여 brute-force 검색에 의존하는 경향을 보였다. 에이전트의 전략적 추론 능력 향상을 위해 데이터셋과 평가 도구를 공개한다.",
+      "upvotes": 51,
+      "summary": "문서 기반 워크플로우 자동화를 위한 멀티모달 에이전트의 전략적 추론 능력 부족을 밝히고, 이를 평가하는 새로운 벤치마크(MADQA)와 평가 프로토콜을 제시하여, 에이전트의 전략적 추론 능력 향상에 기여합니다.",
+      "korean_abstract": "멀티모달 에이전트는 복잡한 문서 기반 워크플로우 자동화에 유망하지만, 전략적 추론 능력에 대한 의문이 존재합니다. 본 연구에서는 800개의 PDF 문서에 기반한 2,250개의 질문으로 구성된 MADQA 벤치마크를 제시하여 에이전트의 능력을 평가합니다. 새로운 평가 프로토콜을 통해 정확도와 노력의 균형을 측정하고, 에이전트가 인간 검색자와 유사한 정확도를 보이지만 전략적 계획이 부족하여 무작위 검색에 의존함을 밝힙니다. 또한, 오라클 성능과의 격차를 해소하지 못하고 비효율적인 반복을 지속하는 문제점을 지적하며, 데이터셋과 평가 도구를 공개하여 효율적인 추론 연구를 지원합니다.",
       "key_points": [
         "멀티모달 에이전트의 전략적 추론 능력 평가를 위한 MADQA 벤치마크 제시",
-        "정확도-노력 간 균형을 측정하는 새로운 평가 프로토콜 도입",
-        "최첨단 에이전트의 전략적 계획 수립 능력 부족 및 brute-force 검색 의존성 확인"
+        "정확도-노력 균형을 측정하는 새로운 평가 프로토콜 개발",
+        "에이전트의 전략적 계획 부족 및 무작위 검색 의존성 확인"
       ],
       "tags": [
         "Agent",
         "RAG",
         "Benchmark",
         "Evaluation",
+        "Document Understanding",
         "Reasoning",
         "Multimodal"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "RAG 시스템을 구축할 때, 단순히 검색 정확도 뿐만 아니라 검색 효율성 및 전략적 추론 능력을 함께 고려해야 함을 시사한다. 에이전트의 검색 전략을 개선하여 불필요한 반복을 줄이고 효율적인 정보 획득을 가능하게 할 수 있다.",
+      "practical_relevance": "RAG 시스템 구축 시 에이전트의 전략적 추론 능력을 평가하고 개선하는 데 활용할 수 있으며, 특히 문서 검색 및 질의응답 성능 향상에 도움이 됩니다.",
       "recommended_actions": [
-        "MADQA 데이터셋을 활용하여 현재 RAG 시스템의 전략적 추론 능력 평가",
-        "새로운 평가 프로토콜을 적용하여 정확도와 노력 간의 균형을 측정하고 개선 방향 모색",
-        "에이전트의 검색 전략을 시각화하고, 비효율적인 루프를 식별하여 개선"
+        "MADQA 데이터셋을 활용하여 기존 RAG 시스템의 성능 평가",
+        "제시된 평가 프로토콜을 적용하여 정확도-노력 균형 분석",
+        "에이전트의 전략적 계획 능력을 강화하기 위한 다양한 방법론 실험 (예: 강화 학습, 계획 모듈 도입)"
       ],
       "risks_and_limits": [
-        "MADQA 데이터셋이 특정 유형의 문서 및 질문에 편향되어 있을 수 있음",
+        "MADQA 데이터셋이 특정 유형의 문서에 편향되어 있을 수 있음",
         "평가 프로토콜이 에이전트의 모든 전략적 추론 능력을 완벽하게 측정하지 못할 수 있음"
       ],
       "repeated_in_window": false,
@@ -92,34 +93,34 @@
       "paper_id": "2603.12201",
       "url": "https://huggingface.co/papers/2603.12201",
       "arxiv_url": "https://arxiv.org/abs/2603.12201",
-      "upvotes": 37,
-      "summary": "IndexCache는 LLM 추론 시 sparse attention의 인덱싱 연산량을 줄여 속도를 향상시키는 기술로, DeepSeek Sparse Attention (DSA) 모델에서 최대 1.82배 prefill 속도 향상 및 1.48배 decode 속도 향상을 보임.",
-      "korean_abstract": "LLM의 agentic workflow에서 attention 효율성은 중요한데, sparse attention은 이를 효과적으로 해결한다. 하지만 기존 sparse attention 방식은 각 레이어마다 독립적인 인덱서를 실행해야 하므로 연산량이 높다. IndexCache는 레이어 간 top-k 인덱스 선택의 유사성을 활용, 일부 레이어에서만 인덱서를 실행하고 결과를 공유하여 인덱싱 연산량을 줄인다. 실험 결과, 30B DSA 모델에서 인덱서 연산의 75%를 제거하면서도 성능 저하가 거의 없었고, GLM-5 모델에서도 긍정적인 결과를 확인했다.",
+      "upvotes": 38,
+      "summary": "IndexCache는 LLM 추론 시 sparse attention의 인덱싱 연산량을 줄여 속도를 향상시키는 기술로, DeepSeek Sparse Attention 모델에서 최대 1.82배 prefill 속도 향상을 보임.",
+      "korean_abstract": "LLM에서 긴 컨텍스트를 처리하는 agentic 워크플로우가 중요해짐에 따라 attention 효율성이 중요해지고, sparse attention이 효과적인 대안으로 떠오르고 있다. DeepSeek Sparse Attention (DSA)은 각 레이어마다 독립적으로 인덱서를 실행해야 하는 O(L^2) 복잡도를 가진다. IndexCache는 레이어 간 top-k 선택의 유사성을 활용하여 일부 레이어에서만 인덱서를 실행하고, 나머지 레이어는 이를 재사용한다. Training-free 방식은 검증 세트에서 언어 모델링 손실을 최소화하는 레이어를 선택하고, Training-aware 방식은 multi-layer distillation loss를 사용하여 인덱서를 훈련한다. 30B DSA 모델에서 IndexCache는 인덱서 계산량을 75% 줄이면서도 품질 저하를 최소화하여 최대 1.82배 prefill 속도 및 1.48배 decode 속도 향상을 달성했다.",
       "key_points": [
-        "Cross-layer redundancy를 활용하여 sparse attention 인덱싱 연산량 감소",
-        "Training-free 및 training-aware 방식 모두 제공",
-        "실제 모델(DSA, GLM-5)에서 속도 향상 입증"
+        "레이어 간 attention index 재사용을 통해 sparse attention의 인덱싱 연산량 감소",
+        "Training-free 및 Training-aware 두 가지 IndexCache 구성 방법 제시",
+        "DeepSeek Sparse Attention 모델에서 상당한 속도 향상 입증"
       ],
       "tags": [
+        "LLM",
         "Sparse Attention",
         "Inference",
         "Optimization",
-        "LLM",
         "Agent",
         "RAG",
         "Distillation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 서비스의 inference 비용 절감 및 속도 향상에 직접적으로 기여할 수 있으며, 특히 긴 문맥을 처리하는 agentic workflow에서 효과적이다.",
+      "practical_relevance": "LLM 서비스의 inference 비용 절감 및 속도 향상에 직접적으로 기여할 수 있으며, 특히 긴 컨텍스트를 다루는 agent 개발에 유용하다.",
       "recommended_actions": [
-        "기존 sparse attention 모델에 IndexCache 적용 가능성 검토",
-        "Training-free 방식부터 적용하여 성능 변화 관찰",
-        "모델 사이즈 및 데이터셋에 따른 최적의 Full/Shared 레이어 구성 탐색"
+        "DeepSeek Sparse Attention 모델에 IndexCache 적용 검토",
+        "Training-free 방식의 IndexCache를 먼저 시도하여 성능 향상 확인",
+        "필요에 따라 Training-aware 방식으로 추가적인 성능 개선 시도"
       ],
       "risks_and_limits": [
-        "IndexCache 구성에 따라 성능 변화 가능성 존재",
-        "새로운 모델 구조에 대한 일반화 가능성 검증 필요"
+        "IndexCache 구성에 따라 성능 저하 가능성 존재",
+        "다른 sparse attention 방식과의 호환성 확인 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -134,33 +135,32 @@
       "url": "https://huggingface.co/papers/2603.10178",
       "arxiv_url": "https://arxiv.org/abs/2603.10178",
       "upvotes": 35,
-      "summary": "컴퓨터 사용 에이전트의 실행 비디오를 보고 보상을 예측하는 모델(ExeVRM)을 개발하여, 기존의 대규모 언어 모델(GPT-5.2, Gemini-3 Pro)보다 정확하고 효율적인 평가가 가능하게 함.",
-      "korean_abstract": "컴퓨터 사용 에이전트(CUA)의 성능은 향상되고 있지만, 사용자의 명령을 얼마나 잘 수행하는지 평가하기 어렵다는 문제가 있습니다. 본 연구에서는 에이전트의 내부 동작과 무관하게 실행 비디오로부터 보상을 모델링하는 방법을 제시합니다. 비디오 실행 모델링은 방법론에 독립적이지만, UI의 중복성과 미묘한 변화를 감지해야 하는 어려움이 있습니다. 이를 해결하기 위해 53k개의 비디오-태스크-보상 데이터셋(ExeVR-53k)을 구축하고, 적대적 학습을 통해 부정적인 샘플을 합성했습니다. 또한, 긴 비디오에서 중요한 UI 변화를 보존하면서 불필요한 토큰을 제거하는 spatiotemporal token pruning 기법을 제안합니다. 이러한 구성 요소를 기반으로, 사용자 명령과 실행 비디오를 입력받아 태스크 성공 여부를 예측하는 ExeVRM을 개발했으며, 84.7%의 정확도와 87.7%의 재현율로 GPT-5.2 및 Gemini-3 Pro를 능가하는 성능을 보였습니다.",
+      "summary": "컴퓨터 사용 에이전트의 실행 비디오를 통해 보상 모델을 학습하고, 사용자 명령 수행 성공 여부를 평가하는 새로운 방법을 제시하여, 기존 모델 대비 성능 향상 및 평가 확장성을 제공합니다.",
+      "korean_abstract": "컴퓨터 사용 에이전트(CUA)의 능력이 향상되고 있지만, 사용자의 명령을 제대로 수행했는지 평가하기 어렵습니다. 본 연구에서는 에이전트의 내부 추론이나 행동에 의존하지 않고 실행 비디오로부터 보상 모델을 학습하는 방법을 연구합니다. 비디오 실행 모델링은 방법론에 구애받지 않지만, 높은 중복성과 미묘한 성공 큐를 포함하는 어려움이 있습니다. 이를 해결하기 위해 53k개의 고품질 비디오-태스크-보상 데이터셋(ExeVR-53k)을 구축하고, 적대적 명령 변환을 통해 부정적 샘플을 합성합니다. 또한, 시공간 토큰 가지치기를 통해 긴 고해상도 비디오에서 학습 효율성을 높입니다. 이러한 구성 요소를 기반으로, 사용자 명령과 비디오 실행 시퀀스만으로 작업 성공 여부를 예측하는 ExeVRM을 개발하여, 기존 GPT-5.2 및 Gemini-3 Pro 모델보다 우수한 성능을 달성했습니다.",
       "key_points": [
-        "53k 규모의 고품질 비디오-태스크-보상 데이터셋 (ExeVR-53k) 구축",
-        "적대적 학습 기반의 부정적 샘플 합성 기법 및 spatiotemporal token pruning 제안",
-        "ExeVRM 모델이 Ubuntu, macOS, Windows, Android 환경에서 GPT-5.2, Gemini-3 Pro 대비 우수한 성능을 보임"
+        "실행 비디오 기반 보상 모델링(ExeVRM) 프레임워크 제안",
+        "53k 규모의 고품질 비디오-태스크-보상 데이터셋(ExeVR-53k) 구축",
+        "시공간 토큰 가지치기를 통한 효율적인 비디오 학습 방법 제시"
       ],
       "tags": [
         "Agent",
         "Reward Modeling",
         "Video",
-        "Computer Vision",
-        "UI",
+        "UI Automation",
         "Reasoning",
         "Evaluation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "CUA의 성능 평가를 자동화하고 확장하는 데 유용하며, 특히 GUI 기반 작업의 성공 여부를 판단하는 데 효과적입니다. 모델 개발자는 에이전트의 개선 방향을 파악하고, 사용자 경험을 향상시키는 데 활용할 수 있습니다.",
+      "practical_relevance": "CUA의 성능 평가를 자동화하고 확장하는 데 유용하며, 다양한 운영체제 환경에서 에이전트의 동작을 검증하는 데 활용할 수 있습니다.",
       "recommended_actions": [
-        "ExeVR-53k 데이터셋을 활용하여 자사 에이전트의 비디오 기반 보상 모델 학습",
-        "Spatiotemporal token pruning 기법을 자사 비디오 처리 파이프라인에 적용하여 효율성 향상",
-        "ExeVRM 모델을 자사 CUA 평가 시스템에 통합하여 자동 평가 시스템 구축"
+        "ExeVRM 모델을 활용하여 자사 에이전트의 작업 성공률 평가",
+        "ExeVR-53k 데이터셋을 기반으로 새로운 보상 모델 학습",
+        "시공간 토큰 가지치기 기법을 자사 비디오 처리 파이프라인에 적용"
       ],
       "risks_and_limits": [
-        "비디오 데이터셋 구축 및 관리 비용이 발생할 수 있음",
-        "특정 UI 환경에 편향된 모델이 생성될 가능성이 존재"
+        "데이터셋의 편향으로 인한 일반화 성능 저하 가능성",
+        "복잡한 UI 환경에서의 성능 저하 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -175,19 +175,19 @@
       "url": "https://huggingface.co/papers/2603.11421",
       "arxiv_url": "https://arxiv.org/abs/2603.11421",
       "upvotes": 28,
-      "summary": "ShotVerse는 텍스트 기반 멀티샷 비디오 생성을 위한 시네마틱 카메라 제어 프레임워크로, 데이터 중심 접근 방식을 통해 자동 플래닝과 정확한 실행을 연결하여 기존 방식의 한계를 극복하고 카메라 정확도와 샷 간 일관성을 높임.",
-      "korean_abstract": "텍스트 기반 비디오 생성은 영화 제작을 대중화했지만, 시네마틱 멀티샷 시나리오에서의 카메라 제어는 여전히 어려운 과제이다. 기존의 텍스트 프롬프트는 정밀성이 부족하고, 명시적인 궤적 조건화는 과도한 수동 오버헤드를 발생시킨다. 이러한 문제를 해결하기 위해, 본 논문에서는 캡션, 궤적, 비디오의 정렬된 데이터셋이 자동 플래닝과 정확한 실행을 연결할 수 있다는 아이디어에 기반한 데이터 중심 패러다임을 제안한다. ShotVerse는 VLM 기반 플래너와 카메라 어댑터를 통해 궤적을 렌더링하는 컨트롤러로 구성된 'Plan-then-Control' 프레임워크를 통해 텍스트로부터 시네마틱 비디오를 생성한다. ShotVerse-Bench 데이터셋을 구축하여 프레임워크를 평가한 결과, 기존 방식보다 우수한 시네마틱 품질과 카메라 정확도, 샷 간 일관성을 달성했다.",
+      "summary": "ShotVerse는 텍스트 기반 멀티샷 비디오 생성에서 카메라 제어 문제를 해결하기 위해, VLM 기반 Planner와 Controller 에이전트를 활용하여 시네마틱한 비디오를 생성하는 새로운 프레임워크와 데이터셋을 제시한다.",
+      "korean_abstract": "텍스트 기반 비디오 생성은 영화 제작을 대중화했지만, 시네마틱 멀티샷 시나리오에서 카메라 제어는 여전히 어려운 문제이다. 기존 방법들은 텍스트 프롬프트의 부정확성, 수동 오버헤드, 모델 실행 실패 등의 문제점을 가진다. 본 논문에서는 (캡션, 궤적, 비디오) triplet의 joint distribution을 활용하여 자동 플롯팅과 정확한 실행을 연결하는 새로운 데이터 중심 패러다임을 제안한다. 이를 위해 VLM 기반 Planner와 Controller 에이전트로 구성된 ShotVerse 프레임워크를 제시한다. 또한, disjoint된 싱글샷 궤적을 통합하는 자동 멀티샷 카메라 캘리브레이션 파이프라인을 설계하여 고품질 시네마틱 데이터셋 ShotVerse-Bench를 구축했다. 실험 결과, ShotVerse는 텍스트 제어의 부정확성과 수동 플롯팅의 어려움을 효과적으로 해결하고, 카메라 정확도와 샷 간 일관성을 모두 갖춘 멀티샷 비디오를 생성하는 데 성공했다.",
       "key_points": [
-        "데이터 중심 접근 방식으로 자동 플래닝과 정확한 실행을 연결",
-        "VLM 기반 플래너와 카메라 어댑터를 활용한 'Plan-then-Control' 프레임워크",
-        "멀티샷 카메라 캘리브레이션 파이프라인을 통해 구축된 ShotVerse-Bench 데이터셋"
+        "VLM 기반 Planner와 Controller 에이전트를 활용한 'Plan-then-Control' 프레임워크 제시",
+        "자동 멀티샷 카메라 캘리브레이션 파이프라인을 통한 고품질 시네마틱 데이터셋 ShotVerse-Bench 구축",
+        "카메라 정확도와 샷 간 일관성을 모두 갖춘 멀티샷 비디오 생성"
       ],
       "tags": [
         "Video Generation",
         "Camera Control",
-        "Vision-Language Model",
+        "VLM",
         "Dataset",
-        "Cinematic",
+        "AI",
         "Agent",
         "RAG",
         "Vision",
@@ -196,15 +196,15 @@
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "텍스트 기반 비디오 생성 시 카메라 움직임을 제어하는 데 드는 수고를 줄여주고, 더욱 자연스럽고 영화적인 연출을 가능하게 해준다. 특히, 게임 컷씬 제작이나 가상 프로덕션 환경에서 유용하게 활용될 수 있다.",
+      "practical_relevance": "텍스트 기반 비디오 생성 파이프라인에서 카메라 움직임 제어의 자동화 및 고품질화를 가능하게 하여, 개발자가 더욱 쉽게 시네마틱한 비디오 콘텐츠를 제작할 수 있도록 돕는다.",
       "recommended_actions": [
-        "ShotVerse-Bench 데이터셋을 활용하여 자체 모델 학습",
-        "VLM 플래너와 카메라 어댑터의 성능 비교 분석",
-        "다른 카메라 제어 방식과의 통합 실험"
+        "ShotVerse-Bench 데이터셋을 활용하여 기존 비디오 생성 모델의 카메라 제어 성능 개선 실험",
+        "자체 데이터셋에 ShotVerse의 카메라 캘리브레이션 파이프라인 적용 및 효과 검증",
+        "ShotVerse 프레임워크를 기반으로 다양한 스타일의 시네마틱 카메라 움직임 생성 연구"
       ],
       "risks_and_limits": [
-        "데이터셋 구축 비용이 높을 수 있음",
-        "특정 스타일의 시네마틱 연출에 편향될 가능성"
+        "VLM의 성능에 따라 Planner의 성능이 좌우될 수 있음",
+        "특정 장르나 스타일에 편향된 데이터셋으로 인해 일반화 성능이 제한될 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -220,10 +220,10 @@
       "arxiv_url": "https://arxiv.org/abs/2603.12257",
       "upvotes": 26,
       "summary": "DreamVideo-Omni는 다중 객체의 정교한 모션 제어와 ID 유지를 가능하게 하는 비디오 생성 프레임워크로, latent identity reward feedback learning을 통해 ID degradation 문제를 해결하고 고품질 비디오 생성을 가능하게 함.",
-      "korean_abstract": "최근 비디오 생성 모델은 발전했지만, 다중 객체의 ID 유지와 다양한 모션 제어는 여전히 어려운 문제이다. 기존 방법들은 모션 제어의 세밀함 부족, 제어의 모호성, ID 손상 등의 문제점을 가진다. 본 논문에서는 DreamVideo-Omni라는 새로운 프레임워크를 제안하여, appearance, global motion, local dynamics, camera movements 등 다양한 제어 신호를 통합하고, condition-aware 3D rotary positional embedding과 hierarchical motion injection 전략을 통해 정교한 제어를 가능하게 한다. 또한, group 및 role embedding을 도입하여 객체 간 모션 신호의 모호성을 해결하고, latent identity reward feedback learning을 통해 ID 유지 성능을 향상시킨다. DreamVideo-Omni는 다중 객체 및 다양한 모션 제어 환경에서 우수한 성능을 보여준다.",
+      "korean_abstract": "최근 비디오 생성 모델은 발전했지만, 다중 객체의 ID 유지와 다양한 모션 제어는 여전히 어려운 과제이다. 기존 방법들은 모션 제어의 세밀함 부족, 제어의 모호성, ID 손상 등의 문제점을 가진다. 본 논문에서는 DreamVideo-Omni라는 새로운 프레임워크를 제안하여, appearance, global motion, local dynamics, camera movements 등 다양한 제어 신호를 통합하여 학습한다. 특히, condition-aware 3D rotary positional embedding과 hierarchical motion injection 전략을 통해 정교한 제어를 가능하게 하고, group/role embedding을 통해 객체 간의 모션 연결을 명확히 한다. 또한, latent identity reward feedback learning을 통해 ID 유지 성능을 향상시켰다. DreamVideo-Omni는 다양한 실험을 통해 우수한 성능을 입증했다.",
       "key_points": [
-        "다양한 제어 신호 (appearance, global motion, local dynamics, camera movements) 통합",
-        "Condition-aware 3D rotary positional embedding 및 hierarchical motion injection 전략을 통한 정교한 모션 제어",
+        "다중 객체 ID와 모션 제어를 위한 통합 프레임워크 DreamVideo-Omni 제시",
+        "Condition-aware 3D rotary positional embedding 및 hierarchical motion injection을 통한 정교한 모션 제어",
         "Latent identity reward feedback learning을 통한 ID 유지 성능 향상"
       ],
       "tags": [
@@ -236,15 +236,15 @@
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "비디오 편집 및 생성 파이프라인에서 특정 객체의 움직임과 외형을 세밀하게 제어해야 하는 경우에 유용하며, 특히 캐릭터 애니메이션이나 가상 환경 구축 시 활용도가 높을 것으로 예상된다.",
+      "practical_relevance": "비디오 편집 및 생성 파이프라인에서 특정 객체의 움직임을 제어하고 ID를 유지하는 기능을 자동화하여, 콘텐츠 제작 효율성을 높일 수 있다. 특히, 게임 개발, 영화 제작 등에서 캐릭터 애니메이션 생성에 유용하게 활용될 수 있다.",
       "recommended_actions": [
-        "DreamVideo-Omni의 데이터셋 구축 및 학습 파이프라인 분석",
-        "자체 데이터셋에 DreamVideo-Omni 적용하여 ID 유지 및 모션 제어 성능 테스트",
-        "Latent identity reward 모델을 활용한 다른 비디오 생성 모델의 ID 유지 성능 개선 시도"
+        "DreamVideo-Omni의 condition-aware 3D rotary positional embedding을 활용하여 기존 비디오 생성 모델의 모션 제어 성능 개선",
+        "Latent identity reward feedback learning을 다른 비디오 생성 모델에 적용하여 ID 유지 성능 향상",
+        "DreamOmni Bench 데이터셋을 활용하여 자체 비디오 생성 모델의 다중 객체 제어 성능 평가"
       ],
       "risks_and_limits": [
-        "학습 데이터셋 구축 비용이 높을 수 있음",
-        "복잡한 장면에서 객체 간 상호작용 제어가 어려울 수 있음"
+        "제안하는 방법이 특정 객체 수 또는 복잡한 모션에 대해 일반화될 수 있는지 확인 필요",
+        "Latent identity reward model의 학습 데이터에 대한 의존성 존재 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -259,34 +259,34 @@
       "url": "https://huggingface.co/papers/2603.12247",
       "arxiv_url": "https://arxiv.org/abs/2603.12247",
       "upvotes": 22,
-      "summary": "이미지 편집 및 생성 시 강화 학습의 reward model의 부정확성을 개선하는 FIRM 프레임워크(데이터셋, 벤치마크, 보상 전략)를 제안, 사람의 판단과 더 잘 일치하고 기존 모델 대비 충실도와 명령어 준수에서 새로운 기준을 제시.",
-      "korean_abstract": "강화 학습은 이미지 편집 및 텍스트-이미지 생성에 유망하지만, reward model의 부정확성으로 인해 최적화가 어렵습니다. 본 논문에서는 정확하고 신뢰할 수 있는 reward model을 구축하는 FIRM 프레임워크를 제안합니다. FIRM은 고품질 데이터셋 구축을 위한 데이터 큐레이션 파이프라인을 설계하고, FIRM-Edit-370K 및 FIRM-Gen-293K 데이터셋을 구축하여 reward model을 학습합니다. 또한, 편집 및 생성 critic을 위한 FIRM-Bench 벤치마크를 소개하고, 'Base-and-Bonus' 보상 전략을 통해 강화 학습 파이프라인에 통합합니다. 실험 결과, FIRM은 기존 모델 대비 충실도와 명령어 준수에서 우수한 성능을 보입니다.",
+      "summary": "이미지 편집 및 생성 시 강화 학습의 reward model의 부정확성을 개선하는 FIRM 프레임워크(데이터셋, 벤치마크, 보상 전략)를 제안, 사람의 판단과 더 잘 일치하고 기존 모델 대비 충실도와 명령어 준수율을 향상시킴.",
+      "korean_abstract": "강화 학습은 이미지 편집 및 텍스트-이미지 생성에 유망하지만, reward model의 부정확성으로 인해 최적화 과정이 왜곡되는 문제가 있습니다. 본 논문에서는 정확하고 신뢰할 수 있는 reward model을 구축하여 이미지 생성 및 편집의 충실도를 높이는 FIRM 프레임워크를 제안합니다. FIRM은 고품질 scoring 데이터셋을 구축하기 위한 데이터 큐레이션 파이프라인을 설계하고, 편집과 생성에 특화된 reward model을 학습합니다. 또한, 편집 및 생성 critic을 위한 벤치마크인 FIRM-Bench를 소개하고, 'Base-and-Bonus' reward 전략을 통해 강화 학습 파이프라인에 통합합니다. 실험 결과, FIRM은 기존 모델 대비 충실도와 명령어 준수율에서 뛰어난 성능을 보였습니다.",
       "key_points": [
-        "고품질 이미지 편집/생성 reward model 학습을 위한 데이터 큐레이션 파이프라인 설계 및 데이터셋 구축 (FIRM-Edit-370K, FIRM-Gen-293K)",
-        "편집 및 생성 critic 평가를 위한 FIRM-Bench 벤치마크 개발",
-        "강화 학습 파이프라인 통합을 위한 'Base-and-Bonus' 보상 전략 제안 (CME, QMA)"
+        "고품질 이미지 편집/생성 reward model 학습을 위한 데이터 큐레이션 파이프라인 설계",
+        "편집 및 생성 critic 평가를 위한 FIRM-Bench 벤치마크 구축",
+        "강화 학습 통합을 위한 'Base-and-Bonus' reward 전략 제안 (CME, QMA)"
       ],
       "tags": [
-        "Image Editing",
         "Image Generation",
         "Reinforcement Learning",
         "Reward Modeling",
+        "Image Editing",
         "Vision",
         "Benchmark",
         "Evaluation",
         "Safety"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "이미지 편집/생성 모델의 성능 향상을 위해 reward model의 중요성이 강조되고 있으며, FIRM은 더 정확한 reward model을 구축하고 강화 학습 파이프라인에 통합하는 방법을 제시하여 실제 모델 개선에 활용될 수 있습니다.",
+      "practical_relevance": "이미지 생성 모델의 품질을 개선하고, 강화 학습 기반 이미지 편집/생성 파이프라인의 reward hacking 문제를 완화하는 데 기여할 수 있습니다.",
       "recommended_actions": [
-        "FIRM 데이터셋을 활용하여 기존 이미지 편집/생성 모델의 reward model 개선",
-        "FIRM-Bench를 사용하여 자체 개발한 reward model의 성능 평가",
-        "'Base-and-Bonus' 보상 전략을 강화 학습 파이프라인에 적용하여 이미지 편집/생성 모델 학습"
+        "FIRM-Bench를 활용하여 자체 이미지 생성 모델의 critic 성능 평가",
+        "FIRM에서 제안하는 데이터 큐레이션 파이프라인을 적용하여 reward model 학습 데이터셋 구축",
+        "'Base-and-Bonus' reward 전략을 강화 학습 파이프라인에 적용하여 이미지 생성 품질 개선"
       ],
       "risks_and_limits": [
-        "데이터셋 구축 및 reward model 학습에 상당한 컴퓨팅 자원 필요",
-        "FIRM 프레임워크가 특정 유형의 이미지 편집/생성에만 적합할 수 있음"
+        "FIRM 프레임워크가 특정 유형의 이미지 편집/생성에 편향될 수 있음",
+        "reward model의 성능이 데이터셋의 품질에 크게 의존적임"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -300,19 +300,19 @@
       "paper_id": "2603.12056",
       "url": "https://huggingface.co/papers/2603.12056",
       "arxiv_url": "https://arxiv.org/abs/2603.12056",
-      "upvotes": 20,
-      "summary": "XSkill은 multimodal agent가 경험과 스킬을 통해 지속적으로 학습하여 도구 활용 능력을 향상시키는 프레임워크로, 별도의 파라미터 업데이트 없이 성능 향상을 가능하게 함.",
-      "korean_abstract": "Multimodal agent는 복잡한 추론 작업을 수행할 수 있지만, 도구 활용의 비효율성과 유연성 부족 문제가 있습니다. 이러한 문제를 해결하기 위해 과거의 경험으로부터 지속적으로 학습하는 것이 중요합니다. XSkill은 경험과 스킬이라는 두 가지 형태의 재사용 가능한 지식을 활용하여 이 목표를 달성합니다. XSkill은 시각적 관찰을 기반으로 지식을 추출하고 검색하며, 다중 경로 롤아웃으로부터 경험과 스킬을 요약하고 비판적으로 평가하여 통합합니다. 추론 시에는 현재 시각적 맥락에 맞춰 지식을 검색하고 적용하며, 사용 이력을 축적하여 지속적인 학습 루프를 형성합니다. 다양한 벤치마크에서 XSkill은 기존 방법들을 능가하는 성능을 보였습니다.",
+      "upvotes": 21,
+      "summary": "XSkill은 시각적 관찰을 기반으로 경험과 기술을 지속적으로 학습하여 멀티모달 에이전트의 도구 활용 효율성과 유연성을 향상시키는 프레임워크입니다.",
+      "korean_abstract": "최근 멀티모달 에이전트는 복잡한 추론 작업을 수행할 수 있지만, 도구 활용의 비효율성과 유연성 부족 문제가 있습니다. 이러한 문제를 해결하기 위해 과거 경험으로부터 지속적으로 학습하는 것이 중요합니다. XSkill은 경험(action-level 지침)과 기술(task-level 지침)이라는 두 가지 형태의 재사용 가능한 지식을 활용하는 이중 스트림 프레임워크를 제안합니다. XSkill은 시각적 관찰을 기반으로 지식을 추출하고 검색하며, 롤아웃을 통해 경험과 기술을 요약하고 비판적으로 평가합니다. 추론 시에는 현재 시각적 맥락에 맞춰 지식을 검색하고 적용하며, 사용 이력을 축적하여 지속적인 학습 루프를 형성합니다. 다양한 도메인의 벤치마크에서 XSkill은 기존 방법들을 능가하는 성능을 보였습니다.",
       "key_points": [
-        "경험과 스킬을 활용한 이중 스트림 프레임워크 XSkill 제안",
-        "시각적 정보를 기반으로 지식 추출 및 검색",
-        "지속적인 학습 루프를 통해 에이전트의 추론 능력 향상"
+        "경험과 기술이라는 두 가지 형태의 지식 활용",
+        "시각적 관찰 기반의 지식 추출 및 검색",
+        "지속적인 학습 루프를 통한 성능 향상"
       ],
       "tags": [
         "Agent",
+        "Vision",
         "Continual Learning",
         "Multimodal",
-        "Vision",
         "RAG",
         "Reasoning",
         "Benchmark",
@@ -320,17 +320,17 @@
         "Inference",
         "Distillation"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "Multimodal agent의 도구 활용 능력을 향상시키고 지속적인 학습을 가능하게 하여, 복잡한 작업을 자동화하고 새로운 환경에 적응하는 데 도움을 줄 수 있습니다.",
+      "practical_relevance": "멀티모달 에이전트 개발 시 도구 활용 전략을 개선하고, 지속적인 학습을 통해 에이전트의 성능을 향상시키는 데 활용할 수 있습니다. 특히, 시각적 정보를 활용하는 에이전트 개발에 유용합니다.",
       "recommended_actions": [
-        "XSkill 프레임워크를 기반으로 자체 에이전트 구축",
-        "시각적 정보를 활용한 지식 추출 및 검색 방법 실험",
-        "지속적인 학습 루프를 통해 에이전트 성능 향상 방안 연구"
+        "XSkill 프레임워크를 기반으로 멀티모달 에이전트 개발",
+        "시각적 정보를 활용한 경험 및 기술 축적 방법 연구",
+        "XSkill의 다양한 도메인 적용 가능성 평가"
       ],
       "risks_and_limits": [
-        "시각적 정보에 대한 의존성이 높아, 시각적 정보가 부족하거나 노이즈가 많은 경우 성능 저하 가능성",
-        "경험과 스킬의 요약 및 통합 과정에서 정보 손실 발생 가능성"
+        "시각적 정보에 대한 의존성이 높음",
+        "복잡한 환경에서의 성능 저하 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -345,12 +345,12 @@
       "url": "https://huggingface.co/papers/2603.12250",
       "arxiv_url": "https://arxiv.org/abs/2603.12250",
       "upvotes": 18,
-      "summary": "비디오 확산 모델을 활용하여 별도 학습 없이 고품질의 비디오 깊이 추정 가능, 데이터 부족 문제 해결 및 실시간 적용 잠재력 제공.",
-      "korean_abstract": "기존 비디오 깊이 추정 모델은 생성 모델의 부정확성과 판별 모델의 과도한 데이터 의존성이라는 문제점을 가지고 있습니다. 본 논문에서는 사전 학습된 비디오 확산 모델을 활용하여 이러한 문제점을 해결하는 DVD 프레임워크를 제안합니다. DVD는 확산 시간 단계를 구조적 기준으로 재활용하고, 잠재 공간 정류를 통해 경계면을 복원하며, 전역 어파인 일관성을 통해 긴 비디오에서도 안정적인 추론을 가능하게 합니다. 실험 결과, DVD는 기존 방식 대비 적은 데이터로도 최첨단 성능을 달성했으며, 오픈 소스 커뮤니티에 기여할 수 있도록 전체 파이프라인을 공개합니다.",
+      "summary": "비디오 확산 모델을 활용하여 별도의 대규모 데이터셋 없이도 고품질의 비디오 깊이 추정 성능을 달성하는 새로운 프레임워크 DVD를 제시하여, 실무에서 비디오 기반 3D 모델링 및 AR/VR 애플리케이션 개발에 드는 비용과 시간을 절감할 수 있습니다.",
+      "korean_abstract": "기존 비디오 깊이 추정 모델은 생성 모델의 부정확성과 판별 모델의 대규모 데이터 의존성 사이의trade-off가 존재했습니다. 이러한 문제점을 해결하기 위해, 본 논문에서는 사전 학습된 비디오 확산 모델을 활용하여 단일 패스 깊이 회귀 모델로 변환하는 DVD 프레임워크를 제안합니다. DVD는 확산 시간 단계를 구조적 앵커로 재활용하고, 잠재 공간 정류(LMR)를 통해 과도한 평활화를 완화하며, 전역 어파인 일관성을 통해 긴 비디오 추론을 가능하게 합니다. 실험 결과, DVD는 기존 방식 대비 적은 데이터로도 최첨단 성능을 달성했으며, 오픈 소스 커뮤니티에 기여하기 위해 전체 파이프라인을 공개합니다.",
       "key_points": [
         "비디오 확산 모델을 깊이 추정 문제에 효과적으로 적용",
-        "별도 학습 데이터 없이 제로샷 성능 달성",
-        "기존 방식 대비 적은 데이터로도 SOTA 성능 확보"
+        "별도의 대규모 데이터셋 없이 제로샷 성능 달성",
+        "긴 비디오에서도 일관성 있는 깊이 추정 가능"
       ],
       "tags": [
         "Vision",
@@ -364,15 +364,15 @@
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "비디오 기반 서비스에서 깊이 정보를 활용한 다양한 기능(AR, 3D 모델링 등)을 개발할 때, 별도의 대규모 데이터셋 구축 없이 사전 학습된 모델을 활용하여 빠르게 프로토타입을 제작하고 성능을 검증할 수 있습니다.",
+      "practical_relevance": "DVD는 비디오 기반 3D 모델링, AR/VR, 자율 주행 등 다양한 분야에서 활용될 수 있으며, 특히 대규모 데이터셋 구축 없이도 고품질의 깊이 정보를 얻을 수 있다는 점에서 실무적인 가치가 높습니다.",
       "recommended_actions": [
-        "제공되는 파이프라인을 사용하여 보유한 비디오 데이터셋에 대한 깊이 추정 실험 진행",
-        "깊이 추정 결과를 활용하여 AR/VR 애플리케이션 개발",
-        "다른 비디오 관련 task에 확산 모델 적용 가능성 연구"
+        "DVD 파이프라인을 사용하여 자체 비디오 데이터셋에 대한 깊이 추정 실험 수행",
+        "DVD의 LMR 모듈을 개선하여 깊이 추정 정확도 향상 시도",
+        "DVD를 다른 비디오 처리 task (예: 객체 추적, 장면 이해)에 적용"
       ],
       "risks_and_limits": [
-        "확산 모델의 계산 복잡도로 인해 실시간 처리에는 제약이 있을 수 있음",
-        "특정 유형의 비디오(예: 매우 역동적인 장면)에서는 성능 저하가 발생할 수 있음"
+        "확산 모델의 특성상 계산 비용이 높을 수 있음",
+        "특정 유형의 비디오 (예: 급격한 카메라 움직임)에서 성능 저하 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
