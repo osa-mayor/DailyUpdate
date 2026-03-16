@@ -1,0 +1,252 @@
+# 🟠 Hacker News Daily Top 10 (2026-03-17)
+
+## 1. [Canada's bill C-22 mandates mass metadata surveillance](https://www.michaelgeist.ca/2026/03/a-tale-of-two-bills-lawful-access-returns-with-changes-to-warrantless-access-but-dangerous-backdoor-surveillance-risks-remains/)
+**Score**: 964 | **Comments**: 308 | **Rank Score**: 676.785
+**작성자**: opengrass | **게시 시각(KST)**: 2026-03-16T06:22:16+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47392084
+
+### 📰 원문 기사 요약
+C-22 법안은 '적시 데이터 및 정보 접근'과 '정보에 대한 승인된 접근 지원법(SAAIA)' 두 부분으로 구성된다. 특히, 이전 법안 C-2에서 문제가 되었던 광범위한 정보 요구 권한이 수정되어, 의사나 변호사를 포함한 모든 서비스 제공자를 대상으로 했던 것에서 통신 제공자로 범위가 축소되었다. 하지만 여전히 영장 없는 개인 정보 공개 요구 가능성이 남아 있어 논란의 여지를 남기고 있다.
+
+### 💬 Hacker News 토론 요약
+영장 없는 검색 및 접근에 대한 논쟁이 중심이다. 법안 원문상으로는 영장이 필요해 보이지만, 정부가 헌법에 보장된 국민의 권리를 쉽게 침해할 수 있다는 우려가 제기되고 있다.
+
+### 📌 종합 요약
+캐나다의 C-22 법안은 통신 서비스 제공자가 보유한 개인 정보에 대한 법 집행 기관의 접근 권한을 강화하고, 네트워크 감시 및 모니터링 역량 개발을 목표로 한다. 이 법안은 영장 없는 개인 정보 접근을 허용한다는 비판을 받으며, 개인의 자유와 정부 권한 간의 논쟁을 촉발했다.
+
+### 🔎 종합 핵심 포인트
+- C-22 법안은 통신 서비스 제공자가 보유한 개인 정보에 대한 법 집행 기관의 접근 권한을 강화한다.
+- 영장 없는 개인 정보 접근 가능성에 대한 우려가 주요 쟁점이다.
+- 이 법안은 개인 정보 보호와 국가 안보 간의 균형에 대한 지속적인 논쟁을 보여준다.
+
+**카테고리**: 정책/사회 이슈
+
+**태그**: 캐나다, C-22 법안, 감시, 개인 정보 보호, 법 집행
+
+---
+
+## 2. [Polymarket gamblers threaten to kill me over Iran missile story](https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/)
+**Score**: 944 | **Comments**: 592 | **Rank Score**: 663.591
+**작성자**: defly | **게시 시각(KST)**: 2026-03-16T21:00:06+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47397822
+
+### 📰 원문 기사 요약
+timesofisrael.com 기사에 따르면, Polymarket 사용자가 이란 미사일 관련 예측 후 살해 협박을 받았습니다. Polymarket은 블록체인 기반 예측 시장으로, 사용자는 특정 사건의 발생 가능성에 베팅할 수 있습니다. 이러한 플랫폼은 예측 정확도를 높이는 데 기여할 수 있지만, 익명성을 악용한 위협과 괴롭힘 문제도 야기합니다. 특히 민감한 지정학적 사건 예측은 더욱 심각한 윤리적 문제를 낳을 수 있습니다.
+
+### 💬 Hacker News 토론 요약
+일부 사용자는 Polymarket의 존재 자체가 자유방임주의적 자본주의의 폐해라고 비판하며, 익명성에 기반한 예측 시장의 위험성을 지적합니다. 반면, 예측 시장의 정보 수집 및 예측 기능 자체는 옹호하며, 프라이버시 보호 강화가 해결책이 될 수 있다는 의견도 있습니다.
+
+### 📌 종합 요약
+Polymarket에서 이란 미사일 관련 예측을 한 사용자가 살해 협박을 받았다는 소식입니다. 예측 시장의 익명성과 책임감 부재에 대한 논쟁이 커뮤니티 내에서 벌어지고 있습니다.
+
+### 🔎 종합 핵심 포인트
+- 예측 시장의 익명성이 살해 협박과 같은 심각한 문제로 이어질 수 있다는 점이 드러났습니다.
+- Polymarket과 같은 예측 시장 플랫폼의 윤리적 책임과 규제 필요성에 대한 논의가 필요합니다.
+- 프라이버시 보호 강화가 예측 시장의 잠재적 위험을 완화하는 데 도움이 될 수 있을지 검토해야 합니다.
+
+**카테고리**: 정책/사회 이슈
+
+**태그**: Polymarket, 예측 시장, 살해 협박, 익명성, 프라이버시
+
+---
+
+## 3. [The 49MB web page](https://thatshubham.com/blog/news-audit)
+**Score**: 762 | **Comments**: 335 | **Rank Score**: 535.329
+**작성자**: kermatt | **게시 시각(KST)**: 2026-03-16T04:25:18+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47390945
+
+### 📰 원문 기사 요약
+해당 웹 페이지는 422회의 네트워크 요청과 49MB의 데이터를 사용합니다. 이는 이미지, 비디오, 트래킹 스크립트 등 다양한 요소들이 최적화 없이 과도하게 사용되었기 때문으로 분석됩니다. 특히, 불필요한 외부 라이브러리나 무거운 JavaScript 프레임워크 사용이 주요 원인으로 지적될 수 있습니다.
+
+### 💬 Hacker News 토론 요약
+일부에서는 개발자가 아닌 비기술적인 담당자들의 요구사항 때문에 웹 페이지 용량이 커진다고 주장합니다. 반면, 개발자들이 웹 최적화에 대한 책임감을 가지고 성능 개선에 적극적으로 나서야 한다는 의견도 있습니다.
+
+### 📌 종합 요약
+49MB에 달하는 웹 페이지의 과도한 용량 문제가 Hacker News에서 논쟁을 불러일으켰습니다. 개발자들이 의도한 것이 아니라, 과도한 네트워크 요청과 데이터 사용이 원인으로 지목되며, 웹 최적화의 중요성이 강조되고 있습니다.
+
+### 🔎 종합 핵심 포인트
+- 웹 페이지 용량 최적화는 사용자 경험에 직접적인 영향을 미치는 중요한 요소이다.
+- 비기술적인 요구사항과 개발자의 책임감 사이의 균형이 필요하다.
+- 불필요한 네트워크 요청과 과도한 데이터 사용을 줄이는 것이 핵심이다.
+
+**카테고리**: 개발 도구
+
+**태그**: 웹 개발, 최적화, 성능, 프론트엔드
+
+---
+
+## 4. [Stop Sloppypasta](https://stopsloppypasta.ai/)
+**Score**: 591 | **Comments**: 233 | **Rank Score**: 415.437
+**작성자**: namnnumbr | **게시 시각(KST)**: 2026-03-16T02:25:00+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47389570
+
+### 📰 원문 기사 요약
+Slack, Teams, 이메일 등에서 AI가 생성한 텍스트를 그대로 전달하는 'Sloppypasta'는 제목, 과도한 서식, 'X가 아니라 Y' 형태의 문장, 불필요한 em-dash 사용 등의 특징을 보인다. 발신자는 챗봇의 응답을 검증 없이 전달하며, 수신자에게 검토 및 조치 책임을 전가한다. 이는 비대칭적인 노력 요구로 이어져 무례하게 느껴질 수 있다.
+
+### 💬 Hacker News 토론 요약
+AI가 생성한 텍스트를 요약하는 AI 도구의 필요성이 제기되며, AI가 생성한 제품 스펙 문서가 또 다른 문제점으로 지적된다.
+
+### 📌 종합 요약
+AI가 생성한 텍스트를 검토 없이 전달하는 'Sloppypasta' 행위를 비판하는 글이 Hacker News에서 화제다. 이러한 행위는 수신자에게 불필요한 부담을 주고 비효율을 초래한다는 지적이다.
+
+### 🔎 종합 핵심 포인트
+- AI가 생성한 텍스트를 무분별하게 공유하는 행위는 업무 효율성을 저해한다.
+- AI 결과물의 검증 및 편집 책임이 사용자에게 있음을 간과해서는 안 된다.
+- AI를 활용한 요약 도구 개발은 정보 과부하 시대의 새로운 과제다.
+
+**카테고리**: AI/ML
+
+**태그**: AI, 생산성, 커뮤니케이션, 업무 효율
+
+---
+
+## 5. [Chrome DevTools MCP (2025)](https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session)
+**Score**: 566 | **Comments**: 225 | **Rank Score**: 398.002
+**작성자**: xnx | **게시 시각(KST)**: 2026-03-16T04:12:53+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47390817
+
+### 📰 원문 기사 요약
+Chrome DevTools MCP 서버가 코딩 에이전트가 활성 브라우저 세션에 직접 연결할 수 있도록 기능이 향상되었다. Chrome M144 베타 버전에서는 Chrome DevTools MCP 서버가 원격 디버깅 연결을 요청할 수 있다. 기본적으로 Chrome에서 원격 디버깅 연결은 비활성화되어 있으며, 개발자는 chrome://inspect#remote-debugging에서 명시적으로 활성화해야 한다. 이 기능은 Chrome의 기존 원격 디버깅 기능을 기반으로 구축되었다.
+
+### 💬 Hacker News 토론 요약
+Playwright를 사용하여 모든 요청과 응답을 가로채고 Claude Code가 YouTube와 같은 웹사이트를 탐색하고 모든 요소와 상호 작용하는 사례가 언급되었다. DevTools MCP 프로젝트의 독립 실행형 CLI에 대한 소식도 공유되었다.
+
+### 📌 종합 요약
+Chrome DevTools MCP가 코딩 에이전트가 활성 브라우저 세션에 직접 연결할 수 있도록 개선되었다. Chrome M144 베타 버전에서는 Chrome DevTools MCP 서버가 원격 디버깅 연결을 요청하는 기능이 추가되었다. Playwright를 사용하여 YouTube와 같은 웹사이트와 상호작용하는 사례에 대한 논의가 있다.
+
+### 🔎 종합 핵심 포인트
+- Chrome DevTools MCP 서버가 코딩 에이전트의 브라우저 세션 직접 연결을 지원한다.
+- Chrome M144 베타 버전에서 원격 디버깅 연결 요청 기능이 추가되어 개발자가 명시적으로 활성화해야 한다.
+- Playwright를 활용한 웹 자동화 및 코드 에이전트 연동에 대한 관심이 높다.
+
+**카테고리**: 개발 도구
+
+**태그**: Chrome DevTools, MCP, Playwright, 디버깅, 자동화
+
+---
+
+## 6. [Corruption erodes social trust more in democracies than in autocracies](https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2026.1779810/full)
+**Score**: 560 | **Comments**: 278 | **Rank Score**: 394.540
+**작성자**: PaulHoule | **게시 시각(KST)**: 2026-03-16T20:25:31+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47397593
+
+### 📰 원문 기사 요약
+프론티어스인(frontiersin.org)에 게재된 연구에 따르면, 민주주의 국가에서 부패는 사회적 신뢰에 더 큰 악영향을 미칩니다. 이는 권위주의 국가에서는 부패가 시스템 운영의 일부로 용인되는 경향이 있기 때문입니다. 연구는 사회적 신뢰도 지표와 부패 인식 지수를 활용하여 국가별 비교 분석을 수행했습니다. 구체적으로, 연구진은 100개 이상의 국가 데이터를 분석하여 부패가 사회적 자본에 미치는 영향을 정량적으로 평가했습니다.
+
+### 💬 Hacker News 토론 요약
+토론에서는 권위주의 정권에서 부패가 사회 유지에 필요한 요소라는 의견과, 민주주의 사회에서 부패가 사회 시스템에 대한 신뢰를 훼손한다는 주장이 대립합니다. 또한, 신뢰가 비즈니스 거래와 장기 투자에 필수적이라는 점을 강조하며, 기술 발전과 사회적 신뢰의 연관성에 대한 논의도 이루어졌습니다.
+
+### 📌 종합 요약
+민주주의 국가에서 부패는 사회적 신뢰를 더욱 크게 훼손한다는 연구 결과가 발표되었습니다. 권위주의 정권에서는 부패가 사회 유지의 필수 요소로 여겨지는 반면, 민주주의 사회에서는 부패가 시스템의 공정성에 대한 믿음을 무너뜨리기 때문입니다. 이 연구는 사회 시스템과 신뢰의 관계에 대한 중요한 시사점을 던져줍니다.
+
+### 🔎 종합 핵심 포인트
+- 민주주의 사회에서 부패는 사회적 신뢰를 더욱 심각하게 훼손한다.
+- 권위주의 정권에서는 부패가 사회 시스템 유지의 한 요소로 작용할 수 있다.
+- 사회적 신뢰는 비즈니스 투자와 기술 발전에 중요한 영향을 미친다.
+
+**카테고리**: 정책/사회 이슈
+
+**태그**: 부패, 사회적 신뢰, 민주주의, 권위주의, 정치
+
+---
+
+## 7. [LLM Architecture Gallery](https://sebastianraschka.com/llm-architecture-gallery/)
+**Score**: 540 | **Comments**: 40 | **Rank Score**: 379.157
+**작성자**: tzury | **게시 시각(KST)**: 2026-03-16T01:01:09+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47388676
+
+### 📰 원문 기사 요약
+해당 웹사이트는 다양한 LLM 아키텍처를 그림으로 표현하여 쉽게 이해할 수 있도록 돕는다. Transformer 모델을 기반으로 하는 다양한 변형들을 시각적으로 비교 분석할 수 있다. 특히, 각 아키텍처의 핵심 구성 요소와 작동 방식을 간결하게 설명하여 LLM에 대한 이해도를 높이는 데 기여한다.
+
+### 💬 Hacker News 토론 요약
+Sebastian Raschka의 LLM 관련 자료가 유용하다는 의견이 많았으며, 특히 'Build an LLM From Scratch' 책에 대한 추천이 있었다. 또한, 이 자료가 Neural Network Zoo와 유사하게 다양한 아키텍처를 시각적으로 잘 표현했다는 평가가 있었다.
+
+### 📌 종합 요약
+LLM 아키텍처 갤러리는 다양한 LLM 아키텍처를 시각적으로 보여주는 자료이다. Sebastian Raschka의 LLM 관련 자료에 대한 추천과 Neural Network Zoo와의 비교가 있었다.
+
+### 🔎 종합 핵심 포인트
+- 다양한 LLM 아키텍처를 시각적으로 비교 분석할 수 있다.
+- Sebastian Raschka의 LLM 관련 자료가 유용하다는 의견이 많다.
+- LLM 아키텍처에 대한 이해도를 높이는 데 기여한다.
+
+**카테고리**: AI/ML
+
+**태그**: LLM, 아키텍처, 시각화, Sebastian Raschka, Transformer
+
+---
+
+## 8. [MoD sources warn Palantir role at heart of government is threat to UK security](https://www.thenerve.news/p/palantir-technologies-uk-mod-sources-government-data-insights-security-state-secrets)
+**Score**: 471 | **Comments**: 175 | **Rank Score**: 332.124
+**작성자**: vrganj | **게시 시각(KST)**: 2026-03-16T20:57:33+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47397797
+
+### 📰 원문 기사 요약
+외부 기사 내용이 제공되지 않아 요약할 수 없습니다. 만약 기사 내용이 제공된다면, 구체적인 기술 스택이나 알고리즘, 데이터 처리 방식 등을 포함하여 요약하겠습니다.
+
+### 💬 Hacker News 토론 요약
+Palantir의 기술이 정부 시스템에 통합되는 것에 대한 우려와 함께, 데이터 보안 및 개인 정보 침해 가능성에 대한 비판이 제기되고 있습니다. 반면, 효율적인 데이터 분석 및 의사 결정 지원 능력에 대한 옹호 의견도 존재합니다.
+
+### 📌 종합 요약
+영국 정부 내 Palantir의 역할이 국가 안보에 위협이 된다는 경고가 제기되었습니다. NHS와 관련된 Palantir의 역할에 대한 우려와 함께, 데이터 관리 및 잠재적 악용 가능성에 대한 논쟁이 일고 있습니다.
+
+### 🔎 종합 핵심 포인트
+- Palantir의 정부 시스템 통합이 영국 국가 안보에 미치는 잠재적 영향
+- NHS 데이터 관리와 관련된 개인 정보 보호 및 보안 문제
+- 데이터 분석 기술의 악용 가능성과 윤리적 책임
+
+**카테고리**: 보안/프라이버시
+
+**태그**: Palantir, 영국 정부, 국가 안보, 데이터 보안, 개인 정보 보호
+
+---
+
+## 9. [How I write software with LLMs](https://www.stavros.io/posts/how-i-write-software-with-llms/)
+**Score**: 441 | **Comments**: 425 | **Rank Score**: 310.950
+**작성자**: indigodaddy | **게시 시각(KST)**: 2026-03-16T10:24:09+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47394022
+
+### 📰 원문 기사 요약
+글쓴이는 LLM을 활용하여 소프트웨어를 개발하는 자신만의 방식을 소개한다. 특히, OpenCLaw의 대안으로 보안에 중점을 둔 Stavrobot이라는 프로젝트를 예시로 들며, 실제 소스 코드를 통해 LLM 활용법을 설명한다. 아키텍처 전반에 걸쳐 LLM을 적극적으로 활용하는 방식이 특징이다.
+
+### 💬 Hacker News 토론 요약
+LLM을 활용한 개발 방식이 기존의 개발 파이프라인보다 효율적인지에 대한 근본적인 의문이 제기된다. 한편으로는, 실제 코드 예시를 통해 LLM을 활용한 대안적 접근 방식이 제시되며 보안 측면에서의 가능성을 보여주고 있다.
+
+### 📌 종합 요약
+LLM을 활용한 소프트웨어 개발 방식에 대한 글이 Hacker News에서 화제다. 개발 파이프라인 효율성에 대한 의문과 함께, 실제 코드 예시를 통해 보안에 초점을 맞춘 대안적 접근법이 제시되며 논의가 활발하다.
+
+### 🔎 종합 핵심 포인트
+- LLM을 소프트웨어 개발에 통합하는 새로운 접근 방식
+- 기존 개발 파이프라인 대비 LLM 활용 방식의 효율성 논쟁
+- 보안을 강화한 LLM 기반 소프트웨어 개발의 잠재력
+
+**카테고리**: AI/ML
+
+**태그**: LLM, 소프트웨어 개발, AI, 자동화, 보안
+
+---
+
+## 10. [Nasdaq's Shame](https://keubiko.substack.com/p/nasdaqs-shame)
+**Score**: 384 | **Comments**: 142 | **Rank Score**: 270.592
+**작성자**: imichael | **게시 시각(KST)**: 2026-03-16T07:16:09+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47392550
+
+### 📰 원문 기사 요약
+원문 기사 내용이 없어 요약할 수 없습니다.
+
+### 💬 Hacker News 토론 요약
+Veserv는 특정 지수를 예시로 들어 Nasdaq의 메커니즘을 설명하려 시도한다. markisus는 SpaceX와 Nasdaq의 관계에 대한 의문을 제기하며 QQQ의 구조적 문제점을 지적한다.
+
+### 📌 종합 요약
+Nasdaq의 지수 구성 방식에 대한 의혹이 제기되어 논란이 되고 있다. 특정 기업을 다른 주식과 묶어 QQQ라는 이름으로 거래하는 방식에 대한 투명성 문제가 핵심이다.
+
+### 🔎 종합 핵심 포인트
+- Nasdaq의 지수 구성 방식의 투명성 부족이 문제점으로 지적되고 있다.
+- SpaceX가 QQQ에 편입되는 과정에 대한 의혹이 제기되고 있다.
+- 지수 구성 방식의 불투명성은 투자자에게 불리하게 작용할 수 있다는 우려가 있다.
+
+**카테고리**: 비즈니스/스타트업
+
+**태그**: Nasdaq, QQQ, SpaceX, 지수, 투자
+
+---
+
