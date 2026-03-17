@@ -1,384 +1,376 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-03-17",
-  "generated_at": "2026-03-17T04:02:25.086347+09:00",
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18T04:02:26.957933+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. LMEB: Long-horizon Memory Embedding Benchmark\n📝 요약: 장기 기억 임베딩 성능 평가를 위한 새로운 벤치마크 LMEB 공개: 기존 벤치마크의 한계를 극복하고 다양한 기억 유형에 대한 모델 성능을 종합적으로 평가하여, 실제 애플리케이션에 더 적합한 모델 개발을 가속화.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12572\n📄 arXiv: https://arxiv.org/abs/2603.12572\n\n📍 2. Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation\n📝 요약: Cheers는 이미지와 텍스트를 동시에 이해하고 생성하는 통합 모델로, 토큰 압축을 통해 효율성을 높이고, 디테일 제어를 통해 고품질 이미지 생성을 가능하게 한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.12793\n📄 arXiv: https://arxiv.org/abs/2603.12793\n\n📍 3. Can Vision-Language Models Solve the Shell Game?\n📝 요약: Vision-Language 모델(VLM)이 시각적 단서 없이 시간적 연속성만으로 객체를 추적하는 데 근본적인 한계가 있으며, Spatiotemporal Grounded Chain-of-Thought (SGCoT)를 통해 이 문제를 해결할 수 있음을 보임.\n🔗 Hugging Face: https://huggingface.co/papers/2603.08436\n📄 arXiv: https://arxiv.org/abs/2603.08436\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. AI Can Learn Scientific Taste\n📝 요약: AI가 대규모 커뮤니티 피드백을 통해 과학적 취향(잠재적 영향력이 큰 연구 아이디어를 판단하고 제안하는 능력)을 학습할 수 있음을 보임.\n🔗 Hugging Face: https://huggingface.co/papers/2603.14473\n📄 arXiv: https://arxiv.org/abs/2603.14473\n\n📍 2. OpenSeeker: Democratizing Frontier Search Agents by Fully Open-Sourcing Training Data\n📝 요약: OpenSeeker는 고성능 검색 에이전트 개발을 위한 완전 오픈 소스 모델 및 데이터셋을 제공하여, 기존 산업체의 독점적인 환경을 타파하고 연구 커뮤니티의 접근성을 높입니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.15594\n📄 arXiv: https://arxiv.org/abs/2603.15594\n\n📍 3. EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings\n📝 요약: 실제 엔터프라이즈 환경을 모방한 EnterpriseOps-Gym 벤치마크를 통해 에이전트의 계획 및 도구 활용 능력을 평가하고, 현재 최고 성능 모델도 37.4%의 성공률에 그쳐 실제 업무 환경에 적용하기에는 한계가 있음을 밝힘.\n🔗 Hugging Face: https://huggingface.co/papers/2603.13594\n📄 arXiv: https://arxiv.org/abs/2603.13594\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "LMEB: Long-horizon Memory Embedding Benchmark",
-      "paper_id": "2603.12572",
-      "url": "https://huggingface.co/papers/2603.12572",
-      "arxiv_url": "https://arxiv.org/abs/2603.12572",
-      "upvotes": 49,
-      "summary": "장기 기억 임베딩 성능 평가를 위한 새로운 벤치마크 LMEB 공개: 기존 벤치마크의 한계를 극복하고 다양한 기억 유형에 대한 모델 성능을 종합적으로 평가하여, 실제 애플리케이션에 더 적합한 모델 개발을 가속화.",
-      "korean_abstract": "기존 텍스트 임베딩 벤치마크는 단편적인 정보 검색에 집중되어 장기 기억 검색 능력을 제대로 평가하지 못한다는 문제점이 있었습니다. 이러한 문제를 해결하기 위해, 본 연구에서는 episodic, dialogue, semantic, procedural 4가지 기억 유형에 걸쳐 22개의 데이터셋과 193개의 제로샷 검색 태스크를 포함하는 LMEB 벤치마크를 제안합니다. LMEB를 통해 다양한 크기의 임베딩 모델들을 평가한 결과, 모델 크기가 성능을 보장하지 않으며, 기존 벤치마크와 LMEB는 상호 보완적인 관계임을 확인했습니다. LMEB는 장기 기억 검색 분야의 발전을 촉진하고, 보다 실용적인 텍스트 임베딩 모델 개발에 기여할 것입니다.",
+      "title": "AI Can Learn Scientific Taste",
+      "paper_id": "2603.14473",
+      "url": "https://huggingface.co/papers/2603.14473",
+      "arxiv_url": "https://arxiv.org/abs/2603.14473",
+      "upvotes": 212,
+      "summary": "AI가 대규모 커뮤니티 피드백을 통해 과학적 취향(잠재적 영향력이 큰 연구 아이디어를 판단하고 제안하는 능력)을 학습할 수 있음을 보임.",
+      "korean_abstract": "뛰어난 과학자는 과학적 취향을 가지고 있지만, AI 과학자의 과학적 취향을 향상시키는 연구는 미흡했습니다. 본 연구에서는 대규모 커뮤니티 신호를 활용하는 강화 학습 패러다임인 RLCF를 제안하여 과학적 취향 학습을 선호도 모델링 및 정렬 문제로 공식화합니다. Scientific Judge 모델은 고인용/저인용 논문 쌍을 통해 학습되어 아이디어를 판단하고, Scientific Thinker 모델은 Scientific Judge를 보상 모델로 사용하여 잠재적 영향력이 큰 연구 아이디어를 제안합니다. 실험 결과, Scientific Judge는 SOTA LLM을 능가하며, Scientific Thinker는 기존 방법보다 더 영향력 있는 아이디어를 제안했습니다. 이는 AI가 과학적 취향을 학습할 수 있음을 보여줍니다.",
       "key_points": [
-        "장기 기억 검색 능력을 평가하는 새로운 벤치마크 LMEB 제시",
-        "다양한 기억 유형(episodic, dialogue, semantic, procedural)을 포괄하는 데이터셋 구성",
-        "기존 벤치마크(MTEB)와 LMEB의 상호 보완적인 관계 입증"
+        "대규모 커뮤니티 피드백을 활용한 강화 학습 패러다임(RLCF) 제안",
+        "Scientific Judge 모델을 통해 선호도 모델링 수행",
+        "Scientific Thinker 모델을 통해 연구 아이디어 생성 및 잠재적 영향력 향상"
       ],
       "tags": [
-        "RAG",
-        "Embedding",
-        "Benchmark",
-        "Memory",
-        "Evaluation"
+        "Reinforcement Learning",
+        "Preference Modeling",
+        "AI Scientist",
+        "LLM",
+        "Vision",
+        "Safety"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "OpenAI의 OpenClaw와 같은 메모리 증강 시스템 개발 시, 장기 기억 검색 성능을 객관적으로 평가하고 개선하는 데 활용 가능하며, RAG 시스템의 성능 향상에도 기여할 수 있습니다.",
+      "practical_relevance": "AI 모델이 연구 아이디어를 평가하고 생성하는 데 활용될 수 있으며, 이는 연구 개발 프로세스 자동화 및 효율성 향상에 기여할 수 있습니다.",
       "recommended_actions": [
-        "LMEB 벤치마크를 활용하여 현재 사용 중인 임베딩 모델의 장기 기억 검색 성능 평가",
-        "LMEB 데이터셋을 활용하여 장기 기억 검색에 특화된 임베딩 모델 fine-tuning",
-        "LMEB에서 좋은 성능을 보이는 모델을 RAG 파이프라인에 적용하여 성능 변화 관찰"
+        "RLCF 프레임워크를 활용하여 특정 분야의 연구 아이디어 생성 모델 학습",
+        "Scientific Judge 모델을 활용하여 기존 연구 아이디어의 잠재적 영향력 평가",
+        "생성된 연구 아이디어를 실제 연구에 적용하여 성능 검증"
       ],
       "risks_and_limits": [
-        "AI 생성 데이터의 품질에 따라 벤치마크 결과의 신뢰성이 영향을 받을 수 있음",
-        "특정 기억 유형에 편향된 모델이 존재할 수 있으며, 모든 실제 시나리오를 포괄하지 못할 수 있음"
+        "커뮤니티 피드백의 편향이 모델 성능에 영향을 미칠 수 있음",
+        "제안된 아이디어의 실제 연구 성공 여부는 보장되지 않음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.12572.png",
-      "local_image_path": "images/LMEB_Long-horizon_Memory_Embedding_Benchmark_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.14473.png",
+      "local_image_path": "images/AI_Can_Learn_Scientific_Taste_img.jpg",
       "local_figures": []
     },
     {
       "rank": 2,
-      "title": "Cheers: Decoupling Patch Details from Semantic Representations Enables Unified Multimodal Comprehension and Generation",
-      "paper_id": "2603.12793",
-      "url": "https://huggingface.co/papers/2603.12793",
-      "arxiv_url": "https://arxiv.org/abs/2603.12793",
-      "upvotes": 26,
-      "summary": "Cheers는 이미지와 텍스트를 동시에 이해하고 생성하는 통합 모델로, 토큰 압축을 통해 효율성을 높이고, 디테일 제어를 통해 고품질 이미지 생성을 가능하게 한다.",
-      "korean_abstract": "최근 멀티모달 모델링에서는 이미지 이해와 생성을 하나의 모델로 통합하려는 시도가 활발하지만, 두 작업은 서로 다른 디코딩 방식과 시각적 표현을 요구하여 공동 최적화가 어렵다. 본 논문에서는 패치 레벨의 디테일과 의미적 표현을 분리하여 멀티모달 이해를 위한 의미 안정성을 확보하고, 게이트된 디테일 잔차를 통해 이미지 생성의 충실도를 향상시키는 통합 멀티모달 모델 Cheers를 제안한다. Cheers는 효율적인 LLM 컨디셔닝을 위한 통합 비전 토크나이저, 텍스트 및 이미지 생성을 통합하는 LLM 기반 트랜스포머, 그리고 시각적 의미를 디코딩하고 디테일 잔차를 주입하는 캐스케이드 플로우 매칭 헤드를 포함한다. 실험 결과, Cheers는 시각적 이해와 생성 모두에서 기존 모델을 능가하며, 4배의 토큰 압축을 달성하여 고해상도 이미지 인코딩 및 생성 효율성을 높였다. 특히, Cheers는 Tar-1.5B 모델보다 적은 학습 비용으로 GenEval 및 MMBench에서 더 나은 성능을 보인다.",
+      "title": "OpenSeeker: Democratizing Frontier Search Agents by Fully Open-Sourcing Training Data",
+      "paper_id": "2603.15594",
+      "url": "https://huggingface.co/papers/2603.15594",
+      "arxiv_url": "https://arxiv.org/abs/2603.15594",
+      "upvotes": 119,
+      "summary": "OpenSeeker는 고성능 검색 에이전트 개발을 위한 완전 오픈 소스 모델 및 데이터셋을 제공하여, 기존 산업체의 독점적인 환경을 타파하고 연구 커뮤니티의 접근성을 높입니다.",
+      "korean_abstract": "최첨단 LLM 에이전트에게 깊이 있는 검색 능력은 필수적이지만, 고품질 학습 데이터 부족으로 인해 산업체 위주로 발전해왔습니다. 이러한 데이터 부족은 연구 커뮤니티의 발전을 저해합니다. 본 논문에서는 완전 오픈 소스 검색 에이전트인 OpenSeeker를 소개하며, 이는 위상 확장 및 엔티티 난독화를 통해 복잡한 다단계 추론 작업을 생성하는 Fact-grounded scalable controllable QA synthesis와 궤적 노이즈 제거를 위한 retrospective summarization 메커니즘을 통해 최첨단 성능을 달성합니다. 11.7k개의 합성 데이터로 학습된 OpenSeeker는 BrowseComp 등 여러 벤치마크에서 SOTA를 달성했으며, 기존 오픈소스 에이전트뿐 아니라 일부 산업체 에이전트보다 뛰어난 성능을 보였습니다. 학습 데이터셋과 모델 가중치를 완전 공개하여 검색 에이전트 연구의 민주화를 촉진합니다.",
       "key_points": [
-        "이미지-텍스트 통합 모델 Cheers 제시",
-        "토큰 압축을 통해 효율적인 고해상도 이미지 처리",
-        "게이트된 디테일 잔차를 이용한 고품질 이미지 생성"
+        "Fact-grounded scalable controllable QA synthesis를 통해 고품질 학습 데이터 생성",
+        "Retrospective summarization을 이용한 궤적 노이즈 제거",
+        "소량의 데이터로 SOTA 성능 달성 및 완전 오픈 소스 공개"
       ],
       "tags": [
-        "Multimodal",
-        "Image Generation",
+        "Agent",
+        "Search",
+        "Open Source",
         "LLM",
-        "Token Compression",
-        "Diffusion Model",
-        "Vision",
-        "Benchmark",
-        "Evaluation",
-        "Optimization"
+        "RAG",
+        "Reasoning",
+        "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "멀티모달 모델 개발 시, Cheers의 구조를 참고하여 효율적인 토큰 관리 및 고품질 이미지 생성 전략을 적용할 수 있다. 특히, 리소스 제약이 있는 환경에서 고해상도 이미지를 다루는 데 유용하다.",
+      "practical_relevance": "OpenSeeker는 검색 에이전트 개발에 필요한 학습 데이터와 모델을 오픈 소스로 제공하여, 개발자들이 자체적인 검색 에이전트를 구축하고 개선하는 데 도움을 줄 수 있습니다. 특히, 데이터 구축 비용 없이 SOTA급 성능을 빠르게 확보할 수 있다는 점에서 유용합니다.",
       "recommended_actions": [
-        "Cheers 모델 구조 및 코드 분석",
-        "자체 데이터셋에 Cheers 모델 적용 및 성능 비교",
-        "토큰 압축 및 디테일 잔차 주입 방식 실험"
+        "OpenSeeker 모델을 다운로드하여 기존 RAG 시스템에 통합해보기",
+        "제공된 학습 데이터를 분석하여 데이터 생성 파이프라인 이해하기",
+        "자체 데이터셋을 구축하여 OpenSeeker 모델을 추가 학습해보기"
       ],
       "risks_and_limits": [
-        "특정 데이터셋에 과적합될 가능성 존재",
-        "모델 구조의 복잡성으로 인한 디버깅 어려움"
+        "합성 데이터에 대한 의존성이 실제 환경에서의 성능에 영향을 미칠 수 있음",
+        "특정 벤치마크에 최적화되어 일반적인 검색 작업에 대한 성능은 검증 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.12793.png",
-      "local_image_path": "images/Cheers_Decoupling_Patch_Details_from_Semantic_Representations_Enables_Unified_Multimodal_Comprehensi_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15594.png",
+      "local_image_path": "images/OpenSeeker_Democratizing_Frontier_Search_Agents_by_Fully_Open-Sourcing_Training_Data_img.jpg",
       "local_figures": []
     },
     {
       "rank": 3,
-      "title": "Can Vision-Language Models Solve the Shell Game?",
-      "paper_id": "2603.08436",
-      "url": "https://huggingface.co/papers/2603.08436",
-      "arxiv_url": "https://arxiv.org/abs/2603.08436",
-      "upvotes": 24,
-      "summary": "Vision-Language 모델(VLM)이 시각적 단서 없이 시간적 연속성만으로 객체를 추적하는 데 근본적인 한계가 있으며, Spatiotemporal Grounded Chain-of-Thought (SGCoT)를 통해 이 문제를 해결할 수 있음을 보임.",
-      "korean_abstract": "기존 VLM은 비디오 이해 벤치마크에서 시각적 단서에 과도하게 의존하여 객체 추적 능력이 제대로 평가되지 못했습니다. 본 연구에서는 시각적으로 동일한 객체를 추적해야 하는 VET-Bench라는 새로운 진단 테스트베드를 제시하여 VLM의 객체 추적 능력을 평가했습니다. 실험 결과, 최첨단 VLM조차 VET-Bench에서 무작위 수준의 성능을 보여 시간적 연속성을 통한 추적에 실패했습니다. 이를 해결하기 위해 객체 궤적을 명시적인 중간 상태로 생성하는 SGCoT를 제안하고, Molmo2의 객체 추적 능력을 활용하여 미세 조정함으로써 VET-Bench에서 90% 이상의 정확도를 달성했습니다.",
+      "title": "EnterpriseOps-Gym: Environments and Evaluations for Stateful Agentic Planning and Tool Use in Enterprise Settings",
+      "paper_id": "2603.13594",
+      "url": "https://huggingface.co/papers/2603.13594",
+      "arxiv_url": "https://arxiv.org/abs/2603.13594",
+      "upvotes": 106,
+      "summary": "실제 엔터프라이즈 환경을 모방한 EnterpriseOps-Gym 벤치마크를 통해 에이전트의 계획 및 도구 활용 능력을 평가하고, 현재 최고 성능 모델도 37.4%의 성공률에 그쳐 실제 업무 환경에 적용하기에는 한계가 있음을 밝힘.",
+      "korean_abstract": "최근 대규모 언어 모델은 단순 정보 제공을 넘어 복잡한 워크플로우를 수행하는 에이전트로 발전하고 있지만, 실제 엔터프라이즈 환경의 복잡성을 반영하는 벤치마크 부족으로 인해 도입이 지연되고 있다. 본 연구에서는 지속적인 상태 변화와 엄격한 접근 프로토콜을 고려하여 실제 엔터프라이즈 환경을 모방한 EnterpriseOps-Gym 벤치마크를 제안한다. EnterpriseOps-Gym은 164개의 데이터베이스 테이블과 512개의 기능 도구를 포함한 컨테이너화된 샌드박스를 제공하며, 8개의 주요 업무 영역에 걸쳐 1,150개의 전문가가 선별한 태스크를 통해 에이전트를 평가한다. 14개의 최신 모델을 평가한 결과, 최고 성능 모델인 Claude Opus 4.5조차 37.4%의 성공률을 보였으며, 이는 전략적 추론 능력의 부족이 주요 원인임을 시사한다. 또한, 에이전트가 불가능한 작업을 거부하지 못하는 경우가 많아 잠재적으로 유해한 부작용을 초래할 수 있음을 확인했다. EnterpriseOps-Gym은 에이전트 계획의 견고성을 향상시키는 데 기여할 수 있는 테스트베드를 제공한다.",
       "key_points": [
-        "VLM의 객체 추적 능력 평가를 위한 새로운 벤치마크 VET-Bench 제시",
-        "고정 깊이 트랜스포머 기반 VLM의 객체 추적 능력의 이론적 한계 증명",
-        "명시적인 중간 상태 생성을 통해 객체 추적 능력을 향상시키는 SGCoT 방법 제안"
+        "실제 엔터프라이즈 환경을 모방한 새로운 벤치마크 EnterpriseOps-Gym 제시",
+        "14개 최신 모델 평가 결과, 최고 성능 모델도 낮은 성공률을 보이며 전략적 추론 능력 부족 확인",
+        "에이전트가 불가능한 작업을 거부하지 못하는 문제점 지적"
       ],
       "tags": [
-        "VLM",
-        "Object Tracking",
-        "Reasoning",
-        "Video Understanding",
-        "RAG",
-        "Vision",
-        "Video",
+        "Agent",
         "Benchmark",
-        "Safety"
+        "Planning",
+        "Tool Use",
+        "Enterprise",
+        "Reasoning",
+        "Evaluation"
       ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "VLM 기반의 비디오 이해 시스템 개발 시, 객체 추적 성능 향상을 위해 SGCoT와 같은 명시적인 추론 과정을 고려해야 함을 시사합니다.",
+      "confidence": "중",
+      "adoption_complexity": "상",
+      "practical_relevance": "실제 엔터프라이즈 환경에서 LLM 에이전트를 활용하려는 개발자는 EnterpriseOps-Gym을 통해 모델의 성능을 평가하고, 전략적 추론 능력 및 안전성 문제를 개선하는 데 활용할 수 있다.",
       "recommended_actions": [
-        "VET-Bench를 사용하여 기존 VLM의 객체 추적 성능을 평가해보기",
-        "SGCoT 방법을 구현하여 객체 추적 성능 향상 가능성을 실험해보기",
-        "Molmo2와 같은 객체 추적 모델을 활용하여 SGCoT의 성능을 개선해보기"
+        "EnterpriseOps-Gym 환경을 구축하여 자체 모델의 성능 테스트",
+        "오라클 인간 계획을 활용하여 모델의 전략적 추론 능력 개선",
+        "불가능한 작업 거부 메커니즘을 강화하여 안전성 확보"
       ],
       "risks_and_limits": [
-        "SGCoT는 Molmo2의 객체 추적 능력에 의존적이며, Molmo2의 성능이 SGCoT의 전체 성능에 영향을 미칠 수 있음",
-        "VET-Bench는 합성 데이터셋이므로, 실제 비디오 환경에서의 성능은 다를 수 있음"
+        "EnterpriseOps-Gym이 모든 엔터프라이즈 환경을 완벽하게 반영하지 못할 수 있음",
+        "평가 결과가 특정 모델 및 태스크에 편향될 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.08436.png",
-      "local_image_path": "images/Can_Vision-Language_Models_Solve_the_Shell_Game_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13594.png",
+      "local_image_path": "images/EnterpriseOps-Gym_Environments_and_Evaluations_for_Stateful_Agentic_Planning_and_Tool_Use_in_Enterpr_img.jpg",
       "local_figures": []
     },
     {
       "rank": 4,
-      "title": "daVinci-Env: Open SWE Environment Synthesis at Scale",
-      "paper_id": "2603.13023",
-      "url": "https://huggingface.co/papers/2603.13023",
-      "arxiv_url": "https://arxiv.org/abs/2603.13023",
-      "upvotes": 20,
-      "summary": "소프트웨어 엔지니어링 에이전트 훈련을 위한 대규모 오픈 소스 환경(OpenSWE)을 구축하고, 이를 통해 다양한 downstream task에서 SOTA를 달성하여 실제 개발에 필요한 AI 모델 개발에 기여함.",
-      "korean_abstract": "소프트웨어 엔지니어링 에이전트 훈련에는 대규모의 실행 가능하고 검증 가능한 환경이 필수적이지만, 기존 데이터셋은 규모와 다양성이 제한적이고 산업 솔루션은 불투명하여 연구에 어려움이 있었다. 본 논문에서는 45,320개의 실행 가능한 Docker 환경과 12.8k개 이상의 저장소를 포함하는 대규모 오픈 소스 프레임워크 OpenSWE를 제시한다. OpenSWE는 multi-agent 합성 파이프라인을 통해 구축되었으며, 환경의 난이도를 고려한 필터링을 통해 학습 효율성을 극대화했다. OpenSWE를 활용한 실험 결과, OpenSWE-32B 및 OpenSWE-72B 모델은 SWE-bench Verified에서 각각 62.4% 및 66.0%의 성능을 달성하여 SOTA를 기록했으며, 수학적 추론 및 과학 벤치마크에서도 상당한 성능 향상을 보였다.",
+      "title": "Grounding World Simulation Models in a Real-World Metropolis",
+      "paper_id": "2603.15583",
+      "url": "https://huggingface.co/papers/2603.15583",
+      "arxiv_url": "https://arxiv.org/abs/2603.15583",
+      "upvotes": 89,
+      "summary": "실제 도시를 기반으로 하는 대규모 비디오 생성 모델(SWM)을 개발하여, 기존 모델의 공간적 정확도 및 시간적 일관성 문제를 해결하고 텍스트 프롬프트 기반 시나리오 변경을 지원합니다.",
+      "korean_abstract": "기존의 월드 모델은 상상 속의 환경을 생성하는 데 그쳤으나, 본 연구에서는 실제 도시인 서울을 기반으로 하는 Seoul World Model (SWM)을 제시합니다. SWM은 주변 스트리트 뷰 이미지를 활용하여 비디오 생성을 위한 조건부 입력을 제공합니다. 이를 위해 시간 불일치, 제한된 궤적 다양성, 데이터 희소성 등의 문제점을 해결하고자, 교차 시간 쌍 구성, 대규모 합성 데이터셋 구축, 뷰 보간 파이프라인을 도입했습니다. 또한, Virtual Lookahead Sink를 통해 장기 horizon 생성을 안정화했습니다. 서울, 부산, Ann Arbor에서의 실험 결과, SWM은 기존 모델 대비 공간적 정확도와 시간적 일관성이 향상된 비디오 생성을 보여주며, 다양한 카메라 움직임과 텍스트 프롬프트 기반 시나리오 변경을 지원합니다.",
       "key_points": [
-        "대규모 오픈 소스 소프트웨어 엔지니어링 환경 OpenSWE 구축",
-        "난이도 기반 필터링을 통한 학습 효율성 향상",
-        "OpenSWE를 활용한 모델이 SWE-bench Verified에서 SOTA 달성 및 다양한 downstream task 성능 향상"
+        "실제 도시를 기반으로 하는 대규모 월드 모델(SWM) 제시",
+        "Retrieval-Augmented Conditioning을 통해 비디오 생성의 정확도 향상",
+        "Virtual Lookahead Sink를 통한 장기 horizon 생성 안정화"
       ],
       "tags": [
-        "SWE",
         "Agent",
-        "Open Source",
-        "Environment Synthesis",
-        "Reasoning",
-        "Benchmark",
-        "Evaluation"
+        "Vision",
+        "Simulation",
+        "Video Generation",
+        "RAG",
+        "Video",
+        "Evaluation",
+        "Safety"
       ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "소프트웨어 엔지니어링 에이전트 개발에 필요한 대규모 데이터셋과 환경을 제공하여, AI 기반 코드 생성 및 문제 해결 능력을 향상시키는 데 기여할 수 있다.",
+      "confidence": "중",
+      "adoption_complexity": "상",
+      "practical_relevance": "실제 환경 기반의 시뮬레이션 모델을 구축하여 자율 주행, 로보틱스 등 다양한 분야에서 현실적인 데이터 생성 및 테스트 환경을 제공할 수 있습니다.",
       "recommended_actions": [
-        "OpenSWE 환경을 활용하여 자체 소프트웨어 엔지니어링 에이전트 훈련",
-        "OpenSWE의 난이도 기반 필터링 방법을 다른 데이터셋에 적용하여 학습 효율성 개선",
-        "OpenSWE로 훈련된 모델을 활용하여 실제 코드 생성 및 문제 해결 성능 평가"
+        "SWM의 데이터 생성 파이프라인 분석 및 활용 방안 모색",
+        "Virtual Lookahead Sink를 활용한 장기 예측 모델 개선",
+        "자체 데이터셋에 Retrieval-Augmented Conditioning 적용 실험"
       ],
       "risks_and_limits": [
-        "OpenSWE는 Python 환경에 특화되어 있어 다른 언어에는 적용하기 어려울 수 있음",
-        "환경 구축 및 모델 훈련에 상당한 컴퓨팅 자원이 필요함"
+        "특정 도시(서울)에 특화된 모델의 일반화 가능성",
+        "스트리트 뷰 데이터의 품질 및 가용성에 의존적"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13023.png",
-      "local_image_path": "images/daVinci-Env_Open_SWE_Environment_Synthesis_at_Scale_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15583.png",
+      "local_image_path": "images/Grounding_World_Simulation_Models_in_a_Real-World_Metropolis_img.jpg",
       "local_figures": []
     },
     {
       "rank": 5,
-      "title": "OmniForcing: Unleashing Real-time Joint Audio-Visual Generation",
-      "paper_id": "2603.11647",
-      "url": "https://huggingface.co/papers/2603.11647",
-      "arxiv_url": "https://arxiv.org/abs/2603.11647",
-      "upvotes": 19,
-      "summary": "OmniForcing은 오디오-비주얼 생성 모델의 실시간 성능을 획기적으로 개선하여, 고품질 스트리밍 생성을 가능하게 한다.",
-      "korean_abstract": "기존의 오디오-비주얼 diffusion 모델은 양방향 attention 구조로 인해 지연 시간이 길어 실시간 적용에 어려움이 있었다. 이러한 문제를 해결하기 위해, OmniForcing은 오프라인 양방향 diffusion 모델을 고충실도 스트리밍 autoregressive 생성기로 distillation하는 새로운 프레임워크를 제안한다. 훈련 불안정성, modality 간 정보 밀도 차이, gradient explosion 등의 문제점을 Asymmetric Block-Causal Alignment, Audio Sink Token, Joint Self-Forcing Distillation 등의 메커니즘을 통해 해결했다. OmniForcing은 단일 GPU에서 실시간에 가까운 속도(25 FPS)로 고품질 오디오-비주얼 스트리밍 생성을 달성하며, 양방향 teacher 모델과 유사한 수준의 품질을 유지한다.",
+      "title": "HSImul3R: Physics-in-the-Loop Reconstruction of Simulation-Ready Human-Scene Interactions",
+      "paper_id": "2603.15612",
+      "url": "https://huggingface.co/papers/2603.15612",
+      "arxiv_url": "https://arxiv.org/abs/2603.15612",
+      "upvotes": 63,
+      "summary": "HSImul3R은 물리 시뮬레이션 환경에서 안정적인 인간-장면 상호작용 재구성을 가능하게 하여, 로봇 제어 및 시뮬레이션 분야에 즉시 적용 가능한 고품질 데이터를 제공합니다.",
+      "korean_abstract": "기존의 인간-장면 상호작용(HSI) 재구성 방법들은 시각적으로는 현실적이지만 물리적 제약 조건을 위반하여 시뮬레이션 환경에서 불안정성을 야기했습니다. 이러한 문제를 해결하기 위해, HSImul3R은 물리 시뮬레이터를 활용하여 인간의 움직임과 장면의 기하학적 구조를 동시에 최적화하는 양방향 파이프라인을 제안합니다. 순방향으로는 장면 타겟 강화 학습을 통해 움직임의 정확성과 접촉 안정성을 동시에 고려하여 인간의 움직임을 최적화하고, 역방향으로는 직접 시뮬레이션 보상 최적화를 통해 중력 안정성과 상호작용 성공 여부에 대한 시뮬레이션 피드백을 활용하여 장면의 기하학적 구조를 개선합니다. 다양한 객체와 상호작용 시나리오를 포함하는 새로운 벤치마크 HSIBench를 통해 HSImul3R이 안정적이고 시뮬레이션 준비가 완료된 HSI 재구성을 생성하며, 실제 휴머노이드 로봇에 직접 배포할 수 있음을 입증했습니다.",
       "key_points": [
-        "양방향 diffusion 모델을 스트리밍 autoregressive 생성기로 distillation하는 OmniForcing 프레임워크 제안",
-        "Asymmetric Block-Causal Alignment, Audio Sink Token 등의 메커니즘을 통해 훈련 안정성 및 품질 향상",
-        "Joint Self-Forcing Distillation을 통해 장기 rollout 시 발생하는 오류를 자체적으로 보정"
+        "물리 시뮬레이션을 활용한 인간-장면 상호작용 재구성",
+        "장면 타겟 강화 학습을 통한 인간 움직임 최적화",
+        "직접 시뮬레이션 보상 최적화를 통한 장면 기하학적 구조 개선"
       ],
       "tags": [
-        "Audio-Visual",
-        "Diffusion Model",
-        "Distillation",
-        "Real-time",
-        "Streaming",
-        "Audio",
-        "Inference",
-        "Safety"
+        "Simulation",
+        "Reinforcement Learning",
+        "3D Reconstruction",
+        "Robotics",
+        "Human-Scene Interaction",
+        "RAG",
+        "Vision",
+        "Video",
+        "Benchmark"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "실시간 오디오-비주얼 콘텐츠 생성 및 스트리밍 애플리케이션 개발에 유용하며, 특히 낮은 지연 시간이 중요한 서비스에 적용 가능하다.",
+      "practical_relevance": "HSImul3R은 로봇 제어, 가상 환경 시뮬레이션, 게임 개발 등 다양한 분야에서 물리적으로 현실적인 인간-장면 상호작용 데이터를 생성하고 활용하는 데 중요한 역할을 할 수 있습니다.",
       "recommended_actions": [
-        "OmniForcing 모델을 활용하여 실시간 오디오-비주얼 생성 파이프라인 구축",
-        "자체 데이터셋에 OmniForcing 모델을 fine-tuning하여 특정 도메인에 최적화",
-        "제안된 Asymmetric Block-Causal Alignment, Audio Sink Token 등의 메커니즘을 다른 멀티모달 모델에 적용"
+        "HSIBench 데이터셋을 활용하여 자체 시뮬레이션 환경 구축",
+        "HSImul3R 파이프라인을 기반으로 특정 상호작용 시나리오에 대한 재구성 실험 진행",
+        "재구성된 데이터를 활용하여 로봇 제어 알고리즘 개발 및 테스트"
       ],
       "risks_and_limits": [
-        "모델의 크기 및 복잡도로 인해 고성능 GPU 환경이 필요할 수 있음",
-        "특정 오디오-비주얼 데이터셋에 대한 편향이 발생할 수 있으며, 이에 대한 추가적인 연구가 필요함"
+        "복잡한 상호작용 시나리오에서 최적화 과정의 계산 비용이 높을 수 있음",
+        "시뮬레이터의 정확도에 따라 재구성 결과의 현실성이 제한될 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.11647.png",
-      "local_image_path": "images/OmniForcing_Unleashing_Real-time_Joint_Audio-Visual_Generation_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15612.png",
+      "local_image_path": "images/HSImul3R_Physics-in-the-Loop_Reconstruction_of_Simulation-Ready_Human-Scene_Interactions_img.jpg",
       "local_figures": []
     },
     {
       "rank": 6,
-      "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
-      "paper_id": "2603.12266",
-      "url": "https://huggingface.co/papers/2603.12266",
-      "arxiv_url": "https://arxiv.org/abs/2603.12266",
-      "upvotes": 16,
-      "summary": "시각적 조건 기반의 복잡한 추론 능력을 평가하는 새로운 벤치마크 MM-CondChain을 제시하고, 기존 MLLM의 성능이 크게 부족함을 보임.",
-      "korean_abstract": "최근 MLLM은 GUI 자동화와 같은 시각적 워크플로우에 활용되지만, 깊이 있는 조건 추론 능력은 제대로 평가되지 못하고 있다. 기존 벤치마크는 단순하거나 독립적인 제약 조건에 집중되어 있어 복잡한 조건 연쇄를 평가하기 어렵다. 본 논문에서는 시각적 증거에 기반한 깊은 조건 추론 능력을 평가하는 MM-CondChain 벤치마크를 제안한다. 이 벤치마크는 다층 추론 체인으로 구성되며, 각 층은 복잡한 시각적 조건으로 이루어져 있다. 실험 결과, 최신 MLLM조차 낮은 성능을 보였으며, 특히 어려운 부정 사례와 깊이, 조건 복잡도가 증가함에 따라 성능이 크게 저하되었다.",
+      "title": "Attention Residuals",
+      "paper_id": "2603.15031",
+      "url": "https://huggingface.co/papers/2603.15031",
+      "arxiv_url": "https://arxiv.org/abs/2603.15031",
+      "upvotes": 53,
+      "summary": "Attention Residuals (AttnRes)는 기존 Residual Connection의 고정된 가중치 문제를 해결하여 모델 성능을 향상시키는 방법으로, 기존 연결을 softmax attention으로 대체하여 각 레이어가 이전 레이어의 표현을 선택적으로 집계하도록 합니다.",
+      "korean_abstract": "최근 LLM에서 PreNorm을 사용한 Residual Connection은 표준적으로 사용되지만, 모든 레이어의 출력을 고정된 가중치로 획일적으로 집계하여 hidden state가 깊이에 따라 통제 없이 증가하고 각 레이어의 기여도를 희석시키는 문제가 있습니다. 이를 해결하기 위해 Attention Residuals (AttnRes)를 제안하며, 이는 고정된 집계 방식을 softmax attention으로 대체하여 각 레이어가 이전 레이어의 출력을 학습된 가중치로 선택적으로 집계합니다. 대규모 모델 학습 시 메모리 및 통신 오버헤드를 줄이기 위해 Block AttnRes를 도입하여 레이어를 블록으로 분할하고 블록 수준의 표현을 처리합니다. Kimi Linear 아키텍처에 통합하여 1.4T 토큰으로 사전 학습한 결과, PreNorm 희석을 완화하고 출력 크기 및 기울기 분포를 균일하게 만들며 다운스트림 성능을 향상시켰습니다.",
       "key_points": [
-        "시각적 조건 기반의 복잡한 추론 능력을 평가하는 새로운 벤치마크 MM-CondChain 제시",
-        "에이전트 기반 합성 파이프라인을 통해 확장 가능한 벤치마크 데이터 구축",
-        "다양한 MLLM 실험을 통해 깊은 조건 추론의 어려움 확인"
+        "기존 Residual Connection의 문제점 (획일적 가중치) 지적",
+        "Attention 메커니즘을 활용한 새로운 Residual Connection (AttnRes) 제안",
+        "Block AttnRes를 통해 메모리 효율성 개선 및 대규모 모델 적용 가능성 제시"
       ],
       "tags": [
-        "MLLM",
-        "Benchmark",
-        "Compositional Reasoning",
-        "Visual Grounding",
-        "GUI",
-        "Agent",
-        "Reasoning",
-        "Multimodal",
-        "Vision",
+        "Transformer",
+        "Attention",
+        "Residual Connection",
+        "Large Language Model",
         "Evaluation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "GUI 자동화, 로봇 제어 등 시각적 정보를 기반으로 복잡한 의사 결정을 수행하는 시스템 개발 시 MLLM의 성능을 객관적으로 평가하고 개선하는 데 활용 가능.",
+      "practical_relevance": "기존 모델의 성능 개선을 위한 간단한 대체 방법으로, 특히 깊은 모델에서 각 레이어의 기여도를 효과적으로 관리하고 싶을 때 유용합니다. 모델 구조 변경이 비교적 간단하여 기존 코드에 쉽게 통합할 수 있습니다.",
       "recommended_actions": [
-        "MM-CondChain 벤치마크를 사용하여 현재 사용 중인 MLLM의 성능 평가",
-        "MM-CondChain 데이터셋을 활용하여 MLLM의 조건 추론 능력 향상 훈련",
-        "VPIR 기반의 검증 가능한 조건 생성 파이프라인을 활용하여 자체 데이터셋 구축"
+        "기존 모델의 Residual Connection을 AttnRes로 교체하여 성능 변화 관찰",
+        "Block AttnRes를 사용하여 메모리 사용량 감소 효과 확인",
+        "다양한 모델 크기 및 데이터셋에 AttnRes 적용하여 일반화 성능 평가"
       ],
       "risks_and_limits": [
-        "현재 MLLM의 낮은 성능으로 인해 실제 워크플로우 적용에 어려움 존재",
-        "벤치마크의 복잡도가 높아 모델 학습 및 평가에 상당한 컴퓨팅 자원 필요"
+        "Attention 연산으로 인한 추가적인 계산 비용 발생 가능성",
+        "Block AttnRes 사용 시 블록 크기에 따른 성능 변화 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.12266.png",
-      "local_image_path": "images/MM-CondChain_A_Programmatically_Verified_Benchmark_for_Visually_Grounded_Deep_Compositional_Reasonin_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15031.png",
+      "local_image_path": "images/Attention_Residuals_img.jpg",
       "local_figures": []
     },
     {
       "rank": 7,
-      "title": "Visual-ERM: Reward Modeling for Visual Equivalence",
-      "paper_id": "2603.13224",
-      "url": "https://huggingface.co/papers/2603.13224",
-      "arxiv_url": "https://arxiv.org/abs/2603.13224",
-      "upvotes": 15,
-      "summary": "시각적 유사성을 정확하게 측정하는 보상 모델(Visual-ERM)을 통해 Vision-to-Code task에서 강화 학습 성능을 크게 향상시켰으며, 특히 차트, 테이블, SVG 파싱 분야에서 괄목할 만한 성능 향상을 보임.",
-      "korean_abstract": "Vision-to-code task는 시각적 입력물을 실행 가능한 코드로 변환해야 하지만, 기존 강화 학습 방법들은 부정확한 보상 신호로 인해 어려움을 겪었습니다. 기존 보상 함수들은 텍스트 규칙이나 coarse한 visual embedding 유사도에 의존하여 시각적 차이를 제대로 반영하지 못하고 reward hacking에 취약했습니다. 본 논문에서는 fine-grained하고 해석 가능하며 task-agnostic한 피드백을 제공하는 multimodal 생성 보상 모델인 Visual-ERM을 제안합니다. Visual-ERM을 강화 학습에 통합한 결과, Qwen3-VL-8B-Instruct 모델의 성능이 chart-to-code에서 +8.4 향상되었고, table 및 SVG 파싱에서도 평균 +2.7, +4.1의 성능 향상을 보였습니다. 또한, Visual-ERM은 이미지 간 미묘한 차이를 판단하는 벤치마크인 VC-RewardBench에서 Qwen3-VL-235B-Instruct를 능가하는 성능을 보였습니다.",
+      "title": "Mixture-of-Depths Attention",
+      "paper_id": "2603.15619",
+      "url": "https://huggingface.co/papers/2603.15619",
+      "arxiv_url": "https://arxiv.org/abs/2603.15619",
+      "upvotes": 42,
+      "summary": "MoDA는 기존 Attention 구조에 깊이 방향으로의 Attention을 추가하여 모델 성능을 향상시키고, FlashAttention-2에 준하는 효율성을 제공하여 LLM의 깊이 확장 가능성을 높임.",
+      "korean_abstract": "LLM의 깊이 증가는 성능 향상의 주요 동인이지만, 깊이가 깊어질수록 초기 레이어의 정보가 희석되는 문제가 발생한다. 본 논문에서는 각 Attention Head가 현재 레이어뿐 아니라 이전 레이어의 정보에도 접근할 수 있도록 하는 Mixture-of-Depths Attention(MoDA)를 제안한다. MoDA는 메모리 접근 패턴을 효율적으로 처리하는 알고리즘을 통해 FlashAttention-2 수준의 효율성을 달성했다. 1.5B 파라미터 모델 실험 결과, MoDA는 기존 방식 대비 perplexity를 개선하고 downstream task 성능을 향상시켰으며, FLOPs overhead는 미미했다. MoDA는 post-norm과 결합했을 때 더 좋은 성능을 보였다.",
       "key_points": [
-        "Fine-grained 시각적 유사성 측정을 위한 Visual-ERM 제안",
-        "Vision-to-code task에서 강화 학습 성능 향상",
-        "VC-RewardBench 벤치마크에서 SOTA 모델 능가"
+        "깊이 방향 Attention 메커니즘 (MoDA) 제안",
+        "FlashAttention-2 수준의 효율적인 MoDA 알고리즘 개발",
+        "실험적으로 MoDA의 성능 향상 및 깊이 확장 가능성 입증"
       ],
       "tags": [
-        "Vision",
-        "Reward Modeling",
-        "Reinforcement Learning",
-        "Code Generation",
+        "Attention",
+        "LLM",
+        "Depth Scaling",
+        "MoDA",
         "RAG",
-        "Multimodal",
-        "Benchmark",
-        "Evaluation"
+        "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "Vision-to-code 모델 개발 시, 시각적 유사성을 정확하게 반영하는 보상 모델을 사용하여 강화 학습 기반의 성능 향상을 꾀할 수 있으며, 특히 차트, 테이블, SVG와 같은 구조화된 시각적 데이터를 다루는 경우에 유용합니다.",
+      "practical_relevance": "LLM의 깊이 확장을 효율적으로 지원하여 모델 성능을 개선하고, 기존 Attention 구조에 쉽게 통합될 수 있어 LLM 개발에 유용하다.",
       "recommended_actions": [
-        "Visual-ERM을 활용하여 vision-to-code 모델의 강화 학습 성능 개선 실험",
-        "VC-RewardBench 벤치마크를 사용하여 모델의 시각적 이해 능력 평가",
-        "Visual-ERM의 reward shaping 전략을 다른 vision task에 적용"
+        "기존 LLM 모델에 MoDA를 적용하여 성능 향상 실험",
+        "MoDA와 post-norm을 결합하여 성능 변화 관찰",
+        "다양한 sequence length에서 MoDA의 효율성 측정"
       ],
       "risks_and_limits": [
-        "Visual-ERM의 계산 복잡도 및 학습 비용",
-        "특정 유형의 시각적 데이터에 대한 편향 가능성"
+        "MoDA의 효과는 모델 크기 및 데이터셋에 따라 달라질 수 있음",
+        "깊이 방향 Attention의 최적 레이어 및 가중치 설정에 대한 추가 연구 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13224.png",
-      "local_image_path": "images/Visual-ERM_Reward_Modeling_for_Visual_Equivalence_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15619.png",
+      "local_image_path": "images/Mixture-of-Depths_Attention_img.jpg",
       "local_figures": []
     },
     {
       "rank": 8,
-      "title": "Multimodal OCR: Parse Anything from Documents",
-      "paper_id": "2603.13032",
-      "url": "https://huggingface.co/papers/2603.13032",
-      "arxiv_url": "https://arxiv.org/abs/2603.13032",
-      "upvotes": 15,
-      "summary": "텍스트와 그래픽을 통합적으로 파싱하여 문서 이해도를 높이는 Multimodal OCR (MOCR) 모델 dots.mocr를 제안, 특히 차트, 다이어그램 등 시각적 요소의 파싱에 강점을 보이며 문서 재구성 및 활용도를 향상시킴.",
-      "korean_abstract": "기존 OCR 시스템은 텍스트 인식에만 집중하고 그래픽 영역을 단순히 이미지로 처리하여 문서의 완전한 이해를 저해했습니다. 본 연구에서는 텍스트와 그래픽 요소를 통합적으로 파싱하는 Multimodal OCR (MOCR) 패러다임을 제시합니다. dots.mocr 모델은 차트, 다이어그램, 테이블 등의 시각적 요소를 파싱 대상으로 취급하여 텍스트와 그래픽 간의 의미적 관계를 보존합니다. PDF, 웹 페이지, SVG 데이터로부터 구축한 데이터 엔진을 활용하여 3B 파라미터 모델을 학습했으며, 문서 파싱 및 구조적 그래픽 파싱 벤치마크에서 Gemini 3 Pro에 준하는 성능을 달성하고 기존 오픈소스 시스템을 능가하는 결과를 보였습니다. 특히 이미지-SVG 변환에서 높은 재구성 품질을 보여주어 multimodal pretraining을 위한 대규모 이미지-코드 코퍼스 구축 가능성을 제시합니다.",
+      "title": "Effective Distillation to Hybrid xLSTM Architectures",
+      "paper_id": "2603.15590",
+      "url": "https://huggingface.co/papers/2603.15590",
+      "arxiv_url": "https://arxiv.org/abs/2603.15590",
+      "upvotes": 27,
+      "summary": "quadratic attention 기반 LLM을 linearized xLSTM 구조로 효과적으로 distillation하여 teacher LLM의 성능을 대부분 복구하거나 능가하는 방법을 제시, 에너지 효율적인 모델 개발에 기여.",
+      "korean_abstract": "Transformer 기반 LLM의 높은 연산 비용 문제를 해결하기 위해, quadratic attention 기반 모델을 linearized 구조로 distillation하는 연구가 활발하다. 하지만 기존 방법들은 teacher 모델의 성능을 따라가지 못하는 경우가 많았다. 본 연구에서는 xLSTM 기반 student 모델을 위한 효과적인 distillation 파이프라인을 제안하고, linearized expert들을 결합하는 merging 단계를 추가하여 lossless distillation을 목표로 한다. Llama, Qwen, Olmo 모델들을 대상으로 실험한 결과, 제안하는 방법이 teacher 모델의 성능을 대부분 복구하고 일부 task에서는 능가하는 것을 확인했다. 이는 transformer 기반 LLM을 대체할 수 있는 에너지 효율적이고 비용 효율적인 모델 개발에 중요한 진전이다.",
       "key_points": [
-        "텍스트와 그래픽을 통합 파싱하는 MOCR 패러다임 제시",
-        "문서 파싱 및 구조적 그래픽 파싱에서 SOTA 달성",
-        "대규모 multimodal pretraining을 위한 이미지-코드 코퍼스 구축 가능성 제시"
+        "xLSTM 기반 student 모델을 위한 효과적인 distillation 파이프라인 제안",
+        "Linearized expert들을 결합하는 merging 단계 추가",
+        "Llama, Qwen, Olmo 모델에 대한 실험을 통해 성능 향상 입증"
       ],
       "tags": [
-        "OCR",
-        "Multimodal",
-        "Document Parsing",
-        "Graphics Parsing",
-        "Image-to-Code",
+        "Distillation",
+        "xLSTM",
+        "LLM",
+        "Linearized Architecture",
+        "Model Compression"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Transformer 모델의 연산 비용 문제를 해결하고, 더 효율적인 모델을 개발하는 데 도움이 될 수 있다. 특히 xLSTM 구조에 대한 이해와 distillation 기술을 활용하여 모델 경량화에 적용할 수 있다.",
+      "recommended_actions": [
+        "xLSTM 아키텍처에 대한 추가 연구 및 실험 진행",
+        "제시된 distillation 파이프라인을 다른 모델 아키텍처에 적용해보기",
+        "Merging 단계를 다양한 linearized expert 모델에 적용하여 성능 향상 가능성 탐색"
+      ],
+      "risks_and_limits": [
+        "xLSTM 모델의 일반화 성능에 대한 추가 검증 필요",
+        "Distillation 과정에서 발생할 수 있는 정보 손실 가능성 존재"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15590.png",
+      "local_image_path": "images/Effective_Distillation_to_Hybrid_xLSTM_Architectures_img.jpg",
+      "local_figures": [
+        "images/Effective_Distillation_to_Hybrid_xLSTM_Architectur_fig_1.png"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Anatomy of a Lie: A Multi-Stage Diagnostic Framework for Tracing Hallucinations in Vision-Language Models",
+      "paper_id": "2603.15557",
+      "url": "https://huggingface.co/papers/2603.15557",
+      "arxiv_url": "https://arxiv.org/abs/2603.15557",
+      "upvotes": 23,
+      "summary": "Vision-Language 모델의 hallucination을 진단하고 원인을 분석하는 새로운 프레임워크를 제시하여 모델의 신뢰성을 향상시키고 오류를 수정하는 데 기여합니다.",
+      "korean_abstract": "Vision-Language 모델(VLM)은 종종 hallucination을 발생시켜 신뢰성 있는 배포에 어려움을 겪습니다. 본 연구에서는 hallucination을 모델의 계산적 인지 과정의 동적인 병리 현상으로 재해석하여 진단하는 새로운 프레임워크를 제안합니다. 이 프레임워크는 계산적 합리성의 원칙에 기반하여 VLM의 생성을 동적인 인지 궤적으로 모델링하고, 정보 이론적 프로브를 사용하여 이 궤적을 해석 가능한 저차원 인지 상태 공간에 투영합니다. 핵심 발견은 기하 정보 이중성으로, 인지 궤적의 기하학적 이상은 정보 이론적 놀라움과 근본적으로 동일합니다. 다양한 설정에서 평가한 결과, 제안하는 프레임워크는 최첨단 성능을 달성했으며, 약한 지도 학습 하에서도 효율적이고 데이터 오염에 강건합니다. 이를 통해 오류의 원인을 인과적으로 분석하고, 인지적 불안정, 논리적-인과적 실패, 결정적 모호성과 같은 병리적 상태를 식별할 수 있습니다.",
+      "key_points": [
+        "VLM의 hallucination을 동적 인지 과정의 병리 현상으로 재해석",
+        "기하 정보 이중성 원리를 활용하여 hallucination 탐지",
+        "다양한 실험에서 SOTA 성능 달성 및 효율성, 강건성 입증"
+      ],
+      "tags": [
+        "Vision-Language",
+        "Hallucination",
+        "Explainable AI",
+        "Cognitive Science",
+        "Reasoning",
         "Vision",
-        "Benchmark",
         "Evaluation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "문서 내 텍스트뿐 아니라 차트, 다이어그램 등 시각적 요소까지 이해하고 활용해야 하는 시스템 개발에 유용하며, 특히 문서 기반의 지식 추출 및 질의응답 시스템의 성능 향상에 기여할 수 있습니다.",
+      "practical_relevance": "VLM의 hallucination 문제를 해결하고 모델의 신뢰성을 높여 실제 서비스 적용 가능성을 확대하고, 오류 발생 원인 분석을 통해 모델 개선에 활용할 수 있습니다.",
       "recommended_actions": [
-        "dots.mocr 모델을 활용하여 기존 OCR 시스템의 성능 개선 실험",
-        "문서 내 시각적 요소의 중요도가 높은 분야에 적용 (예: 과학 논문, 보고서)",
-        "이미지-코드 변환 성능을 활용하여 multimodal 데이터 구축 파이프라인 구축"
+        "제공된 정보 이론적 프로브를 활용하여 기존 VLM의 인지 상태 공간 분석",
+        "기하 정보 이중성 원리를 기반으로 hallucination 탐지 메커니즘 구현",
+        "약한 지도 학습 및 데이터 오염 환경에서의 모델 강건성 테스트"
       ],
       "risks_and_limits": [
-        "복잡한 구조의 문서 또는 특수한 포맷의 그래픽 요소에 대한 파싱 성능 저하 가능성",
-        "모델의 크기가 비교적 커서 리소스 제약적인 환경에서의 활용에 어려움이 있을 수 있음"
+        "인지 상태 공간의 해석 가능성이 주관적일 수 있음",
+        "정보 이론적 프로브의 설계가 성능에 큰 영향을 미칠 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13032.png",
-      "local_image_path": "images/Multimodal_OCR_Parse_Anything_from_Documents_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 9,
-      "title": "V-Bridge: Bridging Video Generative Priors to Versatile Few-shot Image Restoration",
-      "paper_id": "2603.13089",
-      "url": "https://huggingface.co/papers/2603.13089",
-      "arxiv_url": "https://arxiv.org/abs/2603.13089",
-      "upvotes": 12,
-      "summary": "V-Bridge는 비디오 생성 모델의 잠재력을 활용하여 적은 데이터로도 다양한 이미지 복원 작업을 수행할 수 있게 해주는 프레임워크로, 기존 이미지 복원 방식의 한계를 극복하고 새로운 파운데이션 모델 디자인 패러다임을 제시합니다.",
-      "korean_abstract": "최근 대규모 비디오 생성 모델은 방대한 시각 데이터를 통해 풍부한 구조적, 의미적, 동적 사전 지식을 내재화하고 있습니다. 본 논문에서는 이러한 모델의 잠재력을 활용하여 다양한 이미지 복원 작업에 적용하는 V-Bridge 프레임워크를 소개합니다. 이미지 복원을 정적인 회귀 문제가 아닌 점진적인 생성 과정으로 재해석하고, 비디오 모델을 활용하여 손상된 이미지에서 고품질 이미지로 점진적으로 개선하는 과정을 시뮬레이션합니다. 단 1,000개의 멀티태스크 학습 샘플만으로도 기존 복원 방법과 경쟁력 있는 성능을 달성하며, 단일 모델로 여러 작업을 수행할 수 있습니다. 이는 비디오 생성 모델이 강력하고 전이 가능한 복원 사전 지식을 내재적으로 학습하며, 제한된 데이터만으로도 활성화될 수 있음을 보여줍니다.",
-      "key_points": [
-        "비디오 생성 모델을 활용한 새로운 이미지 복원 프레임워크 V-Bridge 제시",
-        "이미지 복원을 점진적인 생성 과정으로 재해석",
-        "적은 데이터(1,000개 샘플)로도 경쟁력 있는 성능 달성"
-      ],
-      "tags": [
-        "Vision",
-        "Image Restoration",
-        "Generative Model",
-        "Few-shot Learning",
-        "RAG",
-        "Video"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "V-Bridge는 기존 이미지 복원 방식의 한계를 극복하고, 비디오 생성 모델의 잠재력을 활용하여 적은 데이터로도 다양한 이미지 복원 작업을 수행할 수 있게 해줍니다. 이는 개발자가 이미지 복원 모델을 구축하고 개선하는 데 필요한 시간과 리소스를 크게 줄여줄 수 있습니다.",
-      "recommended_actions": [
-        "V-Bridge 프레임워크를 사용하여 자체 이미지 복원 모델 구축",
-        "다양한 비디오 생성 모델을 V-Bridge에 통합하여 성능 비교",
-        "V-Bridge를 다른 low-level vision 작업에 적용 가능성 연구"
-      ],
-      "risks_and_limits": [
-        "비디오 생성 모델의 성능에 따라 V-Bridge의 성능이 좌우될 수 있음",
-        "특정 유형의 이미지 손상에 대해서는 성능이 낮을 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13089.png",
-      "local_image_path": "images/V-Bridge_Bridging_Video_Generative_Priors_to_Versatile_Few-shot_Image_Restoration_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15557.png",
+      "local_image_path": "images/Anatomy_of_a_Lie_A_Multi-Stage_Diagnostic_Framework_for_Tracing_Hallucinations_in_Vision-Language_Mo_img.jpg",
       "local_figures": []
     }
   ]
