@@ -1,9 +1,9 @@
 {
   "source": "huggingface_papers",
   "date": "2026-03-19",
-  "generated_at": "2026-03-19T04:02:26.183166+09:00",
+  "generated_at": "2026-03-19T23:09:26.256860+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. InCoder-32B: Code Foundation Model for Industrial Scenarios\n📝 요약: InCoder-32B는 산업 시나리오에 특화된 320억 파라미터의 코드 기반 모델로, 하드웨어, 임베디드 시스템, 컴파일러, 3D 모델링 등 다양한 산업 도메인에서 강력한 성능을 보이며 오픈 소스 기반을 제공한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.16790\n📄 arXiv: https://arxiv.org/abs/2603.16790\n\n📍 2. MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification\n📝 요약: MiroThinker-H1은 검증 과정을 통합하여 복잡한 추론 작업에서 SOTA를 달성하고, MiroThinker-1.7은 효율성을 높여 오픈소스로 공개되어 연구 에이전트 개발에 기여한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.15726\n📄 arXiv: https://arxiv.org/abs/2603.15726\n\n📍 3. Qianfan-OCR: A Unified End-to-End Model for Document Intelligence\n📝 요약: Baidu에서 개발한 Qianfan-OCR은 문서 파싱, 레이아웃 분석, 문서 이해를 통합한 4B 파라미터의 end-to-end vision-language 모델로, 이미지에서 Markdown으로 직접 변환하며 다양한 프롬프트 기반 작업을 지원합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.13398\n📄 arXiv: https://arxiv.org/abs/2603.13398\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. InCoder-32B: Code Foundation Model for Industrial Scenarios\n📝 요약: InCoder-32B는 산업 시나리오에 특화된 320억 파라미터의 코드 기초 모델로, 하드웨어, 임베디드 시스템, 컴파일러 최적화 등 다양한 산업 도메인에서 강력한 성능을 보이며 오픈 소스 기반을 제공한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.16790\n📄 arXiv: https://arxiv.org/abs/2603.16790\n\n📍 2. MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification\n📝 요약: MiroThinker-H1은 검증 과정을 통합하여 복잡한 추론 작업에서 SOTA를 달성하고, MiroThinker-1.7은 효율성을 높여 오픈소스로 공개되어 연구 에이전트 개발에 기여한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.15726\n📄 arXiv: https://arxiv.org/abs/2603.15726\n\n📍 3. Demystifing Video Reasoning\n📝 요약: 비디오 생성 모델의 추론 능력은 프레임 순서가 아닌 디노이징 과정에서 발생하며, 이를 활용해 모델 성능을 개선할 수 있음을 밝힘.\n🔗 Hugging Face: https://huggingface.co/papers/2603.16870\n📄 arXiv: https://arxiv.org/abs/2603.16870\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
@@ -11,34 +11,34 @@
       "paper_id": "2603.16790",
       "url": "https://huggingface.co/papers/2603.16790",
       "arxiv_url": "https://arxiv.org/abs/2603.16790",
-      "upvotes": 130,
-      "summary": "InCoder-32B는 산업 시나리오에 특화된 320억 파라미터의 코드 기반 모델로, 하드웨어, 임베디드 시스템, 컴파일러, 3D 모델링 등 다양한 산업 도메인에서 강력한 성능을 보이며 오픈 소스 기반을 제공한다.",
-      "korean_abstract": "최근 코드 LLM은 일반 프로그래밍 작업에서 뛰어난 성능을 보이지만, 하드웨어 의미론, 특수 언어 구조, 엄격한 리소스 제약 조건이 필요한 산업 시나리오에서는 성능이 저하되는 문제가 있다. 이러한 문제를 해결하기 위해 칩 설계, GPU 커널 최적화, 임베디드 시스템, 컴파일러 최적화 및 3D 모델링 전반에 걸쳐 코드 지능을 통합하는 최초의 320억 파라미터 코드 기반 모델인 InCoder-32B를 소개한다. 효율적인 아키텍처를 채택하여 일반 코드 사전 훈련, 선별된 산업 코드 어닐링, 8K에서 128K 토큰으로 컨텍스트를 점진적으로 확장하는 중간 훈련, 실행 기반 검증을 통해 InCoder-32B를 처음부터 훈련했다. 14개의 주류 일반 코드 벤치마크와 4개의 전문 도메인에 걸친 9개의 산업 벤치마크에 대한 광범위한 평가를 수행한 결과, InCoder-32B는 일반 작업에서 매우 경쟁력 있는 성능을 달성하는 동시에 산업 도메인 전반에서 강력한 오픈 소스 기반을 구축했다.",
+      "upvotes": 282,
+      "summary": "InCoder-32B는 산업 시나리오에 특화된 320억 파라미터의 코드 기초 모델로, 하드웨어, 임베디드 시스템, 컴파일러 최적화 등 다양한 산업 도메인에서 강력한 성능을 보이며 오픈 소스 기반을 제공한다.",
+      "korean_abstract": "최근 코드 LLM은 일반 프로그래밍 작업에서 상당한 발전을 이루었지만, 하드웨어 의미론, 특수 언어 구조, 엄격한 리소스 제약 조건이 필요한 산업 시나리오에서는 성능이 크게 저하된다. 이러한 문제점을 해결하기 위해 칩 설계, GPU 커널 최적화, 임베디드 시스템, 컴파일러 최적화 및 3D 모델링 전반에 걸쳐 코드 지능을 통합하는 최초의 320억 파라미터 코드 기초 모델인 InCoder-32B를 소개한다. 효율적인 아키텍처를 채택하여 일반 코드 사전 훈련, 선별된 산업 코드 어닐링, 8K에서 128K 토큰으로 컨텍스트를 점진적으로 확장하는 중간 훈련, 실행 기반 검증을 통해 InCoder-32B를 처음부터 훈련했다. 14개의 주류 일반 코드 벤치마크와 4개의 전문 도메인에 걸친 9개의 산업 벤치마크에 대한 광범위한 평가를 수행했다. 결과적으로 InCoder-32B는 일반 작업에서 매우 경쟁력 있는 성능을 달성하는 동시에 산업 도메인 전반에서 강력한 오픈 소스 기반을 구축했다.",
       "key_points": [
-        "산업 시나리오에 특화된 32B 파라미터 코드 기반 모델",
+        "산업 시나리오에 특화된 32B 파라미터 코드 기초 모델",
         "칩 설계, GPU 커널 최적화, 임베디드 시스템 등 다양한 산업 도메인 지원",
-        "일반 코드 벤치마크 및 산업 벤치마크에서 높은 성능 입증"
+        "128K 컨텍스트를 지원하는 효율적인 아키텍처"
       ],
       "tags": [
         "Code Generation",
-        "LLM",
+        "Foundation Model",
         "Industrial Application",
-        "Open-Source",
+        "LLM",
         "Reasoning",
         "Benchmark",
         "Evaluation"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "InCoder-32B는 산업 현장에서 요구되는 특수한 코드 생성 및 이해 능력을 제공하며, 다양한 산업 도메인에 적용 가능한 오픈 소스 기반을 제공하여 개발 효율성을 향상시킬 수 있다.",
+      "practical_relevance": "InCoder-32B는 산업 현장에서 요구되는 복잡한 코드 생성 및 최적화 작업을 위한 강력한 기반 모델을 제공하며, 특히 하드웨어 및 임베디드 시스템 개발에 유용하다.",
       "recommended_actions": [
-        "InCoder-32B를 활용하여 특정 산업 도메인에 맞는 코드 생성 실험 진행",
-        "기존 코드 생성 모델과 InCoder-32B의 성능 비교 분석",
-        "InCoder-32B를 기반으로 한 코드 자동 완성 또는 오류 검출 시스템 구축"
+        "InCoder-32B를 활용하여 특정 산업 도메인(예: GPU 커널 최적화)에서의 코드 생성 성능 테스트",
+        "기존 코드 생성 모델과 InCoder-32B의 성능 비교",
+        "InCoder-32B를 기반으로 특정 산업 시나리오에 맞는 파인튜닝 진행"
       ],
       "risks_and_limits": [
-        "특정 산업 도메인에 대한 편향 가능성 존재",
-        "모델 크기로 인한 리소스 제약 발생 가능성"
+        "32B 파라미터 모델이므로, 추론 및 훈련에 상당한 컴퓨팅 자원 필요",
+        "특정 산업 도메인에 대한 편향이 존재할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -52,13 +52,13 @@
       "paper_id": "2603.15726",
       "url": "https://huggingface.co/papers/2603.15726",
       "arxiv_url": "https://arxiv.org/abs/2603.15726",
-      "upvotes": 125,
+      "upvotes": 159,
       "summary": "MiroThinker-H1은 검증 과정을 통합하여 복잡한 추론 작업에서 SOTA를 달성하고, MiroThinker-1.7은 효율성을 높여 오픈소스로 공개되어 연구 에이전트 개발에 기여한다.",
-      "korean_abstract": "최근 복잡한 장기 추론 작업에 대한 연구 에이전트의 필요성이 증가하고 있다. 기존 연구 에이전트는 다단계 문제 해결에서 신뢰성이 부족하다는 문제점이 있었다. 본 논문에서는 중간 추론 결정 평가 및 전체 추론 경로 감사를 통해 검증 기능을 강화한 MiroThinker-H1을 제안한다. MiroThinker-H1은 다양한 벤치마크에서 SOTA를 달성했으며, MiroThinker-1.7은 오픈소스로 공개되어 효율적인 연구 에이전트 개발을 지원한다.",
+      "korean_abstract": "최근 복잡한 장기 추론 작업을 위한 연구 에이전트의 필요성이 증가하고 있다. 기존 연구 에이전트는 다단계 문제 해결의 신뢰성이 부족하다는 문제점이 있다. 본 논문에서는 구조화된 계획, 맥락적 추론, 도구 상호작용을 강조하는 중간 학습 단계를 통해 각 상호작용 단계의 신뢰성을 향상시킨 MiroThinker-1.7과, 추론 과정에 검증을 통합한 MiroThinker-H1을 제안한다. MiroThinker-H1은 다양한 벤치마크에서 SOTA 성능을 달성했으며, MiroThinker-1.7은 오픈소스로 공개되어 효율적인 연구 에이전트 개발을 가능하게 한다.",
       "key_points": [
-        "에이전트 중간 학습 단계에서 구조화된 계획, 맥락적 추론, 도구 상호 작용을 강조하여 각 상호 작용 단계의 신뢰성 향상",
-        "추론 과정에 검증을 통합하여 중간 추론 결정 평가 및 전체 추론 경로 감사",
-        "오픈 웹 연구, 과학적 추론, 금융 분석 벤치마크에서 SOTA 달성"
+        "에이전트 중간 학습 단계에서 구조화된 계획, 맥락적 추론, 도구 상호작용을 강조하여 신뢰성 향상",
+        "추론 과정에 로컬 및 글로벌 수준의 검증을 통합하여 일관성 있는 증거 체인 확보",
+        "오픈 웹 연구, 과학적 추론, 금융 분석 등 다양한 벤치마크에서 SOTA 성능 달성"
       ],
       "tags": [
         "Agent",
@@ -71,15 +71,15 @@
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "MiroThinker-H1의 검증 메커니즘은 개발자가 에이전트의 추론 과정을 더 투명하게 이해하고 디버깅하는 데 도움을 줄 수 있으며, MiroThinker-1.7의 오픈소스 공개는 연구 에이전트 개발 비용을 절감하고 접근성을 높인다.",
+      "practical_relevance": "MiroThinker-H1의 검증 메커니즘은 개발자가 에이전트의 추론 과정을 디버깅하고 개선하는 데 도움을 줄 수 있으며, MiroThinker-1.7의 오픈소스 공개는 연구 에이전트 개발 비용을 절감하고 접근성을 높인다.",
       "recommended_actions": [
-        "MiroThinker-1.7을 다운로드하여 자체 데이터셋에 적용해보기",
-        "MiroThinker-H1의 검증 메커니즘을 분석하여 기존 에이전트에 통합해보기",
-        "MiroThinker-1.7-mini를 활용하여 리소스 제약적인 환경에서의 성능 테스트 수행"
+        "MiroThinker-1.7을 다운로드하여 간단한 연구 작업에 적용해보기",
+        "MiroThinker-H1의 검증 메커니즘을 분석하여 기존 에이전트에 통합하는 방법 연구",
+        "자체 데이터셋을 사용하여 MiroThinker-1.7을 추가 학습시켜 특정 도메인에 최적화하기"
       ],
       "risks_and_limits": [
-        "MiroThinker-H1의 복잡성으로 인해 특정 작업에 대한 최적화가 필요할 수 있음",
-        "오픈소스 모델의 유지보수 및 업데이트에 대한 지속적인 지원 필요"
+        "MiroThinker-H1의 검증 과정이 추론 속도를 늦출 수 있음",
+        "특정 도메인에 대한 편향이 존재할 수 있으며, 일반화 성능이 제한적일 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -89,38 +89,78 @@
     },
     {
       "rank": 3,
+      "title": "Demystifing Video Reasoning",
+      "paper_id": "2603.16870",
+      "url": "https://huggingface.co/papers/2603.16870",
+      "arxiv_url": "https://arxiv.org/abs/2603.16870",
+      "upvotes": 152,
+      "summary": "비디오 생성 모델의 추론 능력은 프레임 순서가 아닌 디노이징 과정에서 발생하며, 이를 활용해 모델 성능을 개선할 수 있음을 밝힘.",
+      "korean_abstract": "최근 비디오 생성 모델은 뛰어난 추론 능력을 보여주지만, 기존 연구는 프레임 순서에 따른 추론(CoF)에 초점을 맞추었습니다. 본 연구에서는 비디오 모델의 추론이 주로 디퓨전 디노이징 단계에서 발생한다는 것을 밝히고, 이를 Chain-of-Steps(CoS)라고 명명합니다. 모델은 초기 단계에서 다양한 후보 솔루션을 탐색하고 점진적으로 최종 답안에 수렴하며, working memory, self-correction, perception before action 등의 추론 행동을 보입니다. 또한, 디퓨전 트랜스포머 내에서 계층별 기능 특화가 이루어짐을 확인했습니다. 이러한 통찰을 바탕으로, 간단한 앙상블 전략을 통해 추론 능력을 향상시키는 방법을 제시합니다.",
+      "key_points": [
+        "비디오 모델의 추론 메커니즘이 프레임 순서가 아닌 디노이징 과정에서 발생함을 규명",
+        "Chain-of-Steps (CoS) 메커니즘과 emergent reasoning behaviors (working memory, self-correction, perception before action) 식별",
+        "디퓨전 트랜스포머 내 계층별 기능 특화 발견 및 이를 활용한 성능 개선 전략 제시"
+      ],
+      "tags": [
+        "Vision",
+        "Diffusion Model",
+        "Reasoning",
+        "Video Generation",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "비디오 생성 모델의 추론 과정을 이해하고 개선하는 데 도움이 되며, 특히 디노이징 과정에서의 추론 메커니즘을 활용하여 모델 성능을 향상시키는 데 기여할 수 있습니다.",
+      "recommended_actions": [
+        "다양한 random seed를 사용하여 생성된 latent trajectory들을 앙상블하여 비디오 생성 모델의 성능을 향상시켜 봅니다.",
+        "디퓨전 트랜스포머의 각 계층별 역할을 분석하여 모델 구조를 개선합니다.",
+        "모델의 working memory, self-correction, perception before action 능력을 강화하는 학습 전략을 연구합니다."
+      ],
+      "risks_and_limits": [
+        "제시된 방법이 특정 모델이나 데이터셋에만 효과적일 수 있습니다.",
+        "디노이징 과정에서의 추론 메커니즘을 완벽하게 이해하고 제어하는 데 어려움이 있을 수 있습니다."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16870.png",
+      "local_image_path": "images/Demystifing_Video_Reasoning_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
       "title": "Qianfan-OCR: A Unified End-to-End Model for Document Intelligence",
       "paper_id": "2603.13398",
       "url": "https://huggingface.co/papers/2603.13398",
       "arxiv_url": "https://arxiv.org/abs/2603.13398",
-      "upvotes": 78,
-      "summary": "Baidu에서 개발한 Qianfan-OCR은 문서 파싱, 레이아웃 분석, 문서 이해를 통합한 4B 파라미터의 end-to-end vision-language 모델로, 이미지에서 Markdown으로 직접 변환하며 다양한 프롬프트 기반 작업을 지원합니다.",
-      "korean_abstract": "기존 OCR 모델은 문서의 레이아웃 분석과 이해를 개별적으로 처리해야 하는 번거로움이 있었습니다. 이러한 문제를 해결하기 위해 Qianfan-OCR은 단일 아키텍처 내에서 문서 파싱, 레이아웃 분석, 문서 이해를 통합하는 end-to-end vision-language 모델을 제안합니다. 특히, 'Layout-as-Thought'라는 새로운 접근 방식을 통해 레이아웃 정보를 명시적으로 생성하여 복잡한 레이아웃에서도 정확도를 향상시켰습니다. OmniDocBench v1.5 및 OlmOCR Bench에서 최고 순위를 기록했으며, 주요 정보 추출 벤치마크에서 Gemini-3.1-Pro, Seed-2.0, Qwen3-VL-235B를 능가하는 성능을 보였습니다. 이 모델은 Baidu AI Cloud Qianfan 플랫폼을 통해 공개적으로 사용할 수 있습니다.",
+      "upvotes": 132,
+      "summary": "Baidu에서 개발한 Qianfan-OCR은 문서 파싱, 레이아웃 분석, 문서 이해를 통합한 4B 파라미터의 end-to-end vision-language 모델로, 이미지에서 Markdown으로 직접 변환하며 다양한 프롬프트 기반 작업을 지원하여 문서 지능 분야에서 높은 성능을 보입니다.",
+      "korean_abstract": "기존 OCR 모델들은 문서의 레이아웃 분석과 내용 이해를 개별적으로 처리하여 복잡한 문서에 대한 처리 성능이 떨어지는 문제가 있었습니다. Qianfan-OCR은 단일 아키텍처 내에서 문서 파싱, 레이아웃 분석, 문서 이해를 통합하여 이 문제를 해결합니다. 특히, 'Layout-as-Thought'라는 새로운 접근 방식을 통해 레이아웃 정보를 명시적으로 생성하여 복잡한 레이아웃에서도 정확도를 향상시켰습니다. OmniDocBench v1.5 및 OlmOCR Bench에서 최고 순위를 기록하고, 다른 벤치마크에서도 경쟁력 있는 결과를 얻었으며, 특히 주요 정보 추출 벤치마크에서 Gemini-3.1-Pro, Seed-2.0, Qwen3-VL-235B를 능가하는 성능을 보였습니다. 이 모델은 Baidu AI Cloud Qianfan 플랫폼을 통해 공개적으로 사용할 수 있습니다.",
       "key_points": [
-        "문서 파싱, 레이아웃 분석, 문서 이해를 통합하는 end-to-end 모델",
-        "'Layout-as-Thought'를 통해 레이아웃 정보 명시적 생성 및 정확도 향상",
-        "OmniDocBench v1.5 및 OlmOCR Bench에서 최고 성능 달성"
+        "End-to-end vision-language 모델을 사용하여 문서 파싱, 레이아웃 분석, 문서 이해를 통합",
+        "'Layout-as-Thought'를 통해 레이아웃 정보를 명시적으로 생성하여 복잡한 레이아웃 처리 성능 향상",
+        "OmniDocBench v1.5, OlmOCR Bench에서 최고 성능을 달성하고, 주요 정보 추출 벤치마크에서 Gemini-3.1-Pro 등을 능가"
       ],
       "tags": [
         "OCR",
         "Vision-Language Model",
         "Document Understanding",
         "Layout Analysis",
+        "End-to-End",
         "RAG",
         "Vision",
         "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "문서 관련 작업을 자동화하고 효율성을 높일 수 있으며, 특히 복잡한 레이아웃의 문서 처리 성능이 뛰어나 다양한 산업 분야에서 활용될 수 있습니다.",
+      "practical_relevance": "문서 관련 작업을 자동화하고 효율성을 높일 수 있는 end-to-end OCR 모델로, 특히 복잡한 레이아웃의 문서 처리나 다양한 프롬프트 기반의 문서 이해 작업에 유용하게 활용될 수 있습니다.",
       "recommended_actions": [
-        "Baidu AI Cloud Qianfan 플랫폼에서 Qianfan-OCR을 사용해 보기",
-        "자체 문서 데이터셋에 적용하여 성능 테스트 수행",
-        "'Layout-as-Thought'의 효과를 다양한 레이아웃에서 검증"
+        "Baidu AI Cloud Qianfan 플랫폼에서 Qianfan-OCR을 사용하여 문서 처리 성능 테스트",
+        "'Layout-as-Thought' 방식이 실제 문서 처리 성능에 미치는 영향 분석",
+        "기존 OCR 파이프라인과 Qianfan-OCR을 비교하여 성능 및 효율성 비교"
       ],
       "risks_and_limits": [
-        "4B 파라미터 모델이므로 리소스 요구량이 높을 수 있음",
-        "특정 유형의 문서 또는 레이아웃에 대한 성능 제한이 있을 수 있음"
+        "4B 파라미터 모델이므로, 리소스 제약이 있는 환경에서는 사용이 어려울 수 있음",
+        "특정 유형의 문서 또는 레이아웃에 대한 성능이 다른 유형에 비해 낮을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -129,18 +169,101 @@
       "local_figures": []
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "title": "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding",
+      "paper_id": "2603.13366",
+      "url": "https://huggingface.co/papers/2603.13366",
+      "arxiv_url": "https://arxiv.org/abs/2603.13366",
+      "upvotes": 84,
+      "summary": "MLRM에서 transition word 사용 시 발생하는 hallucination을 완화하기 위해, token probability distribution을 활용하여 latent reasoning을 강화하는 decoding 전략(LEAD)을 제안하고, 다양한 벤치마크에서 효과를 입증함.",
+      "korean_abstract": "최근 multimodal large reasoning model(MLRM)은 visual question answering에서 뛰어난 성능을 보이지만, transition word 사용 시 hallucination이 발생하는 경향이 있다. 이는 모델이 discrete textual input에 의존하여 high-entropy reasoning 단계에서 충분한 contextual cue를 활용하지 못하기 때문이다. 본 논문에서는 token probability distribution으로부터 풍부한 semantic representation을 구축하여 in-context reasoning을 강화하는 Latent Entropy-Aware Decoding(LEAD) 전략을 제안한다. LEAD는 entropy-aware reasoning mode switching을 통해 high-entropy 상태에서는 probability-weighted continuous embedding을 사용하고, entropy가 감소하면 discrete token embedding으로 전환한다. 또한, 시각 정보에 집중하도록 prior-guided visual anchor injection 전략을 사용한다. 다양한 실험 결과, LEAD는 여러 MLRM에서 hallucination을 효과적으로 완화하는 것으로 나타났다.",
+      "key_points": [
+        "Transition word와 hallucination 간의 연관성을 분석하고, high-entropy 상태의 문제점을 지적",
+        "Token probability distribution을 활용한 latent reasoning 강화 기법(LEAD) 제안",
+        "Entropy-aware reasoning mode switching 및 prior-guided visual anchor injection 전략 도입"
+      ],
+      "tags": [
+        "MLRM",
+        "Hallucination",
+        "Decoding",
+        "Reasoning",
+        "Vision",
+        "RAG",
+        "Multimodal",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "MLRM 기반 시스템에서 hallucination 문제를 완화하여 답변의 신뢰도를 높이고, 특히 transition word가 많이 사용되는 복잡한 추론 과정에서 성능 향상을 기대할 수 있다.",
+      "recommended_actions": [
+        "LEAD 전략을 기존 MLRM 모델에 plug-and-play 방식으로 적용해보기",
+        "Entropy threshold 값을 조정하여 모델의 성능 변화 관찰하기",
+        "Visual anchor injection 전략의 효과를 다양한 데이터셋에서 검증하기"
+      ],
+      "risks_and_limits": [
+        "LEAD 전략이 모든 유형의 hallucination을 완벽하게 해결하지 못할 수 있음",
+        "새로운 hyperparameter 튜닝이 필요할 수 있으며, 추가적인 연산 비용이 발생할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13366.png",
+      "local_image_path": "images/Thinking_in_Uncertainty_Mitigating_Hallucinations_in_MLRMs_with_Latent_Entropy-Aware_Decoding_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "SocialOmni: Benchmarking Audio-Visual Social Interactivity in Omni Models",
+      "paper_id": "2603.16859",
+      "url": "https://huggingface.co/papers/2603.16859",
+      "arxiv_url": "https://arxiv.org/abs/2603.16859",
+      "upvotes": 68,
+      "summary": "SocialOmni는 오디오, 비디오, 텍스트를 통합한 Omni 모델의 사회적 상호작용 능력을 평가하는 새로운 벤치마크로, 기존 모델들의 사회적 맥락 이해 및 대화 능력의 부족함을 밝히고 향후 모델 개선 방향을 제시합니다.",
+      "korean_abstract": "Omni-modal large language models (OLMs)는 오디오, 비디오, 텍스트를 통합하여 인간-기계 상호작용 방식을 재정의하지만, 기존 벤치마크는 정적이고 정확도 중심의 평가에 머물러 있어 자연스러운 대화에서 사회적 상호작용 능력을 평가하는 데 한계가 있었습니다. 이러한 문제점을 해결하기 위해, 본 연구에서는 화자 분리 및 식별, 인터럽트 타이밍 제어, 자연스러운 인터럽트 생성의 세 가지 핵심 차원에서 대화형 상호작용을 평가하는 종합적인 벤치마크인 SocialOmni를 제안합니다. SocialOmni는 2,000개의 인지 샘플과 엄격한 시간적, 맥락적 제약 조건을 갖춘 209개의 상호작용 생성 인스턴스로 구성되어 있으며, 오디오-비디오 불일치 시나리오를 통해 모델의 견고성을 테스트합니다. 12개의 주요 OLM을 벤치마크한 결과, 모델 간 사회적 상호작용 능력에 상당한 차이가 있음을 확인했으며, 인지 정확도와 맥락에 적합한 인터럽트 생성 능력 간의 디커플링 현상을 발견했습니다. SocialOmni의 진단 결과는 향후 OLM에서 인지-상호작용 간의 격차를 해소하는 데 유용한 시그널을 제공합니다.",
+      "key_points": [
+        "Omni 모델의 사회적 상호작용 능력을 평가하는 새로운 벤치마크 SocialOmni 제시",
+        "화자 식별, 인터럽트 타이밍, 자연스러운 인터럽트 생성의 세 가지 핵심 차원 평가",
+        "기존 모델의 인지 정확도와 대화 능력 간의 디커플링 현상 발견"
+      ],
+      "tags": [
+        "Agent",
+        "Audio",
+        "Vision",
+        "Benchmark",
+        "LLM",
+        "RAG",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "Omni 모델을 활용한 대화형 에이전트 개발 시, SocialOmni 벤치마크를 통해 모델의 사회적 상호작용 능력을 객관적으로 평가하고 개선할 수 있습니다. 특히, 인터럽트 처리 능력은 실제 대화 환경에서 중요한 요소이므로, SocialOmni를 통해 모델의 완성도를 높일 수 있습니다.",
+      "recommended_actions": [
+        "SocialOmni 데이터셋을 활용하여 자사 모델의 사회적 상호작용 능력 벤치마킹",
+        "SocialOmni의 평가 지표를 기반으로 모델의 인터럽트 처리 메커니즘 개선",
+        "오디오-비디오 불일치 시나리오를 통해 모델의 견고성 테스트 및 개선"
+      ],
+      "risks_and_limits": [
+        "SocialOmni는 특정 시나리오에 특화되어 있어 일반적인 대화 능력을 완벽하게 평가하지 못할 수 있음",
+        "벤치마크 결과가 실제 사용자 환경에서의 성능과 반드시 일치하지 않을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16859.png",
+      "local_image_path": "images/SocialOmni_Benchmarking_Audio-Visual_Social_Interactivity_in_Omni_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
       "title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation",
       "paper_id": "2603.16669",
       "url": "https://huggingface.co/papers/2603.16669",
       "arxiv_url": "https://arxiv.org/abs/2603.16669",
-      "upvotes": 62,
-      "summary": "Kinema4D는 로봇-환경 상호작용을 4D로 모델링하여, 기존 시뮬레이터의 제약을 극복하고 실제와 유사한 로봇 시뮬레이션을 가능하게 함.",
-      "korean_abstract": "기존 Embodied AI 시뮬레이션은 2D 또는 정적인 환경에 의존하여 로봇-환경 간의 4D 상호작용을 정확히 모델링하기 어려웠다. 이러한 문제를 해결하기 위해, Kinema4D는 로봇 제어를 위한 정확한 4D 표현과 환경 반응의 생성적 4D 모델링을 결합한 새로운 액션-조건부 4D 생성 로봇 시뮬레이터를 제안한다. URDF 기반의 3D 로봇을 사용하여 4D 로봇 제어 궤적을 생성하고, 이를 통해 복잡한 환경의 반응 역학을 RGB/pointmap 시퀀스로 합성한다. Robo4D-200k라는 대규모 데이터셋을 구축하여 학습을 용이하게 했으며, 실험 결과 물리적으로 현실적이고, 기하학적으로 일관되며, 다양한 실제 역학을 충실히 반영하는 상호작용을 효과적으로 시뮬레이션할 수 있음을 입증했다. Kinema4D는 제로샷 전이 가능성을 보여주며, 차세대 Embodied 시뮬레이션을 위한 고품질 기반을 제공한다.",
+      "upvotes": 64,
+      "summary": "Kinema4D는 로봇-환경 상호작용을 4D로 모델링하여 고품질 시뮬레이션을 가능하게 하며, 실제 로봇 제어 및 환경 반응 생성을 통해 zero-shot transfer 잠재력을 제공하여 차세대 Embodied AI 연구에 기여한다.",
+      "korean_abstract": "Embodied AI 연구에서 로봇-환경 상호작용 시뮬레이션은 중요하지만, 기존 방식은 2D에 국한되거나 정적인 환경에 의존하여 4D 시공간적 특성을 반영하지 못했다. Kinema4D는 로봇 제어를 위한 URDF 기반 3D 로봇의 kinematic 제어와 환경 반응 생성을 위한 pointmap 기반 generative 모델을 결합하여 4D 로봇 시뮬레이터를 구축한다. 20만 개 이상의 로봇 상호작용 에피소드로 구성된 Robo4D-200k 데이터셋을 구축하여 학습을 용이하게 했다. 실험 결과, Kinema4D는 물리적으로 plausible하고 geometry-consistent하며 embodiment-agnostic한 상호작용을 효과적으로 시뮬레이션하며, zero-shot transfer 가능성을 보여주었다.",
       "key_points": [
-        "로봇 제어를 위한 정확한 4D 표현과 환경 반응의 생성적 4D 모델링을 결합",
-        "URDF 기반 3D 로봇과 pointmap을 활용하여 4D 로봇-환경 상호작용 모델링",
-        "Robo4D-200k 데이터셋을 구축하여 학습 데이터 확보"
+        "로봇 제어와 환경 반응을 분리하여 4D 시뮬레이션 구현",
+        "URDF 기반 kinematic 제어와 generative 모델을 결합",
+        "대규모 4D 로봇 상호작용 데이터셋 Robo4D-200k 구축"
       ],
       "tags": [
         "Robotics",
@@ -150,17 +273,17 @@
         "RAG",
         "Video"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "로봇 시뮬레이션의 현실감을 높여 실제 로봇 환경에서의 성능을 예측하고 개선하는 데 활용 가능하며, 특히 로봇 제어, 경로 계획, 강화 학습 등의 분야에서 유용하다.",
+      "practical_relevance": "로봇 시뮬레이션 환경 구축 시, Kinema4D는 실제와 유사한 4D 환경을 제공하여 로봇 제어 알고리즘 개발 및 검증에 유용하며, zero-shot transfer를 통해 실제 로봇 적용 가능성을 높일 수 있다.",
       "recommended_actions": [
-        "Robo4D-200k 데이터셋을 활용하여 로봇 학습 모델 성능 향상 실험",
-        "Kinema4D를 활용하여 특정 로봇 작업 환경 시뮬레이션 구축 및 테스트",
-        "Kinema4D의 제로샷 전이 능력을 활용하여 새로운 로봇 환경에 대한 적응성 평가"
+        "Robo4D-200k 데이터셋을 활용하여 로봇 학습 모델 개발",
+        "Kinema4D 시뮬레이터를 사용하여 로봇 제어 알고리즘 성능 평가",
+        "실제 로봇 환경에서 Kinema4D 기반 모델의 zero-shot transfer 성능 테스트"
       ],
       "risks_and_limits": [
-        "생성 모델의 한계로 인해 완벽하게 현실과 동일한 시뮬레이션은 어려울 수 있음",
-        "데이터셋의 편향이 시뮬레이션 결과에 영향을 미칠 수 있음"
+        "Generative 모델의 한계로 인해 생성되는 환경 반응의 현실성 보장 필요",
+        "URDF 기반 로봇 제어의 정확도가 실제 로봇의 성능에 미치는 영향 고려"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -171,57 +294,18 @@
       ]
     },
     {
-      "rank": 5,
-      "title": "Demystifing Video Reasoning",
-      "paper_id": "2603.16870",
-      "url": "https://huggingface.co/papers/2603.16870",
-      "arxiv_url": "https://arxiv.org/abs/2603.16870",
-      "upvotes": 55,
-      "summary": "비디오 생성 모델의 추론 능력은 프레임 순서가 아닌 디노이징 과정에서 나타나며, 이를 활용해 모델 성능을 향상시킬 수 있다.",
-      "korean_abstract": "최근 비디오 생성 모델은 놀라운 추론 능력을 보여주지만, 기존 연구는 이를 프레임 순차적 처리로 설명했다. 본 연구는 이러한 가정을 깨고, 추론이 주로 디노이징 단계에서 발생함을 밝힌다. 모델은 초기 단계에서 다양한 후보 솔루션을 탐색하고 점진적으로 최종 답안에 수렴하는 'Chain-of-Steps' 메커니즘을 따른다. 또한, working memory, self-correction, perception before action과 같은 추론 행동을 확인하고, Diffusion Transformer 내 레이어별 기능 분화를 밝혀냈다. 이러한 통찰을 바탕으로, 별도 학습 없이 latent trajectory 앙상블을 통해 추론 능력을 향상시키는 전략을 제시한다.",
-      "key_points": [
-        "비디오 모델 추론이 프레임 순서가 아닌 디노이징 과정에서 발생함을 규명",
-        "'Chain-of-Steps' 메커니즘 및 emergent reasoning behaviors (working memory, self-correction, perception before action) 식별",
-        "Diffusion Transformer 내 레이어별 기능 분화 분석 및 추론 능력 향상 전략 제시"
-      ],
-      "tags": [
-        "Video Generation",
-        "Diffusion Model",
-        "Reasoning",
-        "Transformer",
-        "Video"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "비디오 생성 모델의 추론 과정을 이해하고 개선하여, 더욱 정교하고 창의적인 비디오 콘텐츠 생성에 활용할 수 있다. 특히, 모델 내부 동작 방식에 대한 이해는 디버깅 및 최적화에 도움이 될 수 있다.",
-      "recommended_actions": [
-        "디퓨전 모델의 디노이징 과정에서 latent representation 변화 시각화",
-        "latent trajectory 앙상블을 통한 비디오 생성 품질 변화 실험",
-        "특정 레이어의 출력을 조작하여 추론 과정에 미치는 영향 분석"
-      ],
-      "risks_and_limits": [
-        "제안하는 방법이 특정 모델 구조 또는 데이터셋에만 효과적일 수 있음",
-        "latent trajectory 앙상블이 계산 비용을 증가시킬 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16870.png",
-      "local_image_path": "images/Demystifing_Video_Reasoning_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 6,
+      "rank": 8,
       "title": "WorldCam: Interactive Autoregressive 3D Gaming Worlds with Camera Pose as a Unifying Geometric Representation",
       "paper_id": "2603.16871",
       "url": "https://huggingface.co/papers/2603.16871",
       "arxiv_url": "https://arxiv.org/abs/2603.16871",
-      "upvotes": 43,
-      "summary": "사용자 액션을 3D 세계 내 카메라 포즈 변화로 모델링하여 게임 환경의 상호작용성과 장기적 일관성을 개선하는 새로운 방법론을 제시하고, 대규모 데이터셋을 구축하여 성능을 입증했습니다.",
-      "korean_abstract": "최근 비디오 확산 트랜스포머는 사용자가 생성된 환경을 탐색할 수 있도록 지원하지만, 기존 방법들은 정확한 액션 제어와 장기적인 3D 일관성 유지에 어려움을 겪습니다. 기존 연구들은 사용자 액션을 추상적인 조건 신호로 취급하여 액션과 3D 세계 간의 기하학적 결합을 간과했습니다. 본 논문에서는 카메라 포즈를 통합적인 기하학적 표현으로 설정하여 액션 제어와 장기적인 3D 일관성을 동시에 확보합니다. 물리 기반의 연속적인 액션 공간을 정의하고, Lie 대수를 사용하여 정확한 6-DoF 카메라 포즈를 도출하여 생성 모델에 주입합니다. 또한, 글로벌 카메라 포즈를 공간 인덱스로 사용하여 과거 관찰을 검색하여 장기 탐색 중 기하학적으로 일관된 재방문을 가능하게 합니다. 3,000분 분량의 인간 게임 플레이 데이터셋을 구축하여 성능을 입증했으며, 실험 결과 기존 방법들을 능가하는 액션 제어, 시각적 품질, 3D 공간 일관성을 보여줍니다.",
+      "upvotes": 51,
+      "summary": "사용자 액션과 3D 환경 간의 기하학적 관계를 활용하여 액션 제어 정확도와 장기적 3D 일관성을 향상시킨 대화형 게임 월드 모델을 제시합니다.",
+      "korean_abstract": "기존의 대화형 게임 월드 모델은 사용자 액션을 추상적인 조건 신호로 처리하여 정확한 액션 제어와 장기적인 3D 일관성 유지에 어려움을 겪었습니다. 본 논문에서는 카메라 포즈를 통합적인 기하학적 표현으로 사용하여 즉각적인 액션 제어와 장기적인 3D 일관성을 동시에 확보합니다. 사용자의 입력을 Lie 대수를 통해 6-DoF 카메라 포즈로 변환하고, 이를 카메라 임베더를 통해 생성 모델에 주입하여 정확한 액션 정렬을 보장합니다. 또한, 글로벌 카메라 포즈를 공간 인덱스로 활용하여 과거 관찰 정보를 검색함으로써 장거리 탐색 중에도 기하학적으로 일관된 위치 재방문을 가능하게 합니다. 3,000분 분량의 실제 게임 플레이 데이터셋을 구축하여 제안 방법의 우수성을 입증했습니다.",
       "key_points": [
-        "카메라 포즈를 이용한 액션 제어 및 3D 일관성 확보",
-        "물리 기반 연속 액션 공간 및 Lie 대수 활용",
-        "대규모 인간 게임 플레이 데이터셋 구축"
+        "카메라 포즈를 3D 게임 환경에서의 액션과 공간적 일관성을 연결하는 핵심 표현으로 사용",
+        "Lie 대수를 활용한 정확한 6-DoF 카메라 포즈 추정 및 액션 제어",
+        "글로벌 카메라 포즈 기반의 과거 관찰 정보 검색을 통한 장거리 탐색에서의 일관성 유지"
       ],
       "tags": [
         "Agent",
@@ -233,15 +317,15 @@
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "게임 개발 시 사용자의 액션을 보다 정확하게 반영하고, 장기간 플레이 시에도 일관성 있는 3D 환경을 유지하는 데 도움이 될 수 있습니다. 특히, 복잡한 상호작용이 필요한 게임 환경에서 유용할 것입니다.",
+      "practical_relevance": "게임 개발 시, 사용자 액션에 따른 카메라 움직임을 보다 정확하게 모델링하고, 장기간 플레이 시에도 일관성 있는 3D 환경을 제공하는 데 활용할 수 있습니다.",
       "recommended_actions": [
-        "자체 게임 엔진에 카메라 포즈 기반 액션 제어 시스템 구현 시도",
-        "제공된 데이터셋을 활용하여 모델 학습 및 성능 비교",
-        "다른 유형의 액션 공간 표현과 비교 분석"
+        "자체 게임 엔진에 카메라 포즈 기반 액션 제어 시스템 통합 시도",
+        "과거 관찰 정보 검색을 위한 카메라 포즈 기반 인덱싱 시스템 구현",
+        "생성 모델에 카메라 포즈 정보를 효과적으로 주입하는 방법 연구"
       ],
       "risks_and_limits": [
-        "새로운 데이터셋에 대한 일반화 성능 검증 필요",
-        "실시간 성능 확보를 위한 최적화 필요"
+        "복잡한 환경에서의 정확한 카메라 포즈 추정의 어려움",
+        "실시간 렌더링을 위한 효율적인 과거 관찰 정보 검색 방법 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
@@ -250,22 +334,23 @@
       "local_figures": []
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "TRUST-SQL: Tool-Integrated Multi-Turn Reinforcement Learning for Text-to-SQL over Unknown Schemas",
       "paper_id": "2603.16448",
       "url": "https://huggingface.co/papers/2603.16448",
       "arxiv_url": "https://arxiv.org/abs/2603.16448",
-      "upvotes": 43,
-      "summary": "TRUST-SQL은 알려지지 않은 스키마 환경에서 Text-to-SQL 파싱 성능을 크게 향상시키는 새로운 강화 학습 프레임워크로, 실제 엔터프라이즈 환경에서의 활용 가능성이 높음.",
-      "korean_abstract": "Text-to-SQL 파싱은 Full Schema Assumption 하에서 상당한 발전을 이루었지만, 실제 환경에서는 수많은 테이블과 noisy한 메타데이터로 인해 어려움이 있습니다. 본 연구에서는 Unknown Schema 시나리오에서 에이전트가 관련 메타데이터를 능동적으로 식별하고 검증하는 TRUST-SQL 프레임워크를 제안합니다. 이 프레임워크는 4단계 프로토콜을 통해 검증된 메타데이터에 기반한 추론을 수행하며, Dual-Track GRPO 전략을 통해 credit assignment 문제를 해결합니다. 실험 결과, TRUST-SQL은 다양한 벤치마크에서 기존 모델 대비 평균 30.6%(4B), 16.6%(8B)의 절대적인 성능 향상을 보였으며, 스키마 사전 로딩 없이도 스키마를 미리 로딩한 강력한 베이스라인 모델과 유사하거나 능가하는 성능을 달성했습니다.",
+      "upvotes": 50,
+      "summary": "TRUST-SQL은 알려지지 않은 스키마 환경에서 Text-to-SQL 파싱 성능을 크게 향상시키는 새로운 강화 학습 프레임워크로, 실제 엔터프라이즈 환경에서의 데이터베이스 쿼리 문제를 해결하는 데 기여한다.",
+      "korean_abstract": "Text-to-SQL 파싱은 Full Schema Assumption 하에서 상당한 발전을 이루었지만, 실제 환경에서는 수많은 테이블과 noisy한 메타데이터로 인해 어려움을 겪는다. 이 연구에서는 Unknown Schema 시나리오를 해결하기 위해, 에이전트가 관련 메타데이터를 능동적으로 식별하고 검증하는 TRUST-SQL 프레임워크를 제안한다. 이 프레임워크는 4단계 프로토콜을 통해 구조화된 추론을 수행하고, Dual-Track GRPO 전략을 통해 credit assignment 문제를 해결한다. 실험 결과, TRUST-SQL은 다양한 벤치마크에서 기존 모델 대비 평균 30.6% (4B variant), 16.6% (8B variant)의 절대적인 성능 향상을 보였다. 특히, 스키마 사전 로딩 없이도 스키마를 미리 로딩한 강력한 베이스라인 모델과 동등하거나 더 나은 성능을 달성했다.",
       "key_points": [
         "Unknown Schema 환경에서의 Text-to-SQL 문제 해결",
-        "Tool-Integrated Multi-Turn Reinforcement Learning 기반의 TRUST-SQL 프레임워크 제안",
-        "Dual-Track GRPO 전략을 통한 credit assignment 문제 해결"
+        "Dual-Track GRPO 전략을 통한 강화 학습 성능 향상",
+        "실제 엔터프라이즈 환경에서의 Text-to-SQL 적용 가능성 제시"
       ],
       "tags": [
         "Text-to-SQL",
         "Reinforcement Learning",
+        "Database",
         "Schema",
         "Agent",
         "RAG",
@@ -274,103 +359,21 @@
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "실제 데이터베이스 환경은 스키마가 방대하고 복잡하여 Text-to-SQL 모델 적용이 어려운데, TRUST-SQL은 이러한 문제를 해결하여 더욱 실용적인 Text-to-SQL 시스템 구축을 가능하게 합니다.",
+      "practical_relevance": "실제 데이터베이스 환경에서 스키마 정보를 완벽하게 알 수 없는 경우에도 Text-to-SQL을 효과적으로 사용할 수 있게 해주며, 데이터 엔지니어링 및 분석 파이프라인 구축에 유용하다.",
       "recommended_actions": [
-        "TRUST-SQL 프레임워크를 기반으로 자체 데이터베이스 환경에 맞는 Text-to-SQL 모델 개발",
+        "TRUST-SQL 프레임워크를 기반으로 자체 데이터베이스 환경에 맞는 Text-to-SQL 시스템 구축",
         "Dual-Track GRPO 전략을 다른 강화 학습 기반 자연어 처리 모델에 적용",
-        "TRUST-SQL의 4단계 프로토콜을 활용하여 데이터베이스 스키마 탐색 및 검증 자동화"
+        "Unknown Schema 환경에서의 Text-to-SQL 성능 향상을 위한 추가적인 연구 진행"
       ],
       "risks_and_limits": [
-        "복잡한 강화 학습 모델이므로 학습 및 디버깅에 어려움이 있을 수 있음",
-        "Unknown Schema 환경에서의 성능은 데이터베이스 스키마의 특성에 따라 달라질 수 있음"
+        "복잡한 데이터베이스 스키마에 대한 일반화 성능 검증 필요",
+        "강화 학습 기반 방법의 불안정성 및 학습 비용 문제"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16448.png",
       "local_image_path": "images/TRUST-SQL_Tool-Integrated_Multi-Turn_Reinforcement_Learning_for_Text-to-SQL_over_Unknown_Schemas_img.jpg",
       "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "Thinking in Uncertainty: Mitigating Hallucinations in MLRMs with Latent Entropy-Aware Decoding",
-      "paper_id": "2603.13366",
-      "url": "https://huggingface.co/papers/2603.13366",
-      "arxiv_url": "https://arxiv.org/abs/2603.13366",
-      "upvotes": 35,
-      "summary": "MLRM에서 transition word 사용 시 발생하는 hallucination을 줄이기 위해, token probability distribution을 활용하여 latent reasoning을 강화하는 decoding 전략(LEAD)을 제안하고, 시각 정보를 활용하는 anchor injection 전략을 통해 hallucination을 효과적으로 감소시킴.",
-      "korean_abstract": "최근 multimodal large reasoning model(MLRM)은 visual question answering에서 뛰어난 성능을 보이지만, transition word 사용 시 hallucination이 발생하는 경향이 있다. 이는 모델이 discrete textual input에 의존하여 high-entropy reasoning 단계에서 contextual cue를 충분히 활용하지 못하기 때문이다. 본 논문에서는 token probability distribution으로부터 풍부한 semantic representation을 구축하여 in-context reasoning을 강화하는 Latent Entropy-Aware Decoding(LEAD) 전략을 제안한다. LEAD는 entropy-aware reasoning mode switching을 통해 high-entropy 상태에서는 probability-weighted continuous embedding을 사용하고, entropy가 감소하면 discrete token embedding으로 전환한다. 또한, 시각 정보에 집중하도록 prior-guided visual anchor injection 전략을 제안한다. 다양한 MLRM과 benchmark에서 LEAD가 hallucination을 효과적으로 완화함을 입증한다.",
-      "key_points": [
-        "Transition word와 hallucination 간의 연관성을 분석하고, high-entropy 상태에서의 문제점을 지적",
-        "Token probability distribution을 활용한 latent superposed reasoning 개념을 도입",
-        "Entropy-aware reasoning mode switching 및 visual anchor injection 전략을 제안하여 hallucination 완화"
-      ],
-      "tags": [
-        "Vision",
-        "Reasoning",
-        "Hallucination",
-        "Decoding",
-        "RAG",
-        "Multimodal",
-        "Benchmark"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "MLRM 기반 시스템에서 hallucination은 심각한 문제이며, LEAD는 별도의 학습 없이 적용 가능한 plug-and-play 방식이므로 기존 모델에 쉽게 통합하여 성능 향상을 기대할 수 있다.",
-      "recommended_actions": [
-        "LEAD를 기존 MLRM 모델에 적용하여 hallucination 감소 효과를 확인",
-        "자체 데이터셋에서 transition word 사용 시 발생하는 hallucination 사례를 분석하고, LEAD 적용 전후 비교",
-        "Visual anchor injection 전략을 다양한 시각 정보 활용 방식으로 확장하여 실험"
-      ],
-      "risks_and_limits": [
-        "LEAD의 효과는 모델의 구조 및 데이터셋 특성에 따라 달라질 수 있음",
-        "Entropy 계산 및 embedding 전환 과정에서 추가적인 연산 비용이 발생할 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.13366.png",
-      "local_image_path": "images/Thinking_in_Uncertainty_Mitigating_Hallucinations_in_MLRMs_with_Latent_Entropy-Aware_Decoding_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 9,
-      "title": "Online Experiential Learning for Language Models",
-      "paper_id": "2603.16856",
-      "url": "https://huggingface.co/papers/2603.16856",
-      "arxiv_url": "https://arxiv.org/abs/2603.16856",
-      "upvotes": 33,
-      "summary": "실제 사용 환경에서 얻은 경험을 바탕으로 LLM을 지속적으로 개선하는 Online Experiential Learning (OEL) 프레임워크를 제안하고, 텍스트 기반 게임 환경에서 성능 향상을 입증함.",
-      "korean_abstract": "기존의 LLM 개선 방식은 주로 오프라인 학습에 의존하여 실제 배포 환경에서 얻는 풍부한 경험을 활용하지 못한다는 한계가 있습니다. 본 논문에서는 LLM이 자체 배포 경험을 통해 지속적으로 개선될 수 있도록 하는 Online Experiential Learning (OEL) 프레임워크를 제안합니다. OEL은 사용자 측에서 수집된 상호 작용 궤적에서 전달 가능한 경험적 지식을 추출하고 축적하는 단계와, 사용자 측 환경에 대한 접근 없이 on-policy context distillation을 통해 이 지식을 모델 파라미터에 통합하는 단계로 구성됩니다. 이러한 두 단계를 반복하여 온라인 학습 루프를 형성하며, 개선된 모델은 더 높은 품질의 궤적을 수집하여 후속 라운드에 더 풍부한 경험적 지식을 제공합니다. 텍스트 기반 게임 환경에서 OEL을 평가한 결과, 반복적인 학습을 통해 작업 정확도와 토큰 효율성이 향상되었으며, out-of-distribution 성능도 유지되었습니다. 또한, 추출된 경험적 지식이 raw trajectory보다 효과적이며, 지식 소스와 정책 모델 간의 on-policy 일관성이 효과적인 학습에 중요하다는 것을 보여줍니다.",
-      "key_points": [
-        "실제 배포 환경에서 얻은 경험을 활용하여 LLM을 지속적으로 개선하는 OEL 프레임워크 제안",
-        "On-policy context distillation을 통해 사용자 환경에 대한 접근 없이 지식 통합",
-        "텍스트 기반 게임 환경에서 OEL의 성능 향상 및 효율성 입증"
-      ],
-      "tags": [
-        "Online Learning",
-        "LLM",
-        "Reinforcement Learning",
-        "Distillation",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "실제 서비스 환경에서 LLM의 성능을 지속적으로 개선할 수 있는 방법을 제시하며, 특히 사용자 데이터에 대한 직접적인 접근 없이 모델을 개선할 수 있다는 점에서 개인 정보 보호 및 데이터 보안 측면에서 유용합니다.",
-      "recommended_actions": [
-        "자체 서비스에 OEL 프레임워크 적용 가능성 검토",
-        "On-policy context distillation을 위한 데이터 파이프라인 구축",
-        "텍스트 기반 환경 외 다른 환경(예: 코드 생성)에서의 OEL 효과 실험"
-      ],
-      "risks_and_limits": [
-        "추출된 경험적 지식의 품질에 따라 성능 향상 정도가 달라질 수 있음",
-        "On-policy context distillation의 효율성이 모델 아키텍처 및 학습 데이터에 따라 달라질 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16856.png",
-      "local_image_path": "images/Online_Experiential_Learning_for_Language_Models_img.jpg",
-      "local_figures": [
-        "images/Online_Experiential_Learning_for_Language_Models_fig_1.png"
-      ]
     }
   ]
 }
