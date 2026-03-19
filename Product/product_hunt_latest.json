@@ -1,487 +1,480 @@
 {
   "source": "product_hunt",
-  "date": "2026-03-19",
-  "generated_at": "2026-03-19T23:11:54.947420+09:00",
+  "date": "2026-03-20",
+  "generated_at": "2026-03-20T04:05:00.011974+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Claude Dispatch\n⭐ Votes: 573\n📝 요약: Claude Dispatch는 데스크탑 환경에서 휴대폰을 통해 Claude를 사용하여 파일 접근, 브라우징, 보고서 작성, 작업 실행 등을 가능하게 해주는 샌드박스 환경의 로컬 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/TMUX57AWSXO26K\n\n📦 2. Lightfield\n⭐ Votes: 499\n📝 요약: Lightfield는 AI 기반 CRM으로, 이메일, 미팅, 통화 내용을 자동으로 분석하여 CRM을 구축하고, 사용자를 대신해 다양한 작업을 수행합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/lightfield\n🌐 서비스 링크: https://www.producthunt.com/r/5XYMLXOKBCUN76\n\n📦 3. Genie by Databox\n⭐ Votes: 335\n📝 요약: Genie는 Databox에 내장된 AI 분석가로, 비즈니스 성과에 대한 질문에 즉각적인 인사이트를 제공하여 팀이 결과를 빠르게 이해하고 조치를 취할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/databox\n🌐 서비스 링크: https://www.producthunt.com/r/R4XRSTSGW67YUH\n\n📦 4. OpenObserve\n⭐ Votes: 308\n📝 요약: OpenObserve는 Datadog의 오픈소스 대안으로, AI 기반의 빠른 속도, 확장성, 그리고 비용 효율성을 제공하는 관측 플랫폼입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/openobserve\n🌐 서비스 링크: https://www.producthunt.com/r/6OIZ7PEM5V7NQ4\n\n📦 5. GPT‑5.4 mini and nano\n⭐ Votes: 279\n📝 요약: GPT-5.4는 빠른 속도와 효율성을 갖춘 코딩 및 서브 에이전트 최적화 모델로, ChatGPT, API, Codex에서 바로 사용할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/openai\n🌐 서비스 링크: https://www.producthunt.com/r/CKXMQ7IWZI72H6\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Stitch 2.0 by Google\n⭐ Votes: 440\n📝 요약: Stitch 2.0은 AI 기반의 디자인 도구로, 자연어, 음성, 문맥 인식 에이전트를 활용하여 고품질 UI를 빠르게 디자인, 반복, 협업할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/stitch-2-0-by-google-2\n🌐 서비스 링크: https://www.producthunt.com/r/FCKF6O6HKHV32R\n\n📦 2. MiniMax-M2.7\n⭐ Votes: 259\n📝 요약: MiniMax M2.7은 스스로 진화하는 AI 모델로, 복잡한 작업을 자동화하고 지속적으로 학습하여 최소한의 인간 개입으로 업무를 수행할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/minimax-agent\n🌐 서비스 링크: https://www.producthunt.com/r/QWPGVYW4USQ4SJ\n\n📦 3. InfrOS\n⭐ Votes: 213\n📝 요약: InfrOS는 클라우드 시스템 구축 시 최적화된 아키텍처를 설계하고 검증하여 배포 전에 에뮬레이션을 통해 결과를 증명하고, 인프라를 제어하며 발전시킬 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/infros\n🌐 서비스 링크: https://www.producthunt.com/r/JMODKEWNZJOEM5\n\n📦 4. OctoClaw\n⭐ Votes: 204\n📝 요약: OctoClaw는 콘텐츠 작성, 리드 검증, 고객 응대 등 다양한 비즈니스 업무를 실제로 수행하는 AI 전문가를 제공하여 업무 효율성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/octoclaw\n🌐 서비스 링크: https://www.producthunt.com/r/B6QI56ORHI6MW3\n\n📦 5. Netlify.new\n⭐ Votes: 191\n📝 요약: Netlify.new를 통해 프롬프트만으로 즉시 Netlify 프로젝트를 시작하고, 실제 프로덕션 URL에서 바로 작업하며 배포까지 완료하세요.\n🔗 Product Hunt: https://www.producthunt.com/products/netlify\n🌐 서비스 링크: https://www.producthunt.com/r/X4EY7ZAP7OYZHK\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Claude Dispatch",
-      "url": "https://www.producthunt.com/products/claude",
-      "service_url": "https://www.producthunt.com/r/TMUX57AWSXO26K",
-      "website": "https://www.producthunt.com/r/TMUX57AWSXO26K",
-      "votes": 573,
-      "tagline": "Text Claude from your phone using “Dispatch”",
-      "summary": "Claude Dispatch는 데스크탑 환경에서 휴대폰을 통해 Claude를 사용하여 파일 접근, 브라우징, 보고서 작성, 작업 실행 등을 가능하게 해주는 샌드박스 환경의 로컬 앱입니다.",
+      "name": "Stitch 2.0 by Google",
+      "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2",
+      "service_url": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
+      "website": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
+      "votes": 440,
+      "tagline": "Vibe design beautiful production-ready UI in seconds",
+      "summary": "Stitch 2.0은 AI 기반의 디자인 도구로, 자연어, 음성, 문맥 인식 에이전트를 활용하여 고품질 UI를 빠르게 디자인, 반복, 협업할 수 있도록 돕습니다.",
       "key_points": [
-        "휴대폰에서 Claude에 메시지를 보낼 수 있습니다.",
-        "데스크탑에서 실행되며 파일 접근 및 브라우징이 가능합니다.",
-        "사용자의 승인 후 작업을 실행하여 안전합니다."
+        "자연어, 음성, 문맥 인식 기반의 AI 디자인 기능 제공",
+        "이미지, 코드, 텍스트를 통합하여 디자인 가능",
+        "즉각적인 프로토타입 생성 및 디자인 시스템 유지"
       ],
       "tags": [
         "AI",
-        "Automation",
-        "Productivity",
-        "Mobile"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "이 앱을 통해 사용자는 휴대폰으로 Claude의 기능을 활용하여 다양한 작업을 수행하고, 데스크탑 환경과의 연동을 통해 효율성을 높일 수 있습니다. 특히, 샌드박스 환경에서 실행되므로 보안 걱정 없이 사용할 수 있습니다.",
-      "recommended_actions": [
-        "휴대폰에서 Claude에 간단한 메시지를 보내 테스트해보기",
-        "파일 접근 권한 설정 확인하기",
-        "보고서 작성 기능 사용해보기"
-      ],
-      "risks_and_limits": [
-        "데스크탑 환경에서 실행되어야 하므로, 데스크탑 앱 설치 필요",
-        "샌드박스 환경의 제약 사항 확인 필요"
-      ],
-      "uncertainty_note": "정확한 시스템 요구 사항 및 샌드박스 환경의 구체적인 제약 사항에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Claude_Dispatch.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_Claude_Dispatch_media_1.jpg",
-        "images/ph_2026-03-18_Claude_Dispatch_media_2.jpg",
-        "images/ph_2026-03-18_Claude_Dispatch_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/bfa2f664-8820-4237-b04a-ffb1e4e4be07.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 2,
-      "name": "Lightfield",
-      "url": "https://www.producthunt.com/products/lightfield",
-      "service_url": "https://www.producthunt.com/r/5XYMLXOKBCUN76",
-      "website": "https://www.producthunt.com/r/5XYMLXOKBCUN76",
-      "votes": 499,
-      "tagline": "AI-native CRM that builds itself and does work for you",
-      "summary": "Lightfield는 AI 기반 CRM으로, 이메일, 미팅, 통화 내용을 자동으로 분석하여 CRM을 구축하고, 사용자를 대신해 다양한 작업을 수행합니다.",
-      "key_points": [
-        "수동 데이터 입력 없이 자동으로 CRM 구축",
-        "자연어 질문을 통해 필요한 정보 획득",
-        "팔로우업, 제안서 작성 등 다양한 작업 자동화"
-      ],
-      "tags": [
-        "CRM",
-        "AI",
-        "자동화",
-        "영업",
-        "생산성",
-        "AI Tool",
-        "Email"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Lightfield를 사용하면 CRM 데이터 관리에 드는 시간과 노력을 절약하고, 실제 대화 내용을 기반으로 더 정확한 분석과 의사 결정을 할 수 있습니다.",
-      "recommended_actions": [
-        "이메일 연동하여 CRM 자동 구축 시작",
-        "자연어로 질문하여 필요한 정보 검색",
-        "팔로우업 이메일 초안 작성 기능 사용"
-      ],
-      "risks_and_limits": [
-        "개인 정보 보호 정책 및 데이터 보안 확인 필요",
-        "AI 분석 정확도에 대한 검증 필요"
-      ],
-      "uncertainty_note": "Lightfield의 AI 분석 정확도 및 지원 언어에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Lightfield.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_Lightfield_media_0.jpg",
-        "images/ph_2026-03-18_Lightfield_media_1.jpg",
-        "images/ph_2026-03-18_Lightfield_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/c9c9f927-5573-46f4-817d-10e96d69ad44.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "Genie by Databox",
-      "url": "https://www.producthunt.com/products/databox",
-      "service_url": "https://www.producthunt.com/r/R4XRSTSGW67YUH",
-      "website": "https://www.producthunt.com/r/R4XRSTSGW67YUH",
-      "votes": 335,
-      "tagline": "Your AI analyst for business performance",
-      "summary": "Genie는 Databox에 내장된 AI 분석가로, 비즈니스 성과에 대한 질문에 즉각적인 인사이트를 제공하여 팀이 결과를 빠르게 이해하고 조치를 취할 수 있도록 돕습니다.",
-      "key_points": [
-        "Databox에 내장된 AI 분석가",
-        "비즈니스 성과에 대한 질문에 즉각적인 답변 제공",
-        "데이터 기반 인사이트를 통해 빠른 의사 결정 지원"
-      ],
-      "tags": [
-        "AI",
-        "분석",
-        "데이터",
-        "비즈니스 인텔리전스",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Genie를 통해 데이터 분석 시간을 절약하고, 비즈니스 성과를 더 깊이 이해하여 효과적인 전략을 수립할 수 있습니다.",
-      "recommended_actions": [
-        "비즈니스 성과 관련 질문을 던져보기",
-        "Genie가 제공하는 인사이트를 기반으로 팀과 논의하기",
-        "데이터 기반 의사결정 프로세스에 Genie 활용하기"
-      ],
-      "risks_and_limits": [
-        "Databox와의 연동 필요",
-        "AI 분석 결과의 정확성 검증 필요"
-      ],
-      "uncertainty_note": "Genie의 분석 정확도 및 지원하는 데이터 소스 범위에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Genie_by_Databox.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_Genie_by_Databox_media_0.jpg",
-        "images/ph_2026-03-18_Genie_by_Databox_media_1.jpg",
-        "images/ph_2026-03-18_Genie_by_Databox_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/66b2dbae-819c-4952-ad2a-73173149a1bd.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "OpenObserve",
-      "url": "https://www.producthunt.com/products/openobserve",
-      "service_url": "https://www.producthunt.com/r/6OIZ7PEM5V7NQ4",
-      "website": "https://www.producthunt.com/r/6OIZ7PEM5V7NQ4",
-      "votes": 308,
-      "tagline": "AI-native, open-source Datadog alternative",
-      "summary": "OpenObserve는 Datadog의 오픈소스 대안으로, AI 기반의 빠른 속도, 확장성, 그리고 비용 효율성을 제공하는 관측 플랫폼입니다.",
-      "key_points": [
-        "ElasticSearch 대비 140배 낮은 스토리지 비용",
-        "로그, 메트릭, 트레이스 모니터링 지원",
-        "2분 내 빠른 시작 가능"
-      ],
-      "tags": [
-        "DevTool",
-        "모니터링",
-        "오픈소스",
-        "AI",
-        "관측성",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "기존 솔루션 대비 훨씬 저렴한 비용으로 대규모 데이터를 효율적으로 관리하고 모니터링할 수 있어, 비용 절감과 빠른 문제 해결에 도움이 됩니다.",
-      "recommended_actions": [
-        "로그 데이터 수집 및 분석 설정",
-        "메트릭 대시보드 생성",
-        "트레이스 데이터 시각화"
-      ],
-      "risks_and_limits": [
-        "오픈소스이므로 자체적인 유지보수 및 관리 필요",
-        "새로운 플랫폼 학습에 시간 소요 가능성"
-      ],
-      "uncertainty_note": "AI 기반 기능의 정확도 및 성능에 대한 추가적인 검증이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_OpenObserve.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_OpenObserve_media_0.jpg",
-        "images/ph_2026-03-18_OpenObserve_media_1.jpg",
-        "images/ph_2026-03-18_OpenObserve_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/d52ab976-8f9a-43e9-a5d8-c23210d63d33.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "GPT‑5.4 mini and nano",
-      "url": "https://www.producthunt.com/products/openai",
-      "service_url": "https://www.producthunt.com/r/CKXMQ7IWZI72H6",
-      "website": "https://www.producthunt.com/r/CKXMQ7IWZI72H6",
-      "votes": 279,
-      "tagline": "Fast and efficient models optimized for coding and subagents",
-      "summary": "GPT-5.4는 빠른 속도와 효율성을 갖춘 코딩 및 서브 에이전트 최적화 모델로, ChatGPT, API, Codex에서 바로 사용할 수 있습니다.",
-      "key_points": [
-        "GPT-5.4는 강력한 추론, 코딩, 에이전트 워크플로우를 지원합니다.",
-        "GPT-5.4 mini는 2배 더 빠르며, nano는 가장 저렴한 비용으로 사용할 수 있습니다.",
-        "컴퓨터 사용, 웹 검색, 대규모 컨텍스트를 특징으로 실제 고성능 실행에 적합합니다."
-      ],
-      "tags": [
-        "DevTool",
-        "AI",
-        "코딩",
+        "UI 디자인",
+        "프로토타입",
+        "협업",
         "자동화",
         "Agent",
-        "Automation",
         "AI Tool",
-        "Chat",
+        "Vision",
         "Design",
-        "API"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "코딩, 서브 에이전트, 멀티모달 작업에 필요한 응답성이 뛰어난 AI 시스템을 구축할 수 있으며, 실제 환경에서 대규모로 실행할 수 있도록 설계되었습니다.",
-      "recommended_actions": [
-        "ChatGPT에서 GPT-5.4 사용해보기",
-        "API를 통해 코딩 워크플로우에 통합해보기",
-        "Codex에서 다양한 멀티모달 작업 시도해보기"
-      ],
-      "risks_and_limits": [
-        "대규모 컨텍스트 처리 시 성능 확인 필요",
-        "API 사용량에 따른 비용 발생 가능성 확인"
-      ],
-      "uncertainty_note": "GPT-5.4 mini 및 nano 모델의 구체적인 성능 차이에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_GPT‑5.4_mini_and_nano.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_GPT‑5.4_mini_and_nano_media_0.jpg",
-        "images/ph_2026-03-18_GPT‑5.4_mini_and_nano_media_1.jpg",
-        "images/ph_2026-03-18_GPT‑5.4_mini_and_nano_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/42a7a545-30b2-4f30-bcdc-b644c7cc9ff0.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "Banyan AI Lite",
-      "url": "https://www.producthunt.com/products/banyan-ai-lite",
-      "service_url": "https://www.producthunt.com/r/6VZOMHYDICLHO5",
-      "website": "https://www.producthunt.com/r/6VZOMHYDICLHO5",
-      "votes": 241,
-      "tagline": "AI detecting & preventing SaaS churn",
-      "summary": "Banyan AI Lite는 SaaS 기업의 가장 큰 문제인 고객 이탈을 예측하고 방지하여 수익을 보호하는 AI 기반 솔루션입니다.",
-      "key_points": [
-        "CRM, 결제, 고객 지원, 제품 사용 데이터 통합",
-        "고객 이탈 위험 및 확장 기회 식별",
-        "빠른 설정 및 측정 가능한 결과 제공"
-      ],
-      "tags": [
-        "AI",
-        "SaaS",
-        "고객 이탈 방지",
-        "데이터 분석",
-        "자동화",
-        "AI Tool",
-        "CRM"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Banyan AI Lite를 통해 SaaS 기업은 고객 이탈을 사전에 방지하고, 매출을 증대시킬 수 있는 기회를 포착하여 비즈니스 성장을 가속화할 수 있습니다.",
-      "recommended_actions": [
-        "데이터 소스 연결 (CRM, 결제 시스템 등)",
-        "이탈 위험 고객군 확인",
-        "확장 기회 고객군 확인"
-      ],
-      "risks_and_limits": [
-        "데이터 통합 과정에서 개인 정보 보호 및 보안 고려 필요",
-        "AI 예측 정확도는 데이터 품질에 따라 달라질 수 있음"
-      ],
-      "uncertainty_note": "Banyan AI Lite의 구체적인 가격 정책 및 지원하는 데이터 소스 종류에 대한 추가 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Banyan_AI_Lite.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_Banyan_AI_Lite_media_0.jpg",
-        "images/ph_2026-03-18_Banyan_AI_Lite_media_1.jpg",
-        "images/ph_2026-03-18_Banyan_AI_Lite_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/49a49287-c0b9-45d3-9f9d-59b2d13f9be6.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "AutoSend MCP",
-      "url": "https://www.producthunt.com/products/autosend-mcp",
-      "service_url": "https://www.producthunt.com/r/CC7DFIPPQSDK7P",
-      "website": "https://www.producthunt.com/r/CC7DFIPPQSDK7P",
-      "votes": 177,
-      "tagline": "The email platform your AI agent can operate.",
-      "summary": "AutoSend MCP는 AI 에이전트가 이메일 캠페인을 직접 운영하고 관리할 수 있도록 지원하는 플랫폼입니다.",
-      "key_points": [
-        "AI 에이전트가 AutoSend 플랫폼에 직접 접근 가능",
-        "템플릿 생성, 캠페인 관리, 대상 고객 관리 기능 제공",
-        "이메일 전송 통계 모니터링 기능 지원"
-      ],
-      "tags": [
-        "AI",
-        "이메일 마케팅",
-        "자동화",
-        "CRM",
-        "DevTool",
-        "Agent",
-        "AI Tool",
-        "Email"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "AI를 활용하여 이메일 마케팅 자동화를 구축하고 효율성을 높일 수 있습니다. AI 에이전트가 직접 캠페인을 운영하므로, 더욱 정교하고 개인화된 마케팅이 가능합니다.",
-      "recommended_actions": [
-        "AI 에이전트 연동 설정 확인",
-        "이메일 템플릿 디자인 및 생성",
-        "캠페인 생성 및 자동 실행 설정"
-      ],
-      "risks_and_limits": [
-        "AI 에이전트의 성능에 따라 캠페인 결과가 달라질 수 있음",
-        "개인 정보 보호 및 데이터 보안 관련 규정 준수 필요"
-      ],
-      "uncertainty_note": "AutoSend MCP와 AI 에이전트의 호환성 및 최적화 정도에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_AutoSend_MCP.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_AutoSend_MCP_media_0.jpg",
-        "images/ph_2026-03-18_AutoSend_MCP_media_1.jpg",
-        "images/ph_2026-03-18_AutoSend_MCP_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/bb083402-fce4-439c-8657-efe06fdf8eff.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Permit.io MCP Gateway",
-      "url": "https://www.producthunt.com/products/permit-io",
-      "service_url": "https://www.producthunt.com/r/76MJC4X3IVC45P",
-      "website": "https://www.producthunt.com/r/76MJC4X3IVC45P",
-      "votes": 146,
-      "tagline": "Drop-in MCP Security Developers Love and CISOs Trust",
-      "summary": "Permit.io MCP Gateway는 AI 에이전트 보안을 강화하여 기존 MCP 서버의 인증, 권한 부여, 거버넌스 기능을 확장하고, OAuth 인증 및 세분화된 접근 제어를 통해 보안을 강화합니다.",
-      "key_points": [
-        "기존 MCP 서버 코드 변경 없이 보안 기능 추가",
-        "OAuth 인증, Zanzibar 스타일 권한 부여, 동의 화면 제공",
-        "모든 결정에 대한 로깅 기능 제공"
-      ],
-      "tags": [
-        "DevTool",
-        "보안",
-        "AI",
-        "인증",
-        "권한관리",
-        "Agent",
-        "AI Tool",
-        "Security"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "AI 에이전트가 사용하는 도구에 대한 보안을 강화하고, 기존 인프라와의 통합을 용이하게 하여 개발 및 운영 효율성을 높입니다.",
-      "recommended_actions": [
-        "기존 MCP 서버 URL을 Permit.io MCP Gateway URL로 교체",
-        "OAuth 인증 설정",
-        "Zanzibar 스타일 권한 부여 규칙 정의"
-      ],
-      "risks_and_limits": [
-        "Permit.io MCP Gateway의 성능이 기존 MCP 서버에 미치는 영향 확인 필요",
-        "기존 IdP 인프라와의 호환성 점검 필요"
-      ],
-      "uncertainty_note": "Permit.io MCP Gateway의 구체적인 성능 지표 및 가격 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Permit.io_MCP_Gateway.jpg",
-      "local_media": [
-        "images/ph_2026-03-18_Permit.io_MCP_Gateway_media_0.jpg",
-        "images/ph_2026-03-18_Permit.io_MCP_Gateway_media_1.jpg",
-        "images/ph_2026-03-18_Permit.io_MCP_Gateway_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/908856c9-b958-434d-bdef-7a32c49817b1.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "Unsloth Studio",
-      "url": "https://www.producthunt.com/products/unsloth",
-      "service_url": "https://www.producthunt.com/r/T3CJ7XUCZMP3EO",
-      "website": "https://www.producthunt.com/r/T3CJ7XUCZMP3EO",
-      "votes": 143,
-      "tagline": "Open-source web UI to run and train AI models.",
-      "summary": "Unsloth Studio는 코딩 없이 로컬에서 LLM을 훈련, 실행, 내보내기 할 수 있는 오픈소스 웹 UI로, 데이터셋 변환 및 모델 미세 조정을 통해 더 빠르고 효율적인 AI 모델 개발을 지원합니다.",
-      "key_points": [
-        "코딩 없이 LLM 훈련, 실행, 내보내기 가능",
-        "비정형 파일을 데이터셋으로 변환",
-        "기존 방식 대비 2배 빠른 속도와 70% 적은 VRAM 사용"
-      ],
-      "tags": [
-        "AI",
-        "LLM",
-        "Open Source",
-        "No-code",
-        "Web UI",
-        "AI Tool",
         "DevTool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "복잡한 훈련 스크립트 작성 없이도 AI 모델을 쉽게 개발하고 미세 조정할 수 있어, 개발 시간과 리소스를 절약할 수 있습니다.",
+      "practical_relevance": "Stitch 2.0을 사용하면 아이디어에서 인터페이스까지의 디자인 과정을 몇 초 만에 완료할 수 있어, 디자인 작업 속도를 향상시키고 생산성을 극대화할 수 있습니다.",
       "recommended_actions": [
-        "Unsloth Studio 설치 및 로컬 환경 설정",
-        "비정형 파일 데이터셋으로 변환 후 LLM 훈련",
-        "미세 조정된 모델 내보내기 및 활용"
+        "자연어를 사용하여 UI 요소 생성해보기",
+        "음성 명령으로 디자인 변경해보기",
+        "내장된 디자인 시스템 활용하여 일관성 유지하기"
       ],
       "risks_and_limits": [
-        "오픈소스이므로 사용 전 라이선스 확인 필요",
-        "로컬 환경의 성능에 따라 훈련 속도에 차이 발생 가능"
+        "AI 기반 기능의 정확도 및 디자인 품질 검토 필요",
+        "특정 디자인 시스템과의 호환성 확인 필요"
       ],
-      "uncertainty_note": "다양한 LLM 모델과의 호환성 및 성능에 대한 추가적인 정보 확인이 필요합니다.",
+      "uncertainty_note": "Stitch 2.0의 AI 기능이 얼마나 다양한 디자인 스타일과 복잡성을 지원하는지 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Unsloth_Studio.jpg",
+      "local_image_path": "images/ph_2026-03-19_Stitch_2.0_by_Google.jpg",
       "local_media": [
-        "images/ph_2026-03-18_Unsloth_Studio_media_0.jpg",
-        "images/ph_2026-03-18_Unsloth_Studio_media_1.jpg",
-        "images/ph_2026-03-18_Unsloth_Studio_media_2.jpg"
+        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_0.jpg",
+        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_1.jpg",
+        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/15134b1f-b963-4446-ad54-88e99012b3ea.jpeg?auto=format"
+        "https://ph-files.imgix.net/08dce253-af61-4336-9537-d8e3238a7de8.jpeg?auto=format"
       ]
     },
     {
-      "rank": 10,
-      "name": "Soul 2.0",
-      "url": "https://www.producthunt.com/products/soul-2-0",
-      "service_url": "https://www.producthunt.com/r/WVSPHIZZ6FURHT",
-      "website": "https://www.producthunt.com/r/WVSPHIZZ6FURHT",
-      "votes": 126,
-      "tagline": "Fashion-Grade AI Photos Without the Camera Crew",
-      "summary": "Soul 2.0은 AI 기반으로 카메라 장비 없이도 패션 화보 수준의 고품질 이미지를 빠르게 생성할 수 있게 해줍니다.",
+      "rank": 2,
+      "name": "MiniMax-M2.7",
+      "url": "https://www.producthunt.com/products/minimax-agent",
+      "service_url": "https://www.producthunt.com/r/QWPGVYW4USQ4SJ",
+      "website": "https://www.producthunt.com/r/QWPGVYW4USQ4SJ",
+      "votes": 259,
+      "tagline": "Self-evolving AI model powering autonomous agents",
+      "summary": "MiniMax M2.7은 스스로 진화하는 AI 모델로, 복잡한 작업을 자동화하고 지속적으로 학습하여 최소한의 인간 개입으로 업무를 수행할 수 있게 해줍니다.",
       "key_points": [
-        "AI 기반 고품질 이미지 생성",
-        "개인 ID를 활용한 스타일 및 설정 적용",
-        "50개 이상의 사전 설정 제공"
+        "자기 개선 AI 모델",
+        "에이전트 팀 협업 기능",
+        "코딩, 디버깅, 연구 등 복잡한 작업 처리"
       ],
       "tags": [
         "AI",
-        "이미지 생성",
-        "패션",
-        "콘텐츠 제작",
+        "자동화",
+        "개발 도구",
+        "에이전트",
+        "Agent",
+        "Automation",
         "AI Tool",
-        "Prompting",
-        "Vision"
+        "API"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "복잡한 프롬프트 엔지니어링 없이도 패션 브랜드나 콘텐츠 스튜디오에서 원하는 스타일의 이미지를 손쉽게 만들 수 있어 시간과 비용을 절약해줍니다.",
+      "practical_relevance": "MiniMax M2.7을 통해 AI 기반 워크플로우를 구축하고, 개발 생산성을 향상시키며, 반복적인 작업을 자동화하여 시간을 절약할 수 있습니다.",
       "recommended_actions": [
-        "다양한 사전 설정으로 이미지 생성해보기",
-        "Soul ID를 설정하고 여러 스타일에 적용해보기",
-        "생성된 이미지를 패션 브랜드 콘텐츠에 활용해보기"
+        "API를 사용하여 기존 시스템에 통합",
+        "MiniMax Agent를 통해 AI 에이전트 활용",
+        "자동화 워크플로우 구축"
       ],
       "risks_and_limits": [
-        "생성된 이미지의 저작권 및 사용 범위 확인 필요",
-        "AI 이미지 생성 품질은 데이터에 따라 달라질 수 있음"
+        "API 사용량에 따른 비용 발생 가능성",
+        "자동화 수준에 따른 잠재적 오류 가능성"
       ],
-      "uncertainty_note": "AI 이미지 생성 시 개인 정보 보호 정책 및 데이터 사용에 대한 추가 확인이 필요합니다.",
+      "uncertainty_note": "MiniMax M2.7의 장기적인 성능과 안정성에 대한 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-18_Soul_2.0.jpg",
+      "local_image_path": "images/ph_2026-03-19_MiniMax-M2.7.jpg",
       "local_media": [
-        "images/ph_2026-03-18_Soul_2.0_media_1.jpg",
-        "images/ph_2026-03-18_Soul_2.0_media_2.jpg",
-        "images/ph_2026-03-18_Soul_2.0_media_3.jpg"
+        "images/ph_2026-03-19_MiniMax-M2.7_media_0.jpg",
+        "images/ph_2026-03-19_MiniMax-M2.7_media_1.jpg",
+        "images/ph_2026-03-19_MiniMax-M2.7_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "InfrOS",
+      "url": "https://www.producthunt.com/products/infros",
+      "service_url": "https://www.producthunt.com/r/JMODKEWNZJOEM5",
+      "website": "https://www.producthunt.com/r/JMODKEWNZJOEM5",
+      "votes": 213,
+      "tagline": "Predict and validate cloud architectures before launch",
+      "summary": "InfrOS는 클라우드 시스템 구축 시 최적화된 아키텍처를 설계하고 검증하여 배포 전에 에뮬레이션을 통해 결과를 증명하고, 인프라를 제어하며 발전시킬 수 있도록 돕습니다.",
+      "key_points": [
+        "클라우드 아키텍처 설계 및 검증",
+        "배포 전 에뮬레이션을 통한 결과 예측 및 증명",
+        "인프라 발전 제어"
+      ],
+      "tags": [
+        "클라우드",
+        "아키텍처",
+        "에뮬레이션",
+        "DevOps",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "클라우드 시스템 구축 팀은 InfrOS를 통해 최적화된 아키텍처를 설계하고 검증하여 배포 전에 발생할 수 있는 문제를 예방하고, 인프라를 효율적으로 관리할 수 있습니다.",
+      "recommended_actions": [
+        "클라우드 아키텍처 설계 기능 사용해보기",
+        "에뮬레이션 기능을 통한 결과 예측 및 검증",
+        "인프라 발전 제어 기능 사용해보기"
+      ],
+      "risks_and_limits": [
+        "에뮬레이션 환경과 실제 배포 환경의 차이 고려",
+        "지원하는 클라우드 플랫폼 및 서비스 확인"
+      ],
+      "uncertainty_note": "InfrOS가 지원하는 클라우드 플랫폼 및 서비스의 범위에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_InfrOS.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_InfrOS_media_0.jpg",
+        "images/ph_2026-03-19_InfrOS_media_1.jpg",
+        "images/ph_2026-03-19_InfrOS_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/6b62fa86-65ea-4ab3-9de6-09dd32dc2fed.jpeg?auto=format"
+        "https://ph-files.imgix.net/d8ea8786-86db-44e1-a2fa-1c49cf674d7a.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "OctoClaw",
+      "url": "https://www.producthunt.com/products/octoclaw",
+      "service_url": "https://www.producthunt.com/r/B6QI56ORHI6MW3",
+      "website": "https://www.producthunt.com/r/B6QI56ORHI6MW3",
+      "votes": 204,
+      "tagline": "Hire AI specialists for marketing, sales, support, and more",
+      "summary": "OctoClaw는 콘텐츠 작성, 리드 검증, 고객 응대 등 다양한 비즈니스 업무를 실제로 수행하는 AI 전문가를 제공하여 업무 효율성을 높여줍니다.",
+      "key_points": [
+        "마케팅, 영업, 고객 지원 등 다양한 분야의 AI 전문가 활용",
+        "콘텐츠 작성, 리드 검증, 고객 응대 등 실제 업무 실행",
+        "다양한 도구와 연동하여 워크플로우 조정"
+      ],
+      "tags": [
+        "AI",
+        "자동화",
+        "업무 효율성",
+        "생산성",
+        "고객 지원",
+        "Automation",
+        "AI Tool",
+        "Marketing",
+        "Sales"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "OctoClaw를 통해 AI 전문가를 고용하여 콘텐츠 제작, 잠재 고객 발굴, 고객 응대 등의 업무를 자동화하고 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "콘텐츠 작성 AI 전문가 활용",
+        "리드 검증 자동화",
+        "고객 응대 자동화 설정"
+      ],
+      "risks_and_limits": [
+        "AI 전문가의 성능은 작업의 복잡성과 데이터 품질에 따라 달라질 수 있습니다.",
+        "기존 도구와의 연동 가능성을 확인해야 합니다."
+      ],
+      "uncertainty_note": "AI 전문가의 정확도와 효율성에 대한 사용자 후기를 추가적으로 확인하는 것이 좋습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_OctoClaw.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_OctoClaw_media_0.jpg",
+        "images/ph_2026-03-19_OctoClaw_media_1.jpg",
+        "images/ph_2026-03-19_OctoClaw_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/c8f4c911-ed3a-42c3-9f69-4062e4a275e9.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Netlify.new",
+      "url": "https://www.producthunt.com/products/netlify",
+      "service_url": "https://www.producthunt.com/r/X4EY7ZAP7OYZHK",
+      "website": "https://www.producthunt.com/r/X4EY7ZAP7OYZHK",
+      "votes": 191,
+      "tagline": "Start a project with just a prompt on Netlify",
+      "summary": "Netlify.new를 통해 프롬프트만으로 즉시 Netlify 프로젝트를 시작하고, 실제 프로덕션 URL에서 바로 작업하며 배포까지 완료하세요.",
+      "key_points": [
+        "프롬프트 기반 즉시 프로젝트 시작: 로컬 설정이나 리포지토리 없이 앱 설명만으로 시작 가능",
+        "AI 에이전트 활용: Claude, Gemini, Codex 등 AI 에이전트를 선택하여 코드 생성 및 프로젝트 구성",
+        "Netlify 인프라 즉시 활용: 빌트인 폼, 서버리스 함수 등 Netlify의 모든 기능을 바로 사용"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "프론트엔드",
+        "자동화",
+        "배포",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "아이디어를 즉시 프로토타입으로 만들고, 실제 Netlify 환경에서 빠르게 테스트하고 개선할 수 있습니다. 기존 방식도 지원하므로 필요에 따라 Git 연동도 가능합니다.",
+      "recommended_actions": [
+        "netlify.new 접속하여 즉시 프로젝트 시작",
+        "다양한 AI 에이전트(Claude, Gemini, Codex) 실험",
+        "빌트인 폼 및 서버리스 함수 활용"
+      ],
+      "risks_and_limits": [
+        "AI 에이전트의 코드 생성 품질에 따라 결과가 달라질 수 있음",
+        "복잡한 프로젝트의 경우, 초기 프롬프트 기반 설정 후 추가적인 수동 설정이 필요할 수 있음"
+      ],
+      "uncertainty_note": "AI 에이전트별 코드 생성 성능 및 Netlify의 장기적인 지원 계획에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_Netlify.new.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_Netlify.new_media_0.jpg",
+        "images/ph_2026-03-19_Netlify.new_media_1.jpg",
+        "images/ph_2026-03-19_Netlify.new_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 6,
+      "name": "Comet for iOS",
+      "url": "https://www.producthunt.com/products/perplexity-ai",
+      "service_url": "https://www.producthunt.com/r/U4SOBCCNE6I4ER",
+      "website": "https://www.producthunt.com/r/U4SOBCCNE6I4ER",
+      "votes": 160,
+      "tagline": "Agentic AI browser and assistant for mobile by Perplexity ",
+      "summary": "Perplexity에서 만든 Comet은 모바일에 최적화된 AI 브라우저 및 어시스턴트로, 탭 요약, 음성 채팅, 브라우징 정리, 방해 요소 차단 기능을 제공하며, AI 어시스턴트가 사용자를 대신해 작업을 수행합니다.",
+      "key_points": [
+        "모바일 환경에 최적화된 AI 브라우저",
+        "탭 요약, 음성 채팅, 브라우징 정리 기능 제공",
+        "AI 어시스턴트가 사용자 대신 작업 수행"
+      ],
+      "tags": [
+        "AI",
+        "브라우저",
+        "생산성",
+        "모바일",
+        "Agent",
+        "AI Tool",
+        "Chat"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "이동 중에도 스마트하게 브라우징하고 AI의 도움을 받아 효율적으로 작업을 처리할 수 있습니다. 특히 여러 탭을 관리하거나 정보를 빠르게 요약해야 할 때 유용합니다.",
+      "recommended_actions": [
+        "탭 요약 기능 사용해보기",
+        "음성 채팅 기능 사용해보기",
+        "AI 어시스턴트에게 작업 지시해보기"
+      ],
+      "risks_and_limits": [
+        "AI 어시스턴트의 작업 결과 정확성 확인 필요",
+        "개인 정보 처리 및 보안에 유의"
+      ],
+      "uncertainty_note": "AI 어시스턴트의 성능 및 개인 정보 처리 방식에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_Comet_for_iOS.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_Comet_for_iOS_media_0.jpg",
+        "images/ph_2026-03-19_Comet_for_iOS_media_1.jpg",
+        "images/ph_2026-03-19_Comet_for_iOS_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/8f9dcd76-5b63-4af5-a650-e66711cb2470.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "PixelClaw",
+      "url": "https://www.producthunt.com/products/pixelclaw",
+      "service_url": "https://www.producthunt.com/r/VKEHNPPUAYEI2W",
+      "website": "https://www.producthunt.com/r/VKEHNPPUAYEI2W",
+      "votes": 133,
+      "tagline": "A tiny pixel crab that lives on your Dock",
+      "summary": "PixelClaw는 맥 Dock에서 귀여운 애니메이션 게를 키우며 Claude Code 작업 중에도 소소한 즐거움을 더해주는 앱입니다.",
+      "key_points": [
+        "맥 Dock에서 살아 움직이는 픽셀 게",
+        "낮잠, 점프, 사과 쫓기 등 다양한 애니메이션",
+        "Claude Code 작업 중에도 귀여운 볼거리 제공"
+      ],
+      "tags": [
+        "맥 앱",
+        "애니메이션",
+        "Dock",
+        "귀여움",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "지루한 작업 중에도 잠시나마 귀여운 게를 보며 힐링하고, 맥 Dock을 더욱 개성 있게 꾸밀 수 있습니다.",
+      "recommended_actions": [
+        "PixelClaw 다운로드 및 설치",
+        "맥 Dock에서 PixelClaw 실행",
+        "사과를 드래그하여 게에게 주기"
+      ],
+      "risks_and_limits": [
+        "애니메이션이 CPU 사용량을 늘릴 수 있음",
+        "Dock 공간을 차지할 수 있음"
+      ],
+      "uncertainty_note": "PixelClaw의 시스템 자원 사용량에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_PixelClaw.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_PixelClaw_media_0.jpg",
+        "images/ph_2026-03-19_PixelClaw_media_1.jpg",
+        "images/ph_2026-03-19_PixelClaw_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/5ebcfe24-8d53-4df0-9281-c044ce020500.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Cimanote",
+      "url": "https://www.producthunt.com/products/cimanote",
+      "service_url": "https://www.producthunt.com/r/PD44QI4PNYVON4",
+      "website": "https://www.producthunt.com/r/PD44QI4PNYVON4",
+      "votes": 132,
+      "tagline": "The fast, clean note app Evernote used to be",
+      "summary": "Evernote의 가격 인상 및 기능 제한에 실망한 사용자를 위한 빠르고 깔끔한 노트 앱으로, Evernote의 과거 장점을 그대로 계승하면서 실시간 협업 및 데이터 내보내기 기능을 제공합니다.",
+      "key_points": [
+        "빠른 로딩 속도와 깔끔한 인터페이스",
+        "모든 기기 지원 및 실시간 협업 기능",
+        "Evernote 데이터 완벽하게 가져오기"
+      ],
+      "tags": [
+        "노트",
+        "생산성",
+        "협업",
+        "Evernote",
+        "대체"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "Evernote의 대안을 찾는 사용자에게 빠르고 안정적인 노트 환경을 제공하며, 데이터 손실 없이 기존 Evernote 노트를 쉽게 이전할 수 있습니다.",
+      "recommended_actions": [
+        "Evernote 노트 가져오기 기능 사용해보기",
+        "실시간 협업 기능으로 팀원과 함께 노트 편집해보기",
+        "다양한 기기에서 노트 동기화 속도 확인해보기"
+      ],
+      "risks_and_limits": [
+        "첫 500명 이후 유료 구독 모델($6/월) 적용",
+        "Evernote 외 다른 노트 서비스로부터의 데이터 이전 지원 여부 확인 필요"
+      ],
+      "uncertainty_note": "향후 기능 업데이트 및 장기적인 서비스 지속 가능성에 대한 사용자 리뷰 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_Cimanote.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_Cimanote_media_0.jpg",
+        "images/ph_2026-03-19_Cimanote_media_1.jpg",
+        "images/ph_2026-03-19_Cimanote_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 9,
+      "name": "Scouts for iOS",
+      "url": "https://www.producthunt.com/products/scouts-by-yutori",
+      "service_url": "https://www.producthunt.com/r/SIMFMY4BTRNYIT",
+      "website": "https://www.producthunt.com/r/SIMFMY4BTRNYIT",
+      "votes": 116,
+      "tagline": "Your always-on AI agents to monitor the web, now on iOS",
+      "summary": "Scouts for iOS는 이동 중에도 AI 에이전트를 통해 관심 있는 모든 것을 연구하고 모니터링할 수 있도록 도와줍니다.",
+      "key_points": [
+        "iOS에서 AI 에이전트 사용 가능",
+        "웹 모니터링 및 리서치 자동화",
+        "언제 어디서든 정보 접근"
+      ],
+      "tags": [
+        "iOS",
+        "AI",
+        "Automation",
+        "Research",
+        "Monitoring",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "이동 중에도 필요한 정보를 놓치지 않고 빠르게 확인할 수 있어 효율적인 업무 처리가 가능합니다.",
+      "recommended_actions": [
+        "관심 주제에 대한 스카우트 설정",
+        "새로운 정보 알림 설정",
+        "에이전트 리서치 결과 확인"
+      ],
+      "risks_and_limits": [
+        "AI 에이전트의 정보 정확도 확인 필요",
+        "데이터 사용량에 따른 요금 발생 가능성 확인"
+      ],
+      "uncertainty_note": "AI 에이전트의 성능 및 데이터 정확도에 대한 사용자 리뷰 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_Scouts_for_iOS.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_Scouts_for_iOS_media_0.jpg",
+        "images/ph_2026-03-19_Scouts_for_iOS_media_1.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 10,
+      "name": "talat",
+      "url": "https://www.producthunt.com/products/talat",
+      "service_url": "https://www.producthunt.com/r/YMCHBNLELUWCYI",
+      "website": "https://www.producthunt.com/r/YMCHBNLELUWCYI",
+      "votes": 108,
+      "tagline": "Realtime meeting notes that don’t leave your Mac",
+      "summary": "talat은 Mac에서 실시간으로 회의 내용을 캡처, 기록, 편집 가능한 노트로 만들어주는 앱입니다. 모든 과정이 Mac 내에서 처리되어 개인 정보 보호에 강점을 가지며, 다양한 사용자 정의 옵션을 제공합니다.",
+      "key_points": [
+        "Mac의 Neural Engine을 사용하여 오디오를 로컬에서 처리",
+        "실시간 음성-텍스트 변환 및 양방향 대화 기록",
+        "Obsidian 자동 내보내기, 웹훅, MCP 서버를 통한 데이터 쿼리 등 다양한 사용자 정의 기능 제공"
+      ],
+      "tags": [
+        "회의",
+        "생산성",
+        "자동화",
+        "노트",
+        "개인정보보호",
+        "LLM",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "회의 내용을 텍스트로 기록하고 검색할 수 있어 회의 후 정보 접근성이 향상되며, 개인 정보 보호를 중요시하는 사용자에게 적합합니다.",
+      "recommended_actions": [
+        "커스텀 LLM 제공자 설정",
+        "맞춤 요약 프롬프트 작성",
+        "Obsidian 자동 내보내기 설정"
+      ],
+      "risks_and_limits": [
+        "Mac의 성능에 따라 실시간 처리 속도가 달라질 수 있음",
+        "초기 설정 및 사용자 정의에 시간이 소요될 수 있음"
+      ],
+      "uncertainty_note": "타사 LLM 통합 시 개인 정보 처리 방식에 대한 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-19_talat.jpg",
+      "local_media": [
+        "images/ph_2026-03-19_talat_media_0.jpg",
+        "images/ph_2026-03-19_talat_media_1.jpg",
+        "images/ph_2026-03-19_talat_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/4a2b235c-6414-42ea-8c11-038b197801b0.jpeg?auto=format"
       ]
     }
   ]
