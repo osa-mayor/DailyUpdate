@@ -1,0 +1,476 @@
+{
+  "source": "product_hunt",
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21T04:02:38.546664+09:00",
+  "count": 10,
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. ProductBridge\n⭐ Votes: 378\n📝 요약: ProductBridge는 여러 플랫폼에 흩어진 사용자 피드백을 자동으로 수집, 정리, 분석하여 제품 팀이 사용자 요구에 맞는 제품을 개발하도록 돕는 AI 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/productbridge\n🌐 서비스 링크: https://www.producthunt.com/r/TCL62HT47VLBOH\n\n📦 2. AdsTurbo\n⭐ Votes: 301\n📝 요약: AdsTurbo는 실제 크리에이터를 학습시킨 AI 액터를 사용하여 자연스러운 UGC 스타일의 비디오 광고를 빠르게 제작, 테스트 및 확장할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/adsturbo-2\n🌐 서비스 링크: https://www.producthunt.com/r/W6MILE5FBCMQDM\n\n📦 3. Composer 2 by Cursor\n⭐ Votes: 251\n📝 요약: Cursor에서 만든 Composer 2는 복잡한 개발 작업을 위한 고성능 코딩 모델로, 뛰어난 성능과 효율적인 가격을 제공하여 개발 생산성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/cursor\n🌐 서비스 링크: https://www.producthunt.com/r/F3Q7SOASL6RRRH\n\n📦 4. Assembly 2.0\n⭐ Votes: 204\n📝 요약: Assembly 2.0은 서비스 기업이 고객과 소통하고 협업하는 데 필요한 모든 것을 하나의 깔끔한 포털에서 제공하여 고객 경험을 개선하고 관리 업무를 줄여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/assembly-7\n🌐 서비스 링크: https://www.producthunt.com/r/4SZ5MTM6TA2D62\n\n📦 5. GitAgent by Lyzr\n⭐ Votes: 201\n📝 요약: GitAgent는 AI 에이전트의 설정, 로직, 도구, 메모리를 Git 저장소에 저장하여 버전 관리하고 재사용 가능하게 만들어주는 오픈 표준입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/gitagent-2\n🌐 서비스 링크: https://www.producthunt.com/r/EJIV4U6MRXL3VR\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "items": [
+    {
+      "rank": 1,
+      "name": "ProductBridge",
+      "url": "https://www.producthunt.com/products/productbridge",
+      "service_url": "https://www.producthunt.com/r/TCL62HT47VLBOH",
+      "website": "https://www.producthunt.com/r/TCL62HT47VLBOH",
+      "votes": 378,
+      "tagline": "Agent that collects feedback across multiple platforms",
+      "summary": "ProductBridge는 여러 플랫폼에 흩어진 사용자 피드백을 자동으로 수집, 정리, 분석하여 제품 팀이 사용자 요구에 맞는 제품을 개발하도록 돕는 AI 에이전트입니다.",
+      "key_points": [
+        "다양한 채널의 피드백 자동 수집 및 정리",
+        "데이터 기반 우선순위 결정 및 로드맵 관리",
+        "변경 사항 자동 알림 및 완전한 피드백 루프"
+      ],
+      "tags": [
+        "피드백 관리",
+        "AI",
+        "자동화",
+        "로드맵",
+        "제품 개발",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "ProductBridge를 통해 제품 팀은 사용자 피드백을 효율적으로 관리하고, 데이터 기반으로 제품 개발 방향을 결정하여 사용자 만족도를 높일 수 있습니다.",
+      "recommended_actions": [
+        "Slack, Intercom 등 연동하여 피드백 수집 시작",
+        "공개 로드맵 설정 및 사용자 기능 요청 활성화",
+        "변경 사항 알림 기능 설정"
+      ],
+      "risks_and_limits": [
+        "AI 기반 피드백 분석의 정확도 확인 필요",
+        "지원하는 플랫폼 및 채널 확인 필요"
+      ],
+      "uncertainty_note": "ProductBridge의 AI 에이전트가 얼마나 정확하게 피드백을 분류하고 분석하는지 추가적인 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_ProductBridge.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_ProductBridge_media_0.jpg",
+        "images/ph_2026-03-20_ProductBridge_media_1.jpg",
+        "images/ph_2026-03-20_ProductBridge_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/41f8138e-e39b-4101-a4fb-bfc70578a4d4.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "AdsTurbo",
+      "url": "https://www.producthunt.com/products/adsturbo-2",
+      "service_url": "https://www.producthunt.com/r/W6MILE5FBCMQDM",
+      "website": "https://www.producthunt.com/r/W6MILE5FBCMQDM",
+      "votes": 301,
+      "tagline": "Create ads with AI actors that look truly human",
+      "summary": "AdsTurbo는 실제 크리에이터를 학습시킨 AI 액터를 사용하여 자연스러운 UGC 스타일의 비디오 광고를 빠르게 제작, 테스트 및 확장할 수 있게 해줍니다.",
+      "key_points": [
+        "AI Talking Actors 기술로 사람처럼 자연스러운 광고 영상 제작",
+        "빠른 광고 제작 속도로 다양한 크리에이티브 테스트 가능",
+        "사람의 느낌을 유지하면서 광고 제작 규모 확장"
+      ],
+      "tags": [
+        "AI",
+        "광고",
+        "비디오",
+        "UGC",
+        "자동화",
+        "AI Tool",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "광고 제작에 소요되는 시간과 비용을 절감하고, 더 많은 광고 소재를 테스트하여 전환율을 높일 수 있습니다. AI 액터가 자연스러운 연기를 보여주어 신뢰도를 높입니다.",
+      "recommended_actions": [
+        "AI 액터 선택 후 광고 스크립트 입력하여 비디오 광고 생성해보기",
+        "다양한 AI 액터와 스크립트 조합으로 여러 광고 소재 테스트해보기",
+        "제작된 광고의 성과를 분석하여 최적의 조합 찾아보기"
+      ],
+      "risks_and_limits": [
+        "AI 액터의 자연스러움이 실제 모델만큼 완벽하지 않을 수 있음",
+        "스크립트의 품질에 따라 광고 효과가 달라질 수 있음"
+      ],
+      "uncertainty_note": "AI 액터의 연기 품질과 광고 성과에 대한 사용자 피드백을 추가적으로 확인해야 합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_AdsTurbo.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_AdsTurbo_media_0.jpg",
+        "images/ph_2026-03-20_AdsTurbo_media_1.jpg",
+        "images/ph_2026-03-20_AdsTurbo_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "Composer 2 by Cursor",
+      "url": "https://www.producthunt.com/products/cursor",
+      "service_url": "https://www.producthunt.com/r/F3Q7SOASL6RRRH",
+      "website": "https://www.producthunt.com/r/F3Q7SOASL6RRRH",
+      "votes": 251,
+      "tagline": "Fast, token-efficient frontier-level coding model",
+      "summary": "Cursor에서 만든 Composer 2는 복잡한 개발 작업을 위한 고성능 코딩 모델로, 뛰어난 성능과 효율적인 가격을 제공하여 개발 생산성을 높여줍니다.",
+      "key_points": [
+        "복잡하고 장기적인 개발 작업에 최적화된 코딩 모델",
+        "경쟁력 있는 가격: 입력 $0.50/M, 출력 $2.50/M",
+        "더욱 스마트한 코드 생성과 향상된 비용 효율성"
+      ],
+      "tags": [
+        "코딩 모델",
+        "개발 자동화",
+        "AI 코딩",
+        "Automation",
+        "AI Tool",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Composer 2는 복잡한 개발 프로젝트를 더 빠르고 효율적으로 진행할 수 있도록 도와주며, 합리적인 가격으로 개발 비용을 절감할 수 있습니다.",
+      "recommended_actions": [
+        "복잡한 코드 생성 작업에 Composer 2 활용해보기",
+        "실시간 워크플로우에 빠른 버전의 Composer 2 적용해보기",
+        "비용 효율성을 직접 비교해보기"
+      ],
+      "risks_and_limits": [
+        "모델의 성능은 특정 개발 환경 및 작업에 따라 달라질 수 있습니다.",
+        "가격 정책을 꼼꼼히 확인하고 사용하는 것이 좋습니다."
+      ],
+      "uncertainty_note": "Composer 2의 실제 성능이 다양한 개발 환경에서 어떻게 나타나는지 추가적인 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Composer_2_by_Cursor.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_0.jpg",
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_1.jpg",
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 4,
+      "name": "Assembly 2.0",
+      "url": "https://www.producthunt.com/products/assembly-7",
+      "service_url": "https://www.producthunt.com/r/4SZ5MTM6TA2D62",
+      "website": "https://www.producthunt.com/r/4SZ5MTM6TA2D62",
+      "votes": 204,
+      "tagline": "Build modern client portals for service businesses",
+      "summary": "Assembly 2.0은 서비스 기업이 고객과 소통하고 협업하는 데 필요한 모든 것을 하나의 깔끔한 포털에서 제공하여 고객 경험을 개선하고 관리 업무를 줄여줍니다.",
+      "key_points": [
+        "클라이언트 홈 페이지 편집 기능으로 다양한 디자인 제공",
+        "폴더를 사용하여 사이드바 앱 정리 가능",
+        "반복 자동화 기능 및 데스크톱 앱 알림 지원"
+      ],
+      "tags": [
+        "고객 관리",
+        "자동화",
+        "생산성",
+        "포털",
+        "Automation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "고객은 여러 개의 로그인 정보를 기억할 필요 없이 하나의 포털에서 메시지, 결제, 파일, 작업 등을 관리할 수 있어 편리하며, 서비스 제공자는 관리 업무 시간을 줄여 실제 고객 업무에 더 집중할 수 있습니다.",
+      "recommended_actions": [
+        "새로운 클라이언트 홈 페이지 편집 기능 사용해보기",
+        "폴더를 사용하여 앱 정리하기",
+        "반복 자동화 기능 설정하기"
+      ],
+      "risks_and_limits": [
+        "기존 시스템과의 호환성 확인 필요",
+        "데이터 마이그레이션 계획 수립 필요"
+      ],
+      "uncertainty_note": "제공되는 템플릿의 다양성과 사용자 정의 옵션의 범위에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Assembly_2.0.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Assembly_2.0_media_0.jpg",
+        "images/ph_2026-03-20_Assembly_2.0_media_1.jpg",
+        "images/ph_2026-03-20_Assembly_2.0_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/af72cc40-24a2-452a-9d2f-032eb0847999.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "GitAgent by Lyzr",
+      "url": "https://www.producthunt.com/products/gitagent-2",
+      "service_url": "https://www.producthunt.com/r/EJIV4U6MRXL3VR",
+      "website": "https://www.producthunt.com/r/EJIV4U6MRXL3VR",
+      "votes": 201,
+      "tagline": "Your repository becomes your agent",
+      "summary": "GitAgent는 AI 에이전트의 설정, 로직, 도구, 메모리를 Git 저장소에 저장하여 버전 관리하고 재사용 가능하게 만들어주는 오픈 표준입니다.",
+      "key_points": [
+        "AI 에이전트 설정을 Git 저장소에서 관리",
+        "다양한 런타임 환경 지원 (Claude, OpenAI, CrewAI 등)",
+        "프롬프트 변경 사항을 코드처럼 롤백 가능"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Git",
+        "Automation",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "AI 에이전트 개발 시 설정 관리의 복잡성을 줄이고, 협업 및 버전 관리를 용이하게 해줍니다. 또한, 특정 프레임워크에 종속되지 않고 다양한 환경에서 에이전트를 실행할 수 있습니다.",
+      "recommended_actions": [
+        "Git 저장소에 AI 에이전트 설정 저장",
+        "다양한 런타임 환경에서 에이전트 실행 테스트",
+        "프롬프트 변경 사항을 브랜치로 관리"
+      ],
+      "risks_and_limits": [
+        "Git 저장소 접근 권한 관리 필요",
+        "AI 에이전트 설정 파일 형식에 대한 이해 필요"
+      ],
+      "uncertainty_note": "실제 다양한 AI 에이전트 및 런타임 환경과의 호환성 테스트 결과가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_GitAgent_by_Lyzr.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_0.jpg",
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_1.jpg",
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/e8bb105e-e74a-4c2a-b7e9-139fd0145379.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Claude Code Channels",
+      "url": "https://www.producthunt.com/products/claude",
+      "service_url": "https://www.producthunt.com/r/MI7FZCZE2EXBCT",
+      "website": "https://www.producthunt.com/r/MI7FZCZE2EXBCT",
+      "votes": 184,
+      "tagline": "Push events and chat with Claude Code via Telegram & Discord",
+      "summary": "Claude Code를 Telegram과 Discord를 통해 원격으로 제어하고, 알림을 받고, 터미널 어시스턴트와 직접 대화할 수 있게 해주는 도구입니다.",
+      "key_points": [
+        "MCP 서버를 사용하여 Claude Code를 Telegram 및 Discord와 연결",
+        "코딩 세션을 원격으로 제어 가능",
+        "이벤트 알림을 받고, 폰에서 터미널 어시스턴트에 응답 가능"
+      ],
+      "tags": [
+        "DevTool",
+        "Automation",
+        "원격 제어",
+        "협업",
+        "Chat"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "언제 어디서든 코딩 세션을 모니터링하고 제어할 수 있어 생산성을 높이고 즉각적인 대응이 가능합니다.",
+      "recommended_actions": [
+        "Telegram 또는 Discord 채널을 설정하여 Claude Code와 연결",
+        "이벤트 알림 설정을 통해 중요한 업데이트를 즉시 확인",
+        "원격으로 터미널 어시스턴트에 명령을 내려 작업 자동화"
+      ],
+      "risks_and_limits": [
+        "MCP 서버 설정 및 관리에 대한 이해 필요",
+        "Telegram 및 Discord 연결 시 보안 설정 점검 필요"
+      ],
+      "uncertainty_note": "MCP 서버의 안정성과 보안성에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1,
+      "local_image_path": "images/ph_2026-03-20_Claude_Code_Channels.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Claude_Code_Channels_media_0.jpg",
+        "images/ph_2026-03-20_Claude_Code_Channels_media_1.jpg",
+        "images/ph_2026-03-20_Claude_Code_Channels_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 7,
+      "name": "Google AI Studio 2.0",
+      "url": "https://www.producthunt.com/products/google-ai-studio-8",
+      "service_url": "https://www.producthunt.com/r/RVILDZIKPBA73I",
+      "website": "https://www.producthunt.com/r/RVILDZIKPBA73I",
+      "votes": 163,
+      "tagline": "Full-stack vibe coding powered by Antigravity + Firebase",
+      "summary": "Google AI Studio 2.0은 Antigravity와 Firebase를 활용하여 프롬프트 기반의 풀스택 앱 개발을 브라우저에서 가능하게 해주는 개발 도구입니다.",
+      "key_points": [
+        "Antigravity 기반 풀스택 개발 환경 제공",
+        "Firebase 연동으로 데이터베이스 및 인증 기능 내장",
+        "멀티 파일 관리, 오류 자동 수정, npm 패키지 추가 등 지원"
+      ],
+      "tags": [
+        "AI",
+        "DevTool",
+        "Full-Stack",
+        "Firebase",
+        "Low-code",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "복잡한 설정 없이 브라우저에서 바로 AI 기반 앱을 개발하고 배포할 수 있어 개발 시간을 단축하고 생산성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "간단한 프롬프트로 앱 프로토타입 만들기",
+        "Firebase 연동하여 데이터 저장 및 사용자 인증 기능 추가하기",
+        "Cloud Run에 앱 배포하기"
+      ],
+      "risks_and_limits": [
+        "Antigravity 및 Firebase에 대한 이해 필요",
+        "브라우저 기반 개발 환경의 제약 사항 고려"
+      ],
+      "uncertainty_note": "Antigravity의 기능과 Firebase 연동의 구체적인 사용법에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Google_AI_Studio_2.0.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_0.jpg",
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_1.jpg",
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/4f08155d-2c96-4681-94ba-a997c9b32ec3.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Built for Devs",
+      "url": "https://www.producthunt.com/products/built-for-devs-2",
+      "service_url": "https://www.producthunt.com/r/FG6OBEN36A4JY6",
+      "website": "https://www.producthunt.com/r/FG6OBEN36A4JY6",
+      "votes": 149,
+      "tagline": "See how developers really experience your product",
+      "summary": "Built for Devs는 개발자의 제품 사용 경험을 정확히 파악하여 문제점을 진단하고 개선 방안을 제시하는 개발자 중심의 분석 플랫폼입니다.",
+      "key_points": [
+        "개발자의 제품 사용 여정 추적 및 분석",
+        "실제 개발자의 화면 녹화 기반 사용성 평가 제공",
+        "AI 기반 문제점 분석 및 해결책 제시"
+      ],
+      "tags": [
+        "DevTool",
+        "개발자 분석",
+        "사용성 평가",
+        "AI 분석",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자가 제품을 사용하는 과정에서 발생하는 문제점을 정확히 파악하고 개선하여, 제품의 완성도를 높이고 개발자 경험을 향상시킬 수 있습니다.",
+      "recommended_actions": [
+        "Time-to-value 추적 기능 사용",
+        "실제 개발자 사용성 평가 확인",
+        "AI 기반 문제점 분석 결과 검토"
+      ],
+      "risks_and_limits": [
+        "평가에 참여하는 개발자 풀의 대표성 확인 필요",
+        "AI 분석 결과의 정확도 검증 필요"
+      ],
+      "uncertainty_note": "제공되는 개발자 풀의 규모와 특성에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Built_for_Devs.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Built_for_Devs_media_0.jpg",
+        "images/ph_2026-03-20_Built_for_Devs_media_1.jpg",
+        "images/ph_2026-03-20_Built_for_Devs_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/9472871a-af76-4b20-926c-5132e2429e0c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Visdiff",
+      "url": "https://www.producthunt.com/products/visdiff",
+      "service_url": "https://www.producthunt.com/r/KYNWONU2U77LHI",
+      "website": "https://www.producthunt.com/r/KYNWONU2U77LHI",
+      "votes": 129,
+      "tagline": "Stop bridging the design-to-code gap, close it",
+      "summary": "Visdiff는 Figma 디자인을 기반으로 AI 에이전트가 코드를 생성, 검증 및 수정하여 디자인과 100% 일치하는 프론트엔드를 구현, 디자인-코드 간극을 완전히 해소합니다.",
+      "key_points": [
+        "Figma 디자인을 기반으로 코드를 자동 생성 및 수정",
+        "시각적 회귀 테스트를 통해 디자인과 코드의 불일치 해결",
+        "디자인 시안과 동일한 결과물을 보장하여 개발 시간 단축"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Figma",
+        "프론트엔드",
+        "자동화",
+        "Agent",
+        "AI Tool",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "더 이상 '거의 비슷함'에 만족하지 않고, 디자인한 그대로 배포할 수 있어 프론트엔드 개발의 효율성을 극대화합니다.",
+      "recommended_actions": [
+        "Figma 링크를 Visdiff에 붙여넣어 코드 생성 시작",
+        "생성된 코드를 디자인과 비교하여 수정 사항 확인",
+        "자동 수정 기능을 활용하여 디자인과 코드 일치율 향상"
+      ],
+      "risks_and_limits": [
+        "AI 기반 코드 생성의 정확도에 대한 검증 필요",
+        "복잡한 디자인 요소에 대한 완벽한 지원 여부 확인 필요"
+      ],
+      "uncertainty_note": "Visdiff가 지원하는 Figma 디자인 요소의 범위와 코드 생성 정확도에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Visdiff.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Visdiff_media_1.jpg",
+        "images/ph_2026-03-20_Visdiff_media_2.jpg",
+        "images/ph_2026-03-20_Visdiff_media_3.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/9d9d2909-c270-418c-9aca-d2b35f70f47f.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "AI Skills Manager",
+      "url": "https://www.producthunt.com/products/ai-skills-manager",
+      "service_url": "https://www.producthunt.com/r/JSNDHXV426WB3Y",
+      "website": "https://www.producthunt.com/r/JSNDHXV426WB3Y",
+      "votes": 121,
+      "tagline": "One place for all your AI skills",
+      "summary": "AI Skills Manager는 여러 코딩 에이전트의 AI 스킬을 한 곳에서 관리, 설치, 활성화 및 공유할 수 있는 데스크톱 앱입니다.",
+      "key_points": [
+        "모든 주요 코딩 에이전트 지원",
+        "AI 에이전트 스킬 통합 관리",
+        "간편한 설치 및 활성화"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Automation",
+        "스킬 관리",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "다양한 AI 에이전트의 스킬을 효율적으로 관리하여 코딩 생산성을 높이고, 여러 플랫폼을 오갈 필요 없이 한 곳에서 모든 것을 처리할 수 있습니다.",
+      "recommended_actions": [
+        "관심 있는 AI 에이전트 스킬 검색",
+        "새로운 스킬 설치 및 활성화",
+        "다른 사용자와 스킬 공유"
+      ],
+      "risks_and_limits": [
+        "지원하는 코딩 에이전트 목록 확인 필요",
+        "설치하려는 스킬의 안정성 및 보안 검토 필요"
+      ],
+      "uncertainty_note": "구체적으로 어떤 코딩 에이전트들을 지원하는지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_AI_Skills_Manager.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_AI_Skills_Manager_media_1.jpg",
+        "images/ph_2026-03-20_AI_Skills_Manager_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/bb5693a7-97b8-42f2-94dd-a416f9dd5f5d.jpeg?auto=format"
+      ]
+    }
+  ]
+}

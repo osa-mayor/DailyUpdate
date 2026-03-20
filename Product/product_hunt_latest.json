@@ -1,480 +1,475 @@
 {
   "source": "product_hunt",
-  "date": "2026-03-20",
-  "generated_at": "2026-03-20T04:05:00.011974+09:00",
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21T04:02:38.546664+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Stitch 2.0 by Google\n⭐ Votes: 440\n📝 요약: Stitch 2.0은 AI 기반의 디자인 도구로, 자연어, 음성, 문맥 인식 에이전트를 활용하여 고품질 UI를 빠르게 디자인, 반복, 협업할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/stitch-2-0-by-google-2\n🌐 서비스 링크: https://www.producthunt.com/r/FCKF6O6HKHV32R\n\n📦 2. MiniMax-M2.7\n⭐ Votes: 259\n📝 요약: MiniMax M2.7은 스스로 진화하는 AI 모델로, 복잡한 작업을 자동화하고 지속적으로 학습하여 최소한의 인간 개입으로 업무를 수행할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/minimax-agent\n🌐 서비스 링크: https://www.producthunt.com/r/QWPGVYW4USQ4SJ\n\n📦 3. InfrOS\n⭐ Votes: 213\n📝 요약: InfrOS는 클라우드 시스템 구축 시 최적화된 아키텍처를 설계하고 검증하여 배포 전에 에뮬레이션을 통해 결과를 증명하고, 인프라를 제어하며 발전시킬 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/infros\n🌐 서비스 링크: https://www.producthunt.com/r/JMODKEWNZJOEM5\n\n📦 4. OctoClaw\n⭐ Votes: 204\n📝 요약: OctoClaw는 콘텐츠 작성, 리드 검증, 고객 응대 등 다양한 비즈니스 업무를 실제로 수행하는 AI 전문가를 제공하여 업무 효율성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/octoclaw\n🌐 서비스 링크: https://www.producthunt.com/r/B6QI56ORHI6MW3\n\n📦 5. Netlify.new\n⭐ Votes: 191\n📝 요약: Netlify.new를 통해 프롬프트만으로 즉시 Netlify 프로젝트를 시작하고, 실제 프로덕션 URL에서 바로 작업하며 배포까지 완료하세요.\n🔗 Product Hunt: https://www.producthunt.com/products/netlify\n🌐 서비스 링크: https://www.producthunt.com/r/X4EY7ZAP7OYZHK\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. ProductBridge\n⭐ Votes: 378\n📝 요약: ProductBridge는 여러 플랫폼에 흩어진 사용자 피드백을 자동으로 수집, 정리, 분석하여 제품 팀이 사용자 요구에 맞는 제품을 개발하도록 돕는 AI 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/productbridge\n🌐 서비스 링크: https://www.producthunt.com/r/TCL62HT47VLBOH\n\n📦 2. AdsTurbo\n⭐ Votes: 301\n📝 요약: AdsTurbo는 실제 크리에이터를 학습시킨 AI 액터를 사용하여 자연스러운 UGC 스타일의 비디오 광고를 빠르게 제작, 테스트 및 확장할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/adsturbo-2\n🌐 서비스 링크: https://www.producthunt.com/r/W6MILE5FBCMQDM\n\n📦 3. Composer 2 by Cursor\n⭐ Votes: 251\n📝 요약: Cursor에서 만든 Composer 2는 복잡한 개발 작업을 위한 고성능 코딩 모델로, 뛰어난 성능과 효율적인 가격을 제공하여 개발 생산성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/cursor\n🌐 서비스 링크: https://www.producthunt.com/r/F3Q7SOASL6RRRH\n\n📦 4. Assembly 2.0\n⭐ Votes: 204\n📝 요약: Assembly 2.0은 서비스 기업이 고객과 소통하고 협업하는 데 필요한 모든 것을 하나의 깔끔한 포털에서 제공하여 고객 경험을 개선하고 관리 업무를 줄여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/assembly-7\n🌐 서비스 링크: https://www.producthunt.com/r/4SZ5MTM6TA2D62\n\n📦 5. GitAgent by Lyzr\n⭐ Votes: 201\n📝 요약: GitAgent는 AI 에이전트의 설정, 로직, 도구, 메모리를 Git 저장소에 저장하여 버전 관리하고 재사용 가능하게 만들어주는 오픈 표준입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/gitagent-2\n🌐 서비스 링크: https://www.producthunt.com/r/EJIV4U6MRXL3VR\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Stitch 2.0 by Google",
-      "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2",
-      "service_url": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
-      "website": "https://www.producthunt.com/r/FCKF6O6HKHV32R",
-      "votes": 440,
-      "tagline": "Vibe design beautiful production-ready UI in seconds",
-      "summary": "Stitch 2.0은 AI 기반의 디자인 도구로, 자연어, 음성, 문맥 인식 에이전트를 활용하여 고품질 UI를 빠르게 디자인, 반복, 협업할 수 있도록 돕습니다.",
+      "name": "ProductBridge",
+      "url": "https://www.producthunt.com/products/productbridge",
+      "service_url": "https://www.producthunt.com/r/TCL62HT47VLBOH",
+      "website": "https://www.producthunt.com/r/TCL62HT47VLBOH",
+      "votes": 378,
+      "tagline": "Agent that collects feedback across multiple platforms",
+      "summary": "ProductBridge는 여러 플랫폼에 흩어진 사용자 피드백을 자동으로 수집, 정리, 분석하여 제품 팀이 사용자 요구에 맞는 제품을 개발하도록 돕는 AI 에이전트입니다.",
       "key_points": [
-        "자연어, 음성, 문맥 인식 기반의 AI 디자인 기능 제공",
-        "이미지, 코드, 텍스트를 통합하여 디자인 가능",
-        "즉각적인 프로토타입 생성 및 디자인 시스템 유지"
+        "다양한 채널의 피드백 자동 수집 및 정리",
+        "데이터 기반 우선순위 결정 및 로드맵 관리",
+        "변경 사항 자동 알림 및 완전한 피드백 루프"
       ],
       "tags": [
-        "AI",
-        "UI 디자인",
-        "프로토타입",
-        "협업",
-        "자동화",
-        "Agent",
-        "AI Tool",
-        "Vision",
-        "Design",
-        "DevTool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Stitch 2.0을 사용하면 아이디어에서 인터페이스까지의 디자인 과정을 몇 초 만에 완료할 수 있어, 디자인 작업 속도를 향상시키고 생산성을 극대화할 수 있습니다.",
-      "recommended_actions": [
-        "자연어를 사용하여 UI 요소 생성해보기",
-        "음성 명령으로 디자인 변경해보기",
-        "내장된 디자인 시스템 활용하여 일관성 유지하기"
-      ],
-      "risks_and_limits": [
-        "AI 기반 기능의 정확도 및 디자인 품질 검토 필요",
-        "특정 디자인 시스템과의 호환성 확인 필요"
-      ],
-      "uncertainty_note": "Stitch 2.0의 AI 기능이 얼마나 다양한 디자인 스타일과 복잡성을 지원하는지 추가 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_Stitch_2.0_by_Google.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_0.jpg",
-        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_1.jpg",
-        "images/ph_2026-03-19_Stitch_2.0_by_Google_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/08dce253-af61-4336-9537-d8e3238a7de8.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 2,
-      "name": "MiniMax-M2.7",
-      "url": "https://www.producthunt.com/products/minimax-agent",
-      "service_url": "https://www.producthunt.com/r/QWPGVYW4USQ4SJ",
-      "website": "https://www.producthunt.com/r/QWPGVYW4USQ4SJ",
-      "votes": 259,
-      "tagline": "Self-evolving AI model powering autonomous agents",
-      "summary": "MiniMax M2.7은 스스로 진화하는 AI 모델로, 복잡한 작업을 자동화하고 지속적으로 학습하여 최소한의 인간 개입으로 업무를 수행할 수 있게 해줍니다.",
-      "key_points": [
-        "자기 개선 AI 모델",
-        "에이전트 팀 협업 기능",
-        "코딩, 디버깅, 연구 등 복잡한 작업 처리"
-      ],
-      "tags": [
+        "피드백 관리",
         "AI",
         "자동화",
-        "개발 도구",
-        "에이전트",
-        "Agent",
-        "Automation",
-        "AI Tool",
-        "API"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "MiniMax M2.7을 통해 AI 기반 워크플로우를 구축하고, 개발 생산성을 향상시키며, 반복적인 작업을 자동화하여 시간을 절약할 수 있습니다.",
-      "recommended_actions": [
-        "API를 사용하여 기존 시스템에 통합",
-        "MiniMax Agent를 통해 AI 에이전트 활용",
-        "자동화 워크플로우 구축"
-      ],
-      "risks_and_limits": [
-        "API 사용량에 따른 비용 발생 가능성",
-        "자동화 수준에 따른 잠재적 오류 가능성"
-      ],
-      "uncertainty_note": "MiniMax M2.7의 장기적인 성능과 안정성에 대한 추가적인 검증이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_MiniMax-M2.7.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_MiniMax-M2.7_media_0.jpg",
-        "images/ph_2026-03-19_MiniMax-M2.7_media_1.jpg",
-        "images/ph_2026-03-19_MiniMax-M2.7_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 3,
-      "name": "InfrOS",
-      "url": "https://www.producthunt.com/products/infros",
-      "service_url": "https://www.producthunt.com/r/JMODKEWNZJOEM5",
-      "website": "https://www.producthunt.com/r/JMODKEWNZJOEM5",
-      "votes": 213,
-      "tagline": "Predict and validate cloud architectures before launch",
-      "summary": "InfrOS는 클라우드 시스템 구축 시 최적화된 아키텍처를 설계하고 검증하여 배포 전에 에뮬레이션을 통해 결과를 증명하고, 인프라를 제어하며 발전시킬 수 있도록 돕습니다.",
-      "key_points": [
-        "클라우드 아키텍처 설계 및 검증",
-        "배포 전 에뮬레이션을 통한 결과 예측 및 증명",
-        "인프라 발전 제어"
-      ],
-      "tags": [
-        "클라우드",
-        "아키텍처",
-        "에뮬레이션",
-        "DevOps",
-        "Design"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "클라우드 시스템 구축 팀은 InfrOS를 통해 최적화된 아키텍처를 설계하고 검증하여 배포 전에 발생할 수 있는 문제를 예방하고, 인프라를 효율적으로 관리할 수 있습니다.",
-      "recommended_actions": [
-        "클라우드 아키텍처 설계 기능 사용해보기",
-        "에뮬레이션 기능을 통한 결과 예측 및 검증",
-        "인프라 발전 제어 기능 사용해보기"
-      ],
-      "risks_and_limits": [
-        "에뮬레이션 환경과 실제 배포 환경의 차이 고려",
-        "지원하는 클라우드 플랫폼 및 서비스 확인"
-      ],
-      "uncertainty_note": "InfrOS가 지원하는 클라우드 플랫폼 및 서비스의 범위에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_InfrOS.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_InfrOS_media_0.jpg",
-        "images/ph_2026-03-19_InfrOS_media_1.jpg",
-        "images/ph_2026-03-19_InfrOS_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/d8ea8786-86db-44e1-a2fa-1c49cf674d7a.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "OctoClaw",
-      "url": "https://www.producthunt.com/products/octoclaw",
-      "service_url": "https://www.producthunt.com/r/B6QI56ORHI6MW3",
-      "website": "https://www.producthunt.com/r/B6QI56ORHI6MW3",
-      "votes": 204,
-      "tagline": "Hire AI specialists for marketing, sales, support, and more",
-      "summary": "OctoClaw는 콘텐츠 작성, 리드 검증, 고객 응대 등 다양한 비즈니스 업무를 실제로 수행하는 AI 전문가를 제공하여 업무 효율성을 높여줍니다.",
-      "key_points": [
-        "마케팅, 영업, 고객 지원 등 다양한 분야의 AI 전문가 활용",
-        "콘텐츠 작성, 리드 검증, 고객 응대 등 실제 업무 실행",
-        "다양한 도구와 연동하여 워크플로우 조정"
-      ],
-      "tags": [
-        "AI",
-        "자동화",
-        "업무 효율성",
-        "생산성",
-        "고객 지원",
-        "Automation",
-        "AI Tool",
-        "Marketing",
-        "Sales"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "OctoClaw를 통해 AI 전문가를 고용하여 콘텐츠 제작, 잠재 고객 발굴, 고객 응대 등의 업무를 자동화하고 효율성을 높일 수 있습니다.",
-      "recommended_actions": [
-        "콘텐츠 작성 AI 전문가 활용",
-        "리드 검증 자동화",
-        "고객 응대 자동화 설정"
-      ],
-      "risks_and_limits": [
-        "AI 전문가의 성능은 작업의 복잡성과 데이터 품질에 따라 달라질 수 있습니다.",
-        "기존 도구와의 연동 가능성을 확인해야 합니다."
-      ],
-      "uncertainty_note": "AI 전문가의 정확도와 효율성에 대한 사용자 후기를 추가적으로 확인하는 것이 좋습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_OctoClaw.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_OctoClaw_media_0.jpg",
-        "images/ph_2026-03-19_OctoClaw_media_1.jpg",
-        "images/ph_2026-03-19_OctoClaw_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/c8f4c911-ed3a-42c3-9f69-4062e4a275e9.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "Netlify.new",
-      "url": "https://www.producthunt.com/products/netlify",
-      "service_url": "https://www.producthunt.com/r/X4EY7ZAP7OYZHK",
-      "website": "https://www.producthunt.com/r/X4EY7ZAP7OYZHK",
-      "votes": 191,
-      "tagline": "Start a project with just a prompt on Netlify",
-      "summary": "Netlify.new를 통해 프롬프트만으로 즉시 Netlify 프로젝트를 시작하고, 실제 프로덕션 URL에서 바로 작업하며 배포까지 완료하세요.",
-      "key_points": [
-        "프롬프트 기반 즉시 프로젝트 시작: 로컬 설정이나 리포지토리 없이 앱 설명만으로 시작 가능",
-        "AI 에이전트 활용: Claude, Gemini, Codex 등 AI 에이전트를 선택하여 코드 생성 및 프로젝트 구성",
-        "Netlify 인프라 즉시 활용: 빌트인 폼, 서버리스 함수 등 Netlify의 모든 기능을 바로 사용"
-      ],
-      "tags": [
-        "DevTool",
-        "AI",
-        "프론트엔드",
-        "자동화",
-        "배포",
-        "Agent",
-        "AI Tool",
-        "Prompting"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "아이디어를 즉시 프로토타입으로 만들고, 실제 Netlify 환경에서 빠르게 테스트하고 개선할 수 있습니다. 기존 방식도 지원하므로 필요에 따라 Git 연동도 가능합니다.",
-      "recommended_actions": [
-        "netlify.new 접속하여 즉시 프로젝트 시작",
-        "다양한 AI 에이전트(Claude, Gemini, Codex) 실험",
-        "빌트인 폼 및 서버리스 함수 활용"
-      ],
-      "risks_and_limits": [
-        "AI 에이전트의 코드 생성 품질에 따라 결과가 달라질 수 있음",
-        "복잡한 프로젝트의 경우, 초기 프롬프트 기반 설정 후 추가적인 수동 설정이 필요할 수 있음"
-      ],
-      "uncertainty_note": "AI 에이전트별 코드 생성 성능 및 Netlify의 장기적인 지원 계획에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_Netlify.new.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_Netlify.new_media_0.jpg",
-        "images/ph_2026-03-19_Netlify.new_media_1.jpg",
-        "images/ph_2026-03-19_Netlify.new_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 6,
-      "name": "Comet for iOS",
-      "url": "https://www.producthunt.com/products/perplexity-ai",
-      "service_url": "https://www.producthunt.com/r/U4SOBCCNE6I4ER",
-      "website": "https://www.producthunt.com/r/U4SOBCCNE6I4ER",
-      "votes": 160,
-      "tagline": "Agentic AI browser and assistant for mobile by Perplexity ",
-      "summary": "Perplexity에서 만든 Comet은 모바일에 최적화된 AI 브라우저 및 어시스턴트로, 탭 요약, 음성 채팅, 브라우징 정리, 방해 요소 차단 기능을 제공하며, AI 어시스턴트가 사용자를 대신해 작업을 수행합니다.",
-      "key_points": [
-        "모바일 환경에 최적화된 AI 브라우저",
-        "탭 요약, 음성 채팅, 브라우징 정리 기능 제공",
-        "AI 어시스턴트가 사용자 대신 작업 수행"
-      ],
-      "tags": [
-        "AI",
-        "브라우저",
-        "생산성",
-        "모바일",
-        "Agent",
-        "AI Tool",
-        "Chat"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "이동 중에도 스마트하게 브라우징하고 AI의 도움을 받아 효율적으로 작업을 처리할 수 있습니다. 특히 여러 탭을 관리하거나 정보를 빠르게 요약해야 할 때 유용합니다.",
-      "recommended_actions": [
-        "탭 요약 기능 사용해보기",
-        "음성 채팅 기능 사용해보기",
-        "AI 어시스턴트에게 작업 지시해보기"
-      ],
-      "risks_and_limits": [
-        "AI 어시스턴트의 작업 결과 정확성 확인 필요",
-        "개인 정보 처리 및 보안에 유의"
-      ],
-      "uncertainty_note": "AI 어시스턴트의 성능 및 개인 정보 처리 방식에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_Comet_for_iOS.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_Comet_for_iOS_media_0.jpg",
-        "images/ph_2026-03-19_Comet_for_iOS_media_1.jpg",
-        "images/ph_2026-03-19_Comet_for_iOS_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/8f9dcd76-5b63-4af5-a650-e66711cb2470.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "PixelClaw",
-      "url": "https://www.producthunt.com/products/pixelclaw",
-      "service_url": "https://www.producthunt.com/r/VKEHNPPUAYEI2W",
-      "website": "https://www.producthunt.com/r/VKEHNPPUAYEI2W",
-      "votes": 133,
-      "tagline": "A tiny pixel crab that lives on your Dock",
-      "summary": "PixelClaw는 맥 Dock에서 귀여운 애니메이션 게를 키우며 Claude Code 작업 중에도 소소한 즐거움을 더해주는 앱입니다.",
-      "key_points": [
-        "맥 Dock에서 살아 움직이는 픽셀 게",
-        "낮잠, 점프, 사과 쫓기 등 다양한 애니메이션",
-        "Claude Code 작업 중에도 귀여운 볼거리 제공"
-      ],
-      "tags": [
-        "맥 앱",
-        "애니메이션",
-        "Dock",
-        "귀여움",
-        "DevTool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "지루한 작업 중에도 잠시나마 귀여운 게를 보며 힐링하고, 맥 Dock을 더욱 개성 있게 꾸밀 수 있습니다.",
-      "recommended_actions": [
-        "PixelClaw 다운로드 및 설치",
-        "맥 Dock에서 PixelClaw 실행",
-        "사과를 드래그하여 게에게 주기"
-      ],
-      "risks_and_limits": [
-        "애니메이션이 CPU 사용량을 늘릴 수 있음",
-        "Dock 공간을 차지할 수 있음"
-      ],
-      "uncertainty_note": "PixelClaw의 시스템 자원 사용량에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_PixelClaw.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_PixelClaw_media_0.jpg",
-        "images/ph_2026-03-19_PixelClaw_media_1.jpg",
-        "images/ph_2026-03-19_PixelClaw_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/5ebcfe24-8d53-4df0-9281-c044ce020500.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Cimanote",
-      "url": "https://www.producthunt.com/products/cimanote",
-      "service_url": "https://www.producthunt.com/r/PD44QI4PNYVON4",
-      "website": "https://www.producthunt.com/r/PD44QI4PNYVON4",
-      "votes": 132,
-      "tagline": "The fast, clean note app Evernote used to be",
-      "summary": "Evernote의 가격 인상 및 기능 제한에 실망한 사용자를 위한 빠르고 깔끔한 노트 앱으로, Evernote의 과거 장점을 그대로 계승하면서 실시간 협업 및 데이터 내보내기 기능을 제공합니다.",
-      "key_points": [
-        "빠른 로딩 속도와 깔끔한 인터페이스",
-        "모든 기기 지원 및 실시간 협업 기능",
-        "Evernote 데이터 완벽하게 가져오기"
-      ],
-      "tags": [
-        "노트",
-        "생산성",
-        "협업",
-        "Evernote",
-        "대체"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "Evernote의 대안을 찾는 사용자에게 빠르고 안정적인 노트 환경을 제공하며, 데이터 손실 없이 기존 Evernote 노트를 쉽게 이전할 수 있습니다.",
-      "recommended_actions": [
-        "Evernote 노트 가져오기 기능 사용해보기",
-        "실시간 협업 기능으로 팀원과 함께 노트 편집해보기",
-        "다양한 기기에서 노트 동기화 속도 확인해보기"
-      ],
-      "risks_and_limits": [
-        "첫 500명 이후 유료 구독 모델($6/월) 적용",
-        "Evernote 외 다른 노트 서비스로부터의 데이터 이전 지원 여부 확인 필요"
-      ],
-      "uncertainty_note": "향후 기능 업데이트 및 장기적인 서비스 지속 가능성에 대한 사용자 리뷰 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_Cimanote.jpg",
-      "local_media": [
-        "images/ph_2026-03-19_Cimanote_media_0.jpg",
-        "images/ph_2026-03-19_Cimanote_media_1.jpg",
-        "images/ph_2026-03-19_Cimanote_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 9,
-      "name": "Scouts for iOS",
-      "url": "https://www.producthunt.com/products/scouts-by-yutori",
-      "service_url": "https://www.producthunt.com/r/SIMFMY4BTRNYIT",
-      "website": "https://www.producthunt.com/r/SIMFMY4BTRNYIT",
-      "votes": 116,
-      "tagline": "Your always-on AI agents to monitor the web, now on iOS",
-      "summary": "Scouts for iOS는 이동 중에도 AI 에이전트를 통해 관심 있는 모든 것을 연구하고 모니터링할 수 있도록 도와줍니다.",
-      "key_points": [
-        "iOS에서 AI 에이전트 사용 가능",
-        "웹 모니터링 및 리서치 자동화",
-        "언제 어디서든 정보 접근"
-      ],
-      "tags": [
-        "iOS",
-        "AI",
-        "Automation",
-        "Research",
-        "Monitoring",
+        "로드맵",
+        "제품 개발",
         "Agent",
         "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "이동 중에도 필요한 정보를 놓치지 않고 빠르게 확인할 수 있어 효율적인 업무 처리가 가능합니다.",
+      "practical_relevance": "ProductBridge를 통해 제품 팀은 사용자 피드백을 효율적으로 관리하고, 데이터 기반으로 제품 개발 방향을 결정하여 사용자 만족도를 높일 수 있습니다.",
       "recommended_actions": [
-        "관심 주제에 대한 스카우트 설정",
-        "새로운 정보 알림 설정",
-        "에이전트 리서치 결과 확인"
+        "Slack, Intercom 등 연동하여 피드백 수집 시작",
+        "공개 로드맵 설정 및 사용자 기능 요청 활성화",
+        "변경 사항 알림 기능 설정"
       ],
       "risks_and_limits": [
-        "AI 에이전트의 정보 정확도 확인 필요",
-        "데이터 사용량에 따른 요금 발생 가능성 확인"
+        "AI 기반 피드백 분석의 정확도 확인 필요",
+        "지원하는 플랫폼 및 채널 확인 필요"
       ],
-      "uncertainty_note": "AI 에이전트의 성능 및 데이터 정확도에 대한 사용자 리뷰 확인이 필요합니다.",
+      "uncertainty_note": "ProductBridge의 AI 에이전트가 얼마나 정확하게 피드백을 분류하고 분석하는지 추가적인 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_Scouts_for_iOS.jpg",
+      "local_image_path": "images/ph_2026-03-20_ProductBridge.jpg",
       "local_media": [
-        "images/ph_2026-03-19_Scouts_for_iOS_media_0.jpg",
-        "images/ph_2026-03-19_Scouts_for_iOS_media_1.jpg"
+        "images/ph_2026-03-20_ProductBridge_media_0.jpg",
+        "images/ph_2026-03-20_ProductBridge_media_1.jpg",
+        "images/ph_2026-03-20_ProductBridge_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/41f8138e-e39b-4101-a4fb-bfc70578a4d4.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "AdsTurbo",
+      "url": "https://www.producthunt.com/products/adsturbo-2",
+      "service_url": "https://www.producthunt.com/r/W6MILE5FBCMQDM",
+      "website": "https://www.producthunt.com/r/W6MILE5FBCMQDM",
+      "votes": 301,
+      "tagline": "Create ads with AI actors that look truly human",
+      "summary": "AdsTurbo는 실제 크리에이터를 학습시킨 AI 액터를 사용하여 자연스러운 UGC 스타일의 비디오 광고를 빠르게 제작, 테스트 및 확장할 수 있게 해줍니다.",
+      "key_points": [
+        "AI Talking Actors 기술로 사람처럼 자연스러운 광고 영상 제작",
+        "빠른 광고 제작 속도로 다양한 크리에이티브 테스트 가능",
+        "사람의 느낌을 유지하면서 광고 제작 규모 확장"
+      ],
+      "tags": [
+        "AI",
+        "광고",
+        "비디오",
+        "UGC",
+        "자동화",
+        "AI Tool",
+        "Video"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "광고 제작에 소요되는 시간과 비용을 절감하고, 더 많은 광고 소재를 테스트하여 전환율을 높일 수 있습니다. AI 액터가 자연스러운 연기를 보여주어 신뢰도를 높입니다.",
+      "recommended_actions": [
+        "AI 액터 선택 후 광고 스크립트 입력하여 비디오 광고 생성해보기",
+        "다양한 AI 액터와 스크립트 조합으로 여러 광고 소재 테스트해보기",
+        "제작된 광고의 성과를 분석하여 최적의 조합 찾아보기"
+      ],
+      "risks_and_limits": [
+        "AI 액터의 자연스러움이 실제 모델만큼 완벽하지 않을 수 있음",
+        "스크립트의 품질에 따라 광고 효과가 달라질 수 있음"
+      ],
+      "uncertainty_note": "AI 액터의 연기 품질과 광고 성과에 대한 사용자 피드백을 추가적으로 확인해야 합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_AdsTurbo.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_AdsTurbo_media_0.jpg",
+        "images/ph_2026-03-20_AdsTurbo_media_1.jpg",
+        "images/ph_2026-03-20_AdsTurbo_media_2.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 10,
-      "name": "talat",
-      "url": "https://www.producthunt.com/products/talat",
-      "service_url": "https://www.producthunt.com/r/YMCHBNLELUWCYI",
-      "website": "https://www.producthunt.com/r/YMCHBNLELUWCYI",
-      "votes": 108,
-      "tagline": "Realtime meeting notes that don’t leave your Mac",
-      "summary": "talat은 Mac에서 실시간으로 회의 내용을 캡처, 기록, 편집 가능한 노트로 만들어주는 앱입니다. 모든 과정이 Mac 내에서 처리되어 개인 정보 보호에 강점을 가지며, 다양한 사용자 정의 옵션을 제공합니다.",
+      "rank": 3,
+      "name": "Composer 2 by Cursor",
+      "url": "https://www.producthunt.com/products/cursor",
+      "service_url": "https://www.producthunt.com/r/F3Q7SOASL6RRRH",
+      "website": "https://www.producthunt.com/r/F3Q7SOASL6RRRH",
+      "votes": 251,
+      "tagline": "Fast, token-efficient frontier-level coding model",
+      "summary": "Cursor에서 만든 Composer 2는 복잡한 개발 작업을 위한 고성능 코딩 모델로, 뛰어난 성능과 효율적인 가격을 제공하여 개발 생산성을 높여줍니다.",
       "key_points": [
-        "Mac의 Neural Engine을 사용하여 오디오를 로컬에서 처리",
-        "실시간 음성-텍스트 변환 및 양방향 대화 기록",
-        "Obsidian 자동 내보내기, 웹훅, MCP 서버를 통한 데이터 쿼리 등 다양한 사용자 정의 기능 제공"
+        "복잡하고 장기적인 개발 작업에 최적화된 코딩 모델",
+        "경쟁력 있는 가격: 입력 $0.50/M, 출력 $2.50/M",
+        "더욱 스마트한 코드 생성과 향상된 비용 효율성"
       ],
       "tags": [
-        "회의",
-        "생산성",
+        "코딩 모델",
+        "개발 자동화",
+        "AI 코딩",
+        "Automation",
+        "AI Tool",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Composer 2는 복잡한 개발 프로젝트를 더 빠르고 효율적으로 진행할 수 있도록 도와주며, 합리적인 가격으로 개발 비용을 절감할 수 있습니다.",
+      "recommended_actions": [
+        "복잡한 코드 생성 작업에 Composer 2 활용해보기",
+        "실시간 워크플로우에 빠른 버전의 Composer 2 적용해보기",
+        "비용 효율성을 직접 비교해보기"
+      ],
+      "risks_and_limits": [
+        "모델의 성능은 특정 개발 환경 및 작업에 따라 달라질 수 있습니다.",
+        "가격 정책을 꼼꼼히 확인하고 사용하는 것이 좋습니다."
+      ],
+      "uncertainty_note": "Composer 2의 실제 성능이 다양한 개발 환경에서 어떻게 나타나는지 추가적인 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Composer_2_by_Cursor.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_0.jpg",
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_1.jpg",
+        "images/ph_2026-03-20_Composer_2_by_Cursor_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 4,
+      "name": "Assembly 2.0",
+      "url": "https://www.producthunt.com/products/assembly-7",
+      "service_url": "https://www.producthunt.com/r/4SZ5MTM6TA2D62",
+      "website": "https://www.producthunt.com/r/4SZ5MTM6TA2D62",
+      "votes": 204,
+      "tagline": "Build modern client portals for service businesses",
+      "summary": "Assembly 2.0은 서비스 기업이 고객과 소통하고 협업하는 데 필요한 모든 것을 하나의 깔끔한 포털에서 제공하여 고객 경험을 개선하고 관리 업무를 줄여줍니다.",
+      "key_points": [
+        "클라이언트 홈 페이지 편집 기능으로 다양한 디자인 제공",
+        "폴더를 사용하여 사이드바 앱 정리 가능",
+        "반복 자동화 기능 및 데스크톱 앱 알림 지원"
+      ],
+      "tags": [
+        "고객 관리",
         "자동화",
-        "노트",
-        "개인정보보호",
-        "LLM",
+        "생산성",
+        "포털",
+        "Automation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "고객은 여러 개의 로그인 정보를 기억할 필요 없이 하나의 포털에서 메시지, 결제, 파일, 작업 등을 관리할 수 있어 편리하며, 서비스 제공자는 관리 업무 시간을 줄여 실제 고객 업무에 더 집중할 수 있습니다.",
+      "recommended_actions": [
+        "새로운 클라이언트 홈 페이지 편집 기능 사용해보기",
+        "폴더를 사용하여 앱 정리하기",
+        "반복 자동화 기능 설정하기"
+      ],
+      "risks_and_limits": [
+        "기존 시스템과의 호환성 확인 필요",
+        "데이터 마이그레이션 계획 수립 필요"
+      ],
+      "uncertainty_note": "제공되는 템플릿의 다양성과 사용자 정의 옵션의 범위에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Assembly_2.0.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Assembly_2.0_media_0.jpg",
+        "images/ph_2026-03-20_Assembly_2.0_media_1.jpg",
+        "images/ph_2026-03-20_Assembly_2.0_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/af72cc40-24a2-452a-9d2f-032eb0847999.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "GitAgent by Lyzr",
+      "url": "https://www.producthunt.com/products/gitagent-2",
+      "service_url": "https://www.producthunt.com/r/EJIV4U6MRXL3VR",
+      "website": "https://www.producthunt.com/r/EJIV4U6MRXL3VR",
+      "votes": 201,
+      "tagline": "Your repository becomes your agent",
+      "summary": "GitAgent는 AI 에이전트의 설정, 로직, 도구, 메모리를 Git 저장소에 저장하여 버전 관리하고 재사용 가능하게 만들어주는 오픈 표준입니다.",
+      "key_points": [
+        "AI 에이전트 설정을 Git 저장소에서 관리",
+        "다양한 런타임 환경 지원 (Claude, OpenAI, CrewAI 등)",
+        "프롬프트 변경 사항을 코드처럼 롤백 가능"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Git",
+        "Automation",
+        "Agent",
+        "AI Tool",
         "Prompting"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "회의 내용을 텍스트로 기록하고 검색할 수 있어 회의 후 정보 접근성이 향상되며, 개인 정보 보호를 중요시하는 사용자에게 적합합니다.",
+      "practical_relevance": "AI 에이전트 개발 시 설정 관리의 복잡성을 줄이고, 협업 및 버전 관리를 용이하게 해줍니다. 또한, 특정 프레임워크에 종속되지 않고 다양한 환경에서 에이전트를 실행할 수 있습니다.",
       "recommended_actions": [
-        "커스텀 LLM 제공자 설정",
-        "맞춤 요약 프롬프트 작성",
-        "Obsidian 자동 내보내기 설정"
+        "Git 저장소에 AI 에이전트 설정 저장",
+        "다양한 런타임 환경에서 에이전트 실행 테스트",
+        "프롬프트 변경 사항을 브랜치로 관리"
       ],
       "risks_and_limits": [
-        "Mac의 성능에 따라 실시간 처리 속도가 달라질 수 있음",
-        "초기 설정 및 사용자 정의에 시간이 소요될 수 있음"
+        "Git 저장소 접근 권한 관리 필요",
+        "AI 에이전트 설정 파일 형식에 대한 이해 필요"
       ],
-      "uncertainty_note": "타사 LLM 통합 시 개인 정보 처리 방식에 대한 추가 확인이 필요합니다.",
+      "uncertainty_note": "실제 다양한 AI 에이전트 및 런타임 환경과의 호환성 테스트 결과가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-19_talat.jpg",
+      "local_image_path": "images/ph_2026-03-20_GitAgent_by_Lyzr.jpg",
       "local_media": [
-        "images/ph_2026-03-19_talat_media_0.jpg",
-        "images/ph_2026-03-19_talat_media_1.jpg",
-        "images/ph_2026-03-19_talat_media_2.jpg"
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_0.jpg",
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_1.jpg",
+        "images/ph_2026-03-20_GitAgent_by_Lyzr_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/4a2b235c-6414-42ea-8c11-038b197801b0.jpeg?auto=format"
+        "https://ph-files.imgix.net/e8bb105e-e74a-4c2a-b7e9-139fd0145379.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Claude Code Channels",
+      "url": "https://www.producthunt.com/products/claude",
+      "service_url": "https://www.producthunt.com/r/MI7FZCZE2EXBCT",
+      "website": "https://www.producthunt.com/r/MI7FZCZE2EXBCT",
+      "votes": 184,
+      "tagline": "Push events and chat with Claude Code via Telegram & Discord",
+      "summary": "Claude Code를 Telegram과 Discord를 통해 원격으로 제어하고, 알림을 받고, 터미널 어시스턴트와 직접 대화할 수 있게 해주는 도구입니다.",
+      "key_points": [
+        "MCP 서버를 사용하여 Claude Code를 Telegram 및 Discord와 연결",
+        "코딩 세션을 원격으로 제어 가능",
+        "이벤트 알림을 받고, 폰에서 터미널 어시스턴트에 응답 가능"
+      ],
+      "tags": [
+        "DevTool",
+        "Automation",
+        "원격 제어",
+        "협업",
+        "Chat"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "언제 어디서든 코딩 세션을 모니터링하고 제어할 수 있어 생산성을 높이고 즉각적인 대응이 가능합니다.",
+      "recommended_actions": [
+        "Telegram 또는 Discord 채널을 설정하여 Claude Code와 연결",
+        "이벤트 알림 설정을 통해 중요한 업데이트를 즉시 확인",
+        "원격으로 터미널 어시스턴트에 명령을 내려 작업 자동화"
+      ],
+      "risks_and_limits": [
+        "MCP 서버 설정 및 관리에 대한 이해 필요",
+        "Telegram 및 Discord 연결 시 보안 설정 점검 필요"
+      ],
+      "uncertainty_note": "MCP 서버의 안정성과 보안성에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1,
+      "local_image_path": "images/ph_2026-03-20_Claude_Code_Channels.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Claude_Code_Channels_media_0.jpg",
+        "images/ph_2026-03-20_Claude_Code_Channels_media_1.jpg",
+        "images/ph_2026-03-20_Claude_Code_Channels_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 7,
+      "name": "Google AI Studio 2.0",
+      "url": "https://www.producthunt.com/products/google-ai-studio-8",
+      "service_url": "https://www.producthunt.com/r/RVILDZIKPBA73I",
+      "website": "https://www.producthunt.com/r/RVILDZIKPBA73I",
+      "votes": 163,
+      "tagline": "Full-stack vibe coding powered by Antigravity + Firebase",
+      "summary": "Google AI Studio 2.0은 Antigravity와 Firebase를 활용하여 프롬프트 기반의 풀스택 앱 개발을 브라우저에서 가능하게 해주는 개발 도구입니다.",
+      "key_points": [
+        "Antigravity 기반 풀스택 개발 환경 제공",
+        "Firebase 연동으로 데이터베이스 및 인증 기능 내장",
+        "멀티 파일 관리, 오류 자동 수정, npm 패키지 추가 등 지원"
+      ],
+      "tags": [
+        "AI",
+        "DevTool",
+        "Full-Stack",
+        "Firebase",
+        "Low-code",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "복잡한 설정 없이 브라우저에서 바로 AI 기반 앱을 개발하고 배포할 수 있어 개발 시간을 단축하고 생산성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "간단한 프롬프트로 앱 프로토타입 만들기",
+        "Firebase 연동하여 데이터 저장 및 사용자 인증 기능 추가하기",
+        "Cloud Run에 앱 배포하기"
+      ],
+      "risks_and_limits": [
+        "Antigravity 및 Firebase에 대한 이해 필요",
+        "브라우저 기반 개발 환경의 제약 사항 고려"
+      ],
+      "uncertainty_note": "Antigravity의 기능과 Firebase 연동의 구체적인 사용법에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Google_AI_Studio_2.0.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_0.jpg",
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_1.jpg",
+        "images/ph_2026-03-20_Google_AI_Studio_2.0_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/4f08155d-2c96-4681-94ba-a997c9b32ec3.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Built for Devs",
+      "url": "https://www.producthunt.com/products/built-for-devs-2",
+      "service_url": "https://www.producthunt.com/r/FG6OBEN36A4JY6",
+      "website": "https://www.producthunt.com/r/FG6OBEN36A4JY6",
+      "votes": 149,
+      "tagline": "See how developers really experience your product",
+      "summary": "Built for Devs는 개발자의 제품 사용 경험을 정확히 파악하여 문제점을 진단하고 개선 방안을 제시하는 개발자 중심의 분석 플랫폼입니다.",
+      "key_points": [
+        "개발자의 제품 사용 여정 추적 및 분석",
+        "실제 개발자의 화면 녹화 기반 사용성 평가 제공",
+        "AI 기반 문제점 분석 및 해결책 제시"
+      ],
+      "tags": [
+        "DevTool",
+        "개발자 분석",
+        "사용성 평가",
+        "AI 분석",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자가 제품을 사용하는 과정에서 발생하는 문제점을 정확히 파악하고 개선하여, 제품의 완성도를 높이고 개발자 경험을 향상시킬 수 있습니다.",
+      "recommended_actions": [
+        "Time-to-value 추적 기능 사용",
+        "실제 개발자 사용성 평가 확인",
+        "AI 기반 문제점 분석 결과 검토"
+      ],
+      "risks_and_limits": [
+        "평가에 참여하는 개발자 풀의 대표성 확인 필요",
+        "AI 분석 결과의 정확도 검증 필요"
+      ],
+      "uncertainty_note": "제공되는 개발자 풀의 규모와 특성에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Built_for_Devs.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Built_for_Devs_media_0.jpg",
+        "images/ph_2026-03-20_Built_for_Devs_media_1.jpg",
+        "images/ph_2026-03-20_Built_for_Devs_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/9472871a-af76-4b20-926c-5132e2429e0c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Visdiff",
+      "url": "https://www.producthunt.com/products/visdiff",
+      "service_url": "https://www.producthunt.com/r/KYNWONU2U77LHI",
+      "website": "https://www.producthunt.com/r/KYNWONU2U77LHI",
+      "votes": 129,
+      "tagline": "Stop bridging the design-to-code gap, close it",
+      "summary": "Visdiff는 Figma 디자인을 기반으로 AI 에이전트가 코드를 생성, 검증 및 수정하여 디자인과 100% 일치하는 프론트엔드를 구현, 디자인-코드 간극을 완전히 해소합니다.",
+      "key_points": [
+        "Figma 디자인을 기반으로 코드를 자동 생성 및 수정",
+        "시각적 회귀 테스트를 통해 디자인과 코드의 불일치 해결",
+        "디자인 시안과 동일한 결과물을 보장하여 개발 시간 단축"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Figma",
+        "프론트엔드",
+        "자동화",
+        "Agent",
+        "AI Tool",
+        "Design"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "더 이상 '거의 비슷함'에 만족하지 않고, 디자인한 그대로 배포할 수 있어 프론트엔드 개발의 효율성을 극대화합니다.",
+      "recommended_actions": [
+        "Figma 링크를 Visdiff에 붙여넣어 코드 생성 시작",
+        "생성된 코드를 디자인과 비교하여 수정 사항 확인",
+        "자동 수정 기능을 활용하여 디자인과 코드 일치율 향상"
+      ],
+      "risks_and_limits": [
+        "AI 기반 코드 생성의 정확도에 대한 검증 필요",
+        "복잡한 디자인 요소에 대한 완벽한 지원 여부 확인 필요"
+      ],
+      "uncertainty_note": "Visdiff가 지원하는 Figma 디자인 요소의 범위와 코드 생성 정확도에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_Visdiff.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_Visdiff_media_1.jpg",
+        "images/ph_2026-03-20_Visdiff_media_2.jpg",
+        "images/ph_2026-03-20_Visdiff_media_3.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/9d9d2909-c270-418c-9aca-d2b35f70f47f.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "AI Skills Manager",
+      "url": "https://www.producthunt.com/products/ai-skills-manager",
+      "service_url": "https://www.producthunt.com/r/JSNDHXV426WB3Y",
+      "website": "https://www.producthunt.com/r/JSNDHXV426WB3Y",
+      "votes": 121,
+      "tagline": "One place for all your AI skills",
+      "summary": "AI Skills Manager는 여러 코딩 에이전트의 AI 스킬을 한 곳에서 관리, 설치, 활성화 및 공유할 수 있는 데스크톱 앱입니다.",
+      "key_points": [
+        "모든 주요 코딩 에이전트 지원",
+        "AI 에이전트 스킬 통합 관리",
+        "간편한 설치 및 활성화"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Automation",
+        "스킬 관리",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "다양한 AI 에이전트의 스킬을 효율적으로 관리하여 코딩 생산성을 높이고, 여러 플랫폼을 오갈 필요 없이 한 곳에서 모든 것을 처리할 수 있습니다.",
+      "recommended_actions": [
+        "관심 있는 AI 에이전트 스킬 검색",
+        "새로운 스킬 설치 및 활성화",
+        "다른 사용자와 스킬 공유"
+      ],
+      "risks_and_limits": [
+        "지원하는 코딩 에이전트 목록 확인 필요",
+        "설치하려는 스킬의 안정성 및 보안 검토 필요"
+      ],
+      "uncertainty_note": "구체적으로 어떤 코딩 에이전트들을 지원하는지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-20_AI_Skills_Manager.jpg",
+      "local_media": [
+        "images/ph_2026-03-20_AI_Skills_Manager_media_1.jpg",
+        "images/ph_2026-03-20_AI_Skills_Manager_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/bb5693a7-97b8-42f2-94dd-a416f9dd5f5d.jpeg?auto=format"
       ]
     }
   ]
