@@ -1,371 +1,383 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-03-20",
-  "generated_at": "2026-03-20T04:02:27.845057+09:00",
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23T04:02:27.995701+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild\n📝 요약: MetaClaw는 LLM 에이전트의 지속적인 학습 및 진화를 위한 프레임워크로, 새로운 스킬 합성 및 정책 최적화를 통해 사용자 요구 변화에 즉각적으로 대응하고 성능을 향상시킵니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.17187\n📄 arXiv: https://arxiv.org/abs/2603.17187\n\n📍 2. Video-CoE: Reinforcing Video Event Prediction via Chain of Events\n📝 요약: 비디오 이벤트 예측(VEP)에서 MLLM의 성능 향상을 위해 Chain of Events (CoE) 패러다임을 제안, 기존 MLLM의 한계를 극복하고 새로운 SOTA를 달성함. 특히, 시간적 이벤트 체인을 구성하여 시각 정보 활용과 논리적 연결을 강화하는 것이 핵심.\n🔗 Hugging Face: https://huggingface.co/papers/2603.14935\n📄 arXiv: https://arxiv.org/abs/2603.14935\n\n📍 3. MosaicMem: Hybrid Spatial Memory for Controllable Video World Models\n📝 요약: MosaicMem은 비디오 월드 모델에서 카메라 움직임, 재방문, 개입 하에서도 일관성을 유지하기 위한 하이브리드 공간 메모리 구조로, 명시적 3D 구조와 암묵적 메모리의 단점을 보완하여 더 나은 포즈 일관성과 동적 모델링을 제공합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.17117\n📄 arXiv: https://arxiv.org/abs/2603.17117\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding\n📝 요약: 비디오 생성 모델이 내재적으로 학습한 3D 공간 정보를 활용하여 MLLM의 공간 이해 능력을 향상시키는 VEGA-3D 프레임워크를 제안, 별도의 3D 데이터 없이도 3D scene understanding, spatial reasoning, embodied manipulation 성능을 향상.\n🔗 Hugging Face: https://huggingface.co/papers/2603.19235\n📄 arXiv: https://arxiv.org/abs/2603.19235\n\n📍 2. SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing\n📝 요약: SAMA 프레임워크는 별도의 외부 정보 없이도 비디오 편집 시 의미적 정확성과 움직임 보존을 동시에 달성하여 모델의 견고성과 일반화 능력을 향상시킴.\n🔗 Hugging Face: https://huggingface.co/papers/2603.19228\n📄 arXiv: https://arxiv.org/abs/2603.19228\n\n📍 3. 3DreamBooth: High-Fidelity 3D Subject-Driven Video Generation Model\n📝 요약: 단일 이미지로 3D 객체의 일관적인 비디오 생성을 가능하게 하여 VR/AR, 가상 프로덕션, e-커머스 등 다양한 분야에 즉시 적용 가능한 고품질 결과물을 제공합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.18524\n📄 arXiv: https://arxiv.org/abs/2603.18524\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "MetaClaw: Just Talk -- An Agent That Meta-Learns and Evolves in the Wild",
-      "paper_id": "2603.17187",
-      "url": "https://huggingface.co/papers/2603.17187",
-      "arxiv_url": "https://arxiv.org/abs/2603.17187",
-      "upvotes": 83,
-      "summary": "MetaClaw는 LLM 에이전트의 지속적인 학습 및 진화를 위한 프레임워크로, 새로운 스킬 합성 및 정책 최적화를 통해 사용자 요구 변화에 즉각적으로 대응하고 성능을 향상시킵니다.",
-      "korean_abstract": "LLM 에이전트는 복잡한 작업에 활용되지만, 사용자 요구 변화에 따라 적응하지 못하는 문제가 있습니다. 기존 방법들은 지식 증류 없이 raw trajectory를 저장하거나, 정적인 스킬 라이브러리를 유지하거나, 재학습을 위해 서비스 중단이 필요했습니다. MetaClaw는 LLM 정책과 재사용 가능한 스킬 라이브러리를 지속적으로 진화시키는 continual meta-learning 프레임워크를 제안합니다. 실패 trajectory 분석을 통해 새로운 스킬을 합성하고, 사용자 비활성 시간에는 클라우드 LoRA fine-tuning 및 RL-PRM을 통해 정책을 최적화합니다. MetaClaw-Bench 및 AutoResearchClaw 실험 결과, 스킬 기반 적응은 정확도를 최대 32% 향상시키고, Kimi-K2.5 정확도를 21.4%에서 40.6%로 향상시켰으며, 복합 견고성을 18.3% 증가시켰습니다.",
+      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+      "paper_id": "2603.19235",
+      "url": "https://huggingface.co/papers/2603.19235",
+      "arxiv_url": "https://arxiv.org/abs/2603.19235",
+      "upvotes": 84,
+      "summary": "비디오 생성 모델이 내재적으로 학습한 3D 공간 정보를 활용하여 MLLM의 공간 이해 능력을 향상시키는 VEGA-3D 프레임워크를 제안, 별도의 3D 데이터 없이도 3D scene understanding, spatial reasoning, embodied manipulation 성능을 향상.",
+      "korean_abstract": "Multimodal Large Language Models (MLLM)은 뛰어난 의미론적 이해 능력을 보이지만, 정교한 기하학적 추론 및 물리적 역학 관계 이해에 어려움을 겪습니다. 기존 솔루션들은 명시적인 3D modality에 의존하거나 복잡한 geometric scaffolding을 사용하지만, 데이터 부족 및 일반화 문제에 직면합니다. 본 연구에서는 대규모 비디오 생성 모델 내에 내재된 공간 정보를 활용하여 이러한 문제를 해결하고자 합니다. VEGA-3D는 사전 학습된 비디오 diffusion 모델을 Latent World Simulator로 재활용하는 플러그 앤 플레이 프레임워크입니다. Spatiotemporal feature를 추출하고 token-level adaptive gated fusion mechanism을 통해 semantic representation과 통합함으로써, 명시적인 3D supervision 없이 MLLM에 dense geometric cue를 제공합니다. 다양한 실험을 통해 VEGA-3D가 SOTA 모델을 능가함을 입증했습니다.",
       "key_points": [
-        "LLM 에이전트의 지속적인 학습 및 진화를 위한 continual meta-learning 프레임워크 제시",
-        "스킬 기반 적응(skill-driven fast adaptation) 및 opportunistic policy optimization을 통한 성능 향상",
-        "실패 trajectory 분석을 통한 새로운 스킬 합성 및 사용자 비활성 시간 활용"
-      ],
-      "tags": [
-        "Agent",
-        "Meta-learning",
-        "Continual Learning",
-        "LLM",
-        "Distillation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "MetaClaw는 LLM 에이전트의 지속적인 개선 및 적응을 가능하게 하여, 개발자는 사용자 요구 변화에 유연하게 대응하고 에이전트의 성능을 유지/향상시킬 수 있습니다.",
-      "recommended_actions": [
-        "MetaClaw 프레임워크를 기반으로 자체 LLM 에이전트의 지속적인 학습 및 진화 전략 구축",
-        "실패 trajectory 분석을 통한 스킬 합성 및 정책 최적화 메커니즘 구현",
-        "사용자 비활성 시간을 활용한 opportunistic learning 전략 적용"
-      ],
-      "risks_and_limits": [
-        "데이터 오염 가능성 및 버전 관리의 복잡성",
-        "클라우드 LoRA fine-tuning 및 RL-PRM의 비용 및 리소스 요구 사항"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17187.png",
-      "local_image_path": "images/MetaClaw_Just_Talk_--_An_Agent_That_Meta-Learns_and_Evolves_in_the_Wild_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 2,
-      "title": "Video-CoE: Reinforcing Video Event Prediction via Chain of Events",
-      "paper_id": "2603.14935",
-      "url": "https://huggingface.co/papers/2603.14935",
-      "arxiv_url": "https://arxiv.org/abs/2603.14935",
-      "upvotes": 80,
-      "summary": "비디오 이벤트 예측(VEP)에서 MLLM의 성능 향상을 위해 Chain of Events (CoE) 패러다임을 제안, 기존 MLLM의 한계를 극복하고 새로운 SOTA를 달성함. 특히, 시간적 이벤트 체인을 구성하여 시각 정보 활용과 논리적 연결을 강화하는 것이 핵심.",
-      "korean_abstract": "최근 MLLM이 다양한 비디오 task에 적용되고 있지만, 비디오 이벤트 예측(VEP)은 상대적으로 연구가 미흡하다. VEP는 비디오의 시간적 모델링과 미래 이벤트 간의 논리적 관계 파악을 요구하지만, 기존 MLLM은 어려움을 겪는다. 본 연구에서는 기존 MLLM의 VEP task 성능을 평가하고, 논리적 추론 능력 부족과 시각 정보 활용 미흡이 원인임을 밝힌다. 이를 해결하기 위해 Chain of Events (CoE) 패러다임을 제안, 시간적 이벤트 체인을 구성하여 MLLM이 시각 정보와 논리적 연결에 집중하도록 유도한다. 실험 결과, CoE는 기존 MLLM을 능가하며 VEP task에서 새로운 SOTA를 달성했다.",
-      "key_points": [
-        "MLLM 기반 비디오 이벤트 예측(VEP)의 한계점 분석",
-        "Chain of Events (CoE) 패러다임 제안: 시간적 이벤트 체인을 활용한 시각 정보 및 논리적 연결 강화",
-        "VEP task에서 SOTA 달성"
-      ],
-      "tags": [
-        "Video",
-        "MLLM",
-        "Event Prediction",
-        "Temporal Modeling",
-        "Reasoning",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "비디오 이해 및 예측 관련 서비스를 개발할 때, MLLM의 성능을 CoE 패러다임을 통해 개선하여 더욱 정확하고 신뢰성 높은 예측 시스템을 구축할 수 있다. 특히, 시간적 맥락이 중요한 비디오 분석에 유용하다.",
-      "recommended_actions": [
-        "CoE 패러다임을 적용하여 자사 MLLM 기반 비디오 분석 시스템의 VEP 성능 개선 실험",
-        "CoE 기반 모델을 활용하여 특정 비디오 데이터셋에 대한 이벤트 예측 성능 비교 분석",
-        "CoE의 다양한 학습 프로토콜을 적용하여 최적의 성능을 보이는 조합 탐색"
-      ],
-      "risks_and_limits": [
-        "CoE 패러다임의 효과는 특정 비디오 데이터셋 또는 task에 따라 달라질 수 있음",
-        "시간적 이벤트 체인 구축 과정에서 추가적인 리소스 및 복잡성이 발생할 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.14935.png",
-      "local_image_path": "images/Video-CoE_Reinforcing_Video_Event_Prediction_via_Chain_of_Events_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 3,
-      "title": "MosaicMem: Hybrid Spatial Memory for Controllable Video World Models",
-      "paper_id": "2603.17117",
-      "url": "https://huggingface.co/papers/2603.17117",
-      "arxiv_url": "https://arxiv.org/abs/2603.17117",
-      "upvotes": 63,
-      "summary": "MosaicMem은 비디오 월드 모델에서 카메라 움직임, 재방문, 개입 하에서도 일관성을 유지하기 위한 하이브리드 공간 메모리 구조로, 명시적 3D 구조와 암묵적 메모리의 단점을 보완하여 더 나은 포즈 일관성과 동적 모델링을 제공합니다.",
-      "korean_abstract": "비디오 확산 모델은 짧은 클립을 넘어 카메라 움직임, 재방문, 개입 하에서도 일관성을 유지해야 하는 월드 시뮬레이터로 발전하고 있습니다. 하지만 공간 메모리는 여전히 병목 현상인데, 명시적 3D 구조는 재투영 기반 일관성을 개선하지만 움직이는 객체를 묘사하기 어렵고, 암묵적 메모리는 정확한 포즈에도 불구하고 부정확한 카메라 움직임을 생성합니다. 본 논문에서는 패치를 3D로 리프팅하여 안정적인 위치 파악 및 타겟 검색을 가능하게 하고, 모델의 고유한 컨디셔닝을 활용하여 프롬프트에 따른 생성을 유지하는 하이브리드 공간 메모리인 Mosaic Memory (MosaicMem)을 제안합니다. MosaicMem은 패치-앤-컴포즈 인터페이스를 통해 쿼리된 뷰에서 공간적으로 정렬된 패치를 구성하여 유지되어야 할 것은 유지하고, 진화해야 할 것은 모델이 인페인팅하도록 합니다. PRoPE 카메라 컨디셔닝과 두 가지 새로운 메모리 정렬 방법을 통해 암묵적 메모리에 비해 향상된 포즈 일관성을, 명시적 베이스라인에 비해 더 강력한 동적 모델링을 보여줍니다. MosaicMem은 또한 분 단위 탐색, 메모리 기반 장면 편집 및 자기 회귀 롤아웃을 가능하게 합니다.",
-      "key_points": [
-        "패치를 3D 공간으로 리프팅하여 위치 파악 및 검색 정확도 향상",
-        "모델의 컨디셔닝을 활용하여 프롬프트에 따른 생성 유지",
-        "패치-앤-컴포즈 인터페이스를 통해 일관성 유지 및 동적 변화 모델링"
+        "비디오 생성 모델의 implicit spatial prior 활용",
+        "VEGA-3D 프레임워크를 통한 MLLM의 공간 이해 능력 향상",
+        "명시적인 3D supervision 없이 SOTA 성능 달성"
       ],
       "tags": [
         "Vision",
-        "Video Generation",
+        "MLLM",
         "3D",
-        "Memory",
-        "RAG",
-        "Video",
-        "Evaluation",
-        "Safety"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "비디오 생성 모델의 일관성 및 제어 가능성을 높여, 보다 현실적이고 사용자 의도에 부합하는 비디오 콘텐츠 제작에 기여할 수 있습니다. 특히, 에이전트의 시뮬레이션 환경 구축에 유용하게 사용될 수 있습니다.",
-      "recommended_actions": [
-        "MosaicMem의 패치-앤-컴포즈 인터페이스를 활용하여 특정 객체의 지속성을 유지하면서 배경을 변경하는 실험 진행",
-        "PRoPE 카메라 컨디셔닝을 다른 비디오 생성 모델에 적용하여 포즈 일관성 개선 효과 확인",
-        "MosaicMem을 활용한 메모리 기반 장면 편집 기능을 구현하여 사용자 인터랙티브 비디오 편집 시스템 구축"
-      ],
-      "risks_and_limits": [
-        "3D 공간으로의 패치 리프팅 과정에서 발생하는 계산 비용 증가",
-        "새로운 메모리 정렬 방법의 일반화 성능 및 다양한 데이터셋에 대한 적용 가능성 검증 필요"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17117.png",
-      "local_image_path": "images/MosaicMem_Hybrid_Spatial_Memory_for_Controllable_Video_World_Models_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 4,
-      "title": "Alignment Makes Language Models Normative, Not Descriptive",
-      "paper_id": "2603.17218",
-      "url": "https://huggingface.co/papers/2603.17218",
-      "arxiv_url": "https://arxiv.org/abs/2603.17218",
-      "upvotes": 32,
-      "summary": "언어 모델의 정렬(Alignment)은 인간 행동 예측보다는 규범적 행동 예측에 더 적합하며, 다중 라운드 전략 게임에서는 정렬되지 않은 모델이 인간 행동 예측에 더 우수함.",
-      "korean_abstract": "언어 모델의 정렬은 인간 선호도에 맞추도록 최적화되지만, 실제 인간 행동을 모델링하는 것과는 다릅니다. 본 연구에서는 120쌍의 정렬된 모델과 기본 모델을 사용하여 다중 라운드 전략 게임(협상, 설득, 반복 매트릭스 게임)에서 1만 건 이상의 실제 인간 결정을 비교했습니다. 그 결과, 기본 모델이 정렬된 모델보다 인간 선택 예측에서 10배 더 뛰어났습니다. 하지만, 인간 행동이 규범적 예측을 따를 가능성이 높은 경우(단일 텍스트북 게임, 비전략적 복권 선택)에는 정렬된 모델이 더 우수한 성능을 보였습니다. 이는 정렬이 규범적 편향을 유도하여 인간 행동이 규범적 해법으로 잘 포착될 때 예측을 개선하지만, 상호주의, 보복, 이력 의존적 적응과 같은 기술적 역학에 의해 형성되는 다중 라운드 전략 환경에서는 예측을 저해한다는 것을 시사합니다. 따라서 모델을 인간 사용에 최적화하는 것과 인간 행동의 대리 변수로 사용하는 것 사이에는 근본적인 trade-off가 존재합니다.",
-      "key_points": [
-        "정렬된 언어 모델은 다중 라운드 전략 게임에서 인간 행동 예측 성능이 저하됨",
-        "정렬은 규범적 행동 예측에는 효과적이지만, 실제 인간 행동 예측에는 한계가 있음",
-        "인간 행동 모델링 시 정렬 여부에 따른 trade-off 고려 필요"
-      ],
-      "tags": [
-        "Agent",
-        "Alignment",
-        "Behavioral Modeling",
-        "Safety"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "LLM 기반 에이전트를 개발할 때, 에이전트의 목표가 인간의 실제 행동을 모방하는 것인지, 아니면 규범적인 의사 결정을 따르도록 하는 것인지에 따라 모델 정렬 전략을 신중하게 선택해야 합니다.",
-      "recommended_actions": [
-        "다양한 전략 게임 환경에서 정렬된 모델과 기본 모델의 성능 비교",
-        "모델 정렬 방식이 에이전트의 행동에 미치는 영향 분석",
-        "인간 행동 예측 성능 향상을 위한 정렬 방식 개선 연구"
-      ],
-      "risks_and_limits": [
-        "특정 게임 환경에 편향된 결과일 수 있음",
-        "인간 행동의 복잡성을 완벽하게 반영하지 못함"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17218.png",
-      "local_image_path": "images/Alignment_Makes_Language_Models_Normative,_Not_Descriptive_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 5,
-      "title": "Complementary Reinforcement Learning",
-      "paper_id": "2603.17621",
-      "url": "https://huggingface.co/papers/2603.17621",
-      "arxiv_url": "https://arxiv.org/abs/2603.17621",
-      "upvotes": 27,
-      "summary": "Complementary RL은 경험 추출기와 정책 액터를 RL 최적화 루프 내에서 함께 발전시켜 샘플 효율성을 향상시키는 새로운 강화 학습 패러다임입니다.",
-      "korean_abstract": "LLM 기반 에이전트 훈련에 강화 학습이 사용되지만, 낮은 샘플 효율성이 문제입니다. 기존 경험 활용 방식은 정적이거나 액터와 함께 발전하지 못해 성능 저하를 야기합니다. Complementary RL은 신경과학의 상보적 학습 시스템에서 영감을 받아 경험 추출기와 액터를 동시에 최적화합니다. 액터는 희소한 보상으로, 경험 추출기는 액터의 성공에 기여하는 정도에 따라 최적화됩니다. 실험 결과, Complementary RL은 기존 방식보다 성능이 향상되었으며, 멀티태스크 환경에서도 확장성이 뛰어남을 입증했습니다.",
-      "key_points": [
-        "경험 추출기와 정책 액터의 동시 최적화",
-        "희소 보상 기반 액터 학습 및 경험 기여도 기반 경험 추출기 학습",
-        "단일 및 멀티태스크 환경에서 기존 RL 방식 대비 성능 향상"
-      ],
-      "tags": [
-        "Reinforcement Learning",
-        "Agent",
-        "LLM",
-        "RAG",
-        "Distillation",
-        "Safety"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "에이전트의 샘플 효율성을 높여 학습 속도를 개선하고, 다양한 환경에 더 잘 적응할 수 있도록 돕습니다. 특히, 제한된 데이터로 학습해야 하는 경우에 유용합니다.",
-      "recommended_actions": [
-        "Complementary RL을 기존 에이전트 학습 파이프라인에 통합",
-        "경험 추출기의 구조와 학습 방식을 다양하게 실험",
-        "멀티태스크 환경에서 Complementary RL의 확장성 검증"
-      ],
-      "risks_and_limits": [
-        "경험 추출기의 설계 및 학습이 복잡할 수 있음",
-        "특정 환경에서는 기존 RL 방식보다 성능이 낮을 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17621.png",
-      "local_image_path": "images/Complementary_Reinforcement_Learning_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 6,
-      "title": "When AI Navigates the Fog of War",
-      "paper_id": "2603.16642",
-      "url": "https://huggingface.co/papers/2603.16642",
-      "arxiv_url": "https://arxiv.org/abs/2603.16642",
-      "upvotes": 19,
-      "summary": "LLM이 실제 전쟁 상황을 분석하고 예측하는 능력을 평가하고, 그 한계와 가능성을 제시하여, 향후 AI 기반 의사결정 시스템 개발에 중요한 시사점을 제공한다.",
-      "korean_abstract": "기존 LLM은 학습 데이터의 누출 문제로 인해 실제 전쟁 상황 예측 능력 평가가 어려웠다. 본 연구는 2026년 중동 분쟁이라는 실제 진행 중인 사건을 대상으로, 시간적 제약을 두어 학습 데이터 누출 문제를 완화하고 LLM의 추론 능력을 분석했다. LLM은 경제, 물류 분야에서 전략적 현실주의를 보였지만, 정치적으로 모호한 환경에서는 신뢰도가 떨어졌다. 모델의 예측은 시간이 지남에 따라 변화하며, 초기에는 빠른 해결을 예상했지만 점차 장기적인 대치 상황을 예측했다. 이 연구는 진행 중인 위기 상황에서 LLM의 추론 과정을 기록하여 향후 연구에 중요한 자료를 제공한다.",
-      "key_points": [
-        "실제 진행 중인 분쟁 상황을 이용해 LLM의 예측 능력 평가",
-        "시간적 제약을 통해 학습 데이터 누출 문제 완화",
-        "LLM의 전략적 현실주의적 추론 능력 확인 (경제/물류 분야)"
-      ],
-      "tags": [
-        "LLM",
-        "전쟁 예측",
-        "의사결정",
-        "현실주의",
-        "데이터 누출",
-        "Reasoning"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "실제 위기 상황에서 LLM의 활용 가능성과 한계를 파악하여, 의사 결정 지원 시스템 개발 시 고려해야 할 사항들을 제시한다.",
-      "recommended_actions": [
-        "특정 분야 (경제, 물류)에 대한 LLM 기반 예측 시스템 구축 및 테스트",
-        "정치적 불확실성이 높은 상황에서의 LLM 예측 성능 개선 연구",
-        "시간에 따른 LLM 예측 변화를 모니터링하고, 이에 대한 설명 가능성 확보"
-      ],
-      "risks_and_limits": [
-        "정치적 상황 예측의 낮은 신뢰도",
-        "모델의 예측이 실제 상황과 다를 수 있다는 점을 고려해야 함"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16642.png",
-      "local_image_path": "images/When_AI_Navigates_the_Fog_of_War_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "GigaWorld-Policy: An Efficient Action-Centered World--Action Model",
-      "paper_id": "2603.17240",
-      "url": "https://huggingface.co/papers/2603.17240",
-      "arxiv_url": "https://arxiv.org/abs/2603.17240",
-      "upvotes": 18,
-      "summary": "GigaWorld-Policy는 로봇 정책 학습 시 추론 속도를 9배 향상시키고, 작업 성공률을 7% 개선하여 실제 로봇 환경에서의 활용도를 높입니다.",
-      "korean_abstract": "기존 World-Action Model(WAM)은 비디오 생성 백본을 활용하지만, 과도한 추론 비용과 시각/동작 표현의 결합으로 성능 저하 및 배포의 어려움이 있었습니다. 이러한 문제를 해결하기 위해 GigaWorld-Policy는 2D 픽셀-액션 역학 학습을 통해 효율적인 액션 디코딩을 가능하게 하는 액션 중심 WAM을 제안합니다. 이 모델은 현재 관찰을 기반으로 미래 액션 시퀀스를 예측하고, 동시에 예측된 액션을 기반으로 미래 비디오를 생성합니다. 액션 예측과 비디오 생성을 통해 정책을 학습하여 풍부한 학습 신호를 제공하고, 시각 역학 제약을 통해 물리적으로 타당한 액션을 유도합니다. 실제 로봇 플랫폼에서의 실험 결과, GigaWorld-Policy는 기존 WAM 대비 9배 빠른 속도를 보였으며, 작업 성공률은 7% 향상되었습니다.",
-      "key_points": [
-        "액션 중심 WAM을 통해 추론 효율성 향상",
-        "액션 예측과 비디오 생성을 결합한 학습 방식",
-        "대규모 로봇 데이터셋을 활용한 사전 학습"
-      ],
-      "tags": [
-        "Robot",
-        "Policy Learning",
-        "Video Generation",
-        "World Model",
+        "Diffusion Model",
         "RAG",
         "Reasoning",
-        "Video",
-        "Inference"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "로봇 제어 시스템 개발 시, GigaWorld-Policy는 빠른 추론 속도와 높은 작업 성공률을 제공하여 실시간 제어 성능을 향상시킬 수 있습니다. 특히, 복잡한 환경에서의 로봇 작동에 유용합니다.",
-      "recommended_actions": [
-        "자체 로봇 데이터셋에 GigaWorld-Policy 적용 실험",
-        "기존 로봇 제어 시스템에 GigaWorld-Policy 통합 실험",
-        "GigaWorld-Policy의 액션 예측 및 비디오 생성 성능 비교 분석"
-      ],
-      "risks_and_limits": [
-        "대규모 데이터셋 구축 및 관리 필요",
-        "모델의 일반화 성능에 대한 추가 검증 필요"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17240.png",
-      "local_image_path": "images/GigaWorld-Policy_An_Efficient_Action-Centered_World--Action_Model_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "Look Before Acting: Enhancing Vision Foundation Representations for Vision-Language-Action Models",
-      "paper_id": "2603.15618",
-      "url": "https://huggingface.co/papers/2603.15618",
-      "arxiv_url": "https://arxiv.org/abs/2603.15618",
-      "upvotes": 18,
-      "summary": "VLA 모델의 성능 향상을 위해 시각 정보를 효과적으로 활용하는 DeepVision-VLA 프레임워크와 Action-Guided Visual Pruning 기법을 제안, 로봇 조작 성능을 크게 향상시킴.",
-      "korean_abstract": "Vision-Language-Action (VLA) 모델은 로봇 조작 분야에서 주목받고 있지만, 시각 정보를 언어와 행동 생성에 효과적으로 통합하는 데 어려움이 있습니다. 기존 연구들은 LLM 백본을 블랙박스로 취급하여 시각 정보가 어떻게 활용되는지에 대한 통찰력이 부족했습니다. 본 연구에서는 VLA 모델의 시각 토큰 민감도가 깊은 레이어에서 감소하는 현상을 발견하고, 이를 해결하기 위해 Vision-Language Mixture-of-Transformers (VL-MoT) 기반의 DeepVision-VLA 프레임워크를 제안합니다. DeepVision-VLA는 시각 파운데이션 모델과 VLA 백본 간의 attention을 공유하여 시각 정보를 깊은 레이어에 주입하고, Action-Guided Visual Pruning (AGVP)을 통해 불필요한 시각 토큰을 제거합니다. 실험 결과, DeepVision-VLA는 시뮬레이션 및 실제 환경에서 기존 SOTA 모델 대비 각각 9.0% 및 7.5% 향상된 성능을 보여줍니다.",
-      "key_points": [
-        "VLA 모델의 시각 정보 활용도 분석 및 문제점 발견",
-        "VL-MoT 기반 DeepVision-VLA 프레임워크 제안",
-        "Action-Guided Visual Pruning (AGVP) 기법을 통한 효율성 향상"
-      ],
-      "tags": [
-        "VLA",
-        "Robotics",
-        "Vision-Language",
-        "Manipulation",
-        "RAG",
-        "Vision"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "로봇 제어, 자율 주행 등 시각 정보를 활용하는 다양한 task에서 VLA 모델의 성능을 개선하는 데 활용될 수 있으며, 특히 복잡한 환경에서의 조작 능력 향상에 기여할 수 있습니다.",
-      "recommended_actions": [
-        "DeepVision-VLA 프레임워크를 기반으로 자체 VLA 모델 구축",
-        "AGVP 기법을 적용하여 기존 모델의 효율성 개선",
-        "다양한 로봇 조작 task에 DeepVision-VLA 적용 및 성능 평가"
-      ],
-      "risks_and_limits": [
-        "VL-MoT 구조의 복잡성으로 인한 학습 및 추론 비용 증가 가능성",
-        "AGVP의 pruning 전략이 특정 task에 편향될 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.15618.png",
-      "local_image_path": "images/Look_Before_Acting_Enhancing_Vision_Foundation_Representations_for_Vision-Language-Action_Models_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 9,
-      "title": "Temporal Gains, Spatial Costs: Revisiting Video Fine-Tuning in Multimodal Large Language Models",
-      "paper_id": "2603.17541",
-      "url": "https://huggingface.co/papers/2603.17541",
-      "arxiv_url": "https://arxiv.org/abs/2603.17541",
-      "upvotes": 16,
-      "summary": "비디오 데이터로 MLLM을 fine-tuning할 때 이미지 성능 저하가 발생할 수 있으며, 프레임 수를 조절하는 방법으로 이를 완화할 수 있다.",
-      "korean_abstract": "Multimodal Large Language Models (MLLM)은 비디오 이해 능력을 향상시키기 위해 비디오 데이터로 fine-tuning하는 단계를 거친다. 하지만 이 과정이 이미지와 비디오 이해 능력 간의 균형에 미치는 영향은 명확히 밝혀지지 않았다. 본 연구에서는 다양한 아키텍처, 파라미터 크기, 프레임 샘플링 설정을 통해 비디오 fine-tuning이 MLLM의 시각적 능력에 미치는 영향을 분석했다. 실험 결과, 비디오 성능은 향상되지만 이미지 성능은 저하되는 경향을 발견했으며, 이는 프레임 수와 밀접하게 관련되어 있었다. 이러한 결과를 바탕으로 프레임 수를 적절히 조절하는 Hybrid-Frame 전략을 제안하여 이미지-비디오 성능 간의 trade-off를 완화했다. 따라서 비디오 fine-tuning은 이미지 이해 능력 저하를 야기할 수 있으며, 이미지-비디오 joint training에서 공간적 이해 능력을 유지하는 것이 중요한 과제임을 시사한다.",
-      "key_points": [
-        "비디오 fine-tuning이 이미지 성능 저하를 유발할 수 있음을 실증적으로 분석",
-        "프레임 수가 이미지-비디오 성능 trade-off에 미치는 영향 분석",
-        "프레임 수를 조절하는 Hybrid-Frame 전략을 통해 성능 저하 완화"
-      ],
-      "tags": [
-        "MLLM",
-        "Fine-tuning",
-        "Video",
-        "Image",
         "Multimodal",
-        "Vision",
+        "Video",
         "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "MLLM을 개발할 때 비디오 데이터를 활용한 fine-tuning이 이미지 성능에 미치는 영향을 고려해야 하며, 프레임 수 조절을 통해 성능 균형을 맞출 수 있다.",
+      "practical_relevance": "기존 MLLM의 공간 이해 능력 부족 문제를 해결하고, 별도의 3D 데이터 구축 없이도 3D 관련 task 성능을 향상시킬 수 있어 로봇, AR/VR 등 다양한 분야에 적용 가능성이 높습니다.",
       "recommended_actions": [
-        "비디오 fine-tuning 시 이미지 데이터셋으로 성능 변화 측정",
-        "다양한 프레임 수 설정을 통해 최적의 프레임 수 탐색",
-        "Hybrid-Frame 전략을 적용하여 이미지-비디오 성능 균형 개선"
+        "VEGA-3D github 코드 분석 및 적용",
+        "자체 데이터셋에 VEGA-3D 적용 실험",
+        "VEGA-3D를 활용한 새로운 task 정의 및 성능 평가"
       ],
       "risks_and_limits": [
-        "Hybrid-Frame 전략이 모든 MLLM 아키텍처에 효과적이지 않을 수 있음",
-        "실험 환경과 실제 사용 환경 간의 차이로 인해 결과가 달라질 수 있음"
+        "비디오 생성 모델의 성능에 VEGA-3D 성능이 의존적",
+        "특정 비디오 생성 모델에 최적화되어 있을 가능성"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.17541.png",
-      "local_image_path": "images/Temporal_Gains,_Spatial_Costs_Revisiting_Video_Fine-Tuning_in_Multimodal_Large_Language_Models_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19235.png",
+      "local_image_path": "images/Generation_Models_Know_Space_Unleashing_Implicit_3D_Priors_for_Scene_Understanding_img.jpg",
+      "local_figures": [
+        "images/Generation_Models_Know_Space_Unleashing_Implicit_3_fig_1.png",
+        "images/Generation_Models_Know_Space_Unleashing_Implicit_3_fig_2.png"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing",
+      "paper_id": "2603.19228",
+      "url": "https://huggingface.co/papers/2603.19228",
+      "arxiv_url": "https://arxiv.org/abs/2603.19228",
+      "upvotes": 61,
+      "summary": "SAMA 프레임워크는 별도의 외부 정보 없이도 비디오 편집 시 의미적 정확성과 움직임 보존을 동시에 달성하여 모델의 견고성과 일반화 능력을 향상시킴.",
+      "korean_abstract": "기존의 instruction-guided 비디오 편집 모델은 의미적 수정의 정확성과 움직임 보존의 충실성 사이의 균형을 맞추는 데 어려움을 겪습니다. 이러한 문제를 해결하기 위해 외부 정보를 주입하는 방식은 모델의 견고성과 일반화에 제약이 됩니다. SAMA 프레임워크는 비디오 편집을 의미적 고정(Semantic Anchoring)과 움직임 모델링으로 분리합니다. Semantic Anchoring은 희소한 앵커 프레임에서 의미적 토큰과 비디오 잠재 변수를 공동으로 예측하여 안정적인 시각적 앵커를 설정합니다. Motion Alignment는 motion-centric 비디오 복원 pretext task를 통해 모델이 raw 비디오에서 직접 시간적 역학을 내재화하도록 합니다. SAMA는 factorized pre-training과 supervised fine-tuning의 2단계 파이프라인으로 최적화되며, factorized pre-training만으로도 강력한 zero-shot 비디오 편집 능력을 보여줍니다.",
+      "key_points": [
+        "비디오 편집을 의미적 고정(Semantic Anchoring)과 움직임 모델링으로 분리",
+        "외부 정보 없이도 의미적 정확성과 움직임 보존을 동시에 달성",
+        "Factorized pre-training을 통해 zero-shot 비디오 편집 능력 확보"
+      ],
+      "tags": [
+        "Video Editing",
+        "Instruction-Guided",
+        "Semantic Anchoring",
+        "Motion Alignment",
+        "Pre-training",
+        "Video",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "instruction-guided 비디오 편집 모델 개발 시 외부 정보 의존성을 줄이고, 모델의 견고성과 일반화 능력을 향상시키는 데 활용 가능합니다.",
+      "recommended_actions": [
+        "SAMA 프레임워크를 기반으로 새로운 비디오 편집 모델 개발",
+        "Motion Alignment를 위한 다양한 pretext task 연구",
+        "Factorized pre-training의 효과 분석 및 개선"
+      ],
+      "risks_and_limits": [
+        "Factorized pre-training에 필요한 계산 자원",
+        "특정 유형의 비디오에 대한 일반화 성능"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19228.png",
+      "local_image_path": "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alignment_for_Instruction-Guided_Video_Editing_img.jpg",
+      "local_figures": [
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_1.png",
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_2.jpeg",
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_3.png"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "3DreamBooth: High-Fidelity 3D Subject-Driven Video Generation Model",
+      "paper_id": "2603.18524",
+      "url": "https://huggingface.co/papers/2603.18524",
+      "arxiv_url": "https://arxiv.org/abs/2603.18524",
+      "upvotes": 49,
+      "summary": "단일 이미지로 3D 객체의 일관적인 비디오 생성을 가능하게 하여 VR/AR, 가상 프로덕션, e-커머스 등 다양한 분야에 즉시 적용 가능한 고품질 결과물을 제공합니다.",
+      "korean_abstract": "실제 객체를 기반으로 역동적이고 일관된 뷰를 가진 비디오를 생성하는 것은 VR/AR, 가상 프로덕션 등 다양한 분야에서 중요하지만, 기존 방법들은 2D에 집중하여 3D 객체의 고유한 특성을 반영하지 못했습니다. 제한된 데이터로 fine-tuning 시 temporal overfitting 문제가 발생합니다. 본 논문에서는 1-frame 최적화 패러다임을 통해 공간 기하학과 시간적 움직임을 분리하는 3DreamBooth와 시각적 컨디셔닝 모듈인 3Dapter를 제안합니다. 3DreamBooth는 공간 표현 업데이트를 제한하여 3D prior를 효과적으로 학습하고, 3Dapter는 비대칭 컨디셔닝 전략을 통해 fine-grained 텍스처를 향상시키고 수렴 속도를 가속화합니다.",
+      "key_points": [
+        "단일 이미지 기반 3D 객체 비디오 생성",
+        "3D prior 학습을 위한 1-frame 최적화",
+        "fine-grained 텍스처 향상을 위한 3Dapter 모듈"
+      ],
+      "tags": [
+        "3D",
+        "Video Generation",
+        "VR/AR",
+        "Subject-Driven",
+        "Video"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 2D 기반 방법의 한계를 극복하고 3D 객체의 일관적인 비디오 생성을 가능하게 하여, 게임, 메타버스, 광고 등 다양한 분야에서 활용될 수 있습니다. 특히, 적은 데이터로도 고품질 결과를 얻을 수 있어 실무 적용 가능성이 높습니다.",
+      "recommended_actions": [
+        "제공된 프로젝트 페이지에서 데모 비디오 확인",
+        "3DreamBooth 및 3Dapter 코드 구현 검토",
+        "자체 데이터셋에 적용하여 결과 비교"
+      ],
+      "risks_and_limits": [
+        "복잡한 형상이나 텍스처를 가진 객체에 대한 성능 검증 필요",
+        "실시간 비디오 생성에 필요한 계산 자원 요구량 확인"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18524.png",
+      "local_image_path": "images/3DreamBooth_High-Fidelity_3D_Subject-Driven_Video_Generation_Model_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "FASTER: Rethinking Real-Time Flow VLAs",
+      "paper_id": "2603.19199",
+      "url": "https://huggingface.co/papers/2603.19199",
+      "arxiv_url": "https://arxiv.org/abs/2603.19199",
+      "upvotes": 48,
+      "summary": "FASTER는 Vision-Language-Action 모델의 실시간 반응 속도를 획기적으로 개선하여 로봇의 즉각적인 행동을 가능하게 함.",
+      "korean_abstract": "Vision-Language-Action (VLA) 모델을 실제 환경에 배포하려면 실시간 실행이 중요하지만, 기존 방법들은 반응 시간 지연을 간과했습니다. 본 논문에서는 반응 시간의 주요 요인을 분석하고, 기존 flow-based VLA의 비효율적인 상수 스케줄링이 반응 속도를 저해함을 밝힙니다. 이를 해결하기 위해 FASTER라는 새로운 방법을 제안하며, 이는 Horizon-Aware Schedule을 통해 즉각적인 행동에 필요한 denoising 단계를 획기적으로 줄입니다. 실제 로봇 환경에서 FASTER는 반응 시간을 크게 단축시키며, 특히 소비자용 GPU에서도 뛰어난 성능을 보입니다. 동적인 테이블 테니스 작업과 같은 실제 실험을 통해 FASTER의 실시간 반응성이 입증되었습니다.",
+      "key_points": [
+        "반응 시간의 주요 요인 분석 및 상수 스케줄링의 문제점 지적",
+        "Horizon-Aware Schedule을 통한 Fast Action Sampling (FASTER) 방법론 제안",
+        "실제 로봇 환경에서의 반응 시간 단축 및 성능 향상 입증"
+      ],
+      "tags": [
+        "Agent",
+        "Robotics",
+        "Real-time",
+        "VLA",
+        "Vision",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 제어, 자율 주행 등 실시간성이 중요한 VLA 모델 개발 시, FASTER를 통해 반응 속도를 개선하고 보다 즉각적인 상호작용을 구현할 수 있습니다.",
+      "recommended_actions": [
+        "FASTER의 Horizon-Aware Schedule을 기존 VLA 모델에 적용해보기",
+        "실제 로봇 환경에서 FASTER의 반응 시간 개선 효과 측정해보기",
+        "소비자용 GPU 환경에서 FASTER의 성능 테스트해보기"
+      ],
+      "risks_and_limits": [
+        "특정 VLA 모델 또는 작업 환경에서 FASTER의 효과가 제한적일 수 있음",
+        "Horizon-Aware Schedule의 최적화 과정이 복잡할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19199.png",
+      "local_image_path": "images/FASTER_Rethinking_Real-Time_Flow_VLAs_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+      "paper_id": "2603.19220",
+      "url": "https://huggingface.co/papers/2603.19220",
+      "arxiv_url": "https://arxiv.org/abs/2603.19220",
+      "upvotes": 47,
+      "summary": "Nemotron-Cascade 2는 Cascade RL과 Multi-Domain On-Policy Distillation을 통해 30B MoE 모델로 최고 수준의 추론 및 에이전트 능력을 제공하며, 특히 수학 및 코딩 추론 성능이 뛰어납니다.",
+      "korean_abstract": "기존 Nemotron-Cascade 1의 한계를 극복하기 위해, Nemotron-Cascade 2는 Cascade RL을 확장하여 더 넓은 범위의 추론 및 에이전트 영역을 다룹니다. 또한, Cascade RL 과정 전반에 걸쳐 각 영역별 최강의 중간 티처 모델로부터 Multi-Domain On-Policy Distillation을 도입하여 벤치마크 성능 저하를 효율적으로 복구하고 강력한 성능 향상을 유지합니다. 이 모델은 30B MoE 모델로, 3B의 활성화된 파라미터를 가지며, 수학 및 코딩 추론 성능이 매우 뛰어납니다. 특히, IMO, IOI, ICPC World Finals에서 Gold Medal 수준의 성능을 달성하여 높은 지능 밀도를 보여줍니다. 모델 체크포인트와 훈련 데이터셋을 공개합니다.",
+      "key_points": [
+        "Cascade RL을 확장하여 추론 및 에이전트 능력을 향상",
+        "Multi-Domain On-Policy Distillation을 통해 성능 저하를 방지하고 향상",
+        "30B MoE 모델로 최고 수준의 추론 및 에이전트 능력 제공"
+      ],
+      "tags": [
+        "LLM",
+        "MoE",
+        "Reinforcement Learning",
+        "Distillation",
+        "Reasoning",
+        "Agent",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "소규모 모델로도 높은 수준의 추론 능력을 구현할 수 있는 방법을 제시하며, 특히 에이전트 개발 시 강화 학습과 지식 증류를 결합하여 효율적인 학습 전략을 구축하는 데 참고할 수 있습니다.",
+      "recommended_actions": [
+        "공개된 모델 체크포인트를 활용하여 특정 작업에 대한 성능 테스트 진행",
+        "Multi-Domain On-Policy Distillation을 자체 모델 학습에 적용하여 성능 향상 시도",
+        "Cascade RL을 활용하여 에이전트의 추론 능력 강화 실험"
+      ],
+      "risks_and_limits": [
+        "30B 모델이므로, 하드웨어 리소스 요구 사항이 높을 수 있음",
+        "특정 도메인에 최적화되어 있어, 일반적인 작업에는 성능이 떨어질 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19220.png",
+      "local_image_path": "images/Nemotron-Cascade_2_Post-Training_LLMs_with_Cascade_RL_and_Multi-Domain_On-Policy_Distillation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer",
+      "paper_id": "2603.19227",
+      "url": "https://huggingface.co/papers/2603.19227",
+      "arxiv_url": "https://arxiv.org/abs/2603.19227",
+      "upvotes": 39,
+      "summary": "Diffusion 모델 기반의 motion tokenizer를 통해 semantic 조건과 kinematic 조건을 효과적으로 결합하여 motion generation 성능을 크게 향상시켰다.",
+      "korean_abstract": "기존 motion generation 연구는 kinematic 제어에 강한 continuous diffusion 모델과 semantic 조건에 효과적인 discrete token 기반 생성 모델로 나뉘어져 있었다. 이러한 한계를 극복하기 위해, 본 논문에서는 조건 특징 추출, discrete token 생성, diffusion 기반 motion 합성을 3단계로 구성된 프레임워크를 제안한다. 핵심은 diffusion 기반 discrete motion tokenizer인 MoTok으로, motion 복원을 diffusion decoder에 위임하여 semantic 추상화와 정밀한 재구성을 분리한다. 실험 결과, HumanML3D 데이터셋에서 기존 방법 대비 token 수를 1/6로 줄이면서도 trajectory error를 0.72cm에서 0.08cm로, FID를 0.083에서 0.029로 크게 개선했다. 특히, 강한 kinematic 제약 조건 하에서 fidelity가 향상되는 결과를 보였다.",
+      "key_points": [
+        "Diffusion 기반 discrete motion tokenizer (MoTok) 제안",
+        "Semantic 추상화와 kinematic 제어를 분리하여 motion generation 성능 향상",
+        "HumanML3D 데이터셋에서 기존 방법 대비 우수한 성능 입증"
+      ],
+      "tags": [
+        "Motion Generation",
+        "Diffusion Model",
+        "Tokenization",
+        "Kinematics",
+        "Semantics"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "Motion generation 관련 task에서 semantic 조건과 kinematic 조건을 동시에 고려해야 하는 경우, MoTok을 활용하여 더 효율적이고 정확한 motion 생성이 가능하다.",
+      "recommended_actions": [
+        "MoTok을 활용하여 자체 motion generation 모델에 적용해보기",
+        "다양한 kinematic 제약 조건 하에서 MoTok의 성능 테스트해보기",
+        "MoTok의 token 생성 및 diffusion decoder 구조 분석해보기"
+      ],
+      "risks_and_limits": [
+        "MoTok의 성능이 특정 데이터셋 또는 task에 편향될 수 있음",
+        "Diffusion 모델의 특성상 inference 속도가 느릴 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19227.png",
+      "local_image_path": "images/Bridging_Semantic_and_Kinematic_Conditions_with_Diffusion-based_Discrete_Motion_Tokenizer_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "Memento-Skills: Let Agents Design Agents",
+      "paper_id": "2603.18743",
+      "url": "https://huggingface.co/papers/2603.18743",
+      "arxiv_url": "https://arxiv.org/abs/2603.18743",
+      "upvotes": 36,
+      "summary": "Memento-Skills는 LLM 기반 에이전트가 스스로 태스크별 에이전트를 설계, 적응, 개선하는 지속 학습 시스템으로, 외부 스킬 라이브러리 진화를 통해 LLM 파라미터 업데이트 없이 성능을 향상시킵니다.",
+      "korean_abstract": "기존 에이전트 설계는 사람이 직접 수행해야 했지만, Memento-Skills는 LLM 에이전트가 스스로 새로운 태스크에 맞는 에이전트를 설계하도록 합니다. 이 시스템은 메모리 기반 강화 학습 프레임워크를 사용하여 재사용 가능한 스킬(마크다운 파일 형태)을 지속적인 메모리로 활용합니다. 에이전트는 Read-Write Reflective Learning 메커니즘을 통해 스킬을 선택하고 업데이트하며, 경험을 통해 스킬 라이브러리를 확장합니다. 이러한 폐쇄 루프 설계를 통해 LLM 파라미터 업데이트 없이 외부 스킬과 프롬프트의 진화만으로 지속적인 학습이 가능합니다. General AI Assistants 벤치마크와 Humanity's Last Exam에서 각각 26.2%와 116.2%의 정확도 향상을 보였습니다.",
+      "key_points": [
+        "LLM 기반 에이전트가 스스로 태스크별 에이전트 설계",
+        "Read-Write Reflective Learning을 통한 지속적인 스킬 개선",
+        "외부 스킬 라이브러리 진화를 통한 LLM 파라미터 업데이트 최소화"
+      ],
+      "tags": [
+        "Agent",
+        "Continual Learning",
+        "Reinforcement Learning",
+        "LLM",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자는 Memento-Skills를 통해 특정 작업에 최적화된 에이전트를 자동으로 생성하고 개선하여 개발 효율성을 높일 수 있으며, LLM 파라미터 업데이트 없이 지속적인 성능 향상을 기대할 수 있습니다.",
+      "recommended_actions": [
+        "제공된 깃허브 저장소에서 Memento-Skills 코드 확인 및 실행",
+        "자체 태스크에 맞는 에이전트 설계 및 스킬 라이브러리 구축 실험",
+        "Read-Write Reflective Learning 메커니즘 적용 및 성능 변화 관찰"
+      ],
+      "risks_and_limits": [
+        "초기 스킬 설계 및 프롬프트 엔지니어링에 대한 의존성 존재",
+        "복잡한 태스크에 대한 스킬 라이브러리 확장 및 관리의 어려움"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18743.png",
+      "local_image_path": "images/Memento-Skills_Let_Agents_Design_Agents_img.jpg",
+      "local_figures": [
+        "images/Memento-Skills_Let_Agents_Design_Agents_fig_1.png"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
+      "paper_id": "2603.19231",
+      "url": "https://huggingface.co/papers/2603.19231",
+      "arxiv_url": "https://arxiv.org/abs/2603.19231",
+      "upvotes": 31,
+      "summary": "MonoArt는 단일 이미지에서 관절 객체의 3D 재구성을 위해 구조적 추론을 통해 기하학적 구조, 파트 구조, 모션 파라미터를 안정적으로 추론하는 새로운 프레임워크를 제시하며, 이는 로봇 조작 및 장면 재구성에도 적용 가능하다.",
+      "korean_abstract": "단일 이미지로부터 관절 객체의 3D 재구성은 객체 기하학, 파트 구조, 모션 파라미터 추론의 복잡성으로 인해 어렵다. 기존 방법들은 다중 뷰, 검색 기반 조립, 비디오 생성 등의 방법을 사용했지만 확장성이나 효율성 면에서 한계가 있었다. 본 논문에서는 외부 모션 템플릿이나 다단계 파이프라인 없이 시각적 관찰을 기하학적 구조, 파트 표현, 모션 인식 임베딩으로 변환하는 MonoArt 프레임워크를 제안한다. MonoArt는 구조적 추론을 통해 안정적이고 해석 가능한 관절 추론을 가능하게 한다. PartNet-Mobility 데이터셋 실험 결과, MonoArt는 재구성 정확도와 추론 속도 모두에서 SOTA 성능을 달성했으며, 로봇 조작 및 관절 장면 재구성에도 적용될 수 있음을 입증했다.",
+      "key_points": [
+        "단일 이미지에서 관절 객체의 3D 재구성을 위한 새로운 프레임워크 MonoArt 제시",
+        "구조적 추론을 통해 모션과 구조 간의 얽힘 문제를 해결하고 안정적인 관절 추론 가능",
+        "PartNet-Mobility 데이터셋에서 SOTA 성능 달성 및 로봇 조작, 장면 재구성으로 확장 가능"
+      ],
+      "tags": [
+        "3D Reconstruction",
+        "Articulation",
+        "Monocular Vision",
+        "Robotics",
+        "Computer Vision",
+        "RAG",
+        "Reasoning",
+        "Vision",
+        "Video",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "MonoArt는 로봇 공학, 게임 개발, AR/VR 등 다양한 분야에서 3D 모델링 및 객체 조작의 효율성을 향상시킬 수 있으며, 특히 단일 이미지 기반의 3D 모델 생성이 필요한 경우 유용하다.",
+      "recommended_actions": [
+        "PartNet-Mobility 데이터셋을 사용하여 MonoArt 프레임워크 재구현 및 성능 검증",
+        "자체 데이터셋에 MonoArt 적용하여 성능 및 한계점 분석",
+        "MonoArt를 활용한 로봇 조작 또는 AR/VR 애플리케이션 개발"
+      ],
+      "risks_and_limits": [
+        "복잡한 관절 구조를 가진 객체에 대한 일반화 성능 검증 필요",
+        "조명 변화, 가려짐 등 다양한 환경 조건에서의 Robustness 테스트 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19231.png",
+      "local_image_path": "images/MonoArt_Progressive_Structural_Reasoning_for_Monocular_Articulated_3D_Reconstruction_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens",
+      "paper_id": "2603.19232",
+      "url": "https://huggingface.co/papers/2603.19232",
+      "arxiv_url": "https://arxiv.org/abs/2603.19232",
+      "upvotes": 30,
+      "summary": "CubiD는 고차원 이산 토큰을 사용하는 최초의 이미지 생성 모델로, 이미지 이해와 생성 모두에 활용 가능한 잠재력을 보여 multimodal 아키텍처 연구에 기여할 수 있습니다.",
+      "korean_abstract": "최근 언어 모델과 통합된 multimodal 아키텍처를 위해 이산 토큰을 사용한 이미지 생성 연구가 활발하지만, 기존 방법들은 낮은 차원의 latent 토큰에 국한되어 의미적 풍부함이 부족했습니다. 본 논문에서는 고차원 표현을 위한 최초의 이산 생성 모델인 CubiD를 제안합니다. CubiD는 고차원 이산 표현 전체에 걸쳐 세분화된 마스킹을 수행하여, 부분적인 관찰로부터 임의의 위치에서 임의의 차원을 예측할 수 있습니다. ImageNet-256 데이터셋에서 CubiD는 최첨단 이산 생성 성능을 달성했으며, 이산화된 토큰이 원래 표현 능력을 유지함을 입증했습니다.",
+      "key_points": [
+        "고차원 이산 표현을 위한 최초의 이미지 생성 모델 CubiD 제시",
+        "고차원 표현 내의 fine-grained 마스킹 및 예측을 통해 풍부한 상관 관계 학습",
+        "ImageNet-256에서 SOTA 달성 및 고차원 이산 토큰의 표현 능력 유지 검증"
+      ],
+      "tags": [
+        "Diffusion Model",
+        "Image Generation",
+        "Discrete Representation",
+        "Multimodal",
+        "Vision"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "고차원 representation을 효과적으로 다루는 discrete diffusion 모델은 이미지 및 비디오 생성, multimodal task 등 다양한 분야에서 활용될 수 있으며, 특히 고해상도 이미지나 복잡한 장면을 다루는 데 유용합니다.",
+      "recommended_actions": [
+        "CubiD 모델 구조 및 학습 방식 상세 분석",
+        "자체 데이터셋에 CubiD 적용 및 성능 비교",
+        "CubiD를 활용한 multimodal task 실험"
+      ],
+      "risks_and_limits": [
+        "고차원 데이터에 대한 연산 비용이 높을 수 있음",
+        "모델의 복잡성으로 인해 학습 및 튜닝이 어려울 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19232.png",
+      "local_image_path": "images/Cubic_Discrete_Diffusion_Discrete_Visual_Generation_on_High-Dimensional_Representation_Tokens_img.jpg",
       "local_figures": []
     }
   ]

@@ -1,0 +1,384 @@
+{
+  "source": "huggingface_papers",
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23T04:02:27.995701+09:00",
+  "count": 9,
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding\n📝 요약: 비디오 생성 모델이 내재적으로 학습한 3D 공간 정보를 활용하여 MLLM의 공간 이해 능력을 향상시키는 VEGA-3D 프레임워크를 제안, 별도의 3D 데이터 없이도 3D scene understanding, spatial reasoning, embodied manipulation 성능을 향상.\n🔗 Hugging Face: https://huggingface.co/papers/2603.19235\n📄 arXiv: https://arxiv.org/abs/2603.19235\n\n📍 2. SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing\n📝 요약: SAMA 프레임워크는 별도의 외부 정보 없이도 비디오 편집 시 의미적 정확성과 움직임 보존을 동시에 달성하여 모델의 견고성과 일반화 능력을 향상시킴.\n🔗 Hugging Face: https://huggingface.co/papers/2603.19228\n📄 arXiv: https://arxiv.org/abs/2603.19228\n\n📍 3. 3DreamBooth: High-Fidelity 3D Subject-Driven Video Generation Model\n📝 요약: 단일 이미지로 3D 객체의 일관적인 비디오 생성을 가능하게 하여 VR/AR, 가상 프로덕션, e-커머스 등 다양한 분야에 즉시 적용 가능한 고품질 결과물을 제공합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.18524\n📄 arXiv: https://arxiv.org/abs/2603.18524\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding",
+      "paper_id": "2603.19235",
+      "url": "https://huggingface.co/papers/2603.19235",
+      "arxiv_url": "https://arxiv.org/abs/2603.19235",
+      "upvotes": 84,
+      "summary": "비디오 생성 모델이 내재적으로 학습한 3D 공간 정보를 활용하여 MLLM의 공간 이해 능력을 향상시키는 VEGA-3D 프레임워크를 제안, 별도의 3D 데이터 없이도 3D scene understanding, spatial reasoning, embodied manipulation 성능을 향상.",
+      "korean_abstract": "Multimodal Large Language Models (MLLM)은 뛰어난 의미론적 이해 능력을 보이지만, 정교한 기하학적 추론 및 물리적 역학 관계 이해에 어려움을 겪습니다. 기존 솔루션들은 명시적인 3D modality에 의존하거나 복잡한 geometric scaffolding을 사용하지만, 데이터 부족 및 일반화 문제에 직면합니다. 본 연구에서는 대규모 비디오 생성 모델 내에 내재된 공간 정보를 활용하여 이러한 문제를 해결하고자 합니다. VEGA-3D는 사전 학습된 비디오 diffusion 모델을 Latent World Simulator로 재활용하는 플러그 앤 플레이 프레임워크입니다. Spatiotemporal feature를 추출하고 token-level adaptive gated fusion mechanism을 통해 semantic representation과 통합함으로써, 명시적인 3D supervision 없이 MLLM에 dense geometric cue를 제공합니다. 다양한 실험을 통해 VEGA-3D가 SOTA 모델을 능가함을 입증했습니다.",
+      "key_points": [
+        "비디오 생성 모델의 implicit spatial prior 활용",
+        "VEGA-3D 프레임워크를 통한 MLLM의 공간 이해 능력 향상",
+        "명시적인 3D supervision 없이 SOTA 성능 달성"
+      ],
+      "tags": [
+        "Vision",
+        "MLLM",
+        "3D",
+        "Diffusion Model",
+        "RAG",
+        "Reasoning",
+        "Multimodal",
+        "Video",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 MLLM의 공간 이해 능력 부족 문제를 해결하고, 별도의 3D 데이터 구축 없이도 3D 관련 task 성능을 향상시킬 수 있어 로봇, AR/VR 등 다양한 분야에 적용 가능성이 높습니다.",
+      "recommended_actions": [
+        "VEGA-3D github 코드 분석 및 적용",
+        "자체 데이터셋에 VEGA-3D 적용 실험",
+        "VEGA-3D를 활용한 새로운 task 정의 및 성능 평가"
+      ],
+      "risks_and_limits": [
+        "비디오 생성 모델의 성능에 VEGA-3D 성능이 의존적",
+        "특정 비디오 생성 모델에 최적화되어 있을 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19235.png",
+      "local_image_path": "images/Generation_Models_Know_Space_Unleashing_Implicit_3D_Priors_for_Scene_Understanding_img.jpg",
+      "local_figures": [
+        "images/Generation_Models_Know_Space_Unleashing_Implicit_3_fig_1.png",
+        "images/Generation_Models_Know_Space_Unleashing_Implicit_3_fig_2.png"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "SAMA: Factorized Semantic Anchoring and Motion Alignment for Instruction-Guided Video Editing",
+      "paper_id": "2603.19228",
+      "url": "https://huggingface.co/papers/2603.19228",
+      "arxiv_url": "https://arxiv.org/abs/2603.19228",
+      "upvotes": 61,
+      "summary": "SAMA 프레임워크는 별도의 외부 정보 없이도 비디오 편집 시 의미적 정확성과 움직임 보존을 동시에 달성하여 모델의 견고성과 일반화 능력을 향상시킴.",
+      "korean_abstract": "기존의 instruction-guided 비디오 편집 모델은 의미적 수정의 정확성과 움직임 보존의 충실성 사이의 균형을 맞추는 데 어려움을 겪습니다. 이러한 문제를 해결하기 위해 외부 정보를 주입하는 방식은 모델의 견고성과 일반화에 제약이 됩니다. SAMA 프레임워크는 비디오 편집을 의미적 고정(Semantic Anchoring)과 움직임 모델링으로 분리합니다. Semantic Anchoring은 희소한 앵커 프레임에서 의미적 토큰과 비디오 잠재 변수를 공동으로 예측하여 안정적인 시각적 앵커를 설정합니다. Motion Alignment는 motion-centric 비디오 복원 pretext task를 통해 모델이 raw 비디오에서 직접 시간적 역학을 내재화하도록 합니다. SAMA는 factorized pre-training과 supervised fine-tuning의 2단계 파이프라인으로 최적화되며, factorized pre-training만으로도 강력한 zero-shot 비디오 편집 능력을 보여줍니다.",
+      "key_points": [
+        "비디오 편집을 의미적 고정(Semantic Anchoring)과 움직임 모델링으로 분리",
+        "외부 정보 없이도 의미적 정확성과 움직임 보존을 동시에 달성",
+        "Factorized pre-training을 통해 zero-shot 비디오 편집 능력 확보"
+      ],
+      "tags": [
+        "Video Editing",
+        "Instruction-Guided",
+        "Semantic Anchoring",
+        "Motion Alignment",
+        "Pre-training",
+        "Video",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "instruction-guided 비디오 편집 모델 개발 시 외부 정보 의존성을 줄이고, 모델의 견고성과 일반화 능력을 향상시키는 데 활용 가능합니다.",
+      "recommended_actions": [
+        "SAMA 프레임워크를 기반으로 새로운 비디오 편집 모델 개발",
+        "Motion Alignment를 위한 다양한 pretext task 연구",
+        "Factorized pre-training의 효과 분석 및 개선"
+      ],
+      "risks_and_limits": [
+        "Factorized pre-training에 필요한 계산 자원",
+        "특정 유형의 비디오에 대한 일반화 성능"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19228.png",
+      "local_image_path": "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alignment_for_Instruction-Guided_Video_Editing_img.jpg",
+      "local_figures": [
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_1.png",
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_2.jpeg",
+        "images/SAMA_Factorized_Semantic_Anchoring_and_Motion_Alig_fig_3.png"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "3DreamBooth: High-Fidelity 3D Subject-Driven Video Generation Model",
+      "paper_id": "2603.18524",
+      "url": "https://huggingface.co/papers/2603.18524",
+      "arxiv_url": "https://arxiv.org/abs/2603.18524",
+      "upvotes": 49,
+      "summary": "단일 이미지로 3D 객체의 일관적인 비디오 생성을 가능하게 하여 VR/AR, 가상 프로덕션, e-커머스 등 다양한 분야에 즉시 적용 가능한 고품질 결과물을 제공합니다.",
+      "korean_abstract": "실제 객체를 기반으로 역동적이고 일관된 뷰를 가진 비디오를 생성하는 것은 VR/AR, 가상 프로덕션 등 다양한 분야에서 중요하지만, 기존 방법들은 2D에 집중하여 3D 객체의 고유한 특성을 반영하지 못했습니다. 제한된 데이터로 fine-tuning 시 temporal overfitting 문제가 발생합니다. 본 논문에서는 1-frame 최적화 패러다임을 통해 공간 기하학과 시간적 움직임을 분리하는 3DreamBooth와 시각적 컨디셔닝 모듈인 3Dapter를 제안합니다. 3DreamBooth는 공간 표현 업데이트를 제한하여 3D prior를 효과적으로 학습하고, 3Dapter는 비대칭 컨디셔닝 전략을 통해 fine-grained 텍스처를 향상시키고 수렴 속도를 가속화합니다.",
+      "key_points": [
+        "단일 이미지 기반 3D 객체 비디오 생성",
+        "3D prior 학습을 위한 1-frame 최적화",
+        "fine-grained 텍스처 향상을 위한 3Dapter 모듈"
+      ],
+      "tags": [
+        "3D",
+        "Video Generation",
+        "VR/AR",
+        "Subject-Driven",
+        "Video"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 2D 기반 방법의 한계를 극복하고 3D 객체의 일관적인 비디오 생성을 가능하게 하여, 게임, 메타버스, 광고 등 다양한 분야에서 활용될 수 있습니다. 특히, 적은 데이터로도 고품질 결과를 얻을 수 있어 실무 적용 가능성이 높습니다.",
+      "recommended_actions": [
+        "제공된 프로젝트 페이지에서 데모 비디오 확인",
+        "3DreamBooth 및 3Dapter 코드 구현 검토",
+        "자체 데이터셋에 적용하여 결과 비교"
+      ],
+      "risks_and_limits": [
+        "복잡한 형상이나 텍스처를 가진 객체에 대한 성능 검증 필요",
+        "실시간 비디오 생성에 필요한 계산 자원 요구량 확인"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18524.png",
+      "local_image_path": "images/3DreamBooth_High-Fidelity_3D_Subject-Driven_Video_Generation_Model_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "FASTER: Rethinking Real-Time Flow VLAs",
+      "paper_id": "2603.19199",
+      "url": "https://huggingface.co/papers/2603.19199",
+      "arxiv_url": "https://arxiv.org/abs/2603.19199",
+      "upvotes": 48,
+      "summary": "FASTER는 Vision-Language-Action 모델의 실시간 반응 속도를 획기적으로 개선하여 로봇의 즉각적인 행동을 가능하게 함.",
+      "korean_abstract": "Vision-Language-Action (VLA) 모델을 실제 환경에 배포하려면 실시간 실행이 중요하지만, 기존 방법들은 반응 시간 지연을 간과했습니다. 본 논문에서는 반응 시간의 주요 요인을 분석하고, 기존 flow-based VLA의 비효율적인 상수 스케줄링이 반응 속도를 저해함을 밝힙니다. 이를 해결하기 위해 FASTER라는 새로운 방법을 제안하며, 이는 Horizon-Aware Schedule을 통해 즉각적인 행동에 필요한 denoising 단계를 획기적으로 줄입니다. 실제 로봇 환경에서 FASTER는 반응 시간을 크게 단축시키며, 특히 소비자용 GPU에서도 뛰어난 성능을 보입니다. 동적인 테이블 테니스 작업과 같은 실제 실험을 통해 FASTER의 실시간 반응성이 입증되었습니다.",
+      "key_points": [
+        "반응 시간의 주요 요인 분석 및 상수 스케줄링의 문제점 지적",
+        "Horizon-Aware Schedule을 통한 Fast Action Sampling (FASTER) 방법론 제안",
+        "실제 로봇 환경에서의 반응 시간 단축 및 성능 향상 입증"
+      ],
+      "tags": [
+        "Agent",
+        "Robotics",
+        "Real-time",
+        "VLA",
+        "Vision",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 제어, 자율 주행 등 실시간성이 중요한 VLA 모델 개발 시, FASTER를 통해 반응 속도를 개선하고 보다 즉각적인 상호작용을 구현할 수 있습니다.",
+      "recommended_actions": [
+        "FASTER의 Horizon-Aware Schedule을 기존 VLA 모델에 적용해보기",
+        "실제 로봇 환경에서 FASTER의 반응 시간 개선 효과 측정해보기",
+        "소비자용 GPU 환경에서 FASTER의 성능 테스트해보기"
+      ],
+      "risks_and_limits": [
+        "특정 VLA 모델 또는 작업 환경에서 FASTER의 효과가 제한적일 수 있음",
+        "Horizon-Aware Schedule의 최적화 과정이 복잡할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19199.png",
+      "local_image_path": "images/FASTER_Rethinking_Real-Time_Flow_VLAs_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "Nemotron-Cascade 2: Post-Training LLMs with Cascade RL and Multi-Domain On-Policy Distillation",
+      "paper_id": "2603.19220",
+      "url": "https://huggingface.co/papers/2603.19220",
+      "arxiv_url": "https://arxiv.org/abs/2603.19220",
+      "upvotes": 47,
+      "summary": "Nemotron-Cascade 2는 Cascade RL과 Multi-Domain On-Policy Distillation을 통해 30B MoE 모델로 최고 수준의 추론 및 에이전트 능력을 제공하며, 특히 수학 및 코딩 추론 성능이 뛰어납니다.",
+      "korean_abstract": "기존 Nemotron-Cascade 1의 한계를 극복하기 위해, Nemotron-Cascade 2는 Cascade RL을 확장하여 더 넓은 범위의 추론 및 에이전트 영역을 다룹니다. 또한, Cascade RL 과정 전반에 걸쳐 각 영역별 최강의 중간 티처 모델로부터 Multi-Domain On-Policy Distillation을 도입하여 벤치마크 성능 저하를 효율적으로 복구하고 강력한 성능 향상을 유지합니다. 이 모델은 30B MoE 모델로, 3B의 활성화된 파라미터를 가지며, 수학 및 코딩 추론 성능이 매우 뛰어납니다. 특히, IMO, IOI, ICPC World Finals에서 Gold Medal 수준의 성능을 달성하여 높은 지능 밀도를 보여줍니다. 모델 체크포인트와 훈련 데이터셋을 공개합니다.",
+      "key_points": [
+        "Cascade RL을 확장하여 추론 및 에이전트 능력을 향상",
+        "Multi-Domain On-Policy Distillation을 통해 성능 저하를 방지하고 향상",
+        "30B MoE 모델로 최고 수준의 추론 및 에이전트 능력 제공"
+      ],
+      "tags": [
+        "LLM",
+        "MoE",
+        "Reinforcement Learning",
+        "Distillation",
+        "Reasoning",
+        "Agent",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "소규모 모델로도 높은 수준의 추론 능력을 구현할 수 있는 방법을 제시하며, 특히 에이전트 개발 시 강화 학습과 지식 증류를 결합하여 효율적인 학습 전략을 구축하는 데 참고할 수 있습니다.",
+      "recommended_actions": [
+        "공개된 모델 체크포인트를 활용하여 특정 작업에 대한 성능 테스트 진행",
+        "Multi-Domain On-Policy Distillation을 자체 모델 학습에 적용하여 성능 향상 시도",
+        "Cascade RL을 활용하여 에이전트의 추론 능력 강화 실험"
+      ],
+      "risks_and_limits": [
+        "30B 모델이므로, 하드웨어 리소스 요구 사항이 높을 수 있음",
+        "특정 도메인에 최적화되어 있어, 일반적인 작업에는 성능이 떨어질 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19220.png",
+      "local_image_path": "images/Nemotron-Cascade_2_Post-Training_LLMs_with_Cascade_RL_and_Multi-Domain_On-Policy_Distillation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer",
+      "paper_id": "2603.19227",
+      "url": "https://huggingface.co/papers/2603.19227",
+      "arxiv_url": "https://arxiv.org/abs/2603.19227",
+      "upvotes": 39,
+      "summary": "Diffusion 모델 기반의 motion tokenizer를 통해 semantic 조건과 kinematic 조건을 효과적으로 결합하여 motion generation 성능을 크게 향상시켰다.",
+      "korean_abstract": "기존 motion generation 연구는 kinematic 제어에 강한 continuous diffusion 모델과 semantic 조건에 효과적인 discrete token 기반 생성 모델로 나뉘어져 있었다. 이러한 한계를 극복하기 위해, 본 논문에서는 조건 특징 추출, discrete token 생성, diffusion 기반 motion 합성을 3단계로 구성된 프레임워크를 제안한다. 핵심은 diffusion 기반 discrete motion tokenizer인 MoTok으로, motion 복원을 diffusion decoder에 위임하여 semantic 추상화와 정밀한 재구성을 분리한다. 실험 결과, HumanML3D 데이터셋에서 기존 방법 대비 token 수를 1/6로 줄이면서도 trajectory error를 0.72cm에서 0.08cm로, FID를 0.083에서 0.029로 크게 개선했다. 특히, 강한 kinematic 제약 조건 하에서 fidelity가 향상되는 결과를 보였다.",
+      "key_points": [
+        "Diffusion 기반 discrete motion tokenizer (MoTok) 제안",
+        "Semantic 추상화와 kinematic 제어를 분리하여 motion generation 성능 향상",
+        "HumanML3D 데이터셋에서 기존 방법 대비 우수한 성능 입증"
+      ],
+      "tags": [
+        "Motion Generation",
+        "Diffusion Model",
+        "Tokenization",
+        "Kinematics",
+        "Semantics"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "Motion generation 관련 task에서 semantic 조건과 kinematic 조건을 동시에 고려해야 하는 경우, MoTok을 활용하여 더 효율적이고 정확한 motion 생성이 가능하다.",
+      "recommended_actions": [
+        "MoTok을 활용하여 자체 motion generation 모델에 적용해보기",
+        "다양한 kinematic 제약 조건 하에서 MoTok의 성능 테스트해보기",
+        "MoTok의 token 생성 및 diffusion decoder 구조 분석해보기"
+      ],
+      "risks_and_limits": [
+        "MoTok의 성능이 특정 데이터셋 또는 task에 편향될 수 있음",
+        "Diffusion 모델의 특성상 inference 속도가 느릴 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19227.png",
+      "local_image_path": "images/Bridging_Semantic_and_Kinematic_Conditions_with_Diffusion-based_Discrete_Motion_Tokenizer_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "Memento-Skills: Let Agents Design Agents",
+      "paper_id": "2603.18743",
+      "url": "https://huggingface.co/papers/2603.18743",
+      "arxiv_url": "https://arxiv.org/abs/2603.18743",
+      "upvotes": 36,
+      "summary": "Memento-Skills는 LLM 기반 에이전트가 스스로 태스크별 에이전트를 설계, 적응, 개선하는 지속 학습 시스템으로, 외부 스킬 라이브러리 진화를 통해 LLM 파라미터 업데이트 없이 성능을 향상시킵니다.",
+      "korean_abstract": "기존 에이전트 설계는 사람이 직접 수행해야 했지만, Memento-Skills는 LLM 에이전트가 스스로 새로운 태스크에 맞는 에이전트를 설계하도록 합니다. 이 시스템은 메모리 기반 강화 학습 프레임워크를 사용하여 재사용 가능한 스킬(마크다운 파일 형태)을 지속적인 메모리로 활용합니다. 에이전트는 Read-Write Reflective Learning 메커니즘을 통해 스킬을 선택하고 업데이트하며, 경험을 통해 스킬 라이브러리를 확장합니다. 이러한 폐쇄 루프 설계를 통해 LLM 파라미터 업데이트 없이 외부 스킬과 프롬프트의 진화만으로 지속적인 학습이 가능합니다. General AI Assistants 벤치마크와 Humanity's Last Exam에서 각각 26.2%와 116.2%의 정확도 향상을 보였습니다.",
+      "key_points": [
+        "LLM 기반 에이전트가 스스로 태스크별 에이전트 설계",
+        "Read-Write Reflective Learning을 통한 지속적인 스킬 개선",
+        "외부 스킬 라이브러리 진화를 통한 LLM 파라미터 업데이트 최소화"
+      ],
+      "tags": [
+        "Agent",
+        "Continual Learning",
+        "Reinforcement Learning",
+        "LLM",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자는 Memento-Skills를 통해 특정 작업에 최적화된 에이전트를 자동으로 생성하고 개선하여 개발 효율성을 높일 수 있으며, LLM 파라미터 업데이트 없이 지속적인 성능 향상을 기대할 수 있습니다.",
+      "recommended_actions": [
+        "제공된 깃허브 저장소에서 Memento-Skills 코드 확인 및 실행",
+        "자체 태스크에 맞는 에이전트 설계 및 스킬 라이브러리 구축 실험",
+        "Read-Write Reflective Learning 메커니즘 적용 및 성능 변화 관찰"
+      ],
+      "risks_and_limits": [
+        "초기 스킬 설계 및 프롬프트 엔지니어링에 대한 의존성 존재",
+        "복잡한 태스크에 대한 스킬 라이브러리 확장 및 관리의 어려움"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.18743.png",
+      "local_image_path": "images/Memento-Skills_Let_Agents_Design_Agents_img.jpg",
+      "local_figures": [
+        "images/Memento-Skills_Let_Agents_Design_Agents_fig_1.png"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "MonoArt: Progressive Structural Reasoning for Monocular Articulated 3D Reconstruction",
+      "paper_id": "2603.19231",
+      "url": "https://huggingface.co/papers/2603.19231",
+      "arxiv_url": "https://arxiv.org/abs/2603.19231",
+      "upvotes": 31,
+      "summary": "MonoArt는 단일 이미지에서 관절 객체의 3D 재구성을 위해 구조적 추론을 통해 기하학적 구조, 파트 구조, 모션 파라미터를 안정적으로 추론하는 새로운 프레임워크를 제시하며, 이는 로봇 조작 및 장면 재구성에도 적용 가능하다.",
+      "korean_abstract": "단일 이미지로부터 관절 객체의 3D 재구성은 객체 기하학, 파트 구조, 모션 파라미터 추론의 복잡성으로 인해 어렵다. 기존 방법들은 다중 뷰, 검색 기반 조립, 비디오 생성 등의 방법을 사용했지만 확장성이나 효율성 면에서 한계가 있었다. 본 논문에서는 외부 모션 템플릿이나 다단계 파이프라인 없이 시각적 관찰을 기하학적 구조, 파트 표현, 모션 인식 임베딩으로 변환하는 MonoArt 프레임워크를 제안한다. MonoArt는 구조적 추론을 통해 안정적이고 해석 가능한 관절 추론을 가능하게 한다. PartNet-Mobility 데이터셋 실험 결과, MonoArt는 재구성 정확도와 추론 속도 모두에서 SOTA 성능을 달성했으며, 로봇 조작 및 관절 장면 재구성에도 적용될 수 있음을 입증했다.",
+      "key_points": [
+        "단일 이미지에서 관절 객체의 3D 재구성을 위한 새로운 프레임워크 MonoArt 제시",
+        "구조적 추론을 통해 모션과 구조 간의 얽힘 문제를 해결하고 안정적인 관절 추론 가능",
+        "PartNet-Mobility 데이터셋에서 SOTA 성능 달성 및 로봇 조작, 장면 재구성으로 확장 가능"
+      ],
+      "tags": [
+        "3D Reconstruction",
+        "Articulation",
+        "Monocular Vision",
+        "Robotics",
+        "Computer Vision",
+        "RAG",
+        "Reasoning",
+        "Vision",
+        "Video",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "MonoArt는 로봇 공학, 게임 개발, AR/VR 등 다양한 분야에서 3D 모델링 및 객체 조작의 효율성을 향상시킬 수 있으며, 특히 단일 이미지 기반의 3D 모델 생성이 필요한 경우 유용하다.",
+      "recommended_actions": [
+        "PartNet-Mobility 데이터셋을 사용하여 MonoArt 프레임워크 재구현 및 성능 검증",
+        "자체 데이터셋에 MonoArt 적용하여 성능 및 한계점 분석",
+        "MonoArt를 활용한 로봇 조작 또는 AR/VR 애플리케이션 개발"
+      ],
+      "risks_and_limits": [
+        "복잡한 관절 구조를 가진 객체에 대한 일반화 성능 검증 필요",
+        "조명 변화, 가려짐 등 다양한 환경 조건에서의 Robustness 테스트 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19231.png",
+      "local_image_path": "images/MonoArt_Progressive_Structural_Reasoning_for_Monocular_Articulated_3D_Reconstruction_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "Cubic Discrete Diffusion: Discrete Visual Generation on High-Dimensional Representation Tokens",
+      "paper_id": "2603.19232",
+      "url": "https://huggingface.co/papers/2603.19232",
+      "arxiv_url": "https://arxiv.org/abs/2603.19232",
+      "upvotes": 30,
+      "summary": "CubiD는 고차원 이산 토큰을 사용하는 최초의 이미지 생성 모델로, 이미지 이해와 생성 모두에 활용 가능한 잠재력을 보여 multimodal 아키텍처 연구에 기여할 수 있습니다.",
+      "korean_abstract": "최근 언어 모델과 통합된 multimodal 아키텍처를 위해 이산 토큰을 사용한 이미지 생성 연구가 활발하지만, 기존 방법들은 낮은 차원의 latent 토큰에 국한되어 의미적 풍부함이 부족했습니다. 본 논문에서는 고차원 표현을 위한 최초의 이산 생성 모델인 CubiD를 제안합니다. CubiD는 고차원 이산 표현 전체에 걸쳐 세분화된 마스킹을 수행하여, 부분적인 관찰로부터 임의의 위치에서 임의의 차원을 예측할 수 있습니다. ImageNet-256 데이터셋에서 CubiD는 최첨단 이산 생성 성능을 달성했으며, 이산화된 토큰이 원래 표현 능력을 유지함을 입증했습니다.",
+      "key_points": [
+        "고차원 이산 표현을 위한 최초의 이미지 생성 모델 CubiD 제시",
+        "고차원 표현 내의 fine-grained 마스킹 및 예측을 통해 풍부한 상관 관계 학습",
+        "ImageNet-256에서 SOTA 달성 및 고차원 이산 토큰의 표현 능력 유지 검증"
+      ],
+      "tags": [
+        "Diffusion Model",
+        "Image Generation",
+        "Discrete Representation",
+        "Multimodal",
+        "Vision"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "고차원 representation을 효과적으로 다루는 discrete diffusion 모델은 이미지 및 비디오 생성, multimodal task 등 다양한 분야에서 활용될 수 있으며, 특히 고해상도 이미지나 복잡한 장면을 다루는 데 유용합니다.",
+      "recommended_actions": [
+        "CubiD 모델 구조 및 학습 방식 상세 분석",
+        "자체 데이터셋에 CubiD 적용 및 성능 비교",
+        "CubiD를 활용한 multimodal task 실험"
+      ],
+      "risks_and_limits": [
+        "고차원 데이터에 대한 연산 비용이 높을 수 있음",
+        "모델의 복잡성으로 인해 학습 및 튜닝이 어려울 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.19232.png",
+      "local_image_path": "images/Cubic_Discrete_Diffusion_Discrete_Visual_Generation_on_High-Dimensional_Representation_Tokens_img.jpg",
+      "local_figures": []
+    }
+  ]
+}
