@@ -1,468 +1,473 @@
 {
   "source": "product_hunt",
-  "date": "2026-03-24",
-  "generated_at": "2026-03-24T04:05:07.942888+09:00",
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25T04:05:02.174609+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Tobira.ai\n⭐ Votes: 422\n📝 요약: Tobira.ai는 AI 에이전트들이 서로 연결되어 사용자를 대신해 거래를 찾고 협상하는 네트워크를 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/tobira-ai\n🌐 서비스 링크: https://www.producthunt.com/r/G5JOBDQ3XBHBER\n\n📦 2. Zoer.ai\n⭐ Votes: 359\n📝 요약: Zoer.ai는 데이터베이스부터 시작하여 풀스택 웹 애플리케이션을 구축할 수 있게 해주는 AI 기반 개발 도구입니다. 프로덕션 환경에서 바로 사용할 수 있는 앱을 만들 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/zoer-ai-2\n🌐 서비스 링크: https://www.producthunt.com/r/DGY2WXDYLQPHS5\n\n📦 3. Fastlane\n⭐ Votes: 282\n📝 요약: Fastlane은 AI 기반의 짧은 동영상 콘텐츠 제작 엔진으로, 바이럴 영상을 활용해 몇 초 만에 비즈니스용 콘텐츠를 만들고 틱톡, 인스타그램 릴스, 유튜브 쇼츠에 바로 예약 게시하여 마케팅을 자동화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/fastlane-3\n🌐 서비스 링크: https://www.producthunt.com/r/LTQWNXYACIJQFW\n\n📦 4. Honestly\n⭐ Votes: 243\n📝 요약: 온라인 쇼핑 시 Reddit, YouTube 등에서 실제 사용자 리뷰를 찾아주는 Chrome 확장 프로그램입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/honestly\n🌐 서비스 링크: https://www.producthunt.com/r/FAH2FMLOAW7XM3\n\n📦 5. Claude Usage Tracker\n⭐ Votes: 193\n📝 요약: Claude를 사용하는 다양한 도구(Cursor, Claude Code CLI 등)에서 발생하는 모든 비용을 한 곳에서 추적하고 관리할 수 있게 해주는 무료 오픈소스 macOS 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude-usage-tracker\n🌐 서비스 링크: https://www.producthunt.com/r/FPUNWP662OVA6E\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Claude Computer Use\n⭐ Votes: 427\n📝 요약: Anthropic의 Claude가 이제 컴퓨터를 사용하여 클릭, 타이핑, 브라우징, 앱 실행 등 사람처럼 작업을 수행할 수 있게 되었습니다. Dispatch와 함께 Mac에서 Claude에게 작업을 할당하고 실행하도록 할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/AYTPIHDXORCWT2\n\n📦 2. Kitty Points Leaderboard\n⭐ Votes: 313\n📝 요약: Product Hunt 커뮤니티 멤버들의 활동을 순위로 보여주어, 참여를 장려하고 사용자들에게 더 많은 가시성과 신뢰도를 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/producthunt\n🌐 서비스 링크: https://www.producthunt.com/r/UA5BMACRSNW472\n\n📦 3. Cekura\n⭐ Votes: 313\n📝 요약: Cekura는 음성 및 채팅 AI 에이전트의 성능을 30개 이상의 사전 정의된 지표를 통해 실시간으로 분석하고 개선하여 고객 경험, 정확성, 대화 품질을 향상시키는 데 도움을 줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/vocera\n🌐 서비스 링크: https://www.producthunt.com/r/BVQAPOUNVQ25FB\n\n📦 4. jared.so\n⭐ Votes: 210\n📝 요약: jared.so는 Slack에서 팀의 대화를 모니터링하고 필요한 순간에 개입하여 업무를 자동화하는 AI 직원입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/jared-so\n🌐 서비스 링크: https://www.producthunt.com/r/7P5NYVK4WNFYBG\n\n📦 5. Drift\n⭐ Votes: 198\n📝 요약: Drift는 프롬프트만으로 로봇 시뮬레이션을 빠르게 구축하고 안정적으로 실행할 수 있게 해주는 AI 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/drift-ai\n🌐 서비스 링크: https://www.producthunt.com/r/W65GW52TI2TQVF\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Tobira.ai",
-      "url": "https://www.producthunt.com/products/tobira-ai",
-      "service_url": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
-      "website": "https://www.producthunt.com/r/G5JOBDQ3XBHBER",
-      "votes": 422,
-      "tagline": "A network where AI agents find deals for their humans",
-      "summary": "Tobira.ai는 AI 에이전트들이 서로 연결되어 사용자를 대신해 거래를 찾고 협상하는 네트워크를 제공합니다.",
+      "name": "Claude Computer Use",
+      "url": "https://www.producthunt.com/products/claude",
+      "service_url": "https://www.producthunt.com/r/AYTPIHDXORCWT2",
+      "website": "https://www.producthunt.com/r/AYTPIHDXORCWT2",
+      "votes": 427,
+      "tagline": "Enable Claude to use your computer to complete tasks ",
+      "summary": "Anthropic의 Claude가 이제 컴퓨터를 사용하여 클릭, 타이핑, 브라우징, 앱 실행 등 사람처럼 작업을 수행할 수 있게 되었습니다. Dispatch와 함께 Mac에서 Claude에게 작업을 할당하고 실행하도록 할 수 있습니다.",
       "key_points": [
-        "AI 에이전트에게 무료 공개 주소를 제공하여 다른 에이전트들과 연결",
-        "에이전트들이 창업자, 투자자, 파트너, 고객을 발견하고 협상 대행",
-        "공유 정보는 사용자가 익명 또는 공개 여부를 선택 가능하며, 상호 승인 전까지 연락처 미공개"
+        "Claude가 컴퓨터를 직접 조작하여 작업을 자동화합니다.",
+        "이메일 작성, 보고서 작성 등 다양한 작업을 수행할 수 있습니다.",
+        "스마트폰에서 작업을 할당하고 Claude가 Mac에서 실행합니다."
       ],
       "tags": [
-        "AI 에이전트",
+        "AI",
         "자동화",
-        "네트워킹",
-        "거래",
-        "Agent",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "개인정보를 보호하면서 AI 에이전트를 통해 비즈니스 기회를 탐색하고 협상 과정을 자동화할 수 있습니다.",
-      "recommended_actions": [
-        "@handle을 선점하여 AI 에이전트 네트워크에 참여",
-        "OpenClaw 및 Claude Cowork와 함께 사용하여 효율성 극대화",
-        "익명 또는 공개 설정을 통해 정보 공유 범위 설정"
-      ],
-      "risks_and_limits": [
-        "AI 에이전트의 협상 결과에 대한 사용자 책임",
-        "네트워크 참여자들의 활동에 대한 신뢰도 검증 필요"
-      ],
-      "uncertainty_note": "Tobira.ai 네트워크의 활성도 및 실제 거래 성사율에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Tobira.ai.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Tobira.ai_media_0.jpg",
-        "images/ph_2026-03-23_Tobira.ai_media_1.jpg",
-        "images/ph_2026-03-23_Tobira.ai_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 2,
-      "name": "Zoer.ai",
-      "url": "https://www.producthunt.com/products/zoer-ai-2",
-      "service_url": "https://www.producthunt.com/r/DGY2WXDYLQPHS5",
-      "website": "https://www.producthunt.com/r/DGY2WXDYLQPHS5",
-      "votes": 359,
-      "tagline": "Build full-stack webapps from the database up",
-      "summary": "Zoer.ai는 데이터베이스부터 시작하여 풀스택 웹 애플리케이션을 구축할 수 있게 해주는 AI 기반 개발 도구입니다. 프로덕션 환경에서 바로 사용할 수 있는 앱을 만들 수 있습니다.",
-      "key_points": [
-        "데이터베이스 스키마, 백엔드 로직, SEO 친화적인 프론트엔드 자동 생성",
-        "비즈니스 로직에 집중하고 아키텍처, 확장성, 고성능 인덱싱은 Zoer가 담당",
-        "프롬프트를 통해 풀스택 상용 엔진 구축 가능"
-      ],
-      "tags": [
-        "DevTool",
-        "AI",
-        "Full-stack",
-        "Database",
-        "Webapp",
-        "Agent",
-        "AI Tool",
-        "Chat",
-        "Prompting"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "UI 프로토타입만 만들다 실패하는 대신, Zoer.ai를 사용하면 데이터베이스부터 탄탄한 풀스택 앱을 빠르게 구축하여 실제 서비스에 바로 적용할 수 있습니다.",
-      "recommended_actions": [
-        "비전을 설명하고 Zoer Agent가 데이터베이스 스키마를 구축하는 과정 확인",
-        "프롬프트를 사용하여 풀스택 애플리케이션 생성",
-        "생성된 앱의 확장성 및 성능 테스트"
-      ],
-      "risks_and_limits": [
-        "AI가 생성한 코드를 검토하고 필요한 부분을 수정해야 함",
-        "복잡한 비즈니스 로직은 추가적인 개발 작업이 필요할 수 있음"
-      ],
-      "uncertainty_note": "Zoer.ai가 지원하는 데이터베이스 종류 및 확장성에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Zoer.ai.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Zoer.ai_media_0.jpg",
-        "images/ph_2026-03-23_Zoer.ai_media_1.jpg",
-        "images/ph_2026-03-23_Zoer.ai_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 3,
-      "name": "Fastlane",
-      "url": "https://www.producthunt.com/products/fastlane-3",
-      "service_url": "https://www.producthunt.com/r/LTQWNXYACIJQFW",
-      "website": "https://www.producthunt.com/r/LTQWNXYACIJQFW",
-      "votes": 282,
-      "tagline": "Tinder for Marketing",
-      "summary": "Fastlane은 AI 기반의 짧은 동영상 콘텐츠 제작 엔진으로, 바이럴 영상을 활용해 몇 초 만에 비즈니스용 콘텐츠를 만들고 틱톡, 인스타그램 릴스, 유튜브 쇼츠에 바로 예약 게시하여 마케팅을 자동화합니다.",
-      "key_points": [
-        "AI 기반 짧은 동영상 콘텐츠 자동 생성",
-        "Tinder처럼 콘텐츠를 스와이프하며 선택 가능",
-        "틱톡, 인스타그램 릴스, 유튜브 쇼츠에 직접 예약 게시"
-      ],
-      "tags": [
-        "AI",
-        "콘텐츠 제작",
-        "자동화",
-        "마케팅",
-        "숏폼 비디오",
-        "AI Tool",
-        "Video",
-        "Marketing"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Fastlane을 사용하면 콘텐츠 제작에 드는 시간을 절약하고, 자동으로 생성된 콘텐츠를 통해 사용자 유입을 늘릴 수 있습니다. 특히 짧은 동영상 콘텐츠 마케팅에 유용합니다.",
-      "recommended_actions": [
-        "바이럴 비디오를 리믹스하여 콘텐츠 생성해보기",
-        "생성된 콘텐츠를 틱톡, 인스타그램 릴스, 유튜브 쇼츠에 예약 게시하기",
-        "콘텐츠 성과를 분석하여 개선하기"
-      ],
-      "risks_and_limits": [
-        "AI가 생성한 콘텐츠의 품질이 사용자의 기대에 미치지 못할 수 있음",
-        "저작권 문제가 발생하지 않도록 주의해야 함"
-      ],
-      "uncertainty_note": "AI가 생성하는 콘텐츠의 효과 및 사용자 반응에 대한 추가적인 검증이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Fastlane.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Fastlane_media_0.jpg",
-        "images/ph_2026-03-23_Fastlane_media_1.jpg",
-        "images/ph_2026-03-23_Fastlane_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/7af3f11c-40f6-4fb0-9cba-1b327367e6e3.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "Honestly",
-      "url": "https://www.producthunt.com/products/honestly",
-      "service_url": "https://www.producthunt.com/r/FAH2FMLOAW7XM3",
-      "website": "https://www.producthunt.com/r/FAH2FMLOAW7XM3",
-      "votes": 243,
-      "tagline": "Real reviews from Reddit & YouTube when shopping online",
-      "summary": "온라인 쇼핑 시 Reddit, YouTube 등에서 실제 사용자 리뷰를 찾아주는 Chrome 확장 프로그램입니다.",
-      "key_points": [
-        "5점 시스템의 한계를 극복, 광고나 스폰서십 없는 솔직한 리뷰 제공",
-        "Reddit, TikTok, YouTube, Instagram 등 다양한 플랫폼의 의견 통합",
-        "AI 없이 실제 사용자 의견을 검증"
-      ],
-      "tags": [
-        "리뷰",
-        "쇼핑",
-        "Chrome 확장 프로그램",
-        "소셜 미디어",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "온라인 쇼핑 시 신뢰할 수 있는 사용자 리뷰를 통해 더 나은 구매 결정을 내릴 수 있도록 도와줍니다.",
-      "recommended_actions": [
-        "Chrome 확장 프로그램 설치 후 사용",
-        "제품 페이지에서 Honestly 아이콘 클릭하여 리뷰 확인",
-        "다양한 플랫폼의 리뷰 비교 분석"
-      ],
-      "risks_and_limits": [
-        "리뷰가 없는 제품도 있을 수 있음",
-        "특정 플랫폼에 편향된 리뷰가 있을 수 있음"
-      ],
-      "uncertainty_note": "제공되는 리뷰의 신뢰도 및 대표성에 대한 추가적인 검증이 필요할 수 있습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Honestly.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Honestly_media_0.jpg",
-        "images/ph_2026-03-23_Honestly_media_1.jpg",
-        "images/ph_2026-03-23_Honestly_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 5,
-      "name": "Claude Usage Tracker",
-      "url": "https://www.producthunt.com/products/claude-usage-tracker",
-      "service_url": "https://www.producthunt.com/r/FPUNWP662OVA6E",
-      "website": "https://www.producthunt.com/r/FPUNWP662OVA6E",
-      "votes": 193,
-      "tagline": "See exactly how much you spend on Claude, across every tool",
-      "summary": "Claude를 사용하는 다양한 도구(Cursor, Claude Code CLI 등)에서 발생하는 모든 비용을 한 곳에서 추적하고 관리할 수 있게 해주는 무료 오픈소스 macOS 앱입니다.",
-      "key_points": [
-        "여러 Claude 도구 사용 비용을 통합적으로 보여주는 대시보드 제공",
-        "9개 이상의 도구를 자동 감지하여 사용량 데이터 스캔",
-        "일일 비용, 모델별 분석, 히트맵, 세션 로그, 월별 예상 비용 등 제공"
-      ],
-      "tags": [
-        "DevTool",
-        "Analytics",
-        "Open Source",
-        "macOS",
-        "AI Tool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "Claude를 여러 도구에서 사용하는 경우, 각 도구별 사용량을 일일이 확인하지 않아도 전체 비용을 쉽게 파악하고 관리할 수 있습니다. 또한, 로컬에서 작동하므로 개인 정보 보호에 유리합니다.",
-      "recommended_actions": [
-        "macOS 앱을 다운로드하여 설치",
-        "지원되는 Claude 도구들을 연결하여 사용량 추적 시작",
-        "대시보드에서 일일 비용 및 모델별 분석 확인"
-      ],
-      "risks_and_limits": [
-        "macOS에서만 사용 가능",
-        "지원되는 도구 목록 확인 필요"
-      ],
-      "uncertainty_note": "향후 다른 운영체제 지원 계획이나 추가 도구 지원 계획은 확인되지 않았습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Claude_Usage_Tracker.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Claude_Usage_Tracker_media_0.jpg",
-        "images/ph_2026-03-23_Claude_Usage_Tracker_media_1.jpg",
-        "images/ph_2026-03-23_Claude_Usage_Tracker_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/cc1be68d-5f87-4ed7-9d22-bdbe1ffa13a3.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "Nomie",
-      "url": "https://www.producthunt.com/products/nomie",
-      "service_url": "https://www.producthunt.com/r/3RIZWHAQS4EWQY",
-      "website": "https://www.producthunt.com/r/3RIZWHAQS4EWQY",
-      "votes": 158,
-      "tagline": "AI wellness app that turns doomscrolling into self‑care",
-      "summary": "Nomie는 AI 웰니스 앱으로, 무분별한 스크롤 습관을 의도적인 자기 관리로 전환하여 스트레스 해소 및 정신 건강 관리를 돕습니다.",
-      "key_points": [
-        "스크린 타임을 활용하여 차분함, 집중력, 감정 조절을 돕습니다.",
-        "가이드 리셋, 호흡 운동, 저널링, 감정적 지원 등의 기능을 제공합니다.",
-        "과도한 디지털 소비 문제를 해결합니다."
-      ],
-      "tags": [
-        "웰니스",
-        "AI",
-        "자기 관리",
-        "정신 건강",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "끊임없는 스크린 타임으로 인해 압도되거나 스트레스를 받는 사용자들이 스크린 시간을 활용하여 정신 건강을 관리하고 편안함을 찾을 수 있도록 도와줍니다.",
-      "recommended_actions": [
-        "가이드 리셋 기능 사용해보기",
-        "호흡 운동 기능 사용해보기",
-        "저널링 기능 사용해보기"
-      ],
-      "risks_and_limits": [
-        "AI 기반 감정 지원의 정확도 및 개인 정보 보호 정책 확인 필요",
-        "개인의 스크린 타임 습관 개선 효과는 개인차가 있을 수 있음"
-      ],
-      "uncertainty_note": "AI가 제공하는 감정 지원의 효과 및 개인 맞춤화 정도에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Nomie.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Nomie_media_0.jpg",
-        "images/ph_2026-03-23_Nomie_media_1.jpg",
-        "images/ph_2026-03-23_Nomie_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/809282de-eee0-454c-9bfe-0f406275c69b.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "Pause.do",
-      "url": "https://www.producthunt.com/products/pause-do-don-t-outsource-your-thinking",
-      "service_url": "https://www.producthunt.com/r/VCCW5NU3ODM4XZ",
-      "website": "https://www.producthunt.com/r/VCCW5NU3ODM4XZ",
-      "votes": 129,
-      "tagline": "Interrupt scrolling, tab overload, and AI autopilot",
-      "summary": "Pause.do는 무심코 빠져드는 온라인 습관을 의도적인 멈춤으로 제어하여 집중력을 높여주는 브라우저 확장 프로그램입니다.",
-      "key_points": [
-        "무분별한 스크롤, 탭 과부하, AI 자동 응답 방지",
-        "웹사이트 차단 대신 '잠시 멈춤' 유도",
-        "다양한 Pause 유형 (Think First, Scroll Pause 등) 제공"
-      ],
-      "tags": [
         "생산성",
-        "집중력 향상",
-        "브라우저 확장",
-        "습관 개선",
-        "개인 정보 보호",
-        "AI Tool",
-        "Prompting"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "습관적인 온라인 활동을 멈추고, 정보 과부하를 줄여 집중력을 향상시키고 생산성을 높일 수 있습니다. 개인 정보 보호를 우선으로 설계되어 안심하고 사용할 수 있습니다.",
-      "recommended_actions": [
-        "Think First Pause 설정으로 충동적인 웹 서핑 방지",
-        "Scroll Pause 설정으로 무한 스크롤 습관 개선",
-        "Tab Overload Pause 설정으로 탭 정리 습관 만들기"
-      ],
-      "risks_and_limits": [
-        "개인의 사용 패턴에 따라 효과가 다를 수 있음",
-        "지나치게 잦은 멈춤 설정은 오히려 불편함을 초래할 수 있음"
-      ],
-      "uncertainty_note": "실제 사용 환경에서의 배터리 소모량 및 성능에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Pause.do.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Pause.do_media_0.jpg",
-        "images/ph_2026-03-23_Pause.do_media_1.jpg",
-        "images/ph_2026-03-23_Pause.do_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/0ba9e678-8095-4e9d-aaa7-654abeb43869.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Iris",
-      "url": "https://www.producthunt.com/products/iris-e28eb72c-ccff-4a5a-a7e8-6cf066ee9d41",
-      "service_url": "https://www.producthunt.com/r/3B4QRK6UQUHTJE",
-      "website": "https://www.producthunt.com/r/3B4QRK6UQUHTJE",
-      "votes": 126,
-      "tagline": "Send work beautifully, pinned feedback, see what they viewed",
-      "summary": "Iris는 디자인 전문가를 위한 클라이언트 협업 플랫폼으로, 작업물을 시각적으로 훌륭하게 전달하고, 클라이언트 피드백을 작업물에 직접 고정하여 받고, 클라이언트가 어떤 부분을 집중적으로 보았는지 분석할 수 있습니다.",
-      "key_points": [
-        "작업물을 풀스크린 슬라이드, 문서, 갤러리 형태로 전달",
-        "클라이언트가 작업물 위에 직접 피드백을 고정",
-        "클라이언트의 조회 패턴 분석 기능 제공 (집중/스킵)"
-      ],
-      "tags": [
-        "디자인",
-        "협업",
-        "피드백",
-        "분석",
-        "클라이언트",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "디자인 결과물에 대한 클라이언트 피드백을 효율적으로 관리하고, 클라이언트의 반응을 데이터 기반으로 분석하여 커뮤니케이션 효율성을 높일 수 있습니다. 별도 로그인이나 다운로드 없이 링크 하나로 모든 것이 가능하여 사용 편의성이 높습니다.",
-      "recommended_actions": [
-        "작업물을 슬라이드 형태로 공유해보기",
-        "클라이언트 피드백 고정 기능 사용해보기",
-        "클라이언트 조회 패턴 분석 기능 활용해보기"
-      ],
-      "risks_and_limits": [
-        "데이터 분석의 정확성에 대한 검증 필요",
-        "지원하는 파일 형식 확인 필요"
-      ],
-      "uncertainty_note": "제공되는 분석 데이터의 신뢰도 및 유용성에 대한 추가적인 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_Iris.jpg",
-      "local_media": [
-        "images/ph_2026-03-23_Iris_media_0.jpg",
-        "images/ph_2026-03-23_Iris_media_1.jpg",
-        "images/ph_2026-03-23_Iris_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 9,
-      "name": "DataSieve 2.0",
-      "url": "https://www.producthunt.com/products/textmine-extract-data-from-text",
-      "service_url": "https://www.producthunt.com/r/IKPKHY2JJOZNCD",
-      "website": "https://www.producthunt.com/r/IKPKHY2JJOZNCD",
-      "votes": 115,
-      "tagline": "Extract structured data from text, files and archives.",
-      "summary": "DataSieve 2.0은 텍스트, 파일, 압축 파일에서 구조화된 데이터를 빠르게 추출하여 비정형 데이터를 깔끔하게 정리해주는 로컬 기반 도구입니다.",
-      "key_points": [
-        "다양한 파일 형식 지원 (PDF, EPUB, CSV, JSON, Word 등)",
-        "여러 데이터 유형 동시 추출 가능 (이메일, 전화번호, URL, 날짜 등)",
-        "데이터 추출 결과 JSON, XLSX, DOCX 등 다양한 형식으로 내보내기 지원"
-      ],
-      "tags": [
-        "데이터 추출",
-        "자동화",
-        "로컬",
-        "파일 처리",
-        "텍스트 분석",
+        "Mac",
         "AI Tool",
         "Email"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "클라우드 없이 로컬에서 모든 작업이 이루어지므로 개인 정보 보호에 유리하며, 텍스트 데이터에서 필요한 정보만 빠르게 추출하여 업무 효율성을 높일 수 있습니다.",
+      "practical_relevance": "Claude를 통해 반복적인 컴퓨터 작업을 자동화하여 시간을 절약하고 효율성을 높일 수 있습니다. 특히 Mac 사용자에게 유용합니다.",
       "recommended_actions": [
-        "텍스트 파일 또는 PDF 파일을 드롭하여 데이터 추출 시도",
-        "추출할 데이터 유형 선택 (이메일, 전화번호, URL 등)",
-        "추출 결과 JSON 또는 XLSX 형식으로 내보내기"
+        "Dispatch를 설치하고 Claude와 연결하여 사용해보기",
+        "이메일 초안 작성 작업을 Claude에게 맡겨보기",
+        "웹 브라우징을 통한 정보 검색 자동화해보기"
       ],
       "risks_and_limits": [
-        "로컬 환경에서 실행되므로 시스템 리소스 사용량 확인 필요",
-        "복잡한 구조의 데이터 추출 시 커스텀 추출기 정의 필요"
+        "Claude가 컴퓨터를 제어하므로 보안에 유의해야 합니다.",
+        "복잡한 작업은 Claude가 제대로 수행하지 못할 수 있습니다."
       ],
-      "uncertainty_note": "DataSieve 2.0의 커스텀 추출기 정의 기능의 사용 편의성에 대한 추가 정보가 필요합니다.",
+      "uncertainty_note": "Claude의 컴퓨터 사용 기능이 모든 작업에 완벽하게 적용될 수 있을지는 추가적인 검증이 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 3,
+      "local_image_path": "images/ph_2026-03-24_Claude_Computer_Use.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Claude_Computer_Use_media_0.jpg",
+        "images/ph_2026-03-24_Claude_Computer_Use_media_1.jpg",
+        "images/ph_2026-03-24_Claude_Computer_Use_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/487c0809-6b28-4dd3-b9ae-e24f550205a8.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Kitty Points Leaderboard",
+      "url": "https://www.producthunt.com/products/producthunt",
+      "service_url": "https://www.producthunt.com/r/UA5BMACRSNW472",
+      "website": "https://www.producthunt.com/r/UA5BMACRSNW472",
+      "votes": 313,
+      "tagline": "Find interesting community members and see how you stack up",
+      "summary": "Product Hunt 커뮤니티 멤버들의 활동을 순위로 보여주어, 참여를 장려하고 사용자들에게 더 많은 가시성과 신뢰도를 제공합니다.",
+      "key_points": [
+        "Product Hunt 커뮤니티 멤버 순위표 제공",
+        "커뮤니티 활동 참여 독려",
+        "상위 랭커에게 가시성 및 신뢰도 제공"
+      ],
+      "tags": [
+        "커뮤니티",
+        "리더보드",
+        "랭킹",
+        "참여",
+        "Product Hunt"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "커뮤니티 내에서 자신의 위치를 파악하고, 더 활발하게 활동하여 인지도를 높일 수 있습니다.",
+      "recommended_actions": [
+        "자신의 순위 확인하기",
+        "커뮤니티 활동에 적극적으로 참여하기",
+        "상위 랭커들의 활동 방식 참고하기"
+      ],
+      "risks_and_limits": [
+        "순위가 절대적인 지표는 아님",
+        "커뮤니티 활동의 다양한 측면을 고려해야 함"
+      ],
+      "uncertainty_note": "순위 산정 기준에 대한 상세 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_DataSieve_2.0.jpg",
+      "local_image_path": "images/ph_2026-03-24_Kitty_Points_Leaderboard.jpg",
       "local_media": [
-        "images/ph_2026-03-23_DataSieve_2.0_media_0.jpg",
-        "images/ph_2026-03-23_DataSieve_2.0_media_1.jpg",
-        "images/ph_2026-03-23_DataSieve_2.0_media_2.jpg"
+        "images/ph_2026-03-24_Kitty_Points_Leaderboard_media_0.jpg",
+        "images/ph_2026-03-24_Kitty_Points_Leaderboard_media_1.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 10,
-      "name": "AlphaClaw Apex",
-      "url": "https://www.producthunt.com/products/alphaclaw-apex",
-      "service_url": "https://www.producthunt.com/r/VTELX3ORENW7JI",
-      "website": "https://www.producthunt.com/r/VTELX3ORENW7JI",
-      "votes": 108,
-      "tagline": "OpenClaw harness and fleet manager for Mac",
-      "summary": "AlphaClaw Apex는 Mac 환경에서 OpenClaw 에이전트를 효율적으로 배포, 모니터링, 확장할 수 있도록 돕는 관리 도구입니다.",
+      "rank": 3,
+      "name": "Cekura",
+      "url": "https://www.producthunt.com/products/vocera",
+      "service_url": "https://www.producthunt.com/r/BVQAPOUNVQ25FB",
+      "website": "https://www.producthunt.com/r/BVQAPOUNVQ25FB",
+      "votes": 313,
+      "tagline": "Observe and analyze your voice and chat AI agents",
+      "summary": "Cekura는 음성 및 채팅 AI 에이전트의 성능을 30개 이상의 사전 정의된 지표를 통해 실시간으로 분석하고 개선하여 고객 경험, 정확성, 대화 품질을 향상시키는 데 도움을 줍니다.",
       "key_points": [
-        "OpenClaw 에이전트 배포 및 관리 자동화",
-        "자체 복구 기능을 갖춘 안정적인 환경 제공",
-        "SSH 없이 간편하게 작업 수행"
+        "30개 이상의 사전 정의된 지표를 통해 CX, 정확성, 대화 및 음성 품질 분석",
+        "약 20개의 대화만으로 완벽한 LLM 심판을 구성하고 Cekura Labs에서 자동 개선",
+        "실시간 분할 대시보드를 통해 대화형 AI의 추세 파악"
       ],
       "tags": [
-        "DevTool",
-        "Automation",
-        "Mac",
-        "Agent Management",
-        "Agent"
+        "AI",
+        "Analytics",
+        "Chatbot",
+        "Voice AI",
+        "Agent",
+        "AI Tool",
+        "LLM",
+        "Chat"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "OpenClaw 에이전트 관리에 드는 시간과 노력을 줄여 개발 생산성을 향상시키고, 시스템 운영의 안정성을 높여줍니다.",
+      "practical_relevance": "Cekura를 사용하면 대화형 AI 에이전트의 성능을 정확하게 측정하고 개선하여 고객 만족도를 높이고 운영 효율성을 향상시킬 수 있습니다.",
       "recommended_actions": [
-        "OpenClaw 에이전트 배포 자동화 설정",
-        "모니터링 대시보드 구성",
-        "자체 복구 기능 테스트"
+        "대시보드에서 제공하는 실시간 지표를 통해 AI 에이전트의 성능 변화 추이 모니터링",
+        "Cekura Labs를 활용하여 LLM 심판을 구성하고 AI 모델 개선",
+        "자동 알림 기능을 설정하여 주요 지표 변화에 대한 즉각적인 대응"
       ],
       "risks_and_limits": [
-        "OpenClaw 에이전트와의 호환성 확인 필요",
-        "Mac 환경에 최적화되어 있어 다른 OS 지원 여부 확인 필요"
+        "초기 설정 및 데이터 통합에 시간과 노력이 필요할 수 있습니다.",
+        "제공되는 지표가 모든 비즈니스 요구사항을 충족하지 못할 수 있습니다."
       ],
-      "uncertainty_note": "OpenClaw 에이전트의 구체적인 성능 향상 정도는 사용 환경에 따라 달라질 수 있습니다.",
+      "uncertainty_note": "Cekura가 특정 산업 분야 또는 특정 유형의 대화형 AI 에이전트에 얼마나 효과적인지 추가적인 사용 사례 연구가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-23_AlphaClaw_Apex.jpg",
+      "local_image_path": "images/ph_2026-03-24_Cekura.jpg",
       "local_media": [
-        "images/ph_2026-03-23_AlphaClaw_Apex_media_0.jpg",
-        "images/ph_2026-03-23_AlphaClaw_Apex_media_1.jpg",
-        "images/ph_2026-03-23_AlphaClaw_Apex_media_2.jpg"
+        "images/ph_2026-03-24_Cekura_media_0.jpg",
+        "images/ph_2026-03-24_Cekura_media_1.jpg",
+        "images/ph_2026-03-24_Cekura_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/be20a4ee-a1df-466f-ad58-8eaea0431252.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "jared.so",
+      "url": "https://www.producthunt.com/products/jared-so",
+      "service_url": "https://www.producthunt.com/r/7P5NYVK4WNFYBG",
+      "website": "https://www.producthunt.com/r/7P5NYVK4WNFYBG",
+      "votes": 210,
+      "tagline": "AI that monitors convos & proactively jumps in when needed",
+      "summary": "jared.so는 Slack에서 팀의 대화를 모니터링하고 필요한 순간에 개입하여 업무를 자동화하는 AI 직원입니다.",
+      "key_points": [
+        "Slack에서 팀 대화 맥락을 파악하고 능동적으로 참여",
+        "10,000개 이상의 도구와 연동 가능",
+        "별도 요청 없이도 업무 수행"
+      ],
+      "tags": [
+        "AI",
+        "Slack",
+        "자동화",
+        "협업",
+        "생산성",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "팀 협업 효율성을 높이고, 반복적인 업무를 자동화하여 생산성을 향상시킬 수 있습니다. 특히, 팀원들이 놓칠 수 있는 중요한 정보를 AI가 파악하여 알려주어 의사결정을 돕습니다.",
+      "recommended_actions": [
+        "Slack에 jared.so 추가하여 팀 채널 연결",
+        "자주 사용하는 도구 연동 설정",
+        "AI가 참여할 대화 주제 및 키워드 설정"
+      ],
+      "risks_and_limits": [
+        "AI가 민감한 정보를 부적절하게 처리할 가능성 검토 필요",
+        "초기 설정 및 학습 과정 필요"
+      ],
+      "uncertainty_note": "jared.so의 실제 성능 및 팀 협업에 미치는 영향에 대한 사용자 후기 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_jared.so.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_jared.so_media_0.jpg",
+        "images/ph_2026-03-24_jared.so_media_1.jpg",
+        "images/ph_2026-03-24_jared.so_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/ae63f77e-1af4-4603-bdbc-d2d534dc563a.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Drift",
+      "url": "https://www.producthunt.com/products/drift-ai",
+      "service_url": "https://www.producthunt.com/r/W65GW52TI2TQVF",
+      "website": "https://www.producthunt.com/r/W65GW52TI2TQVF",
+      "votes": 198,
+      "tagline": "AI agent to run robot simulations faster and reliably",
+      "summary": "Drift는 프롬프트만으로 로봇 시뮬레이션을 빠르게 구축하고 안정적으로 실행할 수 있게 해주는 AI 에이전트입니다.",
+      "key_points": [
+        "터미널에서 프롬프트만으로 로봇 시뮬레이션 구축 가능",
+        "ROS, 시뮬레이터, 플러그인, OS 오케스트레이션 등 필요한 모든 기능 제공",
+        "ROS 상태, 작업 공간, 시뮬레이터 추적을 통해 문제 해결 지원"
+      ],
+      "tags": [
+        "로보틱스",
+        "AI",
+        "시뮬레이션",
+        "자동화",
+        "개발 도구",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 개발자가 복잡한 설정 없이 빠르게 시뮬레이션을 구축하고, 문제 발생 시 신속하게 해결하여 개발 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "터미널에서 프롬프트 입력하여 로봇 및 월드 구축",
+        "시뮬레이션 실행 및 제어 루프 연결",
+        "ROS 상태 추적 기능 활용하여 문제 해결"
+      ],
+      "risks_and_limits": [
+        "지원하는 로봇 및 시뮬레이터 종류 확인 필요",
+        "프롬프트 기반 방식에 대한 학습 필요"
+      ],
+      "uncertainty_note": "Drift가 지원하는 구체적인 로봇 및 시뮬레이터 목록 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_Drift.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Drift_media_0.jpg",
+        "images/ph_2026-03-24_Drift_media_1.jpg",
+        "images/ph_2026-03-24_Drift_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/397d0c3f-a849-49ee-997c-8d7d5f0bc158.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Google Gemini in Chrome",
+      "url": "https://www.producthunt.com/products/googlegemini-in-chrome",
+      "service_url": "https://www.producthunt.com/r/3VDHSZVTJSEVW7",
+      "website": "https://www.producthunt.com/r/3VDHSZVTJSEVW7",
+      "votes": 148,
+      "tagline": "Turn your browser into an AI workspace",
+      "summary": "Google Gemini in Chrome은 브라우저 내 AI 작업 공간을 제공하여 탭 전환 없이 요약, 정보 비교, 이메일 작성, 이미지 변환 등 다양한 작업을 효율적으로 처리할 수 있게 해줍니다.",
+      "key_points": [
+        "브라우저 내 AI 통합으로 작업 효율성 향상",
+        "Gmail, Calendar, Maps, YouTube 등 Google 서비스와 원활한 연동",
+        "Gemini 3.1 기반의 강력한 AI 기능 제공"
+      ],
+      "tags": [
+        "AI",
+        "생산성",
+        "브라우저",
+        "자동화",
+        "AI Tool",
+        "Vision",
+        "Email"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "탭을 옮겨 다니거나 복사-붙여넣기 할 필요 없이 브라우저 내에서 바로 AI 기능을 활용하여 시간을 절약하고 생산성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "긴 기사 요약 기능 사용해보기",
+        "여러 탭의 정보 비교 기능 사용해보기",
+        "이메일 초안 작성 기능 사용해보기"
+      ],
+      "risks_and_limits": [
+        "Gemini 3.1의 성능 및 정확도 확인 필요",
+        "개인 정보 처리 및 보안 관련 정책 확인 필요"
+      ],
+      "uncertainty_note": "Gemini 3.1의 실제 성능과 다양한 웹사이트 및 서비스와의 호환성에 대한 추가적인 사용 후기 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_Google_Gemini_in_Chrome.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Google_Gemini_in_Chrome_media_0.jpg",
+        "images/ph_2026-03-24_Google_Gemini_in_Chrome_media_1.jpg",
+        "images/ph_2026-03-24_Google_Gemini_in_Chrome_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/22ffa015-f972-43bb-a09e-398dc577f77b.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Jotform AI",
+      "url": "https://www.producthunt.com/products/jotform",
+      "service_url": "https://www.producthunt.com/r/VAASWLHBUAACHF",
+      "website": "https://www.producthunt.com/r/VAASWLHBUAACHF",
+      "votes": 144,
+      "tagline": "Build forms faster with Jotform AI",
+      "summary": "Jotform AI는 자연어 설명을 통해 즉시 폼을 생성하고 편집할 수 있게 해 줍니다. 복잡한 폼 제작 과정을 단순화하여 시간과 노력을 절약해 줍니다.",
+      "key_points": [
+        "자연어 기반 폼 자동 생성 및 편집",
+        "필드, 조건부 로직, 구조 자동 구성",
+        "별도 설정 없이 즉시 사용 가능"
+      ],
+      "tags": [
+        "폼 빌더",
+        "AI",
+        "자동화",
+        "생산성",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "폼 제작에 필요한 시간과 노력을 크게 줄여주어, 사용자는 폼의 내용과 목적에 더 집중할 수 있습니다. 복잡한 폼도 쉽게 만들 수 있어 접근성이 높습니다.",
+      "recommended_actions": [
+        "자연어 프롬프트로 폼 생성해보기",
+        "생성된 폼의 필드 및 로직 수정해보기",
+        "다양한 폼 템플릿에 적용해보기"
+      ],
+      "risks_and_limits": [
+        "AI가 생성한 폼의 정확성 검토 필요",
+        "복잡한 조건이나 특수한 요구사항은 수동 조정 필요"
+      ],
+      "uncertainty_note": "AI가 생성하는 폼의 품질이 사용자의 의도를 얼마나 정확하게 반영하는지 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_Jotform_AI.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Jotform_AI_media_0.jpg",
+        "images/ph_2026-03-24_Jotform_AI_media_1.jpg",
+        "images/ph_2026-03-24_Jotform_AI_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/44717ebb-30d9-47ff-a38b-ce8880c25975.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Maestri",
+      "url": "https://www.producthunt.com/products/maestri",
+      "service_url": "https://www.producthunt.com/r/FLNQUUNPKJDWPD",
+      "website": "https://www.producthunt.com/r/FLNQUUNPKJDWPD",
+      "votes": 132,
+      "tagline": "An infinite canvas where coding agents work in concert",
+      "summary": "Maestri는 코딩 에이전트들이 협업하는 무한 캔버스를 제공하는 macOS 앱으로, 시각적인 노드 배치, 에이전트 연결, AI 기반 모니터링 및 요약 기능을 통해 개발 생산성을 향상시킵니다.",
+      "key_points": [
+        "무한 캔버스에서 코딩 에이전트들을 시각적으로 배치하고 연결하여 협업 가능",
+        "Claude Code, Codex, Gemini, OpenCode 등 다양한 에이전트 지원",
+        "Apple Intelligence 기반의 Ombro AI가 작업 모니터링 및 요약 제공"
+      ],
+      "tags": [
+        "DevTool",
+        "AI",
+        "Automation",
+        "macOS",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "터미널, 노트, 스케치를 자유롭게 배치하고 연결하여 복잡한 코딩 작업을 시각적으로 관리하고, AI 기반 모니터링 및 요약 기능을 통해 작업 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "캔버스에 터미널 노드 배치하고 에이전트 연결해보기",
+        "Ombro AI를 활용하여 작업 요약 기능 사용해보기",
+        "다양한 코딩 에이전트(Claude Code, Codex 등) 연동 시도해보기"
+      ],
+      "risks_and_limits": [
+        "macOS 전용 앱이므로 다른 운영체제에서는 사용 불가",
+        "클라우드 기반이 아니므로 데이터 백업 및 동기화에 유의"
+      ],
+      "uncertainty_note": "Ombro AI의 성능 및 지원되는 코딩 에이전트 종류에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_Maestri.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Maestri_media_0.jpg",
+        "images/ph_2026-03-24_Maestri_media_1.jpg",
+        "images/ph_2026-03-24_Maestri_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 9,
+      "name": "Agent Hub Builder",
+      "url": "https://www.producthunt.com/products/mindpal-ai",
+      "service_url": "https://www.producthunt.com/r/QXVYVZIXG7CBNI",
+      "website": "https://www.producthunt.com/r/QXVYVZIXG7CBNI",
+      "votes": 124,
+      "tagline": "Build a Netflix-style library of AI-powered tools to sell",
+      "summary": "Agent Hub Builder는 AI 기반 도구들을 넷플릭스처럼 구성하여 판매할 수 있게 해주는 플랫폼입니다. 전문가의 지식을 바탕으로 AI 도구 허브를 구축하고, 구독 모델을 통해 수익을 창출하세요.",
+      "key_points": [
+        "AI 도구들을 넷플릭스 스타일로 구성하여 제공",
+        "MindPal, Base44, Replit 등 다양한 플랫폼과 연동 가능",
+        "인증, 사용량 추적, 채팅 기록, 개인화 프로필, 유료 결제 기능 포함"
+      ],
+      "tags": [
+        "AI",
+        "No-code",
+        "Platform",
+        "Subscription",
+        "Tool",
+        "Agent",
+        "AI Tool",
+        "Chat"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "고객에게 24시간 AI 기반 지원을 제공하고, 더 높은 고객 유지율과 새로운 수익원을 확보할 수 있습니다.",
+      "recommended_actions": [
+        "MindPal을 사용하여 핵심 AI 기능 구축",
+        "Base44, Lovable, Replit 등 플랫폼에서 허브 생성",
+        "유료 구독 모델 설정 및 고객 프로필 개인화"
+      ],
+      "risks_and_limits": [
+        "MindPal 및 기타 플랫폼과의 연동 호환성 확인 필요",
+        "구축된 AI 도구의 성능 및 정확도 검증 필요"
+      ],
+      "uncertainty_note": "실제 고객 유지율 및 수익 증가 효과는 AI 도구의 품질 및 마케팅 전략에 따라 달라질 수 있습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_Agent_Hub_Builder.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_Agent_Hub_Builder_media_0.jpg",
+        "images/ph_2026-03-24_Agent_Hub_Builder_media_1.jpg",
+        "images/ph_2026-03-24_Agent_Hub_Builder_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/57fac4eb-6021-4c1c-9b80-4ac45d8b8c89.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "TypeScript 6.0",
+      "url": "https://www.producthunt.com/products/the-new-typescript-website",
+      "service_url": "https://www.producthunt.com/r/INYIHBZCKD6YHZ",
+      "website": "https://www.producthunt.com/r/INYIHBZCKD6YHZ",
+      "votes": 123,
+      "tagline": "The last TypeScript release built on JavaScript",
+      "summary": "TypeScript 6.0은 JavaScript 기반의 마지막 버전으로, Go로 재작성되는 7.0으로의 전환을 준비하며 최신 기본 설정과 새로운 API 및 기능들을 제공합니다.",
+      "key_points": [
+        "JavaScript 기반의 마지막 TypeScript 릴리스",
+        "엄격 모드 활성화, ESM 우선, ES2025 타겟 등 최신 기본 설정 적용",
+        "Temporal API 타입, Map.getOrInsert, RegExp.escape 등 새로운 API 추가"
+      ],
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "DevTool",
+        "API",
+        "프로그래밍"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "TypeScript 7.0으로의 원활한 전환을 돕고, 최신 JavaScript 기능을 활용할 수 있도록 지원하여 개발 생산성을 향상시킵니다.",
+      "recommended_actions": [
+        "엄격 모드 활성화 및 ES2025 타겟으로 프로젝트 업데이트",
+        "새로운 Temporal API 타입 사용",
+        "Map.getOrInsert 및 RegExp.escape 활용"
+      ],
+      "risks_and_limits": [
+        "TypeScript 7.0으로의 전환 계획 확인",
+        "더 이상 지원되지 않는 레거시 패턴 점검 및 수정"
+      ],
+      "uncertainty_note": "Go로 재작성되는 TypeScript 7.0의 성능 향상 정도 및 호환성 관련 정보는 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-03-24_TypeScript_6.0.jpg",
+      "local_media": [
+        "images/ph_2026-03-24_TypeScript_6.0_media_0.jpg"
       ],
       "video_links": []
     }
