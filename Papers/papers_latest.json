@@ -1,384 +1,383 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-03-25",
-  "generated_at": "2026-03-25T04:02:25.569325+09:00",
+  "date": "2026-03-26",
+  "generated_at": "2026-03-26T04:02:24.945979+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Omni-WorldBench: Towards a Comprehensive Interaction-Centric Evaluation for World Models\n📝 요약: 4D 환경에서 상호작용에 대한 world model의 반응 능력을 평가하는 새로운 벤치마크 Omni-WorldBench를 제안하고, 기존 모델들의 한계를 분석하여 향후 연구 방향을 제시합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.22212\n📄 arXiv: https://arxiv.org/abs/2603.22212\n\n📍 2. Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model\n📝 요약: daVinci-MagiHuman은 단일 스트림 아키텍처를 사용하여 고품질 오디오-비디오 생성을 효율적으로 수행하며, 특히 사람 중심 시나리오에서 뛰어난 성능을 보인다. 오픈소스로 제공되어 개발자들이 쉽게 접근하고 활용할 수 있다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.21986\n📄 arXiv: https://arxiv.org/abs/2603.21986\n\n📍 3. LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning\n📝 요약: LongCat-Flash-Prover는 에이전트 기반 도구 통합 강화 학습을 통해 Lean4에서 형식 검증 능력을 크게 향상시킨 5600억 파라미터 MoE 모델로, 특히 자동 형식화 및 정리 증명에서 새로운 최고 성능을 달성하여 개발자가 형식 검증 도구를 더 효과적으로 활용할 수 있도록 돕습니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.21065\n📄 arXiv: https://arxiv.org/abs/2603.21065\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding\n📝 요약: 문서 OCR을 위한 새로운 Diffusion 기반 프레임워크 MinerU-Diffusion은 기존 autoregressive 모델 대비 최대 3.2배 빠른 디코딩 속도와 향상된 견고성을 제공하여, 긴 문서 처리 성능을 개선한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.22458\n📄 arXiv: https://arxiv.org/abs/2603.22458\n\n📍 2. WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG\n📝 요약: 몬스터 헌터 게임 데이터를 활용하여 액션 기반의 월드 모델링 데이터셋 WildWorld를 구축, 복잡한 액션과 상태 변화를 학습하는 모델 개발에 기여하고, 게임 AI 및 시뮬레이션 분야 발전에 활용될 수 있음\n🔗 Hugging Face: https://huggingface.co/papers/2603.23497\n📄 arXiv: https://arxiv.org/abs/2603.23497\n\n📍 3. SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning\n📝 요약: SpecEyes는 경량 MLLM을 활용하여 에이전트의 추론 과정을 예측하고 불필요한 도구 호출을 생략함으로써, 에이전트 기반 시스템의 지연 시간을 단축하고 처리량을 향상시키는 프레임워크이다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.23483\n📄 arXiv: https://arxiv.org/abs/2603.23483\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "Omni-WorldBench: Towards a Comprehensive Interaction-Centric Evaluation for World Models",
-      "paper_id": "2603.22212",
-      "url": "https://huggingface.co/papers/2603.22212",
-      "arxiv_url": "https://arxiv.org/abs/2603.22212",
-      "upvotes": 105,
-      "summary": "4D 환경에서 상호작용에 대한 world model의 반응 능력을 평가하는 새로운 벤치마크 Omni-WorldBench를 제안하고, 기존 모델들의 한계를 분석하여 향후 연구 방향을 제시합니다.",
-      "korean_abstract": "비디오 기반 world model은 비디오 생성과 3D 재구성이라는 두 가지 주요 패러다임으로 발전해왔지만, 기존 벤치마크는 시각적 충실도나 텍스트-비디오 정렬에만 집중하거나, 정적인 3D 재구성 지표에 의존하여 시간적 역학 관계를 간과합니다. 미래 world modeling은 공간 구조와 시간적 진화를 함께 모델링하는 4D 생성에 있다고 주장하며, 핵심은 상호작용에 대한 반응 능력입니다. 이러한 문제점을 해결하기 위해 다양한 상호작용 수준과 장면 유형을 포괄하는 프롬프트 스위트 Omni-WorldSuite와 에이전트 기반 평가 프레임워크 Omni-Metrics로 구성된 Omni-WorldBench를 제안합니다. 18개의 대표적인 world model을 평가한 결과, 현재 모델들이 상호작용 반응에 있어 중요한 한계를 가지고 있음을 밝혔습니다.",
+      "title": "MinerU-Diffusion: Rethinking Document OCR as Inverse Rendering via Diffusion Decoding",
+      "paper_id": "2603.22458",
+      "url": "https://huggingface.co/papers/2603.22458",
+      "arxiv_url": "https://arxiv.org/abs/2603.22458",
+      "upvotes": 110,
+      "summary": "문서 OCR을 위한 새로운 Diffusion 기반 프레임워크 MinerU-Diffusion은 기존 autoregressive 모델 대비 최대 3.2배 빠른 디코딩 속도와 향상된 견고성을 제공하여, 긴 문서 처리 성능을 개선한다.",
+      "korean_abstract": "기존 OCR 시스템은 autoregressive 디코딩에 의존하여 순차적 지연과 오류 전파 문제를 야기했다. 본 논문에서는 문서 OCR을 inverse rendering 관점에서 재해석하여, autoregressive 방식이 작업의 본질적인 속성이 아님을 주장한다. 이에 MinerU-Diffusion이라는 diffusion 기반 프레임워크를 제안하여, 시각적 조건 하에서 병렬 diffusion denoising을 통해 autoregressive 순차 디코딩을 대체한다. MinerU-Diffusion은 block-wise diffusion 디코더와 불확실성 기반 curriculum learning 전략을 사용하여 안정적인 학습과 효율적인 긴 시퀀스 추론을 가능하게 한다. 실험 결과, MinerU-Diffusion은 autoregressive baseline 대비 견고성을 향상시키면서 최대 3.2배 빠른 디코딩 속도를 달성했다.",
       "key_points": [
-        "4D world model의 상호작용 반응 능력 평가를 위한 새로운 벤치마크 Omni-WorldBench 제안",
-        "다양한 상호작용 수준과 장면 유형을 포괄하는 프롬프트 스위트 Omni-WorldSuite 개발",
-        "에이전트 기반 평가 프레임워크 Omni-Metrics를 통해 상호작용이 결과 및 중간 상태에 미치는 영향 측정"
+        "문서 OCR을 inverse rendering 문제로 재정의",
+        "Autoregressive 디코딩의 대안으로 diffusion 기반 프레임워크 제시",
+        "긴 문서 OCR에서 속도와 견고성 향상"
       ],
       "tags": [
-        "World Model",
-        "Benchmark",
-        "Interaction",
-        "4D Generation",
-        "Evaluation",
-        "Agent",
-        "Video",
-        "Safety"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "World model을 사용하여 시뮬레이션 환경을 구축하거나, 로봇 제어 시스템을 개발할 때, 상호작용에 대한 모델의 반응 능력을 평가하고 개선하는 데 활용할 수 있습니다.",
-      "recommended_actions": [
-        "Omni-WorldBench를 사용하여 기존 world model의 상호작용 반응 능력 평가",
-        "Omni-WorldSuite를 기반으로 새로운 상호작용 시나리오 생성 및 평가",
-        "Omni-Metrics를 활용하여 상호작용이 모델의 내부 상태 변화에 미치는 영향 분석"
-      ],
-      "risks_and_limits": [
-        "Omni-WorldBench가 특정 유형의 상호작용에 편향되어 있을 수 있음",
-        "에이전트 기반 평가의 결과가 에이전트의 성능에 따라 달라질 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22212.png",
-      "local_image_path": "images/Omni-WorldBench_Towards_a_Comprehensive_Interaction-Centric_Evaluation_for_World_Models_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 2,
-      "title": "Speed by Simplicity: A Single-Stream Architecture for Fast Audio-Video Generative Foundation Model",
-      "paper_id": "2603.21986",
-      "url": "https://huggingface.co/papers/2603.21986",
-      "arxiv_url": "https://arxiv.org/abs/2603.21986",
-      "upvotes": 83,
-      "summary": "daVinci-MagiHuman은 단일 스트림 아키텍처를 사용하여 고품질 오디오-비디오 생성을 효율적으로 수행하며, 특히 사람 중심 시나리오에서 뛰어난 성능을 보인다. 오픈소스로 제공되어 개발자들이 쉽게 접근하고 활용할 수 있다.",
-      "korean_abstract": "최근 사람 중심의 오디오-비디오 생성 모델에 대한 수요가 증가하고 있지만, 복잡한 멀티 스트림 아키텍처는 최적화가 어렵다는 문제가 있다. daVinci-MagiHuman은 단일 스트림 Transformer 아키텍처를 통해 텍스트, 비디오, 오디오를 통합적으로 처리하여 이러한 복잡성을 해결한다. 자체 attention만을 사용하여 최적화가 용이하며, 특히 사람 중심 시나리오에서 뛰어난 성능을 보인다. 자동 평가에서 최고 수준의 시각적 품질과 텍스트 정합성을 달성했으며, 인간 평가에서도 기존 모델 대비 높은 선호도를 보였다. 모델 스택 전체를 오픈소스로 공개하여 연구 및 개발에 기여한다.",
-      "key_points": [
-        "단일 스트림 Transformer 아키텍처를 사용하여 오디오-비디오 생성 모델의 복잡성을 줄임",
-        "사람 중심 시나리오에서 표현력 있는 얼굴, 자연스러운 음성-표정 조화, 현실적인 움직임 생성",
-        "모델 증류, 잠재 공간 초해상도, Turbo VAE 디코더를 통해 효율적인 추론 가능"
-      ],
-      "tags": [
-        "Generative Model",
-        "Audio-Video",
-        "Transformer",
-        "Foundation Model",
-        "Video",
-        "Audio",
-        "Evaluation",
-        "Inference",
-        "Distillation",
-        "Safety"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "단일 아키텍처로 다양한 언어의 오디오-비디오 생성을 지원하므로, 챗봇이나 가상 비서 등 사람과 상호작용하는 서비스 개발에 유용하며, 특히 실시간 성능이 중요한 애플리케이션에 적합하다.",
-      "recommended_actions": [
-        "제공되는 모델 스택을 다운로드하여 간단한 오디오-비디오 생성 파이프라인 구축",
-        "자체 데이터셋으로 모델을 fine-tuning하여 특정 도메인에 최적화",
-        "Turbo VAE 디코더를 다른 생성 모델에 적용하여 추론 속도 향상"
-      ],
-      "risks_and_limits": [
-        "특정 인종이나 문화에 편향된 데이터로 학습되었을 가능성 존재",
-        "생성된 콘텐츠의 윤리적 문제 (deepfake 등) 발생 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21986.png",
-      "local_image_path": "images/Speed_by_Simplicity_A_Single-Stream_Architecture_for_Fast_Audio-Video_Generative_Foundation_Model_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 3,
-      "title": "LongCat-Flash-Prover: Advancing Native Formal Reasoning via Agentic Tool-Integrated Reinforcement Learning",
-      "paper_id": "2603.21065",
-      "url": "https://huggingface.co/papers/2603.21065",
-      "arxiv_url": "https://arxiv.org/abs/2603.21065",
-      "upvotes": 61,
-      "summary": "LongCat-Flash-Prover는 에이전트 기반 도구 통합 강화 학습을 통해 Lean4에서 형식 검증 능력을 크게 향상시킨 5600억 파라미터 MoE 모델로, 특히 자동 형식화 및 정리 증명에서 새로운 최고 성능을 달성하여 개발자가 형식 검증 도구를 더 효과적으로 활용할 수 있도록 돕습니다.",
-      "korean_abstract": "기존의 형식 검증은 복잡하고 어려워 자동화된 도구에 대한 필요성이 증가하고 있습니다. 이 논문에서는 Lean4 환경에서 형식 검증 능력을 향상시키기 위해 에이전트 기반 도구 통합 추론(TIR)을 사용하는 LongCat-Flash-Prover라는 새로운 MoE 모델을 제안합니다. 이 모델은 자동 형식화, 스케치, 증명이라는 세 가지 독립적인 기능으로 작업을 분해하고, 고품질 작업 궤적 확장을 위한 하이브리드 전문가 반복 프레임워크와 계층적 중요도 샘플링 정책 최적화(HisPO) 알고리즘을 사용합니다. 실험 결과, LongCat-Flash-Prover는 MiniF2F-Test에서 97.1%의 통과율을 보였고, ProverBench와 PutnamBench에서 각각 70.8%와 41.5%의 해결률을 달성하여 기존 오픈 웨이트 모델을 능가했습니다.",
-      "key_points": [
-        "5600억 파라미터 MoE 모델 LongCat-Flash-Prover를 통해 Lean4 형식 검증 능력 향상",
-        "자동 형식화, 스케치, 증명으로 작업 분해 및 하이브리드 전문가 반복 프레임워크 적용",
-        "계층적 중요도 샘플링 정책 최적화(HisPO) 알고리즘을 통해 MoE 모델 학습 안정화"
-      ],
-      "tags": [
-        "Formal Verification",
-        "Reinforcement Learning",
-        "MoE",
-        "Lean4",
-        "Agent",
-        "Reasoning",
+        "OCR",
+        "Diffusion Model",
+        "Inverse Rendering",
+        "Document Processing",
+        "Vision",
         "Benchmark",
         "Evaluation",
         "Inference"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "자동 형식 검증 도구는 소프트웨어의 정확성을 보장하고 오류를 줄이는 데 도움이 되며, LongCat-Flash-Prover는 이러한 도구의 성능을 향상시켜 개발자가 더 안정적인 소프트웨어를 개발하는 데 기여할 수 있습니다.",
+      "practical_relevance": "긴 문서 OCR 처리 성능 개선은 대용량 문서 데이터 처리 파이프라인의 효율성을 높이고, OCR 관련 서비스의 사용자 경험을 향상시킬 수 있다.",
       "recommended_actions": [
-        "LongCat-Flash-Prover를 활용하여 기존 Lean4 프로젝트의 형식 검증 자동화 실험",
-        "HisPO 알고리즘을 다른 MoE 모델 학습에 적용하여 안정성 향상 가능성 검토",
-        "자동 형식화 기능을 활용하여 비공식적인 문제 설명을 형식적인 명세로 변환하는 실험"
+        "MinerU-Diffusion을 기존 OCR 파이프라인에 통합하여 성능 향상 실험",
+        "Semantic Shuffle 벤치마크를 사용하여 MinerU-Diffusion의 시각적 OCR 능력 평가",
+        "자체 문서 데이터셋에 MinerU-Diffusion을 fine-tuning하여 성능 개선"
       ],
       "risks_and_limits": [
-        "모델 크기가 매우 커서 리소스 제약이 있는 환경에서는 사용이 어려울 수 있음",
-        "특정 유형의 문제에 대해서만 성능이 높을 수 있으며, 일반적인 소프트웨어 개발 문제에 대한 적용 가능성은 추가 연구가 필요함"
+        "Diffusion 모델의 특성상 학습 및 추론에 상당한 컴퓨팅 자원 필요",
+        "새로운 아키텍처이므로 기존 시스템과의 호환성 문제 발생 가능성 존재"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21065.png",
-      "local_image_path": "images/LongCat-Flash-Prover_Advancing_Native_Formal_Reasoning_via_Agentic_Tool-Integrated_Reinforcement_Lea_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22458.png",
+      "local_image_path": "images/MinerU-Diffusion_Rethinking_Document_OCR_as_Inverse_Rendering_via_Diffusion_Decoding_img.jpg",
       "local_figures": []
     },
     {
-      "rank": 4,
-      "title": "Look Where It Matters: High-Resolution Crops Retrieval for Efficient VLMs",
-      "paper_id": "2603.16932",
-      "url": "https://huggingface.co/papers/2603.16932",
-      "arxiv_url": "https://arxiv.org/abs/2603.16932",
-      "upvotes": 50,
-      "summary": "VLMs의 정확도와 효율성 간의 trade-off를 해결하기 위해, 필요한 부분만 고해상도로 검색하는 spatial-on-demand 프레임워크 AwaRes를 제안하고, 자동 생성된 데이터를 사용해 학습합니다.",
-      "korean_abstract": "Vision-language 모델(VLM)은 일반적으로 고해상도 이미지를 처리하여 정확도와 계산 효율성 사이의 trade-off가 발생합니다. 고해상도 입력은 세밀한 디테일을 캡처하지만 계산 비용이 많이 들고, 저해상도 입력은 효율적이지만 중요한 시각적 정보를 놓칠 수 있습니다. 이러한 문제점을 해결하기 위해, 본 논문에서는 저해상도 global view에서 작동하고 쿼리에 필요한 고해상도 segment만 검색하는 spatial-on-demand 프레임워크 AwaRes를 제안합니다. 지도 학습 데이터를 자동으로 구축하고, multi-turn tool-use trajectories를 형성하여 프레임워크를 학습합니다. AwaRes는 VLM의 효율성을 높이는 데 기여합니다.",
+      "rank": 2,
+      "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
+      "paper_id": "2603.23497",
+      "url": "https://huggingface.co/papers/2603.23497",
+      "arxiv_url": "https://arxiv.org/abs/2603.23497",
+      "upvotes": 64,
+      "summary": "몬스터 헌터 게임 데이터를 활용하여 액션 기반의 월드 모델링 데이터셋 WildWorld를 구축, 복잡한 액션과 상태 변화를 학습하는 모델 개발에 기여하고, 게임 AI 및 시뮬레이션 분야 발전에 활용될 수 있음",
+      "korean_abstract": "기존의 비디오 월드 모델 데이터셋은 액션 공간이 단순하고 액션이 시각적 변화와 직접 연결되어 있어 복잡한 월드 다이나믹스를 학습하기 어려웠습니다. 이러한 문제를 해결하기 위해, 본 논문에서는 AAA 액션 RPG 게임인 몬스터 헌터: 와일즈에서 수집한 대규모 액션 조건 월드 모델링 데이터셋 WildWorld를 제안합니다. WildWorld는 1억 8천만 프레임 이상의 데이터와 450개 이상의 액션을 포함하며, 캐릭터 스켈레톤, 월드 상태, 카메라 포즈, 깊이 맵 등의 정보를 제공합니다. Action Following 및 State Alignment를 통해 모델을 평가한 결과, 의미론적으로 풍부한 액션을 모델링하고 장기적인 상태 일관성을 유지하는 데 어려움이 있음을 확인했습니다. 이는 상태 인식을 기반으로 한 비디오 생성의 필요성을 강조합니다.",
       "key_points": [
-        "Spatial-on-demand 프레임워크 AwaRes 제안",
-        "자동 지도 학습 데이터 구축 방법론 개발",
-        "Multi-turn GRPO를 사용한 학습 전략"
-      ],
-      "tags": [
-        "VLM",
-        "Tool-calling",
-        "Efficiency",
-        "High-Resolution",
-        "RAG",
-        "Vision",
-        "Evaluation"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "VLM을 사용하는 시스템에서 inference 비용을 줄이고 정확도를 높일 수 있는 방법을 제시합니다. 특히 작은 텍스트와 같이 중요한 시각적 정보가 포함된 경우에 유용합니다.",
-      "recommended_actions": [
-        "AwaRes 프레임워크를 기존 VLM 파이프라인에 통합해보기",
-        "자동 생성된 데이터를 활용하여 모델 학습해보기",
-        "Crop-cost penalties를 조정하여 성능 변화 관찰하기"
-      ],
-      "risks_and_limits": [
-        "Oracle grounding 모델의 성능에 따라 전체 성능이 좌우될 수 있음",
-        "자동 데이터 생성 과정에서 노이즈가 발생할 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.16932.png",
-      "local_image_path": "images/Look_Where_It_Matters_High-Resolution_Crops_Retrieval_for_Efficient_VLMs_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 5,
-      "title": "VideoDetective: Clue Hunting via both Extrinsic Query and Intrinsic Relevance for Long Video Understanding",
-      "paper_id": "2603.22285",
-      "url": "https://huggingface.co/papers/2603.22285",
-      "arxiv_url": "https://arxiv.org/abs/2603.22285",
-      "upvotes": 45,
-      "summary": "긴 영상 이해를 위해 query 관련성과 영상 내 구조적 관련성을 동시에 고려, MLLM의 성능을 향상시키는 VideoDetective 프레임워크를 제안하고, 다양한 벤치마크에서 상당한 성능 향상을 보임.",
-      "korean_abstract": "긴 영상 이해는 MLLM의 제한된 context window 때문에 어려운 과제이며, query와 관련된 중요한 segment를 찾는 것이 필수적입니다. 기존 방법들은 query에만 의존하여 segment를 찾기 때문에 영상 자체의 구조적 정보와 segment 간의 다양한 관련성을 간과합니다. 이러한 문제를 해결하기 위해 VideoDetective 프레임워크는 query-segment 관련성과 segment 간의 affinity를 통합하여 효과적인 clue hunting을 수행합니다. 구체적으로, 영상을 여러 segment로 나누고 시각적 유사성과 시간적 근접성을 기반으로 affinity graph를 구축합니다. 그 후 Hypothesis-Verification-Refinement 루프를 통해 segment의 관련성 점수를 추정하고 전파하여 최종 답변을 위한 중요 segment를 찾습니다. 실험 결과, VideoDetective는 다양한 MLLM에서 일관되게 상당한 성능 향상을 달성했으며, VideoMME-long에서 최대 7.5%의 정확도 향상을 보였습니다.",
-      "key_points": [
-        "Query 기반 관련성 및 영상 내 구조적 관련성을 통합",
-        "Visual-temporal affinity graph를 활용한 segment 관계 모델링",
-        "Hypothesis-Verification-Refinement 루프를 통한 관련성 점수 추정 및 전파"
+        "AAA 게임에서 수집한 대규모 액션 조건 월드 모델링 데이터셋 WildWorld 제시",
+        "450개 이상의 다양한 액션과 캐릭터 스켈레톤, 월드 상태 등 풍부한 메타데이터 제공",
+        "Action Following 및 State Alignment를 통한 모델 평가 벤치마크 WildBench 제시"
       ],
       "tags": [
         "Agent",
-        "RAG",
-        "Vision",
-        "Long Video",
-        "MLLM",
-        "Multimodal",
-        "Video",
-        "Benchmark"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "긴 영상 기반 QA 시스템에서 MLLM의 성능을 향상시키기 위한 효과적인 clue hunting 방법론을 제시하며, 실제 서비스에 적용하여 사용자 경험을 개선할 수 있습니다.",
-      "recommended_actions": [
-        "VideoDetective 프레임워크를 기반으로 자체 데이터셋에 대한 실험 진행",
-        "MLLM backbone을 변경하며 성능 변화 관찰",
-        "Affinity graph 구축 방식 및 propagation 알고리즘 개선"
-      ],
-      "risks_and_limits": [
-        "Affinity graph 구축 시 계산 복잡도가 높을 수 있음",
-        "특정 유형의 영상 (예: 매우 동적인 장면 변화)에서 성능 저하 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22285.png",
-      "local_image_path": "images/VideoDetective_Clue_Hunting_via_both_Extrinsic_Query_and_Intrinsic_Relevance_for_Long_Video_Understa_img.jpg",
-      "local_figures": [
-        "images/VideoDetective_Clue_Hunting_via_both_Extrinsic_Que_fig_1.png"
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "SpatialBoost: Enhancing Visual Representation through Language-Guided Reasoning",
-      "paper_id": "2603.22057",
-      "url": "https://huggingface.co/papers/2603.22057",
-      "arxiv_url": "https://arxiv.org/abs/2603.22057",
-      "upvotes": 38,
-      "summary": "SpatialBoost는 LLM을 활용하여 이미지 인코더의 3D 공간 인식 능력을 향상시켜, ADE20K 데이터셋에서 DINOv3의 성능을 3.8% 향상시키는 등 다양한 비전 태스크에서 SOTA를 달성했다.",
-      "korean_abstract": "기존 이미지 표현 모델은 2D 이미지 데이터에 주로 학습되어 3D 공간 관계 파악에 어려움을 겪는다. 이러한 한계를 극복하기 위해 SpatialBoost는 언어적 설명을 통해 3D 공간 지식을 주입하여 시각 인코더의 공간 인식 능력을 강화하는 프레임워크를 제안한다. 이 방법은 2D 이미지의 3D 공간 정보를 언어적 표현으로 변환하고, LLM을 통해 시각 인코더에 공간 지식을 주입한다. 특히, CoT 추론 과정을 통해 계층적인 공간 이해를 구축한다. SpatialBoost를 DINOv3와 같은 SOTA 모델에 적용한 결과, ADE20K 데이터셋에서 3.8%의 성능 향상을 보여 3D 인식 및 일반 비전 능력 향상에 기여했다.",
-      "key_points": [
-        "LLM을 활용하여 이미지 인코더의 3D 공간 인식 능력 향상",
-        "CoT 추론을 통한 계층적 공간 이해 구축",
-        "DINOv3 등 SOTA 모델에 적용하여 성능 향상 검증"
-      ],
-      "tags": [
-        "Vision",
-        "LLM",
-        "3D",
-        "Spatial Reasoning",
-        "Reasoning",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "이미지 기반 서비스를 개발할 때, SpatialBoost를 활용하면 3D 공간 정보에 대한 이해도를 높여 더욱 정확하고 풍부한 정보를 제공할 수 있다. 특히 로봇, 자율주행, AR/VR 분야에서 유용하게 활용될 수 있다.",
-      "recommended_actions": [
-        "SpatialBoost를 다른 이미지 인코더 모델에 적용해보기",
-        "CoT 추론 과정에서 사용되는 프롬프트 엔지니어링 개선",
-        "특정 3D 공간 정보가 중요한 도메인에 적용하여 성능 테스트"
-      ],
-      "risks_and_limits": [
-        "LLM의 성능에 따라 SpatialBoost의 효과가 달라질 수 있음",
-        "3D 공간 정보를 언어적으로 표현하는 과정에서 정보 손실 발생 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22057.png",
-      "local_image_path": "images/SpatialBoost_Enhancing_Visual_Representation_through_Language-Guided_Reasoning_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "OpenResearcher: A Fully Open Pipeline for Long-Horizon Deep Research Trajectory Synthesis",
-      "paper_id": "2603.20278",
-      "url": "https://huggingface.co/papers/2603.20278",
-      "arxiv_url": "https://arxiv.org/abs/2603.20278",
-      "upvotes": 36,
-      "summary": "웹 API 의존성 없이 오프라인 환경에서 장기 연구 트래젝토리 생성을 위한 완전 공개 파이프라인 OpenResearcher를 제시하고, 이를 통해 연구 에이전트의 성능 향상 및 분석 가능성을 높임.",
-      "korean_abstract": "기존 연구 에이전트 학습은 웹 API 의존성으로 인해 비용, 불안정성, 재현성 문제가 있었다. 이러한 문제를 해결하기 위해, 본 논문에서는 15M 문서 코퍼스를 활용하여 검색, 열기, 찾기 기능을 오프라인에서 수행하는 OpenResearcher 파이프라인을 제안한다. GPT-OSS-120B를 이용하여 97K 이상의 트래젝토리를 생성하고, 30B-A3B 모델을 fine-tuning하여 BrowseComp-Plus에서 54.8% 정확도를 달성했다. 또한, 오프라인 환경에서의 제어된 분석을 통해 데이터 필터링, 에이전트 설정, 검색 성공과 최종 답변 정확도 간의 관계에 대한 실질적인 통찰력을 얻었다.",
-      "key_points": [
-        "완전 공개된 오프라인 연구 트래젝토리 생성 파이프라인 제시",
-        "GPT-OSS-120B를 이용한 대규모 트래젝토리 합성 및 모델 fine-tuning",
-        "제어된 환경에서의 분석을 통한 연구 에이전트 설계 인사이트 제공"
-      ],
-      "tags": [
-        "Agent",
-        "Offline Learning",
-        "Reproducibility",
-        "Search",
-        "RAG",
-        "Reasoning",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "연구 에이전트 개발 시, 웹 API 의존성 없이 오프라인 환경에서 데이터 수집 및 모델 학습이 가능하며, 다양한 실험 및 분석을 통해 에이전트 성능 개선에 활용할 수 있다.",
-      "recommended_actions": [
-        "OpenResearcher 파이프라인을 활용하여 자체 연구 데이터셋 구축",
-        "제공되는 모델 체크포인트를 기반으로 추가 fine-tuning 진행",
-        "오프라인 환경에서의 다양한 실험을 통해 에이전트 성능 개선 전략 탐색"
-      ],
-      "risks_and_limits": [
-        "오프라인 환경 구축 및 관리에 대한 추가적인 노력 필요",
-        "특정 도메인에 특화된 데이터셋 구축의 어려움"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.20278.png",
-      "local_image_path": "images/OpenResearcher_A_Fully_Open_Pipeline_for_Long-Horizon_Deep_Research_Trajectory_Synthesis_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "Manifold-Aware Exploration for Reinforcement Learning in Video Generation",
-      "paper_id": "2603.21872",
-      "url": "https://huggingface.co/papers/2603.21872",
-      "arxiv_url": "https://arxiv.org/abs/2603.21872",
-      "upvotes": 30,
-      "summary": "비디오 생성 강화 학습 시, 사전 학습 모델의 데이터 다양체(manifold) 내에서 탐색을 제한하여 롤아웃 품질을 유지하고 보상 추정의 신뢰성을 높이는 SAGE-GRPO 방법론을 제안, 기존 방법 대비 성능 향상.",
-      "korean_abstract": "비디오 생성 분야에서 Group Relative Policy Optimization (GRPO) 방법은 언어 모델이나 이미지 모델에 비해 성능이 떨어지는데, 이는 복잡한 해 공간과 ODE-to-SDE 변환 과정에서 발생하는 과도한 노이즈 때문입니다. 이 문제를 해결하기 위해 사전 학습된 모델을 유효한 비디오 데이터 다양체로 간주하고, 다양체 근처에서 탐색을 제한하여 롤아웃 품질을 유지하고 보상 추정의 신뢰성을 높이는 방법을 제안합니다. SAGE-GRPO는 미시적 수준에서는 로그 곡률 보정 및 기울기 정규화, 거시적 수준에서는 이중 신뢰 영역 및 단계별 제약을 통해 다양체 내 탐색을 안정화합니다. HunyuanVideo1.5 데이터셋에서 VideoAlign 보상 모델을 사용하여 평가한 결과, VQ, MQ, TA 및 시각적 지표(CLIPScore, PickScore)에서 기존 방법 대비 일관된 성능 향상을 보였습니다.",
-      "key_points": [
-        "비디오 생성 강화 학습 시 탐색 공간을 데이터 다양체 내로 제한하여 안정성 확보",
-        "미시적, 거시적 수준에서 다양체 제약 조건을 적용하는 SAGE-GRPO 방법론 제안",
-        "HunyuanVideo1.5 데이터셋에서 기존 방법 대비 성능 향상 검증"
-      ],
-      "tags": [
-        "Reinforcement Learning",
+        "World Model",
+        "Game AI",
+        "Action Recognition",
         "Video Generation",
-        "Exploration",
-        "GRPO",
-        "Vision",
         "Video",
         "Evaluation",
         "Safety"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "비디오 생성 모델의 강화 학습 시 불안정한 롤아웃과 보상 추정 문제를 해결하여, 고품질 비디오 생성을 위한 안정적인 학습 환경을 제공하고, 생성 모델의 성능을 향상시킬 수 있습니다.",
+      "practical_relevance": "게임 AI, 특히 에이전트의 행동 학습 및 예측 능력 향상에 기여할 수 있으며, 게임 개발 과정에서 AI 기반의 자동화된 콘텐츠 생성 및 테스트에 활용될 수 있습니다.",
       "recommended_actions": [
-        "SAGE-GRPO의 로그 곡률 보정 및 기울기 정규화 기법을 다른 비디오 생성 모델에 적용해보기",
-        "이중 신뢰 영역 및 단계별 제약 조건을 활용하여 장기 의존성 문제를 해결하는 방안 연구",
-        "다양한 비디오 데이터셋 및 보상 모델에 SAGE-GRPO를 적용하여 일반화 성능 평가"
+        "WildWorld 데이터셋을 활용하여 액션 기반의 비디오 예측 모델 학습",
+        "WildBench를 사용하여 기존 모델의 성능 평가 및 개선",
+        "게임 에이전트의 행동 계획 및 제어에 WildWorld 기반 모델 적용"
       ],
       "risks_and_limits": [
-        "SAGE-GRPO의 성능이 특정 데이터셋(HunyuanVideo1.5) 및 보상 모델(VideoAlign)에 의존적일 수 있음",
-        "다양체 근처 탐색 제약이 모델의 창의성을 제한할 수 있음"
+        "데이터셋이 특정 게임에 국한되어 있어 일반적인 환경에서의 성능 보장 어려움",
+        "상태 표현의 정확성 및 완전성에 대한 검증 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21872.png",
-      "local_image_path": "images/Manifold-Aware_Exploration_for_Reinforcement_Learning_in_Video_Generation_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23497.png",
+      "local_image_path": "images/WildWorld_A_Large-Scale_Dataset_for_Dynamic_World_Modeling_with_Actions_and_Explicit_State_toward_Ge_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 3,
+      "title": "SpecEyes: Accelerating Agentic Multimodal LLMs via Speculative Perception and Planning",
+      "paper_id": "2603.23483",
+      "url": "https://huggingface.co/papers/2603.23483",
+      "arxiv_url": "https://arxiv.org/abs/2603.23483",
+      "upvotes": 41,
+      "summary": "SpecEyes는 경량 MLLM을 활용하여 에이전트의 추론 과정을 예측하고 불필요한 도구 호출을 생략함으로써, 에이전트 기반 시스템의 지연 시간을 단축하고 처리량을 향상시키는 프레임워크이다.",
+      "korean_abstract": "에이전트 기반 멀티모달 LLM은 반복적인 시각 도구 호출을 통해 뛰어난 추론 능력을 보여주지만, 순차적인 인지, 추론, 도구 호출 루프는 상당한 오버헤드를 발생시킨다. 이러한 에이전트 깊이는 지연 시간을 증가시키고 시스템 수준의 동시성을 제한한다. SpecEyes는 경량 MLLM을 활용하여 실행 경로를 예측하고, 고비용 도구 체인의 조기 종료를 가능하게 하는 에이전트 수준의 추론 가속화 프레임워크이다. 답변 분리 가능성에 기반한 인지 게이팅 메커니즘을 도입하여 모델의 신뢰도를 정량화하고, 이기종 병렬 퍼널을 설계하여 소형 모델의 동시성을 활용해 대형 모델의 순차적 실행을 가린다. V* Bench, HR-Bench, POPE에서의 실험 결과, SpecEyes는 정확도를 유지하거나 향상시키면서(최대 +6.7%) 에이전트 기반 시스템의 속도를 1.1-3.35배 향상시켜 동시 워크로드 하에서 처리량을 높였다.",
+      "key_points": [
+        "경량 MLLM을 이용한 추론 과정 예측 및 불필요한 도구 호출 제거",
+        "답변 분리 가능성에 기반한 인지 게이팅 메커니즘 도입",
+        "이기종 병렬 퍼널을 통한 시스템 처리량 극대화"
+      ],
+      "tags": [
+        "Agent",
+        "MLLM",
+        "Inference",
+        "Optimization",
+        "Reasoning",
+        "Multimodal",
+        "Vision"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "에이전트 기반 시스템의 성능 병목 현상을 해결하고, 더 빠른 응답 시간과 높은 처리량을 제공하여 사용자 경험을 개선할 수 있다. 특히 복잡한 멀티모달 작업을 처리하는 시스템에 유용하다.",
+      "recommended_actions": [
+        "SpecEyes 프레임워크를 기존 에이전트 시스템에 통합하여 성능 향상 실험",
+        "경량 MLLM의 성능과 정확도를 조정하여 최적의 균형점 찾기",
+        "인지 게이팅 메커니즘의 다양한 임계값을 실험하여 시스템의 신뢰도 확보"
+      ],
+      "risks_and_limits": [
+        "경량 MLLM의 예측 정확도가 낮을 경우 오히려 성능 저하 발생 가능성",
+        "인지 게이팅 메커니즘의 신뢰도 측정 오류 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23483.png",
+      "local_image_path": "images/SpecEyes_Accelerating_Agentic_Multimodal_LLMs_via_Speculative_Perception_and_Planning_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+      "paper_id": "2603.22386",
+      "url": "https://huggingface.co/papers/2603.22386",
+      "arxiv_url": "https://arxiv.org/abs/2603.22386",
+      "upvotes": 39,
+      "summary": "LLM 에이전트 워크플로우 최적화 방법을 정적/동적 방식으로 분류하고, 평가 기준을 제시하여 향후 연구 방향을 제시합니다.",
+      "korean_abstract": "LLM 기반 시스템은 LLM 호출, 정보 검색, 도구 사용 등을 통합하여 복잡한 작업을 해결하는 데 널리 사용됩니다. 본 논문은 이러한 시스템의 핵심인 실행 가능한 워크플로우(Agentic Computation Graphs, ACG) 설계 및 최적화 방법을 조사합니다. 워크플로우 구조 결정 시점에 따라 정적/동적 방법으로 분류하고, 최적화 대상 및 평가 신호 측면에서 기존 연구를 분석합니다. 또한, 재사용 가능한 템플릿, 런타임 그래프, 실행 추적을 구분하여 설계 선택과 실제 동작을 분리합니다. 마지막으로, 그래프 수준 속성, 실행 비용, 견고성, 구조적 변화를 고려한 평가 관점을 제시하여 LLM 에이전트 워크플로우 최적화 연구의 발전 방향을 제시합니다.",
+      "key_points": [
+        "LLM 에이전트 워크플로우를 정적/동적 방식으로 분류하는 새로운 프레임워크 제시",
+        "워크플로우 최적화의 다양한 측면(최적화 대상, 평가 신호) 분석",
+        "워크플로우 평가를 위한 그래프 수준 속성, 실행 비용, 견고성 등 새로운 지표 제시"
+      ],
+      "tags": [
+        "Agent",
+        "Workflow",
+        "Optimization",
+        "LLM",
+        "RAG",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "LLM 에이전트 설계 시 워크플로우 구조를 선택하고 최적화하는 데 도움이 되며, 다양한 평가 지표를 통해 성능을 개선할 수 있습니다.",
+      "recommended_actions": [
+        "정적 워크플로우 템플릿 기반 에이전트 구축 후 성능 측정",
+        "동적 워크플로우 생성 방식 적용 후 성능 비교",
+        "제시된 그래프 수준 속성 기반 워크플로우 분석 및 개선"
+      ],
+      "risks_and_limits": [
+        "제시된 평가 지표가 모든 LLM 에이전트의 특성을 포괄하지 못할 수 있음",
+        "동적 워크플로우 최적화는 높은 계산 비용을 요구할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22386.png",
+      "local_image_path": "images/From_Static_Templates_to_Dynamic_Runtime_Graphs_A_Survey_of_Workflow_Optimization_for_LLM_Agents_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "PEARL: Personalized Streaming Video Understanding Model",
+      "paper_id": "2603.20422",
+      "url": "https://huggingface.co/papers/2603.20422",
+      "arxiv_url": "https://arxiv.org/abs/2603.20422",
+      "upvotes": 36,
+      "summary": "실시간 스트리밍 비디오에서 개인화된 개념 이해를 위한 새로운 벤치마크(PEARL-Bench)와 강력한 베이스라인 모델(PEARL)을 제시하여, 미래 AI 어시스턴트 개발에 기여할 수 있음.",
+      "korean_abstract": "기존의 개인화 방법들은 주로 정적인 이미지나 오프라인 비디오에 국한되어 있어, 실시간 상호작용이 중요한 AI 어시스턴트 개발에 한계가 있었다. 이러한 문제를 해결하기 위해, 본 논문에서는 개인화된 스트리밍 비디오 이해(PSVU)라는 새로운 태스크를 정의하고, 이를 평가하기 위한 벤치마크인 PEARL-Bench를 제안한다. 또한, plug-and-play 방식으로 적용 가능한 강력한 베이스라인 모델인 PEARL을 개발하여, 다양한 아키텍처에 적용했을 때 state-of-the-art 성능을 달성했다. PEARL-Bench는 132개의 비디오와 2,173개의 세분화된 어노테이션으로 구성되어 있으며, 자동 생성 및 인간 검증 파이프라인을 통해 품질을 보장한다. 이 연구는 비전-언어 모델(VLM) 개인화 연구를 촉진하고, 스트리밍 개인화 AI 어시스턴트 연구에 영감을 줄 것으로 기대된다.",
+      "key_points": [
+        "개인화 스트리밍 비디오 이해 (PSVU) 라는 새로운 태스크 정의",
+        "PSVU 평가를 위한 벤치마크 PEARL-Bench 제시",
+        "Plug-and-play 방식의 베이스라인 모델 PEARL 개발 및 SOTA 달성"
+      ],
+      "tags": [
+        "VLM",
+        "Personalization",
+        "Streaming",
+        "Benchmark",
+        "Video Understanding",
+        "Multimodal",
+        "Vision",
+        "Video",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "실시간 비디오 분석 및 개인화된 응답이 필요한 AI 어시스턴트 개발에 직접적으로 활용될 수 있으며, 특히 스트리밍 환경에서의 사용자 맞춤형 경험 제공에 유용하다.",
+      "recommended_actions": [
+        "PEARL-Bench 데이터셋을 활용하여 기존 모델의 PSVU 성능 평가",
+        "PEARL 모델을 기반으로 자사 서비스에 맞는 개인화 전략 실험",
+        "스트리밍 데이터에 특화된 모델 구조 및 학습 방법 연구"
+      ],
+      "risks_and_limits": [
+        "PEARL-Bench 데이터셋의 편향 가능성 (다양성 확보 노력에도 불구하고)",
+        "PEARL 모델의 성능이 특정 비디오 콘텐츠에 따라 달라질 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.20422.png",
+      "local_image_path": "images/PEARL_Personalized_Streaming_Video_Understanding_Model_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "DA-Flow: Degradation-Aware Optical Flow Estimation with Diffusion Models",
+      "paper_id": "2603.23499",
+      "url": "https://huggingface.co/papers/2603.23499",
+      "arxiv_url": "https://arxiv.org/abs/2603.23499",
+      "upvotes": 35,
+      "summary": "Diffusion 모델의 이미지 복원 중간 표현이 손상 인식에 효과적임을 활용, 열화된 비디오에서 Optical Flow 추정 성능을 크게 향상시키는 새로운 프레임워크 DA-Flow를 제시.",
+      "korean_abstract": "기존 Optical Flow 모델은 고품질 데이터에서 학습되었기 때문에 실제 환경의 손상(blur, noise, 압축)에 취약합니다. 이러한 문제점을 해결하기 위해, 본 논문에서는 열화 인식 Optical Flow라는 새로운 task를 정의하고, 이미지 복원 diffusion 모델의 중간 표현이 손상 인식에 효과적이라는 점을 활용합니다. Diffusion 모델에 시공간 attention을 적용하여 인접 프레임 간의 관계를 학습하고, 이를 convolutional feature와 융합하는 DA-Flow 프레임워크를 제안합니다. DA-Flow는 다양한 벤치마크에서 기존 Optical Flow 방법들을 능가하는 성능을 보여줍니다.",
+      "key_points": [
+        "열화 인식 Optical Flow라는 새로운 task 정의",
+        "Diffusion 모델의 중간 표현이 손상 인식에 효과적임을 발견",
+        "Diffusion feature와 convolutional feature를 융합하는 DA-Flow 프레임워크 제안"
+      ],
+      "tags": [
+        "Optical Flow",
+        "Diffusion Model",
+        "Image Restoration",
+        "Video Processing",
+        "Computer Vision",
+        "Vision",
+        "Video",
+        "Benchmark",
+        "Optimization"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "실제 비디오 처리 시스템에서 발생하는 다양한 열화 환경에서도 robust한 Optical Flow 추정이 가능하게 하여, 영상 분석 및 컴퓨터 비전 시스템의 신뢰성을 향상시킬 수 있습니다.",
+      "recommended_actions": [
+        "DA-Flow를 실제 비디오 데이터에 적용하여 성능 테스트",
+        "Diffusion 모델의 구조 및 학습 방법을 변경하여 DA-Flow 성능 개선",
+        "DA-Flow를 다른 영상 처리 task(예: object tracking)에 적용"
+      ],
+      "risks_and_limits": [
+        "Diffusion 모델의 계산 비용이 높아 실시간 처리에 어려움이 있을 수 있음",
+        "특정 유형의 열화에 대해서만 효과적일 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23499.png",
+      "local_image_path": "images/DA-Flow_Degradation-Aware_Optical_Flow_Estimation_with_Diffusion_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM",
+      "paper_id": "2603.23386",
+      "url": "https://huggingface.co/papers/2603.23386",
+      "arxiv_url": "https://arxiv.org/abs/2603.23386",
+      "upvotes": 33,
+      "summary": "SIMART는 MLLM을 사용하여 복잡한 3D 메시를 시뮬레이션 가능한 articulated asset으로 분해하는 새로운 프레임워크로, 기존 방식의 메모리 문제를 해결하고 고품질의 interactive object 생성을 가능하게 합니다.",
+      "korean_abstract": "embodied AI 및 물리 시뮬레이션에서 고품질 articulated 3D asset의 중요성이 증가하고 있지만, 기존 3D 생성 방식은 주로 static mesh에 집중되어 있어 interactive object 생성에 어려움이 있습니다. 기존 방법들은 multi-stage pipeline으로 인해 오류가 누적되는 문제가 있었습니다. 이를 해결하기 위해, SIMART는 part-level 분해와 kinematic 예측을 동시에 수행하는 unified MLLM 프레임워크를 제안합니다. Sparse 3D VQ-VAE를 도입하여 token 수를 70% 줄임으로써 고충실도 multi-part assembly를 가능하게 했습니다. PartNet-Mobility 및 AIGC 데이터셋에서 SOTA 성능을 달성했으며, 물리 기반 로봇 시뮬레이션을 가능하게 합니다.",
+      "key_points": [
+        "Sparse 3D VQ-VAE를 통한 토큰 수 감소 및 메모리 효율성 향상",
+        "Unified MLLM 프레임워크를 통한 part-level 분해 및 kinematic 예측 동시 수행",
+        "PartNet-Mobility 및 AIGC 데이터셋에서 SOTA 성능 달성"
+      ],
+      "tags": [
+        "3D Generation",
+        "MLLM",
+        "Simulation",
+        "Robotics",
+        "AI"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "SIMART는 로봇 시뮬레이션, 게임 개발, 가상현실 등 다양한 분야에서 활용 가능한 고품질 articulated 3D asset 생성을 자동화하여 개발 효율성을 높일 수 있습니다. 특히, 물리 엔진과 연동하여 interactive object의 동작을 시뮬레이션하는 데 유용합니다.",
+      "recommended_actions": [
+        "Sparse 3D VQ-VAE를 활용한 3D 모델 압축 및 생성 실험",
+        "SIMART 프레임워크를 활용한 articulated object 생성 파이프라인 구축",
+        "생성된 asset을 활용한 로봇 시뮬레이션 환경 구축 및 테스트"
+      ],
+      "risks_and_limits": [
+        "MLLM의 성능에 따라 생성되는 asset의 품질이 달라질 수 있음",
+        "복잡한 articulated object의 경우, 여전히 계산 비용이 높을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23386.png",
+      "local_image_path": "images/SIMART_Decomposing_Monolithic_Meshes_into_Sim-ready_Articulated_Assets_via_MLLM_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 8,
+      "title": "UniGRPO: Unified Policy Optimization for Reasoning-Driven Visual Generation",
+      "paper_id": "2603.23500",
+      "url": "https://huggingface.co/papers/2603.23500",
+      "arxiv_url": "https://arxiv.org/abs/2603.23500",
+      "upvotes": 28,
+      "summary": "UniGRPO는 reasoning을 통해 이미지 생성 품질을 향상시키는 강화 학습 프레임워크로, 텍스트와 이미지 생성 정책을 공동으로 최적화하여 복잡한 멀티턴 상호작용 및 편집 시나리오에 대한 확장성을 제공합니다.",
+      "korean_abstract": "최근 텍스트와 이미지의 interleaved 생성을 지원하는 통합 모델이 주목받고 있으며, 특히 autoregressive 모델링과 flow matching이 주류를 이루고 있습니다. 본 논문에서는 interleaved 생성을 위한 강화 학습 프레임워크인 UniGRPO를 제안합니다. UniGRPO는 reasoning을 통해 사용자 프롬프트를 확장하고 이미지를 합성하는 단일 라운드 생성에 적용되며, 텍스트 및 이미지 생성 정책을 GRPO를 통해 공동으로 최적화합니다. FlowGRPO의 classifier-free guidance 제거 및 velocity field에 대한 MSE penalty 적용을 통해 멀티턴 상호작용에 대한 확장성을 확보하고 reward hacking을 방지합니다. 실험 결과, UniGRPO는 reasoning을 통한 이미지 생성 품질을 크게 향상시키며, 완전한 interleaved 모델의 post-training을 위한 강력하고 확장 가능한 기반을 제공합니다.",
+      "key_points": [
+        "텍스트와 이미지 생성을 위한 통합 강화 학습 프레임워크 UniGRPO 제안",
+        "GRPO 및 FlowGRPO를 활용하여 텍스트 및 이미지 생성 정책 공동 최적화",
+        "Classifier-free guidance 제거 및 MSE penalty 적용을 통한 멀티턴 상호작용 확장성 확보"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Image Generation",
+        "Reasoning",
+        "Flow Matching",
+        "RAG",
+        "Multimodal",
+        "Vision"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "UniGRPO는 reasoning 기반 이미지 생성 모델 개발에 적용하여 이미지 품질을 향상시키고, 복잡한 멀티턴 상호작용을 지원하는 interleaved 생성 모델 개발에 활용될 수 있습니다.",
+      "recommended_actions": [
+        "UniGRPO를 기반으로 이미지 생성 모델을 fine-tuning하여 성능 향상 실험",
+        "UniGRPO의 확장성을 활용하여 멀티턴 상호작용 기반 이미지 편집 모델 개발",
+        "Velocity field에 대한 MSE penalty의 효과를 다양한 데이터셋 및 모델 구조에서 검증"
+      ],
+      "risks_and_limits": [
+        "Sparse reward 환경에서의 강화 학습의 어려움",
+        "복잡한 reasoning 과정에 대한 최적화 문제"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23500.png",
+      "local_image_path": "images/UniGRPO_Unified_Policy_Optimization_for_Reasoning-Driven_Visual_Generation_img.jpg",
       "local_figures": []
     },
     {
       "rank": 9,
-      "title": "F4Splat: Feed-Forward Predictive Densification for Feed-Forward 3D Gaussian Splatting",
-      "paper_id": "2603.21304",
-      "url": "https://huggingface.co/papers/2603.21304",
-      "arxiv_url": "https://arxiv.org/abs/2603.21304",
-      "upvotes": 30,
-      "summary": "F4Splat은 Feed-Forward 3D Gaussian Splatting에서 공간 복잡도와 다중 뷰 중첩에 따라 가우시안을 적응적으로 할당하여 더 적은 가우시안으로 고품질 3D 표현을 가능하게 함.",
-      "korean_abstract": "Feed-forward 3D Gaussian Splatting은 단일 패스 재구성과 실시간 렌더링을 가능하게 하지만, 획일적인 가우시안 할당으로 인해 중복이 발생하고 전체 가우시안 수를 제어하기 어렵다는 문제가 있다. 이러한 문제를 해결하기 위해 F4Splat은 영역별 밀도화 점수를 예측하여 필요한 가우시안 밀도를 추정하고, 재학습 없이 가우시안 예산을 명시적으로 제어할 수 있도록 한다. 이를 통해 간단한 영역에서는 중복을 줄이고, 겹치는 뷰에서는 중복 가우시안을 최소화하여 고품질 3D 표현을 생성한다. 실험 결과, F4Splat은 기존의 보정되지 않은 feed-forward 방식보다 우수한 novel-view synthesis 성능을 달성하면서도 훨씬 적은 가우시안을 사용한다.",
+      "title": "RealMaster: Lifting Rendered Scenes into Photorealistic Video",
+      "paper_id": "2603.23462",
+      "url": "https://huggingface.co/papers/2603.23462",
+      "arxiv_url": "https://arxiv.org/abs/2603.23462",
+      "upvotes": 22,
+      "summary": "3D 엔진의 제어력과 비디오 diffusion 모델의 사실성을 결합하여 렌더링된 비디오를 photorealistic 비디오로 변환하는 RealMaster 방법론을 제시합니다.",
+      "korean_abstract": "최신 비디오 생성 모델은 뛰어난 사실감을 제공하지만, 특정 장면 요구 사항에 맞춰 콘텐츠를 정밀하게 제어하기 어렵고, 명시적인 geometry 정보 없이 3D 일관성을 보장할 수 없습니다. 반면, 3D 엔진은 모든 장면 요소를 세밀하게 제어하고 3D 일관성을 기본적으로 제공하지만, 결과물의 사실성이 떨어집니다. 이러한 sim-to-real 간극을 해소하기 위해 RealMaster는 3D 엔진의 geometry와 dynamics를 정확히 유지하면서 비디오 diffusion 모델을 활용하여 렌더링된 비디오를 photorealistic 비디오로 변환합니다. anchor-based propagation 전략을 통해 학습 데이터를 생성하고, IC-LoRA를 학습시켜 파이프라인의 제약 조건을 넘어 일반화된 모델을 구축합니다. GTA-V 시퀀스에서 RealMaster는 기존 비디오 편집 baseline을 능가하는 성능을 보여줍니다.",
       "key_points": [
-        "공간 복잡도와 다중 뷰 중첩을 고려한 적응적 가우시안 할당",
-        "영역별 밀도화 점수 예측을 통한 가우시안 밀도 추정 및 예산 제어",
-        "기존 방식 대비 적은 가우시안으로 우수한 novel-view synthesis 성능 달성"
+        "3D 엔진의 제어력과 비디오 diffusion 모델의 사실성을 결합",
+        "Anchor-based propagation 전략을 사용한 학습 데이터 생성",
+        "IC-LoRA를 통해 일반화 성능 향상"
       ],
       "tags": [
-        "3D Gaussian Splatting",
-        "Novel View Synthesis",
-        "Rendering",
-        "Computer Vision"
+        "Video Generation",
+        "Diffusion Model",
+        "3D Rendering",
+        "Sim-to-Real",
+        "RAG",
+        "Video",
+        "Evaluation",
+        "Inference",
+        "Distillation",
+        "Safety"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "F4Splat은 3D Gaussian Splatting의 효율성을 높여 실시간 렌더링 및 재구성 성능을 개선하고, 리소스 사용량을 줄일 수 있어 다양한 3D 관련 애플리케이션 개발에 유용하다.",
+      "practical_relevance": "3D 콘텐츠 제작 파이프라인에서 사실적인 비디오 생성을 자동화하고, 게임, 영화 등 다양한 분야에서 활용될 수 있습니다. 특히, 기존 3D 엔진의 한계를 극복하고 고품질 비디오 제작이 가능하게 합니다.",
       "recommended_actions": [
-        "F4Splat을 기존 3D Gaussian Splatting 파이프라인에 통합하여 성능 향상 실험",
-        "다양한 데이터셋 및 환경에서 F4Splat의 적응적 가우시안 할당 전략 테스트",
-        "F4Splat의 밀도화 점수 예측 모델을 개선하여 가우시안 예산 제어 정확도 향상"
+        "RealMaster 파이프라인을 실제 3D 렌더링 파이프라인에 통합하여 테스트",
+        "IC-LoRA 학습 시 다양한 데이터셋 및 파라미터 설정을 실험",
+        "생성된 비디오의 품질 평가를 위한 자동화된 metric 개발"
       ],
       "risks_and_limits": [
-        "밀도화 점수 예측 모델의 정확도에 따라 성능이 달라질 수 있음",
-        "복잡한 장면에서는 여전히 많은 가우시안이 필요할 수 있음"
+        "복잡한 장면이나 특수한 효과에 대한 일반화 성능이 제한적일 수 있음",
+        "학습 데이터 생성 과정에서 anchor 프레임의 품질에 따라 결과가 크게 달라질 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.21304.png",
-      "local_image_path": "images/F4Splat_Feed-Forward_Predictive_Densification_for_Feed-Forward_3D_Gaussian_Splatting_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23462.png",
+      "local_image_path": "images/RealMaster_Lifting_Rendered_Scenes_into_Photorealistic_Video_img.jpg",
       "local_figures": []
     }
   ]
