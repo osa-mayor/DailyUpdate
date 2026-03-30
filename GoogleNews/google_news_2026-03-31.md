@@ -1,0 +1,187 @@
+# 🌏 Google News Tech Digest (2026년 03월 31일)
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Microsoft unveils AI upgrades, rolls out Copilot Cowork to early-access customers - Reuters](https://www.reuters.com/business/microsoft-unveils-ai-upgrades-rolls-out-copilot-cowork-early-access-customers-2026-03-30/)
+**출처**: Reuters | **게시일**: Mon, 30 Mar 2026 17:48:51 GMT
+
+#### 📌 종합 요약
+Microsoft가 AI 업그레이드를 발표하고 Copilot Cowork를 얼리 액세스 고객에게 출시했습니다. 이번 업데이트는 AI 모델의 성능 향상과 새로운 협업 기능 제공에 초점을 맞추고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 발표에서 주목할 점은 Microsoft의 AI 모델 개선입니다. 구체적인 모델명이나 수치는 언급되지 않았지만, 성능 향상을 통해 사용자 경험을 개선하고 생산성을 높이는 데 기여할 것으로 예상됩니다. 특히 Copilot Cowork는 초기 액세스 고객에게 제공되어 실제 사용 환경에서의 피드백을 수집하고 개선하는 데 활용될 것입니다.
+
+#### ✅ 핵심 요점
+- Microsoft는 AI 기술을 활용하여 사용자 생산성을 향상시키는 데 주력하고 있습니다.
+- Copilot Cowork는 협업 기능을 강화하여 팀워크 효율성을 높이는 데 기여할 것으로 기대됩니다.
+- 얼리 액세스 프로그램을 통해 실제 사용자 피드백을 수집하여 제품을 개선하는 전략을 취하고 있습니다.
+
+**태그**: 생산성, Microsoft, AI, 협업, Copilot
+
+---
+
+### 2. [AI leaders align against Elon Musk - Axios](https://www.axios.com/2026/03/30/elon-musk-openai-altman-anthropic)
+**출처**: Axios | **게시일**: Mon, 30 Mar 2026 09:51:28 GMT
+
+#### 📌 종합 요약
+Axios 보도에 따르면, AI 분야의 주요 리더들이 Elon Musk에 대항하여 연대하고 있다. 이는 AI 기술 개발 방향과 관련된 이견에서 비롯된 것으로 보이며, 업계 내 긴장감을 고조시키고 있다.
+
+#### ⚙️ 기술적 성과 및 가치
+기사 원문이 짧아 구체적인 기술적 내용은 파악하기 어렵다. 다만, AI 리더들의 연대는 특정 기술 개발 접근 방식에 대한 지지를 의미할 수 있다. 예를 들어, 오픈소스 LLM 개발을 지지하거나, 특정 강화 학습 알고리즘의 효율성을 강조하는 등의 기술적 입장이 반영될 수 있다. 만약 Musk가 다른 접근 방식을 취한다면, 이는 기술 스택, 데이터 처리 방식, 모델 훈련 전략 등에서 차이를 의미할 수 있다.
+
+#### ✅ 핵심 요점
+- AI 업계 리더들이 Elon Musk에 대항하여 특정 입장을 공유하고 있다는 점이 핵심이다.
+- 이러한 연대는 AI 기술 개발 방향에 대한 업계 내 이견을 시사한다.
+- 향후 AI 기술 발전과 산업 생태계에 영향을 미칠 수 있는 잠재력을 내포하고 있다.
+
+**태그**: 인공지능, Elon Musk, AI, LLM, 기술 리더십
+
+---
+
+### 3. [Rezolve Ai Delivers 543% H2 Growth; Raises 2026 Revenue Guidance to $360M as Platform Achieves Global Infrastructure Scale - Rezolve](https://rezolve.com/press-releases/rezolve-ai-delivers-543-h2-growth-raises-2026-revenue-guidance-to-360m-as-platform-achieves-global-infrastructure-scale/)
+**출처**: Rezolve | **게시일**: Mon, 30 Mar 2026 12:05:23 GMT
+
+#### 📌 종합 요약
+Rezolve Ai는 Agentic Commerce 및 AI 기반 리테일 인프라 분야의 선두 주자로, 2025년 실적 발표에서 시장 기대치를 뛰어넘는 성과를 거두며 글로벌 규모로 확장되었습니다. 특히 하반기에 543%의 매출 성장을 기록했으며, 2026년 매출 가이던스를 3억 6천만 달러로 상향 조정했습니다. 이는 AI를 활용한 상거래의 핵심 인프라로 자리매김하려는 Rezolve Ai의 야심찬 목표를 반영합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Rezolve Ai의 플랫폼은 Intelligence, Discovery, Execution의 세 가지 핵심 요소로 구성된 Agentic Commerce 아키텍처를 통해 end-to-end 솔루션을 제공합니다. 이 플랫폼은 기존 검색 기반 상거래에서 Agentic Commerce로의 전환을 가속화하며, 특히 RezolvePay를 통해 기존 결제 시스템의 '통행료'를 우회하여 판매자에게 경제적 자율성을 제공합니다. 또한, 66%의 혼합 총 마진과 90% 이상의 핵심 소프트웨어 마진을 달성하며 운영 레버리지 효과를 입증했습니다.
+
+#### ✅ 핵심 요점
+- Rezolve Ai는 2025년 하반기에 543%의 매출 성장을 기록하며, 12월에만 1,940만 달러의 매출을 달성하여 연간 환산 매출액 2억 3,200만 달러 이상을 기록했습니다.
+- 2026년 전체 매출 가이던스를 3억 6천만 달러로 상향 조정했으며, 이는 이미 계약된 매출액 2억 3,200만 달러 이상을 기반으로 합니다.
+- Reward 인수를 통해 글로벌 은행, 리테일러, 결제 네트워크로의 확장 및 거래 생태계 채택을 가속화하고 있습니다.
+- Agentic Commerce: 사용자의 의도를 파악하고 자동으로 상품 검색, 추천, 구매를 실행하는 AI 기반 상거래 모델입니다. Rezolve Ai는 이 분야에서 핵심 인프라 역할을 수행하고자 합니다.
+
+**태그**: Revenue Growth, AI, FinTech, Retail Infrastructure, Infra
+
+---
+
+### 4. [Samsung-backed AI chip firm Rebellions raises $400 million ahead of IPO - CNBC](https://www.cnbc.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-ipo.html)
+**출처**: CNBC | **게시일**: Mon, 30 Mar 2026 13:00:01 GMT
+
+#### 📌 종합 요약
+삼성의 투자를 받은 AI 칩 스타트업 Rebellions가 IPO를 앞두고 4억 달러의 투자를 유치했다. 이번 투자는 미래에셋금융그룹과 한국성장금융이 주도했으며, Rebellions의 기업 가치를 23억 4천만 달러로 평가했다. Rebellions는 이번 투자금을 바탕으로 미국 시장으로 확장할 계획이다.
+
+#### ⚙️ 기술적 성과 및 가치
+Rebellions는 AI 추론(Inference)에 특화된 NPU(Neural Processing Unit) 칩인 Rebel100을 판매하며, 특히 에너지 효율성과 성능을 강조한다. 이 회사는 Meta나 xAI와 같은 대형 연구소를 주요 고객으로 삼고 있으며, 미국 내 고객사들과 PoC(Proof-of-Concept)를 진행 중이다. Rebellions는 Nvidia의 GPU가 AI 모델 훈련(Training)에 강점을 가지는 반면, 자사의 칩은 추론 과정에서 더 높은 에너지 효율과 성능을 제공한다고 주장한다.
+
+#### ✅ 핵심 요점
+- Rebellions는 한국 정부의 'K-Nvidia' 이니셔티브의 핵심 기업 중 하나로, 정부 자금을 지원받아 AI 칩 개발을 추진하고 있다.
+- 메모리 칩 확보에 어려움을 겪고 있지만, 삼성과 SK하이닉스가 투자자이기 때문에 다른 스타트업에 비해 유리한 위치를 점하고 있다고 밝혔다.
+- 이번 투자 유치를 통해 Rebellions는 미국 시장 진출을 가속화하고, IPO를 준비할 계획이다.
+
+**태그**: 반도체, NPU, Startup, 한국성장금융, K-Nvidia
+
+---
+
+### 5. [Bluesky Users Respond With Overwhelming Disgust to Platform’s New AI - Futurism](https://futurism.com/artificial-intelligence/bluesky-users-disgust-new-ai)
+**출처**: Futurism | **게시일**: Mon, 30 Mar 2026 14:40:16 GMT
+
+#### 📌 종합 요약
+Twitter의 대안으로 등장했던 Bluesky가 AI 기술 도입에 대한 사용자들의 강력한 반발에 직면했다. Bluesky는 과거 AI 학습을 위한 사용자 데이터 스크래핑에 반대 입장을 표명했지만, 최근 'Attie'라는 새로운 AI 앱을 발표하면서 사용자들의 거센 비판을 받고 있다. 사용자들은 AI 통합에 대한 불만을 노골적으로 드러내며, Bluesky의 AI 전략에 대한 근본적인 의문을 제기하고 있다.
+
+#### ⚙️ 기술적 성과 및 가치
+Attie는 사용자가 자연어 프롬프트를 사용하여 맞춤형 피드를 구성하거나, Bluesky의 Atmosphere 프로토콜을 기반으로 자체 Bluesky 앱을 구축할 수 있도록 지원하는 AI 기반 앱이다. 이 앱은 코드 작성 없이도 사용자가 원하는 대로 피드를 제어하고 구성할 수 있도록 설계되었다. 현재 Attie는 비공개 베타 테스트 중이며, 사용료 부과 가능성이 논의되고 있다.
+
+#### ✅ 핵심 요점
+- Bluesky는 과거 AI 학습을 위한 사용자 데이터 스크래핑에 반대하며, 경쟁 서비스인 X(구 Twitter)와 차별화를 시도했다.
+- Bluesky의 최고 혁신 책임자(Chief Innovation Officer)인 Jay Graber는 새로운 AI 앱 'Attie'를 발표했지만, 사용자들은 즉각적인 반감을 드러냈다.
+- Attie는 사용자가 자연어 프롬프트를 통해 맞춤형 피드를 만들거나, Atmosphere 프로토콜을 기반으로 자체 앱을 구축할 수 있도록 지원한다.
+- Bluesky는 Attie 사용에 대한 요금 부과를 고려하고 있지만, 사용자들의 반발로 인해 수익 창출에 어려움을 겪을 수 있다.
+
+**태그**: Atmosphere 프로토콜, Bluesky, Attie, AI, 사용자 반발
+
+---
+
+### 6. [AI and creativity (March 30, 2026) - Houston Public Media](https://www.houstonpublicmedia.org/articles/shows/houston-matters/2026/03/30/546862/ai-and-creative-professions-march-30-2026/)
+**출처**: Houston Public Media | **게시일**: Mon, 30 Mar 2026 16:02:32 GMT
+
+#### 📌 종합 요약
+휴스턴 공영 라디오(Houston Public Media)는 2026년 3월 30일 방송에서 AI가 창작 과정에 미치는 영향에 대한 휴스턴 지역 창작자들의 의견을 소개했다. 이 외에도 'No Kings' 시위, 부시 공항 대기 시간, NASA의 아르테미스 II 달 탐사 계획, 아폴로 계획 이전의 제미니 계획, 그리고 휴스턴 애스트로스의 개막 시리즈에 대한 소식을 다뤘다.
+
+#### ⚙️ 기술적 성과 및 가치
+기사 자체는 AI의 창작 과정 지원에 대한 구체적인 기술적 세부 사항을 제공하지 않는다. 다만, AI가 창작 과정에 '도움이 될 수 있다'는 점을 시사하며, 휴스턴 지역 창작자들의 의견을 통해 AI의 잠재적 활용 가능성을 탐색한다. 구체적인 AI 모델이나 알고리즘, 성능 지표 등은 언급되지 않았다.
+
+#### ✅ 핵심 요점
+- AI가 창작 과정에 긍정적인 영향을 미칠 수 있다는 새로운 연구 결과가 제시되었다.
+- 휴스턴 지역 창작자들이 AI의 창작 지원 가능성에 대한 다양한 의견을 제시했다.
+- 기사는 AI 외에도 다양한 지역 및 우주 탐사 관련 소식을 함께 다루었다.
+
+**태그**: 창작, 우주탐사, 제미니, Security, 아르테미스
+
+---
+
+### 7. [SFSU launches first-ever student AI awards - news.sfsu.edu](https://news.sfsu.edu/news/sfsu-launches-first-ever-student-ai-awards)
+**출처**: news.sfsu.edu | **게시일**: Mon, 30 Mar 2026 17:33:20 GMT
+
+#### 📌 종합 요약
+샌프란시스코 주립대학교(SFSU)가 학생들의 AI 분야 창의적 사고를 장려하고 이를 인정하기 위해 'SFSU 학생 AI 어워드'를 신설했다. 이 어워드는 혁신적인 도구 개발, AI 기반 예술, 윤리적 탐구, 실제 문제 해결 등 다양한 AI 활용 사례를 포상하며, 학생들이 AI를 통해 긍정적 및 부정적 영향을 비판적으로 고찰하도록 유도한다.
+
+#### ⚙️ 기술적 성과 및 가치
+이 어워드는 학생들이 AI 프로젝트를 통해 얻는 경험과 가시성을 높이는 데 중점을 둔다. 각 부문별 수상자에게는 500달러의 상금이 주어지며, 모든 승인된 제출물은 인증서와 디지털 배지를 받게 된다. 선정된 프로젝트는 SFSU AI 웹사이트에 소개되고, 결선 진출자들은 업계 리더 및 전문가들에게 자신의 작품을 발표할 기회를 얻는다. 또한, 이 어워드는 학생들이 이력서, 포트폴리오 또는 대학원 지원서에 활용할 수 있는 뛰어난 프로젝트를 구축할 수 있도록 지원한다.
+
+#### ✅ 핵심 요점
+- SFSU 학생 AI 어워드는 AI 분야에 대한 학생들의 참여를 장려하고, 실제 상황에서의 AI 적용 능력을 향상시키는 데 기여한다.
+- 이 어워드는 기술적 능력뿐만 아니라 AI의 윤리적, 사회적 영향에 대한 비판적 사고를 장려한다.
+- 학생들은 프로젝트 제안서 제출, 피치 비디오 제작 등의 과정을 통해 아이디어를 구체화하고 발표 능력을 향상시킬 수 있다.
+
+**태그**: 인공지능, 학생 어워드, 혁신, AI, SFSU
+
+---
+
+### 8. [UConn’s Dr. Linda Barry Helps Lead Statewide Conversation on AI, Equity & Communities of Color - UConn Today](https://today.uconn.edu/2026/03/uconns-dr-linda-barry-helps-lead-statewide-conversation-on-ai-equity-communities-of-color/)
+**출처**: UConn Today | **게시일**: Mon, 30 Mar 2026 15:39:35 GMT
+
+#### 📌 종합 요약
+코네티컷 주에서 인공지능(AI)이 교육, 경제, 기술 접근성에 미치는 영향과 유색인종 커뮤니티에 미치는 불균형 해소 방안을 모색하는 웨비나가 개최되었다. UConn 의과대학의 린다 배리 교수는 AI가 설계, 관리, 배포 방식에 따라 불평등을 심화시킬 수 있음을 강조하며, 문화적 겸손을 바탕으로 한 공정한 AI 개발의 중요성을 역설했다.
+
+#### ⚙️ 기술적 성과 및 가치
+배리 교수는 AI 시스템의 데이터 편향, 불투명한 알고리즘, 부적절한 도구 사용으로 인한 위험성을 지적하며, 공정한 AI 시스템 구축을 위해 유색인종 커뮤니티의 참여를 강조했다. 특히, AI 교육 및 의료 분야에서 문화적 맥락을 고려한 접근 방식의 필요성을 강조하며, 젊은 유색인종 학생들이 AI 분야에서 책임감 있는 창작자 및 의사 결정자로 성장할 수 있도록 지원하는 것이 중요하다고 언급했다.
+
+#### ✅ 핵심 요점
+- AI 기술이 교육, 경제, 기술 접근성에 미치는 영향에 대한 논의는 단순히 기술적인 문제가 아닌, 형평성, 권력, 기회의 문제로 접근해야 한다.
+- AI 시스템 개발 및 배포 과정에서 유색인종 커뮤니티의 참여를 보장하고, 문화적 겸손을 바탕으로 데이터 편향 및 알고리즘 불투명성과 같은 잠재적 위험을 해결해야 한다.
+- 디지털 격차는 건강, 기회, 권력의 격차와 연결되어 있으며, AI 기술의 공정한 접근을 보장하기 위한 실질적인 노력이 필요하다.
+
+**태그**: 인공지능, 디지털 격차, 유색인종, 형평성, 건강 형평성
+
+---
+
+### 9. [The Future is Human - Even With AI - Ithaca College](https://www.ithaca.edu/news/future-human-even-ai)
+**출처**: Ithaca College | **게시일**: Mon, 30 Mar 2026 15:20:26 GMT
+
+#### 📌 종합 요약
+이타카 칼리지는 인공지능(AI) 도입에 있어 기술 자체보다 인간 중심의 접근 방식을 강조하며, 학생들의 미래 경쟁력 확보와 윤리적 문제 해결을 위한 선제적 대응을 목표로 한다. AI 기술의 무분별한 도입보다는 교육적 가치와 핵심 가치를 강화하는 방향으로 AI를 통합하고자 노력하며, 투명하고 포괄적인 의사 결정 과정을 통해 AI 전략을 수립하고 있다.
+
+#### ⚙️ 기술적 성과 및 가치
+이타카 칼리지는 AI 도입에 대한 접근 방식으로, 대통령 직속 AI 워킹 그룹을 구성하여 2024년 8월부터 2025년 5월까지 운영하며, AI가 캠퍼스 운영, 교육, 학습에 미치는 영향을 다각도로 분석했다. 워킹 그룹은 데이터 프라이버시, 형평성, 신뢰와 관련된 위험을 인지하고, AI 사용에 대한 지침 원칙을 수립했다. 특히, 커리큘럼 및 강의실에서의 AI 활용은 교수진의 주도적인 논의를 통해 결정하도록 하여, AI 기술 도입에 대한 자율성을 보장했다.
+
+#### ✅ 핵심 요점
+- AI 기술 도입에 있어 인간 중심 접근 방식을 채택하여, 학생들의 미래 경쟁력 강화와 동시에 인간적인 가치를 보존하는 데 중점을 둔다.
+- AI 워킹 그룹을 통해 AI 기술의 교육적, 윤리적, 운영적 영향을 포괄적으로 검토하고, 투명하고 책임감 있는 AI 사용 지침을 마련한다.
+- AI 기술 도입에 대한 의사 결정 과정을 분산화하여, 교수진, 직원, 학생 등 다양한 이해 관계자의 의견을 수렴하고 반영한다.
+
+**태그**: 인공지능, Cloud, 교육, Rust, 대학교
+
+---
+
+### 10. [AI, Expertise, and Administrative Law - Penn Carey Law School](https://www.law.upenn.edu/live/news/18414-ai-expertise-and-administrative-law)
+**출처**: Penn Carey Law School | **게시일**: Mon, 30 Mar 2026 17:58:17 GMT
+
+#### 📌 종합 요약
+펜실베이니아 대학교 Carey Law School의 Cary Coglianese 교수는 Yale Journal on Regulation에 게재된 에세이에서 AI가 연방 기관 의사 결정에 미치는 영향과 한계를 분석했습니다. 특히, 행정 절차법(Administrative Procedure Act, APA)에 따른 정부 기관의 책임과 AI의 오용 가능성을 경고하며, AI 도구의 정책 권고가 기관의 신중한 판단을 대체할 수 없다고 강조합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Coglianese 교수는 Large Language Model(LLM)과 같은 범용 AI 도구가 제공하는 결과에 대해 맹신하는 것을 경계합니다. APA 하에서 행정 결정은 단순히 잘 읽혀진 택시 운전사의 의견과 같은 디지털 정보에 근거해서는 안 되며, AI의 '과신(overconfidence)' 문제를 지적합니다. AI 도구는 의사 결정을 지원하고 다양한 작업을 수행하는 데 유용할 수 있지만, 중요한 정책 질문에 대한 답변을 AI에 지나치게 의존하는 것은 위험하다고 경고합니다.
+
+#### ✅ 핵심 요점
+- AI 도구는 정책 권고를 생성할 수 있지만, 연방 기관 공무원의 신중한 판단을 대체할 수 없습니다.
+- 행정 절차법(APA)은 정부 기관이 중요한 규제 결정을 내릴 때 AI에 부당하게 의존하는 것을 방지하는 중요한 안전 장치입니다.
+- Large Language Model(LLM)과 같은 범용 AI 도구의 결과에 대해 지나치게 신뢰하는 것을 경계해야 합니다.
+
+**태그**: 의사결정, 행정법, 규제, AI, Large Language Model
+
+---
+
