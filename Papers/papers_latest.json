@@ -1,386 +1,383 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-03-30",
-  "generated_at": "2026-03-30T04:02:21.697771+09:00",
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31T04:02:31.442400+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. PixelSmile: Toward Fine-Grained Facial Expression Editing\n📝 요약: PixelSmile은 디퓨전 모델 기반으로 얼굴 표정 편집 시 정교한 제어와 identity 보존을 가능하게 하여, 기존 방식의 semantic overlap 문제를 해결하고 연속적인 표정 blending을 지원합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.25728\n📄 arXiv: https://arxiv.org/abs/2603.25728\n\n📍 2. Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale\n📝 요약: 1조 파라미터 규모의 과학 특화 멀티모달 모델 Intern-S1-Pro는 XTuner 및 LMDeploy를 통해 효율적인 강화 학습을 지원하며, 다양한 과학 분야에서 특화된 성능을 제공하여 연구 개발 생산성을 향상시킬 수 있다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.25040\n📄 arXiv: https://arxiv.org/abs/2603.25040\n\n📍 3. Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration\n📝 요약: Diffusion Transformer의 성능을 단일 스케일링 파라미터 조정만으로 크게 향상시키는 Calibri 방법론을 제안, 파라미터 효율성을 높이고 이미지 생성 품질을 개선함.\n🔗 Hugging Face: https://huggingface.co/papers/2603.24800\n📄 arXiv: https://arxiv.org/abs/2603.24800\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models\n📝 요약: 동영상 월드 모델에서 가려진 객체의 움직임 연속성을 유지하는 새로운 메모리 구조(HyDRA)와 데이터셋(HM-World)을 제안하여, 동적 환경에서의 비디오 생성 품질을 향상시킴.\n🔗 Hugging Face: https://huggingface.co/papers/2603.25716\n📄 arXiv: https://arxiv.org/abs/2603.25716\n\n📍 2. ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling\n📝 요약: ShotStream은 실시간 상호작용 스토리텔링을 위한 고효율 멀티샷 비디오 생성 아키텍처로, 기존 양방향 모델의 지연 시간 문제를 해결하고 사용자 프롬프트에 따라 동적으로 비디오를 생성합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.25746\n📄 arXiv: https://arxiv.org/abs/2603.25746\n\n📍 3. PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference\n📝 요약: PackForcing은 짧은 비디오 학습만으로 긴 비디오 생성 시 메모리 효율성과 시간적 일관성을 크게 향상시키는 새로운 프레임워크를 제공하여, 고해상도 비디오 모델의 실용성을 높입니다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.25730\n📄 arXiv: https://arxiv.org/abs/2603.25730\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "PixelSmile: Toward Fine-Grained Facial Expression Editing",
-      "paper_id": "2603.25728",
-      "url": "https://huggingface.co/papers/2603.25728",
-      "arxiv_url": "https://arxiv.org/abs/2603.25728",
-      "upvotes": 111,
-      "summary": "PixelSmile은 디퓨전 모델 기반으로 얼굴 표정 편집 시 정교한 제어와 identity 보존을 가능하게 하여, 기존 방식의 semantic overlap 문제를 해결하고 연속적인 표정 blending을 지원합니다.",
-      "korean_abstract": "기존의 정교한 얼굴 표정 편집은 semantic overlap으로 인해 어려움이 있었습니다. 이러한 문제를 해결하기 위해, 본 연구에서는 연속적인 감정 어노테이션이 포함된 Flex Facial Expression (FFE) 데이터셋을 구축하고, FFE-Bench를 통해 구조적 혼동, 편집 정확도, 선형 제어 가능성, 표정 편집과 identity 보존 간의 trade-off를 평가합니다. PixelSmile이라는 디퓨전 프레임워크를 제안하며, 이는 완전 대칭 joint training을 통해 표정 의미론을 분리합니다. Intensity supervision과 contrastive learning을 결합하여 더욱 강력하고 구별 가능한 표정을 생성하며, 텍스트 latent interpolation을 통해 정밀하고 안정적인 선형 표정 제어를 달성합니다. 다양한 실험을 통해 PixelSmile이 뛰어난 분리 성능과 강력한 identity 보존을 달성함을 입증했습니다.",
+      "title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models",
+      "paper_id": "2603.25716",
+      "url": "https://huggingface.co/papers/2603.25716",
+      "arxiv_url": "https://arxiv.org/abs/2603.25716",
+      "upvotes": 133,
+      "summary": "동영상 월드 모델에서 가려진 객체의 움직임 연속성을 유지하는 새로운 메모리 구조(HyDRA)와 데이터셋(HM-World)을 제안하여, 동적 환경에서의 비디오 생성 품질을 향상시킴.",
+      "korean_abstract": "비디오 월드 모델은 물리적 세계를 시뮬레이션하는 데 큰 잠재력을 보이지만, 기존 메모리 메커니즘은 환경을 정적인 캔버스로 취급하여 가려진 객체의 움직임 연속성 유지가 어렵습니다. 이러한 문제를 해결하기 위해 정적 배경을 정확하게 기록하고 동적 객체를 추적하는 하이브리드 메모리 패러다임을 제안합니다. 이를 위해 카메라와 객체 궤적을 분리한 대규모 비디오 데이터셋 HM-World를 구축했습니다. 또한, 메모리를 토큰으로 압축하고 시공간적 관련성 기반 검색 메커니즘을 사용하는 HyDRA 아키텍처를 제안하여 숨겨진 객체의 움직임과 정체성을 효과적으로 보존합니다. HM-World에서의 실험 결과, HyDRA는 동적 객체 일관성과 전체 생성 품질 모두에서 기존 방법보다 뛰어난 성능을 보였습니다.",
       "key_points": [
-        "Flex Facial Expression (FFE) 데이터셋 및 FFE-Bench 구축",
-        "디퓨전 모델 기반의 PixelSmile 프레임워크 제안",
-        "Intensity supervision과 contrastive learning을 통한 표정 분리 및 제어"
+        "정적/동적 요소를 분리하여 처리하는 하이브리드 메모리 패러다임 제시",
+        "가려진 객체의 움직임 연속성 유지를 위한 대규모 비디오 데이터셋 HM-World 구축",
+        "시공간적 관련성 기반 검색 메커니즘을 사용하는 HyDRA 아키텍처 제안"
       ],
       "tags": [
         "Vision",
-        "Diffusion Model",
-        "Facial Expression",
-        "Editing",
+        "Video Generation",
+        "Memory Networks",
+        "RAG",
+        "Video",
         "Evaluation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "얼굴 표정 편집 기능을 필요로 하는 서비스(예: 아바타 생성, 영상 편집)에서 사용자 경험을 향상시키고, 더욱 자연스럽고 정교한 표정 제어를 가능하게 합니다.",
+      "practical_relevance": "동영상 분석 및 생성 시스템에서 객체가 가려졌다 나타나는 상황을 더 잘 처리할 수 있게 해주어, 현실감 있는 시뮬레이션 및 비디오 편집 기능 향상에 기여할 수 있습니다.",
       "recommended_actions": [
-        "PixelSmile 프레임워크를 기반으로 간단한 얼굴 표정 편집 데모 구현",
-        "FFE 데이터셋을 활용하여 기존 모델의 성능 평가 및 비교",
-        "텍스트 latent interpolation을 통한 표정 제어 기능 실험"
+        "HM-World 데이터셋을 활용하여 기존 모델의 성능 평가 및 개선",
+        "HyDRA 아키텍처를 기반으로 가려진 객체 추적 성능 향상 연구",
+        "다른 비디오 생성 모델에 HyDRA의 메모리 메커니즘 통합 시도"
       ],
       "risks_and_limits": [
-        "특정 인종이나 성별에 대한 편향이 발생할 가능성",
-        "실시간 편집을 위한 계산 비용 최적화 필요"
+        "HM-World 데이터셋의 편향으로 인해 특정 환경에서만 성능이 좋을 수 있음",
+        "HyDRA 아키텍처의 복잡성으로 인해 학습 및 배포 비용이 높을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25728.png",
-      "local_image_path": "images/PixelSmile_Toward_Fine-Grained_Facial_Expression_Editing_img.jpg",
-      "local_figures": []
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25716.png",
+      "local_image_path": "images/Out_of_Sight_but_Not_Out_of_Mind_Hybrid_Memory_for_Dynamic_Video_World_Models_img.jpg",
+      "local_figures": [
+        "images/Out_of_Sight_but_Not_Out_of_Mind_Hybrid_Memory_for_fig_1.gif"
+      ]
     },
     {
       "rank": 2,
-      "title": "Intern-S1-Pro: Scientific Multimodal Foundation Model at Trillion Scale",
-      "paper_id": "2603.25040",
-      "url": "https://huggingface.co/papers/2603.25040",
-      "arxiv_url": "https://arxiv.org/abs/2603.25040",
-      "upvotes": 107,
-      "summary": "1조 파라미터 규모의 과학 특화 멀티모달 모델 Intern-S1-Pro는 XTuner 및 LMDeploy를 통해 효율적인 강화 학습을 지원하며, 다양한 과학 분야에서 특화된 성능을 제공하여 연구 개발 생산성을 향상시킬 수 있다.",
-      "korean_abstract": "기존 모델들은 일반적인 능력과 특정 과학 분야의 전문성 간의 균형을 맞추기 어려웠다. 이러한 문제를 해결하기 위해, 우리는 1조 파라미터 규모의 과학 멀티모달 기초 모델인 Intern-S1-Pro를 제안한다. 이 모델은 XTuner와 LMDeploy를 활용하여 효율적인 강화 학습을 통해 학습되었으며, 일반적인 추론 능력과 이미지-텍스트 이해 능력을 향상시킨다. 또한, 화학, 재료 과학, 생명 과학, 지구 과학 등 다양한 과학 분야에서 100개 이상의 특화된 작업을 수행할 수 있다. Intern-S1-Pro는 일반적인 능력과 전문적인 능력을 융합하여, 오픈 소스 모델 중 최상위 수준의 일반 성능을 보여주면서도, 특정 과학 작업에서는 독점 모델보다 뛰어난 성능을 보인다.",
+      "title": "ShotStream: Streaming Multi-Shot Video Generation for Interactive Storytelling",
+      "paper_id": "2603.25746",
+      "url": "https://huggingface.co/papers/2603.25746",
+      "arxiv_url": "https://arxiv.org/abs/2603.25746",
+      "upvotes": 110,
+      "summary": "ShotStream은 실시간 상호작용 스토리텔링을 위한 고효율 멀티샷 비디오 생성 아키텍처로, 기존 양방향 모델의 지연 시간 문제를 해결하고 사용자 프롬프트에 따라 동적으로 비디오를 생성합니다.",
+      "korean_abstract": "멀티샷 비디오 생성은 긴 내러티브 스토리텔링에 중요하지만, 기존 양방향 모델은 상호작용성이 제한적이고 지연 시간이 깁니다. ShotStream은 과거 맥락에 따라 다음 샷을 생성하는 새로운 인과적 아키텍처를 통해 실시간 스토리텔링을 가능하게 합니다. 텍스트-비디오 모델을 미세 조정하여 양방향 다음 샷 생성기로 만들고, 이를 분포 매칭 증류를 통해 인과적 학생 모델로 증류합니다. 샷 간 일관성 유지를 위해 이중 캐시 메모리 메커니즘을 도입하고, 오류 누적을 완화하기 위해 2단계 증류 전략을 사용합니다. ShotStream은 단일 GPU에서 16 FPS로 일관성 있는 멀티샷 비디오를 생성하며, 기존 양방향 모델과 동등하거나 더 나은 품질을 제공합니다.",
       "key_points": [
-        "1조 파라미터 규모의 과학 멀티모달 기초 모델",
-        "XTuner 및 LMDeploy를 활용한 효율적인 강화 학습",
-        "화학, 재료 과학, 생명 과학, 지구 과학 등 다양한 과학 분야에서 100개 이상의 특화된 작업 수행"
+        "실시간 상호작용 스토리텔링을 위한 인과적 멀티샷 비디오 생성 아키텍처 제안",
+        "샷 간 일관성을 위한 이중 캐시 메모리 메커니즘 도입",
+        "오류 누적 완화를 위한 2단계 증류 전략 개발"
       ],
       "tags": [
-        "Multimodal",
-        "Foundation Model",
-        "Scientific AI",
-        "Reinforcement Learning",
-        "Agent",
-        "Reasoning",
-        "Vision",
+        "Video Generation",
+        "Storytelling",
+        "Causal Model",
+        "Real-time",
+        "Distillation",
+        "Video",
         "Inference"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "Intern-S1-Pro는 과학 분야에 특화된 모델로서, 연구 개발 과정에서 필요한 데이터 분석, 시뮬레이션, 예측 등의 작업을 자동화하거나 효율성을 높이는 데 활용될 수 있다. 특히, 대규모 데이터를 기반으로 학습된 모델이므로, 기존의 방법으로는 해결하기 어려웠던 복잡한 문제 해결에 도움이 될 수 있다.",
+      "practical_relevance": "ShotStream은 실시간 비디오 생성 및 편집 기능을 필요로 하는 애플리케이션 개발에 유용하며, 특히 사용자 상호작용 기반의 동적 콘텐츠 생성 시스템 구축에 활용될 수 있습니다.",
       "recommended_actions": [
-        "Intern-S1-Pro를 활용하여 특정 과학 분야의 데이터 분석 및 예측 실험 수행",
-        "XTuner 및 LMDeploy를 사용하여 모델을 fine-tuning하고 성능 향상 시도",
-        "기존 모델과 Intern-S1-Pro의 성능 비교 분석"
+        "제공된 코드를 사용하여 간단한 스토리텔링 시나리오에서 ShotStream을 테스트해보기",
+        "자체 데이터셋에 ShotStream을 파인튜닝하여 특정 스타일 또는 콘텐츠에 맞게 조정해보기",
+        "이중 캐시 메모리 및 2단계 증류 전략을 다른 비디오 생성 모델에 적용하여 성능 향상 가능성 검토해보기"
       ],
       "risks_and_limits": [
-        "모델의 규모가 매우 크므로, 학습 및 추론에 필요한 컴퓨팅 자원이 상당할 수 있음",
-        "특정 과학 분야에 대한 편향이 존재할 수 있으며, 이에 대한 검증이 필요함"
+        "생성된 비디오의 품질은 텍스트 프롬프트의 명확성과 관련 데이터셋의 품질에 크게 의존적임",
+        "장면 전환이 잦거나 복잡한 내러티브에서는 샷 간 일관성 유지가 어려울 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25040.png",
-      "local_image_path": "images/Intern-S1-Pro_Scientific_Multimodal_Foundation_Model_at_Trillion_Scale_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25746.png",
+      "local_image_path": "images/ShotStream_Streaming_Multi-Shot_Video_Generation_for_Interactive_Storytelling_img.jpg",
       "local_figures": []
     },
     {
       "rank": 3,
-      "title": "Calibri: Enhancing Diffusion Transformers via Parameter-Efficient Calibration",
-      "paper_id": "2603.24800",
-      "url": "https://huggingface.co/papers/2603.24800",
-      "arxiv_url": "https://arxiv.org/abs/2603.24800",
-      "upvotes": 51,
-      "summary": "Diffusion Transformer의 성능을 단일 스케일링 파라미터 조정만으로 크게 향상시키는 Calibri 방법론을 제안, 파라미터 효율성을 높이고 이미지 생성 품질을 개선함.",
-      "korean_abstract": "Diffusion Transformer(DiT)는 이미지 생성 분야에서 큰 잠재력을 가지고 있지만, 그 성능을 최대한 활용하기 위한 연구는 부족했습니다. 본 연구에서는 DiT 블록의 denoising 과정 분석을 통해 단일 학습 가능한 스케일링 파라미터 도입이 성능 향상에 크게 기여함을 밝혀냈습니다. 이러한 통찰을 바탕으로, DiT 구성 요소를 최적으로 보정하여 생성 품질을 높이는 파라미터 효율적인 접근 방식인 Calibri를 제안합니다. Calibri는 DiT 보정을 블랙박스 보상 최적화 문제로 정의하고, 진화 알고리즘을 사용하여 단 ~100개의 파라미터만 수정하여 효율적으로 해결합니다. 실험 결과, Calibri는 다양한 텍스트-이미지 모델에서 일관되게 성능을 향상시키고 이미지 생성에 필요한 추론 단계를 줄이면서도 고품질 출력을 유지합니다.",
+      "title": "PackForcing: Short Video Training Suffices for Long Video Sampling and Long Context Inference",
+      "paper_id": "2603.25730",
+      "url": "https://huggingface.co/papers/2603.25730",
+      "arxiv_url": "https://arxiv.org/abs/2603.25730",
+      "upvotes": 38,
+      "summary": "PackForcing은 짧은 비디오 학습만으로 긴 비디오 생성 시 메모리 효율성과 시간적 일관성을 크게 향상시키는 새로운 프레임워크를 제공하여, 고해상도 비디오 모델의 실용성을 높입니다.",
+      "korean_abstract": "최근 비디오 확산 모델은 발전했지만, 긴 비디오 생성 시 KV-cache의 선형적 증가, 시간적 반복, 오류 누적 문제가 있었습니다. PackForcing은 3분할 KV-cache 전략을 통해 이러한 문제를 해결합니다. Sink 토큰으로 초기 프레임을 보존하고, Mid 토큰으로 공간-시간 압축을 통해 메모리를 줄이며, Recent 토큰으로 시간적 일관성을 유지합니다. 동적 top-k 컨텍스트 선택과 Temporal RoPE Adjustment를 통해 품질 저하 없이 메모리 사용량을 제한합니다. PackForcing은 짧은 비디오 학습만으로 긴 비디오를 생성하며, VBench에서 SOTA 성능을 달성했습니다.",
       "key_points": [
-        "DiT 블록의 성능 향상을 위한 단일 스케일링 파라미터의 중요성 입증",
-        "파라미터 효율적인 DiT 보정 방법론인 Calibri 제안",
-        "진화 알고리즘을 이용한 블랙박스 보상 최적화 문제 해결"
+        "3분할 KV-cache 전략을 통한 효율적인 메모리 관리",
+        "동적 top-k 컨텍스트 선택 및 Temporal RoPE Adjustment를 통한 품질 유지",
+        "짧은 비디오 학습만으로 긴 비디오 생성 가능"
       ],
       "tags": [
-        "Diffusion Transformer",
-        "이미지 생성",
-        "파라미터 효율성",
-        "최적화",
+        "Video Generation",
+        "Diffusion Model",
+        "Memory Efficiency",
+        "Temporal Consistency",
         "Vision",
-        "Inference"
+        "Video",
+        "Inference",
+        "Optimization"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "기존 Diffusion Transformer 모델의 성능을 개선하기 위해 추가적인 학습 파라미터 없이 간단한 스케일링 파라미터 조정만으로도 상당한 성능 향상을 얻을 수 있다는 점은 실무적으로 매우 유용하며, 특히 리소스가 제한적인 환경에서 효율적인 모델 개선에 활용될 수 있습니다.",
+      "practical_relevance": "고해상도 비디오 생성 모델을 개발할 때 메모리 사용량과 시간적 일관성 문제를 효과적으로 해결할 수 있어, 더욱 긴 비디오를 실시간으로 생성하거나 처리하는 시스템 구축에 유용합니다.",
       "recommended_actions": [
-        "Calibri를 기존 DiT 모델에 적용하여 성능 향상 실험",
-        "Calibri의 스케일링 파라미터를 다양한 데이터셋 및 모델 구조에 맞게 조정",
-        "Calibri와 다른 파라미터 효율적인 방법론을 결합하여 성능 개선 시도"
+        "PackForcing을 기반으로 기존 비디오 생성 모델의 메모리 효율성 개선",
+        "실시간 비디오 스트리밍 또는 편집 시스템에 PackForcing 적용",
+        "PackForcing의 다양한 설정(토큰 압축률, top-k 값 등)을 조정하여 특정 비디오 유형에 최적화"
       ],
       "risks_and_limits": [
-        "Calibri의 성능은 진화 알고리즘의 최적화 과정에 크게 의존적임",
-        "특정 데이터셋 또는 모델 구조에 과적합될 가능성이 존재"
+        "압축 과정에서 일부 정보 손실 가능성",
+        "새로운 아키텍처에 대한 추가적인 학습 및 조정 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.24800.png",
-      "local_image_path": "images/Calibri_Enhancing_Diffusion_Transformers_via_Parameter-Efficient_Calibration_img.jpg",
-      "local_figures": [
-        "images/Calibri_Enhancing_Diffusion_Transformers_via_Param_fig_1.jpeg"
-      ]
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25730.png",
+      "local_image_path": "images/PackForcing_Short_Video_Training_Suffices_for_Long_Video_Sampling_and_Long_Context_Inference_img.jpg",
+      "local_figures": []
     },
     {
       "rank": 4,
-      "title": "RealRestorer: Towards Generalizable Real-World Image Restoration with Large-Scale Image Editing Models",
-      "paper_id": "2603.25502",
-      "url": "https://huggingface.co/papers/2603.25502",
-      "arxiv_url": "https://arxiv.org/abs/2603.25502",
-      "upvotes": 46,
-      "summary": "실제 이미지 복원 시나리오에서 대규모 이미지 편집 모델을 활용하여 일반화 성능을 향상시키는 새로운 데이터셋과 평가 벤치마크, 오픈소스 모델을 제시하여, 기존 복원 모델의 한계를 극복하고 실질적인 성능 향상을 이룸.",
-      "korean_abstract": "실제 환경에서의 이미지 복원은 자율 주행 및 객체 탐지와 같은 다양한 작업에 중요하지만, 기존 모델은 학습 데이터의 규모와 분포에 제한되어 일반화 성능이 낮았습니다. 최근 대규모 이미지 편집 모델이 복원 작업에서 뛰어난 성능을 보이지만, 상당한 데이터와 계산 비용이 필요합니다. 이러한 문제를 해결하기 위해, 본 연구에서는 9가지 일반적인 실제 손상 유형을 포함하는 대규모 데이터셋을 구축하고, 최첨단 오픈 소스 모델을 학습시켜 상용 모델과의 격차를 줄였습니다. 또한, 464개의 실제 손상된 이미지와 손상 제거 및 일관성 유지를 위한 맞춤형 평가 지표를 포함하는 RealIR-Bench를 소개합니다. 광범위한 실험 결과, 제안하는 모델이 오픈 소스 방법 중에서 최고의 성능을 달성했습니다.",
+      "title": "Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills",
+      "paper_id": "2603.25158",
+      "url": "https://huggingface.co/papers/2603.25158",
+      "arxiv_url": "https://arxiv.org/abs/2603.25158",
+      "upvotes": 33,
+      "summary": "LLM 에이전트의 기술을 자동 생성하고 개선하는 Trace2Skill 프레임워크는 수동 제작의 확장성 문제를 해결하고, 다양한 실행 경험을 분석하여 일반화 가능한 기술을 추출, 기존 기술 심화 및 새로운 기술 생성을 지원하여 실제 성능 향상과 모델 간 전이 학습 능력을 보여줌.",
+      "korean_abstract": "LLM 에이전트가 복잡한 작업을 수행하려면 도메인 특화 기술이 필수적이지만, 수동 제작은 확장성 제약이 큽니다. 자동 기술 생성은 피상적인 지식이나 특정 궤적에 과적합되어 취약한 결과를 낳습니다. Trace2Skill은 인간 전문가처럼 광범위한 실행 경험을 분석하여 포괄적인 가이드로 기술을 추출하는 프레임워크입니다. 여러 하위 에이전트를 통해 궤적별 교훈을 추출하고, 귀납적 추론으로 통합하여 기술 디렉토리를 구축합니다. 스프레드시트, VisionQA, 수학 추론 등의 영역에서 Anthropic의 xlsx 기술을 포함한 강력한 베이스라인을 능가하는 성능을 보였으며, Qwen3.5-35B로 진화시킨 기술이 Qwen3.5-122B 에이전트의 WikiTableQuestions 성능을 최대 57.65% 향상시키는 등 모델 간 전이 학습 능력도 입증했습니다.",
       "key_points": [
-        "실제 손상 유형을 포괄하는 대규모 데이터셋 구축",
-        "손상 제거 및 일관성 유지를 위한 RealIR-Bench 평가 벤치마크 제시",
-        "오픈 소스 모델을 통해 상용 모델 수준의 이미지 복원 성능 달성"
+        "다양한 실행 경험을 활용하여 LLM 에이전트의 기술을 자동 생성 및 개선",
+        "궤적별 교훈을 계층적으로 통합하여 일반화 가능하고 충돌 없는 기술 디렉토리 구축",
+        "모델 크기 및 OOD 환경에 대한 기술 전이 학습 능력 입증"
       ],
       "tags": [
-        "Image Restoration",
-        "Image Editing",
-        "Dataset",
-        "Benchmark",
-        "Open-Source",
+        "Agent",
+        "LLM",
+        "AutoML",
+        "Skill Learning",
+        "RAG",
+        "Reasoning",
         "Vision",
-        "Evaluation"
+        "Evaluation",
+        "Distillation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "자율 주행, 감시 시스템 등 실제 환경에서 얻은 이미지의 품질을 개선하여 인식 정확도를 높이는 데 직접적으로 기여하며, 특히 데이터 부족 문제를 해결하고 오픈 소스 기반으로 접근성을 높였다는 점에서 실용적입니다.",
+      "practical_relevance": "LLM 에이전트 개발 시, 수동으로 기술을 정의하는 대신 Trace2Skill을 활용하여 자동으로 기술을 생성하고 개선함으로써 개발 효율성을 높이고, 다양한 환경에 적응 가능한 에이전트를 구축할 수 있습니다.",
       "recommended_actions": [
-        "RealIR-Bench를 사용하여 기존 이미지 복원 모델의 성능 평가",
-        "제공되는 데이터셋을 활용하여 이미지 복원 모델 추가 학습",
-        "제안하는 오픈 소스 모델을 기반으로 특정 도메인에 특화된 복원 모델 개발"
+        "Trace2Skill을 활용하여 특정 도메인에 특화된 LLM 에이전트 기술 자동 생성 실험",
+        "기존 LLM 에이전트 기술을 Trace2Skill로 개선하여 성능 향상 비교 분석",
+        "생성된 기술의 다양한 LLM 모델 및 OOD 환경에서의 전이 학습 성능 평가"
       ],
       "risks_and_limits": [
-        "특정 손상 유형에 대한 편향 가능성 존재",
-        "계산 비용이 높은 대규모 모델의 학습 및 배포 부담"
+        "다양한 실행 경험 데이터 확보의 어려움",
+        "생성된 기술의 품질 및 신뢰성 검증 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25502.png",
-      "local_image_path": "images/RealRestorer_Towards_Generalizable_Real-World_Image_Restoration_with_Large-Scale_Image_Editing_Model_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25158.png",
+      "local_image_path": "images/Trace2Skill_Distill_Trajectory-Local_Lessons_into_Transferable_Agent_Skills_img.jpg",
       "local_figures": []
     },
     {
       "rank": 5,
-      "title": "Voxtral TTS",
-      "paper_id": "2603.25551",
-      "url": "https://huggingface.co/papers/2603.25551",
-      "arxiv_url": "https://arxiv.org/abs/2603.25551",
-      "upvotes": 40,
-      "summary": "Voxtral TTS는 3초의 짧은 참조 오디오만으로 자연스러운 다국어 음성을 생성하는 음성 복제 모델로, ElevenLabs Flash v2.5 대비 68.4% 더 선호되는 성능을 보입니다.",
-      "korean_abstract": "최근 텍스트-음성 변환(TTS) 기술은 음성 복제 분야에서 큰 발전을 이루었지만, 여전히 자연스러움과 표현력에서 한계가 있습니다. 본 논문에서는 짧은 참조 오디오만으로도 자연스럽고 표현력이 풍부한 다국어 음성을 생성하는 Voxtral TTS 모델을 소개합니다. Voxtral TTS는 의미론적 음성 토큰의 자동 회귀 생성과 음향 토큰의 흐름 매칭을 결합한 하이브리드 아키텍처를 채택했습니다. 특히, VQ-FSQ 양자화 방식을 사용하여 처음부터 학습된 Voxtral Codec을 통해 토큰을 인코딩 및 디코딩합니다. 실제 사용자 평가에서 Voxtral TTS는 자연스러움과 표현력 측면에서 ElevenLabs Flash v2.5를 능가하는 결과를 보였습니다.",
+      "title": "MedOpenClaw: Auditable Medical Imaging Agents Reasoning over Uncurated Full Studies",
+      "paper_id": "2603.24649",
+      "url": "https://huggingface.co/papers/2603.24649",
+      "arxiv_url": "https://arxiv.org/abs/2603.24649",
+      "upvotes": 20,
+      "summary": "의료 영상 분야에서 LLM/VLM 에이전트가 실제 임상 환경에서 3D 의료 영상을 탐색하고 진단을 지원하는 데 필요한 런타임 환경과 벤치마크를 제시하여, 기존 연구의 한계를 극복하고 실질적인 의료 진단 에이전트 개발을 위한 토대를 마련함.",
+      "korean_abstract": "기존 의료 영상 분야의 비전-언어 모델(VLM) 평가는 사전 선택된 2D 이미지에 의존하여 실제 임상 환경을 단순화하고 수동 작업 부담이 컸습니다. 이러한 방식은 실제 임상 진단의 핵심 과제인 3D 볼륨 탐색 및 증거 수집을 간과합니다. 본 연구에서는 VLM이 표준 의료 도구 내에서 동적으로 작동할 수 있도록 하는 MEDOPENCLAW 런타임과 MEDFLOWBENCH 벤치마크를 제안합니다. 초기 결과, 최첨단 LLM/VLM이 기본적인 작업은 성공적으로 수행하지만, 전문 도구 사용 시 공간적 이해 부족으로 성능이 저하되는 것을 확인했습니다. 본 연구는 정적 이미지 인식과 상호 작용적인 임상 워크플로우 간의 간극을 해소하여 감사 가능한 의료 영상 에이전트 개발을 위한 기반을 마련합니다.",
       "key_points": [
-        "3초 참조 오디오 기반의 다국어 음성 복제",
-        "자동 회귀 생성과 흐름 매칭을 결합한 하이브리드 아키텍처",
-        "VQ-FSQ 기반의 Voxtral Codec을 통한 토큰 처리"
+        "실제 임상 환경을 반영한 3D 의료 영상 에이전트 평가를 위한 MEDOPENCLAW 런타임 및 MEDFLOWBENCH 벤치마크 제시",
+        "LLM/VLM이 의료 영상 도구 사용 시 공간적 이해 부족으로 성능 저하되는 문제점 발견",
+        "감사 가능한(auditable) 의료 영상 에이전트 개발을 위한 새로운 방향 제시"
       ],
       "tags": [
-        "TTS",
-        "Voice Cloning",
-        "Multilingual",
-        "Flow Matching",
-        "Codec",
-        "Audio",
-        "Evaluation",
-        "Optimization"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "적은 데이터로 고품질 음성 복제가 가능하므로, 다양한 언어 지원 및 개인화된 음성 서비스 구축에 유용하게 활용될 수 있습니다.",
-      "recommended_actions": [
-        "제공된 모델 가중치를 사용하여 음성 복제 실험 진행",
-        "Voxtral Codec의 VQ-FSQ 양자화 방식 분석 및 적용",
-        "ElevenLabs Flash v2.5와 비교하여 성능 및 특징 비교 분석"
-      ],
-      "risks_and_limits": [
-        "CC BY-NC 라이선스 제약으로 상업적 이용에 제한",
-        "특정 언어 또는 화자에 대한 편향 가능성 존재"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25551.png",
-      "local_image_path": "images/Voxtral_TTS_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 6,
-      "title": "MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens",
-      "paper_id": "2603.23516",
-      "url": "https://huggingface.co/papers/2603.23516",
-      "arxiv_url": "https://arxiv.org/abs/2603.23516",
-      "upvotes": 33,
-      "summary": "MSA는 희소 어텐션과 KV 캐시 압축을 통해 1억 토큰까지 확장 가능한 효율적인 메모리 모델로, 기존 LLM의 긴 문맥 처리의 한계를 극복하고 다양한 장기적 추론 task에서 SOTA를 달성함.",
-      "korean_abstract": "LLM은 긴 문맥을 처리하는데 제약이 있어, RAG나 Agent 시스템 등의 방법들이 시도되었으나, 정확도 감소, 지연 시간 증가, 동적 메모리 변경 불가 등의 문제가 있었다. 본 논문에서는 희소 어텐션과 document-wise RoPE를 통해 선형 복잡도를 달성하고, KV 캐시 압축과 Memory Parallel을 통해 2xA800 GPU에서 1억 토큰 추론이 가능한 MSA라는 새로운 메모리 모델 프레임워크를 제안한다. MSA는 기존 LLM, RAG, Agent 시스템을 능가하는 성능을 보였으며, 이는 MSA가 일반 목적 모델에 내재적인 lifetime-scale 메모리를 제공할 수 있음을 시사한다.",
-      "key_points": [
-        "희소 어텐션과 document-wise RoPE를 사용하여 훈련 및 추론 복잡도를 선형으로 감소",
-        "KV 캐시 압축 및 Memory Parallel을 통해 1억 토큰 추론을 2xA800 GPU에서 가능하게 함",
-        "Memory Interleaving을 통해 복잡한 multi-hop 추론을 용이하게 함"
-      ],
-      "tags": [
-        "Long Context",
-        "Sparse Attention",
-        "Memory Model",
-        "LLM",
-        "Inference",
         "Agent",
-        "RAG",
+        "Medical Imaging",
+        "VLM",
+        "Benchmark",
+        "3D",
         "Reasoning",
-        "Benchmark",
-        "Optimization"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "MSA는 긴 문맥을 효과적으로 처리해야 하는 대규모 텍스트 요약, 디지털 트윈, 장기 이력 기반 에이전트 추론 등의 애플리케이션에서 LLM의 활용도를 높일 수 있으며, 메모리 관리 및 추론 효율성 개선에 대한 실마리를 제공한다.",
-      "recommended_actions": [
-        "MSA의 희소 어텐션 메커니즘을 기존 트랜스포머 모델에 적용하여 성능 향상 실험",
-        "KV 캐시 압축 기술을 활용하여 모델 추론 시 메모리 사용량 감소 효과 검증",
-        "Memory Interleaving을 활용한 multi-hop 추론 task 구성 및 성능 평가"
-      ],
-      "risks_and_limits": [
-        "희소 어텐션의 최적 패턴 탐색 및 하드웨어 가속화 필요",
-        "KV 캐시 압축으로 인한 정보 손실 가능성 및 복원 방법 연구"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23516.png",
-      "local_image_path": "images/MSA_Memory_Sparse_Attention_for_Efficient_End-to-End_Memory_Model_Scaling_to_100M_Tokens_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "MACRO: Advancing Multi-Reference Image Generation with Structured Long-Context Data",
-      "paper_id": "2603.25319",
-      "url": "https://huggingface.co/papers/2603.25319",
-      "arxiv_url": "https://arxiv.org/abs/2603.25319",
-      "upvotes": 27,
-      "summary": "다수의 참조 이미지를 활용한 이미지 생성 시 발생하는 성능 저하 문제를 해결하기 위해 대규모 데이터셋 MacroData와 평가 기준 MacroBench를 제안, 실제 애플리케이션 성능 향상에 기여.",
-      "korean_abstract": "다중 참조 이미지를 기반으로 이미지를 생성하는 것은 여러 실제 응용 분야에서 중요하지만, 기존 모델은 참조 이미지 수가 증가함에 따라 성능이 크게 저하되는 문제가 있습니다. 이러한 문제의 근본 원인은 기존 데이터셋이 단일 또는 소수의 참조 쌍으로 구성되어 있고, 참조 이미지 간의 의존성을 학습하기 위한 충분한 구조화된 데이터가 부족하기 때문입니다. 이를 해결하기 위해 최대 10개의 참조 이미지를 포함하는 40만 개의 샘플로 구성된 대규모 데이터셋 MacroData를 제안합니다. 또한, 표준화된 평가 프로토콜의 부재를 인식하고, 작업 차원 및 입력 스케일에 따른 생성 일관성을 평가하는 4,000개의 샘플로 구성된 MacroBench를 제안합니다. MacroData를 사용한 fine-tuning은 다중 참조 이미지 생성에서 상당한 개선을 가져왔으며, ablation 연구를 통해 교차 작업 공동 학습 및 장기 컨텍스트 복잡성을 처리하기 위한 효과적인 전략의 시너지 효과를 확인했습니다.",
-      "key_points": [
-        "다중 참조 이미지 생성을 위한 대규모 데이터셋 MacroData 구축",
-        "생성 모델 평가를 위한 MacroBench 제안",
-        "MacroData를 활용한 fine-tuning을 통해 다중 참조 이미지 생성 성능 향상"
-      ],
-      "tags": [
-        "Image Generation",
-        "Multi-Reference",
-        "Dataset",
-        "Benchmark",
         "Vision",
-        "RAG",
-        "Reasoning",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "여러 이미지를 참조하여 새로운 이미지를 생성하는 기능을 개선하여, 이미지 편집, 콘텐츠 생성 등 다양한 분야에서 활용 가능성이 높습니다.",
-      "recommended_actions": [
-        "MacroData 데이터셋을 활용하여 기존 이미지 생성 모델 fine-tuning",
-        "MacroBench를 사용하여 모델 성능 평가 및 개선",
-        "장기 컨텍스트 처리를 위한 다양한 전략 실험"
-      ],
-      "risks_and_limits": [
-        "MacroData의 편향으로 인한 생성 이미지의 품질 저하 가능성",
-        "MacroBench의 평가 기준이 실제 사용 환경과 다를 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25319.png",
-      "local_image_path": "images/MACRO_Advancing_Multi-Reference_Image_Generation_with_Structured_Long-Context_Data_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "SlopCodeBench: Benchmarking How Coding Agents Degrade Over Long-Horizon Iterative Tasks",
-      "paper_id": "2603.24755",
-      "url": "https://huggingface.co/papers/2603.24755",
-      "arxiv_url": "https://arxiv.org/abs/2603.24755",
-      "upvotes": 24,
-      "summary": "코드 에이전트가 장기 반복 작업에서 어떻게 성능이 저하되는지 벤치마킹하는 SlopCodeBench를 소개하고, 현재 에이전트가 반복적인 소프트웨어 개발에 필요한 설계 능력이 부족함을 보입니다.",
-      "korean_abstract": "소프트웨어 개발은 반복적인 과정이지만, 기존의 코딩 벤치마크는 단발성 솔루션 평가에 집중되어 있습니다. 코드 품질이 낮아지면 확장성이 떨어지는데, 이를 측정하기 어렵습니다. SlopCodeBench는 에이전트가 스스로의 코드를 반복적으로 확장하도록 설계된 새로운 벤치마크입니다. 20개의 문제와 93개의 체크포인트를 통해 코드의 장황함과 구조적 침식을 측정합니다. 실험 결과, 어떤 에이전트도 문제를 완전히 해결하지 못했으며, 코드 품질은 지속적으로 저하되었습니다. 이는 현재 에이전트가 반복적인 소프트웨어 개발에 필요한 설계 능력이 부족함을 시사합니다.",
-      "key_points": [
-        "장기 반복 작업에서 코드 에이전트의 성능 저하를 측정하는 새로운 벤치마크 SlopCodeBench 제시",
-        "코드의 장황함(verbosity)과 구조적 침식(structural erosion)이라는 새로운 품질 지표 도입",
-        "실험 결과, 에이전트 코드는 인간 코드보다 더 장황하고 구조적으로 더 쉽게 손상됨"
-      ],
-      "tags": [
-        "Agent",
-        "Benchmark",
-        "Code Quality",
-        "Software Development",
         "Evaluation"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "코드 에이전트를 실제 소프트웨어 개발에 적용할 때 장기적인 유지보수성과 확장성을 고려해야 함을 강조하며, 단기적인 성공에만 집중해서는 안 된다는 점을 시사합니다.",
+      "practical_relevance": "소프트웨어 엔지니어는 이 연구를 통해 실제 의료 환경에서 LLM/VLM 에이전트를 개발하고 평가하는 데 필요한 도구와 벤치마크를 활용하여, 의료 진단 자동화 시스템 구축에 기여할 수 있습니다. 특히, 공간적 추론 능력 향상을 위한 연구 방향 설정에 도움이 될 수 있습니다.",
       "recommended_actions": [
-        "SlopCodeBench를 사용하여 코드 에이전트의 장기적인 성능을 평가하는 실험 진행",
-        "코드 에이전트의 코드 품질 저하를 방지하기 위한 프롬프트 엔지니어링 기법 연구",
-        "코드 에이전트의 설계 능력을 향상시키기 위한 새로운 아키텍처 및 학습 방법 탐색"
+        "MEDOPENCLAW 런타임을 활용하여 기존 LLM/VLM 모델의 의료 영상 분석 성능 테스트",
+        "MEDFLOWBENCH 벤치마크를 사용하여 다양한 의료 영상 데이터셋에 대한 모델 성능 비교 분석",
+        "공간적 추론 능력을 강화하기 위한 프롬프트 엔지니어링 또는 모델 구조 개선 실험"
       ],
       "risks_and_limits": [
-        "SlopCodeBench가 특정 유형의 문제에 편향되어 있을 수 있음",
-        "코드 품질 지표가 주관적일 수 있으며, 자동화된 측정이 어려울 수 있음"
+        "LLM/VLM의 공간적 이해 능력 부족으로 인한 오진 가능성 존재",
+        "제시된 벤치마크가 특정 질병 및 영상 유형에 편향되어 있을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.24755.png",
-      "local_image_path": "images/SlopCodeBench_Benchmarking_How_Coding_Agents_Degrade_Over_Long-Horizon_Iterative_Tasks_img.jpg",
-      "local_figures": [
-        "images/SlopCodeBench_Benchmarking_How_Coding_Agents_Degra_fig_1.png",
-        "images/SlopCodeBench_Benchmarking_How_Coding_Agents_Degra_fig_2.png"
-      ]
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.24649.png",
+      "local_image_path": "images/MedOpenClaw_Auditable_Medical_Imaging_Agents_Reasoning_over_Uncurated_Full_Studies_img.jpg",
+      "local_figures": []
     },
     {
-      "rank": 9,
-      "title": "AVControl: Efficient Framework for Training Audio-Visual Controls",
-      "paper_id": "2603.24793",
-      "url": "https://huggingface.co/papers/2603.24793",
-      "arxiv_url": "https://arxiv.org/abs/2603.24793",
-      "upvotes": 18,
-      "summary": "AVControl은 오디오-비주얼 생성 모델을 위한 모듈형 제어 프레임워크로, 다양한 제어 방식(깊이, 포즈, 카메라 궤적, 오디오 변환 등)을 LoRA를 통해 효율적으로 학습시켜, 기존 방식의 단일 모델 또는 복잡한 구조 변경의 필요성을 줄입니다.",
-      "korean_abstract": "오디오-비주얼 콘텐츠 생성 제어는 다양한 방식(깊이, 포즈, 오디오 변환 등)을 요구하지만, 기존 방식은 단일 모델이거나 새로운 방식마다 구조 변경이 필요했습니다. AVControl은 LTX-2 기반의 경량 확장 가능한 프레임워크로, 각 제어 방식을 LoRA로 학습시키고, attention layer에 reference signal을 추가하여 구조 변경 없이 다양한 제어를 가능하게 합니다. 이미지 기반 in-context 방법이 비디오 구조 제어에 실패하는 점을 해결했으며, VACE 벤치마크에서 깊이 및 포즈 기반 생성, inpainting, outpainting에서 우수한 성능을 보였습니다. 또한 카메라 제어 및 오디오-비주얼 벤치마크에서도 경쟁력 있는 결과를 얻었으며, 다양한 제어 방식(깊이, 포즈, 엣지, 카메라 궤적, 모션 제어, 비디오 편집, 오디오-비주얼 제어)을 지원합니다.",
+      "rank": 6,
+      "title": "RealChart2Code: Advancing Chart-to-Code Generation with Real Data and Multi-Task Evaluation",
+      "paper_id": "2603.25804",
+      "url": "https://huggingface.co/papers/2603.25804",
+      "arxiv_url": "https://arxiv.org/abs/2603.25804",
+      "upvotes": 14,
+      "summary": "실제 데이터 기반 복잡한 시각화 생성 및 코드 생성을 평가하는 새로운 벤치마크 RealChart2Code를 통해 기존 VLM의 한계를 밝히고 향후 연구 방향을 제시합니다.",
+      "korean_abstract": "기존 Vision-Language 모델(VLM)은 다양한 영역에서 코드 생성 능력을 보여주었지만, 실제 데이터 기반의 복잡한 시각화 재현 능력은 제대로 평가되지 않았습니다. 이러한 문제를 해결하기 위해 실제 데이터셋을 기반으로 분석 의도를 명확히 담은 대규모 벤치마크 RealChart2Code를 소개합니다. RealChart2Code는 대규모 원시 데이터로부터 차트 생성 및 반복적인 코드 개선을 평가하는 최초의 벤치마크입니다. 14개의 주요 VLM을 평가한 결과, 복잡한 플롯 구조와 실제 데이터에 대한 어려움으로 인해 기존 벤치마크 대비 성능 저하가 컸습니다. 특히 상용 모델과 오픈 소스 모델 간의 성능 격차가 컸으며, 최첨단 VLM조차 복잡한 멀티 패널 차트를 정확하게 재현하지 못하는 경우가 많았습니다.",
       "key_points": [
-        "오디오-비주얼 생성을 위한 모듈형 제어 프레임워크 AVControl 제시",
-        "LoRA를 활용하여 다양한 제어 방식을 효율적으로 학습",
-        "VACE 벤치마크에서 깊이, 포즈 기반 생성 등 다양한 task에서 우수한 성능 입증"
+        "실제 데이터 기반의 차트-코드 생성 벤치마크 RealChart2Code 제시",
+        "다양한 VLM 모델들의 성능을 평가하고 한계점 분석",
+        "상용 모델과 오픈 소스 모델 간의 성능 격차 확인"
       ],
       "tags": [
-        "Audio-Visual",
-        "LoRA",
-        "Generation",
-        "Control",
-        "Modularity",
-        "Vision",
-        "Video",
-        "Audio",
+        "VLM",
+        "Code Generation",
+        "Visualization",
         "Benchmark",
+        "Vision",
         "Evaluation"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "AVControl은 오디오-비주얼 콘텐츠 생성 모델 개발 시 다양한 제어 방식을 쉽게 통합하고 확장할 수 있도록 지원하여, 개발 비용과 시간을 절약하고 성능을 향상시킬 수 있습니다.",
+      "practical_relevance": "실제 데이터 시각화 코드를 생성하는 AI 모델의 성능을 객관적으로 평가하고 개선하는 데 활용할 수 있으며, 복잡한 시각화 요구사항에 맞는 모델 선택 및 개선 방향을 설정하는 데 도움을 줍니다.",
       "recommended_actions": [
-        "제공된 LoRA 체크포인트를 활용하여 기존 모델에 새로운 제어 방식 추가 실험",
-        "AVControl 프레임워크를 기반으로 새로운 오디오-비주얼 제어 방식 개발",
-        "VACE 벤치마크 외 다른 데이터셋 및 task에서의 성능 평가"
+        "RealChart2Code 벤치마크를 사용하여 자사 모델의 성능을 평가해보기",
+        "오픈 소스 VLM을 RealChart2Code 데이터셋으로 추가 학습시켜 성능 향상 시도",
+        "복잡한 차트 생성을 위한 VLM 아키텍처 개선 연구"
       ],
       "risks_and_limits": [
-        "LTX-2 기반 모델에 종속적이며, 다른 기반 모델에 대한 일반화 가능성 확인 필요",
-        "LoRA 기반 방식의 성능 한계 존재 가능성"
+        "RealChart2Code 벤치마크가 특정 유형의 시각화에 편향되어 있을 수 있음",
+        "VLM의 성능이 데이터 품질 및 양에 크게 의존적임"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.24793.png",
-      "local_image_path": "images/AVControl_Efficient_Framework_for_Training_Audio-Visual_Controls_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25804.png",
+      "local_image_path": "images/RealChart2Code_Advancing_Chart-to-Code_Generation_with_Real_Data_and_Multi-Task_Evaluation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "LongTail Driving Scenarios with Reasoning Traces: The KITScenes LongTail Dataset",
+      "paper_id": "2603.23607",
+      "url": "https://huggingface.co/papers/2603.23607",
+      "arxiv_url": "https://arxiv.org/abs/2603.23607",
+      "upvotes": 12,
+      "summary": "자율 주행의 희귀 시나리오에 대한 데이터셋과 추론 과정을 제공하여, VLM/VLA 모델의 instruction following 및 의미론적 일관성 평가를 가능하게 함.",
+      "korean_abstract": "자율 주행 분야에서 희귀 시나리오에 대한 일반화는 중요한 과제이다. 이를 해결하기 위해, 장미꼬리(long-tail) 주행 이벤트에 초점을 맞춘 새로운 데이터셋인 KITScenes LongTail을 소개한다. 이 데이터셋은 멀티뷰 비디오 데이터, 궤적, 고수준 instruction, 상세한 추론 과정을 제공하여 in-context learning 및 few-shot 일반화를 용이하게 한다. VLM 및 VLA와 같은 멀티모달 모델을 위한 벤치마크를 제공하며, 안전 및 편안함 지표 외에도 instruction following 및 모델 출력 간의 의미론적 일관성을 평가한다. 영어, 스페인어, 중국어로 된 다국어 추론 과정은 다양한 문화적 배경을 가진 도메인 전문가로부터 얻었다. 따라서 이 데이터셋은 다양한 형태의 추론이 주행 능력에 미치는 영향을 연구하는 데 유용한 리소스이다.",
+      "key_points": [
+        "장미꼬리 주행 시나리오에 특화된 새로운 데이터셋 제시",
+        "멀티뷰 비디오, 궤적, instruction, 추론 과정 등 다양한 데이터 제공",
+        "다국어 추론 과정을 통해 문화적 다양성이 주행 능력에 미치는 영향 연구 가능"
+      ],
+      "tags": [
+        "Self-Driving",
+        "Dataset",
+        "VLM",
+        "Reasoning",
+        "Long-Tail",
+        "Multimodal",
+        "Video",
+        "Benchmark",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "자율 주행 시스템의 희귀 케이스에 대한 성능 향상 및 안전성 검증에 활용할 수 있으며, VLM/VLA 모델의 instruction following 능력을 평가하는 데 유용하다.",
+      "recommended_actions": [
+        "제공된 데이터셋을 활용하여 자율 주행 모델의 장미꼬리 시나리오 성능 테스트",
+        "VLM/VLA 모델을 사용하여 instruction following 능력 벤치마크",
+        "다국어 추론 과정을 분석하여 문화적 차이가 모델 성능에 미치는 영향 연구"
+      ],
+      "risks_and_limits": [
+        "데이터셋의 규모 및 다양성이 실제 모든 희귀 시나리오를 포괄하지 못할 수 있음",
+        "추론 과정의 주관성이 모델 평가에 영향을 미칠 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.23607.png",
+      "local_image_path": "images/LongTail_Driving_Scenarios_with_Reasoning_Traces_The_KITScenes_LongTail_Dataset_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 8,
+      "title": "Natural-Language Agent Harnesses",
+      "paper_id": "2603.25723",
+      "url": "https://huggingface.co/papers/2603.25723",
+      "arxiv_url": "https://arxiv.org/abs/2603.25723",
+      "upvotes": 10,
+      "summary": "에이전트 harness 로직을 자연어로 표현하여 재사용성, 비교 가능성, 연구 용이성을 높이는 NLAH 프레임워크와 IHR 런타임을 제안합니다.",
+      "korean_abstract": "에이전트 성능 향상에 harness 엔지니어링이 중요하지만, 기존 harness 설계는 코드에 묻혀있고 런타임에 종속되어 재사용, 비교, 연구가 어려웠습니다. 본 논문에서는 에이전트 harness의 고수준 제어 로직을 자연어로 표현하여 이식 가능한 형태로 만들 수 있는지 질문합니다. 이를 위해 harness 동작을 자연어로 편집 가능하게 표현하는 NLAH와, 명시적 계약, 지속적인 artifact, 경량 adapter를 통해 harness를 실행하는 IHR 런타임을 제안합니다. 코딩 및 컴퓨터 사용 벤치마크에서 운영 가능성, 모듈 제거, 코드-텍스트 harness 마이그레이션에 대한 평가를 수행했습니다.",
+      "key_points": [
+        "에이전트 harness 로직을 자연어로 표현하는 NLAH 프레임워크 제안",
+        "NLAH를 실행하는 IHR 런타임 개발",
+        "코딩 및 컴퓨터 사용 벤치마크를 통한 NLAH 및 IHR의 유효성 검증"
+      ],
+      "tags": [
+        "Agent",
+        "Natural Language",
+        "Harness",
+        "Runtime",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "에이전트 개발 시 harness 로직을 자연어로 표현하여 재사용성을 높이고, 다양한 환경에서 일관된 동작을 보장하며, harness 개발 및 유지보수 비용을 절감할 수 있습니다.",
+      "recommended_actions": [
+        "제공된 NLAH 예제를 통해 자연어 harness 정의 및 실행 방법 학습",
+        "자신의 에이전트 프로젝트에 NLAH 및 IHR 적용 가능성 검토",
+        "NLAH를 활용하여 다양한 harness 전략 실험 및 성능 비교"
+      ],
+      "risks_and_limits": [
+        "자연어 harness 표현의 모호성으로 인한 예상치 못한 동작 발생 가능성",
+        "IHR 런타임의 성능 오버헤드 발생 가능성",
+        "특정 런타임 환경에 대한 의존성 발생 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.25723.png",
+      "local_image_path": "images/Natural-Language_Agent_Harnesses_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "Know3D: Prompting 3D Generation with Knowledge from Vision-Language Models",
+      "paper_id": "2603.22782",
+      "url": "https://huggingface.co/papers/2603.22782",
+      "arxiv_url": "https://arxiv.org/abs/2603.22782",
+      "upvotes": 8,
+      "summary": "Know3D는 VLM의 지식을 활용하여 3D 생성 모델의 후면 뷰 생성을 제어 가능하게 함으로써, 기존 모델의 무작위성을 개선하고 사용자 의도에 맞는 3D 에셋 생성을 가능하게 한다.",
+      "korean_abstract": "기존 3D 생성 모델은 단일 시점 관찰의 모호성과 제한된 3D 학습 데이터로 인해 후면 뷰 생성이 무작위적이고 제어하기 어려웠다. 이러한 문제를 해결하기 위해 Know3D 프레임워크는 멀티모달 대형 언어 모델(VLM)의 풍부한 지식을 3D 생성 프로세스에 통합하여 언어 기반 제어가 가능한 후면 뷰 생성을 가능하게 한다. VLM은 의미론적 이해와 지침을 제공하고, diffusion 모델은 VLM의 의미론적 지식을 3D 생성 모델로 전달하는 역할을 한다. 이를 통해 추상적인 텍스트 지침과 관찰되지 않은 영역의 기하학적 재구성 사이의 간극을 해소하고, 무작위적인 후면 뷰 생성을 의미론적으로 제어 가능한 프로세스로 전환한다.",
+      "key_points": [
+        "VLM을 활용하여 3D 모델의 후면 뷰 생성을 언어적으로 제어 가능하게 함",
+        "VLM과 diffusion 모델을 결합하여 의미론적 지식을 3D 생성 모델에 전달",
+        "기존 3D 생성 모델의 무작위성을 개선하고 사용자 의도에 부합하는 3D 에셋 생성"
+      ],
+      "tags": [
+        "3D Generation",
+        "VLM",
+        "Diffusion Model",
+        "Language Control",
+        "Multimodal",
+        "Vision"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "3D 에셋 생성 파이프라인에서 사용자 의도에 맞는 결과물을 얻기 위한 제어 가능성을 높이고, 생성 과정의 불확실성을 줄여 개발 효율성을 향상시킬 수 있다.",
+      "recommended_actions": [
+        "VLM을 활용한 3D 모델 생성 파이프라인 구축",
+        "Diffusion 모델을 활용하여 VLM의 지식을 3D 생성 모델에 통합하는 실험",
+        "Know3D 프레임워크를 기반으로 특정 도메인에 특화된 3D 에셋 생성 모델 개발"
+      ],
+      "risks_and_limits": [
+        "VLM의 성능에 따라 생성 결과의 품질이 달라질 수 있음",
+        "Diffusion 모델의 학습 및 추론 비용이 높을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.22782.png",
+      "local_image_path": "images/Know3D_Prompting_3D_Generation_with_Knowledge_from_Vision-Language_Models_img.jpg",
       "local_figures": []
     }
   ]
