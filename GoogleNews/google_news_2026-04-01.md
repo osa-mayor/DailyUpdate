@@ -1,0 +1,188 @@
+# 🌏 Google News Tech Digest (2026년 04월 01일)
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Introducing Our First AI Glasses Built For Prescriptions - meta.com](https://about.fb.com/news/2026/03/meta-ai-glasses-built-for-prescriptions/)
+**출처**: meta.com | **게시일**: Tue, 31 Mar 2026 13:00:01 GMT
+
+#### 📌 종합 요약
+Meta에서 처방 안경을 사용하는 사용자를 위해 설계된 새로운 Ray-Ban Meta 안경을 출시했습니다. 이 안경은 다양한 스타일과 색상 옵션을 제공하며, AI 기능을 통해 영양 추적, WhatsApp 요약 등의 기능을 제공합니다. 또한, 소프트웨어 업데이트를 통해 사용자 경험을 개선하고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+새로운 Ray-Ban Meta 안경은 다양한 처방 렌즈를 지원하며, Blayzer 및 Scriber 스타일로 제공됩니다. 특히, Meta AI를 활용한 영양 추적 기능은 사용자의 음성 명령이나 사진을 통해 음식 정보를 기록하고, Meta AI 앱에서 영양 정보를 추출하여 개인 맞춤형 인사이트를 제공합니다. 또한, Neural Handwriting 기능을 통해 손가락으로 메시지를 작성하고, iMessage를 포함한 다양한 메시징 앱에서 사용할 수 있습니다.
+
+#### ✅ 핵심 요점
+- Ray-Ban Meta 안경은 처방 렌즈를 사용하는 사용자를 위해 설계되었으며, Blayzer 및 Scriber 스타일로 제공됩니다.
+- Meta AI를 활용한 영양 추적 기능은 음성 명령이나 사진을 통해 음식 정보를 기록하고, 개인 맞춤형 인사이트를 제공합니다.
+- Neural Handwriting 기능을 통해 손가락으로 메시지를 작성하고, iMessage를 포함한 다양한 메시징 앱에서 사용할 수 있습니다.
+- 보행자 네비게이션 기능이 미국 전역의 모든 도시로 확장되어 렌즈를 통해 길 안내를 받을 수 있습니다.
+
+**태그**: Meta, Neural Handwriting, Release, Ray-Ban, AI Glasses
+
+---
+
+### 2. [NCAN Member Survey Asks How, When, and Why for AI - National College Attainment Network](https://www.ncan.org/Web/News/722423.aspx)
+**출처**: National College Attainment Network | **게시일**: Tue, 31 Mar 2026 17:06:08 GMT
+
+#### 📌 종합 요약
+미국 대학진학 네트워크(NCAN)는 인공지능(AI)이 대학 진학 지도 분야에서 어떻게 활용되고 있는지 파악하기 위해 회원들을 대상으로 설문조사를 실시했다. 설문 결과, 응답자들은 AI 기반 도구를 활용한 학생 지원 알림에 가장 높은 신뢰도를 보였으며, 재정 지원(FAFSA)이나 위기 개입과 같이 중요도가 높은 활동에서는 신뢰도가 낮아지는 경향을 보였다. NCAN은 AI 관련 교육 프로그램과 커뮤니티를 통해 회원들의 AI 활용 역량 강화를 지원할 예정이다.
+
+#### ⚙️ 기술적 성과 및 가치
+설문조사 결과, 응답자의 85%가 AI 기반 학생 지원 알림에 대해 '어느 정도 신뢰' 이상으로 평가했다. 반면, FAFSA 작성 지원이나 위기 개입과 같은 활동에서는 AI에 대한 신뢰도가 상대적으로 낮았다. 이는 AI의 활용 목적과 관련된 리스크 수준에 따라 사용자의 신뢰도가 달라질 수 있음을 시사한다. NCAN은 Spring Institute를 통해 AI 도구의 작동 방식과 실제 활용 사례를 교육하고, Slack 기반 온라인 커뮤니티를 통해 회원 간 정보 교류를 지원할 계획이다.
+
+#### ✅ 핵심 요점
+- NCAN 회원들은 대학 진학 지도 분야에서 AI의 활용 가능성에 주목하고 있으며, 특히 학생 지원 알림 기능에 높은 신뢰도를 보였다.
+- AI 활용에 대한 신뢰도는 활동의 중요도(stakes)에 따라 달라지며, 재정 지원이나 위기 개입과 같이 민감한 영역에서는 신중한 접근이 필요하다.
+- NCAN은 AI 교육 프로그램과 커뮤니티 운영을 통해 회원들의 AI 활용 역량 강화 및 정보 교류를 지원할 예정이다.
+
+**태그**: 교육, 설문조사, 대학진학지도, 커뮤니티, Rust
+
+---
+
+### 3. [Open to Work: How to Get Ahead in the Age of AI - blogs.microsoft.com](https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/)
+**출처**: blogs.microsoft.com | **게시일**: Tue, 31 Mar 2026 15:15:08 GMT
+
+#### 📌 종합 요약
+LinkedIn CEO이자 Microsoft Office EVP인 Ryan Roslansky는 AI 시대에 직업과 커리어를 발전시키는 방법에 대한 책 "Open to Work"를 출간했다. 이 책은 AI가 가져오는 변화에 대한 실질적인 가이드를 제공하며, 개인과 기업이 AI를 활용하여 기회를 확장하고 자신감을 구축하는 방법을 제시한다.
+
+#### ⚙️ 기술적 성과 및 가치
+이 책은 LinkedIn의 데이터와 Microsoft의 기술을 기반으로 AI 시대에 필요한 기술과 전략을 분석한다. 특히, AI와 인간의 협업을 강조하며, AI 도구를 활용하여 개인의 고유한 강점을 강화하고 대체 불가능한 존재가 되는 방법을 제시한다. Microsoft의 Word, Excel, PowerPoint, Copilot과 같은 도구들이 어떻게 AI와 결합하여 업무 효율성을 높이고 새로운 기회를 창출하는지에 대한 인사이트를 제공한다.
+
+#### ✅ 핵심 요점
+- AI 시대에 개인은 AI 기술을 적극적으로 활용하여 자신의 직무 능력을 향상시키고 새로운 커리어를 개척해야 한다.
+- 기업은 AI를 도입하여 업무 프로세스를 개선하고 직원들에게 새로운 기술을 교육하여 AI 시대에 경쟁력을 확보해야 한다.
+- AI와 인간의 협업은 AI가 인간을 대체하는 것이 아니라, 인간의 능력을 확장하고 새로운 가치를 창출하는 방향으로 이루어져야 한다.
+
+**태그**: LinkedIn, AI, Work Trend Index
+
+---
+
+### 4. [NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion - NVIDIA Newsroom](https://nvidianews.nvidia.com/news/nvidia-ai-ecosystem-expands-as-marvell-joins-forces-through-nvlink-fusion)
+**출처**: NVIDIA Newsroom | **게시일**: Tue, 31 Mar 2026 12:07:05 GMT
+
+#### 📌 종합 요약
+엔비디아가 Marvell과 전략적 파트너십을 맺고 NVLink Fusion을 통해 AI 생태계를 확장합니다. Marvell은 엔비디아의 AI 팩토리 및 AI-RAN 생태계에 연결되어 고객에게 차세대 인프라 개발에 더 큰 선택과 유연성을 제공하며, 엔비디아는 Marvell에 20억 달러를 투자했습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+NVLink Fusion은 랙 스케일 플랫폼으로, 고객이 엔비디아 NVLink 생태계를 사용하여 반 맞춤형 AI 인프라를 개발할 수 있도록 지원합니다. Marvell은 맞춤형 XPU와 NVLink Fusion 호환 스케일업 네트워킹을 제공하고, 엔비디아는 Vera CPU, ConnectX NIC, BlueField DPU, NVLink 인터커넥트, Spectrum-X 스위치 등 지원 기술과 랙 스케일 AI 컴퓨팅을 제공합니다. 특히, 엔비디아의 Aerial AI-RAN을 통해 5G/6G 통신망을 AI 인프라로 전환하고, 고급 광 인터커넥트 솔루션과 실리콘 포토닉스 기술을 통해 AI 네트워킹을 발전시킬 계획입니다.
+
+#### ✅ 핵심 요점
+- 엔비디아와 Marvell은 NVLink Fusion을 통해 이기종 AI 인프라를 구축하여 엔비디아 GPU, LPU, 네트워킹, 스토리지 플랫폼과의 원활한 통합을 가능하게 합니다.
+- Marvell의 고성능 아날로그, 광 DSP, 실리콘 포토닉스, 맞춤형 실리콘 기술을 엔비디아의 AI 생태계에 연결하여 확장 가능하고 효율적인 AI 인프라 구축을 지원합니다.
+- 엔비디아는 Marvell과의 협력을 통해 급증하는 토큰 생성 수요에 대응하고, 고객이 특화된 AI 컴퓨팅을 구축할 수 있도록 지원합니다.
+
+**태그**: AI-RAN, XPU, NVIDIA, Silicon Photonics, GPU
+
+---
+
+### 5. [HHS Aligns Health Technology Leadership to Deliver Data Liquidity, Affordability, and an AI-Enabled Health Care System for Americans - HHS.gov](https://www.hhs.gov/press-room/hhs-health-tech-leadership-deliver-data-liquidity-affordability-ai-enabled-health-care-system.html)
+**출처**: HHS.gov | **게시일**: Tue, 31 Mar 2026 12:50:00 GMT
+
+#### 📌 종합 요약
+미국 보건복지부(HHS)는 데이터 유동성, 경제성, AI 기반 의료 시스템 구축을 목표로 보건 기술 리더십을 재정비합니다. 이는 미국 국민에게 더 나은 의료 서비스를 제공하기 위한 광범위한 노력의 일환입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+HHS의 이번 재정비는 의료 데이터의 상호 운용성(Interoperability)을 높이고, FHIR (Fast Healthcare Interoperability Resources)와 같은 표준을 활용하여 데이터 교환을 촉진하는 데 중점을 둡니다. AI 기반 시스템 도입을 위해, HHS는 머신러닝 모델의 공정성, 투명성, 책임성을 확보하기 위한 프레임워크를 개발하고, 의료 데이터 분석에 사용되는 알고리즘의 성능을 지속적으로 평가할 계획입니다. 구체적인 모델 성능 지표(예: AUC, F1-score)를 통해 AI 시스템의 효과성을 측정하고 개선해 나갈 것입니다.
+
+#### ✅ 핵심 요점
+- 데이터 유동성 확보를 위해 표준 기반 API (Application Programming Interface)를 적극적으로 활용하여 다양한 의료 시스템 간의 데이터 교환을 용이하게 합니다.
+- 의료 서비스 경제성 향상을 위해 불필요한 관리 비용을 줄이고, AI 기반 자동화를 통해 진료 프로세스를 최적화합니다. 예를 들어, 진단 과정에서 AI 모델을 활용하여 의사의 업무 부담을 줄이고 진단의 정확도를 높입니다.
+- AI 기반 의료 시스템 구축을 위해 데이터 보안 및 개인 정보 보호를 강화하고, Federated Learning과 같은 기술을 활용하여 민감한 의료 데이터를 안전하게 분석합니다.
+
+**태그**: Data Liquidity, FHIR, HHS, Federated Learning, Interoperability
+
+---
+
+### 6. [When Will Japan’s Cherry Blossoms Bloom? A.I. Can Help Answer That - The New York Times](https://www.nytimes.com/2026/03/31/world/asia/japan-cherry-blossoms-ai.html)
+**출처**: The New York Times | **게시일**: Tue, 31 Mar 2026 07:07:12 GMT
+
+#### 📌 종합 요약
+뉴욕타임즈는 일본의 벚꽃 개화 시기를 예측하는 데 인공지능(AI)이 활용되고 있다는 기사를 게재했다. 과거의 기상 데이터와 벚꽃 개화 기록을 학습한 AI 모델을 통해 더욱 정확한 예측이 가능해졌으며, 이는 관광 산업 및 관련 경제 활동에 긍정적인 영향을 미칠 것으로 기대된다.
+
+#### ⚙️ 기술적 성과 및 가치
+기사에서 구체적인 AI 모델명이나 알고리즘은 언급되지 않았지만, 과거 데이터를 기반으로 학습하는 머신러닝 모델이 사용되었을 것으로 추정된다. 이러한 모델은 기온, 강수량, 일조량 등의 기상 변수와 과거 벚꽃 개화 시기 데이터를 활용하여 패턴을 학습하고, 미래의 개화 시기를 예측한다. 모델의 정확도는 학습 데이터의 양과 질, 그리고 사용된 알고리즘의 성능에 따라 달라질 수 있다.
+
+#### ✅ 핵심 요점
+- AI 모델은 과거 기상 데이터와 벚꽃 개화 기록을 학습하여 개화 시기를 예측한다.
+- 정확한 벚꽃 개화 시기 예측은 관광 산업 및 관련 경제 활동에 중요한 정보를 제공한다.
+- 머신러닝 모델의 성능은 학습 데이터의 품질과 알고리즘 선택에 크게 의존한다.
+
+**태그**: 관광 산업, 머신러닝, 벚꽃, 기상 데이터, AI
+
+---
+
+### 7. [AI Has Flooded All the Weather Apps - WIRED](https://www.wired.com/story/ai-has-flooded-all-the-weather-apps/)
+**출처**: WIRED | **게시일**: Tue, 31 Mar 2026 13:00:00 GMT
+
+#### 📌 종합 요약
+날씨 앱에 AI 기술이 광범위하게 도입되고 있으며, The Weather Company의 Storm Radar 앱은 AI 기반 날씨 도우미를 통해 사용자 맞춤형 날씨 정보 제공을 강화했다. 이러한 추세는 정부의 기상 관측 축소와 극단적인 기상 이변 예측의 어려움 속에서 더욱 가속화되고 있으며, AI는 날씨 예측 모델의 효율성을 높이고 사용자 경험을 개선하는 데 중요한 역할을 한다.
+
+#### ⚙️ 기술적 성과 및 가치
+Storm Radar 앱은 NOAA의 데이터를 기반으로 하며, AI를 활용하여 레이더, 온도, 바람, 번개 등의 날씨 정보를 사용자 맞춤형으로 제공한다. 특히, AI 도우미는 사용자의 일정과 연동하여 날씨 변화에 따른 알림을 제공하며, 이는 텍스트 또는 음성 형태로 제공될 수 있다. Acme Weather는 AI를 활용하여 날씨 예측의 불확실성을 명확히 전달하는 데 중점을 두고 있으며, 이는 전통적인 날씨 앱이 간과했던 부분이다.
+
+#### ✅ 핵심 요점
+- AI는 날씨 앱에서 데이터 시각화, 예측 모델 개선, 사용자 맞춤형 정보 제공 등 다양한 방식으로 활용되고 있다.
+- Storm Radar 앱은 AI 기반 날씨 도우미를 통해 사용자 경험을 향상시키고, 개인화된 날씨 정보를 제공하는 데 주력하고 있다.
+- Acme Weather는 날씨 예측의 불확실성을 강조하며, AI를 통해 예측의 정확성뿐만 아니라 신뢰성을 높이는 데 집중하고 있다.
+- 정부의 기상 관측 축소와 기후 변화로 인한 극단적인 기상 이변 증가로 인해, 민간 기업의 AI 기반 날씨 예측 기술의 중요성이 더욱 부각되고 있다.
+
+**태그**: Storm Radar, Agent, Database, Acme Weather, NOAA
+
+---
+
+### 8. [Using advanced statistics and AI to improve health - Harvard T.H. Chan School of Public Health](https://hsph.harvard.edu/news/using-advanced-statistics-and-ai-to-improve-health/)
+**출처**: Harvard T.H. Chan School of Public Health | **게시일**: Tue, 31 Mar 2026 16:30:44 GMT
+
+#### 📌 종합 요약
+하버드 T.H. 챈 보건대학의 Matlin Gilman 박사는 고급 통계 및 AI 기술을 활용하여 정책 결정이 건강에 미치는 영향을 분석하고, 의료 서비스 개선을 위한 AI 도구를 개발하고 있다. 특히, 낙태 금지 정책이 출산율 및 신생아 사망률에 미치는 영향과 병원의 성과 개선을 위한 머신러닝 모델 개발, 의료 문헌 검색을 돕는 AI 기반 웹 애플리케이션 개발에 집중하고 있다.
+
+#### ⚙️ 기술적 성과 및 가치
+Gilman 박사는 베이지안 모델링을 통해 낙태 금지 정책이 없는 경우의 출산율을 예측하고 실제 출산율과의 차이를 분석했다. 또한, Medicare의 Value-Based Purchasing 프로그램 데이터를 활용하여 병원 성과 예측 머신러닝 모델을 구축, 환자 경험 및 효율성이 병원 재정 보상에 미치는 영향이 크다는 것을 밝혀냈다. 의료 문헌 검색 AI 도구는 Large Language Model (LLM, 대규모 언어 모델)을 사용하여 사용자의 질문을 이해하고, 관련 연구를 검색하여 요약된 답변과 출처를 제공한다.
+
+#### ✅ 핵심 요점
+- 베이지안 모델링을 통해 낙태 금지 정책이 히스패닉 및 흑인 여성, 고등학교 졸업 여성의 출산율 증가에 미치는 영향을 확인했다.
+- 신생아 사망률 증가의 원인이 심각한 선천적 결함으로 인한 사망이며, 특히 흑인 영아 사망률이 높다는 것을 밝혀냈다.
+- 병원 성과 예측 머신러닝 모델을 통해 환자 경험 및 효율성이 병원 재정 보상에 중요한 요소임을 확인했다.
+- 의료 전문가를 위한 AI 기반 웹 애플리케이션은 LLM을 활용하여 의료 연구 문헌을 효율적으로 검색하고, 연구의 신뢰도 및 인용 빈도 정보를 제공한다.
+
+**태그**: LLM, 인공지능, 머신러닝, Database, 베이지안 모델링
+
+---
+
+### 9. [Oracle cutting thousands in latest layoff round as company continues to ramp AI spending - CNBC](https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html)
+**출처**: CNBC | **게시일**: Tue, 31 Mar 2026 15:34:18 GMT
+
+#### 📌 종합 요약
+오라클이 AI 인프라 구축을 위한 대규모 투자로 인해 주가가 하락하고 현금 흐름에 압박을 받으면서 대규모 감원을 시작했다. 이번 감원은 AI 경쟁 심화에 대한 시장의 우려와 투자자들의 부채 증가 압박에 대한 대응으로 보인다.
+
+#### ⚙️ 기술적 성과 및 가치
+오라클은 AI 워크로드를 처리할 수 있는 데이터 센터 인프라 구축을 위해 막대한 자본 지출을 늘려왔다. 특히 OpenAI와의 계약을 통해 4,550억 달러 규모의 잔여 수행 의무(Remaining Performance Obligations, RPO)를 확보했으며, 이는 계약된 수익 중 아직 인식되지 않은 부분을 나타낸다. 오라클은 GPU 및 CPU 기반 AI 인프라 수요가 공급을 초과하고 있다고 밝혔으며, 이는 5,530억 달러의 RPO에서 직접적으로 확인된다.
+
+#### ✅ 핵심 요점
+- 오라클은 AI 인프라 투자를 위해 500억 달러 규모의 부채 및 자본 조달 계획을 발표했으며, 이는 AI 분야에서의 경쟁 우위를 확보하기 위한 전략적 움직임으로 해석된다.
+- TD Cowen 분석가들은 2만~3만 명의 감원을 통해 80억~100억 달러의 잉여 현금 흐름을 확보할 수 있다고 분석했다.
+- 오라클은 클라우드 경쟁사(Amazon 등) 대비 규모가 작기 때문에, 부채 시장에 의존하여 AI 인프라 구축 자금을 조달하고 있다.
+
+**태그**: Data Center, Oracle, Database, Cloud Infrastructure, RPO
+
+---
+
+### 10. [Inside David Sacks' new role shaping Trump's AI agenda - Axios](https://www.axios.com/2026/03/30/david-sacks-trump-ai-agenda-plan)
+**출처**: Axios | **게시일**: Tue, 31 Mar 2026 11:32:22 GMT
+
+#### 📌 종합 요약
+Axios의 보도에 따르면, 데이비드 색스(David Sacks)가 트럼프 전 대통령의 인공지능(AI) 정책 형성에 중요한 역할을 하고 있다. 이는 트럼프 행정부의 AI 전략에 실리콘밸리의 영향력이 커지고 있음을 시사한다.
+
+#### ⚙️ 기술적 성과 및 가치
+기사 원문이 제공되지 않아 구체적인 기술적 내용은 파악할 수 없다. 하지만 데이비드 색스의 역할은 트럼프 행정부의 AI 정책 방향에 영향을 미칠 수 있으며, 이는 LLM(Large Language Model) 개발 및 규제, Agent 기술 투자 등 다양한 기술 분야에 간접적인 영향을 줄 수 있다. 예를 들어, 특정 기업의 LLM 기술 표준이 정책에 반영될 가능성도 고려할 수 있다.
+
+#### ✅ 핵심 요점
+- 데이비드 색스가 트럼프 전 대통령의 AI 정책 결정에 관여하고 있다.
+- 이는 트럼프 행정부의 AI 전략에 실리콘밸리의 의견이 반영될 가능성을 높인다.
+- AI 정책 방향은 LLM, Agent 기술 등 다양한 기술 분야에 영향을 미칠 수 있다.
+
+**태그**: 데이비드 색스, LLM, Agent, 트럼프, AI 정책
+
+---
+
