@@ -1,474 +1,476 @@
 {
   "source": "product_hunt",
-  "date": "2026-04-01",
-  "generated_at": "2026-04-01T04:05:14.623688+09:00",
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T04:05:05.298383+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Jupid\n⭐ Votes: 441\n📝 요약: Jupid는 Claude Code와 연동하여 은행 거래 내역을 분석, IRS Schedule C 양식에 맞춰 자동 분류하고 누락된 공제 항목을 찾아 세금 신고를 5분 만에 완료할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/jupid\n🌐 서비스 링크: https://www.producthunt.com/r/IV445DDMYNBMML\n\n📦 2. Computer Use in Claude Code\n⭐ Votes: 297\n📝 요약: Claude Code CLI에서 컴퓨터를 사용하여 앱을 열고, 클릭하고, 타이핑하고, 화면을 볼 수 있게 해주는 macOS용 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/YWBXBLA4J4FAAV\n\n📦 3. Pixero AI \n⭐ Votes: 245\n📝 요약: Pixero AI는 웹사이트 URL만 입력하면 AI 에이전트가 Meta 광고 캠페인을 자동으로 생성, 배포 및 관리하여 광고 운영을 간소화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/pixero-ai-2\n🌐 서비스 링크: https://www.producthunt.com/r/IHF5OGGMBRR6XW\n\n📦 4. Solvea \n⭐ Votes: 193\n📝 요약: Solvea는 코딩 없이 AI 비서를 만들어 고객 지원, 판매, 예약 관리를 자동화하는 올인원 플랫폼입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/solvea\n🌐 서비스 링크: https://www.producthunt.com/r/SVOAF72B37H7V5\n\n📦 5. Perplexity API Platform\n⭐ Votes: 182\n📝 요약: Perplexity API 플랫폼은 웹 전체를 대상으로 하는 연구 및 Q&A 기능을 제품에 통합할 수 있도록 지원하며, 여러 공급업체의 모델 접근, 실시간 검색, 최첨단 임베딩을 제공하여 개발자가 여러 벤더를 연결할 필요 없이 하나의 API 키로 모든 기능을 사용할 수 있도록 합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/perplexity-api-platform\n🌐 서비스 링크: https://www.producthunt.com/r/MWZV3JIB2USTR4\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Noiz Easter Voice\n⭐ Votes: 315\n📝 요약: Noiz Easter Voice로 부활절 달걀을 깨서 AI 음성을 생성하고, 나만의 개성 넘치는 음성을 만들어보세요.\n🔗 Product Hunt: https://www.producthunt.com/products/noiz-studio\n🌐 서비스 링크: https://www.producthunt.com/r/RLGNXCRT7ZEWRG\n\n📦 2. Ollama v0.19\n⭐ Votes: 284\n📝 요약: Ollama v0.19는 Apple Silicon에서 MLX를 기반으로 추론을 재구축하여 로컬 성능을 대폭 향상시키고, NVFP4 지원, 스마트 캐시 재사용, 스냅샷, 삭제 기능을 추가하여 더욱 빠른 응답성을 제공합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/ollama\n🌐 서비스 링크: https://www.producthunt.com/r/Z7W5EBMANBJLNM\n\n📦 3. traceAI\n⭐ Votes: 209\n📝 요약: traceAI는 기존의 관측 가능성 스택과 연동되는 오픈 소스 LLM 추적 도구로, GenAI의 의미를 정확히 파악하여 HTTP가 아닌 GenAI 중심으로 작동합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/future-agi\n🌐 서비스 링크: https://www.producthunt.com/r/W77CUHBVI74B7W\n\n📦 4. Zzzappy\n⭐ Votes: 200\n📝 요약: Zzzappy는 macOS에서 화면 사용 시간과 팔의 움직임을 모니터링하여 시력 보호 및 RSI 예방을 위한 휴식을 과학적으로 스케줄링해주는 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/zzzappy\n🌐 서비스 링크: https://www.producthunt.com/r/UUQ3KAI6MHZ2WM\n\n📦 5. ClawMetry for NVIDIA NemoClaw\n⭐ Votes: 175\n📝 요약: NVIDIA NemoClaw 샌드박스 내부를 완벽하게 관찰하여 모델의 사고 과정, 도구 호출, 토큰 비용 등을 실시간으로 파악하고 E2E 암호화까지 제공하는 오픈소스 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/clawmetry\n🌐 서비스 링크: https://www.producthunt.com/r/WDKGCKMGIUTG5Y\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Jupid",
-      "url": "https://www.producthunt.com/products/jupid",
-      "service_url": "https://www.producthunt.com/r/IV445DDMYNBMML",
-      "website": "https://www.producthunt.com/r/IV445DDMYNBMML",
-      "votes": 441,
-      "tagline": "File your taxes with Claude Code",
-      "summary": "Jupid는 Claude Code와 연동하여 은행 거래 내역을 분석, IRS Schedule C 양식에 맞춰 자동 분류하고 누락된 공제 항목을 찾아 세금 신고를 5분 만에 완료할 수 있도록 돕습니다.",
+      "name": "Noiz Easter Voice",
+      "url": "https://www.producthunt.com/products/noiz-studio",
+      "service_url": "https://www.producthunt.com/r/RLGNXCRT7ZEWRG",
+      "website": "https://www.producthunt.com/r/RLGNXCRT7ZEWRG",
+      "votes": 315,
+      "tagline": "Crack an Easter egg to generate an AI voice",
+      "summary": "Noiz Easter Voice로 부활절 달걀을 깨서 AI 음성을 생성하고, 나만의 개성 넘치는 음성을 만들어보세요.",
       "key_points": [
-        "은행 계좌 연동으로 거래 내역 자동 분류 및 학습",
-        "IRS Schedule C 카테고리 매핑 정확도 약 96%",
-        "평균 연간 $1,249의 누락된 공제 항목 발견"
+        "부활절 테마의 AI 음성 생성",
+        "프롬프트와 이미지를 이용한 맞춤형 음성 제작",
+        "다양하고 재미있는 캐릭터 음성 제공"
       ],
       "tags": [
-        "세금",
-        "자동화",
-        "생산성",
         "AI",
-        "LLM",
-        "DevTool"
+        "음성 생성",
+        "부활절",
+        "콘텐츠 제작",
+        "AI Tool",
+        "Prompting",
+        "Vision"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "개인 사업자나 프리랜서가 세금 신고 시 복잡한 거래 내역 분류 작업을 간소화하고, 놓치기 쉬운 공제 항목을 찾아 세금 절약에 도움을 받을 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "특별한 부활절 인사말을 만들거나, 재미있는 캐릭터 음성으로 콘텐츠를 제작하는 데 활용할 수 있습니다.",
       "recommended_actions": [
-        "무료 평가판 사용해보기",
-        "은행 계좌 연동하여 거래 내역 분석 시작하기",
-        "Schedule C 자동 작성 기능 사용해보기"
+        "음성 달걀을 깨서 새로운 AI 음성 잠금 해제하기",
+        "프롬프트와 이미지를 사용하여 나만의 음성 만들기",
+        "다양한 캐릭터 음성으로 부활절 인사말 생성하기"
       ],
       "risks_and_limits": [
-        "Claude Code 연동 필요",
-        "은행 계좌 정보 제공에 대한 보안 고려 필요"
+        "AI 음성 품질은 프롬프트 및 이미지 품질에 따라 달라질 수 있음",
+        "생성된 음성의 저작권 및 사용 범위 확인 필요"
       ],
-      "uncertainty_note": "제공된 Schedule C 카테고리 매핑 정확도가 모든 사용자에게 동일하게 적용될지는 추가 확인이 필요합니다.",
+      "uncertainty_note": "AI 음성 생성에 필요한 크레딧 정책 및 상세 사용 조건은 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Jupid.jpg",
+      "local_image_path": "images/ph_2026-04-01_Noiz_Easter_Voice.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Jupid_media_0.jpg",
-        "images/ph_2026-03-31_Jupid_media_1.jpg",
-        "images/ph_2026-03-31_Jupid_media_2.jpg"
+        "images/ph_2026-04-01_Noiz_Easter_Voice_media_0.jpg",
+        "images/ph_2026-04-01_Noiz_Easter_Voice_media_1.jpg",
+        "images/ph_2026-04-01_Noiz_Easter_Voice_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/d5339c26-7688-47a3-912c-f9327d1c05b1.jpeg?auto=format"
+        "https://ph-files.imgix.net/7b121954-c701-4bd9-b752-47714bd14796.jpeg?auto=format"
       ]
     },
     {
       "rank": 2,
-      "name": "Computer Use in Claude Code",
-      "url": "https://www.producthunt.com/products/claude",
-      "service_url": "https://www.producthunt.com/r/YWBXBLA4J4FAAV",
-      "website": "https://www.producthunt.com/r/YWBXBLA4J4FAAV",
-      "votes": 297,
-      "tagline": "Let Claude use your computer from the CLI",
-      "summary": "Claude Code CLI에서 컴퓨터를 사용하여 앱을 열고, 클릭하고, 타이핑하고, 화면을 볼 수 있게 해주는 macOS용 도구입니다.",
+      "name": "Ollama v0.19",
+      "url": "https://www.producthunt.com/products/ollama",
+      "service_url": "https://www.producthunt.com/r/Z7W5EBMANBJLNM",
+      "website": "https://www.producthunt.com/r/Z7W5EBMANBJLNM",
+      "votes": 284,
+      "tagline": "Massive local model speedup on Apple Silicon with MLX",
+      "summary": "Ollama v0.19는 Apple Silicon에서 MLX를 기반으로 추론을 재구축하여 로컬 성능을 대폭 향상시키고, NVFP4 지원, 스마트 캐시 재사용, 스냅샷, 삭제 기능을 추가하여 더욱 빠른 응답성을 제공합니다.",
       "key_points": [
-        "Claude Code CLI에서 컴퓨터 사용 가능",
-        "macOS에서 앱 열기, 클릭, 타이핑, 화면 보기 지원",
-        "GUI 기반 도구 자동화 및 네이티브 앱 테스트 가능"
+        "Apple Silicon에서 MLX 기반으로 로컬 모델 추론 속도 향상",
+        "NVFP4 지원으로 성능 개선",
+        "스마트 캐시 재사용 및 스냅샷 기능으로 응답성 향상"
       ],
       "tags": [
-        "CLI",
-        "Automation",
-        "macOS",
-        "DevTool",
-        "AI"
+        "ML",
+        "로컬 모델",
+        "Apple Silicon",
+        "개발 도구",
+        "Agent",
+        "Automation"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "터미널을 벗어나지 않고도 GUI 기반 도구를 자동화하고 네이티브 앱을 테스트하여 개발 생산성을 높일 수 있습니다. 특히 시각적 문제 디버깅에 유용합니다.",
+      "practical_relevance": "로컬 환경에서 코딩 및 에이전트 워크플로우의 속도가 빨라져 개발 생산성을 높일 수 있으며, 더욱 빠르고 반응성이 좋은 세션을 경험할 수 있습니다.",
       "recommended_actions": [
-        "Claude Code CLI 설치 및 설정",
-        "macOS에서 컴퓨터 사용 권한 부여",
-        "GUI 자동화 스크립트 작성 및 실행"
+        "Apple Silicon 환경에서 Ollama v0.19로 업그레이드하여 성능 향상 체험",
+        "NVFP4 지원을 활용하여 모델 성능 최적화",
+        "스마트 캐시 및 스냅샷 기능을 활용하여 세션 응답성 개선"
       ],
       "risks_and_limits": [
-        "macOS 환경에서만 동작",
-        "Claude Code CLI 호환성 확인 필요"
+        "Apple Silicon 환경이 아닌 경우 성능 향상 효과가 제한적일 수 있음",
+        "NVFP4 지원은 특정 모델에만 해당될 수 있으므로 호환성 확인 필요"
       ],
-      "uncertainty_note": "Claude Code CLI의 컴퓨터 사용 기능이 다른 운영체제에서도 지원될지 여부는 불확실합니다.",
-      "repeated_in_window": true,
-      "repeated_days_ago": 5,
-      "local_image_path": "images/ph_2026-03-31_Computer_Use_in_Claude_Code.jpg",
+      "uncertainty_note": "실제 성능 향상 폭은 모델 및 사용 환경에 따라 다를 수 있으므로, 사용 전 테스트를 권장합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-01_Ollama_v0.19.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Computer_Use_in_Claude_Code_media_0.jpg",
-        "images/ph_2026-03-31_Computer_Use_in_Claude_Code_media_1.jpg",
-        "images/ph_2026-03-31_Computer_Use_in_Claude_Code_media_2.jpg"
+        "images/ph_2026-04-01_Ollama_v0.19_media_0.jpg",
+        "images/ph_2026-04-01_Ollama_v0.19_media_1.jpg",
+        "images/ph_2026-04-01_Ollama_v0.19_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 3,
-      "name": "Pixero AI ",
-      "url": "https://www.producthunt.com/products/pixero-ai-2",
-      "service_url": "https://www.producthunt.com/r/IHF5OGGMBRR6XW",
-      "website": "https://www.producthunt.com/r/IHF5OGGMBRR6XW",
-      "votes": 245,
-      "tagline": "OpenClaw for AI Ads",
-      "summary": "Pixero AI는 웹사이트 URL만 입력하면 AI 에이전트가 Meta 광고 캠페인을 자동으로 생성, 배포 및 관리하여 광고 운영을 간소화합니다.",
+      "name": "traceAI",
+      "url": "https://www.producthunt.com/products/future-agi",
+      "service_url": "https://www.producthunt.com/r/W77CUHBVI74B7W",
+      "website": "https://www.producthunt.com/r/W77CUHBVI74B7W",
+      "votes": 209,
+      "tagline": "Open-source LLM tracing that speaks GenAI, not HTTP.",
+      "summary": "traceAI는 기존의 관측 가능성 스택과 연동되는 오픈 소스 LLM 추적 도구로, GenAI의 의미를 정확히 파악하여 HTTP가 아닌 GenAI 중심으로 작동합니다.",
       "key_points": [
-        "URL 기반 Meta 광고 캠페인 자동 생성",
-        "최신 AI 모델을 활용한 광고 제작",
-        "캠페인 전략 수립, 광고 배포 및 관리 자동화"
+        "프롬프트, 완료, 토큰, 검색, 에이전트 결정을 캡처합니다.",
+        "GenAI 의미 규칙을 정확히 따릅니다.",
+        "Datadog, Grafana, Jaeger 등 모든 OTel 백엔드로 라우팅됩니다."
       ],
       "tags": [
-        "AI",
-        "광고",
-        "자동화",
-        "Meta Ads",
-        "마케팅",
+        "LLM",
+        "Tracing",
+        "Observability",
+        "Open Source",
+        "DevTool",
         "Agent",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Meta 광고 캠페인 운영에 드는 시간과 노력을 절약하고, AI 기반 최적화를 통해 광고 효율을 높일 수 있습니다.",
-      "recommended_actions": [
-        "웹사이트 URL을 입력하여 Meta 광고 캠페인 자동 생성 시작",
-        "생성된 광고 캠페인 성과 모니터링",
-        "AI 에이전트의 캠페인 관리 기능 활용"
-      ],
-      "risks_and_limits": [
-        "AI가 생성한 광고가 브랜드 이미지와 일치하는지 확인 필요",
-        "Meta 광고 정책 준수 여부 확인 필요"
-      ],
-      "uncertainty_note": "AI 광고 생성 모델의 성능 및 최적화 수준에 대한 추가 정보 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Pixero_AI_.jpg",
-      "local_media": [
-        "images/ph_2026-03-31_Pixero_AI__media_0.jpg",
-        "images/ph_2026-03-31_Pixero_AI__media_1.jpg",
-        "images/ph_2026-03-31_Pixero_AI__media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/8e36822a-935d-4c35-a319-95ddf28648b0.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 4,
-      "name": "Solvea ",
-      "url": "https://www.producthunt.com/products/solvea",
-      "service_url": "https://www.producthunt.com/r/SVOAF72B37H7V5",
-      "website": "https://www.producthunt.com/r/SVOAF72B37H7V5",
-      "votes": 193,
-      "tagline": "Create your AI receptionist that answers, books, and sells",
-      "summary": "Solvea는 코딩 없이 AI 비서를 만들어 고객 지원, 판매, 예약 관리를 자동화하는 올인원 플랫폼입니다.",
-      "key_points": [
-        "24/7 고객 응대: 전화, 채팅, 이메일을 통해 연중무휴 고객 응대가 가능합니다.",
-        "문맥 파악 및 실행: 단순 챗봇과 달리 문맥을 기억하고 필요한 조치를 취합니다.",
-        "쉬운 설정: 코딩 없이 원하는 기능을 설명만 하면 AI 비서를 빠르게 구축할 수 있습니다."
-      ],
-      "tags": [
-        "AI",
-        "고객 지원",
-        "자동화",
-        "챗봇",
-        "예약 관리",
         "AI Tool",
-        "Chat",
-        "Sales",
-        "Email"
+        "Prompting"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Solvea를 통해 고객 응대 시간을 줄이고, 놓치는 고객 없이 효율적인 비즈니스 운영이 가능합니다. 특히 소규모 사업자나 1인 기업에게 유용합니다.",
+      "practical_relevance": "traceAI를 사용하면 기존의 관측 가능성 도구를 변경하지 않고도 LLM 애플리케이션을 쉽게 추적하고 디버깅할 수 있습니다. 두 줄의 코드만으로 애플리케이션 전체를 계측할 수 있습니다.",
       "recommended_actions": [
-        "AI 비서 구축 후 고객 지원 자동화",
-        "상품 추천 및 판매 기능 설정",
-        "예약 관리 기능 연동"
+        "Python, TypeScript, Java, C# 중 사용하는 언어로 애플리케이션을 계측해보기",
+        "OpenAI, LangChain, CrewAI 등 35개 이상의 지원 프레임워크 활용해보기",
+        "OTel 백엔드(Datadog, Grafana, Jaeger)에 연동하여 데이터 확인해보기"
       ],
       "risks_and_limits": [
-        "AI가 모든 질문에 정확하게 답변하지 못할 수 있으므로, 답변 정확도 모니터링이 필요합니다.",
-        "복잡한 문의는 AI가 처리하지 못할 수 있으므로, 담당자 연결 기능을 준비해야 합니다."
+        "OTel 백엔드 설정 및 관리에 대한 이해가 필요합니다.",
+        "오픈 소스이므로 자체적인 유지보수 및 커스터마이징이 필요할 수 있습니다."
       ],
-      "uncertainty_note": "Solvea의 AI가 얼마나 다양한 산업 분야의 고객 문의를 효과적으로 처리할 수 있는지 확인이 필요합니다.",
+      "uncertainty_note": "traceAI가 특정 환경이나 워크로드에서 얼마나 효과적인지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Solvea_.jpg",
+      "local_image_path": "images/ph_2026-04-01_traceAI.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Solvea__media_0.jpg",
-        "images/ph_2026-03-31_Solvea__media_1.jpg",
-        "images/ph_2026-03-31_Solvea__media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/2a6ea654-46a0-4128-848a-92f451fd96a9.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "Perplexity API Platform",
-      "url": "https://www.producthunt.com/products/perplexity-api-platform",
-      "service_url": "https://www.producthunt.com/r/MWZV3JIB2USTR4",
-      "website": "https://www.producthunt.com/r/MWZV3JIB2USTR4",
-      "votes": 182,
-      "tagline": "Power your products with web-wide research, Q&A capabilities",
-      "summary": "Perplexity API 플랫폼은 웹 전체를 대상으로 하는 연구 및 Q&A 기능을 제품에 통합할 수 있도록 지원하며, 여러 공급업체의 모델 접근, 실시간 검색, 최첨단 임베딩을 제공하여 개발자가 여러 벤더를 연결할 필요 없이 하나의 API 키로 모든 기능을 사용할 수 있도록 합니다.",
-      "key_points": [
-        "2000억 개 이상의 URL에 대한 실시간 검색 기능 제공",
-        "다양한 모델 공급업체에 대한 통합 접근 방식",
-        "단일 API 키로 모든 기능 사용 가능"
-      ],
-      "tags": [
-        "API",
-        "검색",
-        "Q&A",
-        "개발 도구",
-        "Agent",
-        "DevTool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "개발자는 여러 서비스를 통합하는 번거로움 없이 웹 기반 연구 및 Q&A 기능을 제품에 쉽게 추가할 수 있으며, 시간과 비용을 절약할 수 있습니다.",
-      "recommended_actions": [
-        "API 문서 확인",
-        "무료 평가판 사용",
-        "지원팀에 문의"
-      ],
-      "risks_and_limits": [
-        "API 사용량에 따른 비용 발생 가능성",
-        "특정 모델 공급업체의 성능에 의존적일 수 있음"
-      ],
-      "uncertainty_note": "제공되는 모델의 종류와 성능, 그리고 API 사용량에 따른 정확한 비용 구조에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Perplexity_API_Platform.jpg",
-      "local_media": [
-        "images/ph_2026-03-31_Perplexity_API_Platform_media_0.jpg",
-        "images/ph_2026-03-31_Perplexity_API_Platform_media_1.jpg",
-        "images/ph_2026-03-31_Perplexity_API_Platform_media_2.jpg"
+        "images/ph_2026-04-01_traceAI_media_0.jpg",
+        "images/ph_2026-04-01_traceAI_media_1.jpg",
+        "images/ph_2026-04-01_traceAI_media_2.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 6,
-      "name": "Viktor for Media Buyers",
-      "url": "https://www.producthunt.com/products/viktor",
-      "service_url": "https://www.producthunt.com/r/IXUJIJJPMNXYK5",
-      "website": "https://www.producthunt.com/r/IXUJIJJPMNXYK5",
-      "votes": 169,
-      "tagline": "Manages your Meta and Google Ads from Slack",
-      "summary": "Viktor는 Slack에서 Meta 및 Google Ads를 관리하여 미디어 바이어가 광고 운영을 간소화하고 효율성을 높일 수 있도록 돕는 AI 협업 도구입니다.",
+      "rank": 4,
+      "name": "Zzzappy",
+      "url": "https://www.producthunt.com/products/zzzappy",
+      "service_url": "https://www.producthunt.com/r/UUQ3KAI6MHZ2WM",
+      "website": "https://www.producthunt.com/r/UUQ3KAI6MHZ2WM",
+      "votes": 200,
+      "tagline": "Science-backed breaks to protect your vision & prevent RSI",
+      "summary": "Zzzappy는 macOS에서 화면 사용 시간과 팔의 움직임을 모니터링하여 시력 보호 및 RSI 예방을 위한 휴식을 과학적으로 스케줄링해주는 앱입니다.",
       "key_points": [
-        "Slack에서 Meta 및 Google Ads 계정을 통합 관리",
-        "AI 기반으로 광고 세트 일시 중지, 확장, 예산 조정 등 자동화",
-        "Meta Ads 103개, Google Ads 37개 액션 지원"
+        "눈 보호를 위한 20-20-20 규칙 및 사용자 정의 가능한 간격 설정",
+        "키보드 입력, 마우스 클릭, 트랙패드 이동 거리 등 팔의 움직임 실시간 모니터링",
+        "스마트 일시 정지, 몰입형 휴식, 건강 대시보드 등 다양한 기능 제공"
       ],
       "tags": [
-        "AI",
-        "광고 자동화",
-        "Slack",
-        "Meta Ads",
-        "Google Ads",
+        "건강",
+        "생산성",
+        "macOS",
+        "RSI 예방",
+        "시력 보호",
         "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Slack에서 광고 캠페인을 실시간으로 관리하고, 여러 플랫폼 간 예산 조정 및 보고서 작성을 간편하게 만들어 광고 운영 효율성을 극대화합니다.",
+      "practical_relevance": "장시간 컴퓨터 사용으로 인한 시력 저하 및 RSI 위험을 줄여주어 건강한 작업 환경을 조성할 수 있습니다.",
       "recommended_actions": [
-        "Slack에서 광고 세트 일시 중지 기능 사용해보기",
-        "Slack에서 예산 조정 기능 사용해보기",
-        "Slack에서 보고서 내보내기 기능 사용해보기"
+        "눈 보호를 위한 20-20-20 규칙 간격 사용자 정의하기",
+        "팔 움직임 모니터링 기능 활성화하고 알림 설정하기",
+        "건강 대시보드에서 사용 시간 및 움직임 패턴 확인하기"
       ],
       "risks_and_limits": [
-        "실제 쓰기 권한을 가지므로 신중한 사용 필요",
-        "지원하는 액션 목록 및 사용법 숙지 필요"
+        "macOS에서만 사용 가능",
+        "개인의 사용 패턴에 따라 휴식 스케줄링 효과가 다를 수 있음"
       ],
-      "uncertainty_note": "Viktor의 AI가 광고 운영에 미치는 실제 효과 및 최적화 수준은 사용 환경에 따라 달라질 수 있습니다.",
+      "uncertainty_note": "실제 사용자들의 장기간 사용 후 효과에 대한 추가적인 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Viktor_for_Media_Buyers.jpg",
+      "local_image_path": "images/ph_2026-04-01_Zzzappy.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Viktor_for_Media_Buyers_media_0.jpg",
-        "images/ph_2026-03-31_Viktor_for_Media_Buyers_media_1.jpg",
-        "images/ph_2026-03-31_Viktor_for_Media_Buyers_media_2.jpg"
+        "images/ph_2026-04-01_Zzzappy_media_0.jpg",
+        "images/ph_2026-04-01_Zzzappy_media_1.jpg",
+        "images/ph_2026-04-01_Zzzappy_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 5,
+      "name": "ClawMetry for NVIDIA NemoClaw",
+      "url": "https://www.producthunt.com/products/clawmetry",
+      "service_url": "https://www.producthunt.com/r/WDKGCKMGIUTG5Y",
+      "website": "https://www.producthunt.com/r/WDKGCKMGIUTG5Y",
+      "votes": 175,
+      "tagline": "Know what's happening inside your NemoClaw sandboxes",
+      "summary": "NVIDIA NemoClaw 샌드박스 내부를 완벽하게 관찰하여 모델의 사고 과정, 도구 호출, 토큰 비용 등을 실시간으로 파악하고 E2E 암호화까지 제공하는 오픈소스 도구입니다.",
+      "key_points": [
+        "NVIDIA NemoClaw 샌드박스 내부의 완전한 가시성 제공",
+        "모델의 사고 과정, 도구 호출, 토큰 비용 등을 실시간으로 모니터링",
+        "E2E 암호화로 보안 강화"
+      ],
+      "tags": [
+        "NVIDIA",
+        "Observability",
+        "Sandbox",
+        "Open Source",
+        "Monitoring",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "NVIDIA NemoClaw를 사용하는 개발자는 샌드박스 내부 동작을 상세하게 파악하여 모델 성능을 최적화하고 비용을 절감할 수 있습니다. 또한, 오픈 소스이므로 자유롭게 사용하고 기여할 수 있습니다.",
+      "recommended_actions": [
+        "호스트에서 단일 명령어로 모든 샌드박스에 ClawMetry 적용",
+        "모델의 두뇌 활동, 흐름 시각화, 메모리 모니터링 기능 사용",
+        "클라우드 동기화 기능 (유료) 사용 고려"
+      ],
+      "risks_and_limits": [
+        "클라우드 동기화는 유료($5/sandbox/월)이므로 비용 고려 필요",
+        "오픈 소스이므로 자체적인 유지보수 및 관리가 필요할 수 있음"
+      ],
+      "uncertainty_note": "95K 이상의 설치 수와 100개국 이상에서 사용 중이라는 정보의 신뢰성 검증이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-01_ClawMetry_for_NVIDIA_NemoClaw.jpg",
+      "local_media": [
+        "images/ph_2026-04-01_ClawMetry_for_NVIDIA_NemoClaw_media_0.jpg",
+        "images/ph_2026-04-01_ClawMetry_for_NVIDIA_NemoClaw_media_1.jpg",
+        "images/ph_2026-04-01_ClawMetry_for_NVIDIA_NemoClaw_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/61a01434-85c6-4525-b13c-af1ee16cae24.jpeg?auto=format"
+        "https://ph-files.imgix.net/9a0a206f-c0ca-4fda-a717-4527c3a2d588.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Remodex",
+      "url": "https://www.producthunt.com/products/remodex-codex-remote-control",
+      "service_url": "https://www.producthunt.com/r/OTYGACI34EFM2X",
+      "website": "https://www.producthunt.com/r/OTYGACI34EFM2X",
+      "votes": 150,
+      "tagline": "Control Codex on your iPhone",
+      "summary": "Remodex는 아이폰으로 Mac에서 실행되는 Codex를 원격으로 제어하여, 어디서든 Codex의 기능을 활용할 수 있게 해주는 오픈소스 iOS 앱입니다.",
+      "key_points": [
+        "아이폰에서 Codex를 원격으로 제어 가능",
+        "스레드 생성, 서브에이전트 실행, Git 커밋 푸시 등 다양한 기능 지원",
+        "종단간 암호화로 보안 강화 및 필요시 자체 릴레이 서버 구축 가능"
+      ],
+      "tags": [
+        "DevTool",
+        "iOS",
+        "원격 제어",
+        "오픈소스",
+        "자동화",
+        "Agent",
+        "AI Tool",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Mac 앞에서 벗어나 아이폰으로 Codex를 편리하게 사용하고, 이동 중에도 생산성을 유지할 수 있습니다. 특히 개발자에게 유용합니다.",
+      "recommended_actions": [
+        "QR 코드를 사용하여 Mac과 iPhone을 페어링",
+        "iPhone에서 스레드를 생성하고 Codex의 응답 확인",
+        "Git 커밋을 푸시하여 원격으로 코드 변경 사항 적용"
+      ],
+      "risks_and_limits": [
+        "Codex가 Mac에서 실행 중이어야 Remodex 사용 가능",
+        "오픈소스이므로 보안 및 안정성에 대한 자체 검토 필요"
+      ],
+      "uncertainty_note": "Remodex의 릴레이 서버 성능 및 안정성에 대한 추가적인 사용자 후기 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-01_Remodex.jpg",
+      "local_media": [
+        "images/ph_2026-04-01_Remodex_media_0.jpg",
+        "images/ph_2026-04-01_Remodex_media_1.jpg",
+        "images/ph_2026-04-01_Remodex_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/5c443bc1-1363-4f2b-9d5b-7ff265b545a0.jpeg?auto=format"
       ]
     },
     {
       "rank": 7,
-      "name": "Stamp",
-      "url": "https://www.producthunt.com/products/stamp-4",
-      "service_url": "https://www.producthunt.com/r/4RAU4J3ROHBGQ7",
-      "website": "https://www.producthunt.com/r/4RAU4J3ROHBGQ7",
-      "votes": 136,
-      "tagline": "The AI Secretary that thinks, writes, and works like you",
-      "summary": "Stamp는 사용자의 스타일과 맥락을 학습하여 이메일과 캘린더 관리를 자동화해주는 AI 비서입니다.",
+      "name": "Google Veo 3.1 Lite",
+      "url": "https://www.producthunt.com/products/google-pay-2",
+      "service_url": "https://www.producthunt.com/r/BVITBLCHCXT2OS",
+      "website": "https://www.producthunt.com/r/BVITBLCHCXT2OS",
+      "votes": 140,
+      "tagline": "Google's most cost-effective video generation model",
+      "summary": "Google Veo 3.1 Lite는 Gemini API 기반으로 고화질 비디오를 저렴하게 생성할 수 있게 해주는 모델입니다.",
       "key_points": [
-        "개인화된 AI 비서: 사용자의 선호도를 학습하여 맞춤형으로 작동",
-        "이메일 및 캘린더 관리 자동화: 사용자의 스타일을 반영하여 업무 처리",
-        "무료 시작: 모든 이메일 환경에서 사용 가능"
+        "텍스트 및 이미지 기반 비디오 생성 지원",
+        "720p/1080p 해상도 지원",
+        "비용 효율성이 뛰어남 (Fast 모델 대비 50% 미만)"
       ],
       "tags": [
-        "AI 비서",
-        "자동화",
-        "생산성",
-        "이메일",
-        "캘린더",
-        "AI Tool",
-        "Email"
+        "Video Generation",
+        "AI",
+        "Gemini API",
+        "Video",
+        "Vision",
+        "API"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Stamp를 사용하면 이메일과 캘린더 관리에 소요되는 시간을 절약하고, 개인 비서처럼 업무를 처리할 수 있어 생산성을 높일 수 있습니다. 무료로 시작하여 AI 비서의 편리함을 경험해보세요.",
+      "practical_relevance": "대량의 비디오 콘텐츠를 제작해야 하는 사용자에게 비용 부담을 줄여주면서도 고품질 비디오를 만들 수 있는 유용한 도구입니다.",
       "recommended_actions": [
-        "Stamp를 설치하고 이메일 계정을 연결하여 시작하기",
-        "Stamp에게 자주 사용하는 이메일 스타일과 캘린더 설정을 학습시키기",
-        "Stamp가 제안하는 이메일 초안 및 캘린더 일정을 검토하고 수정하여 정확도 높이기"
+        "텍스트 프롬프트를 사용하여 비디오 생성해보기",
+        "이미지를 사용하여 비디오 생성해보기",
+        "다양한 비율과 길이로 비디오 제작해보기"
       ],
       "risks_and_limits": [
-        "AI가 사용자의 스타일을 완전히 이해하기까지 시간이 걸릴 수 있음",
-        "개인 정보 보호 및 보안에 대한 고려 필요"
+        "생성 가능한 비디오 품질이 Google Veo의 다른 모델보다 낮을 수 있음",
+        "Gemini API 사용량에 따라 비용이 발생할 수 있음"
       ],
-      "uncertainty_note": "Stamp의 장기적인 성능 및 사용자 만족도에 대한 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "실제 사용 환경에서의 비디오 생성 속도 및 품질은 사용자의 환경에 따라 달라질 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Stamp.jpg",
+      "local_image_path": "images/ph_2026-04-01_Google_Veo_3.1_Lite.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Stamp_media_0.jpg",
-        "images/ph_2026-03-31_Stamp_media_1.jpg",
-        "images/ph_2026-03-31_Stamp_media_2.jpg"
+        "images/ph_2026-04-01_Google_Veo_3.1_Lite_media_0.jpg",
+        "images/ph_2026-04-01_Google_Veo_3.1_Lite_media_1.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/dd459b7b-d397-48ac-bcda-5080ddb8a89b.jpeg?auto=format"
+        "https://ph-files.imgix.net/b5c9fb83-bb66-4bfe-a896-47ec88b2476e.jpeg?auto=format"
       ]
     },
     {
       "rank": 8,
-      "name": "Metabase Data Studio",
-      "url": "https://www.producthunt.com/products/metabase",
-      "service_url": "https://www.producthunt.com/r/DAWGQLW755STHZ",
-      "website": "https://www.producthunt.com/r/DAWGQLW755STHZ",
-      "votes": 126,
-      "tagline": "Build the semantic layer that makes AI analytics trustworthy",
-      "summary": "Metabase Data Studio는 AI 분석의 신뢰성을 높이기 위해 메트릭, 세그먼트, 비즈니스 로직을 통합 정의하는 시맨틱 레이어를 구축할 수 있는 분석가 워크벤치입니다.",
+      "name": "Prospecting by Clarify",
+      "url": "https://www.producthunt.com/products/clarify-6",
+      "service_url": "https://www.producthunt.com/r/PSIMKOZKZEGZF5",
+      "website": "https://www.producthunt.com/r/PSIMKOZKZEGZF5",
+      "votes": 136,
+      "tagline": "Source leads, send outbound, grow pipeline. All in your CRM.",
+      "summary": "Clarify의 Prospecting 기능으로 CRM 내에서 리드 소싱, 아웃바운드 캠페인, 파이프라인 관리를 한 번에 해결하여 영업 효율성을 극대화하세요.",
       "key_points": [
-        "SQL 또는 Python을 사용하여 데이터 변환",
-        "변경 사항 적용 전 종속성 확인",
-        "신뢰할 수 있는 정보 라이브러리 게시"
+        "CRM 내에서 리드 소싱, 정보 보강, 시퀀스 전송을 통합 관리",
+        "단 한 번의 프롬프트로 타겟 리드 검색 가능",
+        "클릭 한 번으로 개인화된 캠페인 구축"
       ],
       "tags": [
-        "AI",
-        "Analytics",
-        "Data Studio",
-        "Semantic Layer",
-        "AI Tool"
+        "CRM",
+        "Sales",
+        "Lead Generation",
+        "Automation",
+        "AI Tool",
+        "Prompting"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "AI 분석 및 모든 사용자가 '활성 사용자' 또는 '수익'과 같은 지표를 명확하게 이해하도록 도와 신뢰성 있는 답변을 얻을 수 있게 합니다.",
+      "practical_relevance": "여러 툴을 사용할 필요 없이 CRM 내에서 모든 prospecting 과정을 자동화하여 시간과 노력을 절약하고, 파이프라인 성장에 집중할 수 있습니다.",
       "recommended_actions": [
-        "메트릭 정의",
-        "SQL 또는 Python을 사용한 데이터 변환",
-        "라이브러리에 신뢰할 수 있는 정보 게시"
+        "Lead Finder를 사용하여 타겟 리드를 검색해 보세요.",
+        "캠페인을 구축하여 자동화된 아웃바운드 영업을 시작하세요.",
+        "CRM 내에서 파이프라인 성장 추이를 모니터링하세요."
       ],
       "risks_and_limits": [
-        "정의된 시맨틱 레이어가 없는 경우 AI 분석 결과의 신뢰성이 떨어질 수 있음",
-        "SQL 또는 Python에 대한 지식이 필요할 수 있음"
+        "Clarify CRM과의 호환성을 확인해야 합니다.",
+        "자동화된 캠페인이 스팸으로 인식되지 않도록 개인화에 신경 써야 합니다."
       ],
-      "uncertainty_note": "제공된 설명 외에 특정 데이터 소스와의 호환성 정보는 추가 확인이 필요합니다.",
+      "uncertainty_note": "Clarify CRM의 기존 기능과의 연동 방식 및 데이터 마이그레이션 지원 여부를 확인해야 합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Metabase_Data_Studio.jpg",
+      "local_image_path": "images/ph_2026-04-01_Prospecting_by_Clarify.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Metabase_Data_Studio_media_0.jpg",
-        "images/ph_2026-03-31_Metabase_Data_Studio_media_1.jpg",
-        "images/ph_2026-03-31_Metabase_Data_Studio_media_2.jpg"
+        "images/ph_2026-04-01_Prospecting_by_Clarify_media_0.jpg",
+        "images/ph_2026-04-01_Prospecting_by_Clarify_media_1.jpg",
+        "images/ph_2026-04-01_Prospecting_by_Clarify_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/b08545f6-b383-4958-9ded-817ab95aeb84.jpeg?auto=format"
+        "https://ph-files.imgix.net/1dfe2ebf-68be-4ac7-b49b-7d9dbb24576a.jpeg?auto=format"
       ]
     },
     {
       "rank": 9,
-      "name": "Google Ads MCP Server",
-      "url": "https://www.producthunt.com/products/google-ads-mcp-server",
-      "service_url": "https://www.producthunt.com/r/PPQW74NUCSTGW6",
-      "website": "https://www.producthunt.com/r/PPQW74NUCSTGW6",
-      "votes": 125,
-      "tagline": "Run Google Ads from your choice of AI. Skip the UI maze",
-      "summary": "Google Ads UI를 거치지 않고 Claude와 같은 AI 클라이언트를 통해 광고를 직접 실행하고 관리하여 시간을 절약하고 효율성을 높여줍니다.",
+      "name": "Snapstick",
+      "url": "https://www.producthunt.com/products/snapstick-photos-to-stickers",
+      "service_url": "https://www.producthunt.com/r/SH7S24WSRPNGUO",
+      "website": "https://www.producthunt.com/r/SH7S24WSRPNGUO",
+      "votes": 117,
+      "tagline": "Turn your camera roll into group chat chaos",
+      "summary": "Snapstick은 카메라 롤의 사진을 스티커로 만들어 그룹 채팅을 더욱 재미있게 만들어주는 iOS 앱입니다. 스티커를 실제 상품으로 제작할 수도 있습니다.",
       "key_points": [
-        "복잡한 Google Cloud 설정이나 JSON 편집 없이 바로 사용 가능",
-        "마케터를 위해 마케터가 직접 개발",
-        "선호하는 MCP 클라이언트에서 Google Ads 관리"
+        "사진을 스티커로 쉽게 변환",
+        "그룹 채팅에서 스티커 공유",
+        "스티커를 실제 상품으로 제작 가능"
       ],
       "tags": [
-        "광고",
-        "자동화",
-        "AI",
-        "마케팅",
-        "AI Tool"
+        "스티커",
+        "사진 편집",
+        "소셜",
+        "iOS",
+        "AI Tool",
+        "Chat"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Google Ads 캠페인을 더 빠르고 쉽게 설정하고 관리할 수 있어, 마케팅 담당자가 전략 수립 및 분석에 더 집중할 수 있도록 도와줍니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "밋밋한 사진에 새로운 생명을 불어넣고, 친구들과의 채팅을 더욱 즐겁게 만들어줍니다. 특별한 스티커를 티셔츠나 머그컵으로 만들어 선물할 수도 있습니다.",
       "recommended_actions": [
-        "Claude와 같은 MCP 클라이언트에 Google Ads MCP Server 연동",
-        "자동화된 광고 캠페인 설정 및 실행",
-        "광고 성과 추적 및 분석"
+        "자신의 사진으로 스티커 만들기",
+        "그룹 채팅에서 스티커 공유하기",
+        "마음에 드는 스티커를 실제 상품으로 제작하기"
       ],
       "risks_and_limits": [
-        "MCP 클라이언트와의 호환성 확인 필요",
-        "Google Ads 정책 준수 필수"
+        "iOS에서만 사용 가능",
+        "상품 제작 비용 발생"
       ],
-      "uncertainty_note": "지원되는 MCP 클라이언트 종류 및 Google Ads 기능 범위에 대한 추가 정보 확인이 필요합니다.",
+      "uncertainty_note": "스티커 제작 가능한 상품 종류 및 가격 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Google_Ads_MCP_Server.jpg",
+      "local_image_path": "images/ph_2026-04-01_Snapstick.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Google_Ads_MCP_Server_media_1.jpg"
+        "images/ph_2026-04-01_Snapstick_media_0.jpg",
+        "images/ph_2026-04-01_Snapstick_media_1.jpg",
+        "images/ph_2026-04-01_Snapstick_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/052ce700-1824-4571-80c3-78c789537644.jpeg?auto=format"
+        "https://ph-files.imgix.net/0f894810-d081-4af3-acad-ea02dff5a5b1.jpeg?auto=format"
       ]
     },
     {
       "rank": 10,
-      "name": "Qwen3.5-Omni",
-      "url": "https://www.producthunt.com/products/qwen3",
-      "service_url": "https://www.producthunt.com/r/5EOXYCSTYDQ5H6",
-      "website": "https://www.producthunt.com/r/5EOXYCSTYDQ5H6",
-      "votes": 124,
-      "tagline": "A native omni model for voice, video, and tools",
-      "summary": "Qwen3.5-Omni는 텍스트, 이미지, 오디오, 비디오를 모두 처리하는 새로운 옴니 모델로, 향상된 음성, 실시간 음성 상호 작용, 웹 검색, 기능 호출, 음성 복제 및 긴 컨텍스트 오디오/비디오 이해 기능을 제공합니다.",
+      "name": "Slackbot",
+      "url": "https://www.producthunt.com/products/slack",
+      "service_url": "https://www.producthunt.com/r/VEFFZLVMNXAI7A",
+      "website": "https://www.producthunt.com/r/VEFFZLVMNXAI7A",
+      "votes": 113,
+      "tagline": "Team up with your AI teammate in the all-new Slack",
+      "summary": "Slackbot은 Slack 내에서 AI를 활용하여 회의 준비, 보고서 분석, 인사이트 발견 등 업무 효율성을 높여주는 개인 AI 에이전트입니다.",
       "key_points": [
-        "텍스트, 이미지, 오디오, 비디오를 통합적으로 처리하는 옴니 모델",
-        "강력한 다국어 음성 및 실시간 음성 상호 작용 지원",
-        "웹 검색, 기능 호출, 음성 복제, 긴 컨텍스트 오디오/비디오 이해 기능 제공"
+        "Slack 내에서 AI 에이전트 활용",
+        "회의 준비 및 보고서 분석 지원",
+        "Slack을 벗어나지 않고 인사이트 발견"
       ],
       "tags": [
         "AI",
-        "Omni-Modal",
-        "음성인식",
-        "비디오처리",
-        "Video",
-        "Vision"
+        "생산성",
+        "자동화",
+        "협업",
+        "Agent",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "다양한 유형의 데이터를 처리하고 이해하는 AI 모델을 필요로 하는 사용자에게 유용하며, 특히 음성 및 비디오 관련 작업에서 효율성을 높일 수 있습니다.",
+      "practical_relevance": "Slackbot을 통해 Slack 내에서 모든 업무를 처리할 수 있어 생산성을 향상시키고, AI 기반 분석으로 더 나은 의사 결정을 내릴 수 있습니다.",
       "recommended_actions": [
-        "다국어 음성 처리 기능 테스트",
-        "실시간 음성 상호 작용 기능 사용",
-        "오디오/비디오 이해 기능 활용"
+        "Slackbot 활성화 및 설정",
+        "회의 준비 기능 사용해보기",
+        "보고서 분석 기능 사용해보기"
       ],
       "risks_and_limits": [
-        "모델의 성능은 데이터 유형 및 품질에 따라 달라질 수 있음",
-        "긴 컨텍스트 오디오/비디오 이해 기능의 정확도 확인 필요"
+        "AI 분석의 정확도 확인 필요",
+        "개인 정보 보호 정책 확인 필요"
       ],
-      "uncertainty_note": "실제 사용 환경에서의 성능 및 다양한 작업에서의 적용 가능성에 대한 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "Slackbot의 AI 성능 및 지원 범위에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-03-31_Qwen3.5-Omni.jpg",
+      "local_image_path": "images/ph_2026-04-01_Slackbot.jpg",
       "local_media": [
-        "images/ph_2026-03-31_Qwen3.5-Omni_media_0.jpg",
-        "images/ph_2026-03-31_Qwen3.5-Omni_media_1.jpg",
-        "images/ph_2026-03-31_Qwen3.5-Omni_media_2.jpg"
+        "images/ph_2026-04-01_Slackbot_media_0.jpg",
+        "images/ph_2026-04-01_Slackbot_media_1.jpg",
+        "images/ph_2026-04-01_Slackbot_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/2e320b23-334a-4a50-9c59-6e46e5bff552.jpeg?auto=format"
+        "https://ph-files.imgix.net/0a5f5546-15a0-4922-8ebb-6d9fd5b5e570.jpeg?auto=format"
       ]
     }
   ]
