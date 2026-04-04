@@ -1,483 +1,456 @@
 {
   "source": "product_hunt",
-  "date": "2026-04-04",
-  "generated_at": "2026-04-04T04:02:50.936223+09:00",
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T04:02:45.051289+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. ZooClaw\n⭐ Votes: 301\n📝 요약: ZooClaw는 AI 전문가 팀에 쉽게 접근하여 자연어 요청을 통해 작업을 자동화하고 최신 모델을 활용할 수 있도록 돕는 서비스입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/zooclaw\n🌐 서비스 링크: https://www.producthunt.com/r/TGFUHQ2YKUAJXF\n\n📦 2. Google Gemma 4\n⭐ Votes: 271\n📝 요약: Google DeepMind에서 개발한 Gemma 4는 고급 추론, 멀티모달 처리, 에이전트 워크플로우를 지원하는 가장 강력한 오픈 모델로, 개발자가 효율적으로 고성능 AI 앱을 구축할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/google-gemma\n🌐 서비스 링크: https://www.producthunt.com/r/VLKU6CPQMDWWVY\n\n📦 3. Cursor 3\n⭐ Votes: 241\n📝 요약: Cursor 3는 로컬/클라우드 에이전트와 MCP를 활용하여 소프트웨어 개발을 통합적으로 지원하는 작업 공간입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/cursor-3\n🌐 서비스 링크: https://www.producthunt.com/r/AKIBWUTAZNLVJ2\n\n📦 4. VoiceOS\n⭐ Votes: 189\n📝 요약: VoiceOS는 음성 명령으로 컴퓨터 작업을 자동화하여 생산성을 10배 향상시켜주는 Mac/Windows용 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/voiceos\n🌐 서비스 링크: https://www.producthunt.com/r/K2EIZTXV5LYSCK\n\n📦 5. NotebookLM Custom Infographic Styles\n⭐ Votes: 140\n📝 요약: NotebookLM의 새로운 기능으로, AI 요약 내용을 캔바에 복사-붙여넣기 하는 대신, 자료를 바로 세련된 인포그래픽으로 변환하여 시각적으로 표현할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/notebooklm-custom-infographic-styles\n🌐 서비스 링크: https://www.producthunt.com/r/Y6EQKRFISVY52J\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Google Vids 2.0\n⭐ Votes: 295\n📝 요약: Google Vids 2.0은 Lyria 3 및 Veo 3.1 기반의 AI 기능을 통해 무료로 고품질 비디오를 제작, 편집 및 공유할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/google\n🌐 서비스 링크: https://www.producthunt.com/r/2QYNCQG3J5VAV3\n\n📦 2. Sleek Analytics\n⭐ Votes: 181\n📝 요약: Sleek Analytics는 복잡한 설정 없이 웹사이트 방문자 데이터를 실시간으로 간단하게 확인할 수 있게 해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/sleek-analytics\n🌐 서비스 링크: https://www.producthunt.com/r/ASEM36CO22BGMN\n\n📦 3. Surf Social Websites\n⭐ Votes: 168\n📝 요약: Surf Social Websites는 독립적인 크리에이터와 커뮤니티가 소셜 미디어 콘텐츠를 직접 관리하고 가치를 창출할 수 있도록 지원하는 플랫폼입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/flipboard-surf\n🌐 서비스 링크: https://www.producthunt.com/r/3W7BP7G7SPMVB5\n\n📦 4. Mercury Edit 2\n⭐ Votes: 129\n📝 요약: Mercury Edit 2는 코드 편집에 특화된 확산 LLM으로, 빠른 속도로 다음 편집 내용을 예측하여 코딩 효율성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/mercury-412\n🌐 서비스 링크: https://www.producthunt.com/r/UZOWQ4W5SJR6BN\n\n📦 5. Faahh\n⭐ Votes: 119\n📝 요약: Faahh는 집중력을 잃을 때마다 'Faahh' 소리를 내어 즉각적인 인식을 제공하여 사용자가 다시 집중할 수 있도록 돕는 작은 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/faahh-app-that-roasts-you-back-to-work\n🌐 서비스 링크: https://www.producthunt.com/r/GVWEVFVXXAI4BW\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "ZooClaw",
-      "url": "https://www.producthunt.com/products/zooclaw",
-      "service_url": "https://www.producthunt.com/r/TGFUHQ2YKUAJXF",
-      "website": "https://www.producthunt.com/r/TGFUHQ2YKUAJXF",
-      "votes": 301,
-      "tagline": "Your proactive team of AI specialists in one place",
-      "summary": "ZooClaw는 AI 전문가 팀에 쉽게 접근하여 자연어 요청을 통해 작업을 자동화하고 최신 모델을 활용할 수 있도록 돕는 서비스입니다.",
+      "name": "Google Vids 2.0",
+      "url": "https://www.producthunt.com/products/google",
+      "service_url": "https://www.producthunt.com/r/2QYNCQG3J5VAV3",
+      "website": "https://www.producthunt.com/r/2QYNCQG3J5VAV3",
+      "votes": 295,
+      "tagline": "Create, edit and share videos at no cost w/ new AI features",
+      "summary": "Google Vids 2.0은 Lyria 3 및 Veo 3.1 기반의 AI 기능을 통해 무료로 고품질 비디오를 제작, 편집 및 공유할 수 있게 해줍니다.",
       "key_points": [
-        "자연어 기반 AI 전문가 팀 연결",
-        "최신 AI 모델 자동 업데이트 및 오픈소스 모델 폴백",
-        "간단한 사용법: 설정, 배포, API 키 불필요"
+        "무료로 고품질 비디오 생성 가능",
+        "맞춤 음악 및 아바타 추가 기능 제공",
+        "Gemini를 통해 Workspace 앱 전반의 워크플로우 간소화"
       ],
       "tags": [
         "AI",
-        "자동화",
+        "비디오 편집",
+        "콘텐츠 제작",
         "생산성",
-        "전문가",
-        "자연어처리",
-        "Agent",
+        "무료",
+        "Automation",
         "AI Tool",
-        "API"
+        "Video"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "AI 전문가 팀을 구성하고 관리하는 번거로움 없이, 즉시 AI 기술을 활용하여 업무 효율성을 높일 수 있습니다. 복잡한 설정 없이 바로 사용할 수 있다는 점이 큰 장점입니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "브랜드에 맞는 비디오를 대규모로 제작하고, AI 기반의 다양한 기능을 활용하여 효율적인 비디오 제작 워크플로우를 구축할 수 있습니다.",
       "recommended_actions": [
-        "자연어로 원하는 작업 요청해보기",
-        "다양한 AI 에이전트 활용해보기",
-        "최신 AI 모델 업데이트 확인하기"
+        "새로운 AI 기능으로 비디오 생성해보기",
+        "맞춤 음악 추가 기능 사용해보기",
+        "Gemini 연동을 통한 워크플로우 개선 시도해보기"
       ],
       "risks_and_limits": [
-        "특정 도메인 지식의 깊이 확인 필요",
-        "오픈소스 모델 폴백 시 성능 확인 필요"
+        "Lyria 3 및 Veo 3.1의 성능 및 안정성 확인 필요",
+        "생성된 비디오의 품질이 사용 목적에 적합한지 검토 필요"
       ],
-      "uncertainty_note": "ZooClaw의 AI 에이전트 팀의 전문성이 어느 수준인지, 그리고 폴백되는 오픈소스 모델의 성능이 어느 정도인지 추가 확인이 필요합니다.",
+      "uncertainty_note": "AI 기반 기능의 성능과 Gemini 연동의 실제 효율성에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_ZooClaw.jpg",
+      "local_image_path": "images/ph_2026-04-04_Google_Vids_2.0.jpg",
       "local_media": [
-        "images/ph_2026-04-03_ZooClaw_media_0.jpg",
-        "images/ph_2026-04-03_ZooClaw_media_1.jpg",
-        "images/ph_2026-04-03_ZooClaw_media_2.jpg"
+        "images/ph_2026-04-04_Google_Vids_2.0_media_0.jpg",
+        "images/ph_2026-04-04_Google_Vids_2.0_media_1.jpg",
+        "images/ph_2026-04-04_Google_Vids_2.0_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/82f2a21d-c85b-4e01-b601-2b8889dd0654.jpeg?auto=format"
+        "https://ph-files.imgix.net/75ae6403-e78e-4b4e-98bc-2ae870289bfd.jpeg?auto=format"
       ]
     },
     {
       "rank": 2,
-      "name": "Google Gemma 4",
-      "url": "https://www.producthunt.com/products/google-gemma",
-      "service_url": "https://www.producthunt.com/r/VLKU6CPQMDWWVY",
-      "website": "https://www.producthunt.com/r/VLKU6CPQMDWWVY",
-      "votes": 271,
-      "tagline": "Google's most intelligent open models to date",
-      "summary": "Google DeepMind에서 개발한 Gemma 4는 고급 추론, 멀티모달 처리, 에이전트 워크플로우를 지원하는 가장 강력한 오픈 모델로, 개발자가 효율적으로 고성능 AI 앱을 구축할 수 있도록 돕습니다.",
+      "name": "Sleek Analytics",
+      "url": "https://www.producthunt.com/products/sleek-analytics",
+      "service_url": "https://www.producthunt.com/r/ASEM36CO22BGMN",
+      "website": "https://www.producthunt.com/r/ASEM36CO22BGMN",
+      "votes": 181,
+      "tagline": "See who's on your site. Right now.",
+      "summary": "Sleek Analytics는 복잡한 설정 없이 웹사이트 방문자 데이터를 실시간으로 간단하게 확인할 수 있게 해줍니다.",
       "key_points": [
-        "고급 추론, 멀티모달 처리, 에이전트 워크플로우 지원",
-        "모바일 기기부터 GPU까지 최적화",
-        "낮은 컴퓨팅 오버헤드로 고성능 제공"
+        "설치가 간편합니다: 코드 한 줄만 붙여넣으면 됩니다.",
+        "실시간 방문자 분석: 웹사이트 방문자의 움직임을 실시간으로 볼 수 있습니다.",
+        "개인 정보 보호: 쿠키 배너 없이 데이터를 수집합니다."
       ],
       "tags": [
-        "AI",
-        "Open Model",
-        "Deep Learning",
-        "Development",
-        "Agent",
-        "Automation",
-        "AI Tool",
+        "Analytics",
+        "Realtime",
+        "Website",
+        "Simple",
         "DevTool"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Gemma 4를 통해 개발자는 다양한 환경에서 효율적으로 AI 애플리케이션을 개발하고 배포할 수 있으며, 특히 리소스 제약이 있는 환경에서도 고성능을 유지할 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "웹사이트 트래픽을 쉽고 빠르게 분석하여 사용자 행동을 파악하고, 마케팅 전략을 개선하는 데 도움이 됩니다. 복잡한 설정 없이 바로 사용할 수 있어 시간과 노력을 절약해줍니다.",
       "recommended_actions": [
-        "Gemma 4를 활용하여 새로운 AI 앱 개발 시작",
-        "기존 앱에 Gemma 4의 기능을 통합하여 성능 향상",
-        "다양한 하드웨어 환경에서 Gemma 4의 성능 테스트"
+        "웹사이트에 코드 스니펫을 추가하여 실시간 분석 시작하기",
+        "방문자 흐름을 모니터링하여 인기 페이지 및 이탈 지점 파악하기",
+        "데이터 기반으로 웹사이트 콘텐츠 및 사용자 경험 개선하기"
       ],
       "risks_and_limits": [
-        "오픈 모델의 특성상 보안 취약점 존재 가능성 확인 필요",
-        "특정 작업에 대한 성능은 다른 모델에 비해 낮을 수 있음"
+        "데이터 보관 정책 및 개인 정보 보호 정책 확인 필요",
+        "제공되는 분석 기능의 범위가 사용자의 구체적인 요구사항을 충족하는지 확인 필요"
       ],
-      "uncertainty_note": "실제 사용 환경에서의 성능 및 리소스 사용량에 대한 추가적인 검증이 필요합니다.",
+      "uncertainty_note": "Sleek Analytics의 데이터 정확도 및 타 분석 도구와의 호환성에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_Google_Gemma_4.jpg",
+      "local_image_path": "images/ph_2026-04-04_Sleek_Analytics.jpg",
       "local_media": [
-        "images/ph_2026-04-03_Google_Gemma_4_media_0.jpg",
-        "images/ph_2026-04-03_Google_Gemma_4_media_1.jpg",
-        "images/ph_2026-04-03_Google_Gemma_4_media_2.jpg"
+        "images/ph_2026-04-04_Sleek_Analytics_media_1.jpg",
+        "images/ph_2026-04-04_Sleek_Analytics_media_2.jpg",
+        "images/ph_2026-04-04_Sleek_Analytics_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/2af904d8-9394-486f-9ba9-04aca55b4753.jpeg?auto=format"
+        "https://ph-files.imgix.net/63d5232e-162c-40fd-9928-bf99cc1af515.jpeg?auto=format"
       ]
     },
     {
       "rank": 3,
-      "name": "Cursor 3",
-      "url": "https://www.producthunt.com/products/cursor-3",
-      "service_url": "https://www.producthunt.com/r/AKIBWUTAZNLVJ2",
-      "website": "https://www.producthunt.com/r/AKIBWUTAZNLVJ2",
-      "votes": 241,
-      "tagline": "Unified workspace for parallel local/cloud agents and MCPs",
-      "summary": "Cursor 3는 로컬/클라우드 에이전트와 MCP를 활용하여 소프트웨어 개발을 통합적으로 지원하는 작업 공간입니다.",
+      "name": "Surf Social Websites",
+      "url": "https://www.producthunt.com/products/flipboard-surf",
+      "service_url": "https://www.producthunt.com/r/3W7BP7G7SPMVB5",
+      "website": "https://www.producthunt.com/r/3W7BP7G7SPMVB5",
+      "votes": 168,
+      "tagline": "Bring together people and content on the social web",
+      "summary": "Surf Social Websites는 독립적인 크리에이터와 커뮤니티가 소셜 미디어 콘텐츠를 직접 관리하고 가치를 창출할 수 있도록 지원하는 플랫폼입니다.",
       "key_points": [
-        "에이전트 기반 소프트웨어 개발",
-        "로컬 및 클라우드 환경 통합",
-        "MCP(Multi-Compute Platform) 지원"
+        "Surf 피드를 기반으로 소셜 웹사이트를 구축 가능",
+        "콘텐츠 소스, 필터, 관리를 크리에이터가 직접 제어",
+        "분산형 소셜 미디어 모델로 독립 크리에이터에게 권한 부여"
       ],
       "tags": [
-        "DevTool",
-        "에이전트",
-        "클라우드",
-        "자동화",
-        "Agent"
+        "소셜 미디어",
+        "커뮤니티",
+        "콘텐츠 관리",
+        "분산형 플랫폼"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Cursor 3를 통해 개발자는 다양한 환경에서 에이전트를 활용하여 더욱 효율적으로 소프트웨어를 구축하고 관리할 수 있습니다.",
+      "practical_relevance": "기존 소셜 미디어 플랫폼의 제약에서 벗어나 자신만의 커뮤니티를 구축하고 콘텐츠를 자유롭게 관리하고자 하는 크리에이터에게 유용합니다.",
       "recommended_actions": [
-        "에이전트 설정 및 연결",
-        "클라우드 환경 연동",
-        "MCP 기능 탐색"
+        "관심 있는 분야의 소셜 웹사이트 검색",
+        "자신만의 Surf 피드 생성",
+        "커뮤니티 멤버들과 콘텐츠 공유 및 소통"
       ],
       "risks_and_limits": [
-        "에이전트 호환성 확인 필요",
-        "클라우드 환경 설정 복잡성 존재"
+        "초기 사용자 확보 및 커뮤니티 활성화 필요",
+        "콘텐츠 관리 및 필터링 정책 수립의 어려움"
       ],
-      "uncertainty_note": "MCP 기능의 구체적인 사용 사례 및 지원 범위에 대한 추가 정보가 필요합니다.",
+      "uncertainty_note": "Surf Social Websites의 장기적인 지속 가능성과 사용자 확보 전략에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_Cursor_3.jpg",
+      "local_image_path": "images/ph_2026-04-04_Surf_Social_Websites.jpg",
       "local_media": [
-        "images/ph_2026-04-03_Cursor_3_media_0.jpg",
-        "images/ph_2026-04-03_Cursor_3_media_1.jpg",
-        "images/ph_2026-04-03_Cursor_3_media_2.jpg"
+        "images/ph_2026-04-04_Surf_Social_Websites_media_0.jpg",
+        "images/ph_2026-04-04_Surf_Social_Websites_media_1.jpg",
+        "images/ph_2026-04-04_Surf_Social_Websites_media_2.jpg"
       ],
-      "video_links": [
-        "https://ph-files.imgix.net/4d8e2abe-7f8b-4e66-aadd-45f7e0d6a3b6.jpeg?auto=format"
-      ]
+      "video_links": []
     },
     {
       "rank": 4,
-      "name": "VoiceOS",
-      "url": "https://www.producthunt.com/products/voiceos",
-      "service_url": "https://www.producthunt.com/r/K2EIZTXV5LYSCK",
-      "website": "https://www.producthunt.com/r/K2EIZTXV5LYSCK",
-      "votes": 189,
-      "tagline": "Say it and it's done. Work 10x faster with your voice.",
-      "summary": "VoiceOS는 음성 명령으로 컴퓨터 작업을 자동화하여 생산성을 10배 향상시켜주는 Mac/Windows용 도구입니다.",
+      "name": "Mercury Edit 2",
+      "url": "https://www.producthunt.com/products/mercury-412",
+      "service_url": "https://www.producthunt.com/r/UZOWQ4W5SJR6BN",
+      "website": "https://www.producthunt.com/r/UZOWQ4W5SJR6BN",
+      "votes": 129,
+      "tagline": "Ultra-fast next-edit prediction for coding",
+      "summary": "Mercury Edit 2는 코드 편집에 특화된 확산 LLM으로, 빠른 속도로 다음 편집 내용을 예측하여 코딩 효율성을 높여줍니다.",
       "key_points": [
-        "음성 명령으로 앱 간 이동 없이 작업 가능",
-        "자연스러운 음성으로 워크플로우 즉시 실행",
-        "실행 전 확인 단계를 통해 사용자 제어 유지"
+        "최근 편집 내용과 코드베이스 컨텍스트 활용",
+        "일반적인 코드 편집 모델보다 낮은 지연 시간",
+        "높은 수용도의 다음 변경 사항 제안"
       ],
       "tags": [
-        "생산성",
-        "자동화",
-        "음성인식",
-        "DevTool",
-        "Automation",
-        "Productivity"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "앱을 일일이 찾아 실행할 필요 없이, 음성만으로 컴퓨터를 제어하여 작업 속도를 크게 높여줍니다. 집중력을 유지하면서 생산성을 극대화할 수 있습니다.",
-      "recommended_actions": [
-        "음성으로 자주 사용하는 앱 실행해보기",
-        "음성으로 파일 열기/저장해보기",
-        "음성으로 웹 검색해보기"
-      ],
-      "risks_and_limits": [
-        "음성 인식 정확도에 따라 사용성이 달라질 수 있음",
-        "명령어 체계 학습 필요"
-      ],
-      "uncertainty_note": "실제 사용 환경에서의 음성 인식률 및 워크플로우 설정의 용이성에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_VoiceOS.jpg",
-      "local_media": [
-        "images/ph_2026-04-03_VoiceOS_media_0.jpg",
-        "images/ph_2026-04-03_VoiceOS_media_1.jpg",
-        "images/ph_2026-04-03_VoiceOS_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/a4e285ad-3040-4805-8609-04c280eb63e6.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 5,
-      "name": "NotebookLM Custom Infographic Styles",
-      "url": "https://www.producthunt.com/products/notebooklm-custom-infographic-styles",
-      "service_url": "https://www.producthunt.com/r/Y6EQKRFISVY52J",
-      "website": "https://www.producthunt.com/r/Y6EQKRFISVY52J",
-      "votes": 140,
-      "tagline": "Turn any source into a styled infographic",
-      "summary": "NotebookLM의 새로운 기능으로, AI 요약 내용을 캔바에 복사-붙여넣기 하는 대신, 자료를 바로 세련된 인포그래픽으로 변환하여 시각적으로 표현할 수 있습니다.",
-      "key_points": [
-        "NotebookLM 소스 자료를 기반으로 인포그래픽 자동 생성",
-        "10가지 사전 설정 스타일 (스케치, 애니메이션, 편집 스타일 등) 제공",
-        "몇 초 만에 연구 자료를 시각 자료로 변환"
-      ],
-      "tags": [
-        "AI",
-        "인포그래픽",
-        "생산성",
-        "시각화",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "연구 자료나 요약 내용을 시각적으로 보기 좋게 정리하여 발표 자료나 보고서 작성 시간을 단축하고, 더 효과적으로 정보를 전달할 수 있습니다.",
-      "recommended_actions": [
-        "다양한 사전 설정 스타일을 적용해보고 가장 적합한 스타일 찾기",
-        "자신만의 스타일을 커스텀 모드로 만들어보기",
-        "생성된 인포그래픽을 발표 자료에 활용해보기"
-      ],
-      "risks_and_limits": [
-        "생성된 인포그래픽의 정확성을 검토해야 함",
-        "자료의 양에 따라 인포그래픽 생성 시간이 달라질 수 있음"
-      ],
-      "uncertainty_note": "NotebookLM의 다른 기능과의 호환성 및 성능에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_NotebookLM_Custom_Infographic_Styles.jpg",
-      "local_media": [
-        "images/ph_2026-04-03_NotebookLM_Custom_Infographic__media_0.jpg",
-        "images/ph_2026-04-03_NotebookLM_Custom_Infographic__media_1.jpg",
-        "images/ph_2026-04-03_NotebookLM_Custom_Infographic__media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/8adf1430-2a0c-4818-80ef-d18168e331dd.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "Qwen3.6-Plus",
-      "url": "https://www.producthunt.com/products/qwen3",
-      "service_url": "https://www.producthunt.com/r/5SIADO4XXBSMAW",
-      "website": "https://www.producthunt.com/r/5SIADO4XXBSMAW",
-      "votes": 123,
-      "tagline": "Multimodal AI optimized for real-world coding agents",
-      "summary": "Qwen3.6-Plus는 100만 토큰 컨텍스트 창, 강화된 코딩 에이전트 기능, 강력한 멀티모달 추론을 제공하여 실제 개발 워크플로우를 최적화하는 최신 모델입니다.",
-      "key_points": [
-        "100만 토큰 컨텍스트 창 지원",
-        "코딩 에이전트 기능 대폭 향상",
-        "멀티모달 추론 능력 강화"
-      ],
-      "tags": [
-        "AI",
-        "코딩",
-        "자동화",
-        "멀티모달",
-        "개발",
-        "Agent",
-        "Automation",
-        "AI Tool",
+        "코드 편집",
+        "LLM",
+        "자동 완성",
+        "개발 도구",
         "DevTool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "OpenClaw, Claude Code, Qwen Code와 같은 도구를 통해 실제 개발 워크플로우를 더욱 효율적으로 관리하고 자동화할 수 있습니다.",
+      "practical_relevance": "코딩 작업 시 다음에 어떤 코드를 작성해야 할지 빠르게 예측하여 시간을 절약하고 생산성을 향상시켜 줍니다. 특히 코드 편집 모델의 느린 속도에 불만을 느꼈던 개발자에게 유용합니다.",
       "recommended_actions": [
-        "OpenClaw 연동하여 사용해보기",
-        "Claude Code와 함께 코딩 효율성 높여보기",
-        "Qwen Code를 활용한 코드 생성 테스트"
+        "최근 편집 내용을 기반으로 다음 코드 변경 사항 예측해보기",
+        "코드베이스 컨텍스트를 활용한 제안 살펴보기",
+        "기존 코드 편집 모델과 지연 시간 비교해보기"
       ],
       "risks_and_limits": [
-        "100만 토큰 컨텍스트 창에 따른 비용 확인 필요",
-        "타 모델 대비 성능 비교 검토 필요"
+        "모델의 예측 정확도는 코드베이스의 복잡성과 데이터 양에 따라 달라질 수 있습니다.",
+        "특정 프로그래밍 언어 또는 프레임워크에 최적화되어 있을 수 있습니다."
       ],
-      "uncertainty_note": "실제 개발 환경에서의 성능 및 안정성에 대한 추가적인 검증이 필요합니다.",
-      "repeated_in_window": true,
-      "repeated_days_ago": 2,
-      "local_image_path": "images/ph_2026-04-03_Qwen3.6-Plus.jpg",
+      "uncertainty_note": "실제 사용 환경에서의 성능과 다양한 코드 스타일 및 컨텍스트에 대한 적응성은 추가적인 검증이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-04_Mercury_Edit_2.jpg",
       "local_media": [
-        "images/ph_2026-04-03_Qwen3.6-Plus_media_0.jpg",
-        "images/ph_2026-04-03_Qwen3.6-Plus_media_1.jpg",
-        "images/ph_2026-04-03_Qwen3.6-Plus_media_2.jpg"
+        "images/ph_2026-04-04_Mercury_Edit_2_media_0.jpg",
+        "images/ph_2026-04-04_Mercury_Edit_2_media_1.jpg",
+        "images/ph_2026-04-04_Mercury_Edit_2_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 5,
+      "name": "Faahh",
+      "url": "https://www.producthunt.com/products/faahh-app-that-roasts-you-back-to-work",
+      "service_url": "https://www.producthunt.com/r/GVWEVFVXXAI4BW",
+      "website": "https://www.producthunt.com/r/GVWEVFVXXAI4BW",
+      "votes": 119,
+      "tagline": "Slap your desk. Unplug distractions. Get back to focus.",
+      "summary": "Faahh는 집중력을 잃을 때마다 'Faahh' 소리를 내어 즉각적인 인식을 제공하여 사용자가 다시 집중할 수 있도록 돕는 작은 앱입니다.",
+      "key_points": [
+        "책상을 치거나, 장치를 뽑으면 소리가 납니다.",
+        "사용자 지정 사운드를 설정할 수 있습니다.",
+        "차단 기능이나 대시보드 없이 즉각적인 인식을 제공합니다."
+      ],
+      "tags": [
+        "생산성",
+        "집중력",
+        "알림"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "집중력이 흐트러질 때 즉시 알림을 받아 빠르게 다시 집중할 수 있으며, 별도의 복잡한 설정 없이 간단하게 사용할 수 있습니다.",
+      "recommended_actions": [
+        "책상을 쳐서 Faahh 소리를 들어보세요.",
+        "원하는 사용자 지정 사운드를 설정해보세요.",
+        "집중이 필요한 작업 중에 Faahh를 실행해두세요."
+      ],
+      "risks_and_limits": [
+        "시끄러운 소리가 발생할 수 있으니, 공공장소에서는 주의하여 사용하세요.",
+        "지속적인 소리 알림이 오히려 집중을 방해할 수도 있습니다."
+      ],
+      "uncertainty_note": "사용자 지정 사운드 설정의 구체적인 방법 및 지원되는 파일 형식을 확인해야 합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-04_Faahh.jpg",
+      "local_media": [
+        "images/ph_2026-04-04_Faahh_media_0.jpg",
+        "images/ph_2026-04-04_Faahh_media_1.jpg",
+        "images/ph_2026-04-04_Faahh_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 6,
+      "name": "Donut Browser",
+      "url": "https://www.producthunt.com/products/donut-browser",
+      "service_url": "https://www.producthunt.com/r/GLMGBZLJAH6BPI",
+      "website": "https://www.producthunt.com/r/GLMGBZLJAH6BPI",
+      "votes": 111,
+      "tagline": "Open Source Anti-Detect Browser with Unlimited Profiles",
+      "summary": "Donut Browser는 무제한 프로필 생성, 프록시 지원, 브라우저 자동화 기능을 제공하는 오픈 소스 안티 디텍트 브라우저입니다.",
+      "key_points": [
+        "오픈 소스 안티 디텍트 브라우저",
+        "무제한 로컬 프로필 생성 가능",
+        "고유한 지문 및 프록시 지원"
+      ],
+      "tags": [
+        "오픈소스",
+        "브라우저",
+        "자동화",
+        "개발자 도구",
+        "개인정보보호",
+        "Automation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "각 프로필마다 다른 브라우저 환경을 설정하여 개인 정보 보호를 강화하고, 브라우저 자동화 기능을 통해 반복 작업을 효율적으로 처리할 수 있습니다.",
+      "recommended_actions": [
+        "새 프로필 생성 후 지문 설정 변경해보기",
+        "프록시 설정 추가하여 IP 변경해보기",
+        "브라우저 자동화 기능 테스트해보기"
+      ],
+      "risks_and_limits": [
+        "오픈 소스 프로젝트이므로 보안 업데이트 및 커뮤니티 지원 확인 필요",
+        "안티 디텍트 기능의 효과는 웹사이트의 감지 기술 수준에 따라 달라질 수 있음"
+      ],
+      "uncertainty_note": "안티 디텍트 브라우저의 성능이 실제 웹 환경에서 어느 정도 효과적인지 추가적인 테스트가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-04_Donut_Browser.jpg",
+      "local_media": [
+        "images/ph_2026-04-04_Donut_Browser_media_0.jpg",
+        "images/ph_2026-04-04_Donut_Browser_media_1.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 7,
-      "name": "Straude",
-      "url": "https://www.producthunt.com/products/straude",
-      "service_url": "https://www.producthunt.com/r/WLVBGHI674MLED",
-      "website": "https://www.producthunt.com/r/WLVBGHI674MLED",
-      "votes": 121,
-      "tagline": "Strava for Claude Code / Global Tokenmaxxing Leaderboard",
-      "summary": "Claude 코드를 사용하는 개발자의 Strava. 토큰 사용량, 진행 상황, 통계를 기록하고 공유하여 전 세계 AI 빌더들과 비교하고 경쟁할 수 있습니다.",
+      "name": "OpenRouter Model Fusion",
+      "url": "https://www.producthunt.com/products/openrouter",
+      "service_url": "https://www.producthunt.com/r/JXX3QD2KX7LSZT",
+      "website": "https://www.producthunt.com/r/JXX3QD2KX7LSZT",
+      "votes": 103,
+      "tagline": "Run many models side by side and fuse the best answer",
+      "summary": "OpenRouter의 Model Fusion은 여러 모델을 동시에 실행하여 최적의 답변을 융합, 단일하고 우수한 결과물을 제공하는 실험적인 기능입니다.",
       "key_points": [
-        "Claude 에이전트 사용량 추적 및 로깅",
-        "토큰 소비, 연속 사용, 통계 기록",
-        "글로벌 AI 빌더 리더보드에서 순위 비교"
+        "여러 모델을 동시에 실행하여 답변을 분석합니다.",
+        "사용자 정의 가능한 '판단' 모델을 사용하여 최적의 답변을 융합합니다.",
+        "단일하고 우수한 응답을 생성합니다."
+      ],
+      "tags": [
+        "AI",
+        "모델 융합",
+        "OpenRouter",
+        "실험적 기능",
+        "Prompting"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "여러 모델의 장점을 결합하여 더욱 정확하고 유용한 답변을 얻을 수 있으며, 모델 선택에 대한 고민을 줄여줍니다.",
+      "recommended_actions": [
+        "다양한 프롬프트를 사용하여 Model Fusion의 성능을 테스트해 보세요.",
+        "자신에게 맞는 '판단' 모델을 찾아보세요.",
+        "융합된 답변이 기존 모델의 답변과 어떻게 다른지 비교해 보세요."
+      ],
+      "risks_and_limits": [
+        "융합 과정에서 예상치 못한 결과가 발생할 수 있습니다.",
+        "각 모델의 성능에 따라 융합 결과의 품질이 달라질 수 있습니다."
+      ],
+      "uncertainty_note": "어떤 '판단' 모델이 가장 효과적인지, 그리고 융합 과정에서 발생하는 잠재적 비용에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-04_OpenRouter_Model_Fusion.jpg",
+      "local_media": [
+        "images/ph_2026-04-04_OpenRouter_Model_Fusion_media_0.jpg",
+        "images/ph_2026-04-04_OpenRouter_Model_Fusion_media_1.jpg",
+        "images/ph_2026-04-04_OpenRouter_Model_Fusion_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 8,
+      "name": "Open Claude in Chrome",
+      "url": "https://www.producthunt.com/products/open-claude-in-chrome",
+      "service_url": "https://www.producthunt.com/r/U2KRJWKDWPLQN6",
+      "website": "https://www.producthunt.com/r/U2KRJWKDWPLQN6",
+      "votes": 98,
+      "tagline": "Claude in Chrome, reverse-engineered, Jailbroken",
+      "summary": "Open Claude in Chrome은 Claude Code의 브라우저 자동화 기능을 크롬에서 사용할 수 있게 해주며, 차단된 도메인 없이 모든 Chromium 브라우저에서 오픈 소스로 사용할 수 있습니다.",
+      "key_points": [
+        "Claude Code의 브라우저 자동화 기능 제공",
+        "58개 도메인 차단 없이 사용 가능",
+        "오픈 소스로 모든 Chromium 브라우저 지원"
       ],
       "tags": [
         "DevTool",
-        "AI",
-        "Analytics",
-        "Leaderboard",
-        "Agent",
+        "Automation",
+        "Open Source",
         "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "AI 에이전트 개발 과정을 체계적으로 관리하고, 다른 개발자들과 비교하여 자신의 성과를 파악하고 개선할 수 있습니다. 코드 작성을 운동처럼 즐길 수 있게 해줍니다.",
+      "practical_relevance": "기존 Claude in Chrome의 제한 사항 없이 자유롭게 브라우저 자동화 기능을 활용할 수 있으며, 오픈 소스이므로 투명하게 사용할 수 있습니다.",
       "recommended_actions": [
-        "Straude 설치 및 설정",
-        "에이전트 실행 시 Straude 명령어 사용",
-        "리더보드에서 자신의 순위 확인"
+        "Open Claude in Chrome 설치 및 실행",
+        "브라우저 자동화 기능 테스트",
+        "오픈 소스 코드 검토 및 기여"
       ],
       "risks_and_limits": [
-        "Claude API 사용량에 따른 비용 발생 가능성",
-        "리더보드 순위 경쟁으로 인한 과도한 토큰 소비 주의"
+        "Claude Code의 기능 제한 사항은 동일하게 적용될 수 있음",
+        "Chromium 브라우저 호환성 확인 필요"
       ],
-      "uncertainty_note": "실제 리더보드 운영 방식 및 데이터 정확성에 대한 추가 확인이 필요합니다.",
+      "uncertainty_note": "Claude Code의 성능 및 안정성에 대한 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_Straude.jpg",
+      "local_image_path": "images/ph_2026-04-04_Open_Claude_in_Chrome.jpg",
       "local_media": [
-        "images/ph_2026-04-03_Straude_media_0.jpg",
-        "images/ph_2026-04-03_Straude_media_1.jpg",
-        "images/ph_2026-04-03_Straude_media_2.jpg"
+        "images/ph_2026-04-04_Open_Claude_in_Chrome_media_1.jpg",
+        "images/ph_2026-04-04_Open_Claude_in_Chrome_media_2.jpg",
+        "images/ph_2026-04-04_Open_Claude_in_Chrome_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/cddb4732-d223-4937-8b54-46c355c95a7b.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Otto by Audos.com",
-      "url": "https://www.producthunt.com/products/socap",
-      "service_url": "https://www.producthunt.com/r/CJKGYCBDW6DAZH",
-      "website": "https://www.producthunt.com/r/CJKGYCBDW6DAZH",
-      "votes": 114,
-      "tagline": "Your AI co-founder that builds, launches, and sells for you",
-      "summary": "Otto는 아이디어만 있으면 AI가 자동으로 랜딩 페이지 제작, 광고 실행, 첫 고객 확보까지 도와주는 AI 공동 창업자입니다.",
-      "key_points": [
-        "아이디어만 있으면 코딩이나 팀 없이도 제품 출시 가능",
-        "터미널, OpenClaw, Audos.com을 통해 사용 가능",
-        "최대 $50 투자 지원"
-      ],
-      "tags": [
-        "AI",
-        "자동화",
-        "노코드",
-        "스타트업",
-        "개발",
-        "Agent",
-        "AI Tool",
-        "DevTool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "아이디어를 빠르게 검증하고 실제 고객을 확보하는 데 드는 시간과 노력을 크게 줄여줍니다. 초기 스타트업이나 개인 개발자에게 유용합니다.",
-      "recommended_actions": [
-        "터미널에서 'npx skills add prehype/audos-agent-skill' 실행해보기",
-        "Audos.com에서 아이디어 설명하고 자동 빌드 시작하기",
-        "Kevin Rose의 사용 사례 참고하여 아이디어 구체화하기"
-      ],
-      "risks_and_limits": [
-        "AI 자동화 결과물의 품질은 아이디어의 명확성에 따라 달라질 수 있음",
-        "투자 지원 금액은 제한적일 수 있음"
-      ],
-      "uncertainty_note": "AI가 생성하는 랜딩 페이지 및 광고의 효과에 대한 추가적인 사용 후기 확인이 필요합니다.",
-      "repeated_in_window": true,
-      "repeated_days_ago": 6,
-      "local_image_path": "images/ph_2026-04-03_Otto_by_Audos.com.jpg",
-      "local_media": [
-        "images/ph_2026-04-03_Otto_by_Audos.com_media_0.jpg",
-        "images/ph_2026-04-03_Otto_by_Audos.com_media_1.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/98f4beba-5429-4422-bad3-1c639b03e57d.jpeg?auto=format"
+        "https://ph-files.imgix.net/f928f9ba-6441-4840-8ec1-707283b84b96.jpeg?auto=format"
       ]
     },
     {
       "rank": 9,
-      "name": "ChatGPT on CarPlay",
-      "url": "https://www.producthunt.com/products/openai",
-      "service_url": "https://www.producthunt.com/r/5XXA4P52NEMGS7",
-      "website": "https://www.producthunt.com/r/5XXA4P52NEMGS7",
-      "votes": 113,
-      "tagline": "ChatGPT voice in CarPlay for hands-free driving AI on the go",
-      "summary": "운전 중에도 ChatGPT를 음성으로 편리하게 사용할 수 있게 되었습니다. Apple CarPlay에서 핸즈프리로 대화하며 이동 중에도 AI의 도움을 받으세요.",
+      "name": "Vista",
+      "url": "https://www.producthunt.com/products/vista-4",
+      "service_url": "https://www.producthunt.com/r/BV3QLPODLJQ2UN",
+      "website": "https://www.producthunt.com/r/BV3QLPODLJQ2UN",
+      "votes": 96,
+      "tagline": "The image viewer macOS should have built.",
+      "summary": "macOS 기본 이미지 뷰어의 부족한 점을 채워주는 빠르고 간편한 이미지 뷰어, Vista.",
       "key_points": [
-        "Apple CarPlay에서 ChatGPT를 음성으로 사용 가능",
-        "핸즈프리 방식으로 안전하게 정보 획득 및 아이디어 구상",
-        "전 세계 모든 요금제에서 사용 가능"
+        "폴더 탐색 기능 제공",
+        "빠른 이미지 로딩 속도",
+        "심플한 인터페이스와 편리한 단축키 (화살표 키)"
       ],
       "tags": [
-        "AI",
-        "CarPlay",
-        "음성인식",
+        "이미지 뷰어",
+        "macOS",
         "생산성",
-        "핸즈프리",
+        "무료",
         "AI Tool",
-        "Chat"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "운전 중에도 안전하게 ChatGPT를 활용하여 질문하고 답변을 얻을 수 있어, 이동 시간을 더욱 생산적으로 활용할 수 있습니다.",
-      "recommended_actions": [
-        "CarPlay에 연결하여 음성 명령으로 ChatGPT 실행해보기",
-        "운전 중 궁금한 점이나 필요한 정보 음성으로 질문해보기",
-        "이동 중 아이디어가 떠오르면 음성으로 기록해보기"
-      ],
-      "risks_and_limits": [
-        "운전 중 사용 시 안전에 유의하며, 전방 주시를 게을리하지 않도록 주의",
-        "ChatGPT 답변의 정확성을 항상 확인하고, 중요한 결정 시 참고 자료로만 활용"
-      ],
-      "uncertainty_note": "CarPlay 환경에서의 ChatGPT 음성 인식률 및 반응 속도에 대한 사용자 후기 확인이 필요합니다.",
-      "repeated_in_window": true,
-      "repeated_days_ago": 6,
-      "local_image_path": "images/ph_2026-04-03_ChatGPT_on_CarPlay.jpg",
-      "local_media": [
-        "images/ph_2026-04-03_ChatGPT_on_CarPlay_media_0.jpg",
-        "images/ph_2026-04-03_ChatGPT_on_CarPlay_media_1.jpg",
-        "images/ph_2026-04-03_ChatGPT_on_CarPlay_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/7ba352dc-bbd2-45b2-83e1-055ffb1a5a2f.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 10,
-      "name": "StampCut",
-      "url": "https://www.producthunt.com/products/stampcut",
-      "service_url": "https://www.producthunt.com/r/J3LEB44P7PS7C2",
-      "website": "https://www.producthunt.com/r/J3LEB44P7PS7C2",
-      "votes": 108,
-      "tagline": "Stamp the world around you!",
-      "summary": "아이폰으로 주변 사물을 스탬프처럼 캡처하여 나만의 스탬프를 만들고 활용하세요!",
-      "key_points": [
-        "아이폰 카메라를 사용하여 주변 사물을 스탬프로 만들 수 있습니다.",
-        "식물, 동물, 사물 등 다양한 대상을 스탬프로 캡처 가능합니다.",
-        "나만의 스탬프 컬렉션을 만들고 활용할 수 있습니다."
-      ],
-      "tags": [
-        "이미지",
-        "카메라",
-        "스탬프",
-        "콘텐츠 제작",
-        "아이폰"
+        "Vision"
       ],
       "confidence": "중",
       "adoption_complexity": "하",
-      "practical_relevance": "특별한 디자인 기술 없이도 주변의 모든 것을 스탬프처럼 활용하여 창의적인 콘텐츠 제작에 활용할 수 있습니다. 개인적인 프로젝트나 소셜 미디어 콘텐츠 제작에 유용합니다.",
+      "practical_relevance": "macOS에서 이미지 폴더를 빠르게 탐색하고 싶거나, 가볍고 빠른 이미지 뷰어를 찾는 사용자에게 유용합니다.",
       "recommended_actions": [
-        "주변의 재미있는 사물을 스탬프로 캡처해 보세요.",
-        "캡처한 스탬프를 활용하여 메시지나 이미지에 추가해 보세요.",
-        "다양한 사물을 스탬프로 만들고 컬렉션을 만들어 보세요."
+        "이미지 폴더를 열어 폴더 탐색 기능 사용해보기",
+        "화살표 키로 이미지 빠르게 넘겨보기",
+        "다른 이미지 뷰어와 속도 비교해보기"
       ],
       "risks_and_limits": [
-        "아이폰 카메라 성능에 따라 스탬프 품질이 달라질 수 있습니다.",
-        "저작권 문제가 없는 사물만 스탬프로 사용해야 합니다."
+        "기본적인 이미지 보기 기능 외 편집 기능은 없음",
+        "macOS에서만 사용 가능"
       ],
-      "uncertainty_note": "스탬프 활용 범위 및 공유 기능에 대한 추가 정보가 필요합니다.",
+      "uncertainty_note": "Vista의 성능이 대용량 이미지 파일에서도 유지되는지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-03_StampCut.jpg",
+      "local_image_path": "images/ph_2026-04-04_Vista.jpg",
       "local_media": [
-        "images/ph_2026-04-03_StampCut_media_1.jpg",
-        "images/ph_2026-04-03_StampCut_media_2.jpg",
-        "images/ph_2026-04-03_StampCut_media_3.jpg"
+        "images/ph_2026-04-04_Vista_media_0.jpg",
+        "images/ph_2026-04-04_Vista_media_1.jpg",
+        "images/ph_2026-04-04_Vista_media_2.jpg"
       ],
-      "video_links": [
-        "https://ph-files.imgix.net/a3140e8a-158b-4bf5-a7b2-8bd69bdc584e.jpeg?auto=format"
-      ]
+      "video_links": []
+    },
+    {
+      "rank": 10,
+      "name": "Klick AI Camera Assistant",
+      "url": "https://www.producthunt.com/products/klick-1-ai-camera-assistant",
+      "service_url": "https://www.producthunt.com/r/WZNLOHCBAIXTXB",
+      "website": "https://www.producthunt.com/r/WZNLOHCBAIXTXB",
+      "votes": 94,
+      "tagline": "Real-time AI camera that teaches you composition live",
+      "summary": "Klick AI 카메라 어시스턴트는 실시간 AI로 사진 구도를 코칭하여 초보자도 전문가처럼 멋진 사진을 찍을 수 있게 돕습니다.",
+      "key_points": [
+        "실시간 구도 가이드 제공",
+        "즉각적인 피드백으로 실력 향상",
+        "직관적인 시각 도구 제공"
+      ],
+      "tags": [
+        "AI",
+        "사진",
+        "카메라",
+        "구도",
+        "교육",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "사진 촬영 경험이 없어도 Klick AI 카메라 어시스턴트의 도움을 받아 멋진 사진을 쉽게 찍을 수 있으며, 창작자에게는 새로운 영감을 제공합니다.",
+      "recommended_actions": [
+        "다양한 구도 가이드 시험해보기",
+        "피드백을 참고하여 사진 구도 개선하기",
+        "제공되는 시각 도구 활용해보기"
+      ],
+      "risks_and_limits": [
+        "AI 코칭이 모든 사용자의 취향에 맞지 않을 수 있음",
+        "최적의 결과물을 위해 충분한 연습 필요"
+      ],
+      "uncertainty_note": "AI 코칭의 정확도 및 다양한 환경에서의 성능 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-04_Klick_AI_Camera_Assistant.jpg",
+      "local_media": [
+        "images/ph_2026-04-04_Klick_AI_Camera_Assistant_media_0.jpg",
+        "images/ph_2026-04-04_Klick_AI_Camera_Assistant_media_1.jpg",
+        "images/ph_2026-04-04_Klick_AI_Camera_Assistant_media_2.jpg"
+      ],
+      "video_links": []
     }
   ]
 }
