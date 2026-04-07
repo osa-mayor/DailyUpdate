@@ -1,370 +1,378 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-04-07",
-  "generated_at": "2026-04-07T04:02:30.453333+09:00",
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T04:02:29.019449+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Self-Distilled RLVR\n📝 요약: Self-Distillation을 활용하여 강화학습의 안정성과 성능을 향상시키는 새로운 방법론 RLSD를 제안하며, 이는 LLM Agent 개발에 실질적인 도움을 줄 수 있음.\n🔗 Hugging Face: https://huggingface.co/papers/2604.03128\n📄 arXiv: https://arxiv.org/abs/2604.03128\n\n📍 2. A Simple Baseline for Streaming Video Understanding\n📝 요약: 스트리밍 비디오 이해를 위해 복잡한 메모리 메커니즘 대신, 최근 N 프레임만 사용하는 간단한 sliding-window 방식(SimpleStream)이 기존 모델을 능가하거나 유사한 성능을 보임을 입증하여, 새로운 스트리밍 비디오 이해 접근 방식에 대한 기준점을 제시함.\n🔗 Hugging Face: https://huggingface.co/papers/2604.02317\n📄 arXiv: https://arxiv.org/abs/2604.02317\n\n📍 3. Token Warping Helps MLLMs Look from Nearby Viewpoints\n📝 요약: MLLM에서 픽셀 대신 토큰 워핑을 사용하여 시점 변화에 더 강건한 시각적 추론 성능을 얻을 수 있음. 특히 backward token warping이 효과적임.\n🔗 Hugging Face: https://huggingface.co/papers/2604.02870\n📄 arXiv: https://arxiv.org/abs/2604.02870\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. OpenWorldLib: A Unified Codebase and Definition of Advanced World Models\n📝 요약: OpenWorldLib는 고급 월드 모델을 위한 통합 추론 프레임워크를 제공하여, 다양한 모델의 재사용과 협업 추론을 효율적으로 지원하고, 월드 모델 연구의 미래 방향을 제시합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.04707\n📄 arXiv: https://arxiv.org/abs/2604.04707\n\n📍 2. MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale\n📝 요약: 문서 파싱 성능 향상의 병목이 모델 아키텍처가 아닌 학습 데이터에 있음을 밝히고, 데이터 엔진과 학습 전략 최적화를 통해 기존 모델의 성능을 크게 향상시킴.\n🔗 Hugging Face: https://huggingface.co/papers/2604.04771\n📄 arXiv: https://arxiv.org/abs/2604.04771\n\n📍 3. LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models\n📝 요약: VLA 모델의 instruction paraphrase에 대한 취약점을 분석하고, 이를 진단하기 위한 벤치마크 LIBERO-Para와 평가 지표 PRIDE를 제안하여, 로봇 조작 task에서 VLA 모델의 instruction robustness 향상에 기여한다.\n🔗 Hugging Face: https://huggingface.co/papers/2603.28301\n📄 arXiv: https://arxiv.org/abs/2603.28301\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "Self-Distilled RLVR",
-      "paper_id": "2604.03128",
-      "url": "https://huggingface.co/papers/2604.03128",
-      "arxiv_url": "https://arxiv.org/abs/2604.03128",
-      "upvotes": 57,
-      "summary": "Self-Distillation을 활용하여 강화학습의 안정성과 성능을 향상시키는 새로운 방법론 RLSD를 제안하며, 이는 LLM Agent 개발에 실질적인 도움을 줄 수 있음.",
-      "korean_abstract": "LLM Agent 학습에서 On-policy distillation (OPD)은 teacher 모델의 dense한 신호를 활용하는 반면, 강화학습 with verifiable rewards (RLVR)은 환경으로부터 sparse한 신호를 얻습니다. 최근에는 privileged 정보를 활용하는 On-policy self-distillation (OPSD)이 등장했지만, 정보 누출 및 불안정한 학습 문제가 있었습니다. 본 논문에서는 self-distillation의 최적 활용 방안을 찾고, RLVR에 self-distillation을 결합한 RLSD를 제안합니다. RLSD는 self-distillation을 통해 토큰 레벨의 정책 차이를 활용하여 업데이트 크기를 결정하고, RLVR을 통해 환경 피드백으로부터 신뢰할 수 있는 업데이트 방향을 얻습니다. 결과적으로 RLSD는 RLVR과 OPSD의 장점을 결합하여 더 높은 수렴점과 우수한 학습 안정성을 달성합니다.",
+      "title": "OpenWorldLib: A Unified Codebase and Definition of Advanced World Models",
+      "paper_id": "2604.04707",
+      "url": "https://huggingface.co/papers/2604.04707",
+      "arxiv_url": "https://arxiv.org/abs/2604.04707",
+      "upvotes": 146,
+      "summary": "OpenWorldLib는 고급 월드 모델을 위한 통합 추론 프레임워크를 제공하여, 다양한 모델의 재사용과 협업 추론을 효율적으로 지원하고, 월드 모델 연구의 미래 방향을 제시합니다.",
+      "korean_abstract": "월드 모델은 인공지능 분야에서 주목받고 있지만, 명확하고 통일된 정의가 부족합니다. 본 논문에서는 고급 월드 모델을 위한 포괄적이고 표준화된 추론 프레임워크인 OpenWorldLib를 소개합니다. 월드 모델의 진화를 바탕으로, 인지, 상호 작용, 장기 기억 능력을 갖춘 복잡한 세계를 이해하고 예측하는 모델 또는 프레임워크로 월드 모델을 정의합니다. OpenWorldLib는 다양한 태스크의 모델을 통합하여 효율적인 재사용과 협업 추론을 가능하게 합니다. 또한, 월드 모델 연구의 잠재적인 미래 방향에 대한 분석을 제공합니다.",
       "key_points": [
-        "Self-distillation을 활용하여 강화학습의 불안정성 문제 해결",
-        "RLVR과 Self-distillation 결합을 통한 성능 향상",
-        "토큰 레벨 정책 차이 활용으로 fine-grained 업데이트 가능"
+        "고급 월드 모델을 위한 통합 추론 프레임워크 OpenWorldLib 제시",
+        "인지, 상호 작용, 장기 기억 능력을 기반으로 월드 모델의 명확한 정의 제공",
+        "다양한 태스크 모델 통합을 통한 효율적인 재사용 및 협업 추론 지원"
       ],
       "tags": [
-        "Agent",
-        "Reinforcement Learning",
-        "Self-Distillation",
-        "RAG",
-        "Distillation"
+        "World Model",
+        "Inference Framework",
+        "AI",
+        "Inference"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM Agent의 강화학습 시 안정적인 학습과 높은 성능을 확보할 수 있는 RLSD 방법론은 실제 Agent 개발에 즉시 적용하여 성능 향상을 기대할 수 있습니다.",
+      "practical_relevance": "OpenWorldLib는 다양한 월드 모델을 통합하여 사용할 수 있도록 지원하므로, 개발자는 여러 모델을 직접 구현하고 관리하는 부담을 줄이고, 더 복잡한 태스크에 집중할 수 있습니다.",
       "recommended_actions": [
-        "RLSD를 기존 RL 기반 Agent 학습 파이프라인에 적용해보기",
-        "Self-distillation teacher 모델의 privileged 정보 종류에 따른 영향 분석",
-        "RLVR과 Self-distillation의 결합 비율 최적화 실험"
+        "OpenWorldLib를 사용하여 기존 모델을 통합하고 새로운 태스크에 적용해보기",
+        "OpenWorldLib 프레임워크를 확장하여 새로운 월드 모델 아키텍처를 실험해보기",
+        "OpenWorldLib에서 제공하는 월드 모델 정의 및 분류 체계를 기반으로 자체 모델 개발 전략 수립해보기"
       ],
       "risks_and_limits": [
-        "Self-distillation 과정에서 정보 누출 가능성 존재",
-        "환경 피드백의 품질에 따라 성능 변동 가능성"
+        "OpenWorldLib의 성능은 통합된 모델의 성능에 크게 의존적임",
+        "새로운 모델을 OpenWorldLib에 통합하는 데 추가적인 개발 노력이 필요할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.03128.png",
-      "local_image_path": "images/Self-Distilled_RLVR_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04707.png",
+      "local_image_path": "images/OpenWorldLib_A_Unified_Codebase_and_Definition_of_Advanced_World_Models_img.jpg",
       "local_figures": []
     },
     {
       "rank": 2,
-      "title": "A Simple Baseline for Streaming Video Understanding",
-      "paper_id": "2604.02317",
-      "url": "https://huggingface.co/papers/2604.02317",
-      "arxiv_url": "https://arxiv.org/abs/2604.02317",
-      "upvotes": 51,
-      "summary": "스트리밍 비디오 이해를 위해 복잡한 메모리 메커니즘 대신, 최근 N 프레임만 사용하는 간단한 sliding-window 방식(SimpleStream)이 기존 모델을 능가하거나 유사한 성능을 보임을 입증하여, 새로운 스트리밍 비디오 이해 접근 방식에 대한 기준점을 제시함.",
-      "korean_abstract": "최근 스트리밍 비디오 이해 방법들은 긴 비디오 스트림 처리를 위해 복잡한 메모리 메커니즘에 의존하는 경향이 있습니다. 본 연구에서는 최근 N 프레임만을 사용하는 sliding-window 방식이 기존 스트리밍 모델과 동등하거나 더 나은 성능을 보임을 보였습니다. 이 간단한 방식을 SimpleStream이라 명명하고, OVO-Bench 및 StreamingBench에서 13개의 주요 비디오 LLM 베이스라인과 비교 평가했습니다. SimpleStream은 단 4개의 최근 프레임만으로 OVO-Bench에서 평균 67.7%, StreamingBench에서 80.59%의 정확도를 달성했습니다. 추가 실험을 통해 긴 컨텍스트의 가치는 모델 규모에 따라 획일적으로 증가하지 않으며, 인지-기억 간의 trade-off가 존재함을 밝혔습니다. 따라서 향후 스트리밍 벤치마크는 최근 장면 인지와 장거리 기억을 분리하여 평가해야 한다고 주장합니다.",
+      "title": "MinerU2.5-Pro: Pushing the Limits of Data-Centric Document Parsing at Scale",
+      "paper_id": "2604.04771",
+      "url": "https://huggingface.co/papers/2604.04771",
+      "arxiv_url": "https://arxiv.org/abs/2604.04771",
+      "upvotes": 89,
+      "summary": "문서 파싱 성능 향상의 병목이 모델 아키텍처가 아닌 학습 데이터에 있음을 밝히고, 데이터 엔진과 학습 전략 최적화를 통해 기존 모델의 성능을 크게 향상시킴.",
+      "korean_abstract": "기존 문서 파싱 방법들은 주로 모델 아키텍처 혁신에 집중했지만, 다양한 아키텍처의 모델들이 유사한 실패 패턴을 보이는 것은 학습 데이터의 부족 때문임을 발견했습니다. 이에 MinerU2.5-Pro는 모델 아키텍처 변경 없이 데이터 엔진과 학습 전략 최적화에 집중하여 SOTA를 달성했습니다. 데이터 엔진은 다양성, 정보성, 정확성을 고려한 샘플링과 교차 모델 검증, Judge-and-Refine 파이프라인을 통해 학습 데이터의 양과 질을 향상시켰습니다. 또한, 3단계 점진적 학습 전략을 통해 데이터 품질에 따라 학습을 진행했습니다. OmniDocBench v1.6 평가 결과, MinerU2.5-Pro는 기존 모델 대비 2.71점 향상된 95.69점을 달성하며, 훨씬 큰 모델들을 능가하는 성능을 보였습니다.",
       "key_points": [
-        "SimpleStream: 간단한 sliding-window 기반 스트리밍 비디오 이해 baseline 제시",
-        "기존 복잡한 메모리 메커니즘 기반 모델 대비 동등하거나 우수한 성능 입증",
-        "스트리밍 벤치마크에서 최근 장면 인지와 장거리 기억을 분리하여 평가할 것을 제안"
+        "데이터 중심 문서 파싱 접근 방식의 중요성 강조",
+        "데이터 엔진(샘플링, 검증, 정제)을 통한 학습 데이터 품질 향상",
+        "점진적 학습 전략을 통한 데이터 활용 극대화"
       ],
       "tags": [
-        "Video Understanding",
-        "Streaming",
-        "LLM",
-        "Baseline",
+        "Document Parsing",
+        "Data Engineering",
+        "Training Strategy",
+        "Data Quality",
         "RAG",
-        "Video",
-        "Benchmark",
         "Evaluation",
-        "Optimization"
+        "Safety"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "복잡한 메모리 구조 없이도 스트리밍 비디오 이해가 가능하다는 점을 보여주어, 리소스 제약적인 환경에서 실시간 비디오 분석 시스템을 구축하는 데 유용합니다. 또한, 더 나은 성능 향상을 위해 집중해야 할 부분을 명확히 제시합니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "문서 파싱 시스템 개발 시, 모델 아키텍처 개선 외에 학습 데이터 구축 및 관리 전략이 성능 향상에 매우 중요하다는 점을 시사하며, 실제 시스템에 적용 가능한 데이터 중심 접근 방식을 제시합니다.",
       "recommended_actions": [
-        "SimpleStream baseline을 기반으로 자사의 스트리밍 비디오 이해 모델 성능 평가",
-        "sliding-window 크기(N)를 조절하며 성능 변화 관찰",
-        "SimpleStream에 attention mechanism을 추가하여 성능 향상 시도"
+        "자체 문서 데이터셋에 대한 데이터 품질 분석 및 개선",
+        "교차 모델 검증을 통한 noisy 데이터 필터링",
+        "점진적 학습 전략 적용"
       ],
       "risks_and_limits": [
-        "SimpleStream은 장거리 의존성이 높은 작업에는 적합하지 않을 수 있음",
-        "sliding-window 크기에 따라 성능이 민감하게 변할 수 있음"
+        "제안하는 방법론이 특정 유형의 문서에만 효과적일 수 있음",
+        "데이터 엔진 구축 및 유지에 상당한 리소스가 필요할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.02317.png",
-      "local_image_path": "images/A_Simple_Baseline_for_Streaming_Video_Understanding_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04771.png",
+      "local_image_path": "images/MinerU2.5-Pro_Pushing_the_Limits_of_Data-Centric_Document_Parsing_at_Scale_img.jpg",
       "local_figures": []
     },
     {
       "rank": 3,
-      "title": "Token Warping Helps MLLMs Look from Nearby Viewpoints",
-      "paper_id": "2604.02870",
-      "url": "https://huggingface.co/papers/2604.02870",
-      "arxiv_url": "https://arxiv.org/abs/2604.02870",
-      "upvotes": 20,
-      "summary": "MLLM에서 픽셀 대신 토큰 워핑을 사용하여 시점 변화에 더 강건한 시각적 추론 성능을 얻을 수 있음. 특히 backward token warping이 효과적임.",
-      "korean_abstract": "MLLM은 시각적 추론에서 좋은 성능을 보이지만 시점 변화에 취약하다. 기존의 픽셀 단위 워핑은 작은 깊이 오류에도 민감하고 기하학적 왜곡을 발생시킨다. 인간의 정신적 이미지 처리 방식처럼, 이미지 토큰을 활용한 워핑이 시점 변화에 더 효과적인지 연구했다. Forward와 Backward 워핑을 비교한 결과, Backward 토큰 워핑이 안정성과 의미론적 일관성을 더 잘 유지했다. ViewBench 벤치마크 실험에서 토큰 레벨 워핑이 픽셀 워핑, 공간적으로 미세 조정된 MLLM, 생성적 워핑 방법 등 모든 베이스라인을 능가했다.",
+      "title": "LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models",
+      "paper_id": "2603.28301",
+      "url": "https://huggingface.co/papers/2603.28301",
+      "arxiv_url": "https://arxiv.org/abs/2603.28301",
+      "upvotes": 69,
+      "summary": "VLA 모델의 instruction paraphrase에 대한 취약점을 분석하고, 이를 진단하기 위한 벤치마크 LIBERO-Para와 평가 지표 PRIDE를 제안하여, 로봇 조작 task에서 VLA 모델의 instruction robustness 향상에 기여한다.",
+      "korean_abstract": "Vision-Language-Action (VLA) 모델은 로봇 조작에서 강력한 성능을 보이지만, 제한된 데이터로 fine-tuning되어 instruction paraphrase에 취약하다. 이러한 문제점을 해결하기 위해, action 표현과 object reference를 독립적으로 변화시키는 LIBERO-Para 벤치마크를 제안한다. 다양한 VLA 모델 실험 결과, paraphrase에 따라 성능이 22-52% 감소했으며, 특히 object-level lexical variation에 민감하게 반응했다. 또한, 실패의 대부분은 planning 단계에서 발생했으며, 기존의 binary 성공률 지표는 paraphrase 난이도를 고려하지 못한다는 점을 지적하고, 이를 해결하기 위한 PRIDE 지표를 제안한다.",
       "key_points": [
-        "MLLM에서 시점 변화에 강건한 시각적 추론을 위한 토큰 워핑 기법 제안",
-        "Backward 토큰 워핑이 Forward 워핑보다 우수함을 입증",
-        "ViewBench 벤치마크를 통해 제안 방법의 효과 검증"
+        "VLA 모델의 instruction paraphrase에 대한 취약점 분석",
+        "instruction paraphrase robustness 평가를 위한 벤치마크 LIBERO-Para 제안",
+        "paraphrase 난이도를 고려한 평가 지표 PRIDE 제안"
       ],
       "tags": [
-        "Vision",
-        "MLLM",
-        "Warping",
-        "Transformer",
+        "Robotics",
+        "VLA",
+        "Benchmark",
+        "Paraphrase",
+        "Robustness",
         "RAG",
-        "Reasoning",
-        "Multimodal",
-        "Benchmark"
+        "Vision"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "MLLM 기반의 시각적 추론 시스템을 개발할 때, 시점 변화에 따른 성능 저하를 개선하기 위해 토큰 워핑을 적용해 볼 수 있다. 특히, Backward 토큰 워핑은 간단하면서도 효과적인 대안이 될 수 있다.",
+      "practical_relevance": "VLA 모델을 로봇 제어에 적용할 때, 다양한 instruction 표현에 대한 robustness를 확보하는 것이 중요하며, LIBERO-Para 벤치마크와 PRIDE 지표를 통해 모델의 generalize 성능을 평가하고 개선할 수 있다.",
       "recommended_actions": [
-        "기존 MLLM 모델에 토큰 워핑 레이어를 추가하여 시점 변화에 따른 성능 변화를 테스트해보기",
-        "Backward 토큰 워핑과 다른 워핑 기법(pixel-wise, generative)의 성능 비교 실험 진행",
-        "자체 데이터셋에 ViewBench와 유사한 시점 변화를 추가하여 모델의 강건성 평가"
+        "LIBERO-Para 벤치마크를 사용하여 VLA 모델의 paraphrase robustness를 평가",
+        "PRIDE 지표를 사용하여 paraphrase 난이도를 고려한 성능 분석",
+        "Object-level lexical variation에 대한 모델의 민감도를 줄이기 위한 학습 방법 연구"
       ],
       "risks_and_limits": [
-        "토큰 워핑이 모든 시점 변화에 효과적인 것은 아닐 수 있으며, 큰 시점 변화나 복잡한 장면에서는 성능이 저하될 수 있다.",
-        "ViT 기반 MLLM에 특화된 방법일 수 있으며, 다른 아키텍처의 MLLM에는 적용이 어려울 수 있다."
+        "LIBERO-Para 벤치마크는 특정 로봇 조작 task에 한정될 수 있음",
+        "PRIDE 지표가 모든 paraphrase 난이도를 완벽하게 반영하지 못할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.02870.png",
-      "local_image_path": "images/Token_Warping_Helps_MLLMs_Look_from_Nearby_Viewpoints_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.28301.png",
+      "local_image_path": "images/LIBERO-Para_A_Diagnostic_Benchmark_and_Metrics_for_Paraphrase_Robustness_in_VLA_Models_img.jpg",
       "local_figures": []
     },
     {
       "rank": 4,
-      "title": "Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
-      "paper_id": "2604.03016",
-      "url": "https://huggingface.co/papers/2604.03016",
-      "arxiv_url": "https://arxiv.org/abs/2604.03016",
-      "upvotes": 20,
-      "summary": "멀티모달 에이전트의 실제 활용 능력을 평가하는 새로운 벤치마크 Agentic-MME를 제시하고, 기존 모델의 한계를 지적하여 향후 멀티모달 에이전트 연구 방향을 제시한다.",
-      "korean_abstract": "기존 멀티모달 LLM은 시각 도구 및 웹 검색을 활용하여 능동적으로 문제를 해결하는 에이전트 형태로 발전하고 있지만, 도구 통합의 유연성 부족, 개별적인 도구 평가, 최종 답변 위주의 평가로 인해 실제 도구 활용 여부 및 효율성을 검증하기 어려웠다. 이러한 문제점을 해결하기 위해 Agentic-MME라는 새로운 벤치마크를 제시하며, 6개 도메인에 걸쳐 418개의 실제 작업과 2,000개 이상의 단계별 체크포인트를 포함하여 멀티모달 에이전트의 시너지 효과를 평가한다. 제안하는 벤치마크는 샌드박스 코드 및 API를 지원하는 통합 평가 프레임워크를 제공하며, 인간의 참조 궤적과 비교하여 중간 상태를 검증하고 과잉 사고 지표를 통해 효율성을 측정한다. 실험 결과, 최고 성능 모델인 Gemini3-pro도 Level-3 작업에서 23.0%의 정확도에 그쳐 실제 환경에서의 멀티모달 에이전트 문제 해결의 어려움을 보여준다.",
+      "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+      "paper_id": "2604.04921",
+      "url": "https://huggingface.co/papers/2604.04921",
+      "arxiv_url": "https://arxiv.org/abs/2604.04921",
+      "upvotes": 62,
+      "summary": "TriAttention은 RoPE 쿼리의 불안정성을 극복하고 Q/K 벡터의 집중 현상을 활용하여 KV 캐시 압축 효율을 높여, LLM의 긴 문맥 추론 성능을 유지하면서 메모리 사용량을 크게 줄이는 새로운 방법론을 제시합니다.",
+      "korean_abstract": "LLM에서 긴 문맥 추론은 KV 캐시 메모리 병목 현상을 야기합니다. 기존 KV 캐시 압축 방법들은 RoPE 쿼리의 attention score를 사용하여 중요도를 추정하지만, RoPE로 인해 쿼리가 회전하면서 대표적인 쿼리가 부족해져 성능이 저하됩니다. 본 논문에서는 RoPE 이전 공간에서 Q/K 벡터가 고정된 중심으로 집중되는 현상을 발견하고, 이를 활용하여 키의 중요도를 추정하는 TriAttention을 제안합니다. TriAttention은 삼각함수 series를 통해 키의 위치에 따라 점수를 매기고 Q/K norm을 추가적인 신호로 활용합니다. 실험 결과, TriAttention은 Full Attention과 유사한 추론 정확도를 유지하면서 처리량은 2.5배 향상시키고 KV 메모리 사용량은 10.7배 감소시키는 효과를 보였습니다.",
       "key_points": [
-        "멀티모달 에이전트의 실제 활용 능력 평가를 위한 새로운 벤치마크 Agentic-MME 제시",
-        "단계별 체크포인트 및 인간 참조 궤적 기반의 세밀한 평가 방법론 제안",
-        "기존 모델의 한계점을 지적하고 향후 연구 방향 제시"
-      ],
-      "tags": [
-        "Agent",
-        "Multimodal",
-        "Benchmark",
-        "Evaluation",
-        "RAG"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "멀티모달 에이전트를 개발하고 평가하는 개발자에게 Agentic-MME는 실제 활용 능력을 검증하고 모델의 개선 방향을 설정하는 데 유용한 도구를 제공한다.",
-      "recommended_actions": [
-        "Agentic-MME 벤치마크를 사용하여 기존 멀티모달 모델의 성능을 평가해보기",
-        "Agentic-MME 데이터셋을 활용하여 멀티모달 에이전트의 학습 및 개선을 진행해보기",
-        "Agentic-MME의 평가 지표를 참고하여 자체 멀티모달 에이전트 평가 시스템 구축해보기"
-      ],
-      "risks_and_limits": [
-        "Agentic-MME는 특정 작업 및 도메인에 편향되어 있을 수 있으며, 일반적인 멀티모달 에이전트의 능력을 완벽하게 반영하지 못할 수 있다.",
-        "단계별 체크포인트 및 인간 참조 궤적 구축에 상당한 시간과 비용이 소요될 수 있다."
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.03016.png",
-      "local_image_path": "images/Agentic-MME_What_Agentic_Capability_Really_Brings_to_Multimodal_Intelligence_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 5,
-      "title": "Test-Time Scaling Makes Overtraining Compute-Optimal",
-      "paper_id": "2604.01411",
-      "url": "https://huggingface.co/papers/2604.01411",
-      "arxiv_url": "https://arxiv.org/abs/2604.01411",
-      "upvotes": 12,
-      "summary": "LLM의 추론 비용을 고려하여 최적의 모델 크기, 학습 토큰 수, 추론 샘플 수를 결정하는 T^2 스케일링 법칙을 제시하고, 이를 통해 기존의 사전 학습 스케일링 법칙을 개선하여 실제 모델 배포 환경에서의 성능 향상을 검증했습니다.",
-      "korean_abstract": "최근 LLM은 추론 시 반복 샘플링을 통해 성능을 향상시키지만, 이는 추론 비용 증가를 야기하며 기존의 사전 학습 스케일링 법칙으로는 이러한 트레이드오프를 해결할 수 없습니다. 본 연구에서는 고정된 예산 내에서 모델 크기, 학습 토큰 수, 추론 샘플 수를 공동으로 최적화하는 T^2 스케일링 법칙을 제안합니다. T^2는 pass@k 모델링을 사용하여 사전 학습 및 추론 결정을 최적화합니다. 다양한 모델링 접근 방식에서 T^2 예측의 견고성을 확인했으며, 8개의 다운스트림 작업에서 추론 비용을 고려할 때 과적합 영역에서 최적의 사전 학습 결정이 이루어짐을 발견했습니다. T^2 스케일링 예측에 따라 과적합 모델을 사전 학습하여 성능 향상을 검증했으며, 추가적으로 post-training 단계에서도 결과가 유지됨을 확인했습니다.",
-      "key_points": [
-        "추론 비용을 고려한 새로운 스케일링 법칙 (T^2) 제시",
-        "과적합 영역에서의 사전 학습이 더 효과적임을 입증",
-        "Post-training 단계에서도 T^2 스케일링의 유효성 확인"
+        "RoPE 쿼리의 불안정성 문제 해결을 위해 pre-RoPE 공간의 Q/K 집중 현상 활용",
+        "삼각함수 series 기반의 키 중요도 추정 방법론 TriAttention 제안",
+        "KV 캐시 압축 효율을 높여 LLM의 긴 문맥 추론 성능 향상 및 메모리 사용량 감소"
       ],
       "tags": [
         "LLM",
-        "Scaling Law",
-        "Inference",
-        "Overtraining"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "LLM 개발 시 추론 비용을 고려하여 모델 크기 및 학습 전략을 최적화하고, 과적합을 두려워하지 않고 적극적으로 활용하여 성능을 향상시킬 수 있는 가이드라인을 제공합니다.",
-      "recommended_actions": [
-        "T^2 스케일링 법칙을 기반으로 모델 크기, 학습 데이터 양, 추론 시 샘플링 횟수를 조절하는 실험 진행",
-        "기존 스케일링 법칙 대비 과적합 영역에서 사전 학습을 수행하고 성능 변화 관찰",
-        "Post-training을 통해 T^2 스케일링의 효과를 검증하고 실제 서비스에 적용 가능성 평가"
-      ],
-      "risks_and_limits": [
-        "T^2 스케일링 법칙이 특정 모델 아키텍처 또는 데이터셋에 편향될 가능성 존재",
-        "과적합 모델의 일반화 성능 저하 및 예상치 못한 문제 발생 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.01411.png",
-      "local_image_path": "images/Test-Time_Scaling_Makes_Overtraining_Compute-Optimal_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 6,
-      "title": "Communicating about Space: Language-Mediated Spatial Integration Across Partial Views",
-      "paper_id": "2603.27183",
-      "url": "https://huggingface.co/papers/2603.27183",
-      "arxiv_url": "https://arxiv.org/abs/2603.27183",
-      "upvotes": 10,
-      "summary": "MLLM은 제한된 시야에서 공간적 이해를 공유하는 데 어려움을 겪으며, 특히 전역적으로 일관된 지도를 구축하는 데 실패하므로, 공간적 추론 능력을 개선하기 위한 연구가 필요함.",
-      "korean_abstract": "인간은 부분적인 관찰을 언어로 전달하여 공간적 이해를 공유합니다. 본 연구에서는 멀티모달 대규모 언어 모델(MLLM)이 대화를 통해 서로 다른 시점을 정렬하여 공유 환경에 대한 일관된 정신 모델을 형성할 수 있는지 질문합니다. 이를 위해 협업 공간 커뮤니케이션 벤치마크인 COSMIC을 소개합니다. COSMIC 환경에서 두 개의 정적 MLLM 에이전트는 서로 다른 시점에서 3D 실내 환경을 관찰하고 자연어 메시지를 교환하여 공간 쿼리를 해결합니다. 실험 결과, MLLM은 공유 앵커 객체 식별에는 비교적 능숙하지만, 관계 추론에는 어려움을 겪고, 전역적으로 일관된 지도를 구축하는 데는 거의 실패했습니다. 또한, 사고 능력은 앵커 객체 식별에는 도움이 되지만, 더 높은 수준의 공간 커뮤니케이션에는 충분하지 않았습니다.",
-      "key_points": [
-        "협업 공간 커뮤니케이션 벤치마크 COSMIC 제시",
-        "MLLM의 공간적 추론 능력의 한계 확인 (특히 전역적 지도 구축)",
-        "사고 능력이 앵커 객체 식별에 미치는 영향 분석"
-      ],
-      "tags": [
-        "Agent",
-        "Vision",
-        "Spatial Reasoning",
-        "Benchmark",
-        "MLLM",
-        "Reasoning",
-        "Multimodal"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "MLLM 에이전트를 활용한 협업 시스템 개발 시, 공간적 추론 능력의 한계를 고려하여 설계해야 함을 시사합니다. 특히, 3D 환경에서 에이전트 간의 효과적인 커뮤니케이션 전략 개발에 참고할 수 있습니다.",
-      "recommended_actions": [
-        "COSMIC 벤치마크를 활용하여 자체 MLLM 에이전트의 공간적 추론 능력 평가",
-        "MLLM 에이전트의 대화 전략을 개선하여 공간적 이해도 향상 시도",
-        "외부 지식(예: CAD 데이터)을 활용하여 MLLM 에이전트의 공간적 추론 능력 보완"
-      ],
-      "risks_and_limits": [
-        "MLLM의 공간적 추론 능력은 여전히 인간에 비해 크게 부족함",
-        "COSMIC 벤치마크는 특정 환경 및 작업에 제한되어 있어 일반화에 어려움이 있을 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.27183.png",
-      "local_image_path": "images/Communicating_about_Space_Language-Mediated_Spatial_Integration_Across_Partial_Views_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "InCoder-32B-Thinking: Industrial Code World Model for Thinking",
-      "paper_id": "2604.03144",
-      "url": "https://huggingface.co/papers/2604.03144",
-      "arxiv_url": "https://arxiv.org/abs/2604.03144",
-      "upvotes": 4,
-      "summary": "InCoder-32B-Thinking은 산업 현장의 코드 문제를 해결하기 위해 에러 기반 Chain-of-Thought와 산업 코드 월드 모델을 결합, 실제 하드웨어 제약과 타이밍 의미를 고려한 추론 과정을 생성하여 코드 생성 성능을 향상시킴.",
-      "korean_abstract": "산업 소프트웨어 개발, 특히 칩 설계, GPU 최적화, 임베디드 시스템 개발은 엔지니어의 추론 과정을 보여주는 전문가 추론 기록이 부족합니다. 본 연구에서는 에러 기반 Chain-of-Thought (ECoT) 합성 프레임워크와 산업 코드 월드 모델 (ICWM)을 사용하여 학습된 InCoder-32B-Thinking을 제안합니다. ECoT는 환경 에러 피드백을 활용한 다중 턴 대화를 통해 추론 체인을 생성하여 에러 수정 과정을 명시적으로 모델링합니다. ICWM은 Verilog 시뮬레이션, GPU 프로파일링 등의 도메인별 실행 기록을 학습하여 코드와 하드웨어 동작 간의 인과 관계를 학습하고, 컴파일 전에 실행 결과를 예측하여 자체 검증을 가능하게 합니다. 생성된 추론 기록은 도메인 툴체인을 통해 검증되었으며, InCoder-32B-Thinking은 일반 및 산업 벤치마크에서 최상위 오픈 소스 결과를 달성했습니다.",
-      "key_points": [
-        "에러 기반 Chain-of-Thought (ECoT)를 통해 추론 과정 생성 및 에러 수정 모델링",
-        "산업 코드 월드 모델 (ICWM)을 통해 코드와 하드웨어 동작 간의 인과 관계 학습 및 자체 검증",
-        "일반 및 산업 벤치마크에서 최상위 오픈 소스 결과 달성"
-      ],
-      "tags": [
-        "Code Generation",
-        "Reasoning",
-        "Industrial Application",
-        "GPU Optimization",
-        "Error Correction",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "InCoder-32B-Thinking은 실제 하드웨어 제약과 타이밍 의미를 고려한 추론 과정을 생성하여 산업 현장의 코드 생성 및 최적화 작업에 도움을 줄 수 있으며, 특히 GPU 최적화, 임베디드 시스템 개발 등에서 유용하게 활용될 수 있습니다.",
-      "recommended_actions": [
-        "InCoder-32B-Thinking을 활용하여 특정 하드웨어 플랫폼에 대한 코드 생성 실험 진행",
-        "ECoT 프레임워크를 기반으로 자체적인 에러 수정 모델 구축",
-        "ICWM을 활용하여 코드 변경에 따른 하드웨어 동작 변화 예측 및 검증"
-      ],
-      "risks_and_limits": [
-        "산업 도메인에 특화된 데이터에 의존적이므로, 일반적인 소프트웨어 개발에는 적용이 어려울 수 있음",
-        "모델의 크기가 크므로, 학습 및 추론에 상당한 컴퓨팅 자원이 필요함"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.03144.png",
-      "local_image_path": "images/InCoder-32B-Thinking_Industrial_Code_World_Model_for_Thinking_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 8,
-      "title": "Swift-SVD: Theoretical Optimality Meets Practical Efficiency in Low-Rank LLM Compression",
-      "paper_id": "2604.01609",
-      "url": "https://huggingface.co/papers/2604.01609",
-      "arxiv_url": "https://arxiv.org/abs/2604.01609",
-      "upvotes": 3,
-      "summary": "Swift-SVD는 LLM 압축 시 이론적 최적성과 실질적 효율성을 동시에 제공하는 새로운 프레임워크로, 기존 SVD 기반 방법들의 한계를 극복하고 압축 속도를 크게 향상시킴.",
-      "korean_abstract": "LLM의 배포는 모델의 크기와 메모리 요구사항으로 인해 제약이 많습니다. SVD 기반 압축은 이러한 비용을 줄이는 효과적인 방법이지만, 기존 방법들은 최적의 성능을 보장하지 못하거나 비효율적인 경우가 많았습니다. 본 논문에서는 activation 정보를 활용하여 이론적으로 최적이고 실질적으로 효율적인 Swift-SVD라는 새로운 압축 프레임워크를 제안합니다. Swift-SVD는 입력 배치에 대한 출력 activation의 공분산을 점진적으로 집계하고, 집계 후 단일 고유값 분해를 수행하여 학습 없이 빠르고 최적의 layer-wise low-rank 근사를 가능하게 합니다. 다양한 LLM과 데이터셋에 대한 실험 결과, Swift-SVD는 기존 방법들을 능가하며 최적의 압축 정확도를 달성하면서 압축 시간을 3~70배 단축했습니다.",
-      "key_points": [
-        "Activation-aware closed-form 압축 프레임워크 제시",
-        "이론적 최적성, 실질적 효율성, 수치적 안정성 보장",
-        "동적 rank 할당 전략을 통해 layer별 중요도 고려"
-      ],
-      "tags": [
-        "LLM",
+        "KV Cache",
+        "Attention",
         "Compression",
-        "SVD",
-        "Low-Rank Approximation",
+        "RoPE",
+        "RAG",
+        "Reasoning",
         "Optimization"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 모델 경량화 및 추론 속도 향상을 통해 모델 배포 및 활용에 필요한 리소스 비용을 절감하고, 더 많은 환경에서 LLM을 사용할 수 있도록 함.",
+      "practical_relevance": "LLM의 긴 문맥 처리 성능을 개선하고 메모리 효율성을 높여, 더 작은 GPU에서도 긴 문맥을 처리할 수 있도록 해줍니다. 특히, 메모리 제약이 있는 환경에서 LLM을 활용하는 개발자에게 유용합니다.",
       "recommended_actions": [
-        "Swift-SVD를 기존 LLM 모델에 적용하여 압축 성능 및 속도 향상 실험",
-        "모델 압축 시 layer별 rank 할당 전략을 조정하여 최적의 성능 탐색",
-        "다른 압축 방법과의 비교 분석을 통해 Swift-SVD의 장단점 파악"
+        "TriAttention을 기존 LLM에 적용하여 성능 향상 및 메모리 사용량 감소 효과 실험",
+        "TriAttention의 삼각함수 series 기반 키 중요도 추정 방식 분석 및 개선",
+        "TriAttention을 활용하여 긴 문맥을 처리하는 다양한 task에 적용해보고 성능 비교"
       ],
       "risks_and_limits": [
-        "특정 모델 구조 또는 데이터셋에 대한 성능 편차 가능성",
-        "압축률과 정확도 간의 trade-off 고려 필요"
+        "TriAttention의 성능이 특정 모델 구조나 데이터셋에 따라 달라질 수 있음",
+        "삼각함수 series 기반의 키 중요도 추정 방식이 복잡하여 디버깅이 어려울 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.01609.png",
-      "local_image_path": "images/Swift-SVD_Theoretical_Optimality_Meets_Practical_Efficiency_in_Low-Rank_LLM_Compression_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04921.png",
+      "local_image_path": "images/TriAttention_Efficient_Long_Reasoning_with_Trigonometric_KV_Compression_img.jpg",
       "local_figures": []
     },
     {
-      "rank": 9,
-      "title": "AgentSocialBench: Evaluating Privacy Risks in Human-Centered Agentic Social Networks",
-      "paper_id": "2604.01487",
-      "url": "https://huggingface.co/papers/2604.01487",
-      "arxiv_url": "https://arxiv.org/abs/2604.01487",
-      "upvotes": 3,
-      "summary": "LLM 에이전트 기반 소셜 네트워크에서 개인 정보 보호 취약점을 체계적으로 평가하는 AgentSocialBench 벤치마크를 제시하고, 기존 에이전트가 정보 보호에 취약하며 추상화 지시가 역설적으로 정보 노출을 증가시키는 현상을 발견함.",
-      "korean_abstract": "개인화된 LLM 에이전트 프레임워크의 발전으로, 인간 중심 에이전트 소셜 네트워크가 현실화되고 있지만, 이는 새로운 개인 정보 보호 문제를 야기합니다. 기존 연구는 멀티 에이전트 협업 및 개인 정보 보호에 초점을 맞추었지만, 인간 중심 에이전트 소셜 네트워크의 역동성과 개인 정보 위험성은 아직 탐구되지 않았습니다. 본 연구에서는 이러한 환경에서의 개인 정보 위험을 체계적으로 평가하기 위해 AgentSocialBench 벤치마크를 소개합니다. 실험 결과, 에이전트가 명시적으로 정보를 보호하도록 지시받더라도 교차 도메인 및 교차 사용자 협업으로 인해 지속적인 정보 유출이 발생하며, 민감한 정보를 추상화하도록 가르치는 것이 역설적으로 정보에 대한 논의를 증가시키는 '추상화 역설' 현상을 발견했습니다. 이는 현재 LLM 에이전트가 인간 중심 에이전트 소셜 네트워크에서 개인 정보 보호를 위한 강력한 메커니즘이 부족하며, 프롬프트 엔지니어링 이상의 새로운 접근 방식이 필요함을 시사합니다.",
+      "rank": 5,
+      "title": "Adam's Law: Textual Frequency Law on Large Language Models",
+      "paper_id": "2604.02176",
+      "url": "https://huggingface.co/papers/2604.02176",
+      "arxiv_url": "https://arxiv.org/abs/2604.02176",
+      "upvotes": 45,
+      "summary": "LLM의 프롬프팅 및 파인튜닝 시 텍스트 빈도수를 고려하여 성능을 향상시키는 새로운 프레임워크를 제안하고, 다양한 실험을 통해 효과를 검증함.",
+      "korean_abstract": "기존 연구에서는 LLM과 텍스트 빈도수의 관련성이 간과되었다. 본 연구에서는 텍스트 빈도수가 높은 데이터가 LLM의 성능에 긍정적인 영향을 미친다는 Textual Frequency Law (TFL)을 제안한다. 이를 위해 온라인 리소스를 활용하여 문장 수준의 빈도를 추정하고, paraphraser를 통해 입력 텍스트를 빈도가 높은 표현으로 변환한다. 또한, Textual Frequency Distillation (TFD)을 통해 데이터셋을 확장하고, Curriculum Textual Frequency Training (CTFT)을 통해 빈도수가 낮은 문장부터 높은 문장 순으로 LLM을 파인튜닝한다. 수학 추론, 기계 번역, 상식 추론, 에이전트 도구 호출 등의 실험에서 제안하는 프레임워크의 효과를 입증했다.",
       "key_points": [
-        "인간 중심 에이전트 소셜 네트워크의 개인 정보 보호 위험 평가를 위한 AgentSocialBench 벤치마크 제시",
-        "교차 도메인 및 교차 사용자 협업으로 인한 지속적인 정보 유출 확인",
-        "개인 정보 추상화 지시가 오히려 정보 노출을 증가시키는 '추상화 역설' 현상 발견"
+        "텍스트 빈도수와 LLM 성능 간의 상관관계를 밝힘",
+        "온라인 리소스를 활용한 문장 빈도 추정 방법 제시",
+        "빈도수 기반 커리큘럼 학습을 통한 LLM 파인튜닝 기법 제안"
       ],
       "tags": [
-        "Agent",
-        "Privacy",
-        "Social Network",
-        "Benchmark",
         "LLM",
+        "Text Frequency",
+        "Fine-tuning",
+        "Prompting",
+        "Curriculum Learning",
+        "Agent",
+        "Reasoning",
+        "Distillation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "LLM을 사용하는 개발자는 프롬프트 엔지니어링 및 데이터셋 구축 시 텍스트 빈도수를 고려하여 모델 성능을 최적화할 수 있다.",
+      "recommended_actions": [
+        "자체 데이터셋의 문장 빈도수를 분석하여 고빈도 표현을 우선적으로 활용",
+        "프롬프트 작성 시 paraphrasing을 통해 빈도수가 높은 표현으로 변환",
+        "빈도수 기반 커리큘럼 학습을 적용하여 LLM 파인튜닝 실험"
+      ],
+      "risks_and_limits": [
+        "온라인 리소스 기반 빈도 추정의 정확도 문제",
+        "특정 도메인에 편향된 빈도수 데이터의 일반화 문제"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.02176.png",
+      "local_image_path": "images/Adam's_Law_Textual_Frequency_Law_on_Large_Language_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "AURA: Always-On Understanding and Real-Time Assistance via Video Streams",
+      "paper_id": "2604.04184",
+      "url": "https://huggingface.co/papers/2604.04184",
+      "arxiv_url": "https://arxiv.org/abs/2604.04184",
+      "upvotes": 37,
+      "summary": "AURA는 비디오 스트림을 지속적으로 이해하고 실시간 질의응답 및 능동적 지원을 제공하는 엔드투엔드 프레임워크로, 실제 환경에서 활용 가능한 비디오 LLM 에이전트 개발에 기여한다.",
+      "korean_abstract": "기존 비디오 LLM 시스템은 오프라인 방식이거나 단순 캡셔닝에 국한되어 실시간 스트리밍 환경에서의 활용이 어려웠다. 이러한 문제를 해결하기 위해 AURA는 비디오 스트림을 지속적으로 처리하고 실시간 질의응답과 능동적 반응을 모두 지원하는 엔드투엔드 프레임워크를 제안한다. AURA는 컨텍스트 관리, 데이터 구축, 학습 목표, 배포 최적화를 통합하여 안정적인 장기 스트리밍 상호작용을 가능하게 한다. 벤치마크 테스트에서 최고 성능을 달성했으며, ASR 및 TTS와 함께 2 FPS로 실행되는 실시간 데모 시스템을 구축했다. AURA 모델과 추론 프레임워크를 공개하여 관련 연구를 촉진할 것이다.",
+      "key_points": [
+        "실시간 비디오 스트림 처리를 위한 엔드투엔드 VideoLLM 프레임워크 AURA 제시",
+        "지속적인 컨텍스트 관리 및 능동적 응답을 위한 통합 시스템 설계",
+        "실시간 질의응답 및 능동적 지원 데모 시스템 구현 및 공개"
+      ],
+      "tags": [
+        "VideoLLM",
+        "Streaming",
+        "Real-time",
+        "Agent",
+        "Interaction",
+        "Video",
+        "Benchmark",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "AURA는 실시간 비디오 분석 및 상호작용이 필요한 서비스 개발에 유용하며, 특히 에이전트 기반의 지능형 시스템 구축에 활용될 수 있다.",
+      "recommended_actions": [
+        "AURA 프레임워크를 활용하여 특정 도메인에 특화된 실시간 비디오 에이전트 개발",
+        "공개된 모델 및 추론 프레임워크를 기반으로 성능 개선 및 최적화 연구 진행",
+        "AURA의 컨텍스트 관리 및 능동적 응답 메커니즘을 다른 VideoLLM 시스템에 적용"
+      ],
+      "risks_and_limits": [
+        "실시간 처리 성능은 하드웨어 성능에 크게 의존적임",
+        "복잡한 시나리오에서의 장기적인 안정성 및 정확성 검증 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04184.png",
+      "local_image_path": "images/AURA_Always-On_Understanding_and_Real-Time_Assistance_via_Video_Streams_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "SpatialEdit: Benchmarking Fine-Grained Image Spatial Editing",
+      "paper_id": "2604.04911",
+      "url": "https://huggingface.co/papers/2604.04911",
+      "arxiv_url": "https://arxiv.org/abs/2604.04911",
+      "upvotes": 25,
+      "summary": "이미지 공간 편집의 정확도 향상을 위한 벤치마크, 데이터셋, 베이스라인 모델을 제시하여, 객체 레이아웃 및 카메라 시점 제어 연구에 기여.",
+      "korean_abstract": "이미지 공간 편집은 객체 레이아웃과 카메라 시점을 정밀하게 제어하는 기술이지만, 기존 모델은 세밀한 공간 조작에 미흡했습니다. 이러한 한계를 극복하기 위해, 공간 편집 성능을 평가하는 벤치마크 SpatialEdit-Bench를 제안하고, 지각적 현실성과 기하학적 정확도를 동시에 측정합니다. 데이터 부족 문제를 해결하고자 Blender를 활용하여 다양한 배경과 카메라 궤적을 가진 합성 데이터셋 SpatialEdit-500k를 구축하고, 객체 및 카메라 중심 조작에 대한 정확한 ground-truth 변환을 제공합니다. 구축된 데이터를 기반으로 세밀한 공간 편집을 위한 베이스라인 모델 SpatialEdit-16B를 개발했으며, 일반 편집 작업에서 경쟁력 있는 성능을, 공간 조작 작업에서 기존 방법들을 능가하는 성능을 보였습니다. 모든 리소스는 공개될 예정입니다.",
+      "key_points": [
+        "정밀한 이미지 공간 편집 평가를 위한 벤치마크 SpatialEdit-Bench 제시",
+        "합성 데이터셋 SpatialEdit-500k 구축 및 ground-truth 변환 제공",
+        "세밀한 공간 편집을 위한 베이스라인 모델 SpatialEdit-16B 개발"
+      ],
+      "tags": [
+        "Image Editing",
+        "Spatial Manipulation",
+        "Benchmark",
+        "Dataset",
+        "Synthetic Data",
+        "Vision",
         "Evaluation"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 에이전트를 활용한 소셜 네트워크 서비스 개발 시, 개인 정보 보호를 위한 추가적인 메커니즘 설계의 필요성을 강조하며, 기존 프롬프트 엔지니어링만으로는 한계가 있음을 알려줍니다.",
+      "practical_relevance": "이미지 편집 모델의 정확도와 제어 가능성을 높여, 게임, AR/VR, 콘텐츠 제작 등 다양한 분야에서 활용될 수 있습니다. 특히, 객체 배치나 카메라 앵글을 정밀하게 조정해야 하는 경우에 유용합니다.",
       "recommended_actions": [
-        "AgentSocialBench 벤치마크를 활용하여 개발 중인 에이전트 시스템의 개인 정보 보호 성능 평가",
-        "개인 정보 추상화 전략이 실제로 정보 노출을 줄이는지 검증하는 실험 수행",
-        "교차 도메인 및 교차 사용자 협업 시 발생할 수 있는 정보 유출 시나리오 분석 및 대응 방안 마련"
+        "SpatialEdit-Bench를 사용하여 기존 이미지 편집 모델의 공간 편집 성능을 평가",
+        "SpatialEdit-500k 데이터셋을 활용하여 모델 학습 및 성능 향상",
+        "SpatialEdit-16B 모델을 기반으로 특정 도메인에 맞는 공간 편집 모델 개발"
       ],
       "risks_and_limits": [
-        "AgentSocialBench가 다루는 시나리오가 실제 사용자 행동을 완벽하게 반영하지 못할 수 있음",
-        "실험 결과가 특정 LLM 에이전트에만 해당될 수 있으며, 다른 에이전트에는 적용되지 않을 수 있음"
+        "합성 데이터셋이 실제 데이터의 복잡성을 완전히 반영하지 못할 수 있음",
+        "SpatialEdit-16B 모델이 특정 유형의 공간 편집에만 특화되어 있을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.01487.png",
-      "local_image_path": "images/AgentSocialBench_Evaluating_Privacy_Risks_in_Human-Centered_Agentic_Social_Networks_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04911.png",
+      "local_image_path": "images/SpatialEdit_Benchmarking_Fine-Grained_Image_Spatial_Editing_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 8,
+      "title": "FileGram: Grounding Agent Personalization in File-System Behavioral Traces",
+      "paper_id": "2604.04901",
+      "url": "https://huggingface.co/papers/2604.04901",
+      "arxiv_url": "https://arxiv.org/abs/2604.04901",
+      "upvotes": 24,
+      "summary": "FileGram은 파일 시스템 행동 기록을 기반으로 개인화된 AI 에이전트 개발을 위한 데이터 엔진, 벤치마크, 메모리 아키텍처를 제공하여, 데이터 부족 문제를 해결하고 실제 파일 시스템 환경에서의 에이전트 성능 향상을 가능하게 함.",
+      "korean_abstract": "최근 로컬 파일 시스템 내에서 협업하는 AI 에이전트가 등장하고 있지만, 개인 정보 보호 문제와 데이터 수집의 어려움으로 인해 효과적인 개인화가 제한적입니다. 기존 방법들은 상호 작용에만 집중하고 파일 시스템 작업의 행동 기록을 간과합니다. 이러한 문제를 해결하기 위해 FileGram은 파일 시스템 행동 기록을 기반으로 에이전트의 메모리와 개인화를 구현하는 프레임워크를 제안합니다. FileGram은 현실적인 워크플로우 시뮬레이션 데이터 엔진, 행동 기록 기반 진단 벤치마크, 그리고 사용자 프로필을 구축하는 메모리 아키텍처로 구성됩니다. 실험 결과, FileGram 벤치마크는 기존 메모리 시스템에 여전히 어려운 과제를 제시하며, FileGram 엔진과 OS의 효과를 입증했습니다.",
+      "key_points": [
+        "파일 시스템 행동 기록 기반의 AI 에이전트 개인화 프레임워크 FileGram 제안",
+        "현실적인 워크플로우 시뮬레이션 및 행동 기록 생성 데이터 엔진 (FileGramEngine) 개발",
+        "메모리 시스템 평가를 위한 진단 벤치마크 (FileGramBench) 및 메모리 아키텍처 (FileGramOS) 설계"
+      ],
+      "tags": [
+        "Agent",
+        "Personalization",
+        "File System",
+        "Memory",
+        "Multimodal",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "FileGram은 파일 시스템 내에서 동작하는 AI 에이전트의 개인화 성능을 향상시키기 위한 데이터 및 평가 도구를 제공하여, 개발자가 실제 환경에서 더 효과적인 에이전트를 구축하고 평가하는 데 도움을 줄 수 있습니다.",
+      "recommended_actions": [
+        "FileGramEngine을 사용하여 특정 작업 환경에 맞는 파일 시스템 행동 데이터 생성",
+        "FileGramBench를 사용하여 기존 메모리 시스템의 성능을 파일 시스템 환경에서 평가",
+        "FileGramOS 아키텍처를 기반으로 파일 시스템 에이전트의 메모리 시스템 구축"
+      ],
+      "risks_and_limits": [
+        "FileGram은 파일 시스템 행동 기록에 의존하므로, 사용자의 행동 패턴이 충분히 반영되지 않을 경우 개인화 효과가 제한될 수 있음",
+        "FileGram의 효과는 실험적으로 검증되었지만, 실제 다양한 사용 환경에서의 성능은 추가적인 검증이 필요함"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04901.png",
+      "local_image_path": "images/FileGram_Grounding_Agent_Personalization_in_File-System_Behavioral_Traces_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "ClawArena: Benchmarking AI Agents in Evolving Information Environments",
+      "paper_id": "2604.04202",
+      "url": "https://huggingface.co/papers/2604.04202",
+      "arxiv_url": "https://arxiv.org/abs/2604.04202",
+      "upvotes": 24,
+      "summary": "ClawArena는 진화하는 정보 환경에서 AI 에이전트의 성능을 평가하기 위한 새로운 벤치마크로, 다중 소스 충돌 추론, 동적 믿음 수정, 암묵적 개인화 등의 복잡한 과제를 포함하여 실제 환경에서의 에이전트 성능 향상에 기여합니다.",
+      "korean_abstract": "지속적인 어시스턴트로서 배포되는 AI 에이전트는 정보 환경이 변화함에 따라 정확한 믿음을 유지해야 합니다. 기존 벤치마크는 정적이고 단일 권한 설정에 초점을 맞추고 있어 이러한 복잡성을 제대로 평가하지 못합니다. 본 논문에서는 진화하는 정보 환경에서 AI 에이전트를 평가하기 위한 벤치마크인 ClawArena를 소개합니다. ClawArena는 다중 채널 세션, 작업 공간 파일, 단계별 업데이트를 통해 노이즈가 있고 부분적이며 때로는 모순적인 정보를 에이전트에 노출시키면서 완전한 숨겨진 ground truth를 유지합니다. 실험 결과, 모델 성능과 프레임워크 설계가 성능에 큰 영향을 미치며, 자체 진화 기술 프레임워크가 모델 성능 격차를 부분적으로 해소할 수 있음을 보여줍니다.",
+      "key_points": [
+        "진화하는 정보 환경에서의 AI 에이전트 평가를 위한 새로운 벤치마크 ClawArena 제시",
+        "다중 소스 충돌 추론, 동적 믿음 수정, 암묵적 개인화 등의 복잡한 과제 포함",
+        "다양한 에이전트 프레임워크와 언어 모델에 대한 실험을 통해 모델 성능과 프레임워크 설계가 성능에 미치는 영향 분석"
+      ],
+      "tags": [
+        "Benchmark",
+        "AI Agent",
+        "Belief Revision",
+        "Information Environment",
+        "Agent",
+        "Reasoning",
+        "Vision",
+        "Evaluation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "ClawArena는 실제 환경에서 AI 에이전트의 신뢰도를 높이고, 정보의 불확실성과 변화에 대한 적응력을 향상시키는 데 중요한 역할을 합니다. 개발자는 이를 통해 실제 서비스 환경에 더 적합한 에이전트를 개발할 수 있습니다.",
+      "recommended_actions": [
+        "ClawArena 벤치마크를 사용하여 자체 에이전트의 성능을 평가하고 개선",
+        "다중 소스 정보 처리 및 믿음 수정 전략을 에이전트 설계에 통합",
+        "자체 진화 기술 프레임워크를 활용하여 모델 성능 격차를 해소하는 방안 모색"
+      ],
+      "risks_and_limits": [
+        "ClawArena는 특정 전문 분야에 초점을 맞추고 있어 일반적인 AI 에이전트의 모든 측면을 포괄하지 못할 수 있음",
+        "벤치마크의 시나리오가 실제 환경의 모든 복잡성을 완벽하게 반영하지 못할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.04202.png",
+      "local_image_path": "images/ClawArena_Benchmarking_AI_Agents_in_Evolving_Information_Environments_img.jpg",
       "local_figures": []
     }
   ]
