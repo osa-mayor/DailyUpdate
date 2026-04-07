@@ -1,476 +1,479 @@
 {
   "source": "product_hunt",
-  "date": "2026-04-07",
-  "generated_at": "2026-04-07T04:05:14.188798+09:00",
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T04:05:17.628135+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Moonshot \n⭐ Votes: 309\n📝 요약: Moonshot은 NASA의 아르테미스 II 미션을 실시간으로 추적하여, Mac 메뉴 막대에서 간편하게 미션 진행 상황, 주요 이벤트 카운트다운, 우주 비행사 정보 등을 확인할 수 있게 해주는 앱입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/moonshot-13\n🌐 서비스 링크: https://www.producthunt.com/r/GDTDNLE4GZ3EBU\n\n📦 2. PixVerse V6\n⭐ Votes: 245\n📝 요약: PixVerse V6는 생생한 AI 비디오 모델로, 현실적인 텍스처, 자연스러운 물리 효과, 영화 같은 색감을 제공하며, 복잡한 장면과 액션, 변환, 총알 시간 효과를 완벽한 오디오 싱크와 함께 높은 성공률로 구현합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/pixverse\n🌐 서비스 링크: https://www.producthunt.com/r/IQKRNCKHESYQHL\n\n📦 3. AgentPulse by Rectify\n⭐ Votes: 190\n📝 요약: AgentPulse는 OpenClaw 터미널에서 수행하던 모든 작업을 시각적으로 관리할 수 있게 해주는 명령 센터입니다. SSH나 JSON 설정 없이 팀 협업을 지원합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/rectify\n🌐 서비스 링크: https://www.producthunt.com/r/AA2PMVQIUHDCHQ\n\n📦 4. KREV\n⭐ Votes: 179\n📝 요약: KREV는 이커머스 브랜드가 제품 이미지 하나로 광고용 사진, 비디오, 런칭 준비된 창작물을 만들 수 있게 돕는 AI 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/krev\n🌐 서비스 링크: https://www.producthunt.com/r/FQ7RRJ6JPK6TO2\n\n📦 5. Predflow AI\n⭐ Votes: 158\n📝 요약: Predflow AI는 광고 성과를 분석하고 개선 방안을 제시하는 AI 에이전트로, Meta, Google, Shopify 계정을 연동하여 광고 효율을 높일 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/predflow-2\n🌐 서비스 링크: https://www.producthunt.com/r/4ZCK2KRQ763X36\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. NovaVoice\n⭐ Votes: 417\n📝 요약: NovaVoice는 음성으로 200+ wpm 속도로 텍스트를 입력하고, AI 어시스턴트 기능과 앱 제어까지 가능한 음성 OS입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/novavoice\n🌐 서비스 링크: https://www.producthunt.com/r/K7EU2IVQNJ6SLT\n\n📦 2. Lessie AI\n⭐ Votes: 276\n📝 요약: Lessie AI는 AI 에이전트를 통해 필터나 키워드 없이도 원하는 이상적인 대상을 찾고 연결하여 개인화된 아웃리치 및 후속 조치를 자동화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/lessie-ai-2\n🌐 서비스 링크: https://www.producthunt.com/r/5AFCHL2DEHSNUR\n\n📦 3. SuperShrimp\n⭐ Votes: 235\n📝 요약: SuperShrimp는 웹캠을 통해 실시간으로 자세를 분석하고 교정하여 사용자의 건강한 작업 습관을 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/supershrimp\n🌐 서비스 링크: https://www.producthunt.com/r/QYI2BQLZLAAHS4\n\n📦 4. OpenOwl\n⭐ Votes: 200\n📝 요약: OpenOwl은 macOS 데스크탑 자동화 에이전트로, API로 처리할 수 없는 작업을 AI 어시스턴트(Claude, Codex 등)를 통해 자동화하여 사용자가 직접 클릭하는 시간을 절약해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/openowl\n🌐 서비스 링크: https://www.producthunt.com/r/HXRQVLQJUQMIOU\n\n📦 5. Letterbox\n⭐ Votes: 153\n📝 요약: 텍스트로 이루어진 특별한 편지를 만들어 보세요. 폰트와 색상을 선택하여 개성 넘치는 편지를 디자인할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/letterbox-3\n🌐 서비스 링크: https://www.producthunt.com/r/4AOB3JS7CYQNL2\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Moonshot ",
-      "url": "https://www.producthunt.com/products/moonshot-13",
-      "service_url": "https://www.producthunt.com/r/GDTDNLE4GZ3EBU",
-      "website": "https://www.producthunt.com/r/GDTDNLE4GZ3EBU",
-      "votes": 309,
-      "tagline": "Track the Artemis II mission from your Mac",
-      "summary": "Moonshot은 NASA의 아르테미스 II 미션을 실시간으로 추적하여, Mac 메뉴 막대에서 간편하게 미션 진행 상황, 주요 이벤트 카운트다운, 우주 비행사 정보 등을 확인할 수 있게 해주는 앱입니다.",
+      "name": "NovaVoice",
+      "url": "https://www.producthunt.com/products/novavoice",
+      "service_url": "https://www.producthunt.com/r/K7EU2IVQNJ6SLT",
+      "website": "https://www.producthunt.com/r/K7EU2IVQNJ6SLT",
+      "votes": 417,
+      "tagline": "Smart dictation, AI assistant, + app control via voice",
+      "summary": "NovaVoice는 음성으로 200+ wpm 속도로 텍스트를 입력하고, AI 어시스턴트 기능과 앱 제어까지 가능한 음성 OS입니다.",
       "key_points": [
-        "macOS 메뉴 막대 앱으로 간편하게 사용",
-        "NASA 아르테미스 II 미션 실시간 추적",
-        "주요 이벤트 카운트다운 및 미션 정보 제공"
+        "음성으로 빠른 텍스트 입력 (200+ wpm)",
+        "AI 어시스턴트를 통한 컨텍스트 기반 정보 제공",
+        "음성 명령으로 앱 전환 없이 작업 실행"
       ],
       "tags": [
-        "macOS",
-        "우주",
-        "NASA",
-        "미션 추적",
-        "실시간 정보",
+        "음성인식",
+        "AI",
+        "생산성",
+        "자동화",
         "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "우주 탐사에 관심 있는 사용자에게 실시간 미션 정보를 편리하게 제공하여 몰입감을 높여주고, NASA의 공개 데이터를 활용하여 신뢰성 있는 정보를 얻을 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "타이핑, 앱 전환, 포맷팅에 소요되는 시간을 줄여 생산성을 극대화하고, 음성만으로 컴퓨터를 제어하여 작업 효율성을 높일 수 있습니다.",
       "recommended_actions": [
-        "메뉴 막대에서 실시간 미션 진행 상황 확인",
-        "주요 이벤트 알림 설정",
-        "우주 비행사 정보 및 미션 타임라인 확인"
+        "핫키를 설정하고 음성으로 질문해보기",
+        "음성 명령으로 앱 실행해보기",
+        "연락처, 주소, 링크 등을 등록하고 음성으로 사용해보기"
       ],
       "risks_and_limits": [
-        "NASA의 데이터 업데이트에 따라 정보 정확도가 달라질 수 있음",
-        "macOS 환경에서만 사용 가능"
+        "정확한 음성 인식을 위해 조용한 환경에서 사용 권장",
+        "초기 설정 및 개인화 과정 필요"
       ],
-      "uncertainty_note": "NASA 데이터 업데이트 빈도 및 정확도에 대한 추가 확인이 필요합니다.",
+      "uncertainty_note": "AI 어시스턴트의 답변 정확도 및 지원 언어에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Moonshot_.jpg",
+      "local_image_path": "images/ph_2026-04-07_NovaVoice.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Moonshot__media_0.jpg",
-        "images/ph_2026-04-06_Moonshot__media_1.jpg",
-        "images/ph_2026-04-06_Moonshot__media_2.jpg"
+        "images/ph_2026-04-07_NovaVoice_media_0.jpg",
+        "images/ph_2026-04-07_NovaVoice_media_1.jpg",
+        "images/ph_2026-04-07_NovaVoice_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 2,
-      "name": "PixVerse V6",
-      "url": "https://www.producthunt.com/products/pixverse",
-      "service_url": "https://www.producthunt.com/r/IQKRNCKHESYQHL",
-      "website": "https://www.producthunt.com/r/IQKRNCKHESYQHL",
-      "votes": 245,
-      "tagline": "The AI video model that actually feels alive.",
-      "summary": "PixVerse V6는 생생한 AI 비디오 모델로, 현실적인 텍스처, 자연스러운 물리 효과, 영화 같은 색감을 제공하며, 복잡한 장면과 액션, 변환, 총알 시간 효과를 완벽한 오디오 싱크와 함께 높은 성공률로 구현합니다.",
+      "name": "Lessie AI",
+      "url": "https://www.producthunt.com/products/lessie-ai-2",
+      "service_url": "https://www.producthunt.com/r/5AFCHL2DEHSNUR",
+      "website": "https://www.producthunt.com/r/5AFCHL2DEHSNUR",
+      "votes": 276,
+      "tagline": "Search, Reach and Connect - Find the perfect fit, 10x faster",
+      "summary": "Lessie AI는 AI 에이전트를 통해 필터나 키워드 없이도 원하는 이상적인 대상을 찾고 연결하여 개인화된 아웃리치 및 후속 조치를 자동화합니다.",
       "key_points": [
-        "현실적인 AI 비디오 생성",
-        "복잡한 장면 처리 능력 향상",
-        "팀 협업 및 광고 제작 기능 추가"
+        "AI 기반 타겟 검색 및 연결",
+        "개인화된 아웃리치 자동화",
+        "웹 전체에서 고품질 매칭 발견"
       ],
       "tags": [
-        "AI 비디오",
-        "비디오 생성",
-        "콘텐츠 제작",
-        "광고",
-        "AI Tool",
-        "Video"
+        "AI",
+        "자동화",
+        "영업",
+        "리드 생성",
+        "아웃리치",
+        "Agent",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "PixVerse V6를 통해 스튜디오는 공유 크레딧으로 협업하고, 사용자는 간단한 사진을 세련된 비디오 광고로 즉시 전환할 수 있어 효율성을 높일 수 있습니다.",
+      "practical_relevance": "필터나 키워드 검색 없이 원하는 대상을 설명하는 것만으로도 Lessie AI가 알아서 찾아주고 연결해주어 시간을 절약하고 효율성을 높여줍니다. 특히 개인화된 아웃리치 자동화 기능은 잠재 고객과의 관계 형성에 큰 도움이 됩니다.",
       "recommended_actions": [
-        "새로운 팀 플랜 사용해보기",
-        "미니 앱으로 사진을 비디오 광고로 변환해보기",
-        "액션 장면이나 변환 효과가 들어간 비디오 제작해보기"
+        "타겟 대상 설명으로 검색 시작하기",
+        "자동화된 아웃리치 설정하기",
+        "발견된 매칭의 품질 평가하기"
       ],
       "risks_and_limits": [
-        "AI 생성 비디오의 현실감은 주관적일 수 있음",
-        "복잡한 장면의 성공률은 사용 환경에 따라 달라질 수 있음"
+        "AI가 제안하는 매칭의 정확성 검토 필요",
+        "자동화된 아웃리치의 개인화 수준 설정 중요"
       ],
-      "uncertainty_note": "PixVerse V6의 실제 사용 후기와 다양한 환경에서의 성능 테스트 결과에 대한 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "Lessie AI의 검색 정확도 및 자동화 기능의 효과에 대한 사용자 후기 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_PixVerse_V6.jpg",
+      "local_image_path": "images/ph_2026-04-07_Lessie_AI.jpg",
       "local_media": [
-        "images/ph_2026-04-06_PixVerse_V6_media_0.jpg",
-        "images/ph_2026-04-06_PixVerse_V6_media_1.jpg",
-        "images/ph_2026-04-06_PixVerse_V6_media_2.jpg"
+        "images/ph_2026-04-07_Lessie_AI_media_0.jpg",
+        "images/ph_2026-04-07_Lessie_AI_media_1.jpg",
+        "images/ph_2026-04-07_Lessie_AI_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/51bd28cd-1b76-4b3f-9616-8d6a1a14affa.jpeg?auto=format"
+        "https://ph-files.imgix.net/7ec009d8-9bf7-4c50-884a-f56fc6f3aecb.jpeg?auto=format"
       ]
     },
     {
       "rank": 3,
-      "name": "AgentPulse by Rectify",
-      "url": "https://www.producthunt.com/products/rectify",
-      "service_url": "https://www.producthunt.com/r/AA2PMVQIUHDCHQ",
-      "website": "https://www.producthunt.com/r/AA2PMVQIUHDCHQ",
-      "votes": 190,
-      "tagline": "Everything in OpenClaw's terminal, you can now do visually",
-      "summary": "AgentPulse는 OpenClaw 터미널에서 수행하던 모든 작업을 시각적으로 관리할 수 있게 해주는 명령 센터입니다. SSH나 JSON 설정 없이 팀 협업을 지원합니다.",
+      "name": "SuperShrimp",
+      "url": "https://www.producthunt.com/products/supershrimp",
+      "service_url": "https://www.producthunt.com/r/QYI2BQLZLAAHS4",
+      "website": "https://www.producthunt.com/r/QYI2BQLZLAAHS4",
+      "votes": 235,
+      "tagline": "Fix your terrible posture",
+      "summary": "SuperShrimp는 웹캠을 통해 실시간으로 자세를 분석하고 교정하여 사용자의 건강한 작업 습관을 돕습니다.",
       "key_points": [
-        "OpenClaw 에이전트 모니터링, 세션 관리, cron 작업 실행 등을 시각적으로 수행 가능",
-        "SSH 접속이나 JSON 설정 없이 사용 가능",
-        "역할 기반 접근 권한 설정으로 팀 협업 효율 증대"
+        "웹캠 기반 실시간 자세 분석",
+        "자세 점수, 알림, 분석 제공",
+        "구부정한 자세 교정"
       ],
       "tags": [
-        "DevTool",
-        "Automation",
-        "AI",
-        "Monitoring",
-        "Team Collaboration",
-        "Agent",
-        "AI Tool"
+        "자세 교정",
+        "웹캠",
+        "건강",
+        "생산성",
+        "분석",
+        "Analytics"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "터미널 명령에 익숙하지 않은 사용자도 OpenClaw를 쉽게 사용하고 관리할 수 있으며, 팀원 간 협업이 더욱 효율적으로 이루어집니다.",
+      "practical_relevance": "업무 중 자세가 나빠지는 것을 실시간으로 감지하고 교정하여 장시간 작업으로 인한 건강 문제를 예방할 수 있습니다.",
       "recommended_actions": [
-        "에이전트 상태 시각적으로 모니터링",
-        "역할 기반 접근 권한 설정하여 팀원 초대",
-        "Quanta AI 에이전트와 대화하며 시스템 이해도 향상"
+        "웹캠 설정 및 자세 분석 시작",
+        "자세 점수 확인 및 개선",
+        "알림 설정 및 자세 교정"
       ],
       "risks_and_limits": [
-        "OpenClaw와의 호환성 확인 필요",
-        "Quanta AI 에이전트의 답변 정확도 검증 필요"
+        "웹캠 성능에 따라 정확도 차이 발생 가능",
+        "개인 정보 보호 정책 확인 필요"
       ],
-      "uncertainty_note": "AgentPulse가 OpenClaw의 모든 기능을 100% 커버하는지 확인이 필요합니다.",
+      "uncertainty_note": "다양한 작업 환경 및 사용자 체형에 따른 자세 분석 정확도에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_AgentPulse_by_Rectify.jpg",
+      "local_image_path": "images/ph_2026-04-07_SuperShrimp.jpg",
       "local_media": [
-        "images/ph_2026-04-06_AgentPulse_by_Rectify_media_0.jpg",
-        "images/ph_2026-04-06_AgentPulse_by_Rectify_media_1.jpg",
-        "images/ph_2026-04-06_AgentPulse_by_Rectify_media_2.jpg"
+        "images/ph_2026-04-07_SuperShrimp_media_0.jpg",
+        "images/ph_2026-04-07_SuperShrimp_media_1.jpg",
+        "images/ph_2026-04-07_SuperShrimp_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/db19fe6e-d1f1-4937-a922-9fe14dc1d787.jpeg?auto=format"
+        "https://ph-files.imgix.net/226a7c2f-f426-49c2-be57-5a942c87ca07.jpeg?auto=format"
       ]
     },
     {
       "rank": 4,
-      "name": "KREV",
-      "url": "https://www.producthunt.com/products/krev",
-      "service_url": "https://www.producthunt.com/r/FQ7RRJ6JPK6TO2",
-      "website": "https://www.producthunt.com/r/FQ7RRJ6JPK6TO2",
-      "votes": 179,
-      "tagline": "AI creative agents for ecommerce brands",
-      "summary": "KREV는 이커머스 브랜드가 제품 이미지 하나로 광고용 사진, 비디오, 런칭 준비된 창작물을 만들 수 있게 돕는 AI 에이전트입니다.",
+      "name": "OpenOwl",
+      "url": "https://www.producthunt.com/products/openowl",
+      "service_url": "https://www.producthunt.com/r/HXRQVLQJUQMIOU",
+      "website": "https://www.producthunt.com/r/HXRQVLQJUQMIOU",
+      "votes": 200,
+      "tagline": "Automate what APIs can't in one prompt done locally",
+      "summary": "OpenOwl은 macOS 데스크탑 자동화 에이전트로, API로 처리할 수 없는 작업을 AI 어시스턴트(Claude, Codex 등)를 통해 자동화하여 사용자가 직접 클릭하는 시간을 절약해줍니다.",
       "key_points": [
-        "단일 제품 이미지를 다양한 광고 소재로 자동 변환",
-        "실제 광고 데이터와 브랜드 데이터를 기반으로 최적화된 결과물 생성",
-        "의도적이고 브랜드에 맞는 고품질 콘텐츠 제작"
+        "API로 자동화하기 어려운 데스크탑 앱 및 브라우저 작업을 자동화",
+        "AI 어시스턴트(Claude, Codex)를 활용하여 화면 인식, 클릭, 입력, 탐색 기능 제공",
+        "LinkedIn prospecting, Shopify 관리, CRM 데이터 입력 등 다양한 작업 자동화 가능"
       ],
       "tags": [
+        "Automation",
         "AI",
-        "광고",
-        "이커머스",
-        "자동화",
-        "콘텐츠 생성",
+        "Productivity",
+        "DesktopApp",
         "Agent",
         "AI Tool",
-        "Video",
-        "Vision"
+        "Prompting",
+        "DevTool",
+        "API",
+        "CRM"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "광고 소재 제작에 드는 시간과 비용을 절감하고, 데이터 기반으로 성과를 높일 수 있는 광고를 제작할 수 있습니다.",
+      "practical_relevance": "OpenOwl을 사용하면 반복적인 데스크탑 작업을 자동화하여 시간을 절약하고, 사용자는 더 중요한 업무에 집중할 수 있습니다. 특히 API 지원이 미흡한 레거시 시스템이나 특정 앱 환경에서 유용합니다.",
       "recommended_actions": [
-        "제품 이미지 업로드 후 광고 소재 자동 생성",
-        "생성된 광고 소재의 브랜드 일관성 확인",
-        "다양한 광고 플랫폼에 최적화된 소재 다운로드"
+        "LinkedIn prospecting 자동화 설정",
+        "Shopify 관리 작업 자동화 설정",
+        "레거시 CRM 데이터 입력 자동화 설정"
       ],
       "risks_and_limits": [
-        "AI가 생성한 결과물이 브랜드 이미지와 완전히 부합하는지 검토 필요",
-        "데이터 기반 최적화가 모든 경우에 효과적인지 확인 필요"
+        "macOS 환경에서만 사용 가능",
+        "AI 어시스턴트의 성능에 따라 자동화 결과가 달라질 수 있음"
       ],
-      "uncertainty_note": "KREV가 제공하는 광고 성과 예측의 정확도에 대한 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "OpenOwl이 지원하는 AI 어시스턴트의 종류와 호환성, 그리고 자동화 성공률에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_KREV.jpg",
+      "local_image_path": "images/ph_2026-04-07_OpenOwl.jpg",
       "local_media": [
-        "images/ph_2026-04-06_KREV_media_0.jpg",
-        "images/ph_2026-04-06_KREV_media_1.jpg",
-        "images/ph_2026-04-06_KREV_media_2.jpg"
+        "images/ph_2026-04-07_OpenOwl_media_0.jpg",
+        "images/ph_2026-04-07_OpenOwl_media_1.jpg",
+        "images/ph_2026-04-07_OpenOwl_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/8419494f-ec0f-4f68-a68d-087de0b00d1f.jpeg?auto=format"
+        "https://ph-files.imgix.net/72dd5b55-e548-4448-b4ff-c89b71efd937.jpeg?auto=format"
       ]
     },
     {
       "rank": 5,
-      "name": "Predflow AI",
-      "url": "https://www.producthunt.com/products/predflow-2",
-      "service_url": "https://www.producthunt.com/r/4ZCK2KRQ763X36",
-      "website": "https://www.producthunt.com/r/4ZCK2KRQ763X36",
-      "votes": 158,
-      "tagline": "Your AI agent for ad performance",
-      "summary": "Predflow AI는 광고 성과를 분석하고 개선 방안을 제시하는 AI 에이전트로, Meta, Google, Shopify 계정을 연동하여 광고 효율을 높일 수 있습니다.",
+      "name": "Letterbox",
+      "url": "https://www.producthunt.com/products/letterbox-3",
+      "service_url": "https://www.producthunt.com/r/4AOB3JS7CYQNL2",
+      "website": "https://www.producthunt.com/r/4AOB3JS7CYQNL2",
+      "votes": 153,
+      "tagline": "Letters made of letters",
+      "summary": "텍스트로 이루어진 특별한 편지를 만들어 보세요. 폰트와 색상을 선택하여 개성 넘치는 편지를 디자인할 수 있습니다.",
       "key_points": [
-        "광고 성과에 대한 상세 분석 제공",
-        "문제 원인 파악 및 해결책 제시",
-        "크리에이티브, 예산, 기여도 분석을 통한 액션 플랜 제공"
+        "텍스트 기반 편지 디자인",
+        "다양한 폰트 선택 가능",
+        "색상 커스터마이징 지원"
       ],
       "tags": [
-        "광고",
+        "디자인",
+        "텍스트",
+        "커스터마이징"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "단순한 텍스트를 넘어 시각적으로 아름다운 편지를 만들 수 있어, 특별한 메시지를 전달하고 싶을 때 유용합니다.",
+      "recommended_actions": [
+        "다양한 폰트 스타일을 적용해 보세요",
+        "원하는 색상 조합으로 편지를 꾸며보세요",
+        "특별한 문구를 넣어 독창적인 편지를 만들어 보세요"
+      ],
+      "risks_and_limits": [
+        "텍스트 기반 디자인이므로 긴 문장보다는 짧고 강렬한 메시지에 적합합니다.",
+        "폰트 및 색상 선택에 따라 가독성이 떨어질 수 있습니다."
+      ],
+      "uncertainty_note": "실제 편지 제작 및 공유 방식에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_Letterbox.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Letterbox_media_0.jpg",
+        "images/ph_2026-04-07_Letterbox_media_1.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/b77dc503-2981-4b7a-b5e9-7f4cdadc83ab.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Google AI Edge Eloquent",
+      "url": "https://www.producthunt.com/products/google",
+      "service_url": "https://www.producthunt.com/r/U7ZIXK46VH2WQR",
+      "website": "https://www.producthunt.com/r/U7ZIXK46VH2WQR",
+      "votes": 144,
+      "tagline": "Google's offline-first AI dictation, powered by Gemma",
+      "summary": "Google AI Edge Eloquent는 Gemma 모델을 기반으로 오프라인에서도 사용 가능한 무료 받아쓰기 앱으로, 불필요한 단어와 실수를 자동으로 제거하여 더욱 깔끔한 텍스트를 얻을 수 있습니다.",
+      "key_points": [
+        "오프라인 우선: 인터넷 연결 없이 사용 가능",
+        "Gemma 모델 기반: 온디바이스 AI 처리로 개인 정보 보호",
+        "자동 정리: 불필요한 단어 및 실수 자동 제거"
+      ],
+      "tags": [
         "AI",
-        "자동화",
-        "분석",
-        "마케팅",
-        "Agent",
+        "생산성",
+        "받아쓰기",
+        "오프라인",
+        "개인정보보호",
         "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "광고 성과를 실질적으로 개선할 수 있는 맞춤형 추천을 빠르게 받을 수 있어, 마케터의 의사 결정을 돕고 효율적인 광고 운영을 가능하게 합니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "인터넷 연결 없이도 개인 정보 걱정 없이 고품질의 받아쓰기 기능을 사용할 수 있으며, 특히 현장 업무나 보안이 중요한 환경에서 유용합니다.",
       "recommended_actions": [
-        "Meta, Google, Shopify 계정 연동",
-        "AI 분석 기반의 크리에이티브 개선 제안 확인",
-        "예산 최적화 추천 적용"
+        "오프라인 모드에서 받아쓰기 성능 테스트",
+        "Gemini 클라우드 모드와 비교하여 정리 성능 확인",
+        "개인 정보 보호 설정 검토"
       ],
       "risks_and_limits": [
-        "정확한 분석을 위해 충분한 광고 데이터 확보 필요",
-        "AI 추천은 참고 자료이며, 최종 결정은 사용자가 판단"
+        "온디바이스 모델 성능은 기기 사양에 따라 다를 수 있음",
+        "Gemini 클라우드 모드 사용 시 개인 정보 처리 방식 확인 필요"
       ],
-      "uncertainty_note": "제공되는 추천의 정확도 및 실제 광고 성과에 미치는 영향은 추가적인 사용 데이터 확보 후 검증이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Predflow_AI.jpg",
+      "uncertainty_note": "Gemma 모델의 한국어 지원 수준 및 업데이트 계획에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 2,
+      "local_image_path": "images/ph_2026-04-07_Google_AI_Edge_Eloquent.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Predflow_AI_media_0.jpg",
-        "images/ph_2026-04-06_Predflow_AI_media_1.jpg",
-        "images/ph_2026-04-06_Predflow_AI_media_2.jpg"
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_0.jpg",
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_1.jpg",
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_2.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 6,
-      "name": "Walkie",
-      "url": "https://www.producthunt.com/products/b150",
-      "service_url": "https://www.producthunt.com/r/7T4OOSQJ4C3L3D",
-      "website": "https://www.producthunt.com/r/7T4OOSQJ4C3L3D",
-      "votes": 156,
-      "tagline": "Free local speech-to-text tool",
-      "summary": "Walkie는 macOS 및 Windows에서 사용할 수 있는 무료 음성-텍스트 변환 도구로, 클라우드 기반의 빠른 모드와 완전한 로컬 모드를 제공하여 사용자의 필요에 따라 선택할 수 있습니다.",
-      "key_points": [
-        "빠른 모드: 클라우드 기반으로 빠른 속도와 포맷팅 제공",
-        "로컬 모드: 완전한 온-디바이스 딕테이션으로 개인 정보 보호 강화",
-        "macOS 및 Windows 지원"
-      ],
-      "tags": [
-        "음성인식",
-        "생산성",
-        "무료",
-        "텍스트 변환",
-        "AI Tool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "Walkie를 사용하면 음성을 텍스트로 빠르게 변환하여 문서 작성 시간을 단축하고, 특히 로컬 모드를 통해 민감한 정보도 안전하게 딕테이션할 수 있습니다.",
-      "recommended_actions": [
-        "빠른 모드로 긴 문장 딕테이션해보기",
-        "로컬 모드로 개인적인 메모 작성해보기",
-        "두 모드의 속도와 정확도 비교해보기"
-      ],
-      "risks_and_limits": [
-        "클라우드 기반 빠른 모드는 네트워크 연결 필요",
-        "로컬 모드는 디바이스 성능에 따라 속도 차이 발생 가능"
-      ],
-      "uncertainty_note": "클라우드 기반 빠른 모드의 정확도와 로컬 모드의 시스템 자원 사용량에 대한 사용자 피드백을 추가적으로 확인해야 합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Walkie.jpg",
-      "local_media": [
-        "images/ph_2026-04-06_Walkie_media_1.jpg",
-        "images/ph_2026-04-06_Walkie_media_2.jpg",
-        "images/ph_2026-04-06_Walkie_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/9340d674-983e-4f68-b740-84a347088112.jpeg?auto=format"
-      ]
-    },
-    {
       "rank": 7,
-      "name": "Metoro",
-      "url": "https://www.producthunt.com/products/metoro",
-      "service_url": "https://www.producthunt.com/r/NAEAJGSCJBQ6OG",
-      "website": "https://www.producthunt.com/r/NAEAJGSCJBQ6OG",
-      "votes": 146,
-      "tagline": "AI SRE that detects, root causes & auto-fixes K8s incidents",
-      "summary": "Metoro는 Kubernetes 환경에서 발생하는 장애를 실시간으로 감지, 근본 원인을 분석하고 자동으로 수정하는 AI SRE 도구입니다. 별도의 코드 변경 없이 5분 안에 설치하여 사용할 수 있습니다.",
+      "name": "Caret",
+      "url": "https://www.producthunt.com/products/caret-5",
+      "service_url": "https://www.producthunt.com/r/XM2TKHY6SWITKB",
+      "website": "https://www.producthunt.com/r/XM2TKHY6SWITKB",
+      "votes": 143,
+      "tagline": "Press Tab for AI anywhere you type on Mac",
+      "summary": "Caret은 Mac의 모든 앱에서 사용자의 스타일을 학습하여 문장 자동 완성 기능을 제공, Tab 키 하나로 개인화된 AI 제안을 받을 수 있습니다.",
       "key_points": [
-        "Kubernetes 환경의 장애 자동 감지 및 해결",
-        "eBPF 기반의 telemetry로 코드 변경 불필요",
-        "5분 내 간편한 설치 (Helm)"
+        "Mac의 모든 앱에서 사용 가능",
+        "개인 스타일을 학습하여 자연스러운 자동 완성 제공",
+        "Tab 키 하나로 간편하게 사용"
       ],
       "tags": [
-        "DevTool",
-        "Kubernetes",
-        "SRE",
-        "Automation",
         "AI",
+        "자동완성",
+        "생산성",
+        "Mac",
+        "글쓰기",
         "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "Kubernetes 운영 환경에서 발생하는 장애를 자동으로 해결하여 개발 및 운영 효율성을 높여줍니다. 장애 대응 시간을 단축하고, 근본 원인 분석에 드는 노력을 줄여줍니다.",
+      "practical_relevance": "Caret은 사용자의 고유한 스타일을 학습하여 자동 완성 기능을 제공하므로, Mac을 사용하는 동안 생산성을 높이고 더 자연스러운 글쓰기를 할 수 있도록 도와줍니다.",
       "recommended_actions": [
-        "Helm을 사용하여 Metoro 설치",
-        "Kubernetes 환경에 Metoro 연동",
-        "자동으로 생성되는 pull request 확인 및 적용"
+        "Caret 설치 후 Mac의 다양한 앱에서 사용해보기",
+        "자동 완성 제안이 사용자의 스타일에 맞게 조정되는지 확인하기",
+        "Tab 키를 사용하여 자동 완성 기능을 활성화하고 생산성 향상 경험하기"
       ],
       "risks_and_limits": [
-        "Metoro가 지원하는 Kubernetes 버전을 확인",
-        "eBPF 기반 telemetry가 시스템에 미치는 영향 검토"
+        "개인 정보 및 데이터 보안 관련 정책 확인 필요",
+        "자동 완성 정확도는 사용자 데이터 학습량에 따라 달라질 수 있음"
       ],
-      "uncertainty_note": "Metoro의 AI 기반 장애 해결 정확도 및 지원 범위에 대한 추가 정보 확인이 필요합니다.",
+      "uncertainty_note": "Caret의 개인 정보 처리 방식 및 데이터 사용 정책에 대한 추가 정보 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Metoro.jpg",
+      "local_image_path": "images/ph_2026-04-07_Caret.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Metoro_media_0.jpg",
-        "images/ph_2026-04-06_Metoro_media_1.jpg",
-        "images/ph_2026-04-06_Metoro_media_2.jpg"
+        "images/ph_2026-04-07_Caret_media_0.jpg",
+        "images/ph_2026-04-07_Caret_media_1.jpg",
+        "images/ph_2026-04-07_Caret_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/50880912-71a7-4925-b3e4-f4179dfd19af.jpeg?auto=format"
+        "https://ph-files.imgix.net/7513450a-acbe-425b-a2b4-b9e3a34dc957.jpeg?auto=format"
       ]
     },
     {
       "rank": 8,
-      "name": "Ogoron",
-      "url": "https://www.producthunt.com/products/ogoron",
-      "service_url": "https://www.producthunt.com/r/QSRVPZX57V7J67",
-      "website": "https://www.producthunt.com/r/QSRVPZX57V7J67",
-      "votes": 129,
-      "tagline": "Your best QA team — 9x faster, 20х cheaper",
-      "summary": "Ogoron은 QA 프로세스를 자동화하여 더 빠르고 저렴하게 제품을 릴리스할 수 있도록 도와줍니다. 시스템 분석가, 테스트 분석가, QA 엔지니어를 대체하여 버그를 줄이고 안정적인 릴리스를 가능하게 합니다.",
+      "name": "Bibby AI ",
+      "url": "https://www.producthunt.com/products/bibby-ai",
+      "service_url": "https://www.producthunt.com/r/D62M64Q67NPDCH",
+      "website": "https://www.producthunt.com/r/D62M64Q67NPDCH",
+      "votes": 133,
+      "tagline": "The AI co-author for research papers",
+      "summary": "Bibby AI는 연구자들이 논문 작성에 쏟는 시간을 줄여 연구 자체에 더 집중할 수 있도록 돕는 AI 공동 저술 도구입니다.",
       "key_points": [
-        "QA 프로세스 자동화",
-        "테스트 자동 생성 및 유지 관리",
-        "지속적인 유효성 검사"
+        "2억 건 이상의 인용 데이터와 800개 이상의 저널 템플릿 제공",
+        "논문 초안 작성, 수정 및 인용 자료 검색 기능 제공",
+        "리뷰어들이 발견하기 전에 오류를 찾아 수정하도록 지원"
       ],
       "tags": [
-        "QA",
-        "Automation",
-        "Testing",
-        "DevTool",
+        "AI",
+        "연구",
+        "논문",
+        "자동화",
+        "생산성",
         "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "제품 출시 속도를 높이면서도 품질을 유지하고, 수동 QA 작업에 드는 시간과 비용을 절약할 수 있습니다.",
+      "practical_relevance": "Bibby AI를 사용하면 논문 작성 시간을 단축하고, 연구의 질을 향상시키며, 리뷰 과정에서 발생할 수 있는 문제점을 사전에 예방할 수 있습니다.",
       "recommended_actions": [
-        "제품 이해도 테스트",
-        "자동 테스트 생성 기능 사용",
-        "변경 사항 유효성 검사"
+        "관심 분야의 논문 초안 작성 기능 사용해보기",
+        "자동 인용 기능 사용해보기",
+        "저널 템플릿을 활용하여 논문 형식 맞추기"
       ],
       "risks_and_limits": [
-        "자동화된 테스트의 정확성 검증 필요",
-        "특정 에지 케이스에 대한 테스트 커버리지 확인 필요"
+        "AI가 생성한 콘텐츠의 정확성을 반드시 검증해야 함",
+        "특정 분야에 대한 전문성이 부족할 수 있으므로, 결과물을 맹신하지 않아야 함"
       ],
-      "uncertainty_note": "Ogoron이 특정 제품의 복잡성을 얼마나 잘 처리하는지 추가적인 정보가 필요합니다.",
+      "uncertainty_note": "Bibby AI의 성능이 특정 연구 분야나 저널 템플릿에 따라 어떻게 달라지는지 추가적인 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Ogoron.jpg",
+      "local_image_path": "images/ph_2026-04-07_Bibby_AI_.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Ogoron_media_0.jpg",
-        "images/ph_2026-04-06_Ogoron_media_1.jpg",
-        "images/ph_2026-04-06_Ogoron_media_2.jpg"
+        "images/ph_2026-04-07_Bibby_AI__media_0.jpg",
+        "images/ph_2026-04-07_Bibby_AI__media_1.jpg",
+        "images/ph_2026-04-07_Bibby_AI__media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/4701f09a-5c95-4704-826a-45383baa703a.jpeg?auto=format"
+        "https://ph-files.imgix.net/274a47e0-e037-42aa-854b-84f750b29b24.jpeg?auto=format"
       ]
     },
     {
       "rank": 9,
-      "name": "Mailero",
-      "url": "https://www.producthunt.com/products/mailero",
-      "service_url": "https://www.producthunt.com/r/YK4QWZXVB3JI4X",
-      "website": "https://www.producthunt.com/r/YK4QWZXVB3JI4X",
-      "votes": 124,
-      "tagline": "Turn support emails into tickets ",
-      "summary": "Mailero는 복잡한 헬프데스크 시스템 없이 이메일만으로 고객 지원 티켓을 관리할 수 있게 해주는 솔루션입니다.",
+      "name": "ChatGPT Ads by Gauge",
+      "url": "https://www.producthunt.com/products/gauge",
+      "service_url": "https://www.producthunt.com/r/CLXZA3J5IHRITI",
+      "website": "https://www.producthunt.com/r/CLXZA3J5IHRITI",
+      "votes": 132,
+      "tagline": "The intelligence layer for ChatGPT Ads",
+      "summary": "Gauge는 ChatGPT 광고에 대한 경쟁사 분석 및 캠페인 관리를 위한 통합 솔루션을 제공하여, 광고 효율을 극대화합니다.",
       "key_points": [
-        "이메일 전달만으로 티켓 시스템 구축 가능",
-        "복잡한 설정이나 워크플로우 불필요",
-        "EU 호스팅 및 GDPR 준수"
+        "경쟁사 ChatGPT 광고 카피 및 전략 분석",
+        "ChatGPT 광고 캠페인 통합 관리",
+        "캠페인 성과 지표(CTR, CPC) 자동 계산 및 시각화"
       ],
       "tags": [
-        "고객지원",
-        "이메일",
-        "티켓관리",
-        "헬프데스크",
-        "Automation",
+        "광고",
+        "ChatGPT",
+        "경쟁 분석",
+        "자동화",
+        "분석",
         "AI Tool",
-        "Email"
+        "Chat",
+        "Prompting",
+        "API"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "혼자 서비스를 운영하는 창업자가 빠르고 간단하게 고객 지원을 제공할 수 있도록 도와줍니다. 별도의 헬프데스크 시스템 구축 없이 기존 이메일을 활용하여 효율적인 고객 응대가 가능합니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "경쟁사 광고 분석을 통해 더 효과적인 광고 전략을 수립하고, 캠페인 관리 자동화를 통해 시간과 노력을 절약할 수 있습니다.",
       "recommended_actions": [
-        "고객 지원 이메일 주소를 Mailero로 전달하여 티켓 생성 테스트",
-        "답변 템플릿을 만들어 응답 시간 단축",
-        "티켓 관리 기능을 활용하여 고객 문의 처리 효율성 향상"
+        "경쟁사 광고 분석을 위한 프롬프트 설정",
+        "ChatGPT API 키 연동을 통한 캠페인 데이터 통합",
+        "캠페인별 성과 지표 확인 및 최적화"
       ],
       "risks_and_limits": [
-        "기존 헬프데스크 시스템의 고급 기능 (예: 자동화, 분석) 부족",
-        "대규모 고객 지원에는 적합하지 않을 수 있음"
+        "ChatGPT 광고 플랫폼 API 변경에 따른 기능 제한 가능성",
+        "정확한 경쟁사 데이터 확보를 위한 프롬프트 최적화 필요"
       ],
-      "uncertainty_note": "Mailero의 티켓 관리 기능이 실제 고객 지원 워크플로우에 얼마나 잘 맞는지 확인이 필요합니다.",
+      "uncertainty_note": "Gauge의 데이터 정확도 및 분석 범위에 대한 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Mailero.jpg",
+      "local_image_path": "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Mailero_media_0.jpg",
-        "images/ph_2026-04-06_Mailero_media_1.jpg",
-        "images/ph_2026-04-06_Mailero_media_2.jpg"
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_0.jpg",
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_1.jpg",
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/eb598bd3-804c-42e0-8d20-080faf5356ac.jpeg?auto=format"
+      ]
     },
     {
       "rank": 10,
-      "name": "Adapted",
-      "url": "https://www.producthunt.com/products/adapted-health",
-      "service_url": "https://www.producthunt.com/r/R3JEH6WLOZ2DXA",
-      "website": "https://www.producthunt.com/r/R3JEH6WLOZ2DXA",
-      "votes": 106,
-      "tagline": "AI Physical Therapy for Athletes",
-      "summary": "Adapted은 운동선수를 위한 AI 물리 치료사로, 개인 맞춤형 재활 및 부상 예방 프로그램을 제공하여 운동 능력 향상을 돕습니다.",
+      "name": "sync-3",
+      "url": "https://www.producthunt.com/products/sync-9",
+      "service_url": "https://www.producthunt.com/r/JVSYAGLNKYDBXU",
+      "website": "https://www.producthunt.com/r/JVSYAGLNKYDBXU",
+      "votes": 112,
+      "tagline": "Studio-grade AI lip sync and visual dubbing",
+      "summary": "sync-3는 160억 개의 파라미터를 가진 AI 립싱크 모델로, 감정까지 이해하며 95개 이상의 언어로 4K 해상도까지 지원하여 영상 더빙의 퀄리티를 높여줍니다.",
       "key_points": [
-        "개인별 부상 이력, 운동 종목, 목표에 맞춰 프로그램 제공",
-        "획일적인 운동이 아닌 개인 맞춤형 운동 제공",
-        "재활 및 부상 예방, 유연성 향상에 도움"
+        "16B 파라미터 AI 모델 사용",
+        "전체 장면을 이해하여 자연스러운 립싱크 생성",
+        "95개 이상 언어 지원 및 4K 해상도 지원"
       ],
       "tags": [
         "AI",
-        "헬스케어",
-        "운동",
-        "재활",
-        "개인화",
+        "립싱크",
+        "더빙",
+        "영상 편집",
+        "Adobe Premiere",
         "AI Tool",
         "API"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "운동선수들이 부상에서 회복하고, 부상을 예방하며, 운동 능력을 향상시키는 데 개인 맞춤형 솔루션을 제공합니다.",
+      "practical_relevance": "기존 모델의 한계를 극복하여 클로즈업, 가려짐, 극단적인 각도, 어두운 조명에서도 감정을 살린 고품질 립싱크 및 더빙이 가능합니다. sync.so, API, Adobe Premiere를 통해 바로 사용할 수 있습니다.",
       "recommended_actions": [
-        "자신의 부상 이력과 운동 목표를 입력하여 맞춤형 프로그램 시작하기",
-        "제공되는 운동 프로그램을 꾸준히 따라하며 몸 상태 변화 관찰하기",
-        "운동 전후 스트레칭 및 유연성 운동 병행하기"
+        "sync.so에서 직접 사용해보기",
+        "API를 통해 기존 워크플로우에 통합해보기",
+        "Adobe Premiere 플러그인 사용해보기"
       ],
       "risks_and_limits": [
-        "AI 기반이므로, 실제 물리 치료사의 진단과 완전히 동일하지 않을 수 있음",
-        "개인의 노력 정도에 따라 효과가 다를 수 있음"
+        "지원하지 않는 특수한 영상 포맷이 있을 수 있음",
+        "API 사용량에 따른 비용 확인 필요"
       ],
-      "uncertainty_note": "AI 물리 치료 프로그램의 장기적인 효과 및 실제 물리 치료와의 비교 연구가 필요합니다.",
+      "uncertainty_note": "실제 사용 환경에서의 립싱크 정확도 및 성능에 대한 추가적인 사용자 리뷰 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-06_Adapted.jpg",
+      "local_image_path": "images/ph_2026-04-07_sync-3.jpg",
       "local_media": [
-        "images/ph_2026-04-06_Adapted_media_0.jpg",
-        "images/ph_2026-04-06_Adapted_media_1.jpg",
-        "images/ph_2026-04-06_Adapted_media_2.jpg"
+        "images/ph_2026-04-07_sync-3_media_0.jpg",
+        "images/ph_2026-04-07_sync-3_media_1.jpg",
+        "images/ph_2026-04-07_sync-3_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/e0b1cb7b-df26-40f2-8c04-0470984231e4.jpeg?auto=format"
+      ]
     }
   ]
 }

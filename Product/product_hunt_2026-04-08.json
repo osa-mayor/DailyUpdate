@@ -1,0 +1,479 @@
+{
+  "source": "product_hunt",
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T04:05:17.628135+09:00",
+  "count": 10,
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. NovaVoice\n⭐ Votes: 417\n📝 요약: NovaVoice는 음성으로 200+ wpm 속도로 텍스트를 입력하고, AI 어시스턴트 기능과 앱 제어까지 가능한 음성 OS입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/novavoice\n🌐 서비스 링크: https://www.producthunt.com/r/K7EU2IVQNJ6SLT\n\n📦 2. Lessie AI\n⭐ Votes: 276\n📝 요약: Lessie AI는 AI 에이전트를 통해 필터나 키워드 없이도 원하는 이상적인 대상을 찾고 연결하여 개인화된 아웃리치 및 후속 조치를 자동화합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/lessie-ai-2\n🌐 서비스 링크: https://www.producthunt.com/r/5AFCHL2DEHSNUR\n\n📦 3. SuperShrimp\n⭐ Votes: 235\n📝 요약: SuperShrimp는 웹캠을 통해 실시간으로 자세를 분석하고 교정하여 사용자의 건강한 작업 습관을 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/supershrimp\n🌐 서비스 링크: https://www.producthunt.com/r/QYI2BQLZLAAHS4\n\n📦 4. OpenOwl\n⭐ Votes: 200\n📝 요약: OpenOwl은 macOS 데스크탑 자동화 에이전트로, API로 처리할 수 없는 작업을 AI 어시스턴트(Claude, Codex 등)를 통해 자동화하여 사용자가 직접 클릭하는 시간을 절약해줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/openowl\n🌐 서비스 링크: https://www.producthunt.com/r/HXRQVLQJUQMIOU\n\n📦 5. Letterbox\n⭐ Votes: 153\n📝 요약: 텍스트로 이루어진 특별한 편지를 만들어 보세요. 폰트와 색상을 선택하여 개성 넘치는 편지를 디자인할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/letterbox-3\n🌐 서비스 링크: https://www.producthunt.com/r/4AOB3JS7CYQNL2\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "items": [
+    {
+      "rank": 1,
+      "name": "NovaVoice",
+      "url": "https://www.producthunt.com/products/novavoice",
+      "service_url": "https://www.producthunt.com/r/K7EU2IVQNJ6SLT",
+      "website": "https://www.producthunt.com/r/K7EU2IVQNJ6SLT",
+      "votes": 417,
+      "tagline": "Smart dictation, AI assistant, + app control via voice",
+      "summary": "NovaVoice는 음성으로 200+ wpm 속도로 텍스트를 입력하고, AI 어시스턴트 기능과 앱 제어까지 가능한 음성 OS입니다.",
+      "key_points": [
+        "음성으로 빠른 텍스트 입력 (200+ wpm)",
+        "AI 어시스턴트를 통한 컨텍스트 기반 정보 제공",
+        "음성 명령으로 앱 전환 없이 작업 실행"
+      ],
+      "tags": [
+        "음성인식",
+        "AI",
+        "생산성",
+        "자동화",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "타이핑, 앱 전환, 포맷팅에 소요되는 시간을 줄여 생산성을 극대화하고, 음성만으로 컴퓨터를 제어하여 작업 효율성을 높일 수 있습니다.",
+      "recommended_actions": [
+        "핫키를 설정하고 음성으로 질문해보기",
+        "음성 명령으로 앱 실행해보기",
+        "연락처, 주소, 링크 등을 등록하고 음성으로 사용해보기"
+      ],
+      "risks_and_limits": [
+        "정확한 음성 인식을 위해 조용한 환경에서 사용 권장",
+        "초기 설정 및 개인화 과정 필요"
+      ],
+      "uncertainty_note": "AI 어시스턴트의 답변 정확도 및 지원 언어에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_NovaVoice.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_NovaVoice_media_0.jpg",
+        "images/ph_2026-04-07_NovaVoice_media_1.jpg",
+        "images/ph_2026-04-07_NovaVoice_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 2,
+      "name": "Lessie AI",
+      "url": "https://www.producthunt.com/products/lessie-ai-2",
+      "service_url": "https://www.producthunt.com/r/5AFCHL2DEHSNUR",
+      "website": "https://www.producthunt.com/r/5AFCHL2DEHSNUR",
+      "votes": 276,
+      "tagline": "Search, Reach and Connect - Find the perfect fit, 10x faster",
+      "summary": "Lessie AI는 AI 에이전트를 통해 필터나 키워드 없이도 원하는 이상적인 대상을 찾고 연결하여 개인화된 아웃리치 및 후속 조치를 자동화합니다.",
+      "key_points": [
+        "AI 기반 타겟 검색 및 연결",
+        "개인화된 아웃리치 자동화",
+        "웹 전체에서 고품질 매칭 발견"
+      ],
+      "tags": [
+        "AI",
+        "자동화",
+        "영업",
+        "리드 생성",
+        "아웃리치",
+        "Agent",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "필터나 키워드 검색 없이 원하는 대상을 설명하는 것만으로도 Lessie AI가 알아서 찾아주고 연결해주어 시간을 절약하고 효율성을 높여줍니다. 특히 개인화된 아웃리치 자동화 기능은 잠재 고객과의 관계 형성에 큰 도움이 됩니다.",
+      "recommended_actions": [
+        "타겟 대상 설명으로 검색 시작하기",
+        "자동화된 아웃리치 설정하기",
+        "발견된 매칭의 품질 평가하기"
+      ],
+      "risks_and_limits": [
+        "AI가 제안하는 매칭의 정확성 검토 필요",
+        "자동화된 아웃리치의 개인화 수준 설정 중요"
+      ],
+      "uncertainty_note": "Lessie AI의 검색 정확도 및 자동화 기능의 효과에 대한 사용자 후기 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_Lessie_AI.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Lessie_AI_media_0.jpg",
+        "images/ph_2026-04-07_Lessie_AI_media_1.jpg",
+        "images/ph_2026-04-07_Lessie_AI_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/7ec009d8-9bf7-4c50-884a-f56fc6f3aecb.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "SuperShrimp",
+      "url": "https://www.producthunt.com/products/supershrimp",
+      "service_url": "https://www.producthunt.com/r/QYI2BQLZLAAHS4",
+      "website": "https://www.producthunt.com/r/QYI2BQLZLAAHS4",
+      "votes": 235,
+      "tagline": "Fix your terrible posture",
+      "summary": "SuperShrimp는 웹캠을 통해 실시간으로 자세를 분석하고 교정하여 사용자의 건강한 작업 습관을 돕습니다.",
+      "key_points": [
+        "웹캠 기반 실시간 자세 분석",
+        "자세 점수, 알림, 분석 제공",
+        "구부정한 자세 교정"
+      ],
+      "tags": [
+        "자세 교정",
+        "웹캠",
+        "건강",
+        "생산성",
+        "분석",
+        "Analytics"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "업무 중 자세가 나빠지는 것을 실시간으로 감지하고 교정하여 장시간 작업으로 인한 건강 문제를 예방할 수 있습니다.",
+      "recommended_actions": [
+        "웹캠 설정 및 자세 분석 시작",
+        "자세 점수 확인 및 개선",
+        "알림 설정 및 자세 교정"
+      ],
+      "risks_and_limits": [
+        "웹캠 성능에 따라 정확도 차이 발생 가능",
+        "개인 정보 보호 정책 확인 필요"
+      ],
+      "uncertainty_note": "다양한 작업 환경 및 사용자 체형에 따른 자세 분석 정확도에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_SuperShrimp.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_SuperShrimp_media_0.jpg",
+        "images/ph_2026-04-07_SuperShrimp_media_1.jpg",
+        "images/ph_2026-04-07_SuperShrimp_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/226a7c2f-f426-49c2-be57-5a942c87ca07.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "OpenOwl",
+      "url": "https://www.producthunt.com/products/openowl",
+      "service_url": "https://www.producthunt.com/r/HXRQVLQJUQMIOU",
+      "website": "https://www.producthunt.com/r/HXRQVLQJUQMIOU",
+      "votes": 200,
+      "tagline": "Automate what APIs can't in one prompt done locally",
+      "summary": "OpenOwl은 macOS 데스크탑 자동화 에이전트로, API로 처리할 수 없는 작업을 AI 어시스턴트(Claude, Codex 등)를 통해 자동화하여 사용자가 직접 클릭하는 시간을 절약해줍니다.",
+      "key_points": [
+        "API로 자동화하기 어려운 데스크탑 앱 및 브라우저 작업을 자동화",
+        "AI 어시스턴트(Claude, Codex)를 활용하여 화면 인식, 클릭, 입력, 탐색 기능 제공",
+        "LinkedIn prospecting, Shopify 관리, CRM 데이터 입력 등 다양한 작업 자동화 가능"
+      ],
+      "tags": [
+        "Automation",
+        "AI",
+        "Productivity",
+        "DesktopApp",
+        "Agent",
+        "AI Tool",
+        "Prompting",
+        "DevTool",
+        "API",
+        "CRM"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "OpenOwl을 사용하면 반복적인 데스크탑 작업을 자동화하여 시간을 절약하고, 사용자는 더 중요한 업무에 집중할 수 있습니다. 특히 API 지원이 미흡한 레거시 시스템이나 특정 앱 환경에서 유용합니다.",
+      "recommended_actions": [
+        "LinkedIn prospecting 자동화 설정",
+        "Shopify 관리 작업 자동화 설정",
+        "레거시 CRM 데이터 입력 자동화 설정"
+      ],
+      "risks_and_limits": [
+        "macOS 환경에서만 사용 가능",
+        "AI 어시스턴트의 성능에 따라 자동화 결과가 달라질 수 있음"
+      ],
+      "uncertainty_note": "OpenOwl이 지원하는 AI 어시스턴트의 종류와 호환성, 그리고 자동화 성공률에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_OpenOwl.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_OpenOwl_media_0.jpg",
+        "images/ph_2026-04-07_OpenOwl_media_1.jpg",
+        "images/ph_2026-04-07_OpenOwl_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/72dd5b55-e548-4448-b4ff-c89b71efd937.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Letterbox",
+      "url": "https://www.producthunt.com/products/letterbox-3",
+      "service_url": "https://www.producthunt.com/r/4AOB3JS7CYQNL2",
+      "website": "https://www.producthunt.com/r/4AOB3JS7CYQNL2",
+      "votes": 153,
+      "tagline": "Letters made of letters",
+      "summary": "텍스트로 이루어진 특별한 편지를 만들어 보세요. 폰트와 색상을 선택하여 개성 넘치는 편지를 디자인할 수 있습니다.",
+      "key_points": [
+        "텍스트 기반 편지 디자인",
+        "다양한 폰트 선택 가능",
+        "색상 커스터마이징 지원"
+      ],
+      "tags": [
+        "디자인",
+        "텍스트",
+        "커스터마이징"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "단순한 텍스트를 넘어 시각적으로 아름다운 편지를 만들 수 있어, 특별한 메시지를 전달하고 싶을 때 유용합니다.",
+      "recommended_actions": [
+        "다양한 폰트 스타일을 적용해 보세요",
+        "원하는 색상 조합으로 편지를 꾸며보세요",
+        "특별한 문구를 넣어 독창적인 편지를 만들어 보세요"
+      ],
+      "risks_and_limits": [
+        "텍스트 기반 디자인이므로 긴 문장보다는 짧고 강렬한 메시지에 적합합니다.",
+        "폰트 및 색상 선택에 따라 가독성이 떨어질 수 있습니다."
+      ],
+      "uncertainty_note": "실제 편지 제작 및 공유 방식에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_Letterbox.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Letterbox_media_0.jpg",
+        "images/ph_2026-04-07_Letterbox_media_1.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/b77dc503-2981-4b7a-b5e9-7f4cdadc83ab.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Google AI Edge Eloquent",
+      "url": "https://www.producthunt.com/products/google",
+      "service_url": "https://www.producthunt.com/r/U7ZIXK46VH2WQR",
+      "website": "https://www.producthunt.com/r/U7ZIXK46VH2WQR",
+      "votes": 144,
+      "tagline": "Google's offline-first AI dictation, powered by Gemma",
+      "summary": "Google AI Edge Eloquent는 Gemma 모델을 기반으로 오프라인에서도 사용 가능한 무료 받아쓰기 앱으로, 불필요한 단어와 실수를 자동으로 제거하여 더욱 깔끔한 텍스트를 얻을 수 있습니다.",
+      "key_points": [
+        "오프라인 우선: 인터넷 연결 없이 사용 가능",
+        "Gemma 모델 기반: 온디바이스 AI 처리로 개인 정보 보호",
+        "자동 정리: 불필요한 단어 및 실수 자동 제거"
+      ],
+      "tags": [
+        "AI",
+        "생산성",
+        "받아쓰기",
+        "오프라인",
+        "개인정보보호",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "하",
+      "practical_relevance": "인터넷 연결 없이도 개인 정보 걱정 없이 고품질의 받아쓰기 기능을 사용할 수 있으며, 특히 현장 업무나 보안이 중요한 환경에서 유용합니다.",
+      "recommended_actions": [
+        "오프라인 모드에서 받아쓰기 성능 테스트",
+        "Gemini 클라우드 모드와 비교하여 정리 성능 확인",
+        "개인 정보 보호 설정 검토"
+      ],
+      "risks_and_limits": [
+        "온디바이스 모델 성능은 기기 사양에 따라 다를 수 있음",
+        "Gemini 클라우드 모드 사용 시 개인 정보 처리 방식 확인 필요"
+      ],
+      "uncertainty_note": "Gemma 모델의 한국어 지원 수준 및 업데이트 계획에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 2,
+      "local_image_path": "images/ph_2026-04-07_Google_AI_Edge_Eloquent.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_0.jpg",
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_1.jpg",
+        "images/ph_2026-04-07_Google_AI_Edge_Eloquent_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 7,
+      "name": "Caret",
+      "url": "https://www.producthunt.com/products/caret-5",
+      "service_url": "https://www.producthunt.com/r/XM2TKHY6SWITKB",
+      "website": "https://www.producthunt.com/r/XM2TKHY6SWITKB",
+      "votes": 143,
+      "tagline": "Press Tab for AI anywhere you type on Mac",
+      "summary": "Caret은 Mac의 모든 앱에서 사용자의 스타일을 학습하여 문장 자동 완성 기능을 제공, Tab 키 하나로 개인화된 AI 제안을 받을 수 있습니다.",
+      "key_points": [
+        "Mac의 모든 앱에서 사용 가능",
+        "개인 스타일을 학습하여 자연스러운 자동 완성 제공",
+        "Tab 키 하나로 간편하게 사용"
+      ],
+      "tags": [
+        "AI",
+        "자동완성",
+        "생산성",
+        "Mac",
+        "글쓰기",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Caret은 사용자의 고유한 스타일을 학습하여 자동 완성 기능을 제공하므로, Mac을 사용하는 동안 생산성을 높이고 더 자연스러운 글쓰기를 할 수 있도록 도와줍니다.",
+      "recommended_actions": [
+        "Caret 설치 후 Mac의 다양한 앱에서 사용해보기",
+        "자동 완성 제안이 사용자의 스타일에 맞게 조정되는지 확인하기",
+        "Tab 키를 사용하여 자동 완성 기능을 활성화하고 생산성 향상 경험하기"
+      ],
+      "risks_and_limits": [
+        "개인 정보 및 데이터 보안 관련 정책 확인 필요",
+        "자동 완성 정확도는 사용자 데이터 학습량에 따라 달라질 수 있음"
+      ],
+      "uncertainty_note": "Caret의 개인 정보 처리 방식 및 데이터 사용 정책에 대한 추가 정보 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_Caret.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Caret_media_0.jpg",
+        "images/ph_2026-04-07_Caret_media_1.jpg",
+        "images/ph_2026-04-07_Caret_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/7513450a-acbe-425b-a2b4-b9e3a34dc957.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Bibby AI ",
+      "url": "https://www.producthunt.com/products/bibby-ai",
+      "service_url": "https://www.producthunt.com/r/D62M64Q67NPDCH",
+      "website": "https://www.producthunt.com/r/D62M64Q67NPDCH",
+      "votes": 133,
+      "tagline": "The AI co-author for research papers",
+      "summary": "Bibby AI는 연구자들이 논문 작성에 쏟는 시간을 줄여 연구 자체에 더 집중할 수 있도록 돕는 AI 공동 저술 도구입니다.",
+      "key_points": [
+        "2억 건 이상의 인용 데이터와 800개 이상의 저널 템플릿 제공",
+        "논문 초안 작성, 수정 및 인용 자료 검색 기능 제공",
+        "리뷰어들이 발견하기 전에 오류를 찾아 수정하도록 지원"
+      ],
+      "tags": [
+        "AI",
+        "연구",
+        "논문",
+        "자동화",
+        "생산성",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Bibby AI를 사용하면 논문 작성 시간을 단축하고, 연구의 질을 향상시키며, 리뷰 과정에서 발생할 수 있는 문제점을 사전에 예방할 수 있습니다.",
+      "recommended_actions": [
+        "관심 분야의 논문 초안 작성 기능 사용해보기",
+        "자동 인용 기능 사용해보기",
+        "저널 템플릿을 활용하여 논문 형식 맞추기"
+      ],
+      "risks_and_limits": [
+        "AI가 생성한 콘텐츠의 정확성을 반드시 검증해야 함",
+        "특정 분야에 대한 전문성이 부족할 수 있으므로, 결과물을 맹신하지 않아야 함"
+      ],
+      "uncertainty_note": "Bibby AI의 성능이 특정 연구 분야나 저널 템플릿에 따라 어떻게 달라지는지 추가적인 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_Bibby_AI_.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_Bibby_AI__media_0.jpg",
+        "images/ph_2026-04-07_Bibby_AI__media_1.jpg",
+        "images/ph_2026-04-07_Bibby_AI__media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/274a47e0-e037-42aa-854b-84f750b29b24.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "ChatGPT Ads by Gauge",
+      "url": "https://www.producthunt.com/products/gauge",
+      "service_url": "https://www.producthunt.com/r/CLXZA3J5IHRITI",
+      "website": "https://www.producthunt.com/r/CLXZA3J5IHRITI",
+      "votes": 132,
+      "tagline": "The intelligence layer for ChatGPT Ads",
+      "summary": "Gauge는 ChatGPT 광고에 대한 경쟁사 분석 및 캠페인 관리를 위한 통합 솔루션을 제공하여, 광고 효율을 극대화합니다.",
+      "key_points": [
+        "경쟁사 ChatGPT 광고 카피 및 전략 분석",
+        "ChatGPT 광고 캠페인 통합 관리",
+        "캠페인 성과 지표(CTR, CPC) 자동 계산 및 시각화"
+      ],
+      "tags": [
+        "광고",
+        "ChatGPT",
+        "경쟁 분석",
+        "자동화",
+        "분석",
+        "AI Tool",
+        "Chat",
+        "Prompting",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "경쟁사 광고 분석을 통해 더 효과적인 광고 전략을 수립하고, 캠페인 관리 자동화를 통해 시간과 노력을 절약할 수 있습니다.",
+      "recommended_actions": [
+        "경쟁사 광고 분석을 위한 프롬프트 설정",
+        "ChatGPT API 키 연동을 통한 캠페인 데이터 통합",
+        "캠페인별 성과 지표 확인 및 최적화"
+      ],
+      "risks_and_limits": [
+        "ChatGPT 광고 플랫폼 API 변경에 따른 기능 제한 가능성",
+        "정확한 경쟁사 데이터 확보를 위한 프롬프트 최적화 필요"
+      ],
+      "uncertainty_note": "Gauge의 데이터 정확도 및 분석 범위에 대한 추가적인 검증이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_0.jpg",
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_1.jpg",
+        "images/ph_2026-04-07_ChatGPT_Ads_by_Gauge_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/eb598bd3-804c-42e0-8d20-080faf5356ac.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "sync-3",
+      "url": "https://www.producthunt.com/products/sync-9",
+      "service_url": "https://www.producthunt.com/r/JVSYAGLNKYDBXU",
+      "website": "https://www.producthunt.com/r/JVSYAGLNKYDBXU",
+      "votes": 112,
+      "tagline": "Studio-grade AI lip sync and visual dubbing",
+      "summary": "sync-3는 160억 개의 파라미터를 가진 AI 립싱크 모델로, 감정까지 이해하며 95개 이상의 언어로 4K 해상도까지 지원하여 영상 더빙의 퀄리티를 높여줍니다.",
+      "key_points": [
+        "16B 파라미터 AI 모델 사용",
+        "전체 장면을 이해하여 자연스러운 립싱크 생성",
+        "95개 이상 언어 지원 및 4K 해상도 지원"
+      ],
+      "tags": [
+        "AI",
+        "립싱크",
+        "더빙",
+        "영상 편집",
+        "Adobe Premiere",
+        "AI Tool",
+        "API"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 모델의 한계를 극복하여 클로즈업, 가려짐, 극단적인 각도, 어두운 조명에서도 감정을 살린 고품질 립싱크 및 더빙이 가능합니다. sync.so, API, Adobe Premiere를 통해 바로 사용할 수 있습니다.",
+      "recommended_actions": [
+        "sync.so에서 직접 사용해보기",
+        "API를 통해 기존 워크플로우에 통합해보기",
+        "Adobe Premiere 플러그인 사용해보기"
+      ],
+      "risks_and_limits": [
+        "지원하지 않는 특수한 영상 포맷이 있을 수 있음",
+        "API 사용량에 따른 비용 확인 필요"
+      ],
+      "uncertainty_note": "실제 사용 환경에서의 립싱크 정확도 및 성능에 대한 추가적인 사용자 리뷰 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-07_sync-3.jpg",
+      "local_media": [
+        "images/ph_2026-04-07_sync-3_media_0.jpg",
+        "images/ph_2026-04-07_sync-3_media_1.jpg",
+        "images/ph_2026-04-07_sync-3_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/e0b1cb7b-df26-40f2-8c04-0470984231e4.jpeg?auto=format"
+      ]
+    }
+  ]
+}
