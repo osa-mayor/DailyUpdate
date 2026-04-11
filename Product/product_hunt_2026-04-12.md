@@ -1,0 +1,404 @@
+# 🚀 Product Hunt Daily Top 10 (2026-04-12)
+
+## 1. [Claude for Word](https://www.producthunt.com/products/claude)
+**Votes**: 254 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Bring Claude natively into your Microsoft Word workflow
+**서비스 링크**: https://www.producthunt.com/r/MGZ7AIAFS6BXD7
+
+**태그**: AI, 생산성, 문서작성, Microsoft Word, Automation
+
+<img src="images/ph_2026-04-11_Claude_for_Word.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+이제 Microsoft Word에서 Claude를 직접 사용하여 문서 작성, 편집, 댓글 관리를 더욱 효율적으로 할 수 있습니다.
+
+### 🔑 주요 기능
+- Word 사이드바에서 Claude를 네이티브로 사용
+- 기존 서식 유지 및 변경 사항 추적 기능 제공
+- Excel, PowerPoint와 컨텍스트 공유 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Word 작업 흐름을 벗어나지 않고 Claude의 강력한 기능을 활용하여 문서 작업 시간을 단축하고 생산성을 높일 수 있습니다. 특히 여러 문서 형식을 사용하는 사용자에게 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Word에서 Claude 사이드바 열기
+- 문서 초안 작성 시 Claude 활용
+- Claude를 사용하여 문서 편집 및 댓글 관리
+
+### ⚠️ 사용 전 확인할 점
+- Claude 사용을 위한 Microsoft Word 연동 필요
+- Claude의 응답 품질은 입력 데이터에 따라 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+Claude의 정확도 및 성능은 사용자의 피드백과 업데이트에 따라 개선될 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Claude_for_Word_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_Claude_for_Word_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Claude_for_Word_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6dce3842-7511-411c-af77-eb2f21399d62.jpeg?auto=format)
+
+---
+
+## 2. [Claude Code ultraplan](https://www.producthunt.com/products/claude-code-ultraplan)
+**Votes**: 221 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Claude Code command that plans your codebase in the cloud
+**서비스 링크**: https://www.producthunt.com/r/TXL7PW25FK5ENL
+
+**태그**: DevTool, 클라우드, 자동화, 코드 계획
+
+<img src="images/ph_2026-04-11_Claude_Code_ultraplan.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude Code 사용자를 위한 코드 구현 계획 도구로, 클라우드 환경에서 계획을 세우고 수정하며 실행 전 승인까지 가능하게 하여 개발 효율성을 높여줍니다.
+
+### 🔑 주요 기능
+- 코드 구현 계획을 클라우드에서 관리
+- 계획에 대한 주석 추가 및 수정 가능
+- 실행 전 계획 승인 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+터미널에서 벗어나 클라우드 환경에서 코드 구현 계획을 체계적으로 관리하고 협업할 수 있어, 개발 프로세스를 간소화하고 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- ultraplan 명령어를 사용하여 클라우드 세션 시작
+- 클라우드 환경에서 코드 구현 계획 작성 및 수정
+- 작성된 계획을 검토 후 승인하고 실행
+
+### ⚠️ 사용 전 확인할 점
+- Claude Code 사용자만 사용 가능
+- 클라우드 세션 환경에 대한 이해 필요
+
+### 🧭 확인이 더 필요한 정보
+Claude Code와의 구체적인 통합 방식 및 클라우드 세션 환경에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Claude_Code_ultraplan_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Claude_Code_ultraplan_media_2.jpg)
+![Screenshot](images/ph_2026-04-11_Claude_Code_ultraplan_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7ecf460f-c13b-4b4e-86ee-721d2d5cfac9.jpeg?auto=format)
+
+---
+
+## 3. [Capso](https://www.producthunt.com/products/capso)
+**Votes**: 175 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Free open-source screenshot & screen recorder for Mac
+**서비스 링크**: https://www.producthunt.com/r/KVNMIQB5OS55J7
+
+**태그**: 스크린샷, 화면 녹화, 오픈소스, Mac, 생산성, Vision
+
+<img src="images/ph_2026-04-11_Capso.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Capso는 완전 무료 오픈소스 Mac 스크린샷 및 화면 녹화 앱으로, CleanShot X나 Cap과 유사한 기능을 제공하며 구독료나 추가 비용 없이 사용할 수 있습니다.
+
+### 🔑 주요 기능
+- 무료 오픈 소스: 완전 무료로 사용 가능하며, 소스 코드가 공개되어 있습니다.
+- 다양한 기능: 스크린샷, 화면 녹화, 주석 도구, OCR, 이미지 보정 기능 제공
+- Mac 네이티브 앱: 깔끔하고 최적화된 Mac 환경 제공 (Apple Silicon 지원)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+CleanShot X나 Cap 같은 유료 앱의 기능을 무료로 사용할 수 있으며, 개인 정보 수집 걱정 없이 안전하게 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 영역 스크린샷 기능 사용해보기
+- 화면 녹화 기능으로 간단한 튜토리얼 만들기
+- OCR 기능으로 이미지에서 텍스트 추출하기
+
+### ⚠️ 사용 전 확인할 점
+- Apple Silicon Mac에서만 사용 가능
+- 오픈 소스 프로젝트이므로, 지속적인 업데이트 및 유지보수 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+다른 스크린샷/화면 녹화 앱과의 성능 비교 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Capso_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_Capso_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Capso_media_2.jpg)
+
+---
+
+## 4. [LaReview](https://www.producthunt.com/products/lareview)
+**Votes**: 147 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Open-source free next-generation code review
+**서비스 링크**: https://www.producthunt.com/r/G5ENQ6OFESZRDT
+
+**태그**: 코드 검토, GitHub, AI, 개발 도구, 자동화, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-04-11_LaReview.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+LaReview는 GitHub PR 또는 통합 diff를 구조화된 검토 계획으로 바꿔 코드 검토 효율성을 높여주는 오픈소스 도구입니다.
+
+### 🔑 주요 기능
+- GitHub CLI 및 AI 에이전트 로컬 실행
+- 파일 스크롤 없이 의도, 작업, 관련 코드 조각 검토
+- 구조화된 검토 계획 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+코드 검토 과정을 체계화하여 개발자가 코드의 의도와 변경 사항을 더 명확하게 파악하고, 효율적인 협업을 가능하게 합니다.
+
+### ✅ 지금 바로 써볼 기능
+- GitHub PR에 LaReview 적용해보기
+- 통합 diff 파일로 검토 계획 생성해보기
+- AI 에이전트 설정 및 활용법 알아보기
+
+### ⚠️ 사용 전 확인할 점
+- GitHub CLI 설정 필요
+- AI 에이전트 성능에 따라 결과 품질 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트의 구체적인 성능 및 지원되는 언어/프레임워크 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_LaReview_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_LaReview_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_LaReview_media_2.jpg)
+
+---
+
+## 5. [Tech Marketing Framework](https://www.producthunt.com/products/tech-marketing-framework)
+**Votes**: 133 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Forkable GTM system for builders struggling with marketing
+**서비스 링크**: https://www.producthunt.com/r/3E3NF4ZXWM7D35
+
+**태그**: 마케팅, 자동화, GTM, AI, Agent, AI Tool, Marketing
+
+<img src="images/ph_2026-04-11_Tech_Marketing_Framework.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+마케팅에 어려움을 겪는 개발자를 위한 GTM 시스템으로, AI 기반 마케팅 VP의 경험을 바탕으로 구축되어 빠른 출시, 메시지 조정, 채널 발굴, 자산 생성 등을 지원합니다.
+
+### 🔑 주요 기능
+- 에이전트 및 스킬을 활용하여 출시 시간 단축
+- 인터랙티브 워크숍을 통해 메시징 최적화
+- 광범위한 채널 디렉토리를 통해 타겟 고객층 발견
+
+### 🙋 사용자에게 어떤 점이 좋은가
+새로운 제품을 출시할 때 마케팅 전략 수립 및 실행에 필요한 시간과 노력을 줄여주고, 더 많은 사용자에게 효과적으로 도달할 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 메시징 워크숍을 통해 제품 메시지 정의
+- 채널 디렉토리에서 타겟 고객이 활동하는 채널 탐색
+- 자산 생성 기능을 활용하여 마케팅 자료 제작
+
+### ⚠️ 사용 전 확인할 점
+- AI 기반 기능의 성능은 데이터 품질에 따라 달라질 수 있음
+- 특정 채널에 대한 정보가 최신이 아닐 수 있으므로 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 채널 디렉토리의 최신 정보 업데이트 주기를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Tech_Marketing_Framework_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_Tech_Marketing_Framework_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Tech_Marketing_Framework_media_2.jpg)
+
+---
+
+## 6. [Clicky](https://www.producthunt.com/products/clicky-2)
+**Votes**: 108 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: AI buddy next to your cursor on Mac—sees, guides, helps you!
+**서비스 링크**: https://www.producthunt.com/r/KIQ5Q2NH5ULTOV
+
+**태그**: AI, 생산성, macOS, 개발 도구, 자동화, AI Tool, DevTool
+
+<img src="images/ph_2026-04-11_Clicky.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Clicky는 macOS에서 커서 옆에 나타나는 AI 친구로, 화면을 보고 음성을 듣고 사용자가 작업하는 모든 과정을 안내하여 생산성을 향상시켜 줍니다.
+
+### 🔑 주요 기능
+- macOS용 무료 AI 도우미
+- Claude, AssemblyAI, ElevenLabs 기반
+- 오픈 소스이며 Apple Silicon 및 Intel Mac 모두 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Figma, DaVinci, 코드 편집 등 다양한 작업 환경에서 질문에 대한 답변을 얻고, 단계별 안내를 받으며, 실시간 도움을 받을 수 있습니다. 숙련된 친구가 옆에서 도와주는 것처럼 느껴질 것입니다.
+
+### ✅ 지금 바로 써볼 기능
+- Clicky 다운로드 및 설치
+- 음성 명령을 통해 질문하기
+- Figma 또는 코드 편집기에서 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- Claude, AssemblyAI, ElevenLabs API 사용량에 따른 제한 가능성
+- 오픈 소스 프로젝트이므로 보안 및 개인 정보 보호에 유의
+
+### 🧭 확인이 더 필요한 정보
+AI 모델의 성능 및 정확도는 사용 환경 및 작업 내용에 따라 달라질 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Clicky_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_Clicky_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Clicky_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/62db9967-ddc8-4007-8e1b-39e8c58f9936.jpeg?auto=format)
+
+---
+
+## 7. [Voicr for Mac](https://www.producthunt.com/products/voicr-for-mac)
+**Votes**: 98 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Dictate and get improved or translated text
+**서비스 링크**: https://www.producthunt.com/r/PQKKBOJ2X37KH2
+
+**태그**: productivity, voice recognition, translation, text editing
+
+<img src="images/ph_2026-04-11_Voicr_for_Mac.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Voicr는 Mac에서 음성 받아쓰기, 텍스트 개선, 27개 언어 번역을 하나의 앱으로 해결하여 생산성을 높여줍니다.
+
+### 🔑 주요 기능
+- 음성 받아쓰기 후 즉시 텍스트 개선
+- 27개 언어 번역 지원
+- 단축키로 텍스트 수정 및 재작성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+메뉴 막대에 상주하며, 음성으로 아이디어를 빠르게 캡처하고 텍스트 작업을 효율적으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 받아쓰기 기능으로 긴 텍스트 작성해보기
+- 번역 기능으로 외국어 텍스트 번역해보기
+- 단축키를 사용하여 기존 텍스트 수정해보기
+
+### ⚠️ 사용 전 확인할 점
+- 음성 인식 정확도는 사용 환경에 따라 달라질 수 있음
+- 지원 언어 및 기능 업데이트 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+음성 인식 정확도 및 텍스트 개선 품질에 대한 사용자 리뷰 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_Voicr_for_Mac_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_Voicr_for_Mac_media_2.jpg)
+![Screenshot](images/ph_2026-04-11_Voicr_for_Mac_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e10b94e8-65c9-43aa-91aa-3ad6aee7778e.jpeg?auto=format)
+
+---
+
+## 8. [1% Better](https://www.producthunt.com/products/1-better-habit-tracker)
+**Votes**: 94 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Visualise the compounding effect of your daily habits
+**서비스 링크**: https://www.producthunt.com/r/ZXJSG6V36UXOBF
+
+**태그**: 생산성, 습관, 자기계발, 추적, AI Tool, Design
+
+<img src="images/ph_2026-04-11_1%_Better.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+매일 1%씩 성장하는 습관의 복리 효과를 시각적으로 보여주는 습관 추적 앱으로, 꾸준한 성장을 장려합니다.
+
+### 🔑 주요 기능
+- 매일 '1% 더 나아졌는가?'라는 질문에 Yes/No로 간단하게 답변하여 습관 추적
+- 복리 효과를 시각적으로 보여주는 그래프 제공
+- 최소한의 기능과 개인 정보 보호를 우선으로 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+습관 추적을 데이터 입력 작업처럼 느끼게 하지 않고, 꾸준히 습관을 유지하도록 동기를 부여합니다. 매일 조금씩 성장하는 것을 시각적으로 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 매일 습관을 추적하고 1% 성장했는지 자문해보기
+- 성장 그래프를 통해 복리 효과를 시각적으로 확인하기
+- 개인 정보 설정 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 단순한 Yes/No 답변 방식이 모든 습관 추적에 적합하지 않을 수 있음
+- 데이터 입력 누락 시 그래프에 영향을 줄 수 있음
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 시 데이터 정확도 및 장기적인 습관 형성에 미치는 영향에 대한 추가적인 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_1%_Better_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_1%_Better_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_1%_Better_media_2.jpg)
+
+---
+
+## 9. [shush](https://www.producthunt.com/products/shush-5)
+**Votes**: 94 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Room-aware noise. Quieter. Smarter. Better REM sleep.
+**서비스 링크**: https://www.producthunt.com/r/CY64CCN23RJRIM
+
+**태그**: 수면, 소음제거, 건강, 사운드, 웰빙, AI Tool
+
+<img src="images/ph_2026-04-11_shush.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Shush는 주변 소음을 분석하여 최적화된 사운드를 제공, 더 조용하고 스마트하게 깊은 잠을 잘 수 있도록 도와주는 앱입니다.
+
+### 🔑 주요 기능
+- 주변 소음 분석 및 제거 기능
+- 실시간 사운드 합성으로 반복 없는 자연스러운 소리 제공
+- 스마트 수면 타이머 및 이명 필터 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기존 소음 앱과 달리 주변 환경에 맞춰 소리를 조절하여 더욱 편안하고 깊은 수면을 유도하며, 작은 볼륨으로도 효과적인 소음 차단 효과를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 수면 환경에 맞는 사운드 프로필 설정
+- 스마트 수면 타이머 설정
+- 이명 필터 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- 방의 소음 분석 정확도에 따라 효과가 달라질 수 있음
+- 개인의 선호도에 따라 사운드 효과가 다르게 느껴질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 환경에서의 소음 제거 효과 및 수면 개선 효과에 대한 추가적인 사용자 리뷰 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_shush_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_shush_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_shush_media_2.jpg)
+
+---
+
+## 10. [aperture](https://www.producthunt.com/products/aperture-4)
+**Votes**: 90 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: hiring is broken. we're building the fix.
+**서비스 링크**: https://www.producthunt.com/r/EN2S5LHUTI6KAE
+
+**태그**: AI, 채용, 인터뷰, HRTech, 자동화, AI Tool
+
+<img src="images/ph_2026-04-11_aperture.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Aperture는 AI 기반 행동 인터뷰와 비교 순위 시스템을 통해 이력서 검토를 대체하여 채용 과정을 혁신합니다.
+
+### 🔑 주요 기능
+- AI 기반 행동 인터뷰를 통해 지원자의 실제 역량 평가
+- 비교 순위 시스템으로 객관적인 인재 선별
+- 이력서 기반의 기존 채용 방식의 한계 극복
+
+### 🙋 사용자에게 어떤 점이 좋은가
+채용 담당자는 Aperture를 통해 시간과 비용을 절약하고, 더 적합한 인재를 효율적으로 찾을 수 있습니다. 지원자는 자신의 역량을 정확하게 보여줄 기회를 얻습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 행동 인터뷰 설정 및 진행
+- 지원자 비교 순위 확인 및 분석
+- 채용 프로세스에 Aperture 통합
+
+### ⚠️ 사용 전 확인할 점
+- AI 평가의 공정성 및 편향성 검토 필요
+- 지원자의 기술적 이해도에 따른 인터뷰 결과 해석 주의
+
+### 🧭 확인이 더 필요한 정보
+Aperture의 AI 알고리즘이 특정 직무 또는 산업에 최적화되어 있는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-11_aperture_media_0.jpg)
+![Screenshot](images/ph_2026-04-11_aperture_media_1.jpg)
+![Screenshot](images/ph_2026-04-11_aperture_media_2.jpg)
+
+---
+
