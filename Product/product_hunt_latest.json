@@ -1,464 +1,463 @@
 {
   "source": "product_hunt",
-  "date": "2026-04-12",
-  "generated_at": "2026-04-12T04:02:55.356331+09:00",
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T04:05:17.880955+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Claude for Word\n⭐ Votes: 254\n📝 요약: 이제 Microsoft Word에서 Claude를 직접 사용하여 문서 작성, 편집, 댓글 관리를 더욱 효율적으로 할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude\n🌐 서비스 링크: https://www.producthunt.com/r/MGZ7AIAFS6BXD7\n\n📦 2. Claude Code ultraplan\n⭐ Votes: 221\n📝 요약: Claude Code 사용자를 위한 코드 구현 계획 도구로, 클라우드 환경에서 계획을 세우고 수정하며 실행 전 승인까지 가능하게 하여 개발 효율성을 높여줍니다.\n🔗 Product Hunt: https://www.producthunt.com/products/claude-code-ultraplan\n🌐 서비스 링크: https://www.producthunt.com/r/TXL7PW25FK5ENL\n\n📦 3. Capso\n⭐ Votes: 175\n📝 요약: Capso는 완전 무료 오픈소스 Mac 스크린샷 및 화면 녹화 앱으로, CleanShot X나 Cap과 유사한 기능을 제공하며 구독료나 추가 비용 없이 사용할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/capso\n🌐 서비스 링크: https://www.producthunt.com/r/KVNMIQB5OS55J7\n\n📦 4. LaReview\n⭐ Votes: 147\n📝 요약: LaReview는 GitHub PR 또는 통합 diff를 구조화된 검토 계획으로 바꿔 코드 검토 효율성을 높여주는 오픈소스 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/lareview\n🌐 서비스 링크: https://www.producthunt.com/r/G5ENQ6OFESZRDT\n\n📦 5. Tech Marketing Framework\n⭐ Votes: 133\n📝 요약: 마케팅에 어려움을 겪는 개발자를 위한 GTM 시스템으로, AI 기반 마케팅 VP의 경험을 바탕으로 구축되어 빠른 출시, 메시지 조정, 채널 발굴, 자산 생성 등을 지원합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/tech-marketing-framework\n🌐 서비스 링크: https://www.producthunt.com/r/3E3NF4ZXWM7D35\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Interactive Simulations in Gemini\n⭐ Votes: 268\n📝 요약: Gemini가 복잡한 주제를 실시간으로 조작 가능한 3D 시뮬레이션으로 바꿔 보여주어, 텍스트 대신 직접 만져보며 개념을 이해할 수 있습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/gemini-6\n🌐 서비스 링크: https://www.producthunt.com/r/XS63JGHVTSXRSG\n\n📦 2. Music Marketplace by Eleven Labs\n⭐ Votes: 195\n📝 요약: Eleven Labs에서 음악 마켓플레이스를 출시하여, 사용자가 직접 만든 트랙을 게시하고 다운로드 또는 리믹스될 때마다 수익을 얻을 수 있도록 합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/music-marketplace-by-eleven-labs\n🌐 서비스 링크: https://www.producthunt.com/r/FG6HGARL7HKFLR\n\n📦 3. Ray\n⭐ Votes: 174\n📝 요약: Ray는 터미널 기반 개인 CFO로, 실제 거래 내역을 바탕으로 목표를 설정하고 계획을 수립하도록 도와주는 오픈소스 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/ray-7\n🌐 서비스 링크: https://www.producthunt.com/r/G3BLEM7JJPJ46U\n\n📦 4. R0Y\n⭐ Votes: 162\n📝 요약: R0Y는 자연어 기반 금융 스튜디오로, 투자 대시보드를 즉시 구축하여 데이터 분석, 예측, 백테스팅 등을 코딩 없이 가능하게 합니다.\n🔗 Product Hunt: https://www.producthunt.com/products/r0y-ai-financial-studio\n🌐 서비스 링크: https://www.producthunt.com/r/DSEDKDA63PJNEZ\n\n📦 5. Layered\n⭐ Votes: 125\n📝 요약: 셀카를 기반으로 개인 AI 스타일리스트를 만들어 옷장 관리, 스타일 추천, 여행 짐 싸기까지 도와주는 서비스\n🔗 Product Hunt: https://www.producthunt.com/products/layered-2\n🌐 서비스 링크: https://www.producthunt.com/r/JEPNNIS2C3DUQE\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Claude for Word",
-      "url": "https://www.producthunt.com/products/claude",
-      "service_url": "https://www.producthunt.com/r/MGZ7AIAFS6BXD7",
-      "website": "https://www.producthunt.com/r/MGZ7AIAFS6BXD7",
-      "votes": 254,
-      "tagline": "Bring Claude natively into your Microsoft Word workflow",
-      "summary": "이제 Microsoft Word에서 Claude를 직접 사용하여 문서 작성, 편집, 댓글 관리를 더욱 효율적으로 할 수 있습니다.",
+      "name": "Interactive Simulations in Gemini",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "service_url": "https://www.producthunt.com/r/XS63JGHVTSXRSG",
+      "website": "https://www.producthunt.com/r/XS63JGHVTSXRSG",
+      "votes": 268,
+      "tagline": "Gemini now lets you play with the concepts you ask about",
+      "summary": "Gemini가 복잡한 주제를 실시간으로 조작 가능한 3D 시뮬레이션으로 바꿔 보여주어, 텍스트 대신 직접 만져보며 개념을 이해할 수 있습니다.",
       "key_points": [
-        "Word 사이드바에서 Claude를 네이티브로 사용",
-        "기존 서식 유지 및 변경 사항 추적 기능 제공",
-        "Excel, PowerPoint와 컨텍스트 공유 가능"
+        "Gemini 내에서 바로 3D 시뮬레이션 생성 및 조작 가능",
+        "복잡한 주제를 시각적으로 이해하도록 도움",
+        "실시간 인터랙티브 시뮬레이션 제공"
       ],
       "tags": [
         "AI",
-        "생산성",
-        "문서작성",
-        "Microsoft Word",
-        "Automation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "Word 작업 흐름을 벗어나지 않고 Claude의 강력한 기능을 활용하여 문서 작업 시간을 단축하고 생산성을 높일 수 있습니다. 특히 여러 문서 형식을 사용하는 사용자에게 유용합니다.",
-      "recommended_actions": [
-        "Word에서 Claude 사이드바 열기",
-        "문서 초안 작성 시 Claude 활용",
-        "Claude를 사용하여 문서 편집 및 댓글 관리"
-      ],
-      "risks_and_limits": [
-        "Claude 사용을 위한 Microsoft Word 연동 필요",
-        "Claude의 응답 품질은 입력 데이터에 따라 달라질 수 있음"
-      ],
-      "uncertainty_note": "Claude의 정확도 및 성능은 사용자의 피드백과 업데이트에 따라 개선될 수 있습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Claude_for_Word.jpg",
-      "local_media": [
-        "images/ph_2026-04-11_Claude_for_Word_media_0.jpg",
-        "images/ph_2026-04-11_Claude_for_Word_media_1.jpg",
-        "images/ph_2026-04-11_Claude_for_Word_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/6dce3842-7511-411c-af77-eb2f21399d62.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 2,
-      "name": "Claude Code ultraplan",
-      "url": "https://www.producthunt.com/products/claude-code-ultraplan",
-      "service_url": "https://www.producthunt.com/r/TXL7PW25FK5ENL",
-      "website": "https://www.producthunt.com/r/TXL7PW25FK5ENL",
-      "votes": 221,
-      "tagline": "Claude Code command that plans your codebase in the cloud",
-      "summary": "Claude Code 사용자를 위한 코드 구현 계획 도구로, 클라우드 환경에서 계획을 세우고 수정하며 실행 전 승인까지 가능하게 하여 개발 효율성을 높여줍니다.",
-      "key_points": [
-        "코드 구현 계획을 클라우드에서 관리",
-        "계획에 대한 주석 추가 및 수정 가능",
-        "실행 전 계획 승인 기능 제공"
-      ],
-      "tags": [
-        "DevTool",
-        "클라우드",
-        "자동화",
-        "코드 계획"
+        "시뮬레이션",
+        "3D",
+        "교육",
+        "시각화",
+        "Chat"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "터미널에서 벗어나 클라우드 환경에서 코드 구현 계획을 체계적으로 관리하고 협업할 수 있어, 개발 프로세스를 간소화하고 효율성을 높일 수 있습니다.",
+      "practical_relevance": "더 이상 어려운 개념을 텍스트로만 이해하려 애쓰지 않아도 됩니다. Gemini에게 '보여줘' 또는 '시각화해줘'라고 요청하면 바로 인터랙티브 시뮬레이션을 통해 직관적으로 학습할 수 있습니다.",
       "recommended_actions": [
-        "ultraplan 명령어를 사용하여 클라우드 세션 시작",
-        "클라우드 환경에서 코드 구현 계획 작성 및 수정",
-        "작성된 계획을 검토 후 승인하고 실행"
+        "Gemini에게 특정 개념을 '보여줘'라고 요청해보기",
+        "생성된 3D 시뮬레이션을 직접 조작해보기",
+        "다양한 복잡한 주제에 대해 시뮬레이션 요청해보기"
       ],
       "risks_and_limits": [
-        "Claude Code 사용자만 사용 가능",
-        "클라우드 세션 환경에 대한 이해 필요"
+        "생성되는 시뮬레이션의 정확도 및 완성도는 Gemini의 성능에 따라 달라질 수 있음",
+        "모든 주제에 대해 3D 시뮬레이션이 지원되는 것은 아닐 수 있음"
       ],
-      "uncertainty_note": "Claude Code와의 구체적인 통합 방식 및 클라우드 세션 환경에 대한 추가 정보가 필요합니다.",
+      "uncertainty_note": "생성되는 시뮬레이션의 활용 범위 및 교육적 효과에 대한 추가적인 사용자 피드백이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Claude_Code_ultraplan.jpg",
+      "local_image_path": "images/ph_2026-04-12_Interactive_Simulations_in_Gemini.jpg",
       "local_media": [
-        "images/ph_2026-04-11_Claude_Code_ultraplan_media_1.jpg",
-        "images/ph_2026-04-11_Claude_Code_ultraplan_media_2.jpg",
-        "images/ph_2026-04-11_Claude_Code_ultraplan_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/7ecf460f-c13b-4b4e-86ee-721d2d5cfac9.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "Capso",
-      "url": "https://www.producthunt.com/products/capso",
-      "service_url": "https://www.producthunt.com/r/KVNMIQB5OS55J7",
-      "website": "https://www.producthunt.com/r/KVNMIQB5OS55J7",
-      "votes": 175,
-      "tagline": "Free open-source screenshot & screen recorder for Mac",
-      "summary": "Capso는 완전 무료 오픈소스 Mac 스크린샷 및 화면 녹화 앱으로, CleanShot X나 Cap과 유사한 기능을 제공하며 구독료나 추가 비용 없이 사용할 수 있습니다.",
-      "key_points": [
-        "무료 오픈 소스: 완전 무료로 사용 가능하며, 소스 코드가 공개되어 있습니다.",
-        "다양한 기능: 스크린샷, 화면 녹화, 주석 도구, OCR, 이미지 보정 기능 제공",
-        "Mac 네이티브 앱: 깔끔하고 최적화된 Mac 환경 제공 (Apple Silicon 지원)"
-      ],
-      "tags": [
-        "스크린샷",
-        "화면 녹화",
-        "오픈소스",
-        "Mac",
-        "생산성",
-        "Vision"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "CleanShot X나 Cap 같은 유료 앱의 기능을 무료로 사용할 수 있으며, 개인 정보 수집 걱정 없이 안전하게 사용할 수 있습니다.",
-      "recommended_actions": [
-        "영역 스크린샷 기능 사용해보기",
-        "화면 녹화 기능으로 간단한 튜토리얼 만들기",
-        "OCR 기능으로 이미지에서 텍스트 추출하기"
-      ],
-      "risks_and_limits": [
-        "Apple Silicon Mac에서만 사용 가능",
-        "오픈 소스 프로젝트이므로, 지속적인 업데이트 및 유지보수 여부 확인 필요"
-      ],
-      "uncertainty_note": "다른 스크린샷/화면 녹화 앱과의 성능 비교 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Capso.jpg",
-      "local_media": [
-        "images/ph_2026-04-11_Capso_media_0.jpg",
-        "images/ph_2026-04-11_Capso_media_1.jpg",
-        "images/ph_2026-04-11_Capso_media_2.jpg"
+        "images/ph_2026-04-12_Interactive_Simulations_in_Gem_media_0.jpg",
+        "images/ph_2026-04-12_Interactive_Simulations_in_Gem_media_1.jpg",
+        "images/ph_2026-04-12_Interactive_Simulations_in_Gem_media_2.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 4,
-      "name": "LaReview",
-      "url": "https://www.producthunt.com/products/lareview",
-      "service_url": "https://www.producthunt.com/r/G5ENQ6OFESZRDT",
-      "website": "https://www.producthunt.com/r/G5ENQ6OFESZRDT",
-      "votes": 147,
-      "tagline": "Open-source free next-generation code review",
-      "summary": "LaReview는 GitHub PR 또는 통합 diff를 구조화된 검토 계획으로 바꿔 코드 검토 효율성을 높여주는 오픈소스 도구입니다.",
+      "rank": 2,
+      "name": "Music Marketplace by Eleven Labs",
+      "url": "https://www.producthunt.com/products/music-marketplace-by-eleven-labs",
+      "service_url": "https://www.producthunt.com/r/FG6HGARL7HKFLR",
+      "website": "https://www.producthunt.com/r/FG6HGARL7HKFLR",
+      "votes": 195,
+      "tagline": "Create a track. Publish it. Earn when it is used.",
+      "summary": "Eleven Labs에서 음악 마켓플레이스를 출시하여, 사용자가 직접 만든 트랙을 게시하고 다운로드 또는 리믹스될 때마다 수익을 얻을 수 있도록 합니다.",
       "key_points": [
-        "GitHub CLI 및 AI 에이전트 로컬 실행",
-        "파일 스크롤 없이 의도, 작업, 관련 코드 조각 검토",
-        "구조화된 검토 계획 제공"
+        "음악 라이선싱의 복잡성을 해결",
+        "트랙 생성, 게시, 수익 창출의 간편한 과정",
+        "ElevenCreative의 검증된 수익 분배 엔진 활용"
       ],
       "tags": [
-        "코드 검토",
-        "GitHub",
+        "음악",
+        "마켓플레이스",
+        "수익화",
         "AI",
-        "개발 도구",
+        "AI Tool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "음악 창작자는 자신의 창작물을 통해 더 쉽게 수익을 창출하고, 사용자는 더 다양한 음악을 저렴하게 이용할 수 있습니다.",
+      "recommended_actions": [
+        "트랙 생성 및 게시",
+        "수익 분배 설정 확인",
+        "다른 사용자의 트랙 탐색 및 리믹스"
+      ],
+      "risks_and_limits": [
+        "저작권 관련 문제 확인 필요",
+        "수익 분배 조건 및 수수료 확인 필요"
+      ],
+      "uncertainty_note": "마켓플레이스의 활성화 정도와 실제 수익 창출 가능성에 대한 추가적인 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-12_Music_Marketplace_by_Eleven_Labs.jpg",
+      "local_media": [
+        "images/ph_2026-04-12_Music_Marketplace_by_Eleven_La_media_0.jpg",
+        "images/ph_2026-04-12_Music_Marketplace_by_Eleven_La_media_1.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 3,
+      "name": "Ray",
+      "url": "https://www.producthunt.com/products/ray-7",
+      "service_url": "https://www.producthunt.com/r/G3BLEM7JJPJ46U",
+      "website": "https://www.producthunt.com/r/G3BLEM7JJPJ46U",
+      "votes": 174,
+      "tagline": "Your personal CFO in the terminal",
+      "summary": "Ray는 터미널 기반 개인 CFO로, 실제 거래 내역을 바탕으로 목표를 설정하고 계획을 수립하도록 도와주는 오픈소스 도구입니다.",
+      "key_points": [
+        "터미널 기반으로 작동하여 개인 정보 보호에 강점",
+        "실제 거래 데이터를 분석하여 맞춤형 재정 계획 제공",
+        "오픈 소스이며 무료로 사용 가능"
+      ],
+      "tags": [
+        "Finance",
+        "Terminal",
+        "Open Source",
+        "CFO",
+        "Personal Finance"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 금융 앱들이 차트만 보여주는 것과 달리, Ray는 사용자가 실제로 무엇을 해야 하는지 알려주고 재정 계획을 수립하도록 돕습니다. 개인 데이터를 안전하게 관리하면서 재정 관리를 자동화할 수 있습니다.",
+      "recommended_actions": [
+        "Ray를 설치하고 개인 금융 계정 연결하기",
+        "재정 목표 설정하고 Ray의 추천 계획 확인하기",
+        "오픈 소스 커뮤니티에 참여하여 기능 개선에 기여하기"
+      ],
+      "risks_and_limits": [
+        "터미널 환경에 익숙하지 않은 사용자는 사용이 어려울 수 있음",
+        "초기 설정 및 데이터 연동 과정이 필요함"
+      ],
+      "uncertainty_note": "Ray가 지원하는 금융 기관 및 데이터 연동 방식에 대한 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-12_Ray.jpg",
+      "local_media": [
+        "images/ph_2026-04-12_Ray_media_0.jpg",
+        "images/ph_2026-04-12_Ray_media_1.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/32659fa6-0496-43e1-97dc-2465e59c841b.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "R0Y",
+      "url": "https://www.producthunt.com/products/r0y-ai-financial-studio",
+      "service_url": "https://www.producthunt.com/r/DSEDKDA63PJNEZ",
+      "website": "https://www.producthunt.com/r/DSEDKDA63PJNEZ",
+      "votes": 162,
+      "tagline": "Natural language to Investing dashboards in seconds.",
+      "summary": "R0Y는 자연어 기반 금융 스튜디오로, 투자 대시보드를 즉시 구축하여 데이터 분석, 예측, 백테스팅 등을 코딩 없이 가능하게 합니다.",
+      "key_points": [
+        "자연어 기반으로 투자 대시보드 즉시 생성",
+        "수억 개의 데이터 포인트를 연결하여 실시간 분석 제공",
+        "팀 협업 및 대시보드 공유 기능 지원"
+      ],
+      "tags": [
+        "금융",
+        "데이터 분석",
         "자동화",
-        "Agent",
+        "투자",
+        "No-code",
         "AI Tool",
         "DevTool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "코드 검토 과정을 체계화하여 개발자가 코드의 의도와 변경 사항을 더 명확하게 파악하고, 효율적인 협업을 가능하게 합니다.",
+      "practical_relevance": "R0Y를 사용하면 코딩이나 템플릿 없이도 투자 전략 모델링, 거시 경제 분석, 백테스팅 등을 간편하게 수행하고, 팀원들과 결과를 공유하며 협업할 수 있습니다.",
       "recommended_actions": [
-        "GitHub PR에 LaReview 적용해보기",
-        "통합 diff 파일로 검토 계획 생성해보기",
-        "AI 에이전트 설정 및 활용법 알아보기"
+        "자연어로 원하는 투자 분석 요청해보기",
+        "생성된 대시보드를 팀원과 공유해보기",
+        "다양한 데이터 포인트를 활용하여 투자 전략 모델링 시도해보기"
       ],
       "risks_and_limits": [
-        "GitHub CLI 설정 필요",
-        "AI 에이전트 성능에 따라 결과 품질 달라질 수 있음"
+        "데이터의 정확성 및 최신성을 확인해야 함",
+        "자체적인 투자 판단은 지양하고 참고 자료로 활용 권장"
       ],
-      "uncertainty_note": "AI 에이전트의 구체적인 성능 및 지원되는 언어/프레임워크 정보 확인이 필요합니다.",
+      "uncertainty_note": "제공되는 데이터의 출처 및 업데이트 주기를 확인하는 것이 중요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_LaReview.jpg",
+      "local_image_path": "images/ph_2026-04-12_R0Y.jpg",
       "local_media": [
-        "images/ph_2026-04-11_LaReview_media_0.jpg",
-        "images/ph_2026-04-11_LaReview_media_1.jpg",
-        "images/ph_2026-04-11_LaReview_media_2.jpg"
+        "images/ph_2026-04-12_R0Y_media_0.jpg",
+        "images/ph_2026-04-12_R0Y_media_1.jpg",
+        "images/ph_2026-04-12_R0Y_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/e07ff959-723c-4618-a9e0-4241e993d730.jpeg?auto=format"
+      ]
     },
     {
       "rank": 5,
-      "name": "Tech Marketing Framework",
-      "url": "https://www.producthunt.com/products/tech-marketing-framework",
-      "service_url": "https://www.producthunt.com/r/3E3NF4ZXWM7D35",
-      "website": "https://www.producthunt.com/r/3E3NF4ZXWM7D35",
-      "votes": 133,
-      "tagline": "Forkable GTM system for builders struggling with marketing",
-      "summary": "마케팅에 어려움을 겪는 개발자를 위한 GTM 시스템으로, AI 기반 마케팅 VP의 경험을 바탕으로 구축되어 빠른 출시, 메시지 조정, 채널 발굴, 자산 생성 등을 지원합니다.",
+      "name": "Layered",
+      "url": "https://www.producthunt.com/products/layered-2",
+      "service_url": "https://www.producthunt.com/r/JEPNNIS2C3DUQE",
+      "website": "https://www.producthunt.com/r/JEPNNIS2C3DUQE",
+      "votes": 125,
+      "tagline": "Turn your selfies into a personal AI stylist",
+      "summary": "셀카를 기반으로 개인 AI 스타일리스트를 만들어 옷장 관리, 스타일 추천, 여행 짐 싸기까지 도와주는 서비스",
       "key_points": [
-        "에이전트 및 스킬을 활용하여 출시 시간 단축",
-        "인터랙티브 워크숍을 통해 메시징 최적화",
-        "광범위한 채널 디렉토리를 통해 타겟 고객층 발견"
+        "셀카를 분석하여 옷장을 자동으로 구축",
+        "소유한 옷을 기반으로 데일리 스타일 추천",
+        "여행 목적지, 날씨, 짐 크기에 맞는 여행 캡슐 제공"
       ],
       "tags": [
-        "마케팅",
-        "자동화",
-        "GTM",
         "AI",
-        "Agent",
-        "AI Tool",
-        "Marketing"
+        "패션",
+        "스타일",
+        "옷장관리",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "새로운 제품을 출시할 때 마케팅 전략 수립 및 실행에 필요한 시간과 노력을 줄여주고, 더 많은 사용자에게 효과적으로 도달할 수 있도록 돕습니다.",
+      "practical_relevance": "옷장 정리 및 스타일링 고민을 덜어주고, 옷의 활용도를 높여줍니다. 홈 화면 위젯으로 매일 코디를 확인할 수 있어 편리합니다.",
       "recommended_actions": [
-        "메시징 워크숍을 통해 제품 메시지 정의",
-        "채널 디렉토리에서 타겟 고객이 활동하는 채널 탐색",
-        "자산 생성 기능을 활용하여 마케팅 자료 제작"
+        "셀카를 업로드하여 옷장을 생성",
+        "데일리 스타일 추천 받기",
+        "여행 계획을 세우고 여행 캡슐 생성하기"
       ],
       "risks_and_limits": [
-        "AI 기반 기능의 성능은 데이터 품질에 따라 달라질 수 있음",
-        "특정 채널에 대한 정보가 최신이 아닐 수 있으므로 확인 필요"
+        "셀카 품질에 따라 옷장 인식 정확도가 달라질 수 있음",
+        "AI 스타일 추천이 개인 취향과 다를 수 있음"
       ],
-      "uncertainty_note": "제공되는 채널 디렉토리의 최신 정보 업데이트 주기를 확인해야 합니다.",
+      "uncertainty_note": "AI 스타일 추천의 정확도 및 사용자 만족도에 대한 추가적인 사용 후기 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Tech_Marketing_Framework.jpg",
+      "local_image_path": "images/ph_2026-04-12_Layered.jpg",
       "local_media": [
-        "images/ph_2026-04-11_Tech_Marketing_Framework_media_0.jpg",
-        "images/ph_2026-04-11_Tech_Marketing_Framework_media_1.jpg",
-        "images/ph_2026-04-11_Tech_Marketing_Framework_media_2.jpg"
+        "images/ph_2026-04-12_Layered_media_0.jpg",
+        "images/ph_2026-04-12_Layered_media_1.jpg",
+        "images/ph_2026-04-12_Layered_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 6,
-      "name": "Clicky",
-      "url": "https://www.producthunt.com/products/clicky-2",
-      "service_url": "https://www.producthunt.com/r/KIQ5Q2NH5ULTOV",
-      "website": "https://www.producthunt.com/r/KIQ5Q2NH5ULTOV",
-      "votes": 108,
-      "tagline": "AI buddy next to your cursor on Mac—sees, guides, helps you!",
-      "summary": "Clicky는 macOS에서 커서 옆에 나타나는 AI 친구로, 화면을 보고 음성을 듣고 사용자가 작업하는 모든 과정을 안내하여 생산성을 향상시켜 줍니다.",
+      "name": "ClarifierAI for IOS",
+      "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+      "service_url": "https://www.producthunt.com/r/4F2SD47CRIE4JX",
+      "website": "https://www.producthunt.com/r/4F2SD47CRIE4JX",
+      "votes": 124,
+      "tagline": "Use AI for writing & translating your messages 10x faster",
+      "summary": "ClarifierAI는 아이폰 키보드 앱으로, AI를 활용해 메시지 작성 및 번역 속도를 10배 향상시켜 생산성을 높여줍니다.",
       "key_points": [
-        "macOS용 무료 AI 도우미",
-        "Claude, AssemblyAI, ElevenLabs 기반",
-        "오픈 소스이며 Apple Silicon 및 Intel Mac 모두 지원"
+        "AI 기반 메시지 명확화 기능",
+        "113개 언어 번역 지원",
+        "모든 앱에서 사용 가능한 키보드"
       ],
       "tags": [
         "AI",
         "생산성",
-        "macOS",
-        "개발 도구",
-        "자동화",
-        "AI Tool",
-        "DevTool"
+        "번역",
+        "키보드",
+        "iOS",
+        "AI Tool"
       ],
       "confidence": "중",
       "adoption_complexity": "하",
-      "practical_relevance": "Figma, DaVinci, 코드 편집 등 다양한 작업 환경에서 질문에 대한 답변을 얻고, 단계별 안내를 받으며, 실시간 도움을 받을 수 있습니다. 숙련된 친구가 옆에서 도와주는 것처럼 느껴질 것입니다.",
+      "practical_relevance": "Gmail, LinkedIn, iMessage 등 다양한 앱에서 메시지를 더 명확하게 작성하고 번역하여 커뮤니케이션 효율성을 높일 수 있습니다.",
       "recommended_actions": [
-        "Clicky 다운로드 및 설치",
-        "음성 명령을 통해 질문하기",
-        "Figma 또는 코드 편집기에서 사용해보기"
+        "ClarifierAI 키보드 설치 및 활성화",
+        "메시지 작성 시 AI 명확화 기능 사용",
+        "필요한 언어로 번역 기능 활용"
       ],
       "risks_and_limits": [
-        "Claude, AssemblyAI, ElevenLabs API 사용량에 따른 제한 가능성",
-        "오픈 소스 프로젝트이므로 보안 및 개인 정보 보호에 유의"
+        "AI 기능의 정확도 확인 필요",
+        "개인 정보 처리 방침 확인"
       ],
-      "uncertainty_note": "AI 모델의 성능 및 정확도는 사용 환경 및 작업 내용에 따라 달라질 수 있습니다.",
+      "uncertainty_note": "AI 기반 명확화 기능의 성능은 사용자의 문장 스타일과 복잡성에 따라 달라질 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Clicky.jpg",
+      "local_image_path": "images/ph_2026-04-12_ClarifierAI_for_IOS.jpg",
       "local_media": [
-        "images/ph_2026-04-11_Clicky_media_0.jpg",
-        "images/ph_2026-04-11_Clicky_media_1.jpg",
-        "images/ph_2026-04-11_Clicky_media_2.jpg"
+        "images/ph_2026-04-12_ClarifierAI_for_IOS_media_0.jpg",
+        "images/ph_2026-04-12_ClarifierAI_for_IOS_media_1.jpg",
+        "images/ph_2026-04-12_ClarifierAI_for_IOS_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/62db9967-ddc8-4007-8e1b-39e8c58f9936.jpeg?auto=format"
+        "https://ph-files.imgix.net/44973cb3-db03-43e9-9437-41c88a00b154.gif?auto=format"
       ]
     },
     {
       "rank": 7,
-      "name": "Voicr for Mac",
-      "url": "https://www.producthunt.com/products/voicr-for-mac",
-      "service_url": "https://www.producthunt.com/r/PQKKBOJ2X37KH2",
-      "website": "https://www.producthunt.com/r/PQKKBOJ2X37KH2",
-      "votes": 98,
-      "tagline": "Dictate and get improved or translated text",
-      "summary": "Voicr는 Mac에서 음성 받아쓰기, 텍스트 개선, 27개 언어 번역을 하나의 앱으로 해결하여 생산성을 높여줍니다.",
+      "name": "Edgee Codex Compressor",
+      "url": "https://www.producthunt.com/products/edgee",
+      "service_url": "https://www.producthunt.com/r/Z556YL2S7RXN7P",
+      "website": "https://www.producthunt.com/r/Z556YL2S7RXN7P",
+      "votes": 119,
+      "tagline": "Use Codex at 35.6% lower costs",
+      "summary": "Edgee Codex Compressor는 Codex 사용 비용을 35.6% 절감시켜주는 솔루션입니다. 입력 토큰 감소, 캐시 적중률 향상 등을 통해 Codex를 더 효율적으로 만들어줍니다.",
       "key_points": [
-        "음성 받아쓰기 후 즉시 텍스트 개선",
-        "27개 언어 번역 지원",
-        "단축키로 텍스트 수정 및 재작성"
+        "Codex 사용 비용 35.6% 절감",
+        "입력 토큰 49.5% 감소",
+        "캐시 적중률 76.1%에서 85.4%로 향상"
       ],
       "tags": [
-        "productivity",
-        "voice recognition",
-        "translation",
-        "text editing"
+        "DevTool",
+        "Compression",
+        "Codex",
+        "CostSaving",
+        "Automation",
+        "AI Tool"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "메뉴 막대에 상주하며, 음성으로 아이디어를 빠르게 캡처하고 텍스트 작업을 효율적으로 관리할 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "Codex를 사용하는 개발자는 Edgee를 통해 비용을 절감하고 효율성을 높일 수 있습니다. 특히, 토큰 사용량에 민감한 경우 유용합니다.",
       "recommended_actions": [
-        "음성 받아쓰기 기능으로 긴 텍스트 작성해보기",
-        "번역 기능으로 외국어 텍스트 번역해보기",
-        "단축키를 사용하여 기존 텍스트 수정해보기"
+        "Edgee Codex Compressor 연동 방법 확인",
+        "Codex 사용량 및 비용 분석",
+        "Edgee 적용 전후 성능 비교"
       ],
       "risks_and_limits": [
-        "음성 인식 정확도는 사용 환경에 따라 달라질 수 있음",
-        "지원 언어 및 기능 업데이트 확인 필요"
+        "Edgee 연동 과정에서 발생할 수 있는 호환성 문제 확인",
+        "압축 과정에서 발생할 수 있는 정보 손실 가능성 검토"
       ],
-      "uncertainty_note": "음성 인식 정확도 및 텍스트 개선 품질에 대한 사용자 리뷰 확인이 필요합니다.",
+      "uncertainty_note": "실제 사용 환경에 따른 비용 절감 효과는 달라질 수 있으므로, 자체적인 테스트를 통해 확인하는 것이 좋습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_Voicr_for_Mac.jpg",
+      "local_image_path": "images/ph_2026-04-12_Edgee_Codex_Compressor.jpg",
       "local_media": [
-        "images/ph_2026-04-11_Voicr_for_Mac_media_1.jpg",
-        "images/ph_2026-04-11_Voicr_for_Mac_media_2.jpg",
-        "images/ph_2026-04-11_Voicr_for_Mac_media_3.jpg"
+        "images/ph_2026-04-12_Edgee_Codex_Compressor_media_0.jpg",
+        "images/ph_2026-04-12_Edgee_Codex_Compressor_media_1.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/e10b94e8-65c9-43aa-91aa-3ad6aee7778e.jpeg?auto=format"
+        "https://ph-files.imgix.net/148b756c-3e61-4daa-9368-92be7de0d90a.jpeg?auto=format"
       ]
     },
     {
       "rank": 8,
-      "name": "1% Better",
-      "url": "https://www.producthunt.com/products/1-better-habit-tracker",
-      "service_url": "https://www.producthunt.com/r/ZXJSG6V36UXOBF",
-      "website": "https://www.producthunt.com/r/ZXJSG6V36UXOBF",
-      "votes": 94,
-      "tagline": "Visualise the compounding effect of your daily habits",
-      "summary": "매일 1%씩 성장하는 습관의 복리 효과를 시각적으로 보여주는 습관 추적 앱으로, 꾸준한 성장을 장려합니다.",
+      "name": "Nicelydone MCP",
+      "url": "https://www.producthunt.com/products/nicely-done",
+      "service_url": "https://www.producthunt.com/r/UYVNHPGPMLBRIH",
+      "website": "https://www.producthunt.com/r/UYVNHPGPMLBRIH",
+      "votes": 113,
+      "tagline": "Design context for AI agents",
+      "summary": "Nicelydone MCP는 AI 에이전트가 실제 제품의 UI 디자인 맥락을 이해하도록 돕는 도구로, 14만 개 이상의 실제 화면, 사용자 흐름, UI 컴포넌트 데이터베이스에 접근 권한을 제공하여 AI가 생성하는 페이지의 디자인 품질을 향상시킵니다.",
       "key_points": [
-        "매일 '1% 더 나아졌는가?'라는 질문에 Yes/No로 간단하게 답변하여 습관 추적",
-        "복리 효과를 시각적으로 보여주는 그래프 제공",
-        "최소한의 기능과 개인 정보 보호를 우선으로 설계"
+        "14만 개 이상의 실제 제품 UI 데이터베이스 제공",
+        "Claude, Cursor, VS Code 등 다양한 도구와 연동",
+        "AI 에이전트의 디자인 이해도 향상"
       ],
       "tags": [
-        "생산성",
-        "습관",
-        "자기계발",
-        "추적",
+        "AI",
+        "디자인",
+        "UI",
+        "개발 도구",
+        "Agent",
         "AI Tool",
-        "Design"
+        "Design",
+        "DevTool"
       ],
       "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "습관 추적을 데이터 입력 작업처럼 느끼게 하지 않고, 꾸준히 습관을 유지하도록 동기를 부여합니다. 매일 조금씩 성장하는 것을 시각적으로 확인할 수 있습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "AI 에이전트가 생성하는 결과물의 디자인이 획일적이지 않고 실제 제품과 유사한 수준으로 향상되어 사용자 경험을 개선하고, 개발 시간을 단축할 수 있습니다.",
       "recommended_actions": [
-        "매일 습관을 추적하고 1% 성장했는지 자문해보기",
-        "성장 그래프를 통해 복리 효과를 시각적으로 확인하기",
-        "개인 정보 설정 확인하기"
+        "Claude와 연동하여 AI가 생성하는 디자인 개선",
+        "Cursor 또는 VS Code에서 UI 컴포넌트 검색 및 활용",
+        "제공되는 UI 데이터베이스 탐색"
       ],
       "risks_and_limits": [
-        "단순한 Yes/No 답변 방식이 모든 습관 추적에 적합하지 않을 수 있음",
-        "데이터 입력 누락 시 그래프에 영향을 줄 수 있음"
+        "제공되는 UI 데이터베이스의 최신성 확인 필요",
+        "특정 산업 또는 디자인 트렌드에 편향되었을 가능성 고려"
       ],
-      "uncertainty_note": "실제 사용 시 데이터 정확도 및 장기적인 습관 형성에 미치는 영향에 대한 추가적인 검증이 필요합니다.",
+      "uncertainty_note": "제공되는 UI 데이터베이스의 업데이트 빈도 및 데이터 수집 기준에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_1%_Better.jpg",
+      "local_image_path": "images/ph_2026-04-12_Nicelydone_MCP.jpg",
       "local_media": [
-        "images/ph_2026-04-11_1%_Better_media_0.jpg",
-        "images/ph_2026-04-11_1%_Better_media_1.jpg",
-        "images/ph_2026-04-11_1%_Better_media_2.jpg"
+        "images/ph_2026-04-12_Nicelydone_MCP_media_0.jpg",
+        "images/ph_2026-04-12_Nicelydone_MCP_media_1.jpg",
+        "images/ph_2026-04-12_Nicelydone_MCP_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 9,
-      "name": "shush",
-      "url": "https://www.producthunt.com/products/shush-5",
-      "service_url": "https://www.producthunt.com/r/CY64CCN23RJRIM",
-      "website": "https://www.producthunt.com/r/CY64CCN23RJRIM",
-      "votes": 94,
-      "tagline": "Room-aware noise. Quieter. Smarter. Better REM sleep.",
-      "summary": "Shush는 주변 소음을 분석하여 최적화된 사운드를 제공, 더 조용하고 스마트하게 깊은 잠을 잘 수 있도록 도와주는 앱입니다.",
+      "name": "LLM-Citeops",
+      "url": "https://www.producthunt.com/products/llm-citeops",
+      "service_url": "https://www.producthunt.com/r/HOSO43BGONVKNE",
+      "website": "https://www.producthunt.com/r/HOSO43BGONVKNE",
+      "votes": 13,
+      "tagline": "Fix 60% scores of AEO and GEO scores without single penny. ",
+      "summary": "LLM-Citeops는 Node.js 기반 무료 CLI 도구로, 웹 페이지의 AEO(Answer-ready Content) 및 GEO(AI Trust) 점수를 측정하여 콘텐츠 품질을 개선하고 CI 환경에서 점수 하락을 방지합니다.",
       "key_points": [
-        "주변 소음 분석 및 제거 기능",
-        "실시간 사운드 합성으로 반복 없는 자연스러운 소리 제공",
-        "스마트 수면 타이머 및 이명 필터 기능"
+        "무료 Node.js CLI 도구",
+        "AEO 및 GEO 점수 측정으로 콘텐츠 최적화",
+        "HTML, JSON, CSV 형식으로 결과 출력"
       ],
       "tags": [
-        "수면",
-        "소음제거",
-        "건강",
-        "사운드",
-        "웰빙",
-        "AI Tool"
+        "DevTool",
+        "CLI",
+        "SEO",
+        "AI",
+        "Automation",
+        "AI Tool",
+        "LLM"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "기존 소음 앱과 달리 주변 환경에 맞춰 소리를 조절하여 더욱 편안하고 깊은 수면을 유도하며, 작은 볼륨으로도 효과적인 소음 차단 효과를 제공합니다.",
+      "practical_relevance": "웹 페이지 콘텐츠가 AI 검색에 적합한지 평가하고, 신뢰도를 높여 사용자 만족도를 향상시킬 수 있습니다. 특히, 콘텐츠 품질 관리를 자동화하여 지속적인 개선을 가능하게 합니다.",
       "recommended_actions": [
-        "수면 환경에 맞는 사운드 프로필 설정",
-        "스마트 수면 타이머 설정",
-        "이명 필터 기능 활용"
+        "CLI 설치 및 간단한 웹 페이지 테스트",
+        "CI 환경에 통합하여 점수 변화 모니터링",
+        "결과를 바탕으로 콘텐츠 개선"
       ],
       "risks_and_limits": [
-        "방의 소음 분석 정확도에 따라 효과가 달라질 수 있음",
-        "개인의 선호도에 따라 사운드 효과가 다르게 느껴질 수 있음"
+        "Node.js 환경 필요",
+        "AEO/GEO 점수 기준에 대한 이해 필요"
       ],
-      "uncertainty_note": "실제 사용 환경에서의 소음 제거 효과 및 수면 개선 효과에 대한 추가적인 사용자 리뷰 확인이 필요합니다.",
+      "uncertainty_note": "AEO 및 GEO 점수가 실제 사용자 경험과 콘텐츠 품질을 얼마나 정확하게 반영하는지 추가적인 검증이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_shush.jpg",
+      "local_image_path": "images/ph_2026-04-12_LLM-Citeops.jpg",
       "local_media": [
-        "images/ph_2026-04-11_shush_media_0.jpg",
-        "images/ph_2026-04-11_shush_media_1.jpg",
-        "images/ph_2026-04-11_shush_media_2.jpg"
+        "images/ph_2026-04-12_LLM-Citeops_media_0.jpg",
+        "images/ph_2026-04-12_LLM-Citeops_media_1.jpg",
+        "images/ph_2026-04-12_LLM-Citeops_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 10,
-      "name": "aperture",
-      "url": "https://www.producthunt.com/products/aperture-4",
-      "service_url": "https://www.producthunt.com/r/EN2S5LHUTI6KAE",
-      "website": "https://www.producthunt.com/r/EN2S5LHUTI6KAE",
-      "votes": 90,
-      "tagline": "hiring is broken. we're building the fix.",
-      "summary": "Aperture는 AI 기반 행동 인터뷰와 비교 순위 시스템을 통해 이력서 검토를 대체하여 채용 과정을 혁신합니다.",
+      "name": "ARCH",
+      "url": "https://www.producthunt.com/products/arch-4",
+      "service_url": "https://www.producthunt.com/r/QXDT6WJ33GVO5O",
+      "website": "https://www.producthunt.com/r/QXDT6WJ33GVO5O",
+      "votes": 9,
+      "tagline": "Design production‑grade cloud architecture in your browser",
+      "summary": "ARCH는 브라우저에서 클라우드 아키텍처를 설계하고 시각화할 수 있는 로컬 우선 도구로, 다양한 클라우드 공급자의 구성 요소를 드래그 앤 드롭하여 다이어그램을 만들고, JSON, YAML, Terraform 등의 코드를 시각화합니다.",
       "key_points": [
-        "AI 기반 행동 인터뷰를 통해 지원자의 실제 역량 평가",
-        "비교 순위 시스템으로 객관적인 인재 선별",
-        "이력서 기반의 기존 채용 방식의 한계 극복"
+        "AWS, Azure, GCP 등 다양한 클라우드 공급자 지원",
+        "JSON, YAML, Terraform 코드 시각화 기능",
+        "브라우저 기반으로 오프라인 사용 가능 및 데이터 로컬 저장"
       ],
       "tags": [
-        "AI",
-        "채용",
-        "인터뷰",
-        "HRTech",
-        "자동화",
-        "AI Tool"
+        "클라우드",
+        "아키텍처",
+        "다이어그램",
+        "시각화",
+        "DevTool",
+        "Design"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "채용 담당자는 Aperture를 통해 시간과 비용을 절약하고, 더 적합한 인재를 효율적으로 찾을 수 있습니다. 지원자는 자신의 역량을 정확하게 보여줄 기회를 얻습니다.",
+      "practical_relevance": "클라우드 아키텍처를 쉽게 설계하고 시각화하여 협업 및 문서화 효율성을 높일 수 있으며, 코드를 기반으로 아키텍처를 빠르게 이해할 수 있도록 돕습니다.",
       "recommended_actions": [
-        "AI 행동 인터뷰 설정 및 진행",
-        "지원자 비교 순위 확인 및 분석",
-        "채용 프로세스에 Aperture 통합"
+        "다양한 클라우드 공급자의 구성 요소를 드래그 앤 드롭하여 아키텍처 다이어그램 생성",
+        "JSON, YAML, Terraform 코드를 업로드하여 시각화된 아키텍처 확인",
+        "생성된 다이어그램을 PNG, SVG, PDF 형식으로 내보내기"
       ],
       "risks_and_limits": [
-        "AI 평가의 공정성 및 편향성 검토 필요",
-        "지원자의 기술적 이해도에 따른 인터뷰 결과 해석 주의"
+        "브라우저 기반이므로 지원되는 브라우저 및 IndexedDB 호환성 확인 필요",
+        "복잡한 아키텍처의 경우 브라우저 성능에 따라 로딩 속도가 느려질 수 있음"
       ],
-      "uncertainty_note": "Aperture의 AI 알고리즘이 특정 직무 또는 산업에 최적화되어 있는지 확인이 필요합니다.",
+      "uncertainty_note": "지원하는 클라우드 공급자의 구성 요소 종류 및 업데이트 주기를 확인해야 합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-11_aperture.jpg",
+      "local_image_path": "images/ph_2026-04-12_ARCH.jpg",
       "local_media": [
-        "images/ph_2026-04-11_aperture_media_0.jpg",
-        "images/ph_2026-04-11_aperture_media_1.jpg",
-        "images/ph_2026-04-11_aperture_media_2.jpg"
+        "images/ph_2026-04-12_ARCH_media_0.jpg",
+        "images/ph_2026-04-12_ARCH_media_1.jpg",
+        "images/ph_2026-04-12_ARCH_media_2.jpg"
       ],
       "video_links": []
     }
