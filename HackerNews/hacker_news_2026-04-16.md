@@ -1,0 +1,252 @@
+# 🟠 Hacker News Daily Top 10 (2026-04-16)
+
+## 1. [Stop Flock](https://stopflock.com)
+**Score**: 917 | **Comments**: 269 | **Rank Score**: 643.868
+**작성자**: cdrnsf | **게시 시각(KST)**: 2026-04-15T06:56:05+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47772012
+
+### 📰 원문 기사 요약
+Flock Safety는 AI를 사용하여 차량의 '지문'을 생성, 단순히 번호판뿐 아니라 색상, 모델, 루프 랙, 손상 여부까지 식별한다. 'Convoy Analysis' 기능은 함께 자주 나타나는 차량을 감지하여 운전자 간의 연관성을 추정한다. 이 시스템은 '좌측 손상된 파란색 세단'처럼 번호판 없이도 차량을 검색할 수 있게 한다. 경찰은 이 정보를 통해 용의 차량을 식별하고 공범을 찾아낼 수 있다고 주장한다.
+
+### 💬 Hacker News 토론 요약
+Flock 감시 시스템이 범죄 감소에 효과가 있는지에 대한 의문이 제기되고 있으며, 감시 데이터 오용 가능성에 대한 우려가 크다. 한편, 감시 시스템 도입의 동기와 인센티브를 이해해야 한다는 의견도 있다.
+
+### 📌 종합 요약
+Stop Flock은 AI 기반 감시 시스템의 확산에 대한 우려를 제기한다. 이 시스템은 차량의 특징을 식별하여 데이터베이스를 구축하고, 영장 없이 경찰이 접근할 수 있어 개인 정보 침해 및 오용의 위험이 있다는 비판을 받는다. 커뮤니티에서는 감시 시스템의 동기와 악용 사례에 대한 논쟁이 활발하다.
+
+### 🔎 종합 핵심 포인트
+- Flock Safety의 AI 감시 시스템은 차량의 번호판 외에 다양한 특징을 식별하여 데이터베이스를 구축한다.
+- Convoy Analysis 기능은 함께 자주 나타나는 차량을 감지하여 운전자 간의 연관성을 추정하는 데 사용될 수 있다.
+- 감시 시스템의 효과와 오용 가능성에 대한 논쟁이 있으며, 개인 정보 보호와 공공 안전 사이의 균형이 중요한 쟁점이다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: AI, 감시, 개인정보보호, 데이터베이스, 법집행
+
+---
+
+## 2. [Tell HN: Fiverr left customer files public and searchable](https://news.ycombinator.com/item?id=47769796)
+**Score**: 786 | **Comments**: 220 | **Rank Score**: 551.984
+**작성자**: morpheuskafka | **게시 시각(KST)**: 2026-04-15T03:56:40+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47769796
+
+### 📰 원문 기사 요약
+Fiverr는 Cloudinary 서비스를 통해 PDF/이미지 파일을 처리하는데, 이 과정에서 민감한 고객-작업자 간의 통신 내용이 담긴 파일들이 public URL로 제공되었다. 특히, 'form 1040'과 같은 키워드에 대한 Google 광고를 적극적으로 구매하면서도, 결과물의 보안을 제대로 관리하지 않아 GLBA/FTC Safeguards Rule을 위반할 가능성이 있다.
+
+### 💬 Hacker News 토론 요약
+이 문제에 대해 사용자들은 Fiverr의 허술한 보안 관행을 강하게 비판하며, 즉각적인 조치를 촉구하고 있다. Cloudinary 설정을 'authenticated'로 변경하여 문제를 해결할 수 있다는 기술적인 해결책도 제시되었다.
+
+### 📌 종합 요약
+Fiverr가 고객 파일에 대한 접근 권한 관리를 소홀히 하여 개인정보가 담긴 문서가 검색 엔진에 노출되는 심각한 문제가 발생했다. Cloudinary를 사용하는 과정에서 보안 설정을 제대로 하지 않아 벌어진 일이다. 40일 전에 보안팀에 알렸으나 응답이 없어 공개되었다.
+
+### 🔎 종합 핵심 포인트
+- Fiverr는 Cloudinary를 통해 처리되는 파일에 대한 접근 권한 설정을 부적절하게 관리하여 고객의 개인정보를 노출했다.
+- 사용자들은 Fiverr의 보안 불감증을 비판하며, Cloudinary의 'authenticated' 설정을 통해 문제를 해결할 수 있다고 제안한다.
+- 이번 사건은 gig economy 플랫폼에서 개인정보 보호의 중요성을 강조하며, 보안 취약점 보고 프로세스의 개선 필요성을 시사한다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: Fiverr, Cloudinary, 개인정보보호, 보안취약점, gig economy
+
+---
+
+## 3. [Claude Code Routines](https://code.claude.com/docs/en/routines)
+**Score**: 691 | **Comments**: 391 | **Rank Score**: 485.571
+**작성자**: matthieu_bl | **게시 시각(KST)**: 2026-04-15T01:54:33+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47768133
+
+### 📰 원문 기사 요약
+Claude Code는 웹 환경에서 루틴을 통해 작업을 자동화하는 기능이다. 'claude' 명령어를 cron 작업에 사용하는 것은 허용되지만, 텔레그램 봇에 통합하는 것은 서비스 약관 위반이라는 내용이 언급되어 있다.
+
+### 💬 Hacker News 토론 요약
+LLM 제공업체의 불투명성에 대한 우려와 함께, Anthropic의 새로운 기능 및 제품에 대한 비판이 제기되고 있다. 서비스 약관에 대한 혼란도 있어, 특정 사용 사례(cron 작업)는 허용되지만 다른 사용 사례(텔레그램 봇)는 금지되는 이유에 대한 의문이 제기되고 있다.
+
+### 📌 종합 요약
+Anthropic에서 웹 상에서 Claude Code를 활용하여 작업을 자동화하는 루틴 기능을 출시했다. LLM의 블랙박스 문제와 서비스 약관 관련 논쟁이 벌어지고 있다.
+
+### 🔎 종합 핵심 포인트
+- Anthropic에서 웹 기반 Claude Code 루틴을 출시하여 작업 자동화 기능을 제공한다.
+- LLM의 불투명성과 Anthropic 서비스 약관의 모호성에 대한 사용자들의 비판이 존재한다.
+- 자동화 도구를 사용할 때 서비스 약관을 명확히 이해하고 준수하는 것이 중요하다.
+
+**카테고리**: AI/ML
+
+**태그**: LLM, Anthropic, Claude, 자동화, 서비스 약관
+
+---
+
+## 4. [I wrote to Flock's privacy contact to opt out of their domestic spying program](https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html)
+**Score**: 646 | **Comments**: 255 | **Rank Score**: 453.980
+**작성자**: speckx | **게시 시각(KST)**: 2026-04-15T02:47:00+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47768813
+
+### 📰 원문 기사 요약
+캘리포니아 거주자가 CCPA에 의거하여 Flock Safety에 자신의 차량 및 가족 정보 삭제를 요청했습니다. Flock Safety는 요청을 거부하며 개인 정보 수집 및 저장에 대한 동의를 얻지 못했다고 응답했습니다. Flock Safety는 차량 번호판 인식(Automatic License Plate Recognition, ALPR) 기술을 사용하여 데이터를 수집하고 있습니다. 이 데이터는 범죄 수사에 활용될 수 있지만, 개인 정보 침해 논란도 있습니다.
+
+### 💬 Hacker News 토론 요약
+사용자들은 Flock Safety를 'Flock Safety (YC S17)'로 명확히 표기해야 한다는 의견과, 해당 기술의 감시 기능에 대한 우려를 표명하고 있습니다.
+
+### 📌 종합 요약
+캘리포니아 거주자가 Flock Safety의 데이터 수집에 반대하며 개인 정보 삭제를 요청했지만 거절당했습니다. Hacker News에서는 Flock Safety의 감시 기술에 대한 논쟁이 벌어지고 있습니다.
+
+### 🔎 종합 핵심 포인트
+- Flock Safety는 ALPR 기술을 기반으로 차량 데이터를 수집하고 있습니다.
+- 개인 정보 보호 요청에 대한 Flock Safety의 거부 응답이 논란을 야기하고 있습니다.
+- 감시 기술 도입에 따른 개인 정보 침해 가능성에 대한 우려가 제기되고 있습니다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: 개인정보보호, 감시기술, ALPR, Flock Safety, CCPA
+
+---
+
+## 5. [Want to Write a Compiler? Just Read These Two Papers (2008)](https://prog21.dadgum.com/30.html)
+**Score**: 384 | **Comments**: 119 | **Rank Score**: 271.015
+**작성자**: downbad_ | **게시 시각(KST)**: 2026-04-15T18:41:19+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47776796
+
+### 📰 원문 기사 요약
+기존 컴파일러 관련 서적들은 너무 광범위하고 깊이 있는 내용을 다루어 초보자가 시작하기 어렵다. 예를 들어, 정규 표현식을 실행 가능한 상태 기계로 변환하거나 다양한 유형의 문법을 설명하는 데 많은 분량을 할애한다. 이러한 책들은 지식 확장에는 도움이 되지만, 실제로 작동하는 컴파일러를 작성하는 데는 큰 도움이 되지 않는다.
+
+### 💬 Hacker News 토론 요약
+Jack Crenshaw의 'Let's Build a Compiler!' 시리즈가 초보자에게 유용한 자료라는 의견이 있는 반면, Donald Knuth의 'The Art of Computer Programming'과 같이 더 심도 있는 자료를 선호하는 의견도 있다.
+
+### 📌 종합 요약
+컴파일러 작성에 대한 기존 서적들의 광범위한 범위와 복잡성 때문에 초보자가 접근하기 어렵다는 문제점을 지적하고, 더 쉽게 시작할 수 있는 두 논문을 소개한다. Hacker News에서는 컴파일러 학습 자료에 대한 다양한 의견이 제시되었다.
+
+### 🔎 종합 핵심 포인트
+- 컴파일러 학습 자료가 초보자에게 지나치게 어렵다는 점이 문제로 지적된다.
+- Jack Crenshaw의 'Let's Build a Compiler!' 시리즈가 실용적인 대안으로 제시된다.
+- 컴파일러 학습 자료 선택에 대한 다양한 의견이 존재한다.
+
+**카테고리**: 개발 도구
+
+**태그**: 컴파일러, 프로그래밍, 학습 자료, Jack Crenshaw, Donald Knuth
+
+---
+
+## 6. [God Sleeps in the Minerals](https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/)
+**Score**: 346 | **Comments**: 77 | **Rank Score**: 244.429
+**작성자**: speckx | **게시 시각(KST)**: 2026-04-15T22:08:10+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47778475
+
+### 📰 원문 기사 요약
+해당 게시글은 특정 광물의 화학 성분, 결정 구조, 형성 과정 등에 대한 구체적인 정보는 제공하지 않지만, 희귀 광물 표본의 사진과 함께 광물이 지닌 아름다움과 가치를 강조한다. 독자들은 다양한 광물의 색상, 형태, 광택 등을 시각적으로 감상하며, 지구 내부에서 벌어지는 복잡한 화학적, 물리적 작용에 대한 간접적인 이해를 얻을 수 있다.
+
+### 💬 Hacker News 토론 요약
+토론에서는 희귀 광물 표본의 아름다움에 대한 감탄과 함께, 자연 속에 숨겨진 광물의 존재에 대한 놀라움이 주를 이룬다. 특히 석면과 같이 위험한 광물이 다른 광물과 함께 전시되는 것에 대한 우려도 제기되었다.
+
+### 📌 종합 요약
+wchambliss.wordpress.com에 게시된 '광물 속의 신'이라는 제목의 게시글이 Hacker News에서 주목받고 있다. 이 게시글은 희귀하고 아름다운 광물 표본에 대한 경외감을 불러일으키며, 자연의 신비로움을 탐구한다.
+
+### 🔎 종합 핵심 포인트
+- 희귀 광물 표본은 자연의 아름다움과 신비로움을 보여주는 중요한 자료이다.
+- 광물 전시에는 석면과 같은 잠재적 위험 물질에 대한 안전 관리가 필요하다.
+- 지구과학 및 광물학에 대한 일반인의 관심을 높이는 데 기여할 수 있다.
+
+**카테고리**: 기타
+
+**태그**: 광물, 자연, 과학, 지구과학
+
+---
+
+## 7. [Good Sleep, Good Learning (2012)](https://super-memory.com/articles/sleep.htm)
+**Score**: 294 | **Comments**: 136 | **Rank Score**: 208.034
+**작성자**: downbad_ | **게시 시각(KST)**: 2026-04-15T18:11:18+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47776557
+
+### 📰 원문 기사 요약
+해당 글은 수면의 질이 학습 능력에 미치는 영향에 대해 다루고 있지만, 구체적인 연구 방법론이나 통계적 수치, 신경과학적 메커니즘 등은 언급되지 않았습니다. 따라서 수면과 학습 간의 상관관계를 뒷받침하는 과학적 근거를 제시하지는 않습니다.
+
+### 💬 Hacker News 토론 요약
+토론에서는 삶의 만족도가 수면의 질에 영향을 미친다는 의견과, 불규칙한 수면 패턴에도 불구하고 불편함이 없다는 경험적 주장이 대립했습니다. 개인의 행복감과 수면 습관 간의 관계에 대한 다양한 관점이 제시되었습니다.
+
+### 📌 종합 요약
+2012년에 발표된 '좋은 수면, 좋은 학습'이라는 제목의 글입니다. 수면의 중요성과 학습 능력 간의 연관성에 대한 인사이트를 제공하며, 행복과 삶의 만족도가 수면의 질에 미치는 영향에 대한 토론이 있었습니다.
+
+### 🔎 종합 핵심 포인트
+- 정신적 만족도가 수면의 질에 중요한 영향을 미칠 수 있다.
+- 개인의 수면 패턴은 획일적이지 않으며, 삶의 만족도에 따라 다를 수 있다.
+- 수면과 학습 능력 간의 관계는 복잡하며, 추가적인 연구가 필요하다.
+
+**카테고리**: 기타
+
+**태그**: 수면, 학습, 건강, 생산성
+
+---
+
+## 8. [The future of everything is lies, I guess: Work](https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work)
+**Score**: 279 | **Comments**: 214 | **Rank Score**: 196.912
+**작성자**: aphyr | **게시 시각(KST)**: 2026-04-15T00:00:45+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47766550
+
+### 📰 원문 기사 요약
+외부 원문 기사가 없어 요약할 내용이 없습니다.
+
+### 💬 Hacker News 토론 요약
+한 댓글에서는 AI 발전 속도에 대한 질문을 던지며, 지수 함수적 성장세가 정점에 다다르고 있는지에 대한 의문을 제기한다. 다른 댓글에서는 에어프랑스 447편 추락 사고의 조종실 기록을 예시로 들며, AI 시스템의 빠른 실패 가능성을 경고하고 있다.
+
+### 📌 종합 요약
+aphyr.com에 올라온 '모든 것의 미래는 거짓말'이라는 제목의 글이 Hacker News에서 높은 관심을 받고 있다. AI의 발전과 그에 따른 위험, 그리고 기술 발전의 방향성에 대한 논의가 활발하게 진행 중이다.
+
+### 🔎 종합 핵심 포인트
+- AI 기술 발전의 가속화와 그에 따른 잠재적 위험에 대한 우려가 커지고 있다.
+- 기술 발전의 방향성이 지수 함수적 성장세의 정점에 도달했는지에 대한 논쟁이 존재한다.
+- AI 시스템의 복잡성과 빠른 실패 가능성에 대한 경각심이 필요하다.
+
+**카테고리**: AI/ML
+
+**태그**: AI, 미래, 기술, 위험, 성장
+
+---
+
+## 9. [OpenSSL 4.0.0](https://github.com/openssl/openssl/releases/tag/openssl-4.0.0)
+**Score**: 272 | **Comments**: 84 | **Rank Score**: 191.848
+**작성자**: petecooper | **게시 시각(KST)**: 2026-04-15T02:45:34+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47768788
+
+### 📰 원문 기사 요약
+해당 사항 없음
+
+### 💬 Hacker News 토론 요약
+capitol_ 사용자는 암호화된 클라이언트 Hello 지원에 환호하는 반면, georgthegreat 사용자는 HAProxy 블로그의 내용을 인용하며 OpenSSL v3 사용에 대한 우려를 제기하고 있습니다.
+
+### 📌 종합 요약
+OpenSSL 4.0.0 버전이 출시되어, 암호화된 클라이언트 Hello 지원이 추가되었습니다. HAProxy 블로그에서는 OpenSSL v3 사용에 대한 주의를 당부하고 있어, 이번 업데이트에 대한 신중한 접근이 필요해 보입니다.
+
+### 🔎 종합 핵심 포인트
+- OpenSSL 4.0.0에 암호화된 클라이언트 Hello 지원이 추가되었다.
+- HAProxy 블로그에서는 OpenSSL v3 사용에 대한 잠재적 위험성을 경고하고 있다.
+- OpenSSL 업데이트 시 HAProxy 등 관련 기술 스택과의 호환성을 신중히 고려해야 한다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: OpenSSL, 암호화, 보안, HAProxy
+
+---
+
+## 10. [Fixing a 20-year-old bug in Enlightenment E16](https://iczelia.net/posts/e16-20-year-old-bug/)
+**Score**: 239 | **Comments**: 138 | **Rank Score**: 169.355
+**작성자**: snoofydude | **게시 시각(KST)**: 2026-04-15T13:47:00+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47774789
+
+### 📰 원문 기사 요약
+해당 버그는 Enlightenment E16에서 특정 조건 하에 발생하는 hang 문제였습니다. 'Sadly, the hang was deterministic'라는 댓글처럼, 결정적인(deterministic) 버그였기에 테스트 케이스를 통해 수정 여부를 명확히 확인할 수 있었습니다.
+
+### 💬 Hacker News 토론 요약
+과거 Enlightenment를 사용했던 사용자들은 이번 버그 수정에 대해 향수를 느끼며 긍정적인 반응을 보였습니다. 오래된 프로젝트임에도 불구하고 지속적인 개선이 이루어지고 있다는 점에 주목하고 있습니다.
+
+### 📌 종합 요약
+20년 된 Enlightenment E16 창 관리자의 버그가 수정되었습니다. 결정적인 버그 수정은 개발자에게 기쁜 일이며, 과거 향수를 자극하는 사용자들의 긍정적인 반응이 있었습니다.
+
+### 🔎 종합 핵심 포인트
+- 20년 된 Enlightenment E16 창 관리자의 결정적 버그가 수정됨
+- 과거 사용자들은 Enlightenment의 지속적인 개선에 긍정적인 반응을 보임
+- 결정적인 버그는 테스트 케이스를 통해 수정 여부를 명확히 검증할 수 있다는 점이 강조됨
+
+**카테고리**: 개발 도구
+
+**태그**: Enlightenment, E16, 버그 수정, 창 관리자, 오픈소스
+
+---
+
