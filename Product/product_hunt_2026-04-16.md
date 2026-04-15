@@ -1,0 +1,412 @@
+# 🚀 Product Hunt Daily Top 10 (2026-04-16)
+
+## 1. [Claude Code Routines](https://www.producthunt.com/products/claude)
+**Votes**: 363 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Put Claude Code tasks on autopilot with smart routines
+**서비스 링크**: https://www.producthunt.com/r/C2HEOHKNZ3RKQM
+**재등장**: 최근 7일 내 재등장 (마지막 등장 3일 전)
+
+**태그**: DevTool, Automation, AI, Code Review, AI Tool, API
+
+<img src="images/ph_2026-04-15_Claude_Code_Routines.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude Code Routines는 스케줄, API 호출, GitHub 이벤트에 따라 AI 코딩 자동화를 실행하여 PR 검토, 백로그 분류, 배포 검증 등을 자동화해주는 툴입니다.
+
+### 🔑 주요 기능
+- Anthropic에서 관리하는 인프라에서 AI 코딩 자동화 실행
+- 스케줄, API 호출, GitHub 이벤트 기반 트리거
+- PR 검토, 백로그 분류, 배포 검증 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+더 이상 cron 작업이나 서버를 직접 관리할 필요 없이, Claude를 통해 코딩 관련 작업을 자동화하여 개발 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- GitHub 연동하여 PR 자동 검토 설정
+- API 호출 기반 자동화 루틴 설정
+- 스케줄 기반 백로그 자동 분류 설정
+
+### ⚠️ 사용 전 확인할 점
+- Pro, Max, Team, Enterprise 플랜에서만 사용 가능
+- Anthropic 인프라에 대한 의존성
+
+### 🧭 확인이 더 필요한 정보
+지원되는 GitHub 이벤트의 종류와 API 호출 방식에 대한 상세 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Claude_Code_Routines_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Claude_Code_Routines_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Claude_Code_Routines_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a25ae9cd-2efb-4c27-932a-8edec7a64a7b.jpeg?auto=format)
+
+---
+
+## 2. [Fathom 3.0](https://www.producthunt.com/products/fathom)
+**Votes**: 281 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: AI meeting notes: now bot-free, in ChatGPT & Claude + more
+**서비스 링크**: https://www.producthunt.com/r/CS4BN7LVLISWRQ
+
+**태그**: AI, 회의록, 생산성, 자동화, ChatGPT, AI Tool, Chat, Design
+
+<img src="images/ph_2026-04-15_Fathom_3.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Fathom 3.0은 봇 없이 미팅 내용을 캡처하고, ChatGPT 및 Claude와 통합하여 AI 회의록 작성 경험을 향상시켜주는 유연한 AI 도구입니다.
+
+### 🔑 주요 기능
+- 봇 없는 미팅 캡처 기능으로 더욱 자연스러운 회의 진행
+- ChatGPT 및 Claude 통합으로 AI 기능 확장
+- 계정 전체 AI 검색 및 인사이트 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+회의 내용을 자동으로 요약하고 정리해주어 회의 후 업무 효율성을 높여주고, AI 기반 검색 기능으로 필요한 정보를 빠르게 찾을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 봇 없는 미팅 캡처 기능 활성화
+- ChatGPT 또는 Claude 연동하여 사용
+- 계정 전체 AI 검색 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- AI 요약의 정확도는 회의 내용에 따라 달라질 수 있음
+- ChatGPT/Claude API 사용량에 따라 추가 비용 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+Fathom 3.0의 AI 기능이 특정 산업 분야의 회의 내용에 얼마나 최적화되어 있는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Fathom_3.0_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Fathom_3.0_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Fathom_3.0_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cbd168e7-56fd-47bd-871e-c33871254b56.jpeg?auto=format)
+
+---
+
+## 3. [Intent](https://www.producthunt.com/products/augment-code)
+**Votes**: 261 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Describe a feature and AI agents build, verify, and ship it
+**서비스 링크**: https://www.producthunt.com/r/24L77BJFDCD3MD
+
+**태그**: DevTool, AI, Automation, Workflow, Agent, AI Tool
+
+<img src="images/ph_2026-04-15_Intent.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Intent는 AI 에이전트 기반 개발 워크스페이스로, 기능 명세만 정의하면 에이전트 팀이 코드 구현부터 검증, 배포까지 자동화하여 개발 생산성을 높여줍니다.
+
+### 🔑 주요 기능
+- AI 에이전트 기반의 자동화된 개발 프로세스
+- 기능 명세 기반의 개발 워크플로우
+- 코드, 터미널, Git이 통합된 개발 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자는 기능 명세 작성에 집중하고, 반복적인 구현 및 검증 작업은 AI 에이전트에게 맡겨 개발 시간을 단축하고 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 새로운 기능 명세 정의해보기
+- AI 에이전트 팀의 작업 진행 상황 모니터링하기
+- 자동 생성된 코드 검토 및 수정하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트의 코드 품질 및 정확성 검토 필요
+- 복잡한 기능의 경우 명세 정의의 어려움 존재
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트의 성능이 개발 복잡도에 따라 어떻게 달라지는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Intent_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Intent_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Intent_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/38efed6a-95c2-4b88-8200-4ce9092d7eda.jpeg?auto=format)
+
+---
+
+## 4. [Lovable Desktop App](https://www.producthunt.com/products/lovable)
+**Votes**: 216 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Organize projects with tabs & power workflows via local MCPs
+**서비스 링크**: https://www.producthunt.com/r/E5CPQJBUQS3BAC
+
+**태그**: 생산성, 워크플로우, 자동화, Mac, 개발, Automation
+
+<img src="images/ph_2026-04-15_Lovable_Desktop_App.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Lovable Desktop App은 탭 기반 프로젝트 관리와 로컬 MCP 연결을 통해 워크플로우를 간소화하여 생산성을 높여주는 데스크탑 앱입니다.
+
+### 🔑 주요 기능
+- 탭을 이용한 프로젝트 정리
+- 로컬 MCP 연동을 통한 워크플로우 자동화
+- 빠르고 가벼운 Mac 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+프로젝트를 효율적으로 관리하고 자동화된 워크플로우를 통해 개발 속도를 향상시킬 수 있습니다. 또한, Mac 사용자에게 최적화된 환경을 제공하여 더욱 편리하게 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 탭을 사용하여 여러 프로젝트를 동시에 관리해보기
+- 로컬 MCP를 연결하여 워크플로우 자동화 설정해보기
+- 기본 제공되는 단축키를 활용하여 작업 속도 향상시키기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 MCP 연동 시 호환성 확인 필요
+- Mac OS 환경에서만 사용 가능
+
+### 🧭 확인이 더 필요한 정보
+MCP 연동 가능 범위 및 지원되는 MCP 종류에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Lovable_Desktop_App_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Lovable_Desktop_App_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Lovable_Desktop_App_media_2.jpg)
+
+---
+
+## 5. [Gemini Robotics ER 1.6](https://www.producthunt.com/products/google)
+**Votes**: 180 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Google's SOTA robotics model for visual & spatial reasoning!
+**서비스 링크**: https://www.producthunt.com/r/V7AOHINNXB7MG7
+**재등장**: 최근 7일 내 재등장 (마지막 등장 4일 전)
+
+**태그**: 로보틱스, API, 머신러닝, 자동화, Agent, DevTool
+
+<img src="images/ph_2026-04-15_Gemini_Robotics_ER_1.6.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Gemini Robotics ER 1.6은 로봇 추론을 위한 Google의 최첨단 시각-언어 모델로, 로봇 엔지니어와 개발자가 Gemini API를 통해 물리적 에이전트를 구축하는 데 유용합니다.
+
+### 🔑 주요 기능
+- 공간 포인팅 처리
+- 다중 뷰 성공 감지
+- 계기판 판독
+
+### 🙋 사용자에게 어떤 점이 좋은가
+로봇 개발자가 Gemini API를 사용하여 더욱 정교한 로봇 제어 및 자동화 시스템을 구축할 수 있도록 지원합니다. 특히 시각적, 공간적 추론 능력이 필요한 로봇 애플리케이션에 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Gemini API를 통해 로봇에 연결
+- 공간 포인팅 기능 테스트
+- 다양한 시점에서 성공 감지 테스트
+
+### ⚠️ 사용 전 확인할 점
+- Gemini API 사용에 따른 비용 발생 가능성
+- 모델의 정확도 및 신뢰성에 대한 추가 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+실제 로봇 환경에서의 성능 및 안정성에 대한 추가적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Gemini_Robotics_ER_1.6_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Gemini_Robotics_ER_1.6_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Gemini_Robotics_ER_1.6_media_2.jpg)
+
+---
+
+## 6. [CC-BEEPER](https://www.producthunt.com/products/cc-beeper)
+**Votes**: 161 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: A floating macOS pager for Claude Code
+**서비스 링크**: https://www.producthunt.com/r/VFG5QZ4RMQUDYX
+
+**태그**: DevTool, Automation, macOS, Open Source
+
+<img src="images/ph_2026-04-15_CC-BEEPER.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude Code를 사용하는 macOS 환경에서 터미널을 계속 주시할 필요 없이, Claude의 작업 상태를 실시간으로 알려주는 플로팅 페이저 앱입니다.
+
+### 🔑 주요 기능
+- Claude Code 작업 상태를 실시간 LCD 화면으로 확인
+- 4가지 자동 수락 모드 (엄격, 유연, 신뢰, YOLO) 제공
+- 음성 입력, 음성 요약, 단축키, 항상 위에 표시 기능 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+터미널을 계속 확인하지 않아도 Claude Code의 진행 상황을 쉽게 파악할 수 있어 작업 효율성을 높여줍니다. 또한, 다양한 사용자 정의 옵션을 통해 개인의 작업 스타일에 맞게 설정할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자동 수락 모드를 설정하여 Claude의 응답 처리 자동화
+- 단축키를 설정하여 빠르게 기능 접근
+- 테마, 크기, 음성 등을 사용자 정의하여 개인화된 환경 구성
+
+### ⚠️ 사용 전 확인할 점
+- 100% 로컬 환경에서 실행되므로, 보안 설정 확인 필요
+- 오픈 소스이므로, 커뮤니티 지원 및 업데이트 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Claude Code와의 호환성 및 다양한 환경에서의 안정성에 대한 추가적인 사용자 리뷰 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_CC-BEEPER_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_CC-BEEPER_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_CC-BEEPER_media_2.jpg)
+
+---
+
+## 7. [Roll](https://www.producthunt.com/products/roll-3)
+**Votes**: 118 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: The disposable camera for your phone
+**서비스 링크**: https://www.producthunt.com/r/2ZZ2MKC57367IY
+
+**태그**: 사진, 카메라, 아날로그, 재미, 추억, AI Tool
+
+<img src="images/ph_2026-04-15_Roll.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Roll은 스마트폰으로 찍는 일회용 카메라 앱으로, 12장 제한 롤을 사용 후 사진 '현상' 시점을 직접 선택하여 예상치 못한 즐거움을 선사합니다.
+
+### 🔑 주요 기능
+- 일회용 카메라 컨셉으로 사진 촬영의 재미를 더함
+- 12장 제한 롤 방식으로 신중한 촬영 유도
+- 사진 현상 시점 선택 기능으로 깜짝 선물 같은 경험 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디지털 사진에 아날로그 감성을 더하고, 잊고 지내던 사진을 발견하는 즐거움을 줍니다. 특별한 순간을 더욱 의미있게 기록하고 싶을 때 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 롤을 시작하여 12장의 사진 촬영해보기
+- 현상 시점을 설정하여 잊고 기다려보기
+- 친구들과 함께 롤을 공유하고 추억을 나눠보기
+
+### ⚠️ 사용 전 확인할 점
+- 12장 제한으로 인해 많은 사진을 찍기 어려움
+- 현상 시점을 잊어버릴 경우 사진 확인이 늦어질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사진 현상 과정에서 발생하는 데이터 처리 방식 및 개인 정보 보호 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Roll_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Roll_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Roll_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/1ef5680e-3fc9-41ae-a072-5e8bf6704e5d.gif?auto=format)
+
+---
+
+## 8. [Google app for desktop](https://www.producthunt.com/products/the-google-app-for-desktop)
+**Votes**: 115 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: Ask anything with the Google app for desktop
+**서비스 링크**: https://www.producthunt.com/r/YNSHZRMB6DEXWK
+
+**태그**: 검색, AI, 생산성, 유틸리티, AI Tool
+
+<img src="images/ph_2026-04-15_Google_app_for_desktop.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Google 앱을 데스크탑에서 바로 사용하세요! 키보드 단축키로 Lens, AI 응답, 컴퓨터 및 Google Drive 검색 등 다양한 기능을 빠르게 이용할 수 있습니다.
+
+### 🔑 주요 기능
+- 데스크탑에서 Google 앱 기능 사용
+- 키보드 단축키로 빠른 실행
+- Lens, AI 응답, 파일 검색 등 다양한 기능 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+이제 데스크탑에서 Google 앱의 강력한 기능들을 더욱 편리하게 사용할 수 있습니다. 검색 효율성을 높이고 작업 속도를 향상시킬 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 키보드 단축키 설정 및 사용
+- Lens 기능으로 이미지 검색 시도
+- Google Drive 파일 데스크탑에서 검색
+
+### ⚠️ 사용 전 확인할 점
+- 시스템 요구 사항 확인 필요
+- Google 계정 연동 필요
+
+### 🧭 확인이 더 필요한 정보
+AI 응답 기능의 정확도 및 지원 언어 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Google_app_for_desktop_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Google_app_for_desktop_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Google_app_for_desktop_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bf8e50cb-32ec-46ce-8eeb-d2aabf1805a8.jpeg?auto=format)
+
+---
+
+## 9. [Mush](https://www.producthunt.com/products/mush-2)
+**Votes**: 113 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Combine Wi-Fi, Ethernet, and 5G for max download speed
+**서비스 링크**: https://www.producthunt.com/r/UC73J6Q3WSP335
+
+**태그**: 다운로드, 네트워크, 최적화, 병렬 처리, AI Tool
+
+<img src="images/ph_2026-04-15_Mush.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mush는 와이파이, 이더넷, 5G 등 사용 가능한 모든 네트워크 연결을 활용하여 다운로드 속도를 극대화하는 엔진입니다.
+
+### 🔑 주요 기능
+- 여러 네트워크 인터페이스를 동시에 사용하여 다운로드 속도 향상
+- HTTP 및 BitTorrent 프로토콜 지원
+- 실시간 텔레메트리 제공 및 설정 조정 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+네트워크 환경이 좋지 않거나 대용량 파일을 빠르게 다운로드해야 할 때 유용하며, 여러 네트워크를 동시에 활용하여 시간을 절약할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다양한 네트워크 환경에서 다운로드 속도 테스트
+- 텔레메트리 기능을 통해 네트워크 사용량 확인
+- 동시성 및 스케줄링 설정을 조정하여 최적의 성능 찾기
+
+### ⚠️ 사용 전 확인할 점
+- 네트워크 환경 및 서버 제한에 따라 성능이 달라질 수 있음
+- 현재 베타 버전이므로 안정성 문제가 발생할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 환경에서 네트워크 결합을 통해 얻을 수 있는 다운로드 속도 향상 정도에 대한 추가적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Mush_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Mush_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Mush_media_2.jpg)
+
+---
+
+## 10. [Carousels Generator](https://www.producthunt.com/products/carousels-generator)
+**Votes**: 111 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: From prompt to branded LinkedIn carousel powered by AI
+**서비스 링크**: https://www.producthunt.com/r/YJC7UQCMB3T3ES
+
+**태그**: AI, 링크드인, 콘텐츠 제작, 자동화, 브랜딩, AI Tool, Chat, Prompting, Design
+
+<img src="images/ph_2026-04-15_Carousels_Generator.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 기반으로 프롬프트 하나로 디자인, 텍스트가 완성된 링크드인 carousel을 만들어 시간을 절약하고 브랜딩을 강화하세요.
+
+### 🔑 주요 기능
+- AI 기반 링크드인 carousel 자동 생성
+- 웹사이트 URL을 통해 브랜드 키트 자동 임포트 (색상, 폰트, 로고)
+- AI 채팅으로 슬라이드 편집 및 PDF 내보내기, 링크드인 직접 게시 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자인 기술 없이도 간단한 프롬프트만으로 전문적인 링크드인 carousel을 빠르게 제작하여 개인 브랜딩 및 콘텐츠 마케팅 효율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 웹사이트 URL을 입력하여 브랜드 키트 자동 임포트 기능 사용해보기
+- AI 채팅으로 슬라이드 내용 편집해보기
+- 생성된 carousel을 PDF로 내보내거나 링크드인에 직접 게시해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 콘텐츠의 정확성 및 적절성 검토 필요
+- 브랜드 키트 자동 임포트 기능의 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+AI가 생성하는 콘텐츠의 품질이 사용자의 기대 수준에 부합하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-15_Carousels_Generator_media_0.jpg)
+![Screenshot](images/ph_2026-04-15_Carousels_Generator_media_1.jpg)
+![Screenshot](images/ph_2026-04-15_Carousels_Generator_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6f1954fb-a592-4d4b-9e55-6c84188ffb20.jpeg?auto=format)
+
+---
+
