@@ -1,0 +1,252 @@
+# 🟠 Hacker News Daily Top 10 (2026-04-17)
+
+## 1. [Google broke its promise to me – now ICE has my data](https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data)
+**Score**: 1645 | **Comments**: 722 | **Rank Score**: 1153.589
+**작성자**: Brajeshwar | **게시 시각(KST)**: 2026-04-16T02:44:26+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47782570
+
+### 📰 원문 기사 요약
+2024년 9월, 학생 비자로 미국에서 박사 과정을 밟던 Amandla Thomas-Johnson은 팔레스타인 지지 시위에 잠시 참여했다. 2025년 4월, ICE는 Google에 그의 데이터에 대한 행정 소환장을 보냈고, Google은 법 집행 기관에 데이터를 넘기기 전에 사용자에게 통지하겠다는 약속을 깨고 Thomas-Johnson에게 이의를 제기할 기회를 주지 않은 채 정보를 제공했다. EFF는 Google이 법원의 명령과 같은 몇 가지 예외 사항을 언급했지만, Thomas-Johnson의 경우에는 해당되지 않았다고 지적하며, Google의 행위를 조사해 줄 것을 뉴욕 및 캘리포니아 법무장관에게 요청했다.
+
+### 💬 Hacker News 토론 요약
+미국 수정헌법 1조가 시민뿐 아니라 미국 영토 내 모든 사람에게 적용된다는 의견과, Google 정책상 법적 요청에 의해 통지가 금지된 경우 예외가 적용될 수 있다는 주장이 대립하고 있다.
+
+### 📌 종합 요약
+Google이 사용자 데이터 보호 약속을 어기고 ICE(미국 이민세관단속국)에 개인 정보를 넘겨 논란이 되고 있다. EFF(전자 프론티어 재단)는 Google의 행위를 기만적인 거래 행위로 보고 법적 조사를 요청했으며, 커뮤니티에서는 수정헌법 1조의 적용 범위와 Google 정책의 예외 조항 해석을 두고 논쟁이 벌어지고 있다.
+
+### 🔎 종합 핵심 포인트
+- Google이 사용자 데이터 보호 정책을 어기고 ICE에 정보를 제공한 것은 개인 정보 보호에 대한 중요한 문제 제기이다.
+- EFF는 Google의 행위를 기만적인 거래 행위로 보고 법적 조사를 요청하며, 기업의 데이터 처리 방식에 대한 감시 필요성을 강조한다.
+- 토론에서는 수정헌법 1조의 적용 범위와 Google 정책의 예외 조항 해석을 두고 논쟁이 벌어지고 있으며, 이는 법률 및 정책 해석의 복잡성을 보여준다.
+
+**카테고리**: 정책/사회 이슈
+
+**태그**: 개인정보보호, ICE, Google, EFF, 법률
+
+---
+
+## 2. [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+**Score**: 991 | **Comments**: 774 | **Rank Score**: 696.671
+**작성자**: meetpateltech | **게시 시각(KST)**: 2026-04-16T23:23:50+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47793411
+
+### 📰 원문 기사 요약
+Claude Opus 4.7은 고급 소프트웨어 엔지니어링 능력이 향상되었으며, 특히 어려운 코딩 작업에서 뛰어난 성능을 보입니다. 이전에는 면밀한 감독이 필요했던 작업도 자신 있게 처리할 수 있다는 평가를 받고 있습니다. 이미지 해상도 처리 능력도 향상되었으며, 고품질 인터페이스, 슬라이드, 문서 제작 등 전문적인 작업에서 더욱 창의적인 결과물을 만들어냅니다. 사이버 보안 기능이 강화되어 위험한 사용을 자동으로 감지하고 차단하는 기능이 추가되었으며, 이는 Mythos 클래스 모델의 광범위한 출시를 위한 테스트의 일환입니다.
+
+### 💬 Hacker News 토론 요약
+simonw는 새로운 '적응적 사고(adaptive thinking)' 방식이 이전의 '사고 예산(thinking budget)' 방식과 충돌하여 혼란스럽다는 의견을 제시했습니다. neosmalt는 에이전트 루프에서 Claude를 사용하는 경우 기본적으로 꺼져 있는 추론 요약(reasoning summary) 기능 변경이 실제 운영 환경에서 문제를 일으킬 수 있다고 지적했습니다.
+
+### 📌 종합 요약
+Anthropic에서 Claude Opus 4.7을 출시했습니다. 이전 버전인 Opus 4.6에 비해 고급 소프트웨어 엔지니어링 작업에서 성능이 향상되었으며, 특히 복잡하고 오래 걸리는 작업에서 두각을 나타냅니다. 사이버 보안 관련 기능도 강화되었지만, Mythos Preview 모델보다는 제한적입니다.
+
+### 🔎 종합 핵심 포인트
+- Claude Opus 4.7은 복잡한 소프트웨어 엔지니어링 작업에서 이전 버전에 비해 향상된 성능을 제공한다.
+- 새로운 '적응적 사고' 방식과 추론 요약 기능 변경이 기존 워크플로우에 미치는 영향에 대한 우려가 제기되고 있다.
+- Anthropic은 Opus 4.7을 통해 사이버 보안 기능을 테스트하고 있으며, 이는 궁극적으로 Mythos 클래스 모델의 출시를 위한 준비 과정이다.
+
+**카테고리**: AI/ML
+
+**태그**: LLM, Anthropic, Claude, AI, 소프트웨어 엔지니어링
+
+---
+
+## 3. [Qwen3.6-35B-A3B: Agentic coding power, now open to all](https://qwen.ai/blog?id=qwen3.6-35b-a3b)
+**Score**: 642 | **Comments**: 306 | **Rank Score**: 452.060
+**작성자**: cmitsakis | **게시 시각(KST)**: 2026-04-16T22:36:27+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47792764
+
+### 📰 원문 기사 요약
+Qwen Studio는 챗봇, 이미지 및 비디오 이해, 이미지 생성, 문서 처리, 웹 검색 통합, 도구 활용 및 결과물을 포괄하는 기능을 제공한다. 특히 다양한 작업을 수행할 수 있는 통합적인 기능이 특징이다.
+
+### 💬 Hacker News 토론 요약
+simonw는 Unsloth 20.9GB GGUF를 LM Studio에서 실행한 경험을 공유하며 긍정적인 반응을 보였다. 반면 cpburns2009는 CUDA 환경에서 특정 설정(unsloth/Qwen3.6-35B-A3B-GGUF:UD-IQ4_XS)으로 실행할 때 gibberish 문제가 발생한다고 보고하며, Vulkan 환경에서는 문제가 없다고 언급했다.
+
+### 📌 종합 요약
+Qwen3.6-35B-A3B 모델이 공개되어 누구나 사용할 수 있게 되었다. 이 모델은 에이전트 코딩 능력을 갖추고 있으며, 사용자들은 LM Studio를 통해 노트북에서 실행하거나 CUDA 환경에서 Unsloth GGUF를 사용하는 데 관심을 보이고 있다.
+
+### 🔎 종합 핵심 포인트
+- Qwen3.6-35B-A3B 모델은 에이전트 코딩 능력을 제공하여 개발 생산성 향상에 기여할 수 있다.
+- CUDA 환경에서 Unsloth GGUF를 사용할 때 gibberish 문제가 발생할 수 있으며, Vulkan 환경에서는 정상 작동한다.
+- Qwen Studio는 다양한 기능을 통합적으로 제공하여 사용자 편의성을 높였다.
+
+**카테고리**: AI/ML
+
+**태그**: LLM, Qwen, Unsloth, GGUF, CUDA
+
+---
+
+## 4. [The buns in McDonald's Japan's burger photos are all slightly askew](https://www.mcdonalds.co.jp/en/menu/burger/)
+**Score**: 613 | **Comments**: 290 | **Rank Score**: 431.086
+**작성자**: bckygldstn | **게시 시각(KST)**: 2026-04-16T06:48:18+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47785738
+
+### 📰 원문 기사 요약
+맥도날드 일본 공식 웹사이트 메뉴 섹션에는 다양한 버거, 사이드 메뉴, 음료, 해피 세트, 아침 메뉴 등이 소개되어 있다. 웹사이트는 또한 알레르기 정보(특정 성분 8가지, 권장 성분 20가지)를 제공하며, 메뉴 가격은 위치나 배달에 따라 다를 수 있음을 명시한다. 런치와 디너 메뉴는 시간대에 따라 다르며, '타르타르 유린기풍 치킨 타츠타'와 같은 기간 한정 메뉴도 확인할 수 있다.
+
+### 💬 Hacker News 토론 요약
+한 사용자는 맥도날드 캐나다에서 버거 사진을 연출하는 비디오를 언급하며, 각 층의 재료를 뒤로 밀어내어 보이도록 하는 기술을 사용한다고 지적했다. 다른 사용자들은 이러한 연출이 마케팅 전략의 일부인지 궁금해하며, 세심한 관찰력에 감탄하는 반응을 보였다.
+
+### 📌 종합 요약
+일본 맥도날드 햄버거 사진 속 빵이 미묘하게 기울어져 있다는 관찰 결과가 Hacker News에서 화제가 되고 있다. 사용자들은 이러한 연출이 의도적인 것인지, 아니면 단순한 실수인지에 대해 흥미로운 논쟁을 벌이고 있다.
+
+### 🔎 종합 핵심 포인트
+- 맥도날드 일본의 햄버거 사진 연출에서 빵의 기울기가 의도적인 마케팅 전략인지에 대한 논의가 이루어지고 있다.
+- 맥도날드 캐나다의 사진 연출 기법이 언급되며, 음식 사진의 시각적 효과를 극대화하기 위한 다양한 방법론이 존재함을 시사한다.
+- 소비자들은 제품의 작은 디테일까지 주목하며, 기업의 마케팅 전략에 대한 비판적 시각을 가질 수 있음을 보여준다.
+
+**카테고리**: 비즈니스/스타트업
+
+**태그**: 맥도날드, 마케팅, 사진, 일본, 햄버거
+
+---
+
+## 5. [Live Nation illegally monopolized ticketing market, jury finds](https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds)
+**Score**: 593 | **Comments**: 182 | **Rank Score**: 416.834
+**작성자**: Alex_Bond | **게시 시각(KST)**: 2026-04-16T04:06:39+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47783713
+
+### 📰 원문 기사 요약
+원문 기사는 Live Nation이 티켓 시장에서 불법적인 독점을 행사했다는 점을 지적하며, 이는 경쟁을 저해하고 소비자에게 피해를 주는 행위라고 비판합니다. 특히, Live Nation은 공연장 운영, 티켓 판매, 재판매를 모두 통합하여 시장 지배력을 강화했으며, 이는 티켓 가격 상승과 팬들의 불만으로 이어졌습니다. 법원은 Live Nation의 이러한 행위가 반독점법 위반에 해당한다고 판단했습니다.
+
+### 💬 Hacker News 토론 요약
+jp57은 공연장 수평적 통제뿐 아니라 티켓 판매와 재판매의 수직적 통합이 더 큰 문제라고 지적합니다. rossdavidh는 연방 정부 시스템의 역할에 대한 긍정적인 예시로 이 사건을 언급하며, 정부의 개입 필요성을 강조합니다.
+
+### 📌 종합 요약
+Live Nation이 티켓 시장을 불법적으로 독점했다는 평결이 나왔습니다. 콘서트 티켓 판매 및 재판매 시장에서의 수직적 통합 문제가 제기되었으며, 연방 정부 시스템의 역할에 대한 논의도 있었습니다.
+
+### 🔎 종합 핵심 포인트
+- Live Nation의 티켓 시장 수직적 통합은 반독점법 위반 소지가 있다.
+- 티켓 가격 상승과 팬들의 불만은 Live Nation의 시장 지배력 강화와 관련이 있다.
+- 연방 정부 시스템은 시장 독점 문제를 해결하는 데 중요한 역할을 할 수 있다.
+
+**카테고리**: 정책/사회 이슈
+
+**태그**: 독점, 티켓, Live Nation, 반독점법
+
+---
+
+## 6. [The local LLM ecosystem doesn’t need Ollama](https://sleepingrobots.com/dreams/stop-using-ollama/)
+**Score**: 582 | **Comments**: 192 | **Rank Score**: 409.503
+**작성자**: Zetaphor | **게시 시각(KST)**: 2026-04-16T12:35:11+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47788385
+
+### 📰 원문 기사 요약
+해당 게시글은 sleepingrobots.com 도메인에서 작성되었지만, 외부 원문 기사는 제공되지 않았다. 따라서 원문 기사 요약은 생략한다.
+
+### 💬 Hacker News 토론 요약
+Ollama가 로컬 LLM 실행의 진입 장벽을 낮췄다는 의견이 있는 반면, 더 전문적인 사용자에게는 불필요한 추상화 계층이라는 비판도 존재한다. 일부 사용자는 Ollama 없이도 ROCm 드라이버를 활용하여 LLM을 실행할 수 있다고 주장한다.
+
+### 📌 종합 요약
+로컬 LLM 환경에서 Ollama의 필요성에 대한 논쟁이 Hacker News에서 벌어졌다. Ollama가 사용자 경험을 개선했다는 옹호와, 더 나은 대안이 존재한다는 주장이 맞서고 있다.
+
+### 🔎 종합 핵심 포인트
+- Ollama는 로컬 LLM 실행 환경 구축의 편의성을 높이는 데 기여했다.
+- Ollama의 필요성에 대한 논쟁은 사용자 수준과 기술적 배경에 따라 달라진다.
+- 향후 로컬 LLM 생태계는 다양한 사용자를 만족시키는 방향으로 발전할 것이다.
+
+**카테고리**: AI/ML
+
+**태그**: LLM, Ollama, 로컬 실행, 사용자 경험
+
+---
+
+## 7. [Darkbloom – Private inference on idle Macs](https://darkbloom.dev)
+**Score**: 435 | **Comments**: 211 | **Rank Score**: 306.653
+**작성자**: twapi | **게시 시각(KST)**: 2026-04-16T13:06:39+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47788542
+
+### 📰 원문 기사 요약
+Darkbloom은 사용하지 않는 Mac의 컴퓨팅 자원을 활용해 개인 정보 보호를 강화한 머신러닝 추론을 가능하게 한다. 구체적으로, 이 시스템은 사용자의 Mac에서 로컬로 모델을 실행하여 데이터를 외부로 전송하지 않고 추론을 수행한다. 이를 통해 데이터 유출 위험을 줄이고 개인 정보 보호를 강화한다. Darkbloom은 다양한 머신러닝 모델을 지원하며, 사용자는 필요에 따라 모델을 선택하여 사용할 수 있다.
+
+### 💬 Hacker News 토론 요약
+일부 사용자는 Darkbloom의 수익성에 의문을 제기하며, Mac mini를 단기간에 회수하고 높은 수익을 얻을 수 있다면 왜 자체 사업 모델을 구축하지 않는지 비판한다. 반면, 초기 사용자는 설치 및 모델 로딩 과정에서 겪은 문제점을 지적하며 완성도에 대한 우려를 표명했다.
+
+### 📌 종합 요약
+Darkbloom은 유휴 상태의 Mac을 활용하여 개인 정보 보호를 강화한 추론을 제공하는 프로젝트다. 사용자들은 수익성을 분석하며 사업 모델의 실효성에 의문을 제기하고 있으며, 초기 사용자는 설치 과정의 불안정성과 모델 로딩 실패를 지적했다.
+
+### 🔎 종합 핵심 포인트
+- 유휴 Mac을 활용한 개인 정보 보호 추론이라는 아이디어는 매력적이지만, 수익성 모델에 대한 의문이 제기되고 있다.
+- 초기 사용 경험은 불안정하며, 모델 로딩 실패 등의 문제점이 보고되고 있어 사용성 개선이 필요하다.
+- 개인 정보 보호를 중시하는 머신러닝 추론 시장에서 Darkbloom의 잠재력은 여전히 존재한다.
+
+**카테고리**: AI/ML
+
+**태그**: 머신러닝, 개인정보보호, Mac, 분산 컴퓨팅
+
+---
+
+## 8. [Cal.com is going closed source](https://cal.com/blog/cal-com-goes-closed-source-why)
+**Score**: 365 | **Comments**: 287 | **Rank Score**: 257.217
+**작성자**: Benjamin_Dobell | **게시 시각(KST)**: 2026-04-16T00:26:46+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47780456
+
+### 📰 원문 기사 요약
+외부 원문 기사가 제공되지 않아 요약할 수 없습니다. Cal.com의 기술 스택, 알고리즘, 수치, 아키텍처적 특징 등에 대한 정보가 필요합니다.
+
+### 💬 Hacker News 토론 요약
+simonw는 Drew Breunig의 사이버 보안 관련 글을 인용하며 Cal.com의 결정과 반대되는 결론을 제시했다. Thunderbird Appointment 프로젝트 책임자인 ryanleesipes는 Thunderbird Appointment는 영원히 오픈 소스로 유지될 것이라고 밝히며, 많은 참여를 독려했다.
+
+### 📌 종합 요약
+캘린더 예약 서비스 Cal.com이 오픈 소스에서 클로즈드 소스로 전환을 발표하여 논란이 되고 있다. 이번 결정은 보안 문제와 지속 가능한 개발 모델에 대한 논쟁을 불러일으키고 있으며, 경쟁 서비스와의 차별화 전략에 대한 의문도 제기되고 있다.
+
+### 🔎 종합 핵심 포인트
+- Cal.com의 클로즈드 소스 전환 결정 배경에는 보안 강화와 수익 모델 개선이라는 목표가 있다.
+- 오픈 소스 유지에 대한 지지 의견과, 클로즈드 소스 전환의 실효성에 대한 비판이 엇갈리고 있다.
+- 이번 사례는 오픈 소스 프로젝트의 지속 가능성과 비즈니스 모델 간의 균형에 대한 중요한 시사점을 던진다.
+
+**카테고리**: 비즈니스/스타트업
+
+**태그**: Cal.com, 오픈 소스, 클로즈드 소스, 소프트웨어 개발, 비즈니스 모델
+
+---
+
+## 9. [€54k spike in 13h from unrestricted Firebase browser key accessing Gemini APIs](https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262)
+**Score**: 359 | **Comments**: 253 | **Rank Score**: 253.846
+**작성자**: zanbezi | **게시 시각(KST)**: 2026-04-16T21:13:30+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47791871
+
+### 📰 원문 기사 요약
+해당 사건은 허술하게 관리된 Firebase API 키가 Gemini API에 무제한 접근을 허용하면서 발생했다. 공격자는 이를 악용하여 단시간에 막대한 비용을 발생시켰다. 특히, 예산 초과 알림 시스템의 지연으로 인해 초기 대응에 실패, 피해 규모를 키웠다. 이는 클라우드 환경에서 API 키 보안과 실시간 비용 모니터링의 중요성을 강조한다.
+
+### 💬 Hacker News 토론 요약
+사용자들은 예산 알림 시스템의 지연 문제점을 지적하며, 더 빠르고 정확한 알림 시스템의 필요성을 강조한다. 또한, API 키 관리의 중요성을 강조하며, Firebase와 같은 플랫폼에서 제공하는 보안 기능의 활용을 권장하고 있다.
+
+### 📌 종합 요약
+허가되지 않은 Firebase 브라우저 키를 통해 Gemini API에 접근하여 13시간 만에 54,000유로의 비용이 발생한 사건이 Hacker News에서 논의되고 있다. 사용자들은 예산 초과 알림의 지연 문제와 API 키 관리의 중요성을 지적하며, 클라우드 비용 관리 시스템의 개선을 요구하고 있다.
+
+### 🔎 종합 핵심 포인트
+- Firebase API 키 보안 관리의 중요성이 부각되었다.
+- 클라우드 비용 이상 감지 시스템의 실시간성이 중요하다.
+- API 사용량 제한 및 접근 제어 설정을 강화해야 한다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: Firebase, Gemini API, API Key, 보안, 클라우드 비용
+
+---
+
+## 10. [Open Source Isn't Dead](https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats)
+**Score**: 346 | **Comments**: 176 | **Rank Score**: 243.783
+**작성자**: bearsyankees | **게시 시각(KST)**: 2026-04-16T00:43:37+09:00
+**Hacker News 토론**: https://news.ycombinator.com/item?id=47780712
+
+### 📰 원문 기사 요약
+외부 원문 기사가 제공되지 않아 요약할 수 없습니다.
+
+### 💬 Hacker News 토론 요약
+한 사용자는 최근 Open Source 프로젝트에서 보안 취약점 보고가 급증하고 있다고 언급하며, 일부는 사소한 문제이지만 심각한 경우도 있다고 밝혔다. 다른 사용자는 AI 기반 취약점 발견 자동화가 (보안 문제 증가의) 원인이라는 주장이 변명일 수 있으며, 실제 이유는 다른 데 있을 수 있다고 지적했다.
+
+### 📌 종합 요약
+strix.ai 도메인에서 'Open Source Isn't Dead'라는 제목의 글이 올라왔다. AI를 이용한 취약점 발견 자동화에 대한 논의와 함께, Open Source 프로젝트의 보안 취약점 보고 증가에 대한 의견이 제시되었다.
+
+### 🔎 종합 핵심 포인트
+- AI 기반 취약점 분석 기술의 발전이 Open Source 프로젝트의 보안 문제 발견에 미치는 영향이 커지고 있다.
+- Open Source 프로젝트 유지보수자는 증가하는 보안 취약점 보고에 효율적으로 대응해야 하는 과제에 직면하고 있다.
+- AI를 이용한 취약점 발견 자동화 도입의 실제 동기와 그 효과에 대한 논쟁이 존재한다.
+
+**카테고리**: 보안/프라이버시
+
+**태그**: Open Source, 보안, AI, 취약점, 자동화
+
+---
+
