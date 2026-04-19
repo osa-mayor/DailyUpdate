@@ -1,379 +1,374 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-04-17",
-  "generated_at": "2026-04-17T04:02:31.216004+09:00",
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T04:02:31.748325+09:00",
   "count": 9,
-  "chat_message": "🔥 오늘의 논문\n\n📍 1. Seedance 2.0: Advancing Video Generation for World Complexity\n📝 요약: Seedance 2.0은 텍스트, 이미지, 오디오, 비디오 입력을 받아 오디오-비디오 콘텐츠를 생성하는 모델로, 이전 모델 대비 성능이 향상되었으며 다양한 멀티모달 콘텐츠 참조 및 편집 기능을 제공하여 사용자 경험을 향상시킵니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.14148\n📄 arXiv: https://arxiv.org/abs/2604.14148\n\n📍 2. GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents\n📝 요약: GameWorld는 다양한 게임 환경에서 MLLM 에이전트의 성능을 표준화하고 검증 가능한 방식으로 평가할 수 있는 벤치마크를 제공하여, 게임 에이전트 연구 및 개발에 기여한다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.07429\n📄 arXiv: https://arxiv.org/abs/2604.07429\n\n📍 3. RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time\n📝 요약: RationalRewards는 시각적 생성 모델의 보상 모델에 명시적인 추론 과정을 도입하여 학습 및 추론 단계 모두에서 성능을 향상시키는 새로운 접근 방식입니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.11626\n📄 arXiv: https://arxiv.org/abs/2604.11626\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds\n📝 요약: HY-World 2.0은 텍스트, 이미지, 비디오 등 다양한 입력으로부터 3D 세계를 생성, 재구성, 시뮬레이션하는 오픈 소스 멀티모달 월드 모델 프레임워크로, 특히 3D Gaussian Splatting 기반 고품질 3D 장면 생성이 가능하며, 개발자들은 이를 통해 몰입감 있는 3D 환경 구축 및 상호작용 연구를 가속화할 수 있음.\n🔗 Hugging Face: https://huggingface.co/papers/2604.14268\n📄 arXiv: https://arxiv.org/abs/2604.14268\n\n📍 2. DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation\n📝 요약: DR^{3}-Eval은 웹 환경의 복잡성을 시뮬레이션하면서 재현 가능한 평가를 제공하여 연구 에이전트의 성능을 심층적으로 분석하고 개선하는 데 기여합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.14683\n📄 arXiv: https://arxiv.org/abs/2604.14683\n\n📍 3. RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework\n📝 요약: RAD-2는 강화 학습 기반 판별기와 Diffusion 기반 생성기를 결합하여 자율 주행 모션 플래너의 안전성과 성능을 크게 향상시켰으며, 실제 환경에서도 효과적임을 입증했다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.15308\n📄 arXiv: https://arxiv.org/abs/2604.15308\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
-      "title": "Seedance 2.0: Advancing Video Generation for World Complexity",
-      "paper_id": "2604.14148",
-      "url": "https://huggingface.co/papers/2604.14148",
-      "arxiv_url": "https://arxiv.org/abs/2604.14148",
-      "upvotes": 106,
-      "summary": "Seedance 2.0은 텍스트, 이미지, 오디오, 비디오 입력을 받아 오디오-비디오 콘텐츠를 생성하는 모델로, 이전 모델 대비 성능이 향상되었으며 다양한 멀티모달 콘텐츠 참조 및 편집 기능을 제공하여 사용자 경험을 향상시킵니다.",
-      "korean_abstract": "기존의 오디오-비디오 생성 모델은 복잡한 세계를 반영하는 데 한계가 있었습니다. Seedance 2.0은 이러한 문제를 해결하기 위해 멀티모달 입력을 통합하고 고효율적인 아키텍처를 채택했습니다. 텍스트, 이미지, 오디오, 비디오를 입력으로 받아 480p/720p 해상도의 오디오-비디오 콘텐츠를 생성하며, 다양한 멀티모달 콘텐츠 참조 및 편집 기능을 제공합니다. 전문가 평가 및 사용자 테스트에서 업계 최고 수준의 성능을 입증했으며, Seedance 2.0 Fast 버전을 통해 저지연 시나리오에서의 생성 속도를 향상시켰습니다. Seedance 2.0은 향상된 창작 경험을 제공합니다.",
+      "title": "HY-World 2.0: A Multi-Modal World Model for Reconstructing, Generating, and Simulating 3D Worlds",
+      "paper_id": "2604.14268",
+      "url": "https://huggingface.co/papers/2604.14268",
+      "arxiv_url": "https://arxiv.org/abs/2604.14268",
+      "upvotes": 89,
+      "summary": "HY-World 2.0은 텍스트, 이미지, 비디오 등 다양한 입력으로부터 3D 세계를 생성, 재구성, 시뮬레이션하는 오픈 소스 멀티모달 월드 모델 프레임워크로, 특히 3D Gaussian Splatting 기반 고품질 3D 장면 생성이 가능하며, 개발자들은 이를 통해 몰입감 있는 3D 환경 구축 및 상호작용 연구를 가속화할 수 있음.",
+      "korean_abstract": "기존 HY-World 1.0의 후속 연구인 HY-World 2.0은 텍스트, 단일/다중 뷰 이미지, 비디오 등 다양한 입력 양식을 처리하여 3D 세계를 생성하는 멀티모달 월드 모델 프레임워크이다. HY-World 2.0은 HY-Pano 2.0을 이용한 파노라마 생성, WorldNav를 이용한 궤적 계획, WorldStereo 2.0을 이용한 세계 확장, WorldMirror 2.0을 이용한 세계 합성의 4단계 방법을 통해 3D Gaussian Splatting 장면을 생성한다. 특히 파노라마 품질 향상, 3D 장면 이해 및 계획, 키프레임 기반 뷰 생성 모델인 WorldStereo 업그레이드, WorldMirror 모델 개선을 통해 세계 재구성을 가능하게 했다. 또한, WorldLens라는 고성능 3DGS 렌더링 플랫폼을 도입하여 3D 세계를 상호작용적으로 탐색할 수 있도록 지원한다. 실험 결과, HY-World 2.0은 오픈 소스 접근 방식 중에서 최첨단 성능을 달성했으며, Marble과 같은 상용 모델과 견줄 만한 결과를 보여준다. 모델 가중치, 코드, 기술 세부 사항을 모두 공개하여 재현 가능성을 높이고 3D 월드 모델 연구를 지원한다.",
       "key_points": [
-        "멀티모달 오디오-비디오 생성 모델 (텍스트, 이미지, 오디오, 비디오 입력 지원)",
-        "향상된 성능 및 다양한 멀티모달 콘텐츠 참조/편집 기능 제공",
-        "저지연 시나리오를 위한 가속 버전 (Seedance 2.0 Fast) 제공"
-      ],
-      "tags": [
-        "Audio-Video Generation",
-        "Multi-modal",
-        "Deep Learning",
-        "Content Creation",
-        "Vision",
-        "Video",
-        "Audio",
-        "Evaluation",
-        "Inference"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "Seedance 2.0은 개발자가 다양한 멀티모달 입력을 활용하여 고품질의 오디오-비디오 콘텐츠를 쉽게 생성할 수 있도록 지원하며, 특히 콘텐츠 생성 파이프라인 자동화 및 사용자 맞춤형 콘텐츠 제작에 유용합니다.",
-      "recommended_actions": [
-        "Seedance 2.0 API를 활용하여 기존 서비스에 오디오-비디오 생성 기능 통합",
-        "다양한 멀티모달 입력 조합을 실험하여 최적의 콘텐츠 생성 전략 탐색",
-        "Seedance 2.0 Fast 버전을 활용하여 실시간 콘텐츠 생성 시스템 구축 가능성 검토"
-      ],
-      "risks_and_limits": [
-        "생성되는 콘텐츠의 품질 및 창의성은 모델의 학습 데이터에 의존적임",
-        "멀티모달 입력의 조합 및 설정에 따라 결과물의 품질이 크게 달라질 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14148.png",
-      "local_image_path": "images/Seedance_2.0_Advancing_Video_Generation_for_World_Complexity_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 2,
-      "title": "GameWorld: Towards Standardized and Verifiable Evaluation of Multimodal Game Agents",
-      "paper_id": "2604.07429",
-      "url": "https://huggingface.co/papers/2604.07429",
-      "arxiv_url": "https://arxiv.org/abs/2604.07429",
-      "upvotes": 104,
-      "summary": "GameWorld는 다양한 게임 환경에서 MLLM 에이전트의 성능을 표준화하고 검증 가능한 방식으로 평가할 수 있는 벤치마크를 제공하여, 게임 에이전트 연구 및 개발에 기여한다.",
-      "korean_abstract": "실제 환경과 유사한 비디오 게임은 MLLM 에이전트의 잠재력을 평가하기에 적합하지만, 현재 평가는 표준화되지 못하고 휴리스틱에 의존하는 경향이 있다. 이러한 문제점을 해결하기 위해, 본 연구에서는 브라우저 기반 게임 환경에서 MLLM 에이전트를 평가하기 위한 벤치마크인 GameWorld를 제안한다. GameWorld는 키보드/마우스 제어 에이전트와 의미적 행동 파싱을 사용하는 에이전트의 두 가지 인터페이스를 지원하며, 34개의 다양한 게임과 170개의 태스크, 그리고 검증 가능한 평가 지표를 제공한다. 실험 결과, 최고의 에이전트조차 인간의 능력에는 미치지 못했으며, 실시간 상호작용, 문맥 기억, 행동 유효성 측면에서 추가적인 개선이 필요함을 확인했다. GameWorld는 표준화되고 검증 가능한 평가 프레임워크를 제공함으로써 MLLM 게임 에이전트 연구의 발전에 기여할 것이다.",
-      "key_points": [
-        "MLLM 에이전트 평가를 위한 표준화된 벤치마크 GameWorld 제시",
-        "다양한 게임 환경과 검증 가능한 평가 지표 제공",
-        "실험을 통해 MLLM 에이전트의 한계점과 개선 방향 제시"
-      ],
-      "tags": [
-        "Benchmark",
-        "MLLM",
-        "Game Agent",
-        "Evaluation",
-        "Embodied AI",
-        "Agent",
-        "Multimodal",
-        "Video",
-        "Inference"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "GameWorld는 MLLM 에이전트 개발자가 다양한 게임 환경에서 에이전트의 성능을 객관적으로 평가하고 개선할 수 있도록 지원하며, 이는 게임 AI 개발 효율성을 높이는 데 기여할 수 있다.",
-      "recommended_actions": [
-        "GameWorld 벤치마크를 사용하여 기존 MLLM 에이전트의 게임 플레이 성능 평가",
-        "새로운 MLLM 아키텍처 또는 학습 방법을 GameWorld에서 검증",
-        "GameWorld의 평가 지표를 참고하여 자체 게임 에이전트 평가 시스템 구축"
-      ],
-      "risks_and_limits": [
-        "GameWorld는 특정 게임 환경에 특화되어 있어, 실제 로봇 제어 등 다른 분야에 직접적인 적용은 어려울 수 있다.",
-        "평가 지표가 게임의 특정 측면만을 반영할 수 있으며, 에이전트의 전반적인 지능을 완벽하게 평가하지 못할 수 있다."
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.07429.png",
-      "local_image_path": "images/GameWorld_Towards_Standardized_and_Verifiable_Evaluation_of_Multimodal_Game_Agents_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 3,
-      "title": "RationalRewards: Reasoning Rewards Scale Visual Generation Both Training and Test Time",
-      "paper_id": "2604.11626",
-      "url": "https://huggingface.co/papers/2604.11626",
-      "arxiv_url": "https://arxiv.org/abs/2604.11626",
-      "upvotes": 94,
-      "summary": "RationalRewards는 시각적 생성 모델의 보상 모델에 명시적인 추론 과정을 도입하여 학습 및 추론 단계 모두에서 성능을 향상시키는 새로운 접근 방식입니다.",
-      "korean_abstract": "기존의 시각적 생성 모델의 보상 모델은 인간의 판단을 단순한 점수로 환원하여 추론 과정을 간과하는 문제가 있었습니다. 본 논문에서는 보상 모델이 점수를 매기기 전에 명시적인 다차원적 비평을 생성하도록 학습시켜 생성기를 능동적인 최적화 도구로 전환합니다. 학습 시에는 구조화된 근거를 통해 강화 학습을 위한 세분화된 보상을 제공하고, 테스트 시에는 생성-비평-개선 루프를 통해 프롬프트 수정으로 출력을 개선합니다. Preference-Anchored Rationalization (PARROT) 프레임워크를 통해 고품질의 근거를 확보하고, RationalRewards 모델은 Gemini-2.5-Pro와 경쟁력 있는 성능을 달성했습니다. 또한, RL 보상으로서 텍스트-이미지 및 이미지 편집 생성기의 성능을 향상시키고, 테스트 시간 비평-개선 루프는 RL 기반 미세 조정과 유사하거나 능가하는 성능을 보였습니다.",
-      "key_points": [
-        "보상 모델에 명시적인 추론 과정을 도입하여 성능 향상",
-        "Preference-Anchored Rationalization (PARROT) 프레임워크를 통한 고품질 근거 확보",
-        "테스트 시간 비평-개선 루프를 통해 프롬프트 최적화"
-      ],
-      "tags": [
-        "Reward Model",
-        "Visual Generation",
-        "Reinforcement Learning",
-        "Prompt Engineering",
-        "Reasoning",
-        "Vision",
-        "Benchmark",
-        "Evaluation",
-        "Distillation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "기존 생성 모델의 성능을 개선하기 위해 보상 모델에 추론 과정을 통합하는 방법을 제시하며, 특히 프롬프트 엔지니어링 없이도 모델의 잠재력을 최대한 활용할 수 있는 가능성을 보여줍니다.",
-      "recommended_actions": [
-        "RationalRewards 모델을 기존 텍스트-이미지 생성 모델에 적용하여 성능 향상 실험",
-        "PARROT 프레임워크를 사용하여 자체 데이터셋에 대한 보상 모델 학습",
-        "생성-비평-개선 루프를 활용하여 프롬프트 엔지니어링 없이 모델 성능 개선 시도"
-      ],
-      "risks_and_limits": [
-        "RationalRewards 모델의 크기가 커서 리소스 제약이 있을 수 있음",
-        "PARROT 프레임워크의 구현 및 적용에 대한 기술적 이해 필요"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.11626.png",
-      "local_image_path": "images/RationalRewards_Reasoning_Rewards_Scale_Visual_Generation_Both_Training_and_Test_Time_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 4,
-      "title": "SpatialEvo: Self-Evolving Spatial Intelligence via Deterministic Geometric Environments",
-      "paper_id": "2604.14144",
-      "url": "https://huggingface.co/papers/2604.14144",
-      "arxiv_url": "https://arxiv.org/abs/2604.14144",
-      "upvotes": 60,
-      "summary": "3D 공간 추론 모델 학습 시, 기하학적 제약 조건을 활용하여 사람이 만든 정답 데이터 없이도 스스로 학습하는 SpatialEvo 프레임워크를 제안, 기존 모델의 오류를 수정하고 성능을 향상시킴.",
-      "korean_abstract": "3차원 공간에서의 추론 능력은 embodied intelligence의 핵심이지만, 기하학적 어노테이션 비용 때문에 모델 개선이 어려웠습니다. Self-evolving 패러다임은 모델 간 합의를 통해 pseudo-label을 생성하지만, 이는 모델의 오류를 강화하는 문제를 야기합니다. 본 연구에서는 3D 공간 추론의 특성을 활용, 모델 관여 없이 point cloud와 카메라 포즈로부터 정확한 ground truth를 계산하는 Deterministic Geometric Environment (DGE)를 제안합니다. SpatialEvo 프레임워크는 DGE를 통해 3D 장면을 zero-noise interactive oracle로 변환하고, questioner와 solver 역할을 공동으로 학습시켜 공간 추론 능력을 향상시킵니다. 실험 결과, SpatialEvo는 다양한 벤치마크에서 최고 점수를 달성했으며, 일반적인 시각 이해 능력 저하 없이 공간 추론 능력을 향상시켰습니다.",
-      "key_points": [
-        "Deterministic Geometric Environment (DGE)를 활용한 self-evolving 프레임워크 SpatialEvo 제시",
-        "모델 consensus 대신 기하학적 제약 조건을 활용하여 정확한 ground truth 생성",
-        "Questioner-Solver 공동 학습 및 task-adaptive 스케줄링을 통해 효율적인 학습"
+        "텍스트, 이미지, 비디오 등 다양한 입력으로부터 3D 세계 생성",
+        "3D Gaussian Splatting 기반 고품질 3D 장면 생성",
+        "고성능 3DGS 렌더링 플랫폼 WorldLens를 통한 상호작용적 탐색 지원"
       ],
       "tags": [
         "3D",
-        "Self-Supervised Learning",
-        "Spatial Reasoning",
-        "Embodied Intelligence",
-        "RAG",
-        "Reasoning",
+        "World Model",
+        "Generation",
+        "Multi-modal",
+        "Gaussian Splatting",
+        "Vision",
+        "Video",
         "Benchmark"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "3D 공간 데이터를 활용하는 로봇, AR/VR, 자율 주행 등의 분야에서 데이터 어노테이션 비용을 절감하고 모델 성능을 향상시키는 데 기여할 수 있습니다.",
+      "practical_relevance": "HY-World 2.0은 게임, 메타버스, 시뮬레이션 등 다양한 분야에서 몰입감 있는 3D 환경을 구축하고 상호작용을 구현하는 데 활용될 수 있으며, 특히 오픈 소스라는 점에서 개발자들이 자유롭게 연구하고 개선할 수 있는 기반을 제공한다.",
       "recommended_actions": [
-        "DGE 기반의 데이터 생성 및 학습 파이프라인 구축",
-        "SpatialEvo 프레임워크를 기반으로 특정 3D 공간 추론 task에 적용",
-        "Questioner-Solver 구조를 활용한 새로운 학습 방식 실험"
+        "제공되는 코드와 모델 가중치를 이용하여 3D 장면 생성 실험 진행",
+        "WorldLens 플랫폼을 활용하여 3D 세계를 탐색하고 상호작용 기능 테스트",
+        "HY-World 2.0의 각 구성 요소(HY-Pano 2.0, WorldNav, WorldStereo 2.0, WorldMirror 2.0)의 작동 방식 분석 및 개선 방안 연구"
       ],
       "risks_and_limits": [
-        "DGE의 적용 가능성이 기하학적 제약 조건이 명확한 task에 제한될 수 있음",
-        "복잡한 3D 환경에서의 성능 검증 필요"
+        "오픈 소스 모델이므로 상용 모델 대비 성능 차이가 존재할 수 있음",
+        "복잡한 3D 장면 생성 시 계산 비용이 높을 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14144.png",
-      "local_image_path": "images/SpatialEvo_Self-Evolving_Spatial_Intelligence_via_Deterministic_Geometric_Environments_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14268.png",
+      "local_image_path": "images/HY-World_2.0_A_Multi-Modal_World_Model_for_Reconstructing,_Generating,_and_Simulating_3D_Worlds_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 2,
+      "title": "DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+      "paper_id": "2604.14683",
+      "url": "https://huggingface.co/papers/2604.14683",
+      "arxiv_url": "https://arxiv.org/abs/2604.14683",
+      "upvotes": 29,
+      "summary": "DR^{3}-Eval은 웹 환경의 복잡성을 시뮬레이션하면서 재현 가능한 평가를 제공하여 연구 에이전트의 성능을 심층적으로 분석하고 개선하는 데 기여합니다.",
+      "korean_abstract": "최근 복잡하고 장기적인 연구 과제를 해결하기 위해 Deep Research Agents (DRAs)가 등장했지만, 동적인 웹 환경과 모호한 과제 정의로 인해 평가가 어려웠습니다. 본 연구에서는 실제 사용자 제공 자료와 정적 연구 샌드박스 코퍼스를 활용하여 multimodal, multi-file 보고서 생성을 위한 현실적이고 재현 가능한 벤치마크인 DR^{3}-Eval을 제안합니다. DR^{3}-Eval은 정보 검색, 사실 정확성, 인용 포괄성, 명령어 준수, 깊이 품질을 측정하는 다차원 평가 프레임워크를 도입하여 인간 판단과의 일치도를 검증했습니다. 다양한 언어 모델 기반의 multi-agent 시스템 DR^{3}-Agent를 통해 DR^{3}-Eval이 매우 도전적이며 검색의 견고성과 환각 제어에 있어 중요한 실패 모드를 드러냄을 입증했습니다.",
+      "key_points": [
+        "현실적이고 재현 가능한 연구 에이전트 평가 벤치마크 DR^{3}-Eval 제시",
+        "다차원 평가 프레임워크 (정보 검색, 정확성, 인용, 명령어 준수, 깊이) 도입",
+        "DR^{3}-Agent 실험을 통해 기존 모델의 취약점 분석"
+      ],
+      "tags": [
+        "Agent",
+        "Evaluation",
+        "Benchmark",
+        "RAG",
+        "Multimodal",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "연구 에이전트 개발 시, DR^{3}-Eval을 활용하여 실제 웹 환경에서의 성능을 검증하고, 정보 검색 및 환각 제어 능력을 개선할 수 있습니다.",
+      "recommended_actions": [
+        "DR^{3}-Eval 데이터셋을 활용하여 자체 연구 에이전트 성능 평가",
+        "제시된 다차원 평가 프레임워크를 기반으로 새로운 평가 지표 개발",
+        "DR^{3}-Agent 구조를 참고하여 multi-agent 시스템 구축 및 실험"
+      ],
+      "risks_and_limits": [
+        "DR^{3}-Eval은 특정 연구 과제에 맞춰 설계되었으므로 일반화에 제한이 있을 수 있음",
+        "평가 프레임워크의 주관성이 존재할 수 있으며, 인간 판단과의 완전한 일치는 어려움"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14683.png",
+      "local_image_path": "images/DR^{3}-Eval_Towards_Realistic_and_Reproducible_Deep_Research_Evaluation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 3,
+      "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
+      "paper_id": "2604.15308",
+      "url": "https://huggingface.co/papers/2604.15308",
+      "arxiv_url": "https://arxiv.org/abs/2604.15308",
+      "upvotes": 25,
+      "summary": "RAD-2는 강화 학습 기반 판별기와 Diffusion 기반 생성기를 결합하여 자율 주행 모션 플래너의 안전성과 성능을 크게 향상시켰으며, 실제 환경에서도 효과적임을 입증했다.",
+      "korean_abstract": "자율 주행 모션 플래너는 복잡한 미래 불확실성을 모델링하고 폐루프 상호 작용에서 안정성을 유지해야 한다. Diffusion 기반 플래너는 복잡한 궤적 분포 모델링에 효과적이지만, 확률적 불안정성과 교정 피드백 부족 문제를 겪는다. RAD-2는 생성기-판별기 프레임워크를 통해 이 문제를 해결한다. Diffusion 기반 생성기는 다양한 궤적 후보를 생성하고, 강화 학습으로 최적화된 판별기는 장기적인 주행 품질에 따라 후보를 재정렬한다. 또한, 시간 일관성을 활용한 정책 최적화와 On-policy 생성기 최적화를 통해 강화 학습을 개선한다. BEV-Warp 시뮬레이션 환경을 통해 대규모 학습을 효율적으로 지원하며, RAD-2는 기존 Diffusion 기반 플래너 대비 충돌률을 56% 감소시켰고, 실제 환경에서 안전성과 주행 부드러움을 향상시켰다.",
+      "key_points": [
+        "Diffusion 기반 생성기와 강화 학습 기반 판별기를 결합한 새로운 모션 플래너 프레임워크 제시",
+        "Temporal Coherence를 활용한 강화 학습 최적화 기법 개발",
+        "BEV-Warp 시뮬레이션 환경을 통한 효율적인 대규모 학습 지원"
+      ],
+      "tags": [
+        "Autonomous Driving",
+        "Reinforcement Learning",
+        "Diffusion Model",
+        "Motion Planning",
+        "Multimodal",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "RAD-2는 자율 주행 시스템의 안전성과 성능을 향상시키는 데 기여하며, 특히 복잡한 도시 환경에서의 실제 적용 가능성을 보여준다. 개발자는 RAD-2의 구조를 참고하여 강화 학습과 생성 모델을 결합한 새로운 자율 주행 알고리즘을 개발하거나 기존 시스템에 통합할 수 있다.",
+      "recommended_actions": [
+        "BEV-Warp 환경을 활용하여 자율 주행 에이전트 학습 파이프라인 구축",
+        "RAD-2의 생성기-판별기 구조를 모방하여 다른 강화 학습 문제에 적용",
+        "Temporally Consistent Group Relative Policy Optimization 기법을 다른 강화 학습 알고리즘에 통합"
+      ],
+      "risks_and_limits": [
+        "Diffusion 모델의 계산 비용이 높을 수 있으며, 실시간 성능 확보를 위한 최적화가 필요함",
+        "강화 학습 기반 판별기의 보상 함수 설계가 성능에 큰 영향을 미칠 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.15308.png",
+      "local_image_path": "images/RAD-2_Scaling_Reinforcement_Learning_in_a_Generator-Discriminator_Framework_img.jpg",
+      "local_figures": [
+        "images/RAD-2_Scaling_Reinforcement_Learning_in_a_Generato_fig_1.png"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "How to Fine-Tune a Reasoning Model? A Teacher-Student Cooperation Framework to Synthesize Student-Consistent SFT Data",
+      "paper_id": "2604.14164",
+      "url": "https://huggingface.co/papers/2604.14164",
+      "arxiv_url": "https://arxiv.org/abs/2604.14164",
+      "upvotes": 24,
+      "summary": "더 강력한 모델이 생성한 데이터로 파인튜닝 시 스타일 차이로 인해 성능이 저하되는 문제를 해결하기 위해, Teacher-Student Cooperation Data Synthesis (TESSY) 프레임워크를 제안하여 학생 모델의 스타일을 유지하면서 교사 모델의 추론 능력을 활용, 코드 생성 성능을 향상시킴.",
+      "korean_abstract": "최근 떠오르는 추론 모델들은 더 강력한 모델이 생성한 데이터를 활용한 지도 학습 파인튜닝(SFT)이 오히려 성능 저하를 야기하는 경우가 많다. 이는 교사 모델이 생성한 데이터와 학생 모델의 분포 간의 스타일 차이 때문인데, 이러한 간극을 해소하기 위해 교사-학생 협력 데이터 합성 프레임워크(TESSY)를 제안한다. TESSY는 교사와 학생 모델이 번갈아 토큰을 생성하여, 교사 모델의 고급 추론 능력과 학생 모델의 스타일 일관성을 모두 확보한다. GPT-OSS-120B를 교사 모델로 사용한 코드 생성 실험에서, Qwen3-8B를 교사 데이터로 파인튜닝했을 때 LiveCodeBench-Pro에서 3.25%, OJBench에서 10.02% 성능이 하락했지만, TESSY는 각각 11.25%와 6.68% 성능 향상을 달성했다.",
+      "key_points": [
+        "교사 모델과 학생 모델 간 스타일 차이가 SFT 성능 저하의 주요 원인임을 규명",
+        "교사-학생 협력 데이터 합성 프레임워크(TESSY)를 통해 스타일 일관성을 유지하면서 추론 능력 향상",
+        "코드 생성 실험에서 TESSY를 통해 Qwen3-8B의 성능 향상 입증"
+      ],
+      "tags": [
+        "Fine-tuning",
+        "Reasoning Model",
+        "Code Generation",
+        "Teacher-Student Learning",
+        "Reasoning"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "더 큰 모델로 생성된 데이터를 활용하여 작은 모델을 파인튜닝할 때, 데이터 생성 스타일의 차이가 성능에 미치는 영향을 고려해야 하며, TESSY와 같은 방법론을 통해 이를 완화할 수 있음을 시사한다.",
+      "recommended_actions": [
+        "TESSY 프레임워크를 활용하여 자체 모델의 파인튜닝 데이터 생성 실험",
+        "교사 모델과 학생 모델 간 스타일 차이 분석 및 TESSY 파라미터 조정",
+        "다른 추론 task에 TESSY 적용 가능성 검토"
+      ],
+      "risks_and_limits": [
+        "TESSY 프레임워크의 하이퍼파라미터 튜닝 필요",
+        "교사 모델의 성능에 따라 TESSY 효과가 달라질 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14164.png",
+      "local_image_path": "images/How_to_Fine-Tune_a_Reasoning_Model_A_Teacher-Student_Cooperation_Framework_to_Synthesize_Student-Con_img.jpg",
       "local_figures": []
     },
     {
       "rank": 5,
-      "title": "OccuBench: Evaluating AI Agents on Real-World Professional Tasks via Language World Models",
-      "paper_id": "2604.10866",
-      "url": "https://huggingface.co/papers/2604.10866",
-      "arxiv_url": "https://arxiv.org/abs/2604.10866",
-      "upvotes": 45,
-      "summary": "OccuBench는 LLM 기반 시뮬레이터를 통해 다양한 산업 분야의 실제 업무 환경을 모사하여 AI 에이전트의 직무 능력을 평가하는 새로운 벤치마크를 제시하고, 이를 통해 에이전트의 강점과 약점을 다각도로 분석합니다.",
-      "korean_abstract": "AI 에이전트가 다양한 직업 영역에서 전문적인 업무를 수행할 것으로 기대되지만, 기존 벤치마크는 공개 환경이 존재하는 일부 영역에만 국한되어 있었습니다. OccuBench는 Language World Models (LWMs)를 활용하여 10개 산업 카테고리, 65개 전문 분야에 걸쳐 100개의 실제 업무 시나리오를 제공하는 벤치마크입니다. 이 벤치마크는 자동화된 파이프라인을 통해 난이도와 다양성이 보장된 평가 인스턴스를 생성합니다. OccuBench는 직무 완료 능력과 환경적 견고성이라는 두 가지 측면에서 에이전트를 평가하며, 다양한 모델을 평가한 결과, 모델별로 강점을 가지는 산업 분야가 다르며, 데이터 손상에 대한 감지 능력이 중요하고, 모델 크기, 세대, 추론 노력이 성능 향상에 기여함을 확인했습니다. 또한, 에이전트 성능과 시뮬레이터 품질 간의 상관관계가 중요함을 밝혔습니다.",
+      "title": "GlobalSplat: Efficient Feed-Forward 3D Gaussian Splatting via Global Scene Tokens",
+      "paper_id": "2604.15284",
+      "url": "https://huggingface.co/papers/2604.15284",
+      "arxiv_url": "https://arxiv.org/abs/2604.15284",
+      "upvotes": 20,
+      "summary": "GlobalSplat은 글로벌한 장면 이해를 통해 3D Gaussian Splatting의 효율성을 극대화, 특히 적은 수의 Gaussian으로도 빠른 렌더링과 뛰어난 성능을 제공하여 실시간 3D 모델링 및 렌더링 분야에 큰 영향을 줄 수 있음",
+      "korean_abstract": "3D Gaussian Splatting에서 primitive의 공간 할당 효율성은 표현의 간결성, 재구성 속도, 렌더링 충실도 간의 균형을 결정하는 중요한 요소이다. 기존 방법들은 로컬 휴리스틱 기반 할당 전략으로 인해 이러한 목표 간에 trade-off가 발생했다. 특히, 기존 feed-forward 방식은 픽셀 또는 복셀 정렬 방식에 의존하여 중복성을 야기하고, 이는 표현 크기 증가 및 global 일관성 저하로 이어진다. GlobalSplat은 'align first, decode later' 원칙에 따라 멀티뷰 입력을 인코딩하고 cross-view correspondence를 해결하는 글로벌 latent scene 표현을 학습한다. 이를 통해 사전 학습된 픽셀 예측 백본이나 dense baseline의 latent feature 재사용 없이도 compact하고 globally consistent한 재구성을 가능하게 한다. coarse-to-fine 학습 커리큘럼을 통해 representation bloat를 방지하며, RealEstate10K 및 ACID 데이터셋에서 경쟁력 있는 novel-view synthesis 성능을 달성하면서도 더 적은 수의 Gaussian을 사용하여 빠른 추론 속도를 제공한다.",
       "key_points": [
-        "LLM 기반 시뮬레이터를 활용하여 다양한 산업 분야의 업무 환경을 모사하는 OccuBench 벤치마크 제시",
-        "자동화된 파이프라인을 통해 난이도와 다양성이 보장된 평가 인스턴스 생성",
-        "에이전트의 직무 완료 능력과 환경적 견고성을 다각도로 평가"
+        "글로벌 latent scene 표현을 통해 3D Gaussian Splatting의 효율성 향상",
+        "적은 수의 Gaussian으로도 고품질 novel-view synthesis 가능",
+        "기존 방식 대비 훨씬 빠른 추론 속도 제공"
       ],
       "tags": [
-        "Benchmark",
-        "LLM",
-        "Agent",
-        "Evaluation",
-        "Simulation",
-        "Reasoning",
-        "Safety"
+        "3D Gaussian Splatting",
+        "Novel-View Synthesis",
+        "Rendering",
+        "Feed-Forward Inference",
+        "Global Representation",
+        "RAG",
+        "Inference"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 기반 에이전트의 실제 업무 적용 가능성을 평가하고 개선하는 데 필요한 도구를 제공하며, 다양한 산업 분야에 특화된 에이전트 개발에 활용될 수 있습니다.",
+      "practical_relevance": "GlobalSplat은 3D 모델링 및 렌더링 파이프라인에서 메모리 사용량을 줄이고 렌더링 속도를 향상시켜 실시간 애플리케이션 개발에 유용하며, 특히 모바일 및 웹 기반 3D 환경에서 큰 이점을 제공할 수 있다.",
       "recommended_actions": [
-        "OccuBench 벤치마크를 사용하여 자사 에이전트의 성능을 다양한 산업 시나리오에서 평가",
-        "LWM 시뮬레이터의 품질이 에이전트 평가에 미치는 영향을 분석하고 개선",
-        "데이터 손상에 대한 에이전트의 감지 및 대응 능력을 강화하는 방법 연구"
+        "GlobalSplat 코드를 다운로드하여 제공된 데이터셋에서 테스트해보기",
+        "자체 데이터셋에 GlobalSplat을 적용하여 성능 및 효율성 비교 분석",
+        "GlobalSplat을 기반으로 실시간 3D 렌더링 애플리케이션 프로토타입 개발"
       ],
       "risks_and_limits": [
-        "LWM 시뮬레이터의 현실 반영 정도에 따라 평가 결과의 신뢰성이 달라질 수 있음",
-        "특정 산업 분야에 편향된 시나리오가 존재할 수 있으며, 모든 실제 업무 환경을 완벽하게 모사하기는 어려움"
+        "새로운 아키텍처이므로 기존 파이프라인과의 통합에 어려움이 있을 수 있음",
+        "특정 유형의 장면이나 데이터셋에 따라 성능이 달라질 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.10866.png",
-      "local_image_path": "images/OccuBench_Evaluating_AI_Agents_on_Real-World_Professional_Tasks_via_Language_World_Models_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.15284.png",
+      "local_image_path": "images/GlobalSplat_Efficient_Feed-Forward_3D_Gaussian_Splatting_via_Global_Scene_Tokens_img.jpg",
       "local_figures": []
     },
     {
       "rank": 6,
-      "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
-      "paper_id": "2604.14004",
-      "url": "https://huggingface.co/papers/2604.14004",
-      "arxiv_url": "https://arxiv.org/abs/2604.14004",
-      "upvotes": 23,
-      "summary": "코딩 에이전트의 성능 향상을 위해 이종 도메인 간 메모리 전이 학습(MTL)을 활용, 추상화 수준에 따른 전이 효과 및 메모리 풀 크기의 중요성을 실증적으로 분석하여 실제 코딩 문제 해결에 적용 가능한 설계 원칙을 제시.",
-      "korean_abstract": "기존 코딩 에이전트는 단일 도메인 내에서만 메모리를 활용하여 다양한 실제 코딩 문제에 존재하는 공유 기반 구조를 활용하지 못한다는 한계가 있습니다. 본 연구에서는 이 문제를 해결하기 위해 이종 도메인의 통합 메모리 풀을 활용하는 메모리 전이 학습(MTL)을 제안합니다. 다양한 메모리 표현 방식을 사용하여 6개의 코딩 벤치마크에서 성능을 평가한 결과, 도메인 간 메모리 전이가 평균 3.7%의 성능 향상을 가져왔으며, 이는 주로 작업 특정 코드보다는 검증 루틴과 같은 메타 지식의 전이에 기인합니다. 또한, 추상화 수준이 높을수록 전이 효과가 좋았으며, 메모리 풀 크기가 클수록 전이 효과가 증가하는 것을 확인했습니다. 본 연구는 단일 도메인에 국한되었던 메모리 활용을 확장하기 위한 경험적 설계 원칙을 제시합니다.",
+      "title": "ASGuard: Activation-Scaling Guard to Mitigate Targeted Jailbreaking Attack",
+      "paper_id": "2509.25843",
+      "url": "https://huggingface.co/papers/2509.25843",
+      "arxiv_url": "https://arxiv.org/abs/2509.25843",
+      "upvotes": 18,
+      "summary": "특정 유형의 jailbreak 공격에 취약한 LLM의 attention head를 분석하고, activation scaling을 통해 공격 성공률을 효과적으로 낮추는 방법론(ASGuard)을 제시합니다.",
+      "korean_abstract": "최근 LLM은 안전성을 확보하려는 노력에도 불구하고, 미묘한 언어적 변화에 취약한 거부 반응을 보이는 jailbreak 공격에 노출되어 있습니다. 특히 시제 변화와 같은 간단한 조작에도 모델이 유해한 요청을 수용하는 경우가 발생하며, 이는 기존 alignment 방법의 일반화 능력 부족을 드러냅니다. 본 연구에서는 이러한 특정 취약점을 해결하기 위해 Activation-Scaling Guard (ASGuard)라는 새로운 프레임워크를 제안합니다. ASGuard는 circuit analysis를 통해 공격에 취약한 attention head를 식별하고, channel-wise scaling vector를 학습시켜 해당 head의 activation을 재조정합니다. 또한, 'preventative fine-tuning'을 통해 모델이 더욱 강력한 거부 메커니즘을 학습하도록 유도합니다. 다양한 LLM에 대한 실험 결과, ASGuard는 일반적인 성능을 유지하면서 targeted jailbreak 공격의 성공률을 효과적으로 감소시켰으며, 안전성과 유용성 사이의 균형을 달성했습니다.",
       "key_points": [
-        "이종 도메인 간 메모리 전이 학습(MTL)을 통해 코딩 에이전트 성능 향상",
-        "추상화 수준이 높은 메타 지식 전이가 효과적",
-        "메모리 풀 크기가 클수록 전이 효과 증가"
+        "Attention head 분석을 통해 jailbreak 공격의 원인을 규명",
+        "Activation scaling을 통해 모델의 거부 메커니즘 강화",
+        "Preventative fine-tuning을 통해 모델의 안전성 향상"
       ],
       "tags": [
-        "Agent",
-        "Transfer Learning",
-        "Code Generation",
-        "Memory",
-        "RAG",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "다양한 코딩 문제 해결에 공통적으로 적용 가능한 지식(예: 유효성 검사, 에러 처리)을 학습하여 새로운 문제에 빠르게 적응하는 코딩 에이전트 개발에 활용 가능합니다.",
-      "recommended_actions": [
-        "기존 코딩 에이전트에 이종 도메인의 코드 스니펫 및 메타데이터를 통합한 메모리 풀 구축",
-        "코드 추상화 수준에 따른 전이 효과 실험 및 최적 추상화 수준 결정",
-        "메모리 풀 크기 변화에 따른 성능 변화 측정 및 적정 메모리 풀 크기 결정"
-      ],
-      "risks_and_limits": [
-        "낮은 수준의 구체적인 코드 전이는 오히려 성능 저하를 유발할 수 있음",
-        "특정 도메인에 과적합된 지식은 다른 도메인으로의 일반화가 어려울 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14004.png",
-      "local_image_path": "images/Memory_Transfer_Learning_How_Memories_are_Transferred_Across_Domains_in_Coding_Agents_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "From P(y|x) to P(y): Investigating Reinforcement Learning in Pre-train Space",
-      "paper_id": "2604.14142",
-      "url": "https://huggingface.co/papers/2604.14142",
-      "arxiv_url": "https://arxiv.org/abs/2604.14142",
-      "upvotes": 23,
-      "summary": "LLM의 사전 학습 단계에서 강화 학습을 적용하여 reasoning 능력을 향상시키는 새로운 방법론(PreRL, DSRL)을 제시하고, 특히 negative sample을 활용한 강화 학습이 효과적임을 입증함.",
-      "korean_abstract": "LLM의 reasoning 능력 향상을 위해 verifiable rewards를 사용하는 강화 학습(RLVR)은 base model의 output distribution에 의해 제한된다. 본 논문에서는 사전 학습 단계에서 marginal distribution P(y)를 최적화하여 이 문제를 해결하고자 한다. 기존의 정적 corpora를 사용한 passive learning 방식 대신, reward-driven online updates를 P(y)에 직접 적용하는 PreRL을 제안한다. PreRL 내의 Negative Sample Reinforcement (NSR)가 reasoning 능력 향상에 효과적임을 밝히고, 이를 활용한 Dual Space RL (DSRL)을 통해 기존 강화 학습 방법론을 능가하는 성능을 달성했다. DSRL은 사전 학습 공간에서 policy를 효과적으로 조정하여 올바른 reasoning subspace로 유도한다.",
-      "key_points": [
-        "사전 학습 단계에서 강화 학습을 적용하여 LLM의 reasoning 능력 향상",
-        "Negative Sample Reinforcement (NSR)가 reasoning 능력 향상에 효과적임을 입증",
-        "PreRL과 NSR을 활용한 Dual Space RL (DSRL)을 제안하고, 기존 방법론 대비 성능 향상"
-      ],
-      "tags": [
-        "Reinforcement Learning",
         "LLM",
-        "Reasoning",
-        "Pre-training",
+        "Security",
+        "Jailbreak",
+        "Attention",
+        "Fine-tuning",
         "RAG",
         "Safety"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "LLM 기반 서비스를 개발할 때, PreRL 및 DSRL을 통해 모델의 reasoning 능력을 향상시켜 더욱 정확하고 신뢰성 있는 결과를 얻을 수 있다. 특히, negative sample을 활용한 강화 학습은 비교적 쉽게 적용 가능하며, 성능 향상에 기여할 수 있다.",
+      "practical_relevance": "LLM 기반 서비스를 개발할 때, 특정 공격에 취약한 부분을 파악하고 ASGuard와 유사한 방식으로 모델을 강화하여 보안성을 높일 수 있습니다. 특히, 모델 내부 동작에 대한 이해를 바탕으로 targeted mitigation 전략을 수립하는 것이 중요합니다.",
       "recommended_actions": [
-        "Negative sample을 활용한 강화 학습을 기존 모델에 적용하여 reasoning 능력 향상 실험",
-        "PreRL을 활용하여 사전 학습된 모델의 reasoning 능력을 개선하는 실험",
-        "DSRL을 통해 기존 강화 학습 파이프라인을 개선하는 실험"
+        "자체 LLM에 대한 jailbreak 공격 시뮬레이션 수행",
+        "Attention head 분석을 통해 취약한 부분을 식별",
+        "Activation scaling 또는 fine-tuning을 적용하여 모델 강화"
       ],
       "risks_and_limits": [
-        "PreRL 및 DSRL의 구현 및 학습에 상당한 컴퓨팅 자원이 필요할 수 있음",
-        "Negative sample의 품질이 전체 성능에 큰 영향을 미칠 수 있으므로, 신중한 샘플링 전략이 필요함"
+        "ASGuard는 특정 유형의 jailbreak 공격에 특화되어 있으며, 다른 유형의 공격에는 효과가 없을 수 있습니다.",
+        "Attention head 분석 및 activation scaling 과정이 복잡하고 많은 리소스를 요구할 수 있습니다."
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14142.png",
-      "local_image_path": "images/From_P(yx)_to_P(y)_Investigating_Reinforcement_Learning_in_Pre-train_Space_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2509.25843.png",
+      "local_image_path": "images/ASGuard_Activation-Scaling_Guard_to_Mitigate_Targeted_Jailbreaking_Attack_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "HiVLA: A Visual-Grounded-Centric Hierarchical Embodied Manipulation System",
+      "paper_id": "2604.14125",
+      "url": "https://huggingface.co/papers/2604.14125",
+      "arxiv_url": "https://arxiv.org/abs/2604.14125",
+      "upvotes": 17,
+      "summary": "HiVLA는 VLM의 reasoning 능력을 유지하면서 로봇 조작 성능을 향상시키는 hierarchical 프레임워크로, 복잡한 환경에서 장기적인 작업 및 미세 조작에 특히 효과적이다.",
+      "korean_abstract": "기존의 end-to-end VLA 모델은 로봇 조작에 특화된 fine-tuning 과정에서 VLM의 강력한 추론 능력을 잃는 trade-off가 있었다. 이러한 문제점을 해결하기 위해 HiVLA는 high-level semantic planning과 low-level motor control을 분리하는 hierarchical 프레임워크를 제안한다. VLM planner는 task decomposition 및 visual grounding을 통해 구조화된 계획을 생성하고, flow-matching Diffusion Transformer (DiT) action expert는 cascaded cross-attention 메커니즘을 통해 계획을 물리적 행동으로 변환한다. 시뮬레이션 및 실제 환경에서의 실험 결과, HiVLA는 기존 end-to-end 모델보다 우수한 성능을 보였으며, 특히 장기적인 작업 구성 및 복잡한 환경에서의 미세 조작에서 뛰어난 성능을 나타냈다.",
+      "key_points": [
+        "VLM의 reasoning 능력과 로봇 조작 성능 간의 trade-off 해결",
+        "high-level semantic planning과 low-level motor control을 분리하는 hierarchical 프레임워크",
+        "flow-matching Diffusion Transformer (DiT) action expert를 통한 robust execution"
+      ],
+      "tags": [
+        "Robotics",
+        "VLM",
+        "Manipulation",
+        "Diffusion Transformer",
+        "Reasoning",
+        "Vision"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "VLM을 활용한 로봇 제어 시스템 개발 시, HiVLA의 hierarchical 구조는 VLM의 reasoning 능력을 최대한 활용하면서 로봇의 제어 성능을 향상시키는 데 유용하며, 복잡한 작업 환경에서의 로봇 활용 가능성을 높인다.",
+      "recommended_actions": [
+        "HiVLA 프레임워크를 기반으로 특정 로봇 팔에 맞는 action expert 개발",
+        "DiT action expert의 cascaded cross-attention 메커니즘을 다른 attention 메커니즘과 비교 분석",
+        "HiVLA를 활용하여 실제 산업 현장에서 발생할 수 있는 로봇 조작 문제 해결"
+      ],
+      "risks_and_limits": [
+        "VLM planner의 성능에 따라 전체 시스템의 성능이 좌우될 수 있음",
+        "DiT action expert의 학습 데이터 부족 시 robust execution에 어려움이 발생할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14125.png",
+      "local_image_path": "images/HiVLA_A_Visual-Grounded-Centric_Hierarchical_Embodied_Manipulation_System_img.jpg",
       "local_figures": []
     },
     {
       "rank": 8,
-      "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
-      "paper_id": "2604.13151",
-      "url": "https://huggingface.co/papers/2604.13151",
-      "arxiv_url": "https://arxiv.org/abs/2604.13151",
-      "upvotes": 20,
-      "summary": "LM 에이전트의 탐색 및 활용 오류를 정량화하고, 실제 AI 시나리오에서 모델의 개선 방향을 제시합니다.",
-      "korean_abstract": "최근 AI 코딩, 물리적 AI 등 복잡한 의사 결정 task에서 LM 에이전트의 활용이 증가하고 있습니다. 이러한 환경에서 효과적인 탐색과 활용은 중요한데, 에이전트의 내부 정책 없이 이를 구별하고 정량화하기 어렵습니다. 본 연구에서는 제어 가능한 환경을 설계하여 탐색 및 활용의 어려움을 조정하고, 에이전트의 행동으로부터 탐색 및 활용 오류를 정량화하는 지표를 개발했습니다. 다양한 LM 에이전트를 평가한 결과, 최첨단 모델조차 어려움을 겪으며 모델별로 다른 실패 양상을 보였습니다. Reasoning 모델이 더 효과적으로 문제를 해결했으며, harness 엔지니어링을 통해 탐색 및 활용을 크게 개선할 수 있음을 확인했습니다.",
+      "title": "Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems",
+      "paper_id": "2604.14228",
+      "url": "https://huggingface.co/papers/2604.14228",
+      "arxiv_url": "https://arxiv.org/abs/2604.14228",
+      "upvotes": 16,
+      "summary": "Claude Code와 OpenClaw의 아키텍처 비교 분석을 통해 AI 에이전트 시스템 설계 시 고려해야 할 핵심 가치와 미래 설계 방향을 제시합니다.",
+      "korean_abstract": "본 연구는 에이전트 코딩 도구인 Claude Code의 아키텍처를 TypeScript 소스 코드 분석을 통해 상세히 설명하고, OpenClaw와의 비교를 통해 설계 질문에 대한 다양한 해답을 제시합니다. 인간의 결정 권한, 안전 및 보안, 신뢰성 있는 실행, 능력 증폭, 상황 적응성이라는 다섯 가지 가치를 기반으로 13가지 설계 원칙을 도출하고 구현 선택과의 연관성을 분석합니다. 시스템의 핵심은 모델 호출, 도구 실행, 반복으로 구성된 간단한 while-loop이지만, 권한 시스템, 컨텍스트 관리 파이프라인, 확장성 메커니즘, 서브 에이전트 위임 메커니즘 등 주변 시스템이 대부분의 코드를 차지합니다. OpenClaw와의 비교를 통해 배포 환경에 따라 아키텍처가 어떻게 달라지는지 보여주며, 미래 에이전트 시스템을 위한 여섯 가지 설계 방향을 제시합니다.",
       "key_points": [
-        "LM 에이전트의 탐색 및 활용 오류를 정량화하는 새로운 지표 제시",
-        "탐색 및 활용 난이도 조절 가능한 제어 환경 설계",
-        "Reasoning 모델과 harness 엔지니어링을 통한 성능 향상 가능성 입증"
+        "Claude Code의 상세 아키텍처 분석 및 OpenClaw와의 비교",
+        "AI 에이전트 시스템 설계의 동기가 되는 5가지 인간 가치 식별",
+        "미래 에이전트 시스템을 위한 6가지 설계 방향 제시"
       ],
       "tags": [
         "Agent",
-        "Exploration",
-        "Exploitation",
+        "Architecture",
+        "Code Generation",
+        "Design Principles",
+        "RAG",
+        "Safety"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "AI 에이전트 시스템 구축 시 고려해야 할 다양한 설계 요소와 트레이드오프를 이해하고, 실제 코드 구현에 적용할 수 있는 인사이트를 얻을 수 있습니다.",
+      "recommended_actions": [
+        "Claude Code의 TypeScript 소스 코드 분석",
+        "OpenClaw 프로젝트 탐색 및 Claude Code와의 차이점 비교",
+        "제시된 6가지 미래 설계 방향을 기반으로 자체 에이전트 시스템 설계"
+      ],
+      "risks_and_limits": [
+        "Claude Code의 특정 구현에 대한 분석 결과이므로 일반적인 에이전트 시스템에 적용하기 어려울 수 있음",
+        "OpenClaw와의 비교가 특정 배포 환경에 국한되어 있을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14228.png",
+      "local_image_path": "images/Dive_into_Claude_Code_The_Design_Space_of_Today's_and_Future_AI_Agent_Systems_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards",
+      "paper_id": "2604.14967",
+      "url": "https://huggingface.co/papers/2604.14967",
+      "arxiv_url": "https://arxiv.org/abs/2604.14967",
+      "upvotes": 10,
+      "summary": "LVLM 에이전트를 강화학습으로 훈련하여 문서 검색, 재정렬, 능동적 시각 인식, 추론을 통합적으로 수행, 기존 RAG 시스템의 한계를 극복하고 성능을 향상시킴.",
+      "korean_abstract": "기존 Visual RAG 시스템은 복잡한 추론에 필요한 세밀한 시각적 의미를 간과하는 문제가 있습니다. 이러한 문제를 해결하기 위해, LVLM 에이전트가 검색, 재정렬, 능동적 시각 인식, 추론을 동시에 수행하는 UniDoc-RL이라는 강화 학습 프레임워크를 제안합니다. UniDoc-RL은 시각 정보 획득을 계층적 행동 공간을 가진 순차적 의사 결정 문제로 공식화하여, 불필요한 콘텐츠를 억제하고 정보 밀도가 높은 영역에 집중합니다. 효과적인 end-to-end 훈련을 위해, 각 행동에 대한 task-aware supervision을 제공하는 dense multi-reward scheme을 도입했습니다. GRPO 기반으로 별도의 value network 없이 에이전트 행동을 여러 목표에 맞춥니다. 3개의 벤치마크에서 UniDoc-RL이 기존 RL 기반 방법보다 최대 17.7% 향상된 성능을 보였습니다.",
+      "key_points": [
+        "LVLM 에이전트를 활용한 새로운 Visual RAG 프레임워크 제시",
+        "계층적 행동 공간과 dense multi-reward scheme을 통한 강화 학습",
+        "기존 RL 기반 방법 대비 성능 향상 (최대 17.7%)"
+      ],
+      "tags": [
+        "Agent",
+        "RAG",
+        "Vision",
         "Reasoning",
+        "Benchmark",
         "Evaluation"
       ],
       "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "LM 에이전트 기반의 자동화 시스템 개발 시, 탐색 및 활용 능력의 부족으로 인한 오류를 진단하고 개선하는 데 활용할 수 있습니다. 특히, 강화학습 기반의 에이전트 개발 시, exploration/exploitation 균형을 맞추는 데 도움이 될 수 있습니다.",
+      "practical_relevance": "LVLM을 활용한 RAG 시스템의 성능을 개선하고, 특히 시각 정보를 활용한 복잡한 추론 능력을 향상시킬 수 있어, 이미지 기반 질의 응답 시스템 개발에 유용합니다.",
       "recommended_actions": [
-        "자체 LM 에이전트에 해당 연구에서 제시된 환경 및 지표 적용하여 성능 평가",
-        "Reasoning 모델을 활용하여 에이전트의 의사 결정 과정 개선",
-        "Harness 엔지니어링을 통해 에이전트의 탐색 및 활용 능력 향상 시도"
+        "UniDoc-RL의 계층적 행동 공간 및 dense reward 구조 분석",
+        "자체 데이터셋에 UniDoc-RL 적용 및 성능 평가",
+        "GRPO 알고리즘을 활용한 에이전트 훈련 실험"
       ],
       "risks_and_limits": [
-        "제시된 환경이 특정 task에 편향되어 있을 수 있음",
-        "지표가 에이전트의 내부 정책을 고려하지 않아 정확도에 한계가 있을 수 있음"
+        "강화 학습 기반이므로 학습 데이터 및 환경 설정에 민감할 수 있음",
+        "실제 서비스 환경에서의 일반화 성능 검증 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.13151.png",
-      "local_image_path": "images/Exploration_and_Exploitation_Errors_Are_Measurable_for_Language_Model_Agents_img.jpg",
-      "local_figures": [
-        "images/Exploration_and_Exploitation_Errors_Are_Measurable_fig_1.png",
-        "images/Exploration_and_Exploitation_Errors_Are_Measurable_fig_2.png"
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "Target Policy Optimization",
-      "paper_id": "2604.06159",
-      "url": "https://huggingface.co/papers/2604.06159",
-      "arxiv_url": "https://arxiv.org/abs/2604.06159",
-      "upvotes": 19,
-      "summary": "Target Policy Optimization (TPO)는 강화 학습에서 보상 희소 환경에서 기존 정책 그래디언트 방법보다 뛰어난 성능을 보이는 새로운 정책 최적화 방법입니다.",
-      "korean_abstract": "강화 학습에서 모델을 통해 생성된 completion들을 평가하고, 어떤 completion의 확률을 높여야 하는지, 그리고 이를 위해 파라미터를 어떻게 조정해야 하는지가 중요한 문제입니다. 기존 정책 그래디언트 방법은 이 두 가지를 동시에 처리하여 학습률에 따라 과도하게 업데이트되거나 부족하게 업데이트될 수 있습니다. 본 논문에서는 Target Policy Optimization (TPO)라는 새로운 방법을 제안하여 이 두 가지 질문을 분리합니다. TPO는 점수가 매겨진 completion들을 기반으로 목표 분포를 구성하고, 교차 엔트로피를 사용하여 정책을 목표 분포에 맞춥니다. 다양한 실험 결과, TPO는 쉬운 task에서는 기존 방법과 유사한 성능을 보였지만, 보상이 희소한 환경에서는 기존 방법들을 능가했습니다.",
-      "key_points": [
-        "정책 업데이트 목표 분포를 명시적으로 모델링",
-        "정책 학습과 업데이트 방향 결정을 분리",
-        "희소 보상 환경에서 기존 방법 대비 성능 향상"
-      ],
-      "tags": [
-        "RL",
-        "Policy Optimization",
-        "Sparse Reward"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "TPO는 특히 보상이 희소한 환경에서 강화 학습 모델의 성능을 향상시킬 수 있으므로, 실제 문제 해결에 적용할 때 유용합니다. 예를 들어, 복잡한 작업이나 드문 성공 사례를 학습해야 하는 경우에 효과적일 수 있습니다.",
-      "recommended_actions": [
-        "TPO를 기존 정책 그래디언트 방법과 비교하여 성능 테스트",
-        "희소 보상 환경에서 TPO의 효과 검증",
-        "TPO의 하이퍼파라미터 튜닝을 통해 최적 성능 탐색"
-      ],
-      "risks_and_limits": [
-        "TPO의 계산 복잡도가 기존 방법보다 높을 수 있음",
-        "목표 분포를 정확하게 모델링하는 것이 중요하며, 그렇지 않을 경우 성능 저하 발생 가능성 존재"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.06159.png",
-      "local_image_path": "images/Target_Policy_Optimization_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14967.png",
+      "local_image_path": "images/UniDoc-RL_Coarse-to-Fine_Visual_RAG_with_Hierarchical_Actions_and_Dense_Rewards_img.jpg",
       "local_figures": []
     }
   ]
