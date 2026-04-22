@@ -1,0 +1,383 @@
+{
+  "source": "huggingface_papers",
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T04:07:05.493996+09:00",
+  "count": 9,
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items\n📝 요약: Tstars-Tryon 1.0은 상업적 규모의 가상 착용 시스템으로, 다양한 패션 아이템에 대해 높은 성공률, 사실적인 결과, 다중 이미지 합성, 빠른 추론 속도를 제공하여 사용자 경험을 향상시킨다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.19748\n📄 arXiv: https://arxiv.org/abs/2604.19748\n\n📍 2. CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation\n📝 요약: CoInteract는 Diffusion Transformer 기반으로 사람-객체 상호작용 비디오 생성 시 손과 얼굴의 구조적 안정성 및 물리적 현실감을 향상시키는 새로운 프레임워크입니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.19636\n📄 arXiv: https://arxiv.org/abs/2604.19636\n\n📍 3. AgentSPEX: An Agent SPecification and EXecution Language\n📝 요약: LLM 에이전트의 복잡한 워크플로우를 명시적 제어 흐름과 모듈식 구조로 정의하여 개발 및 유지보수를 용이하게 하는 새로운 언어 AgentSPEX를 제안합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.13346\n📄 arXiv: https://arxiv.org/abs/2604.13346\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "items": [
+    {
+      "rank": 1,
+      "title": "Tstars-Tryon 1.0: Robust and Realistic Virtual Try-On for Diverse Fashion Items",
+      "paper_id": "2604.19748",
+      "url": "https://huggingface.co/papers/2604.19748",
+      "arxiv_url": "https://arxiv.org/abs/2604.19748",
+      "upvotes": 78,
+      "summary": "Tstars-Tryon 1.0은 상업적 규모의 가상 착용 시스템으로, 다양한 패션 아이템에 대해 높은 성공률, 사실적인 결과, 다중 이미지 합성, 빠른 추론 속도를 제공하여 사용자 경험을 향상시킨다.",
+      "korean_abstract": "기존 가상 착용 방법들은 복잡한 실제 환경에서의 요구사항을 충족시키기 어려웠다. 이러한 문제를 해결하기 위해 Tstars-Tryon 1.0은 견고성, 사실성, 다재다능함, 효율성을 갖춘 상업적 규모의 가상 착용 시스템을 제시한다. 이 시스템은 극한 포즈, 조명 변화, 모션 블러 등 까다로운 조건에서도 높은 성공률을 유지하며, 의류 질감, 재료 속성, 구조적 특징을 충실하게 보존하여 사실적인 결과를 제공한다. 또한, 다양한 패션 카테고리에서 최대 6개의 참조 이미지를 활용한 다중 이미지 합성을 지원하며, 추론 속도 최적화를 통해 실시간에 가까운 사용자 경험을 제공한다. 대규모 제품 배포를 통해 성능이 입증되었으며, 벤치마크를 공개하여 후속 연구를 지원한다.",
+      "key_points": [
+        "극한 조건에서도 높은 성공률과 사실적인 가상 착용 결과 제공",
+        "다양한 패션 카테고리 및 다중 이미지 합성을 지원하는 유연성",
+        "실시간에 가까운 추론 속도를 위한 시스템 최적화"
+      ],
+      "tags": [
+        "Vision",
+        "Image Generation",
+        "Virtual Try-On",
+        "E-commerce",
+        "Benchmark",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "가상 착용 기술을 활용하여 사용자 경험을 향상시키고, 패션 아이템 판매를 촉진하는 데 기여할 수 있다. 특히, 어려운 조건에서도 안정적인 성능을 제공하므로 실제 서비스 환경에 적용하기 용이하다.",
+      "recommended_actions": [
+        "공개된 벤치마크 데이터셋을 활용하여 자체 모델 성능 평가",
+        "다양한 패션 아이템 및 사용자 조건에서 Tstars-Tryon 1.0의 성능 비교 분석",
+        "실시간 추론 속도 향상을 위한 시스템 최적화 기법 연구"
+      ],
+      "risks_and_limits": [
+        "특정 패션 아이템 또는 사용자 체형에 대한 일반화 성능 부족 가능성",
+        "AI 생성 이미지의 잠재적인 윤리적 문제 (예: 신체 왜곡, 편향된 표현)"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19748.png",
+      "local_image_path": "images/Tstars-Tryon_1.0_Robust_and_Realistic_Virtual_Try-On_for_Diverse_Fashion_Items_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 2,
+      "title": "CoInteract: Physically-Consistent Human-Object Interaction Video Synthesis via Spatially-Structured Co-Generation",
+      "paper_id": "2604.19636",
+      "url": "https://huggingface.co/papers/2604.19636",
+      "arxiv_url": "https://arxiv.org/abs/2604.19636",
+      "upvotes": 58,
+      "summary": "CoInteract는 Diffusion Transformer 기반으로 사람-객체 상호작용 비디오 생성 시 손과 얼굴의 구조적 안정성 및 물리적 현실감을 향상시키는 새로운 프레임워크입니다.",
+      "korean_abstract": "사람-객체 상호작용(HOI) 비디오 합성은 전자 상거래, 디지털 광고 등 다양한 분야에서 중요하지만, 기존 diffusion 모델은 구조적 안정성과 물리적 현실감 측면에서 한계를 보입니다. 이러한 문제를 해결하기 위해 CoInteract는 사람 참조 이미지, 제품 참조 이미지, 텍스트 프롬프트, 음성 오디오를 조건으로 HOI 비디오를 생성하는 프레임워크를 제안합니다. CoInteract는 Human-Aware MoE를 통해 영역별 전문가에게 토큰을 라우팅하여 구조적 정확도를 높이고, Spatially-Structured Co-Generation을 통해 RGB 스트림과 HOI 구조 스트림을 공동으로 모델링하여 상호작용 기하학적 사전 정보를 주입합니다. 실험 결과, CoInteract는 구조적 안정성, 논리적 일관성, 상호작용 현실감 측면에서 기존 방법보다 우수한 성능을 보였습니다.",
+      "key_points": [
+        "Human-Aware Mixture-of-Experts (MoE)를 통해 영역별 특화된 전문가 활용",
+        "Spatially-Structured Co-Generation을 통해 RGB와 HOI 구조 스트림 공동 모델링",
+        "HOI 스트림을 학습 시에만 사용하여 추론 시 오버헤드 없음"
+      ],
+      "tags": [
+        "Diffusion Model",
+        "Video Synthesis",
+        "HOI",
+        "Transformer",
+        "Vision",
+        "Video",
+        "Audio",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "HOI 비디오 생성 시 구조적 안정성과 물리적 현실감을 높여, 보다 자연스럽고 현실적인 가상 환경 구축 및 콘텐츠 제작에 기여할 수 있습니다.",
+      "recommended_actions": [
+        "제공되는 데모 비디오를 통해 CoInteract의 성능 직접 확인",
+        "Human-Aware MoE 및 Spatially-Structured Co-Generation의 구현 방식 상세 분석",
+        "자체 데이터셋에 CoInteract 적용하여 성능 개선 가능성 검토"
+      ],
+      "risks_and_limits": [
+        "복잡한 상호작용이나 새로운 객체에 대한 일반화 성능 검증 필요",
+        "학습 데이터의 편향이 생성 결과에 미치는 영향 분석 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19636.png",
+      "local_image_path": "images/CoInteract_Physically-Consistent_Human-Object_Interaction_Video_Synthesis_via_Spatially-Structured_C_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 3,
+      "title": "AgentSPEX: An Agent SPecification and EXecution Language",
+      "paper_id": "2604.13346",
+      "url": "https://huggingface.co/papers/2604.13346",
+      "arxiv_url": "https://arxiv.org/abs/2604.13346",
+      "upvotes": 49,
+      "summary": "LLM 에이전트의 복잡한 워크플로우를 명시적 제어 흐름과 모듈식 구조로 정의하여 개발 및 유지보수를 용이하게 하는 새로운 언어 AgentSPEX를 제안합니다.",
+      "korean_abstract": "현재 LLM 에이전트 시스템은 반응형 프롬프팅에 의존하거나 파이썬에 강하게 결합된 오케스트레이션 프레임워크를 사용합니다. 이는 에이전트의 제어 흐름과 중간 상태를 불분명하게 만들고, 행동 제어를 어렵게 하며, 유지보수 및 수정에 어려움을 초래합니다. 본 논문은 명시적인 제어 흐름과 모듈식 구조를 가진 LLM 에이전트 워크플로우를 위한 AgentSPEX라는 새로운 명세 및 실행 언어를 소개합니다. AgentSPEX는 타입 스텝, 분기, 루프, 병렬 실행, 재사용 가능한 서브모듈, 명시적 상태 관리를 지원하며, 도구 접근, 샌드박스 환경, 체크포인팅, 검증, 로깅을 제공하는 에이전트 하네스 내에서 실행됩니다. 또한, 시각적 편집기도 제공됩니다. AgentSPEX는 7가지 벤치마크에서 평가되었으며, 사용자 연구를 통해 기존 인기 에이전트 프레임워크보다 더 해석 가능하고 접근하기 쉬운 워크플로우 작성 패러다임을 제공함을 입증했습니다.",
+      "key_points": [
+        "LLM 에이전트 워크플로우를 위한 명시적 제어 흐름과 모듈식 구조를 가진 새로운 언어 AgentSPEX 제안.",
+        "타입 스텝, 분기, 루프, 병렬 실행, 재사용 가능한 서브모듈, 명시적 상태 관리 등 고급 워크플로우 기능 지원.",
+        "도구 접근, 샌드박스, 체크포인팅, 검증, 로깅을 포함하는 사용자 정의 가능한 에이전트 실행 하네스 제공."
+      ],
+      "tags": [
+        "Agent",
+        "LLM",
+        "Workflow",
+        "DSL",
+        "Orchestration",
+        "Reasoning",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 LLM 에이전트 개발의 고질적인 문제인 제어의 어려움과 유지보수 복잡성을 해결하여, 개발자들이 더욱 안정적이고 예측 가능한 에이전트 시스템을 구축하고 관리할 수 있도록 돕습니다.",
+      "recommended_actions": [
+        "복잡한 제어 흐름이 필요한 새로운 LLM 에이전트 프로젝트에 AgentSPEX 도입을 검토.",
+        "기존의 반응형 프롬프팅 기반 에이전트나 파이썬 결합 워크플로우를 AgentSPEX로 전환하여 유지보수성 개선 가능성 평가.",
+        "AgentSPEX의 시각적 편집기를 활용하여 에이전트 워크플로우를 설계하고 팀 내 협업 효율성 증대."
+      ],
+      "risks_and_limits": [
+        "새로운 언어 및 프레임워크 도입에 따른 학습 곡선과 초기 개발 비용 발생.",
+        "초기 단계의 생태계로 인해 커뮤니티 지원, 라이브러리, 통합 솔루션 등이 부족할 수 있음.",
+        "특정 복잡한 시나리오에서 기존 파이썬 기반 프레임워크 대비 성능 오버헤드가 발생할 가능성."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.13346.png",
+      "local_image_path": "images/AgentSPEX_An_Agent_SPecification_and_EXecution_Language_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "AnyRecon: Arbitrary-View 3D Reconstruction with Video Diffusion Model",
+      "paper_id": "2604.19747",
+      "url": "https://huggingface.co/papers/2604.19747",
+      "arxiv_url": "https://arxiv.org/abs/2604.19747",
+      "upvotes": 34,
+      "summary": "비디오 확산 모델을 활용하여 임의의 시점에서 촬영된 적은 수의 이미지로도 대규모 3D 장면을 견고하고 확장 가능하게 재구성하는 기술.",
+      "korean_abstract": "희소 뷰 3D 재구성은 일상적인 촬영물로부터 장면을 모델링하는 데 필수적이지만, 기존 비생성형 방식으로는 여전히 어렵습니다. 확산 기반 접근 방식은 새로운 뷰를 합성하여 이 문제를 완화하지만, 한두 프레임에만 의존하여 기하학적 일관성과 대규모 장면으로의 확장성이 제한됩니다. 본 논문은 임의의 순서 없는 희소 입력으로부터 명시적인 기하학적 제어를 유지하면서 유연한 조건화가 가능한 확장성 있는 프레임워크인 AnyRecon을 제안합니다. 이 방법은 장거리 조건화를 위해 영구적인 전역 장면 메모리를 구축하고, 기하학적 정보를 활용한 조건화 전략을 도입하여 생성과 재구성을 결합합니다. 또한, 4단계 확산 증류와 희소 어텐션을 통해 효율성도 확보했습니다. 광범위한 실험을 통해 불규칙한 입력, 큰 시점 차이, 긴 궤적에서도 견고하고 확장 가능한 재구성을 입증했습니다.",
+      "key_points": [
+        "임의의 순서 없는 희소 입력에 대해 명시적 기하학적 제어를 유지하는 확장 가능한 3D 재구성 프레임워크.",
+        "장거리 조건화를 위한 영구적인 전역 장면 메모리(캡처 뷰 캐시) 및 시간 압축 제거.",
+        "3D 기하학적 메모리와 기하학적 기반 캡처 뷰 검색을 통해 생성과 재구성을 결합하는 기하학 인식 조건화 전략."
+      ],
+      "tags": [
+        "Vision",
+        "3D Reconstruction",
+        "Diffusion Models",
+        "Generative AI",
+        "Computer Graphics",
+        "RAG",
+        "Video",
+        "Evaluation",
+        "Distillation",
+        "Optimization"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "개발자들은 이 기술을 활용하여 스마트폰 등으로 촬영한 불규칙하고 적은 수의 영상이나 이미지로도 고품질의 3D 모델을 쉽게 생성할 수 있어, AR/VR 콘텐츠 제작, 디지털 트윈 구축, 게임 개발 등 다양한 분야에서 3D 모델링 파이프라인을 혁신할 수 있습니다.",
+      "recommended_actions": [
+        "다양한 실제 환경(실내, 실외, 복잡한 객체 등)에서 스마트폰으로 촬영한 비디오 데이터셋을 활용하여 재구성 품질 및 견고성 테스트.",
+        "기존 SOTA(State-of-the-Art) 희소 뷰 3D 재구성 방법들과 비교하여 재구성 정확도, 속도, 메모리 사용량 벤치마킹.",
+        "재구성된 3D 모델을 AR/VR 환경에 통합하여 실시간 렌더링 및 사용자 경험에 미치는 영향 평가."
+      ],
+      "risks_and_limits": [
+        "확산 모델 기반으로 인한 높은 계산 비용 및 학습/추론 시간, 특히 매우 큰 스케일의 장면이나 고해상도 재구성 시.",
+        "입력 비디오/이미지의 품질(예: 노이즈, 블러, 조명 변화)에 따라 재구성 정확도 및 기하학적 일관성이 저하될 가능성."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19747.png",
+      "local_image_path": "images/AnyRecon_Arbitrary-View_3D_Reconstruction_with_Video_Diffusion_Model_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "TEMPO: Scaling Test-time Training for Large Reasoning Models",
+      "paper_id": "2604.19295",
+      "url": "https://huggingface.co/papers/2604.19295",
+      "arxiv_url": "https://arxiv.org/abs/2604.19295",
+      "upvotes": 24,
+      "summary": "TEMPO는 주기적인 비평가 재보정을 통해 대규모 추론 모델의 테스트 시간 훈련을 확장하여 성능을 크게 향상시킵니다.",
+      "korean_abstract": "테스트 시간 훈련(TTT)은 추론 시점에 모델 파라미터를 조정하여 오프라인 훈련의 한계를 넘어 모델 역량을 지속적으로 확장합니다. 하지만 기존 대규모 추론 모델(LRM)을 위한 TTT 방법들은 정책 모델이 진화함에 따라 보상 신호가 표류하고 다양성이 붕괴되어 빠르게 성능이 정체되고 추가 컴퓨팅 자원 투입에도 이점을 얻지 못했습니다. 본 논문은 레이블 없는 테스트 인스턴스에 대한 정책 개선과 레이블이 지정된 데이터셋을 사용한 주기적인 비평가 재보정을 교차하는 TEMPO 프레임워크를 제안합니다. 이 교대 절차를 기대-최대화(EM) 알고리즘으로 정형화함으로써, 기존 방법들이 핵심적인 재보정 단계를 생략한 불완전한 변형이었음을 밝히고, 이 단계를 재도입하여 증거 하한(ELBO)을 강화하고 지속적인 성능 향상을 가능하게 합니다. TEMPO는 Qwen3 및 OLMO3과 같은 다양한 모델 계열과 추론 작업에서 OLMO3-7B의 성능을 33.0%에서 51.1%로, Qwen3-14B를 42.3%에서 65.8%로 크게 향상시키면서 높은 다양성을 유지합니다.",
+      "key_points": [
+        "대규모 추론 모델을 위한 확장 가능한 테스트 시간 훈련(TTT) 프레임워크 TEMPO 제안.",
+        "레이블 없는 데이터에 대한 정책 개선과 레이블 있는 데이터에 대한 주기적인 비평가 재보정을 교차하는 새로운 접근 방식 도입.",
+        "이 과정을 기대-최대화(EM) 알고리즘으로 정형화하여 기존 TTT 방법의 한계를 극복하고 지속적인 성능 향상 달성."
+      ],
+      "tags": [
+        "LLM",
+        "Test-time Training",
+        "Reasoning",
+        "Model Adaptation",
+        "Machine Learning",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "배포된 대규모 추론 모델의 성능을 추가적인 전체 재훈련 없이 지속적으로 개선할 수 있는 실용적인 방법을 제공하여, 모델 유지보수 비용을 절감하고 수명을 연장하는 데 기여할 수 있습니다.",
+      "recommended_actions": [
+        "현재 운영 중인 대규모 추론 모델에 TEMPO를 적용하여 특정 추론 작업에서의 성능 향상 여부 평가.",
+        "주기적인 비평가 재보정으로 인한 추가적인 추론 시간 오버헤드와 성능 향상 간의 트레이드오프 분석.",
+        "비평가 재보정의 주기 및 전략(예: 재보정 빈도, 사용 데이터셋 크기)을 다양하게 실험하여 최적의 설정 탐색."
+      ],
+      "risks_and_limits": [
+        "비평가 재보정을 위해 소규모라도 레이블이 지정된 데이터셋이 지속적으로 필요함.",
+        "테스트 시간 훈련 과정으로 인해 기존 정적 추론 대비 추론 지연 시간이 증가할 수 있음."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19295.png",
+      "local_image_path": "images/TEMPO_Scaling_Test-time_Training_for_Large_Reasoning_Models_img.jpg",
+      "local_figures": [
+        "images/TEMPO_Scaling_Test-time_Training_for_Large_Reasoni_fig_1.png"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "PlayCoder: Making LLM-Generated GUI Code Playable",
+      "paper_id": "2604.19742",
+      "url": "https://huggingface.co/papers/2604.19742",
+      "arxiv_url": "https://arxiv.org/abs/2604.19742",
+      "upvotes": 19,
+      "summary": "LLM을 이용한 GUI 애플리케이션 코드 생성 시 논리적 오류를 효과적으로 검출하고 개선하는 PlayCoder 프레임워크를 제안하여, GUI 개발 생산성을 향상시킬 수 있다.",
+      "korean_abstract": "LLM은 코드 생성에서 뛰어난 성능을 보이지만, GUI 애플리케이션, 특히 게임 개발에서의 활용은 미흡하다. 기존의 코드 평가 방식은 GUI 애플리케이션의 상호작용 및 상태 변화를 제대로 반영하지 못한다. 이러한 문제점을 해결하기 위해, 다양한 GUI 애플리케이션을 포함하는 PlayEval 벤치마크를 구축하고, 논리적 오류 없이 실행 가능한 코드를 평가하는 Play@k 메트릭과 LLM 기반의 PlayTester 에이전트를 개발했다. 실험 결과, 기존 LLM들은 GUI 애플리케이션 코드 생성에서 심각한 논리적 오류를 보였으며, 이를 개선하기 위해 PlayCoder 프레임워크를 제안한다. PlayCoder는 다중 에이전트 시스템을 통해 GUI 애플리케이션 코드를 생성, 평가, 수정하는 과정을 반복하여 코드의 기능적 정확성과 의미적 일관성을 향상시킨다.",
+      "key_points": [
+        "GUI 애플리케이션 코드 생성을 위한 새로운 벤치마크 PlayEval 제시",
+        "GUI 애플리케이션의 논리적 오류를 평가하는 Play@k 메트릭 및 PlayTester 에이전트 개발",
+        "다중 에이전트 기반의 PlayCoder 프레임워크를 통해 GUI 애플리케이션 코드 생성 성능 향상"
+      ],
+      "tags": [
+        "GUI",
+        "LLM",
+        "Code Generation",
+        "Benchmark",
+        "Agent",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "GUI 애플리케이션 개발 시 LLM을 활용하여 초기 코드 생성 및 자동 테스트를 수행하고, PlayCoder 프레임워크를 통해 코드의 논리적 오류를 개선하여 개발 효율성을 높일 수 있다.",
+      "recommended_actions": [
+        "PlayEval 벤치마크를 활용하여 자사 LLM의 GUI 애플리케이션 코드 생성 성능 평가",
+        "PlayTester 에이전트를 활용하여 생성된 GUI 코드의 논리적 오류 자동 검출",
+        "PlayCoder 프레임워크를 기반으로 GUI 코드 생성 및 수정 파이프라인 구축"
+      ],
+      "risks_and_limits": [
+        "PlayTester 에이전트의 오류 검출 정확도에 따라 PlayCoder의 성능이 좌우될 수 있음",
+        "PlayEval 벤치마크가 특정 GUI 애플리케이션 유형에 편향되어 있을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19742.png",
+      "local_image_path": "images/PlayCoder_Making_LLM-Generated_GUI_Code_Playable_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "ShadowPEFT: Shadow Network for Parameter-Efficient Fine-Tuning",
+      "paper_id": "2604.19254",
+      "url": "https://huggingface.co/papers/2604.19254",
+      "arxiv_url": "https://arxiv.org/abs/2604.19254",
+      "upvotes": 18,
+      "summary": "ShadowPEFT는 LLM의 파라미터 효율적인 Fine-tuning을 위해 레이어 레벨에서 공유되는 shadow 모듈을 사용하여 기존 LoRA 방식보다 더 효과적인 성능을 제공하며, 특히 edge 컴퓨팅 환경에서 유연성을 제공한다.",
+      "korean_abstract": "대규모 언어 모델(LLM)의 파라미터 효율적인 Fine-tuning(PEFT)은 전체 파라미터 Fine-tuning 비용을 줄이는 방법으로, 사전 학습된 backbone을 고정하고 작은 task-specific 파라미터만 학습시킨다. 기존 LoRA 방식은 개별 weight에 독립적인 low-rank perturbation을 적용하여 local parameterization을 수행한다. 본 논문에서는 depth-shared shadow 모듈을 통해 레이어 레벨에서 refinement를 수행하는 ShadowPEFT 프레임워크를 제안한다. ShadowPEFT는 각 transformer 레이어에서 병렬적인 shadow state를 유지하고 이를 반복적으로 발전시켜 hidden state를 풍부하게 만든다. 실험 결과, ShadowPEFT는 LoRA 및 DoRA와 비슷한 파라미터 예산에서 동등하거나 더 나은 성능을 보였으며, shadow pretraining, cross-dataset transfer, 파라미터 스케일링, 추론 지연 시간 및 시스템 레벨 평가에서 경쟁력 있는 대안임을 입증했다.",
+      "key_points": [
+        "레이어 레벨에서 공유되는 shadow 모듈을 사용한 새로운 PEFT 프레임워크 제안",
+        "기존 LoRA 방식 대비 파라미터 효율성 및 성능 향상",
+        "Edge 컴퓨팅 환경에서의 유연성 및 detached 모드 지원"
+      ],
+      "tags": [
+        "PEFT",
+        "Fine-tuning",
+        "LLM",
+        "Edge Computing",
+        "Benchmark",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "ShadowPEFT는 LLM을 Fine-tuning할 때 필요한 자원을 줄이면서도 높은 성능을 유지할 수 있게 해주므로, 자원 제약적인 환경에서 LLM을 활용해야 하는 개발자에게 유용하다.",
+      "recommended_actions": [
+        "ShadowPEFT 코드를 실제 모델에 적용하여 성능 테스트",
+        "기존 LoRA 방식과 ShadowPEFT 방식의 Fine-tuning 시간 및 자원 소모 비교",
+        "Edge 디바이스에서 ShadowPEFT의 detached 모드 성능 평가"
+      ],
+      "risks_and_limits": [
+        "Shadow 모듈의 pretraining에 추가적인 자원 소모가 발생할 수 있음",
+        "새로운 아키텍처에 대한 이해 및 구현 복잡성이 존재함"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19254.png",
+      "local_image_path": "images/ShadowPEFT_Shadow_Network_for_Parameter-Efficient_Fine-Tuning_img.jpg",
+      "local_figures": [
+        "images/ShadowPEFT_Shadow_Network_for_Parameter-Efficient__fig_1.jpeg",
+        "images/ShadowPEFT_Shadow_Network_for_Parameter-Efficient__fig_2.jpeg"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Chat2Workflow: A Benchmark for Generating Executable Visual Workflows with Natural Language",
+      "paper_id": "2604.19667",
+      "url": "https://huggingface.co/papers/2604.19667",
+      "arxiv_url": "https://arxiv.org/abs/2604.19667",
+      "upvotes": 13,
+      "summary": "LLM을 이용해 자연어 기반으로 실행 가능한 비주얼 워크플로우를 자동 생성하는 Chat2Workflow 벤치마크를 제시하고, 에이전트 프레임워크를 통해 실행 오류를 개선하고자 함.",
+      "korean_abstract": "실행 가능한 비주얼 워크플로우는 산업 현장에서 신뢰성과 제어 가능성으로 각광받고 있지만, 현재는 개발자가 수동으로 설계하고 프롬프트를 작성하여 반복적으로 수정하는 방식으로 개발되어 비용이 많이 든다. LLM이 이러한 다단계 상호 작용 프로세스를 자동화할 수 있는지 연구하기 위해, 자연어로부터 실행 가능한 비주얼 워크플로우를 생성하는 벤치마크 Chat2Workflow를 소개하고, 반복적인 실행 오류를 완화하기 위한 에이전트 프레임워크를 제안한다. Chat2Workflow는 실제 비즈니스 워크플로우를 기반으로 구축되었으며, 생성된 워크플로우는 Dify 및 Coze와 같은 플랫폼에 직접 배포할 수 있도록 설계되었다. 실험 결과, 최첨단 LLM이 높은 수준의 의도를 파악할 수 있지만, 특히 복잡하거나 변화하는 요구 사항에서 정확하고 안정적인 실행 가능한 워크플로우를 생성하는 데 어려움을 겪는다는 것을 보여준다. 에이전트 프레임워크가 최대 5.34%의 오류 해결률 향상을 가져왔지만, 여전히 실질적인 격차가 존재하며, Chat2Workflow는 산업 등급 자동화를 발전시키기 위한 기반을 제공한다.",
+      "key_points": [
+        "자연어 기반 비주얼 워크플로우 생성을 위한 새로운 벤치마크 Chat2Workflow 제시",
+        "실제 비즈니스 워크플로우 기반으로 구축되어 실용적인 워크플로우 플랫폼에 배포 가능",
+        "LLM의 워크플로우 생성 능력의 한계점을 지적하고, 에이전트 프레임워크를 통해 개선 가능성을 제시"
+      ],
+      "tags": [
+        "Workflow",
+        "LLM",
+        "Benchmark",
+        "Automation",
+        "Agent"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "LLM을 활용하여 복잡한 워크플로우 개발 과정을 자동화하고, 개발 생산성을 향상시킬 수 있는 가능성을 제시한다. 특히, Dify, Coze와 같은 실제 플랫폼에 적용 가능한 워크플로우 생성에 초점을 맞추어 실질적인 개발 효율성 증대에 기여할 수 있다.",
+      "recommended_actions": [
+        "Chat2Workflow 벤치마크를 활용하여 다양한 LLM의 워크플로우 생성 성능 비교 분석",
+        "제시된 에이전트 프레임워크를 기반으로 워크플로우 실행 오류 개선 연구 진행",
+        "실제 비즈니스 시나리오에 Chat2Workflow를 적용하여 자동화 가능성 및 한계점 검토"
+      ],
+      "risks_and_limits": [
+        "LLM이 복잡하거나 변화하는 요구 사항에 대한 워크플로우 생성에 어려움을 겪음",
+        "에이전트 프레임워크를 통해 오류 해결률을 향상시켰지만, 여전히 실질적인 격차가 존재함"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19667.png",
+      "local_image_path": "images/Chat2Workflow_A_Benchmark_for_Generating_Executable_Visual_Workflows_with_Natural_Language_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation",
+      "paper_id": "2604.18240",
+      "url": "https://huggingface.co/papers/2604.18240",
+      "arxiv_url": "https://arxiv.org/abs/2604.18240",
+      "upvotes": 11,
+      "summary": "Agent-as-a-Judge 방법론을 벤치마킹하는 AJ-Bench를 통해, 복잡한 환경에서 에이전트의 행동을 검증하는 새로운 가능성을 제시하고, 기존 LLM-as-a-Judge의 한계를 극복합니다.",
+      "korean_abstract": "강화 학습 기반의 LLM 에이전트 훈련 규모가 커짐에 따라, 복잡한 환경에서의 에이전트 행동 검증이 어려워지고 있습니다. 기존의 규칙 기반 검증기나 LLM-as-a-Judge 모델은 특정 도메인에 한정되는 문제점이 있었습니다. 이러한 한계를 극복하기 위해 Agent-as-a-Judge 방법론이 제시되었지만, 그 능력은 충분히 탐구되지 못했습니다. 본 연구에서는 Agent-as-a-Judge를 체계적으로 평가하기 위해 검색, 데이터 시스템, GUI 환경의 3가지 도메인, 155개의 태스크, 516개의 주석이 달린 궤적으로 구성된 AJ-Bench 벤치마크를 소개합니다. AJ-Bench는 정보 획득, 상태 검증, 프로세스 검증 측면에서 judge agent의 능력을 종합적으로 평가하며, 실험 결과 LLM-as-a-Judge baseline 대비 성능 향상을 보여주지만, 여전히 해결해야 할 과제가 많음을 시사합니다.",
+      "key_points": [
+        "Agent-as-a-Judge 방법론의 벤치마크 AJ-Bench 제시",
+        "검색, 데이터 시스템, GUI 환경에서 judge agent의 능력 평가",
+        "LLM-as-a-Judge baseline 대비 성능 향상 확인"
+      ],
+      "tags": [
+        "Agent",
+        "Benchmark",
+        "Evaluation",
+        "LLM"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "Agent-as-a-Judge는 복잡한 환경에서 에이전트의 행동을 검증하는 데 유용하며, 특히 자동화된 테스트 및 디버깅 시스템 구축에 활용될 수 있습니다.",
+      "recommended_actions": [
+        "AJ-Bench 데이터셋을 활용하여 Agent-as-a-Judge 모델 학습 및 평가",
+        "자체 개발한 에이전트 검증 시스템에 Agent-as-a-Judge 통합",
+        "Agent-as-a-Judge의 한계점을 개선하기 위한 연구 진행"
+      ],
+      "risks_and_limits": [
+        "Agent-as-a-Judge의 성능은 환경 및 태스크에 따라 크게 달라질 수 있음",
+        "Agent-as-a-Judge 모델 학습에 필요한 데이터 및 컴퓨팅 자원이 상당할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.18240.png",
+      "local_image_path": "images/AJ-Bench_Benchmarking_Agent-as-a-Judge_for_Environment-Aware_Evaluation_img.jpg",
+      "local_figures": []
+    }
+  ]
+}
