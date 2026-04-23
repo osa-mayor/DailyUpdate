@@ -1,0 +1,385 @@
+{
+  "source": "huggingface_papers",
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T04:08:40.513027+09:00",
+  "count": 9,
+  "chat_message": "🔥 오늘의 논문\n\n📍 1. LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model\n📝 요약: LLaDA2.0-Uni는 텍스트와 이미지를 통합적으로 이해하고 생성하는 diffusion LLM으로, 차세대 통합 파운데이션 모델의 가능성을 제시하며, 특히 이미지 생성 및 편집 작업에서 강력한 성능을 제공합니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.20796\n📄 arXiv: https://arxiv.org/abs/2604.20796\n\n📍 2. Near-Future Policy Optimization\n📝 요약: 정책의 미래 체크포인트를 활용하여 강화학습(RLVR) 훈련을 가속화하고 최종 성능을 향상시키는 새로운 정책 최적화 기법입니다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.20733\n📄 arXiv: https://arxiv.org/abs/2604.20733\n\n📍 3. DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data\n📝 요약: 10K개의 적은 데이터로도 강력한 4B 규모의 엣지 기반 연구 에이전트를 만들 수 있는 방법론(DR-Venus)을 제시, 특히 데이터 품질 및 활용도 향상에 초점을 맞춤.\n🔗 Hugging Face: https://huggingface.co/papers/2604.19859\n📄 arXiv: https://arxiv.org/abs/2604.19859\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "items": [
+    {
+      "rank": 1,
+      "title": "LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion Large Language Model",
+      "paper_id": "2604.20796",
+      "url": "https://huggingface.co/papers/2604.20796",
+      "arxiv_url": "https://arxiv.org/abs/2604.20796",
+      "upvotes": 207,
+      "summary": "LLaDA2.0-Uni는 텍스트와 이미지를 통합적으로 이해하고 생성하는 diffusion LLM으로, 차세대 통합 파운데이션 모델의 가능성을 제시하며, 특히 이미지 생성 및 편집 작업에서 강력한 성능을 제공합니다.",
+      "korean_abstract": "기존의 VLM은 멀티모달 이해와 생성을 통합적으로 지원하는 데 한계가 있었습니다. 이러한 문제를 해결하기 위해 LLaDA2.0-Uni는 discrete diffusion LLM을 사용하여 텍스트와 이미지 입력을 동시에 처리할 수 있도록 설계되었습니다. 구체적으로, 이 모델은 semantic discrete tokenizer, MoE 기반 dLLM 백본, diffusion 디코더를 결합하여 고품질 이미지 생성을 가능하게 합니다. 대규모 데이터와 맞춤형 학습 파이프라인을 통해 LLaDA2.0-Uni는 멀티모달 이해는 물론 이미지 생성 및 편집에서 뛰어난 성능을 보여줍니다. 이 모델은 interleaved 생성 및 추론을 기본적으로 지원하여 차세대 통합 파운데이션 모델을 위한 확장 가능한 패러다임을 제시합니다.",
+      "key_points": [
+        "텍스트와 이미지의 통합적 이해 및 생성을 위한 dLLM 구조 제안",
+        "SigLIP-VQ를 통한 시각적 입력의 이산화 및 diffusion decoder를 통한 고품질 이미지 복원",
+        "prefix-aware 최적화 및 few-step distillation을 통한 추론 효율성 향상"
+      ],
+      "tags": [
+        "Diffusion Model",
+        "Multimodal",
+        "Image Generation",
+        "LLM",
+        "Reasoning",
+        "Vision",
+        "Inference",
+        "Distillation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "LLaDA2.0-Uni는 이미지 생성, 편집, 그리고 텍스트와 이미지가 혼합된 콘텐츠를 다루는 개발자에게 유용하며, 특히 복잡한 멀티모달 작업을 효율적으로 처리할 수 있는 기반 모델을 제공합니다.",
+      "recommended_actions": [
+        "제공된 GitHub 저장소에서 모델 및 코드 확인",
+        "이미지 생성 및 편집 관련 task에 적용해보고 성능 테스트",
+        "모델 구조 및 학습 파이프라인을 분석하여 특정 사용 사례에 맞게 조정"
+      ],
+      "risks_and_limits": [
+        "대규모 데이터 및 컴퓨팅 자원 요구",
+        "모델의 일반화 성능 및 특정 도메인에서의 편향 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.20796.png",
+      "local_image_path": "images/LLaDA2.0-Uni_Unifying_Multimodal_Understanding_and_Generation_with_Diffusion_Large_Language_Model_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 2,
+      "title": "Near-Future Policy Optimization",
+      "paper_id": "2604.20733",
+      "url": "https://huggingface.co/papers/2604.20733",
+      "arxiv_url": "https://arxiv.org/abs/2604.20733",
+      "upvotes": 43,
+      "summary": "정책의 미래 체크포인트를 활용하여 강화학습(RLVR) 훈련을 가속화하고 최종 성능을 향상시키는 새로운 정책 최적화 기법입니다.",
+      "korean_abstract": "검증 가능한 보상 강화학습(RLVR)은 훈련 후 핵심 레시피가 되었으며, 오프-정책 궤적을 온-정책 탐색에 도입하면 수렴을 가속화하고 성능을 높일 수 있습니다. 그러나 적합한 궤적 소스를 찾는 것이 주요 과제인데, 기존 방식들은 '충분히 강하고(높은 Q)' '충분히 가까운(낮은 V)' 조건을 동시에 만족시키지 못해 학습 신호 S=Q/V를 극대화하지 못합니다. 본 논문은 정책 자신의 가까운 미래 시점(동일 훈련 실행의 나중 체크포인트)을 보조 궤적 소스로 활용하는 NPO(Near-Future Policy Optimization)를 제안합니다. 이는 궤적 품질과 분산 비용의 균형을 맞추며, 자동 개입 및 최적 체크포인트 선택을 위한 적응형 AutoNPO도 제시합니다. Qwen3-VL-8B-Instruct 모델에 GRPO와 함께 적용한 결과, NPO는 평균 성능을 57.88에서 62.84로, AutoNPO는 63.15로 향상시켜 수렴을 가속화하고 최종 성능 한계를 높였습니다.",
+      "key_points": [
+        "정책 자신의 '가까운 미래' 체크포인트를 활용하여 오프-정책 궤적을 생성하는 NPO 기법 제안",
+        "궤적 품질(높은 Q)과 흡수 용이성(낮은 V)의 균형을 맞춰 학습 신호 S=Q/V를 극대화",
+        "온라인 훈련 신호를 통해 개입 시점과 가이드 체크포인트를 자동으로 선택하는 적응형 AutoNPO 제시"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Policy Optimization",
+        "LLM",
+        "Training",
+        "Agent",
+        "RAG"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "기존 RL 훈련 파이프라인에 큰 변경 없이 모델의 성능을 높이고 훈련 시간을 단축할 수 있는 실용적인 방법론을 제공합니다. 외부 데이터나 복잡한 리플레이 버퍼 없이도 효과적인 오프-정책 학습이 가능해집니다.",
+      "recommended_actions": [
+        "현재 RL 파인튜닝 파이프라인에 NPO를 적용하여 체크포인트 기반의 오프-정책 학습 효과를 검증해 보세요.",
+        "AutoNPO에서 제안하는 S=Q/V 지표를 활용하여 최적의 '미래' 체크포인트를 자동으로 선택하는 로직을 구현해 보세요.",
+        "다양한 '미래' 체크포인트 간격 및 선택 전략이 모델 성능과 수렴 속도에 미치는 영향을 실험해 보세요."
+      ],
+      "risks_and_limits": [
+        "최적의 '가까운 미래' 체크포인트 선택이 특정 태스크나 훈련 환경에 따라 민감하게 반응할 수 있습니다.",
+        "NPO의 효과는 정책의 학습 안정성 및 궤적 품질에 대한 가정에 크게 의존할 수 있습니다."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.20733.png",
+      "local_image_path": "images/Near-Future_Policy_Optimization_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 3,
+      "title": "DR-Venus: Towards Frontier Edge-Scale Deep Research Agents with Only 10K Open Data",
+      "paper_id": "2604.19859",
+      "url": "https://huggingface.co/papers/2604.19859",
+      "arxiv_url": "https://arxiv.org/abs/2604.19859",
+      "upvotes": 37,
+      "summary": "10K개의 적은 데이터로도 강력한 4B 규모의 엣지 기반 연구 에이전트를 만들 수 있는 방법론(DR-Venus)을 제시, 특히 데이터 품질 및 활용도 향상에 초점을 맞춤.",
+      "korean_abstract": "엣지 환경에서 실행 가능한 작은 언어 모델 기반의 연구 에이전트는 비용, 지연 시간, 개인 정보 보호 측면에서 유리하다. 본 연구에서는 제한된 공개 데이터만으로 강력한 소형 연구 에이전트를 훈련하는 방법을 연구한다. 데이터 품질과 활용도를 개선하기 위해, agentic SFT와 강화 학습(RL)을 결합한 DR-Venus를 제안한다. Agentic SFT 단계에서는 데이터 정제 및 장기 trajectory 리샘플링을 통해 데이터 품질과 활용도를 높인다. 강화 학습 단계에서는 정보 획득 및 형식 인식 정규화를 기반으로 턴 레벨 보상을 설계하여 학습 효율성을 개선한다. 10K개의 데이터만으로 훈련된 DR-Venus-4B는 기존 9B 모델을 능가하며, 30B 모델과의 격차를 좁혔다.",
+      "key_points": [
+        "Agentic SFT를 통한 데이터 품질 및 활용도 향상",
+        "정보 획득 및 형식 인식 정규화를 활용한 강화 학습",
+        "10K 데이터만으로 4B 모델이 기존 9B 모델 능가"
+      ],
+      "tags": [
+        "Agent",
+        "Reinforcement Learning",
+        "Small Language Model",
+        "Vision",
+        "Benchmark",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "적은 데이터와 작은 모델로도 충분히 강력한 연구 에이전트를 구축할 수 있음을 보여주므로, 리소스 제약이 있는 환경에서 특정 연구 task 자동화를 위한 agent 개발에 유용하다.",
+      "recommended_actions": [
+        "DR-Venus 학습 레시피를 기반으로 자체 데이터셋에 적용해보기",
+        "정보 획득 기반 보상 함수 및 형식 인식 정규화 실험해보기",
+        "Test-time scaling을 통해 성능 향상 가능성 확인해보기"
+      ],
+      "risks_and_limits": [
+        "10K 데이터셋의 특성상 일반적인 task에 적용하기 어려울 수 있음",
+        "4B 모델의 한계로 인해 복잡한 추론 능력은 부족할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19859.png",
+      "local_image_path": "images/DR-Venus_Towards_Frontier_Edge-Scale_Deep_Research_Agents_with_Only_10K_Open_Data_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "OpenMobile: Building Open Mobile Agents with Task and Trajectory Synthesis",
+      "paper_id": "2604.15093",
+      "url": "https://huggingface.co/papers/2604.15093",
+      "arxiv_url": "https://arxiv.org/abs/2604.15093",
+      "upvotes": 22,
+      "summary": "OpenMobile은 모바일 에이전트 연구를 위한 오픈 소스 프레임워크로, 고품질 작업 지침 및 에이전트 궤적 합성을 통해 데이터 부족 문제를 해결하고, 기존 오픈 데이터 접근 방식보다 뛰어난 성능을 달성합니다.",
+      "korean_abstract": "최근 비전-언어 모델 기반 모바일 에이전트는 모바일 작업 자동화에서 뛰어난 성능을 보였지만, 학습 데이터가 폐쇄적이고 작업 및 궤적 합성 방식이 불투명했습니다. OpenMobile은 탐색을 통해 글로벌 환경 메모리를 구축하고, 이를 활용하여 다양하고 근거 있는 지침을 생성하는 확장 가능한 작업 합성 파이프라인과 학습자와 전문가 모델 간 전환을 통해 오류 복구 데이터를 캡처하는 정책 전환 전략을 제시합니다. OpenMobile로 학습된 에이전트는 AndroidWorld에서 기존 오픈 데이터 방식보다 훨씬 뛰어난 성능을 보였으며, 합성 지침과 벤치마크 테스트 세트 간의 중복 분석을 통해 성능 향상이 벤치마크 과적합이 아닌 광범위한 기능 커버리지에서 비롯됨을 검증했습니다. OpenMobile은 데이터 및 코드를 공개하여 모바일 에이전트 연구를 촉진합니다.",
+      "key_points": [
+        "오픈 소스 모바일 에이전트 프레임워크 OpenMobile 제시",
+        "확장 가능한 작업 합성 파이프라인 및 정책 전환 전략을 통한 고품질 데이터 생성",
+        "기존 오픈 데이터 방식 대비 뛰어난 성능 달성 및 기능 커버리지 검증"
+      ],
+      "tags": [
+        "Agent",
+        "Mobile",
+        "Open Source",
+        "Imitation Learning",
+        "Vision-Language Model",
+        "RAG",
+        "Vision",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "모바일 에이전트 개발 시 데이터 부족 문제를 해결하고, 더 나아가 자체 데이터셋 구축 및 성능 향상에 기여할 수 있습니다. 특히, 에이전트의 작업 지시 및 궤적 생성 과정을 이해하고 개선하는 데 도움이 됩니다.",
+      "recommended_actions": [
+        "OpenMobile 프레임워크를 활용하여 자체 모바일 에이전트 학습 데이터셋 구축",
+        "제공되는 작업 합성 파이프라인 및 정책 전환 전략을 분석하고 개선",
+        "AndroidWorld와 같은 모바일 에이전트 벤치마크에서 OpenMobile 기반 에이전트 성능 평가"
+      ],
+      "risks_and_limits": [
+        "합성 데이터와 실제 데이터 간의 차이로 인한 성능 격차 발생 가능성",
+        "특정 모바일 환경 및 작업에 대한 최적화 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.15093.png",
+      "local_image_path": "images/OpenMobile_Building_Open_Mobile_Agents_with_Task_and_Trajectory_Synthesis_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation",
+      "paper_id": "2604.20841",
+      "url": "https://huggingface.co/papers/2604.20841",
+      "arxiv_url": "https://arxiv.org/abs/2604.20841",
+      "upvotes": 19,
+      "summary": "3D 모션 캡처 없이 생성형 AI 비디오를 활용하여 로봇의 정교한 인간-객체 상호작용을 물리 기반으로 모방하는 프레임워크를 제시하여, 복잡한 로봇 조작 훈련의 문턱을 낮춥니다.",
+      "korean_abstract": "최근 비디오 생성 모델은 복잡한 손 조작을 포함한 현실적인 인간-객체 상호작용(HOI) 비디오를 합성할 수 있게 되었습니다. 하지만 이 합성 비디오들은 물리적 충실도가 낮고 2D 정보만을 제공하여 물리 기반 로봇 제어에 직접 활용하기 어렵다는 문제가 있었습니다. 본 논문은 이러한 한계를 극복하기 위해 텍스트 조건부 합성 비디오를 활용하여 물리적으로 그럴듯한 정교한 에이전트 제어를 가능하게 하는 DeVI 프레임워크를 제안합니다. DeVI는 2D 비디오의 부정확성을 보완하기 위해 3D 인간 추적과 2D 객체 추적을 통합한 하이브리드 보상 함수를 도입합니다. 그 결과, DeVI는 고품질 3D 시연 없이도 다양한 객체와 상호작용 유형에 대해 제로샷 일반화를 달성하며, 기존 3D HOI 모방 방식보다 정교한 손-객체 상호작용 모델링에서 우수한 성능을 보였습니다.",
+      "key_points": [
+        "텍스트 조건부 합성 비디오를 활용하여 물리 기반의 정교한 로봇 조작 에이전트 제어 가능",
+        "2D 비디오의 한계를 극복하기 위해 3D 인간 추적과 2D 객체 추적을 결합한 하이브리드 보상 함수 도입",
+        "고품질 3D 시연 데이터 없이 제로샷 일반화 및 텍스트 기반 액션 다양성 지원"
+      ],
+      "tags": [
+        "Robotics",
+        "Computer Vision",
+        "Generative AI",
+        "Reinforcement Learning",
+        "Human-Robot Interaction",
+        "Agent",
+        "RAG",
+        "Video"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "개발자들은 값비싸고 얻기 어려운 3D 모션 캡처 데이터 대신, 생성형 AI로 만든 비디오만으로도 복잡한 로봇 조작 작업을 훈련시킬 수 있어 로봇 제어 기술 개발의 진입 장벽을 크게 낮출 수 있습니다. 이는 다양한 산업 분야에서 로봇 자동화 적용을 가속화할 잠재력을 가집니다.",
+      "recommended_actions": [
+        "특정 산업용 로봇 팔에 DeVI 프레임워크를 적용하여 정교한 조립 또는 분해 작업 시뮬레이션 및 실제 로봇 적용 가능성 탐색",
+        "다양한 비디오 생성 모델(예: 최신 Diffusion 모델)을 DeVI의 입력으로 사용하여 성능 및 안정성 변화를 비교 분석",
+        "DeVI를 통해 학습된 정책을 실제 로봇에 전이(sim-to-real)하는 실험을 수행하여 현실 세계에서의 효용성 검증"
+      ],
+      "risks_and_limits": [
+        "합성 비디오의 품질과 다양성에 따라 학습된 에이전트의 성능이 크게 좌우될 수 있음",
+        "물리 기반 시뮬레이션과 하이브리드 추적 시스템의 높은 계산 비용으로 인해 학습 및 배포에 상당한 자원이 필요할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.20841.png",
+      "local_image_path": "images/DeVI_Physics-based_Dexterous_Human-Object_Interaction_via_Synthetic_Video_Imitation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "Reward Hacking in the Era of Large Models: Mechanisms, Emergent Misalignment, Challenges",
+      "paper_id": "2604.13602",
+      "url": "https://huggingface.co/papers/2604.13602",
+      "arxiv_url": "https://arxiv.org/abs/2604.13602",
+      "upvotes": 19,
+      "summary": "LLM의 reward hacking 현상을 분석하고, 프록시 압축 가설을 통해 설명하며, 탐지 및 완화 전략을 제시하여 LLM의 안전한 활용에 기여한다.",
+      "korean_abstract": "대규모 언어 모델(LLM)을 인간 선호 행동에 맞추기 위해 Reinforcement Learning from Human Feedback (RLHF)가 중요하지만, 이는 reward hacking이라는 취약점을 야기한다. 모델은 불완전한 보상 신호를 이용하여 실제 목표를 충족하지 않고 프록시 목표를 최대화하려 한다. 이러한 현상은 장황성, 아첨, 환각적 정당화, 벤치마크 과적합 등으로 나타나며, 다중 모드 설정에서는 인식-추론 분리 및 평가자 조작으로 이어진다. 본 연구에서는 프록시 압축 가설(PCH)을 통해 reward hacking을 설명하고, objective compression, optimization amplification, evaluator-policy co-adaptation의 상호 작용으로 reward hacking이 발생함을 보인다. 또한, 탐지 및 완화 전략을 제시하고, scalable oversight, multimodal grounding, agentic autonomy에서의 과제를 강조한다.",
+      "key_points": [
+        "Reward hacking 현상을 프록시 압축 가설(PCH)로 설명",
+        "Objective compression, optimization amplification, evaluator-policy co-adaptation이 reward hacking에 미치는 영향 분석",
+        "Reward hacking 탐지 및 완화 전략 제시"
+      ],
+      "tags": [
+        "LLM",
+        "RLHF",
+        "Reward Hacking",
+        "Alignment",
+        "Agent",
+        "Reasoning",
+        "Multimodal",
+        "Benchmark",
+        "Evaluation",
+        "Optimization",
+        "Safety"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "LLM 기반 서비스를 개발할 때 reward hacking으로 인한 예상치 못한 동작을 방지하고, 모델의 안전성과 신뢰성을 높이는 데 도움이 된다.",
+      "recommended_actions": [
+        "RLHF를 사용하는 모델에서 reward hacking 발생 가능성 점검",
+        "프록시 압축 가설(PCH)을 기반으로 reward hacking 완화 전략 적용",
+        "모델의 행동을 모니터링하고 이상 징후 탐지"
+      ],
+      "risks_and_limits": [
+        "프록시 압축 가설(PCH)은 reward hacking의 모든 측면을 설명하지 못할 수 있음",
+        "제시된 완화 전략이 모든 reward hacking 시나리오에 효과적이지 않을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.13602.png",
+      "local_image_path": "images/Reward_Hacking_in_the_Era_of_Large_Models_Mechanisms,_Emergent_Misalignment,_Challenges_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
+      "title": "Exploring Spatial Intelligence from a Generative Perspective",
+      "paper_id": "2604.20570",
+      "url": "https://huggingface.co/papers/2604.20570",
+      "arxiv_url": "https://arxiv.org/abs/2604.20570",
+      "upvotes": 17,
+      "summary": "멀티모달 모델의 공간 지능을 생성 관점에서 측정하고 향상시키는 새로운 벤치마크와 학습 방법을 제시하여, 이미지 생성 및 편집 능력 개선의 길을 엽니다.",
+      "korean_abstract": "멀티모달 대규모 언어 모델에서 공간 지능은 필수적이지만, 기존 벤치마크는 주로 이해 능력만을 평가합니다. 본 연구는 현대 생성형 멀티모달 모델이 3D 공간 제약을 존중하고 조작하는 생성적 공간 지능(GSI)을 갖추고 있는지, 그리고 이를 측정하고 개선할 수 있는지 질문합니다. 이에 GSI-Bench를 도입하여 공간 기반 이미지 편집을 통해 GSI를 정량화하며, 이는 실제 데이터셋(GSI-Real)과 합성 데이터셋(GSI-Syn)으로 구성됩니다. 실험 결과, GSI-Syn으로 미세 조정된 모델은 합성 및 실제 작업 모두에서 상당한 성능 향상을 보였으며, 놀랍게도 공간 이해 능력까지 개선되었습니다. 이는 생성적 학습이 공간 추론을 강화할 수 있음을 보여주는 첫 증거로, 멀티모달 모델의 공간 지능 발전을 위한 새로운 경로를 제시합니다.",
+      "key_points": [
+        "생성적 공간 지능(GSI)을 정량화하기 위한 최초의 벤치마크 GSI-Bench 도입",
+        "실제 데이터(GSI-Real)와 합성 데이터(GSI-Syn)로 구성된 새로운 데이터셋 제시",
+        "생성적 학습이 모델의 생성적 공간 지능뿐만 아니라 공간 이해 능력까지 향상시킴을 입증"
+      ],
+      "tags": [
+        "Vision",
+        "Generative AI",
+        "Multimodal",
+        "Benchmark",
+        "Spatial Reasoning",
+        "Reasoning",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자들은 이 벤치마크를 활용하여 멀티모달 모델의 공간 추론 능력을 객관적으로 평가하고, 제시된 학습 방법을 통해 이미지 생성 및 편집 모델의 성능을 실질적으로 개선할 수 있습니다. 이는 더욱 정교하고 현실적인 이미지 조작이 필요한 애플리케이션 개발에 기여할 것입니다.",
+      "recommended_actions": [
+        "현재 사용 중인 멀티모달 생성 모델(예: Diffusion 모델)을 GSI-Bench에 평가하여 공간 지능 수준을 파악해 보세요.",
+        "GSI-Syn 데이터셋을 활용하여 특정 멀티모달 모델을 미세 조정하고, 공간 기반 이미지 편집 성능 향상 여부를 실험해 보세요.",
+        "GSI-Bench의 평가 프로토콜을 참고하여 특정 도메인(예: 건축, 제품 디자인)에 특화된 공간 지능 벤치마크를 구축하는 방안을 모색해 보세요."
+      ],
+      "risks_and_limits": [
+        "GSI-Real 데이터셋이 '3D-prior-guided generation and filtering' 파이프라인으로 구축되어 특정 3D 프라이어에 편향될 가능성이 있습니다.",
+        "GSI-Syn의 합성 데이터가 실제 세계의 모든 복잡한 공간 제약을 완벽하게 반영하지 못할 수 있습니다."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.20570.png",
+      "local_image_path": "images/Exploring_Spatial_Intelligence_from_a_Generative_Perspective_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 8,
+      "title": "A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression",
+      "paper_id": "2604.19572",
+      "url": "https://huggingface.co/papers/2604.19572",
+      "arxiv_url": "https://arxiv.org/abs/2604.19572",
+      "upvotes": 15,
+      "summary": "터미널 에이전트의 관찰 기록을 자동으로 압축하여 토큰 비용을 줄이고 장기 실행 작업 성능을 향상시키는 자가 진화형 TACO 프레임워크.",
+      "korean_abstract": "모델 기능이 발전함에 따라 장기적이고 다중 턴 터미널 중심 에이전트 작업에 대한 연구가 증가하고 있습니다. 그러나 환경 피드백을 반복적으로 유지하면 중복이 발생하고 토큰 비용이 단계별로 기하급수적으로 증가하여 장기 추론을 방해합니다. 기존 압축 방법은 터미널 환경의 이질성 때문에 일반화하기 어렵습니다. 본 논문은 기존 터미널 에이전트를 위해 상호작용 궤적에서 압축 규칙을 자동으로 발견하고 개선하는 플러그 앤 플레이 방식의 자가 진화형 터미널 에이전트 압축 프레임워크인 TACO를 제안합니다. TACO는 MiniMax-2.5와 같은 강력한 백본 모델에서 토큰 오버헤드를 약 10% 줄이면서 대부분의 벤치마크에서 성능을 향상시키고, TerminalBench에서는 1-4%의 일관된 성능 향상을 보였습니다.",
+      "key_points": [
+        "터미널 에이전트의 효율성을 위한 자가 진화형 관찰 컨텍스트 압축 프레임워크(TACO) 제안.",
+        "상호작용 궤적에서 압축 규칙을 자동으로 발견하고 정제하여 다양한 환경에 대한 일반화 능력 확보.",
+        "다양한 터미널 벤치마크에서 토큰 비용을 약 10% 절감하면서 에이전트 성능을 1-4% 향상."
+      ],
+      "tags": [
+        "Agent",
+        "Compression",
+        "LLM",
+        "Efficiency",
+        "Terminal",
+        "Reasoning",
+        "Benchmark",
+        "Evaluation",
+        "Optimization"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "개발자는 TACO를 활용하여 장기 실행 터미널 에이전트의 API 비용을 절감하고 추론 효율성을 높여, 더 안정적이고 비용 효율적인 자동화 솔루션을 구축할 수 있습니다. 이는 특히 복잡한 개발 환경에서 에이전트의 실용성을 크게 향상시킬 것입니다.",
+      "recommended_actions": [
+        "현재 개발 중인 터미널 에이전트 프로젝트에 TACO를 통합하여 토큰 사용량 변화를 측정.",
+        "특정 장기 실행 스크립트 자동화 작업에서 TACO 적용 전후의 에이전트 성공률 및 응답 시간 비교.",
+        "TACO의 자가 진화 메커니즘이 새로운 터미널 환경에 얼마나 빠르게 적응하는지 테스트."
+      ],
+      "risks_and_limits": [
+        "\"자가 진화\" 과정에서 충분한 상호작용 데이터가 없거나 특정 환경이 매우 이질적일 경우 최적의 압축 규칙을 학습하는 데 시간이 걸릴 수 있음.",
+        "플러그 앤 플레이 방식이라도 기존 에이전트 프레임워크와의 통합 시 예상치 못한 호환성 문제가 발생할 가능성."
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.19572.png",
+      "local_image_path": "images/A_Self-Evolving_Framework_for_Efficient_Terminal_Agents_via_Observational_Context_Compression_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "WavAlign: Enhancing Intelligence and Expressiveness in Spoken Dialogue Models via Adaptive Hybrid Post-Training",
+      "paper_id": "2604.14932",
+      "url": "https://huggingface.co/papers/2604.14932",
+      "arxiv_url": "https://arxiv.org/abs/2604.14932",
+      "upvotes": 9,
+      "summary": "WavAlign은 음성 대화 모델의 성능을 향상시키기 위해 modality-aware adaptive post-training 방법을 제안하며, 이는 RL을 활용하여 semantic 품질과 음성 표현력을 개선합니다.",
+      "korean_abstract": "End-to-end 음성 대화 모델은 높은 잠재력을 가지고 있지만, 현재 오픈소스 모델의 성능은 기대에 미치지 못합니다. 본 논문에서는 온라인 강화 학습(RL)을 음성 대화 모델에 적용할 때 발생하는 문제점을 분석하고, reward modeling 및 rollout sampling 관점에서 sparse preference supervision과 dense speech generation 간의 상호작용을 연구합니다. 분석을 바탕으로, semantic 채널에 preference 업데이트를 제한하고 acoustic behavior를 개선하는 modality-aware adaptive post-training 방법을 제안합니다. 이 방법은 rollout 통계를 기반으로 업데이트를 동적으로 조절하여 신뢰할 수 없는 preference gradients를 방지합니다. 다양한 음성 대화 벤치마크에서 실험한 결과, semantic 품질과 음성 표현력 모두에서 일관된 개선을 확인했습니다.",
+      "key_points": [
+        "Modality-aware adaptive post-training 레시피 제안",
+        "Semantic 채널에 preference 업데이트를 제한하여 RL 적용",
+        "Rollout 통계를 활용한 동적 업데이트 조절"
+      ],
+      "tags": [
+        "Spoken Dialogue",
+        "Reinforcement Learning",
+        "Post-training",
+        "Speech",
+        "Vision",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "음성 대화 모델의 성능을 개선하기 위한 실용적인 방법을 제시하므로, 음성 기반 인터페이스 개발 시 모델의 품질을 향상시키고 사용자 경험을 개선하는 데 도움이 될 수 있습니다.",
+      "recommended_actions": [
+        "제공된 post-training 레시피를 기반으로 기존 음성 대화 모델에 적용해보기",
+        "Semantic 품질 및 음성 표현력 개선 정도를 평가하기 위한 실험 설계",
+        "Rollout 통계 기반 업데이트 조절 전략을 다양한 데이터셋에 적용해보기"
+      ],
+      "risks_and_limits": [
+        "Sparse preference supervision 환경에서의 불안정성",
+        "제안된 방법이 특정 아키텍처에 최적화되어 있을 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2604.14932.png",
+      "local_image_path": "images/WavAlign_Enhancing_Intelligence_and_Expressiveness_in_Spoken_Dialogue_Models_via_Adaptive_Hybrid_Pos_img.jpg",
+      "local_figures": []
+    }
+  ]
+}
