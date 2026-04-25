@@ -1,0 +1,415 @@
+# 🚀 Product Hunt Daily Top 10 (2026-04-26)
+
+## 1. [ZeroHuman.](https://www.producthunt.com/products/zerohuman)
+**Votes**: 268 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Your AI Co-Founder: OpenClaw x Paperclip x Spud
+**서비스 링크**: https://www.producthunt.com/r/L3CUXEKRSM5VTT
+
+**태그**: AI, 자동화, 생산성, 사업, 개발, AI Tool
+
+<img src="images/ph_2026-04-25_ZeroHuman..jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+ZeroHuman은 AI를 활용하여 사업 아이디어 검증, 제품 개발, 사업 성장 등 다양한 업무를 자동화하여 사업 운영을 돕는 AI 공동 창업자입니다.
+
+### 🔑 주요 기능
+- AI 기반 자동화된 사업 운영
+- 아이디어 검증 및 제품 개발 지원
+- 수면 중에도 사업 성장 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+ZeroHuman을 통해 반복적인 사업 운영 업무를 자동화하고, 핵심 사업 전략에 집중하여 효율적인 성장을 도모할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아이디어 검증 자동화 기능 사용해보기
+- AI 기반 제품 개발 기능 사용해보기
+- 자동 사업 성장 기능 설정해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 자동화 결과의 정확성 검토 필요
+- 사업 모델에 따른 자동화 가능 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+ZeroHuman이 제공하는 AI 자동화 기능의 구체적인 성능과 지원 범위를 추가적으로 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_ZeroHuman._media_0.jpg)
+![Screenshot](images/ph_2026-04-25_ZeroHuman._media_1.jpg)
+![Screenshot](images/ph_2026-04-25_ZeroHuman._media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c9d2edf0-834a-4cf0-807a-1182ecbe9b6e.gif?auto=format)
+
+---
+
+## 2. [Gemini Personal Intelligence](https://www.producthunt.com/products/gemini-personal-intelligence)
+**Votes**: 203 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Gemini answers with context from your Google apps
+**서비스 링크**: https://www.producthunt.com/r/WO2KDTNTGZHBNU
+
+**태그**: AI, 개인화, 생산성, Google, AI Tool, Chat
+
+<img src="images/ph_2026-04-25_Gemini_Personal_Intelligence.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Gemini가 Google 앱과 과거 채팅 내용을 바탕으로 개인 맞춤형 답변을 제공하여, 매번 상황을 설명할 필요 없이 맥락에 맞는 응답을 얻을 수 있습니다.
+
+### 🔑 주요 기능
+- 개인 Google 계정 사용자를 위한 맞춤형 Gemini
+- Google 앱 및 채팅 기록을 읽어 맥락 파악
+- 상황을 재설명할 필요 없이 문맥에 맞는 답변 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Gemini를 사용할 때마다 반복적으로 정보를 제공할 필요 없이, 개인의 데이터에 기반한 맞춤형 응답을 받을 수 있어 시간과 노력을 절약할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Gemini에 Google 계정 연결하기
+- 과거 채팅 기록을 바탕으로 질문해보기
+- Google 앱 데이터 기반 답변 정확도 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 개인 정보 접근 권한에 대한 보안 고려 필요
+- 정확하지 않은 정보에 기반한 답변 가능성
+
+### 🧭 확인이 더 필요한 정보
+Gemini Personal Intelligence의 답변 정확도 및 개인 정보 보호 정책에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Gemini_Personal_Intelligence_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Gemini_Personal_Intelligence_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_Gemini_Personal_Intelligence_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c85d87e8-b781-413e-9409-fd235362458c.jpeg?auto=format)
+
+---
+
+## 3. [Inrō AI](https://www.producthunt.com/products/inro)
+**Votes**: 172 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Your AI Agent for Instagram Marketing
+**서비스 링크**: https://www.producthunt.com/r/5AJNE6RPAHQECB
+
+**태그**: AI, 인스타그램, 자동화, 마케팅, Agent, Automation, AI Tool, Chat, Marketing
+
+<img src="images/ph_2026-04-25_Inrō_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Inrō AI는 인스타그램 DM을 자동화하여 잠재 고객 발굴, 콜 예약, 후속 조치까지 AI 에이전트가 대신 처리해주는 서비스입니다.
+
+### 🔑 주요 기능
+- 인스타그램 DM 자동화로 리드 발굴 및 관리 효율성 향상
+- AI 에이전트가 목표 설정, 학습, 고객 응대, 콜 예약 등을 자동 수행
+- Claude, ChatGPT, Shopify 등 다양한 도구와 연동 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+인스타그램 마케팅에 소요되는 시간과 노력을 줄여주고, 더 많은 잠재 고객을 확보하고 관리할 수 있도록 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 에이전트 목표 설정 및 학습
+- 자동화 워크플로우 구축
+- Shopify, Stripe 등 연동 도구 연결
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트의 응답 품질은 학습 데이터에 따라 달라질 수 있음
+- 자동화 설정 시 의도치 않은 오류 발생 가능성 존재
+
+### 🧭 확인이 더 필요한 정보
+Inrō AI의 실제 고객 확보 및 전환율 향상 효과에 대한 추가적인 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Inrō_AI_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Inrō_AI_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_Inrō_AI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/89e1b47b-7aed-4385-9351-c1bdc1af6c3e.jpeg?auto=format)
+
+---
+
+## 4. [Clawdi](https://www.producthunt.com/products/clawdi)
+**Votes**: 167 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Best home for all AI agents
+**서비스 링크**: https://www.producthunt.com/r/EVCLQTSYAK2DEE
+
+**태그**: AI Agent, Cloud, Automation, DevTool, Agent, AI Tool, API
+
+<img src="images/ph_2026-04-25_Clawdi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Clawdi는 AI 에이전트 설정을 클라우드에서 관리하여 프레임워크 전환 시 설정 손실 없이 OpenClaw, Hermes와 같은 에이전트를 실행할 수 있게 해줍니다.
+
+### 🔑 주요 기능
+- AI 에이전트 설정을 클라우드에서 관리
+- OpenClaw, Hermes 등 다양한 에이전트 지원
+- 메모리, API 키, 스킬을 에이전트 엔진과 분리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+에이전트 설정을 번거롭게 다시 할 필요 없이, 클라우드 환경에서 일관된 AI 에이전트 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- OpenClaw 에이전트 실행해보기
+- Hermes 에이전트 실행해보기
+- API 키 연동하여 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 클라우드 환경에 대한 이해 필요
+- 지원하는 에이전트 종류 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 지원 에이전트 목록 및 클라우드 환경 요구 사항 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Clawdi_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Clawdi_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_Clawdi_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cb507741-3a2a-4e95-9821-f94f8f7032a7.jpeg?auto=format)
+
+---
+
+## 5. [XChat](https://www.producthunt.com/products/chat-by-x)
+**Votes**: 154 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: The standalone, encrypted messaging app from X
+**서비스 링크**: https://www.producthunt.com/r/IVBY6SWLTFI42P
+
+**태그**: 메시징, 보안, 프라이버시, Chat, Video
+
+<img src="images/ph_2026-04-25_XChat.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+X에서 제공하는 독립형 메시지 앱으로, 광고 없이 종단간 암호화된 채팅, 영상 통화, 사라지는 메시지, 스크린샷 차단 기능을 제공하여 X 사용자 간의 안전하고 사적인 소통을 지원합니다.
+
+### 🔑 주요 기능
+- 광고 없는 종단간 암호화 메시징
+- 사라지는 메시지 및 스크린샷 차단 기능
+- X 사용자 간의 안전한 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+XChat을 통해 X 사용자들은 광고 없이 안전하게 메시지를 주고받고, 개인 정보 보호를 강화하여 더욱 안심하고 소통할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 종단간 암호화 채팅 시작하기
+- 사라지는 메시지 기능 사용해보기
+- 스크린샷 차단 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- X 사용자와의 연결만 지원
+- 독립형 앱 설치 필요
+
+### 🧭 확인이 더 필요한 정보
+XChat의 성능 및 안정성에 대한 사용자 리뷰 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_XChat_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_XChat_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_XChat_media_2.jpg)
+
+---
+
+## 6. [MiMo-V2.5 Voice](https://www.producthunt.com/products/mimo-v2-5-voice)
+**Votes**: 114 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Bilingual ASR for dialects, code-switching, and songs
+**서비스 링크**: https://www.producthunt.com/r/XQDD3DGZXQTN4O
+
+**태그**: 음성 인식, 오픈소스, ML, 중국어, 방언, DevTool
+
+<img src="images/ph_2026-04-25_MiMo-V2.5_Voice.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+MiMo-V2.5 Voice는 다양한 언어와 방언, 코드 스위칭, 노래 가사까지 인식하는 샤오미의 오픈소스 음성 인식 모델로, 실제 음성 애플리케이션 개발에 유용합니다.
+
+### 🔑 주요 기능
+- 80억 개의 파라미터를 가진 오픈소스 음성 인식 모델
+- 중국어(표준어 및 8개 방언), 영어, 코드 스위칭 음성, 노래 가사 인식 지원
+- ML 엔지니어, 연구원, 개발자에게 적합
+
+### 🙋 사용자에게 어떤 점이 좋은가
+다양한 언어 환경에서 작동하는 음성 인식 기능을 개발하거나 연구하는 데 유용하며, 특히 중국어 방언 지원은 차별화된 강점입니다.
+
+### ✅ 지금 바로 써볼 기능
+- 모델을 다운로드하여 지원하는 언어 및 방언에 대한 인식 성능 테스트
+- 코드 스위칭 환경에서의 인식 성능 테스트
+- 자체 음성 데이터셋을 사용하여 모델을 추가 훈련
+
+### ⚠️ 사용 전 확인할 점
+- 오픈소스 모델이므로 사용 목적에 따른 라이선스 확인 필요
+- 특정 방언이나 코드 스위칭 환경에서 인식률이 낮을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 환경에서의 성능 및 리소스 요구 사항에 대한 추가적인 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_MiMo-V2.5_Voice_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_MiMo-V2.5_Voice_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_MiMo-V2.5_Voice_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/5cbf5436-be2a-4dc7-9e4c-9ca0bebde925.jpeg?auto=format)
+
+---
+
+## 7. [Grok Voice Think Fast 1.0](https://www.producthunt.com/products/grok-voice-think-fast-1-0)
+**Votes**: 112 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Our most capable voice agent is now available via API
+**서비스 링크**: https://www.producthunt.com/r/XITIWMJAZBT6OH
+
+**태그**: API, 음성 인식, 자동화, 개발 도구, Agent, Automation, AI Tool
+
+<img src="images/ph_2026-04-25_Grok_Voice_Think_Fast_1.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Grok Voice Think Fast 1.0 API는 복잡한 워크플로우를 위한 빠르고 정확한 최첨단 음성 모델을 제공하여 개발자가 음성 에이전트를 쉽게 구축할 수 있도록 돕습니다.
+
+### 🔑 주요 기능
+- 복잡한 멀티 스텝 워크플로우에 최적화
+- 빠른 응답 속도
+- 높은 정확도
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자는 Grok Voice Think Fast API를 통해 더욱 효율적이고 정확한 음성 기반 서비스를 구축하여 사용자 경험을 향상시킬 수 있습니다. 특히 복잡한 작업 흐름을 음성으로 처리해야 하는 경우에 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- API 문서 확인
+- 샘플 코드 실행
+- 자체 워크플로우에 통합 테스트
+
+### ⚠️ 사용 전 확인할 점
+- API 사용량 제한 확인
+- 지원되는 언어 및 음성 확인
+
+### 🧭 확인이 더 필요한 정보
+API의 구체적인 성능 지표 및 사용 사례에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Grok_Voice_Think_Fast_1.0_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Grok_Voice_Think_Fast_1.0_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_Grok_Voice_Think_Fast_1.0_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6ddc3013-31dc-477e-99fc-e432f04a5845.jpeg?auto=format)
+
+---
+
+## 8. [Genspark for Excel](https://www.producthunt.com/products/genspark-for-excel)
+**Votes**: 109 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: AI assistant for Excel formulas, charts, insights.
+**서비스 링크**: https://www.producthunt.com/r/EQR7IIR7YHMVPZ
+
+**태그**: AI, 엑셀, 자동화, 분석, 생산성, AI Tool
+
+<img src="images/ph_2026-04-25_Genspark_for_Excel.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Genspark for Excel은 엑셀 내에 내장된 AI 비서로, 엑셀 작업 효율성을 극대화하여 분석, 운영, 비즈니스 사용자의 생산성을 향상시킵니다.
+
+### 🔑 주요 기능
+- 엑셀 내에서 AI 기반으로 수식 작성, 차트 생성, 데이터 분석 가능
+- 웹 리서치 기능을 통해 엑셀에서 바로 정보 검색 가능
+- 평이한 영어 명령으로 엑셀 작업 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+엑셀 작업 시간을 단축하고, 데이터 분석 및 활용 능력을 향상시켜 업무 효율성을 높여줍니다. 특히 엑셀 사용 빈도가 높은 분석가, 운영팀, 비즈니스 사용자에게 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 평소 엑셀에서 자주 사용하는 수식 AI 자동 완성 기능 사용해보기
+- 데이터 분석 후 AI 기반 차트 추천 및 자동 생성 기능 사용해보기
+- 웹 리서치 기능을 활용하여 엑셀에서 필요한 정보 검색해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 기반 기능의 정확도는 데이터 품질 및 명령의 명확성에 따라 달라질 수 있음
+- 웹 리서치 기능의 정보 출처 신뢰도를 확인해야 함
+
+### 🧭 확인이 더 필요한 정보
+AI가 제공하는 수식, 차트, 분석 결과의 정확성에 대한 사용자 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Genspark_for_Excel_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Genspark_for_Excel_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ebda75d3-c30b-434b-b287-3a3007d7597c.jpeg?auto=format)
+
+---
+
+## 9. [PromptPaste](https://www.producthunt.com/products/promptpaste)
+**Votes**: 103 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Your private AI prompt library on Mac, iPhone, and iPad
+**서비스 링크**: https://www.producthunt.com/r/TF5U6YCGVWRRGL
+
+**태그**: AI, 생산성, 프롬프트 관리, 템플릿, iOS, AI Tool, Prompting
+
+<img src="images/ph_2026-04-25_PromptPaste.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+PromptPaste는 Mac, iPhone, iPad에서 AI 프롬프트를 저장하고 즉시 복사하여 사용할 수 있게 해주는 개인 AI 프롬프트 라이브러리 앱입니다.
+
+### 🔑 주요 기능
+- Mac, iPhone, iPad에서 프롬프트 동기화
+- 단축키(⌘⇧P)로 즉시 프롬프트 복사
+- 변수를 사용한 동적 템플릿 생성 및 폴더별 정리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 프롬프트를 여러 기기에서 편리하게 관리하고 즉시 활용하여 작업 효율성을 높일 수 있습니다. 계정 없이 개인 기기에 저장되므로 보안 걱정 없이 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Mac에서 ⌘⇧P 단축키로 프롬프트 복사해보기
+- 변수를 사용하여 동적 템플릿 만들어보기
+- iPhone 또는 iPad에서 프롬프트 확인하고 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 프롬프트는 사용자의 기기에만 저장되므로 기기 변경 시 데이터 백업 필요
+- iCloud 동기화 설정 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+PromptPaste의 데이터 동기화 방식 및 보안 정책에 대한 추가 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_PromptPaste_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_PromptPaste_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_PromptPaste_media_2.jpg)
+
+---
+
+## 10. [Euphony](https://www.producthunt.com/products/euphony-2)
+**Votes**: 91 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Render AI chat data and Codex logs into browsable views
+**서비스 링크**: https://www.producthunt.com/r/7VY3UYOW25F3F3
+
+**태그**: DevTool, AI, 디버깅, 시각화, 로그분석, Agent, Automation, AI Tool, Chat
+
+<img src="images/ph_2026-04-25_Euphony.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Euphony는 AI 챗 데이터와 Codex 로그를 시각화하여, AI 엔지니어가 에이전트 워크플로우를 디버깅하고 GPT 기반 모델을 구축하는 데 도움을 주는 브라우저 기반 도구입니다.
+
+### 🔑 주요 기능
+- Harmony JSON/JSONL 대화 및 Codex CLI 세션 로그 시각화
+- 상호 작용 가능하고 필터링 가능한 타임라인 제공
+- AI 에이전트 워크플로우 디버깅 및 GPT 모델 구축 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 엔지니어는 Euphony를 사용하여 AI 챗 데이터와 Codex 로그를 시각적으로 분석하고 디버깅 시간을 단축할 수 있습니다. 또한, 팀은 이를 통해 GPT 기반 모델 개발 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Harmony JSON/JSONL 형식의 대화 데이터 로드
+- Codex CLI 세션 로그 파일 로드
+- 타임라인 필터링 및 상호 작용 기능 사용
+
+### ⚠️ 사용 전 확인할 점
+- 지원하는 데이터 형식 (Harmony JSON/JSONL) 및 Codex 로그 형식 확인 필요
+- 대규모 데이터셋 처리 성능 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+실제 사용 환경에서의 성능 및 다양한 데이터 형식 지원 여부에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-04-25_Euphony_media_0.jpg)
+![Screenshot](images/ph_2026-04-25_Euphony_media_1.jpg)
+![Screenshot](images/ph_2026-04-25_Euphony_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/1f7b988b-98ca-4502-b588-536b3bb53474.jpeg?auto=format)
+
+---
+
