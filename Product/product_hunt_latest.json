@@ -1,485 +1,482 @@
 {
   "source": "product_hunt",
-  "date": "2026-04-30",
-  "generated_at": "2026-04-30T04:21:58.522875+09:00",
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T04:22:08.958471+09:00",
   "count": 10,
-  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. Plurai\n⭐ Votes: 430\n📝 요약: AI 에이전트의 신뢰성을 높이고 맞춤형 평가 및 가드레일을 복잡한 과정 없이 쉽고 빠르게 구축할 수 있는 솔루션입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/plurai\n🌐 서비스 링크: https://www.producthunt.com/r/2SG5VACZQUBMO7\n\n📦 2. Open Wearables\n⭐ Votes: 424\n📝 요약: Open Wearables는 모든 웨어러블 기기를 위한 단일 API를 제공하여 개인 맞춤형 건강 제품을 쉽게 구축할 수 있도록 지원하는 오픈 소스 인프라입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/open-wearables\n🌐 서비스 링크: https://www.producthunt.com/r/IUMQA6GC7RBMJ5\n\n📦 3. Gro v2\n⭐ Votes: 219\n📝 요약: 잠재 고객이 온라인에서 무엇을 이야기하는지 파악하고, 관심 있는 게시물이 올라오면 자동으로 아웃리치를 실행하여 영업 파이프라인을 구축해주는 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/gro-2\n🌐 서비스 링크: https://www.producthunt.com/r/GC55BQLLOYP36O\n\n📦 4. Netlify Database\n⭐ Votes: 199\n📝 요약: Netlify 프로젝트에 완벽하게 통합되는 관리형 PostgreSQL 데이터베이스로, 데이터 기반 앱 개발을 쉽고 빠르게 할 수 있도록 돕습니다.\n🔗 Product Hunt: https://www.producthunt.com/products/netlify\n🌐 서비스 링크: https://www.producthunt.com/r/MMUEZ3KSPUD4JN\n\n📦 5. KarmaBox\n⭐ Votes: 191\n📝 요약: 스마트폰으로 수백 개의 AI 에이전트를 실행하고 여러 AI 모델을 자유롭게 활용하여 나만의 AI 컴퓨팅 환경을 구축하는 솔루션.\n🔗 Product Hunt: https://www.producthunt.com/products/karmabox-2\n🌐 서비스 링크: https://www.producthunt.com/r/6GDPBUAV25E6T6\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📦 1. VideoOS by Jupitrr AI\n⭐ Votes: 298\n📝 요약: 아이디어 구상부터 소셜 미디어 게시까지, 영상 제작의 모든 과정을 AI로 빠르고 쉽게 처리해주는 올인원 플랫폼입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/jupitrr\n🌐 서비스 링크: https://www.producthunt.com/r/3NTEC76ZWZD3U7\n\n📦 2. Mintlify Editor\n⭐ Votes: 257\n📝 요약: AI 기반으로 개발자부터 마케터까지 누구나 쉽게 협업하며 문서를 만들고 관리할 수 있는 에디터입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/mintlify\n🌐 서비스 링크: https://www.producthunt.com/r/VTXQDFKI235QP6\n\n📦 3. Wonder\n⭐ Votes: 232\n📝 요약: 캔버스 위에서 AI가 디자인을 생성하고 실시간으로 수정하며, 코딩 에이전트와 연동하여 디자인부터 개발까지 원스톱으로 처리하는 AI 디자인 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/wonder-public-alpha\n🌐 서비스 링크: https://www.producthunt.com/r/KMBHRB52QH7BFG\n\n📦 4. Hera Launch\n⭐ Votes: 231\n📝 요약: AI로 몇 초 만에 스튜디오 품질의 제품 론칭 영상을 만들고, 출시 주기를 단축시켜주는 도구입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/hera-6\n🌐 서비스 링크: https://www.producthunt.com/r/QG2MGKMYCHQGUQ\n\n📦 5. Gemini Deep Research Agent\n⭐ Votes: 164\n📝 요약: Gemini API를 통해 웹 및 MCP 데이터를 심층 분석하고 차트까지 생성해주는 AI 연구 에이전트입니다.\n🔗 Product Hunt: https://www.producthunt.com/products/gemini-deep-research\n🌐 서비스 링크: https://www.producthunt.com/r/NWPUJCSQEF5ED4\n\n출처: Product Hunt\nhttps://www.producthunt.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Plurai",
-      "url": "https://www.producthunt.com/products/plurai",
-      "service_url": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
-      "website": "https://www.producthunt.com/r/2SG5VACZQUBMO7",
-      "votes": 430,
-      "tagline": "Vibe-train evals and guardrails tailored to your use case",
-      "summary": "AI 에이전트의 신뢰성을 높이고 맞춤형 평가 및 가드레일을 복잡한 과정 없이 쉽고 빠르게 구축할 수 있는 솔루션입니다.",
+      "name": "VideoOS by Jupitrr AI",
+      "url": "https://www.producthunt.com/products/jupitrr",
+      "service_url": "https://www.producthunt.com/r/3NTEC76ZWZD3U7",
+      "website": "https://www.producthunt.com/r/3NTEC76ZWZD3U7",
+      "votes": 298,
+      "tagline": "Your all-in-one video workflow",
+      "summary": "아이디어 구상부터 소셜 미디어 게시까지, 영상 제작의 모든 과정을 AI로 빠르고 쉽게 처리해주는 올인원 플랫폼입니다.",
       "key_points": [
-        "라벨링, 주석, 프롬프트 엔지니어링 없이 AI 에이전트 평가 및 가드레일 구축 가능",
-        "사용 사례에 맞춰 훈련 데이터 생성, 검증, 맞춤형 모델 배포를 단 몇 분 안에 완료",
-        "100ms 미만 지연 시간, GPT 대비 8배 낮은 비용, 43% 이상 적은 오류로 효율적인 운영"
+        "아이디어 발굴부터 소셜 게시까지 영상 제작 전 과정 통합 지원",
+        "AI 기반 스크립트 작성, 트렌드 분석, 자동 편집 기능 제공",
+        "자동 점프컷 텔레프롬프터로 촬영 효율성 극대화"
       ],
       "tags": [
+        "Video Marketing",
         "AI",
-        "DevTool",
+        "Content Creation",
         "Automation",
-        "Quality Assurance",
-        "Agent",
+        "Social Media",
         "AI Tool",
-        "Prompting"
+        "Prompting",
+        "Video",
+        "Marketing"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "AI 에이전트 개발자는 복잡한 데이터 작업 없이도 에이전트의 신뢰성을 빠르게 높이고, 비용 효율적으로 운영하며, 사용자 경험을 개선할 수 있습니다.",
+      "practical_relevance": "여러 앱을 오갈 필요 없이 하나의 플랫폼에서 영상 제작 전 과정을 처리하여 시간과 비용을 절약하고, 마케팅 콘텐츠 생산성을 크게 높일 수 있습니다.",
       "recommended_actions": [
-        "AI 에이전트의 특정 '해야 할 일'과 '하지 말아야 할 일'을 정의해보기",
-        "기존 AI 에이전트의 신뢰성 문제를 해결하기 위한 맞춤형 가드레일 구축 시도",
-        "Plurai가 제공하는 훈련 데이터 생성 및 모델 배포 과정을 직접 경험해보기"
+        "AI 스크립트 작성 기능으로 영상 아이디어 구체화하기",
+        "자동 점프컷 텔레프롬프터로 직접 영상 촬영해보기",
+        "자동 자막 및 B-roll 편집 기능으로 초안 빠르게 완성하기"
       ],
       "risks_and_limits": [
-        "Small language models 기반의 성능이 특정 복잡한 사용 사례에도 충분한지 확인",
-        "BARRED 연구 기반이라고 명시되어 있으나, 실제 프로덕션 환경에서의 적용 사례 및 추가 검증 필요"
+        "AI가 생성하는 스크립트 및 B-roll의 품질과 다양성이 비즈니스 요구사항에 부합하는지 확인",
+        "자동 편집 기능의 세부 조정 옵션과 결과물의 최종 완성도를 검토"
       ],
-      "uncertainty_note": "구체적인 가격 정책, 다른 AI 플랫폼과의 연동 방식, 그리고 실제 사용 시 학습 데이터 생성의 정확도에 대한 추가 정보가 필요합니다.",
+      "uncertainty_note": "구체적인 요금제, 지원하는 소셜 미디어 플랫폼의 종류, 그리고 외부 서비스 연동 가능 여부에 대한 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Plurai.jpg",
+      "local_image_path": "images/ph_2026-04-30_VideoOS_by_Jupitrr_AI.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Plurai_media_0.jpg",
-        "images/ph_2026-04-29_Plurai_media_1.jpg",
-        "images/ph_2026-04-29_Plurai_media_2.jpg"
+        "images/ph_2026-04-30_VideoOS_by_Jupitrr_AI_media_0.jpg",
+        "images/ph_2026-04-30_VideoOS_by_Jupitrr_AI_media_1.jpg",
+        "images/ph_2026-04-30_VideoOS_by_Jupitrr_AI_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/924e7f99-a4b9-4543-bb31-ce932e3154bd.jpeg?auto=format"
+        "https://ph-files.imgix.net/9bb3f657-8eda-4342-9107-c4fe5230db3d.jpeg?auto=format"
       ]
     },
     {
       "rank": 2,
-      "name": "Open Wearables",
-      "url": "https://www.producthunt.com/products/open-wearables",
-      "service_url": "https://www.producthunt.com/r/IUMQA6GC7RBMJ5",
-      "website": "https://www.producthunt.com/r/IUMQA6GC7RBMJ5",
-      "votes": 424,
-      "tagline": "Open infrastructure for wearable-powered health products.",
-      "summary": "Open Wearables는 모든 웨어러블 기기를 위한 단일 API를 제공하여 개인 맞춤형 건강 제품을 쉽게 구축할 수 있도록 지원하는 오픈 소스 인프라입니다.",
+      "name": "Mintlify Editor",
+      "url": "https://www.producthunt.com/products/mintlify",
+      "service_url": "https://www.producthunt.com/r/VTXQDFKI235QP6",
+      "website": "https://www.producthunt.com/r/VTXQDFKI235QP6",
+      "votes": 257,
+      "tagline": "AI-native collaborative editor",
+      "summary": "AI 기반으로 개발자부터 마케터까지 누구나 쉽게 협업하며 문서를 만들고 관리할 수 있는 에디터입니다.",
       "key_points": [
-        "하나의 API로 다양한 웨어러블 데이터에 접근 가능",
-        "개방형 건강 점수 알고리즘 제공",
-        "AI가 추론할 수 있는 구조화된 컨텍스트 제공"
+        "AI 기반 문서 작성 및 자동 업데이트 지원",
+        "WYSIWYG 방식의 직관적인 실시간 협업 에디터",
+        "Git과 연동되어 개발 워크플로우에 통합 가능"
       ],
       "tags": [
-        "API",
-        "웨어러블",
-        "헬스케어",
-        "오픈소스",
+        "DevTool",
         "AI",
+        "Collaboration",
+        "Documentation",
+        "Automation",
+        "Agent",
         "AI Tool"
       ],
-      "confidence": "중",
+      "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "웨어러블 데이터를 활용한 건강 제품 개발을 간소화하고, AI 기반 분석을 위한 기반을 제공하여 개발 효율성을 높여줍니다.",
+      "practical_relevance": "개발자는 Git을 통해, 마케터는 브라우저에서, 에이전트는 자동으로 문서를 업데이트할 수 있어 팀 전체의 문서 작업 효율성을 크게 높여줍니다. 모든 팀원이 각자의 방식대로 쉽게 기여할 수 있습니다.",
       "recommended_actions": [
-        "API 문서 확인",
-        "오픈 소스 코드 저장소 탐색",
-        "제공되는 건강 점수 알고리즘 살펴보기"
+        "AI 기반 문서 초안 작성 기능 사용해보기",
+        "동료와 실시간으로 문서 공동 편집해보기",
+        "Git 저장소와 연동하여 문서 변경 사항 푸시/풀 해보기"
       ],
       "risks_and_limits": [
-        "자체 호스팅 및 관리 필요",
-        "오픈 소스 라이선스(MIT) 조건 확인"
+        "AI 기능의 정확성 및 생성되는 콘텐츠의 품질 확인 필요",
+        "기존 문서 관리 시스템과의 연동 호환성 및 마이그레이션 방안 검토"
       ],
-      "uncertainty_note": "지원되는 웨어러블 기기 목록 및 데이터 유형에 대한 추가 정보 확인이 필요합니다.",
+      "uncertainty_note": "구체적인 AI 기능의 범위, 지원하는 Git 호스팅 서비스, 그리고 요금제 정보는 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Open_Wearables.jpg",
+      "local_image_path": "images/ph_2026-04-30_Mintlify_Editor.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Open_Wearables_media_0.jpg",
-        "images/ph_2026-04-29_Open_Wearables_media_1.jpg",
-        "images/ph_2026-04-29_Open_Wearables_media_2.jpg"
+        "images/ph_2026-04-30_Mintlify_Editor_media_0.jpg",
+        "images/ph_2026-04-30_Mintlify_Editor_media_1.jpg",
+        "images/ph_2026-04-30_Mintlify_Editor_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/fbfbd7be-b1ac-4ad3-bfc5-6bb46085d268.jpeg?auto=format"
+        "https://ph-files.imgix.net/f5db5e49-7d00-4843-89e2-1ea9e18dc6bc.jpeg?auto=format"
       ]
     },
     {
       "rank": 3,
-      "name": "Gro v2",
-      "url": "https://www.producthunt.com/products/gro-2",
-      "service_url": "https://www.producthunt.com/r/GC55BQLLOYP36O",
-      "website": "https://www.producthunt.com/r/GC55BQLLOYP36O",
-      "votes": 219,
-      "tagline": "Spot signals, trigger outreach - turn posts into pipeline",
-      "summary": "잠재 고객이 온라인에서 무엇을 이야기하는지 파악하고, 관심 있는 게시물이 올라오면 자동으로 아웃리치를 실행하여 영업 파이프라인을 구축해주는 도구입니다.",
+      "name": "Wonder",
+      "url": "https://www.producthunt.com/products/wonder-public-alpha",
+      "service_url": "https://www.producthunt.com/r/KMBHRB52QH7BFG",
+      "website": "https://www.producthunt.com/r/KMBHRB52QH7BFG",
+      "votes": 232,
+      "tagline": "The AI design agent that works on your canvas",
+      "summary": "캔버스 위에서 AI가 디자인을 생성하고 실시간으로 수정하며, 코딩 에이전트와 연동하여 디자인부터 개발까지 원스톱으로 처리하는 AI 디자인 에이전트입니다.",
       "key_points": [
-        "콘텐츠 검색 및 소셜 시그널 모니터링으로 구매자 관심사 파악",
-        "고객 참여 가치가 높은 저자 식별 및 새로운 고의도 게시물 실시간 모니터링",
-        "게시물 발견 시 알림, 댓글, 연결 요청, 이메일/메시지 발송 등 자동화된 플레이북 실행"
+        "캔버스에 직접 탑재된 AI 디자인 에이전트",
+        "UI, 그래픽, 피치덱 등 다양한 디자인 요소 생성 및 실시간 정교화",
+        "코딩 에이전트(Cursor, Claude Code)와 연동하여 디자인을 바로 코드로 전환 가능"
       ],
       "tags": [
-        "Sales",
+        "AI",
+        "Design Tool",
+        "DevTool",
         "Automation",
-        "Social Media",
-        "Lead Generation",
-        "Marketing",
+        "Productivity",
+        "Agent",
         "AI Tool",
-        "Email"
+        "Design"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "이 도구를 사용하면 잠재 고객을 찾아내고, 그들의 관심사에 맞춰 적시에 개인화된 아웃리치를 자동화하여 영업 효율성을 크게 높일 수 있습니다.",
+      "practical_relevance": "디자이너는 반복적인 작업 시간을 줄여 창의적인 작업에 집중하고, 개발자는 디자인을 코드로 빠르게 전환하여 제품 출시 속도를 획기적으로 높일 수 있습니다.",
       "recommended_actions": [
-        "관심 있는 키워드로 콘텐츠 검색 기능 사용해보기",
-        "특정 소셜 시그널에 대한 모니터링 알림 설정해보기",
-        "간단한 자동화된 아웃리치 플레이북 (예: 알림) 구성해보기"
+        "공개 알파 버전을 직접 사용해보고 AI 디자인 생성 기능 체험하기",
+        "생성된 디자인 요소를 실시간으로 수정하며 AI의 정교함 확인하기",
+        "코딩 에이전트 연동을 통해 디자인-개발 워크플로우 효율성 가늠해보기"
       ],
       "risks_and_limits": [
-        "자동화된 아웃리치가 너무 일반적이거나 스팸처럼 느껴지지 않도록 메시지 개인화에 주의 필요",
-        "모니터링하는 소셜 플랫폼의 범위와 데이터 정확성에 대한 확인 필요"
+        "현재 공개 알파 버전이므로 기능의 안정성이나 완성도가 낮을 수 있습니다.",
+        "AI가 생성하는 디자인의 품질이나 독창성이 사용자의 기대에 미치지 못할 수 있습니다."
       ],
-      "uncertainty_note": "어떤 소셜 미디어 플랫폼을 지원하며, 자동화된 플레이북의 커스터마이징 수준이 어느 정도인지 추가 확인이 필요합니다.",
+      "uncertainty_note": "AI가 생성하는 디자인의 실제 활용도와 코딩 에이전트 연동의 매끄러운 정도는 직접 사용해봐야 정확히 알 수 있습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Gro_v2.jpg",
+      "local_image_path": "images/ph_2026-04-30_Wonder.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Gro_v2_media_0.jpg",
-        "images/ph_2026-04-29_Gro_v2_media_1.jpg",
-        "images/ph_2026-04-29_Gro_v2_media_2.jpg"
+        "images/ph_2026-04-30_Wonder_media_0.jpg",
+        "images/ph_2026-04-30_Wonder_media_1.jpg",
+        "images/ph_2026-04-30_Wonder_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/ffc4ce85-5521-47e6-bb74-4fd24b319655.jpeg?auto=format"
+        "https://ph-files.imgix.net/fabca791-116c-454f-b283-55b39ead28fd.octet-stream?auto=format"
       ]
     },
     {
       "rank": 4,
-      "name": "Netlify Database",
-      "url": "https://www.producthunt.com/products/netlify",
-      "service_url": "https://www.producthunt.com/r/MMUEZ3KSPUD4JN",
-      "website": "https://www.producthunt.com/r/MMUEZ3KSPUD4JN",
-      "votes": 199,
-      "tagline": "Ship data-driven apps without breaking flow",
-      "summary": "Netlify 프로젝트에 완벽하게 통합되는 관리형 PostgreSQL 데이터베이스로, 데이터 기반 앱 개발을 쉽고 빠르게 할 수 있도록 돕습니다.",
+      "name": "Hera Launch",
+      "url": "https://www.producthunt.com/products/hera-6",
+      "service_url": "https://www.producthunt.com/r/QG2MGKMYCHQGUQ",
+      "website": "https://www.producthunt.com/r/QG2MGKMYCHQGUQ",
+      "votes": 231,
+      "tagline": "Create studio-quality launch videos with AI",
+      "summary": "AI로 몇 초 만에 스튜디오 품질의 제품 론칭 영상을 만들고, 출시 주기를 단축시켜주는 도구입니다.",
       "key_points": [
-        "Netlify 프로젝트와 완벽하게 연동되는 완전 관리형 PostgreSQL",
-        "배포 미리보기 시 자동 데이터베이스 브랜칭 제공",
-        "내장된 마이그레이션 지원 및 뛰어난 로컬 개발 환경 제공"
+        "AI 기반으로 스튜디오 품질의 론칭 영상 제작",
+        "단일 프롬프트로 몇 초 만에 영상 생성",
+        "전문적인 페이싱, 타이포그래피 등 디자인 요소 자동 결정"
       ],
       "tags": [
-        "DevTool",
-        "Database",
-        "PostgreSQL",
-        "Cloud",
-        "Automation"
+        "AI",
+        "Video Editing",
+        "Marketing",
+        "Productivity",
+        "Automation",
+        "AI Tool",
+        "Prompting",
+        "Video",
+        "Design"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "개발자는 데이터베이스 관리나 복잡한 설정에 대한 걱정 없이 데이터 기반 앱을 구축하여 개발 워크플로우를 크게 간소화할 수 있습니다.",
+      "practical_relevance": "영상 제작에 소요되던 시간과 노력을 획기적으로 줄여, 제품 팀이 더 자주, 더 빠르게 신제품을 출시하고 마케팅할 수 있도록 돕습니다. 전문 디자이너 없이도 고품질 영상을 얻을 수 있습니다.",
       "recommended_actions": [
-        "기존 Netlify 프로젝트에 연동하여 데이터베이스 기능 사용해보기",
-        "배포 미리보기 시 자동 데이터베이스 브랜칭 기능 테스트하기",
-        "로컬 개발 환경에서 데이터베이스 연동 및 마이그레이션 기능 경험해보기"
+        "단일 프롬프트를 활용하여 제품 론칭 영상 빠르게 생성해보기",
+        "다양한 제품 아이디어로 여러 버전의 론칭 영상 시도해보기",
+        "AI가 자동으로 결정하는 디자인 요소(페이싱, 타이포그래피 등)의 결과물 확인하기"
       ],
       "risks_and_limits": [
-        "정확한 요금 정책 및 무료 티어 여부 확인 필요",
-        "대규모 트래픽 또는 복잡한 쿼리 시 성능 제한 여부 확인"
+        "AI가 결정하는 디자인 요소가 브랜드 가이드라인이나 특정 요구사항과 맞지 않을 수 있습니다.",
+        "월간 구독 모델이므로, 사용 빈도와 비용 효율성을 고려해야 합니다."
       ],
-      "uncertainty_note": "제공되는 PostgreSQL 버전 및 추가적인 보안 기능에 대한 상세 정보 확인이 필요합니다.",
+      "uncertainty_note": "실제 생성되는 영상의 품질과 커스터마이징 가능 범위에 대한 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Netlify_Database.jpg",
+      "local_image_path": "images/ph_2026-04-30_Hera_Launch.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Netlify_Database_media_0.jpg",
-        "images/ph_2026-04-29_Netlify_Database_media_1.jpg",
-        "images/ph_2026-04-29_Netlify_Database_media_2.jpg"
+        "images/ph_2026-04-30_Hera_Launch_media_0.jpg",
+        "images/ph_2026-04-30_Hera_Launch_media_1.jpg",
+        "images/ph_2026-04-30_Hera_Launch_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/a5dfe15f-f604-4b59-837f-9e6bf266e48f.jpeg?auto=format"
+        "https://ph-files.imgix.net/ba9e0798-4139-490c-b94c-df908a45e79e.jpeg?auto=format"
       ]
     },
     {
       "rank": 5,
-      "name": "KarmaBox",
-      "url": "https://www.producthunt.com/products/karmabox-2",
-      "service_url": "https://www.producthunt.com/r/6GDPBUAV25E6T6",
-      "website": "https://www.producthunt.com/r/6GDPBUAV25E6T6",
-      "votes": 191,
-      "tagline": "Run your own Claude Code in your pocket.",
-      "summary": "스마트폰으로 수백 개의 AI 에이전트를 실행하고 여러 AI 모델을 자유롭게 활용하여 나만의 AI 컴퓨팅 환경을 구축하는 솔루션.",
+      "name": "Gemini Deep Research Agent",
+      "url": "https://www.producthunt.com/products/gemini-deep-research",
+      "service_url": "https://www.producthunt.com/r/NWPUJCSQEF5ED4",
+      "website": "https://www.producthunt.com/r/NWPUJCSQEF5ED4",
+      "votes": 164,
+      "tagline": "Web and MCP research agents, now in Gemini API",
+      "summary": "Gemini API를 통해 웹 및 MCP 데이터를 심층 분석하고 차트까지 생성해주는 AI 연구 에이전트입니다.",
       "key_points": [
-        "스마트폰에서 수백 개의 AI 에이전트 실행 가능",
-        "개인 기기를 활용한 프라이빗 AI 컴퓨팅 환경 구축",
-        "Claude, Codex, Gemini 등 다양한 AI 모델 자유롭게 활용"
-      ],
-      "tags": [
-        "AI",
-        "Automation",
-        "Developer Tools",
-        "Mobile",
-        "Productivity",
-        "Agent",
-        "AI Tool",
-        "DevTool"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "중",
-      "practical_relevance": "복잡한 인프라 구축이나 특정 AI 벤더에 얽매이지 않고, 개인 기기에서 강력한 AI 작업을 실행할 수 있어 AI 활용의 유연성과 통제력을 높여줍니다.",
-      "recommended_actions": [
-        "스마트폰에서 간단한 AI 에이전트 실행해보기",
-        "특정 작업에 Claude, Gemini 등 여러 AI 모델 적용해보기",
-        "두 대 이상의 기기로 프라이빗 컴퓨팅 풀 구성 시도해보기"
-      ],
-      "risks_and_limits": [
-        "기기 성능 및 배터리 소모에 미치는 영향 확인",
-        "다양한 AI 모델 연동 및 작업 라우팅 설정의 실제 난이도 파악"
-      ],
-      "uncertainty_note": "실제 어떤 종류의 AI 에이전트를 실행할 수 있는지, 그리고 기기 간 컴퓨팅 풀 구성 및 AI 모델 연동 방식에 대한 구체적인 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_KarmaBox.jpg",
-      "local_media": [
-        "images/ph_2026-04-29_KarmaBox_media_0.jpg",
-        "images/ph_2026-04-29_KarmaBox_media_1.jpg",
-        "images/ph_2026-04-29_KarmaBox_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/7cecc668-1405-4878-90f1-dbaf94caeaef.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 6,
-      "name": "CodeHealth MCP Server by CodeScene",
-      "url": "https://www.producthunt.com/products/codescene-codehealth-mcp-server",
-      "service_url": "https://www.producthunt.com/r/7OEHF3AEEFZJCD",
-      "website": "https://www.producthunt.com/r/7OEHF3AEEFZJCD",
-      "votes": 182,
-      "tagline": "Keep AI-generated code healthy and maintainable",
-      "summary": "AI가 생성한 코드의 품질과 유지보수성을 높여 기술 부채 없이 프로덕션 레벨 코드를 만들도록 돕는 솔루션입니다.",
-      "key_points": [
-        "AI 생성 코드의 유지보수성과 프로덕션 준비도를 보장합니다.",
-        "확정적 피드백을 통해 AI 에이전트가 위험을 감지하고 코드 품질을 개선하도록 안내합니다.",
-        "로컬에서 실행되어 워크플로우를 완벽하게 제어하며, 레거시 시스템을 AI 친화적으로 만듭니다."
-      ],
-      "tags": [
-        "DevTool",
-        "AI",
-        "Code Quality",
-        "Automation",
-        "Agent",
-        "AI Tool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "AI가 생성한 코드의 신뢰도를 높이고 기술 부채를 줄여주며, 기존 시스템을 AI와 더 잘 통합할 수 있도록 도와줍니다. 결과적으로 더 안전하고 효율적인 개발 워크플로우를 구축할 수 있습니다.",
-      "recommended_actions": [
-        "로컬 환경에 직접 설치하여 AI 생성 코드 분석을 시작해 보세요.",
-        "현재 사용 중인 AI 코딩 어시스턴트와 연동하여 코드 품질 피드백을 받아보세요.",
-        "기존 레거시 시스템의 코드를 분석하여 AI 도입 준비도를 평가해 보세요."
-      ],
-      "risks_and_limits": [
-        "다양한 AI 에이전트 및 기존 개발 워크플로우와의 통합 난이도가 있을 수 있습니다.",
-        "코드 품질 기준 설정 및 커스터마이징의 유연성에 대한 추가 확인이 필요합니다."
-      ],
-      "uncertainty_note": "가격 정책, 지원하는 AI 코딩 어시스턴트의 종류, 그리고 구체적인 설치 및 설정 가이드에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_CodeHealth_MCP_Server_by_CodeScene.jpg",
-      "local_media": [
-        "images/ph_2026-04-29_CodeHealth_MCP_Server_by_CodeS_media_0.jpg",
-        "images/ph_2026-04-29_CodeHealth_MCP_Server_by_CodeS_media_1.jpg",
-        "images/ph_2026-04-29_CodeHealth_MCP_Server_by_CodeS_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/9d5ce096-e5a5-47d5-b53f-bce42e9cedb7.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 7,
-      "name": "UXPin Forge",
-      "url": "https://www.producthunt.com/products/uxpin",
-      "service_url": "https://www.producthunt.com/r/UD3ILY3WV6YAZH",
-      "website": "https://www.producthunt.com/r/UD3ILY3WV6YAZH",
-      "votes": 167,
-      "tagline": "Generate UI from your design system, not around it",
-      "summary": "AI가 디자인 시스템에 맞춰 UI를 생성하여 빠르고 깔끔하게 JSX 코드를 만들 수 있게 돕는 도구입니다.",
-      "key_points": [
-        "AI 기반 UI 자동 생성 기능 제공",
-        "기존 디자인 시스템(MUI, shadcn/ui 등) 및 커스텀 컴포넌트와 연동",
-        "재작업 없이 깔끔한 JSX 코드 생성 및 빠른 반복 작업 가능"
-      ],
-      "tags": [
-        "AI",
-        "DevTool",
-        "Design System",
-        "Automation",
-        "UI/UX",
-        "AI Tool",
-        "Design"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "디자이너와 개발자가 디자인 시스템에 맞춰 UI를 빠르게 생성하고, 수동 작업 없이 일관성 있는 JSX 코드를 얻어 개발 시간을 단축할 수 있습니다.",
-      "recommended_actions": [
-        "AI UI 생성 기능으로 간단한 화면 구성해보기",
-        "자주 사용하는 디자인 시스템 컴포넌트를 연동하여 UI 생성 테스트",
-        "생성된 JSX 코드를 확인하고 실제 프로젝트에 적용 가능성 검토"
-      ],
-      "risks_and_limits": [
-        "AI가 생성하는 UI의 정확성 및 복잡한 요구사항 반영 여부 확인 필요",
-        "UXPin 환경 내에서만 작동하므로 기존 워크플로우와의 통합 고려"
-      ],
-      "uncertainty_note": "구체적인 가격 정책, 지원하는 모든 컴포넌트 라이브러리 목록, 그리고 AI 학습 데이터의 범위에 대한 추가 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_UXPin_Forge.jpg",
-      "local_media": [
-        "images/ph_2026-04-29_UXPin_Forge_media_0.jpg",
-        "images/ph_2026-04-29_UXPin_Forge_media_1.jpg",
-        "images/ph_2026-04-29_UXPin_Forge_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/ca33ad8e-f7b3-4e34-9fb1-b1ca2ec7cd95.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 8,
-      "name": "Dreambase Data Agent Skills",
-      "url": "https://www.producthunt.com/products/dreambase-ai",
-      "service_url": "https://www.producthunt.com/r/QWZ3YHVN4PTIGJ",
-      "website": "https://www.producthunt.com/r/QWZ3YHVN4PTIGJ",
-      "votes": 118,
-      "tagline": "Analytical skills for data agents running on Supabase",
-      "summary": "데이터 에이전트가 Supabase 등 다양한 데이터 소스를 활용하여 정확한 대시보드와 보고서를 자동으로 생성하도록 돕는 분석 스킬 레이어입니다.",
-      "key_points": [
-        "데이터 소스, 비즈니스 로직, 시각화 규칙을 재사용 가능한 '스킬'로 묶는 구성 가능한 레이어 제공.",
-        "Supabase, Stripe, PostHog, API 등 다양한 데이터 소스 통합 지원.",
-        "데이터베이스 스캔을 통해 스킬을 자동으로 사전 구성하여 온보딩 간소화."
+        "Gemini API 기반의 두 가지 AI 연구 에이전트 제공 (실시간 대화형/심층 비동기 분석).",
+        "웹 및 MCP(Multi-Cloud Platform) 데이터 소스를 지원합니다.",
+        "분석 결과에 대한 차트 자동 생성 기능을 내장하고 있습니다."
       ],
       "tags": [
         "DevTool",
         "Automation",
         "Analytics",
-        "Data Management",
         "Agent",
+        "AI Tool",
         "API"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "데이터 에이전트가 복잡한 데이터 통합 및 분석 과정을 자동화하여, 수동 작업 없이도 신뢰할 수 있는 대시보드와 보고서를 빠르고 효율적으로 구축할 수 있도록 돕습니다. 이를 통해 데이터 분석 업무의 생산성을 크게 향상시킬 수 있습니다.",
+      "practical_relevance": "개발자와 AI 엔지니어는 복잡한 연구 작업을 자동화하고, 다양한 데이터 소스를 활용하여 빠르고 정확한 인사이트를 얻을 수 있습니다. 이를 통해 연구 효율성을 극대화하고 의사결정을 가속화할 수 있습니다.",
       "recommended_actions": [
-        "현재 사용 중인 Supabase 데이터베이스와 연결하여 스킬 자동 생성 기능 체험해보기.",
-        "'스킬'이 데이터 소스, 로직, 시각화 규칙을 어떻게 묶는지 개념 파악하기.",
-        "지원되는 다른 데이터 소스(Stripe, PostHog, API 등)와의 연동 가능성 확인하기."
+        "Gemini API를 활용하여 실시간 대화형 연구 워크플로우를 구축해보기.",
+        "Deep Research Max를 이용해 대규모 비동기 데이터 합성 및 분석 시도해보기.",
+        "분석 결과에 대한 차트 자동 생성 기능을 활용하여 시각화된 보고서 만들어보기."
       ],
       "risks_and_limits": [
-        "CLI, API, MCP를 통한 다른 에이전트 연동 기능은 '출시 예정'이므로 현재는 제한적일 수 있음.",
-        "'데이터 에이전트'의 구체적인 정의와 기존 시스템과의 호환성 확인 필요.",
-        "명시되지 않은 대규모 데이터 처리 성능 및 비용 모델에 대한 추가 정보 확인 필요."
+        "Gemini API 연동 및 개발 역량이 필요하며, 초기 설정에 시간이 소요될 수 있습니다.",
+        "MCP 데이터 소스의 구체적인 범위와 지원 여부를 확인해야 합니다."
       ],
-      "uncertainty_note": "'데이터 에이전트'가 스킬을 소비하는 방식과 현재 지원되는 에이전트 종류에 대한 구체적인 정보가 더 필요합니다.",
+      "uncertainty_note": "지원하는 MCP 데이터 소스의 종류와 각 에이전트의 구체적인 성능 벤치마크에 대한 추가 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Dreambase_Data_Agent_Skills.jpg",
+      "local_image_path": "images/ph_2026-04-30_Gemini_Deep_Research_Agent.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Dreambase_Data_Agent_Skills_media_0.jpg",
-        "images/ph_2026-04-29_Dreambase_Data_Agent_Skills_media_1.jpg",
-        "images/ph_2026-04-29_Dreambase_Data_Agent_Skills_media_2.jpg"
+        "images/ph_2026-04-30_Gemini_Deep_Research_Agent_media_0.jpg",
+        "images/ph_2026-04-30_Gemini_Deep_Research_Agent_media_1.jpg",
+        "images/ph_2026-04-30_Gemini_Deep_Research_Agent_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/d419ea5b-ca8d-45a6-9c56-a0f43f3d4be4.jpeg?auto=format"
+        "https://ph-files.imgix.net/389453f7-d0f5-419e-aea8-2173e85ca07d.jpeg?auto=format"
       ]
     },
     {
-      "rank": 9,
-      "name": "Redesign by Nodewave",
-      "url": "https://www.producthunt.com/products/redesign-by-nodewave",
-      "service_url": "https://www.producthunt.com/r/JGUVBSPLPOXK6S",
-      "website": "https://www.producthunt.com/r/JGUVBSPLPOXK6S",
-      "votes": 96,
-      "tagline": "Free and open‑source, stop designing. Describe.",
-      "summary": "디자인 배경이나 예산 없이도 AI(Claude)를 활용해 전문가 수준의 소셜 미디어 게시물을 쉽고 빠르게 만들 수 있는 무료 오픈소스 도구입니다.",
+      "rank": 6,
+      "name": "File Generation in Gemini",
+      "url": "https://www.producthunt.com/products/gemini-6",
+      "service_url": "https://www.producthunt.com/r/CVW4SIMAWOG26F",
+      "website": "https://www.producthunt.com/r/CVW4SIMAWOG26F",
+      "votes": 122,
+      "tagline": "Generate production-ready files directly in your chat",
+      "summary": "Gemini 채팅에서 다양한 형식의 파일을 바로 생성하고 다운로드하여 작업 효율을 극대화합니다.",
       "key_points": [
-        "디자인 지식 없이도 전문가 수준의 소셜 미디어 게시물 제작 가능",
-        "Claude AI가 기존 코드베이스를 활용하여 효율적인 디자인 생성",
-        "무료로 제공되는 오픈소스 도구로 누구나 사용 가능"
+        "Gemini 채팅 내에서 직접 파일 생성 가능",
+        "Google Docs, Sheets, Slides, PDF, Word, Excel 등 다양한 파일 형식 지원",
+        "복사, 붙여넣기, 재포맷 없이 즉시 사용 가능한 파일 제공"
       ],
       "tags": [
         "AI",
-        "Design Tool",
-        "Social Media",
-        "Open Source",
+        "Productivity",
         "Content Creation",
-        "Design",
-        "DevTool"
+        "Automation",
+        "Chat",
+        "Prompting"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "이 도구를 사용하면 디자인 전문 지식이나 많은 시간, 예산 없이도 매력적인 소셜 미디어 콘텐츠를 손쉽게 제작하여 브랜드 이미지를 강화할 수 있습니다. 특히 마케터나 콘텐츠 크리에이터에게 큰 도움이 될 것입니다.",
+      "practical_relevance": "기존에 여러 단계를 거쳐야 했던 문서 작성 및 변환 과정을 Gemini 채팅 하나로 통합하여 시간을 절약하고 번거로움을 줄여줍니다. 즉시 공유 가능한 파일을 얻을 수 있어 업무 흐름이 훨씬 매끄러워집니다.",
       "recommended_actions": [
-        "간단한 소셜 미디어 게시물 제작을 직접 시도해보기",
-        "Claude AI가 기존 코드베이스를 어떻게 활용하는지 기능 살펴보기",
-        "오픈소스 코드 저장소를 방문하여 기술적인 구현 방식 확인하기"
+        "간단한 보고서 초안을 Gemini에게 요청하고 Google Docs 파일로 받아보기",
+        "데이터 요약본을 CSV 또는 Excel 파일로 생성하여 분석에 활용하기",
+        "아이디어 브레인스토밍 결과를 Markdown 파일로 정리하여 공유하기"
       ],
       "risks_and_limits": [
-        "AI가 생성하는 디자인의 품질이나 스타일이 사용자의 기대와 다를 수 있습니다.",
-        "'코드베이스에서 가져온다'는 방식이 특정 기술 스택(예: React)에 더 최적화되어 있을 가능성이 있습니다."
+        "생성된 파일의 내용 정확성 및 품질은 Gemini의 답변 능력에 따라 달라질 수 있음",
+        "민감한 정보가 포함된 파일 생성 시 보안 및 개인정보 보호 정책 확인 필요"
       ],
-      "uncertainty_note": "Claude AI가 어떤 종류의 '코드베이스'에서 디자인 요소를 가져오는지, 그리고 이것이 일반 사용자에게 어떤 의미인지 추가 확인이 필요합니다.",
+      "uncertainty_note": "각 파일 형식별로 지원되는 기능의 범위나 복잡한 서식 유지 여부에 대한 상세 정보는 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Redesign_by_Nodewave.jpg",
+      "local_image_path": "images/ph_2026-04-30_File_Generation_in_Gemini.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Redesign_by_Nodewave_media_0.jpg",
-        "images/ph_2026-04-29_Redesign_by_Nodewave_media_1.jpg",
-        "images/ph_2026-04-29_Redesign_by_Nodewave_media_2.jpg"
+        "images/ph_2026-04-30_File_Generation_in_Gemini_media_0.jpg",
+        "images/ph_2026-04-30_File_Generation_in_Gemini_media_1.jpg",
+        "images/ph_2026-04-30_File_Generation_in_Gemini_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 7,
+      "name": "Quarkdown",
+      "url": "https://www.producthunt.com/products/quarkdown",
+      "service_url": "https://www.producthunt.com/r/QB6RTH5OYVGS2X",
+      "website": "https://www.producthunt.com/r/QB6RTH5OYVGS2X",
+      "votes": 114,
+      "tagline": "Markdown wit LaTeX in a modern typesetting system",
+      "summary": "Quarkdown은 Markdown 기반의 현대적인 조판 시스템으로 논문, 발표 자료, 지식 베이스, 웹사이트 제작을 쉽게 만들어줍니다.",
+      "key_points": [
+        "친숙한 Markdown 문법 사용",
+        "강력한 확장 기능으로 문서 완벽 제어",
+        "실시간 미리보기로 작업 효율성 향상"
+      ],
+      "tags": [
+        "Markdown",
+        "LaTeX",
+        "조판",
+        "VS Code",
+        "문서 작성",
+        "DevTool"
+      ],
+      "confidence": "중",
+      "adoption_complexity": "중",
+      "practical_relevance": "VS Code나 터미널에서 Markdown으로 작성하면서 LaTeX의 강력한 기능을 활용하여 전문적인 문서를 쉽게 만들 수 있습니다.",
+      "recommended_actions": [
+        "VS Code에서 Quarkdown 설치 후 Markdown 문서 작성 시작",
+        "LaTeX 확장 기능 사용해보기",
+        "실시간 미리보기 기능 활용하여 작업 속도 향상"
+      ],
+      "risks_and_limits": [
+        "LaTeX 문법에 대한 기본적인 이해 필요",
+        "VS Code 또는 터미널 환경에 대한 숙지 필요"
+      ],
+      "uncertainty_note": "Quarkdown의 성능 및 안정성에 대한 사용자 리뷰 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-30_Quarkdown.jpg",
+      "local_media": [
+        "images/ph_2026-04-30_Quarkdown_media_0.jpg",
+        "images/ph_2026-04-30_Quarkdown_media_1.jpg",
+        "images/ph_2026-04-30_Quarkdown_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 8,
+      "name": "Tabstack",
+      "url": "https://www.producthunt.com/products/tabstack",
+      "service_url": "https://www.producthunt.com/r/QH3WOZ3COBXHWN",
+      "website": "https://www.producthunt.com/r/QH3WOZ3COBXHWN",
+      "votes": 110,
+      "tagline": "Extract web data and automate browsers, no scraper required.",
+      "summary": "스크래퍼 구축 없이 웹 데이터 추출 및 브라우저 자동화를 간편하게 처리하고, 신뢰할 수 있는 구조화된 데이터를 JSON으로 받아볼 수 있는 API입니다.",
+      "key_points": [
+        "스크래퍼 개발 및 유지보수 없이 웹 데이터 추출 및 브라우저 자동화 가능.",
+        "URL과 스키마만으로 항상 일치하는 신뢰할 수 있는 JSON 형식의 구조화된 데이터 획득.",
+        "인프라 구축 없이 브라우저 자동화 및 지능형 API 호출로 연구 및 분석 수행."
+      ],
+      "tags": [
+        "DevTool",
+        "Automation",
+        "Data Extraction",
+        "API",
+        "Web Analytics",
+        "AI Tool"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "복잡한 스크래퍼 개발 및 유지보수 부담 없이 웹 데이터를 쉽게 얻고 브라우저 작업을 자동화하여 개발 시간과 비용을 절감할 수 있습니다. 항상 일관된 형식의 데이터를 받아볼 수 있어 데이터 활용의 신뢰성을 높여줍니다.",
+      "recommended_actions": [
+        "관심 있는 웹사이트 URL과 원하는 데이터 스키마를 정의하여 JSON 데이터 추출을 시도해보기.",
+        "특정 웹 작업 자동화가 필요한 시나리오에 Tabstack API를 적용하여 브라우저 자동화 기능 테스트.",
+        "반복적인 웹 기반 연구나 데이터 수집 작업에 Tabstack을 활용하여 효율성 증대 방안 모색."
+      ],
+      "risks_and_limits": [
+        "API 기반 서비스이므로 Tabstack 서비스의 안정성과 정책 변화에 의존하게 됩니다.",
+        "정확한 데이터 추출을 위해서는 사용자가 원하는 데이터의 스키마를 명확하게 정의해야 합니다."
+      ],
+      "uncertainty_note": "구체적인 요금 체계, 지원하는 데이터 형식의 다양성, 그리고 대규모 사용 시의 성능 한계에 대한 정보는 추가 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-30_Tabstack.jpg",
+      "local_media": [
+        "images/ph_2026-04-30_Tabstack_media_0.jpg",
+        "images/ph_2026-04-30_Tabstack_media_1.jpg",
+        "images/ph_2026-04-30_Tabstack_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 9,
+      "name": "Invite Only",
+      "url": "https://www.producthunt.com/products/invite-only",
+      "service_url": "https://www.producthunt.com/r/SJ7XHAL6VV2LOG",
+      "website": "https://www.producthunt.com/r/SJ7XHAL6VV2LOG",
+      "votes": 108,
+      "tagline": "The event invite that actually gets people to show up",
+      "summary": "WhatsApp 기반 시장을 위한 간편한 이벤트 초대 플랫폼으로, 실제 참석자를 정확히 파악하고 관리할 수 있게 해줍니다.",
+      "key_points": [
+        "WhatsApp에 최적화된 이벤트 초대 및 관리",
+        "2분 만에 이벤트 페이지 생성 및 간편한 공유",
+        "앱 설치 없이 OTP로 30초 만에 RSVP 및 UPI 결제 지원"
+      ],
+      "tags": [
+        "Event Management",
+        "Productivity",
+        "WhatsApp",
+        "Payments",
+        "RSVP",
+        "AI Tool",
+        "Chat"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "이벤트 주최자는 불확실한 참석 여부로 인한 스트레스를 줄이고, 실제 참석자 명단을 정확히 파악하여 효율적인 행사 준비를 할 수 있습니다. 참석자 또한 앱 설치 없이 빠르고 간편하게 RSVP 및 결제를 완료할 수 있습니다.",
+      "recommended_actions": [
+        "나만의 이벤트 페이지를 2분 안에 만들어보기",
+        "생성된 초대 링크를 WhatsApp으로 공유해보기",
+        "실제 참석자가 RSVP하는 과정을 직접 체험해보기 (OTP 인증 및 UPI 결제 흐름)"
+      ],
+      "risks_and_limits": [
+        "주로 WhatsApp 및 UPI를 사용하는 시장에 특화되어 있어, 다른 지역이나 결제 수단에는 제한적일 수 있습니다.",
+        "무료/유료 기능 범위, 수수료 등 서비스 이용 정책에 대한 정보가 필요합니다."
+      ],
+      "uncertainty_note": "서비스의 정확한 가격 정책, 지원하는 다른 결제 수단, 그리고 대규모 이벤트 관리 기능에 대한 추가 정보가 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-04-30_Invite_Only.jpg",
+      "local_media": [
+        "images/ph_2026-04-30_Invite_Only_media_1.jpg",
+        "images/ph_2026-04-30_Invite_Only_media_2.jpg",
+        "images/ph_2026-04-30_Invite_Only_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/e3f6e7c1-f4f7-4767-a3a8-b069e936fa20.jpeg?auto=format"
+        "https://ph-files.imgix.net/ea9d9434-b04b-46c3-a093-66fd109f20e7.jpeg?auto=format"
       ]
     },
     {
       "rank": 10,
-      "name": "Picsart CLI ",
-      "url": "https://www.producthunt.com/products/picsart",
-      "service_url": "https://www.producthunt.com/r/UCP2XMP2ZA7D2E",
-      "website": "https://www.producthunt.com/r/UCP2XMP2ZA7D2E",
-      "votes": 94,
-      "tagline": "Picsart's power right from your AI chat box",
-      "summary": "터미널에서 140개 이상의 AI 모델로 이미지, 비디오, 오디오를 손쉽게 생성하고 편집할 수 있는 픽스아트 CLI 도구",
+      "name": "Rova AI",
+      "url": "https://www.producthunt.com/products/rova-ai",
+      "service_url": "https://www.producthunt.com/r/QC4NXK7LQEK62P",
+      "website": "https://www.producthunt.com/r/QC4NXK7LQEK62P",
+      "votes": 104,
+      "tagline": "Autonomous, goal-driven testing for web & mobile apps",
+      "summary": "Rova AI는 웹/모바일 앱의 자동 테스트를 통해 실제 사용자 워크플로우 검증, UI 변경 자동 감지, 명확한 보고서 생성 기능을 제공하여 테스트 스크립트 작성 없이 효율적인 테스트 환경을 구축할 수 있도록 돕습니다.",
       "key_points": [
-        "터미널 환경에서 직접 이미지, 비디오, 오디오를 AI로 생성 및 편집 가능",
-        "한 번의 설치로 140개 이상의 선도적인 AI 모델에 접근",
-        "AI 챗박스 등 다른 AI 도구와 연동하여 미디어 생성 워크플로우 자동화에 활용 가능"
+        "테스트 스크립트 없이 자동 테스트 가능",
+        "실제 사용자 워크플로우 검증 및 UI 변경 자동 감지",
+        "Jira, Linear 등 이슈 티켓 연동을 통한 피드백 보고"
       ],
       "tags": [
         "DevTool",
-        "AI",
-        "MediaGeneration",
         "Automation",
-        "AI Tool",
-        "Chat",
-        "Video",
-        "Vision"
+        "Testing",
+        "AI",
+        "AI Tool"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "중",
-      "practical_relevance": "개발자나 고급 사용자가 터미널 환경에서 AI 기반 이미지, 비디오, 오디오 생성을 자동화하고 워크플로우에 통합하기 매우 편리합니다.",
+      "practical_relevance": "테스트 자동화를 통해 개발자는 테스트 스크립트 작성 부담을 줄이고, 실제 사용자 환경에 가까운 테스트를 수행하여 앱 품질을 향상시킬 수 있습니다. 이슈 티켓 연동으로 테스트 결과 확인 및 피드백이 용이합니다.",
       "recommended_actions": [
-        "CLI를 설치하고 가장 간단한 이미지 생성 명령어를 실행하여 기본 기능 확인",
-        "AI 챗박스와 연동하여 텍스트 프롬프트로 다양한 미디어 생성 테스트",
-        "제공되는 140개 모델 중 관심 있는 모델을 찾아 특정 미디어 타입(예: 비디오 편집)에 적용해보기"
+        "Jira 또는 Linear와 연동하여 티켓 기반 테스트 자동화 설정",
+        "웹/모바일 앱의 주요 워크플로우 자동 테스트 설정",
+        "테스트 결과 보고서 확인 및 개선 사항 반영"
       ],
       "risks_and_limits": [
-        "CLI 환경에 익숙하지 않은 사용자는 초기 학습 시간이 필요할 수 있습니다.",
-        "140개 이상의 AI 모델 중 어떤 모델이 어떤 용도에 적합한지 파악하는 데 시간이 걸릴 수 있습니다."
+        "자동 테스트의 정확도 및 커버리지 확인 필요",
+        "특정 UI 요소 또는 워크플로우에 대한 추가 설정 필요 가능성"
       ],
-      "uncertainty_note": "각 AI 모델의 구체적인 사용 조건, 비용, 그리고 생성물의 상업적 이용 가능 여부에 대한 추가 확인이 필요합니다.",
+      "uncertainty_note": "Rova AI의 자동 테스트가 모든 유형의 앱 및 워크플로우를 완벽하게 지원하는지 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-04-29_Picsart_CLI_.jpg",
+      "local_image_path": "images/ph_2026-04-30_Rova_AI.jpg",
       "local_media": [
-        "images/ph_2026-04-29_Picsart_CLI__media_0.jpg",
-        "images/ph_2026-04-29_Picsart_CLI__media_1.jpg",
-        "images/ph_2026-04-29_Picsart_CLI__media_2.jpg"
+        "images/ph_2026-04-30_Rova_AI_media_0.jpg",
+        "images/ph_2026-04-30_Rova_AI_media_1.jpg",
+        "images/ph_2026-04-30_Rova_AI_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/c7b8c782-5e31-4a2e-8e13-b726068b5740.jpeg?auto=format"
+      ]
     }
   ]
 }
