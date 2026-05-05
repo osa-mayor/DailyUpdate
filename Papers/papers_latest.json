@@ -1,22 +1,22 @@
 {
   "source": "huggingface_papers",
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T21:11:36.995599+09:00",
+  "generated_at": "2026-05-05T21:27:21.487853+09:00",
   "count": 14,
-  "daily_summary": "오늘의 연구는 단순한 성능 향상을 넘어, 실제 환경(로봇, 의료, 학술 워크플로우)에 적용 가능한 에이전트의 실무적 능력과 데이터 효율성을 높이는 데 집중되었습니다. 특히 복잡한 장기 과제(Long-horizon)를 수행하는 에이전트의 평가 체계와 도메인 특화 데이터 엔지니어링이 주요 화두로 떠올랐습니다.",
+  "daily_summary": "오늘의 연구는 단순한 성능 향상을 넘어, 로봇 제어, 복잡한 워크플로우 수행, 도메인 특화 데이터 구축 등 실질적인 현장 적용을 위한 연구들이 주를 이루었습니다. 특히 에이전트의 장기적 추론 능력과 특정 도메인(해양, 의료, 학술)에 최적화된 데이터 엔지니어링 및 벤치마크 구축이 주요 화두로 다뤄졌습니다.",
   "daily_key_points": [
-    "실제 세계의 복잡한 워크플로우와 도구 사용 능력을 검증하기 위한 고난도 에이전트 벤치마크 제안이 활발히 이루어졌습니다.",
-    "데이터의 양보다 질적 필터링과 반복 학습을 통해 학습 효율을 극대화하는 전략이 중요하게 다뤄졌습니다.",
-    "멀티모달 모델의 시각 정보 유실 문제 해결 및 로봇 제어를 위한 VLA 프레임워크 등 실질적인 배포를 위한 최적화 연구가 진행되었습니다."
+    "로봇 및 실무 환경에서의 활용을 위해 지연 시간을 최소화하고 복잡한 워크플로우를 수행할 수 있는 VLA 및 에이전트 프레임워크가 주목받았습니다.",
+    "데이터의 양보다 질적 수준과 반복 학습의 효율성을 강조하며, 특정 도메인 지식을 효과적으로 주입하기 위한 데이터 엔지니어링 전략이 제시되었습니다.",
+    "단순 질의응답을 넘어 실제 임상, 학술, 코딩 등 복잡하고 긴 호흡의 작업을 평가하기 위한 정밀한 벤치마크 설계가 중요하게 다뤄졌습니다."
   ],
   "daily_tags": [
     "AI Agents",
-    "Benchmark",
+    "VLA & Robotics",
+    "Domain-Specific LLM",
     "Data Engineering",
-    "Multimodal",
-    "Robotics"
+    "Benchmark"
   ],
-  "chat_message": "🔥 오늘의 논문\n\n📌 오늘의 요약: 오늘의 연구는 단순한 성능 향상을 넘어, 실제 환경(로봇, 의료, 학술 워크플로우)에 적용 가능한 에이전트의 실무적 능력과 데이터 효율성을 높이는 데 집중되었습니다. 특히 복잡한 장기 과제(Long-horizon)를 수행하는 에이전트의 평가 체계와 도메인 특화 데이터 엔지니어링이 주요 화두로 떠올랐습니다.\n\n📍 1. MolmoAct2: Action Reasoning Models for Real-world Deployment\n📝 요약: 실제 로봇 배포를 위해 지연 시간과 추론 성능을 최적화한 완전 오픈 소스 VLA(Vision-Language-Action) 모델 프레임워크\n🔗 Hugging Face: https://huggingface.co/papers/2605.02881\n📄 arXiv: https://arxiv.org/abs/2605.02881\n\n📍 2. From Context to Skills: Can Language Models Learn from Context Skillfully?\n📝 요약: 사람의 개입 없이 컨텍스트에서 핵심 규칙을 추출하여 모델의 문제 해결 능력을 자가 진화시키는 프레임워크\n🔗 Hugging Face: https://huggingface.co/papers/2604.27660\n📄 arXiv: https://arxiv.org/abs/2604.27660\n\n📍 3. Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling\n📝 요약: 데이터 양을 늘리는 것보다 고품질 데이터를 엄격히 필터링하여 반복 학습하는 것이 비영어권 LLM 학습 효율을 극대화한다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.28075\n📄 arXiv: https://arxiv.org/abs/2604.28075\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📌 오늘의 요약: 오늘의 연구는 단순한 성능 향상을 넘어, 로봇 제어, 복잡한 워크플로우 수행, 도메인 특화 데이터 구축 등 실질적인 현장 적용을 위한 연구들이 주를 이루었습니다. 특히 에이전트의 장기적 추론 능력과 특정 도메인(해양, 의료, 학술)에 최적화된 데이터 엔지니어링 및 벤치마크 구축이 주요 화두로 다뤄졌습니다.\n\n📍 1. MolmoAct2: Action Reasoning Models for Real-world Deployment\n📝 요약: 실제 로봇 배포를 위해 지연 시간과 추론 성능을 최적화한 완전 오픈 소스 VLA(Vision-Language-Action) 모델 프레임워크\n🔗 Hugging Face: https://huggingface.co/papers/2605.02881\n📄 arXiv: https://arxiv.org/abs/2605.02881\n\n📍 2. From Context to Skills: Can Language Models Learn from Context Skillfully?\n📝 요약: 사람의 개입 없이 컨텍스트에서 핵심 규칙을 추출하여 모델의 문제 해결 능력을 자가 진화시키는 프레임워크\n🔗 Hugging Face: https://huggingface.co/papers/2604.27660\n📄 arXiv: https://arxiv.org/abs/2604.27660\n\n📍 3. Repetition over Diversity: High-Signal Data Filtering for Sample-Efficient German Language Modeling\n📝 요약: 데이터 양을 늘리는 것보다 고품질 데이터를 엄격히 필터링하여 반복 학습하는 것이 비영어권 LLM 학습 효율을 극대화한다.\n🔗 Hugging Face: https://huggingface.co/papers/2604.28075\n📄 arXiv: https://arxiv.org/abs/2604.28075\n\n출처: Hugging Face Papers\nhttps://huggingface.co/papers\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
@@ -66,7 +66,7 @@
       "paper_id": "2604.27660",
       "url": "https://huggingface.co/papers/2604.27660",
       "arxiv_url": "https://arxiv.org/abs/2604.27660",
-      "upvotes": 61,
+      "upvotes": 63,
       "summary": "사람의 개입 없이 컨텍스트에서 핵심 규칙을 추출하여 모델의 문제 해결 능력을 자가 진화시키는 프레임워크",
       "korean_abstract": "복잡한 컨텍스트를 다루는 작업에서는 모델의 파라미터 지식을 넘어 컨텍스트 내 정보를 활용하는 능력이 필수적입니다. 기존의 스킬 추출 방식은 수동 작업 비용이 높고 외부 피드백이 부족하다는 한계가 있었습니다. 본 논문은 인간의 개입 없이 스킬을 스스로 발견, 정제, 선택하는 자가 진화 프레임워크인 Ctx2Skill을 제안합니다. 멀티 에이전트 셀프 플레이(Challenger, Reasoner, Judge)와 실패 사례 분석을 통한 Proposer/Generator 구조를 통해 스킬을 자동 업데이트합니다. 또한, 과도한 특수화로 인한 성능 붕괴를 막기 위해 Cross-time Replay 메커니즘을 도입했습니다. 실험 결과, CL-bench의 다양한 태스크에서 백본 모델의 컨텍스트 학습 성능을 일관되게 향상시켰습니다.",
       "key_points": [
@@ -230,6 +230,47 @@
     },
     {
       "rank": 6,
+      "title": "AcademiClaw: When Students Set Challenges for AI Agents",
+      "paper_id": "2605.02661",
+      "url": "https://huggingface.co/papers/2605.02661",
+      "arxiv_url": "https://arxiv.org/abs/2605.02661",
+      "upvotes": 5,
+      "summary": "대학생들의 실제 학술 워크플로우를 반영한 고난도 롱-호라이즌(Long-horizon) AI 에이전트 벤치마크 제안",
+      "korean_abstract": "기존 OpenClaw 생태계의 벤치마크는 단순 어시스턴트 수준의 작업에 국한되어 학술적 역량을 평가하기에 부족했습니다. 이를 해결하기 위해 학생들의 실제 과제, 연구, 프로젝트에서 추출한 80개의 복잡한 이중 언어 벤치마크인 AcademiClaw를 도입합니다. 이 벤치마크는 25개 이상의 전문 분야를 아우르며, Docker 샌드박스 환경에서 실행 및 다차원 루브릭을 통해 평가됩니다. 실험 결과, 최상위 모델조차 55%의 통과율을 기록하며 기존 모델의 한계를 드러냈습니다. 본 연구는 에이전트의 역량 경계와 행동 전략을 분석하여 실질적인 학술적 요구를 충족하는 에이전트 개발의 토대를 제공합니다.",
+      "key_points": [
+        "실제 대학생의 워크플로우(숙제, 연구, 경진대회 등)에서 추출한 고난도 80개 태스크 셋 구축",
+        "Docker 기반 격리 환경 및 다차원 루브릭을 통한 정밀한 태스크 완료도 평가 체계",
+        "최신 프론티어 모델들의 한계를 드러내는 25개 이상의 전문 도메인(수학, RL, 시스템 디버깅 등) 커버"
+      ],
+      "tags": [
+        "AI Agent",
+        "Benchmark",
+        "Software Engineering",
+        "Academic Workflow",
+        "Agent",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "단순 질의응답을 넘어 복잡한 코딩, 시스템 디버깅, 수학적 추론 등 실무적이고 긴 호흡의 작업을 수행하는 에이전트 성능 측정의 기준을 제시합니다.",
+      "recommended_actions": [
+        "제공된 GitHub 저장소를 통해 Docker 환경에서 벤치마크 실행 환경 구축하기",
+        "자체 개발 중인 에이전트 모델을 AcademiClaw의 특정 도메인 태스크에 적용하여 성능 비교하기",
+        "토큰 소비량과 출력 품질 간의 상관관계를 분석하여 에이전트 효율성 최적화 실험하기"
+      ],
+      "risks_and_limits": [
+        "특정 도메인(예: GPU 연산 필요 태스크) 실행을 위한 고사양 컴퓨팅 자원 요구",
+        "학생들의 주관적 과제가 포함되어 있어 평가의 객관성 유지에 대한 지속적 검증 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.02661.png",
+      "local_image_path": "images/AcademiClaw_When_Students_Set_Challenges_for_AI_Agents_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 7,
       "title": "ComboStoc: Combinatorial Stochasticity for Diffusion Generative Models",
       "paper_id": "2405.13729",
       "url": "https://huggingface.co/papers/2405.13729",
@@ -265,47 +306,6 @@
       "repeated_days_ago": null,
       "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2405.13729.png",
       "local_image_path": "images/ComboStoc_Combinatorial_Stochasticity_for_Diffusion_Generative_Models_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 7,
-      "title": "AcademiClaw: When Students Set Challenges for AI Agents",
-      "paper_id": "2605.02661",
-      "url": "https://huggingface.co/papers/2605.02661",
-      "arxiv_url": "https://arxiv.org/abs/2605.02661",
-      "upvotes": 3,
-      "summary": "대학생들의 실제 학술 워크플로우를 반영한 고난도 롱-호라이즌(Long-horizon) AI 에이전트 벤치마크 제안",
-      "korean_abstract": "기존 OpenClaw 생태계의 벤치마크는 단순 어시스턴트 수준의 작업에 국한되어 학술적 역량을 평가하기에 부족했습니다. 이를 해결하기 위해 학생들의 실제 과제, 연구, 프로젝트에서 추출한 80개의 복잡한 이중 언어 벤치마크인 AcademiClaw를 도입합니다. 이 벤치마크는 25개 이상의 전문 분야를 아우르며, Docker 샌드박스 환경에서 실행 및 다차원 루브릭을 통해 평가됩니다. 실험 결과, 최상위 모델조차 55%의 통과율을 기록하며 기존 모델의 한계를 드러냈습니다. 본 연구는 에이전트의 역량 경계와 행동 전략을 분석하여 실질적인 학술적 요구를 충족하는 에이전트 개발의 토대를 제공합니다.",
-      "key_points": [
-        "실제 대학생의 워크플로우(숙제, 연구, 경진대회 등)에서 추출한 고난도 80개 태스크 셋 구축",
-        "Docker 기반 격리 환경 및 다차원 루브릭을 통한 정밀한 태스크 완료도 평가 체계",
-        "최신 프론티어 모델들의 한계를 드러내는 25개 이상의 전문 도메인(수학, RL, 시스템 디버깅 등) 커버"
-      ],
-      "tags": [
-        "AI Agent",
-        "Benchmark",
-        "Software Engineering",
-        "Academic Workflow",
-        "Agent",
-        "Evaluation",
-        "Safety"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "단순 질의응답을 넘어 복잡한 코딩, 시스템 디버깅, 수학적 추론 등 실무적이고 긴 호흡의 작업을 수행하는 에이전트 성능 측정의 기준을 제시합니다.",
-      "recommended_actions": [
-        "제공된 GitHub 저장소를 통해 Docker 환경에서 벤치마크 실행 환경 구축하기",
-        "자체 개발 중인 에이전트 모델을 AcademiClaw의 특정 도메인 태스크에 적용하여 성능 비교하기",
-        "토큰 소비량과 출력 품질 간의 상관관계를 분석하여 에이전트 효율성 최적화 실험하기"
-      ],
-      "risks_and_limits": [
-        "특정 도메인(예: GPU 연산 필요 태스크) 실행을 위한 고사양 컴퓨팅 자원 요구",
-        "학생들의 주관적 과제가 포함되어 있어 평가의 객관성 유지에 대한 지속적 검증 필요"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.02661.png",
-      "local_image_path": "images/AcademiClaw_When_Students_Set_Challenges_for_AI_Agents_img.jpg",
       "local_figures": []
     },
     {
