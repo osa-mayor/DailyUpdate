@@ -1,0 +1,337 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T21:51:21.773650+09:00",
+  "count": 12,
+  "daily_summary": "Hugging Face의 신규 모델 트렌드와 함께 소프트웨어 엔지니어링 에이전트 역량 및 목표 지향적 개발 능력을 측정하기 위한 새로운 벤치마크들이 주목받고 있습니다.",
+  "daily_key_points": [
+    "Mistral-Medium-3.5-128B, Sulphur-2-base 등 다양한 규모와 목적(text-to-video 등)을 가진 모델들이 Hugging Face 트렌드 진입",
+    "CodeClash, SWE-smith 등 단순 작업 수행을 넘어 목표 지향적 개발 및 에이전트 학습을 위한 새로운 평가 체계와 도구 등장",
+    "METR를 통한 GPT-5, DeepSeek, Qwen 등 주요 모델들에 대한 심층 평가 리포트 지속 발표"
+  ],
+  "daily_tags": [
+    "LLM",
+    "Benchmark",
+    "AI Agents",
+    "Hugging Face",
+    "Software Engineering"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 트렌드와 함께 소프트웨어 엔지니어링 에이전트 역량 및 목표 지향적 개발 능력을 측정하기 위한 새로운 벤치마크들이 주목받고 있습니다.\n\n📍 1. mistralai/Mistral-Medium-3.5-128B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Mistral AI에서 공개한 Mistral-Medium-3.5-128B 모델이 Hugging Face에서 주목받고 있습니다. 약 128B 규모의 파라미터를 가진 이 모델은 높은 다운로드 수를 기록하며 트렌딩 모델로 부상했습니다.\n🔗 링크: https://huggingface.co/mistralai/Mistral-Medium-3.5-128B\n\n📍 2. SulphurAI/Sulphur-2-base\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Hugging Face에서 주목받고 있는 SulphurAI의 Sulphur-2-base 모델은 text-to-video 파이프라인을 지원하는 베이스 모델입니다. 약 8.95B 파라미터를 보유하고 있으며, 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/SulphurAI/Sulphur-2-base\n\n📍 3. poolside/Laguna-XS.2\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Hugging Face에서 높은 다운로드 수를 기록 중인 poolside/Laguna-XS.2 모델에 대한 동향입니다. 이 모델은 text-generation 파이프라인을 지원하는 약 33.4B 파라미터 규모의 모델입니다.\n🔗 링크: https://huggingface.co/poolside/Laguna-XS.2\n\n📍 4. Introducing CodeClash, our new eval of LMs as goal (not task) oriented developers! [ Link ]\n🗂️ 소스: SWE-bench | 유형: benchmark_update\n📝 요약: SWE-bench 팀에서 단순 작업 수행이 아닌 목표 지향적 개발자 역량을 평가하기 위한 새로운 벤치마크인 CodeClash를 공개했습니다. 이 평가는 언어 모델이 복잡한 개발 목표를 이해하고 해결할 수 있는지 측정하는 데 중점을 둡니다.\n🔗 링크: https://codeclash.ai\n\n📍 5. GPT-5.1-Codex-Max\n🗂️ 소스: METR | 유형: evaluation_report\n📝 요약: 2025년 11월 19일에 발표된 GPT-5.1-Codex-Max에 대한 Evaluation Report입니다. 해당 리포트는 파트너십을 통해 제공되었습니다.\n🔗 링크: https://metr.org/evaluations/gpt-5-1-codex-max-report/\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-05-05.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "mistralai/Mistral-Medium-3.5-128B",
+      "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-05-04T23:16:22+09:00",
+      "published_date": "2026-05-04",
+      "original_description": "likes=262, downloads=15024, pipeline_tag=",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 262,
+        "downloads": 15024,
+        "num_parameters": 127704211408,
+        "pipeline_tag": ""
+      },
+      "rank": 1,
+      "summary": "Mistral AI에서 공개한 Mistral-Medium-3.5-128B 모델이 Hugging Face에서 주목받고 있습니다. 약 128B 규모의 파라미터를 가진 이 모델은 높은 다운로드 수를 기록하며 트렌딩 모델로 부상했습니다.",
+      "key_points": [
+        "Mistral-Medium-3.5-128B 모델의 Hugging Face 트렌딩 발생",
+        "약 127.7B 규모의 파라미터를 보유한 대형 모델",
+        "15,000건 이상의 높은 다운로드 수 기록"
+      ],
+      "tags": [
+        "Mistral-Medium-3.5-128B",
+        "Mistral-AI",
+        "LLM"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "SulphurAI/Sulphur-2-base",
+      "url": "https://huggingface.co/SulphurAI/Sulphur-2-base",
+      "category": "Model Trending",
+      "published_at_kst": "2026-05-04T15:18:16+09:00",
+      "published_date": "2026-05-04",
+      "original_description": "likes=205, downloads=37897, pipeline_tag=text-to-video",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 205,
+        "downloads": 37897,
+        "num_parameters": 8953803264,
+        "pipeline_tag": "text-to-video"
+      },
+      "rank": 2,
+      "summary": "Hugging Face에서 주목받고 있는 SulphurAI의 Sulphur-2-base 모델은 text-to-video 파이프라인을 지원하는 베이스 모델입니다. 약 8.95B 파라미터를 보유하고 있으며, 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "key_points": [
+        "SulphurAI에서 공개한 Sulphur-2-base 모델",
+        "text-to-video 태그를 가진 비디오 생성 관련 모델",
+        "약 8.95B 규모의 파라미터 수치"
+      ],
+      "tags": [
+        "Sulphur-2-base",
+        "text-to-video",
+        "SulphurAI"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "poolside/Laguna-XS.2",
+      "url": "https://huggingface.co/poolside/Laguna-XS.2",
+      "category": "Model Trending",
+      "published_at_kst": "2026-05-03T21:56:34+09:00",
+      "published_date": "2026-05-03",
+      "original_description": "likes=215, downloads=12027, pipeline_tag=text-generation",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 215,
+        "downloads": 12027,
+        "num_parameters": 33442617088,
+        "pipeline_tag": "text-generation"
+      },
+      "rank": 3,
+      "summary": "Hugging Face에서 높은 다운로드 수를 기록 중인 poolside/Laguna-XS.2 모델에 대한 동향입니다. 이 모델은 text-generation 파이프라인을 지원하는 약 33.4B 파라미터 규모의 모델입니다.",
+      "key_points": [
+        "poolside/Laguna-XS.2 모델의 높은 관심도(downloads 12,027회) 확인",
+        "약 33.4B 규모의 파라미터를 가진 text-generation 모델",
+        "Hugging Face 내 모델 트렌딩 지표 반영"
+      ],
+      "tags": [
+        "poolside/Laguna-XS.2",
+        "text-generation",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "swebench",
+      "source_name": "SWE-bench",
+      "title": "Introducing CodeClash, our new eval of LMs as goal (not task) oriented developers! [ Link ]",
+      "url": "https://codeclash.ai",
+      "category": "Benchmark News",
+      "published_at_kst": "2025-11-28T00:00:00+09:00",
+      "published_date": "2025-11-28",
+      "original_description": "Introducing CodeClash, our new eval of LMs as goal (not task) oriented developers! [ Link ]",
+      "signal_type": "benchmark_update",
+      "metrics": {},
+      "rank": 4,
+      "summary": "SWE-bench 팀에서 단순 작업 수행이 아닌 목표 지향적 개발자 역량을 평가하기 위한 새로운 벤치마크인 CodeClash를 공개했습니다. 이 평가는 언어 모델이 복잡한 개발 목표를 이해하고 해결할 수 있는지 측정하는 데 중점을 둡니다.",
+      "key_points": [
+        "새로운 평가 프레임워크인 CodeClash 도입",
+        "단순 task 수행이 아닌 goal-oriented 개발자로서의 역량 평가",
+        "LLM의 복잡한 소프트웨어 개발 문제 해결 능력 측정"
+      ],
+      "tags": [
+        "SWE-bench",
+        "CodeClash",
+        "LLM Evaluation"
+      ]
+    },
+    {
+      "source_key": "metr",
+      "source_name": "METR",
+      "title": "GPT-5.1-Codex-Max",
+      "url": "https://metr.org/evaluations/gpt-5-1-codex-max-report/",
+      "category": "Evaluation Report",
+      "published_at_kst": "2025-11-19T09:00:00+09:00",
+      "published_date": "2025-11-19",
+      "original_description": "GPT-5.1-Codex-Max 19 November 2025 • Partnership",
+      "signal_type": "evaluation_report",
+      "metrics": {},
+      "rank": 5,
+      "summary": "2025년 11월 19일에 발표된 GPT-5.1-Codex-Max에 대한 Evaluation Report입니다. 해당 리포트는 파트너십을 통해 제공되었습니다.",
+      "key_points": [
+        "GPT-5.1-Codex-Max 모델에 대한 평가 보고서",
+        "2025년 11월 19일 기준 정보",
+        "파트너십을 통한 리포트 발행"
+      ],
+      "tags": [
+        "GPT-5.1-Codex-Max",
+        "Evaluation Report",
+        "METR"
+      ]
+    },
+    {
+      "source_key": "metr",
+      "source_name": "METR",
+      "title": "GPT-5",
+      "url": "https://metr.org/evaluations/gpt-5-report/",
+      "category": "Evaluation Report",
+      "published_at_kst": "2025-08-07T09:00:00+09:00",
+      "published_date": "2025-08-07",
+      "original_description": "GPT-5 7 August 2025 • Partnership",
+      "signal_type": "evaluation_report",
+      "metrics": {},
+      "rank": 6,
+      "summary": "METR에서 발표한 GPT-5 관련 Evaluation Report입니다. 2025년 8월 7일 파트너십을 통해 공개된 정보입니다.",
+      "key_points": [
+        "METR의 GPT-5 관련 Evaluation Report 발표",
+        "2025년 8월 7일 기준 정보",
+        "파트너십을 통한 모델 관련 업데이트"
+      ],
+      "tags": [
+        "GPT-5",
+        "METR",
+        "Evaluation Report"
+      ]
+    },
+    {
+      "source_key": "swebench",
+      "source_name": "SWE-bench",
+      "title": "mini-SWE-agent scores 65% on SWE-bench Verified in 100 lines of python code. [ Link ]",
+      "url": "https://github.com/SWE-agent/mini-swe-agent",
+      "category": "Benchmark News",
+      "published_at_kst": "2025-07-28T00:00:00+09:00",
+      "published_date": "2025-07-28",
+      "original_description": "mini-SWE-agent scores 65% on SWE-bench Verified in 100 lines of python code. [ Link ]",
+      "signal_type": "benchmark_update",
+      "metrics": {},
+      "rank": 7,
+      "summary": "mini-SWE-agent가 SWE-bench Verified 벤치마크에서 65%의 점수를 기록했습니다. 이 모델은 단 100라인의 Python 코드로 구현되었습니다.",
+      "key_points": [
+        "mini-SWE-agent의 SWE-bench Verified 점수 65% 달성",
+        "단 100라인의 Python 코드로 구현된 효율성",
+        "SWE-bench Verified 벤치마크 결과 보고"
+      ],
+      "tags": [
+        "mini-SWE-agent",
+        "SWE-bench",
+        "Python"
+      ]
+    },
+    {
+      "source_key": "metr",
+      "source_name": "METR",
+      "title": "DeepSeek and Qwen",
+      "url": "https://metr.org/evaluations/deepseek-qwen-report/",
+      "category": "Evaluation Report",
+      "published_at_kst": "2025-06-27T09:00:00+09:00",
+      "published_date": "2025-06-27",
+      "original_description": "DeepSeek and Qwen 27 June 2025 • No company involvement",
+      "signal_type": "evaluation_report",
+      "metrics": {},
+      "rank": 8,
+      "summary": "METR에서 발표한 DeepSeek와 Qwen 모델에 대한 Evaluation Report입니다. 해당 보고서는 특정 기업의 개입 없이 작성되었습니다.",
+      "key_points": [
+        "DeepSeek 및 Qwen 모델에 대한 평가 보고서",
+        "2025년 6월 27일 발행",
+        "기업의 개입이 없는 독립적인 평가 결과"
+      ],
+      "tags": [
+        "DeepSeek",
+        "Qwen",
+        "METR"
+      ]
+    },
+    {
+      "source_key": "swebench",
+      "source_name": "SWE-bench",
+      "title": "SWE-smith is out! Train your own models for software engineering agents. [ Link ]",
+      "url": "https://swesmith.com",
+      "category": "Benchmark News",
+      "published_at_kst": "2025-05-28T00:00:00+09:00",
+      "published_date": "2025-05-28",
+      "original_description": "SWE-smith is out! Train your own models for software engineering agents. [ Link ]",
+      "signal_type": "benchmark_update",
+      "metrics": {},
+      "rank": 9,
+      "summary": "소프트웨어 엔지니어링 에이전트 학습을 위한 SWE-smith가 출시되었습니다. 사용자가 직접 에이전트용 모델을 학습시킬 수 있는 환경을 제공합니다.",
+      "key_points": [
+        "SWE-smith 프로젝트 출시",
+        "소프트웨어 엔지니어링 에이전트 전용 모델 학습 지원",
+        "사용자 맞춤형 모델 학습 가능"
+      ],
+      "tags": [
+        "SWE-smith",
+        "Software Engineering",
+        "AI Agents"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 10,
+      "summary": "LiveCodeBench에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench에서 O4-Mini (High) 모델이 우수한 성능을 보임",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "avg_pass@1"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 11,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%의 성능을 보여주었습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표 기준 25.0%의 성능을 달성함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "avg_pass@1"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 12,
+      "summary": "LiveCodeBench의 최신 스냅샷 결과, Gemini-2.5-Flash-04-17 모델이 상위 성능을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Flash-04-17 모델이 LiveCodeBench에서 상위권을 기록함",
+        "테스트 결과 avg_pass@1 지표는 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
