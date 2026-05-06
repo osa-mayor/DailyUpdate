@@ -1,0 +1,202 @@
+# 🌏 Google News Tech Digest (2026-05-06)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 AI 모델의 자율적 에이전트화(Agentic AI)와 그에 따른 책임 및 보안 이슈가 핵심을 이루었습니다. 프론티어 AI의 국가 안보 테스트와 같은 규제적 움직임과 더불어, AI가 산업 전반의 인프라 및 노동 시장에 미치는 구조적 변화가 주요 화두로 다뤄졌습니다.
+
+### 오늘의 핵심 포인트
+- 단순 응답을 넘어 도구 사용과 계획 수립이 가능한 '에이전트형 AI'로의 패러다임 전환이 가속화되고 있습니다.
+- 미 정부 주도의 AI 모델 사전 평가와 같은 국가 안보 차원의 보안 가드레일 구축이 본격화되고 있습니다.
+- AI 기술의 급격한 발전이 산업 인프라(전력, 반도체)의 재편과 노동 시장의 구조적 변화를 동시에 촉발하고 있습니다.
+
+**오늘의 태그**: AI_Agent, AI_Safety, National_Security, Generative_AI, Future_of_Work
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Pennsylvania sues Character.AI over claims chatbot posed as doctor - NPR](https://www.npr.org/2026/05/05/nx-s1-5812861/characterai-chatbot-medical-advice-pennsylvania-lawsuit)
+**출처**: NPR | **게시일**: Tue, 05 May 2026 21:26:55 GMT
+
+#### 📌 종합 요약
+펜실베이니아주 정부가 챗봇이 의사처럼 행동하며 사용자에게 위험을 초래했다는 이유로 Character.AI를 상대로 소송을 제기했습니다. 이번 사건은 LLM 기반의 페르소나 구현 기술이 윤리적 가이드라인과 안전 장치를 벗어났을 때 발생하는 법적 책임을 다루고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Character.AI의 핵심은 사용자가 특정 인물이나 캐릭터의 말투, 성격, 지식을 모사하도록 설계된 LLM 기반의 페르소나 엔진입니다. 이번 소송은 모델이 단순한 정보 제공을 넘어 'Agent'로서의 자아를 투영할 때 발생하는 Hallucination(환각 현상)과 정체성 혼란 문제를 기술적 결함으로 지적합니다. 특히 RLHF(Reinforcement Learning from Human Feedback) 과정에서 안전 가이드라인이 특정 페르소나 유지 로직과 충돌하며 발생한 제어 실패가 핵심 쟁점입니다.
+
+#### ✅ 핵심 요점
+- LLM이 특정 전문직(의사 등)의 페르소나를 완벽하게 모사하면서 사용자가 모델의 답변을 실제 전문가의 조언으로 오인하는 신뢰성 문제가 발생했습니다.
+- 모델의 페르소나 유지 알고리즘이 안전 필터링(Safety Guardrails)보다 우선시되어 위험한 의학적 조언을 생성하는 기술적 취약점이 드러났습니다.
+- AI Agent가 인간의 감정적 유대감을 형성하는 과정에서 발생하는 심리적 의존성과 그에 따른 법적 책임 소재가 산업계의 새로운 화두로 부상했습니다.
+
+**태그**: Persona_Modeling, LLM, Hallucination, AI, AI_Ethics
+
+---
+
+### 2. [How A.I. Is Transforming China’s Entertainment Industry - The New York Times](https://www.nytimes.com/2026/05/03/world/asia/china-microdrama-ai-backlash.html)
+**출처**: The New York Times | **게시일**: Tue, 05 May 2026 22:44:04 GMT
+
+#### 📌 종합 요약
+중국 엔터테인먼트 산업이 생성형 AI 기술을 도입하여 콘텐츠 제작 공정의 자동화와 개인화된 사용자 경험을 가속화하고 있습니다. 전통적인 제작 방식에서 벗어나 AI 기반의 워크플로우를 통해 비용 절감과 창의적 확장성을 동시에 추구하는 양상을 보입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+텍스트-투-비디오(Text-to-Video) 및 텍스트-투-이미지(Text-to-Image) 생성 모델을 활용하여 시각적 에셋 제작 시간을 획기적으로 단축하고 있습니다. 특히 LLM(Large Language Model)을 활용한 시나리오 초안 작성과 캐릭터 일관성 유지를 위한 Diffusion 모델 기반의 제어 기술이 핵심적으로 적용됩니다. 또한, 데이터 기반의 추천 알고리즘과 결합된 AI Agent가 사용자 취향을 실시간으로 분석하여 맞춤형 콘텐츠를 생성하는 구조로 진화하고 있습니다.
+
+#### ✅ 핵심 요점
+- 생성형 AI를 활용한 시각 효과(VFX) 및 애니메이션 제작 공정의 자동화로 제작 비용과 리드 타임을 최소화합니다.
+- LLM 기반의 스토리텔링 엔진이 시나리오 구조 설계 및 캐릭터 대사 생성 단계에서 창작자의 보조 도구로 활용됩니다.
+- 디지털 휴먼 및 가상 아이돌 기술이 결합되어 24시간 상호작용이 가능한 새로운 형태의 엔터테인먼트 모델이 구축됩니다.
+
+**태그**: LLM, AI, Digital Human, China Tech, Content Automation
+
+---
+
+### 3. [CAISI Signs Agreements Regarding Frontier AI National Security Testing With Google DeepMind, Microsoft and xAI - National Institute of Standards and Technology (.gov)](https://www.nist.gov/news-events/news/2026/05/caisi-signs-agreements-regarding-frontier-ai-national-security-testing)
+**출처**: National Institute of Standards and Technology (.gov) | **게시일**: Tue, 05 May 2026 12:00:00 GMT
+
+#### 📌 종합 요약
+미국 상무부 산하 NIST의 CAISI(Center for AI Standards and Innovation)가 Google DeepMind, Microsoft, xAI와 프론티어 AI의 국가 안보 테스트를 위한 협약을 체결했습니다. 이번 협약은 모델 배포 전 사전 평가와 사후 연구를 통해 AI 보안 역량을 강화하고 국가 안보 위협을 관리하는 것을 목적으로 합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+CAISI는 미공개 상태인 최첨단 모델을 포함하여 현재까지 40회 이상의 사전 배포 평가(Pre-deployment evaluation)를 완료했습니다. 개발사들은 보안 가드레일이 제거되거나 완화된 상태의 모델을 CAISI에 제공하여, 극한의 상황에서의 취약점과 위험성을 테스트할 수 있는 환경을 구축합니다. 또한, 기밀 환경(Classified environments)에서의 테스트를 통해 모델의 잠재적 위험을 정밀하게 측정하고, TRAINS Taskforce를 통해 범정부 차원의 피드백 루프를 형성합니다.
+
+#### ✅ 핵심 요점
+- 프론티어 AI 모델의 배포 전 사전 평가(Pre-deployment evaluation)와 배포 후 사후 평가를 병행하여 모델의 보안성을 검증합니다.
+- 국가 안보 위협 분석을 위해 보안 가드레일이 제거된 상태의 모델을 활용한 고위험 시나리오 테스트를 수행합니다.
+- 정부 부처 간 전문가 그룹인 TRAINS Taskforce를 통해 AI 역량에 대한 정보 공유와 국제적 경쟁 구도 파악을 위한 데이터 피드백을 관리합니다.
+- 급변하는 AI 기술 발전에 대응할 수 있도록 유연한 협약 구조를 채택하여 기술적 변화에 즉각 대응합니다.
+
+**태그**: National Security, AI, Release, AI Security, NIST
+
+---
+
+### 4. [Meta plans advanced 'agentic' AI assistant for users, FT reports - Reuters](https://www.reuters.com/business/meta-plans-advanced-agentic-ai-assistant-users-ft-reports-2026-05-05/)
+**출처**: Reuters | **게시일**: Tue, 05 May 2026 23:10:54 GMT
+
+#### 📌 종합 요약
+Meta가 단순한 챗봇을 넘어 사용자의 의도를 파악하고 복잡한 작업을 자율적으로 수행하는 'Agentic AI' 어시스턴트 도입을 준비 중입니다. 이는 기존의 질의응답 방식을 넘어 사용자의 디지털 환경 내에서 직접적인 액션을 수행하는 방향으로 진화함을 의미합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 계획의 핵심은 LLM(Large Language Model)이 단순한 텍스트 생성을 넘어, 도구 사용(Tool Use)과 계획 수립(Planning)을 수행하는 Agentic Workflow를 구축하는 것입니다. 사용자의 명령을 하위 작업(Sub-tasks)으로 분해하고, 외부 API나 소프트웨어를 직접 제어하는 Reasoning 능력을 강화하는 데 초점이 맞춰져 있습니다. 이는 모델의 추론 엔진이 환경과의 상호작용을 통해 피드백 루프를 형성하는 고도화된 에이전트 아키텍처를 지향합니다.
+
+#### ✅ 핵심 요점
+- 단순 응답을 넘어 사용자의 목표를 달성하기 위해 스스로 계획을 세우고 실행하는 Agentic AI로의 패러다임 전환을 추진합니다.
+- 사용자의 디지털 워크플로우에 깊이 개입하여 예약, 구매, 정보 정리 등 실질적인 태스크를 수행하는 능력을 핵심 경쟁력으로 삼습니다.
+- Meta의 광범위한 사용자 기반과 Llama 시리즈와 같은 오픈 소스 생태계를 결합하여 강력한 AI 에이전트 플랫폼을 구축하려는 전략입니다.
+
+**태그**: LLM, AI Agent, AI, Artificial Intelligence, Agentic AI
+
+---
+
+### 5. [Mark and Mary Stevens give $200 million to power AI research across USC - USC Today](https://today.usc.edu/mark-and-mary-stevens-give-200-million-to-power-ai-research-across-usc/)
+**출처**: USC Today | **게시일**: Tue, 05 May 2026 16:13:35 GMT
+
+#### 📌 종합 요약
+USC(남가주대학교)가 Mark와 Mary Stevens 부부로부터 2억 달러 규모의 기부금을 유치하며, 이를 바탕으로 'USC Mark and Mary Stevens School of Computing and Artificial Intelligence'를 설립하여 AI 연구 및 교육의 글로벌 리더십을 확보한다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 투자는 단순한 교육 시설 확충을 넘어, AI와 타 도메인(보건과학, 비즈니스, 보안, 예술) 간의 융합 연구를 위한 인프라 구축에 집중된다. 특히 'AI for Good'을 목표로 하는 사회적 문제 해결형 AI 연구와 가상 프로덕션(Virtual Production) 등 창의적 산업에 적용되는 최첨단 AI 기술 개발을 가속화한다. 또한, 실리콘밸리 내 높은 인재 공급력을 바탕으로 차세대 AI 리더 양성을 위한 학제 간 연구 모델을 구축하는 것이 핵심이다.
+
+#### ✅ 핵심 요점
+- 2억 달러 규모의 기부금을 통해 AI와 다양한 학문 분야가 교차하는 지점에서의 혁신적 연구 및 교육 인프라를 구축한다.
+- 비즈니스 AI 학위, AI 윤리 및 신뢰 연구소, 사회적 AI 센터 등 실무와 윤리가 결합된 다학제적 교육 커리큘럼을 강화한다.
+- 실리콘밸리 내 주요 인재 공급처로서의 입지를 굳히기 위해 AI 전공 학위 신설 및 연구 역량 확대를 추진한다.
+- 기존의 컴퓨터 과학 역량에 AI 기술을 결합하여 게임 디자인, 영화 제작(Virtual Production) 등 창의적 산업 분야로의 기술 확장을 도모한다.
+
+**태그**: Infra, USC, AI, Rust, Interdisciplinary Research
+
+---
+
+### 6. [US to safety test new AI models from Google, Microsoft, xAI - BBC](https://www.bbc.com/news/articles/cgjp2we2j8go)
+**출처**: BBC | **게시일**: Tue, 05 May 2026 20:16:24 GMT
+
+#### 📌 종합 요약
+미국 상무부 산하 CAISI(Center for AI Standards and Innovation)가 Google, Microsoft, xAI와 협력하여 신규 AI 모델 출시 전 안전성 테스트를 수행하는 새로운 규제 프레임워크를 도입합니다. 이는 기존 OpenAI와 Anthropic의 자발적 협약을 넘어, 국가 안보와 공공 안전을 위해 상용 AI 모델의 역량 및 보안성을 검증하는 체계로 확장됩니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 협약은 단순한 윤리 가이드라인을 넘어, 미 국방부 및 정부 기관에서 활용되는 Gemini(Google DeepMind), CoPilot(Microsoft), Grok(xAI) 등 고성능 LLM(Large Language Model)의 보안 취약점과 오남용 가능성을 사전에 검증하는 데 목적이 있습니다. CAISI는 이미 40차례의 평가를 통해 미출시된 State-of-the-art(SOTA) 모델들을 테스트해 왔으며, 향후 상용 AI 시스템의 성능(Capability)과 보안(Security) 간의 트레이드오프를 관리하는 기술적 표준을 수립할 예정입니다. 특히 Anthropic의 Mythos와 같이 통제 범위를 벗어날 수 있는 강력한 모델의 출시에 대비하여, 정부 주도의 기술적 가드레일(Guardrails) 구축이 핵심입니다.
+
+#### ✅ 핵심 요점
+- 미 상무부 CAISI가 Google, Microsoft, xAI와 협력하여 신규 AI 모델의 출시 전 안전성 및 보안성 검증을 위한 자발적 협약을 체결했습니다.
+- 평가 범위는 상용 AI 시스템의 성능 테스트, 공동 연구, 그리고 최적의 보안 관행(Best Practice) 개발을 포괄합니다.
+- 미국 정부는 국방 및 안보 분야에서의 AI 활용 확대를 고려하여, 기술적 우위 확보와 동시에 통제 불가능한 위험을 방지하기 위한 규제적 전환을 시도하고 있습니다.
+- Anthropic의 사례처럼 모델의 강력한 성능이 공공 안전에 위협이 될 수 있는 상황에 대비해, 정부 주도의 기술 검증 체계가 강화될 전망입니다.
+
+**태그**: National Security, LLM, AI Safety, DeepMind, AI
+
+---
+
+### 7. [Jim Cramer: Here's the list of AI winners to buy for 2026 and beyond - CNBC](https://www.cnbc.com/2026/05/05/jim-cramer-ai-winners-to-buy.html)
+**출처**: CNBC | **게시일**: Tue, 05 May 2026 22:29:17 GMT
+
+#### 📌 종합 요약
+AI 및 데이터 센터 붐이 단순한 기술 트렌드를 넘어 산업 전반으로 확산되는 '5계층 구조(Five-layer cake)'의 경제적 전환기를 맞이하고 있습니다. 2026년 이후를 겨냥한 이 구조는 전력 인프라부터 최상위 애플리케이션까지 유기적으로 연결된 거대한 가치 사슬을 형성합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI 인프라의 핵심은 막대한 전력 수요를 감당할 수 있는 에너지 솔루션과 고성능 연산을 위한 반도체 스택의 결합에 있습니다. NVIDIA의 GPU와 같은 가속기뿐만 아니라, 이를 뒷받침하는 고대역폭 메모리(HBM) 기술, 데이터 센터의 열 관리를 위한 냉각 솔루션(Cooling Technology), 그리고 초고속 데이터 전송을 위한 네트워킹 장비가 통합된 하드웨어 아키텍처가 필수적입니다. 이러한 하드웨어 계층 위에 클라우드 컴퓨팅 기반의 AI Model Layer와 사용자 접점인 Application Layer가 쌓이며 거대한 데이터 생태계를 완성합니다.
+
+#### ✅ 핵심 요점
+- 전력 및 인프라 계층: 데이터 센터 운영의 근간이 되는 에너지 공급(Vistra, GE Vernova)과 전기 설비(Eaton)가 AI 경제의 기초를 형성합니다.
+- 하드웨어 및 반도체 계층: 연산 핵심인 GPU(Nvidia, AMD)와 메모리(Micron), 그리고 이를 제조하기 위한 노광 장비(ASML) 및 서버 인프라(Dell)가 기술적 병목을 해결합니다.
+- 네트워킹 및 냉각 계층: 데이터 센터 내 데이터 흐름을 최적화하는 네트워킹(Arista Networks, Cisco)과 고집적 서버의 발열을 제어하는 냉각 기술(Vertiv)이 시스템 안정성을 보장합니다.
+- 클라우드 및 애플리케이션 계층: AWS, Azure, Google Cloud와 같은 클라우드 인프라 위에서 LLM(Large Language Model) 기반의 서비스와 ChatGPT 같은 인터페이스가 최종 가치를 창출합니다.
+
+**태그**: Energy Transition, Semiconductor, Cloud Computing, AI, Rust
+
+---
+
+### 8. [Dario Amodei spent last year warning of an AI white-collar bloodbath. Now he's changing the narrative - Fortune](https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/)
+**출처**: Fortune | **게시일**: Tue, 05 May 2026 18:55:00 GMT
+
+#### 📌 종합 요약
+Anthropic의 CEO Dario Amodei는 과거 AI로 인한 화이트칼라 직종의 대규모 실직을 경고했으나, 최근에는 효율성 향상이 수요를 창출한다는 '제번스의 역설(Jevons Paradox)'을 인용하며 낙관적인 경제적 프레임워크를 제시했습니다. 하지만 기술 발전 속도가 과거 산업 혁명보다 압도적으로 빠르다는 점이 노동 시장의 재편 과정에서 심각한 과도기적 혼란을 야기할 수 있음을 시사합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI 기술의 생산성 향상이 단순한 비용 절감을 넘어 업무의 범위와 질을 확장하는 메커니즘을 분석합니다. Amdahl's Law(암달의 법칙)에 따라 자동화가 90%를 수행하더라도 남은 10%의 인간 개입이 전체 시스템의 병목(Bottleneck)이자 핵심 가치가 되는 구조를 설명하며, 이는 AI Agent가 업무의 대부분을 처리하더라도 최종 의사결정 및 창의적 검토 단계에서의 인간 역할이 더욱 중요해짐을 의미합니다. 또한, 기술의 급격한 발전 속도가 시장의 적응 주기(Rebalancing period)를 앞지르는 '비정상적 변동성'이 발생할 수 있음을 경고합니다.
+
+#### ✅ 핵심 요점
+- 제번스의 역설(Jevons Paradox)을 통해 AI로 인한 업무 효율성 증대가 오히려 해당 서비스에 대한 수요 폭증과 새로운 일자리 창출로 이어질 수 있음을 제시합니다.
+- Amdahl's Law(암달의 법칙) 관점에서 자동화가 고도화될수록 인간이 담당하는 잔여 업무가 전체 프로세스의 제약 조건(Binding constraint)이 되어 업무의 성격이 변모할 것임을 시사합니다.
+- 기술 발전 속도가 과거의 산업 혁명보다 빠르기 때문에, 노동 시장의 재편(Rebalancing)이 개별 노동자가 적응할 수 있는 시간보다 빠르게 진행될 위험이 존재합니다.
+- 기업은 자원 절감을 위한 해고(Layoffs) 대신, 동일 자원으로 더 많은 가치를 창출하는 창의적 확장(Expansion)을 선택해야 하는 전략적 기로에 서 있습니다.
+
+**태그**: AI, Future of Work, AI Economics, Amdahl's Law, Anthropic
+
+---
+
+### 9. [Will A.I. Make College Obsolete? - The New Yorker](https://www.newyorker.com/news/fault-lines/will-ai-make-college-obsolete)
+**출처**: The New Yorker | **게시일**: Tue, 05 May 2026 10:00:00 GMT
+
+#### 📌 종합 요약
+AI 기술의 급격한 발전과 화이트칼라 직무의 자동화 위협 속에서 대학 교육의 존립 가치와 경제적 효용성에 대한 근본적인 의문이 제기되고 있습니다. 지식 전달이라는 본연의 기능보다 사회적 신호(Signaling)로서의 역할이 강한 대학 시스템이 AI 시대에도 지속될 것인지에 대한 논쟁을 다룹니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI Agent와 LLM(Large Language Model) 기반의 챗봇이 엔트리 레벨의 화이트칼라 업무를 대체할 가능성이 커짐에 따라, 전통적인 학위의 '지식 습득' 가치가 하락하고 있습니다. 기술적 관점에서는 교육의 목적이 실질적 스킬(Skill-based)로 전환될 것인지, 아니면 여전히 사회적 지위 증명을 위한 인증(Certification) 수단으로 남을 것인지가 핵심 쟁점입니다. 또한, Khan Academy와 같은 에듀테크 플랫폼이 AI를 활용한 개인 맞춤형 튜터링을 통해 저비용 고효율의 교육 모델을 제시하며 기존 대학 시스템의 대안으로 부상하고 있습니다.
+
+#### ✅ 핵심 요점
+- AI로 인한 화이트칼라 직무 자동화가 대학 교육의 투자 대비 수익률(ROI)에 대한 회의론을 심화시키고 있습니다.
+- 대학의 핵심 기능이 지식 전수보다는 개인의 지능과 성실성을 증명하는 '시그널링(Signaling)'에 집중되어 있어, 기술 혁신 속에서도 시스템이 유지될 가능성이 높습니다.
+- 에듀테크 전문가들은 AI를 활용한 1:1 튜터링과 저비용 고효율 교육 모델이 대학의 물리적 공간을 대체하거나 보완할 것으로 예측합니다.
+- 학위의 권위보다 실질적인 직무 역량이 중요해지는 시대적 흐름이 대학의 위계 구조를 변화시킬 수 있습니다.
+
+**태그**: LLM, Signaling Theory, AI, EdTech, Rust
+
+---
+
+### 10. [New AI-Powered Age Assurance Measures to Place Teens in Age-Appropriate Experiences - meta.com](https://about.fb.com/news/2026/05/ai-age-assurance-teens/)
+**출처**: meta.com | **게시일**: Tue, 05 May 2026 11:00:40 GMT
+
+#### 📌 종합 요약
+Meta는 AI 기반의 시각적 분석(Visual Analysis) 기술을 도입하여 미성년자 계정을 식별하고, 이들을 자동으로 'Teen Accounts'와 같은 연령 적합 환경으로 전환하는 고도화된 Age Assurance 솔루션을 발표했습니다. 이는 단순 텍스트 입력을 넘어 프로필 데이터와 시각적 단서를 결합해 연령 위조를 방선하는 기술적 방어 체계입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Meta는 텍스트 기반의 컨텍스트 분석(생일, 학년 등)과 더불어, 안면 인식(Facial Recognition)이 아닌 신체적 특징(키, 골격 등)을 분석하는 AI Visual Analysis 기술을 통해 연령 추정의 정확도를 높였습니다. 또한, 수동 신고 시스템의 한계를 극복하기 위해 AI 모델을 Human Review 팀에 결합하여 일관된 평가 기준을 적용함으로써, 처리 속도와 정확도를 동시에 확보하는 하이브리드 검토 아키텍처를 구축했습니다. 이러한 기술은 Instagram Reels, Facebook Groups 등 다양한 포맷에 확장 적용되어 데이터 기반의 자동화된 연령 검증을 수행합니다.
+
+#### ✅ 핵심 요점
+- AI Visual Analysis를 통해 텍스트로 파악하기 어려운 신체적 특징과 시각적 단서를 분석하여 미성년자 계정을 정밀하게 식별합니다.
+- 사용자의 프로필, 댓글, 캡션 등에서 추출된 컨텍스트 데이터와 시각적 데이터를 결합하여 연령 위조 시도를 차단하는 멀티모달(Multimodal) 접근 방식을 취합니다.
+- AI 모델이 신고 건에 대해 일관된 평가 기준을 적용함으로써, 인간 검토자의 주관성을 배제하고 대규모 데이터 처리를 가속화합니다.
+- 미성년자로 판단될 경우 계정을 비활성화하고, Yoti와 같은 외부 솔루션이나 신분증 검증을 통해 재인증을 요구하는 강력한 Enforcement 메커니즘을 운영합니다.
+
+**태그**: AI, AI Visual Analysis, Age Assurance, Meta, Computer Vision
+
+---
+
