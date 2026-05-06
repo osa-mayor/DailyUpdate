@@ -1,13 +1,13 @@
 {
   "source": "overview",
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T10:15:19.431876+09:00",
-  "count": 6,
-  "daily_summary": "오늘 PyoSignal 브리핑은 Daily News, Community, AI Research, Products, Ecosystem, Models 총 6개 섹션 기준으로 정리되었습니다.",
+  "generated_at": "2026-05-06T13:11:29.471178+09:00",
+  "count": 5,
+  "daily_summary": "오늘 PyoSignal 브리핑은 Daily News, Community, AI Research, Products, Models 총 5개 섹션 기준으로 정리되었습니다.",
   "daily_key_points": [
     "Daily News는 Google News와 Official Releases를 함께 다룹니다.",
     "Community는 Hacker News, GeekNews/Hada, Reddit 반응을 묶습니다.",
-    "Research, Products, Ecosystem, Models는 각각 독립 섹션으로 탐색합니다."
+    "Research, Products, Models는 각각 독립 섹션으로 탐색합니다."
   ],
   "daily_tags": [
     "AI_Agent",
@@ -16,7 +16,7 @@
     "Generative_AI",
     "Future_of_Work"
   ],
-  "chat_message": "🧭 오늘의 PyoSignal Overview\n\n📌 요약: 오늘 PyoSignal 브리핑은 Daily News, Community, AI Research, Products, Ecosystem, Models 총 6개 섹션 기준으로 정리되었습니다.\n\n- Daily News: 26건\n- Community: 18건\n- AI Research: 24건\n- Products: 30건\n- Ecosystem: 10건\n- Models: 12건\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/",
+  "chat_message": "🧭 오늘의 PyoSignal Overview\n\n📌 요약: 오늘 PyoSignal 브리핑은 Daily News, Community, AI Research, Products, Models 총 5개 섹션 기준으로 정리되었습니다.\n\n- Daily News: 26건\n- Community: 32건\n- AI Research: 10건\n- Products: 30건\n- Models: 12건\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/",
   "items": [
     {
       "id": "daily-news",
@@ -47,20 +47,20 @@
       "section": "community",
       "title": "Community",
       "href": "/community",
-      "summary": "오늘 Community Signals는 Hacker News 2건, GeekNews/Hada 4건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.",
+      "summary": "오늘 Community Signals는 Hacker News 10건, GeekNews/Hada 10건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.",
       "key_points": [
-        "Hacker News 2건에서 글로벌 개발자 토론 흐름을 반영했습니다.",
-        "GeekNews/Hada 4건에서 한국어권 개발자 관심사를 반영했습니다.",
+        "Hacker News 10건에서 글로벌 개발자 토론 흐름을 반영했습니다.",
+        "GeekNews/Hada 10건에서 한국어권 개발자 관심사를 반영했습니다.",
         "Reddit 12건에서 서브레딧 기반 커뮤니티 반응을 반영했습니다."
       ],
       "tags": [
         "AI",
         "LLM",
-        "Benchmark",
+        "Agent",
         "Rust",
-        "ChatGPT"
+        "Benchmark"
       ],
-      "count": 18,
+      "count": 32,
       "source_keys": [
         "community"
       ]
@@ -70,20 +70,20 @@
       "section": "ai_research",
       "title": "AI Research",
       "href": "/papers",
-      "summary": "오늘의 연구는 로봇 제어를 위한 VLA 모델과 에이전트의 자가 진화 등 실질적인 문제 해결을 위한 응용 연구가 두드러졌습니다. 또한, 데이터 효율성을 극대화하는 필터링 전략과 모델의 신뢰성을 높이기 위한 메타인지 및 시각적 메모리 구조 등 모델의 구조적 고도화에 대한 논의가 활발했습니다.",
+      "summary": "오늘의 연구는 단순한 질의응답을 넘어 복잡한 문제를 해결하는 '에이전트(Agent)'의 실무적 역량 강화에 집중되었습니다. 특히 모델 내부의 추론 능력 고도화, 데이터 엔지니어링을 통한 효율적 학습, 그리고 복잡한 워크스페이스 및 멀티 에이전트 환경을 위한 벤치마크 구축이 주요 흐름을 형성했습니다.",
       "key_points": [
-        "로봇 배포와 복잡한 워크플로우 수행을 위해 실질적인 제어 능력과 롱-호라이즌 태스크 해결 능력을 갖춘 에이전트 연구가 강조되었습니다.",
-        "데이터의 양보다 질적 집중과 반복 학습이 모델 성능과 효율성에 미치는 영향이 중요하게 다루어졌습니다.",
-        "환각 문제 해결을 위한 메타인지 도입과 긴 문장 생성 시 시각 정보 유실을 막는 메모리 모듈 등 모델의 신뢰성과 안정성을 높이는 방법론이 제시되었습니다."
+        "복잡한 오케스트레이션 설계보다 모델 자체의 심층 사고(Heavy Thinking)와 고품질 데이터 합성 능력을 강화하는 것이 에이전트 성능의 핵심으로 부상했습니다.",
+        "SFT와 RL 사이의 분포 불일치 해결 및 데이터 엔지니어링을 통한 효율적 학습 등 실질적인 모델 정렬 및 학습 전략이 중요하게 다뤄졌습니다.",
+        "실제 업무 환경의 파일 의존성이나 멀티 에이전트 협업과 같이 복잡하고 현실적인 시나리오를 검증하기 위한 정교한 벤치마크들이 제안되었습니다."
       ],
       "tags": [
-        "AI Agents",
-        "Robotics",
-        "Data Efficiency",
-        "Multimodal Learning",
-        "Model Reliability"
+        "AI Agent",
+        "Reinforcement Learning",
+        "Reasoning",
+        "Benchmark",
+        "Data Synthesis"
       ],
-      "count": 24,
+      "count": 10,
       "source_keys": [
         "hf"
       ]
@@ -93,43 +93,22 @@
       "section": "products",
       "title": "Products",
       "href": "/products",
-      "summary": "오늘의 트렌드는 단순한 생성형 AI를 넘어, 복잡한 워크플로우를 스스로 수행하고 유지보수하는 '에이전트(Agent)' 중심의 도구들이 주를 이루었습니다. 코딩, 디자인, 브라우저 자동화 등 전문적인 영역에서 인간의 개입을 최소화하며 생산성을 극대화하는 솔루션들이 주목받았습니다.",
+      "summary": "오늘의 트렌드는 단순한 AI 챗봇을 넘어, 특정 워크플로우를 완전히 자동화하거나 전문적인 결과물을 즉시 생성하는 '에이전트형 서비스'가 주를 이루었습니다. 코딩, 디자인, 영상 제작, 브라우저 자동화 등 실무 영역에 깊숙이 침투하여 인간의 개입을 최소화하려는 시도가 돋보였습니다.",
       "key_points": [
-        "AI 에이전트가 코드를 작성할 뿐만 아니라 디버깅과 유지보수까지 수행하는 자율형 워크플로우가 강화되었습니다.",
-        "디자인에서 코드 구현, 영상 제작에서 문서화까지 창의적 작업의 단계를 하나로 통합하는 도구들이 등장했습니다.",
-        "AI 도입에 따른 실질적인 ROI 측정과 작업 리듬 관리 등 AI 활용의 효율성을 검증하고 조절하는 도구들이 눈에 띕니다."
+        "코딩과 UI 디자인 분야에서 아이디어를 즉시 실행 가능한 코드로 변환하는 생산성 도구들이 주목받았습니다.",
+        "단순 반복 업무를 넘어 브라우저 자동화나 콘텐츠 생성 등 복잡한 워크플로우를 스스로 유지보수하는 AI 에이전트가 등장했습니다.",
+        "AI 도입에 따른 ROI 측정이나 작업 리듬 관리와 같이, AI와 인간의 협업 효율을 최적화하려는 도구들이 눈에 띄었습니다."
       ],
       "tags": [
         "AI Agent",
-        "Automation",
         "Productivity",
-        "Developer Tools",
-        "Generative AI"
+        "Automation",
+        "Generative AI",
+        "Workflow Optimization"
       ],
       "count": 30,
       "source_keys": [
         "product_hunt"
-      ]
-    },
-    {
-      "id": "ecosystem",
-      "section": "ecosystem",
-      "title": "Ecosystem",
-      "href": "/ecosystem-releases",
-      "summary": "오늘의 릴리즈는 SGLang, vLLM, TensorRT-LLM 등 주요 추론 엔진의 성능 최적화와 최신 대규모 언어 모델(DeepSeek, Nemotron 등) 지원 강화가 핵심이며, 하드웨어 가속(Qualcomm Hexagon) 및 인프라 확장(DeepInfra)을 통한 생태계 저변 확대가 두드러졌습니다.",
-      "key_points": [
-        "주요 추론 프레임워크(SGLang, vLLM, TensorRT-LLM)의 최신 모델 지원 및 커널/분산 처리 최적화",
-        "llama.cpp의 다양한 플랫폼(Qualcomm DSP 등) 최적화 및 멀티 OS 지원 강화",
-        "IBM Granite 4.1 공개 및 DeepInfra의 Hugging Face 합류를 통한 모델 신뢰성 및 배포 인프라 확장"
-      ],
-      "tags": [
-        "LLM Inference",
-        "Model Optimization",
-        "Open Source Ecosystem"
-      ],
-      "count": 10,
-      "source_keys": [
-        "ecosystem_releases"
       ]
     },
     {
