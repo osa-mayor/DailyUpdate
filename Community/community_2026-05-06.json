@@ -1,145 +1,590 @@
 {
   "source": "community",
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T10:22:13.315102+09:00",
-  "count": 18,
-  "daily_summary": "오늘 Community Signals는 Hacker News 2건, GeekNews/Hada 4건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.",
+  "generated_at": "2026-05-06T14:26:31.844262+09:00",
+  "count": 32,
+  "daily_summary": "오늘 Community Signals는 Hacker News 10건, GeekNews/Hada 10건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.",
   "daily_key_points": [
-    "Hacker News 2건에서 글로벌 개발자 토론 흐름을 반영했습니다.",
-    "GeekNews/Hada 4건에서 한국어권 개발자 관심사를 반영했습니다.",
+    "Hacker News 10건에서 글로벌 개발자 토론 흐름을 반영했습니다.",
+    "GeekNews/Hada 10건에서 한국어권 개발자 관심사를 반영했습니다.",
     "Reddit 12건에서 서브레딧 기반 커뮤니티 반응을 반영했습니다."
   ],
   "daily_tags": [
     "AI",
+    "Agent",
     "LLM",
-    "Benchmark",
     "Rust",
-    "ChatGPT"
+    "Benchmark"
   ],
-  "chat_message": "💬 오늘의 Community Signals\n\n📌 요약: 오늘 Community Signals는 Hacker News 2건, GeekNews/Hada 4건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.\n\n- Hacker News: 2건\n- GeekNews/Hada: 4건\n- Reddit: 12건\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "chat_message": "💬 오늘의 Community Signals\n\n📌 요약: 오늘 Community Signals는 Hacker News 10건, GeekNews/Hada 10건, Reddit 12건을 바탕으로 실무자 반응과 토론 흐름을 정리했습니다.\n\n- Hacker News: 10건\n- GeekNews/Hada: 10건\n- Reddit: 12건\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
   "items": [
     {
-      "id": "hacker-news-ghostty-is-leaving-github",
+      "id": "hacker-news-47939579",
       "source": "hacker_news",
       "source_name": "Hacker News",
       "title": "Ghostty is leaving GitHub",
       "url": "https://mitchellh.com/writing/ghostty-leaving-github",
-      "summary": "Vagrant 개발자인 MitchellH이 자신의 프로젝트인 Ghostty를 GitHub에서 이전하기로 결정하며 작성한 감성적인 회고와 그에 따른 커뮤니티의 반응을 다룹니다. 오랜 시간 GitHub를 삶의 터전으로 삼았던 개발자의 개인적 서사와 플랫폼 변화에 대한 시각이 담겨 있습니다.",
-      "discussion_summary": "작성자는 플랫폼 이전에 대한 슬픔을 토로하며 감정적인 회고를 이어가는 반면, 일부 사용자들은 Microsoft 인수 이후 GitHub의 조직적 정체성이 약화되고 서비스 품질이 변질되었다는 비판적 시각을 제시합니다.",
+      "summary": "Vagrant 개발자인 MitchellH가 자신의 프로젝트인 Ghostty를 GitHub에서 이전하기로 결정하며 작성한 개인적인 회고와 결별의 이유를 담고 있습니다. 오랜 시간 GitHub를 삶의 터전으로 삼았던 개발자의 감정적 소회와 플랫폼 변화에 대한 시각을 보여줍니다.",
+      "article_summary": "Vagrant의 창시자인 MitchellH는 2008년부터 매일 GitHub를 사용해 온 유저로서, 자신의 프로젝트 Ghostty를 더 이상 GitHub에 두지 않기로 결정했습니다. 그는 GitHub가 단순한 코드 저장소를 넘어 자신의 커리어와 삶의 일부였음을 강조하며, 개인적인 애착이 컸던 플랫폼을 떠나는 것에 대한 복잡한 심경을 밝혔습니다. 이번 결정은 특정 기술 스택의 변화보다는 플랫폼의 변화와 개인적 가치관의 충돌에서 비롯된 것으로 보입니다.",
+      "external_article_summary": "Vagrant의 창시자인 MitchellH는 2008년부터 매일 GitHub를 사용해 온 유저로서, 자신의 프로젝트 Ghostty를 더 이상 GitHub에 두지 않기로 결정했습니다. 그는 GitHub가 단순한 코드 저장소를 넘어 자신의 커리어와 삶의 일부였음을 강조하며, 개인적인 애착이 컸던 플랫폼을 떠나는 것에 대한 복잡한 심경을 밝혔습니다. 이번 결정은 특정 기술 스택의 변화보다는 플랫폼의 변화와 개인적 가치관의 충돌에서 비롯된 것으로 보입니다.",
+      "discussion_summary": "작성자는 감정적인 회고를 통해 플랫폼에 대한 깊은 애정을 드러내는 반면, 일부 사용자들은 Microsoft 인수 이후 GitHub의 조직적 변화와 정체성 상실을 지적하며 비판적인 시각을 보이고 있습니다.",
       "key_points": [
-        "Vagrant 개발자 MitchellH이 Ghostty 프로젝트를 GitHub에서 이전하기로 결정했습니다.",
-        "플랫폼의 소유권 변화와 조직적 변화가 개발자의 프로젝트 운영 방식에 영향을 미칠 수 있음을 시사합니다.",
-        "오랜 기간 오픈 소스 생태계의 중심이었던 GitHub의 역할 변화에 대한 사용자들의 복합적인 감정이 나타납니다."
+        "Ghostty 프로젝트의 GitHub 이전에 따른 개발자의 개인적 회고와 플랫폼 결별 선언.",
+        "Microsoft 인수 이후 변화된 GitHub의 조직 문화와 독립성 상실에 대한 사용자들의 우려.",
+        "오픈 소스 메인테이너에게 플랫폼이 갖는 정서적 가치와 기술적 환경의 상관관계."
       ],
       "tags": [
         "Ghostty",
         "GitHub",
-        "Vagrant",
         "Open Source",
-        "MitchellH"
+        "Vagrant"
       ],
       "published_at_kst": "2026-04-29T04:44:52+09:00",
       "category": "개발 도구",
-      "canonical_path": "/community/hacker-news-ghostty-is-leaving-github",
-      "legacy_path": "/digest/ghostty-is-leaving-github",
-      "rank": 4,
+      "canonical_path": "/community/hacker-news-47939579",
+      "rank": 1,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=47939579"
-      }
+      },
+      "score": 3517,
+      "comments_count": 1051
     },
     {
-      "id": "hacker-news-zed-10",
+      "id": "hacker-news-47949027",
       "source": "hacker_news",
       "source_name": "Hacker News",
       "title": "Zed 1.0",
       "url": "https://zed.dev/blog/zed-1-0",
-      "summary": "고성능 코드 에디터 Zed가 1.0 버전을 정식 출시하며 GPU 기반의 독자적인 아키텍처를 선보였습니다. 기존 Electron 기반 에디터의 한계를 극복하기 위해 Rust로 구축된 새로운 UI 프레임워크를 도입했으며, AI 네이티브 기능을 갖춘 차세대 개발 도구로서 주목받고 있습니다.",
-      "discussion_summary": "사용자들은 Zed를 지금까지 사용해 본 가장 뛰어난 현대적 에디터라며 극찬하고, 개발팀을 후원하겠다는 긍정적인 반응을 보이고 있습니다. 일부 댓글의 질에 대한 불만 섞인 의견도 존재하지만, 전반적으로 혁신적인 기술로 만들어낸 제품의 완성도에 대해 높은 지지를 보내는 분위기입니다.",
+      "summary": "고성능 코드 에디터 Zed가 1.0 버전을 정식 출시하며 독자적인 GPU 기반 아키텍처를 선보였습니다. 기존 Electron 기반 에디터의 한계를 극복하기 위해 Rust로 구축된 새로운 UI 프레임워크를 도입한 것이 특징입니다.",
+      "article_summary": "Zed는 웹 기술 기반의 Electron 프레임워크가 가진 성능 한계를 극복하기 위해, 애플리케이션 전체를 GPU 셰이더 데이터 공급 방식으로 설계했습니다. 이를 위해 Rust 언어로 직접 개발한 GPUI 프레임워크를 사용하여 렌더링 성능을 극대화했습니다. 또한 AI-native 에디터로서 여러 AI 에이전트를 병렬로 실행하고 키스트로크 단위의 편집 예측 기능을 제공합니다.",
+      "external_article_summary": "Zed는 웹 기술 기반의 Electron 프레임워크가 가진 성능 한계를 극복하기 위해, 애플리케이션 전체를 GPU 셰이더 데이터 공급 방식으로 설계했습니다. 이를 위해 Rust 언어로 직접 개발한 GPUI 프레임워크를 사용하여 렌더링 성능을 극대화했습니다. 또한 AI-native 에디터로서 여러 AI 에이전트를 병렬로 실행하고 키스트로크 단위의 편집 예측 기능을 제공합니다.",
+      "discussion_summary": "사용자들은 Zed를 역대 최고의 현대적 에디터로 평가하며 유료 구독을 통해 개발팀을 지원하겠다는 긍정적인 반응을 보이고 있습니다. 일부 댓글의 질에 대한 불만 섞인 의견이 있었으나, 전반적으로 혁신적인 기술력을 바탕으로 한 제품 완성도에 대해 높은 찬사를 보내고 있습니다.",
       "key_points": [
-        "GPU 셰이더 중심의 아키텍처와 Rust 기반 GPUI 프레임워크를 통해 압도적인 성능을 구현했습니다.",
-        "기존 Electron 기반 에디터의 성능 제약을 탈피하기 위해 스택의 모든 계층을 직접 제어하는 방식을 택했습니다.",
-        "AI 네이티브 설계를 통해 병렬 에이전트 실행 및 정교한 코드 편집 예측 기능을 제공합니다."
+        "GPU 셰이더 중심의 아키텍처와 Rust 기반 GPUI 프레임워크를 통한 압도적인 성능 구현.",
+        "AI 에이전트 병렬 실행 및 키스트로크 단위의 편집 예측 기능을 갖춘 AI-native 환경 제공.",
+        "기존 Electron 기반 에디터의 성능 제약을 탈피하기 위한 저수준 스택 제어 전략."
       ],
       "tags": [
         "Zed",
         "Rust",
         "GPU",
         "Code Editor",
-        "AI-Native"
+        "AI-native"
       ],
       "published_at_kst": "2026-04-29T23:34:19+09:00",
       "category": "개발 도구",
-      "canonical_path": "/community/hacker-news-zed-10",
-      "legacy_path": "/digest/zed-10",
-      "rank": 11,
+      "canonical_path": "/community/hacker-news-47949027",
+      "rank": 2,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=47949027"
-      }
+      },
+      "score": 2146,
+      "comments_count": 690
     },
     {
-      "id": "hada-show-gn-memex-노트-간-의미-관계를-추론해-claude-컨텍스트로-자동-주입하는-로컬-rag-mcp-서버",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "Show GN: Memex - 노트 간 의미 관계를 추론해 Claude 컨텍스트로 자동 주입하는 로컬 RAG MCP 서버",
-      "url": "https://news.hada.io/topic?id=29191",
-      "summary": "이 기술은 파편화된 개인 지식 베이스를 의미론적 관계로 연결하여 AI의 컨텍스트 주입 효율을 극대화하는 데 목적이 있습니다. 단순한 검색을 넘어 사용자가 미처 연결하지 못한 지식 간의 맥락을 자동 생성함으로써 지식 관리의 자동화를 실현합니다.",
-      "discussion_summary": "",
+      "id": "hacker-news-47952181",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Copy Fail",
+      "url": "https://copy.fail/",
+      "summary": "리눅스 커널의 AF_ALG 인터페이스 취약점을 이용해 일반 사용자 권한에서 루트 권한을 탈취하는 'Copy Fail' 취약점이 공개되었습니다. 2017년부터 패치가 적용되기 전까지의 광범위한 커널 버전을 대상으로 하며, 공유 서버 환경에서 심각한 보안 위협이 될 수 있습니다.",
+      "article_summary": "Copy Fail은 리눅스 커널의 암호화 API인 AF_ALG를 악용하여 권한 상승을 유도하는 취약점입니다. 2017년부터 패치가 배포되기 전까지의 거의 모든 메인스트림 리눅스 배포판이 공격 대상이며, 별도의 네트워크 접근이나 커널 디버깅 기능 없이도 일반 사용자 계정만으로 루트 쉘을 획득할 수 있습니다. 특히 CI/CD 러너, 공유 개발 서버, 컨테이너 호스트와 같이 여러 사용자가 하나의 커널을 공유하는 환경에서 멀티 테넌트 경계를 무너뜨릴 위험이 큽니다.",
+      "external_article_summary": "Copy Fail은 리눅스 커널의 암호화 API인 AF_ALG를 악용하여 권한 상승을 유도하는 취약점입니다. 2017년부터 패치가 배포되기 전까지의 거의 모든 메인스트림 리눅스 배포판이 공격 대상이며, 별도의 네트워크 접근이나 커널 디버깅 기능 없이도 일반 사용자 계정만으로 루트 쉘을 획득할 수 있습니다. 특히 CI/CD 러너, 공유 개발 서버, 컨테이너 호스트와 같이 여러 사용자가 하나의 커널을 공유하는 환경에서 멀티 테넌트 경계를 무너뜨릴 위험이 큽니다.",
+      "discussion_summary": "커널 암호화 코드 개발자는 반복되는 AF_ALG 관련 취약점 발생에 대해 우려를 표하고 있습니다. 또한, 취약점 공개 과정에서 벤더들이 사안의 심각성을 충분히 인지하지 못해 패치가 지연되고 있다는 비판이 제기되었습니다.",
       "key_points": [
-        "Obsidian 스타일의 링크 구조를 기반으로 의미적 연관성을 가진 노트를 자동으로 탐색합니다.",
-        "명시적인 링크가 없어도 특정 결정 사항과 관련된 트레이드오프나 아키텍처 노트를 맥락에 맞게 추출합니다.",
-        "로컬 RAG 기술을 통해 개인의 지식 데이터를 Claude와 같은 LLM에 안전하고 효율적으로 전달합니다."
+        "AF_ALG API를 통해 일반 사용자 권한에서 루트 권한으로 상승하는 취약점입니다.",
+        "공유 호스트 환경이나 CI/CD 러너와 같이 멀티 테넌트 환경에서 보안 경계를 무너뜨릴 수 있습니다.",
+        "대상 커널 버전이 매우 광범위하므로 즉각적인 패치 적용이 필요합니다."
       ],
       "tags": [
-        "Knowledge Management",
-        "LLM",
-        "MCP",
-        "RAG"
+        "Linux Kernel",
+        "Privilege Escalation",
+        "AF_ALG",
+        "Cybersecurity"
       ],
-      "published_at_kst": "2026-05-05T18:14:36+09:00",
-      "category": "GeekNews",
-      "canonical_path": "/community/hada-show-gn-memex-노트-간-의미-관계를-추론해-claude-컨텍스트로-자동-주입하는-로컬-rag-mcp-서버",
-      "legacy_path": "/digest/show-gn-memex-노트-간-의미-관계를-추론해-claude-컨텍스트로-자동-주입하는-로컬-rag-mcp-서버",
+      "published_at_kst": "2026-04-30T03:13:53+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-47952181",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=47952181"
+      },
+      "score": 1479,
+      "comments_count": 515
+    },
+    {
+      "id": "hacker-news-48007438",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Talking to strangers at the gym",
+      "url": "https://thienantran.com/talking-to-35-strangers-at-the-gym/",
+      "summary": "대학 졸업 후 사회적 고립을 겪던 저자가 새로운 관계 형성을 위해 헬스장에서 낯선 이에게 말을 거는 실험을 진행한 경험담입니다. 사회적 불안감을 극복하고 친구를 만들기 위한 실천적 시도와 그 과정에서의 심리적 변화를 다룹니다.",
+      "article_summary": "저자는 대학 졸업 후 겪는 외로움을 해결하기 위해 '취미를 타인과 공유하라'는 조언을 바탕으로 헬스장에서 대화를 시도하는 실험을 설계했습니다. 사회적 상황에 대한 두려움과 타인에게 방해가 될지 모른다는 불안감을 안고 있음에도 불구하고, 프로그래밍 외에 대면 활동이 가능한 선택지가 없는 상황에서 매일 한 명의 낯선 이에게 다가가는 1개월간의 실험적 절차를 수행했습니다.",
+      "external_article_summary": "저자는 대학 졸업 후 겪는 외로움을 해결하기 위해 '취미를 타인과 공유하라'는 조언을 바탕으로 헬스장에서 대화를 시도하는 실험을 설계했습니다. 사회적 상황에 대한 두려움과 타인에게 방해가 될지 모른다는 불안감을 안고 있음에도 불구하고, 프로그래밍 외에 대면 활동이 가능한 선택지가 없는 상황에서 매일 한 명의 낯선 이에게 다가가는 1개월간의 실험적 절차를 수행했습니다.",
+      "discussion_summary": "작성자의 행동이 목적 없는 진심 어린 칭찬을 통해 관계를 형성한다는 긍정적인 평가가 있습니다. 반면, 특정 목적을 가진 접근이 아닌 일상 속에서 '퀘스트(Quest)'를 수행하듯 자연스럽게 상호작용을 유도하는 방식에 대한 흥미로운 관점도 제시되었습니다.",
+      "key_points": [
+        "사회적 고립을 해결하기 위해 헬스장이라는 환경을 활용한 실천적 실험을 진행했습니다.",
+        "타인에게 방해가 될 수 있다는 불안감을 극복하는 과정이 핵심적인 심리적 과제입니다.",
+        "목적 지향적인 관계 맺기보다 진심 어린 칭찬과 자연스러운 상황 설정이 관계 형성의 열쇠가 됩니다."
+      ],
+      "tags": [
+        "사회적 관계",
+        "심리학",
+        "자기계발"
+      ],
+      "published_at_kst": "2026-05-04T20:41:02+09:00",
+      "category": "정책/사회 이슈",
+      "canonical_path": "/community/hacker-news-48007438",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=48007438"
+      },
+      "score": 1474,
+      "comments_count": 730
+    },
+    {
+      "id": "hacker-news-48019219",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Google Chrome silently installs a 4 GB AI model on your device without consent",
+      "url": "https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/",
+      "summary": "Google Chrome이 사용자 동의 없이 4GB 규모의 Gemini Nano LLM 모델을 기기에 자동 설치하는 행위가 발견되어 프라이버시와 환경적 책임 문제가 제기되었습니다. 이에 대해 소프트웨어 업데이트의 일환이라는 옹호와 사용자 권리 침해라는 비판이 대립하고 있습니다.",
+      "article_summary": "Google Chrome이 사용자의 명시적 동의나 선택권 제공 없이 'OptGuideOnDeviceModel' 경로에 4GB 크기의 'weights.bin' 파일을 자동으로 다운로드하여 설치합니다. 이 파일은 Google의 온디바이스 LLM인 Gemini Nano의 가중치 데이터로, 사용자가 수동으로 삭제하더라도 브라우저 실행 시 재설치되는 구조를 가집니다. 작성자는 이러한 대규모 배포가 GDPR의 투명성 원칙을 위반할 뿐만 아니라, 전 세계 수십억 대의 기기에 동시 배포될 경우 막대한 탄소 배출을 초래하는 환경적 문제를 야기한다고 지적합니다.",
+      "external_article_summary": "Google Chrome이 사용자의 명시적 동의나 선택권 제공 없이 'OptGuideOnDeviceModel' 경로에 4GB 크기의 'weights.bin' 파일을 자동으로 다운로드하여 설치합니다. 이 파일은 Google의 온디바이스 LLM인 Gemini Nano의 가중치 데이터로, 사용자가 수동으로 삭제하더라도 브라우저 실행 시 재설치되는 구조를 가집니다. 작성자는 이러한 대규모 배포가 GDPR의 투명성 원칙을 위반할 뿐만 아니라, 전 세계 수십억 대의 기기에 동시 배포될 경우 막대한 탄소 배출을 초래하는 환경적 문제를 야기한다고 지적합니다.",
+      "discussion_summary": "사용자 동의 없는 설치는 소프트웨어의 기능 확장(예: 맞춤법 검사기 설치)과 다를 바 없다는 옹호론과, 사용자 선택권을 무시한 일방적인 데이터 점유라는 비판이 대립하고 있습니다. 또한, 특정 플래그 설정에 따른 실험적 기능 배포인지 아니면 의도적인 강제 배포인지에 대한 기술적 쟁점이 논의되고 있습니다.",
+      "key_points": [
+        "Chrome이 Gemini Nano 구동을 위해 4GB 규모의 모델 파일을 사용자 동의 없이 자동 설치합니다.",
+        "이 방식은 GDPR의 법적 원칙 위반 가능성과 대규모 배포에 따른 환경적 비용 문제를 동시에 안고 있습니다.",
+        "사용자 제어권 상실과 소프트웨어 최적화 기능 사이의 경계에 대한 논쟁이 핵심입니다."
+      ],
+      "tags": [
+        "Google Chrome",
+        "Gemini Nano",
+        "LLM",
+        "Privacy",
+        "On-device AI"
+      ],
+      "published_at_kst": "2026-05-05T16:34:55+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-48019219",
       "rank": 5,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=29191"
-      }
+        "hacker_news": "https://news.ycombinator.com/item?id=48019219"
+      },
+      "score": 1304,
+      "comments_count": 879
     },
     {
-      "id": "hada-show-gn-ppaso-tts-엣지-디바이스를-위한-경량형-한국어-tts",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "Show GN: ppaso-tts : 엣지 디바이스를 위한 경량형 한국어 TTS",
-      "url": "https://news.hada.io/topic?id=29189",
-      "summary": "본 프로젝트는 NPU 성능이 제한된 엣지 디바이스 환경에서 구동 가능한 고성능 한국어 TTS 모델 개발을 목표로 합니다. 이는 하드웨어 가속을 활용한 온디바이스 AI의 한국어 음성 합성 기술 격차를 해소하는 데 기술적 의의가 있습니다.",
-      "discussion_summary": "",
+      "id": "hacker-news-47997418",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Mercedes-Benz commits to bringing back physical buttons",
+      "url": "https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/",
+      "summary": "메르세데스-벤츠가 차량 내 물리 버튼을 다시 도입하기로 결정하며 사용자 경험(UX)의 변화를 예고했습니다. 이에 대해 규제 대응이라는 분석과 조작 편의성 회복이라는 시각이 공존합니다.",
+      "article_summary": "메르세데스-벤츠는 최근 디지털 인터페이스로의 급격한 전환 이후 사용자 불만을 수용하여 물리적 버튼을 다시 도입하기로 결정했습니다. 이는 터치스크린 중심의 UI가 가진 직관성 부족 문제를 해결하기 위한 전략적 변화입니다. 특히 조작 시 시선 분산을 최소화하고 촉각적 피드백을 제공하는 데 중점을 둡니다.",
+      "external_article_summary": "메르세데스-벤츠는 최근 디지털 인터페이스로의 급격한 전환 이후 사용자 불만을 수용하여 물리적 버튼을 다시 도입하기로 결정했습니다. 이는 터치스크린 중심의 UI가 가진 직관성 부족 문제를 해결하기 위한 전략적 변화입니다. 특히 조작 시 시선 분산을 최소화하고 촉각적 피드백을 제공하는 데 중점을 둡니다.",
+      "discussion_summary": "중국 시장의 새로운 규제 요건을 맞추기 위한 전략적 선택이라는 비판과, 화면을 보지 않고도 조작 가능한 물리 버튼의 직관적 편의성을 옹호하는 의견이 대립하고 있습니다.",
       "key_points": [
-        "RK3576 칩셋의 6 TOPS NPU 성능을 활용하는 엣지 디바이스용 경량형 한국어 TTS 모델을 개발합니다.",
-        "기존 영어 중심 경량 모델의 한계를 넘어 한국어 환경에 최적화된 모델을 구축하고자 합니다.",
-        "MeloTTS-ko 모델의 RKNN 변환 시 발생하는 인코더 제약 및 속도 문제를 해결하는 데 집중합니다."
+        "디지털 전환 과정에서 발생한 사용자 조작 편의성 저하 문제를 해결하기 위해 물리 버튼을 재도입합니다.",
+        "중국 등 특정 국가의 규제 변화가 제조사의 설계 방향에 영향을 미쳤을 가능성이 제기됩니다.",
+        "시각적 확인 없이도 조작 가능한 물리적 인터페이스의 가치가 재조명되고 있습니다."
       ],
       "tags": [
-        "NPU",
-        "Edge_AI",
-        "RK3576",
-        "DeepLearning",
-        "TTS"
+        "Mercedes-Benz",
+        "UX/UI",
+        "Automotive",
+        "Hardware"
       ],
-      "published_at_kst": "2026-05-05T17:54:34+09:00",
-      "category": "GeekNews",
-      "canonical_path": "/community/hada-show-gn-ppaso-tts-엣지-디바이스를-위한-경량형-한국어-tts",
-      "legacy_path": "/digest/show-gn-ppaso-tts-엣지-디바이스를-위한-경량형-한국어-tts",
+      "published_at_kst": "2026-05-03T23:43:27+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-47997418",
       "rank": 6,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=29189"
-      }
+        "hacker_news": "https://news.ycombinator.com/item?id=47997418"
+      },
+      "score": 850,
+      "comments_count": 504
     },
     {
-      "id": "hada-show-gn-개발-중에-거북목이-너무-심해서-직접-만들어본-자세-교정-서비스입니다",
+      "id": "hacker-news-47983352",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Why does it take so long to release black fan versions?",
+      "url": "https://www.noctua.at/en/expertise/blog/how-can-it-take-so-long-to-release-black-fan-versions",
+      "summary": "팬 제조사 Noctua가 제품 색상 변경에 소요되는 기술적 공정 과정을 설명하며, 이것이 단순한 디자인 변경이 아닌 정밀한 엔지니어링 작업임을 밝힌 내용입니다. 사용자들은 이를 단순한 변명이 아닌 브랜드의 전문성을 보여주는 마케팅 전략으로 평가하고 있습니다.",
+      "article_summary": "Noctua는 팬의 색상을 변경할 때 단순히 플라스틱에 색을 입히는 것이 아니라, 재질의 내구성과 진동 억제 성능을 유지하기 위해 특수 폴리머 배합과 금형 설계를 다시 수행해야 한다고 설명합니다. 특히 팬의 균형(Balance)과 소음 수치를 유지하기 위해 재료의 밀도와 열 변형 계수를 정밀하게 제어하는 공정이 필수적입니다. 이러한 기술적 제약 때문에 검은색 버전 출시까지 긴 개발 주기가 필요합니다.",
+      "external_article_summary": "Noctua는 팬의 색상을 변경할 때 단순히 플라스틱에 색을 입히는 것이 아니라, 재질의 내구성과 진동 억제 성능을 유지하기 위해 특수 폴리머 배합과 금형 설계를 다시 수행해야 한다고 설명합니다. 특히 팬의 균형(Balance)과 소음 수치를 유지하기 위해 재료의 밀도와 열 변형 계수를 정밀하게 제어하는 공정이 필수적입니다. 이러한 기술적 제약 때문에 검은색 버전 출시까지 긴 개발 주기가 필요합니다.",
+      "discussion_summary": "사용자들은 이 글이 기술적 차별점을 효과적으로 전달하는 완벽한 콘텐츠 마케팅이라는 점에 공감하고 있습니다. 제조 공정의 복잡성을 이해함으로써 브랜드에 대한 신뢰도가 높아졌다는 긍정적인 반응이 주를 이룹니다.",
+      "key_points": [
+        "색상 변경은 단순 도색이 아닌 재료 공학적 설계와 금형 수정이 동반되는 복잡한 과정입니다.",
+        "제품의 성능(소음, 진동, 내구성)을 유지하기 위한 엄격한 엔지니어링 기준이 출시 지연의 원인입니다.",
+        "기술적 디테일을 투명하게 공개하는 방식이 브랜드의 전문성을 강화하는 마케팅 수단이 됩니다."
+      ],
+      "tags": [
+        "Noctua",
+        "Manufacturing",
+        "Engineering",
+        "Content Marketing"
+      ],
+      "published_at_kst": "2026-05-02T13:38:04+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-47983352",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=47983352"
+      },
+      "score": 771,
+      "comments_count": 299
+    },
+    {
+      "id": "hacker-news-47927903",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Talkie: a 13B vintage language model from 1930",
+      "url": "https://talkie-lm.com/introducing-talkie",
+      "summary": "1930년대 시대적 배경을 재현한 13B 파라미터 규모의 언어 모델인 Talkie가 공개되었습니다. 이 모델은 특정 시대의 말투와 지식 체계를 모사하여 독특한 사용자 경험을 제공합니다.",
+      "article_summary": "Talkie는 13B 규모의 파라미터를 가진 LLM으로, 1930년대의 언어 스타일과 세계관을 학습하여 당시의 시대상을 반영하도록 설계되었습니다. 특정 시대의 문체와 가치관을 재현하는 데 초점을 맞춘 이 모델은 현대적 지식이 배제된 상태에서 과거의 관점으로 답변을 생성합니다.",
+      "external_article_summary": "Talkie는 13B 규모의 파라미터를 가진 LLM으로, 1930년대의 언어 스타일과 세계관을 학습하여 당시의 시대상을 반영하도록 설계되었습니다. 특정 시대의 문체와 가치관을 재현하는 데 초점을 맞춘 이 모델은 현대적 지식이 배제된 상태에서 과거의 관점으로 답변을 생성합니다.",
+      "discussion_summary": "사용자 질문에 대해 시대적 배경에 부합하는 답변을 생성하는 성능에 대한 흥미로운 반응이 이어지고 있습니다. 다만, 모델이 1930년대보다는 1900년대 이전의 지식에 더 치우쳐 있거나 대공황 같은 주요 역사적 사건을 인지하지 못한다는 기술적 한계에 대한 비판이 제기되었습니다.",
+      "key_points": [
+        "13B 파라미터를 기반으로 1930년대의 언어적 특징을 재현하는 특수 목적 LLM입니다.",
+        "특정 시대의 지식 체계와 말투를 모사하여 시대적 몰입감을 제공합니다.",
+        "학습 데이터의 시점 제한으로 인해 특정 역사적 사건에 대한 인지도가 낮을 수 있다는 점이 쟁점입니다."
+      ],
+      "tags": [
+        "LLM",
+        "Generative AI",
+        "Language Model"
+      ],
+      "published_at_kst": "2026-04-28T06:55:48+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-47927903",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=47927903"
+      },
+      "score": 769,
+      "comments_count": 329
+    },
+    {
+      "id": "hacker-news-48006402",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "GameStop makes $55.5B takeover offer for eBay",
+      "url": "https://www.bbc.co.uk/news/articles/cn0p8yled1do",
+      "summary": "GameStop이 eBay를 555억 달러에 인수하겠다는 제안을 하며 시장의 주목을 받고 있습니다. 이번 인수 시도는 과거 밈 주식 열풍 이후 확보한 자본을 바탕으로 한 전략적 움직임으로 분석됩니다.",
+      "article_summary": "GameStop은 eBay를 인수하기 위해 총 555억 달러 규모의 인수 제안을 발표했습니다. 이번 제안은 2021년 공매도 사태 이후 확보된 자본력을 바탕으로 기업 가치를 재정립하려는 목적을 가집니다. 특히 경영진의 보상 체계가 시가총액 200억 달러 달성 여부와 연동되어 있어, 이번 인수 규모와 경영진의 이해관계가 밀접하게 연결되어 있습니다.",
+      "external_article_summary": "GameStop은 eBay를 인수하기 위해 총 555억 달러 규모의 인수 제안을 발표했습니다. 이번 제안은 2021년 공매도 사태 이후 확보된 자본력을 바탕으로 기업 가치를 재정립하려는 목적을 가집니다. 특히 경영진의 보상 체계가 시가총액 200억 달러 달성 여부와 연동되어 있어, 이번 인수 규모와 경영진의 이해관계가 밀접하게 연결되어 있습니다.",
+      "discussion_summary": "과거 2021년 숏 스퀴즈로 확보한 자본이 이번 인수의 기반이 되었다는 분석과, 경영진의 보상 조건이 시가총액 목표치와 맞물려 무리한 인수를 추진할 수 있다는 비판이 대립하고 있습니다.",
+      "key_points": [
+        "GameStop이 eBay를 대상으로 555억 달러 규모의 인수 제안을 진행했습니다.",
+        "과거 밈 주식 열풍 당시 확보한 자본이 이번 대규모 인수 제안의 주요 재원이 되었습니다.",
+        "경영진의 보상 체계가 특정 시가총액 달성 조건과 연계되어 있어 인수 타당성에 대한 의문이 제기됩니다."
+      ],
+      "tags": [
+        "GameStop",
+        "eBay",
+        "M&A",
+        "기업인수"
+      ],
+      "published_at_kst": "2026-05-04T18:31:12+09:00",
+      "category": "비즈니스/스타트업",
+      "canonical_path": "/community/hacker-news-48006402",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=48006402"
+      },
+      "score": 700,
+      "comments_count": 686
+    },
+    {
+      "id": "hacker-news-48016880",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Zig → Rust porting guide",
+      "url": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
+      "summary": "Zig 언어를 Rust로 포팅하는 가이드가 공개되며 개발자들 사이에서 기술적 논쟁이 발생했습니다. Bun 프로젝트의 핵심 개발자가 직접 참여하여 코드 재작성 여부에 대한 오해를 바로잡고 있습니다.",
+      "article_summary": "본 가이드는 Zig 언어로 작성된 코드를 Rust로 전환하는 과정과 방법론을 다룹니다. Bun 프로젝트의 핵심 로직이 포함된 브랜치를 기반으로 하며, 특정 코드 베이스를 다른 언어로 이식할 때 발생하는 기술적 차이점을 설명합니다.",
+      "external_article_summary": "본 가이드는 Zig 언어로 작성된 코드를 Rust로 전환하는 과정과 방법론을 다룹니다. Bun 프로젝트의 핵심 로직이 포함된 브랜치를 기반으로 하며, 특정 코드 베이스를 다른 언어로 이식할 때 발생하는 기술적 차이점을 설명합니다.",
+      "discussion_summary": "Bun 개발자는 현재의 논란이 작동하지 않는 코드에 대한 과잉 반응이며 전체 재작성을 의미하는 것이 아니라고 반박합니다. 반면, Anthropic의 Bun 인수 가능성 등 외부 환경 변화와 맞물려 프로젝트의 방향성에 대한 우려가 제기되고 있습니다.",
+      "key_points": [
+        "Zig에서 Rust로의 코드 이식 방법론과 기술적 차이를 다룹니다.",
+        "Bun 개발자는 현재의 논란이 코드 재작성에 대한 과도한 우려라고 주장합니다.",
+        "프로젝트의 소유권 변화와 기술 스택 전환이 개발 생태계에 미치는 영향이 쟁점입니다."
+      ],
+      "tags": [
+        "Zig",
+        "Rust",
+        "Bun",
+        "Programming Language"
+      ],
+      "published_at_kst": "2026-05-05T10:08:17+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-48016880",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=48016880"
+      },
+      "score": 700,
+      "comments_count": 518
+    },
+    {
+      "id": "hada-29202",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "엉클 밥: &quot;코드를 직접 짜던 시대는 끝났다&quot;",
+      "url": "https://news.hada.io/topic?id=29202",
+      "summary": "AI의 비약적인 코드 생성 능력은 개발자의 핵심 역량을 '작성'에서 '설계 및 검증'으로 전환시키고 있습니다. 단순 구현 중심의 개발 방식은 종말을 고하고 있으며, AI를 활용한 생산성 극대화가 새로운 표준이 될 것입니다.",
+      "article_summary": "\"Clean Code\"의 저자 엉클 밥(Uncle Bob)은 AI가 개발자의 작업 속도를 압도하는 시대가 도래했음을 경고했습니다. 과거에 하루가 소요되던 복잡한 코딩 작업이 AI를 통해 단 5분 만에 완료될 수 있는 환경이 구축되었습니다. 이에 따라 개발자가 직접 코드를 한 줄씩 작성하는 전통적인 방식은 점차 설 자리를 잃을 것이라고 전망했습니다.",
+      "external_article_summary": "\"Clean Code\"의 저자 엉클 밥(Uncle Bob)은 AI가 개발자의 작업 속도를 압도하는 시대가 도래했음을 경고했습니다. 과거에 하루가 소요되던 복잡한 코딩 작업이 AI를 통해 단 5분 만에 완료될 수 있는 환경이 구축되었습니다. 이에 따라 개발자가 직접 코드를 한 줄씩 작성하는 전통적인 방식은 점차 설 자리를 잃을 것이라고 전망했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "엉클 밥은 AI가 개발자의 작업 속도를 압도적으로 앞지르는 시대가 왔음을 선언했습니다.",
+        "하루 분량의 작업을 5분 만에 처리하는 AI의 등장으로 직접 코드를 짜는 시대는 저물고 있습니다.",
+        "개발자는 단순 구현을 넘어 AI가 생성한 결과물을 관리하고 조율하는 역할로 변화해야 합니다."
+      ],
+      "tags": [
+        "Future of Coding",
+        "Uncle Bob",
+        "Software Engineering",
+        "AI"
+      ],
+      "published_at_kst": "2026-05-06T09:03:02+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29202",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29202"
+      },
+      "score": 10,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29206",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "최고의 직원이 최악의 관리자가 되는 이유",
+      "url": "https://news.hada.io/topic?id=29206",
+      "summary": "기술 전문성과 관리 역량은 서로 다른 영역임을 인지하고, 관리직을 새로운 직업적 전환점으로 정의하는 조직적 설계가 필요합니다. 잘못된 관리자 배치가 팀 몰입도와 성과에 미치는 부정적 파급 효과를 방지하기 위한 전략적 접근이 핵심입니다.",
+      "article_summary": "기술적 역량이 뛰어난 직원을 관리자로 임명할 때 발생하는 구조적 실패와 그로 인한 조직적 손실을 분석합니다. Gallup 조사에 따르면 직원 몰입도의 70%가 직속 관리자의 역량에 의해 결정되므로, 부적합한 관리자 배치는 팀 전체의 성과 저하로 직결됩니다. 따라서 관리직은 기존 직무의 연장선인 승진이 아니라, 완전히 새로운 직무 역량을 요구하는 별도의 커리어로 정의되어야 합니다.",
+      "external_article_summary": "기술적 역량이 뛰어난 직원을 관리자로 임명할 때 발생하는 구조적 실패와 그로 인한 조직적 손실을 분석합니다. Gallup 조사에 따르면 직원 몰입도의 70%가 직속 관리자의 역량에 의해 결정되므로, 부적합한 관리자 배치는 팀 전체의 성과 저하로 직결됩니다. 따라서 관리직은 기존 직무의 연장선인 승진이 아니라, 완전히 새로운 직무 역량을 요구하는 별도의 커리어로 정의되어야 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "기술적 전문성이 반드시 뛰어난 관리 역량을 보장하지는 않으므로 직무 전환 시 주의가 필요합니다.",
+        "직원 몰입도의 70%를 결정하는 관리자의 역량은 팀 전체의 생산성과 직결됩니다.",
+        "관리직을 단순한 승진이 아닌 새로운 전문 영역으로 인식하는 조직 문화가 구축되어야 합니다."
+      ],
+      "tags": [
+        "매니지먼트",
+        "커리어개발",
+        "조직문화"
+      ],
+      "published_at_kst": "2026-05-06T09:19:02+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29206",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29206"
+      },
+      "score": 9,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29203",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "생산적 미루기 - 왜 해야 할 일 대신 다른 생산적인 일을 하게 되는가",
+      "url": "https://news.hada.io/topic?id=29203",
+      "summary": "생산적 미루기는 단순한 게으름이 아니라 뇌의 감정 조절 시스템과 인지 통제 기능 사이의 충돌로 발생하는 현상입니다. 이를 극복하기 위해서는 감정적 회피를 인지하고 전전두엽의 실행 기능을 강화하는 전략이 필요합니다.",
+      "article_summary": "해야 할 핵심 과업을 미루면서 다른 부수적인 일을 처리하는 '생산적 미루기(productive procrastination)' 현상의 심리적 기제를 분석합니다. 이는 뇌의 변연계(amygdala)가 부정적 감정으로부터 자아를 보호하려는 본능적 반응으로 인해 발생합니다. 이 과정에서 이성적 판단과 계획을 담당하는 전전두엽의 통제 기능이 약화되며, 결과적으로 당장의 불안을 회피하기 위해 덜 중요한 생산적 활동에 몰입하게 됩니다.",
+      "external_article_summary": "해야 할 핵심 과업을 미루면서 다른 부수적인 일을 처리하는 '생산적 미루기(productive procrastination)' 현상의 심리적 기제를 분석합니다. 이는 뇌의 변연계(amygdala)가 부정적 감정으로부터 자아를 보호하려는 본능적 반응으로 인해 발생합니다. 이 과정에서 이성적 판단과 계획을 담당하는 전전두엽의 통제 기능이 약화되며, 결과적으로 당장의 불안을 회피하기 위해 덜 중요한 생산적 활동에 몰입하게 됩니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "생산적 미루기는 핵심 과업에 대한 심리적 압박을 피하기 위해 다른 생산적인 일을 선택하는 현상입니다.",
+        "뇌의 변연계가 부정적 감정을 차단하려 할 때 전전두엽의 계획 및 충동 통제 기능이 저하됩니다.",
+        "이 현상은 감정적 회피를 통해 즉각적인 안도감을 얻으려는 뇌의 방어 기제에서 비롯됩니다."
+      ],
+      "tags": [
+        "생산성",
+        "심리학",
+        "뇌과학"
+      ],
+      "published_at_kst": "2026-05-06T09:13:02+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29203",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29203"
+      },
+      "score": 6,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29204",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "RSS 피드가 Google보다 더 많은 트래픽을 보내준다",
+      "url": "https://news.hada.io/topic?id=29204",
+      "summary": "검색 엔진 중심의 트래픽 구조에서 벗어나 RSS와 뉴스레터 같은 직접적인 구독 채널이 강력한 유입원이 될 수 있음을 보여줍니다. 이는 플랫폼 알고리즘의 변화에 휘둘리지 않는 독립적인 콘텐츠 배포 전략의 중요성을 시사합니다.",
+      "article_summary": "Terence Eden의 블로그 데이터 분석 결과, 최근 28일 동안 RSS 피드와 뉴스레터를 통한 유입 트래픽이 Google 검색 엔진을 통한 유입을 상회했습니다. 이는 검색 엔진 최적화(SEO)에 의존하는 방식보다 직접적인 구독 모델이 더 높은 트래픽 효율을 보여준 사례입니다. 블로그의 시맨틱한 레이아웃과 구독 기반의 콘텐츠 전달 방식이 이러한 결과에 기여했습니다.",
+      "external_article_summary": "Terence Eden의 블로그 데이터 분석 결과, 최근 28일 동안 RSS 피드와 뉴스레터를 통한 유입 트래픽이 Google 검색 엔진을 통한 유입을 상회했습니다. 이는 검색 엔진 최적화(SEO)에 의존하는 방식보다 직접적인 구독 모델이 더 높은 트래픽 효율을 보여준 사례입니다. 블로그의 시맨틱한 레이아웃과 구독 기반의 콘텐츠 전달 방식이 이러한 결과에 기여했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "최근 28일간 RSS 및 뉴스레터 유입량이 Google 검색 유입량을 넘어섰습니다.",
+        "검색 엔진 의존도를 낮추고 직접적인 구독자 층을 확보하는 것이 트래픽 안정성에 기여합니다.",
+        "시맨틱한 레이아웃과 구독 기반의 콘텐츠 전달 방식이 유효한 전략으로 작용했습니다."
+      ],
+      "tags": [
+        "RSS",
+        "트래픽 분석",
+        "뉴스레터",
+        "콘텐츠 전략"
+      ],
+      "published_at_kst": "2026-05-06T09:13:43+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29204",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29204"
+      },
+      "score": 5,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29214",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Gemma 4 가속하기 : 다중 토큰 예측 drafter로 더 빠른 추론",
+      "url": "https://news.hada.io/topic?id=29214",
+      "summary": "이번 업데이트는 모델의 크기를 키우는 대신 추론 알고리즘의 효율성을 높여 실질적인 사용성을 개선하는 데 초점을 맞추고 있습니다. MTP 기술을 통한 추측 디코딩은 대규모 언어 모델의 고질적인 문제인 생성 지연 시간을 줄이는 핵심적인 기술적 진보를 보여줍니다.",
+      "article_summary": "Google은 Gemma 4 출시 이후 수주 만에 누적 다운로드 6,000만 회를 돌파하며 강력한 생태계를 구축했습니다. 이에 발맞춰 Gemma 4 제품군의 추론 속도를 혁신적으로 높일 수 있는 다중 토큰 예측(MTP) drafter 기술을 공개했습니다. MTP drafter는 특화된 추측 디코딩(Speculative Decoding) 기법을 활용하여 모델의 생성 효율을 극대화합니다.",
+      "external_article_summary": "Google은 Gemma 4 출시 이후 수주 만에 누적 다운로드 6,000만 회를 돌파하며 강력한 생태계를 구축했습니다. 이에 발맞춰 Gemma 4 제품군의 추론 속도를 혁신적으로 높일 수 있는 다중 토큰 예측(MTP) drafter 기술을 공개했습니다. MTP drafter는 특화된 추측 디코딩(Speculative Decoding) 기법을 활용하여 모델의 생성 효율을 극대화합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Gemma 4는 출시 직후 누적 다운로드 6,000만 회를 기록하며 높은 시장 점유율을 확보했습니다.",
+        "새롭게 공개된 MTP drafter는 추측 디코딩 방식을 통해 모델의 추론 속도를 가속화합니다.",
+        "다중 토큰 예측 기술은 모델이 한 번에 여러 토큰을 예측하여 연산 효율을 높이는 구조를 가집니다."
+      ],
+      "tags": [
+        "Gemma 4",
+        "MTP",
+        "Google",
+        "LLM 추론 가속",
+        "추측 디코딩"
+      ],
+      "published_at_kst": "2026-05-06T10:10:20+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29214",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29214"
+      },
+      "score": 4,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29205",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Bun(JS 런타임)이 Zig에서 Rust로 바이브 포팅되고 있음",
+      "url": "https://news.hada.io/topic?id=29205",
+      "summary": "이번 프로젝트는 AI 에이전트를 활용해 기존의 복잡한 시스템 코드를 다른 프로그래밍 언어로 자동 전환하는 기술적 가능성을 실험하는 데 목적이 있습니다. Bun이 Zig에서 Rust로 기반 언어를 전환할 경우, 생태계 확장성과 개발 생산성 측면에서 큰 변화가 예상됩니다.",
+      "article_summary": "Bun의 창시자 Jarred Sumner가 Zig로 작성된 기존 코드를 Rust로 전환하기 위한 'PORTING.md' 가이드를 공개했습니다. 이번 작업은 'claude/phase-a-port' 브랜치에서 진행되며, AI 에이전트를 활용해 대규모 언어 전환을 시도하는 실험적 성격을 띱니다. 포팅 과정은 로직을 파일 단위로 초벌 번역하는 Phase A와 이후 단계로 구분되어 체계적인 전환을 목표로 합니다.",
+      "external_article_summary": "Bun의 창시자 Jarred Sumner가 Zig로 작성된 기존 코드를 Rust로 전환하기 위한 'PORTING.md' 가이드를 공개했습니다. 이번 작업은 'claude/phase-a-port' 브랜치에서 진행되며, AI 에이전트를 활용해 대규모 언어 전환을 시도하는 실험적 성격을 띱니다. 포팅 과정은 로직을 파일 단위로 초벌 번역하는 Phase A와 이후 단계로 구분되어 체계적인 전환을 목표로 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Bun 창시자가 AI 에이전트를 활용한 Zig에서 Rust로의 대규모 코드 포팅 실험을 시작했습니다.",
+        "포팅 작업은 로직 중심의 초벌 번역 단계인 Phase A를 포함한 체계적인 가이드를 따릅니다.",
+        "이번 실험은 AI를 통한 자동화된 언어 전환 기술의 실효성을 검증하는 과정입니다."
+      ],
+      "tags": [
+        "AI Agent",
+        "Rust",
+        "Bun",
+        "Zig",
+        "Software Engineering"
+      ],
+      "published_at_kst": "2026-05-06T09:16:43+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29205",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29205"
+      },
+      "score": 4,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29199",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "GitHub 무장애 일수 카운터",
+      "url": "https://news.hada.io/topic?id=29199",
+      "summary": "GitHub의 서비스 안정성을 가시화하는 지표가 SSH 관련 운영 장애로 인해 초기화되었습니다. 이는 클라우드 기반 개발 환경에서 핵심 프로토콜의 안정성이 서비스 연속성에 미치는 영향을 보여줍니다.",
+      "article_summary": "GitHub의 서비스 가동 시간을 기록하는 'Days Without GitHub Incidents' 페이지가 최근 장애로 인해 기록이 초기화되었습니다. 해당 페이지는 GitHub Status History 데이터를 기반으로 장애 없는 유지 일수를 산출합니다. 역대 최고 기록은 2026년 4월 2일부터 4월 9일까지 유지된 6일이었으나, 5월 5일 발생한 SSH Git Operations 장애로 인해 현재는 다시 0일부터 카운트가 시작되었습니다.",
+      "external_article_summary": "GitHub의 서비스 가동 시간을 기록하는 'Days Without GitHub Incidents' 페이지가 최근 장애로 인해 기록이 초기화되었습니다. 해당 페이지는 GitHub Status History 데이터를 기반으로 장애 없는 유지 일수를 산출합니다. 역대 최고 기록은 2026년 4월 2일부터 4월 9일까지 유지된 6일이었으나, 5월 5일 발생한 SSH Git Operations 장애로 인해 현재는 다시 0일부터 카운트가 시작되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Days Without GitHub Incidents는 GitHub의 무장애 유지 일수를 추적하는 페이지입니다.",
+        "역대 최고 기록은 2026년 4월 초에 기록된 6일입니다.",
+        "5월 5일 발생한 SSH Git Operations 장애로 인해 카운터가 0일로 재설정되었습니다."
+      ],
+      "tags": [
+        "SSH",
+        "GitHub",
+        "Service Outage"
+      ],
+      "published_at_kst": "2026-05-06T05:40:36+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29199",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29199"
+      },
+      "score": 3,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29213",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "AI가 당신의 데이터베이스를 삭제한 게 아니라, 당신이 삭제한 것이다",
+      "url": "https://news.hada.io/topic?id=29213",
+      "summary": "이번 사고의 기술적 본질은 AI의 자율성 문제가 아니라 권한 제어와 안전장치가 결여된 API 설계에 있습니다. AI 에이전트 도입 시 자동화된 작업이 시스템 전체를 파괴하지 않도록 강력한 권한 분리와 방어적 프로그래밍이 필수적임을 시사합니다.",
+      "article_summary": "최근 Cursor 및 Claude 에이전트가 프로덕션 데이터베이스를 삭제한 사건은 AI의 판단 오류보다는 시스템 설계의 결함이 핵심 원인입니다. 운영 환경에 전체 삭제가 가능한 API 엔드포인트가 노출되어 있었던 점이 사고를 유발했습니다. 이는 2010년 SVN 배포 과정에서 실수로 trunk 디렉토리가 삭제되었던 과거의 운영 사고와 본질적으로 동일한 맥락을 가집니다.",
+      "external_article_summary": "최근 Cursor 및 Claude 에이전트가 프로덕션 데이터베이스를 삭제한 사건은 AI의 판단 오류보다는 시스템 설계의 결함이 핵심 원인입니다. 운영 환경에 전체 삭제가 가능한 API 엔드포인트가 노출되어 있었던 점이 사고를 유발했습니다. 이는 2010년 SVN 배포 과정에서 실수로 trunk 디렉토리가 삭제되었던 과거의 운영 사고와 본질적으로 동일한 맥락을 가집니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 에이전트의 작업 수행 중 발생한 데이터 삭제는 권한 관리 체계의 부재에서 비롯되었습니다.",
+        "운영 환경에 전체 삭제 권한을 가진 API 엔드포인트가 배포되어 있는 것은 심각한 보안 취약점입니다.",
+        "자동화 도구의 도입은 과거의 수동 배포 사고와 마찬가지로 새로운 형태의 운영 리스크를 생성합니다."
+      ],
+      "tags": [
+        "DevOps",
+        "AI",
+        "API 설계",
+        "데이터베이스 보안",
+        "AI 에이전트"
+      ],
+      "published_at_kst": "2026-05-06T10:07:19+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29213",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=29213"
+      },
+      "score": 2,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-29197",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
       "title": "Show GN: 개발 중에 거북목이 너무 심해서 직접 만들어본 자세 교정 서비스입니다",
       "url": "https://news.hada.io/topic?id=29197",
       "summary": "카메라 기반의 비전 기술을 활용하여 일상적인 작업 환경에서 거북목을 방지하는 실용적인 솔루션을 제시합니다. 하드웨어 제약 없이 소프트웨어만으로 건강 문제를 해결하려는 시도가 돋보입니다.",
+      "article_summary": "개발자의 거북목 증상을 완화하기 위해 직접 개발한 실시간 자세 교정 서비스 'Show GN'을 소개합니다. 이 서비스는 노트북 웹캠이나 스마트폰 전면 카메라를 활용하여 사용자의 자세를 실시간으로 모니터링합니다. 별도의 하드웨어 없이 카메라 영상 분석을 통해 언제 어디서든 바른 자세를 유지할 수 있도록 돕는 것이 핵심입니다.",
+      "external_article_summary": "개발자의 거북목 증상을 완화하기 위해 직접 개발한 실시간 자세 교정 서비스 'Show GN'을 소개합니다. 이 서비스는 노트북 웹캠이나 스마트폰 전면 카메라를 활용하여 사용자의 자세를 실시간으로 모니터링합니다. 별도의 하드웨어 없이 카메라 영상 분석을 통해 언제 어디서든 바른 자세를 유지할 수 있도록 돕는 것이 핵심입니다.",
       "discussion_summary": "",
       "key_points": [
         "노트북 웹캠과 스마트폰 카메라를 활용한 실시간 자세 모니터링 기능을 제공합니다.",
@@ -152,41 +597,46 @@
         "웹캠"
       ],
       "published_at_kst": "2026-05-06T00:23:19+09:00",
-      "category": "GeekNews",
-      "canonical_path": "/community/hada-show-gn-개발-중에-거북목이-너무-심해서-직접-만들어본-자세-교정-서비스입니다",
-      "legacy_path": "/digest/show-gn-개발-중에-거북목이-너무-심해서-직접-만들어본-자세-교정-서비스입니다",
-      "rank": 12,
+      "category": "",
+      "canonical_path": "/community/hada-29197",
+      "rank": 9,
       "source_links": {
         "hada_news": "https://news.hada.io/topic?id=29197"
-      }
+      },
+      "score": 2,
+      "comments_count": 0
     },
     {
-      "id": "hada-코인베이스-직원-14-해고",
+      "id": "hada-29218",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "코인베이스, 직원 14% 해고",
-      "url": "https://news.hada.io/topic?id=29195",
-      "summary": "AI 기술이 업무 생산성을 비약적으로 높이면서 기업의 인력 구조가 효율성 중심으로 재편되고 있습니다. 이는 단순한 인력 감축을 넘어 기술 혁신이 기존의 직무 모델을 어떻게 변화시키는지 보여주는 사례입니다.",
+      "title": "Train Your Own LLM From Scratch - 처음부터 직접 LLM을 학습하는 실습 워크숍",
+      "url": "https://news.hada.io/topic?id=29218",
+      "summary": "이 워크숍은 추상적인 LLM 개념을 구체적인 코드 구현으로 연결하여 모델 학습의 전 과정을 체득하는 데 중점을 둡니다. 단순한 API 활용을 넘어 모델의 내부 동작 원리를 파악함으로써 엔지니어링 역량을 강화할 수 있는 기회를 제공합니다.",
+      "article_summary": "Train Your Own LLM From Scratch 워크숍은 GPT 학습 파이프라인의 전 과정을 직접 구현하며 각 구성 요소의 역할을 학습하는 실습형 프로그램입니다. 참가자들은 노트북 환경에서 모델의 구조를 밑바닥부터 설계하여 셰익스피어 스타일의 텍스트를 생성하는 것을 최종 목표로 합니다. 이를 통해 트랜스포머 아키텍처의 핵심 로직과 데이터 처리 과정을 심도 있게 이해할 수 있습니다.",
+      "external_article_summary": "Train Your Own LLM From Scratch 워크숍은 GPT 학습 파이프라인의 전 과정을 직접 구현하며 각 구성 요소의 역할을 학습하는 실습형 프로그램입니다. 참가자들은 노트북 환경에서 모델의 구조를 밑바닥부터 설계하여 셰익스피어 스타일의 텍스트를 생성하는 것을 최종 목표로 합니다. 이를 통해 트랜스포머 아키텍처의 핵심 로직과 데이터 처리 과정을 심도 있게 이해할 수 있습니다.",
       "discussion_summary": "",
       "key_points": [
-        "코인베이스는 AI 도입에 따른 운영 효율화를 위해 전체 인력의 14%인 약 700명을 해고했습니다.",
-        "AI 기술이 엔지니어링 및 운영 프로세스의 속도를 획기적으로 높이며 업무 방식의 변화를 이끌고 있습니다.",
-        "이번 구조조정은 기술 혁신을 통해 기업의 생산성을 극대화하려는 전략적 목적을 가지고 있습니다."
+        "GPT 학습 파이프라인의 모든 단계를 직접 코드로 구현하는 실습 중심의 워크숍입니다.",
+        "모델의 각 구성 요소가 수행하는 역할과 필요성을 이론과 실습을 통해 학습합니다.",
+        "학습된 GPT 모델을 활용해 셰익스피어풍의 텍스트를 생성하는 결과물을 도출합니다."
       ],
       "tags": [
-        "생산성",
-        "구조조정",
-        "코인베이스",
-        "AI"
+        "GPT",
+        "LLM",
+        "AI",
+        "Deep Learning",
+        "Workshop"
       ],
-      "published_at_kst": "2026-05-05T23:58:09+09:00",
-      "category": "GeekNews",
-      "canonical_path": "/community/hada-코인베이스-직원-14-해고",
-      "legacy_path": "/digest/코인베이스-직원-14-해고",
-      "rank": 14,
+      "published_at_kst": "2026-05-06T11:35:54+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-29218",
+      "rank": 10,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=29195"
-      }
+        "hada_news": "https://news.hada.io/topic?id=29218"
+      },
+      "score": 1,
+      "comments_count": 0
     },
     {
       "id": "reddit-1t4hqyn",
@@ -194,27 +644,27 @@
       "source_name": "Reddit",
       "title": "New Boston Dynamics Atlas trick",
       "url": "https://www.reddit.com/r/singularity/comments/1t4hqyn/new_boston_dynamics_atlas_trick/",
-      "summary": "보스턴 다이내믹스의 새로운 아틀라스 로봇 동작 영상에 대한 반응을 담고 있습니다. 사용자들은 로봇의 정교한 체조 동작에 감탄하면서도, 실생활에 유용한 가사 노동 기능에 대한 기대와 현실적인 요구를 동시에 드러내고 있습니다.",
+      "summary": "보스턴 다이내믹스의 새로운 아틀라스 로봇 동작 영상에 대한 반응을 담고 있습니다. 사용자들은 로봇의 놀라운 신체 제어 능력에 감탄하면서도, 실생활에 유용한 가사 노동 기능에 대한 기대와 현실적인 요구를 동시에 보이고 있습니다.",
       "discussion_summary": "",
       "key_points": [
-        "아틀라스 로봇이 보여주는 고난도 체조 및 맨몸 운동 동작에 대한 기술적 경이로움",
-        "로봇의 발전 속도에 대한 유머러스한 비유와 올림픽 출전 가능성 등에 대한 언급",
-        "화려한 곡예보다는 빨래 접기 등 실질적인 가사 업무 수행 능력에 대한 사용자들의 요구"
+        "아틀라스 로봇이 보여주는 고난도 체조 및 맨몸 운동 동작에 대한 기술적 감탄",
+        "올림픽 출전 가능성이나 게임 출시 시점과 비교하는 등 미래 기술에 대한 유머러스한 반응",
+        "아크로바틱한 동작보다는 빨래 접기와 같은 실질적인 가사 업무 수행 능력을 원하는 사용자들의 의견"
       ],
       "tags": [
+        "Robotics",
         "Atlas",
         "AI",
-        "Boston Dynamics",
-        "Robotics"
+        "Boston Dynamics"
       ],
       "published_at_kst": "2026-05-05T23:51:36",
       "category": "Singularity",
       "canonical_path": "/community/reddit-1t4hqyn",
-      "legacy_path": "/reddit/1t4hqyn",
       "rank": null,
       "subreddit": "Singularity",
-      "score": "2802",
-      "comments_count": 338
+      "score": "2891",
+      "comments_count": 340,
+      "comments": []
     },
     {
       "id": "reddit-1t4jq6h",
@@ -222,28 +672,28 @@
       "source_name": "Reddit",
       "title": "Gemma 4 MTP released",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1t4jq6h/gemma_4_mtp_released/",
-      "summary": "Google이 Gemma 4 모델을 위한 Multi-Token Prediction(MTP) 드래프트 모델을 공개하여 추론 속도를 대폭 향상시켰습니다. 사용자들은 향상된 디코딩 속도와 효율적인 모델 구조에 대해 높은 관심을 보이며 기술적 활용 방안을 논의하고 있습니다.",
+      "summary": "Google이 Gemma 4 모델을 위한 Multi-Token Prediction(MTP) 드래프트 모델을 공개하여 추론 속도를 대폭 향상시켰습니다. 사용자들은 모델의 효율성과 성능 향상에 대해 긍정적인 반응을 보이며 기술적 구현 방식에 높은 관심을 나타내고 있습니다.",
       "discussion_summary": "",
       "key_points": [
         "MTP 기술은 베이스 모델에 작은 드래프트 모델을 결합하여 여러 토큰을 미리 예측하는 방식으로, 최대 2배의 디코딩 속도 향상을 제공합니다.",
         "추측적 디코딩(Speculative Decoding) 파이프라인을 통해 기존 모델과 동일한 품질을 유지하면서도 저지연 및 온디바이스 애플리케이션에 최적화된 성능을 구현합니다.",
-        "커뮤니티에서는 모델의 효율적인 구조에 감탄하는 동시에 LM Studio와 같은 로컬 환경에서의 활용 가능성과 구체적인 실행 방법에 대해 질문하고 있습니다."
+        "커뮤니티에서는 모델의 크기(E2B 등)와 실질적인 활용 가능성, 그리고 LM Studio와 같은 도구에서의 호환성에 대해 활발한 논의가 이루어지고 있습니다."
       ],
       "tags": [
-        "Speculative Decoding",
-        "Multi-Token Prediction",
+        "Gemma4",
+        "Speculative-Decoding",
         "AI",
-        "Gemma 4",
-        "Release"
+        "Release",
+        "Multi-Token-Prediction"
       ],
       "published_at_kst": "2026-05-06T01:01:17",
       "category": "LocalLLaMA",
       "canonical_path": "/community/reddit-1t4jq6h",
-      "legacy_path": "/reddit/1t4jq6h",
       "rank": null,
       "subreddit": "LocalLLaMA",
-      "score": "791",
-      "comments_count": 206
+      "score": "800",
+      "comments_count": 208,
+      "comments": []
     },
     {
       "id": "reddit-1t4cisv",
@@ -251,57 +701,57 @@
       "source_name": "Reddit",
       "title": "X user tricks Grok into sending them $200,000 in crypto using morse code",
       "url": "https://www.reddit.com/r/artificial/comments/1t4cisv/x_user_tricks_grok_into_sending_them_200000_in/",
-      "summary": "X의 AI 모델인 Grok을 이용해 암호화폐를 탈취한 보안 사고가 발생하여 큰 충격을 주고 있습니다. 공격자는 모스 부호를 통해 Grok이 특정 지갑으로 토큰을 전송하도록 유도했으며, 이에 대해 커뮤니티는 AI에게 결제 권한을 부여한 설계 결함을 강력히 비판하고 있습니다.",
+      "summary": "X의 AI 모델인 Grok을 이용해 암호화폐를 탈취한 보안 사고가 발생하여 커뮤니티에서 큰 논란이 되고 있습니다. 공격자는 모스 부호를 통해 Grok이 특정 지갑으로 자산을 전송하도록 유도했으며, 이는 AI에게 과도한 권한을 부여했을 때 발생하는 위험성을 여실히 보여주었습니다.",
       "discussion_summary": "",
       "key_points": [
-        "공격자는 Grok에게 모스 부호를 해석하게 한 뒤, 그 결과값이 자동 결제 봇인 Bankrbot으로 전달되어 자금이 이체되도록 설계된 취약점을 악용했습니다.",
-        "사용자들은 AI 모델이 직접적인 금융 거래 권한을 갖는 것이 얼마나 위험한지를 보여주는 사례라며, 권한 관리와 API 보안의 중요성을 강조하고 있습니다.",
-        "이번 사건은 단순한 해킹을 넘어 AI가 명령 체계의 일부로 작동할 때 발생할 수 있는 권한 탈취 및 실행 위험성을 시사합니다."
+        "공격자는 Grok에게 모스 부호를 해석하게 한 뒤, 그 결과값이 자동적으로 Bankrbot에 전달되어 자산이 전송되도록 설계된 취약점을 악용했습니다.",
+        "사용자들은 AI 모델이 직접적인 결제나 자산 전송 권한을 갖는 것이 얼마나 위험한지에 대해 경고하며, 인간의 실수와 시스템 설계 오류가 결합된 결과라고 지적하고 있습니다.",
+        "이번 사건은 단순한 해킹을 넘어 AI가 명령 체계의 일부로 작동할 때 발생할 수 있는 권한 관리 및 보안 프로토콜의 허점을 드러냈습니다."
       ],
       "tags": [
-        "LLM_Vulnerability",
-        "LLM",
-        "AI",
+        "Agent",
+        "Security",
         "AI_Security",
-        "Crypto_Hack"
+        "LLM",
+        "Rust"
       ],
       "published_at_kst": "2026-05-05T20:22:11",
       "category": "artificial",
       "canonical_path": "/community/reddit-1t4cisv",
-      "legacy_path": "/reddit/1t4cisv",
       "rank": null,
       "subreddit": "artificial",
-      "score": "920",
-      "comments_count": 89
+      "score": "953",
+      "comments_count": 91,
+      "comments": []
     },
     {
-      "id": "reddit-1t41nkt",
+      "id": "reddit-1t4mdyd",
       "source": "reddit",
       "source_name": "Reddit",
-      "title": "Get ChatGPT to create a game based on your interests",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1t41nkt/get_chatgpt_to_create_a_game_based_on_your/",
-      "summary": "사용자의 개인적 취향과 메모리 기능을 활용해 맞춤형 가상 게임을 설계하고 스크린샷을 생성하는 프롬프트 활용법이 공유되었습니다. 사용자들은 생성된 결과물을 공유하며 즐거워하는 동시에, AI가 개인 정보를 과도하게 노출할 수 있다는 우려를 나타내기도 했습니다.",
+      "title": "GPT-5.5 Instant is starting to roll out in ChatGPT.",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1t4mdyd/gpt55_instant_is_starting_to_roll_out_in_chatgpt/",
+      "summary": "ChatGPT에 GPT-5.5 Instant 모델이 출시되기 시작했다는 소식에 대해 사용자들의 다양한 반응이 나타나고 있습니다. 일부 사용자는 향상된 대화 품질에 만족감을 표하는 반면, 잦은 모델 업데이트와 추론 모델과의 차별성 부재에 대해 의문을 제기하고 있습니다.",
       "discussion_summary": "",
       "key_points": [
-        "ChatGPT의 메모리 기능을 활용해 사용자의 관심사를 반영한 가상 게임 컨셉과 시각적 스크린샷을 생성하는 창의적인 프롬프트 제안",
-        "사용자들이 각자의 취향이 반영된 게임 이미지를 공유하며 높은 참여도와 흥미를 보임",
-        "LLM이 사용자의 개인적인 정보를 바탕으로 결과물을 생성할 때 발생할 수 있는 프라이버시 및 정보 노출 문제에 대한 경고"
+        "사용자들은 이전 모델 대비 개선된 대화 성능에 대해 긍정적인 피드백을 보이고 있으나, 잦은 모델 출시 주기에 피로감을 느끼는 반응도 존재합니다.",
+        "API 비용 구조와 추론(Thinking) 모델과의 용도 차이에 대한 기술적 논의가 이루어지고 있습니다.",
+        "모델의 응답 속도와 지능 사이의 균형, 그리고 향후 고급 음성 모드 등에 미칠 영향에 대한 궁금증이 제기되었습니다."
       ],
       "tags": [
-        "ChatGPT",
+        "Agent",
+        "GPT-5.5",
+        "AI_Model_Update",
         "LLM",
-        "AI_Privacy",
-        "AI",
-        "PromptEngineering"
+        "ChatGPT"
       ],
-      "published_at_kst": "2026-05-05T10:50:22",
+      "published_at_kst": "2026-05-06T02:32:28",
       "category": "OpenAI",
-      "canonical_path": "/community/reddit-1t41nkt",
-      "legacy_path": "/reddit/1t41nkt",
+      "canonical_path": "/community/reddit-1t4mdyd",
       "rank": null,
       "subreddit": "OpenAI",
-      "score": "209",
-      "comments_count": 230
+      "score": "247",
+      "comments_count": 74,
+      "comments": []
     },
     {
       "id": "reddit-1t4dkew",
@@ -309,57 +759,28 @@
       "source_name": "Reddit",
       "title": "Struggling to reproduce paper results before improving them — stuck below reported accuracy [R]",
       "url": "https://www.reddit.com/r/MachineLearning/comments/1t4dkew/struggling_to_reproduce_paper_results_before/",
-      "summary": "논문에 보고된 성능을 재현하지 못해 어려움을 겪는 연구자의 고민과 이에 대한 커뮤니티의 조언을 담고 있습니다. 많은 연구자가 겪는 재현성 문제에 대해 실질적인 기술적 점검 사항과 학계의 현실적인 태도에 대한 논의가 이루어졌습니다.",
+      "summary": "논문에 보고된 성능을 재현하지 못해 어려움을 겪는 연구자의 고민과 이에 대한 커뮤니티의 조언을 담고 있습니다. 많은 연구자가 겪는 재현성 문제에 대해 실질적인 기술적 조언과 학계의 현실적인 태도에 대한 논의가 이루어졌습니다.",
       "discussion_summary": "",
       "key_points": [
         "재현성 격차의 원인으로 데이터 전처리 순서, 데이터 분할 방식, 라이브러리 버전 차이 등 명시되지 않은 세부 사항이 지목되었습니다.",
-        "학계에서 성능 수치를 과장하거나 누락된 디테일로 인해 발생하는 재현성 문제는 흔히 발생하는 현실적인 문제로 언급되었습니다.",
-        "저자에게 코드를 요청하거나, 재현 실패 자체를 연구의 일부로 기록하여 정직하게 보고하는 방식이 제안되었습니다."
+        "저자의 무응답이나 불명확한 기술 기술에 대비하여, 재현 실패 과정 자체를 연구 기록으로 남기고 이를 바탕으로 개선안을 제시하는 전략이 제안되었습니다.",
+        "학계에서 성능 수치를 과장하거나 미처 기재하지 않은 기법을 사용하는 경우가 빈번하므로, 연구자는 비판적이고 철저한 검증 태도를 가져야 한다는 의견이 있었습니다."
       ],
       "tags": [
-        "Reproducibility",
-        "AI",
         "Machine Learning",
         "AI Research",
-        "Rust"
+        "Reproducibility",
+        "Rust",
+        "AI"
       ],
       "published_at_kst": "2026-05-05T21:09:38",
       "category": "MachineLearning",
       "canonical_path": "/community/reddit-1t4dkew",
-      "legacy_path": "/reddit/1t4dkew",
       "rank": null,
       "subreddit": "MachineLearning",
-      "score": "66",
-      "comments_count": 44
-    },
-    {
-      "id": "reddit-1t4e4q4",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "title": "I replaced Pinecone with a binary hash index — 32× smaller, 75× faster, no GPU, runs from a pickle file",
-      "url": "https://www.reddit.com/r/Rag/comments/1t4e4q4/i_replaced_pinecone_with_a_binary_hash_index_32/",
-      "summary": "기존 float32 벡터 데이터베이스의 높은 비용과 저장 공간 문제를 해결하기 위해 이진 해시 인덱스(Binary Hash Index)를 활용한 새로운 RAG 최적화 방식을 제안했습니다. 대규모 데이터셋에서 압도적인 속도와 압축률을 보여주며, 커뮤니티에서는 기술적 혁신성에 대한 기대와 함께 검색 정확도 유지에 대한 의문이 공존하고 있습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "float32 임베딩을 128바이트 이진 핑거프린트로 변환하고 MIH(Multi-Index Hashing)를 사용하여 기존 대비 최대 32배 작은 인덱스 크기와 75배 빠른 검색 속도를 구현했습니다.",
-        "50만 개 청크 규모의 벤치마크에서 기존 float32 방식과 대등한 수준의 재현율(R@1)을 달성하며, GPU 없이 CPU 연산만으로 구동 가능한 효율성을 입증했습니다.",
-        "사용자들은 벡터 DB 운영 비용 절감 측면에서 긍정적인 반응을 보였으나, 임베딩 모델 변경 시의 민감도나 코사인 유사도 포기에 따른 정보 손실 가능성에 대해 질문을 던졌습니다."
-      ],
-      "tags": [
-        "VectorDatabase",
-        "Optimization",
-        "RAG",
-        "Benchmark",
-        "AI"
-      ],
-      "published_at_kst": "2026-05-05T21:34:09",
-      "category": "Rag",
-      "canonical_path": "/community/reddit-1t4e4q4",
-      "legacy_path": "/reddit/1t4e4q4",
-      "rank": null,
-      "subreddit": "Rag",
-      "score": "9",
-      "comments_count": 9
+      "score": "68",
+      "comments_count": 45,
+      "comments": []
     },
     {
       "id": "reddit-1t4bpoe",
@@ -375,20 +796,49 @@
         "보안 위협을 방지하기 위해 읽기 전용 권한 설정뿐만 아니라, 쿼리 제한 및 감사 로그를 포함한 게이트웨이 도입과 SSRF 공격 방지를 고려해야 합니다."
       ],
       "tags": [
-        "Rust",
-        "AI",
+        "Agent",
+        "AI Agent",
+        "Security",
         "Database",
-        "Authentication",
-        "AI Agent"
+        "Cloud"
       ],
       "published_at_kst": "2026-05-05T19:42:26",
       "category": "LLMDevs",
       "canonical_path": "/community/reddit-1t4bpoe",
-      "legacy_path": "/reddit/1t4bpoe",
       "rank": null,
       "subreddit": "LLMDevs",
-      "score": "5",
-      "comments_count": 12
+      "score": "6",
+      "comments_count": 13,
+      "comments": []
+    },
+    {
+      "id": "reddit-1t4e4q4",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "I replaced Pinecone with a binary hash index — 32× smaller, 75× faster, no GPU, runs from a pickle file",
+      "url": "https://www.reddit.com/r/Rag/comments/1t4e4q4/i_replaced_pinecone_with_a_binary_hash_index_32/",
+      "summary": "기존 float32 벡터 데이터베이스의 높은 비용과 저장 공간 문제를 해결하기 위해 이진 해시 인덱스(Binary Hash Index)를 활용한 새로운 RAG 최적화 방식을 제안했습니다. 대규모 데이터셋에서 압도적인 속도와 압축률을 보여주며, 커뮤니티에서는 기술적 혁신성에 대한 기대와 함께 검색 정확도 유지에 대한 의문이 공존하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "float32 임베딩을 128바이트 이진 핑거프린트로 변환하고 MIH(Multi-Index Hashing)를 사용하여 기존 대비 최대 32배 작은 인덱스 크기와 75배 빠른 검색 속도를 구현했습니다.",
+        "50만 개 청크 규모의 벤치마크에서 기존 float32 방식과 대등한 수준의 재현율(R@1)을 달성하며, GPU 없이 CPU 연산만으로 구동 가능한 효율성을 입증했습니다.",
+        "사용자들은 벡터 DB 운영 비용 절감 측면에서 긍정적인 반응을 보였으나, 임베딩 모델 변경 시의 민감도나 코사인 유사도 포기에 따른 정보 손실 가능성에 대해 질문을 던졌습니다."
+      ],
+      "tags": [
+        "Agent",
+        "Optimization",
+        "Database",
+        "RAG",
+        "Benchmark"
+      ],
+      "published_at_kst": "2026-05-05T21:34:09",
+      "category": "Rag",
+      "canonical_path": "/community/reddit-1t4e4q4",
+      "rank": null,
+      "subreddit": "Rag",
+      "score": "13",
+      "comments_count": 9,
+      "comments": []
     },
     {
       "id": "reddit-1t2omdo",
@@ -404,19 +854,19 @@
         "아르메니아어 텍스트 작업 시 ChatGPT와의 성능 비교 및 차이점 질문"
       ],
       "tags": [
-        "Armenian Language",
-        "AI",
         "Claude AI",
-        "LLM Performance"
+        "AI",
+        "LLM Performance",
+        "Armenian Language"
       ],
       "published_at_kst": "2026-05-04T00:32:16",
       "category": "LanguageTechnology",
       "canonical_path": "/community/reddit-1t2omdo",
-      "legacy_path": "/reddit/1t2omdo",
       "rank": null,
       "subreddit": "LanguageTechnology",
-      "score": "2",
-      "comments_count": 4
+      "score": "1",
+      "comments_count": 4,
+      "comments": []
     },
     {
       "id": "reddit-1t3z3n2",
@@ -432,20 +882,20 @@
         "사용자들은 정보 과부하와 비결정적 도구 호출 문제를 해결하려는 접근 방식에 긍정적인 반응을 보이며 기술적 세부 사항에 관심을 나타내고 있습니다."
       ],
       "tags": [
+        "Agent",
+        "AI Agents",
         "Infra",
         "Benchmark",
-        "AI",
-        "Context Management",
         "Open Source"
       ],
       "published_at_kst": "2026-05-05T08:58:55",
       "category": "OpenSourceAI",
       "canonical_path": "/community/reddit-1t3z3n2",
-      "legacy_path": "/reddit/1t3z3n2",
       "rank": null,
       "subreddit": "OpenSourceAI",
-      "score": "6",
-      "comments_count": 5
+      "score": "7",
+      "comments_count": 5,
+      "comments": []
     },
     {
       "id": "reddit-1rqjw3z",
@@ -463,17 +913,17 @@
       "tags": [
         "SystemDesign",
         "AI",
-        "Documentation",
-        "MLOps"
+        "MLOps",
+        "Documentation"
       ],
       "published_at_kst": "2026-03-11T13:20:58",
       "category": "mlops",
       "canonical_path": "/community/reddit-1rqjw3z",
-      "legacy_path": "/reddit/1rqjw3z",
       "rank": null,
       "subreddit": "mlops",
-      "score": "30",
-      "comments_count": 38
+      "score": "31",
+      "comments_count": 38,
+      "comments": []
     },
     {
       "id": "reddit-1t4hwup",
@@ -484,54 +934,54 @@
       "summary": "언어 모델의 검열을 제거하는 오픈소스 소프트웨어인 Heretic 1.3 버전이 출시되었습니다. 이번 업데이트는 모델 생성의 재현성을 확보하고 투명성을 높이는 데 중점을 두었으며, 커뮤니티는 이를 혁신적인 오픈소스 프로젝트로 높게 평가하고 있습니다.",
       "discussion_summary": "",
       "key_points": [
-        "재현 가능한 모델 생성: GPU, 드라이버, 라이브러리 환경 차이로 인한 결과값 변동 문제를 해결하여 누구나 동일한 모델을 생성할 수 있는 재현 디렉토리 기능을 도입했습니다.",
-        "통합 벤치마킹 및 효율성 개선: 내장된 벤치마킹 시스템과 피크 VRAM 사용량 감소, 더 넓은 모델 지원 범위를 통해 사용자 편의성을 극대화했습니다.",
-        "커뮤니티의 긍정적 반응: 사용자들은 Heretic을 llama.cpp에 비견될 만한 중요한 프로젝트로 평가하며, 모델 검열 해제 분야에서의 기술적 투명성에 환호하고 있습니다."
+        "재현 가능한 모델 생성: GPU, 드라이버, 라이브러리 환경 차이로 인한 결과 변동을 방지하기 위해 바이트 단위로 동일한 모델을 생성할 수 있는 재현 디렉토리 기능을 도입했습니다.",
+        "투명성 및 효율성 강화: 복잡한 코드 대신 투명한 기술 방식을 지향하며, 통합 벤치마킹 시스템과 VRAM 사용량 감소 등 실질적인 성능 개선을 포함합니다.",
+        "커뮤니티의 긍정적 반응: llama.cpp에 비견될 만한 중요한 오픈소스 프로젝트라는 찬사와 함께, 검열 없는 모델 제작에 대한 높은 기대감을 얻고 있습니다."
       ],
       "tags": [
+        "OpenSource",
+        "LLM_Uncensoring",
         "LLM",
         "Benchmark",
-        "AI",
-        "Heretic",
-        "OpenSource"
+        "Cloud"
       ],
       "published_at_kst": "2026-05-05T23:57:32",
       "category": "LocalLLaMA",
       "canonical_path": "/community/reddit-1t4hwup",
-      "legacy_path": "/reddit/1t4hwup",
       "rank": null,
       "subreddit": "LocalLLaMA",
-      "score": "313",
-      "comments_count": 54
+      "score": "319",
+      "comments_count": 54,
+      "comments": []
     },
     {
-      "id": "reddit-1t4mdyd",
+      "id": "reddit-1t4ffmo",
       "source": "reddit",
       "source_name": "Reddit",
-      "title": "GPT-5.5 Instant is starting to roll out in ChatGPT.",
-      "url": "https://www.reddit.com/r/OpenAI/comments/1t4mdyd/gpt55_instant_is_starting_to_roll_out_in_chatgpt/",
-      "summary": "ChatGPT에 GPT-5.5 Instant 모델이 출시되기 시작했다는 소식에 대해 사용자들의 다양한 반응이 나타나고 있습니다. 일부 사용자는 대화 품질 향상을 반기지만, 잦은 모델 업데이트와 비용 문제, 그리고 추론 모델과의 차별성에 대해 의문을 제기하고 있습니다.",
+      "title": "OpenAI expected to produce as many as 30 million 'AI agent' phones early next year, says industry analyst",
+      "url": "https://www.reddit.com/r/OpenAI/comments/1t4ffmo/openai_expected_to_produce_as_many_as_30_million/",
+      "summary": "OpenAI가 내년 초 최대 3,000만 대의 AI 에이전트 스마트폰을 출시할 것이라는 전망에 대해 커뮤니티는 매우 회의적인 반응을 보이고 있습니다. 사용자들은 개인정보 보호 문제와 제품의 실효성에 의문을 제기하며 부정적인 견해를 나타냈습니다.",
       "discussion_summary": "",
       "key_points": [
-        "사용자들은 5.x 모델의 불편함을 개선하여 대화용으로 적합해졌다는 긍정적인 평가와 함께, 잦은 모델 출시 주기에 피로감을 느끼고 있습니다.",
-        "API 비용이 기존 모델보다 높게 책정된 점과 추론 능력이 뛰어난 모델이 있는 상황에서 즉각 응답 모델의 효용성에 대한 논쟁이 있습니다.",
-        "모델의 응답 속도와 대화 품질이 향상되었음에도 불구하고, 향후 모델이 사용자에게 지나치게 논쟁적인 태도를 보일지에 대한 우려가 존재합니다."
+        "업계 분석가에 따르면 OpenAI가 내년 초 대규모의 AI 에이전트 전용 스마트폰을 생산할 가능성이 제기되었습니다.",
+        "사용자들은 데이터 보안 및 신뢰성 문제를 우려하며 하드웨어 제조사로서의 역량에 의구심을 표하고 있습니다.",
+        "기존 스마트폰의 기능 업데이트로 충분하다는 의견과 함께 시장 수요가 낮을 것이라는 예측이 존재합니다."
       ],
       "tags": [
-        "GPT-5.5",
-        "ChatGPT",
-        "LLM",
-        "AI",
-        "AI_Model_Update"
+        "AI 스마트폰",
+        "Agent",
+        "Security",
+        "OpenAI",
+        "Rust"
       ],
-      "published_at_kst": "2026-05-06T02:32:28",
+      "published_at_kst": "2026-05-05T22:25:47",
       "category": "OpenAI",
-      "canonical_path": "/community/reddit-1t4mdyd",
-      "legacy_path": "/reddit/1t4mdyd",
+      "canonical_path": "/community/reddit-1t4ffmo",
       "rank": null,
       "subreddit": "OpenAI",
-      "score": "231",
-      "comments_count": 73
+      "score": "156",
+      "comments_count": 87,
+      "comments": []
     }
   ]
 }
