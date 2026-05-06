@@ -1,0 +1,813 @@
+# Ecosystem Releases (2026-05-06)
+
+## 오늘의 요약
+오늘의 릴리즈는 SGLang, vLLM, TensorRT-LLM 등 주요 추론 엔진의 성능 최적화와 최신 대규모 언어 모델(DeepSeek, Nemotron 등) 지원 강화가 핵심이며, 하드웨어 가속(Qualcomm Hexagon) 및 인프라 확장(DeepInfra)을 통한 생태계 저변 확대가 두드러졌습니다.
+
+### 오늘의 핵심 포인트
+- 주요 추론 프레임워크(SGLang, vLLM, TensorRT-LLM)의 최신 모델 지원 및 커널/분산 처리 최적화
+- llama.cpp의 다양한 플랫폼(Qualcomm DSP 등) 최적화 및 멀티 OS 지원 강화
+- IBM Granite 4.1 공개 및 DeepInfra의 Hugging Face 합류를 통한 모델 신뢰성 및 배포 인프라 확장
+
+**오늘의 태그**: LLM Inference, Model Optimization, Open Source Ecosystem
+
+## 1. [v0.5.11](https://github.com/sgl-project/sglang/releases/tag/v0.5.11)
+**Source**: SGLang Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+SGLang v0.5.11 릴리즈는 CUDA 13 및 PyTorch 2.11 업그레이드를 통해 빌드 환경을 현대화하고 성능을 최적화했습니다. Speculative Decoding V2를 기본값으로 설정하고, 최신 대규모 모델들에 대한 지원과 분산 환경에서의 효율적인 캐싱 및 병렬 처리 기능을 대폭 강화했습니다.
+
+### 핵심 포인트
+- CUDA 13 및 PyTorch 2.11 업그레이드를 통한 최신 커널 지원 및 빌드 매트릭스 현대화
+- Speculative Decoding V2 기본 적용 및 DFLASH 커널 도입을 통한 추론 오버헤드 감소
+- Gemma 4, Qwen3.6, Kimi-K2 등 최신 모델 지원 및 DeepSeek-V3/Kimi-K2 대상 LoRA 지원
+
+**태그**: SGLang, LLM Inference, Speculative Decoding, CUDA, Deep Learning
+
+### 원문 설명
+Highlights 
+ 
+ 
+  CUDA 13 + Torch 2.11 : Default CUDA version moves to 13.0 across SGLang, sgl-kernel, and Docker images, and PyTorch is upgraded from 2.9 to 2.11 — modernizing the build matrix and unlocking newer kernels:  #21247 ,  #24162 ,  #24183 ,  #23593  ( tracking issue #21498 ) 
+ 
+ 
+  Speculative Decoding V2 by default : Spec V2 (with overlap scheduling to hide CPU overhead) is now the default, materially reducing per-step CPU cost for EAGLE/MTP/DFLASH paths:  #21062  
+ 
+ 
+  Decode Radix Cache for PD Disaggregation : Decode-side prefix caching now works under prefill/decode disaggregation, recovering radix-cache hit rates and TTFT savings for long shared prefixes in disaggregated deployments:  #19746  
+ 
+ 
+  Day-0 / New Model Support : Gemma 4, GLM-5.1, Qwen3.6, MiMo-V2.5 / V2.5-Pro, Ling-2.6-Flash, Mistral Medium 3.5, and Kimi-K2.6 — with cookbook recipes for tuned deployment commands. See  docs.sglang.io/cookbook :  #21952 ,  #23808 ,  #23811 ,  #23851 ,  #23947 ,  #23486 ,  #23394  
+ 
+ 
+  DFLASH Speculative Decoding : New high-throughput spec-decode kernel from the kernel community, expanded across model backends and AMD ROCm:  #22077 ,  #22358 ,  #22342 ,  #23553  
+ 
+ 
+  FA3 Kernels from the Kernel Community : Drop-in FA3 kernels contributed by the community, integrated alongside FA4 to give users a high-performance option that's easy to maintain:  #20796  
+ 
+ 
+  LoRA support for DeepSeek-V3 and Kimi-K2 : LoRA now works on the largest MLA-based MoE models, including DeepSeek-V3 MLA LoRA and Kimi K2 — enabling adapter-based fine-tuning of frontier-scale models:  #22323 ,  #22381  
+ 
+ 
+  Context Parallel (CP) Enhancements : All-reduce + RMSNorm fusion under CP for end-to-end speedups, plus support for  moe_dp_size = 1  paired with arbitrary  attention_cp_size  so MoE and attention parallelism can be tuned independently:  #21249 ,  #22003  
+ 
+ 
+  FlashInfer CuteDSL MoE Runner Backend : New dedicated  FlashInferCuteDslMoE  layer for the standard FP4 MoE path, giving an additional high-performance fused-MoE option:  #21339  
+ 
+ 
+ New Model Support 
+ Entries with a published cookbook recipe come first; entries whose cookbook page is still pending are grouped at the bottom. 
+ 
+ Gemma 4:  #21952  (and follow-ups  #22079 ,  #24048 ,  #22842 ; see  cookbook ) 
+ GLM-5.1:  #22543 ,  #23037  (see  cookbook ) 
+ Qwen3.6:  #23486  (see  cookbook ) 
+ MiMo-V2.5 / MiMo-V2.5-Pro:  #23808 ,  #23811 ,  #23851 ,  #23945 ,  #24118  (see  cookbook ) 
+ Ling-2.6-Flash:  #23947  (see  cookbook ) 
+ Mistral Medium 3.5: see  cookbook  
+ Kimi-K2.6:  #23394 ,  #23408  (see  cookbook ) 
+ Hunyuan v3 (Tencent, preview):  #23533  (see  cookbook ) 
+ FLUX.1-dev ModelOpt NVFP4 (Diffusion):  #22672  (see  FLUX cookbook ) 
+ FLUX.2-small-decoder (Diffusion):  #22414  (see  FLUX cookbook ) 
+ Qwen Image ModelOpt FP8 (Diffusion):  #23155  (see  Qwen-Image cookbook ) 
+ LTX-2.3 / LTX-2.3 two-stage / TI2V (Diffusion):  #22182 ,  #22667 ,  #22869  (see  LTX cookbook ) 
+ Qwen3-ASR (chunk-based streaming):  #22073 ,  #22089  
+ Voxtral (Mistral speech-to-text):  #21635  
+ Parakeet (NVIDIA Nemotron encoder):  #23568  
+ Moss-VL:  #23454  
+ SequenceClassification model architecture (powers the Score API):  #22118  
+ Stable Diffusion 3 medium (Diffusion):  #19225  
+ ERNIE-Image (Diffusion):  #22439  
+ JoyAI-Image-Edit (Diffusion):  #22625  
+ 
+ Speculative Decoding 
+ 
+ DFLASH speculative decoding initial support:  #22077  
+ DFLASH enabled across additional model backends:  #22358  
+ DFLASH speculative decoding on AMD ROCm:  #22342  
+ Spec V2 enabled by default with overlap scheduling:  #21062  
+ Penalty support for Spec V2 overlap scheduling:  #22049  
+ Adaptive  speculative_num_steps  for EAGLE topk=1:  #21599  
+ Allow piecewise CUDA graph with speculative decoding:  #22128  
+ Eagle3 / DFLASH aux hidden state capture during CUDA graph init fixed:  #22836  
+ Split  accept_length  into  num_accepted_drafts  /  num_accepted_tokens :  #23962  
+ DFLASH speculative decoding documentation:  #23553  
+ 
+ PD Disaggregation 
+ 
+ Decode-side radix cache support:  #19746  
+ Incremental transfer for Mooncake transfer engine:  #24257  
+ Allow  PrefillDelayer  in disaggregated-prefill mode:  #23588  
+ NIXL: heterogeneous TP KV transfer for non-MLA models (Step 1/2 for Qwen3.5):  #22145  
+ NIXL: Mamba state slice transfer for heterogeneous TP (Step 2/2 for Qwen3.5):  #22240  
+ Bug fixes for  IntraNode NVLink , MTP-layer KV transfer, and disagg-prefill DP rank resolution:  #23252 ,  #23539 ,  #22901 ,  #22990  
+ 
+ Context Parallel &amp; Parallelism 
+ 
+ All-reduce fusion support under CP:  #21249  
+  moe_dp_size = 1  paired with arbitrary  attention_cp_size :  #22003  
+ All-reduce fusion enabled for DSA models:  #22390  
+ Replace all-reduce + dp_scatter with  reduce_scatterv  for DP attention:  #22642  
+ Step3p5: optimize all-reduce in MoE layers:  #22773  
+ Pipeline parallelism on Intel XPU:  #23472  
+ OpenTelemetry tracing for pipeline parallelism:  #23169  
+ 
+ LoRA 
+ 
+ DeepSeek-V3 MLA LoRA support and quantization-info refactor:  #22323  
+ Kimi K2 LoRA support:  #22381  
+ LoRADrainer to address high P99 TTFT:  #17913  
+ Decoupled LoRA MoE backend with Marlin support:  #21858  
+ Virtual experts for LoRA MoE (1/n):  #22122 ,  #24007  
+ CSGMV kernel offline auto-tuning:  #20391  
+ Triton  sgemm  speedup with better grid selection:  #22386  
+ Dual MoE CUDA graph capture for lora/nolora batches:  #22809  
+ 
+ Performance 
+ 
+ FA3 kernels from the kernel community:  #20796  
+ Precompute FA3  scheduler_metadata  to eliminate per-layer prepare cost:  #21104  
+ Precompute  gemma_weight  to avoid redundant add on every forward:  #22673  
+ Eliminate attention DtoD copy by passing pre-allocated output to FA:  #21985  
+ Skip KV cache in FA backend for embedding mode:  #21971  
+ O(1)  RadixKey  view for EAGLE bigram key:  #23106  
+ PCG inductor path optimization for FP8 models:  #23227  
+ Combo-kernels for horizontal fusion:  #21977  
+ Optimize Gemma4 VLM with PCG and fused RMSNorm + residual add + scalar:  #24048  
+ Restore torch.compile fusion for topk postprocessing:  #21771  
+ Reduce unnecessary kernels and copies in the NSA indexer:  #22232  
+ 
+ Observability 
+ 
+ Pending token count surfaced in prefill log and  get_load :  #22480  
+ OpenTelemetry tracing for speculative decoding:  #19545  
+ OpenTelemetry tracing for pipeline parallelism:  #23169  
+ OpenTelemetry tracing in DiffGenerator:  #21254  
+ Prometheus metrics endpoint for gRPC mode:  #20801  
+ HTTP sidecar endpoints and FlushCache gRPC RPC for gRPC mode:  #22500  
+ Raw KV cache pool token counts as Prometheus gauges:  #22726  
+ 
+ SGLang-Diffusion 
+ 
+ New model support: LTX-2.3 ( #22182 ,  #22667 ,  #22869 ), ERNIE-Image ( #22439 ), FLUX.2-small-decoder ( #22414 ), JoyAI-Image-Edit ( #22625 ), FLUX.1-dev ModelOpt NVFP4 ( #22672 ), Qwen Image ModelOpt FP8 ( #23155 ), Stable Diffusion 3 medium ( #19225 ) 
+ ModelOpt diffusion FP8 support for Flux1/Flux2 and Wan2.2:  #22365  
+ Standalone Rollout API + Denoising Environment Backpass + SP-Aligned Log-Prob for T2I post-training:  #22604  
+ Disaggregated diffusion:  #21701  
+ Dynamic batching v0:  #18764  
+ CPU platform support for SGLang Diffusion:  #20816  
+ AITER backends in Flux 2 pipeline (AMD):  #22802  
+ LTX-2 feed-forward tensor parallelism optimization:  #23221  
+ In-memory loading for URL/base64 image inputs (default):  #23118  
+ Mixed-resolution benchmark support:  #20863  
+ Auto-enable best parallel setting if unspecified:  #22763  
+ 
+ AMD 
+ 
+ MiniMax-M2.5 optimizations (aiter biased grouped topk; fused FP8 KV cache write):  #23611 ,  #23620  
+ Fused QK Gemma norm kernels (4 → fewer kernels):  #23575  
+ Fused all-reduce + RMSNorm simplification:  #21986  
+ GLM-5 / GLM-5.1 MXFP4 nightly accuracy + perf benchmarks (MI30x / MI35x):  #21773 ,  #22336  
+ MTP for GLM-5-mxfp4:  #23219  
+ Aiter v0.1.12.post1 upgrade:  #22264  
+ DFLASH speculative decoding enabled on ROCm:  #22342  
+ Fix  --page-size &gt; 1  memory access fault with speculative decoding:  #23596  
+ 
+ NPU / Ascend 
+ 
+ Ascend backend supports Qwen3 MoE attention CP:  #21685  
+ GLM-4.5V and GLM-4.7-Flash NPU support / fixes:  #22961 ,  #22509  
+ MTP for Qwen3.5:  #20918  
+ TP communications compression for Qwen3 on NPU:  #20520  
+ Add support-new-models documentation for NPU:  #23824  
+ GGUF quantization for Ascend NPU (dense + MoE):  #17883  
+ 
+ CPU 
+ 
+ GPTQ / AWQ 4-bit quantization on CPU:  #22685  
+  gemma4_rmsnorm_cpu  kernel:  #22842  
+ Qwen3.5 model optimization for CPU:  #19484  
+ Apply routed scaling factor on output for biased grouped topk fusion:  #22413  
+ Fix  extend_attention_cpu  /  flash_attn_varlen_func  NaN for large seq:  #22434  
+ 
+ Quantization 
+ 
+ MXFP4 quantized dense models on AMD CDNA2/CDNA3 GPUs:  #19143  (later reverted in  #23031 , follow-up forthcoming) 
+ NVFP4 KV cache: quantization strategy abstraction and kernel:  #21954  
+ DeepSeek-R1-0528-w4a8 + DeepEP Low-Latency FP8 dispatch:  #22316  
+ MXFP8 sm100 path cleanup:  #21881  
+ GLM-5/5.1 MXFP4 checkpoint inference compatibility fix:  #22543  
+ 
+ Dependencies 
+ 
+ Torch upgraded 2.9 → 2.11:  #21247  
+ Default CUDA bumped to 13.0 across sglang, sgl-kernel, and Docker images:  #21498  (tracking),  #24162 ,  #24183 ,  #23593 ,  #23119  
+ Flashinfer 0.6.7.post2 → 0.6.8.post1:  #23281  
+ sgl-kernel bumped to 0.4.1.post1:  #23720 ,  #23733  
+ sgl-kernel bumped to 0.4.2:  #24170  
+ Aiter v0.1.12.post1 (AMD):  #22264  
+ 
+ Security 
+ 
+ Fix for  CVE-2026-5760 :  #23660  
+ Fix Trivy CVEs and cubin download 403s in Docker image:  #22322  
+ 
+  All PRs included in this release :   v0.5.10.post1...v0.5.11   
+ New Contributors 
+ 
+  @AethoceSora  made their first contribution in  #23426  
+  @AlbeeSo  made their first contribution in  #23710  
+  @alec-flowers  made their first contribution in  #24090  
+  @AlonKejzman  made their first contribution in  #23753  
+  @amacaskill  made their first contribution in  #22537  
+  @AndyLi429  made their first contribution in  #21685  
+  @Baichuan7  made their first contribution in  #23060  
+  @ccullen-cert  made their first contribution in  #23660  
+  @ChangLiu0709  made their first contribution in  #22908  
+  @charlotte12l  made their first contribution in  #21983  
+  @chenkaiyue  made their first contribution in  #17195  
+  @chx96642264  made their first contribution in  #22705  
+  @ColinZ22  made their first contribution in  #22543  
+  @cyyc0310  made their first contribution in  #22920  
+  @divyamagrawal06  made their first contribution in  #23325  
+  @dyhsup  made their first contribution in  #22439  
+  @egvenediktov  made their first contribution in  #20520  
+  @erikwijmans  made their first contribution in  #21974  
+  @fengli1702  made their first contribution in  #19143  
+  @fergusfinn  made their first contribution in  #21035  
+  @fortunecookiee  made their first contribution in  #20960  
+  @gxlvera  made their first contribution in  #19225  
+  @he-yufeng  made their first contribution in  #20739  
+  @Henson-Zh-Ali  made their first contribution in  #20522  
+  @icepoint666  made their first contribution in  #22592  
+  @iridiumine  made their first contribution in  #20918  
+  @is-not  made their first contribution in  #18349  
+  @JasonHe-WQ  made their first contribution in  #21944  
+  @jh-nv  made their first contribution in  #21254  
+  @jiangyinzuo  made their first contribution in  #23169  
+  @JieTang66  made their first contribution in  #23983  
+  @JoyFuture  made their first contribution in  #23808  
+  @jthakurH  made their first contribution in  #16793  
+  @kangyifei  made their first contribution in  #23241  
+  @kingkingleeljj  made their first contribution in  #20967  
+  @kkyyxhll  made their first contribution in  #23062  
+  @KrishnanPrash  made their first contribution in  #22175  
+  @lahmuller  made their first contribution in  #22625  
+  @lixuwei2333  made their first contribution in  #22247  
+  @lkhl  made their first contribution in  #22431  
+  @loading66  made their first contribution in  #22700  
+  @luccafong  made their first contribution in  #24165  
+  @mingyue300  made their first contribution in  #21723  
+  @minosfuture  made their first contribution in  #23419  
+  @mispa-ms  made their first contribution in  #23097  
+  @mlleo  made their first contribution in  #23537  
+  @Napkin-AI  made their first contribution in  #23572  
+  @nvpohanh  made their first contribution in  #22852  
+  @officialasishkumar  made their first contribution in  #22600  
+  @opherlieber  made their first contribution in  #22547  
+  @ranjiewen  made their first contribution in  #21698  
+  @RichardoMrMu  made their first contribution in  #19545  
+  @robellliu-dev  made their first contribution in  #20835  
+  @SammLSH  made their first contribution in  #22089  
+  @Seven-Streams  made their first contribution in  #21722  
+  @shenxiul  made their first contribution in  #23327  
+  @siju-samuel  made their first contribution in  #23472  
+  @stepinto  made their first contribution in  #23478  
+  @tfhddd  made their first contribution in  #22029  
+  @vvagaytsev  made their first contribution in  #22363  
+  @WangHao-hw  made their first contribution in  #22778  
+  @Wen-xuan-Xu  made their first contribution in  #22923  
+  @xiaobochen-amd  made their first contribution in  #22626  
+  @yaya159456  made their first contribution in  #21694  
+  @YMbmzy  made their first contribution in  #22049  
+  @yuki-brook  made their first contribution in  #18016  
+  @Zaire404  made their first contribution in  #22982  
+  @ZeyuanChen2000  made their first contribution in  #21543  
+  @zhaozx-cn  made their first contribution in  #22266  
+  @zhsurpass  made their first contribution in  #22697  
+  @zsj555  made their first contribution in  #23454  
+ 
+  Full Changelog :   v0.5.10.post1...v0.5.11
+
+---
+
+## 2. [b9037](https://github.com/ggml-org/llama.cpp/releases/tag/b9037)
+**Source**: llama.cpp Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+llama.cpp의 b9037 릴리즈는 Qualcomm Hexagon DSP 최적화를 포함한 다양한 플랫폼용 빌드를 제공합니다. 특히 HMX를 활용한 M-tail 행 처리 및 패딩된 활성화 루프 최적화를 통해 연산 효율을 개선했습니다.
+
+### 핵심 포인트
+- Hexagon DSP 최적화: HVX 대신 HMX를 사용하여 M-tail 행을 처리하도록 개선
+- 연산 최적화: hmx-mm 및 hex-mm을 통한 패딩된 활성화 루프 언롤링 및 최적화 수행
+- 광범위한 플랫폼 지원: macOS, Linux, Android, Windows, openEuler 등 다양한 OS 및 아키텍처용 빌드 포함
+
+**태그**: llama.cpp, Hexagon, Optimization
+
+### 원문 설명
+Hexagon: Process M-tail rows on HMX instead of HVX ( #22724 ) 
+ 
+ 
+ hex-mm: process m-tail rows on HMX instead of HVX 
+ 
+ 
+ hmx-mm: unroll and optimize padded activation loop 
+ 
+ 
+ 
+ Co-authored-by: Max Krasnyansky  maxk@qti.qualcomm.com  
+ 
+  macOS/iOS:  
+ 
+  macOS Apple Silicon (arm64)  
+  macOS Apple Silicon (arm64, KleidiAI enabled)  
+  macOS Intel (x64)  
+  iOS XCFramework  
+ 
+  Linux:  
+ 
+  Ubuntu x64 (CPU)  
+  Ubuntu arm64 (CPU)  
+  Ubuntu s390x (CPU)  
+  Ubuntu x64 (Vulkan)  
+  Ubuntu arm64 (Vulkan)  
+  Ubuntu x64 (ROCm 7.2)  
+  Ubuntu x64 (OpenVINO)  
+  Ubuntu x64 (SYCL FP32)  
+  Ubuntu x64 (SYCL FP16)  
+ 
+  Android:  
+ 
+  Android arm64 (CPU)  
+ 
+  Windows:  
+ 
+  Windows x64 (CPU)  
+  Windows arm64 (CPU)  
+  Windows x64 (CUDA 12)  -  CUDA 12.4 DLLs  
+  Windows x64 (CUDA 13)  -  CUDA 13.1 DLLs  
+  Windows x64 (Vulkan)  
+  Windows x64 (SYCL)  
+  Windows x64 (HIP)  
+ 
+  openEuler:  
+ 
+  openEuler x86 (310p)  
+  openEuler x86 (910b, ACL Graph)  
+  openEuler aarch64 (310p)  
+  openEuler aarch64 (910b, ACL Graph)
+
+---
+
+## 3. [b9033](https://github.com/ggml-org/llama.cpp/releases/tag/b9033)
+**Source**: llama.cpp Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+llama.cpp의 b9033 릴리즈는 ggml 라이브러리 동기화가 이루어진 업데이트입니다. macOS, Linux, Windows, Android, openEuler 등 다양한 운영체제와 다양한 하드웨어 가속 아키텍처를 지원하는 빌드들을 포함하고 있습니다.
+
+### 핵심 포인트
+- ggml 라이브러리 동기화(sync) 작업 수행
+- macOS(Apple Silicon/Intel), Linux, Windows, Android, openEuler 등 광범위한 플랫폼 지원
+- CUDA, Vulkan, SYCL, ROCm, OpenVINO 등 다양한 가속 프레임워크를 포함한 멀티 아키텍처 빌드 제공
+
+**태그**: llama.cpp, ggml, OpenSource
+
+### 원문 설명
+sync : ggml 
+ 
+  macOS/iOS:  
+ 
+  macOS Apple Silicon (arm64)  
+  macOS Apple Silicon (arm64, KleidiAI enabled)  
+  macOS Intel (x64)  
+  iOS XCFramework  
+ 
+  Linux:  
+ 
+  Ubuntu x64 (CPU)  
+  Ubuntu arm64 (CPU)  
+  Ubuntu s390x (CPU)  
+  Ubuntu x64 (Vulkan)  
+  Ubuntu arm64 (Vulkan)  
+  Ubuntu x64 (ROCm 7.2)  
+  Ubuntu x64 (OpenVINO)  
+  Ubuntu x64 (SYCL FP32)  
+  Ubuntu x64 (SYCL FP16)  
+ 
+  Android:  
+ 
+  Android arm64 (CPU)  
+ 
+  Windows:  
+ 
+  Windows x64 (CPU)  
+  Windows arm64 (CPU)  
+  Windows x64 (CUDA 12)  -  CUDA 12.4 DLLs  
+  Windows x64 (CUDA 13)  -  CUDA 13.1 DLLs  
+  Windows x64 (Vulkan)  
+  Windows x64 (SYCL)  
+  Windows x64 (HIP)  
+ 
+  openEuler:  
+ 
+  openEuler x86 (310p)  
+  openEuler x86 (910b, ACL Graph)  
+  openEuler aarch64 (310p)  
+  openEuler aarch64 (910b, ACL Graph)
+
+---
+
+## 4. [v0.20.1](https://github.com/vllm-project/vllm/releases/tag/v0.20.1)
+**Source**: vLLM Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+vLLM v0.20.1은 v0.20.0을 기반으로 한 패치 릴리스로, DeepSeek V4 모델의 안정화와 성능 향상에 중점을 두었습니다. 또한 다양한 버그 수정과 커널 최적화를 통해 추론 효율성을 개선했습니다.
+
+### 핵심 포인트
+- DeepSeek V4 모델 지원 및 성능 최적화 (Multi-stream pre-attention GEMM, 통합 타일 커널 등)
+- FlashInfer를 위한 BF16 및 MXFP8 all-to-all 지원 및 FP32-to-FP4 변환 속도 개선
+- CUDA graph, 메모리 관리, MoE 관련 버그 및 런타임 오류 수정
+
+**태그**: vLLM, DeepSeek V4, LLM Inference
+
+### 원문 설명
+vLLM v0.20.1 
+ This is a patch release on top of  v0.20.0  primarily focused on  DeepSeek V4 stabilization and performance improvements , along with several important bug fixes. 
+ DeepSeek V4 
+ 
+ Base model support ( #41006 ). 
+ Multi-stream pre-attention GEMM ( #41061 ), configurable pre-attn GEMM knob ( #41443 ), and tuned default  VLLM_MULTI_STREAM_GEMM_TOKEN_THRESHOLD  ( #41526 ). 
+ BF16 and MXFP8 all-to-all support for FlashInfer one-sided communication ( #40960 ). 
+ PTX  cvt  instruction for faster FP32-&gt;FP4 conversion ( #41015 ). 
+ Integrated tile kernels ( head_compute_mix_kernel ) for optimized head computation ( #41255 ). 
+ Guard megamoe flag with Pure TP ( #41522 ). 
+ Fixed persistent topk cooperative deadlock at TopK=1024 ( #41189 ) and inter-CTA init race on RadixRowState ( #41444 ), with temporary disable of persistent topk as a workaround ( #41442 ). 
+ Fixed import error due to AOT compile cache loading ( #41090 ). 
+ Fixed torch inductor error ( #41135 ). 
+ Fixed repeated RoPE cache initialization ( #41148 ). 
+ Fixed missing type conversion for non-streaming tool calls in DSV3.2/V4 ( #41198 ). 
+ 
+ Bug Fixes 
+ 
+ Fixed  max_num_batched_token  not being captured in CUDA graph ( #40734 ). 
+ Fixed  num_gpu_blocks_override  not accounted for in  max_model_len  checks ( #41069 ). 
+ Auto-disable  expandable_segments  around cumem memory pool ( #40812 ). 
+ Fixed BailingMoE linear layer ( #40859 ) and MLA RoPE rotation for BailingMoE V2.5 ( #41185 ). 
+ Fixed reasoning parser kwargs not being passed to structured output ( #41199 ). 
+ [ROCm] Fixed  input_ids  and  expert_map  args for Quark W4A8 GPT-OSS ( #41165 ). 
+ 
+ List of contributors 
+  @BugenZhao ,  @chaunceyjiang ,  @gau-nernst ,  @ghphotoframe ,  @Isotr0py ,  @jeejeelee ,  @khluu ,  @njhill ,  @Rohan138 ,  @wzhao18 ,  @youkaichao ,  @ywang96 ,  @ZJY0516 ,  @zixi-qi ,  @zyongye
+
+---
+
+## 5. [v0.20.2rc0: [MRV2] Add shutdown() method (#41297)](https://github.com/vllm-project/vllm/releases/tag/v0.20.2rc0)
+**Source**: vLLM Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+vLLM v0.20.2rc0 릴리즈에서는 shutdown() 메서드가 새롭게 추가되었습니다. 이번 업데이트는 MRV2 관련 작업의 일환으로 진행되었습니다.
+
+### 핵심 포인트
+- shutdown() 메서드 추가
+- MRV2 관련 기능 업데이트
+- v0.20.2rc0 릴리즈 버전 반영
+
+**태그**: vLLM, Release, Python
+
+### 원문 설명
+Signed-off-by: Woosuk Kwon  woosuk@inferact.ai
+
+---
+
+## 6. [Granite 4.1 LLMs: How They’re Built](https://huggingface.co/blog/ibm-granite/granite-4-1)
+**Source**: Hugging Face Blog | **Category**: Blog Release | **Release Type**: ecosystem_blog
+
+### 요약
+IBM이 새롭게 공개한 Granite 4.1 LLM 시리즈의 설계 방식과 구축 과정을 상세히 설명하는 블로그 포스트입니다. 데이터 품질 관리와 모델 학습 전략을 통해 어떻게 신뢰할 수 있는 모델을 만들었는지 다룹니다.
+
+### 핵심 포인트
+- Granite 4.1 LLM의 아키텍처 및 구축 방법론 소개
+- 모델 성능을 결정짓는 데이터 정제 및 학습 프로세스 설명
+- 신뢰성과 효율성을 갖춘 오픈 모델 개발 전략 공유
+
+**태그**: Granite 4.1, LLM, IBM
+
+---
+
+## 7. [v1.3.0rc13](https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.3.0rc13)
+**Source**: TensorRT-LLM Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+TensorRT-LLM v1.3.0rc13 릴리즈는 Nemotron 3 Nano Omni 및 DeepSeek-V3 시리즈에 대한 모델 지원 최적화와 멀티모달 기능 강화를 중점적으로 다룹니다. 또한, 커널 최적화, 분산 서빙(Disaggregated serving) 안정성 개선 및 다양한 런타임 버그 수정을 통해 추론 성능과 신뢰성을 높였습니다.
+
+### 핵심 포인트
+- Nemotron 3 Nano Omni 및 DeepSeek-V3/V3-Lite 모델 지원과 Blackwell/SM100 GPU를 위한 성능 최적화
+- VisualGen을 위한 Cache-DiT 및 통합 캐시 가속기 도입, Sparse MQA/GQA 어텐션 지원 등 새로운 기능 추가
+- KV 캐시 관리, 스케줄러 정확성, 멀티모달 데이터 처리 및 분산 서빙 관련 다양한 런타임 버그 수정
+
+**태그**: TensorRT-LLM, DeepSeek, Nemotron, LLM-Inference, GPU-Optimization
+
+### 원문 설명
+Highlights 
+ 
+ 
+ Model Support 
+ 
+ Support and initial optimizations for Nemotron 3 Nano Omni; known issues for audio-from-video and chunked prefill for video being actively worked on 
+ Add audio extraction from video, optimize ViT attention, and reduce initialization memory for Nemotron and Nemotron Nano VL models ( #12921 ,  #12911 ,  #13283 ) 
+ Add per-model VisualGen example scripts, shared configs, per-model defaults, and metadata updates ( #12992 ,  #12862 ) 
+ Add GLM-4.7 and GLM-5 tool parser support ( #13150 ) 
+ Optimize Nemotron-H execution from the Python layer and preserve Nemotron HF mamba cache dtype during bench tuning ( #13032 ,  #12826 ) 
+ Improve DeepSeek-V3.2 and DeepSeek-V3-Lite support with targeted perf and chunked-prefill fixes on Blackwell and SM100-class GPUs ( #13142 ,  #13257 ) 
+ 
+ 
+ 
+ API 
+ 
+ Fix the chunked prefill API contract for Nemotron Nano VL ( #13025 ) 
+ Add abort and resume support for Async RL in verl ( #12272 ) 
+ Add a modular logger with automatic module detection and per-module filtering ( #13202 ) 
+ Improve prompt handling by accounting for existing multimodal placeholder tokens in text prompts ( #12827 ) 
+ Propagate real server-side failures to disaggregated serving clients and improve empty-file handling in trtllm-bench ( #13119 ,  #12552 ) 
+ 
+ 
+ 
+ Feature 
+ 
+ Add VisualGen Cache-DiT and a unified cache accelerator ( #12548 ) 
+ Expand kernel support with broader RMSNorm coverage, optimized causal-conv1d prefill and decode, FP4 residual quantization, and refreshed SageAttention kernels ( #13033 ,  #13103 ,  #13117 ,  #12937 ) 
+ Add batched addSequence with two-phase claim and unified VSWA and non-reuse support ( #13029 ) 
+ Add sparse MQA and GQA attention support and introduce new sharding infrastructure ( #12470 ,  #12419 ) 
+ Improve serving performance with async media loading, faster video frame decoding, cached text computation reuse, lower custom-op overhead, padding-aware CUDA graph tuning, and reduced single-rank broadcast overhead ( #13034 ,  #12677 ,  #13149 ,  #12895 ,  #13412 ,  #13259 ,  #11640 ) 
+ Optimize runtime internals with Minimax RMSNorm tuning, consolidated prefix-reuse analysis, gen-only sync transfer v2, DWDP contention config cleanup, and round-robin CP cache transmission ( #12163 ,  #13095 ,  #12882 ,  #12974 ,  #13180 ) 
+ Restore EAGLE3 dynamic-tree speculative decoding support and centralize perfect-router integration and validation ( #13081 ,  #13250 ) 
+ 
+ 
+ 
+ Fix 
+ 
+ Fix KV cache and scheduler correctness issues, including SWA compatibility, token accounting with context chunking, over-allocation in VSWA plus EAGLE flows, KVCacheManagerV2 bugs, and multimodal and disaggregated cache reuse problems ( #12968 ,  #12976 ,  #12855 ,  #12306 ,  #13104 ,  #12472 ) 
+ Fix runtime stability issues by preventing benchmark fill-loop hangs, tightening warmup reservation behavior, and making host-memory-based prefetch decisions consistent across ranks ( #13065 ,  #13078 ,  #13161 ) 
+ Fix EAGLE3 LoRA speculative decoding and preserve speculative layer weights to avoid MTP plus PP hangs ( #13005 ,  #12555 ) 
+ Fix FMHA and attention runtime issues, including SM90 full-mask skip-softmax dispatch, misleading generation warnings, stale CUDA graphs on beam-width changes, and FlashInfer KV layout handling ( #13120 ,  #13157 ,  #13255 ,  #13190 ) 
+ Fix vision and multimodal correctness issues, including KV-cache quantization leaks into the vision encoder, FLUX high-resolution scheduler off-by-one behavior, and Super V3 multi-stream MoE instability ( #13181 ,  #13091 ,  #13122 ) 
+ Fix packaging and environment issues by restoring the missing aarch64 library, enforcing NCCL &gt;= 2.28 at configure time, and using weights_only=True in LoRA manager loads ( #13206 ,  #13108 ,  #13391 ) 
+ Fix operational reliability issues in CI and perf pipelines, including OpenSearch upload failures, hanging AIPerf metrics, SLURM host name propagation, and SLURM submission retry behavior ( #13215 ,  #13314 ,  #13367 ,  #12778 ) 
+ Fix additional model and runtime issues for Qwen3 mrope cache handling, DSA illegal memory access with CUDA graph plus host KV offload, stale tokenizer alias imports, and WAN example timing conflicts ( #13269 ,  #13124 ,  #13086 ,  #13193 ,  #12128 ) 
+ 
+ 
+ 
+ Documentation 
+ 
+ Restructure installation documentation and refresh verbose comments ( #12402 ,  #13387 ) 
+ Update invalid Dynamo documentation URLs ( #13038 ) 
+ 
+ 
+ 
+ Test &amp; Infra 
+ 
+ Add Dynamo API compatibility tests, VisualGen regression coverage, and refactor MoE communication tests ( #12970 ,  #13372 ,  #12841 ) 
+ Expand CI coverage for disaggregated serving and weekly performance suites, including K2.5 EPLB coverage, refreshed Nemotron datasets, and additional weekly perf models ( #13185 ,  #12982 ,  #13325 ) 
+ Improve CI signal quality by splitting multimodal DGX_B200 jobs, removing obsolete or low-priority cases, dropping non-key-model L0 coverage, and moving bf16 and auto precision variants to post-merge ( #12978 ,  #13262 ,  #13374 ,  #13315 ,  #13366 ) 
+ Improve CI tooling with PR-aware failure analysis, SwiftStack upload support, wildcard bot stage commands, a sync_qa_tests Jenkins script, doc tests, and markdown-only doc-build rules ( #12849 ,  #13291 ,  #12881 ,  #13028 ,  #13152 ,  #13358 ,  #13441 ) 
+ Refresh repository ownership and security plumbing with CODEOWNERS updates, HMAC key enforcement, and container vulnerability fixes ( #13110 ,  #13213 ,  #9850 ,  #13447 ) 
+ 
+ 
+ 
+ What's Changed 
+ 
+ [https://nvbugs/5997092][fix] Remove waives for DS-V3.2/R1 FP4 Blackkwell perf tests by  @peihu-nv  in  #13042  
+ [None][infra] Waive 2 failed cases for main in post-merge by  @xinhe-nv  in  #13105  
+ [TRTLLM-9132][infra] Update to ignore failure for release check and building images by  @EmmaQiaoCh  in  #9871  
+ [https://nvbugs/5626259][fix] Enable nemotron-h chunk prefill test by  @Wanli-Jiang  in  #12980  
+ [None][feat] Add the invocation path for mamba2 mtp custom op by  @JadoTu  in  #12787  
+ [None][infra] Waive 4 failed cases for main in post-merge 2654 by  @ZhanruiSunCh  in  #13113  
+ [None][infra] Waive 3 failed cases for main in post-merge 2658 by  @ZhanruiSunCh  in  #13141  
+ [None][chore] Add CODEOWNERS mappings for  @NVIDIA/trt-llm-multimodal-devs  by  @venkywonka  in  #13110  
+ [None][chore] Add disaggregated tests that timeout to waives.txt by  @2ez4bz  in  #13136  
+ [https://nvbugs/5844149][fix] Fix issues with DSV3.2 perf tests by  @chenfeiz0326  in  #13142  
+ [None][fix] Fix a capacity issue in KVCacheManagerV2 for SWA compatibility by  @heyuhhh  in  #12968  
+ [https://nvbugs/6044213][chore] unwaive and reduce free mem ratio in AutoDeploy's perf test: deepseek_r1_distill_qwen_32b by  @MrGeva  in  #12965  
+ [None][fix] Fix chunked prefill API contract for nemotron nano VL by  @2ez4bz  in  #13025  
+ [TRTLLM-11794][feat] Optimize ViT Attention kernel on Nemotron by  @yechank-nvidia  in  #12911  
+ [TRTLLMINF-38][feat] Pass PR number to CI failure analysis agent by  @dpitman-nvda  in  #12849  
+ [https://nvbugs/6074784][chore] Temp waive dis-agg transformers failed tests by  @Shixiaowei02  in  #13145  
+ [None][fix] Fix scheduler off-by-one in FLUX pipelines at high resolutions by  @karljang  in  #13091  
+ [None][infra] Add 5 users to blossom-ci allowlist by  @yuanjingx87  in  #13146  
+ [TRTLLM-11403][feat] VisualGen Cache-DiT + unified cache accelerator by  @o-stoner  in  #12548  
+ [None][fix] Enable LoRA in EAGLE3 speculative decoding by  @Funatiq  in  #13005  
+ [TRTLLM-11903][test] Add API compatibility tests for dynamo by  @brb-nv  in  #12970  
+ [None][feat] Update rms_norm + fp4_qaunt kernel supporting more dim by  @Wanli-Jiang  in  #13033  
+ [None][chore] Bump version to 1.3.0rc13 by  @VALLIS-NERIA  in  #13159  
+ [None][fix] Fix compute token accounting for KV cache reuse with context chunking by  @lancelly  in  #12976  
+ [None][feat] Batch addSequence with two-phase claim and unified VSWA/non-reuse support by  @liji-nv  in  #13029  
+ [None][bug] fix SM90 full-mask skip-softmax dispatch by  @bobboli  in  #13120  
+ [None][test] Refactor MoE comm tests: unified dispatch+combine pipeline by  @xxi-nv  in  #12841  
+ [https://nvbugs/5983320][fix] Use encoder_max_batch_size of 1 for LLaVa in test_multi_request_batch_chat by  @moraxu  in  #12647  
+ [TRTLLM-11771][feat] Add audio extraction from video for Nemotron Nano VL by  @2ez4bz  in  #12921  
+ [None][fix] Update stale TOKENIZER_ALIASES import path in serve and bench modules by  @cascade812  in  #13086  
+ [TRTLLM-11695][feat] Add per-model VisualGen example scripts, shared configs, and per-model defaults by  @zhenhuaw-me  in  #12992  
+ [https://nvbugs/6060119][chore] Unwaive DSR1 FP4 128k8k disagg perf tests by  @peihu-nv  in  #13088  
+ [None][feat] Support sparse mqa/gqa attention by  @heyuhhh  in  #12470  
+ [None][fix] Support custom_tokenizer in KvCacheAwareRouter for disagg serving by  @lishicheng1996-nv  in  #12990  
+ [https://nvbugs/6013562][fix] fix kv cache allocation is double the budget for vswa + eagle by  @dongfengy  in  #12855  
+ [None][test] Waive 1 failed cases for main in QA CI by  @xinhe-nv  in  #13147  
+ [https://nvbugs/6013562][fix] Unwaive tests since the fix has been merged by  @dongfengy  in  #13183  
+ [None][chore] Add Dynamo configs to TRTLLM CI - Disagg - Part 1 by  @brb-nv  in  #13167  
+ [None][feat] Minimax RMS norm optimization by  @jmydurant  in  #12163  
+ [TRTLLM-11878][feat] Gen-only sync transfer v2 and manager v2 by  @Shixiaowei02  in  #12882  
+ [None][test] Remove triton_server test_opt by  @Tabrizian  in  #13173  
+ [None][infra] Waive 3 failed cases for main in post-merge by  @xinhe-nv  in  #13194  
+ [None][feat] Optimize nemotron-h from python level by  @Wanli-Jiang  in  #13032  
+ [https://nvbugs/6026676][fix] Only waive the tests for H20 so that H100 still covered by  @dongfengy  in  #12961  
+ [TRTLLM-11272][fix] Account for the existing multimodal placeholder tokens in a text prompt by  @moraxu  in  #12827  
+ [None][infra] Waive 20 failed cases for main in post-merge by  @xinhe-nv  in  #13203  
+ [None][fix] Fix GPQA Diamond filter_type mismatch in disagg accuracy … by  @yingguo-trt  in  #13210  
+ [None][infra] Waive 9 failed cases for main in post-merge by  @xinhe-nv  in  #13204  
+ [None][infra] Waive 6 failed cases for main in post-merge by  @xinhe-nv  in  #13195  
+ [None][test] Add doc test by  @StanleySun639  in  #13152  
+ [https://nvbugs/6071070][fix] Add K2.5 DISAGG Gen Only EPLB Cases into CI by  @chenfeiz0326  in  #13185  
+ [None][infra] Waive 2 failed cases for main in post-merge 2663 by  @ZhanruiSunCh  in  #13216  
+ [TRTLLM-12291][feat] New sharding infrastructure by  @greg-kwasniewski1  in  #12419  
+ [None] [chore] Update .github/CODEOWNERS by  @kaiyux  in  #13213  
+ [None][test] Fix DGX_B200 CI timeout by splitting multimodal tests an… by  @nv-guomingz  in  #12978  
+ [None][infra] Waive 2 failed cases for main in pre-merge 34569 by  @ZhanruiSunCh  in  #13192  
+ [None][fix] Test time conflict in WAN T2V example by  @2ez4bz  in  #13193  
+ [None][infra] Reenable GB300-4_GPUs-PyTorch-Post-Merge-1 by  @mlefeb01  in  #13097  
+ [TRTLLM-11872][perf] Multi-threading async media loading and optimizing video frame decoding in trtllm-serve by  @yechank-nvidia  in  #13034  
+ [None][fix] Do not leak KV cache quantization into vision encoder by  @2ez4bz  in  #13181  
+ [https://nvbugs/5783876][chore] Enforce HMAC key requirement in the codebase by  @yibinl-nvidia  in  #9850  
+ [https://nvbugs/5981122][fix] Unwaive DeepSeekV3Lite python_scheduler test by  @lancelly  in  #12972  
+ [None][infra] Waive 3 failed cases for main in post-merge by  @xinhe-nv  in  #13200  
+ [None][infra] Waive 1 failed cases for main in pre-merge 34820 by  @ZhanruiSunCh  in  #13252  
+ [None][infra] Waive 8 failed cases for main in post-merge by  @xinhe-nv  in  #13201  
+ [None][test] waive hang issues by  @xinhe-nv  in  #13212  
+ [https://nvbugs/6086538][fix] suppress misleading skip-softmax FMHA warning in generation by  @bobboli  in  #13157  
+ [None][fix] Add missing aarch64 lib in   cf9963f   by  @pengbowang-nv  in  #13206  
+ [None][pref] Consolidate prefix reuse queries into single analyzePrefixReuse radix tree walk by  @SimengLiu-nv  in  #13095  
+ [None][test] Add sync_qa_tests Jenkins script and update coderabbit review by  @xinhe-nv  in  #13028  
+ [None][feat] Refactor the routing part in trtllmgen by  @ChristinaZ  in  #12246  
+ [None][infra] Waive 1 failed cases for main in post-merge 2671 by  @ZhanruiSunCh  in  #13261  
+ [None][feat] Switch CP cache transmission from contiguous to round-robin by  @brb-nv  in  #13180  
+ [None][feat] AutoDeploy: Onboard MiniMaxAI/MiniMax-M2.7 custom model by  @suyoggupta  in  #12963  
+ [https://nvbugs/6088149][chore] Unwaive perf sanity tests for bug 6088149 by  @chenfeiz0326  in  #13176  
+ [https://nvbugs/5955765][fix] More accurate launch parameters to avoid over-reservation in warmup by  @YihuiLu512  in  #13078  
+ [https://nvbugs/5819019][fix] Remove waivers by  @YihuiLu512  in  #13118  
+ [https://nvbugs/6018043][fix] Unwaive testcase by  @YihuiLu512  in  #13111  
+ [None][infra] Waive 1 failed cases for main in pre-merge 34865 by  @ZhanruiSunCh  in  #13258  
+ [TRTLLM-11999][feat] Add GLM-4.7/GLM-5 tool parser by  @JunyiXu-nv  in  #13150  
+ [None][fix] Unwaive DeepSeekV3Lite test_bfloat16_4gpus_python_scheduler ep4 by  @lancelly  in  #13084  
+ [None][test] amend for qa weekly core test list by  @ruodil  in  #13153  
+ [None][test] Update Nemotron-3-Super-120B-A12B-NVFP4 MTP perf case with the real dataset on DGX-Spark by  @JennyLiu-nv  in  #12982  
+ [None][fix] Cap TLLM_BENCHMARK_REQ_QUEUES_SIZE to avoid fill-loop hang by  @reasonsolo  in  #13065  
+ [https://nvbugs/6074014][fix] Min-reduce available host memory to ensure that all ranks agree about whether prefetch is enabled by  @dhansen-nvidia  in  #13161  
+ [TRTLLM-11339][fix] Wan tests refactor + small transformer fix by  @o-stoner  in  #12128  
+ [None][fix] Fix kv_layout for FLASHINFER backend by  @yechank-nvidia  in  #13190  
+ [None][chore] Update CI allowlist 2026-04-21 by  @tburt-nv  in  #13289  
+ [TRTLLM-10703][feat] abort, resume for Async RL in verl by  @hchings  in  #12272  
+ [TRTLLM-12127][fix] VisualGen metadata updates by  @o-stoner  in  #12862  
+ [None][fix] Revert "Refactor the routing part in trtllmgen" ( #12246 ) by  @peihu-nv  in  #13294  
+ [TRTLLM-11759][fix] Reduce peak host memory during NemotronH_Nano_VL_V2 init by  @pamelap-nvidia  in  #13283  
+ [None][fix] Fix post-merge perf data silently failing to upload to OpenSearch DB by  @chenfeiz0326  in  #13215  
+ [None][fix] Fix errors in KV cache manager V2 and scheduler V2 by  @jiaganc  in  #13104  
+ [None][fix] Enforce NCCL &gt;= 2.28 at CMake configure time by  @eopXD  in  #13108  
+ [TRTLLM-11861][infra] Support wildcard in bot stage-list/extra-stage commands by  @mzweilz  in  #12881  
+ [TRTLLM-12062][test] remove obsolete model tests by  @xinhe-nv  in  #13262  
+ [TRTLLM-12137][chore] Drop non-key-model (starcoder2/mllama/nemotron) cases from L0 by  @QiJune  in  #13315  
+ [None][feat] Optimize causal_conv1d prefill and decode kernels by  @Wanli-Jiang  in  #13103  
+ [TRTLLM-11733][perf] Cache constant text computations across denoise steps in LTX2 by  @luyiyun1021  in  #12677  
+ [None][chore] Add Dynamo configs to TRTLLM CI - Disagg - Part 2 by  @brb-nv  in  #13168  
+ [https://nvbugs/6050481][chore] Unwaive passing GPT-OSS ep tests by  @dongfengy  in  #13284  
+ [None][chore] Waive DSV32 tests by  @brb-nv  in  #13352  
+ [https://nvbugs/6052050][fix] Drop stale CUDA graphs on beam-width change by  @brb-nv  in  #13255  
+ [https://nvbugs/6055847][fix] Preserve Nemotron HF mamba cache dtype in bench tuning by  @hyukn  in  #12826  
+ [None][chore] Better Empty File Error Handling for trtllm-bench by  @yijingl-nvidia  in  #12552  
+ [None][test] add models for weekly perf test by  @ruodil  in  #13325  
+ [None][fix] Propagate init_load_balancer to DeepGemmFusedMoE in create_moe_backend by  @qiaoxj07  in  #13207  
+ [TRTLLM-12183][chore] Move bf16/auto precision variants from pre-merge to post-merge by  @QiJune  in  #13366  
+ [https://nvbugs/6076560][chore] Unwaive test_nvfp4_4gpus by  @hyukn  in  #13079  
+ [None][infra] Waive 2 failed cases for main in post-merge by  @xinhe-nv  in  #13335  
+ [TRTLLM-11485][feat] Feature rework: Add SageAttention refreshed kernels (attentionOp only) by  @xrq-phys  in  #12937  
+ [TRTLLM-11540][feat] Revert revert of EAGLE3 dynamic tree speculative decoding support by  @sunnyqgg  in  #13081  
+ [None][chore] Add related trtllm-gen attention kernel files to trigger multi-gpu tests by  @heyuhhh  in  #13260  
+ [https://nvbugs/6074943][fix] Disable new aiperf server metrics to stop hang. by  @dominicshanshan  in  #13314  
+ [None][doc] Restructure installation documentation by  @bobboli  in  #12402  
+ [None][fix] Disable multi stream moe for super v3 by  @tcherckez-nvidia  in  #13122  
+ [https://nvbugs/5919796][fix] AutoDeploy: Fix TP deadlock in multistream MoE by  @galagam  in  #13220  
+ [None][fix] initialize sampler state for ADP dummy requests by  @bobboli  in  #13275  
+ [ #13125 ][feat] Make auto_deploy standalone-ready and add package generator by  @lucaslie  in  #13155  
+ [None][perf] Clear multimodal data upon prefill completion by  @2ez4bz  in  #13259  
+ [TRTLLMINF-45][infra] Upload CI agent failure analysis to SwiftStack by  @dpitman-nvda  in  #13291  
+ [https://nvbugs/6078421][fix] Commit   dcb4a71   intentionally disabled  initialize_mrope_delta_cache  in `qwen3 by  @tensorrt-cicd  in  #13269  
+ [None][feat] Move DWDP contention optimization into DwdpConfig by  @JintaoPengCS  in  #12974  
+ [None][doc] update verbose comments by  @VALLIS-NERIA  in  #13387  
+ [None][chore] Remove closed bugs by  @xinhe-nv  in  #13189  
+ [TRTLLM-9120][feat] centralize perfect router integration and validation by  @xxi-nv  in  #13250  
+ [https://nvbugs/5916092][fix] Fix MTP+PP hang by preserving speculative layer weights on last PP rank by  @xxi-nv  in  #12555  
+ [None][feat] Add modular logger with auto module detection and per-module filtering by  @reasonsolo  in  #13202  
+ [ #4674 ][feat] enabled AutoDeploy qkv and rope fusion with trtllm attention by  @MrGeva  in  #12357  
+ [None][fix] Fix multimodal KV cache block reuse for disaggregated serving by  @indrajit96  in  #12472  
+ [None][fix] KVCacheManagerV2 bug fixes (V2 remains default OFF) by  @yizhang-nv  in  #12306  
+ [None][test] Remove low priority QA perf test cases by  @yufeiwu-nv  in  #13374  
+ [None][perf] Use +64 batch sizes for padding-enabled CUDA graphs by  @yijingl-nvidia  in  #12895  
+ [https://nvbugs/5784566][fix] Isolate ray tests to avoid timeout by  @shuyixiong  in  #13062  
+ [None][test] AutoDeploy: Add missing guided decoding test to CI by  @govind-ramnarayan  in  #13350  
+ [https://nvbugs/5997534][fix] Fix eagle3 accuracy test - attn backend must be flashinfer by  @govind-ramnarayan  in  #13398  
+ [None][infra] Waive 15 failed cases for main in post-merge by  @xinhe-nv  in  #13363  
+ [TRTLLM-11958][perf] reduce @torch.library.custom_op host overhead by  @luyiyun1021  in  #13149  
+ [https://nvbugs/6084445][fix] use DEEPGEMM for DeepSeek-V3-Lite fp8 chunked prefill on SM100/SM103 by  @jmydurant  in  #13257  
+ [https://nvbugs/6094118][fix] remove redundant tests by  @bo-nv  in  #13411  
+ [TRTLLM-11123][fix] Propagate real errors to disagg server by  @reasonsolo  in  #13119  
+ [None][infra] Waive 4 failed cases for main in post-merge 2681 by  @ZhanruiSunCh  in  #13414  
+ [https://nvbugs/6098095][chore] Waive failed tests for flashinfer-python==0.6.8 upgrading by  @yihwang-nv  in  #13254  
+ [https://nvbugs/6064029][test] Visual gen b64 path regression tests by  @yingguo-trt  in  #13372  
+ [None][fix] Populate s_host_node_name for SLURM-based perf test runs by  @hyukn  in  #13367  
+ [None][feat] Add FP4 residual quantization kernel without channel reo… by  @Tracin  in  #13117  
+ [https://nvbugs/6093712][fix] skip_pre_hopper for Qwen3 disagg L40S failure by  @reasonsolo  in  #13326  
+ [https://nvbugs/6018172][fix] Fix DSA illegal memory access with CUDA graph and host KV cache offload by  @liji-nv  in  #13124  
+ [None][infra] Waive 5 failed cases for main in pre-merge 35493 by  @ZhanruiSunCh  in  #13432  
+ [TRTLLMINF-43][feat] Update SLURM job submission logic to retry up to… by  @dpitman-nvda  in  #12778  
+ [https://nvbugs/6098442][fix] WAR IMA on DS V3.2 and update trtllm-gen cubin, lib and src by  @pengbowang-nv  in  #13379  
+ [https://nvbugs/6094112][fix] Use TRTLLM MoE backend on Blackwell for case TestQwen3_30B_A3B::test_dummy_load_format by  @xxi-nv  in  #13327  
+ [None][chore] Remove non-exist waiver by  @VALLIS-NERIA  in  #13437  
+ [None][infra] Update the doc build stage rule by treating *.md-only P… by  @nv-guomingz  in  #13358  
+ [None][perf] Skip request broadcast when world_size is 1 by  @yechank-nvidia  in  #13412  
+ [https://nvbugs/6071380][fix] Update the invalid dynamo urls in doc. by  @nv-guomingz  in  #13038  
+ [https://nvbugs/6025330][fix] Use weights_only=True in LoRA manager torch.load by  @yibinl-nvidia  in  #13391  
+ [None][perf] Remove unnecessary ToPIL() from find_mm_token_lengths by  @yechank-nvidia  in  #11640  
+ [TRTLLMINF-45][infra] Pin pbss.s8k.io in /etc/hosts before SwiftStack… by  @dpitman-nvda  in  #13441  
+ [https://nvbugs/6007285][fix] Unwaive test_configurable_moe_multi_gpu DEEPEP-NVFP4 case by  @xxi-nv  in  #13371  
+ [None][fix] Split TRT-LLM-only rope fusion out of standalone auto_deploy by  @lucaslie  in  #13454  
+ [None][infra] Container vulnerability fix by  @yuanjingx87  in  #13447  
+ [https://nvbugs/6097980][fix] unwaive Wan T2V example by  @zhenhuaw-me  in  #13316  
+ [None][infra] Waive 4 failed cases for main in pre-merge 35639 by  @ZhanruiSunCh  in  #13461  
+ [https://nvbugs/5973199][fix] unwaive TestNemotronSuperV3::test_accuracy[nvfp4-4-attn_dp_on-trtllm] by  @tcherckez-nvidia  in  #13188  
+ 
+ New Contributors 
+ 
+  @lishicheng1996-nv  made their first contribution in  #12990  
+  @YihuiLu512  made their first contribution in  #13078  
+  @tensorrt-cicd  made their first contribution in  #13269  
+ 
+  Full Changelog :   v1.3.0rc12...v1.3.0rc13
+
+---
+
+## 8. [DeepInfra on Hugging Face Inference Providers 🔥](https://huggingface.co/blog/inference-providers-deepinfra)
+**Source**: Hugging Face Blog | **Category**: Blog Release | **Release Type**: ecosystem_blog
+
+### 요약
+Hugging Face Inference Providers에 DeepInfra가 새롭게 합류하여 고성능 모델 추론 서비스를 제공합니다. 사용자는 Hugging Face 플랫폼 내에서 DeepInfra의 인프라를 통해 모델을 더욱 빠르고 효율적으로 배포할 수 있습니다.
+
+### 핵심 포인트
+- Hugging Face Inference Providers에 DeepInfra 통합
+- Hugging Face 환경 내에서 DeepInfra의 고성능 추론 엔진 활용 가능
+- 모델 배포 및 추론 워크플로우의 효율성 증대
+
+**태그**: Hugging Face, DeepInfra, Inference
+
+---
+
+## 9. [v1.2.1](https://github.com/NVIDIA/TensorRT-LLM/releases/tag/v1.2.1)
+**Source**: TensorRT-LLM Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+TensorRT-LLM v1.2.1 릴리즈에서는 KV cache 손상 문제를 해결하고 인프라 구성 요소를 업데이트했습니다. 이를 통해 모델 추론의 안정성과 라이브러리 호환성을 개선했습니다.
+
+### 핵심 포인트
+- KV cache 손상을 유발하던 이슈 수정 (#12770)
+- xgrammar 및 flashinfer 라이브러리 업그레이드 (#12811)
+
+**태그**: TensorRT-LLM, KV Cache, Update
+
+### 원문 설명
+Highlights 
+ 
+ 
+  Fixed Issue  
+ 
+ Fixed an issue that caused KV cache corruption ( #12770 ) 
+ 
+ 
+ 
+  Infrastructure Changes  
+ 
+ Upgraded xgrammar and flashinfer ( #12811 )
+
+---
+
+## 10. [v0.5.10.post1](https://github.com/sgl-project/sglang/releases/tag/v0.5.10.post1)
+**Source**: SGLang Releases | **Category**: GitHub Release | **Release Type**: github_release
+
+### 요약
+SGLang v0.5.10.post1 릴리즈에서는 flashinfer 라이브러리 업데이트가 진행되었습니다. 이는 JIT cubin 다운로더 관련 문제를 해결하기 위한 조치입니다.
+
+### 핵심 포인트
+- flashinfer 버전을 v0.6.7.post2에서 v0.6.7.post3로 업데이트
+- JIT cubin 다운로더 관련 이슈 해결
+
+**태그**: SGLang, flashinfer, Update
+
+### 원문 설명
+Full Changelog :   v0.5.10...v0.5.10.post1   
+ Bumps flashinfer from v0.6.7.post2 to v0.6.7.post3 to resolve an issue in its jit cubin downloader.
+
+---
+
