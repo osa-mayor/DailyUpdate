@@ -1,0 +1,272 @@
+# Official Releases (2026-05-13)
+
+## 오늘의 요약
+오늘의 주요 소식은 AI 에이전트 기술의 실질적 적용과 기업용 AI 시장의 급격한 확장을 중심으로 전개되었습니다. Google DeepMind와 Anthropic은 각각 과학적 연구 및 산업 현장(BASF)에서의 에이전트 활용과 금융 및 기업용 서비스 확장을 위한 전략적 행보를 보였으며, OpenAI는 ChatGPT의 대중적 확산과 기업용 AI 스케일링 전략을 제시했습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트의 산업적 진화: AlphaEvolve를 통한 과학적 연구 및 공급망 최적화, 금융 서비스용 에이전트 발표 등 실질적 문제 해결로의 확장
+- 기업용 AI 시장의 전략적 파트너십 및 인프라 확보: Anthropic의 대형 금융사와의 협업 및 SpaceX와의 컴퓨팅 계약, 기업용 AI 서비스 회사 설립
+- AI 기술의 대중화와 운영 효율성: ChatGPT의 사용자층 확대와 Gemini 3.1 Flash-Lite와 같은 저지연·고효율 모델의 정식 출시
+
+**오늘의 태그**: AI Agent, Enterprise AI, Strategic Partnership, Generative AI, Automation
+
+## 1. [Reimagining the mouse pointer for the AI era](https://deepmind.google/blog/ai-pointer/)
+**Source**: Google DeepMind | **Category**: Research | **Release Type**: research_release
+
+### 요약
+Google DeepMind가 기존의 마우스 포인터를 문맥을 이해하는 AI 파트너로 재정의하는 연구를 진행 중입니다. 이를 통해 Chrome 등 다양한 환경에서 번거로운 프롬프트 입력 없이 직관적인 AI 협업이 가능해질 전망입니다.
+
+### 핵심 포인트
+- 마우스 포인터를 문맥 인식형 AI 파트너로 변환
+- 전통적인 프롬프트 방식의 마찰을 줄이는 직관적인 인터페이스 제공
+- Chrome을 포함한 다양한 환경에서의 AI 협업 경험 혁신
+
+**태그**: Google DeepMind, AI UX, Human-Computer Interaction
+
+### 원문 설명
+Google DeepMind is transforming the mouse pointer into a context-aware AI partner. Move beyond the friction of traditional prompting with intuitive AI collaboration in Chrome and beyond.
+
+---
+
+## 2. [AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields](https://deepmind.google/blog/alphaevolve-impact/)
+**Source**: Google DeepMind | **Category**: Science | **Release Type**: official_update
+
+### 요약
+Google DeepMind가 Gemini 기반의 코딩 에이전트인 AlphaEvolve를 통해 다양한 과학 분야의 알고리즘을 최적화하는 방법을 공개했습니다. 이 기술은 유전학, 양자 물리학, 글로벌 인프라 등 여러 영역에서 과학적 진보를 가속화하고 실질적인 문제를 해결하는 데 기여합니다.
+
+### 핵심 포인트
+- Gemini 기반 코딩 에이전트인 AlphaEvolve의 활용 방식 공개
+- 유전학, 양자 물리학, 글로벌 인프라 등 다양한 분야로의 영향력 확장
+- 알고리즘 최적화를 통한 과학적 진보 및 실질적 과제 해결 가속화
+
+**태그**: Google DeepMind, AlphaEvolve, Gemini
+
+### 원문 설명
+Discover how AlphaEvolve optimizes algorithms for genomics, quantum physics, global infrastructure, and more to accelerate scientific progress and solve real-world challenges.
+
+---
+
+## 3. [What Parameter Golf taught us about AI-assisted research](https://openai.com/index/what-parameter-golf-taught-us)
+**Source**: OpenAI News | **Category**: Research | **Release Type**: research_release
+
+### 요약
+Parameter Golf는 엄격한 제약 조건 하에서 AI 지원 머신러닝 연구, 코딩 에이전트, 양자화 및 새로운 모델 설계를 탐구하기 위해 개최되었습니다. 1,000명 이상의 참가자와 2,000개 이상의 제출물이 모여 AI를 활용한 연구 방식에 대한 통찰을 제공했습니다.
+
+### 핵심 포인트
+- 1,000명 이상의 참가자가 참여한 Parameter Golf 이벤트 개최
+- 엄격한 제약 조건 하에서의 AI 지원 머신러닝 연구 및 모델 설계 탐구
+- 코딩 에이전트, 양자화 등 다양한 기술적 주제 다룸
+
+**태그**: OpenAI, Machine Learning, Parameter Golf
+
+### 원문 설명
+Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.
+
+---
+
+## 4. [How ChatGPT adoption broadened in early 2026](https://openai.com/signals/research/2026q1-update)
+**Source**: OpenAI News | **Category**: Official Release | **Release Type**: official_update
+
+### 요약
+2026년 1분기 ChatGPT 도입률이 급증하며 대중적인 AI 활용 단계로 진입했습니다. 특히 35세 이상 사용자층에서 가장 빠른 성장세를 보였으며 성별 사용 비율도 균형을 이루었습니다.
+
+### 핵심 포인트
+- 2026년 1분기 ChatGPT 도입률 급증
+- 35세 이상 사용자층에서 가장 빠른 성장세 기록
+- 성별 사용 비율의 균형을 통한 대중적 확산 양상
+
+**태그**: ChatGPT, OpenAI, AI Adoption
+
+### 원문 설명
+ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.
+
+---
+
+## 5. [How enterprises are scaling AI](https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai)
+**Source**: OpenAI News | **Category**: Guides | **Release Type**: official_update
+
+### 요약
+기업들이 초기 실험 단계를 넘어 AI를 본격적으로 확장하는 과정과 전략을 다룹니다. 신뢰, 거버넌스, 워크플로 설계 및 대규모 품질 관리를 통해 AI의 영향력을 복리로 증대시키는 방법을 설명합니다.
+
+### 핵심 포인트
+- 초기 실험 단계에서 지속 가능한 확장 단계로의 전환
+- 신뢰와 거버넌스를 통한 AI 운영 체계 구축
+- 워크플로 설계 및 대규모 품질 관리를 통한 영향력 극대화
+
+**태그**: Enterprise AI, AI Scaling, Governance
+
+### 원문 설명
+How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.
+
+---
+
+## 6. [Gemini 3.1 Flash-Lite is now generally available on Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Gemini 3.1 Flash-Lite 모델이 Gemini Enterprise Agent Platform에서 정식 출시되었습니다. 이 모델은 초저지연성과 높은 처리량, 그리고 탁월한 비용 효율성을 제공하도록 설계되었습니다.
+
+### 핵심 포인트
+- Gemini 3.1 Flash-Lite의 General Availability(GA) 발표
+- 초저지연 및 대규모 작업 처리에 최적화된 설계
+- 대규모 애플리케이션 구축을 위한 높은 비용 효율성 제공
+
+**태그**: Google Cloud, Gemini 3.1 Flash-Lite, Generative AI
+
+### 원문 설명
+Gemini 3.1 Flash-Lite is now generally available. Designed for ultra-low latency, high-volume tasks, and unmatched cost-efficiency, Flash-Lite is already transforming how applications are built at scale.
+
+---
+
+## 7. [How BASF manages thousands of supply chain decisions with AlphaEvolve’s agentic algorithms](https://cloud.google.com/blog/products/ai-machine-learning/how-basf-manages-thousands-of-supply-chain-decisions-with-alphaevolve)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+BASF는 Google DeepMind의 AlphaEvolve를 활용하여 글로벌 공급망 의사결정 프로세스를 혁신하고 있습니다. 이 에이전트 알고리즘을 통해 전 세계 네트워크 전반의 의사결정 속도를 80% 가속화했습니다.
+
+### 핵심 포인트
+- BASF가 Google DeepMind의 AlphaEvolve 알고리즘을 공급망 관리에 도입
+- 에이전트 알고리즘 코딩을 통한 수천 개의 공급망 의사결정 관리
+- 글로벌 네트워크 내 의사결정 속도 80% 향상 달성
+
+**태그**: BASF, Google DeepMind, AlphaEvolve, Supply Chain, Agentic Algorithms
+
+### 원문 설명
+Using the advanced agentic algorithm coding of Google DeepMind’s AlphaEvolve, this agribusiness leader is able to accelerate decision-making across its global network by 80%.
+
+---
+
+## 8. [May 6, 2026 Announcements Higher usage limits for Claude and a compute deal with SpaceX](https://www.anthropic.com/news/higher-limits-spacex)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 Claude의 사용량 제한을 상향 조정하고 SpaceX와 컴퓨팅 관련 계약을 체결했다고 발표했습니다. 이번 발표는 서비스 확장과 인프라 확보를 목적으로 합니다.
+
+### 핵심 포인트
+- Claude의 사용량 제한(usage limits) 상향 조정
+- SpaceX와의 컴퓨팅 관련 계약(compute deal) 체결
+- 서비스 가용성 및 컴퓨팅 자원 확보를 위한 전략적 움직임
+
+**태그**: Anthropic, Claude, SpaceX
+
+---
+
+## 9. [May 5, 2026 Announcements Agents for financial services](https://www.anthropic.com/news/finance-agents)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 금융 서비스를 위한 Agent 기능을 발표했습니다.
+
+### 핵심 포인트
+- 금융 서비스 분야를 타겟으로 하는 Agent 기능 출시
+- 2026년 5월 5일 공식 발표
+
+**태그**: Anthropic, Agents, Financial Services
+
+---
+
+## 10. [May 4, 2026 Announcements Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs](https://www.anthropic.com/news/enterprise-ai-services-company)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 Blackstone, Hellman & Friedman, Goldman Sachs와 함께 새로운 기업용 AI 서비스 회사를 설립합니다. 이번 발표는 기업용 AI 시장 확대를 위한 전략적 파트너십을 담고 있습니다.
+
+### 핵심 포인트
+- Anthropic의 새로운 기업용 AI 서비스 회사 설립 발표
+- Blackstone, Hellman & Friedman, Goldman Sachs와의 협력
+- 기업용 AI 서비스 시장을 겨냥한 전략적 움직임
+
+**태그**: Anthropic, Enterprise AI, Partnership
+
+---
+
+## 11. [What Google Cloud announced in AI this month](https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Google Cloud가 이번 달 발표한 최신 AI 관련 소식과 혁신 기술을 소개합니다. Google Cloud AI 분야의 새로운 업데이트와 가이드를 확인할 수 있습니다.
+
+### 핵심 포인트
+- Google Cloud AI의 최신 발표 내용 확인
+- AI 분야의 새로운 혁신 및 기술 업데이트
+- 사용자를 위한 최신 가이드 제공
+
+**태그**: Google Cloud, AI, Machine Learning
+
+### 원문 설명
+Learn about the latest announcements, innovations, and guides when it comes to Google Cloud AI.
+
+---
+
+## 12. [Gemma 4: Byte for byte, the most capable open models](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)
+**Source**: Google DeepMind | **Category**: Models | **Release Type**: product_release
+
+### 요약
+Google DeepMind가 고급 추론과 에이전트 워크플로우를 위해 설계된 Gemma 4를 출시했습니다. 이는 역대 가장 지능적인 오픈 모델 시리즈입니다.
+
+### 핵심 포인트
+- Google DeepMind의 가장 지능적인 오픈 모델 시리즈
+- 고급 추론(Advanced reasoning)을 위해 특화 설계됨
+- 에이전트 워크플로우(Agentic workflows)에 최적화
+
+**태그**: Google DeepMind, Gemma 4, Open Models
+
+### 원문 설명
+Gemma 4: our most intelligent open models to date, purpose-built for advanced reasoning and agentic workflows.
+
+---
+
+## 13. [Qwen-Scope: Decoding Intelligence, Unleashing Potential](https://qwen.ai/blog?id=qwen-scope)
+**Source**: Qwen Blog | **Category**: Open-Source | **Release Type**: official_update
+
+### 요약
+Qwen-Scope는 Qwen3 및 Qwen3.5 모델 시리즈를 기반으로 개발된 해석 가능성(Interpretability) 툴킷입니다. 모델의 은닉층에 Sparse Autoencoders(SAEs)를 삽입 및 학습시켜 LLM의 동작 원리를 이해하고 제어할 수 있도록 설계되었습니다.
+
+### 핵심 포인트
+- Qwen3 및 Qwen3.5 모델 시리즈를 대상으로 하는 해석 가능성 연구용 툴킷
+- 모델의 은닉층 내에 Sparse Autoencoders(SAEs)를 삽입하여 학습하는 방식 채택
+- LLM의 동작 방식 이해, 성능 최적화 및 출력 제어 가능성 제공
+
+**태그**: Qwen-Scope, Interpretability, Sparse Autoencoders
+
+### 원문 설명
+Interpretability research has emerged as a critical area for understanding LLM behaviors, informing performance optimization, and enabling more controllable model outputs. Today, we are excited to introduce Qwen-Scope, an interpretability toolkit trained on the Qwen3 and Qwen3.5 series models. Specifically, we inserted and trained Sparse Autoencoders (SAEs) within Qwen’s hidden layers. By...
+
+---
+
+## 14. [Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI](https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5)
+**Source**: Mistral News | **Category**: Official Release | **Release Type**: official_update
+
+### 요약
+Mistral AI가 새로운 모델인 Mistral Medium 3.5를 발표했습니다. 이와 함께 Vibe에서의 원격 코딩 에이전트 기능과 Le Chat의 복잡한 작업을 위한 새로운 Work mode가 도입되었습니다.
+
+### 핵심 포인트
+- Mistral Medium 3.5 모델 출시
+- Vibe 내 원격 코딩 에이전트 기능 도입
+- Le Chat에 복잡한 작업 수행을 위한 새로운 Work mode 추가
+
+**태그**: Mistral AI, Mistral Medium 3.5, Vibe, Le Chat
+
+### 원문 설명
+Introducing Mistral Medium 3.5, remote coding agents in Vibe, plus new Work mode in Le Chat for complex tasks.
+
+---
+
+## 15. [Workflows for work that runs the business | Mistral AI](https://mistral.ai/news/workflows)
+**Source**: Mistral News | **Category**: Official Release | **Release Type**: official_update
+
+### 요약
+Mistral AI가 비즈니스 운영을 위한 Workflows 기능을 공개 프리뷰(Public Preview)로 출시했습니다. 이번 업데이트를 통해 사용자는 업무 프로세스를 자동화할 수 있는 워크플로우 기능을 미리 경험할 수 있습니다.
+
+### 핵심 포인트
+- Workflows 기능의 공개 프리뷰 시작
+- 비즈니스 운영을 위한 워크플로우 환경 제공
+- Mistral AI의 새로운 기능 업데이트
+
+**태그**: Mistral AI, Workflows, Public Preview
+
+### 원문 설명
+Workflows is now in public preview.
+
+---
+
