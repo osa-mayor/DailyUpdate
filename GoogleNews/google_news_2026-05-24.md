@@ -1,0 +1,201 @@
+# 🌏 Google News Tech Digest (2026-05-24)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 AI가 단순한 도구를 넘어 자율적인 에이전트(Agent)로 진화하며 산업과 노동 구조를 근본적으로 재편하는 흐름을 보여주었습니다. 생성형 AI의 고도화로 인한 사회적·윤리적 이슈와 정책적 대응이 동시에 부각되었으며, 모델의 비용 효율성 경쟁이 가속화되는 양상을 띠었습니다.
+
+### 오늘의 핵심 포인트
+- AI가 반복적 과업을 수행하는 에이전트로 진화함에 따라 인간의 역할이 고차원적 판단과 창의성에 집중되는 업무 구조의 재편이 가속화될 것입니다.
+- AI 생성 콘텐츠로 인한 허위 정보, 저작권 논란, 노동 시장의 급격한 변화 등 기술적 진보에 따른 사회적·윤리적 리스크에 대한 정책적 대응이 시급해지고 있습니다.
+- 멀티모달 모델의 발전과 LLM의 추론 비용 최적화가 진행됨에 따라, 더 복잡한 워크플로우를 자동화하는 에이전트 중심의 기술 경쟁이 심화될 전망입니다.
+
+**오늘의 태그**: AI Agent, Generative AI, LLM, AI Ethics, Automation
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Work becomes more human in the age of AI - University of Rochester](https://www.rochester.edu/newscenter/work-becomes-more-human-with-artificial-intelligence-704332/)
+**출처**: University of Rochester | **게시일**: Sat, 23 May 2026 16:12:18 GMT
+
+#### 📌 종합 요약
+AI가 인간의 업무를 대체하는 것이 아니라, 반복적인 인지적 과업을 자동화함으로써 인간이 공감, 창의성, 판단력과 같은 본질적인 가치에 집중할 수 있도록 업무 구조를 재편하는 과정을 다룹니다. 로체스터 대학교 전문가들은 AI를 단순한 Tool이 아닌 능동적인 Agent로 정의하며, 인간과 AI의 협업 모델이 미래 업무 환경의 핵심이 될 것이라고 전망합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI는 단순한 Rule-based 시스템을 넘어 데이터 간의 상관관계를 연결하고 새로운 연결고리를 찾아내는 Agentic Workflow를 구현합니다. 이는 인간이 설계한 범위를 넘어선 예측 불가능한 결과물을 생성할 수 있음을 의미하며, Generative AI(ChatGPT, Claude 등)를 활용한 프로토타이핑과 워크플로우 자동화는 기술적 진입장벽을 낮추어 혁신의 민주화를 가속합니다. 다만, 학습 데이터의 편향성(Bias)과 환경 변화에 따른 모델 성능 저하(Drift) 문제는 지속적인 모니터링과 인간의 검증이 필요한 핵심 기술적 과제로 남습니다.
+
+#### ✅ 핵심 요점
+- AI는 반복적인 인지적 과업을 수행하는 Agent로서, 인간이 고차원적인 판단과 창의적 문제 해결에 집중할 수 있는 여유를 제공합니다.
+- AI는 인간의 감정적 노동(Emotional Labor)이나 윤리적 판단, 복잡한 맥락에서의 직관적 선택을 완전히 대체할 수 없습니다.
+- AI 시스템의 Engagement 최적화 알고리즘은 사용자에게 아첨하는(Sycophantic) 결과를 낼 위험이 있으므로, 비판적 사고를 가진 인간의 개입이 필수적입니다.
+- 기술적 숙련도 부족으로 인해 억제되었던 아이디어들이 Generative AI를 통해 프로토타입화되면서 혁신의 속도가 가속화될 것입니다.
+
+**태그**: AI Agent, Rust, Agent, Generative AI, AI
+
+---
+
+### 2. [AI-Writing Scandals Are Getting Very Confusing - The Atlantic](https://www.theatlantic.com/technology/2026/05/ai-writing-scandal-future-of-truth-book/687290/)
+**출처**: The Atlantic | **게시일**: Sat, 23 May 2026 16:13:00 GMT
+
+#### 📌 종합 요약
+최근 문학계와 저널리즘 분야에서 발생하는 AI 생성 텍스트 스캔들은 단순한 저작권 문제를 넘어, AI의 Hallucination(환각 현상)과 인간의 검증 책임 사이의 모호한 경계를 드러내고 있습니다. AI 도구가 지적 영역에 깊숙이 침투함에 따라, '어디까지를 창작으로 볼 것인가'에 대한 윤리적·기술적 기준 정립이 시급한 과제로 떠오르고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+LLM(Large Language Model)의 고도화로 인해 문장 생성 능력은 정교해졌으나, 사실 관계를 왜곡하는 Hallucination 문제는 여전히 해결되지 않은 핵심 과제입니다. 현재의 AI 탐지 기술(예: Pangram 등)은 텍스트의 통계적 패턴을 분석하여 생성 여부를 판별하지만, 완벽한 정확도를 보장하지 못하는 한계가 있습니다. 이는 AI를 단순한 '문장 다듬기 도구'로 쓸 것인지, 아니면 '아이디어 및 초안 생성 엔진'으로 쓸 것인지에 대한 기술적 활용 범위(Spectrum of Use)에 대한 논쟁을 심화시킵니다.
+
+#### ✅ 핵심 요점
+- AI의 Hallucination(환각) 현상으로 인해 허위 인용구나 가짜 정보가 포함된 텍스트가 생성되어 저자의 신뢰성을 훼손하는 사례가 빈번해지고 있습니다.
+- AI 활용의 스펙트럼은 단순한 문장 교정(Minimalist)부터 전체 초안 생성(Maximalist)까지 넓게 분포하며, 이에 대한 명확한 가이드라인 부재가 혼란을 야기합니다.
+- AI가 생성한 데이터가 다시 AI의 학습 데이터로 유입되는 루프가 형성되면서, 편향된 정보와 정형화된 문체가 지적 담론의 질을 저하시킬 위험이 있습니다.
+- 기술적 탐지 도구의 불완전성으로 인해 AI 사용 여부를 입증하는 과정에서 저자와 검증 도구 간의 갈등이 심화되고 있습니다.
+
+**태그**: AI-Ethics, LLM, Release, Generative-AI, AI
+
+---
+
+### 3. [Trump Posts More Bizarre AI Images—Targeting Greenland, Stephen Colbert And Others - Forbes](https://www.forbes.com/sites/zacharyfolk/2026/05/23/trump-posts-more-bizarre-ai-images-targeting-greenland-stephen-colbert-and-others/)
+**출처**: Forbes | **게시일**: Sat, 23 May 2026 16:01:43 GMT
+
+#### 📌 종합 요약
+도널드 트럼프 전 대통령이 그린란드 영유권 주장, 중동 지도, 정치적 풍자 등 기괴한 형태의 AI 생성 콘텐츠를 소셜 미디어를 통해 지속적으로 배포하며 정치적 메시지를 전달하고 있습니다. 이러한 행보는 단순한 이미지 생성을 넘어, 지정학적 갈등과 에너지 자원 확보라는 실질적 목적을 AI 시각 자료와 결합하여 대중의 인식을 조작하려는 시도로 분석됩니다.
+
+#### ⚙️ 기술적 성과 및 가치
+본 사례는 고도화된 Generative AI(생성형 AI) 모델을 활용하여 특정 정치적 내러티브를 시각화하는 'AI-driven Propaganda(AI 기반 프로파간다)'의 전형을 보여줍니다. 텍스트-투-이미지(Text-to-Image) 및 텍스트-투-비디오(Text-to-Video) 기술을 통해 복잡한 지정학적 상황(그린란드 영토 문제, 중동 지도 등)을 직관적이고 자극적인 비주얼로 변환하여 전달합니다. 특히, 현실과 허구의 경계를 모호하게 만드는 고해상도 합성 이미지는 대중의 감정적 반응을 유도하는 데 최적화된 기술적 도구로 활용되고 있습니다.
+
+#### ✅ 핵심 요점
+- AI 생성 이미지를 활용한 지정학적 내러티브 강화: 그린란드 영토 문제 및 중동 정세를 시각적 프레임으로 재구성하여 정책적 정당성을 확보하려는 시도입니다.
+- Deepfake 및 합성 미디어의 정치적 도구화: 스티븐 콜베어 풍자 영상과 같은 콘텐츠는 AI 기술이 정치적 적대감을 고취하고 여론을 형성하는 데 어떻게 사용될 수 있는지 보여줍니다.
+- 에너지 자원 확보를 위한 시각적 명분 구축: 그린란드의 자원 잠재력을 강조하는 과정에서 AI 이미지가 정책적 목표(석유 추출 등)를 정당화하는 시각적 근거로 활용됩니다.
+
+**태그**: Security, Generative AI, Geopolitics, AI Propaganda, AI
+
+---
+
+### 4. [Venture Capitalist John Doerr Says AI Is the Biggest Tech ‘Tsunami’ Ever - WSJ](https://www.wsj.com/tech/ai/john-doerr-ai-opinion-1d64ee60)
+**출처**: WSJ | **게시일**: Sat, 23 May 2026 15:00:00 GMT
+
+#### 📌 종합 요약
+벤처 캐피털리스트 존 도어(John Doerr)는 현재의 AI 열풍을 역사상 가장 강력한 기술적 '쓰나미'로 규정하며, 단순한 유행을 넘어 산업 전반의 패러다임을 완전히 재편할 것이라고 전망했습니다. 이는 과거 인터넷이나 모바일 혁명보다 더 광범위하고 파괴적인 변화를 예고합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 변화의 핵심은 단순한 챗봇을 넘어, 스스로 추론하고 도구를 사용하는 AI Agent 기술의 급격한 발전과 대규모 연산 자원의 효율적 활용에 있습니다. LLM(Large Language Model)이 고도화됨에 따라 복잡한 워크플로우를 자동화하는 능력이 비약적으로 상승했으며, 이는 기존의 소프트웨어 아키텍처를 Agent 중심의 자율형 시스템으로 전환시키는 동력이 됩니다. 또한, 이러한 거대 모델을 운영하기 위한 인프라 최적화와 분산 컴퓨팅 기술이 산업의 핵심 경쟁력으로 부상하고 있습니다.
+
+#### ✅ 핵심 요점
+- AI는 단순한 기술적 진보를 넘어 기존 산업 구조를 근본적으로 뒤흔드는 '쓰나미'와 같은 파괴적 혁신을 의미합니다.
+- LLM 기반의 지능형 시스템이 인간의 개입 없이 업무를 수행하는 AI Agent 시대로의 전환이 가속화될 것입니다.
+- 기술적 우위를 점하기 위해 모델의 파라미터 규모뿐만 아니라, 실질적인 문제 해결 능력과 워크플로우 통합 능력이 핵심 지표가 될 것입니다.
+
+**태그**: AI Agent, LLM, Digital Transformation, AI, Venture Capital
+
+---
+
+### 5. [Governor Newsom signs first-of-its-kind executive order to prepare workers and businesses for potential AI disruption - California State Portal | CA.gov](https://www.gov.ca.gov/2026/05/21/governor-newsom-signs-first-of-its-kind-executive-order-to-prepare-workers-and-businesses-for-potential-ai-disruption/)
+**출처**: California State Portal | CA.gov | **게시일**: Thu, 21 May 2026 21:39:16 GMT
+
+#### 📌 종합 요약
+캘리포니아 주지사 개빈 뉴섬이 AI 도입으로 인한 노동 시장의 급격한 변화와 경제적 불평등에 대응하기 위해 미국 최초의 행정 명령을 서명했습니다. 이 명령은 AI로 인한 일자리 상실을 방지하고, 기술 혁신의 이익이 빅테크 기업이 아닌 일반 노동자와 소상공인에게 재분배될 수 있도록 하는 정책적 프레임워크 구축을 목표로 합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 행정 명령은 단순한 규제를 넘어, AI 도입에 따른 고용 데이터(Hiring/Payroll trends)의 실시간 트래킹과 경제적 충격을 예측하기 위한 데이터 기반 정책 수립을 핵심으로 합니다. 특히 AI로 인한 생산성 향상이 노동자에게 귀속될 수 있도록 'Universal Basic Capital(보편적 기본 자본)' 개념과 'Worker Ownership Models(노동자 소유 모델)' 등 새로운 경제적 아키텍처를 탐색합니다. 또한, AI 기술의 투명성을 확보하기 위해 이미 시행 중인 AI 워터마킹 및 디지털 라이크니스(Digital Likeness) 보호 정책과 연계하여 기술적 변화에 따른 사회적 안전망을 설계하고 있습니다.
+
+#### ✅ 핵심 요점
+- AI로 인한 노동 시장의 급격한 변동성을 감지하기 위해 고용 및 급여 트렌드 추적과 조기 경보 시스템 구축을 지시했습니다.
+- 해고 표준 설정, 실직 노동자를 위한 전직 지원, 보편적 기본 자본 등 AI 시대에 부합하는 새로운 사회 보장 모델을 검토합니다.
+- 여성 등 특정 계층이 AI 전환 과정에서 겪을 수 있는 불균형적 위험을 최소화하기 위한 맞춤형 교육 및 경로 확장을 추진합니다.
+- 기술 혁신과 사회적 안전망 사이의 균형을 맞추기 위해 주 정부 기관, 학계, 산업계가 참여하는 다학제적 정책 프레임워크를 가동합니다.
+
+**태그**: Security, Labor Economics, Release, AI Policy, AI
+
+---
+
+### 6. [After AI layoffs, Newsom orders state government to find ways to ease the pain - CalMatters](https://calmatters.org/economy/technology/2026/05/california-ai-layoffs-order/)
+**출처**: CalMatters | **게시일**: Thu, 21 May 2026 19:35:00 GMT
+
+#### 📌 종합 요약
+개빈 뉴섬(Gavin Newsom) 캘리포니아 주지사가 AI 도입으로 인한 대규모 해고 등 노동 시장의 충격을 완화하기 위한 행정 명령을 발표했습니다. 이번 명령은 AI 기술로 인한 실직 문제를 해결하기 위해 정부 차원의 보조금, 재교육, 그리고 새로운 고용 모델을 연구하도록 지시하는 내용을 담고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+본 사안은 특정 알고리즘의 성능 개선이 아닌, AI 기술의 자동화(Automation)가 노동 시장의 구조적 변화를 야기하는 사회적·정책적 임팩트를 다룹니다. Meta, Cisco, Block 등 빅테크 기업들이 AI 효율화를 명분으로 대규모 인력 감축을 단행함에 따라, 기술적 효율성이 인적 자본의 대체로 이어지는 현상에 대한 정책적 대응 방안을 모색하고 있습니다.
+
+#### ✅ 핵심 요점
+- AI로 인한 실직 방지를 위해 퇴직금 정책, 고용 보조금, 협동조합형 소유 구조 등 다양한 경제적 완충 장치를 연구하도록 명령했습니다.
+- AI가 노동 시장에 미치는 영향을 분석하는 보고서 작성과 더불어 직업 재교육 및 스톡 옵션(Stock Compensation) 정책의 변화를 검토합니다.
+- 최근 캘리포니아 상원을 통과한 'No Robo Bosses Act'와 연계되어, AI나 자동화 시스템이 단독으로 해고나 징계의 근거가 되는 것을 방지하는 법적 프레임워크를 구축합니다.
+- 기술적 효율성 증대가 가져오는 사회적 비용을 최소화하기 위해 정부 주도의 노동 시장 영향 평가와 정책적 개입을 시도하고 있습니다.
+
+**태그**: Public Policy, Tech Layoffs, Automation, AI, Labor Market
+
+---
+
+### 7. [Google’s new anything-to-anything AI model is wild - The Verge](https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video)
+**출처**: The Verge | **게시일**: Sat, 23 May 2026 11:00:00 GMT
+
+#### 📌 종합 요약
+Google이 발표한 차세대 멀티모달 모델인 Omni(특히 Omni Flash)는 텍스트, 이미지, 비디오 등 다양한 입력을 결합하여 고도의 비디오 생성 및 편집을 수행하는 'anything-to-anything' 모델을 지향합니다. 기존 Veo 모델보다 향상된 일관성과 현실 세계 지식 반영을 특징으로 하지만, 여전히 불완전한 물리 법칙 구현과 높은 생성 비용이라는 과제를 안고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Omni Flash는 기존 Veo 모델의 한계를 극복하기 위해 비디오 내 캐릭터 일관성(Character Consistency) 유지와 텍�스트 프롬프트를 통한 정교한 비디오 편집 기능을 강화했습니다. 사용자가 업로드한 비디오를 초기값(Starting point)으로 활용하여 새로운 시각적 요소를 결합하는 멀티모달 워크플로우를 지원하며, 이는 단순한 생성(Generation)을 넘어 편집(Editing) 영역에서의 제어력을 높인 것입니다. 다만, 생성 과정에서 객체의 형태가 변하거나 물리적 상호작용이 어긋나는 'AI jump scares' 현상이 관찰되어, 완전한 물리 엔진 통합 단계에는 미치지 못함을 보여줍니다.
+
+#### ✅ 핵심 요점
+- Omni Flash는 비디오와 텍스트 프롬프트를 결합하여 기존 비디오를 변형하거나 새로운 장면을 생성하는 고도화된 편집 기능을 제공합니다.
+- Veo 대비 캐릭터의 일관성 유지와 현실 세계 지식(Real-world knowledge) 반영 능력이 개선되어 보다 자연스러운 영상 생성이 가능합니다.
+- 비디오 생성 및 편집 시 크레딧 기반의 비용 구조를 가지며, 원하는 결과물을 얻기 위한 반복적인 프롬프트 엔지니어링 과정에서 높은 비용이 발생할 수 있습니다.
+- 딥페이크 수준의 높은 사실성을 구현하면서도, 물리적 오류나 부자연스러운 움직임 등 '불쾌한 골짜기(Uncanny Valley)' 현상이 여전히 존재합니다.
+
+**태그**: Video Generation, Generative AI, Multimodal Model, Release, Google Omni
+
+---
+
+### 8. [China's DeepSeek to make permanent 75% price cut on flagship V4‑Pro AI model - Reuters](https://www.reuters.com/world/china/chinas-deepseek-make-permanent-75-price-cut-flagship-v4pro-ai-model-2026-05-23/)
+**출처**: Reuters | **게시일**: Sat, 23 May 2026 13:57:23 GMT
+
+#### 📌 종합 요약
+중국의 AI 스타트업 DeepSeek가 자사의 플래그십 모델인 V4-Pro의 가격을 75% 영구 인하하며 공격적인 시장 점유율 확대에 나섰습니다. 이는 고성능 LLM의 비용 효율성을 극대화하여 글로벌 AI 경쟁 구도를 재편하려는 전략적 움직임으로 풀이됩니다.
+
+#### ⚙️ 기술적 성과 및 가치
+DeepSeek V4-Pro는 고도화된 추론 능력과 효율적인 파라미터 활용을 통해 기존 플래그십 모델 대비 압도적인 가성비를 제공합니다. 이번 가격 인하는 모델의 Inference(추론) 비용 최적화가 완료되었음을 시사하며, 대규모 연산 자원을 효율적으로 관리하는 알고리즘적 우위를 바탕으로 합니다. 이는 기업들이 Agent 기반의 복잡한 워크플로우를 구축할 때 발생하는 API 비용 부담을 획기적으로 낮추는 기술적 토대가 됩니다.
+
+#### ✅ 핵심 요점
+- DeepSeek는 플래그십 모델인 V4-Pro의 가격을 기존 대비 75% 영구 인하하여 시장 경쟁력을 확보했습니다.
+- 이번 가격 정책은 고성능 LLM의 API 호출 비용을 낮춤으로써 대규모 서비스 운영의 경제성을 극대화합니다.
+- 저렴한 비용 구조는 개발자들이 더 많은 토큰을 소비하는 복잡한 Agent 및 RAG(Retrieval-Augmented Generation) 시스템을 구축하는 데 유리한 환경을 제공합니다.
+
+**태그**: LLM, AI, V4-Pro, AI_Pricing, Inference_Optimization
+
+---
+
+### 9. [(LETTERS) AI misinformation and lawmakers fail to protect children - Oil City News](https://oilcity.news/opinion/2026/05/23/letters-ai-misinformation-and-lawmakers-fail-to-protect-children/)
+**출처**: Oil City News | **게시일**: Sat, 23 May 2026 17:15:00 GMT
+
+#### 📌 종합 요약
+LLM 기반의 AI 요약 기능이 정보의 왜곡(Hallucination)을 발생시켜 정치적 의사결정에 혼선을 초래한 사례를 다룹니다. 특정 후보자의 정책이 AI 요약 결과로 인해 사실과 다르게 전달되면서, AI 생성 콘텐츠의 신뢰성 문제가 대두되었습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+LLM(Large Language Model)이 검색 엔진의 스니펫(Snippet)이나 요약 엔진에 통합될 때 발생하는 'Hallucination(환각)' 현상의 위험성을 보여줍니다. 모델이 원문 데이터의 맥락을 정확히 파악하지 못하고 특정 키워드(예: data center)를 기반으로 잘못된 관계를 생성(Relation Extraction 오류)함으로써 정보의 무결성을 해치는 기술적 한계를 드러냅니다.
+
+#### ✅ 핵심 요점
+- LLM 기반 AI 요약 시스템이 후보자의 정책적 입장을 실제와 다르게 생성하여 정보 왜곡을 유발함.
+- AI가 생성한 잘못된 정보가 검색 결과 상단에 노출될 경우, 사용자가 원본 소스를 확인하지 않으면 잘못된 정보가 확산될 위험이 있음.
+- 데이터 센터 개발과 같은 복잡한 정책 맥락을 LLM이 단순화하는 과정에서 발생하는 논리적 오류와 신뢰성 결여 문제를 시사함.
+
+**태그**: AI_Misinformation, LLM, Information_Integrity, Infra, AI
+
+---
+
+### 10. [AI-induced never-skilling in medical education - Nature](https://www.nature.com/articles/s41591-026-04438-y)
+**출처**: Nature | **게시일**: Fri, 22 May 2026 09:38:05 GMT
+
+#### 📌 종합 요약
+의학 교육 현장에 급격히 도입되는 AI가 학습자의 기초 추론 능력을 저해하는 'Never-skilling' 위험성을 경고하며, 이를 방지하기 위한 단계적 역량 보호 프레임워크를 제안합니다. 숙련된 전문가의 기술 퇴화(Deskilling)를 넘어, 학습 초기 단계에서 필수적인 임상적 사고 체계가 형성되지 못하는 새로운 교육적 위기를 다룹니다.
+
+#### ⚙️ 기술적 성과 및 가치
+본 논문은 학습 이론(Learning Theory)에 근거하여 AI 도입 시점과 방식이 인지적 부하(Cognitive Load) 및 지식 내재화에 미치는 영향을 분석합니다. 특히 AI에 대한 무비판적 수용으로 잘못된 지식을 습득하는 'Mis-skilling'과 기초 역량 결여인 'Never-skilling'을 기술적으로 구분하여 정의합니다. 이를 해결하기 위해 독립적 역량 확보, 비판적 교정(Critical Calibration), 감독 하의 통합이라는 3단계 역량 보호 프레임워크를 제시합니다.
+
+#### ✅ 핵심 요점
+- Never-skilling: 임상 교육 초기 단계에서 AI에 과도하게 의존함으로써 독립적인 진단 및 추론을 위한 기초 역량을 습득하지 못하는 현상입니다.
+- Mis-skilling: AI의 오류를 비판 없이 수용하여 잘못된 임상 지식을 학습자의 지식 체계로 내재화하는 위험을 의미합니다.
+- 3-Phase Competency-Protective Framework: AI 독립적 기본 역량 구축, 구조화된 교수법을 통한 비판적 교정, 감독 하의 AI 통합 순으로 이어지는 단계적 교육 모델을 제안합니다.
+- Cognitive Offloading Risk: AI를 통한 인지적 외주화(Cognitive Offloading)가 학습자의 비판적 사고와 문제 해결 능력을 저해할 수 있음을 경고합니다.
+
+**태그**: Cognitive Load Theory, Rust, Agent, Clinical Reasoning, Medical Education
+
+---
+
