@@ -1,0 +1,202 @@
+# 🌏 Google News Tech Digest (2026-06-06)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 AI가 단순한 도구를 넘어 스스로를 개선하는 '재귀적 자기 개선' 단계로 진입함에 따라 발생하는 통제권 상실 위험과 거버넌스 구축에 대한 논의가 주를 이루었습니다. 또한, AI 기술이 교육, 경제, 업무 방식 등 사회 전반의 구조를 재편하는 과정에서 나타나는 윤리적, 심리적, 디자인적 변화가 핵심 화두로 떠올랐습니다.
+
+### 오늘의 핵심 포인트
+- AI가 인간의 개입 없이 스스로를 최적화하는 '재귀적 자기 개선' 단계에 대한 기술적 경고와 이를 제어하기 위한 글로벌 거버넌스 및 안전장치(Brake Pedal) 구축의 필요성이 대두되었습니다.
+- 자본의 흐름이 가상자산에서 AI 인프라와 대형 IPO로 이동하며, AI 기술이 국가적 전략 자산으로서 경제적 이익과 정치적 이해관계의 중심이 되고 있습니다.
+- AI를 수동적으로 활용하는 방식은 직무 의미를 저하시키는 반면, 협업적 활용은 생산성과 심리적 소유권을 유지하는 등 AI 활용 방식에 따른 사회적·심리적 영향이 뚜렷하게 나타나고 있습니다.
+
+**오늘의 태그**: AI_Governance, Recursive_Self-Improvement, Future_of_Work, AI_Ethics, Tech_Economy
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Most K-12 teachers say AI's impact on education will eclipse the internet or computers - NPR](https://www.npr.org/2026/06/05/nx-s1-5779757/school-ai-education-students-teachers-poll-critical-thinking)
+**출처**: NPR | **게시일**: Fri, 05 Jun 2026 09:00:00 GMT
+
+#### 📌 종합 요약
+K-12 교육 현장의 교사 대다수가 AI가 인터넷이나 컴퓨터의 도입을 뛰어넘는 교육적 패러다임의 전환을 가져올 것이라고 전망합니다. 단순한 도구의 변화를 넘어 학습 방식과 교수법의 근간을 바꾸는 파괴적 혁신이 예고되고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+LLM(Large Language Model) 기반의 생성형 AI는 단순 정보 검색을 넘어 개인화된 학습 경로를 설계하는 Agent로서의 역할을 수행합니다. 이는 기존의 정적인 교육 콘텐츠를 동적인 상호작용형 데이터로 변환하며, 데이터 기반의 맞춤형 피드백 루프를 형성합니다. 교육 현장에서는 이러한 기술이 학습자의 인지 부하를 관리하고 개별 학습 속도에 최적화된 지식 전달 체계를 구축할 것으로 기대됩니다.
+
+#### ✅ 핵심 요점
+- AI 기술이 인터넷이나 PC의 보급에 비견될 만큼 교육 생태계에 강력한 임팩트를 미칠 것으로 예측됩니다.
+- 교사들은 AI가 단순 보조 도구를 넘어 교육의 본질적인 구조를 재편할 핵심 기술이 될 것으로 보고 있습니다.
+- 개인화된 학습 경험을 제공하는 AI의 능력이 교육 격차 해소 및 맞춤형 교육의 핵심 동력으로 작용할 전망입니다.
+
+**태그**: Future of Education, AI, Generative AI, LLM, EdTech
+
+---
+
+### 2. [Trump administration, OpenAI discussing possible government stake in the AI startup - CNBC](https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html)
+**출처**: CNBC | **게시일**: Fri, 05 Jun 2026 17:58:46 GMT
+
+#### 📌 종합 요약
+OpenAI와 트럼프 행정부가 AI 성장의 이익을 국민과 공유하기 위한 정부 지분 참여 방안을 논의 중입니다. 이는 OpenAI가 제안한 'Public Wealth Fund' 개념을 바탕으로 하며, 기업의 지분을 정부에 기부하여 국가적 차원의 부를 창출하는 모델을 지향합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+OpenAI의 기업 가치는 현재 8,500억 달러(약 1,100조 원)를 상회하며, 이는 단순한 소프트웨어 기업을 넘어 국가 전략 자산으로서의 가치를 지님을 의미합니다. 이번 논의는 AI 모델의 발전이 가져올 경제적 이익을 국가 주권 펀드(Sovereign Wealth Fund)와 연계하여, 기술적 우위가 국가 재정 및 국민 복지로 환원되는 새로운 거버넌스 모델을 실험하는 것입니다. 또한, 정부의 모델 접근 권한 요구와 같은 규제적 요소가 AI 모델의 안전성(Safety) 및 보안(Cyber tools) 확보와 결합되는 과정에 있습니다.
+
+#### ✅ 핵심 요점
+- OpenAI는 지분 일부를 미국 정부에 기부하여 'Public Wealth Fund'를 조성하는 방안을 논의 중입니다.
+- 트럼프 행정부는 이미 Intel, IBM 등 주요 기술 기업에 대한 지분 참여를 통해 국가 주권 펀드 구축을 추진하고 있습니다.
+- OpenAI는 올해 중 IPO(Initial Public Offering, 기업 공개)를 준비하고 있으며, 이는 기술 자산의 공적 관리와 민간 자본 사이의 복잡한 이해관계를 형성할 것입니다.
+- 정부는 AI 모델 출시 전 30일간 정부에 접근 권한을 제공하는 행정명령을 통해 기술 통제와 안전성 확보를 동시에 꾀하고 있습니다.
+
+**태그**: Startup, Tech Policy, Rust, OpenAI, IPO
+
+---
+
+### 3. [Anthropic warns AI may soon begin recursive self-improvement - Scientific American](https://www.scientificamerican.com/article/anthropic-warns-ai-may-soon-begin-recursive-self-improvement/)
+**출처**: Scientific American | **게시일**: Fri, 05 Jun 2026 18:06:51 GMT
+
+#### 📌 종합 요약
+Anthropic이 AI가 스스로의 후속 모델을 설계하고 구축하는 '재귀적 자기 개선(Recursive Self-improvement)' 단계에 진입할 가능성을 경고하며, 사회적 정렬(Alignment) 연구를 위한 글로벌 차원의 개발 일시 중단(Pause)을 제안했습니다. 이는 기술 발전 속도가 사회적 통제 범위를 넘어설 수 있다는 우려에서 비롯된 전략적 제언입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Anthropic은 Claude Code 출시 이후 자사 시스템에 병합되는 코드의 80% 이상을 AI가 작성하고 있으며, 엔지니어의 코드 배포 속도가 수년 전 대비 8배 증가했다는 구체적인 수치를 제시했습니다. 이는 AI가 단순한 보조 도구를 넘어 소프트웨어 개발 생명주기(SDLC)의 핵심 주체로 기능하며 인간의 개입을 줄여가는 과정을 보여줍니다. 이러한 자동화된 코드 생성 및 최적화 능력은 모델이 스스로의 아키텍처를 개선하는 재귀적 루프의 기술적 토대가 됩니다.
+
+#### ✅ 핵심 요점
+- AI가 인간의 개입 없이 차세대 모델을 설계하는 '재귀적 자기 개선' 단계에 대한 기술적 임계점 경고
+- Claude Code 도입 이후 시스템 코드 병합 비중이 80%를 상회하는 등 개발 프로세스의 자동화 가속화
+- 국가 간 경쟁과 기업 간 이익 충돌 속에서 실현 가능성이 낮은 '글로벌 조정 메커니즘'에 대한 정치적·기술적 논쟁
+- 규제 장벽을 구축하여 경쟁 우위를 확보하려는 비즈니스 전략이라는 비판적 시각 존재
+
+**태그**: Infra, Anthropic, AI Alignment, Claude, AI
+
+---
+
+### 4. [Bitcoin's star fades, as investors flock to lustre of AI and megacap IPOs - Reuters](https://www.reuters.com/business/finance/bitcoins-star-fades-investors-flock-lustre-ai-megacap-ipos-2026-06-05/)
+**출처**: Reuters | **게시일**: Fri, 05 Jun 2026 15:59:58 GMT
+
+#### 📌 종합 요약
+자본 시장의 유동성이 Bitcoin과 같은 가상자산에서 AI(Artificial Intelligence) 기술 혁신 및 대형 IPO(Initial Public Offering) 섹터로 급격히 이동하고 있습니다. 투자자들은 단순 자산 가치 상승보다 실질적인 기술적 진보와 산업 생태계를 재편할 수 있는 성장성에 집중하는 양상을 보입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+투자자들의 관심이 가상자산의 투기적 수요에서 LLM(Large Language Model) 및 AI 인프라와 같은 실질적 기술 가치로 전이되었습니다. 이는 단순한 자산 이동을 넘어, 컴퓨팅 파워와 데이터 처리 능력을 기반으로 한 실물 경제의 기술적 성과(Real-world utility)를 중시하는 시장 흐름을 반영합니다. 특히 AI Agent 및 고도화된 알고리즘 기반의 서비스가 창출하는 부가가치가 전통적인 금융 자산의 수익률을 상회하기 시작했습니다.
+
+#### ✅ 핵심 요점
+- Bitcoin의 시장 지배력이 약화되는 대신, AI 기술 혁신과 대형 기업의 IPO가 새로운 투자 동력으로 부상했습니다.
+- 자본의 흐름이 가상자산의 희소성 기반 모델에서 AI 인프라 및 소프트웨어 생태계로 재편되고 있습니다.
+- 투자자들은 단순한 자산 보유보다 기술적 해자(Moat)를 가진 기업과 실질적인 산업 임팩트를 제공하는 기술 섹터에 집중하고 있습니다.
+
+**태그**: Bitcoin, IPO, Investment_Trend, AI, LLM
+
+---
+
+### 5. [Anthropic’s Call for A.I. Nonproliferation - The New York Times](https://www.nytimes.com/2026/06/05/business/dealbook/anthropic-ai-nonproliferation.html)
+**출처**: The New York Times | **게시일**: Fri, 05 Jun 2026 12:19:20 GMT
+
+#### 📌 종합 요약
+Anthropic이 AI 기술의 오남용과 위험을 방지하기 위해 핵 비확산(Nonproliferation) 모델을 차용한 새로운 거버넌스 체계 구축을 제안했습니다. 이는 초지능(Superintelligence) 단계로 진입할 가능성이 있는 고성능 LLM의 통제 불능 상태를 막기 위한 선제적 전략입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+단순한 윤리 가이드를 넘어, 모델의 Capability(능력)와 Alignment(정렬) 사이의 불균형을 해결하기 위한 기술적 통제 프레임워크를 지향합니다. 특히 Agentic workflow(에이전트적 워크플로우)가 자율성을 가질 때 발생할 수 있는 위험을 관리하기 위해, 모델의 추론(Reasoning) 과정과 출력값에 대한 엄격한 검증 메커니즘을 요구합니다. 이는 모델의 파라미터 규모나 연산량(Compute)을 넘어, 모델이 스스로 목표를 설정하고 실행하는 단계에서의 안전 장치를 설계하는 것이 핵심입니다.
+
+#### ✅ 핵심 요점
+- AI 기술의 급격한 발전이 가져올 수 있는 실존적 위험을 방지하기 위해 국제적인 비확산 체계 도입을 촉구합니다.
+- 고성능 LLM이 자율적인 Agent로 진화할 때 발생할 수 있는 통제 상실 문제를 핵심 리스크로 규정합니다.
+- 기술적 우위 확보 경쟁보다 안전한 모델 배포와 관리 체계(Governance) 구축이 산업의 지속 가능성을 결정함을 강조합니다.
+
+**태그**: Anthropic, AI Governance, Agent, LLM, AI Safety
+
+---
+
+### 6. [Anthropic warns that AI will soon be able to improve itself without human intervention - CNN](https://www.cnn.com/2026/06/05/business/anthropic-calls-for-ai-brake-pedal)
+**출처**: CNN | **게시일**: Fri, 05 Jun 2026 11:53:57 GMT
+
+#### 📌 종합 요약
+Anthropic은 AI가 인간의 개입 없이 스스로를 개선하는 'Full Recursive Self-Improvement' 단계에 진입할 위험을 경고하며, 기술적 통제권을 확보하기 위한 'Brake Pedal(제동 장치)' 구축을 촉구했습니다. 이는 AI가 스스로 차세대 모델을 설계하고 최적화하는 과정에서 발생할 수 있는 통제 상실 문제를 방지하기 위한 선제적 대응 전략입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+핵심 기술적 쟁점은 AI가 자신의 아키텍처를 스스로 수정하고 학습 알고리즘을 최적화하는 'Full Recursive Self-Improvement'의 구현 가능성입니다. 이는 기존의 단순한 파라미터 튜닝을 넘어, AI가 스스로 새로운 모델 구조를 설계하고 데이터 생성 및 학습 루프를 자동화하는 고도화된 Agentic workflow를 의미합니다. 이러한 자가 진화형 시스템은 인간이 모델의 동작을 검증(Verification)하고 신뢰(Trust)할 수 있는 범위를 벗어날 위험이 있어, 기술적 정렬(Alignment)과 모니터링 체계의 근본적인 재설계가 요구됩니다.
+
+#### ✅ 핵심 요점
+- Full Recursive Self-Improvement: AI가 스스로의 후속 모델을 개발하고 성능을 개선하는 단계로, 인간의 통제력을 상실할 수 있는 기술적 임계점을 의미합니다.
+- Brake Pedal(제동 장치)의 필요성: 가속(성능 향상)에만 치중된 현재의 개발 흐름에서 벗어나, 위험 상황 시 즉각적으로 개입하고 시스템을 제어할 수 있는 기술적 안전장치가 필수적입니다.
+- 검증 및 신뢰성 문제: AI가 인간보다 훨씬 빠르고 거대한 규모의 연구/개발 프로세스를 수행할 경우, 모델의 동작을 검증(Verify)하고 예측하는 것이 불가능해질 수 있습니다.
+- 산업적 협력 모델: 냉전 시대의 핵 군비 경쟁 통제 사례처럼, 경쟁 관계에 있는 AI 기업들이 공동의 안전 규격과 제어 프로토콜을 수립하는 협력이 필요합니다.
+
+**태그**: Rust, Anthropic, AI Alignment, AI, Recursive Self-Improvement
+
+---
+
+### 7. [Passive AI use at work increases feelings of work meaninglessness, study finds - The Pennsylvania State University](https://www.psu.edu/news/research/story/passive-ai-use-work-increases-feelings-work-meaninglessness-study-finds)
+**출처**: The Pennsylvania State University | **게시일**: Fri, 05 Jun 2026 13:30:00 GMT
+
+#### 📌 종합 요약
+AI를 활용한 업무 방식이 '협업형(Collaborative)'인지 '수동형(Passive)'인지에 따라 직무 만족도와 심리적 소유권이 극명하게 갈린다는 연구 결과가 발표되었습니다. 단순 복사-붙여넣기 식의 수동적 AI 활용은 단기적인 생산성 향상을 가져오지만, 장기적으로는 직무 의미 상실과 자기 효능감 저하를 초래할 수 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+연구팀은 270명의 전문가를 대상으로 '수동적 활용(Passive use)'과 '협업적 활용(Collaborative use)'의 심리적 임팩트를 정량적으로 비교 분석했습니다. 실험 결과, 수동적 활용 시 심리적 소유권(Psychological ownership)은 약 20%, 직무 의미성(Meaningfulness)은 약 10% 감소하는 수치가 관찰되었습니다. 반면, AI와 아이디어를 주고받는 협업적 방식은 수동적 방식과 달리 수동 작업(Manual work)과 유사한 수준의 심리적 지표를 유지하며 기술적 완충 작용을 수행했습니다.
+
+#### ✅ 핵심 요점
+- 수동적 AI 활용(단순 복사-붙여넣기)은 업무에 대한 심리적 소유권을 20% 감소시키며, 이는 이후 수동 작업으로 복귀하더라도 회복되지 않는 잔류 효과를 보입니다.
+- AI를 도구로 활용해 아이디어를 발전시키는 협업적 방식은 업무의 의미와 자기 효능감을 유지하는 데 효과적입니다.
+- 수동적 활용은 단기적으로 과업 즐거움(Task enjoyment)을 최대 29% 높이지만, 이는 업무 숙련도 저하와 '대체 가능성'에 대한 공포로 이어져 장기적인 직무 만족도를 급락시킵니다.
+- 기업은 단순한 생산성 극대화를 위해 AI 사용을 강요하기보다, 직원의 기술적 역량을 강화하는 방향의 AI 통합 전략을 수립해야 합니다.
+
+**태그**: Future of Work, AI, Workplace Psychology, AI-Human Collaboration, Productivity vs Meaningfulness
+
+---
+
+### 8. [AI Has Come for Serif Fonts - WIRED](https://www.wired.com/story/ai-has-come-for-serif-fonts/)
+**출처**: WIRED | **게시일**: Fri, 05 Jun 2026 09:00:00 GMT
+
+#### 📌 종합 요약
+AI 기업들이 기술적 차가움을 상쇄하고 사용자 신뢰를 구축하기 위해 세리프(Serif) 서체를 브랜드 아이덴티티에 적극 도입하는 '세리프 르네상스' 현상이 나타나고 있습니다. 이는 AI의 무기질적인 특성을 인간적인 따뜻함과 권위로 포장하려는 전략적 디자인 선택입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+디자인 심리학과 UX(User Experience) 관점에서, 산세리프(Sans-serif)의 디지털적 느낌 대신 캘리그래피 기원을 가진 세리프를 사용하여 '인간 중심적'인 브랜드 이미지를 구축합니다. Anthropic의 Claude와 같은 LLM 서비스가 종이 질감의 배경과 세리프 서체를 결합하는 방식은 사용자에게 인쇄 매체의 신뢰성과 학술적 권위를 전이시키는 고도의 브랜딩 기법입니다. 이는 기술적 실체와 사용자 인지 사이의 간극을 메우기 위한 'Vibe Coding(분위기 코딩)'의 일환으로 분석됩니다.
+
+#### ✅ 핵심 요점
+- AI 기업들이 기술적 거부감을 줄이기 위해 인간적이고 유동적인 느낌을 주는 세리프 서체를 브랜드 UX에 도입하고 있습니다.
+- 세리프 서체는 학술적 권위와 신뢰를 상징하며, 이는 AI의 '영혼 없음'을 가리고 인간이 만든 제품이라는 착각을 불러일으키는 도구로 활용됩니다.
+- 이러한 디자인 트렌드는 'Premium Mediocre(프리미엄 미디옥)'라 불리는 가짜 고급스러움을 지향하며, AI 모델이 생성한 결과물이 자기 복제되는 과정에서 디자인의 획일화를 초래할 위험이 있습니다.
+- Claude와 같은 모델이 세리프를 사용하는 것은 기술적 정교함을 통해 사용자의 심리적 저항을 낮추려는 전략적 기만(Feint)의 성격을 띠기도 합니다.
+
+**태그**: Startup, Rust, AI Ethics, UX Design, AI
+
+---
+
+### 9. [Advancing Cybersecurity in the Age of Frontier AI: Qualys Steps into Project Glasswing - Qualys](https://blog.qualys.com/product-tech/2026/06/05/advancing-cybersecurity-in-the-age-of-frontier-ai-qualys-steps-into-project-glasswing)
+**출처**: Qualys | **게시일**: Fri, 05 Jun 2026 17:38:27 GMT
+
+#### 📌 종합 요약
+Qualys가 Anthropic의 Project Glasswing 및 OpenAI의 Trusted Access for Cyber 프로그램에 참여하며, Frontier AI 시대에 대응하는 차세대 사이버 보안 전략을 발표했습니다. 이는 수동적인 티켓 기반 보안 운영에서 벗어나 AI를 활용한 기계 속도(Machine-speed)의 자동화된 리스크 관리 체계로의 전환을 목표로 합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Qualys는 2억 개 이상의 Agent를 통해 수집되는 대규모 데이터를 기반으로, AI가 코드 작성, 시스템 해석, 컨텍스트 추론 및 취약점 검증을 직접 수행하는 워크플로우를 구축하고 있습니다. 특히 'Qualys Enterprise TruRisk Management (ETM)' 아키텍처는 탐지(Discovery), 우선순위 지정(Prioritization), 조치(Remediation), 검증(Validation)의 전 과정을 자동화하여 인간의 개입 없이 리스크를 관리하는 Autonomous Risk Management 모델을 지향합니다. 이는 AI로 인해 가속화된 소프트웨어 개발 주기와 취약점 노출 속도 사이의 간극을 메우기 위한 기술적 대응입니다.
+
+#### ✅ 핵심 요점
+- Anthropic 및 OpenAI와의 협업을 통해 Frontier AI 모델의 보안 영향력을 평가하고, AI 시스템의 책임 있는 배포를 위한 실무적 보안 가이드라인을 수립합니다.
+- 기존의 수동적인 티켓 기반 보안 운영 모델의 한계를 극복하기 위해, AI 기반의 자동화된 리스크 운영 센터(Risk Operations Center, ROC)로의 패러다임 전환을 추진합니다.
+- AI가 코드 분석 및 취약점 식별을 가속화함에 따라 발생하는 리스크 증가에 대응하기 위해, 소프트웨어 엔지니어링 생명주기 전반에 걸친 자동화된 보안 검증(Software Assurance)을 강화합니다.
+- 특정 모델에 종속되지 않는 멀티 모델 전략을 통해 다양한 AI 기술의 강점(Reasoning, Coding, Automation 등)을 보안 워크플로우에 유연하게 통합합니다.
+
+**태그**: Rust, Anthropic, OpenAI, Qualys, Security
+
+---
+
+### 10. [Audiences love music created by humans, but AI can enhance it - Northeastern Global News](https://news.northeastern.edu/2026/06/05/ai-music-sir-lucian-grainge/)
+**출처**: Northeastern Global News | **게시일**: Fri, 05 Jun 2026 17:27:29 GMT
+
+#### 📌 종합 요약
+Universal Music Group(UMG)의 CEO Lucian Grainge는 AI가 인간의 창의성을 대체하는 것이 아니라 확장하고 강화하는 도구로 작용할 것이라고 강조했습니다. 그는 AI 기술을 통한 '하이퍼 퍼스널라이제이션(Hyper-personalization)'이 팬 경험을 혁신할 것이며, 아티스트의 선택적 참여(Opt-in)를 전제로 한 책임감 있는 기술 활용 모델을 제시했습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+UMG는 Spotify와의 협업을 통해 특정 프리미엄 사용자 계층이 아티스트의 음원을 활용해 커버곡이나 리믹스를 생성할 수 있는 'AI 기반 슈퍼팬(AI-enabled superfan)' 이니셔티브를 추진합니다. 이는 데이터 권한이 통제된 'Walled Garden(폐쇄형 생태계)' 내에서 생성형 AI를 활용하여, 사용자가 직접 악기 연주를 추가하거나 보컬 하모니를 생성하는 등 고도의 개인화된 오디오 합성 및 변환 기술을 제공하는 것을 목표로 합니다. 이러한 기술적 접근은 과거 샘플링(Sampling) 기술이 새로운 음악 장르를 탄생시켰듯, 창작 과정의 병목 현상을 해결하는 'Stress Tester'로서의 역할을 수행합니다.
+
+#### ✅ 핵심 요점
+- AI는 인간의 창의성을 대체하는 것이 아니라, 작곡 과정의 막힌 부분을 해결하고 창작 속도를 높이는 보조 도구로 정의됩니다.
+- 아티스트의 권리 보호를 위해 'Opt-in(사전 동의)' 방식을 핵심 원칙으로 삼아 기술 도입의 윤리적 가이드라인을 설정합니다.
+- Spotify와의 파트너십을 통해 팬들이 직접 리믹스에 참여하는 하이퍼 퍼스널라이제이션 기반의 새로운 수익 모델을 구축합니다.
+- 과거 신시사이저나 샘플링 기술의 도입 사례처럼, AI를 음악 산업의 새로운 표준이자 확장 도구로 수용하는 전략을 취합니다.
+
+**태그**: AI, Hyper-personalization, Music Tech, Generative AI, Universal Music Group
+
+---
+
