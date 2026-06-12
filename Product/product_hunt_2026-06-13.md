@@ -1,0 +1,1217 @@
+# 🚀 Product Hunt Daily Top 30 (2026-06-13)
+
+## 오늘의 요약
+오늘의 제품들은 AI를 활용한 코딩 및 금융 계획, 그리고 보안과 효율성을 강조한 개발자 도구들이 주를 이루었습니다. 특히 단순한 기능 제공을 넘어 사용자의 작업 패턴을 학습하거나 강제적인 습관 형성을 돕는 등 개인화된 경험과 실질적인 문제 해결에 집중하는 경향을 보였습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트와 코딩 효율을 극대화하기 위한 개발자 친화적인 도구들이 다수 등장했습니다.
+- 데이터 보안과 로컬 환경 실행을 강조하며 개인정보 보호와 신뢰성을 확보하려는 시도가 돋보였습니다.
+- 글로벌 결제, 자금 조달, 재무 계획 등 복잡한 금융 문제를 간소화하는 서비스들이 주목받았습니다.
+
+**오늘의 태그**: AI_Agent, Developer_Tools, Fintech, Productivity, Security
+
+## 1. [Firma.dev](https://www.producthunt.com/products/firma-dev)
+**Votes**: 255 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: E-signatures API for your app averaging ~3¢ per envelope
+**서비스 링크**: https://www.producthunt.com/r/MJGLBAKR5ANIUY
+
+**태그**: DevTool, API, SaaS, Automation, Sales
+
+<img src="images/ph_2026-06-12_Firma.dev.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+DocuSign 대비 99% 저렴한 비용으로 빠르게 도입 가능한 개발자 친화적 전자서명 API
+
+### 🔑 주요 기능
+- 봉투당 약 3센트(€0.029) 수준의 압도적인 가성비
+- 계약이나 최소 사용량 제한 없는 종량제(Pay-as-you-go) 방식
+- 빠른 통합을 위한 클린 REST API 및 임베디드 템플릿/에디터 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스타트업이나 SaaS 팀이 복잡한 영업 과정 없이 단 몇 시간 만에 저렴한 비용으로 서비스 내 전자서명 기능을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 샌드박스 키를 발급받아 무료 테스트 환경 구축하기
+- 제공되는 API를 통해 실제 문서 및 무제한 사용 테스트하기
+- 서비스 내 임베디드 에디터 연동 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- DocuSign 등 기존 대형 서비스 대비 브랜드 인지도 및 신뢰도 차이 확인 필요
+- 사용량 증가 시 비용 변동성 검토
+
+### 🧭 확인이 더 필요한 정보
+제공되는 기능의 법적 효력 및 국가별 전자서명 규제 준수 여부에 대한 상세 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Firma.dev_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Firma.dev_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Firma.dev_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8892b41c-0a2d-48da-89e3-3ca56161d5c4.jpeg?auto=format)
+
+---
+
+## 2. [Qursor](https://www.producthunt.com/products/qursor)
+**Votes**: 221 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Point at any UI to send exact context to your AI
+**서비스 링크**: https://www.producthunt.com/r/UZAN2BZTEQ2HT3
+
+**태그**: DevTool, AI-Workflow, Frontend, Productivity, Agent, AI Tool
+
+<img src="images/ph_2026-06-12_Qursor.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+UI 요소를 클릭 한 번으로 정확한 코드로 추출하여 AI 에이전트에게 전달하는 개발 도구
+
+### 🔑 주요 기능
+- 선택한 요소의 셀렉터, 클래스, 스타일, 폰트 등 구조화된 컨텍스트 복사
+- HTML/CSS/JSX 형식으로 컴포넌트 추출 기능
+- 색상 피커 및 폰트 감지 기능 포함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트에게 모호한 스크린샷 대신 정확한 코드 정보를 제공함으로써, 작업 오류를 줄이고 불필요한 토큰 낭비를 방지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- UI 요소의 정확한 스타일 정보 복사해보기
+- 추출된 코드를 AI 에이전트에 붙여넣어 UI 수정 요청하기
+- 웹 페이지의 컴포넌트를 HTML/JSX로 변환하기
+
+### ⚠️ 사용 전 확인할 점
+- 복사된 코드가 복잡한 프레임워크 환경에서 즉시 작동하지 않을 수 있음
+- 브라우저 확장 프로그램 형태일 경우 보안 정책에 따른 제약 가능성
+
+### 🧭 확인이 더 필요한 정보
+해당 도구가 브라우저 확장 프로그램인지 별도의 데스크톱 앱인지 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Qursor_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Qursor_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Qursor_media_2.jpg)
+
+---
+
+## 3. [Pond](https://www.producthunt.com/products/pond-5)
+**Votes**: 180 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Fundraising, GTM, and bounties for startups
+**서비스 링크**: https://www.producthunt.com/r/CTIMFBPUPVXIGE
+
+**태그**: Startup-Tools, Fundraising, Automation, GTM, AI, Agent, AI Tool, API, CRM
+
+<img src="images/ph_2026-06-12_Pond.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+검증된 지표 기반의 자금 조달, 고객 확보 및 글로벌 기여자 네트워크를 제공하는 스타트업 성장 인프라
+
+### 🔑 주요 기능
+- Stripe 검증 지표와 Vault 보호를 통한 신뢰할 수 있는 펀딩 환경
+- 20,000명 이상의 기여자가 참여하는 바운티(Bounty) 시스템
+- CRM, 파이프라인, GTM(시장 진출 전략)을 자동화하는 AI 성장 에이전트
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스타트업이 신뢰도 높은 데이터를 바탕으로 빠르게 자금을 조달하고, 글로벌 인력을 활용해 시장 진출을 자동화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 성장 에이전트를 통한 GTM 자동화 설정
+- 바운티 시스템을 통한 글로벌 기여자 확보
+- 검증된 지표를 활용한 펀딩 기회 탐색
+
+### ⚠️ 사용 전 확인할 점
+- 플랫폼 내 데이터 검증 방식 및 보안 프로토콜 확인 필요
+- 바운티 참여자 관리 및 결과물 품질 검수 프로세스 고려
+
+### 🧭 확인이 더 필요한 정보
+구체적인 수수료 체계나 AI 에이전트의 상세 기능 범위는 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Pond_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Pond_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Pond_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ab398bec-2f7e-4270-8006-91891e5f7e4c.jpeg?auto=format)
+
+---
+
+## 4. [KOSH Money](https://www.producthunt.com/products/kosh-money)
+**Votes**: 160 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: USD account & credit cards for freelancers & creators
+**서비스 링크**: https://www.producthunt.com/r/U4HHKG6LASDTLK
+
+**태그**: Fintech, Freelancer, Payment, USD, CreatorEconomy
+
+<img src="images/ph_2026-06-12_KOSH_Money.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아시아 프리랜서와 크리에이터를 위한 미국 현지 법인 없이 가능한 USD 계좌 및 카드 서비스
+
+### 🔑 주요 기능
+- 미국 법인 없이도 Upwork 등 글로벌 클라이언트로부터 직접 USD 수취 가능
+- 아시아 지역의 결제 제한 및 지연 문제를 해결하는 특화된 USD 계좌 제공
+- 수취한 USD 잔액을 안정적으로 보유하고 신용카드로 즉시 사용 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+해외 결제 수취 시 발생하는 복잡한 절차와 지연 없이 수익을 빠르게 확보하고 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Upwork 등 주요 플랫폼과의 수취 호환성 테스트
+- USD 잔액 보유 및 카드 결제 프로세스 확인
+- 아시아 지역 내 서비스 가용 범위 확인
+
+### ⚠️ 사용 전 확인할 점
+- 미국 법인 없이 운영되는 서비스이므로 규제 환경 변화에 따른 영향 확인 필요
+- 서비스 이용 시 발생하는 수수료 체계 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 서비스 이용 가능 국가 리스트와 상세 수수료 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_KOSH_Money_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_KOSH_Money_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_KOSH_Money_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/66508de3-45c7-4ded-9b87-23d0a9d05c73.gif?auto=format)
+
+---
+
+## 5. [HyperSleep](https://www.producthunt.com/products/hypersleep)
+**Votes**: 150 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Block social media until you've actually slept
+**서비스 링크**: https://www.producthunt.com/r/OUIBT5QXMTJNMM
+
+**태그**: Productivity, Health, Android, Digital Detox, AI Tool
+
+<img src="images/ph_2026-06-12_HyperSleep.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+수면을 확인하기 전까지 소셜 미디어 접속을 강제로 차단하는 강력한 디지털 디톡스 앱
+
+### 🔑 주요 기능
+- 수면 센서 감지를 통한 소셜 앱 잠금 해제 방식
+- 취침 시간에 맞춰 자동으로 실행되는 자동화 기능
+- 개인정보 보호를 위한 100% 온디바이스 데이터 처리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+의지력에 의존하는 대신, 실제 수면을 완료해야만 앱이 열리도록 설계되어 강제적인 수면 습관 형성을 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 안드로이드 기기 설치 및 권한 설정
+- 취침 시간 자동 실행 설정 확인
+- 멀티 센서 감지 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 안드로이드 플랫폼 전용 서비스임
+- 수면 감지 센서가 정확하지 않을 경우 앱 잠금 해제가 어려울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+센서가 수면 상태를 오판할 경우 발생할 수 있는 사용자 불편에 대한 대응책이 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_HyperSleep_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_HyperSleep_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_HyperSleep_media_2.jpg)
+
+---
+
+## 6. [Meet Warren 3.0](https://www.producthunt.com/products/underpay)
+**Votes**: 127 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your voice-supported AI financial planning partner
+**서비스 링크**: https://www.producthunt.com/r/ITHILQTGL6E2JY
+
+**태그**: AI, Finance, Planning, Voice-Interface, AI Tool
+
+<img src="images/ph_2026-06-12_Meet_Warren_3.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+음성 대화를 통해 맞춤형 재무 계획을 세워주는 AI 금융 파트너
+
+### 🔑 주요 기능
+- 음성 기반의 간편한 대화로 개인 맞춤형 재무 계획 수립
+- 현상 유지 시와 행동 변화 시의 두 가지 미래 시나리오 비교 제공
+- 실행 가능한 단계별 가이드 제공 및 경제 변화에 따른 계획 모니터링
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고가의 전문 상담 없이도 10분 만에 체계적인 재무 계획을 세우고, 변화하는 경제 상황에 맞춰 계획을 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 10분간의 음성 대화를 통한 초기 재무 계획 수립
+- 행동 변화에 따른 미래 시나리오 시뮬레이션 확인
+- 제시된 단계별 실행 과제(Next Steps) 검토
+
+### ⚠️ 사용 전 확인할 점
+- 전문적인 대면 상담(IFA)을 완전히 대체하기에는 한계가 있을 수 있음
+- 사용자의 음성 데이터 및 개인 금융 정보 보안 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 영국 사용자 중심의 서비스로, 타 국가에서의 법적/금융적 유효성 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Meet_Warren_3.0_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Meet_Warren_3.0_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_Meet_Warren_3.0_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7807e578-b9e6-4e38-9f47-73546451ecd1.jpeg?auto=format)
+
+---
+
+## 7. [Bob's CLI](https://www.producthunt.com/products/bob-s-cli)
+**Votes**: 120 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A local-first AI coding CLI that adapts to you
+**서비스 링크**: https://www.producthunt.com/r/EEQXQXCFJJTAFZ
+
+**태그**: DevTool, AI, CLI, Privacy, Automation, AI Tool, Design, API
+
+<img src="images/ph_2026-06-12_Bob's_CLI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+데이터 유출 걱정 없이 로컬 환경에서 사용자의 작업 방식에 맞춰 진화하는 AI 코딩 CLI
+
+### 🔑 주요 기능
+- 로컬 실행 기반의 제로 API 비용 및 강력한 데이터 보안
+- 사용자의 작업 패턴을 학습하는 행동 DNA 프로파일링
+- 자율적인 코드 리뷰, 자동 수정 및 원격 실행(SovereignLink) 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+코드가 외부로 유출되지 않는 안전한 환경에서 개인 맞춤형 AI 코딩 어시스턴트를 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 AI 모델 자동 감지 기능 테스트
+- 사용자 패턴 학습을 위한 작업 환경 설정
+- SovereignLink를 통한 원격 실행 기능 확인
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 하드웨어 성능에 따른 실행 속도 차이
+- 로컬 모델 설정 및 관리의 복잡성
+
+### 🧭 확인이 더 필요한 정보
+로컬 하드웨어 사양에 따른 최적의 모델 자동 감지 범위와 성능이 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Bob's_CLI_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Bob's_CLI_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Bob's_CLI_media_2.jpg)
+
+---
+
+## 8. [ShellMate](https://www.producthunt.com/products/shellmate-2)
+**Votes**: 111 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Manage SSH servers, credentials, and teams in one place
+**서비스 링크**: https://www.producthunt.com/r/U2DUIA53LZKYV3
+
+**태그**: DevTool, Security, Collaboration, SSH, LLM
+
+<img src="images/ph_2026-06-12_ShellMate.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+보안과 협업에 최적화된 차세대 통합 SSH 클라이언트
+
+### 🔑 주요 기능
+- 제로 지식 암호화(Zero-knowledge) 기반의 보안 금고 기능
+- 기기 간 동기화 및 팀 워크스페이스 협업 지원
+- 빠르고 현대적인 사용자 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 서버와 접속 정보를 안전하게 관리하면서, 팀원들과 효율적으로 권한을 공유하고 협업할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보안 금고(Vault)에 접속 정보 저장하기
+- 팀 워크스페이스 생성 및 멤버 초대하기
+- 멀티 디바이스 동기화 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- 제로 지식 암호화 방식이므로 계정 분실 시 데이터 복구 가능 여부 확인 필요
+- 팀 협업 기능의 세부 권한 관리 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 플랫폼 지원 범위(OS)와 요금 체계에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_ShellMate_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_ShellMate_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_ShellMate_media_2.jpg)
+
+---
+
+## 9. [Insta360 Luna Ultra](https://www.producthunt.com/products/insta-360)
+**Votes**: 106 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A gimbal camera that sees with you
+**서비스 링크**: https://www.producthunt.com/r/DWWY6SSAPT22S2
+
+**태그**: Camera, Vlogging, Photography, Hardware, AI Tool
+
+<img src="images/ph_2026-06-12_Insta360_Luna_Ultra.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+라이카 렌즈와 3축 짐벌이 결합된 8K 초고화질 POV 카메라
+
+### 🔑 주요 기능
+- 1인치 라이카 Summicron 메인 렌즈 및 1/1.3인치 망원 렌즈 탑재
+- 3축 안정화 기술과 AI 트래킹을 통한 흔들림 없는 촬영
+- 탈부착 가능한 2인치 OLED 터치스크린 및 10-bit I-Log 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+강력한 광학 성능과 짐벌 안정성을 갖춰, 별도의 장비 없이도 전문가 수준의 고해상도 브이로그와 POV 영상을 촬영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 트래킹 기능을 활용한 자동 피사체 추적 촬영
+- 10-bit I-Log 모드를 이용한 전문적인 색보정 작업
+- 탈부착형 OLED 스크린을 활용한 직관적인 구도 설정
+
+### ⚠️ 사용 전 확인할 점
+- 8K 고해상도 촬영 시 내부 저장 공간 및 배터리 소모량 확인 필요
+- 짐벌 일체형 구조로 인한 휴대성 및 무게 체감 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+내장 스토리지의 정확한 용량과 배터리 지속 시간에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Insta360_Luna_Ultra_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Insta360_Luna_Ultra_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_Insta360_Luna_Ultra_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7a5e89e1-8b84-4ff4-9fe3-e263bc09a9fd.jpeg?auto=format)
+
+---
+
+## 10. [Slack Data Agent](https://www.producthunt.com/products/basedash)
+**Votes**: 102 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Ask about your data without leaving Slack
+**서비스 링크**: https://www.producthunt.com/r/MOY3ZCEEEPW3QE
+**재등장**: 최근 7일 내 재등장 (마지막 등장 7일 전)
+
+**태그**: AI, DataAnalytics, Slack, Automation, BusinessIntelligence, Agent, AI Tool
+
+<img src="images/ph_2026-06-12_Slack_Data_Agent.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+슬랙을 떠나지 않고 대화하듯 데이터 분석과 시각화를 수행하는 AI 데이터 에이전트
+
+### 🔑 주요 기능
+- 슬랙 채널 내에서 @Basedash 멘션만으로 데이터 질의 및 답변 가능
+- 텍스트 답변뿐만 아니라 데이터 시각화를 위한 차트 자동 생성
+- 스케줄링된 리포트 자동화 및 이상 징후 자동 감지 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+데이터 분석 도구를 따로 열 필요 없이 팀원들과 대화하는 슬랙 안에서 즉각적인 데이터 인사이트를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 슬랙 채널에서 @Basedash를 호출하여 데이터 질문하기
+- 자동 생성된 차트와 답변 확인하기
+- 정기적인 리포트 발송을 위한 자동화 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- 연동 가능한 데이터 소스의 종류와 범위 확인 필요
+- 데이터 보안 및 권한 관리 정책 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 구체적인 데이터 소스 목록과 데이터 보안 처리 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Slack_Data_Agent_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Slack_Data_Agent_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Slack_Data_Agent_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f231d036-2601-4f39-9bb1-dce3bbb8986c.jpeg?auto=format)
+
+---
+
+## 11. [Tide](https://www.producthunt.com/products/tide-beautiful-layered-voice-notes)
+**Votes**: 99 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Layered voice notes that paint themselves
+**서비스 링크**: https://www.producthunt.com/r/7OOQ3ZWQ3PE3IK
+
+**태그**: MusicProduction, AudioTool, Creative, AI Tool
+
+<img src="images/ph_2026-06-12_Tide.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+음성 메모를 레이어링된 사운드 스케치로 변환하는 직관적인 녹음 도구
+
+### 🔑 주요 기능
+- 멀티트랙 레이어링을 통한 사운드 스택 생성
+- 바이닐(Vinyl) 방식의 스크러빙 및 루프 기능
+- 클라우드 없는 로컬 저장 방식 및 DAW 연동 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+아이디어가 떠오를 때 즉석에서 베이스, 비트, 보컬을 쌓아 음악적 스케치를 빠르게 완성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 베이스라인과 비트박스를 겹쳐 레이어 만들기
+- 스크러빙 기능을 활용해 좋은 구간 루프 만들기
+- 완성된 스케치를 DAW로 내보내 작업하기
+
+### ⚠️ 사용 전 확인할 점
+- 클라우드 저장 기능이 없으므로 기기 내 파일 관리가 중요함
+- 7월 말까지 제공되는 출시 기념 50% 할인 혜택 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+지원되는 구체적인 파일 형식 및 외부 앱(Choppa 등)과의 상세 연동 방식은 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Tide_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Tide_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Tide_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b156663e-559c-49da-afbf-a129a24160fc.jpeg?auto=format)
+
+---
+
+## 12. [ CueBuddy](https://www.producthunt.com/products/cuebuddy)
+**Votes**: 98 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Record talking videos without manual scrolling
+**서비스 링크**: https://www.producthunt.com/r/IOURJDAI2Z5LJG
+
+**태그**: VideoCreation, Teleprompter, iOS, ContentCreator, Automation, Prompting, Video
+
+<img src="images/ph_2026-06-12__CueBuddy.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+목소리 속도에 맞춰 자동으로 스크롤되는 스마트 텔레프롬프터
+
+### 🔑 주요 기능
+- 음성 인식 기반의 자동 스크롤 기능
+- 말을 멈추면 스크립트도 자동으로 일시정지
+- iPhone 및 iPad 최적화 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+영상 촬영 시 스크롤 속도를 조절하기 위해 화면을 조작할 필요가 없어, 시선 처리가 자연스럽고 촬영 흐름이 끊기지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 웹 데모를 통한 핵심 기능 체험
+- iOS 앱 설치 및 녹화 워크플로우 테스트
+- 실제 목소리 반응 속도 확인
+
+### ⚠️ 사용 전 확인할 점
+- 주변 소음이 클 경우 음성 인식 정확도 저하 가능성
+- iOS 기기 환경에 따른 앱 기능 제한 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+웹 데모와 iOS 앱 간의 기능 차이 및 상세 녹화 기능 범위에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12__CueBuddy_media_0.jpg)
+![Screenshot](images/ph_2026-06-12__CueBuddy_media_1.jpg)
+![Screenshot](images/ph_2026-06-12__CueBuddy_media_2.jpg)
+
+---
+
+## 13. [Medicyn](https://www.producthunt.com/products/medicyn)
+**Votes**: 95 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your complete medical history privately on your device
+**서비스 링크**: https://www.producthunt.com/r/R42OGAP33HGTCE
+
+**태그**: HealthTech, Privacy, PersonalFinance, FamilyCare, AI Tool
+
+<img src="images/ph_2026-06-12_Medicyn.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인정보 유출 걱정 없이 내 기기에만 저장하는 완전 프라이빗 의료 기록 관리 앱
+
+### 🔑 주요 기능
+- 계정 생성이나 트래킹 없이 기기 내 오프라인 저장 방식으로 보안 극대화
+- 질병, 처방전, 검사 결과 등 모든 의료 기록의 통합 관리 및 AI 문서 스캔
+- 구독형이 아닌 일회성 결제 방식과 최대 6명의 가족 관리 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+민감한 의료 데이터를 클라우드가 아닌 개인 기기에 안전하게 보관하면서도, 가족의 건강 기록까지 체계적으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 스캔 기능을 활용한 기존 의료 문서 디지털화
+- 가족 구성원별 건강 기록 프로필 생성
+- 7일 무료 체험을 통한 데이터 관리 편의성 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 기기 분실 또는 초기화 시 데이터 복구 방식에 대한 사전 확인 필요
+- 오프라인 저장 방식이므로 기기 변경 시 데이터 이전 절차 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+기기 분실이나 교체 시 데이터를 안전하게 백업하거나 이전할 수 있는 방법이 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Medicyn_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Medicyn_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Medicyn_media_2.jpg)
+
+---
+
+## 14. [NODUS PH Radar for Product Hunt](https://www.producthunt.com/products/nodus-ph-radar-for-product-hunt)
+**Votes**: 93 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Product Hunt analytics beyond the daily leaderboard
+**서비스 링크**: https://www.producthunt.com/r/FXQZONNO5ERVJ2
+
+**태그**: Analytics, ProductHunt, Marketing, Strategy, AI Tool
+
+<img src="images/ph_2026-06-12_NODUS_PH_Radar_for_Product_Hunt.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 순위를 넘어 제품 출시의 성공 동력을 분석하는 Product Hunt 전문 데이터 분석 도구
+
+### 🔑 주요 기능
+- 일일 리더보드를 넘어선 런칭 속도 및 경쟁 역학 분석
+- 커뮤니티 스포트라이트 기회 및 과거 패턴 분석을 통한 전략 수립
+- 출시 전 맥락 파악 및 향후 예정된 런칭 일정 확인
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품 출시 전 경쟁 환경을 미리 파악하고, 어떤 요소가 가시성과 참여를 유도하는지 데이터 기반의 전략을 세울 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 과거 런칭 패턴 분석을 통한 성공 전략 도출
+- 출시 예정 제품들의 경쟁 환경 모니터링
+- 커뮤니티 노출 기회 포착
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 분석 결과가 실제 런칭 성공을 보장하지는 않음
+- Product Hunt 플랫폼 외부의 변수는 반영되지 않을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 업데이트 주기나 API 연동 범위에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_NODUS_PH_Radar_for_Product_Hun_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_NODUS_PH_Radar_for_Product_Hun_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_NODUS_PH_Radar_for_Product_Hun_media_2.jpg)
+
+---
+
+## 15. [Clutch Alarm](https://www.producthunt.com/products/clutch-alarm)
+**Votes**: 91 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Sleep through the night. Wake up for the goals.
+**서비스 링크**: https://www.producthunt.com/r/S3T3237WSR3LYF
+
+**태그**: Sports, Alarm, Lifestyle
+
+<img src="images/ph_2026-06-12_Clutch_Alarm.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+중요한 경기 순간에만 깨워주는 스마트 스포츠 알람 서비스
+
+### 🔑 주요 기능
+- 경기 상황(득점, 접전 등)을 실시간 모니터링하여 결정적인 순간에만 알람 제공
+- 무의미한 시간대(0-0 상황 등)에는 숙면을 취할 수 있도록 설계
+- NBA에 이어 축구 경기까지 지원하는 스포츠 특화 알람
+
+### 🙋 사용자에게 어떤 점이 좋은가
+시차 때문에 밤샘 시청이 어려운 팬들이 불필요한 수면 방해 없이 결정적인 순간에만 깨어날 수 있게 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 관심 있는 팀의 경기 일정 확인하기
+- 중요한 순간에만 울리는 알람 설정 테스트하기
+- 실시간 알림 기능 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 알람이 무음 모드를 뚫고 울리는 방식이므로 주변 환경에 주의 필요
+- 경기 상황 판단 로직에 따라 알람 시점이 사용자 기대와 다를 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 지원하는 구체적인 리그 범위와 모바일 OS별 알람 강도 제어 기능에 대한 정보가 더 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Clutch_Alarm_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Clutch_Alarm_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_Clutch_Alarm_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8f24e089-ae79-468c-be24-834e4a30f60f.jpeg?auto=format)
+
+---
+
+## 16. [LocIn AI](https://www.producthunt.com/products/locin-ai)
+**Votes**: 90 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Localize your app with tone-aware AI, automated workflows
+**서비스 링크**: https://www.producthunt.com/r/UM66U5554QVAQF
+
+**태그**: Localization, AI, DevTools, Automation, AI Tool, API
+
+<img src="images/ph_2026-06-12_LocIn_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브랜드 톤앤매너를 유지하며 앱 현지화를 자동화하는 AI 워크플로우 솔루션
+
+### 🔑 주요 기능
+- 브랜드 목소리를 유지하는 톤 인식(Tone-aware) AI 번역
+- 자동화된 현지화 워크플로우 및 CLI 통합 지원
+- 즉각적인 API 액세스를 통한 개발 프로세스 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 번역 작업에 들이는 시간을 줄이면서도, 브랜드의 일관된 어조로 글로벌 시장에 빠르게 앱을 출시할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- CLI를 통한 기존 개발 환경 통합 테스트
+- 브랜드 톤 설정 및 번역 품질 확인
+- API를 활용한 자동화 워크플로우 구축
+
+### ⚠️ 사용 전 확인할 점
+- AI 번역의 특성상 문맥에 따른 미세한 오류 검수 필요
+- CLI 및 API 연동을 위한 기술적 이해도 요구
+
+### 🧭 확인이 더 필요한 정보
+지원하는 언어의 종류와 구체적인 CLI/API 연동 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_LocIn_AI_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_LocIn_AI_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_LocIn_AI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3dcd8ba8-551e-4b41-a74b-6e9ef7d44722.jpeg?auto=format)
+
+---
+
+## 17. [Keep](https://www.producthunt.com/products/keep-8)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Full-screen 3D clock scenes for your iPhone or Mac
+**서비스 링크**: https://www.producthunt.com/r/6IV4I3APHRLUCD
+
+**태그**: Design, Productivity, iOS, macOS, Aesthetics, Automation
+
+<img src="images/ph_2026-06-12_Keep.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+iPhone과 Mac을 아름다운 3D 앰비언트 시계로 변신시켜 주는 감성 데스크테리어 앱
+
+### 🔑 주요 기능
+- iPhone StandBy 모드 및 Mac 화면을 위한 풀스크린 3D 시계 테마 제공
+- 홀로그램, 글래스, 젤리, 와이어프레임 등 감각적인 디자인 테마 탑재
+- 애플 단축어(Shortcuts) 자동화를 통한 iPhone 충전 시 자동 실행 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단조로운 기본 시계 화면 대신 세련된 3D 애니메이션을 통해 기기를 인테리어 소품처럼 활용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- iPhone 단축어 설정을 통한 StandBy 모드 자동화 적용
+- 사용자 취향에 맞는 3D 테마(Glass, Matrix 등) 탐색
+- Mac 화면 보호기 대용으로 애니메이션 시계 설정
+
+### ⚠️ 사용 전 확인할 점
+- 애니메이션 테마 사용 시 배터리 소모가 증가할 수 있음
+- iPhone의 경우 단축어 자동화 설정이 추가로 필요함
+
+### 🧭 확인이 더 필요한 정보
+기기별 배터리 최적화 수준 및 구체적인 구독 모델 가격 정보는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Keep_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Keep_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Keep_media_2.jpg)
+
+---
+
+## 18. [pleNx — Plex client for Nintendo Switch](https://www.producthunt.com/products/plenx-plex-client-for-nintendo-switch)
+**Votes**: 79 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: The first native Plex client for Nintendo Switch
+**서비스 링크**: https://www.producthunt.com/r/4R652ZKM2NXRUB
+
+**태그**: Media Player, Open Source, Nintendo Switch, Plex
+
+<img src="images/ph_2026-06-12_pleNx_—_Plex_client_for_Nintendo_Switch.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+닌텐도 스위치에서 Plex 미디어 라이브러리를 네이티브로 즐길 수 있는 오픈소스 클라이언트
+
+### 🔑 주요 기능
+- 닌텐도 스위치 전용 네이티브 Plex 클라이언트
+- MPV 플레이어를 통한 고품질 영상 재생 지원
+- 오프라인 시청을 위한 원본 화질 다운로드 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스위치를 휴대용 또는 독 모드로 사용할 때, 별도의 기기 없이도 개인 미디어 서버의 콘텐츠를 편리하게 스트리밍하거나 다운로드하여 감상할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 Plex 서버와 기기 연결하기
+- 오프라인 시청을 위한 콘텐츠 다운로드 테스트
+- 휴대 모드와 독 모드에서의 재생 성능 확인
+
+### ⚠️ 사용 전 확인할 점
+- 오픈소스 소프트웨어이므로 스위치 시스템 업데이트에 따른 호환성 이슈 가능성
+- 콘텐츠 다운로드 시 스위치 저장 공간 확보 필요
+
+### 🧭 확인이 더 필요한 정보
+스위치 기기 모델별(OLED, Lite 등) 최적화 상태 및 설치 방식에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_pleNx_—_Plex_client_for_Ninten_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_pleNx_—_Plex_client_for_Ninten_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_pleNx_—_Plex_client_for_Ninten_media_2.jpg)
+
+---
+
+## 19. [QACAT](https://www.producthunt.com/products/alconost-localization)
+**Votes**: 52 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Catch translation issues before your users do
+**서비스 링크**: https://www.producthunt.com/r/P7I5RHTCQMEGSH
+
+**태그**: Localization, QA, AI, Automation, Translation, AI Tool
+
+<img src="images/ph_2026-06-12_QACAT.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자동화 검사, AI 분석, 전문가 검수를 결합하여 UI 내 번역 오류를 사전에 잡아내는 하이브리드 QA 플랫폼
+
+### 🔑 주요 기능
+- OCR 기술을 활용한 스크린샷 기반의 직관적인 UI 번역 검토
+- 자동화 규칙, AI 분석, 전문가 리뷰가 결합된 하이브리드 워크플로우
+- 심각도별 분류 및 AI 요약이 포함된 구조화된 리포트 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+실제 제품 UI 환경에서 번역 오류를 시각적으로 확인하고, AI가 제안하는 수정 사항을 통해 사용자에게 전달되기 전 품질을 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제품 스크린샷 업로드 및 OCR 텍스트 추출 테스트
+- AI가 생성하는 심각도별 리포트 및 수정 제안 확인
+- 지원 언어(100+개)에 대한 번역 품질 검증
+
+### ⚠️ 사용 전 확인할 점
+- 스크린샷 기반이므로 복잡한 동적 UI 요소의 검증 한계 가능성
+- 전문가 리뷰 포함 시 별도의 비용이나 시간 소요 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+전문가 리뷰 서비스의 비용 체계와 작업 소요 시간에 대한 구체적인 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_QACAT_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_QACAT_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_QACAT_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/99c94be7-a9fd-4835-a0d7-b56bc2f8f89c.jpeg?auto=format)
+
+---
+
+## 20. [LeadPrysm](https://www.producthunt.com/products/leadprysm)
+**Votes**: 29 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Every newly funded AI startup - with contacts
+**서비스 링크**: https://www.producthunt.com/r/GYW4QVKEB3HXG4
+
+**태그**: Sales Intelligence, AI, Lead Generation, Market Research, AI Tool
+
+<img src="images/ph_2026-06-12_LeadPrysm.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+매주 업데이트되는 신규 투자 유치 AI 스타트업의 상세 프로필 및 핵심 인맥 데이터 제공
+
+### 🔑 주요 기능
+- 10개 세부 분야의 신규 투자 유치 AI 스타트업 추적
+- 창업자 및 경영진 연락처를 포함한 종합 프로필 제공
+- 투자 이력, 채용 신호, 시장 맥락 등 심층 데이터 포함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+영업 기회 발굴이나 파트너십 체결을 위해 성장 중인 AI 스타트업의 의사결정권자를 빠르게 찾는 데 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 최신 투자 유치 스타트업 리스트 확인
+- 타겟 기업의 경영진 연락처 확보
+- 채용 신호 및 시장 맥락 분석을 통한 영업 전략 수립
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 업데이트 주기가 주 단위이므로 실시간 데이터와 차이가 있을 수 있음
+- 특정 AI 세부 분야에 집중되어 있어 산업 전반을 커버하지 못할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+데이터의 정확도 및 연락처 정보의 최신성 여부를 직접 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_LeadPrysm_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_LeadPrysm_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_LeadPrysm_media_2.jpg)
+
+---
+
+## 21. [Lucidly — Finally say what you mean.](https://www.producthunt.com/products/lucidly-finally-say-what-you-mean)
+**Votes**: 23 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The AI that plays confused until you're actually clear
+**서비스 링크**: https://www.producthunt.com/r/4F5XNXXE4U7I5T
+
+**태그**: Communication, AI, SoftSkills, Training, AI Tool
+
+<img src="images/ph_2026-06-12_Lucidly_—_Finally_say_what_you_mean..jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 피드백을 통해 말하기의 명확성과 전달력을 높여주는 커뮤니케이션 트레이닝 도구
+
+### 🔑 주요 기능
+- 사용자의 음성 녹음을 분석하여 명확성 점수 및 불필요한 표현(filler words, jargon) 감지
+- 질문하는 청취자 역할을 수행하는 AI와의 반복적인 대화를 통한 실전 연습
+- 8개의 스킬 트랙과 150개 이상의 질문, 주간 챌린지를 통한 체계적인 학습
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자신의 생각을 말로 표현할 때 어려움을 겪는 사용자가 실전 같은 시뮬레이션을 통해 논리적이고 명확하게 말하는 법을 연습할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI의 피드백을 바탕으로 한 반복적인 재답변 연습
+- 자신의 스킬 수준에 맞는 스킬 트랙 선택 및 도전
+- 실제 상황을 가정한 라이브 역할극(Roleplay) 참여
+
+### ⚠️ 사용 전 확인할 점
+- AI의 피드백이 실제 대면 상황의 미묘한 맥락을 완벽히 반영하지 못할 수 있음
+- 학습 효과를 위해 반복적인 연습과 시간 투자가 필요함
+
+### 🧭 확인이 더 필요한 정보
+구체적인 요금제 체계나 모바일 앱 지원 여부에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Lucidly_—_Finally_say_what_you_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Lucidly_—_Finally_say_what_you_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Lucidly_—_Finally_say_what_you_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b183ef28-b88a-46c7-badc-763da35d8c9e.jpeg?auto=format)
+
+---
+
+## 22. [Accessibility AI App](https://www.producthunt.com/products/accessibility-ai-app)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Multilingual + Global 840‑language AI built for everyone
+**서비스 링크**: https://www.producthunt.com/r/5FNTCTQUJMYF7S
+
+**태그**: Accessibility, AI, Multilingual, MobileApp, AI Tool, Design
+
+<img src="images/ph_2026-06-12_Accessibility_AI_App.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+840개 이상의 언어를 지원하는 전 세계 모든 사용자를 위한 접근성 중심 AI 생태계
+
+### 🔑 주요 기능
+- 시각 장애, 청각 장애, ESL, 자폐, 노인 등 다양한 취약 계층을 위한 맞춤형 설계
+- 토크 피신(Tok Pisin)을 포함한 840개 이상의 광범위한 다국어 지원
+- 1인 개발자가 구축한 접근성 우선(Accessibility-first) AI 솔루션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+언어 장벽이나 신체적 제약이 있는 사용자들도 소외되지 않고 AI 기술의 혜택을 누릴 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Google Play에서 앱 설치 및 환경 설정
+- 사용자 맞춤형 접근성 기능 테스트
+- 지원되는 다국어 및 지역 언어 확인
+
+### ⚠️ 사용 전 확인할 점
+- 1인 개발자 운영 제품으로 인한 향후 유지보수 및 업데이트 지속성 확인 필요
+- 특정 언어 및 기능의 완성도 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 기능 목록과 각 사용자 그룹별 특화 기능에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Accessibility_AI_App_media_0.jpg)
+
+---
+
+## 23. [Oppura](https://www.producthunt.com/products/oppura)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Helping student discover opportunities
+**서비스 링크**: https://www.producthunt.com/r/BVY52F47RBH3JQ
+
+**태그**: StudentTools, OpportunityDiscovery, Platform, AI Tool
+
+<img src="images/ph_2026-06-12_Oppura.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+흩어져 있는 학생 대상 프로그램을 한곳에서 찾아주는 기회 탐색 플랫폼
+
+### 🔑 주요 기능
+- 수많은 학생 대상 프로그램의 통합 관리
+- 단순하고 직관적인 사용자 인터페이스
+- 놓치기 쉬운 다양한 기회들을 한눈에 확인 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 사이트를 돌아다닐 필요 없이 하나의 플랫폼에서 학생들을 위한 다양한 기회를 효율적으로 탐색할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 플랫폼 내 등록된 프로그램 목록 탐색하기
+- 관심 있는 기회 알림 설정 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 제공되는 프로그램의 종류와 업데이트 빈도 확인 필요
+- 사용자 대상(학생)에 특화된 정보 위주로 구성되어 있을 가능성
+
+### 🧭 확인이 더 필요한 정보
+현재 플랫폼에 등록된 구체적인 프로그램 카테고리와 업데이트 주기에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Oppura_media_0.jpg)
+
+---
+
+## 24. [TextoCAD](https://www.producthunt.com/products/textocad)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Free AI text to CAD generator
+**서비스 링크**: https://www.producthunt.com/r/NKOXXBXSKVLQD3
+
+**태그**: AI, CAD, 3DModeling, GenerativeAI, BrowserBased, AI Tool
+
+<img src="images/ph_2026-06-12_TextoCAD.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+텍스트 입력만으로 편집 가능한 3D CAD 모델을 즉시 생성하는 브라우저 기반 AI 도구
+
+### 🔑 주요 기능
+- 자연어 설명을 통한 파라메트릭 CAD 모델 자동 생성
+- 설치 없이 브라우저에서 바로 실행되는 클라우드 환경
+- 슬라이더와 피처 트리를 통한 실시간 치수 수정 및 편집 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+CAD 숙련도가 없어도 아이디어를 즉시 3D 모델로 구현할 수 있으며, 생성된 모델이 편집 가능하여 빠른 프로토타이핑이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 간단한 부품 규격을 영어로 입력하여 모델 생성해보기
+- 생성된 모델의 슬라이더를 조절하여 치수 변경 테스트하기
+- 생성된 파일을 STEP/STL로 내보내어 호환성 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 복잡한 기계 구조나 정밀한 공학 설계에는 한계가 있을 수 있음
+- 브라우저 기반 도구이므로 인터넷 연결 및 브라우저 성능에 의존함
+
+### 🧭 확인이 더 필요한 정보
+무료 버전의 사용량 제한이나 생성 가능한 모델의 복잡도 범위에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_TextoCAD_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_TextoCAD_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_TextoCAD_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d1842983-17af-4090-8865-03bfe447c5d6.jpeg?auto=format)
+
+---
+
+## 25. [Cozy Games: Fun Mini Game Pack](https://www.producthunt.com/products/cozy-games-fun-mini-game-pack)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Chill, Play & Unwind Every Day
+**서비스 링크**: https://www.producthunt.com/r/VBIMTAJI6EQIH2
+
+**태그**: Casual Game, Mini Games, Relaxation, Design
+
+<img src="images/ph_2026-06-12_Cozy_Games_Fun_Mini_Game_Pack.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+언제 어디서나 가볍게 즐길 수 있는 힐링 미니 게임 모음집
+
+### 🔑 주요 기능
+- 다양한 장르의 핸드크래프트 미니 게임 제공
+- 짧은 시간(2분)부터 긴 시간(2시간)까지 유연한 플레이 가능
+- 직관적인 원탭(One-tap) 컨트롤로 쉬운 조작감
+
+### 🙋 사용자에게 어떤 점이 좋은가
+일상 속 틈새 시간에 스트레스 없이 가볍게 즐기며 휴식할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다양한 미니 게임 플레이해보기
+- 원탭 컨트롤 숙달하기
+
+### ⚠️ 사용 전 확인할 점
+- 게임 종류가 지속적으로 업데이트되는지 확인 필요
+- 단순 조작 위주이므로 깊이 있는 게임성을 원하는 경우 아쉬울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+게임의 구체적인 장르 구성과 업데이트 주기에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Cozy_Games_Fun_Mini_Game_Pack_media_0.jpg)
+
+---
+
+## 26. [VibeLing 2.0](https://www.producthunt.com/products/vibeling-ai-language-learning)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn real phrases into AI language training
+**서비스 링크**: https://www.producthunt.com/r/RNPCL4MD7US5GA
+
+**태그**: LanguageLearning, AI, Productivity, MobileApp, AI Tool
+
+<img src="images/ph_2026-06-12_VibeLing_2.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+일상 속 문장을 AI 기반 맞춤형 언어 학습 콘텐츠로 변환해주는 스마트 학습 도구
+
+### 🔑 주요 기능
+- 영화, 노래, 대화 등 실제 문맥을 활용한 실용적인 학습 환경 제공
+- 번역, 예문, 오디오, 연습 문제 및 간격 반복(Spaced Repetition) 기능 통합
+- iOS 및 Android 지원과 더불어 발음 연습 및 빈칸 채우기 등 강화된 학습 모드
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 암기가 아닌 실제 사용되는 문장을 학습 소재로 활용하여 언어 습득의 효율성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 좋아하는 영화나 노래의 한 구절을 입력하여 학습 콘텐츠 생성하기
+- 새로 추가된 발음 연습 모드로 스피킹 실력 점검하기
+- 모바일 앱을 설치하여 이동 중에도 간격 반복 학습 진행하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자가 입력하는 문장의 품질에 따라 생성되는 학습 콘텐츠의 질이 달라질 수 있음
+- 모바일 앱 지원이 추가되었으나 기기별 최적화 상태 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 구독 모델이나 유료 기능 범위에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_VibeLing_2.0_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_VibeLing_2.0_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_VibeLing_2.0_media_2.jpg)
+
+---
+
+## 27. [Crates](https://www.producthunt.com/products/crates-2)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: your saved content knows you better than Google does
+**서비스 링크**: https://www.producthunt.com/r/YBIKAJC4M4OXOY
+
+**태그**: Personalization, ContentDiscovery, Productivity
+
+<img src="images/ph_2026-06-12_Crates.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 취향을 학습하여 개인화된 콘텐츠를 제안하는 지능형 개인 인터넷 서비스
+
+### 🔑 주요 기능
+- 단순 검색을 넘어 사용자의 정체성을 반영한 맞춤형 콘텐츠 탐색
+- 저장된 콘텐츠와 브라우징 패턴을 통한 지속적인 개인화 학습
+- 기존 북마크 관리자와 검색 엔진을 대체하는 차세대 정보 탐색 경험
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순히 키워드에 매칭되는 결과가 아닌, 사용자의 맥락과 취향을 반영한 최적의 정보를 적시에 발견할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 관심 있는 콘텐츠 저장하기
+- 브라우징 패턴 학습시키기
+- 개인화된 추천 결과 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 데이터(저장 및 브라우징 기록)를 기반으로 하므로 개인정보 보호 정책 확인 필요
+- 학습 초기 단계에서는 추천의 정확도가 낮을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 수집 범위와 개인정보 처리 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_Crates_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_Crates_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_Crates_media_2.jpg)
+
+---
+
+## 28. [TrustCart](https://www.producthunt.com/products/trustcart)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI review analysis for Amazon. One clear verdict.
+**서비스 링크**: https://www.producthunt.com/r/2LUCNCZL65XGMD
+
+**태그**: Shopping, AI, Amazon, Productivity, AI Tool, Video
+
+<img src="images/ph_2026-06-12_TrustCart.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude AI를 활용해 아마존 리뷰의 실질적 유용성을 분석하고 구매 결정을 돕는 도구
+
+### 🔑 주요 기능
+- Claude AI 기반의 리뷰 분석을 통한 Buy/Consider/Review Carefully 3단계 결론 제공
+- 단순 가짜 리뷰 탐지를 넘어 리뷰의 정보 완성도(COMPLETE, LIMITED, LOW DETAIL) 측정
+- 제품 점수(0-100) 제공 및 관련 유튜브/틱톡 영상 원클릭 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수많은 아마존 리뷰를 일일이 읽을 필요 없이, AI가 요약한 신뢰도 높은 정보를 통해 빠르고 정확한 구매 결정을 내릴 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아마존 제품 페이지에서 분석 결과 확인하기
+- 리뷰의 정보 상세도(Completeness) 체크하기
+- 연결된 유튜브/틱톡 영상을 통해 실물 리뷰 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 현재 9개의 아마존 스토어에서만 작동하므로 특정 국가/카테고리 제한 가능성 있음
+- AI 분석 결과이므로 최종 구매 결정은 사용자의 판단이 필요함
+
+### 🧭 확인이 더 필요한 정보
+지원되는 9개 아마존 스토어의 구체적인 범위와 언어 지원 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_TrustCart_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_TrustCart_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_TrustCart_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ff61a286-30d8-484e-8a84-b1f45c9732b2.jpeg?auto=format)
+
+---
+
+## 29. [GhostCLI](https://www.producthunt.com/products/ghostcli)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A free AI assistant for developers who live in the terminal.
+**서비스 링크**: https://www.producthunt.com/r/UUX5URD6HPT6CE
+
+**태그**: DevTool, CLI, AI, Productivity, AI Tool, Chat, API
+
+<img src="images/ph_2026-06-12_GhostCLI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 설정 없이 터미널에서 즉시 사용할 수 있는 무료 AI 개발 어시스턴트
+
+### 🔑 주요 기능
+- API 키나 구독 없이 즉시 사용 가능한 간편한 설치 과정
+- Go 언어로 제작된 빠르고 가벼운 네이티브 애플리케이션
+- Linux, macOS, Windows를 모두 지원하는 멀티 플랫폼 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 복잡한 설정이나 비용 부담 없이 터미널 환경에서 즉각적인 AI 코딩 지원을 받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 터미널에 설치 후 즉시 대화 시작하기
+- 기본 제공되는 무료 AI 모델 테스트하기
+- 사용 중인 OS 환경에서의 성능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 모델의 경우 성능이나 응답 속도에 제한이 있을 수 있음
+- 외부 AI 프로바이더 연결 시 별도의 설정이 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+무료 모델의 구체적인 사용량 제한이나 성능 수준에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_GhostCLI_media_0.jpg)
+![Screenshot](images/ph_2026-06-12_GhostCLI_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_GhostCLI_media_2.jpg)
+
+---
+
+## 30. [SpendBar](https://www.producthunt.com/products/spendbar)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Track AI API spend from your Mac menu bar
+**서비스 링크**: https://www.producthunt.com/r/3U3SUNIVZB56F3
+
+**태그**: DevTool, macOS, AI, Productivity, AI Tool, API, Analytics
+
+<img src="images/ph_2026-06-12_SpendBar.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+macOS 메뉴 바에서 실시간으로 AI API 사용량을 확인하고 예산을 관리하는 도구
+
+### 🔑 주요 기능
+- Anthropic 및 OpenAI API 비용 실시간 추적
+- 개별 제공사별 또는 통합 'All AI' 총액 관리 기능
+- Keychain 기반의 로컬 데이터 저장으로 보안 및 개인정보 강화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+갑작스러운 API 청구서 폭탄을 방지하기 위해 실시간으로 지출 현황을 모니터링할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- macOS 메뉴 바에 앱 설치하기
+- API 키를 macOS Keychain에 안전하게 등록하기
+- 사용자 맞춤형 예산 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 앱이므로 다른 운영체제에서는 사용 불가
+- API 키를 직접 입력해야 하므로 키 관리 주의 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 지원되는 API 제공사 외에 다른 모델(예: Google Gemini 등)의 확장 가능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-12_SpendBar_media_1.jpg)
+![Screenshot](images/ph_2026-06-12_SpendBar_media_2.jpg)
+![Screenshot](images/ph_2026-06-12_SpendBar_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2db89e13-4c33-4732-98e6-ffe9368f9a49.jpeg?auto=format)
+
+---
+
