@@ -1,0 +1,201 @@
+# 🌏 Google News Tech Digest (2026-06-16)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 AI 에이전트(Agentic AI) 기술의 급격한 발전과 기업 간 M&A를 통한 생태계 확장, 그리고 AI 모델의 가중치 및 수출 통제와 같은 국가 안보적 규제 국면을 핵심적으로 다루었습니다. 또한, 딥페이크의 정교화와 고위험 자동화 시스템의 투명성 문제 등 AI 기술이 사회적·정치적 신뢰도에 미치는 영향이 주요 화두로 떠올랐습니다.
+
+### 오늘의 핵심 포인트
+- Salesforce의 Fin 인수와 같이 기업용 자율형 AI 에이전트(Agentic AI) 시장을 선점하기 위한 전략적 움직임이 가속화되고 있습니다.
+- 미국 정부의 AI 모델 가중치 통제와 같은 강력한 수출 규제가 새로운 기술 안보 국면을 형성하며 기술 유출 방지에 집중하고 있습니다.
+- 컴퓨터 비전, 양자 컴퓨팅, 딥페이크 등 AI의 다양한 응용 분야가 국방, 의료, 선거 등 실질적인 사회 인프라와 결합하며 영향력을 확대하고 있습니다.
+
+**오늘의 태그**: Agentic AI, AI Geopolitics, Deepfake, Quantum Computing, AI Regulation
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [People around the world see a winner on AI — and it’s not the US - Politico](https://www.politico.com/news/2026/06/15/people-around-the-world-see-a-winner-on-ai-and-its-not-the-us-00960930)
+**출처**: Politico | **게시일**: Mon, 15 Jun 2026 09:00:00 GMT
+
+#### 📌 종합 요약
+글로벌 여론 조사 결과, 전 세계인들은 AI 분야의 진정한 승자가 미국이 아닌 중국이 될 것으로 전망하고 있습니다. 이는 미국의 기술적 우위가 지속될 것이라는 낙관론과 달리, 국가적 차원의 자원 집중과 데이터 통제력을 가진 중국의 잠재력을 높게 평가하는 흐름을 반영합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+중국은 정부 주도의 막대한 컴퓨팅 자원 투입과 거대한 데이터셋을 활용하여 LLM(Large Language Model) 학습 및 최적화에서 독자적인 생태계를 구축하고 있습니다. 특히 미국의 수출 규제에 대응하기 위해 자체적인 AI 가속기 및 하드웨어 아키텍처를 고도화하고 있으며, 이는 특정 클라우드 인프라에 종속되지 않는 독자적인 AI 인프라 구축으로 이어지고 있습니다. 또한, 데이터 보안과 국가적 통제가 결합된 환경에서 Agent(에이전트) 기술 및 응용 서비스의 실전 배포 속도가 매우 빠르다는 점이 기술적 경쟁력으로 지목됩니다.
+
+#### ✅ 핵심 요점
+- 글로벌 여론은 미국의 기술적 독주보다 중국의 AI 패권 장악 가능성을 더 높게 평가하고 있습니다.
+- 중국의 강력한 데이터 수집 능력과 국가적 인프라 투자가 AI 모델의 고도화를 가속화하는 핵심 동력입니다.
+- 미국의 규제 정책이 오히려 중국이 독자적인 기술 스택과 하드웨어 생태계를 구축하는 촉매제가 되고 있습니다.
+
+**태그**: AI, LLM, AI Geopolitics, AI Infrastructure, China Tech
+
+---
+
+### 2. [Salesforce to buy AI customer service platform Fin for $3.6 billion to boost agentic offerings - CNBC](https://www.cnbc.com/2026/06/15/salesforce-ai-customer-service-fin-acquistion.html)
+**출처**: CNBC | **게시일**: Mon, 15 Jun 2026 13:39:45 GMT
+
+#### 📌 종합 요약
+Salesforce가 AI 고객 서비스 플랫폼인 Fin(구 Intercom)을 36억 달러에 인수하여 자사의 Agentforce 플랫폼과 결합, 기업용 Agentic AI 시장에서의 지배력을 강화합니다. 이번 인수는 단순한 기능 확장을 넘어, 멀티채널 대응이 가능한 자율형 AI Agent 기술을 확보하여 AI로 인한 비즈니스 모델 위기론을 정면 돌파하려는 전략적 움직임입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Fin의 핵심은 자체 개발한 독자적 AI 모델인 'Apex'를 기반으로 하며, 이는 채팅, 이메일, WhatsApp, Slack 등 다양한 채널에서 복합적인 쿼리를 해결할 수 있는 Agentic AI 역량을 제공합니다. 인수된 기술은 Salesforce의 기존 Agentforce 플랫폼과 통합되어, 단순 응답을 넘어 사용자 의도를 파악하고 실행하는 자율적 에이전트(Autonomous Agent)의 배포 범위를 극대화합니다. 특히 Fin의 'Operator'와 같은 내부 에이전트 기술은 복잡한 워크플로우를 자동화하는 데 최적화되어 있습니다.
+
+#### ✅ 핵심 요점
+- Salesforce는 36억 달러 규모의 Fin 인수를 통해 자사 Agentforce 플랫폼의 기술적 완성도를 높이고 Agentic AI 생태계를 확장합니다.
+- Fin의 독자 모델인 'Apex'는 멀티채널(Slack, WhatsApp, Phone 등) 환경에서 실시간으로 문제를 해결하는 고도화된 AI Agent 기능을 제공합니다.
+- 이번 인수는 AI 기술 발전에 따른 기존 SaaS 비즈니스 모델의 도태 우려를 극복하고, 자율형 기술(Autonomous Tech)로의 전환을 가속화하기 위한 전략적 투자입니다.
+- Fin의 기술력은 단순 챗봇을 넘어, 기업의 복잡한 고객 서비스 워크플로우를 스스로 수행하는 Agentic AI의 실질적인 구현에 초점을 맞추고 있습니다.
+
+**태그**: AI, Release, Agentforce, Salesforce, Rust
+
+---
+
+### 3. [California admits using high-risk AI — including systems it failed to report last year - CalMatters](https://calmatters.org/politics/2026/06/california-admits-government-ai-risk-after-denying/)
+**출처**: CalMatters | **게시일**: Mon, 15 Jun 2026 12:30:00 GMT
+
+#### 📌 종합 요약
+캘리포니아 주 정부가 고위험 자동화 의사결정 시스템(High-risk automated decision systems)의 사용 현황을 공개하며, 작년 보고 시 누락되었던 6개의 시스템을 포함한 실태를 밝혔습니다. 이는 시민의 권리, 주거, 고용 등에 직접적인 영향을 미치는 알고리즘의 투명성과 책임성을 확보하기 위한 법적 절차의 일환입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 보고서는 단순한 AI 도입을 넘어, 인간의 재량적 판단을 대체하거나 보조하는 '고위험 시스템'의 정의와 식별 기준을 다룹니다. 특히 재범 가능성을 예측하는 COMPAS와 같은 알고리즘부터, Anthropic의 Claude 모델을 기반으로 문서 초안 작성 및 정책 연구를 수행하는 'Poppy'와 같은 LLM(Large Language Model) 기반 에이전트(Agent)의 도입 단계까지 기술적 스펙트럼이 넓습니다. 또한, 주 정부 차원의 LLM 도입 시 발생할 수 있는 편향성(Bias) 문제와 데이터 보안, 그리고 자동화된 의사결정의 법적 책임 소재를 규명하는 것이 핵심 기술적 쟁점입니다.
+
+#### ✅ 핵심 요점
+- 캘리포니아 주 정부는 법적 요구에 따라 주거, 고용, 형사 사법 등 중대한 영향을 미치는 6개의 고위험 자동화 시스템 사용을 공식 확인했습니다.
+- 재범 예측 알고리즘인 COMPAS와 같이 이미 수년간 운용되어 온 시스템과, 최근 도입 중인 LLM 기반의 업무 보조 도구(Poppy 등) 간의 관리 격차가 존재합니다.
+- 주 정부 내에서 Anthropic의 Claude를 활용한 'Poppy' 프로젝트와 같은 생성형 AI(Generative AI) 파일럿 프로그램이 확산되고 있으나, 이에 대한 투명성 보고 체계는 여전히 과제로 남아 있습니다.
+- 사법부 및 UC 대학 시스템 등 일부 기관은 현재의 고위험 시스템 보고 의무에서 제외되어 있어, 전체적인 AI 거버넌스(Governance)의 사각지대가 존재합니다.
+
+**태그**: AI, Release, LLM, Rust, Public Sector AI
+
+---
+
+### 4. [Salesforce acquires AI customer service platform Fin for $3.6 billion - TechCrunch](https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/)
+**출처**: TechCrunch | **게시일**: Mon, 15 Jun 2026 14:34:45 GMT
+
+#### 📌 종합 요약
+Salesforce가 36억 달러 규모로 AI 고객 서비스 플랫폼인 Fin(구 Intercom)을 인수하기로 발표했습니다. 이번 인수는 Salesforce의 기존 AI 에이전트 플랫폼인 Agentforce의 기능을 강화하고, 멀티채널 환경에서 자동화된 고객 응대 역량을 확보하는 데 목적이 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Fin은 Live Chat, WhatsApp, SMS, Slack 등 다양한 채널을 통합 관리하는 멀티채널 AI Agent 기술을 보유하고 있습니다. Salesforce는 Fin의 기술 스택을 Agentforce에 통합하여, 기업이 맞춤형 AI Agent를 구축하고 복잡한 워크플로우를 자동화할 수 있는 엔터프라이즈급 환경을 제공할 계획입니다. 특히 Fin의 검증된 Agent 기술은 단순 챗봇을 넘어 실질적인 문제 해결이 가능한 수준의 자율성을 목표로 합니다.
+
+#### ✅ 핵심 요점
+- Salesforce는 Fin의 기술력과 팀을 인수하여 자사의 Agentforce 플랫폼을 고도화할 계획입니다.
+- Fin은 15년 전 Intercom으로 시작하여 멀티채널 환경에서 강력한 AI Agent 기능을 제공하는 플랫폼입니다.
+- 인수 절차는 Salesforce의 2027 회계연도 4분기에 완료될 예정이며, Fin의 창업자들은 기존 경영진으로서 기술 리더십을 유지합니다.
+- 이번 결합을 통해 기업들은 신뢰할 수 있는 AI Agent를 통해 운영 효율성을 높이고 가치 창출 시간을 단축할 수 있습니다.
+
+**태그**: AI, Agentforce, M&A, Salesforce, Rust
+
+---
+
+### 5. [A Kill Switch for Frontier AI - Lawfare](https://www.lawfaremedia.org/article/a-kill-switch-for-frontier-ai)
+**출처**: Lawfare | **게시일**: Mon, 15 Jun 2026 18:45:00 GMT
+
+#### 📌 종합 요약
+미 상무부가 국가 안보를 이유로 Anthropic의 최신 모델인 Fable 5와 Mythos 5에 대한 외국인 접근을 전면 차단하도록 명령하면서, AI 모델에 대한 수출 통제가 실질적인 '킬 스위치(Kill Switch)'로 작동한 첫 사례가 발생했습니다. 이번 조치는 모델의 가중치(Weights)와 출력물(Outputs)을 통제 대상으로 삼는 새로운 규제 국면을 열었으며, 기술적 취약점과 국가 안보 사이의 갈등을 극명하게 보여줍니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 사태의 핵심은 AI 모델의 가중치(Weights)를 '기술(Technology)'로 간주하여 수출 통제 대상에 포함시킨 EAR(Export Administration Regulations)의 적용 여부입니다. 정부는 Fable 5 모델의 가드레일(Guardrails)이 우회되어 사이버 무기로 활용될 수 있는 심각한 취약점이 발견되었다고 주장하며, 이를 '기술 유출'로 규정했습니다. 이는 단순한 데이터 전송을 넘어, API를 통한 모델 추론(Inference) 결과물이 특정 목적의 기술적 정보로 간주될 수 있는지에 대한 법적·기술적 선례를 남겼습니다.
+
+#### ✅ 핵심 요점
+- 미 상무부는 EAR(수출관리규정)의 'Deemed Export' 규칙을 근거로, 미국 내 외국인 직원의 모델 접근까지 차단하는 강력한 조치를 단행했습니다.
+- 정부는 Fable 5 모델의 가드레일 우회(Jailbreak)가 사이버 공격에 활용될 수 있는 수준의 위험을 초래한다고 판단했습니다.
+- 모델 가중치(Weights)를 직접적인 통제 대상으로 삼는 것과 API를 통한 원격 접근(Remote Access)을 수출로 간주하는 것 사이의 법적 경계가 쟁점입니다.
+- 이번 조치는 글로벌 인재 확보가 필수적인 AI 산업에서 숙련된 외국인 연구자의 접근을 차단하여 미국의 기술 리더십을 저해할 위험이 있습니다.
+
+**태그**: AI, Release, National Security, LLM, Rust
+
+---
+
+### 6. [How Ukraine Uses A.I. to Knock Deadly Russian Drones Out of the Skies - The New York Times](https://www.nytimes.com/2026/06/15/world/europe/ukraine-russia-war-ai.html)
+**출처**: The New York Times | **게시일**: Mon, 15 Jun 2026 18:34:35 GMT
+
+#### 📌 종합 요약
+우크라이나군은 러시아의 자살 폭발 드론 및 정찰 드론 위협에 대응하기 위해 AI 기반의 자동화된 탐지 및 요격 시스템을 실전에 배치하고 있습니다. 이는 인간의 개입을 최소화하면서도 고속으로 이동하는 표적을 식별하고 대응하는 지능형 방공 체계의 진화를 보여줍니다.
+
+#### ⚙️ 기술적 성과 및 가치
+컴퓨터 비전(Computer Vision) 알고리즘을 활용하여 드론의 비행 궤적과 형태를 실시간으로 분석하고, 레이더 데이터와 결합하여 표적의 정확한 위치를 산출합니다. 엣지 컴퓨팅(Edge Computing) 환경에서 구동되는 경량화된 딥러닝 모델을 통해 지연 시간(Latency)을 최소화하며, 자동화된 타격 제어 루프를 통해 인간의 반응 속도를 넘어서는 정밀 요격을 구현합니다.
+
+#### ✅ 핵심 요점
+- 컴퓨터 비전 기반의 객체 탐지(Object Detection) 기술을 통해 복잡한 전장 환경에서도 드론과 새, 구름 등을 정확히 구분합니다.
+- 센서 퓨전(Sensor Fusion) 기술을 통해 레이더, 광학 장비, 음향 센서의 데이터를 통합하여 표적의 위치와 속도를 정밀하게 추적합니다.
+- AI 기반의 자동화된 의사결정 시스템이 표적의 위협 수준을 실시간으로 평가하여 최적의 요격 수단을 제안하거나 직접 제어합니다.
+
+**태그**: AI, Computer Vision, Sensor Fusion, Edge Computing, Defense Tech
+
+---
+
+### 7. [Cleveland Clinic and IBM Forum Highlights Advancements in AI and Quantum Computing for Healthcare Research - Cleveland Clinic Newsroom](https://newsroom.clevelandclinic.org/2026/06/15/cleveland-clinic-and-ibm-forum-highlights-advancements-in-ai-and-quantum-computing-for-healthcare-research)
+**출처**: Cleveland Clinic Newsroom | **게시일**: Mon, 15 Jun 2026 17:11:08 GMT
+
+#### 📌 종합 요약
+Cleveland Clinic과 IBM이 공동 개최한 '제3회 Cleveland Discovery and Innovation Forum'에서 양자 컴퓨팅(Quantum Computing)과 AI를 결합한 차세대 바이오메디컬 연구 성과가 발표되었습니다. 양사의 5년 협력 프로젝트인 'Discovery Accelerator'를 통해 고성능 컴퓨팅(HPC) 기반의 신약 개발 및 정밀 의료 연구가 가속화되고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 포럼에서는 양자 컴퓨터를 활용해 12,000개 이상의 원자로 구성된 거대 단백질 구조를 시뮬레이션하는 데 성공하며, 생물학적 난제 해결을 위한 양자 알고리즘의 실효성을 입증했습니다. IBM의 알고리즘 및 애플리케이션 기술과 Cleveland Clinic의 임상 데이터를 결합하여 분자 상호작용 모델링(Molecular Interaction Modeling)과 개인 맞춤형 치료를 위한 머신러닝(Machine Learning) 최적화를 수행합니다. 이는 기존 슈퍼컴퓨터의 한계를 넘어서는 복잡한 생명과학적 연산을 처리할 수 있는 기술적 토대를 마련한 것입니다.
+
+#### ✅ 핵심 요점
+- 양자 컴퓨팅과 AI의 융합을 통해 질병의 예방, 조기 진단, 치료에 이르는 전 단계의 연구 프로세스를 혁신함.
+- 12,000개 이상의 원자를 포함하는 단백질 구조 시뮬레이션 성공을 통해 양자 컴퓨팅의 과학적 도구로서의 잠재력을 증명함.
+- Discovery Accelerator 파트너십을 통해 50개 이상의 프로젝트를 지원하며 고성능 컴퓨팅 기반의 바이오 연구 생태계를 구축함.
+- 분자 모델링 및 정밀 의료를 위한 머신러닝 고도화를 통해 개인 맞춤형 치료(Personalized Therapy)의 실현 가능성을 높임.
+
+**태그**: AI, Quantum Computing, Cleveland Clinic, IBM, Biomedical Research
+
+---
+
+### 8. [AI Deepfakes Are Getting Weirder and Harder to Spot in the Midterms - WSJ](https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad)
+**출처**: WSJ | **게시일**: Mon, 15 Jun 2026 11:30:40 GMT
+
+#### 📌 종합 요약
+선거철을 겨냥한 AI Deepfake 기술이 정교해지며 시각적 불일치를 탐지하기 어려운 수준으로 진화하고 있습니다. 단순한 영상 조작을 넘어 사회적 혼란을 야기하는 정교한 가짜 콘텐츠 생성 기술이 민주주의 프로세스를 위협하는 핵심 변수로 부상했습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+과거의 Deepfake가 얼굴 교체(Face-swap) 위주였다면, 최신 모델은 Diffusion Model 기반의 고해상도 이미지 생성과 고도화된 Generative Adversarial Networks(GAN)를 결합하여 질감과 조명 일치도를 극대화합니다. 또한, LLM(Large Language Model)을 활용해 특정 인물의 말투와 논리 구조를 복제하는 Voice Cloning 기술이 결합되어 멀티모달(Multimodal) 형태의 완벽한 가짜 페르소나를 구축합니다. 이는 픽셀 단위의 노이즈나 부자연스러운 움직임을 잡아내던 기존의 탐지 알고리즘을 무력화하는 수준에 도달했습니다.
+
+#### ✅ 핵심 요점
+- Diffusion 모델과 GAN의 결합으로 인해 시각적 아티팩트(Artifact)가 거의 없는 초고화질 가짜 영상 생성이 가능해졌습니다.
+- LLM을 통한 텍스트 생성 능력이 음성 합성(TTS) 및 영상의 입 모양(Lip-sync) 기술과 결합되어 인지적 불일치를 제거했습니다.
+- 기술적 정교함이 높아짐에 따라 기존의 딥러닝 기반 딥페이크 탐지 모델(Deepfake Detection Model)의 정확도가 급격히 하락하고 있습니다.
+
+**태그**: AI, Deepfake, LLM, Generative AI, Diffusion Model
+
+---
+
+### 9. [Yale researchers propose ‘copyleft’ rules for generative AI - YaleNews](https://news.yale.edu/2026/06/15/yale-researchers-propose-copyleft-rules-generative-ai)
+**출처**: YaleNews | **게시일**: Mon, 15 Jun 2026 18:53:14 GMT
+
+#### 📌 종합 요약
+예일 대학교 디지털 윤리 센터(DEC) 연구진이 오픈소스 소프트웨어(FOSS)를 활용해 학습된 생성형 AI 모델의 투명성을 확보하기 위한 '맥락적 카피레프트 AI 라이선스(CCAI)' 프레임워크를 제안했습니다. 이는 AI 모델을 기존 소프트웨어의 파생 저작물로 간주하여, 모델 아키텍처와 학습 데이터셋을 공개하도록 강제함으로써 기술적 폐쇄성을 방지하는 것을 목적으로 합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+CCAI(Contextual Copyleft AI License)는 기존의 copyleft 개념을 생성형 AI의 학습 프로세스에 확장 적용하여, 모델의 가중치(Weights)뿐만 아니라 학습에 사용된 데이터와 아키텍처의 투명성을 요구하는 법적·기술적 프레임워크입니다. 연구진은 AI 학습이 '공정 이용(Fair Use)' 범위를 벗어날 경우, 오픈소스 코드를 사용한 모델을 파생 저작물로 정의하여 기술적 블랙박스화를 막을 수 있다고 분석했습니다. 이를 통해 독점적 모델이 오픈소스 생태계의 자산을 활용하면서도 결과물은 폐쇄적으로 운영하는 '오픈 워싱(Open-washing)' 문제를 기술적·법적 규제로 해결하고자 합니다.
+
+#### ✅ 핵심 요점
+- CCAI 라이선스는 오픈소스 코드로 학습된 생성형 AI 모델을 파생 저작물로 취급하여 모델 아키텍처와 학습 데이터의 완전한 공개를 의무화합니다.
+- 기존 AI 기업들이 오픈소스 자산을 활용하면서 결과물은 독점하는 불균형을 해소하고, 개발자에게 코드 활용에 대한 실질적인 통제권을 부여합니다.
+- 모델의 투명성을 확보함으로써 데이터 편향성이나 악의적 콘텐츠 생성과 같은 AI 특유의 리스크를 관리하고, 진정한 의미의 오픈소스 AI 생태계를 구축합니다.
+
+**태그**: AI, Infra, Database, Cloud, AI Ethics
+
+---
+
+### 10. [Anthropic to meet with White House over AI tool suspension - BBC](https://www.bbc.com/news/articles/c9w2p7ykp8yo)
+**출처**: BBC | **게시일**: Mon, 15 Jun 2026 17:46:41 GMT
+
+#### 📌 종합 요약
+Anthropic이 최신 AI 모델인 Fable 5 및 Mythos 5의 보안 취약점과 국가 안보 우려로 인해 해당 모델의 공개 접근을 전면 차단했으며, 이에 따라 미 상무부와 긴급 회담을 가질 예정입니다. 이번 사태는 강력한 성능을 가진 모델의 배포와 국가 안보 규제 사이의 충돌을 보여주는 핵심 사례입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+문제의 핵심인 Fable 5와 Mythos 5는 기존 Claude Mythos 모델의 차세대 버전으로, 이전 모델들을 압도하는 강력한 추론 및 생성 능력을 갖추고 있습니다. Fable 5는 일반 대중용으로 설계된 Safeguard(안전 장치) 적용 버전이며, Mythos 5는 특정 조직을 위한 고성능 제어 버전입니다. 미 정부는 배포 직후 발생한 'Jailbreak'(모델의 안전 가이드라인을 우회하여 의도치 않은 동작을 유도하는 공격) 가능성을 인지했으며, 이는 모델의 고도화된 능력이 역설적으로 보안 취약점으로 작용할 수 있음을 시사합니다.
+
+#### ✅ 핵심 요점
+- Anthropic은 Fable 5와 Mythos 5 모델의 성능이 기존 모델을 상회함에 따라 발생할 수 있는 보안 리스크를 관리하기 위해 공개 접근을 일시 중단했습니다.
+- 미 정부는 외국인에 대한 기술 접근을 금지하는 조치를 취했으며, 모델의 Jailbreak(탈옥) 취약점 발견에 따른 안보 위협을 제기했습니다.
+- Nvidia, Zoom 등 주요 테크 기업들은 보안 전문가들의 의견을 모아, 방어자들의 기술적 우위를 약화시키는 과도한 규제 대신 투명한 AI 리스크 평가 프로세스를 촉구하고 있습니다.
+- 이번 회담은 모델의 재배포 여부와 향후 AI 모델의 배포 기준(Deployment Standard)을 결정짓는 중요한 분기점이 될 전망입니다.
+
+**태그**: AI, Release, Jailbreak, National Security, LLM
+
+---
+
