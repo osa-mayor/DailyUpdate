@@ -1,0 +1,1201 @@
+# 🚀 Product Hunt Daily Top 30 (2026-06-22)
+
+## 오늘의 요약
+오늘의 트렌드는 단순한 챗봇을 넘어 특정 작업(이메일, 코딩, 문서 작성)을 자율적으로 수행하는 '에이전트(Agent)' 중심의 서비스가 주를 이루었습니다. 또한, 기존의 작업 환경(Word, IDE, OS UI)에 자연스럽게 녹아들어 사용자 흐름을 방해하지 않는 통합형 도구들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- 특정 워크플로우를 자율적으로 처리하는 에이전트 기반의 서비스가 다양하게 출시되었습니다.
+- 기존 소프트웨어나 운영체제의 UI(노치, 플로팅 윈도우, 사이드바)를 활용한 직관적인 사용자 경험이 강조되었습니다.
+- 개발 환경과 클라우드 인프라를 자연어로 제어하거나 자동화하는 도구들이 실무 효율성을 높이고 있습니다.
+
+**오늘의 태그**: AI 에이전트, 생산성 도구, 워크플로우 자동화, 개발자 도구
+
+## 1. [Agent 37 Cloud](https://www.producthunt.com/products/agent-37-38)
+**Votes**: 314 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Give every customer their own Hermes or OpenClaw agent
+**서비스 링크**: https://www.producthunt.com/r/G7ASKEML5CLFTD
+
+**태그**: AI, DevTools, SaaS, Automation, Cloud, Agent, DevTool, API
+
+<img src="images/ph_2026-06-21_Agent_37_Cloud.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+서버 관리 없이 고객별 맞춤형 AI 에이전트를 즉시 배포할 수 있는 매니지드 호스팅 서비스
+
+### 🔑 주요 기능
+- Hermes, OpenClaw, ClaudeCode 등 지속적인 실행이 필요한 에이전트 전용 호스팅
+- 직접 서버(Mac mini, VPS)를 운영할 필요 없는 완전 관리형 환경 제공
+- 단 한 번의 API 호출로 고객별 독립적인 상시 가동 에이전트 생성 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 서버 인프라 관리 부담 없이 고객용 AI 에이전트 서비스를 빠르게 출시하고 운영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- API를 통한 에이전트 생성 테스트
+- 월 $3.44부터 시작하는 요금제 검토
+- 사용 중인 에이전트 모델과의 호환성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트 모델별 구체적인 리소스 할당 및 성능 차이 확인 필요
+- 고객별 독립 환경의 보안 및 데이터 격리 수준 검토
+
+### 🧭 확인이 더 필요한 정보
+제공되는 에이전트 모델 외에 사용자 정의 모델의 호환성 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Agent_37_Cloud_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Agent_37_Cloud_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Agent_37_Cloud_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c207bfd8-3a60-48a7-972b-74a495d9adec.jpeg?auto=format)
+
+---
+
+## 2. [Atomic Mail Agentic](https://www.producthunt.com/products/atomic-mail-agentic)
+**Votes**: 179 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Let your agents read, send, and react to email autonomously
+**서비스 링크**: https://www.producthunt.com/r/X4MCSFBVD3XQRK
+
+**태그**: AI, Automation, Email, Agentic, DevTool, Agent, AI Tool, LLM, API
+
+<img src="images/ph_2026-06-21_Atomic_Mail_Agentic.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 스스로 이메일을 읽고 답장하며 관리할 수 있는 자율형 인박스 서비스
+
+### 🔑 주요 기능
+- AI 에이전트 전용 @atomicmail.ai 인박스 제공
+- JMAP 표준 API를 활용하여 LLM과의 높은 호환성 및 안정적인 이메일 관리
+- 복잡한 설정 없이 30초 내에 즉시 생성 가능한 간편한 가입 프로세스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사람의 개입 없이 AI 에이전트가 이메일 업무를 자율적으로 처리할 수 있는 환경을 즉시 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 30초 만에 전용 인박스 생성하기
+- JMAP API를 통한 에이전트 연동 테스트
+- 자율적인 이메일 스레드 관리 기능 확인
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트의 자율적 발송에 따른 스팸 분류 및 보안 정책 확인 필요
+- 도메인 검증이나 서버 운영 없이 제공되는 서비스의 장기적 안정성 검토
+
+### 🧭 확인이 더 필요한 정보
+제공되는 인박스의 용량 제한이나 스팸 방지 정책에 대한 구체적인 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Atomic_Mail_Agentic_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Atomic_Mail_Agentic_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Atomic_Mail_Agentic_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8c784b86-7268-495d-9e9e-1ed24ced99e3.jpeg?auto=format)
+
+---
+
+## 3. [Grok by SpaceXAI for Word](https://www.producthunt.com/products/grok-by-spacexai-for-word)
+**Votes**: 160 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Draft, restructure & tighten wording from panel inside Word
+**서비스 링크**: https://www.producthunt.com/r/UWES5GXBNLEAZI
+
+**태그**: Productivity, AI Agent, Writing Tool, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-06-21_Grok_by_SpaceXAI_for_Word.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+MS Word 내에서 웹 검색과 문서 작성을 동시에 수행하는 AI 에이전트 사이드바
+
+### 🔑 주요 기능
+- Word 문서 내에서 직접 대화하는 방식의 AI 에이전트 사이드바 제공
+- 웹 검색 기능을 통한 실시간 정보 반영 및 문서 업데이트 가능
+- 요약, 재작성, 개요 생성, 표 만들기 등 문서 작업 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+문서 작성을 위해 브라우저와 Word를 오가는 번거로움 없이, 하나의 화면에서 리서치부터 초안 작성까지 끝낼 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 긴 보고서 요약 및 핵심 내용 추출하기
+- 작성 중인 문단의 톤앤매너 및 명확성 개선하기
+- 웹 검색을 활용한 자료 조사 및 표 생성하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 생성 콘텐츠의 사실 관계 및 정확성 검토 필요
+- 문서 보안 및 데이터 프라이버시 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+SpaceXAI와 Microsoft Word 간의 공식적인 파트너십 여부 및 데이터 보안 수준에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Grok_by_SpaceXAI_for_Word_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Grok_by_SpaceXAI_for_Word_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Grok_by_SpaceXAI_for_Word_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/66a2c9e5-724a-4844-9722-c68f7b2f02f7.jpeg?auto=format)
+
+---
+
+## 4. [Backgrind](https://www.producthunt.com/products/backgrind)
+**Votes**: 154 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Run your AI agents over any app, even games.
+**서비스 링크**: https://www.producthunt.com/r/LXT3GGWXGWH6H4
+
+**태그**: AI Agent, Productivity, Automation, Desktop Tool, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-06-21_Backgrind.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+어떤 앱이나 게임 위에서도 실행 가능한 플로팅 윈도우 방식의 AI 에이전트 도구
+
+### 🔑 주요 기능
+- 항상 위(Always-on-top) 플로팅 윈도우로 터미널 없이 직관적인 사용 가능
+- 풀스크린 게임을 포함한 모든 애플리케이션 위에서 작동
+- 사용자 개인 AI(Claude Code, Cursor) 연동 및 자체 에이전트(Grindy) 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+터미널을 벗어나 기존 작업 환경이나 게임 화면 위에서 AI를 즉각적으로 활용하고, 결정이 필요한 순간에만 알림을 받아 효율적인 멀티태스킹이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 내장 에이전트 'Grindy'로 초기 설정 없이 바로 테스트하기
+- 기존에 사용 중인 Claude Code나 Cursor 연동해보기
+- 클릭 투루(Click-through) 기능을 활용해 화면 간 간섭 없이 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 플로팅 윈도우 방식이 특정 게임의 안티 치트(Anti-cheat) 시스템에 의해 차단될 가능성
+- 로컬 우선(Local-first) 방식이므로 사용자의 하드웨어 리소스 점유율 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+특정 운영체제(Windows/macOS)에서의 호환성 및 게임 보안 프로그램과의 충돌 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Backgrind_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Backgrind_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Backgrind_media_2.jpg)
+
+---
+
+## 5. [oioi ](https://www.producthunt.com/products/oioi)
+**Votes**: 144 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: a fast, glassy clipboard manager for macOS, Windows & Linux
+**서비스 링크**: https://www.producthunt.com/r/TDS5MARXK3TUNM
+
+**태그**: Productivity, OpenSource, Utility, CrossPlatform, Vision
+
+<img src="images/ph_2026-06-21_oioi_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+모든 OS에서 사용할 수 있는 빠르고 아름다운 오픈소스 클립보드 관리 도구
+
+### 🔑 주요 기능
+- macOS, Windows, Linux를 모두 지원하는 크로스 플랫폼 호환성
+- 단축키(⌥V)를 통한 직관적이고 빠른 클립보드 히스토리 접근
+- 텍스트, 이미지, 파일을 모두 지원하는 강력한 검색 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복사한 기록을 별도의 창 없이 즉시 불러올 수 있어 작업 흐름이 끊기지 않으며, 다양한 운영체제 환경에서도 일관된 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단축키(⌥V) 설정 및 사용 숙달하기
+- 텍스트 외에 이미지와 파일 복사 기능 테스트하기
+- 검색 기능을 활용한 과거 기록 찾기
+
+### ⚠️ 사용 전 확인할 점
+- 오픈소스 소프트웨어이므로 보안 및 개인정보 보호를 위해 소스 코드를 검토하거나 신뢰할 수 있는 경로로 설치 필요
+- 시스템 리소스 점유율에 대한 구체적인 정보 미비
+
+### 🧭 확인이 더 필요한 정보
+각 운영체제별 상세 UI 디자인과 시스템 리소스 사용량에 대한 정보가 추가로 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_oioi__media_0.jpg)
+![Screenshot](images/ph_2026-06-21_oioi__media_1.jpg)
+![Screenshot](images/ph_2026-06-21_oioi__media_2.jpg)
+
+---
+
+## 6. [Laguna by Poolside](https://www.producthunt.com/products/poolside)
+**Votes**: 126 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: Foundation models for agentic coding and long-horizon work
+**서비스 링크**: https://www.producthunt.com/r/UWCINA5GZHP76J
+
+**태그**: DevTool, AI, Coding, Automation, Agent
+
+<img src="images/ph_2026-06-21_Laguna_by_Poolside.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+에이전트 기반 코딩과 장기 프로젝트 수행을 위한 강력한 파운데이션 모델
+
+### 🔑 주요 기능
+- 에이전트 중심의 코딩 작업 최적화
+- 장기적인 작업 흐름(Long-horizon work) 처리 능력
+- 범용 인공지능(AGI) 구현을 목표로 하는 파운데이션 모델 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 코드 생성을 넘어 복잡하고 긴 호흡의 개발 프로젝트를 자율적으로 수행할 수 있는 지능형 도구를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에이전트 기반 코딩 워크플로우 테스트
+- 복잡한 프로젝트 구조에서의 모델 성능 검증
+- 장기 작업 수행 능력 확인
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트의 자율적 동작에 따른 코드 품질 검토 필요
+- 복잡한 작업 수행 시 발생할 수 있는 예측 불가능한 결과 확인
+
+### 🧭 확인이 더 필요한 정보
+구체적인 모델의 성능 지표나 기존 개발 환경과의 통합 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Laguna_by_Poolside_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Laguna_by_Poolside_media_1.jpg)
+
+---
+
+## 7. [Notchkin](https://www.producthunt.com/products/notchkin)
+**Votes**: 114 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A notes app that lives in your MacBook's notch.
+**서비스 링크**: https://www.producthunt.com/r/BOMWSMV6EJ3SWJ
+
+**태그**: Productivity, MacBook, Utility
+
+<img src="images/ph_2026-06-21_Notchkin.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 노치 영역을 활용한 초간편 메모 앱
+
+### 🔑 주요 기능
+- 맥북 노치 위치를 활용한 직관적인 UI
+- 노치 위로 마우스를 올리면 나타나는 드롭다운 패널
+- 빠른 메모 작성이 가능한 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 창을 띄우지 않고도 노치 영역에서 즉시 메모를 작성할 수 있어 작업 흐름을 방해받지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 노치에 마우스 커서 올려보기
+- 드롭다운 패널에서 메모 작성해보기
+- 마스코트와 상호작용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 노치가 없는 맥북 모델에서는 사용이 제한될 수 있음
+- 노치 영역을 가리는 UI 특성상 화면 가림 현상이 발생할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+메모 데이터의 동기화 방식이나 저장 용량에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Notchkin_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Notchkin_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Notchkin_media_2.jpg)
+
+---
+
+## 8. [Cloudback MCP Server](https://www.producthunt.com/products/cloudback)
+**Votes**: 112 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Manage your backups from Claude, Cursor, and VS Code
+**서비스 링크**: https://www.producthunt.com/r/DLNZ4A3NGRTL7U
+**재등장**: 최근 7일 내 재등장 (마지막 등장 6일 전)
+
+**태그**: DevTool, Automation, Backup, AI-Integration, AI Tool, Chat, Prompting, Vision
+
+<img src="images/ph_2026-06-21_Cloudback_MCP_Server.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude, Cursor 등 AI IDE에서 자연어로 백업 설정을 관리하는 MCP 서버
+
+### 🔑 주요 기능
+- Claude, Cursor, VS Code 등 MCP 클라이언트를 통한 백업 관리
+- GitHub, GitLab, Azure DevOps, Linear 대상 백업 정의 및 스케줄링 지원
+- 대규모 백업 정책(300개 이상)을 자연어 한 문장으로 일괄 변경 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+대시보드를 일일이 클릭하거나 복잡한 스크립트를 짤 필요 없이, 개발 환경 내 채팅만으로 백업 정책을 즉시 제어할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Docker를 이용한 myrtlelabs/cloudback-mcp 이미지 실행
+- 사용 중인 MCP 클라이언트(Claude Desktop, Cursor 등)에 서버 연결
+- 자연어 프롬프트를 통한 백업 스케줄 및 보관 정책 테스트
+
+### ⚠️ 사용 전 확인할 점
+- Docker 환경 설정 및 MCP 클라이언트 연동 지식 필요
+- 자연어 명령에 의한 대규모 정책 변경 시 의도치 않은 설정 오류 주의
+
+### 🧭 확인이 더 필요한 정보
+지원되는 백업 대상 플랫폼 외의 추가 통합 가능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Cloudback_MCP_Server_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Cloudback_MCP_Server_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Cloudback_MCP_Server_media_2.jpg)
+
+---
+
+## 9. [Plansera AI](https://www.producthunt.com/products/plansera-ai)
+**Votes**: 102 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: E-2 visa business plans, drafted by an AI
+**서비스 링크**: https://www.producthunt.com/r/HPZMF2PNOBV76S
+
+**태그**: AI, Immigration, Automation, BusinessPlan, Agent, AI Tool, Design
+
+<img src="images/ph_2026-06-21_Plansera_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI를 활용해 30분 만에 완성하는 E-2 비자용 전문 사업계획서 초안 생성 서비스
+
+### 🔑 주요 기능
+- 증빙 서류(은행 거래 내역, 임대차 계약서 등) 분석을 통한 맞춤형 계획서 작성
+- 5개년 재무제표, 차트, 자금 용도(Use-of-funds)가 포함된 완성도 높은 문서 제공
+- 전문가 대비 압도적인 비용 절감 및 시간 단축 (2,000달러 상당의 작업을 100달러에 30분 내 완료)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+비싼 대행 비용과 긴 작업 시간 없이, 검토 가능한 수준의 고품질 사업계획서 초안을 즉시 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유 중인 증빙 서류 준비하기
+- AI 인터뷰 세션 진행하기
+- 생성된 PDF 및 Word 문서 검토 및 수정하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 초안이므로 최종 제출 전 반드시 전문가의 법적 검토가 필요함
+- 사용자가 제공한 증빙 데이터의 정확도에 따라 결과물의 신뢰도가 결정됨
+
+### 🧭 확인이 더 필요한 정보
+제공되는 문서가 실제 이민국 제출 시 법적 효력을 완벽히 보장하는지에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Plansera_AI_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Plansera_AI_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Plansera_AI_media_2.jpg)
+
+---
+
+## 10. [snowscroll](https://www.producthunt.com/products/snowscroll)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Remove addictive feeds from your social media
+**서비스 링크**: https://www.producthunt.com/r/6ELOAHCCUNYT3U
+
+**태그**: Productivity, SocialMedia, Focus, DigitalWellness
+
+<img src="images/ph_2026-06-21_snowscroll.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+중독적인 숏폼 피드를 제거하고 소셜 미디어의 본래 기능만 남겨주는 생산성 도구
+
+### 🔑 주요 기능
+- 릴스, 쇼츠 등 도파민을 유발하는 무한 스크롤 피드 제거
+- DM, 스토리, 게시물 등 소셜 미디어의 핵심 기능은 유지
+- Instagram, YouTube, X, Facebook, LinkedIn, TikTok 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+무의미한 스크롤링(Doomscrolling)으로 낭비되는 시간을 줄이고, 소셜 미디어를 목적에 맞게 효율적으로 사용할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 주요 소셜 미디어 계정 연동하기
+- 피드 없이 메시지와 게시물 위주로 사용해보기
+- 집중력이 필요한 시간대에 서비스 활성화하기
+
+### ⚠️ 사용 전 확인할 점
+- 플랫폼별 업데이트에 따른 기능 호환성 문제 가능성
+- 피드 기능 제외 시 콘텐츠 탐색의 재미가 반감될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+각 소셜 미디어 플랫폼의 정책 변화에 따른 서비스 안정성 및 구체적인 사용 방식(확장 프로그램 또는 별도 앱 여부) 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_snowscroll_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_snowscroll_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_snowscroll_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/96cacac3-0ca8-48ed-bdbd-762dc0ab0b8a.jpeg?auto=format)
+
+---
+
+## 11. [AlsonAI is launching Editor Mode](https://www.producthunt.com/products/alsonai)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI-assisted storybooks, now with full creative control.
+**서비스 링크**: https://www.producthunt.com/r/PXD3PKD55NOLTC
+
+**태그**: AI-Writing, Storytelling, Creative-Tools, Publishing, AI Tool, Vision, API
+
+<img src="images/ph_2026-06-21_AlsonAI_is_launching_Editor_Mode.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 생성 결과물을 넘어 작가가 직접 문장과 장면을 다듬을 수 있는 편집 모드 출시
+
+### 🔑 주요 기능
+- 생성된 스토리 텍스트의 직접 수정 및 흐름 조정 기능
+- 이미지 일관성을 유지하며 장면을 변경하는 'Regenerate Image' 기능
+- AI의 보조를 받으면서도 사용자가 최종 소유권을 갖는 스토리텔링 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 만든 초안에 갇히지 않고 작가의 의도대로 문장과 이미지를 정교하게 수정하여 완성도 높은 전자책을 제작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에디터 모드를 통한 스토리 텍스트 정교화
+- Regenerate Image 기능을 활용한 장면 수정
+- 무료 프리뷰를 통한 이미지 재생성 한도 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 무료 프리뷰는 이미지 재생성 횟수가 5회로 제한됨
+- 이미지 재생성 시 캐릭터나 배경의 일관성 유지 정도를 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+유료 플랜의 구체적인 가격 정책과 이미지 재생성 한도 이상의 작업 방식에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_AlsonAI_is_launching_Editor_Mo_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_AlsonAI_is_launching_Editor_Mo_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_AlsonAI_is_launching_Editor_Mo_media_2.jpg)
+
+---
+
+## 12. [Botacts](https://www.producthunt.com/products/botacts)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The phonebook of AIs
+**서비스 링크**: https://www.producthunt.com/r/T6ZYV3UEQC7ERY
+
+**태그**: AI Directory, Communication, Productivity, Agent, AI Tool, Email
+
+<img src="images/ph_2026-06-21_Botacts.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+다양한 메신저로 소통 가능한 AI 봇과 에이전트를 찾는 통합 디렉토리 서비스
+
+### 🔑 주요 기능
+- 전화, 문자, 이메일, WhatsApp, Telegram 등 다양한 채널 지원
+- 연락처에 추가 가능한 모든 AI 봇을 탐색할 수 있는 플랫폼
+- 사용자가 즉시 대화할 수 있는 실용적인 AI 에이전트 검색
+
+### 🙋 사용자에게 어떤 점이 좋은가
+특정 목적에 맞는 AI를 찾기 위해 여러 플랫폼을 헤맬 필요 없이, 익숙한 메신저를 통해 바로 대화할 수 있는 AI를 발견할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자주 사용하는 메신저(WhatsApp, Telegram 등)에서 쓸 수 있는 AI 봇 검색하기
+- 필요한 기능의 AI 에이전트가 등록되어 있는지 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 개별 AI 봇의 보안 및 개인정보 처리 방침은 각 서비스마다 다를 수 있음
+- 제공되는 AI 봇의 품질과 응답 정확도는 서비스 제공자에 따라 상이함
+
+### 🧭 확인이 더 필요한 정보
+각 AI 봇의 이용 요금 체계나 서비스 유지 기간에 대한 정보는 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Botacts_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Botacts_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Botacts_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3bdbd4a5-2e11-45d1-91be-2c5a69c6c037.jpeg?auto=format)
+
+---
+
+## 13. [Our Family Habits App](https://www.producthunt.com/products/our-family-habits)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Build strong family rhythms, one habit at a time.
+**서비스 링크**: https://www.producthunt.com/r/BCBJTLQ4EG77MF
+
+**태그**: Family Management, Habit Tracker, Productivity, Parenting, Design
+
+<img src="images/ph_2026-06-21_Our_Family_Habits_App.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+가족 구성원의 습관과 루틴을 함께 관리하며 책임감을 키우는 통합 대시보드
+
+### 🔑 주요 기능
+- 단순 심부름을 넘어 인격 형성과 책임감을 위한 습관 관리 중심
+- 부모의 정신적 부담을 줄여주는 공유형 가족 대시보드 제공
+- 홈스쿨링, 재혼 가정 등 다양한 가족 형태에 최적화된 리듬 구축
+
+### 🙋 사용자에게 어떤 점이 좋은가
+가족 구성원 모두가 명확한 기대치를 공유함으로써 집안 내 갈등을 줄이고, 아이들이 스스로 규칙을 지키는 습관을 기를 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 가족 공통의 루틴 및 목표 설정하기
+- 아이들을 위한 보상 체계 설계하기
+- 가족 대시보드를 통한 일일 체크리스트 실행하기
+
+### ⚠️ 사용 전 확인할 점
+- 가족 구성원 모두가 앱을 사용하는 적극적인 참여가 필요함
+- 단순한 작업 관리를 넘어 습관 형성이라는 목적에 부합하는 운영이 필요함
+
+### 🧭 확인이 더 필요한 정보
+구체적인 플랫폼 지원 범위(iOS/Android) 및 멀티 유저 동기화 방식에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Our_Family_Habits_App_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Our_Family_Habits_App_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Our_Family_Habits_App_media_2.jpg)
+
+---
+
+## 14. [SpeakUp](https://www.producthunt.com/products/speakup-6)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Voice control for macOS that gets out of your way
+**서비스 링크**: https://www.producthunt.com/r/ODBWPUMCEBEVOO
+
+**태그**: Productivity, macOS, Automation, OpenSource
+
+<img src="images/ph_2026-06-21_SpeakUp.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+타이핑 흐름을 방해하지 않고 음성으로 오타 수정 및 단축키를 실행하는 macOS용 보조 도구
+
+### 🔑 주요 기능
+- 텍스트 입력 흐름을 유지하는 비(非) 받아쓰기 방식의 음성 제어
+- Swift 기반의 온디바이스 처리로 개인정보 보호 및 빠른 반응 속도 제공
+- 오픈 소스(MIT 라이선스) 및 macOS 12 이상 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+키보드에서 손을 떼지 않고도 음성 명령만으로 오타를 수정하거나 단축키를 실행할 수 있어 작업 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 명령으로 가장 가까운 텍스트 매칭 및 수정 기능 테스트
+- 단축키 실행을 통한 워크플로우 자동화 설정
+
+### ⚠️ 사용 전 확인할 점
+- macOS 12 이상의 운영체제 버전 필요
+- 음성 인식의 정확도가 주변 소음 환경에 영향을 받을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자의 특정 워크플로우에 따른 단축키 커스텀 범위와 복잡한 문장 인식 성능에 대한 정보가 더 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_SpeakUp_media_0.jpg)
+
+---
+
+## 15. [Beacon ](https://www.producthunt.com/products/beacon-23)
+**Votes**: 7 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Know before your dependencies break.
+**서비스 링크**: https://www.producthunt.com/r/6ESQAUMPA3AO62
+
+**태그**: DevTool, OpenSource, DependencyManagement, Observability, AI Tool
+
+<img src="images/ph_2026-06-21_Beacon_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+오픈소스 패키지 방치 문제를 사전에 예측하여 의존성 장애를 방지하는 도구
+
+### 🔑 주요 기능
+- 오픈소스 패키지 중단(Abandonment) 사전 예측
+- SPS 점수 및 티어별 알림 제공
+- 팀을 위한 데일리 요약 리포트
+
+### 🙋 사용자에게 어떤 점이 좋은가
+의존성 문제가 실제 장애로 이어지기 전에 미리 감지하여 팀이 선제적으로 대응할 수 있게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- SPS 점수 확인하기
+- 티어별 알림 설정하기
+- 데일리 다이제스트 구독하기
+
+### ⚠️ 사용 전 확인할 점
+- 예측 모델의 정확도 및 판단 기준 확인 필요
+- 기존 워크플로우와의 통합 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+SPS 점수의 구체적인 산출 방식과 알림의 상세 기준에 대한 정보가 더 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Beacon__media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Beacon__media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Beacon__media_2.jpg)
+
+---
+
+## 16. [REAPER Daemon ](https://www.producthunt.com/products/reaper-daemon)
+**Votes**: 7 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: The daemon you let into REAPER
+**서비스 링크**: https://www.producthunt.com/r/BBIBVLGSVRO2SA
+
+**태그**: DAW, AI-Automation, MusicProduction, LocalTool, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-06-21_REAPER_Daemon_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 REAPER DAW를 직접 제어하여 음악 작업을 수행하는 로컬 브릿지 도구
+
+### 🔑 주요 기능
+- Claude Code, Codex 등 AI 에이전트와 REAPER를 연결하는 로컬 브릿지
+- 자연어 명령을 통한 실제 프로젝트 내 편집 및 드럼 그루브 생성
+- 브라우저 확장이나 서버 없이 100% 로컬에서 작동하는 보안성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+음악 작업 중 복잡한 편집 과정을 자연어로 명령하여 작업 시간을 단축하고, AI의 창의적인 아이디어를 실제 프로젝트에 즉각 반영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어로 드럼 그루브 생성 요청하기
+- AI에게 특정 플러그인의 EQ 설정 및 이유 물어보기
+- 명령을 통한 실시간 오디오 편집 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- AI의 편집이 실제 프로젝트 파일에 직접 반영되므로 작업 전 백업 권장
+- AI 에이전트(Claude Code 등)를 별도로 설정하고 사용할 줄 알아야 함
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트와의 연동 방식 및 구체적인 설치 환경에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_REAPER_Daemon__media_1.jpg)
+![Screenshot](images/ph_2026-06-21_REAPER_Daemon__media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c0ad02de-465f-4f94-b734-c5905033b050.jpeg?auto=format)
+
+---
+
+## 17. [Property Alpha](https://www.producthunt.com/products/property-alpha)
+**Votes**: 6 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI deal analysis for residential real estate investors
+**서비스 링크**: https://www.producthunt.com/r/UFNIPOUOO4FOCU
+
+**태그**: RealEstate, AI, Investment, Analytics, Automation, AI Tool
+
+<img src="images/ph_2026-06-21_Property_Alpha.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인 맞춤형 투자 가정을 반영하여 몇 초 만에 수익성을 분석하는 AI 부동산 투자 분석 플랫폼
+
+### 🔑 주요 기능
+- 전국 매물 데이터와 개인별 투자 가정을 결합한 독자적인 분석 엔진
+- 수익성 지표 기반의 필터링 및 주 단위 광역 검색 기능
+- 코리빙(Co-living) 등 다양한 임대 전략에 따른 수익성 시뮬레이션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 스프레드시트 작업 없이도 데이터 기반의 맞춤형 투자 분석을 신속하게 수행하여 최적의 매물을 빠르게 발굴할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 전국 매물 데이터 검색 및 필터링 기능 활용
+- 다양한 임대 전략(코리빙 등) 시뮬레이션 테스트
+- 개인별 투자 가정 설정 및 수익성 지표 확인
+
+### ⚠️ 사용 전 확인할 점
+- AI 분석 결과가 실제 현장 실사 및 법적 검토를 대체할 수 없음
+- 사용자가 입력하는 개인별 가정값에 따라 분석 결과가 크게 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공되는 데이터의 실시간 업데이트 주기와 구체적인 데이터 소스 범위에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Property_Alpha_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Property_Alpha_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Property_Alpha_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/35703139-7a64-4911-b3f0-9c96535e7cf2.jpeg?auto=format)
+
+---
+
+## 18. [Skip the tourist menu, eat like a local](https://www.producthunt.com/products/skip-the-tourist-menu-eat-like-a-local)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The dishes and drinks worth trying, per country
+**서비스 링크**: https://www.producthunt.com/r/LJ25PWX63KKRN5
+
+**태그**: Travel, FoodGuide, Lifestyle, AI Tool
+
+<img src="images/ph_2026-06-21_Skip_the_tourist_menu,_eat_like_a_local.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전 세계 146개국의 현지인 추천 메뉴를 한눈에 확인하는 여행 미식 가이드
+
+### 🔑 주요 기능
+- 관광객용 메뉴가 아닌 현지인이 실제로 즐기는 음식과 음료 정보 제공
+- 146개국 수천 가지의 시그니처 메뉴, 길거리 음식, 지역 특산물 데이터 보유
+- 별도의 가입 없이 5개 언어로 즉시 이용 가능한 무료 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+낯선 해외 여행지에서 메뉴판을 보고 무엇을 먹을지 고민하는 스트레스를 줄여주며, 실패 없는 현지 미식 경험을 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 방문 예정인 국가의 시그니처 메뉴 검색하기
+- 현지 길거리 음식과 지역 특산물 리스트 확인하기
+- 메뉴별 특징과 추천 이유 읽어보기
+
+### ⚠️ 사용 전 확인할 점
+- 실시간 식당 위치 정보나 예약 기능은 포함되어 있지 않을 수 있음
+- 사용자 의견 기반이므로 개인의 입맛과는 차이가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+데이터의 최신성 및 특정 지역의 상세 식당 정보 포함 여부는 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_2.jpg)
+
+---
+
+## 19. [NovusPraxis](https://www.producthunt.com/products/novuspraxis)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Project management without the per-seat games
+**서비스 링크**: https://www.producthunt.com/r/I7RDYOUKPDQIDD
+
+**태그**: ProjectManagement, SaaS, Productivity, Operations, Sales
+
+<img src="images/ph_2026-06-21_NovusPraxis.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+인원수 제한 없는 정액제 기반의 실무 중심 프로젝트 관리 도구
+
+### 🔑 주요 기능
+- 사용자 수에 따른 추가 비용이 없는 플랫 프라이싱(Flat pricing) 정책
+- 운영 리드 및 실무자를 위한 반복 작업 및 템플릿 기능
+- 지연 상황을 명확히 보여주는 실시간 보드 및 리포트
+
+### 🙋 사용자에게 어떤 점이 좋은가
+인원 추가 시마다 발생하는 비용 부담 없이 팀 전체가 자유롭게 협업할 수 있으며, 복잡한 설정 없이 즉시 업무 관리가 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 계정 생성 및 대시보드 탐색
+- 반복 작업(Recurring tasks) 설정 테스트
+- 기존 업무 프로세스를 위한 템플릿 생성
+
+### ⚠️ 사용 전 확인할 점
+- 1인 개발 제품이므로 대규모 엔터프라이즈급 기능이나 통합 환경 확인 필요
+- 상세한 유료 플랜의 기능 차이 및 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 플랫 프라이싱의 금액과 제공되는 기능의 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_2.jpg)
+
+---
+
+## 20. [Mira Gold's Writing Forge™](https://www.producthunt.com/products/mira-gold-s-writing-forge)
+**Votes**: 5 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI fiction that keeps continuity. One story, many forms.
+**서비스 링크**: https://www.producthunt.com/r/JZ5FTWWTLWJXHZ
+
+**태그**: WritingTool, AI, CreativeWriting, Storytelling, AI Tool
+
+<img src="images/ph_2026-06-21_Mira_Gold's_Writing_Forge™.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+설정 오류 없는 장편 소설 집필을 위한 AI 스토리텔링 워크플로우
+
+### 🔑 주요 기능
+- 장편 서사를 위한 실시간 캐논(Canon) 추적 시스템
+- 캐릭터 정보 및 세계관 일관성 유지 기능
+- 하나의 스토리를 스크립트, 노래 등으로 변환하는 멀티 포맷 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI의 고질적인 문제인 '기억력 상실'을 해결하여, 작가가 설정 오류 걱정 없이 긴 호흡의 소설이나 시리즈를 집필할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 API 키를 연결하여 선호하는 AI 모델 설정하기
+- 캐릭터 및 세계관 설정을 통한 캐논 시스템 구축하기
+- 작성된 스토리를 다른 포맷(스크립트 등)으로 변환해보기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자 개인의 API 키를 직접 입력해야 하므로 보안 및 비용 관리 필요
+- 모델별 성능 차이에 따라 일관성 유지 수준이 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자가 직접 API 키를 가져와야 하는 방식이므로, 구체적인 비용 구조와 모델별 최적화 정도를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e8e02281-ed07-42ac-9843-451f5685b81b.jpeg?auto=format)
+
+---
+
+## 21. [GuessWhat? 猜-猜](https://www.producthunt.com/products/guesswhat-2)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A word party game with Chinese calligraphy
+**서비스 링크**: https://www.producthunt.com/r/PX76O262PYXK7A
+
+**태그**: PartyGame, WordGame, Design, Social, AI Tool
+
+<img src="images/ph_2026-06-21_GuessWhat_猜-猜.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+중국어 서예의 미학을 담은 독창적인 단어 맞히기 파티 게임
+
+### 🔑 주요 기능
+- 전통 서예 스타일을 활용한 시각적이고 예술적인 카드 디자인
+- 친구들과 함께 즐길 수 있는 협동 및 추리형 파티 게임
+- 혼자서도 즐길 수 있도록 설계된 솔로 친화적 게임 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 텍스트 게임을 넘어 예술적인 디자인을 통해 시각적 즐거움을 제공하며, 모임에서 분위기를 띄우기에 적합합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 서예 스타일의 카드 디자인 확인하기
+- 게임의 규칙과 플레이 방식 파악하기
+- 친구들과 함께 플레이할 수 있는 환경 준비하기
+
+### ⚠️ 사용 전 확인할 점
+- 중국어 캐릭터 중심이므로 언어적 이해도가 필요할 수 있음
+- 물리적 카드 게임인지 디지털 앱인지에 따라 플레이 환경이 달라짐
+
+### 🧭 확인이 더 필요한 정보
+해당 제품이 디지털 앱 형태인지 실물 보드게임 형태인지에 대한 명확한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_GuessWhat_猜-猜_media_0.jpg)
+
+---
+
+## 22. [WallMockup](https://www.producthunt.com/products/wallmockup)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Realistic wall art mockups — true scale, in minutes.
+**서비스 링크**: https://www.producthunt.com/r/JZOY55VABKINU7
+
+**태그**: DesignTool, Mockup, Productivity, LLM
+
+<img src="images/ph_2026-06-21_WallMockup.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실제 크기 비율이 적용된 고품질 벽면 아트 목업을 몇 분 만에 제작하는 도구
+
+### 🔑 주요 기능
+- 실제 스케일이 반영된 사실적인 룸 씬 제공
+- 프레임 및 아트워크 크기 간편 커스텀
+- 판매용 리스팅에 즉시 사용 가능한 프리뷰 내보내기
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자이너나 판매자가 별도의 복잡한 작업 없이도 실제 인테리어에 적용된 듯한 고퀄리티 제품 이미지를 빠르게 생성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 원하는 룸 씬 선택하기
+- 아트워크 업로드 및 프레임 맞춤 설정
+- 최종 결과물 내보내기
+
+### ⚠️ 사용 전 확인할 점
+- 제공되는 템플릿 외의 특정 인테리어 스타일 제한 가능성
+- 내보내기 시 해상도나 파일 형식 제한 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 가격 정책 및 고해상도 내보내기 기능의 유료 여부가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_WallMockup_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_WallMockup_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_WallMockup_media_2.jpg)
+
+---
+
+## 23. [Skip the tourist menu, eat like a local](https://www.producthunt.com/products/skip-the-tourist-menu-eat-like-a-local)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The dishes and drinks worth trying, per country
+**서비스 링크**: https://www.producthunt.com/r/LJ25PWX63KKRN5
+
+**태그**: Travel, FoodGuide, Lifestyle, AI Tool
+
+<img src="images/ph_2026-06-21_Skip_the_tourist_menu,_eat_like_a_local.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전 세계 146개국의 현지인 추천 메뉴를 한눈에 확인하는 여행 미식 가이드
+
+### 🔑 주요 기능
+- 관광객용 메뉴가 아닌 현지인이 실제로 즐기는 음식과 음료 정보 제공
+- 146개국 수천 가지의 시그니처 메뉴, 길거리 음식, 지역 특산물 데이터 보유
+- 별도의 가입 없이 5개 언어로 즉시 이용 가능한 무료 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+낯선 해외 여행지에서 메뉴판을 보고 무엇을 먹을지 고민하는 스트레스를 줄여주며, 실패 없는 현지 미식 경험을 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 방문 예정인 국가의 시그니처 메뉴 검색하기
+- 현지 길거리 음식과 지역 특산물 리스트 확인하기
+- 메뉴별 특징과 추천 이유 읽어보기
+
+### ⚠️ 사용 전 확인할 점
+- 실시간 식당 위치 정보나 예약 기능은 포함되어 있지 않을 수 있음
+- 사용자 의견 기반이므로 개인의 입맛과는 차이가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+데이터의 최신성 및 특정 지역의 상세 식당 정보 포함 여부는 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Skip_the_tourist_menu,_eat_lik_media_2.jpg)
+
+---
+
+## 24. [PhotoFit](https://www.producthunt.com/products/photofit)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Compress a photo to an exact KB for passport & visa forms
+**서비스 링크**: https://www.producthunt.com/r/BQZHJP3Q67BJ5L
+
+**태그**: Utility, Productivity, Photo Editing
+
+<img src="images/ph_2026-06-21_PhotoFit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+여권 및 비자 신청을 위해 사진 용량을 지정된 KB 단위로 정확하게 압축해 주는 도구
+
+### 🔑 주요 기능
+- 사용자가 지정한 정확한 KB 또는 픽셀 크기로 사진 리사이징 가능
+- 여권, 비자, DV 로터리 등 정부 양식 업로드에 최적화
+- 브라우저 내에서 모든 작업이 처리되어 데이터 유출 위험 없음
+
+### 🙋 사용자에게 어떤 점이 좋은가
+정부 기관의 까다로운 파일 용량 제한 때문에 사진을 여러 번 다시 편집해야 하는 번거로움을 즉시 해결해 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 정확한 KB 용량 설정 기능 테스트
+- 픽셀 크기 조정 기능 확인
+- 브라우저 기반 보안성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 정부 양식마다 요구하는 세부 규격(비율 등)이 다를 수 있으므로 최종 확인 필요
+- 오프라인 환경이 아닌 브라우저 실행 환경에서의 동작 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 브라우저 사양에 따른 처리 속도나 대용량 파일 처리 한계는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_PhotoFit_media_0.jpg)
+
+---
+
+## 25. [NovusPraxis](https://www.producthunt.com/products/novuspraxis)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Project management without the per-seat games
+**서비스 링크**: https://www.producthunt.com/r/I7RDYOUKPDQIDD
+
+**태그**: ProjectManagement, SaaS, Productivity, Operations, Sales
+
+<img src="images/ph_2026-06-21_NovusPraxis.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+인원수 제한 없는 정액제 기반의 실무 중심 프로젝트 관리 도구
+
+### 🔑 주요 기능
+- 사용자 수에 따른 추가 비용이 없는 플랫 프라이싱(Flat pricing) 정책
+- 운영 리드 및 실무자를 위한 반복 작업 및 템플릿 기능
+- 지연 상황을 명확히 보여주는 실시간 보드 및 리포트
+
+### 🙋 사용자에게 어떤 점이 좋은가
+인원 추가 시마다 발생하는 비용 부담 없이 팀 전체가 자유롭게 협업할 수 있으며, 복잡한 설정 없이 즉시 업무 관리가 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 계정 생성 및 대시보드 탐색
+- 반복 작업(Recurring tasks) 설정 테스트
+- 기존 업무 프로세스를 위한 템플릿 생성
+
+### ⚠️ 사용 전 확인할 점
+- 1인 개발 제품이므로 대규모 엔터프라이즈급 기능이나 통합 환경 확인 필요
+- 상세한 유료 플랜의 기능 차이 및 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 플랫 프라이싱의 금액과 제공되는 기능의 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_NovusPraxis_media_2.jpg)
+
+---
+
+## 26. [Mira Gold's Writing Forge™](https://www.producthunt.com/products/mira-gold-s-writing-forge)
+**Votes**: 5 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI fiction that keeps continuity. One story, many forms.
+**서비스 링크**: https://www.producthunt.com/r/JZ5FTWWTLWJXHZ
+
+**태그**: WritingTool, AI, CreativeWriting, Storytelling, AI Tool
+
+<img src="images/ph_2026-06-21_Mira_Gold's_Writing_Forge™.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+설정 오류 없는 장편 소설 집필을 위한 AI 스토리텔링 워크플로우
+
+### 🔑 주요 기능
+- 장편 서사를 위한 실시간 캐논(Canon) 추적 시스템
+- 캐릭터 정보 및 세계관 일관성 유지 기능
+- 하나의 스토리를 스크립트, 노래 등으로 변환하는 멀티 포맷 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI의 고질적인 문제인 '기억력 상실'을 해결하여, 작가가 설정 오류 걱정 없이 긴 호흡의 소설이나 시리즈를 집필할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 API 키를 연결하여 선호하는 AI 모델 설정하기
+- 캐릭터 및 세계관 설정을 통한 캐논 시스템 구축하기
+- 작성된 스토리를 다른 포맷(스크립트 등)으로 변환해보기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자 개인의 API 키를 직접 입력해야 하므로 보안 및 비용 관리 필요
+- 모델별 성능 차이에 따라 일관성 유지 수준이 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자가 직접 API 키를 가져와야 하는 방식이므로, 구체적인 비용 구조와 모델별 최적화 정도를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_Mira_Gold's_Writing_Forge™_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e8e02281-ed07-42ac-9843-451f5685b81b.jpeg?auto=format)
+
+---
+
+## 27. [fypnow](https://www.producthunt.com/products/fypnow)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Stop Guessing What the TikTok Algorithm Wants
+**서비스 링크**: https://www.producthunt.com/r/5IHHJGU2IT7B3Q
+
+**태그**: AI, Analytics, ContentCreation, TikTok, Marketing, AI Tool, Video
+
+<img src="images/ph_2026-06-21_fypnow.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+틱톡 알고리즘의 성공 패턴을 분석하여 검증된 스크립트를 생성해 주는 AI 분석 도구
+
+### 🔑 주요 기능
+- 바이럴 영상의 훅(Hook), 페이싱, 유지율 등 핵심 패턴 분석
+- 특정 크리에이터 또는 영상 링크를 통한 맞춤형 데이터 추출
+- 성공적인 패턴을 기반으로 한 AI 스크립트 자동 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+막연한 추측 대신 데이터에 기반한 콘텐츠 제작이 가능해지며, 이미 검증된 형식을 활용해 영상 제작 시간을 단축하고 성공 확률을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 분석하고 싶은 경쟁 크리에이터의 영상 링크 붙여넣기
+- 추출된 성공 패턴을 바탕으로 AI 스크립트 생성해 보기
+- 7일 무료 체험을 통해 분석 정확도 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 분석된 패턴이 본인의 콘텐츠 스타일과 맞지 않을 수 있음
+- 7일 무료 체험 종료 후 유료 전환 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 유료 플랜의 가격 체계와 기능 제한 범위는 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_fypnow_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_fypnow_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_fypnow_media_2.jpg)
+
+---
+
+## 28. [SendFileOnline.com](https://www.producthunt.com/products/sendfileonline)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The 3x cheaper, no-signup WeTransfer alternative. 
+**서비스 링크**: https://www.producthunt.com/r/SVABQ2RN3ZEMQL
+
+**태그**: Productivity, FileSharing, Privacy, SaaS, DevTool, Analytics
+
+<img src="images/ph_2026-06-21_SendFileOnline.com.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+가입 없이 6자리 코드로 대용량 파일을 안전하고 저렴하게 공유하는 서비스
+
+### 🔑 주요 기능
+- 별도의 회원가입 없이 즉시 파일 공유 가능
+- WebRTC P2P 모드를 통한 서버를 거치지 않는 프라이빗 전송 지원
+- 월 $4.99의 저렴한 비용으로 100GB 용량 및 프로 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 가입 절차 없이 링크나 코드로 빠르게 파일을 전달할 수 있으며, 보안과 비용 효율성을 동시에 챙길 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 6자리 코드를 이용한 즉시 파일 공유 테스트
+- 보안을 위한 WebRTC P2P 모드 활용
+- 대용량 전송을 위한 Pro 플랜 기능 검토
+
+### ⚠️ 사용 전 확인할 점
+- 무료 버전은 최대 1GB까지만 업로드 가능
+- Pro 플랜 결제 시에만 100GB 용량 및 상세 분석 기능 제공
+
+### 🧭 확인이 더 필요한 정보
+Pro 플랜의 'view-once' 모드와 'custom expiry' 기능의 구체적인 작동 방식에 대한 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_SendFileOnline.com_media_0.jpg)
+![Screenshot](images/ph_2026-06-21_SendFileOnline.com_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_SendFileOnline.com_media_2.jpg)
+
+---
+
+## 29. [avatarsniff](https://www.producthunt.com/products/avatarsniff)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Sniff out generic default avatars, straight from the pixels.
+**서비스 링크**: https://www.producthunt.com/r/NNXX3SX4ZLAUYP
+
+**태그**: DevTool, ImageProcessing, Automation, AI Tool, Vision
+
+<img src="images/ph_2026-06-21_avatarsniff.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+이미지 픽셀 분석을 통해 기본 프로필 이미지를 자동으로 식별하는 개발 도구
+
+### 🔑 주요 기능
+- 구글 이니셜, Gravatar 기본 이미지 등 범용 기본 아바타 감지
+- 프레임워크에 구애받지 않는 독립적인 코어 엔진
+- 의존성 없는(Zero-dependency) 가벼운 구조
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사용자 목록에서 실제 사용자와 기본 프로필을 빠르게 구분하여 데이터 품질을 높이거나 UI를 정제할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 픽셀 기반 감지 정확도 테스트
+- 기존 프로젝트에 코어 엔진 통합 시도
+- 다양한 플랫폼의 기본 아바타 패턴 식별
+
+### ⚠️ 사용 전 확인할 점
+- 커스텀 디자인된 기본 아바타와의 오탐 가능성
+- 이미지 해상도나 포맷에 따른 감지 성능 차이
+
+### 🧭 확인이 더 필요한 정보
+구체적인 API 제공 방식이나 라이브러리 설치 방법이 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_avatarsniff_media_1.jpg)
+![Screenshot](images/ph_2026-06-21_avatarsniff_media_2.jpg)
+![Screenshot](images/ph_2026-06-21_avatarsniff_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3f8e5217-b3c7-453d-881b-4be1c6f93abd.jpeg?auto=format)
+
+---
+
+## 30. [AixKit](https://www.producthunt.com/products/aixkit)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: 500+ free online tools for PDF, image, video and more
+**서비스 링크**: https://www.producthunt.com/r/FHNMSKMDIOSJSQ
+
+**태그**: Productivity, Utility, Free, WebTool, AI Tool, Video, Vision
+
+<img src="images/ph_2026-06-21_AixKit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+별도 설치나 가입 없이 브라우저에서 즉시 사용하는 500여 가지 무료 온라인 유틸리티 모음
+
+### 🔑 주요 기능
+- PDF, 이미지, 영상 등 다양한 분야의 500개 이상의 도구 제공
+- 로그인이나 설치가 필요 없는 브라우저 기반 작업 환경
+- 학생, 전문가, 크리에이터를 위한 빠르고 간편한 사용성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 소프트웨어 설치 없이 웹 브라우저만 있으면 언제 어디서든 필요한 파일 변환 및 편집 작업을 즉시 처리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- PDF 파일 변환 및 편집
+- 이미지 편집 및 포맷 변경
+- 영상 다운로드 및 파일 유틸리티 활용
+
+### ⚠️ 사용 전 확인할 점
+- 브라우저 기반이므로 대용량 파일 처리 시 네트워크 속도 및 브라우저 성능에 영향을 받을 수 있음
+- 온라인 도구 특성상 민감한 개인정보가 포함된 파일 업로드 시 보안 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+파일 처리 방식이 서버 업로드 방식인지 완전한 클라이언트 사이드 방식인지에 따라 보안 수준이 달라질 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-06-21_AixKit_media_0.jpg)
+
+---
+
