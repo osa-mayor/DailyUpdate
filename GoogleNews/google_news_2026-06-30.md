@@ -1,0 +1,201 @@
+# 🌏 Google News Tech Digest (2026-06-30)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 AI 자동화 시스템이 제조 및 업무 현장의 복잡성을 완벽히 해결하지 못함에 따라, 숙련된 인적 자원을 통한 'Human-in-the-loop' 전략이 중요해지고 있음을 보여줍니다. 또한, 급증하는 AI 운영 비용을 절감하기 위한 소형 모델(SLM)로의 전환과 기후 변화에 대응하는 데이터 센터 인프라 최적화가 핵심 화두로 떠올랐습니다.
+
+### 오늘의 핵심 포인트
+- AI의 기술적 한계와 오류를 보완하기 위해 숙련된 전문가의 도메인 지식을 데이터 정제 및 검증에 활용하는 하이브리드 운영 모델이 부상하고 있습니다.
+- 거대 모델의 높은 비용 문제를 해결하기 위해 특정 태스크에 최적화된 소형 언어 모델(SLM)과 효율적인 추론 아키텍처 도입이 가속화되고 있습니다.
+- AI 인프라 확장에 따른 에너지 소비 및 기후 리스크가 실질적인 위협으로 작용함에 따라, 정밀한 열 관리 및 환경 적응형 데이터 센터 설계가 중요해졌습니다.
+
+**오늘의 태그**: Human-in-the-loop, SLM, AI_Reliability, Infrastructure, Automation
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Ford Has Been Rehiring Quality Inspectors After AI Fell Short - Bloomberg.com](https://www.bloomberg.com/news/articles/2026-06-25/ford-has-been-rehiring-quality-inspectors-after-ai-fell-short)
+**출처**: Bloomberg.com | **게시일**: Thu, 25 Jun 2026 14:53:12 GMT
+
+#### 📌 종합 요약
+Ford가 자동화된 품질 검사 시스템의 한계로 인해 기존의 숙련된 품질 검사관(Quality Inspectors)을 다시 채용하며 제조 공정의 신뢰성 회복에 나섰습니다. AI 기반의 자동 검사 솔루션이 실질적인 제조 현장의 복잡성을 완벽히 해결하지 못하면서 발생한 기술적 공백을 인적 자원으로 보완하는 전략적 회귀를 보여줍니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI 기반의 Computer Vision 모델이 학습 데이터(Training Data)의 편향성이나 현장의 가변적인 조명, 물리적 노이즈 등으로 인해 False Negative(미검출) 오류를 발생시킨 사례입니다. 이는 단순한 알고리즘 성능 문제를 넘어, Edge Case(예외 상황)에 대한 데이터 확보와 실시간 추론(Inference)의 정확도 확보가 제조 자동화의 핵심 난제임을 시사합니다. 결과적으로 AI의 판단 결과와 인간의 검수 결과 간의 정합성(Ground Truth)을 맞추기 위한 하이브리드 검수 체계로의 전환이 이루어지고 있습니다.
+
+#### ✅ 핵심 요점
+- AI 기반 자동 검사 시스템이 제조 현장의 복잡한 변수를 완벽히 제어하지 못해 발생하는 품질 관리의 불확실성 문제.
+- 기술적 한계로 인한 결함 미검출을 방지하기 위해 숙련된 인적 자원을 재투입하는 'Human-in-the-loop' 방식의 실질적 적용.
+- 완전 자동화(Full Automation)로 가기 전, AI의 신뢰도 검증을 위한 인간의 개입이 필수적인 과도기적 단계임을 입증.
+
+**태그**: Quality Control, Computer Vision, AI Reliability, AI, Manufacturing Automation
+
+---
+
+### 2. [We’re Only Starting to Grasp the Pitfalls of Using A.I. at Work - The New York Times](https://www.nytimes.com/2026/06/29/business/artificial-intelligence-workplace-consequences.html)
+**출처**: The New York Times | **게시일**: Mon, 29 Jun 2026 09:00:52 GMT
+
+#### 📌 종합 요약
+기업 내 AI 도입이 가속화됨에 따라 단순한 생산성 향상을 넘어, 데이터 보안, 알고리즘의 편향성, 그리고 업무 프로세스의 불투명성 등 예상치 못한 부작용이 실질적인 리스크로 부상하고 있습니다. 기술적 완성도와 별개로 AI가 업무 워크플로우에 통합될 때 발생하는 윤리적, 운영적 결함에 대한 심층적인 검토가 필요한 시점입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+LLM(Large Language Model)이 생성하는 Hallucination(환각 현상)이 업무 의사결정의 신뢰도를 저하시키는 핵심 변수로 작용하며, 이는 단순한 오류를 넘어 데이터 무결성(Data Integrity) 문제를 야기합니다. 또한, 기업 내부 데이터가 외부 모델의 학습 데이터로 유출될 수 있는 Data Leakage 리스크와 Agent 기반 자동화 시스템이 예기치 못한 논리적 루프에 빠지는 제어 불능 상태에 대한 기술적 방어 기제 마련이 시급합니다. RAG(Retrieval-Augmented Generation)와 같은 기술적 보완책이 도입되고 있으나, 여전히 모델의 확률적 특성에서 기인하는 불확실성을 완전히 제거하기는 어렵습니다.
+
+#### ✅ 핵심 요점
+- LLM의 확률적 생성 특성으로 인한 Hallucination이 업무 결과물의 정확성과 신뢰성을 저해하는 핵심 리스크로 작용합니다.
+- 기업 내부의 민감 데이터가 외부 클라우드 기반 AI 모델로 전송되는 과정에서 발생하는 보안 및 프라이버시 침해 문제가 심화되고 있습니다.
+- AI Agent가 자율적으로 업무를 수행할 때 발생하는 예측 불가능한 동작과 인간의 개입(Human-in-the-loop) 사이의 균형 문제가 새로운 운영 과제로 떠오르고 있습니다.
+
+**태그**: AI_Agent, LLM, Hallucination, AI_Ethics, Data_Security
+
+---
+
+### 3. [The AI boom is colliding with a new threat: Severe weather - CNBC](https://www.cnbc.com/2026/06/29/ai-data-centers-heatwave-climate-risk-weather.html)
+**출처**: CNBC | **게시일**: Mon, 29 Jun 2026 05:00:01 GMT
+
+#### 📌 종합 요약
+AI 데이터 센터의 급격한 확장과 기후 변화로 인한 극한 기상 현상이 충돌하며 디지털 인프라의 운영 안정성이 심각한 위협을 받고 있습니다. 전 세계 데이터 센터 용량의 79%가 홍수, 산불, 강풍 등 기후 위험에 노출되어 있으며, 이는 운영 중단 및 막대한 비용 상승으로 이어질 수 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+데이터 센터 에너지 소비의 약 40%가 냉각(Cooling)에 사용되며, 폭염 시 전력망 부하와 냉각 수요가 동시에 급증하는 '피크 타임 충돌' 문제가 발생합니다. 이에 대응하기 위해 NVIDIA는 액체 냉각(Liquid Cooling) 시스템의 허용 온도를 기존보다 높은 45°C까지 끌어올려 냉각 효율을 최적화하는 기술을 선보였습니다. 또한, 냉각기(Chiller) 온도를 단 1°C만 높여도 냉각 에너지 비용을 약 4% 절감할 수 있는 정밀한 열 관리 아키텍처가 도입되고 있습니다.
+
+#### ✅ 핵심 요점
+- 전통적인 데이터 센터 허브를 벗어나 프런티어 마켓(텍사스, 오하이오 등)으로 확장됨에 따라 토네이도, 우박 등 예측 불가능한 기상 위험에 대한 노출도가 증가하고 있습니다.
+- 폭염 시 전력망(Grid)의 열적 스트레스와 데이터 센터의 고부하 전력 수요가 결합되어 광역 정전(Blackout) 및 인프라 손상을 유발할 위험이 커지고 있습니다.
+- 기후 리스크를 설계 단계부터 반영하는 'Climate Change Factor'가 데이터 센터 사양(Specification)에 포함되기 시작했으며, 이는 향후 인프라 설계의 표준이 될 전망입니다.
+
+**태그**: Thermal Management, AI Infrastructure, Infra, NVIDIA, Climate Risk
+
+---
+
+### 4. [Ford rehires experienced engineers after AI misses the mark - Fox Business](https://www.foxbusiness.com/technology/ford-rehires-experienced-engineers-after-ai-misses-mark)
+**출처**: Fox Business | **게시일**: Mon, 29 Jun 2026 16:44:00 GMT
+
+#### 📌 종합 요약
+Ford는 AI 기술이 제조 공정의 품질 문제를 완벽히 해결할 수 없다는 교훈을 바탕으로, 숙련된 베테랑 엔지니어 300명을 재고용하여 AI 시스템의 학습 데이터와 검증 프로세스를 고도화했습니다. 이러한 '인간-AI 협업 모델'을 통해 Ford는 2026 JD Power U.S. Initial Quality Study(IQS)에서 2010년 이후 처음으로 1위를 차지하는 성과를 거두었습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+단순히 설계 요구사항(Design Requirements)을 AI에 입력하는 방식의 한계를 극복하기 위해, 숙련된 엔지니어들이 AI 모델의 학습 데이터(Training Data)를 정제하고 검증하는 'Internal Auditor' 역할을 수행합니다. 재고용된 300명의 엔지니어는 매주 설계 리뷰를 통해 잠재적 결함 지점(Failure Points)을 식선별하며, 이는 AI가 놓칠 수 있는 도메인 지식(Domain Knowledge)을 보완하는 데 집중됩니다. 결과적으로 워런티 비용 및 리콜 비용 감소라는 재무적 성과로 이어졌으며, F-150, Mustang 등 주요 세그먼트에서 품질 우위를 확보했습니다.
+
+#### ✅ 핵심 요점
+- AI 모델의 성능은 학습 데이터의 질에 의존하므로, 베테랑 엔지니어의 경험적 지식을 데이터셋에 반영하는 것이 핵심입니다.
+- 재고용된 엔지니어들은 일상적인 생산 스케줄에서 벗어나 설계 단계에서 결함을 차단하는 내부 감사자(Internal Auditor) 역할을 수행합니다.
+- AI가 대체할 수 없는 숙련된 기술자의 노하우를 자동화 및 머신러닝(Machine Learning) 시스템의 가이드라인으로 통합하는 전략을 채택했습니다.
+- 품질 개선은 리콜 및 워런티 비용 절감으로 이어져 기업의 수익 구조를 개선하는 직접적인 동력이 됩니다.
+
+**태그**: Automotive_Engineering, AI_Integration, Human-in-the-loop, Release, Manufacturing_Quality
+
+---
+
+### 5. [Ford rehires human engineers after AI fails to match quality checks - BBC](https://www.bbc.com/news/articles/cgrkd41n2v9o)
+**출처**: BBC | **게시일**: Mon, 29 Jun 2026 11:58:01 GMT
+
+#### 📌 종합 요약
+Ford는 AI 기반 품질 검사 시스템 도입 과정에서 발생한 기술적 한계를 극복하기 위해 300명 이상의 베테랑 엔지니어를 재고용했습니다. 자동화 시스템이 숙련된 전문가의 경험적 데이터와 복합적인 설계 요구사항을 완벽히 학습하지 못해 발생한 품질 격차를 해결하기 위한 전략적 결정입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Ford는 공정 내 품질 이슈 감지를 위해 900대의 AI 기반 카메라 시스템을 도입했으나, 단순 설계 요구사항(Design Requirements) 입력만으로는 고도화된 품질 검증이 불가능함을 확인했습니다. 이를 해결하기 위해 숙련된 엔지니어의 도메인 지식(Domain Knowledge)을 데이터셋으로 활용하여 AI 모델의 학습(Training) 정밀도를 높이는 작업을 진행 중입니다. 결과적으로 이번 인력 재배치는 AI의 Ground Truth(정답셋)를 확보하고 모델의 신뢰성을 높이기 위한 데이터 엔지니어링 과정의 일환입니다.
+
+#### ✅ 핵심 요점
+- AI 자동화 시스템이 숙련된 기술자의 직관과 복합적인 설계 맥락을 학습하지 못해 발생한 품질 검증 실패를 인정했습니다.
+- 재고용된 300명의 베테랑 엔지니어는 AI 모델의 학습 데이터 생성 및 검증을 위한 전문가 피드백 루프(Human-in-the-loop) 역할을 수행합니다.
+- 단순한 자동화 도입을 넘어, 숙련된 인력을 통한 데이터 정제와 주니어 엔지니어 멘토링을 병행하는 하이브리드 운영 모델을 구축했습니다.
+- 이러한 전략적 인력 보강을 통해 Ford는 2010년 이후 처음으로 JD Power Initial Quality Study에서 미국 메인스트림 자동차 브랜드 1위를 달성했습니다.
+
+**태그**: AI_Quality_Control, Manufacturing_Automation, Human-in-the-loop, Release, Benchmark
+
+---
+
+### 6. [Ford rehired 350 'gray beard' engineers as it realized AI wasn't capable of taking human jobs - Fortune](https://fortune.com/2026/06/29/ford-ai-rehired-human-workers-gray-beards-automation/)
+**출처**: Fortune | **게시일**: Mon, 29 Jun 2026 17:20:00 GMT
+
+#### 📌 종합 요약
+포드는 AI 자동화의 한계를 극복하기 위해 숙련된 베테랑 엔지니어 350명을 재고용하여 품질 관리 및 AI 모델 재학습을 통한 품질 혁신을 추진하고 있습니다. 이는 단순 자동화가 아닌, 인간의 경험적 데이터가 AI의 신뢰성을 결정한다는 'Human-in-the-loop' 전략의 실질적 사례입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+연간 48억 달러에 달하던 리콜 비용 문제를 해결하기 위해, 베테랑 엔지니어들이 AI Vision System의 오류를 수정하고 데이터 정제(Data Cleaning) 및 재학습(Retraining)을 주도하며 품질 지표를 개선했습니다. 그 결과, JD Power Initial Quality Survey에서 메인스트림 브랜드 중 1위를 기록하는 등 품질 관리 프로세스의 가시적인 성과를 거두었습니다. 이는 AI가 생성하는 결과물의 신뢰성을 확보하기 위해 도메인 지식(Domain Knowledge)을 갖춘 전문가의 개입이 필수적임을 입증합니다.
+
+#### ✅ 핵심 요점
+- AI의 성능은 학습 데이터의 품질에 종속되므로, 숙련된 엔지니어의 도메인 지식을 활용한 AI 모델 재프로그래밍이 핵심 전략으로 작용함.
+- 베테랑 엔지니어들은 부품이 생산 라인에 투입되기 전 잠재적 결함 지점(Failure Points)을 식별하고 AI 도구의 오작동을 방지하는 역할을 수행함.
+- 자동화 기술의 도입보다 중요한 것은 기술을 가이드하고 결과물을 검증할 수 있는 고숙련 인적 자원의 확보와 적절한 배치가 핵심임.
+- AI 도입을 통한 생산성 향상은 명확한 비전과 인간의 업무를 증강(Augmentation)하는 구조가 뒷받침될 때만 실질적인 ROI(투자 대비 수익)를 창출함.
+
+**태그**: Infra, Automotive_Engineering, AI_Reliability, Human-in-the-loop, LLM
+
+---
+
+### 7. [Cheaper AI is better: Soaring bills are reshaping how businesses choose models - Reuters](https://www.reuters.com/business/retail-consumer/cheaper-ai-is-better-soaring-bills-are-reshaping-how-businesses-choose-models-2026-06-29/)
+**출처**: Reuters | **게시일**: Mon, 29 Jun 2026 10:19:12 GMT
+
+#### 📌 종합 요약
+기업들이 급증하는 LLM(Large Language Model) 운영 비용 문제를 해결하기 위해 고성능 모델 대신 비용 효율적인 소형 모델(SLM)과 최적화된 아키텍처로 눈을 돌리고 있습니다. 단순한 성능 경쟁을 넘어, 특정 태스크에 최적화된 저비용·고효율 모델 선택이 기업의 핵심 전략으로 부상하고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+모델의 파라미터 규모를 줄이면서도 성능을 유지하는 Distillation(지식 증류) 기술과 Quantization(양자화) 기법이 비용 절감의 핵심 동력으로 작용하고 있습니다. 또한, 모든 작업에 거대 모델을 사용하는 대신 특정 도메인에 특화된 Small Language Models(SLM)를 활용하여 Inference(추론) 비용을 획기적으로 낮추는 전략이 구체화되고 있습니다. 이는 연산 자원(Compute Resource)의 효율적 배분을 통해 Token당 비용을 최적화하는 방향으로 진화하고 있습니다.
+
+#### ✅ 핵심 요점
+- 무조건적인 거대 모델 사용에서 벗어나, 특정 Task에 최적화된 효율적인 모델을 선택하는 'Cost-effective AI' 전략이 주류로 자리 잡고 있습니다.
+- Inference(추론) 비용의 급격한 상승이 기업들의 모델 선택 기준을 성능(Benchmark) 중심에서 ROI(투자 대비 효율) 중심으로 변화시키고 있습니다.
+- Agent 기반의 워크플로우에서 복잡한 추론은 고성능 모델이 담당하고, 단순 반복 작업은 저비용 모델이 처리하는 하이브리드 모델링이 확산될 전망입니다.
+
+**태그**: AI Strategy, Model Optimization, SLM, LLM, Inference Cost
+
+---
+
+### 8. [Pocket raises $11M in bet on rising demand for AI note-taking devices - TechCrunch](https://techcrunch.com/2026/06/29/pocket-raises-11m-in-bet-on-rising-demand-for-ai-note-taking-devices/)
+**출처**: TechCrunch | **게시일**: Mon, 29 Jun 2026 13:16:00 GMT
+
+#### 📌 종합 요약
+AI 기반 음성 기록 및 요약 전문 하드웨어 스타트업 'Pocket'이 1,100만 달러 규모의 투자를 유치하며 오프라인 대화의 디지털 자산화 시장에 본격 진출한다. 스마트폰 부착형 디바이스를 통해 실시간 녹음, 전사(Transcription), 그리고 AI 기반의 워크플로우 자동화를 제공하는 것이 핵심이다.
+
+#### ⚙️ 기술적 성과 및 가치
+Pocket은 스마트폰 후면에 부착하는 신용카드 크기의 퍽(Puck) 형태 디바이스를 통해 오프라인 환경에서의 고음질 음성 캡처를 수행한다. 수집된 데이터는 클라우드 기반 LLM(Large Language Model)을 통해 텍스트로 변환되며, 단순 전사를 넘어 요약, 마인드맵 생성, To-do 리스트 추출 등 고차원적인 정보 구조화 기능을 제공한다. 특히 MCP(Model Context Protocol) 서버를 지원하여 외부 데이터베이스와 AI 어시스턴트를 연결하고, Google Drive, Obsidian, Claude 등 다양한 생산성 도구와 연동되는 에코시스템을 구축하고 있다.
+
+#### ✅ 핵심 요점
+- 오프라인 컨텍스트 확보: 온라인 미팅 중심의 기존 AI 툴과 차별화하여, 변호사·의사·영업직 등 현장 업무가 많은 직군을 타겟으로 오프라인 대화의 맥락을 데이터화한다.
+- 하이브리드 수익 모델: 129달러의 하드웨어 판매와 연간 200달러의 구독형 플랜(무제한 AI 요약 및 고급 기능)을 결합하여 안정적인 매출 구조를 확보했다.
+- 워크플로우 자동화 및 통합: 단순 기록을 넘어 CRM 업데이트, 이메일 초안 작성 등 업무 자동화를 위해 Webhook 및 다양한 SaaS 플랫폼과의 API 통합을 강화하고 있다.
+- 시장 검증 및 확장성: 출시 1년 만에 13만 대 이상의 판매 실적을 기록하며 하드웨어 기반 AI 디바이스의 실질적인 수요를 입증했다.
+
+**태그**: Transcription, Database, Security, Productivity Tech, Agent
+
+---
+
+### 9. [South Korea announces more than $1 trillion AI, chip investment drive - Al Jazeera](https://www.aljazeera.com/news/2026/6/29/south-korea-announces-more-than-1-trillion-ai-chip-investment-drive)
+**출처**: Al Jazeera | **게시일**: Mon, 29 Jun 2026 08:32:51 GMT
+
+#### 📌 종합 요약
+대한민국 정부가 AI 및 반도체 패권 확보를 위해 총 1,000조 원(약 6,480억 달러) 규모의 대규모 산업 전략을 발표했습니다. 이번 계획은 반도체, Physical AI, Data Center를 '3대 축'으로 설정하여 국가 차원의 인프라를 구축하는 것을 골자로 합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+삼성전자와 SK Hynix가 주도하는 800조 원 규모의 반도체 팹(Fab) 건설과 더불어, SK Group, GS Group, Naver가 참여하는 550조 원 규모의 AI Data Center 구축이 핵심입니다. 특히 2035년까지 총 18.4GW 규모의 전력 인프라를 확보하여, 대규모 연산이 필요한 LLM(Large Language Model) 학습 및 추론을 위한 데이터 센터 클러스터를 구축하는 것이 목표입니다. 이는 전력 자원이 풍부한 호남 지역의 인프라를 활용하여 고집적 반도체 생산과 데이터 센터 운영을 결합하는 전략적 배치입니다.
+
+#### ✅ 핵심 요점
+- 반도체-Physical AI-Data Center를 잇는 'Triple Axis' 전략을 통해 AI 핵심 요소의 선제적 확보를 추진합니다.
+- 호남 지역에 800조 원 규모의 신규 반도체 팹(Fab) 클러스터를, 충청 지역에는 81조 원 규모의 Chip-packaging 클러스터를 구축합니다.
+- 2035년까지 총 1,000조 원 이상의 투자를 통해 18.4GW급 AI Data Center 인프라를 완성하여 글로벌 AI 경쟁력을 확보합니다.
+- 지역 균형 발전과 산업적 논리 사이의 정치적 쟁점이 존재하나, 풍부한 전력 자원을 활용한 대규모 데이터 센터 운영이 핵심 동력입니다.
+
+**태그**: AI Data Center, Physical AI, Semiconductor, Infrastructure, South Korea
+
+---
+
+### 10. [From Brain Waves to Words: Brain2Qwerty Offers a New Path to Communication Without Surgery - AI at Meta](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/)
+**출처**: AI at Meta | **게시일**: Mon, 29 Jun 2026 12:50:35 GMT
+
+#### 📌 종합 요약
+Meta AI가 비침습적 뇌파 기록을 통해 실시간 문장 해독이 가능한 Brain2Qwerty v2를 공개하며, 수술 없이 뇌 신호를 텍스트로 변환하는 기술적 돌파구를 마련했습니다. 이 기술은 기존 비침습 방식의 한계였던 낮은 정확도를 LLM 기반의 엔드투엔드(end-to-end) 학습으로 극복하여 수술적 방식에 근접하는 성능을 보여줍니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Brain2Qwerty v2는 9명의 참가자가 10시간 동안 MEG(자기뇌파계)를 착용하며 타이핑한 데이터를 기반으로, 약 22,000개의 문장을 학습하여 구축되었습니다. 수동적인 특징 추출 대신 raw brain signals를 직접 처리하는 end-to-end deep learning 방식을 채택했으며, LLM(Large Language Model)을 뇌 데이터에 fine-tuning하여 노이즈가 심한 신호 속에서도 의미론적 문맥(semantic context)을 복원해냅니다. 그 결과, 기존 비침습 방식의 8%에 불과했던 단어 정확도(word accuracy)를 61%까지 끌어올렸으며, 최적의 참가자 사례에서는 78%의 정확도를 달성했습니다.
+
+#### ✅ 핵심 요점
+- 비침습적 MEG 장치를 활용하여 수술 없이 뇌 신호를 텍스트로 변환하는 end-to-end 파이프라인을 구현했습니다.
+- LLM의 문맥 이해 능력을 활용하여 노이즈가 많은 뇌 신호로부터 일관된 문장을 복원하는 기술을 적용했습니다.
+- 데이터 규모가 커질수록 정확도가 로그 선형(log-linearly)으로 향상됨을 확인하여, 향후 데이터 스케일링을 통한 성능 격차 해소 가능성을 입증했습니다.
+- 연구의 투명성과 생태계 확장을 위해 Brain2Qwerty v1/v2의 학습 코드와 v1 데이터셋을 오픈소스로 공개했습니다.
+
+**태그**: Meta AI, Brain2Qwerty, LLM, Agent, Deep Learning
+
+---
+
