@@ -1,0 +1,202 @@
+# 🌏 Google News Tech Digest (2026-07-11)
+
+## 오늘의 요약
+오늘의 기술 뉴스는 생성형 AI의 급격한 확산에 따른 데이터 저작권 및 프라이버시 보호 이슈가 핵심을 이루었습니다. 동시에 하드웨어 효율을 극대화하는 모델 설계 기법과 로봇/HCI 분야의 실용적 기술 발전이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- Meta의 데이터 활용 정책과 관련하여 사용자의 초상권 및 저작권 보호를 위한 'Opt-out' 설정의 중요성이 대두되었습니다.
+- LLM의 연산 효율을 높이기 위해 하드웨어 아키텍처와 모델 차원을 최적화하는 Co-Design 기술이 중요하게 다뤄졌습니다.
+- 단일 카메라 기반의 로봇 내비게이션과 인간 중심의 HCI 설계 등 AI의 실생활 적용을 위한 기술적 진보가 이어졌습니다.
+
+**오늘의 태그**: Generative AI, Data Privacy, LLM Optimization, Human-Robot Interaction
+
+## 🤖 AI & LLM Focus
+AI, LLM, 인공지능 키워드로 검색된 주요 뉴스입니다.
+
+### 1. [Robostral Navigate: single-camera AI navigation - mistral.ai](https://mistral.ai/news/robostral-navigate/)
+**출처**: mistral.ai | **게시일**: Fri, 10 Jul 2026 17:40:36 GMT
+
+#### 📌 종합 요약
+Mistral AI가 단일 RGB 카메라만을 사용하여 복잡한 환경에서 자율 주행을 수행하는 8B 규모의 Embodied AI 모델인 'Robostral Navigate'를 공개했습니다. 이 모델은 별도의 LiDAR나 Depth 센서 없이도 높은 성공률을 기록하며, 시뮬레이션 기반의 효율적인 학습을 통해 로봇의 범용적 내비게이션 능력을 입증했습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Robostral Navigate는 R2R-CE(Room-to-Room in Continuous Environments) 벤치마크에서 미학습 환경(unseen) 기준 76.6%의 성공률을 달성하며, 기존의 다중 센서 기반 시스템보다 높은 성능을 보여주었습니다. 기술적으로는 'Pointing-based navigation' 방식을 채택하여 카메라의 내적 파라미터 변화에 강건하게 대응하며, 'Prefix-caching' 기반의 트리 구조 Attention-masking 전략을 통해 학습 토큰 수를 22배 절감하는 효율성을 확보했습니다. 또한, CISPO 알고리즘을 활용한 Online Reinforcement Learning을 통해 시행착오를 통한 학습과 분포 변화(Distribution Shift) 문제를 해결했습니다.
+
+#### ✅ 핵심 요점
+- 단일 RGB 카메라와 자연어 명령만으로 작동하며, LiDAR나 Depth 센서 없이도 정교한 이동이 가능합니다.
+- 40만 개의 궤적(Trajectory)과 6,000개의 장면을 포함한 시뮬레이션 데이터셋을 통해 학습되어 다양한 로봇 플랫폼(바퀴형, 다족형, 비행형)에 범용적으로 적용 가능합니다.
+- Pointing 기반의 좌표 추론 방식과 로컬 좌표계 이동 방식을 결합하여 시야 밖의 목표 지점까지도 효과적으로 도달합니다.
+- Prefix-caching 기술을 통해 수개월이 걸릴 학습 과정을 며칠 단위로 단축시키는 압도적인 학습 효율성을 구현했습니다.
+
+**태그**: Infra, AI, Computer Vision, Mistral AI, Benchmark
+
+---
+
+### 2. [How Terrorist Groups Are Using A.I. to Gain an Edge in Battle - The New York Times](https://www.nytimes.com/2026/07/10/us/politics/ai-terrorism-boko-haram-nigeria.html)
+**출처**: The New York Times | **게시일**: Fri, 10 Jul 2026 14:10:45 GMT
+
+#### 📌 종합 요약
+테러 단체와 비국가 무장 세력이 LLM(Large Language Model)과 생성형 AI 기술을 활용하여 정보전, 심리전, 그리고 전술적 우위를 확보하려는 움직임이 가속화되고 있습니다. 이들은 고도의 전문 지식 없이도 AI를 통해 정교한 프로파간다 제작 및 사이버 공격 계획 수립이 가능해진 환경을 이용하고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+공개된 오픈소스 LLM과 생성형 AI 모델들은 특정 기술적 장벽을 낮추어, 과거 전문가 집단만이 수행하던 코드 생성, 암호 해독 보조, 정교한 가짜 뉴스 생성 등을 자동화합니다. 특히 Agent(자율적 작업 수행 에이전트) 기술과 결합될 경우, 인간의 개입을 최소화하면서도 대규모의 사회적 혼란을 야기하는 자동화된 심리전 작전이 가능해집니다. 이는 기술적 진입 장벽이 낮아짐에 따라 공격의 규모(Scale)와 속도(Velocity)가 기하급수적으로 증가함을 의미합니다.
+
+#### ✅ 핵심 요점
+- 오픈소스 LLM의 확산으로 인해 비국가 행위자들이 고도화된 사이버 공격 및 프로파간다 제작 도구를 손쉽게 확보하고 있습니다.
+- 생성형 AI를 활용한 딥페이크와 정교한 텍스트 생성은 여론 조작 및 정보전의 신뢰성을 높이는 핵심 수단으로 작용합니다.
+- AI 기반의 자동화된 워크플로우는 테러 조직이 적은 인원으로도 대규모의 디지털 작전을 수행할 수 있는 비대칭 전력을 제공합니다.
+
+**태그**: Generative AI, AI, Cybersecurity, AI_Security, Information Warfare
+
+---
+
+### 3. [Exclusive | Record Companies Push to Label AI Songs on Streaming Platforms - WSJ](https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392)
+**출처**: WSJ | **게시일**: Fri, 10 Jul 2026 11:00:00 GMT
+
+#### 📌 종합 요약
+주요 음반사들이 스트리밍 플랫폼 내 AI 생성 곡을 식별하고 라벨링하기 위한 기술적 표준과 정책 도입을 강력히 추진하고 있습니다. 이는 저작권 보호와 수익 배분 모델의 투명성을 확보하기 위한 산업적 대응입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+AI 생성 콘텐츠의 식별을 위해 디지털 워터마킹(Digital Watermarking) 및 오디오 핑거프린팅(Audio Fingerprinting) 기술이 핵심적으로 활용될 전망입니다. 플랫폼은 데이터베이스 내의 기존 저작물과 AI 생성물 간의 유사도를 계산하는 알고리즘을 통해 무단 복제 및 학습 데이터 오남용을 감지합니다. 또한, 메타데이터에 AI 생성 여부를 명시하는 표준 프로토콜을 구축하여 스트리밍 엔진의 추천 알고리즘과 수익 정산 시스템에 반영하는 것이 기술적 목표입니다.
+
+#### ✅ 핵심 요점
+- 음반사들은 AI 생성 곡을 별도로 분류하여 저작권 침해를 방지하고 수익 구조를 재편하려 합니다.
+- 스트리밍 플랫폼과 협력하여 AI 생성 콘텐츠를 식별할 수 있는 기술적 식별자(Identifier) 도입을 추진합니다.
+- AI 학습에 사용된 원본 데이터의 권리 주장을 뒷받침하기 위한 데이터 추적 기술이 중요해질 것입니다.
+
+**태그**: AI, Digital Watermarking, Copyright, Music Industry, AI-Generated Content
+
+---
+
+### 4. [AI Model Co-Design: Hardware-Friendly LLM Design | NVIDIA Technical Blog - NVIDIA Developer](https://developer.nvidia.com/blog/ai-model-co-design-hardware-friendly-llm-design/)
+**출처**: NVIDIA Developer | **게시일**: Fri, 10 Jul 2026 17:16:10 GMT
+
+#### 📌 종합 요약
+LLM의 성능은 Accuracy, Throughput, Interactivity 사이의 균형에 의해 결정되며, 하드웨어의 연산 능력을 극대화하기 위해서는 모델 설계 단계부터 하드웨어 아키텍처를 고려한 Co-Design이 필수적입니다. 본 글은 모델의 차원(Dimension) 설정이 GPU의 연산 효율과 메모리 대역폭 사이의 관계를 어떻게 결정하는지 분석합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+모델의 연산 효율은 산술 강도(Arithmetic Intensity)에 의해 결정되며, 이는 연산량(FLOPs)과 메모리 이동량(Bytes)의 비율로 정의됩니다. 특정 레이어의 차원(H, H')이 너무 작으면 연산량이 적어 GPU가 연산(Compute-bound)이 아닌 메모리 대역폭(Memory-bound)에 의해 성능이 제한되는 현상이 발생합니다. 예를 들어, H'=512, H=8192인 FFN-2 레이어는 높은 Token count를 확보하더라도 데이터 이동 비용이 연산 비용을 압도하여 하드웨어 활용도가 급격히 떨어집니다. 따라서 효율적인 GEMM(General Matrix Multiply) 수행을 위해 가중치 행렬의 형상을 정방형(Square)에 가깝게 유지하고, GPU의 Tiling 구조와 정렬(Alignment)을 고려한 차원 설계가 필요합니다.
+
+#### ✅ 핵심 요점
+- 모델 설계 시 Throughput(초당 토큰 수)과 Interactivity(응답 지연 시간) 사이의 Pareto Frontier를 확장하기 위해 하드웨어 친화적인 차원 설정이 필요합니다.
+- GEMM 연산 시 차원(N 또는 K)이 너무 작으면 하드웨어의 연산 능력을 충분히 활용하지 못하고 메모리 대역폭에 의해 성능이 제한되는 병목 현상이 발생합니다.
+- GPU의 SM(Streaming Multiprocessor) 간 협업(clusterMMA, CGA)을 고려하여, 연산 효율을 높이기 위해 차원 값이 하드웨어의 Tiling 단위와 정렬되도록 설계해야 합니다.
+- 고정된 파라미터 모델 내에서 성능을 극대화하려면 가중치 행렬의 투영(Projection) 및 축소(Reduction) 차원이 지나치게 작아지지 않도록 설계하는 것이 핵심입니다.
+
+**태그**: GPU, GEMM, AI, Deep Learning Architecture, NVIDIA
+
+---
+
+### 5. [How to stop Meta from using your Instagram photos to create AI images - The Washington Post](https://www.washingtonpost.com/style/2026/07/10/how-stop-meta-using-your-instagram-photos-create-ai-images/)
+**출처**: The Washington Post | **게시일**: Fri, 10 Jul 2026 19:00:44 GMT
+
+#### 📌 종합 요약
+Meta가 Instagram 및 Facebook의 사용자 데이터를 Generative AI 모델 학습에 활용하려는 정책에 대응하여, 사용자가 자신의 데이터를 보호할 수 있는 설정 방법을 다룹니다. 데이터 프라이버시와 AI 학습 데이터 확보 사이의 갈등을 해결하기 위한 사용자 중심의 제어 방안을 제시합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Meta는 대규모 언어 모델(LLM) 및 이미지 생성 모델의 성능 향상을 위해 공개된 사용자 콘텐츠를 학습 데이터셋(Training Dataset)으로 활용하는 전략을 취하고 있습니다. 사용자는 설정 메뉴를 통해 데이터 수집에 대한 'Opt-out' 권리를 행사할 수 있으며, 이는 데이터 거버넌스 측면에서 개인정보 보호와 모델 고도화 사이의 균형을 맞추는 기술적/정책적 절차입니다. 특히 유럽(EU)과 같은 특정 지역의 규제에 따라 데이터 활용 범위가 달라질 수 있어, 지역별 데이터 처리 로직의 차이가 존재합니다.
+
+#### ✅ 핵심 요점
+- Meta의 AI 모델 학습을 방지하기 위해 Instagram 및 Facebook 설정 내 'Privacy Center'를 통한 데이터 활용 거부(Opt-out) 절차가 필요합니다.
+- 사용자가 업로드한 이미지와 텍스트 데이터는 Generative AI의 학습 데이터로 활용될 수 있으며, 이는 모델의 추론(Inference) 성능과 직결됩니다.
+- 개인정보 보호를 위해 데이터 수집 범위를 제한하는 설정은 사용자의 데이터 주권을 확보하는 핵심적인 기술적 방어 수단입니다.
+
+**태그**: Generative AI, AI, AI Training, Data Privacy, Opt-out
+
+---
+
+### 6. [Is speech-to-text AI really reliable? - University of Cincinnati](https://www.uc.edu/news/articles/2026/07/n21418140.html)
+**출처**: University of Cincinnati | **게시일**: Fri, 10 Jul 2026 17:48:45 GMT
+
+#### 📌 종합 요약
+의료 현장의 업무 효율을 높이는 STT(Speech-to-Text) AI 기술이 급격히 도입되고 있으나, 데이터 보안과 정확성 측면에서 심각한 사회적·기술적 리스크를 안고 있습니다. 신뢰할 수 있는 의료용 AI 시스템 구축을 위해 기술적 고도화와 더불어 인간 중심의 검증 프로세스가 필수적임을 강조합니다.
+
+#### ⚙️ 기술적 성과 및 가치
+현재의 STT 모델은 통제된 '이상적 환경'에서 학습되어, 실제 의료 현장의 소음(Background Noise)이나 다양한 억양(Accent), 언어 장애(Disordered Speech)가 포함된 복잡한 오디오 데이터에 취약한 특성을 보입니다. 이를 해결하기 위해서는 특정 임상 시나리오를 반영한 데이터셋 학습과 더불어, 생성된 텍스트의 무결성을 검증하는 'Human-in-the-loop' 아키텍처가 필수적입니다. 또한, 데이터 저장 및 접근 권한에 대한 투명한 프로토콜이 결합되어야 기술적 신뢰성을 확보할 수 있습니다.
+
+#### ✅ 핵심 요점
+- 현행 STT 시스템은 훈련 데이터와 실제 임상 환경 간의 괴리로 인해 억양 차이나 주변 소음에 의한 인식 오류 리스크가 존재합니다.
+- AI가 생성한 텍스트에 대한 인간의 검토(Human-in-the-loop) 없이 자동화된 기록을 신뢰할 경우, 잘못된 처방이나 기록으로 인한 의료 사고로 이어질 수 있습니다.
+- 데이터 수집 시 환자 동의 절차와 보안 프로토콜(데이터 저장 위치, 접근 권한 등)에 대한 투명한 공지가 기술적 신뢰의 핵심 요소입니다.
+- 의료진의 번아웃을 줄이는 긍정적 효과를 극대화하려면, 소프트웨어 도입 전 사용자 교육과 명확한 책임 소재(Accountability) 가이드라인이 수립되어야 합니다.
+
+**태그**: Security, Human-in-the-loop, AI, STT, LLM
+
+---
+
+### 7. [Meta AI Can Now Use Your Instagram Photos Without Consent. SAG-AFTRA Urges App Users to Opt Out: ‘Take Action to Protect Your Likeness’ - Variety](https://variety.com/2026/film/news/sag-aftra-slams-meta-ai-instagram-photos-opt-out-1236806350/)
+**출처**: Variety | **게시일**: Fri, 10 Jul 2026 12:00:00 GMT
+
+#### 📌 종합 요약
+Meta가 도입한 새로운 AI 이미지 생성 모델인 'Muse Image'가 사용자의 동의 없이 공개된 Instagram 사진을 학습 및 생성에 활용할 수 있게 되어, SAG-AFTRA와 CAA 등 창작자 단체의 강력한 반발을 사고 있습니다. 사용자가 직접 설정에서 'Opt-out'을 하지 않으면 공개 계정의 콘텐츠가 AI 생성에 활용될 수 있는 구조입니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Meta의 새로운 AI 모델인 'Muse Image'는 Instagram 내 공개 계정의 데이터를 활용하여 사용자의 Likeness(외형/초상)를 재현하는 기능을 포함하고 있습니다. 기술적으로는 프롬프트에 특정 계정을 태그하는 것만으로 해당 사용자의 이미지를 생성할 수 있는 수준의 데이터 연동을 구현했습니다. 이는 데이터 수집 단계에서 'Opt-in(사전 동의)'이 아닌 'Opt-out(사후 거부)' 방식을 기본값(Default)으로 설정하여, 대규모 데이터셋 확보를 용이하게 하는 전략적 아키텍처를 취하고 있습니다.
+
+#### ✅ 핵심 요점
+- Meta의 'Muse Image' 모델은 공개 계정 사용자의 사진을 동의 없이 AI 생성 콘텐츠의 소스로 활용할 수 있는 구조를 가지고 있습니다.
+- 사용자가 계정을 비공개(Private)로 전환하지 않는 한, 설정 내 'Sharing and reuse' 탭에서 직접 Opt-out을 수행해야만 초상권 침해를 방지할 수 있습니다.
+- SAG-AFTRA와 CAA는 창작자의 권리와 생계 보호를 위해, 명시적 동의 없는 데이터 활용 정책에 대해 강력한 반대 입장을 표명했습니다.
+- Meta의 이번 정책은 과거 OpenAI의 Sora 모델이 직면했던 데이터 활용 논란과 유사한 양상을 보이며, 플랫폼 중심의 데이터 확보 전략과 창작자 권리 사이의 충돌을 야기하고 있습니다.
+
+**태그**: Generative AI, AI, Meta AI, Copyright, Muse Image
+
+---
+
+### 8. [Computer Scientist Finds the Rules for Helpful Robots and AI - UMass Lowell](https://www.uml.edu/news/stories/2026/samantha-reig-ai-caring.aspx)
+**출처**: UMass Lowell | **게시일**: Fri, 10 Jul 2026 16:52:24 GMT
+
+#### 📌 종합 요약
+UMass Lowell의 Samantha Reig 교수는 인간과 로봇/AI 간의 상호작용(HCI)을 최적화하여 사용자 경험을 극대화하는 연구를 수행하고 있습니다. 노인 돌봄을 위한 AI 기술과 교육 현장에서의 AI 글쓰기 도구 활용 등, 기술이 인간의 삶에 개입할 때 발생하는 사회적 영향과 사용자 의도 파악에 초점을 맞춥니다.
+
+#### ⚙️ 기술적 성과 및 가치
+연구의 핵심은 자연어(Natural Language)를 통한 사용자 의도 추론과 Agent의 개입 수준을 결정하는 가이드라인 설계에 있습니다. 특히 노인 사용자가 구체적인 명령 대신 상황적 맥락(예: '목이 마르다')을 제공했을 때, AI가 이를 어떻게 Task로 변환할지에 대한 언어적 뉘앙스와 세대별 상호작용 패턴을 분석합니다. 또한, 교육용 AI 도구 설계 시 사용자의 주체성(Agency)을 해치지 않으면서 학습을 지원하는 'Constraint-based AI' 인터페이스 모델을 탐구합니다.
+
+#### ✅ 핵심 요점
+- 사용자의 언어적 맥락과 의도(Intent)를 파악하여 로봇이 적절한 수준의 Task를 수행하도록 하는 HCI(Human-Computer Interaction) 설계 연구를 진행합니다.
+- AI-CARING 프로젝트를 통해 인지 기능 저하를 겪는 노인층이 자연어 상호작용을 통해 로봇과 협업하는 방식과 그에 따른 세대별 차이를 분석합니다.
+- LLM 기반 글쓰기 도구가 학생의 사고 과정을 대체하지 않고 멘토 역할을 수행할 수 있도록 하는 제약 조건(Constraints) 기반의 인터페이스 설계를 연구합니다.
+- 기술이 인간의 자율성을 침해하지 않으면서 일상적 공백을 메울 수 있는 '적정 수준의 개입'에 대한 가이드라인을 구축하는 것을 목표로 합니다.
+
+**태그**: HCI, AI-CARING, Human-Robot Interaction, AI, AI Ethics
+
+---
+
+### 9. [The Logo for Donald Trump International Airport Appears to Be AI Slop - Futurism](https://futurism.com/artificial-intelligence/trump-airport-logo-ai)
+**출처**: Futurism | **게시일**: Fri, 10 Jul 2026 14:13:11 GMT
+
+#### 📌 종합 요약
+미국 플로리다주 팜비치 국제공항이 '도널드 J. 트럼프 국제공항'으로 명칭을 변경하며 도입한 신규 로고가 AI 생성물(AI Slop)이라는 의혹을 받고 있습니다. 해당 로고는 미국의 대인장(Great Seal)을 모방했으나, 비대칭적인 날개와 잘못된 문양 등 AI 생성 이미지 특유의 결함이 다수 발견되었습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+이번 사례는 생성형 AI(Generative AI)가 정교한 그래픽 디자인의 디테일을 완벽히 구현하지 못하는 'Hallucination(환각)' 현상을 시각적으로 보여줍니다. 로고의 발톱 형태 불일치, 비대칭적인 날개 깃털 수, 13개의 줄무늬 대신 11개만 표현된 점 등은 데이터 학습 기반의 Diffusion 모델이 구조적 일관성(Structural Consistency)을 유지하는 데 한계가 있음을 나타냅니다. 또한, 법적 제약이 있는 국가 상징물을 AI를 통해 교묘하게 변형하여 사용하는 'Slopaganda(저질 AI 선전물)'의 위험성을 기술적 관점에서 시사합니다.
+
+#### ✅ 핵심 요점
+- 새로운 공항 로고는 미국의 Great Seal을 모방했으나, 비대칭적인 날개와 잘못된 깃털 수 등 전형적인 AI 생성 오류를 포함하고 있습니다.
+- 공항 측은 로고 제작 과정을 명확히 밝히지 않았으나, 현지 관계자는 제작 정보에 대해 답변을 피하며 AI 생성 가능성을 간접적으로 시사했습니다.
+- 정치적 목적으로 저비용의 AI 생성물을 활용하는 'Slopaganda' 전략이 공공 인프라의 시각적 정체성까지 침투하고 있습니다.
+- AI를 통한 상징물 변형은 법적 규제를 피하면서도 원본의 권위를 모방하는 방식으로 사용될 수 있는 기술적 허점을 보여줍니다.
+
+**태그**: Generative AI, AI, Digital Design, AI Slop, Ethics in AI
+
+---
+
+### 10. [Meta's new AI image maker draws fire over consent - Axios](https://www.axios.com/2026/07/10/meta-ai-image-consent)
+**출처**: Axios | **게시일**: Fri, 10 Jul 2026 13:09:01 GMT
+
+#### 📌 종합 요약
+Meta가 공개한 새로운 Muse Image 모델과 Meta AI 기능이 공개된 Instagram 계정 사용자의 초상권을 활용할 수 있게 설계되어 개인정보 침해 및 저작권 논란을 일으키고 있습니다. 이는 AI 생성 콘텐츠 제작 시 '사전 동의(Opt-in)'와 '사후 거부(Opt-out)' 사이의 윤리적·법적 갈등을 심화시키고 있습니다.
+
+#### ⚙️ 기술적 성과 및 가치
+Meta의 Muse Image 모델은 사용자가 공개된 Instagram 계정의 인물을 태그하여 해당 인물의 외형(Likeness)을 포함한 이미지를 생성할 수 있는 기능을 제공합니다. 기술적으로는 생성형 AI 모델이 소셜 미디어의 공개 데이터를 학습 및 참조하여 실존 인물의 특징을 재현하는 메커커니즘을 활용합니다. Meta는 폭력적, 성적, 명예훼손적 콘텐츠 생성을 방지하기 위한 Built-in Protections(내장 보호 장치)를 적용했다고 주장하지만, 데이터 주권 측면에서의 기술적 통제권 문제는 여전히 과제로 남아 있습니다.
+
+#### ✅ 핵심 요점
+- Meta의 Muse Image 모델은 공개된 Instagram 계정의 인물을 태그하여 그 외형을 AI 생성물에 포함할 수 있는 기능을 탑재했습니다.
+- 개인정보 보호 단체와 연예인 대리인들은 사전 동의 없는 초상권 활용이 심각한 프라이버시 침해라고 비판하고 있습니다.
+- SAG-AFTRA 등 노동조합은 배우들의 권리 보호를 위해 공유 기능을 비활성화할 것을 권고하며 기술적 대응책을 요구하고 있습니다.
+- 현재의 기술적 프레임워크는 사용자가 직접 거부해야 하는 Opt-out 방식에 의존하고 있어, 데이터 주권과 윤리적 책임에 대한 논쟁이 격화되고 있습니다.
+
+**태그**: Generative AI, AI, Digital Likeness, Muse Image, Privacy
+
+---
+
