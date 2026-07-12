@@ -1,0 +1,1206 @@
+# 🚀 Product Hunt Daily Top 30 (2026-07-13)
+
+## 오늘의 요약
+오늘의 트렌드는 AI를 활용한 개인화된 생산성 도구와 워크플로우 자동화가 주를 이루었습니다. 특히 단순한 정보 제공을 넘어 사용자의 맥락과 기억을 학습하여 맞춤형 앱이나 디자인, 지식 관리를 수행하는 에이전트 중심의 서비스들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트가 사용자의 작업 기억과 취향을 학습하여 맞춤형 앱이나 디자인 결과물을 생성하는 기술이 강조되었습니다.
+- 다양한 AI 도구 간의 맥락을 동기화하거나 이메일을 이슈 트래커로 연결하는 등 파편화된 워크플로우를 통합하는 솔루션들이 등장했습니다.
+- 단순한 기능 구현을 넘어 실제 매출 기여도 분석이나 복잡한 API 실패 시나리오 검증처럼 실질적인 비즈니스 가치를 제공하는 도구들이 주목받았습니다.
+
+**오늘의 태그**: AI 에이전트, 생산성 자동화, 워크플로우 통합, 개인화 서비스
+
+## 1. [JustVibe](https://www.producthunt.com/products/justvibe)
+**Votes**: 400 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The search engine for doing, with apps built for you
+**서비스 링크**: https://www.producthunt.com/r/KZ7M6VNT4KDSHS
+
+**태그**: AI, NoCode, Productivity, SearchEngine, AI Tool, Chat, DevTool
+
+<img src="images/ph_2026-07-12_JustVibe.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+검색만으로 나에게 꼭 필요한 맞춤형 앱을 즉시 생성하는 AI 검색 엔진
+
+### 🔑 주요 기능
+- 검색어를 통해 즉시 실행 가능한 인터랙티브 앱 생성
+- 코딩 없이 대화만으로 앱의 세부 사항 커스터마이징
+- 생성된 앱은 영구 소유 가능하며 링크 하나로 간편하게 공유
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기존에 존재하지 않는 특정 목적의 앱을 찾느라 시간을 허비할 필요 없이, 검색 한 번으로 즉시 사용할 수 있는 도구를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 여행 계획 등 구체적인 목적의 검색어 입력해보기
+- 생성된 앱의 세부 사항을 채팅으로 수정해보기
+- 생성된 앱의 공유 링크를 통해 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 복잡한 로직이나 고도화된 기능 구현에는 한계가 있을 수 있음
+- 생성된 앱의 데이터 저장 및 보안 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 요구사항에 따른 앱의 복잡도와 기능적 완성도 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_JustVibe_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_JustVibe_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_JustVibe_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d2af54c7-74b0-4326-9837-e23a6ed1c3e9.jpeg?auto=format)
+
+---
+
+## 2. [FetchSandbox](https://www.producthunt.com/products/fetchsandbox)
+**Votes**: 316 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: API integration testing that remembers what breaks
+**서비스 링크**: https://www.producthunt.com/r/2SZMLPLPL7RJY5
+
+**태그**: DevTool, API, Testing, Automation, AI-Agent, Agent, AI Tool
+
+<img src="images/ph_2026-07-12_FetchSandbox.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 응답 확인을 넘어 웹훅, 비동기 워크플로우 등 복잡한 API 상태 변화와 실패 시나리오를 검증하는 테스트 샌드박스
+
+### 🔑 주요 기능
+- 웹훅, 재시도, 상태 변경 등 실제 운영 환경의 복잡한 비동기 워크플로우 검증 가능
+- Cursor, Claude Code, VS Code 등 주요 개발 환경과 MCP를 통한 간편한 연결
+- Stripe, GitHub 등 60개 이상의 주요 API를 실제 쿼터 소모 없이 테스트 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+실제 운영 환경에서 발생할 수 있는 사이드 이펙트와 실패 케이스를 미리 재현하여, 배포 전 버그를 확실히 잡을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- MCP를 통해 사용 중인 IDE(Cursor, VS Code 등)에 연결하기
+- Stripe, GitHub 등 주요 API 연동 테스트해보기
+- 실패 시나리오 및 비동기 워크플로우 재현 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 실제 API와 샌드박스 환경 간의 미세한 동작 차이가 있을 수 있음
+- 사용 중인 IDE나 에이전트 환경에 따른 MCP 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 60개 이상의 API가 실제 서비스와 어느 정도의 정밀도로 동기화되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_FetchSandbox_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_FetchSandbox_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_FetchSandbox_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/13182a77-920b-4fd7-80f0-a54596ceb808.jpeg?auto=format)
+
+---
+
+## 3. [Miora](https://www.producthunt.com/products/miora-2)
+**Votes**: 272 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Scale your creativity on editable canvas with agent memory
+**서비스 링크**: https://www.producthunt.com/r/IZSZX2A4YB4GZE
+
+**태그**: CreativeStudio, AI-Agent, Multimodal, DesignTool, Agent, AI Tool, Vision
+
+<img src="images/ph_2026-07-12_Miora.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 취향과 작업 기억을 학습하여 창의적 작업을 확장하는 에이전트 기반 디자인 스튜디오
+
+### 🔑 주요 기능
+- 에이전트 메모리 기능을 통한 일관된 창의적 스타일 유지
+- 단일 캔버스 내 멀티모달 에셋 생성 및 편집
+- 자동 구축된 메모리를 재사용 가능한 스킬로 전환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개인이 마치 전문 크리에이티브 스튜디오를 운영하듯, 자신의 취향이 반영된 다양한 결과물을 효율적으로 생성하고 확장할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단일 아이디어로 멀티모달 에셋 생성해보기
+- 생성된 결과물을 편집 가능한 캔버스에서 조정하기
+- 축적된 메모리를 스킬로 변환하여 작업 흐름 최적화하기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트 메모리 기능의 구체적인 학습 방식 및 데이터 보안 확인 필요
+- 멀티모달 에셋 간의 정교한 편집 제어 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+에이전트가 학습하는 '메모리'와 '스킬'의 구체적인 기술적 구현 방식과 사용자 제어 수준을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Miora_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Miora_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Miora_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4e1d97a0-2b98-4482-93d6-dc9147eb8008.jpeg?auto=format)
+
+---
+
+## 4. [Second Brain for AI v2](https://www.producthunt.com/products/second-brain-cloudflare)
+**Votes**: 267 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: AI memory that connects the dots across every tool
+**서비스 링크**: https://www.producthunt.com/r/XNWIVRMOSBCZRL
+
+**태그**: AI, Productivity, OpenSource, DevTool, PersonalKnowledgeManagement, AI Tool, Chat
+
+<img src="images/ph_2026-07-12_Second_Brain_for_AI_v2.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+다양한 AI 도구 간의 맥락을 연결하여 개인화된 기억을 관리하는 오픈소스 세컨드 브레인
+
+### 🔑 주요 기능
+- Claude, ChatGPT, Cursor 등 다양한 AI 클라이언트 간의 메모리 동기화
+- 관련된 기억을 자동으로 연결하고 맥락에 따라 정보를 구분하는 지능형 연결 기능
+- Cloudflare를 통한 오픈소스 및 셀프 호스팅 지원으로 데이터 주권 확보
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 AI 도구를 번갈아 사용할 때 발생하는 맥락 단절 문제를 해결하여, 어떤 도구를 쓰더라도 일관된 프로젝트 정보와 개인적 선호도를 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Cloudflare 계정에 셀프 호스팅 환경 구축하기
+- 사용 중인 MCP 클라이언트와 연동 설정하기
+- 기존 프로젝트 데이터와 개인적 결정 사항 입력하기
+
+### ⚠️ 사용 전 확인할 점
+- 셀프 호스팅 방식이므로 초기 설정 및 유지보수 역량이 필요함
+- 다양한 AI 도구와의 원활한 연동을 위한 MCP 프로토콜 숙련도 요구
+
+### 🧭 확인이 더 필요한 정보
+사용자의 Cloudflare 환경 설정 및 MCP 클라이언트 호환성에 따라 설치 난이도가 달라질 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Second_Brain_for_AI_v2_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Second_Brain_for_AI_v2_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Second_Brain_for_AI_v2_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/78b25bfe-8de5-4426-b505-8d3ab68c80a5.jpeg?auto=format)
+
+---
+
+## 5. [ServiceBeard](https://www.producthunt.com/products/servicebeard)
+**Votes**: 126 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Sync your mailbox with your issue tracker
+**서비스 링크**: https://www.producthunt.com/r/4KP2FG4VHXW4AO
+
+**태그**: DevTool, Automation, OpenSource, Productivity, AI Tool, Email
+
+<img src="images/ph_2026-07-12_ServiceBeard.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+기존 이메일을 GitHub, GitLab, Linear 이슈로 자동 동기화하는 오픈소스 서비스 데스크
+
+### 🔑 주요 기능
+- 이메일 수신 시 이슈 트래커로 자동 연동되는 워크플로우 제공
+- 별도의 고객지원 소프트웨어 없이 기존 워크스페이스 활용 가능
+- 오픈소스 기반이며 표준 IMAP/SMTP 프로토콜 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+비싼 고객지원 솔루션을 도입하지 않고도, 개발팀이 이미 사용 중인 이슈 트래커를 통해 고객 문의를 효율적으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 이메일 계정(IMAP/SMTP) 연결하기
+- GitHub, GitLab 또는 Linear 연동 설정하기
+- 이메일이 이슈로 변환되는 자동화 파이프라인 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 현재 지원되는 이슈 트래커(GitHub, GitLab, Linear) 외에는 사용 불가
+- 이메일 양이 방대할 경우 이슈 트래커 관리가 복잡해질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 다른 이슈 트래커(Jira, Notion 등)에 대한 향후 지원 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_ServiceBeard_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_ServiceBeard_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_ServiceBeard_media_2.jpg)
+
+---
+
+## 6. [Offer Max](https://www.producthunt.com/products/offer-max)
+**Votes**: 24 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Every job application is a click, not an evening 
+**서비스 링크**: https://www.producthunt.com/r/5X3LKMBX3B3LYB
+
+**태그**: AI, Productivity, Career, Automation, AI Tool
+
+<img src="images/ph_2026-07-12_Offer_Max.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+클릭 한 번으로 이력서 수정부터 지원서 작성까지 끝내는 AI 취업 지원 도구
+
+### 🔑 주요 기능
+- 크롬 확장 프로그램을 통한 원클릭 채용 공고 캡처
+- AI 기반 직무 적합도 분석 및 맞춤형 이력서/자기소개서 자동 생성
+- 번거로운 지원 양식 자동 채우기 및 예상 면접 질문 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+구직 시간을 획기적으로 단축하고, 각 공고에 최적화된 서류를 빠르게 준비하여 합격률을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 크롬 확장 프로그램 설치 후 채용 공고 캡처하기
+- AI가 제안하는 직무 적합도 점수 확인하기
+- 생성된 맞춤형 이력서와 자기소개서 검토하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 서류의 내용이 실제 본인의 경험과 일치하는지 반드시 검토 필요
+- 자동 채우기 기능 사용 시 개인정보 및 입력 데이터의 정확성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+지원 양식 자동 채우기 기능이 모든 채용 사이트의 복잡한 폼을 완벽하게 지원하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Offer_Max_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Offer_Max_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Offer_Max_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/34c644b6-4fe6-47c1-a8f5-d5610fd5d974.jpeg?auto=format)
+
+---
+
+## 7. [CONTRABAND VR Cinema](https://www.producthunt.com/products/contraband-vr-cinema)
+**Votes**: 22 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A theatrical experience with friends, from home.
+**서비스 링크**: https://www.producthunt.com/r/6BMNKXYCELGGF5
+
+**태그**: VR, Social, Entertainment, Cinema
+
+<img src="images/ph_2026-07-12_CONTRABAND_VR_Cinema.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+친구들과 함께 실제 영화관에 온 듯한 몰입감을 제공하는 VR 시네마 경험
+
+### 🔑 주요 기능
+- Quest 헤드셋을 통한 실감 나는 가상 영화관 환경
+- 동일한 시점에 같은 영상을 시청하는 실시간 동기화
+- 중도 일시정지나 건너뛰기가 제한된 엄격한 관람 규칙
+
+### 🙋 사용자에게 어떤 점이 좋은가
+집에서도 친구들과 함께 영화관에 직접 방문한 것 같은 사회적 상호작용과 몰입감을 느낄 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Quest 헤드셋 착용 및 환경 설정
+- 함께 시청할 친구 초대하기
+- 다음 영화 투표 참여하기
+
+### ⚠️ 사용 전 확인할 점
+- Quest VR 헤드셋 하드웨어가 필수적임
+- 실시간 동기화로 인해 개인의 시청 편의성(일시정지 등)이 제한될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+지원하는 영상 파일 형식이나 스트리밍 서비스와의 호환성 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_CONTRABAND_VR_Cinema_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_CONTRABAND_VR_Cinema_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_CONTRABAND_VR_Cinema_media_2.jpg)
+
+---
+
+## 8. [Mochi Analytics](https://www.producthunt.com/products/mochi-analytics)
+**Votes**: 20 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Analytics you would actually want to look at
+**서비스 링크**: https://www.producthunt.com/r/ZCD2XSUUKVUIYN
+
+**태그**: Analytics, Marketing, SaaS, Stripe, AI Tool
+
+<img src="images/ph_2026-07-12_Mochi_Analytics.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 방문자 수가 아닌, 실제 매출로 연결된 유입 경로를 직관적으로 보여주는 수익 중심 분석 도구
+
+### 🔑 주요 기능
+- Stripe 연동을 통해 유입 채널별 실제 매출 기여도 파악 가능
+- 여러 대시보드 없이 한 곳에서 유입부터 결제까지의 흐름 확인
+- 간편한 스크립트 설치로 5분 내 즉시 도입 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+마케팅 활동이 실제 매출로 얼마나 이어지는지 즉각적으로 확인하여, 어떤 채널에 집중해야 할지 명확한 의사결정을 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- Stripe 계정 연결하여 매출 데이터 매핑하기
+- 히트맵 및 퍼널 분석 기능 활용하기
+- AI 크롤러 차트와 검색 키워드 데이터 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- Stripe 결제 데이터를 기반으로 하므로, Stripe를 사용하지 않는 비즈니스에는 적용이 어려움
+- 14일 무료 체험 이후 유료 플랜 전환 필요
+
+### 🧭 확인이 더 필요한 정보
+Stripe 외의 다른 결제 게이트웨이(PG)와의 연동 가능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Mochi_Analytics_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Mochi_Analytics_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Mochi_Analytics_media_2.jpg)
+
+---
+
+## 9. [Flowing](https://www.producthunt.com/products/flowing)
+**Votes**: 20 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**:  Ground your academic writing in your own papers.
+**서비스 링크**: https://www.producthunt.com/r/RKHI7GMLIPSM4M
+
+**태그**: Writing, Academic, Research, Productivity, AI, AI Tool, Chat, Design
+
+<img src="images/ph_2026-07-12_Flowing.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자신의 연구 논문을 기반으로 글쓰기를 돕는 데스크톱 학술 글쓰기 도구
+
+### 🔑 주요 기능
+- 사용자의 PDF 연구 라이브러리를 글쓰기 과정에 직접 연결
+- 글쓰기 중 관련 구절 및 핵심 용어 자동 하이라이트
+- 자신의 논문을 근거로 한 질문, 다듬기, 글쓰기 이어가기 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+일반적인 AI와 달리 사용자의 실제 연구 자료를 바탕으로 답변하므로, 학술적 정확성과 근거를 유지하며 글을 쓸 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 PDF 라이브러리 업로드하기
+- 글쓰기 중 관련 구절 호출 기능 사용해보기
+- 연구 자료를 바탕으로 한 AI 제안 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 데스크톱 전용 도구이므로 모바일 환경에서의 사용성 확인 필요
+- 사용자의 PDF 라이브러리 규모에 따른 성능 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+데스크톱 운영체제(Windows/macOS) 지원 범위와 구체적인 파일 형식 지원 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Flowing_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Flowing_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Flowing_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f4c13c81-7582-4be7-b50d-320f20b50318.jpeg?auto=format)
+
+---
+
+## 10. [AI Visibility](https://www.producthunt.com/products/ai-visibility)
+**Votes**: 18 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Check how ChatGPT, Gemini and Claude talk about your brand
+**서비스 링크**: https://www.producthunt.com/r/XC3H7AA32XKWQS
+
+**태그**: Marketing, AI, Analytics, SEO, AI Tool, Chat
+
+<img src="images/ph_2026-07-12_AI_Visibility.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 검색 엔진(ChatGPT, Gemini 등)에서 우리 브랜드가 어떻게 언급되는지 분석하는 가시성 도구
+
+### 🔑 주요 기능
+- 주요 AI 어시스턴트의 브랜드 언급 방식 및 신뢰 소스 분석
+- 브랜드 가시성 점수 및 경쟁사 리더보드 제공
+- AEO(답변 엔진 최적화) 감사 및 즉각적인 개선 리스트 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고객이 구글 검색 대신 AI를 통해 정보를 얻는 시대에, AI 답변 내 브랜드 노출도를 관리하고 최적화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자사 브랜드 및 웹사이트로 무료 가시성 점수 확인하기
+- 경쟁사 리더보드를 통해 시장 내 위치 비교하기
+- 제공되는 AEO 감사 리스트를 바탕으로 사이트 최적화하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 모델의 답변 생성 방식이 수시로 변할 수 있어 결과가 가변적일 수 있음
+- 제공되는 수정 리스트가 실제 검색 엔진 최적화(SEO) 결과와 완벽히 일치하지 않을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+무료 버전과 유료 버전 간의 기능 차이 및 데이터 업데이트 주기에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_AI_Visibility_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_AI_Visibility_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_AI_Visibility_media_2.jpg)
+
+---
+
+## 11. [LockIn for Chrome](https://www.producthunt.com/products/lockin-mcp)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Increase productivity with AI distraction blocking
+**서비스 링크**: https://www.producthunt.com/r/LKQ4P2SQ6PLVZS
+
+**태그**: Productivity, Chrome Extension, AI, Focus, Agent, AI Tool
+
+<img src="images/ph_2026-07-12_LockIn_for_Chrome.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+할 일 목록에 따라 업무에 불필요한 사이트를 자동으로 차단하는 AI 생산성 도구
+
+### 🔑 주요 기능
+- 할 일(To-do) 기반의 지능형 사이트 차단
+- 작업 관련 사이트만 허용하고 나머지는 자동 차단
+- 사용자 맞춤형 대시보드를 통한 작업 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+업무 시작 전 할 일을 등록하면 AI가 작업에 필요한 사이트만 남기고 유혹 요소를 차단하여 몰입 환경을 만들어줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 내일의 할 일 목록 등록하기
+- 작업별 허용 사이트 설정 확인하기
+- AI 자동 차단 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 작업 중 예기치 않게 필요한 사이트가 차단될 수 있음
+- 할 일 목록과 사이트 간의 연관성 판단 정확도에 의존함
+
+### 🧭 확인이 더 필요한 정보
+AI가 사이트의 관련성을 판단하는 구체적인 알고리즘과 사용자 커스텀 허용 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_LockIn_for_Chrome_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_LockIn_for_Chrome_media_2.jpg)
+![Screenshot](images/ph_2026-07-12_LockIn_for_Chrome_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/65b18ac3-2948-427d-b306-7559e260e092.jpeg?auto=format)
+
+---
+
+## 12. [OGCanvas](https://www.producthunt.com/products/ogcanvas)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A visual editor for dynamic Open Graph images
+**서비스 링크**: https://www.producthunt.com/r/3X2FQELAW4TGW2
+
+**태그**: DesignTool, Automation, Marketing, WebDev, Vision, Design
+
+<img src="images/ph_2026-07-12_OGCanvas.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+하나의 디자인 템플릿으로 수많은 맞춤형 오픈 그래프(OG) 이미지를 자동 생성하는 시각적 에디터
+
+### 🔑 주요 기능
+- 1200×630 규격의 디자인 템플릿 제작 및 동적 요소(텍스트, 이미지, 색상) 설정
+- 단일 렌더링 URL을 통해 각 페이지별 고유한 미리보기 이미지 자동 생성
+- 워터마크나 카드 결제 없이 무료로 디자인 및 다운로드 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹사이트의 각 페이지에 최적화된 미리보기 이미지를 일일이 만들 필요 없이, 템플릿 하나로 자동화하여 브랜드 일관성을 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 시각적 에디터로 기본 템플릿 디자인하기
+- 텍ек스트와 이미지를 동적으로 설정하여 렌더링 URL 생성하기
+- 소셜 플랫폼별 미리보기 링크 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 플랜의 상세 기능 제한이나 생성량 제한 여부 확인 필요
+- 동적 렌더링 시 외부 데이터 연동 방식에 대한 기술적 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+무료 서비스의 경우 향후 유료 전환 정책이나 생성 가능한 이미지 수량 제한이 있는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_OGCanvas_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_OGCanvas_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_OGCanvas_media_2.jpg)
+
+---
+
+## 13. [Long-term Software Governance](https://www.producthunt.com/products/long-term-software-governance)
+**Votes**: 14 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: Keep commercial software reliable for the long run.
+**서비스 링크**: https://www.producthunt.com/r/4AFUMTXN5VV2F5
+
+**태그**: Governance, Software Lifecycle, Management, AI Tool, Security
+
+<img src="images/ph_2026-07-12_Long-term_Software_Governance.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+상용 소프트웨어의 장기적 안정성과 지속 가능성을 확보하는 거버넌스 프레임워크
+
+### 🔑 주요 기능
+- 단순 출시를 넘어선 장기적 안정성 및 반복 개발 메커니즘 구축
+- 보안, 팀 연속성, 지속적인 반복을 통한 소프트웨어 가치 유지
+- AI 시대의 빠른 개발 속도와 상충하는 장기적 책임 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+소프트웨어가 출시 후 시간이 지나도 비즈니스 가치를 유지할 수 있도록 운영 체계를 정립해 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 운영 중인 소프트웨어의 생애주기 관리 프로세스 점검
+- 팀 연속성 및 보안 유지 전략 수립
+- 장기적 안정성을 위한 거버넌스 프레임워크 도입 검토
+
+### ⚠️ 사용 전 확인할 점
+- 구체적인 기술적 구현 방법이나 도구(Tool)에 대한 정보가 부족함
+- 조직의 운영 방식에 따라 도입 난이도가 크게 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+이 서비스가 구체적인 소프트웨어 도구인지, 아니면 운영 방법론(Methodology)인지에 대한 명확한 구분이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Long-term_Software_Governance_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Long-term_Software_Governance_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Long-term_Software_Governance_media_2.jpg)
+
+---
+
+## 14. [Gymsly](https://www.producthunt.com/products/gymsly)
+**Votes**: 13 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Gym management software for the modern world
+**서비스 링크**: https://www.producthunt.com/r/TU7PO64G6JYCN3
+
+**태그**: SaaS, CRM, Management, Fitness, Analytics
+
+<img src="images/ph_2026-07-12_Gymsly.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+회원 관리부터 결제, 스케줄링까지 한 번에 해결하는 올인원 피트니스 운영 솔루션
+
+### 🔑 주요 기능
+- 회원 관리 및 CRM 기능 제공
+- 자동화된 결제 및 빌링 시스템
+- 클래스 스케줄링 및 데이터 분석 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+피트니스 비즈니스 운영에 필요한 핵심 업무를 하나의 플랫폼에서 통합 관리하여 운영 효율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 14일 무료 체험을 통한 기능 탐색
+- 기존 회원 데이터 이관 가능 여부 확인
+- 스케줄링 및 결제 워크플로우 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 상세한 요금 체계 및 플랜별 기능 차이 확인 필요
+- 기존 외부 서비스와의 연동 가능 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 기능의 상세 범위와 구체적인 가격 정책에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Gymsly_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Gymsly_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Gymsly_media_2.jpg)
+
+---
+
+## 15. [Alson Shop](https://www.producthunt.com/products/alsonai)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The AI-native bookstore for our storybooks
+**서비스 링크**: https://www.producthunt.com/r/44ZPMEURYRWYGI
+
+**태그**: AI, E-commerce, Books, Generative-AI, AI Tool, Chat
+
+<img src="images/ph_2026-07-12_Alson_Shop.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+대화형 AI를 통해 나에게 딱 맞는 삽화 동화책을 찾아주는 AI 네이티브 북숍
+
+### 🔑 주요 기능
+- GenAI 기반의 맞춤형 도서 추천 마켓플레이스
+- 카테고리 탐색 대신 채팅을 통한 직관적인 도서 검색
+- 삽화가 포함된 스토리북 중심의 큐레이션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수많은 카테고리를 일일이 뒤질 필요 없이, AI와의 대화만으로 취향에 맞는 동화책을 쉽고 빠르게 발견할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 챗봇과 대화하며 취향 전달하기
+- 추천받은 삽화 동화책 둘러보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 추천의 정확도 및 개인 취향 반영 정도 확인 필요
+- 제공되는 도서의 디지털/물리적 형태 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 도서의 저작권 구조 및 배송/디지털 열람 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Alson_Shop_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Alson_Shop_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0d798688-47ca-463d-a5e8-0459dfc66697.jpeg?auto=format)
+
+---
+
+## 16. [Orivon](https://www.producthunt.com/products/orivon)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Discover where your potential creates the most value
+**서비스 링크**: https://www.producthunt.com/r/5CSJAVTIKGVJG3
+
+**태그**: Career, Self-Improvement, Analytics, HR-Tech
+
+<img src="images/ph_2026-07-12_Orivon.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인의 잠재력을 분석하여 최적의 커리어와 비즈니스 방향을 제시하는 지능형 스캔 서비스
+
+### 🔑 주요 기능
+- 사고, 업무, 의사결정 방식에 대한 적응형 잠재력 분석
+- 개인 프로필을 기반으로 한 맞춤형 커리어 경로 및 비즈니스 방향 제안
+- 개인화된 방향성 리포트(Direction Report) 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자신의 강점이 어디에서 가장 큰 가치를 창출하는지 파악하여 커리어 전환이나 사업 방향을 결정할 때 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 잠재력 스캔 테스트 진행
+- 생성된 개인 프로필 확인
+- 맞춤형 방향성 리포트 분석
+
+### ⚠️ 사용 전 확인할 점
+- 심리/역량 분석 결과이므로 객al적인 성과 지표와는 차이가 있을 수 있음
+- 제시된 커리어 경로는 제안일 뿐 실제 시장 상황과는 다를 수 있음
+
+### 🧭 확인이 더 필요한 정보
+분석 알고리즘의 구체적인 검증 방식과 리포트의 상세 항목에 대한 정보가 추가로 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Orivon_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Orivon_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Orivon_media_2.jpg)
+
+---
+
+## 17. [YourOnlyAI](https://www.producthunt.com/products/youronlyai)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Find the right tool, not the hype.
+**서비스 링크**: https://www.producthunt.com/r/ZGFBBNAEWT4CT6
+
+**태그**: AI, Productivity, Search, Prompt Engineering, Agent, AI Tool, LLM, Prompting
+
+<img src="images/ph_2026-07-12_YourOnlyAI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+최적의 AI 도구와 프롬프트를 한 번에 찾아주는 AI 추천 플랫폼
+
+### 🔑 주요 기능
+- 최신 LLM 에이전트 스타일의 직관적인 UI 제공
+- 사용자 목적에 맞는 최적의 AI 도구 추천
+- 결과물 품질을 높여주는 내장 프롬프트 강화 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수많은 AI 도구 사이에서 고민할 필요 없이, 목적에 맞는 도구와 정교한 프롬프트를 즉시 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 목적에 맞는 AI 도구 추천 기능 테스트
+- 내장 프롬프트 강화 기능을 통한 결과물 비교
+- 현대적인 에이전트 UI 사용 경험 확인
+
+### ⚠️ 사용 전 확인할 점
+- 추천되는 AI 도구의 실제 성능과 비용 정책은 별도 확인 필요
+- 프롬프트 강화 기능이 사용자의 의도를 완벽히 반영하는지 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 AI 도구들의 데이터베이스 규모와 업데이트 주기에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_YourOnlyAI_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_YourOnlyAI_media_1.jpg)
+
+---
+
+## 18. [a.v.r.i.z ](https://www.producthunt.com/products/a-v-r-i-z)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your commute is build time
+**서비스 링크**: https://www.producthunt.com/r/YLGH6FUDY5FXDY
+
+**태그**: AI, DevTools, Automation, Cloud, Voice-to-Code, AI Tool, Chat, DevTool
+
+<img src="images/ph_2026-07-12_a.v.r.i.z_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+스마트폰 음성만으로 코딩부터 배포까지 완료하는 클라우드 기반 AI 소프트웨어 엔지니어
+
+### 🔑 주요 기능
+- 음성 우선(Voice-first) 인터페이스를 통한 핸즈프리 개발 환경 제공
+- 클라우드 개발 박스 기반의 지속성 있는 작업 환경 및 자동 배포
+- 비용 최적화를 위한 스마트 모델 라우팅 및 스케줄링 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+노트북이나 복잡한 설정 없이 이동 중에도 음성만으로 아이디어를 실제 작동하는 웹 서비스로 즉시 구현할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 스마트폰으로 음성 명령을 내려 코드 작성 및 실행하기
+- 자동화된 테스트 및 실시간 브라우저 실행 결과 확인하기
+- 스케줄링 기능을 활용한 자동 작업 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- 음성 기반 인터페이스 특성상 복잡한 로직 설계 시 정교한 명령이 필요할 수 있음
+- 클라우드 환경에서의 보안 및 데이터 관리 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 클라우드 환경(Dev box) 설정 방식과 지원하는 프로그래밍 언어의 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_a.v.r.i.z__media_0.jpg)
+![Screenshot](images/ph_2026-07-12_a.v.r.i.z__media_1.jpg)
+![Screenshot](images/ph_2026-07-12_a.v.r.i.z__media_2.jpg)
+
+---
+
+## 19. [linkedn't](https://www.producthunt.com/products/linkedn-t)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: the linkedin slop translator
+**서비스 링크**: https://www.producthunt.com/r/CB5UQF2DM742TY
+
+**태그**: Productivity, Browser Extension, Social Media, AI Tool
+
+<img src="images/ph_2026-07-12_linkedn't.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+링크드인의 과도한 자기과시와 기업용 말투를 직설적인 영어로 번역해주는 크롬 확장 프로그램
+
+### 🔑 주요 기능
+- 링크드인 특유의 허세와 '허슬 컬처' 말투 제거
+- 복잡한 비즈니스 용어를 평이한 영어로 변환
+- 클릭 한 번으로 원문 의도를 파악하는 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+링크드인 피드를 볼 때 피로감을 주는 과장된 글들을 빠르게 읽고 핵심만 파악할 수 있게 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 크롬 확장 프로그램 설치하기
+- 링크드인 피드에서 번역 기능 실행해보기
+- 원문과 번역된 결과 비교해보기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 주관적인 해석이 포함될 수 있음
+- 원문의 뉘앙스가 지나치게 단순화될 가능성 있음
+
+### 🧭 확인이 더 필요한 정보
+해당 확장 프로그램이 개인정보나 링크드인 계정 데이터에 접근하는 범위는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_linkedn't_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/20ce2cec-8509-43e7-860c-bcee4d4d4c89.jpeg?auto=format)
+
+---
+
+## 20. [Glimpse](https://www.producthunt.com/products/glimpse-18)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Distilled Internet
+**서비스 링크**: https://www.producthunt.com/r/S4CZYS3C3MX4X3
+
+**태그**: Productivity, AI, Video Summarization, Content Curation, AI Tool, Video
+
+<img src="images/ph_2026-07-12_Glimpse.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+긴 유튜브 영상을 한눈에 파악 가능한 시각적 인포그래픽으로 요약해주는 서비스
+
+### 🔑 주요 기능
+- 긴 유튜브 영상을 구조화된 인포그래픽으로 즉시 변환
+- 계층 구조와 비교 분석이 포함된 스캔 가능한 요약 제공
+- 정보 습득 시간을 획기적으로 단축하는 디스커버 피드 운영
+
+### 🙋 사용자에게 어떤 점이 좋은가
+긴 영상을 시청하는 데 드는 시간을 줄이고, 핵심 정보만 빠르게 스캔하여 효율적으로 지식을 습득할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 유튜브 링크를 입력하여 인포그래픽 생성해보기
+- 디스커버 피드를 통해 새로운 정보 탐색하기
+
+### ⚠️ 사용 전 확인할 점
+- 영상 내용의 세부적인 맥락이 요약 과정에서 생략될 수 있음
+- 시각적 요약 방식이 사용자의 학습 스타일에 맞지 않을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공되는 인포그래픽의 상세한 디자인 형식과 정보 추출 알고리즘의 정확도는 직접 사용을 통해 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Glimpse_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Glimpse_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Glimpse_media_2.jpg)
+
+---
+
+## 21. [PitchHighway](https://www.producthunt.com/products/pitchhighway)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Upload any song and learn to sing it, note by note
+**서비스 링크**: https://www.producthunt.com/r/5DP52VP4TXO7P6
+
+**태그**: Music, Education, AI, Vocal Training
+
+<img src="images/ph_2026-07-12_PitchHighway.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+원하는 곡을 업로드하여 실시간 피드백과 함께 노래를 배우는 개인 맞춤형 보컬 트레이닝 도구
+
+### 🔑 주요 기능
+- 사용자가 업로드한 곡을 기반으로 한 맞춤형 연습 세션 제공
+- 곡의 키에 맞춘 워밍업 및 음역대 훈련 기능
+- 실시간 피치 피드백을 통한 구절별 연습 (보컬용 기타 히어로 방식)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+좋아하는 노래를 단순히 듣는 것을 넘어, 자신의 목소리에 맞춰 체계적으로 연습하고 실력을 향상시킬 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브라우저에서 무료 음역대 테스트 실행하기
+- 연습하고 싶은 노래 업로드하기
+- 실시간 피드백을 활용한 구절별 연습 시작하기
+
+### ⚠️ 사용 전 확인할 점
+- 업로드한 곡의 저작권 및 파일 형식 호환성 확인 필요
+- 실시간 피드백의 정확도는 마이크 성능에 영향을 받을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+무료 버전의 상세 기능 범위와 유료 구독 모델의 가격 정책에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_PitchHighway_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_PitchHighway_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_PitchHighway_media_2.jpg)
+
+---
+
+## 22. [Dcyde](https://www.producthunt.com/products/dcyde)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Decision memory for you and your team
+**서비스 링크**: https://www.producthunt.com/r/PWRWMA674LQ4XB
+
+**태그**: Productivity, Teamwork, KnowledgeManagement, AI Tool, DevTool, Email
+
+<img src="images/ph_2026-07-12_Dcyde.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+팀의 중요한 결정 사항과 그 이유를 기록하고 쉽게 찾아볼 수 있는 의사결정 아카이브
+
+### 🔑 주요 기능
+- Slack, Figma 등 협업 도구에서 발생하는 결정 사항을 즉시 기록
+- 단순한 결과뿐만 아니라 '왜' 그런 결정을 내렸는지 맥락(Context)을 함께 저장
+- 개인부터 대규모 팀까지 규모에 상관없이 사용 가능한 공유 가능한 메모리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+중요한 결정이 이메일이나 슬랙 메시지 속에 묻혀 사라지는 것을 방지하고, 나중에 팀원들이 결정의 근거를 즉시 확인할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack이나 Figma에서 결정 사항을 바로 핀(Pin)하는 기능 테스트
+- 결정의 배경(Why)을 기록하는 방식 확인
+- 팀원 간 공유 및 검색 기능 활용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 기록된 데이터의 보안 및 접근 권한 관리 방식 확인 필요
+- 기존 협업 툴과의 실시간 동기화 수준 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 외부 도구(Slack, Figma 등)와의 구체적인 연동 방식과 데이터 저장 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Dcyde_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Dcyde_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Dcyde_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cf2ca250-b196-43a9-a354-f8c5decd7cc4.jpeg?auto=format)
+
+---
+
+## 23. [Vincent 4.0](https://www.producthunt.com/products/iisacc-vincent)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Local-first digital paper for visual thinking
+**서비스 링크**: https://www.producthunt.com/r/JUCUWT26NQAXPP
+
+**태그**: Productivity, Design, Note-taking, Local-first, Vision
+
+<img src="images/ph_2026-07-12_Vincent_4.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+구독 없이 내 기기에서 안전하게 사용하는 로컬 퍼스트 시각적 사고 캔버스
+
+### 🔑 주요 기능
+- 계정이나 클라우드 없이 기기 로컬에 저장되는 프라이버시 중심 설계
+- 노트, 다이어그램, 와이어프레임 등을 위한 강력한 시각적 작업 공간
+- 레이어, 압력 감지 브러시, PSD 가져오기/내보내기 등 전문적인 편집 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+구독료 부담 없이 한 번의 구매로 아이디어 스케치와 계획 수립을 위한 전문적인 디지털 캔버스를 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 압력 감지 브러시로 자유로운 드로잉 시도하기
+- PSD 파일을 가져와 레이어 및 이미지 변형 작업하기
+- 키보드 단축키를 활용한 빠른 워크플로우 구축하기
+
+### ⚠️ 사용 전 확인할 점
+- 클라우드 동기화 기능이 없으므로 기기 간 파일 이동은 수동으로 해야 함
+- 로컬 저장 방식이므로 기기 분실/고장 시 데이터 백업 책임이 사용자에게 있음
+
+### 🧭 확인이 더 필요한 정보
+기기 간 파일 공유를 위한 별도의 동기화 방식이나 백업 솔루션이 제공되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Vincent_4.0_media_0.jpg)
+
+---
+
+## 24. [Input Benchmark](https://www.producthunt.com/products/input-benchmark)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Clean hardware and cognitive benchmarking tools.
+**서비스 링크**: https://www.producthunt.com/r/VGTIYECEQJ7Y22
+
+**태그**: Benchmark, Gaming, Productivity, Tech
+
+<img src="images/ph_2026-07-12_Input_Benchmark.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+불필요한 스크립트 없이 하드웨어 성능과 인지 능력을 측정하는 초경량 벤치마크 도구
+
+### 🔑 주요 기능
+- CPS, 반응 속도, 기억력, 정밀도 측정을 위한 클린한 도구 모음
+- 성능 저하를 유발하는 무거운 레이아웃 및 트래킹 스크립트 제거
+- 게이머와 테크 애호가를 위한 빠르고 정확한 결과 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+성능 저하 없이 순수하게 자신의 반응 속도와 하드웨어 성능을 정확하게 테스트할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- CPS(초당 클릭 수) 테스트 실행
+- 반응 속도 및 정밀도 측정
+- 메모리 테스트 진행
+
+### ⚠️ 사용 전 확인할 점
+- 특정 하드웨어 환경에서의 결과 편차 가능성
+- 웹 기반 도구이므로 로컬 하드웨어 성능을 100% 반영하는지에 대한 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 벤치마크 도구들의 구체적인 측정 알고리즘과 정확도 검증 데이터가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Input_Benchmark_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Input_Benchmark_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Input_Benchmark_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ecb61a99-e66e-4ac7-bff4-151bd3cc79a2.jpeg?auto=format)
+
+---
+
+## 25. [ReelStack](https://www.producthunt.com/products/reelstack)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Track your shows, know where to stream, get notified
+**서비스 링크**: https://www.producthunt.com/r/JG3OMMEJSW4JTA
+
+**태그**: Productivity, Entertainment, Utility
+
+<img src="images/ph_2026-07-12_ReelStack.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+여러 OTT 서비스에 흩어진 시청 목록을 한곳에서 관리하고 신작 알림을 받는 개인용 트래커
+
+### 🔑 주요 기능
+- 여러 스트리밍 서비스(Netflix, Max, Hulu 등)의 콘텐츠 위치 통합 확인
+- 새로운 시즌 출시 시 즉각적인 알림 제공
+- 로그인이나 소셜 기능 없는 철저한 개인용 리스트 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 OTT를 구독하며 무엇을 어디서 봐야 할지 혼란스러운 사용자에게 명확한 시청 목록과 업데이트 알림을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보고 싶은 영화나 드라마를 리스트에 추가하기
+- 콘텐츠가 어떤 스트리밍 서비스에 있는지 확인하기
+- 신작 시즌 알림 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- 로그인 기능이 없으므로 기기 변경 시 데이터 이전 방식 확인 필요
+- 소셜 기능이 없으므로 타인과 리스트를 공유할 수 없음
+
+### 🧭 확인이 더 필요한 정보
+로그인 없이 데이터가 어떻게 저장되고 동기화되는지에 대한 상세 방식 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_ReelStack_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_ReelStack_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_ReelStack_media_2.jpg)
+
+---
+
+## 26. [Predictify](https://www.producthunt.com/products/predictify)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Predict match scores, prove you know football best
+**서비스 링크**: https://www.producthunt.com/r/ANFFBCRFC2XIYS
+
+**태그**: Gaming, Sports, Social, AI Tool
+
+<img src="images/ph_2026-07-12_Predictify.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전 세계 53개 리그의 경기 결과를 예측하며 축구 지식을 겨루는 랭킹 기반 게임
+
+### 🔑 주요 기능
+- 53개 축구 리그를 대상으로 한 스코어 예측 게임
+- 주간 단위 ELO 기반 랭킹 시스템 도입
+- 금전적 베팅 없는 순수 실력 경쟁형 게임
+
+### 🙋 사용자에게 어떤 점이 좋은가
+축구 팬들이 자신의 지식을 바탕으로 다른 플레이어들과 경쟁하며 재미를 느낄 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 축구 지식 테스트하기
+- 주간 ELO 랭킹 도전하기
+- 다른 플레이어와 순위 경쟁하기
+
+### ⚠️ 사용 전 확인할 점
+- 금전적 보상이 없는 순수 게임이므로 보상 중심의 사용자에게는 흥미가 낮을 수 있음
+- 실시간 스코어 업데이트 및 데이터 정확성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+모바일 앱 지원 여부 및 구체적인 리그별 운영 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Predictify_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_Predictify_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Predictify_media_2.jpg)
+
+---
+
+## 27. [FocusCorp — Deep Work Timer](https://www.producthunt.com/products/focuscorp-deep-work-timer)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A gamified screen blocker that turns focus into progress
+**서비스 링크**: https://www.producthunt.com/r/JFRDQMAL2H63A3
+
+**태그**: Productivity, Gamification, FocusTimer
+
+<img src="images/ph_2026-07-12_FocusCorp_—_Deep_Work_Timer.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+집중 시간을 게임처럼 즐기며 방해 요소를 차단하는 게이미피케이션 타이머
+
+### 🔑 주요 기능
+- 방해되는 앱 및 화면 차단 기능
+- 집중 시간을 가상 스타트업 오피스로 변환하는 게임 요소
+- 몰입을 통한 성취감을 시각화하는 게이미피케이션 적용
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 타이머를 넘어 게임 요소를 통해 몰입의 즐거움을 제공함으로써, 업무 중 스마트폰이나 다른 앱으로 주의가 분산되는 것을 방지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 방해되는 앱 차단 설정하기
+- Bob과 함께하는 가상 오피스 환경 구축하기
+- 집중 시간 기록 및 성취도 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 앱 차단 기능이 업무에 필수적인 도구와 충돌할 가능성
+- 게임 요소가 오히려 집중을 방해할 가능성
+
+### 🧭 확인이 더 필요한 정보
+차단 가능한 앱의 범위와 운영체제(Windows, macOS 등) 지원 여부에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_FocusCorp_—_Deep_Work_Timer_media_0.jpg)
+![Screenshot](images/ph_2026-07-12_FocusCorp_—_Deep_Work_Timer_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_FocusCorp_—_Deep_Work_Timer_media_2.jpg)
+
+---
+
+## 28. [Nemesis](https://www.producthunt.com/products/nemesis)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The AI goal tracker that hates your excuses.
+**서비스 링크**: https://www.producthunt.com/r/7BTJRM4ZNIY2YG
+
+**태그**: Productivity, AI, Gamification, Motivation, AI Tool
+
+<img src="images/ph_2026-07-12_Nemesis.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+가상의 악당이 독설로 동기부여를 제공하는 AI 목표 추적 도구
+
+### 🔑 주요 기능
+- 가상의 빌런 캐릭터를 통한 강력한 독설형 동기부여
+- 매일 이어지는 도발과 매주 진행되는 결투 시스템
+- 타협 없는 목표 달성 중심의 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+의지력이 약해 목표 달성에 어려움을 겪는 사용자에게 자극적인 피드백을 통해 실행력을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 목표 설정하기
+- 빌런의 데일리 독설 받아보기
+- 주간 결투 참여하기
+
+### ⚠️ 사용 전 확인할 점
+- 부정적인 피드백 방식이 사용자에게 심리적 스트레스를 줄 수 있음
+- 강한 자극을 선호하지 않는 사용자에게는 부적합할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 목표 관리 기능(Task management)의 상세 기능과 플랫폼 지원 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Nemesis_media_1.jpg)
+![Screenshot](images/ph_2026-07-12_Nemesis_media_2.jpg)
+![Screenshot](images/ph_2026-07-12_Nemesis_media_3.jpg)
+
+---
+
+## 29. [QuorumRouter](https://www.producthunt.com/products/quorumrouter)
+**Votes**: 9 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**:  Fail-closed routing and safe execution for AI agents
+**서비스 링크**: https://www.producthunt.com/r/I4FU5Q7THPLHXZ
+
+**태그**: AI, DevTool, Automation, OpenSource, Agent, AI Tool, Chat, Prompting
+
+<img src="images/ph_2026-07-12_QuorumRouter.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트의 답변 신뢰성을 높이기 위한 다중 모델 검증 및 안전 실행 프레임워크
+
+### 🔑 주요 기능
+- Zod를 통한 응답 검증 및 다수결(Quorum) 기반의 최적 답변 합성
+- 모델 간 대화 맥락 공유를 통한 상호 검토 및 수렴형 에이전트 채팅
+- 외부 권한 승인 및 검증된 아티팩트를 통한 안전한 실행 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 모델의 환각 현상을 줄이고, 여러 모델의 답변을 교차 검증하여 가장 정확하고 안전한 결과를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Best Route 경로를 통한 모델별 응답 검증 테스트
+- Agent Chat 기능을 활용한 모델 간 협업 워크플로우 구축
+- SafeLoop 권한 설정을 통한 외부 실행 안전성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 여러 모델을 동시에 사용하므로 단일 모델 사용 대비 비용 및 지연 시간 발생 가능성
+- Deno 프레임워크 기반이므로 기존 환경과의 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 특정 워크플로우에 따른 모델별 비용 및 응답 속도 차이를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_QuorumRouter_media_0.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bfacf531-b5a8-4fd9-8eee-9bac36bfab4c.jpeg?auto=format)
+
+---
+
+## 30. [Have I Enough?](https://www.producthunt.com/products/have-i-enough)
+**Votes**: 8 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Know when you can stop working, not just when you can retire
+**서비스 링크**: https://www.producthunt.com/r/NKFF5YREWM2FUN
+
+**태그**: Finance, Retirement, Planning, PersonalFinance, AI Tool
+
+<img src="images/ph_2026-07-12_Have_I_Enough.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+은퇴 시점뿐만 아니라 경제적 자유를 위한 조기 은퇴 시점을 설계하는 개인용 현금흐름 플래너
+
+### 🔑 주요 기능
+- 개인용 클라이언트 사이드(Private) 영국 은퇴 현금흐름 플래너
+- 연금, 투자, 소득, 지출 및 세금 모델링 기능 제공
+- 수천 가지 시장 시나리오를 통한 은퇴 계획 스트레스 테스트
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자신의 자산과 지출을 바탕으로 언제 일을 그만둘 수 있는지 구체적인 시나리오를 확인하여 체계적인 은퇴 계획을 세울 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재의 연금 및 투자 자산 데이터 입력하기
+- 다양한 지출 시나리오 설정하여 비교하기
+- 시장 변동성에 따른 은퇴 계획의 안정성 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 영국(UK) 세법 및 금융 환경에 특화된 도구이므로 타 국가 사용자에게는 적합하지 않을 수 있음
+- 사용자의 정확한 데이터 입력이 결과의 신뢰도를 결정함
+
+### 🧭 확인이 더 필요한 정보
+영국 외 지역 사용자를 위한 글로벌 버전 지원 여부 및 구체적인 데이터 보안 방식 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-12_Have_I_Enough_media_0.jpg)
+
+---
+
