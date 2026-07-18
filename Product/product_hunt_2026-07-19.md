@@ -1,0 +1,1214 @@
+# 🚀 Product Hunt Daily Top 30 (2026-07-19)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트가 즉시 활용 가능한 데이터 구조화와 자율적인 업무 수행을 지원하는 도구들이 주도했습니다. 또한, 복잡한 과정 없이 클릭 몇 번으로 제품 데모를 제작하거나 고퀄리티 웹 페이지를 구축하는 등 생산성을 극대화하는 솔루션들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트의 효율을 높이기 위해 데이터를 정형화하거나 에이전트와 협업하는 로컬 우선 방식의 도구들이 등장했습니다.
+- 사용자가 직접 개입하지 않아도 자율적으로 업무를 수행하거나, 클릭 한 번으로 인터랙티브한 데모를 만드는 자동화 기술이 강조되었습니다.
+- 검증된 UI 컴포넌트와 AI를 결합하여 전문가 수준의 결과물을 빠르게 생성하는 생산성 도구들이 눈에 띄었습니다.
+
+**오늘의 태그**: AI 에이전트, 생산성 자동화, 데모 제작, 데이터 구조화
+
+## 1. [ZooData](https://www.producthunt.com/products/zoodata)
+**Votes**: 505 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The data layer for AI agents
+**서비스 링크**: https://www.producthunt.com/r/2S6BVJ6IPXLOG5
+
+**태그**: AI, Data Extraction, Automation, DevTool, E-commerce, Agent, AI Tool, LLM, API
+
+<img src="images/ph_2026-07-18_ZooData.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+웹 페이지를 AI 에이전트용 정형 데이터로 즉시 변환하여 토큰 비용을 절감하는 데이터 레이어
+
+### 🔑 주요 기능
+- URL을 AI 에이전트가 즉시 활용 가능한 구조화된 JSON으로 변환
+- 불필요한 HTML/Markdown 제거를 통해 LLM 토큰 사용량 약 75% 절감
+- Amazon 및 TikTok 대상 이커머스 시장/경쟁사 분석 데이터 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹 스크래핑 후 수동으로 데이터를 정제할 필요 없이, AI 에이전트가 즉시 읽을 수 있는 형태로 데이터를 공급받아 비용과 시간을 아낄 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 크레딧 1,000개를 활용해 URL 데이터 변환 테스트하기
+- API 또는 CLI를 통해 기존 워크플로우에 연결하기
+- 이커머스 인사이트 기능을 통해 시장 데이터 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 정교한 데이터 추출을 위해 특정 필드 설정이 필요할 수 있음
+- 제공되는 이커머스 데이터의 실시간성 및 정확도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 정의 필드 설정 방식과 상세한 데이터 업데이트 주기에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_ZooData_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_ZooData_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_ZooData_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/413c0dbc-4fc7-49b6-8156-86b7e4886a04.jpeg?auto=format)
+
+---
+
+## 2. [Clark](https://www.producthunt.com/products/clark-agent)
+**Votes**: 415 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: An AI coworker with its own cloud computer
+**서비스 링크**: https://www.producthunt.com/r/YDCFYTSZJ66D6D
+
+**태그**: AI Agent, Automation, Cloud Computing, Productivity, Agent, AI Tool, DevTool, API
+
+<img src="images/ph_2026-07-18_Clark.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자체 클라우드 환경에서 복잡한 업무를 자율적으로 수행하는 AI 동료
+
+### 🔑 주요 기능
+- 브라우저, 터미널, 파일, 코드를 갖춘 독립적인 클라우드 컴퓨터 환경 제공
+- 리서치, 스프레드시트 작성, 코드 테스트 등 실질적인 결과물(Artifacts) 생성
+- 병렬 작업 수행, 스케줄링 기능 및 API를 통한 에이전트 임베딩 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사용자가 작업을 맡겨두고 다른 일을 하는 동안, AI가 스스로 결과물을 만들어 놓는 자율형 워크플로우를 경험할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 복잡한 리서치 및 데이터 정리 작업 맡겨보기
+- Clark Code를 활용한 코드 저장소 연동 테스트
+- OpenAI 호환 API를 통한 기존 워크플로우 임베딩
+
+### ⚠️ 사용 전 확인할 점
+- 자율적인 작업 수행 과정에서 발생할 수 있는 결과물의 정확성 검증 필요
+- 클라우드 환경 내 데이터 보안 및 권한 관리 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+자율 작업 수행 시 발생하는 비용 산정 방식과 데이터 보안 정책에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Clark_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Clark_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Clark_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/5d1dc342-58e0-4c8d-9d0a-04e3f45e3f29.jpeg?auto=format)
+
+---
+
+## 3. [LiveDemo](https://www.producthunt.com/products/livedemo)
+**Votes**: 246 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Open-source alternative to Storylane, Navattic, and Arcade
+**서비스 링크**: https://www.producthunt.com/r/LPPCPHHYS32PCX
+
+**태그**: ProductDemo, OpenSource, SalesTool, MarketingAutomation, Automation, AI Tool, Video, Sales
+
+<img src="images/ph_2026-07-18_LiveDemo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+워크플로우를 캡처하여 대화형 제품 데모를 즉시 제작하는 오픈소스 솔루션
+
+### 🔑 주요 기능
+- 워크플로우 캡처를 통한 빠른 인터랙티브 데모 생성
+- AI 음성 및 개인화된 텍스트 추가 기능
+- 링크, 임베드, GIF, 비디오 등 다양한 공유 방식 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품의 핵심 기능을 시각적으로 보여주면서도, 고객의 반응을 데이터로 확인하고 잠재 고객을 확보하는 데 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 제품 워크플로우 캡처해보기
+- AI 음성 입혀서 데모 완성하기
+- 웹사이트나 문서에 데모 임베드하기
+
+### ⚠️ 사용 전 확인할 점
+- 오픈소스이므로 직접 호스팅 시 인프라 관리 필요
+- 복잡한 로직이 포함된 워크플로우의 완벽한 재현 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+오픈소스 버전과 유료 호스팅 서비스 간의 기능 차이 및 상세 가격 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_LiveDemo_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_LiveDemo_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_LiveDemo_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0ffacddb-061b-4c71-af37-7fb2f1ea8991.jpeg?auto=format)
+
+---
+
+## 4. [Mirage](https://www.producthunt.com/products/mirage-15)
+**Votes**: 180 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn your SaaS into a clickable demo in 90 seconds.
+**서비스 링크**: https://www.producthunt.com/r/BNA4UJPTMNH6BA
+
+**태그**: SaaS, ProductDemo, MarketingTool, Analytics, AI Tool, Video, Email
+
+<img src="images/ph_2026-07-18_Mirage.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+90초 만에 실제 앱을 클릭 가능한 데모로 변환하는 초간편 SaaS 데모 제작 도구
+
+### 🔑 주요 기능
+- 한 번의 클릭으로 실제 앱 화면을 캡처하여 클릭 가능한 데모 생성
+- 가이드 핫스팟 추가 및 어디든 임베드 가능한 데모 배포
+- 조회수, 완료율, 단계별 이탈률 등 상세 분석 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+무거운 영상 대신 가벼운 클릭형 데모를 통해 잠재 고객의 이탈을 막고 전환율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 첫 번째 데모 무료로 생성해보기
+- 가이드 핫스팟 설정하여 사용자 흐름 만들기
+- 랜딩 페이지에 데모 임베드하여 배포하기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 플랜의 기능 제한 범위 확인 필요
+- 실제 앱 화면 캡처 시 보안 및 개인정보 노출 주의
+
+### 🧭 확인이 더 필요한 정보
+무료 플랜의 구체적인 사용량 제한과 유료 플랜의 상세 가격 정책에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Mirage_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Mirage_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Mirage_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e697b51f-4020-4e9c-8f59-3c7b55c22cc7.jpeg?auto=format)
+
+---
+
+## 5. [OpenMarkdown](https://www.producthunt.com/products/openmarkdown)
+**Votes**: 159 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A markdown editor you and your agent co-edit
+**서비스 링크**: https://www.producthunt.com/r/PUGWVWC73X5PFY
+
+**태그**: DevTool, Markdown, AI-Agent, Productivity, Local-first, Agent
+
+<img src="images/ph_2026-07-18_OpenMarkdown.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자와 AI 에이전트가 실시간으로 협업하는 로컬 우선 마크다운 에디터
+
+### 🔑 주요 기능
+- 사용자와 AI 에이전트 간의 원활한 공동 편집 기능
+- CLI, 에이전트 플러그인, MCP를 통한 강력한 에이전트 연동
+- 계정 생성이나 텔레메트리 없는 로컬 우선(Local-first) 보안 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+파일을 클라우드에 올리지 않고도 AI 에이전트와 함께 문서를 작성하거나 수정할 수 있어 보안과 협업 효율을 동시에 잡을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 .md 파일 열기
+- CLI/MCP를 통한 에이전트 연결
+- 에이전트와 공동 편집 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 환경 기반이므로 에이전트 연동을 위한 별도의 설정이 필요할 수 있음
+- 클라우드 동기화 기능이 기본적으로 제공되지 않음
+
+### 🧭 확인이 더 필요한 정보
+에이전트 연동을 위한 구체적인 기술적 요구사항과 지원되는 에이전트 플랫폼 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_OpenMarkdown_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_OpenMarkdown_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_OpenMarkdown_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/21c4cf74-1be1-4fad-aefb-5f2e4da50317.jpeg?auto=format)
+
+---
+
+## 6. [Acebuilder](https://www.producthunt.com/products/acebuilder)
+**Votes**: 137 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Build landing pages with Aceternity UI
+**서비스 링크**: https://www.producthunt.com/r/6Z2DIY2JRMGSRA
+
+**태그**: AI, WebDesign, NoCode, Frontend, DesignTool, Agent, AI Tool, Chat, Vision, Design, DevTool
+
+<img src="images/ph_2026-07-18_Acebuilder.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Aceternity UI의 고퀄리티 컴포넌트를 기반으로 AI와 대화하며 랜딩 페이지를 구축하는 웹 빌더
+
+### 🔑 주요 기능
+- Aceternity UI Pro 템플릿 및 컴포넌트 라이브러리 직접 활용
+- AI 에이전트와의 채팅을 통한 레이아웃, 구조, 카피라이팅 실시간 수정
+- 이미지 생성 및 디자인 '스킬' 기능을 통한 정교한 레이아웃 최적화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 생성형 레이아웃이 아닌 검증된 디자인 컴포넌트를 기반으로 하므로, 전문가 수준의 랜딩 페이지를 빠르게 제작하고 코드를 직접 소유할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Aceternity Pro 템플릿 불러오기
+- AI 에이전트와 채팅하며 섹션 구조 변경하기
+- 디자인 '스킬' 기능을 사용하여 레이아웃 정교화하기
+
+### ⚠️ 사용 전 확인할 점
+- 코드 내보내기 시 프레임워크 호환성 확인 필요
+- Pro 템플릿 사용에 따른 라이선스 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Pro 템플릿 사용 시 발생하는 구체적인 비용 체계나 구독 모델에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Acebuilder_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Acebuilder_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Acebuilder_media_2.jpg)
+
+---
+
+## 7. [Mainichi](https://www.producthunt.com/products/mainichi-2)
+**Votes**: 122 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Learn Japanese, one prefecture at a time.
+**서비스 링크**: https://www.producthunt.com/r/OS4U7N7VUXA2SG
+
+**태그**: LanguageLearning, Gamification, Productivity, AI Tool
+
+<img src="images/ph_2026-07-18_Mainichi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+부담 없는 5분 게임형 세션으로 2만 개 이상의 일본어 단어를 습득하는 학습 도구
+
+### 🔑 주요 기능
+- 간격 반복 학습(SRS) 시스템을 통한 장기 기억 최적화
+- 하루 5분 미만의 짧고 게임화된 학습 세션
+- 학습에만 집중할 수 있는 깔끔하고 직관적인 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+바쁜 일상 속에서도 스트레스 없이 짧은 시간 투자만으로 일본어 어휘력을 효과적으로 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 5분 미만의 짧은 학습 세션 경험하기
+- 스트릭(Streak) 기능을 통한 학습 습관 형성하기
+- 직관적인 인터페이스로 단어 학습 진행하기
+
+### ⚠️ 사용 전 확인할 점
+- 단순 어휘 위주의 학습이므로 문법이나 회화 실력 향상에는 한계가 있을 수 있음
+- 게임화된 방식이 깊이 있는 학습을 원하는 사용자에게는 가볍게 느껴질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공되는 20,000개 이상의 단어가 어떤 수준(JLPT 등)에 맞춰져 있는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Mainichi_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Mainichi_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Mainichi_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3e40172a-09a9-4fed-8e18-3bb3477cc8a3.jpeg?auto=format)
+
+---
+
+## 8. [WX ](https://www.producthunt.com/products/wx)
+**Votes**: 112 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: An experimental synth for playable generative sound
+**서비스 링크**: https://www.producthunt.com/r/66P4NJE2OXB5XT
+
+**태그**: Music Production, VST/AU, Generative Audio, Sound Design, AI Tool, Design
+
+<img src="images/ph_2026-07-18_WX_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+예측 불가능한 사운드 생성과 연주 가능성을 결합한 실험적인 제너레이티브 신시사이저
+
+### 🔑 주요 기능
+- 제어된 무작위성을 통한 진화하는 패치 생성
+- 더블 클릭 한 번으로 새로운 사운드 생성 가능
+- 생성된 사운드를 익숙한 파라미터로 정교하게 조절 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+창의적인 영감이 필요한 음악가에게 독특한 사운드를 즉각적으로 제공하며, 생성된 소리를 연주 가능한 범위 내에서 제어할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 더블 클릭으로 무작위 사운드 생성해보기
+- 기본 모듈레이션과 이펙트를 활용한 사운드 쉐이핑
+- 생성된 패치를 연주 가능한 형태로 다듬기
+
+### ⚠️ 사용 전 확인할 점
+- 실험적인 성격상 의도치 않은 소리가 발생할 수 있음
+- 완전한 자동화보다는 수동 조작과 생성 사이의 균형이 필요함
+
+### 🧭 확인이 더 필요한 정보
+플러그인의 구체적인 호스트 DAW 호환성 및 시스템 리소스 점유율은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_WX__media_1.jpg)
+![Screenshot](images/ph_2026-07-18_WX__media_2.jpg)
+![Screenshot](images/ph_2026-07-18_WX__media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0a322392-87ae-4b65-9273-0a05cae3a5d4.jpeg?auto=format)
+
+---
+
+## 9. [DocuSmart AI ](https://www.producthunt.com/products/docusmart-ai)
+**Votes**: 111 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turning fragmented knowledge into one simple system
+**서비스 링크**: https://www.producthunt.com/r/Y6AVDRC5TA6OPY
+
+**태그**: AI, Knowledge Management, Productivity, SaaS, AI Tool
+
+<img src="images/ph_2026-07-18_DocuSmart_AI_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+여러 클라우드 저장소에 흩어진 문서를 자연어로 통합 검색하는 AI 지식 관리 시스템
+
+### 🔑 주요 기능
+- Google Drive, SharePoint, Dropbox 등 다양한 플랫폼 통합 검색 지원
+- 문서 이동이나 재구조화 없이 기존 환경 그대로 사용 가능
+- 일상적인 영어 질문을 통해 문서 내 정답을 즉시 추출
+
+### 🙋 사용자에게 어떤 점이 좋은가
+문서가 여러 곳에 분산되어 정보를 찾는 데 시간을 허비하는 중소기업 및 비영리 단체의 업무 효율을 극대화합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 클라우드 저장소(Drive, Dropbox 등) 연결하기
+- 자연어 질문을 통해 필요한 정보 검색해보기
+- 분산된 문서 간의 답변 정확도 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 보안 및 프라이버시 정책 확인 필요
+- 지원되는 언어 범위(현재 영어 중심) 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+지원되는 클라우드 서비스의 종류와 데이터 보안 처리 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_DocuSmart_AI__media_1.jpg)
+![Screenshot](images/ph_2026-07-18_DocuSmart_AI__media_2.jpg)
+![Screenshot](images/ph_2026-07-18_DocuSmart_AI__media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/165481b3-84b4-4300-9a7e-edc560ef2aee.jpeg?auto=format)
+
+---
+
+## 10. [AgentGrid](https://www.producthunt.com/products/agentgrid)
+**Votes**: 51 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Your AI agents team, terminals, notes: one infinite canvas
+**서비스 링크**: https://www.producthunt.com/r/JQT3NNF54MM5ZE
+
+**태그**: DevTool, AI-Agents, Productivity, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-07-18_AgentGrid.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트 팀과 개발 도구를 하나의 무한 캔버스에서 관리하는 통합 워크스페이스
+
+### 🔑 주요 기능
+- 역할 기반(Builder, QA, DevOps 등) AI 에이전트 팀 생성 및 오케스트레이션
+- 터미널, 브라우저, 노트, Git이 결합된 무한 캔버스 인터페이스
+- 재시작 시 모든 에이전트와 세션이 유지되는 영속적 워크스페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트의 작업 과정을 시각적으로 모니터링하면서, 개발 도구 사이를 오가는 번거로움 없이 한 곳에서 코딩 루프를 제어할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 역할별 에이전트(Builder, QA 등) 생성 및 워크플로우 테스트
+- 로컬 환경(macOS, Linux, Windows)에서의 설치 및 연동 확인
+- 무한 캔버스 내에서 터미널과 에이전트 간의 상호작용 확인
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 실행 환경이므로 하드웨어 리소스 소모가 클 수 있음
+- 사용 중인 로컬 모델/API(Claude Code 등)와의 설정 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 실행 시 하드웨어 요구 사양과 구체적인 시스템 리소스 점유율에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_AgentGrid_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_AgentGrid_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_AgentGrid_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f9ec292c-f857-49f9-ac4e-e4d406f170ea.jpeg?auto=format)
+
+---
+
+## 11. [LeadJarvis](https://www.producthunt.com/products/leadjarvis)
+**Votes**: 24 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn Every Event Interaction Into Qualified Leads Instantly!
+**서비스 링크**: https://www.producthunt.com/r/WZC3X5OP7N7G3C
+
+**태그**: SalesAutomation, CRM, AI, LeadGeneration, Networking, AI Tool, Email
+
+<img src="images/ph_2026-07-18_LeadJarvis.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+명함 스캔부터 AI 자동 응대까지, 이벤트 현장에서 즉시 잠재 고객을 확보하는 자동화 솔루션
+
+### 🔑 주요 기능
+- 20개 이상의 언어를 지원하는 명함 스캔 및 프로필 자동 보강
+- WhatsApp과 이메일을 통한 20초 이내의 초고속 개인화 메시지 발송
+- AI가 24/7 리드를 분류하고 대화를 관리하며 필요 시 담당자에게 인계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+이벤트 현장에서 확보한 명함을 즉시 디지털 데이터로 전환하고, 고객이 현장을 떠나기 전 선제적인 대화를 시작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 명함 스캔 및 프로필 보강 기능 테스트
+- AI 자동 개인화 메시지 발송 설정
+- 기존 CRM(HubSpot, Zoho) 연동 확인
+
+### ⚠️ 사용 전 확인할 점
+- AI가 대화를 처리하는 과정에서 발생할 수 있는 메시지 품질 편차
+- 현장 네트워크 환경에 따른 스캔 및 동기화 속도 영향
+
+### 🧭 확인이 더 필요한 정보
+AI가 대화를 처리하는 구체적인 범위와 인간 담당자로의 전환 기준(Threshold)에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_LeadJarvis_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_LeadJarvis_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_LeadJarvis_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/014b202e-6659-4e91-b5b1-381d83a37273.jpeg?auto=format)
+
+---
+
+## 12. [Fiftycore](https://www.producthunt.com/products/fiftycore)
+**Votes**: 20 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Stop Guessing Start Building
+**서비스 링크**: https://www.producthunt.com/r/HSJEYI4THIVVWS
+
+**태그**: Startup, Validation, AI, Strategy, Productivity, AI Tool
+
+<img src="images/ph_2026-07-18_Fiftycore.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아이디어 검증부터 실행까지, 창업의 불확실성을 줄여주는 AI 기반 스타트업 시뮬레이터
+
+### 🔑 주요 기능
+- 시장 수요 및 아이디어의 실질적 가치 검증
+- 시나리오 시뮬레이션을 통한 미래 성공/실패 예측
+- 투자자 수준의 리스크 분석 및 실행 프로토콜 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+창업가가 막연한 추측 대신 데이터와 시뮬레이션을 바탕으로 의사결정을 내릴 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 시장 검증(Market Validation) 기능으로 아이디어 수요 확인하기
+- 현실 시뮬레이터(Reality Simulator)로 사업 시나리오 돌려보기
+- 실행 프로토콜(Execution Protocol)로 일일 태스크 관리 시작하기
+
+### ⚠️ 사용 전 확인할 점
+- 시뮬레이션 결과는 예측치이므로 실제 시장 상황과 다를 수 있음
+- 제공되는 데이터와 분석의 객관적 근거 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+실제 시뮬레이션 모델의 알고리즘과 데이터 소스에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Fiftycore_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Fiftycore_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_Fiftycore_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ef2c8607-672b-43d4-ae9d-890e3a0fa966.jpeg?auto=format)
+
+---
+
+## 13. [College Fit Project](https://www.producthunt.com/products/college-fit-project)
+**Votes**: 17 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Rankings tell you what’s prestigious; we tell you your match
+**서비스 링크**: https://www.producthunt.com/r/YN3BW5Q3K6LABH
+
+**태그**: Education, Personalization, AI, DecisionSupport, AI Tool
+
+<img src="images/ph_2026-07-18_College_Fit_Project.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 순위가 아닌, 나에게 꼭 맞는 대학을 찾아주는 개인 맞춤형 대학 매칭 서비스
+
+### 🔑 주요 기능
+- 단순 순위 중심이 아닌 개인 맞춤형 매칭 중심의 대학 탐색
+- 등록금, 합격률, 캠퍼스 규모, 기후 등 40개 이상의 데이터 기반 스코어카드 구축
+- AI를 활용한 사용자 맞춤형 기준 평가 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순히 이름값 높은 대학이 아니라, 자신의 상황과 선호도에 가장 적합한 대학을 데이터 기반으로 찾을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 40여 가지 데이터 요소를 활용한 개인별 스코어카드 생성하기
+- AI 기반 맞춤형 기준 설정 및 대학 매칭 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 시작 단계 이후의 상세 기능 유료 전환 여부 확인 필요
+- 제공되는 데이터의 최신성 및 정확도 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+전체 기능 중 유료로 전환되는 구체적인 범위와 비용 체계에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_College_Fit_Project_media_0.jpg)
+
+---
+
+## 14. [Dictately](https://www.producthunt.com/products/dictately)
+**Votes**: 17 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Hold a key, talk — clean text in any Mac app
+**서비스 링크**: https://www.producthunt.com/r/3EPZZGUUCZ6N5Q
+
+**태그**: Productivity, AI, macOS, Voice-to-Text, AI Tool
+
+<img src="images/ph_2026-07-18_Dictately.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단축키 하나로 어떤 Mac 앱에서도 완벽한 텍스트를 입력하는 AI 음성 받아쓰기
+
+### 🔑 주요 기능
+- macOS 전용 시스템 통합형 음성 받아쓰기
+- 99개 이상의 언어를 지원하는 강력한 다국어 기능
+- 문맥을 이해하는 AI 기반의 스마트 포맷팅 및 텍스트 정제
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 복잡한 설정 없이 단축키만 누르면 어떤 앱에서든 자연스러운 대화형 텍스트 입력을 가능하게 하여 타이핑 시간을 획기적으로 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단축키 설정 후 다양한 Mac 앱에서 테스트하기
+- 다국어 지원 기능을 활용해 외국어 입력해보기
+- AI 문맥 인식 기능이 문장 형식을 어떻게 잡는지 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 앱이므로 Windows나 모바일 환경에서는 사용 불가
+- AI 기반 기능의 특성상 네트워크 연결 상태에 따른 성능 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 가격 정책 및 오프라인 모드 지원 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Dictately_media_0.jpg)
+
+---
+
+## 15. [RENZE](https://www.producthunt.com/products/renze)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Trade Show Booth Design
+**서비스 링크**: https://www.producthunt.com/r/UO76VHH7ZA4JCM
+
+**태그**: Design, Branding, Event
+
+<img src="images/ph_2026-07-18_RENZE.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브랜드 경험을 극대화하는 맞춤형 전시 부스 디자인 및 브랜딩 서비스
+
+### 🔑 주요 기능
+- 전문적인 이벤트 브랜딩 서비스 제공
+- 몰입형 브랜드 경험을 위한 맞춤형 전시 디스플레이 설계
+- 라이브 이벤트 및 브랜드 액티베이션 최적화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+오프라인 이벤트나 전시회 참여 시, 브랜드의 정체성을 시각적으로 강렬하게 전달하고 방문객의 몰입을 이끌어낼 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브랜드 가이드라인 준비
+- 이벤트 목적 및 타겟 관객 정의
+- 필요한 전시 공간 규격 확인
+
+### ⚠️ 사용 전 확인할 점
+- 물리적인 제작 및 설치 서비스이므로 현장 상황에 따른 추가 비용 발생 가능성
+- 디지털 서비스가 아니므로 물리적 공간 제약의 영향을 받음
+
+### 🧭 확인이 더 필요한 정보
+서비스의 구체적인 제작 범위, 가격 정책 및 물리적 서비스 가능 지역에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_RENZE_media_0.jpg)
+
+---
+
+## 16. [SketchLog](https://www.producthunt.com/products/sketchlog)
+**Votes**: 15 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Bounded-memory telemetry for observability
+**서비스 링크**: https://www.producthunt.com/r/LSGYVQSZEA6QD6
+
+**태그**: DevTool, Observability, OpenSource, DataPlatform
+
+<img src="images/ph_2026-07-18_SketchLog.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+모든 원시 데이터를 저장하지 않고도 핵심 지표를 추출하는 효율적인 오픈소스 옵저버빌리티 플랫폼
+
+### 🔑 주요 기능
+- 스케치(Sketch) 데이터 구조를 활용한 압축된 텔레메트리 요약
+- p95/p99 지연 시간, 고유 사용자 수, 이상 징후 탐지 등 핵심 질문에 대한 빠른 응답
+- PostgreSQL 내구성과 SDK, Docker, Kubernetes 등 다양한 배포 환경 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+방대한 양의 원시 로그를 모두 저장하는 비용 부담 없이, 운영에 필요한 핵심 통계와 SLO 지표를 실시간으로 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 호스팅된 플레이그라운드에서 데이터 요약 기능 테스트
+- 기존 워크플로우에 적용하기 위한 SDK 검토
+- Docker/Kubernetes 환경에서의 배포 편의성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 스케치 구조 특성상 원시 데이터의 세부 사항을 완벽하게 복구할 수 없음
+- 정밀도와 메모리 사용량 사이의 트레이드오프 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+스케치 알고리즘의 근사치 오차 범위가 특정 비즈니스 요구사항을 충족하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_SketchLog_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_SketchLog_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_SketchLog_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/5c559ca3-dddd-46c4-96bf-450a7e2c5b69.jpeg?auto=format)
+
+---
+
+## 17. [FastDev — API generator in minutes](https://www.producthunt.com/products/fastdev-api-generator-in-minutes)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Generate FastAPI, NestJS & Go backends in minutes
+**서비스 링크**: https://www.producthunt.com/r/FNC4H26P5PIOWE
+
+**태그**: DevTool, Backend, Automation, Fullstack, Design, API
+
+<img src="images/ph_2026-07-18_FastDev_—_API_generator_in_minutes.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+설정 파일 하나로 FastAPI, NestJS, Go 백엔드를 즉시 생성하는 자동화 도구
+
+### 🔑 주요 기능
+- 단일 config.yaml 파일을 통한 모델, 마이그레이션, CRUD, 인증 로직 자동 생성
+- FastAPI, NestJS, Go Fiber 등 다양한 프레임워크 지원
+- 시각적 API 디자인, 코드 미리보기 및 소유 가능한 클린 코드 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+백엔드 인프라 구축 시간을 획기적으로 단축하여 핵심 비즈니스 로직 개발에 집중할 수 있게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- config.yaml 파일을 작성하여 기본 백엔드 구조 생성해보기
+- FastDev Studio를 통해 시각적으로 API 설계 및 코드 미리보기
+- 생성된 코드를 다운로드하여 로컬 환경에서 배포 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 생성된 코드가 프로젝트 규모가 커질 때 유지보수하기에 적합한 구조인지 검토 필요
+- 현재 Next.js 프론트엔드 생성 기능은 아직 개발 중임
+
+### 🧭 확인이 더 필요한 정보
+생성된 코드의 확장성 및 복잡한 비즈니스 로직 구현 시의 커스텀 용이성을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_FastDev_—_API_generator_in_min_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_FastDev_—_API_generator_in_min_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_FastDev_—_API_generator_in_min_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bbf90d42-ba98-4bc0-bd8f-d5ed91bf46f1.jpeg?auto=format)
+
+---
+
+## 18. [HaloYKL](https://www.producthunt.com/products/haloykl)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Reply smarter. Pitch better. HaloYKL
+**서비스 링크**: https://www.producthunt.com/r/SRTE5R4P4IZEDK
+
+**태그**: AI, Productivity, Business, Marketing, Data Analysis, AI Tool
+
+<img src="images/ph_2026-07-18_HaloYKL.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+답장 작성부터 브랜드 전략, 시장 조사까지 지원하는 AI 비즈니스 어시스턴트
+
+### 🔑 주요 기능
+- Halo Reply: 상황에 맞는 완벽한 답변 초안 작성
+- Halo Growth: 브랜드 전략 구축 지원
+- Halo Invest: 복잡한 시장 데이터를 쉬운 언어로 변환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+커뮤니케이션 효율을 높이고, 데이터 분석 및 브랜드 전략 수립 시간을 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Halo Reply로 이메일/메시지 초안 작성해보기
+- Halo Invest로 시장 데이터 리포트 생성해보기
+- 무료 체험 기능을 통해 서비스 성능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 답변의 정확성과 톤앤매너 검토 필요
+- 상세 기능 및 유료 플랜 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+각 기능(Reply, Growth, Invest)의 구체적인 작동 방식과 통합 가능한 플랫폼 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_HaloYKL_media_0.jpg)
+
+---
+
+## 19. [Musery](https://www.producthunt.com/products/musery)
+**Votes**: 14 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Creating the web of thoughts while reading
+**서비스 링크**: https://www.producthunt.com/r/S4YBPVH7FWFUED
+
+**태그**: Reading, Knowledge Management, Productivity, Note-taking, AI Tool
+
+<img src="images/ph_2026-07-18_Musery.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순한 독서를 넘어 읽는 과정에서 발생하는 생각과 지식을 연결하는 지식 지도 구축 도구
+
+### 🔑 주요 기능
+- 텍스트 중심이 아닌 독자의 사고 과정을 중심으로 설계된 읽기 도구
+- 메모, 용어집, 심화 읽기 자료를 연결하여 의미 있는 지식 지도를 생성
+- 장기적인 독서 습관을 가진 사용자를 위한 살아있는 기록 저장소
+
+### 🙋 사용자에게 어떤 점이 좋은가
+읽은 내용을 단순히 저장하는 것을 넘어, 아이디어 간의 연결 고리를 만들어 깊이 있는 독서와 지식 축적을 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 읽으면서 떠오르는 아이디어와 메모 기록하기
+- 용어집과 설명문을 만들어 지식 체계 구축하기
+- 서로 다른 생각들 사이의 연결선(Thread) 만들기
+
+### ⚠️ 사용 전 확인할 점
+- 단순 발췌 위주의 가벼운 독서보다는 깊이 있는 독서에 더 적합함
+- 지식 간의 연결을 직접 관리해야 하므로 초기 학습 곡선이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 구체적인 플랫폼(웹, 앱 등) 및 외부 서비스와의 연동 기능에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Musery_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Musery_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Musery_media_2.jpg)
+
+---
+
+## 20. [FluencyLoop](https://www.producthunt.com/products/fluencyloop)
+**Votes**: 14 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI development loop optimized for human comprehension
+**서비스 링크**: https://www.producthunt.com/r/5SM6PFSDCNAWEA
+
+**태그**: DevTool, AI-Assisted, Documentation, Software Architecture, AI Tool
+
+<img src="images/ph_2026-07-18_FluencyLoop.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI가 작성한 코드를 완벽히 이해하고 관리할 수 있게 돕는 개발 루프 최적화 도구
+
+### 🔑 주요 기능
+- AI 생성 코드의 블랙박스 현상 방지 및 개발자 이해도 증진
+- 사용자 숙련도에 맞춘 아키텍처 설계 교육 및 문서/다이어그램 자동 생성
+- 프로젝트 헌법(Constitution) 설정을 통한 AI 변경 사항 감사 및 리뷰 효율화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 짠 코드를 단순히 복사-붙여넣기 하는 것이 아니라, 개발자가 코드의 원리와 구조를 완전히 파악하며 성장할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI가 생성한 코드의 아키텍처 설명 기능 확인하기
+- 자동 생성되는 문서 및 다이어그램의 정확도 테스트하기
+- 프로젝트 헌법 설정 기능으로 코드 품질 관리해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 설명이 실제 코드 로직과 일치하는지 검증 필요
+- 기존 워크플로우(IDE, Git 등)와의 통합 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 문서화 및 다이어그램 기능이 어떤 개발 환경(IDE)을 지원하는지 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_FluencyLoop_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_FluencyLoop_media_1.jpg)
+
+---
+
+## 21. [Musery](https://www.producthunt.com/products/musery)
+**Votes**: 14 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Creating the web of thoughts while reading
+**서비스 링크**: https://www.producthunt.com/r/S4YBPVH7FWFUED
+
+**태그**: Reading, Knowledge Management, Productivity, Note-taking, AI Tool
+
+<img src="images/ph_2026-07-18_Musery.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순한 독서를 넘어 읽는 과정에서 발생하는 생각과 지식을 연결하는 지식 지도 구축 도구
+
+### 🔑 주요 기능
+- 텍스트 중심이 아닌 독자의 사고 과정을 중심으로 설계된 읽기 도구
+- 메모, 용어집, 심화 읽기 자료를 연결하여 의미 있는 지식 지도를 생성
+- 장기적인 독서 습관을 가진 사용자를 위한 살아있는 기록 저장소
+
+### 🙋 사용자에게 어떤 점이 좋은가
+읽은 내용을 단순히 저장하는 것을 넘어, 아이디어 간의 연결 고리를 만들어 깊이 있는 독서와 지식 축적을 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 읽으면서 떠오르는 아이디어와 메모 기록하기
+- 용어집과 설명문을 만들어 지식 체계 구축하기
+- 서로 다른 생각들 사이의 연결선(Thread) 만들기
+
+### ⚠️ 사용 전 확인할 점
+- 단순 발췌 위주의 가벼운 독서보다는 깊이 있는 독서에 더 적합함
+- 지식 간의 연결을 직접 관리해야 하므로 초기 학습 곡선이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 구체적인 플랫폼(웹, 앱 등) 및 외부 서비스와의 연동 기능에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Musery_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Musery_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Musery_media_2.jpg)
+
+---
+
+## 22. [Relay](https://www.producthunt.com/products/relay-22)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Local perks membership for your neighborhood, $9/mo
+**서비스 링크**: https://www.producthunt.com/r/X2QC3PLKHND3OD
+
+**태그**: LocalService, Subscription, Lifestyle, AI Tool
+
+<img src="images/ph_2026-07-18_Relay.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+월 9달러로 동네 독립 상점들의 혜택을 누리는 로컬 멤버십 서비스
+
+### 🔑 주요 기능
+- 월 9달러의 저렴한 구독형 멤버십
+- 특정 지역 내 독립 상점들의 커피, 클래스, 할인 등 정기적 혜택 제공
+- 현재 버지니아주 알링턴(Clarendon) 지역을 시작으로 가맹점 모집 및 대기 명단 운영 중
+
+### 🙋 사용자에게 어떤 점이 좋은가
+동네의 독립 상점들을 자주 이용하는 사용자라면 저렴한 비용으로 다양한 로컬 혜택을 정기적으로 받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 서비스 출시를 위한 대기 명단(Waitlist) 등록하기
+- 자신의 거주 지역에 서비스가 확장되는지 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 특정 지역(현재 Clarendon)에 국한된 서비스로 지역적 제약이 큼
+- 가맹점 확보 및 서비스 모델의 지속 가능성이 아직 검증되지 않음
+
+### 🧭 확인이 더 필요한 정보
+가맹점 측의 수익 모델과 서비스의 지역 확장 계획에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Relay_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Relay_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Relay_media_2.jpg)
+
+---
+
+## 23. [HaloYKL](https://www.producthunt.com/products/haloykl)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Reply smarter. Pitch better. HaloYKL
+**서비스 링크**: https://www.producthunt.com/r/SRTE5R4P4IZEDK
+
+**태그**: AI, Productivity, Business, Marketing, Data Analysis, AI Tool
+
+<img src="images/ph_2026-07-18_HaloYKL.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+답장 작성부터 브랜드 전략, 시장 조사까지 지원하는 AI 비즈니스 어시스턴트
+
+### 🔑 주요 기능
+- Halo Reply: 상황에 맞는 완벽한 답변 초안 작성
+- Halo Growth: 브랜드 전략 구축 지원
+- Halo Invest: 복잡한 시장 데이터를 쉬운 언어로 변환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+커뮤니케이션 효율을 높이고, 데이터 분석 및 브랜드 전략 수립 시간을 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Halo Reply로 이메일/메시지 초안 작성해보기
+- Halo Invest로 시장 데이터 리포트 생성해보기
+- 무료 체험 기능을 통해 서비스 성능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 답변의 정확성과 톤앤매너 검토 필요
+- 상세 기능 및 유료 플랜 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+각 기능(Reply, Growth, Invest)의 구체적인 작동 방식과 통합 가능한 플랫폼 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_HaloYKL_media_0.jpg)
+
+---
+
+## 24. [Utter](https://www.producthunt.com/products/utter-3)
+**Votes**: 13 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Plan the work. Ship it with your AI agents.
+**서비스 링크**: https://www.producthunt.com/r/B55HNO4QA3LAP3
+
+**태그**: AI, Collaboration, Automation, DevTool, Productivity, Agent, AI Tool, API
+
+<img src="images/ph_2026-07-18_Utter.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트와 팀이 협업하며 업무를 계획하고 실행하는 통합 워크스페이스
+
+### 🔑 주요 기능
+- 이름이 지정된 AI 에이전트에게 이슈 할당 및 작업 수행
+- 에이전트의 작업 세션을 실시간으로 모니터링
+- 보드, 타임라인, 문서, 자동화를 하나로 통합한 관리 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팀원과 AI 에이전트가 동일한 워크플로우를 공유함으로써, 사람이 계획하고 AI가 실행하는 유기적인 협업이 가능해집니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에이전트에게 이슈 할당해보기
+- 실시간 세션 모니터링 기능 확인
+- API/MCP 서버를 통한 기존 워크플로우 연결
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트의 작업 결과물에 대한 검토 프로세스 필요
+- 기존 협업 툴과의 데이터 마이그레이션 및 연동 복잡도
+
+### 🧭 확인이 더 필요한 정보
+에이전트가 수행하는 작업의 보안 범위와 권한 제어 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Utter_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Utter_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Utter_media_2.jpg)
+
+---
+
+## 25. [Lynkit- Supply Chain Management Software](https://www.producthunt.com/products/lynkit-supply-chain-management-software)
+**Votes**: 13 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: Orchestrating Efficiency In Your Supply Chain
+**서비스 링크**: https://www.producthunt.com/r/7JZ36D6GXBYOZZ
+
+**태그**: SupplyChain, Automation, IoT, Blockchain, Logistics, AI Tool
+
+<img src="images/ph_2026-07-18_Lynkit-_Supply_Chain_Management_Software.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+블록체인과 IoT 기술을 결합한 지능형 공급망 최적화 솔루션
+
+### 🔑 주요 기능
+- 블록체인 기반의 투명한 물류 관리
+- 텔레매틱스 및 IoT를 활용한 실시간 데이터 수집
+- 공급망 프로세스의 자동화 및 디지털 전환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+물류 및 공급망 관리의 복잡성을 줄이고, 최신 기술을 통해 운영 효율성을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 물류 시스템과의 데이터 연동 가능성 확인
+- IoT 및 텔레매틱스 하드웨어 호환성 검토
+- 블록체인 도입에 따른 운영 프로세스 변화 시뮬레이션
+
+### ⚠️ 사용 전 확인할 점
+- 하드웨어(IoT/텔레매틱스) 설치 및 도입 비용 발생 가능성
+- 기존 레거시 시스템과의 통합 난이도
+
+### 🧭 확인이 더 필요한 정보
+구체적인 하드웨어 지원 범위와 기존 ERP 시스템과의 통합 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Lynkit-_Supply_Chain_Managemen_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Lynkit-_Supply_Chain_Managemen_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_Lynkit-_Supply_Chain_Managemen_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/fe2dbe7d-3db9-4121-befc-47c7253479bf.jpeg?auto=format)
+
+---
+
+## 26. [Guidesnap](https://www.producthunt.com/products/guidesnap)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn screen recordings into polished PDF guides in minutes
+**서비스 링크**: https://www.producthunt.com/r/HCGUD62A5BVT7I
+
+**태그**: Productivity, AI, Automation, Documentation, AI Tool
+
+<img src="images/ph_2026-07-18_Guidesnap.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+화면 녹화 영상을 몇 분 만에 세련된 PDF 가이드로 변환해주는 AI 자동화 도구
+
+### 🔑 주요 기능
+- AI 기반의 자동 스크린샷 캡처 및 단계별 단계 감지
+- 음성 내레이션을 텍스트로 자동 변환하는 트랜스크립션 기능
+- 재업로드 없이 브라우저 내에서 간편한 단계 편집 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+SOP, 온보딩 가이드, 제품 매뉴얼 제작 시간을 획기적으로 단축하여 문서 작업의 번거로움을 해결해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 화면 녹화 영상 업로드하기
+- AI가 생성한 단계별 스크린샷 확인하기
+- 브라우저 편집기를 통해 가이드 레이아웃 수정하기
+
+### ⚠️ 사용 전 확인할 점
+- AI의 단계 감지 정확도에 따라 수동 편집이 필요할 수 있음
+- 영상 품질이나 음성 명확도에 따라 결과물의 완성도가 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+상세한 요금제 체계와 지원하는 최대 영상 길이에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Guidesnap_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Guidesnap_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Guidesnap_media_2.jpg)
+
+---
+
+## 27. [Dictro](https://www.producthunt.com/products/dictro)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your private dictation app for Mac.
+**서비스 링크**: https://www.producthunt.com/r/M2233BNBKAN7CD
+
+**태그**: Productivity, AI, Mac, Privacy, Dictation, AI Tool
+
+<img src="images/ph_2026-07-18_Dictro.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+애플 실리콘 기반의 온디바이스 AI로 구현하는 프라이빗 음성 받아쓰기
+
+### 🔑 주요 기능
+- 애플 실리콘 최적화로 강력한 온디바이스 AI 구동
+- 자연스러운 음성을 정제된 텍스트로 변환
+- 개인정보 보호를 위한 로컬 기반의 프라이빗 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+클라우드를 거치지 않는 온디바이스 방식으로 보안 걱정 없이 어떤 Mac 앱에서도 자연스러운 타이핑이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연스러운 구어체로 말해보기
+- Mac의 다른 앱에서 텍스트 입력 테스트하기
+- 애플 실리콘 환경에서의 성능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 애플 실리콘(M 시리즈) 칩셋 환경에서만 최적의 성능 발휘 가능
+- 온디바이스 방식이므로 하드웨어 사양에 따른 처리 속도 차이 존재
+
+### 🧭 확인이 더 필요한 정보
+애플 실리콘 외의 Intel 기반 Mac에서의 지원 여부와 구체적인 시스템 요구 사양 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Dictro_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Dictro_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Dictro_media_2.jpg)
+
+---
+
+## 28. [Postfleet](https://www.producthunt.com/products/postfleet)
+**Votes**: 13 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Prompt-injection-safe email for AI agents
+**서비스 링크**: https://www.producthunt.com/r/U3KPNDRXRGWNIM
+
+**태그**: AI-Agent, Security, DevTool, Automation, Agent, AI Tool, Prompting, API, Email
+
+<img src="images/ph_2026-07-18_Postfleet.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트를 위한 보안 강화형 이메일 인프라 솔루션
+
+### 🔑 주요 기능
+- 프롬프트 인젝션, 스팸, 악성 파일 등 이메일 기반 공격 방어
+- 수신 메시지의 자동 검증, 스크리닝 및 파싱/이해 기능 제공
+- 멱등성이 보장된 아웃바운드 발송 및 선택적 인간 승인 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트가 이메일을 직접 다룰 때 발생할 수 있는 보안 위협을 차단하고, 정제된 데이터만 전달받아 안전하게 업무를 수행할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- REST API를 통한 기존 에이전트 워크플로우 통합
+- 6종의 MCP(Model Context Protocol) 도구 활용
+- 수신 메시지 보안 필터링 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트의 이메일 처리 로직에 따른 파싱 정확도 차이 가능성
+- 보안 검증 단계로 인한 메시지 처리 지연 시간 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+상세한 보안 검증 알고리즘과 구체적인 API 비용 체계에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Postfleet_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Postfleet_media_2.jpg)
+![Screenshot](images/ph_2026-07-18_Postfleet_media_3.jpg)
+
+---
+
+## 29. [Gradus](https://www.producthunt.com/products/gradus-4)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn tasks, habits & goals into one game, one XP bar. 
+**서비스 링크**: https://www.producthunt.com/r/TNX2TGYPLEYJCN
+
+**태그**: Productivity, Gamification, Self-Improvement, Life-Management
+
+<img src="images/ph_2026-07-18_Gradus.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+할 일, 습관, 목표를 하나의 게임처럼 관리하는 통합 생산성 시스템
+
+### 🔑 주요 기능
+- 할 일, 습관, 목표, 캘린더, 저널을 하나의 연결된 시스템으로 통합
+- 경험치(XP), 레벨, 스트릭 시스템을 통한 게임화 요소 도입
+- 죄책감 대신 성취감을 느끼게 하는 일관성 중심의 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 곳에 흩어진 개인의 목표와 일상을 하나의 XP 바로 시각화하여, 성장이 눈에 보이는 즐거움을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 일상 루틴을 시스템에 입력하기
+- 목표 달성 시 부여되는 XP와 레벨 변화 확인하기
+- 연속 달성(Streak) 기능을 통한 습관 형성하기
+
+### ⚠️ 사용 전 확인할 점
+- 게임화 요소가 실제 생산성 향상으로 이어지는지 개인별 차이가 있을 수 있음
+- 모든 개인 기록이 하나의 시스템에 통합되므로 데이터 관리 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 플랫폼 지원 범위(웹/모바일)와 데이터 연동 기능에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Gradus_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Gradus_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Gradus_media_2.jpg)
+
+---
+
+## 30. [Clarognosis](https://www.producthunt.com/products/clarognosis)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Schoolwork - made clear by Claire.
+**서비스 링크**: https://www.producthunt.com/r/EVUUNEJDXSLW26
+
+**태그**: EdTech, AI, Productivity, StudentTools, AI Tool
+
+<img src="images/ph_2026-07-18_Clarognosis.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 학습 동반자 Claire를 통한 고등학생 맞춤형 학습 관리 및 문제 해결 플랫폼
+
+### 🔑 주요 기능
+- AI 기반의 맞춤형 커리큘럼 계획 수립
+- 학습 진도 및 성취도 실시간 트래킹
+- 시각적 도구를 활용한 실시간 문제 해결 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고등학생 사용자가 학습 계획부터 문제 풀이까지 하나의 플랫폼에서 체계적으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Claire와 함께 학습 계획 세워보기
+- 실시간 시각적 문제 해결 기능 테스트하기
+- 학습 진도 트래킹 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 고등학생 교과 과정과의 정합성 확인 필요
+- AI 답변의 정확도 및 문제 풀이 신뢰도 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 문제 풀이 방식의 구체적인 시각적 인터페이스와 학습 데이터 보안 정책에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-07-18_Clarognosis_media_0.jpg)
+![Screenshot](images/ph_2026-07-18_Clarognosis_media_1.jpg)
+![Screenshot](images/ph_2026-07-18_Clarognosis_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ebed2d1d-4d80-46ac-928b-c53930e1228c.jpeg?auto=format)
+
+---
+
