@@ -1,0 +1,200 @@
+# Official Releases (2026-07-19)
+
+## 오늘의 요약
+주요 AI 기업들이 교육 지원, 안전한 AI 환경 구축, 그리고 산업적 가치 입증을 중심으로 기술적 우위를 확보하고 사회적 책임을 강화하는 흐름을 보였습니다.
+
+### 오늘의 핵심 포인트
+- Google과 Anthropic 등 주요 기업들이 교육자를 위한 도구(ATL Saathi, Claude for Teachers)를 출시하며 교육 분야로의 AI 확장을 가속화함
+- Gartner 및 IDC 등 주요 시장 조사 기관에서 Google의 AI 플랫폼 및 파운데이션 모델 역량이 리더로 인정받음
+- AI의 실질적 ROI 측정 프레임워크 제시와 청소년 안전 보호 조치 등 AI의 사회적·경제적 가치와 책임에 대한 논의가 활발함
+
+**오늘의 태그**: AI 교육, AI 안전 및 윤리, 시장 리더십, AI ROI
+
+## 1. [Our approach to bioresilience](https://deepmind.google/blog/our-approach-to-bioresilience/)
+**Source**: Google DeepMind | **Category**: Responsibility & Safety | **Release Type**: safety_update
+
+### 요약
+Google DeepMind와 Isomorphic Labs가 협력하여 생물학적 회복력(bioresilience)을 확보하기 위한 접근 방식을 제시합니다. AI 모델을 활용하여 생물학적 위협에 대한 예방, 탐지 및 대응 역량을 강화하는 것을 목표로 합니다.
+
+### 핵심 포인트
+- Google DeepMind와 Isomorphic Labs의 협력적 접근 방식
+- AI 모델을 통한 생물학적 위협 대응 체계 구축
+- 예방, 탐지 및 대응을 아우르는 bioresilience 전략
+
+**태그**: Google DeepMind, Isomorphic Labs, bioresilience
+
+### 원문 설명
+Google DeepMind and Isomorphic Labs approach to bioresilience, using AI models to support prevention, detection and response.
+
+---
+
+## 2. [Empowering Indiaâs next generation of innovators with ATL Saathi](https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/)
+**Source**: Google DeepMind | **Category**: Responsibility & Safety | **Release Type**: safety_update
+
+### 요약
+Atal Innovation Mission이 Gemini 기반의 AI 어시스턴트인 ATL Saathi를 출시했습니다. 이 도구는 인도의 교육자들이 차세대 혁신가들을 양성할 수 있도록 지원하기 위해 개발되었습니다.
+
+### 핵심 포인트
+- Atal Innovation Mission의 새로운 AI 어시스턴트 ATL Saathi 출시
+- Gemini 모델을 기반으로 구동되는 AI 기술 적용
+- 인도 교육자들의 혁신가 양성 역량 강화 목적
+
+**태그**: Google DeepMind, Gemini, ATL Saathi
+
+### 원문 설명
+Atal Innovation Mission launches ATL Saathi, a Gemini powered AI assistant empowering India's educators to nurture the next generation of innovators.
+
+---
+
+## 3. [13 hands-on demos to build on Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Gemini Enterprise Agent Platform의 역량을 보여주는 13가지 핸즈온 데모를 소개합니다. 각 데모는 즉시 실무에 적용 가능한 개념, 패턴 및 아키텍처를 학습할 수 있도록 구성되었습니다.
+
+### 핵심 포인트
+- Gemini Enterprise Agent Platform의 기능을 탐구하는 13가지 데모 제공
+- 실무에 즉시 활용 가능한 다양한 개념과 패턴 학습 가능
+- 효율적인 에이전트 구축을 위한 아키텍처 가이드 제시
+
+**태그**: Gemini Enterprise Agent Platform, Google Cloud, AI Agent
+
+### 원문 설명
+Here are 13 demos that walk you through what Gemini Enterprise Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately.
+
+---
+
+## 4. [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age)
+**Source**: OpenAI News | **Category**: Company | **Release Type**: announcement
+
+### 요약
+OpenAI의 CFO인 Sarah Friar가 AI 시대의 ROI를 측정하기 위한 실질적인 스코어카드를 소개합니다. 이 프레임워크는 유용한 작업량, 작업당 비용, 신뢰성 및 컴퓨팅 자원 대비 수익을 통해 AI의 가치를 평가합니다.
+
+### 핵심 포인트
+- Sarah Friar(OpenAI CFO)가 제안하는 실질적인 AI ROI 측정 방식
+- 유용한 작업량 및 성공적인 작업당 비용을 통한 가치 산정
+- 신뢰성 및 컴퓨팅 자원 대비 수익(return on compute) 중심의 평가
+
+**태그**: OpenAI, ROI, AI Strategy
+
+### 원문 설명
+Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.
+
+---
+
+## 5. [Why teens deserve access to safe AI](https://openai.com/index/why-teens-deserve-access-safe-ai)
+**Source**: OpenAI News | **Category**: Safety | **Release Type**: safety_update
+
+### 요약
+OpenAI는 청소년들이 안전하게 AI를 활용할 수 있도록 ChatGPT의 안전 기능을 강화하고 있습니다. 연령에 적합한 보호 조치, 학습 도구, 부모 제어 기능 및 전문가 협업을 통해 안전한 환경을 구축하는 것이 목표입니다.
+
+### 핵심 포인트
+- 연령에 적합한 보호 조치를 통한 ChatGPT 안전성 강화
+- 학습 도구 및 부모 제어 기능 제공
+- 전문가 파트너십을 통한 안전한 AI 환경 구축
+
+**태그**: OpenAI, ChatGPT, Safety
+
+### 원문 설명
+Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.
+
+---
+
+## 6. [Google is a Leader and positioned furthest in Vision and highest in Execution in the 2026 Gartner® Magic Quadrant™ for Conversational AI Platforms](https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-the-gartner-magic-quadrant-for-conversational-ai)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Google이 2026 Gartner® Magic Quadrant™ for Conversational AI Platforms에서 Leader로 선정되었습니다. Google은 Vision 부문에서 가장 앞서 있으며, Execution 부문에서도 가장 높은 위치를 차지했습니다.
+
+### 핵심 포인트
+- Google이 2년 연속 Gartner® Magic Quadrant™ for Conversational AI Platforms에서 Leader로 선정됨
+- Vision 부문에서 가장 앞선 위치를 확보함
+- Execution 부문에서 가장 높은 위치를 기록함
+
+**태그**: Google, Gartner, Conversational AI
+
+### 원문 설명
+For the second consecutive year, Google has been named a Leader in the Gartner® Magic Quadrant™ for Conversational AI Platforms.
+
+---
+
+## 7. [How Cars24 scales conversations and builds faster with OpenAI](https://openai.com/index/cars24)
+**Source**: OpenAI News | **Category**: Official Release | **Release Type**: official_update
+
+### 요약
+Cars24는 OpenAI의 기술을 활용하여 음성 및 채팅 에이전트를 구축하고 운영하고 있습니다. 이를 통해 월간 100만 분 이상의 대화를 처리하며 업무 효율성과 리드 회복률을 높이고 있습니다.
+
+### 핵심 포인트
+- OpenAI 기반의 음성 및 채팅 에이전트를 통해 월간 100만 분 이상의 대화 처리
+- 유실되었던 리드의 12%를 회복하는 성과 달성
+- 전사적 팀에 에이전틱 워크플로우(agentic workflows) 도입
+
+**태그**: OpenAI, Cars24, Agentic Workflows
+
+### 원문 설명
+Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.
+
+---
+
+## 8. [Google named a Leader in the 2026 IDC MarketScape for Worldwide Foundation Model Software](https://cloud.google.com/blog/products/ai-machine-learning/google-named-a-leader-in-idc-marketscape)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Google이 IDC MarketScape의 2026년 전 세계 파운데이션 모델 소프트웨어 벤더 평가에서 리더로 선정되었습니다. 이번 평가는 전 세계 파운데이션 모델 소프트웨어 시장에서의 Google의 위치를 입증합니다.
+
+### 핵심 포인트
+- Google이 IDC MarketScape: Worldwide Foundation Model Software 2026 Vendor Assessment에서 Leader로 선정됨
+- 전 세계 파운데이션 모델 소프트웨어 시장에서의 기술적 입지 확인
+
+**태그**: Google, IDC MarketScape, Foundation Model
+
+### 원문 설명
+Google has been named a Leader in the IDC MarketScape: Worldwide Foundation Model Software 2026 Vendor Assessment.
+
+---
+
+## 9. [Jul 14, 2026 Product Introducing Claude for Teachers](https://www.anthropic.com/news/claude-for-teachers)
+**Source**: Anthropic News | **Category**: Product | **Release Type**: product_release
+
+### 요약
+Anthropic이 교육자를 위한 새로운 기능인 Claude for Teachers를 출시했습니다. 이 기능은 교사들의 교육 업무를 지원하기 위해 설계되었습니다.
+
+### 핵심 포인트
+- Anthropic의 새로운 제품인 Claude for Teachers 도입
+- 교육자를 대상으로 한 특화된 기능 제공
+- 교사들의 업무 효율성을 높이기 위한 목적
+
+**태그**: Anthropic, Claude, Education
+
+---
+
+## 10. [Jul 14, 2026 Announcements Anthropic commits $10 million to Canadian AI research](https://www.anthropic.com/news/canadian-ai-research)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 캐나다의 AI 연구 발전을 위해 1,000만 달러를 기부하기로 약속했습니다. 이번 결정은 캐나다 내 AI 연구 생태계를 지원하기 위한 조치입니다.
+
+### 핵심 포인트
+- Anthropic의 1,000만 달러 규모 캐나다 AI 연구 기부 발표
+- 캐나다 내 AI 연구 역량 강화를 위한 투자
+- AI 연구 생태계 발전을 위한 Anthropic의 전략적 결정
+
+**태그**: Anthropic, AI Research, Canada
+
+---
+
+## 11. [Inviting hard questions Announcements Jul 9, 2026 We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.](https://www.anthropic.com/news/hard-questions)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 AI에 대한 대중의 가장 어려운 질문들을 모집하며, 이에 대한 답변 과정을 투명하게 공개할 것을 약속했습니다. 이는 AI의 난제들을 해결하는 과정에서 작업 내용을 공유하겠다는 의지를 담고 있습니다.
+
+### 핵심 포인트
+- AI와 관련된 대중의 어려운 질문들을 모집함
+- 질문에 대한 답변 및 해결 과정을 투명하게 공개할 것을 약속함
+- AI의 난제 해결을 위한 Anthropic의 작업 방식 공개
+
+**태그**: Anthropic, AI, Transparency
+
+---
+
