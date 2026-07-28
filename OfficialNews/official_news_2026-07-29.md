@@ -1,0 +1,218 @@
+# Official Releases (2026-07-29)
+
+## 오늘의 요약
+주요 AI 기업들이 에이전트 기능 강화, 전문 분야(과학·의료·보안) 특화 모델 출시, 그리고 기업용 솔루션 확장을 중심으로 차세대 AI 생태계를 구축하고 있습니다.
+
+### 오늘의 핵심 포인트
+- Google과 Anthropic이 에이전트 성능 및 전문 업무(코딩, 보안, 과학 연구)에 최적화된 신규 모델 라인업을 발표했습니다.
+- OpenAI는 헬스케어 및 기업용 에이전트 플랫폼(Presence)을 통해 AI의 실생활 및 비즈니스 적용 범위를 넓혔습니다.
+- AI 에이전트 기술이 과학적 발견과 소프트웨어 개발의 효율성을 가속화하는 핵심 동력으로 부상하고 있습니다.
+
+**오늘의 태그**: AI 에이전트, 모델 출시, 기업용 AI, 과학적 발견, 보안 및 헬스케어
+
+## 1. [Introducing Gemini 3.5 Flash Cyber](https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/)
+**Source**: Google DeepMind | **Category**: Models | **Release Type**: product_release
+
+### 요약
+Google DeepMind가 보안 방어자를 위해 Gemini 3.5 Flash Cyber를 출시했습니다. 이 모델은 소프트웨어 취약점을 신속하게 탐지, 검증 및 패치할 수 있도록 설계되었습니다.
+
+### 핵심 포인트
+- Gemini 3.5 Flash Cyber 모델 출시
+- 소프트웨어 취약점 탐지 및 검증 기능 제공
+- 효율적인 취약점 패치 프로세스 지원
+
+**태그**: Google DeepMind, Gemini 3.5 Flash Cyber, Cybersecurity
+
+### 원문 설명
+Google introduces Gemini 3.5 Flash Cyber to help defenders find, validate, and patch software vulnerabilities quickly and efficiently.
+
+---
+
+## 2. [Accelerating the frontiers of scientific discovery: Googleâs $40M commitment to the Genesis Mission](https://cloud.google.com/blog/topics/public-sector/accelerating-frontiers-of-scientific-discovery-40-million-dollar-commitment-genesis-mission)
+**Source**: Google DeepMind | **Category**: Official Release | **Release Type**: official_update
+
+### 요약
+Google은 DOE의 Genesis Mission을 지원하고 혁신적인 과학적 발견을 가속화하기 위해 4,000만 달러 규모의 AI 토큰과 클라우드 크레딧을 제공하기로 했습니다. 이번 지원을 통해 과학 연구 분야의 최첨단 기술 발전을 도모할 계획입니다.
+
+### 핵심 포인트
+- Google의 4,000만 달러 규모 AI 토큰 및 클라우드 크레딧 지원 발표
+- DOE의 Genesis Mission 지원을 통한 과학적 발견 가속화
+- AI 기술을 활용한 혁신적인 과학 연구 생태계 구축
+
+**태그**: Google, Genesis Mission, AI
+
+### 원문 설명
+Google is committing $40 million in AI tokens and cloud credits to support the DOE’s Genesis Mission and accelerate groundbreaking scientific discovery.
+
+---
+
+## 3. [Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=)
+**Source**: Google DeepMind | **Category**: Models | **Release Type**: product_release
+
+### 요약
+Google DeepMind가 새로운 Gemini 모델 라인업인 Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber를 발표했습니다. 이번 발표는 다양한 용도에 맞춘 새로운 Flash 계열 모델들의 출시를 담고 있습니다.
+
+### 핵심 포인트
+- Gemini 3.6 Flash 모델 출시
+- Gemini 3.5 Flash-Lite 모델 출시
+- Gemini 3.5 Flash Cyber 모델 출시
+
+**태그**: Google DeepMind, Gemini, AI Models
+
+### 원문 설명
+We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.
+
+---
+
+## 4. [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)
+**Source**: OpenAI News | **Category**: Publication | **Release Type**: official_update
+
+### 요약
+AI 코딩 에이전트가 과학적 계산 방식을 현대화하여 소프트웨어 개발과 발견 속도를 높이는 과정을 다룬 새로운 분야 보고서가 발표되었습니다. 유전학을 포함한 다양한 과학 분야에서 AI 에이전트가 연구 효율성을 어떻게 가속화하는지 보여줍니다.
+
+### 핵심 포인트
+- AI 코딩 에이전트를 활용한 과학적 계산 방식의 현대화
+- 소프트웨어 개발 및 과학적 발견 속도 가속화
+- 유전학 등 다양한 과학 분야로의 확장 가능성
+
+**태그**: AI Agent, Scientific Computing, Software Development
+
+### 원문 설명
+A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.
+
+---
+
+## 5. [Jul 27, 2026 Announcements Our position on open-weights models](https://www.anthropic.com/news/position-open-weights-models)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Anthropic이 오픈 웨이트(open-weights) 모델에 대한 공식 입장을 발표했습니다. 이번 발표는 모델 공개 범위와 관련된 회사의 전략적 방향을 담고 있습니다.
+
+### 핵심 포인트
+- Anthropic의 오픈 웨이트 모델에 대한 공식 입장 발표
+- 모델 공개 정책 및 전략적 방향성 제시
+
+**태그**: Anthropic, Open-weights, AI Policy
+
+---
+
+## 6. [Jul 27, 2026 Announcements Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients](https://www.anthropic.com/news/cognizant-anthropic)
+**Source**: Anthropic News | **Category**: Announcements | **Release Type**: announcement
+
+### 요약
+Cognizant와 Anthropic이 파트너십을 확장하여 기업 고객들에게 Claude를 제공하기로 했습니다. 이번 협력을 통해 기업용 AI 솔루션 도입이 가속화될 전망입니다.
+
+### 핵심 포인트
+- Cognizant와 Anthropic의 파트너십 확장 발표
+- 기업 고객을 대상으로 Claude 모델 제공
+- 엔터프라이즈급 AI 서비스 역량 강화
+
+**태그**: Anthropic, Cognizant, Claude
+
+---
+
+## 7. [Introducing Claude Opus 5 Product Jul 24, 2026 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.](https://www.anthropic.com/news/claude-opus-5)
+**Source**: Anthropic News | **Category**: Product | **Release Type**: product_release
+
+### 요약
+Anthropic이 새로운 Opus 모델인 Claude Opus 5를 출시했습니다. 이번 모델은 장기 실행 에이전트 구동과 코딩 및 전문 업무 역량 강화에 중점을 둔 혁신적인 성능 향상을 제공합니다.
+
+### 핵심 포인트
+- Opus 티어의 성능을 대폭 개선한 Claude Opus 5 출시
+- 장기 실행 에이전트(long-running agents) 구동에 최적화
+- 코딩 및 전문적인 업무 수행 능력 향상
+
+**태그**: Anthropic, Claude Opus 5, AI Agent
+
+---
+
+## 8. [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt)
+**Source**: OpenAI News | **Category**: Product | **Release Type**: product_release
+
+### 요약
+OpenAI가 ChatGPT에서 사용할 수 있는 새로운 Health 기능을 출시했습니다. 자격 요건을 갖춘 미국 사용자는 의료 기록과 Apple Health를 안전하게 연결하여 더욱 개인화된 건강 인사이트를 얻을 수 있습니다.
+
+### 핵심 포인트
+- ChatGPT 내 새로운 Health 기능 출시
+- 의료 기록 및 Apple Health 데이터 연동 지원
+- 개인화된 건강 인사이트 제공 및 건강 상태 이해 증진
+
+**태그**: OpenAI, ChatGPT, Health
+
+### 원문 설명
+Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.
+
+---
+
+## 9. [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence)
+**Source**: OpenAI News | **Category**: Product | **Release Type**: product_release
+
+### 요약
+OpenAI가 기업용 AI 에이전트 플랫폼인 OpenAI Presence를 출시했습니다. 이 플랫폼은 조직이 고객 서비스 및 내부 워크플로를 위해 신뢰할 수 있는 음성 및 채팅 에이전트를 배포할 수 있도록 지원합니다.
+
+### 핵심 포인트
+- 기업용 AI 에이전트 플랫폼인 OpenAI Presence 출시
+- 고객 및 내부 워크플로를 위한 음성 및 채팅 에이전트 배포 지원
+- 검증된 기업용 솔루션 제공
+
+**태그**: OpenAI, OpenAI Presence, AI Agent
+
+### 원문 설명
+Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows.
+
+---
+
+## 10. [Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge](https://qwen.ai/blog?id=qwen-image-3.0)
+**Source**: Qwen Blog | **Category**: Release | **Release Type**: official_update
+
+### 요약
+Qwen-Image-3.0은 Qwen-Image 시리즈의 3세대 기초 이미지 생성 모델로, 핵심 가치를 'Real(실)'로 정의합니다. 이전 세대의 정밀함과 다양성을 넘어 더욱 사실적인 디테일과 깊은 지식을 구현하는 데 중점을 두었습니다.
+
+### 핵심 포인트
+- Qwen-Image 시리즈의 3세대 기초 이미지 생성 모델 출시
+- 핵심 키워드를 'Real(실)'로 정의하며 세 가지 차원에서 구현
+- 풍부한 콘텐츠, 사실적인 디테일, 깊은 지식 결합
+
+**태그**: Qwen-Image-3.0, Image Generation, AI Model
+
+### 원문 설명
+We are launching Qwen-Image-3.0, the third-generation foundational image generation model in the Qwen-Image series. If the keyword for Qwen-Image-1.0 was "Precision", and the keywords for Qwen-Image-2.0 were "Precision, Variety, Completeness, Beauty, and Authenticity", then the core of Qwen-Image-3.0 comes down to a single word — "Real" (实). This "Real" is embodied across three dimensions:...
+
+---
+
+## 11. [13 hands-on demos to build on Gemini Enterprise Agent Platform](https://cloud.google.com/blog/products/ai-machine-learning/13-demos-on-gemini-enterprise-agent-platform)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Gemini Enterprise Agent Platform의 역량을 보여주는 13가지 핸즈온 데모를 소개합니다. 각 데모는 즉시 실무에 적용 가능한 개념, 패턴 및 아키텍처를 학습할 수 있도록 구성되었습니다.
+
+### 핵심 포인트
+- Gemini Enterprise Agent Platform의 기능을 탐구하는 13가지 데모 제공
+- 실무에 즉시 활용 가능한 다양한 개념과 패턴 학습 가능
+- 효율적인 에이전트 구축을 위한 아키텍처 가이드 제시
+
+**태그**: Gemini Enterprise Agent Platform, Google Cloud, AI Agent
+
+### 원문 설명
+Here are 13 demos that walk you through what Gemini Enterprise Agent Platform can do. Each one teaches a concept, a pattern, or an architecture you can put to work immediately.
+
+---
+
+## 12. [Google is a Leader and positioned furthest in Vision and highest in Execution in the 2026 Gartner® Magic Quadrant™ for Conversational AI Platforms](https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-the-gartner-magic-quadrant-for-conversational-ai)
+**Source**: Google Cloud AI | **Category**: AI & Machine Learning | **Release Type**: engineering_update
+
+### 요약
+Google이 2026 Gartner® Magic Quadrant™ for Conversational AI Platforms에서 Leader로 선정되었습니다. Google은 Vision 부문에서 가장 앞서 있으며, Execution 부문에서도 가장 높은 위치를 차지했습니다.
+
+### 핵심 포인트
+- Google이 2년 연속 Gartner® Magic Quadrant™ for Conversational AI Platforms에서 Leader로 선정됨
+- Vision 부문에서 가장 앞선 위치를 확보함
+- Execution 부문에서 가장 높은 위치를 기록함
+
+**태그**: Google, Gartner, Conversational AI
+
+### 원문 설명
+For the second consecutive year, Google has been named a Leader in the Gartner® Magic Quadrant™ for Conversational AI Platforms.
+
+---
+
