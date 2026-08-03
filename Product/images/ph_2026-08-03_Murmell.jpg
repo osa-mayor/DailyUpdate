@@ -1,0 +1,22 @@
+<!--
+  The Murmell mark: a murmur, drawn.
+
+  Ink on a white plate, not a colour. The product's colour law says a saturated
+  colour means "an agent" or "a person" — a house colour would be a third meaning,
+  and would sit Murmell visually alongside the providers it is meant to sit
+  underneath. The mark is the table, not a player at it.
+
+  `28b400a` applied that law to the surfaces (App.tsx, Mark.tsx) but not here, so
+  the tab kept the old orange-on-dark plate. The stroke is 2.6 to match Mark.tsx
+  exactly: its comment claims the path is "verbatim from the favicon so the two can
+  never drift apart", and the width has to hold that promise up too.
+
+  The plate stays, unlike on a surface: a tiny fixed box in a tab strip needs a
+  shape to be found by, where a bare line reads as a smudge.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Murmell">
+  <rect width="32" height="32" rx="7" fill="#0f1218"/>
+  <path d="M4 21 L8 21 L11 13 L14 24 L17 9 L20 19 L23 15 L28 15"
+        fill="none" stroke="#ffffff" stroke-width="2.6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
