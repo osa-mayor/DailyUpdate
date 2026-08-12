@@ -1,0 +1,1233 @@
+# 🚀 Product Hunt Daily Top 30 (2026-08-13)
+
+## 오늘의 요약
+오늘의 트렌드는 단순한 챗봇을 넘어 실제 업무를 수행하고 결과물을 생성하는 '에이전트(Agent)' 기술의 고도화와 이를 로컬 환경에서 자유롭게 제어하려는 움직임이 두드러졌습니다. 특히 클라우드 의존도를 낮추고 개인의 GPU나 API를 활용하는 오픈소스 기반의 도구들이 많은 주목을 받았습니다.
+
+### 오늘의 핵심 포인트
+- 사용자의 도구를 직접 조작하며 실질적인 업무를 완수하는 자율형 AI 에이전트 서비스가 등장했습니다.
+- 로컬 GPU를 활용한 모델 실행 및 학습, 에이전트 간 파일 공유 등 오픈소스 기반의 강력한 개발 환경이 강조되었습니다.
+- 아이디어를 즉시 풀스택 앱으로 구현하거나 타겟 고객 리스트를 직관적으로 필터링하는 등 생산성 극대화 도구들이 주목받았습니다.
+
+**오늘의 태그**: AI 에이전트, 오픈소스, 로컬 LLM, 업무 자동화, 풀스택 빌더
+
+## 1. [Dograh](https://www.producthunt.com/products/dograh)
+**Votes**: 444 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: The open source VAPI alternative
+**서비스 링크**: https://www.producthunt.com/r/DAII3FVF5KT5VU
+
+**태그**: OpenSource, VoiceAI, DevTool, Automation, Agent, API
+
+<img src="images/ph_2026-08-12_Dograh.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+제약 없는 커스텀 음성 에이전트 구축을 위한 오픈소스 VAPI 대안
+
+### 🔑 주요 기능
+- 완전 오픈소스 기반의 자유로운 셀프 호스팅 지원
+- 시각적 플로우 빌더 및 30개 이상의 모델 통합 기능
+- 전화 연결, 상담원 전환, 고급 QA 및 모니터링 포함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+특정 플랫폼에 종속되지 않고 로컬 모델이나 원하는 API를 자유롭게 연결하여 독자적인 음성 에이전트 시스템을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 한 번의 명령어로 셀프 호스팅 환경 구축하기
+- 시각적 플로우 빌더로 음성 에이전트 워크플로우 설계하기
+- MCP를 통해 Claude Code와 연결하여 음성 에이전트 빌드하기
+
+### ⚠️ 사용 전 확인할 점
+- 셀프 호스팅 방식이므로 서버 관리 및 인프라 운영 역량이 필요함
+- 로컬 모델 사용 시 하드웨어 사양에 따른 성능 제약 가능성
+
+### 🧭 확인이 더 필요한 정보
+사용자의 하드웨어 환경에 따른 최적의 성능 및 안정성 확보 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Dograh_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Dograh_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Dograh_media_2.jpg)
+
+---
+
+## 2. [Grok Bot](https://www.producthunt.com/products/grok)
+**Votes**: 377 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: AI teammates that you can give real work to
+**서비스 링크**: https://www.producthunt.com/r/QE45KIR5XX72OH
+**재등장**: 최근 7일 내 재등장 (마지막 등장 2일 전)
+
+**태그**: Automation, AI Agent, Productivity, Workflow, AI Tool, DevTool
+
+<img src="images/ph_2026-08-12_Grok_Bot.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 도구를 직접 사용하며 실질적인 업무를 완수하는 AI 팀원
+
+### 🔑 주요 기능
+- 사용자의 도구에 직접 로그인하여 사람처럼 업무 수행
+- 맥락 유지, 멀티태스킹 및 사용자 작업 스타일 학습 기능
+- 승인이 필요한 시점에만 사용자에게 보고하는 자율적 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 답변을 넘어 실제 업무 프로세스를 자동화하여, 사용자는 최종 승인과 의사결정에만 집중할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 반복적인 아웃바운드 업무 위임하기
+- 이메일 기반의 비용 처리 자동화 시도하기
+- 채용 일정 조율 등 스케줄링 업무 맡기기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 도구에 직접 로그인하므로 보안 및 권한 관리 주의 필요
+- 자율적인 작업 수행 과정에서의 예기치 않은 동작 가능성
+
+### 🧭 확인이 더 필요한 정보
+사용자의 도구와 연동되는 구체적인 보안 프로토콜 및 데이터 처리 방식에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Grok_Bot_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Grok_Bot_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Grok_Bot_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bee2454a-11b6-412b-b1e6-7b139057b1c4.jpeg?auto=format)
+
+---
+
+## 3. [Lettertrace](https://www.producthunt.com/products/lettertrace)
+**Votes**: 339 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Track your AI visibility for free (using your own API keys!)
+**서비스 링크**: https://www.producthunt.com/r/PERZM7L6ETGORE
+
+**태그**: DevTool, AI-Analytics, OpenSource, Marketing-Tech, AI Tool, Chat, API
+
+<img src="images/ph_2026-08-12_Lettertrace.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자신의 API 키를 사용하여 AI 모델(ChatGPT, Claude, Gemini) 내 브랜드 노출도를 추적하는 오픈소스 도구
+
+### 🔑 주요 기능
+- 주요 LLM(Claude, ChatGPT, Gemini)에서의 브랜드 언급 빈도 측정
+- 사용자 개인 API 키를 사용하는 BYOK(Bring Your Own Key) 방식
+- 오픈소스 기반의 개발자 친화적인 무료 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기업이나 브랜드가 AI 답변 엔진에서 얼마나 자주 언급되는지 비용 부담 없이 실시간으로 모니터링할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 API 키를 연동하여 측정 환경 설정하기
+- 주요 AI 모델별 브랜드 노출도 비교 분석하기
+
+### ⚠️ 사용 전 확인할 점
+- 개인 API 키를 직접 사용하므로 키 관리 및 비용 발생에 유의해야 함
+- 사용자 직접 설정 방식이므로 기술적 이해도가 필요함
+
+### 🧭 확인이 더 필요한 정보
+사용자의 API 호출량에 따른 추가 비용 발생 여부와 상세 측정 로직에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Lettertrace_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Lettertrace_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Lettertrace_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8b55c452-18cc-4881-954c-09e1386a8a1c.jpeg?auto=format)
+
+---
+
+## 4. [Assembly Studio](https://www.producthunt.com/products/assembly-7)
+**Votes**: 217 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI app builder that grows your revenue
+**서비스 링크**: https://www.producthunt.com/r/BHXHHSAE44JNNA
+
+**태그**: AI, NoCode, SaaS, Automation, BusinessTools, Agent, AI Tool, Analytics
+
+<img src="images/ph_2026-08-12_Assembly_Studio.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전문 서비스 기업을 위한 맞춤형 AI 앱 빌더로, 비용 절감과 업무 자동화를 실현합니다.
+
+### 🔑 주요 기능
+- 전문 서비스 기업에 최적화된 AI 기반 앱 빌더
+- 온보딩 에이전트, 대시보드, 커뮤니티 허브 등 20개 이상의 템플릿 제공
+- 기존 고가 소프트웨어를 대체할 수 있는 커스텀 앱 구축 및 외부 도구 연동
+
+### 🙋 사용자에게 어떤 점이 좋은가
+비싼 인당 과금 방식의 소프트웨어 대신, 기업의 필요에 맞는 앱을 직접 만들어 비용을 절감하고 업무 효율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 20개 이상의 템플릿을 활용한 앱 리믹스
+- 기존에 사용 중인 고가 앱의 기능 복제 및 커스텀 빌드
+- 외부 3rd-party 도구와의 연동 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 사용자 정의 기능 구현 시 기술적 제약 사항 확인 필요
+- 기존 소프트웨어의 모든 기능을 완벽히 대체할 수 있는지 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 템플릿의 세부 기능과 외부 도구 연동의 범위가 어느 정도인지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Assembly_Studio_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Assembly_Studio_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Assembly_Studio_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0257b660-6792-49d4-853a-846dd32837e6.jpeg?auto=format)
+
+---
+
+## 5. [Unsloth Desktop](https://www.producthunt.com/products/unsloth)
+**Votes**: 185 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Run and train AI models locally on your desktop
+**서비스 링크**: https://www.producthunt.com/r/V5SG67QSMWW4I2
+
+**태그**: AI, OpenSource, MLOps, DevTool, Agent, Automation, AI Tool, LLM, Video, Vision
+
+<img src="images/ph_2026-08-12_Unsloth_Desktop.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+내 컴퓨터의 GPU를 활용해 AI 모델을 로컬에서 실행하고 학습시키는 오픈소스 데스크톱 앱
+
+### 🔑 주요 기능
+- LLM, 이미지/비디오 확산 모델, 오디오 모델의 로컬 실행 지원
+- Claude Code나 Codex 같은 에이전트를 로컬 GPU에 간편하게 연결
+- 코딩 없이 모델을 미세 조정(Fine-tuning)할 수 있는 노코드 워크플로우 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+클라우드 비용 걱정 없이 개인 GPU를 활용해 강력한 AI 모델을 직접 구동하고 학습시킬 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 LLM 모델 구동해보기
+- 노코드 워크플로우로 모델 파인튜닝 시도하기
+- AI 에이전트와 로컬 GPU 연결하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 하드웨어(GPU) 사양에 따른 성능 제약
+- 오픈소스 앱이므로 사용자 환경에 따른 설치 및 설정 복잡도 존재
+
+### 🧭 확인이 더 필요한 정보
+사용자의 하드웨어 사양에 따른 최적의 성능 발휘 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Unsloth_Desktop_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Unsloth_Desktop_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Unsloth_Desktop_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/397c4c2d-4817-420f-bff0-27793feabd85.jpeg?auto=format)
+
+---
+
+## 6. [BearDrive](https://www.producthunt.com/products/beardrive)
+**Votes**: 136 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**:  The open-source shared folder for your team's AI agents
+**서비스 링크**: https://www.producthunt.com/r/M5MZKVAGCTAZLN
+
+**태그**: AI-Agent, DevTool, OpenSource, Automation, Collaboration, Agent, AI Tool
+
+<img src="images/ph_2026-08-12_BearDrive.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 생성한 로컬 파일을 팀원과 실시간으로 공유하고 동기화하는 오픈소스 협업 도구
+
+### 🔑 주요 기능
+- 에이전트가 생성한 로컬 파일(보고서, CSV 등)을 즉시 공유 가능한 상태로 동기화
+- 파일 이동 없이 로컬 경로를 유지하며 에이전트 간 작업물 공유 및 버전 관리
+- Claude Code, Gemini CLI 등 다양한 로컬 AI 도구와 호환되는 오픈소스 솔루션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트가 만든 결과물을 수동으로 업로드할 필요 없이, 팀원들이 즉시 확인하고 협업할 수 있는 자동화된 워크플로우를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 개발 환경에 BearDrive 설치 및 설정
+- Claude Code나 Gemini CLI 등 기존 AI 도구와 연동 테스트
+- 에이전트 세션별 파일 버전 및 속성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 파일 시스템을 동기화하므로 보안 및 권한 설정 주의 필요
+- 베타 기간 동안 제공되는 관리형 서비스의 향후 유료화 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 파일 동기화 시 발생할 수 있는 파일 충돌 해결 방식과 보안 프로토콜에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_BearDrive_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_BearDrive_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_BearDrive_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/802a4706-1ce5-48f0-a5a4-34f21a7ca11e.jpeg?auto=format)
+
+---
+
+## 7. [Swipe](https://www.producthunt.com/products/swipe-9)
+**Votes**: 125 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Swipe right on your next customer 
+**서비스 링크**: https://www.producthunt.com/r/GQEYPG4ZF2HMVQ
+
+**태그**: Sales, LeadGeneration, Productivity, AI Tool, Email
+
+<img src="images/ph_2026-08-12_Swipe.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+타겟 고객 정보를 입력하면 검증된 기업 리스트를 카드 스와이프 방식으로 빠르게 필터링하는 서비스
+
+### 🔑 주요 기능
+- 타겟 고객 유형 입력 시 실존 기업 리스트 제공
+- 스와이프 방식을 통한 직관적인 잠재 고객 선별
+- 선별된 리스트의 간편한 CSV 내보내기 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+영업 대상 기업을 찾는 시간을 단축하고, 스와이프 방식으로 쉽고 재미있게 잠재 고객 리스트를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 판매 대상 고객 유형 입력하기
+- 스와이프하며 관심 기업 선별하기
+- 필터링된 리스트 CSV로 내보내기
+
+### ⚠️ 사용 전 확인할 점
+- 데이터의 최신성 및 기업 정보의 정확도 확인 필요
+- 이메일 주소 등 직접적인 연락처 정보 제공 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 기업 리스트의 데이터 소스와 업데이트 주기에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Swipe_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Swipe_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Swipe_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c40da5d0-4714-4245-b0cc-84711b37917b.jpeg?auto=format)
+
+---
+
+## 8. [LaraCopilot](https://www.producthunt.com/products/laracopilot)
+**Votes**: 125 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Agentic AI Engineer that builds real apps
+**서비스 링크**: https://www.producthunt.com/r/7NRE4MBHHDCUWM
+
+**태그**: AI-Engineer, FullStack, NoCode, DevTool, Automation, Agent, AI Tool, API
+
+<img src="images/ph_2026-08-12_LaraCopilot.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아이디어만 말하면 UI부터 백엔드까지 풀스택 앱을 완성하는 AI 엔지니어
+
+### 🔑 주요 기능
+- 자연어 설명을 통한 풀스택 앱(UI, 백엔드, DB, 인증, API) 자동 생성
+- 클라우드 원클릭 배포 및 GitHub 코드 내보내기 지원
+- 특정 플랫폼에 종속되지 않는 코드 소유권 보장
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코딩 과정 없이 아이디어를 즉시 작동하는 프로토타입이나 실제 서비스로 구현할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어로 아이디어 설명하여 앱 생성해보기
+- 생성된 코드의 GitHub 내보내기 기능 테스트
+- 원클릭 배포를 통한 클라우드 환경 확인
+
+### ⚠️ 사용 전 확인할 점
+- 생성된 코드의 복잡도에 따른 유지보수 필요성 확인 필요
+- 아이디어의 복잡도에 따른 생성 결과물의 완성도 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+사용자의 아이디어가 얼마나 복잡한 비즈니스 로직을 포함할 수 있는지에 대한 구체적인 한계치가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_LaraCopilot_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_LaraCopilot_media_2.jpg)
+![Screenshot](images/ph_2026-08-12_LaraCopilot_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f4246fa3-08c7-412b-84da-8237afd0ab00.jpeg?auto=format)
+
+---
+
+## 9. [Click](https://www.producthunt.com/products/click-6)
+**Votes**: 118 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Live research context for ChatGPT and Claude
+**서비스 링크**: https://www.producthunt.com/r/LPBGWEQU47MYOU
+
+**태그**: AI, Research, Productivity, Data, Chat
+
+<img src="images/ph_2026-08-12_Click.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+ChatGPT와 Claude에 실시간 전문 데이터와 소셜 컨텍스트를 연결하는 MCP 도구
+
+### 🔑 주요 기능
+- 전문 플랫폼, 마켓플레이스, 금융 등 외부 데이터 소스 제공
+- 기존 웹 검색이 놓치는 심층적인 리서치 컨텍스트 확보
+- 1분 내외의 간편한 MCP 설치로 AI 채팅 환경 확장
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 모델의 기본 검색 기능을 넘어, 전문적인 시장 조사나 소셜 트렌드 분석을 채팅창 안에서 즉시 수행할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- MCP 설정을 통한 ChatGPT/Claude 연동
+- 전문 플랫폼 데이터 기반의 리서치 수행
+- 실시간 시장/금융 데이터 컨텍스트 활용
+
+### ⚠️ 사용 전 확인할 점
+- 사용 중인 AI 모델(ChatGPT, Claude)의 MCP 지원 여부 확인 필요
+- 외부 데이터 소스에 따른 정보의 최신성 및 정확성 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 구체적인 외부 데이터 소스 리스트와 각 플랫폼별 연동 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Click_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Click_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Click_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/94e71bd5-af05-4b17-bafb-5b2faa25eb52.jpeg?auto=format)
+
+---
+
+## 10. [RightCard](https://www.producthunt.com/products/rightcard)
+**Votes**: 113 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The honest credit card picker — no bank login
+**서비스 링크**: https://www.producthunt.com/r/QBAV2SQH3UB2NZ
+
+**태그**: FinTech, Productivity, Privacy, BrowserExtension, AI Tool
+
+<img src="images/ph_2026-08-12_RightCard.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인정보 유출 걱정 없이 최적의 신용카드 결제 혜택을 찾아주는 브라우저 확장 프로그램
+
+### 🔑 주요 기능
+- 로그인이나 계정 생성 없이 브라우저에 로그인된 정보를 읽어 혜택 추천
+- 카드별 5% 적립 카테고리 및 카드 혜택(Credit) 갱신 알림 제공
+- 개인정보 추적 없는 오프라인 기반의 프라이버시 중심 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+매번 어떤 카드를 써야 할지 고민할 필요 없이, 현재 접속 중인 페이지를 바탕으로 가장 유리한 결제 수단을 즉시 제안받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Safari 확장 프로그램 설치 및 활성화
+- 보유 중인 신용카드 혜택 페이지 접속하여 데이터 연동 확인
+- 연간 회비 및 카드 크레딧 알림 설정
+
+### ⚠️ 사용 전 확인할 점
+- Safari 브라우저 환경에서만 작동하는 확장 프로그램임
+- 사용자가 이미 로그인되어 있는 페이지의 정보를 읽는 방식이므로 브라우저 권한 설정 필요
+
+### 🧭 확인이 더 필요한 정보
+특정 카드사의 혜택 페이지가 확장 프로그램의 데이터 읽기 방식과 호환되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_RightCard_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_RightCard_media_2.jpg)
+![Screenshot](images/ph_2026-08-12_RightCard_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/de90fd57-a7cc-4893-b9ea-256b82bee584.jpeg?auto=format)
+
+---
+
+## 11. [Media Sharing](https://www.producthunt.com/products/argos)
+**Votes**: 101 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Let AI agents put screenshots and videos on pull requests
+**서비스 링크**: https://www.producthunt.com/r/7H4EU74P6N6V4Z
+
+**태그**: DevTool, Automation, GitHub, AI-Agent, Agent, AI Tool, Video, Vision, API
+
+<img src="images/ph_2026-08-12_Media_Sharing.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트와 CI를 위한 자동화된 PR 스크린샷 및 영상 업로드 도구
+
+### 🔑 주요 기능
+- GitHub API의 이미지 첨부 제약을 해결하여 자동화된 시각 자료 제공
+- 명령어 한 번으로 스크린샷/녹화를 안정적인 공유 링크로 변환
+- 즉시 붙여넣을 수 있는 Markdown 형식 지원 및 PR 자동 게시
+
+### 🙋 사용자에게 어떤 점이 좋은가
+CI/CD 환경이나 AI 에이전트가 작업 결과물을 시각적으로 증명해야 할 때, 수동 작업 없이 PR에 결과물을 즉시 업데이트할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- CLI 명령어를 통해 스크린샷을 Markdown 링크로 변환해보기
+- CI/CD 파이프라인에 연동하여 자동화된 PR 업데이트 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- GitHub API 제약 사항을 우회하는 방식이므로 보안 정책 확인 필요
+- 생성된 미디어 파일의 저장소 안정성 및 관리 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 보안 정책 및 미디어 파일 저장 방식에 대한 구체적인 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Media_Sharing_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Media_Sharing_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Media_Sharing_media_2.jpg)
+
+---
+
+## 12. [CodeBurn](https://www.producthunt.com/products/codeburn)
+**Votes**: 99 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: See where your AI coding spend actually goes
+**서비스 링크**: https://www.producthunt.com/r/3KOLYFQJGZVXFL
+
+**태그**: DevTool, AI, Cost-Management, OpenSource, AI Tool
+
+<img src="images/ph_2026-08-12_CodeBurn.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 코딩 도구의 토큰 사용량과 비용을 프로젝트별로 추적하고 최적화하는 오픈소스 도구
+
+### 🔑 주요 기능
+- Claude Code, Cursor 등 다양한 AI 코딩 도구의 세션 파일을 읽어 비용 분석
+- 태스크, 모델, 프로젝트, PR 단위로 상세한 토큰 및 비용 시각화
+- 캐시 낭비나 재시도 비용 등 불필요한 지출을 찾아내는 최적화 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 코딩 도구 사용 시 발생하는 비용을 투명하게 관리하고, 불필요한 토큰 낭비를 줄여 개발 비용을 절감할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 사용 중인 AI 코딩 도구의 세션 파일 연동하기
+- Optimize 탭을 통해 비용 낭비 요소 확인하기
+- 프로젝트별/모델별 비용 리포트 분석하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 세션 파일을 읽는 방식이므로 지원되지 않는 도구는 분석이 어려울 수 있음
+- 사용자 환경에 따라 세션 파일 경로 설정이 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 지원되는 40여 개의 도구 목록과 사용자의 특정 개발 환경 간의 호환성을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_CodeBurn_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_CodeBurn_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_CodeBurn_media_2.jpg)
+
+---
+
+## 13. [tash](https://www.producthunt.com/products/tash)
+**Votes**: 96 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The investment platform for trading cards
+**서비스 링크**: https://www.producthunt.com/r/HBJVUFC3MEWGMD
+
+**태그**: FinTech, Collectibles, Investment, AssetManagement
+
+<img src="images/ph_2026-08-12_tash.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전문가가 엄선한 고가 트레이딩 카드 포트폴리오에 투자하는 플랫폼
+
+### 🔑 주요 기능
+- 전문가가 큐레이션한 고가 등급 트레이딩 카드 포트폴리오 제공
+- 소싱, 검증, 보관, 보고 및 최종 매각까지 전 과정 대행
+- 실물 자산 관리의 번거로움 없이 투자 기회 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+직접 카드를 구매하고 보관하는 번거로움 없이, 전문가가 관리하는 검증된 카드 자산에 간편하게 투자할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제공되는 포트폴리오 구성 및 자산 구성 확인
+- 자산 관리 및 매각 프로세스 상세 검토
+- 투자 가능한 최소 금액 및 수익 구조 확인
+
+### ⚠️ 사용 전 확인할 점
+- 실물 자산 기반이므로 시장 가격 변동에 따른 원금 손실 위험 존재
+- 플랫폼의 자산 보관 및 매각 대행 프로세스에 대한 신뢰도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+최소 투자 금액, 수수료 구조 및 구체적인 수익 배분 방식에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_tash_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_tash_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_tash_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c2a16e2a-e38f-46be-bacb-dafcc714893f.jpeg?auto=format)
+
+---
+
+## 14. [Chat Agent by Trigger.dev](https://www.producthunt.com/products/trigger-dev)
+**Votes**: 95 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI chat that keeps running after you close the tab
+**서비스 링크**: https://www.producthunt.com/r/Q6J5LCEJDXEXIY
+
+**태그**: AI, DevTool, FullStack, Automation, Agent, AI Tool, Chat, Prompting, API
+
+<img src="images/ph_2026-08-12_Chat_Agent_by_Trigger.dev.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브라우저를 닫아도 대화가 끊기지 않는 지속 가능한 AI 채팅 에이전트
+
+### 🔑 주요 기능
+- 타임아웃이나 새로고침에 영향을 받지 않는 내구성이 강한 AI 채팅 환경 제공
+- 상태 관리 없이도 사용자가 돌아왔을 때 이전 작업 지점에서 즉시 재개
+- 기존 AI SDK(streamText, useChat)를 그대로 유지하며 전송 계층으로 작동
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 상태 관리나 서버 타임아웃 걱정 없이, 사용자가 언제든 돌아와 대화를 이어갈 수 있는 안정적인 AI 채팅 서비스를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 AI SDK와 연동하여 전송 계층으로 설정하기
+- 대화 중 새로고침이나 탭 종료 후 복구 기능 테스트하기
+- 대화 로그를 통한 비용 및 지연 시간 모니터링하기
+
+### ⚠️ 사용 전 확인할 점
+- 기존 서버/클라이언트 구조에 전송 계층을 교체하는 과정에서의 호환성 확인 필요
+- 상태 관리는 자동화되지만, 복잡한 비즈니스 로직과의 결합도 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+기존 인프라 환경에서의 구체적인 배포 방식과 확장성(Scalability)에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Chat_Agent_by_Trigger.dev_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Chat_Agent_by_Trigger.dev_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Chat_Agent_by_Trigger.dev_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4f9a5bbe-8c66-46c3-8297-14c1c0fe4f67.jpeg?auto=format)
+
+---
+
+## 15. [Sidekick™](https://www.producthunt.com/products/sidekick-16)
+**Votes**: 87 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: The agentic interface
+**서비스 링크**: https://www.producthunt.com/r/V55NSQHZLPXFV7
+
+**태그**: Productivity, AI, Automation, Mac, Agent
+
+<img src="images/ph_2026-08-12_Sidekick™.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mac 사용자를 위한 차세대 에이전트 기반 인터페이스
+
+### 🔑 주요 기능
+- Mac 환경에 최적화된 새로운 사용자 인터페이스 제공
+- 조직 전체를 아우르는 에이전트 레이어 역할 수행
+- 단순 도구를 넘어선 지능형 작업 자동화 지향
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Mac 사용자의 작업 흐름을 혁신하고, 조직 내 업무를 자동화하는 지능형 인터페이스를 경험할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Mac 설치 및 초기 설정 진행
+- 조직 내 워크플로우 연동 테스트
+- 에이전트 기능의 작업 수행 능력 확인
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 인터페이스로 인한 OS 호환성 확인 필요
+- 조직 데이터 접근 권한에 따른 보안 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+제공된 정보가 제품의 핵심 개념 위주이므로, 구체적인 기능 범위와 보안 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Sidekick™_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Sidekick™_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Sidekick™_media_2.jpg)
+
+---
+
+## 16. [Ballet](https://www.producthunt.com/products/ballet)
+**Votes**: 86 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Agentic workflows that deliver the same outcome every time
+**서비스 링크**: https://www.producthunt.com/r/JXEK3JQL2RBKKK
+
+**태그**: Automation, Workflow, AI, Operations, NoCode, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-08-12_Ballet.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자연어로 설명하면 복잡한 운영 워크플로우를 코드로 자동 생성하고 실행하는 에이전틱 워크플로우 도구
+
+### 🔑 주요 기능
+- 자연어 설명을 통한 자동 코드 작성 및 워크플로우 실행
+- 전체 감사 로그(Audit Log) 및 원클릭 롤백 기능 제공
+- 시뮬레이션 모드를 통한 안전한 사전 검증 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+운영 팀이 복잡한 비즈니스 문제를 코딩 없이 자연어로 해결할 수 있으며, 자동화된 프로세스의 안정성과 제어권을 동시에 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어로 워크플로우 설명해보기
+- 시뮬레이션 모드로 결과값 검증하기
+- 실행 후 롤백 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 자연어 해석이 복잡한 로직에서 의도와 다른 코드가 생성될 가능성
+- 자동화된 작업의 권한 범위 설정 필요
+
+### 🧭 확인이 더 필요한 정보
+자연어 설명이 실제 복잡한 비즈니스 로직을 얼마나 정확하게 코드로 변환하는지에 대한 기술적 정밀도 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Ballet_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Ballet_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Ballet_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d8ba4fb2-9d21-445e-a494-92cbb230805b.jpeg?auto=format)
+
+---
+
+## 17. [Cohesor](https://www.producthunt.com/products/cohesor)
+**Votes**: 81 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A neutral control plane for enterprise AI agents
+**서비스 링크**: https://www.producthunt.com/r/RYRYMNLLAXD6PW
+
+**태그**: AI, DevTool, CostOptimization, Enterprise, Agent, Automation, AI Tool, LLM
+
+<img src="images/ph_2026-08-12_Cohesor.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+기업용 AI 에이전트의 비용을 절감하고 사용량을 관리하는 중립적 컨트롤 플레인
+
+### 🔑 주요 기능
+- 토큰 사용량 약 50% 압축 및 모델 라우팅 최적화
+- 사용자별 지출 관리 및 거버넌스 기능 제공
+- 코드 변경 없이 단일 엔드포인트로 다양한 LLM 및 에이전트 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트 도입 시 발생하는 폭발적인 비용 문제를 해결하며, 기존 워크플로우를 유지하면서도 운영 비용을 60~90% 절감할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 에이전트 워크플로우에 단일 엔드포인트 연결하기
+- 모델 라우팅을 통한 토큰 절감 효과 테스트하기
+- 팀 내 사용자별 AI 지출 관리 대시보드 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 중간 레이어 도입에 따른 미세한 지연 시간(Latency) 발생 가능성
+- 지원되는 LLM 및 에이전트 프레임워크의 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제시된 60-90% 비용 절감 수치가 구체적으로 어떤 환경에서 도출된 것인지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Cohesor_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Cohesor_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Cohesor_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8999d186-29bd-4239-af12-b61791777bbc.jpeg?auto=format)
+
+---
+
+## 18. [Linforge](https://www.producthunt.com/products/linforge)
+**Votes**: 80 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn Anki flashcards into real English conversations
+**서비스 링크**: https://www.producthunt.com/r/KRTS7BRWKDKPYL
+
+**태그**: EdTech, LanguageLearning, AI, Anki, Chat
+
+<img src="images/ph_2026-08-12_Linforge.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Anki 플래시카드를 활용해 실제 영어 회화 연습을 할 수 있는 AI 학습 도구
+
+### 🔑 주요 기능
+- Anki 데크와 연동하여 기존 학습 자료를 회화 연습으로 전환
+- 문장별 음소 단위 발음 교정 및 문법 피드백 제공
+- 학습 진행 상황 추적 및 데이터 기반 성과 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 암기를 넘어 실제 말하기 연습으로 연결할 수 있어, Anki 사용자에게 실전 회화 연습 환경을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 Anki 데크 동기화하기
+- AI의 음소 단위 발음 교정 기능 테스트하기
+- 학습 진행도 대시보드 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- Anki 데크의 데이터 구조에 따라 동기화 방식이 다를 수 있음
+- 음성 인식 및 피드백의 정확도는 사용자의 마이크 환경에 영향을 받음
+
+### 🧭 확인이 더 필요한 정보
+Anki 데크의 어떤 형식까지 지원하는지와 구체적인 동기화 방식에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Linforge_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Linforge_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Linforge_media_2.jpg)
+
+---
+
+## 19. [Nearfield ](https://www.producthunt.com/products/nearfield)
+**Votes**: 77 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn two or more Studio Displays into stereo speakers
+**서비스 링크**: https://www.producthunt.com/r/ETR5UGLM5B5OCO
+
+**태그**: Mac, Audio, Productivity, OpenSource
+
+<img src="images/ph_2026-08-12_Nearfield_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+두 대의 스튜디오 디스플레이를 하나의 스테레오 스피커 시스템으로 통합하는 Mac 앱
+
+### 🔑 주요 기능
+- 두 대의 Apple Studio Display 스피커를 하나의 스테레오 출력으로 결합
+- 좌우 스피커 스왑 및 밸런스 조절 기능 제공
+- 앱 및 윈도우 기반의 오디오 라우팅 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+두 대의 스튜디오 디스플레이를 사용하는 사용자에게 개별 스피커를 하나의 완성된 스테레오 사운드 시스템처럼 사용할 수 있게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 좌우 스피커 위치에 맞게 스왑 기능 설정하기
+- 사용자 환경에 맞춰 오디오 밸런스 조정하기
+- 앱별 오디오 라우팅 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- Apple Silicon Mac 및 macOS 14 이상 환경 필수
+- 두 대의 Apple Studio Display가 반드시 필요함
+
+### 🧭 확인이 더 필요한 정보
+하드웨어 연결 방식에 따른 지연 시간(Latency) 발생 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Nearfield__media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Nearfield__media_1.jpg)
+
+---
+
+## 20. [Statewave](https://www.producthunt.com/products/statewave)
+**Votes**: 26 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Open-source memory runtime for production AI agents. 
+**서비스 링크**: https://www.producthunt.com/r/2F3FY7DXTF673F
+
+**태그**: AI, OpenSource, DevTool, Database, Agent, AI Tool
+
+<img src="images/ph_2026-08-12_Statewave.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Postgres 기반의 오픈소스 AI 에이전트용 메모리 런타임
+
+### 🔑 주요 기능
+- AI 에이전트를 위한 내구성이 뛰어난 구조화된 컨텍스트 제공
+- 데이터 출처(Provenance)를 추적할 수 있는 메모리 관리
+- Postgres를 활용한 간편한 셀프 호스팅 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트가 대화 맥락을 안정적으로 유지하고, 데이터의 근거를 확인하며 작업할 수 있는 신뢰할 수 있는 메모리 계층을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Postgres 환경에 Statewave 설치 및 연동
+- AI 에이전트의 컨텍스트 저장 및 불러오기 테스트
+- 데이터 출처(Provenance) 기능 검증
+
+### ⚠️ 사용 전 확인할 점
+- Postgres 성능 및 스토리지 용량에 따른 확장성 검토 필요
+- 오픈소스 프로젝트로서의 초기 안정성 및 커뮤니티 지원 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 API 사양 및 기존 AI 프레임워크(LangChain 등)와의 통합 방식에 대한 구체적인 문서 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Statewave_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Statewave_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Statewave_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/78f99da2-5c95-4fa1-a824-d8a9ad98bf3e.jpeg?auto=format)
+
+---
+
+## 21. [BikeQuest](https://www.producthunt.com/products/bikequest)
+**Votes**: 20 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: MORE FUN 🎉 EVERY RIDE 🚲
+**서비스 링크**: https://www.producthunt.com/r/YEXVKOF2527PW7
+
+**태그**: Cycling, Gamification, Lifestyle
+
+<img src="images/ph_2026-08-12_BikeQuest.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실제 라이딩을 퀘스트와 배지로 즐기는 부담 없는 사이클링 게임
+
+### 🔑 주요 기능
+- 현실 세계의 사이클링 퀘스트 수행
+- 사진 업로드를 통한 인증 방식
+- 경쟁 없는 배지 수집 중심의 재미
+
+### 🙋 사용자에게 어떤 점이 좋은가
+순위 경쟁에 대한 압박 없이 라이딩 자체의 즐거움을 높이고 성취감을 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 주어진 사이클링 퀘스트 수행하기
+- 라이딩 인증 사진 업로드하기
+- 획득한 배지 컬렉션 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 경쟁 요소가 없어 동기부여가 낮을 수 있음
+- 사진 인증 방식에 따른 수동 작업 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 퀘스트 종류와 배지 시스템의 구체적인 규칙은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_BikeQuest_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_BikeQuest_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_BikeQuest_media_2.jpg)
+
+---
+
+## 22. [BeeL](https://www.producthunt.com/products/beel)
+**Votes**: 19 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Invoicing API
+**서비스 링크**: https://www.producthunt.com/r/SVP4OGZIQQF7QM
+
+**태그**: DevTool, Fintech, Automation, SaaS, Agent, AI Tool, API, Email
+
+<img src="images/ph_2026-08-12_BeeL.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+스페인 세법(Verifactu)을 준수하는 자동화된 인보이스 발행 API
+
+### 🔑 주요 기능
+- 스페인 Verifactu 규정에 따른 위변조 방지 및 세무국 보고 자동화
+- Stripe 연동 또는 API를 통한 간편한 결제-송장 발행 워크플로우
+- REST API, SDK, CLI를 지원하여 개발자 및 AI 에이전트 친화적 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스페인 시장을 타겟팅하는 서비스라면 복잡한 세무 규제 구현 시간을 절약하고 결제와 동시에 법적 효력을 갖는 송장을 즉시 발행할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무제한 무료 샌드박스 환경에서 테스트하기
+- Stripe 연동을 통한 노코드 워크플로우 설정하기
+- CLI를 활용해 개발 환경에 API 연동하기
+
+### ⚠️ 사용 전 확인할 점
+- 스페인 세법(Verifactu) 규정에 특화되어 있어 타 국가 세법 준수 여부 확인 필요
+- 사용자 비즈니스 모델에 따른 세부 세무 로직 일치 여부 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+스페인 외 다른 국가의 세무 규제에 대한 지원 범위는 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_BeeL_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_BeeL_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_BeeL_media_2.jpg)
+
+---
+
+## 23. [Cleanup](https://www.producthunt.com/products/cleanup)
+**Votes**: 17 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Erase unwanted objects from photos in seconds
+**서비스 링크**: https://www.producthunt.com/r/HVFRFNQDQHLWQ4
+
+**태그**: PhotoEditing, AI, DesignTool, Productivity, Vision, Design
+
+<img src="images/ph_2026-08-12_Cleanup.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 편집 기술 없이 브러시 터치만으로 사진 속 불필요한 개체를 즉시 제거하는 도구
+
+### 🔑 주요 기능
+- 사진 내 원치 않는 인물, 텍스트, 로고 등을 빠르고 간편하게 제거
+- AI를 활용해 삭제된 영역을 주변 배경과 자연스럽게 재구성
+- 전문적인 디자인 기술이 필요 없는 직관적인 사용자 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사진 편집 전문가가 아니더라도 누구나 몇 초 만에 깔끔한 결과물을 얻을 수 있어 일상적인 사진 보정에 매우 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사진 속 불필요한 피사체 제거해보기
+- 이미지에 포함된 워터마크나 텍스트 지워보기
+- 배경의 방해 요소를 브러시로 닦아내기
+
+### ⚠️ 사용 전 확인할 점
+- 복잡한 배경이나 패턴이 있는 경우 재구성 품질이 달라질 수 있음
+- 고해상도 원본 이미지 처리 시 성능이나 화질 유지 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 가격 정책 및 대량 작업 시의 처리 속도에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Cleanup_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Cleanup_media_1.jpg)
+
+---
+
+## 24. [Defellix](https://www.producthunt.com/products/defellix)
+**Votes**: 16 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Never lose a payment to a ghosting client again
+**서비스 링크**: https://www.producthunt.com/r/BHFE4WOB66RJLO
+
+**태그**: LegalTech, Freelance, FinTech, Automation, AI Tool
+
+<img src="images/ph_2026-08-12_Defellix.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+미결제 리스크를 방지하는 블록체인 기반 프리랜서용 법적 효력 계약 솔루션
+
+### 🔑 주요 기능
+- 블록체인 기반 타임스탬프 및 인도 법적 효력(Section 65B)을 갖춘 계약 생성
+- OTP 기반의 간편한 클라이언트 서명 프로세스
+- 미지급 발생 시 자동 생성되는 독촉장 및 MSME 가이드 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+프리랜서가 클라이언트의 대금 지급 지연이나 잠적으로부터 법적 보호를 받을 수 있도록 계약과 미수금 회수 과정을 자동화합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 2분 만에 법적 효력이 있는 계약서 생성해보기
+- 클라이언트에게 OTP 서명 링크 발송하기
+- 미지급 발생 시 자동 생성되는 독촉장 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 인도 법률(Section 65B)에 특화되어 있어 타 국가 사용자에게는 법적 효력이 다를 수 있음
+- 초기 단계 팀의 서비스이므로 서비스 안정성 및 지속성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+서비스가 인도 외 지역의 법적 체계에서도 동일한 효력을 발휘하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Defellix_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Defellix_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Defellix_media_2.jpg)
+
+---
+
+## 25. [Guardrail by NeatProxy](https://www.producthunt.com/products/guardrail-by-neatproxy)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Full visibility into your AI spend, before it goes rogue
+**서비스 링크**: https://www.producthunt.com/r/A4MQ75DGZ3CJI6
+
+**태그**: DevTool, AI-Ops, Cost-Management, Proxy, Agent, AI Tool, Prompting
+
+<img src="images/ph_2026-08-12_Guardrail_by_NeatProxy.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트의 예기치 못한 비용 폭주를 사전에 차단하는 로컬 프록시 도구
+
+### 🔑 주요 기능
+- Claude Code 및 Codex를 위한 로컬 프록시 환경 제공
+- 시스템 프롬프트, 도구 사용, MCP 서버 등 비용 발생 원인에 대한 실시간 가시성 확보
+- 예산 초과 시 요청을 사후 정산이 아닌 사전 차단(Block)하는 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트 운영 중 발생할 수 있는 '비용 폭탄'을 방지하고, 개발자가 예산 범위 내에서 안전하게 AI 도구를 사용할 수 있게 합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 프록시 설정을 통한 Claude Code/Codex 연결
+- 비용 발생 경로(Prompt, Tools, MCP) 모니터링
+- 예산 한도 설정 및 차단 규칙 적용
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 프록시 방식이므로 네트워크 지연(Latency)이 발생할 수 있음
+- 지원되는 AI 모델 및 도구(Claude Code, Codex 등)의 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 프록시가 지원하는 구체적인 모델 종류와 상세한 비용 차단 정책(Threshold 설정 방식 등)에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Guardrail_by_NeatProxy_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Guardrail_by_NeatProxy_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Guardrail_by_NeatProxy_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/870f46fb-2ba7-4f4e-8e15-64e19733b5a2.jpeg?auto=format)
+
+---
+
+## 26. [UGC Agent](https://www.producthunt.com/products/ugc-agent)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The world's best AI agent for finding UGC creators
+**서비스 링크**: https://www.producthunt.com/r/XQKCBSVKDVPLTW
+
+**태그**: Marketing, AI Agent, Lead Generation, Automation, Agent, AI Tool, Email
+
+<img src="images/ph_2026-08-12_UGC_Agent.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자연어 설명만으로 최적의 UGC 크리에이터를 발굴하고 이메일까지 확보하는 AI 에이전트
+
+### 🔑 주요 기능
+- 자연어 기반의 간편한 크리에이터 검색 기능
+- Instagram 및 TikTok 크리에이터 데이터 통합 탐색
+- 타겟 페르소나(ICP) 기반의 자동 스코어링 및 검증된 이메일 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수동으로 크리에이터를 찾고 연락처를 수집하는 데 드는 시간을 획기적으로 단축하여 리드 확보 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 필요한 크리에이터 조건을 영어로 설명해보기
+- 검색된 리스트의 ICP 스코어 확인하기
+- 제공된 검증 이메일로 바로 연락 시도하기
+
+### ⚠️ 사용 전 확인할 점
+- 플랫폼(Instagram, TikTok) 데이터 업데이트 주기 확인 필요
+- 검증된 이메일의 실제 도달률 및 정확도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+검색 결과의 양과 이메일 데이터의 최신성/정확도에 대한 구체적인 수치는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_UGC_Agent_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_UGC_Agent_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_UGC_Agent_media_2.jpg)
+
+---
+
+## 27. [Linkdify](https://www.producthunt.com/products/linkdify-2)
+**Votes**: 14 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Your entire LinkedIn GTM team, run by AI
+**서비스 링크**: https://www.producthunt.com/r/U6WEBIJVB6PQOO
+
+**태그**: Sales Automation, AI Agents, LinkedIn, GTM, Productivity, Agent, AI Tool
+
+<img src="images/ph_2026-08-12_Linkdify.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트를 활용해 리드 발굴부터 메시지 발송까지 자동화하는 LinkedIn GTM 솔루션
+
+### 🔑 주요 기능
+- 실제 가동 중인 LinkedIn 계정 프로비저닝으로 개인 계정 리스크 방지
+- 구매 신호를 포착하여 인간처럼 자연스러운 아웃리치 메시지 작성
+- DM, 커넥션 요청, 음성 메시지 등 자동화된 캠페인 실행
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개인 계정 정지 위험 없이 AI가 대신 잠재 고객을 찾고 연락을 취해주므로, 영업팀은 미팅 예약에만 집중할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제공되는 가상 LinkedIn 계정 설정 및 확인
+- AI 에이전트의 타겟팅 및 메시지 작성 품질 테스트
+- Claude 환경에서의 워크플로우 연동 확인
+
+### ⚠️ 사용 전 확인할 점
+- 제공되는 계정의 품질 및 신뢰도 확인 필요
+- LinkedIn의 자동화 정책에 따른 계정 제재 가능성 검토
+
+### 🧭 확인이 더 필요한 정보
+제공되는 프로비저닝 계정의 운영 방식과 LinkedIn 플랫폼의 정책 준수 여부에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Linkdify_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Linkdify_media_2.jpg)
+![Screenshot](images/ph_2026-08-12_Linkdify_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b1688b96-426a-4f13-aab2-1be3f7ccdac4.jpeg?auto=format)
+
+---
+
+## 28. [Teyla](https://www.producthunt.com/products/teyla)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Intelligent planner for every role in your life
+**서비스 링크**: https://www.producthunt.com/r/CV2QPZZYKUOHHR
+
+**태그**: Productivity, AI, Planner, Task Management, AI Tool
+
+<img src="images/ph_2026-08-12_Teyla.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+삶의 다양한 역할을 고려하여 일정을 자동 정리해주는 AI 지능형 플래너
+
+### 🔑 주요 기능
+- 텍스트나 음성 입력을 통한 간편한 작업 추가
+- 사용자의 다양한 역할(Role)별 작업 분류 및 관리
+- 캘린더 기반의 현실적인 일정 계획 수립
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 일상 속에서 역할별로 흩어진 할 일을 AI가 알아서 분류하고 최적의 타이밍에 알려주어 현재의 역할에만 집중할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성이나 타이핑으로 할 일 입력해보기
+- 자신의 주요 역할(Role) 설정하기
+- 캘린더 연동을 통한 자동 계획 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- AI의 자동 분류가 사용자의 의도와 다를 수 있음
+- 캘린더 데이터 접근에 따른 개인정보 관리 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 캘린더 서비스와의 구체적인 연동 범위와 데이터 보안 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Teyla_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Teyla_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Teyla_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a325a8b9-b6f6-47a0-bc5f-4fd971a609e9.jpeg?auto=format)
+
+---
+
+## 29. [Yoomru](https://www.producthunt.com/products/yoomru)
+**Votes**: 12 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Shopify Social Media Auto-post App
+**서비스 링크**: https://www.producthunt.com/r/JXTD6ATOO4WT5O
+
+**태그**: Automation, Marketing, Shopify, SocialMedia, Video
+
+<img src="images/ph_2026-08-12_Yoomru.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+쇼피파이 관리자 페이지에서 11개 소셜 네트워크로 상품을 자동 게시하는 마케팅 자동화 도구
+
+### 🔑 주요 기능
+- 쇼피파이 관리자 내에서 11개 소셜 채널(FB, IG, TikTok 등)로 상품 자동 게시
+- 실제 카탈로그를 기반으로 한 브랜드 맞춤형 상품 영상 렌더링
+- 고객 리뷰를 소셜 포스트로 변환하는 리뷰 카드 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+쇼피파이 운영자가 별도의 플랫폼 이동 없이 상품 홍보 콘텐츠를 자동 생성하고 배포하여 마케팅 시간을 획기적으로 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 플랜을 통한 월 30개 자동 포스팅 기능 테스트
+- 카탈로그 기반 브랜드 영상 렌더링 품질 확인
+- 고객 리뷰를 활용한 리뷰 카드 자동 생성 기능 실행
+
+### ⚠️ 사용 전 확인할 점
+- 무료 플랜은 월 30회 게시로 제한됨
+- 소셜 네트워크별 콘텐츠 최적화 및 자동 매칭 품질 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+각 소셜 네트워크별로 지원되는 콘텐츠 형식(이미지, 영상 등)의 상세 규격과 자동 매칭 알고리즘의 정교함을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_Yoomru_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_Yoomru_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_Yoomru_media_2.jpg)
+
+---
+
+## 30. [MOTA](https://www.producthunt.com/products/mota)
+**Votes**: 11 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI agents that follow your rules, not their imagination.
+**서비스 링크**: https://www.producthunt.com/r/5ZN63KRLYK4IHP
+
+**태그**: AI, Automation, Workflow, Governance, DevTool, Agent, AI Tool, LLM
+
+<img src="images/ph_2026-08-12_MOTA.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI의 자의적 판단을 배제하고 비즈니스 규칙에 따라 정밀하게 실행되는 워크플로우 자동화 도구
+
+### 🔑 주요 기능
+- AI 계획과 결정론적 실행의 분리를 통한 예측 가능한 결과 보장
+- 사용자 의도를 엄격한 실행 그래프로 변환하여 비즈니스 정책 강제
+- 인간 개입(Human-in-the-loop) 승인 절차 및 투명한 감사 기록 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 임의로 판단하여 발생할 수 있는 위험을 방지하며, 민감한 고객 지원이나 중요한 비즈니스 프로세스를 안전하고 검증 가능한 방식으로 자동화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사용자 정의 실행 그래프 설계
+- 승인 게이트(Approval Gates) 설정
+- 워크플로우 감사 기록 확인
+
+### ⚠️ 사용 전 확인할 점
+- 엄격한 규칙 적용으로 인해 AI의 유연한 문제 해결 능력이 제한될 수 있음
+- 복잡한 워크플로우 설계 시 초기 설정 비용 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 구체적인 통합(Integration) 대상 및 지원하는 LLM 모델 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-12_MOTA_media_0.jpg)
+![Screenshot](images/ph_2026-08-12_MOTA_media_1.jpg)
+![Screenshot](images/ph_2026-08-12_MOTA_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cd022ff4-2ea5-4687-b4b3-26f22f4111a7.jpeg?auto=format)
+
+---
+
