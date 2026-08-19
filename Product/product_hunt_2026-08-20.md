@@ -1,0 +1,1246 @@
+# 🚀 Product Hunt Daily Top 30 (2026-08-20)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트의 활용 범위를 확장하고, 이를 팀 단위의 협업 자산이나 로컬 데이터와 연결하는 워크플로우 최적화가 주를 이루었습니다. 또한, AI 생성물의 흔적 제거와 같은 실용적인 도구와 지속 가능한 하드웨어 설계 등 기술의 인간 중심적 활용이 돋보였습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트가 로컬 파일 탐색, 코드 호스팅, 팀 협업 등 다양한 워크플로우에 깊숙이 통합되는 양상을 보였습니다.
+- 개인용 에이전트를 클라우드 기반의 팀 자산으로 전환하거나, AI와 인간의 협업 효율을 극대화하는 도구들이 주목받았습니다.
+- 디지털 기술을 실물로 연결하거나(종이 장난감), 하드웨어 수명을 극대화하는 등 지속 가능성과 사용자 경험을 중시하는 제품들이 등장했습니다.
+
+**오늘의 태그**: AI 에이전트, 워크플로우 자동화, 협업 도구, 지속 가능성, 사용자 경험
+
+## 1. [Astute](https://www.producthunt.com/products/astute-2)
+**Votes**: 393 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Automate your B2B brand going viral, with new media creators
+**서비스 링크**: https://www.producthunt.com/r/T27HYYATJQRXUQ
+
+**태그**: B2B, Marketing Automation, Creator Economy, Growth Hacking
+
+<img src="images/ph_2026-08-19_Astute.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+신뢰할 수 있는 크리에이터를 통해 B2B 브랜드의 바이럴을 자동화하는 플랫폼
+
+### 🔑 주요 기능
+- 데이터 기반의 크리에이터 파트너십 전략 수립
+- 신규 미디어 내 브랜드 존재감 모니터링
+- 파트너십 운영 프로세스 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+구매 결정권자들이 신뢰하는 크리에이터를 발굴하고 협업 과정을 자동화하여, 최소한의 노력으로 B2B 브랜드 인지도를 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브랜드 노출 현황 모니터링 기능 확인
+- 타겟 구매자층이 신뢰하는 크리에이터 추천 리스트 검토
+- 자동화된 파트너십 실행 프로세스 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 크리에이터의 콘텐츠 품질이 브랜드 이미지와 일치하는지 확인 필요
+- B2B 특화 타겟팅의 정교함 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 자동화 범위와 크리에이터 매칭 알고리즘의 상세 로직은 공개되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Astute_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Astute_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Astute_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/93c51dc1-e37a-47bf-9cd6-9366ca917476.jpeg?auto=format)
+
+---
+
+## 2. [Clipto MCP](https://www.producthunt.com/products/clipto-ai)
+**Votes**: 320 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Let agents source clips from terabytes of your local video
+**서비스 링크**: https://www.producthunt.com/r/OTKPG4D4Y4NG66
+
+**태그**: AI-Agent, Video-Editing, Automation, Productivity, Agent, AI Tool, Chat, Video
+
+<img src="images/ph_2026-08-19_Clipto_MCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+로컬 미디어 파일을 AI 에이전트가 직접 탐색하고 편집할 수 있게 해주는 MCP 도구
+
+### 🔑 주요 기능
+- Claude, ChatGPT 등 AI 에이전트와 로컬 미디어 파일 간의 연결
+- 텍스트 설명만으로 수 테라바이트의 영상/사진/오디오에서 필요한 클립 추출
+- 스크립트 기반 영상 매칭, 특정 주제 장면 찾기, 러프 컷 제작 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수동으로 파일을 뒤지는 대신 자연어로 명령하여 영상 편집 시간을 획기적으로 단축하고, 방대한 로컬 아카이브를 즉시 검색 가능한 데이터베이스로 활용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어 명령으로 특정 장면/주제 클립 찾기
+- 작성한 스크립트에 맞는 로컬 푸티지 매칭하기
+- 방대한 미디어 파일에서 필요한 부분만 골라 러프 컷 만들기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 파일에 대한 AI 에이전트의 접근 권한 설정 필요
+- 대용량 미디어 파일 처리 시 시스템 리소스 사용량 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 파일 인덱싱 방식 및 데이터 보안/개인정보 보호 정책에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Clipto_MCP_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Clipto_MCP_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Clipto_MCP_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bb835663-eee1-49f6-97af-c5f2453ef88c.jpeg?auto=format)
+
+---
+
+## 3. [Origin by Cursor](https://www.producthunt.com/products/cursor)
+**Votes**: 248 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The Git forge built for the age of coding agents
+**서비스 링크**: https://www.producthunt.com/r/SGM5OGI6LTVBU5
+
+**태그**: DevTool, AI-Native, Git, Collaboration, Agent
+
+<img src="images/ph_2026-08-19_Origin_by_Cursor.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 코딩 에이전트와 인간의 협업에 최적화된 Cursor 전용 코드 호스팅 플랫폼
+
+### 🔑 주요 기능
+- Cursor IDE 내에서 직접 Git 저장소 생성 및 호스팅 가능
+- 코드 브라우징, 검색, Pull Request 리뷰 및 액세스 관리 기능 제공
+- GitHub와의 동기화 및 에이전트 중심의 워크플로우 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+코드가 에이전트가 작업하는 환경 바로 옆에 위치하여, AI와 인간이 협업하는 과정에서의 맥락 유지와 워크플로우 효율성을 극대화합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Cursor 내에서 새로운 Git 저장소 생성해보기
+- GitHub와 연동하여 기존 코드 동기화하기
+- 에이전트와 함께 Pull Request 리뷰 진행하기
+
+### ⚠️ 사용 전 확인할 점
+- GitHub 외의 다른 플랫폼과의 호환성 및 동기화 범위 확인 필요
+- 에이전트 중심 기능의 완성도 및 보안 정책 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+향별 예정된 '에이전트 네이티브 기능'의 구체적인 사양과 보안 수준을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Origin_by_Cursor_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Origin_by_Cursor_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Origin_by_Cursor_media_2.jpg)
+
+---
+
+## 4. [Claude Watermark Remover](https://www.producthunt.com/products/claude-watermark)
+**Votes**: 197 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Find and remove every trace AI leaves in your text
+**서비스 링크**: https://www.producthunt.com/r/XASKV4BHPP45EY
+
+**태그**: Productivity, TextTool, Privacy, OpenSource, AI Tool, Chat
+
+<img src="images/ph_2026-08-19_Claude_Watermark_Remover.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 텍스트에 남은 보이지 않는 흔적을 찾아 한 번에 제거하는 브라우저 기반 도구
+
+### 🔑 주요 기능
+- HTML 클래스명, 제로 너비 문자, 특수 공백 등 눈에 보이지 않는 AI 흔적 식별
+- 클릭 한 번으로 모든 흔적을 즉시 제거하는 간편한 클리닝 기능
+- 브라우저 내 로컬 실행 방식으로 데이터 유출 걱정 없는 보안성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 생성한 텍스트를 복사할 때 섞여 들어가는 불필요한 메타데이터나 특수 문자를 깔끔하게 정리하여 텍폰트나 포맷 문제를 방지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 텍스트를 붙여넣어 숨겨진 특수 문자가 있는지 확인하기
+- 원클릭 클리닝 기능을 통해 텍스트 정제하기
+- 로컬 실행 방식을 통해 개인정보 보호 환경에서 작업하기
+
+### ⚠️ 사용 전 확인할 점
+- Anthropic의 통계적 워터마크(확률 기반)는 제거할 수 없음
+- 텍스트의 의미적 변화가 아닌 바이트 단위의 물리적 흔적 제거에 특화됨
+
+### 🧭 확인이 더 필요한 정보
+제공된 설명에는 특정 브라우저 환경에서의 호환성 범위가 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Claude_Watermark_Remover_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Claude_Watermark_Remover_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Claude_Watermark_Remover_media_2.jpg)
+
+---
+
+## 5. [Hosted Agents in Cluing](https://www.producthunt.com/products/cluing)
+**Votes**: 168 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Collaborative agents who build, learn and publish in 1 place
+**서비스 링크**: https://www.producthunt.com/r/LQXQPUPFGN5HBZ
+
+**태그**: Automation, Collaboration, AI-Agents, Productivity, Agent, API
+
+<img src="images/ph_2026-08-19_Hosted_Agents_in_Cluing.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인용 에이전트를 팀 단위의 협업 자산으로 전환하는 클라우드 기반 에이전트 워크스페이스
+
+### 🔑 주요 기능
+- 로컬 환경을 벗어나 기기 간 연속성을 보장하는 호스팅 환경 제공
+- 팀원 간 작업 맥락 공유 및 에이전트 자산화 가능
+- API 및 MCP 커스텀 커넥터를 통한 외부 도구와의 손쉬운 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개인 컴퓨터에 갇혀 있던 AI 에이전트를 팀의 공용 자산으로 만들어, 언제 어디서든 업무를 이어가고 협업할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 로컬 에이전트의 클라우드 이전 테스트
+- 팀원 간 작업 인수인계 워크플로우 설정
+- 커스텀 커넥터를 활용한 외부 툴 연동
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트가 클라우드에서 실행됨에 따른 데이터 보안 정책 확인 필요
+- 외부 도구 연동 시 API 권한 및 보안 설정 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+에이전트 실행 비용 모델 및 상세 보안 프로토콜에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Hosted_Agents_in_Cluing_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Hosted_Agents_in_Cluing_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Hosted_Agents_in_Cluing_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/70caa927-b9f7-4bb0-bf18-ab16282da130.jpeg?auto=format)
+
+---
+
+## 6. [Expert Chase 2.0](https://www.producthunt.com/products/expert-chase-deleted-1107920)
+**Votes**: 121 | **도입 난이도**: 하 | **신뢰도**: 하
+**Tagline**: Where human life runs with AI
+**서비스 링크**: https://www.producthunt.com/r/7QRFBBFPA4I3CX
+
+**태그**: AI, Productivity, UX, Lifestyle, AI Tool, Design
+
+<img src="images/ph_2026-08-19_Expert_Chase_2.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 기술을 통해 일상의 복잡함을 해결하고 연결성을 높이는 사용자 경험 중심의 플랫폼
+
+### 🔑 주요 기능
+- 사용자 경험(UX)을 중심으로 완전히 새롭게 설계된 인터페이스
+- AI와 인간의 삶을 결합하여 일상의 편의성 극대화
+- 더 단순하고 연결된 일상 생활을 위한 도구 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 일상 업무나 생활 패턴을 AI가 보조하여 더 단순하고 유용한 경험을 제공받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 새로운 인터페이스 탐색하기
+- AI 기반의 개인화 기능 경험하기
+- 일상 기능과의 연결성 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 구체적인 핵심 기능(Feature) 목록이 명시되지 않아 실제 활용 범위를 알기 어려움
+- 개인 데이터 활용 범위에 대한 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제품의 구체적인 기능적 특징과 기술적 구현 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Expert_Chase_2.0_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Expert_Chase_2.0_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Expert_Chase_2.0_media_2.jpg)
+
+---
+
+## 7. [Paper Critters](https://www.producthunt.com/products/paper-critters)
+**Votes**: 117 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Kid friendly paper toys, free to decorate and COPPA safe.
+**서비스 링크**: https://www.producthunt.com/r/YLAOPRDBSN3BJX
+
+**태그**: CreativeTools, Kids, Printable, DIY, AI Tool, Design, Email
+
+<img src="images/ph_2026-08-19_Paper_Critters.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아이들이 온라인에서 직접 디자인하고 출력하여 만드는 안전한 종이 장난감 제작 도구
+
+### 🔑 주요 기능
+- 디지털 디자인과 실물 놀이를 결합한 종이 장난감 제작 서비스
+- 계정이나 이메일 없이 이용 가능한 COPPA 준수 안전한 환경
+- 별도 설치가 필요 없는 반응형 PWA(Progressive Web App) 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+아이들이 안전한 환경에서 창의력을 발휘하며, 직접 만든 결과물을 출력해 실물로 즐길 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 온라인 스티커 컨트롤로 나만의 캐릭터 디자인하기
+- 디자인한 캐릭터를 가이드라인에 맞춰 출력하기
+- 출력된 종이를 접고 잘라 실물 장난감 완성하기
+
+### ⚠️ 사용 전 확인할 점
+- 실물 장난감을 만들기 위해 프린터와 종이가 필요함
+- 계정 없이 이용하므로 기기 변경 시 저장된 데이터 유실 가능성 있음
+
+### 🧭 확인이 더 필요한 정보
+프린트 시 종이 재질에 따른 결과물 차이나 대량 출력 시의 편의성은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Paper_Critters_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Paper_Critters_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Paper_Critters_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6fce6f3f-61ea-49dc-9273-09eaf37c686d.jpeg?auto=format)
+
+---
+
+## 8. [Fairphone Gen 6+](https://www.producthunt.com/products/fairphone)
+**Votes**: 116 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A modular phone built to last through 2033
+**서비스 링크**: https://www.producthunt.com/r/RYLWVL5IPFFUVI
+
+**태그**: Hardware, Sustainability, Mobile, AI Tool
+
+<img src="images/ph_2026-08-19_Fairphone_Gen_6+.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+2033년까지 지속 가능한 사용을 목표로 설계된 모듈형 5G 스마트폰
+
+### 🔑 주요 기능
+- 부품 교체가 용이한 모듈형 설계
+- 2033년까지 이어지는 장기 소프트웨어 및 하드웨어 지원
+- 5년 보증 및 50MP 고해상도 카메라 탑재
+
+### 🙋 사용자에게 어떤 점이 좋은가
+부품 교체가 쉬워 수리 비용을 절감할 수 있으며, 한 번의 구매로 매우 오랜 기간 최신 상태를 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 모듈형 설계로 인한 부품 교체 편의성 확인
+- 50MP 카메라 성능 테스트
+- 장기 지원 정책 상세 내용 검토
+
+### ⚠️ 사용 전 확인할 점
+- 모듈형 설계로 인한 기기 두께나 디자인 제약 가능성
+- 장기 지원 기간 동안의 하드웨어 호환성 유지 여부
+
+### 🧭 확인이 더 필요한 정보
+2033년까지의 구체적인 하드웨어 성능 유지 및 소프트웨어 업데이트 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Fairphone_Gen_6+_media_2.jpg)
+![Screenshot](images/ph_2026-08-19_Fairphone_Gen_6+_media_3.jpg)
+![Screenshot](images/ph_2026-08-19_Fairphone_Gen_6+_media_4.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0c284f82-963a-413b-8439-a7bd0ec9a1b0.jpeg?auto=format)
+- [🎥 영상 보기](https://ph-files.imgix.net/f81e9dee-cecb-4804-9b8f-8a3f53e22124.jpeg?auto=format)
+
+---
+
+## 9. [OmniVibe](https://www.producthunt.com/products/omnivibe)
+**Votes**: 113 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Marketplace for agent creators & users
+**서비스 링크**: https://www.producthunt.com/r/HE5UDGEWOAQACW
+
+**태그**: AI, Marketplace, Automation, NoCode, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_OmniVibe.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트 제작자와 사용자를 연결하는 에이전트 경제 생태계
+
+### 🔑 주요 기능
+- 기존에 제작한 AI 에이전트를 간편하게 가져와 배포 및 수익화 가능
+- 사용자 니즈에 맞는 최적의 에이전트를 탐색하거나 요청하여 사용
+- 여러 에이전트와 동시에 협업할 수 있는 멀티 에이전트 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+에이전트 개발자는 자신의 결과물을 수익화할 수 있는 플랫폼을 얻고, 일반 사용자는 복잡한 설정 없이 필요한 기능을 가진 AI를 즉시 활용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존에 보유한 에이전트(GitHub, SKILL.md 등) 임포트해보기
+- 필요한 기능에 맞는 에이전트 검색 및 테스트하기
+- 멀티 에이전트 협업 기능 활용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트의 품질 및 보안 수준이 제작자에 따라 다를 수 있음
+- 수익화 모델 및 정산 방식에 대한 구체적 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+에이전트 임포트 시 기술적 호환성 범위와 구체적인 수익 배분 구조에 대한 정보가 더 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_OmniVibe_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_OmniVibe_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_OmniVibe_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/de3a278a-4548-491f-98af-8cb3e48931a2.jpeg?auto=format)
+
+---
+
+## 10. [Cronloop AI](https://www.producthunt.com/products/cronloop-ai)
+**Votes**: 108 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI agents that run in a loop
+**서비스 링크**: https://www.producthunt.com/r/VMIR2MJHLVUNCR
+
+**태그**: AI-Agent, Automation, Productivity, DevTool, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_Cronloop_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자연어 설명만으로 반복 실행 및 자가 학습이 가능한 AI 에이전트 자동화 도구
+
+### 🔑 주요 기능
+- Markdown 형식의 자연어 설명으로 AI 에이전트 생성 가능
+- 5분 단위부터 주 단위까지 자유로운 반복 실행 주기 설정
+- 지속적인 메모리 시스템과 실행 시마다 스스로 개선되는 자가 학습 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코딩 없이 업무를 설명하는 것만으로도 스스로 학습하고 실행되는 자동화 에이전트를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Markdown으로 업무 시나리오 작성해보기
+- Codex 또는 Claude Code 모델 선택하여 에이전트 생성하기
+- 실행 주기 설정 및 도구 연결 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트의 자가 개선 과정에서 의도치 않은 동작이 발생할 수 있음
+- 연동하는 외부 도구의 권한 및 보안 설정 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용하는 외부 도구(Tools)의 구체적인 연동 범위와 보안 정책에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Cronloop_AI_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Cronloop_AI_media_2.jpg)
+![Screenshot](images/ph_2026-08-19_Cronloop_AI_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c3bf7b03-8253-4bf1-bd04-f44c83a641ca.jpeg?auto=format)
+
+---
+
+## 11. [Edgemetry](https://www.producthunt.com/products/edgemetry)
+**Votes**: 98 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Privacy-first web analytics on Cloudflare's free tier
+**서비스 링크**: https://www.producthunt.com/r/2WIKISEJI22NSY
+
+**태그**: DevTool, Analytics, Privacy, Cloudflare
+
+<img src="images/ph_2026-08-19_Edgemetry.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Cloudflare 무료 티어를 활용한 쿠키 없는 프라이버시 중심 웹 분석 도구
+
+### 🔑 주요 기능
+- Cloudflare Worker와 D1 데이터베이스를 활용한 셀프 호스팅 방식
+- 쿠키 및 동의 배너가 필요 없는 프라이버시 중심 설계
+- 하루 약 20,000회 방문까지 무료로 무제한 히스토리 유지 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 설정 없이 2.1 KB 스크립트 하나로 비용 부담 없이 개인정보를 보호하는 웹 분석 환경을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Cloudflare 계정 연결 및 원클릭 배포
+- 웹사이트에 2.1 KB 스크립트 삽입
+- 무료 티어 내 데이터 축적 확인
+
+### ⚠️ 사용 전 확인할 점
+- Cloudflare 무료 티어의 리소스 제한 범위 내에서 운영 가능
+- 사용자 정의 기능이나 고급 분석 기능의 포함 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Cloudflare 무료 티어의 할당량(Quota) 정책 변화에 따라 일일 방문 가능 횟수가 변동될 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Edgemetry_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Edgemetry_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Edgemetry_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/728024f5-5ef1-4eb5-9329-9ff9e6155ca4.jpeg?auto=format)
+
+---
+
+## 12. [Vois 2.0](https://www.producthunt.com/products/vois)
+**Votes**: 97 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The ElevenLabs alternative with unlimited generation
+**서비스 링크**: https://www.producthunt.com/r/BJCO64PXMBJSSE
+
+**태그**: AI, TTS, ContentCreation, Automation, Productivity, Agent, AI Tool, Video
+
+<img src="images/ph_2026-08-19_Vois_2.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+토큰 제한 없이 무제한으로 이용 가능한 데스크톱용 AI 음성 생성 도구
+
+### 🔑 주요 기능
+- 사용량 제한(토큰/글자 수) 없는 무제한 텍스트 음성 변환(TTS)
+- 100개 이상의 목소리, 음성 복제, 멀티 스피커 타임라인 지원
+- CLI 제공으로 AI 에이전트 자동화 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+구독형 모델로 글자 수당 비용 걱정 없이 오디오북, 팟캐스트, 유튜브 영상 제작에 자유롭게 활용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 100개 이상의 다양한 목소리 테스트하기
+- 멀티 스피커 타임라인으로 대화형 콘텐츠 제작하기
+- CLI를 활용한 자동화 워크플로우 구축하기
+
+### ⚠️ 사용 전 확인할 점
+- 데스크톱 설치형 소프트웨어이므로 하드웨어 사양 확인 필요
+- 무제한 생성 기능이 구독 플랜에 따라 차이가 있는지 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Pro 플랜의 Omni 기능과 600개 이상의 목소리 제공 범위에 대한 상세 사양 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Vois_2.0_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Vois_2.0_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Vois_2.0_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/26773c18-35b3-4562-a407-0960cf0ca21a.jpeg?auto=format)
+
+---
+
+## 13. [Mochi](https://www.producthunt.com/products/githumochib)
+**Votes**: 96 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A tiny animated cat for every browser tab.
+**서비스 링크**: https://www.producthunt.com/r/2FIC4PORCLC2JL
+
+**태그**: Lifestyle, Browser Extension, Digital Pet, Analytics, Productivity
+
+<img src="images/ph_2026-08-19_Mochi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브라우저 탭 위에서 나만의 귀여운 고양이 친구와 함께하는 디지털 반려묘 경험
+
+### 🔑 주요 기능
+- 20가지 다양한 스타일의 애니메이션 고양이 캐릭터 제공
+- 탭 간 위치가 유지되어 일관된 고양이 위치 유지 가능
+- 계정, 광고, 트래커 없는 개인정보 중심의 가벼운 도구
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹 서핑 중 탭 구석에서 움직이는 귀여운 고양이를 통해 소소한 시각적 즐거움과 정서적 위안을 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 20가지 스타일 중 마음에 드는 고양이 선택하기
+- 원하는 위치로 고양이 드래그하여 배치하기
+- 여러 탭을 이동하며 고양이 위치가 유지되는지 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 생산성 향상이나 기능적 도구가 아닌 순수 감상용 도구임
+- 브라우저 탭 공간을 일부 차지함
+
+### 🧭 확인이 더 필요한 정보
+브라우저 확장 프로그램 설치 시 시스템 리소스 점유율에 대한 정보는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Mochi_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Mochi_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Mochi_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b5a80b58-ccc3-48f7-ac45-d59bd185b466.jpeg?auto=format)
+
+---
+
+## 14. [ChatGPT for Teens](https://www.producthunt.com/products/openai)
+**Votes**: 95 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: ChatGPT, built differently for teens
+**서비스 링크**: https://www.producthunt.com/r/3OZDE5NZEM3V63
+
+**태그**: Education, AI, Safety, StudentTools, AI Tool, Chat, Design
+
+<img src="images/ph_2026-08-19_ChatGPT_for_Teens.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+학습과 안전을 최우선으로 설계된 13~17세 맞춤형 AI 학습 도구
+
+### 🔑 주요 기능
+- 단순 정답 제공이 아닌 문제 해결 과정을 유도하는 학습 중심 설계
+- 퀴즈, 학습 시각화, Study Mode 등 청소년 학습 패턴에 맞춘 기능 탑ware
+- 강력한 안전 보호 장치와 건강한 사용 습관을 위한 부모 제어 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 숙제 대행이 아닌 자기주도적 학습을 돕는 도구로서, 청소년이 AI를 올바르고 안전하게 활용하는 법을 익힐 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Study Mode를 통한 문제 해결 연습
+- 학습 시각화 기능을 활용한 개념 이해
+- Study Hours 설정을 통한 규칙적인 학습 습관 형성
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 연령(13-17세)에 따른 계정 및 접근 권한 확인 필요
+- 부모 제어 기능의 설정 범위와 개인정보 보호 수준 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 부모 제어 기능의 범위와 데이터 프라이버시 정책의 세부 사항에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_ChatGPT_for_Teens_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_ChatGPT_for_Teens_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_ChatGPT_for_Teens_media_2.jpg)
+
+---
+
+## 15. [KiHub](https://www.producthunt.com/products/kihub)
+**Votes**: 91 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Hardware review platform for KiCad projects
+**서비스 링크**: https://www.producthunt.com/r/LV754Z2XEXNCHQ
+
+**태그**: Hardware, KiCad, Collaboration, DevTool, Automation
+
+<img src="images/ph_2026-08-19_KiHub.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+KiCad 프로젝트를 위한 전문 하드웨어 리뷰 및 협업 플랫폼
+
+### 🔑 주요 기능
+- 회로도 및 PCB 리비전 간 비교 기능
+- 고정 댓글을 통한 변경 사항 논의 및 승인 관리
+- 자동화된 체크 및 추적 가능한 리뷰 히스토리 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+하드웨어 설계 과정에서 발생하는 변경 사항을 체계적으로 관리하고, 팀원 간의 리뷰 과정을 효율적으로 통합할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 KiCad 프로젝트 업로드 및 리비전 비교
+- 팀원 초대 및 댓글을 통한 설계 리뷰 진행
+- 자동화된 체크 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- KiCad 프로젝트 파일과의 호환성 및 데이터 보안 확인 필요
+- Git 워크플로우와 연동 시 발생하는 데이터 동기화 방식 확인
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 자동화 체크의 범위와 Git과의 구체적인 연동 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_KiHub_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_KiHub_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_KiHub_media_2.jpg)
+
+---
+
+## 16. [Balsa UI](https://www.producthunt.com/products/balsa-ui)
+**Votes**: 84 | **도입 난이도**: 중 | **신뢰도**: 중
+**Tagline**: Create design systems, build with agents
+**서비스 링크**: https://www.producthunt.com/r/E4PMY2XJ56MKRF
+
+**태그**: DesignSystem, AI-Agent, Frontend, Automation, Agent, Design, DevTool
+
+<img src="images/ph_2026-08-19_Balsa_UI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+디자인 시스템과 AI 에이전트를 연결하여 코드 기반의 UI 구축을 자동화하는 도구
+
+### 🔑 주요 기능
+- 디자인 시스템과 UI 라이브러리 간의 명확한 계약(Contract) 수립
+- AI 에이전트가 활용 가능한 소스 코드 레지스트리 제공
+- 에이전트를 통한 UI 코드의 확장 및 진화 가능성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자인 시스템을 코드로 관리하면서, AI 에이전트가 이를 직접 활용해 UI를 생성하거나 수정할 수 있는 워크플로우를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 디자인 시스템 소스 코드 등록하기
+- 에이전트와 UI 라이브러리 간의 연동 테스트
+- 에이전트를 활용한 UI 코드 생성 실험
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트가 생성하는 코드의 품질 및 보안 검토 필요
+- 기존 디자인 시스템과의 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+에이전트가 생성하는 코드의 구체적인 프레임워크 지원 범위와 보안 정책에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Balsa_UI_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Balsa_UI_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Balsa_UI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d458d03c-f3f2-4cd6-b5b4-aaceeec42602.jpeg?auto=format)
+
+---
+
+## 17. [AgentR 3.0](https://www.producthunt.com/products/agentr)
+**Votes**: 84 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Hiring evaluation built for the AI cheating era
+**서비스 링크**: https://www.producthunt.com/r/VETBJMOG3HP67S
+
+**태그**: HRTech, AI, Automation, Recruitment, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_AgentR_3.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 부정행위를 방지하고 실무 역량을 검증하는 자동화 채용 에이전트
+
+### 🔑 주요 기능
+- AI를 활용한 실무 시나리오 기반의 역량 검증
+- 구조화되고 적응적인 AI 1차 면접 자동 수행
+- 이력서와 직관이 아닌 데이터 기반의 최종 후보자 선별
+
+### 🙋 사용자에게 어떤 점이 좋은가
+채용 과정에서 발생하는 AI 부정행위 문제를 해결하고, 면접관의 주관을 배제한 객적이고 검증된 후보자 리스트를 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 에이전트의 면접 진행 방식 확인
+- 실무 시나리오 기반 검증 기능 테스트
+- 기존 채용 프로세스와의 연동 가능성 검토
+
+### ⚠️ 사용 전 확인할 점
+- AI 면접의 공정성 및 편향성 여부 확인 필요
+- 실제 인적 상호작용과 비교 시 후보자 경험 차이 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 구체적인 기술 스택과 기존 ATS(채용 관리 시스템)와의 연동 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_AgentR_3.0_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_AgentR_3.0_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_AgentR_3.0_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/36e9d48a-a23a-47d7-820b-e63b6e1aa853.jpeg?auto=format)
+
+---
+
+## 18. [Basedash Public Sharing](https://www.producthunt.com/products/basedash)
+**Votes**: 83 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Live dashboards for anyone you send the link to
+**서비스 링크**: https://www.producthunt.com/r/G5SSZJAFR5X66Z
+**재등장**: 최근 7일 내 재등장 (마지막 등장 4일 전)
+
+**태그**: Analytics, DataSharing, Productivity
+
+<img src="images/ph_2026-08-19_Basedash_Public_Sharing.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+계정 없이도 실시간 데이터 대시보드를 안전하게 공유할 수 있는 기능
+
+### 🔑 주요 기능
+- 토큰화된 공개 링크를 통한 실시간 대시보드 및 차트 공유
+- 수신자가 별도의 계정 없이도 필터링, 정렬, 데이터 탐색 가능
+- 데이터 내보내기나 스크린샷 없이 실시간 데이터로 즉각적인 소통 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+클라이언트나 투자자에게 정적인 파일 대신 살아있는 데이터를 직접 보여줌으로써 데이터 확인 과정을 간소화하고 신뢰도를 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 대시보드를 공개 링크로 생성해보기
+- 특정 차트만 개별적으로 공유하여 피드백 받기
+- 수신자 권한 범위(필터 및 정렬 기능) 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 공개 링크를 가진 누구나 데이터에 접근할 수 있으므로 민감 정보 포함 여부 확인 필요
+- 수신자가 계정이 없으므로 데이터 수정이나 관리 권한은 제한적임
+
+### 🧭 확인이 더 필요한 정보
+공개 링크의 보안 수준 및 데이터 노출 범위에 대한 세부 설정 기능 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Basedash_Public_Sharing_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Basedash_Public_Sharing_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Basedash_Public_Sharing_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bd707ba1-bedd-4741-bc38-0ffa7490bf5d.jpeg?auto=format)
+
+---
+
+## 19. [Ressearch AI](https://www.producthunt.com/products/ressearch-ai)
+**Votes**: 82 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI workspace for reproducible scientific research
+**서비스 링크**: https://www.producthunt.com/r/ZV4EEFKGUGCVJA
+
+**태그**: AI, Research, DataScience, Automation, Science, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_Ressearch_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+연구의 전 과정을 하나의 대화형 워크스페이스에서 해결하는 재현 가능한 AI 연구실
+
+### 🔑 주요 기능
+- 문헌 조사부터 데이터 분석, 시각화, 논문 작성까지 통합된 워크플로우 제공
+- 격리된 클라우드 샌드박스 환경에서 AI 에이전트가 실행하는 추적 가능한 작업
+- 별도의 환경 설정 없이 즉시 사용 가능한 클라우드 기반 분석 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+연구 데이터 분석과 논문 작성을 위한 복잡한 환경 설정 없이, 대화만으로 재현 가능한 연구 결과를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 에이전트를 활용한 데이터 분석 워크플로우 실행
+- Python/R을 이용한 데이터 시각화 및 분석
+- 문헌 조사와 과학적 글쓰기 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 클라우드 샌드박스 환경에서의 데이터 보안 및 개인정보 보호 정책 확인 필요
+- 복잡한 커스텀 라이브러리나 특수 환경 요구 시 지원 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 로컬 데이터 업로드 방식 및 데이터 보안 관리 수준에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Ressearch_AI_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Ressearch_AI_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Ressearch_AI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6d226648-c3d1-4897-a7fc-80be7d31f3cc.jpeg?auto=format)
+
+---
+
+## 20. [Sider 6.0](https://www.producthunt.com/products/chatgpt-sidebar-chrome-extension)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your AI Agent for the Browser
+**서비스 링크**: https://www.producthunt.com/r/36KQVQ4ODCTQR5
+
+**태그**: AI Agent, Automation, Productivity, Browser Extension, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-08-19_Sider_6.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브라우저 내 모든 작업을 자동화하고 지식 베이스를 구축하는 올인원 AI 에이전트
+
+### 🔑 주요 기능
+- Wisebase: 무제한 문서 Q&A 및 자동 AI 지식 베이스 구축
+- Claw: 여러 페이지에 걸친 브라우저 작업 자동화
+- Code: 코딩 없이 웹사이트를 즉시 커스텀하고 변경 사항 유지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 웹 브라우징 업무를 자동화하고, 방대한 문서를 지식화하여 업무 효율을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Wisebase로 대량의 문서 학습시키기
+- Claw로 반복적인 웹 작업 자동화 설정하기
+- Code 기능을 활용해 웹사이트 UI 커스텀해보기
+
+### ⚠️ 사용 전 확인할 점
+- 자동화 기능(Claw) 사용 시 의도치 않은 웹 동작 발생 가능성 확인 필요
+- 개인정보가 포함된 문서 업로드 시 보안 정책 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+무제한 기능(Wisebase)의 구체적인 사용량 제한이나 유료 플랜 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Sider_6.0_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Sider_6.0_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Sider_6.0_media_2.jpg)
+
+---
+
+## 21. [Hexel Editor](https://www.producthunt.com/products/hexel-editor)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Native macOS hex editor with a brain for file formats
+**서비스 링크**: https://www.producthunt.com/r/VTQKCBFLBCIRTZ
+
+**태그**: DevTool, Security, macOS, ReverseEngineering, AI Tool
+
+<img src="images/ph_2026-08-19_Hexel_Editor.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+파일 구조 분석과 데이터 디코딩에 특화된 macOS 전용 네이티브 헥스 에디터
+
+### 🔑 주요 기능
+- 대용량 파일도 즉시 열 수 있는 네이티브 macOS 성능
+- Mach-O, ELF, PE, PNG, ZIP 등 주요 파일 구조 자동 파싱
+- 바이트 디코딩, 체크섬, 엔트로피 분석 등 고급 분석 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자나 보안 전문가가 복잡한 바이너리 파일을 빠르게 분석하고 구조를 파악하는 데 최적화되어 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 대용량 파일 열기 성능 테스트
+- 주요 파일 포맷(PE/ELF 등) 구조 파싱 확인
+- 엔트로피 및 체크섬 분석 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 앱이므로 다른 OS에서는 사용 불가
+- 특정 사용자층(개발자/보안 전문가)을 위한 전문 도구임
+
+### 🧭 확인이 더 필요한 정보
+가격 정책 및 지원하는 파일 포맷의 전체 목록은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Hexel_Editor_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Hexel_Editor_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Hexel_Editor_media_2.jpg)
+
+---
+
+## 22. [Loopcase](https://www.producthunt.com/products/loopcase)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Looping case study videos from your images, no keyframes
+**서비스 링크**: https://www.producthunt.com/r/2ABP4DW2OAGSIT
+
+**태그**: DesignTool, VideoEditing, Portfolio, NoCode, Video, Vision
+
+<img src="images/ph_2026-08-19_Loopcase.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+키프레임 작업 없이 이미지만으로 완벽하게 루프되는 포트폴리오 영상을 만드는 도구
+
+### 🔑 주요 기능
+- 이미지를 활용한 심리스(Seamless) 루프 영상 생성
+- 애프터 이펙트 없이 브라우저에서 실시간 모션 튜닝
+- 최대 4K 해상도 지원 및 워터마크 없는 무료 플랜 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자이너나 포트폴리오 제작자가 복잡한 영상 편집 기술 없이도 고퀄리티의 루프 영상을 빠르게 제작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 원하는 템플릿 선택하기
+- 이미지 업로드 후 실시간 모션 조정하기
+- 4K 고화질 영상으로 내보내기
+
+### ⚠️ 사용 전 확인할 점
+- 템플릿 기반이므로 자유로운 커스텀 디자인에는 한계가 있을 수 있음
+- 무료 플랜의 상세 기능 제한 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+무료 플랜에서 제공하는 '실제 파일(real files)'의 해상도나 세부 기능 제한 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Loopcase_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Loopcase_media_2.jpg)
+![Screenshot](images/ph_2026-08-19_Loopcase_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/67b4e081-0d2c-4ff9-bec0-4e32a0d7c81e.jpeg?auto=format)
+
+---
+
+## 23. [Antibot](https://www.producthunt.com/products/antibot)
+**Votes**: 76 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI community manager that hypes up your Discord server
+**서비스 링크**: https://www.producthunt.com/r/4ANI72KHQSOSCT
+
+**태그**: AI, Discord, Community Management, Automation, AI Tool
+
+<img src="images/ph_2026-08-19_Antibot.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+커뮤니티 성장을 돕는 AI 기반 디스코드 자동 관리 도구
+
+### 🔑 주요 기능
+- 커뮤니티 특성을 학습하여 맞춤형 대화 유도
+- 멤버들의 관심사를 기억하여 참여도 증대
+- 수동 관리 없이도 활발한 대화 환경 조성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디스코드 서버 운영자의 수동 관리 부담을 줄이면서, AI가 자연스러운 대화를 유도해 커뮤니티 활성도를 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 디스코드 서버에 봇 연동하기
+- AI의 커뮤니티 학습 기능 테스트하기
+- 자동화된 대화 유도 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성하는 메시지의 톤앤매너가 커뮤니티 성격과 맞는지 확인 필요
+- 무료 서비스의 경우 향후 유료화 정책이나 기능 제한 가능성 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 무료 플랜의 구체적인 기능 범위와 사용량 제한에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Antibot_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Antibot_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Antibot_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9eaa55d2-6b4a-4d81-9766-f87bff5a7fb3.jpeg?auto=format)
+
+---
+
+## 24. [anyCreature by Gobkit](https://www.producthunt.com/products/anycreature)
+**Votes**: 75 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Summon monsters straight from your agent.
+**서비스 링크**: https://www.producthunt.com/r/KCLDYYUBP37K7U
+
+**태그**: AI, OpenSource, DevTool, CreatureGen, Agent, AI Tool, Prompting
+
+<img src="images/ph_2026-08-19_anyCreature_by_Gobkit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트 내에서 즉시 몬스터를 생성할 수 있는 오픈소스 도구
+
+### 🔑 주요 기능
+- 에이전트 환경 내에서 직접 크리처 생성 가능
+- 오픈소스 기반의 간편한 통합 방식
+- 프롬프트만으로 원하는 생명체 구현
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발 중인 AI 에이전트 프로젝트에 창의적인 요소를 즉각적으로 주입할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 오픈소스 코드 저장소 확인하기
+- 에이전트 프로젝트에 라이브러리 드롭해보기
+- 프롬프트를 통한 생성 결과물 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 오픈소스 라이선스 및 보안 정책 확인 필요
+- 에이전트 환경과의 호환성 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 기술 스택과 에이전트 프레임워크 간의 호환 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_anyCreature_by_Gobkit_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_anyCreature_by_Gobkit_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7bc639da-dd28-4385-991a-7b79d07ee76b.jpeg?auto=format)
+
+---
+
+## 25. [Cherry Blossom](https://www.producthunt.com/products/cherry-blossom)
+**Votes**: 74 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Build Fab-ready Custom PCBs with one prompt
+**서비스 링크**: https://www.producthunt.com/r/CAY5CFHN5NWHZC
+
+**태그**: Hardware, AI, Automation, PCB, Prototyping, AI Tool, Prompting
+
+<img src="images/ph_2026-08-19_Cherry_Blossom.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자연어 명령만으로 설계부터 제조 파일 생성까지 완료하는 AI 기반 PCB 설계 도구
+
+### 🔑 주요 기능
+- 일상적인 영어 문장으로 커스텀 회로 설계 가능
+- 회로도(Schematic), PCB 레이아웃, BOM 및 제조용 파일 자동 생성
+- 브라우저 기반의 빠른 작업 흐름 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 EDA 툴 숙련도 없이도 아이디어를 즉시 하드웨어 설계로 구현할 수 있어 프로토타이핑 시간을 획기적으로 단축합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어 프롬프트로 회로 설계 시도하기
+- 생성된 BOM 및 제조용 파일 검토하기
+- 런칭 기념 100만 토큰 무료 혜택 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- 생성된 설계가 실제 하드웨어 사양(EE grade)을 완벽히 충족하는지 검증 필요
+- 복잡한 고성능 회로 설계 시 제약 사항 존재 가능성
+
+### 🧭 확인이 더 필요한 정보
+제공되는 설계 파일의 정밀도와 실제 제조 공정과의 호환성을 실제 하드웨어 제작 전 반드시 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Cherry_Blossom_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Cherry_Blossom_media_2.jpg)
+![Screenshot](images/ph_2026-08-19_Cherry_Blossom_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ad9125c7-e3c6-4f62-8532-2334975a5ef9.jpeg?auto=format)
+
+---
+
+## 26. [Zyntax IDE](https://www.producthunt.com/products/zyntax-coding-ide-for-android)
+**Votes**: 72 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Code Editor, Terminal, Git, AI Agent for Android
+**서비스 링크**: https://www.producthunt.com/r/B2TSE4KWMSO5DO
+
+**태그**: DevTool, Mobile, Coding, Git, AI, Agent, AI Tool, API
+
+<img src="images/ph_2026-08-19_Zyntax_IDE.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+안드로이드 기기에서 코딩, 터미널, Git 관리를 한 번에 해결하는 모바일 개발 환경
+
+### 🔑 주요 기능
+- 문법 강조를 지원하는 코드 에디터 및 마크다운 편집기
+- Bash 쉘을 지원하는 실시간 터미널 및 Git 시각적 인터페이스
+- 개인 API 키를 활용한 AI 어시스턴트 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+장소에 구애받지 않고 스마트폰이나 태블릿만으로도 즉각적인 코드 수정 및 프로젝트 관리가 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 API 키를 연결하여 AI 어시스턴트 기능 테스트하기
+- Git 인터페이스를 통한 소스 코드 관리 흐름 확인하기
+- 터미널 환경에서 Bash 명령 실행해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 기능 사용 시 개인 API 키를 직접 입력해야 함
+- 모바일 환경 특성상 복잡한 대규모 프로젝트 관리에는 제약이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+안드로이드 OS 버전 및 기기 성능에 따른 터미널/에디터 최적화 수준을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Zyntax_IDE_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Zyntax_IDE_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Zyntax_IDE_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/885f90b1-3044-4d1f-9992-ff135b193a7d.jpeg?auto=format)
+
+---
+
+## 27. [ElvixAI ](https://www.producthunt.com/products/elvixai)
+**Votes**: 31 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI Agent that Builds SEO Backlinks on Autopilot
+**서비스 링크**: https://www.producthunt.com/r/TKRMAA7HBZZ65W
+
+**태그**: SEO, Automation, Marketing, AI Agent, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_ElvixAI_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+수동 작업 없이 자동으로 SEO 백링크를 구축하는 AI 에이전트
+
+### 🔑 주요 기능
+- 관련성 높은 웹사이트 탐색 및 연락처 자동 발굴
+- 개인화된 아웃리치 메시지 작성 및 자동 후속 조치
+- 백링크 확보를 위한 전 과정 자동화 프로세스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+SaaS 기업이나 마케터가 수동으로 진행하던 번거로운 백링크 구축 과정을 자동화하여 링크 빌딩 규모를 손쉽게 확장할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 타겟 웹사이트 탐색 기능 테스트
+- AI 개인화 메시지 생성 품질 확인
+- 자동 후속 조치(Follow-up) 워크플로우 설정
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 메시지의 스팸 판정 여부 확인 필요
+- 발굴된 연락처의 정확성 및 유효성 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 타겟 사이트 필터링 기준과 메시지 품질 관리 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_ElvixAI__media_1.jpg)
+![Screenshot](images/ph_2026-08-19_ElvixAI__media_2.jpg)
+![Screenshot](images/ph_2026-08-19_ElvixAI__media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/30286b01-27d4-4a4c-b88c-0b6a95af28f9.jpeg?auto=format)
+
+---
+
+## 28. [Reloggly](https://www.producthunt.com/products/reloggly)
+**Votes**: 28 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your life, finally searchable
+**서비스 링크**: https://www.producthunt.com/r/7LKLTFQQIH2DMZ
+
+**태그**: Productivity, AI, Mobile, Note-taking, Search, AI Tool, Chat, Vision
+
+<img src="images/ph_2026-08-19_Reloggly.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+정리할 필요 없이 모든 기록을 의미 기반으로 검색하는 AI 통합 메모함
+
+### 🔑 주요 기능
+- 텍스트, 음성, 사진, 파일 등 모든 형태의 기록을 하나의 인박스에 저장
+- AI가 오디오 전사 및 이미지 분석을 통해 내용의 의미로 검색 가능하게 구현
+- 저장된 메모를 바탕으로 자동 태스크 생성 및 대화형 질의응답 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+폴더 정리나 태그 분류의 번거로움 없이, 생각나는 대로 던져두기만 해도 나중에 쉽게 찾아 쓸 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 메모를 던져두고 AI가 텍스트로 변환하는 기능 테스트하기
+- 스크린샷이나 사진을 업로드하여 의미 기반 검색 기능 확인하기
+- 저장된 메모를 바탕으로 AI와 채팅하며 정보 추출하기
+
+### ⚠️ 사용 전 확인할 점
+- 개인적인 정보나 민감한 파일이 포함될 경우 데이터 보안 및 프라이버시 정책 확인 필요
+- 모든 데이터가 하나의 인박스에 모이므로 데이터 관리 방식에 대한 개인적 선호도 차이 발생 가능
+
+### 🧭 확인이 더 필요한 정보
+데이터 저장 용량 제한 및 유료 플랜의 상세 기능 차이에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Reloggly_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Reloggly_media_2.jpg)
+![Screenshot](images/ph_2026-08-19_Reloggly_media_3.jpg)
+
+---
+
+## 29. [Pulse](https://www.producthunt.com/products/pulse-60)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: An AI-powered data room for startups raising capital
+**서비스 링크**: https://www.producthunt.com/r/QH3K4ZOXMLNLHF
+
+**태그**: AI, FinTech, Automation, Startup, SaaS, AI Tool, API
+
+<img src="images/ph_2026-08-19_Pulse.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+투자 유치 과정을 자동화하고 데이터 분석을 통해 딜 클로징을 가속화하는 AI 기반 데이터룸
+
+### 🔑 주요 기능
+- 단순 파일 저장소를 넘어 투자자의 참여 신호를 분석하여 파이프라인 자동 업데이트
+- 투자자를 위한 AI 검색 기능 제공으로 실사 과정의 번거로움 해소
+- MCP 서버를 통해 Slack이나 Claude에서 직접 문서 공유 및 후속 조치 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수동으로 투자자 현황을 추적할 필요 없이 데이터 기반의 의사결정이 가능하며, 외부 협업 도구에서 즉시 업무를 처리할 수 있어 효율적입니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 데이터룸 문서를 업로드하여 AI 검색 기능 테스트하기
+- Slack 또는 Claude와 MCP 서버 연동 설정하기
+- 투자자 참여 신호 대시보드 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 민감한 기업 데이터가 외부 AI 모델과 연동될 때의 보안 정책 확인 필요
+- 투자자(수신자)의 도구 사용 숙련도에 따른 경험 차이 발생 가능
+
+### 🧭 확인이 더 필요한 정보
+MCP 서버를 통한 외부 도구 연동 시 데이터 보안 및 권한 관리 범위에 대한 상세 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Pulse_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Pulse_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Pulse_media_2.jpg)
+
+---
+
+## 30. [Fragment](https://www.producthunt.com/products/fragment-10)
+**Votes**: 13 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI doesn't know your customers. Fragment does!
+**서비스 링크**: https://www.producthunt.com/r/46EIF2WS3PKB2M
+
+**태그**: Product Management, AI, Customer Insights, DevTool, Agent, AI Tool
+
+<img src="images/ph_2026-08-19_Fragment.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+고객의 목소리와 제품 데이터를 구조화된 증거로 변환하여 제품 방향성을 제시하는 AI 도구
+
+### 🔑 주요 기능
+- 고객 피드백, 제품 동작, 기업 내부 지식을 구조화된 데이터로 변환
+- AI 에이전트 시대에 팀과 에이전트 간의 정보 불일치 문제 해결
+- 사용자가 진정으로 원하는 제품을 만들 수 있도록 의사결정 근거 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품 개발팀이 무엇을 만들어야 할지 고민하는 시간을 줄여주며, 팀원과 AI 에이전트가 동일한 맥락을 공유하게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 고객 피드백 데이터 연동하기
+- 제품 사용 로그 및 내부 문서 데이터 입력하기
+- 생성된 구조적 증거를 바탕으로 제품 로드맵 검토하기
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 보안 및 프라이버시 정책 확인 필요
+- 입력되는 데이터의 품질에 따라 결과물의 신뢰도가 결정될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 소스 연동 방식과 보안 프로토콜에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-19_Fragment_media_0.jpg)
+![Screenshot](images/ph_2026-08-19_Fragment_media_1.jpg)
+![Screenshot](images/ph_2026-08-19_Fragment_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/88c5810e-59dd-466d-93eb-cf0df3cc94a5.jpeg?auto=format)
+
+---
+
