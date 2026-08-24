@@ -1,0 +1,1231 @@
+# 🚀 Product Hunt Daily Top 30 (2026-08-25)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트의 기업 자산화와 인간과의 협업 방식, 그리고 AI 도입에 따른 비용 및 생산성 관리로 요약됩니다. 특히 AI가 단순한 도구를 넘어 자율적인 워크포스로 진화하며, 이를 안전하게 통제하고 관리하려는 인프라 성격의 서비스들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트의 생애주기 관리와 기업 보안을 위한 중앙 집중식 통제 플랫폼이 부상하고 있습니다.
+- AI 코딩 비용을 로드맵과 연동하거나 원격으로 제어하는 등 AI 도입에 따른 운영 효율성 확보가 중요해졌습니다.
+- 결제 연속성 확보 및 의존성 자동 롤백과 같이 비즈니스 연속성을 보장하는 안정적인 인프라 도구들이 주목받았습니다.
+
+**오늘의 태그**: AI 에이전트, 생산성 도구, 비즈니스 자동화, DevOps
+
+## 1. [PaymentKit](https://www.producthunt.com/products/paymentkit)
+**Votes**: 373 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Billing that survives a processor shutdown
+**서비스 링크**: https://www.producthunt.com/r/VBME2QKKZVBULI
+
+**태그**: Fintech, SaaS, Billing, DevTool, API
+
+<img src="images/ph_2026-08-24_PaymentKit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+결제 대행사(PG) 중단 상황에서도 구독 결제를 유지하는 멀티 프로세서 빌링 플랫폼
+
+### 🔑 주요 기능
+- 여러 결제 대행사를 넘나드는 멀티 프로세서 라우팅 기능
+- 독립적인 토큰 볼트(Vault) 시스템으로 결제 수단 안전하게 관리
+- 특정 가맹점 식별 번호(MID) 폐쇄 시에도 구독 결제 연속성 보장
+
+### 🙋 사용자에게 어떤 점이 좋은가
+결제 대행사의 갑작스러운 계정 정지나 서비스 중단으로부터 비즈니스 매출을 보호하고 결제 연속성을 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 노코드 툴을 활용한 빠른 결제 시스템 구축
+- 기존 결제 데이터의 토큰화 및 분산 저장 테스트
+- API를 통한 커스텀 결제 워크플로우 설계
+
+### ⚠️ 사용 전 확인할 점
+- 멀티 프로세서 사용 시 각 대행사별 수수료 및 정책 차이 확인 필요
+- 데이터 동기화 및 토큰 이전 시의 기술적 복잡성 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 구체적인 결제 대행사(PG) 목록과 지역별 가용 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_PaymentKit_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_PaymentKit_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_PaymentKit_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/674493bb-c788-4921-813d-5b466086d428.jpeg?auto=format)
+
+---
+
+## 2. [Decawork](https://www.producthunt.com/products/decawork)
+**Votes**: 241 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Control your company's internal AI agents and tools
+**서비스 링크**: https://www.producthunt.com/r/6L7FAO6PDHTEGG
+
+**태그**: AI, IT Management, Automation, DevOps, Security, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-08-24_Decawork.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개별 직원이 만든 AI 에이전트를 기업 자산으로 안전하게 통합하고 관리하는 플랫폼
+
+### 🔑 주요 기능
+- 개별 직원이 개발한 AI 에이전트의 기업 계정 전환 및 자산화
+- IT 팀을 위한 중앙 집중식 에이전트 관리 및 감독 기능
+- 접근 권한 관리, 운영 감독, 폐기 등 에이전트 생애주기 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+직원들이 만든 개별 AI 도구들을 기업의 통제 하에 두어 보안을 강화하고, 검증된 AI 에이전트를 기업 자산으로 체계적으로 운영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 직원들이 만든 에이전트의 배포 프로세스 테스트
+- 기업 보안 정책에 따른 에이전트 접근 권한 설정
+- 기존 코딩 도구(Claude Code, Codex 등)와의 연동 확인
+
+### ⚠️ 사용 전 확인할 점
+- 기존에 개발된 다양한 코딩 도구와의 호환성 확인 필요
+- 에이전트의 데이터 보안 및 기업 내부 데이터 유출 방지책 검토
+
+### 🧭 확인이 더 필요한 정보
+다양한 외부 코딩 도구(Vibecoding tools)에서 생성된 에이전트가 얼마나 원활하게 Decawork로 이관되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Decawork_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Decawork_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Decawork_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0fe412f3-089b-494b-80b5-55a2a7bd3a49.jpeg?auto=format)
+
+---
+
+## 3. [Navigara](https://www.producthunt.com/products/navigara)
+**Votes**: 220 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Connect Your AI Spend Directly to Your Roadmap
+**서비스 링크**: https://www.producthunt.com/r/N4737ZSIONEFWG
+
+**태그**: DevTool, AI, FinOps, Engineering Management, AI Tool
+
+<img src="images/ph_2026-08-24_Navigara.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 코딩 비용을 로드맵과 연동하여 개발 생산성 및 비용 효율성을 관리하는 도구
+
+### 🔑 주요 기능
+- AI 코딩 성과를 엔지니어링 로드맵과 직접 연결하여 실질적인 역량 향상 증명
+- 로드맵 항목별 정확한 비용 추적 및 로드맵 외 낭비되는 비용 식별
+- 루틴한 CRUD 작업은 저비용 모델로 자동 라우팅하여 비용 절감
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 도입으로 인한 비용 지출이 실제 제품 개발(로드맵)에 얼마나 기여하는지 투명하게 파악하고, 불필요한 지출을 줄일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Git 히스토리 및 JIRA/Linear 연동하기
+- AI 코딩 라이선스 연결하여 비용 데이터 확보하기
+- 루틴 작업의 저비용 모델 자동 라우팅 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- Git 및 이슈 트래커(JIRA/Linear) 접근 권한 설정 필요
+- 자동화된 모델 라우팅 시 코드 품질 유지 여부 모니터링 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 특정 AI 코딩 도구(Copilot 등)와의 상세 연동 방식 및 보안 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Navigara_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Navigara_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Navigara_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/5042b6a6-0335-411e-ba55-6417b3ec93c5.jpeg?auto=format)
+
+---
+
+## 4. [Offloop](https://www.producthunt.com/products/offloop)
+**Votes**: 202 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A shared workspace where people and AI agents get work done
+**서비스 링크**: https://www.producthunt.com/r/QKHNZCG3KG6RH3
+
+**태그**: Collaboration, AI, Productivity, Workflow, Agent, AI Tool, Chat
+
+<img src="images/ph_2026-08-24_Offloop.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사람과 AI 에이전트가 협업하여 복잡한 업무를 완수하는 공유 워크스페이스
+
+### 🔑 주요 기능
+- 사람과 AI 에이전트 간의 원활한 협업을 위한 공유 워크스페이스 제공
+- 채널 기반의 투명한 대화 및 의사결정 기록 관리
+- Flow 기능을 통한 단계별 책임 할당 및 원활한 업무 인수인계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI와 대화할 때마다 맥락을 다시 설명할 필요 없이, 업무 흐름(Flow)을 통해 사람과 AI가 끊김 없이 협업할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 채널 기능을 통한 팀 내 의사결정 기록하기
+- Flow 기능을 활용한 단계별 업무 소유권 설정하기
+- AI 에이전트와 멀티스텝 업무 계획 수립하기
+
+### ⚠️ 사용 전 확인할 점
+- 8월 24일 공식 출시 예정으로 현재 기능 완성도 확인 필요
+- AI 에이전트와의 협업 방식에 따른 업무 관리 복잡도 증가 가능성
+
+### 🧭 확인이 더 필요한 정보
+공식 출시 전이므로 구체적인 기능 범위와 외부 도구 연동 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Offloop_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Offloop_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Offloop_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/24781330-b318-4d26-a063-1a6f0238749a.jpeg?auto=format)
+
+---
+
+## 5. [WorldMap.lol](https://www.producthunt.com/products/worldmap-lol)
+**Votes**: 160 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Put your startup on the map. Literally.
+**서비스 링크**: https://www.producthunt.com/r/IK4ONXSX5BRNUA
+
+**태그**: Startup, Gamification, Community
+
+<img src="images/ph_2026-08-24_WorldMap.lol.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전 세계 지도를 배경으로 스타트업의 영역을 선점하는 게임형 지도 서비스
+
+### 🔑 주요 기능
+- 국가별로 스타트업의 위치를 표시하는 공개 지도
+- 창업가 및 인디 해커들 간의 재미있는 경쟁 요소
+- 자신의 스타트업을 지도 위에 시각적으로 배치
+
+### 🙋 사용자에게 어떤 점이 좋은가
+창업가로서 자신의 비즈니스 위치를 전 세계에 알리고, 다른 창업가들과 가벼운 경쟁을 즐길 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 스타트업 위치 등록하기
+- 다른 창업가들의 위치 확인하기
+- 지도상에서 경쟁 구도 파악하기
+
+### ⚠️ 사용 전 확인할 점
+- 단순 재미 위주의 서비스로 비즈니스 도구로서의 기능은 제한적일 수 있음
+- 공개 지도에 정보가 노출되는 것에 대한 보안 고려 필요
+
+### 🧭 확인이 더 필요한 정보
+서비스의 구체적인 게임 규칙이나 국가 점유 방식에 대한 상세 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_WorldMap.lol_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_WorldMap.lol_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_WorldMap.lol_media_2.jpg)
+
+---
+
+## 6. [Antigravity Remote Control](https://www.producthunt.com/products/google-antigravity)
+**Votes**: 128 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Drive Antigravity agents from any browser
+**서비스 링크**: https://www.producthunt.com/r/KKIM77T2NNVHRR
+**재등장**: 최근 7일 내 재등장 (마지막 등장 2일 전)
+
+**태그**: DevTool, RemoteControl, Productivity, Automation, Agent
+
+<img src="images/ph_2026-08-24_Antigravity_Remote_Control.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+어디서든 브라우저를 통해 Antigravity 코딩 세션을 모니터링하고 제어할 수 있는 원격 컨트롤 도구
+
+### 🔑 주요 기능
+- 웹 브라우저를 통한 원격 코딩 세션 모니터링 및 제어
+- 로컬 컨텍스트, 자격 증명, 빌드 도구를 메인 워크스테이션에 안전하게 유지
+- 이동 중에도 계획 검토, 명령 승인 및 푸시 알림 수신 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+메인 작업 환경의 보안과 개발 환경을 유지하면서도, 외부에서 모바일이나 다른 기기로 작업 진행 상황을 확인하고 승인할 수 있어 업무 연속성이 높아집니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브라우저를 통한 원격 제어 연결 테스트
+- 모바일 환경에서의 푸시 알림 및 명령 승인 흐름 확인
+- 로컬 워크스테이션과의 보안 연결 상태 점검
+
+### ⚠️ 사용 전 확인할 점
+- 원격 제어 시 로컬 환경의 보안 설정 확인 필요
+- 네트워크 상태에 따른 브라우저 기반 제어 지연 가능성
+
+### 🧭 확인이 더 필요한 정보
+Antigravity 에이전트와의 구체적인 연동 방식 및 지원하는 브라우저 환경에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Antigravity_Remote_Control_media_2.jpg)
+![Screenshot](images/ph_2026-08-24_Antigravity_Remote_Control_media_3.jpg)
+![Screenshot](images/ph_2026-08-24_Antigravity_Remote_Control_media_4.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/faf9ba64-e135-48c7-841e-29fb8eac952c.jpeg?auto=format)
+- [🎥 영상 보기](https://ph-files.imgix.net/4af58a54-2067-4765-9ea5-118fda7897e6.jpeg?auto=format)
+
+---
+
+## 7. [Dropstone](https://www.producthunt.com/products/dropstone-2)
+**Votes**: 118 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: The AI runtime that remembers, learns, and acts everywhere
+**서비스 링크**: https://www.producthunt.com/r/2QWED3PGXZG25J
+
+**태그**: AI, Automation, Workflow, DigitalWorkforce, AI Tool
+
+<img src="images/ph_2026-08-24_Dropstone.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 비서를 넘어 자율적인 디지털 워크포스로 진화하는 AI 런타임
+
+### 🔑 주요 기능
+- 학습과 기억을 바탕으로 진화하는 지능형 런타임
+- AI 어시스턴트에서 상시 가동되는 디지털 인력으로의 확장성
+- 어디서든 작동하는 범용적인 AI 실행 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 질의응답을 넘어, 사용자의 맥락을 기억하고 스스로 업무를 수행하는 자동화된 워크플로우를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기본적인 AI 어시스턴트 기능 테스트
+- 학습 및 기억 기능의 작동 방식 확인
+- 워크플로우 자동화 가능 범위 탐색
+
+### ⚠️ 사용 전 확인할 점
+- 자율적 동작에 따른 제어권 확보 방안 확인 필요
+- 데이터 프라이버시 및 보안 정책 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 기술 스택, 통합 가능한 플랫폼 범위 및 보안 아키텍처에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Dropstone_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Dropstone_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Dropstone_media_2.jpg)
+
+---
+
+## 8. [Bumply](https://www.producthunt.com/products/bumply)
+**Votes**: 104 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Update your dependencies and undo anything
+**서비스 링크**: https://www.producthunt.com/r/UU6NGEKCQA7R57
+
+**태그**: DevTool, Automation, MacApp, JavaScript, AI Tool
+
+<img src="images/ph_2026-08-24_Bumply.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+의존성 업데이트를 안전하고 간편하게 관리하는 Mac용 자동화 도구
+
+### 🔑 주요 기능
+- npm, pnpm, Yarn, Bun 등 주요 패키지 매니저 지원
+- 실행 전 모든 명령어를 미리 확인하는 투명한 프로세스
+- 매니페스트 및 락파일의 바이트 단위 백업 및 즉각적인 롤백 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+의존성 업데이트 시 발생할 수 있는 프로젝트 파손 위험을 최소화하며, 실패 시 즉시 이전 상태로 복구할 수 있어 개발 흐름을 보호합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 진행 중인 프로젝트의 의존성 업데이트 시도
+- 실패 시 롤백 기능이 정상적으로 작동하는지 테스트
+- 사용 중인 패키지 매니저와의 호환성 확인
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 앱이므로 macOS 환경에서만 사용 가능
+- 백업된 파일이 로컬 환경에 저장되므로 저장 공간 관리 필요
+
+### 🧭 확인이 더 필요한 정보
+다양한 OS 환경이나 CI/CD 파이프라인과의 연동 가능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Bumply_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Bumply_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Bumply_media_2.jpg)
+
+---
+
+## 9. [Localdock](https://www.producthunt.com/products/localdock)
+**Votes**: 104 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Every local project gets a real address.
+**서비스 링크**: https://www.producthunt.com/r/ICZAQZNUWJYH7P
+
+**태그**: DevTool, WebDev, Productivity
+
+<img src="images/ph_2026-08-24_Localdock.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+클라이언트 설치 없이 로컬 개발 환경을 실시간 HTTPS 링크로 공유하는 도구
+
+### 🔑 주요 기능
+- 로컬 프로젝트에 실제 접속 가능한 HTTPS 주소 부여
+- 클라이언트 측 별도 설치가 필요 없는 간편한 공유 방식
+- 모바일 기기 포함 어디서든 개발 환경 접속 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발 중인 결과물을 외부 협업자나 모바일 기기에서 즉시 확인해야 할 때 매우 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 프로젝트를 외부로 노출하기
+- 모바일 기기에서 개발 중인 웹 페이지 접속하기
+- 단 한 번의 결제로 영구적인 프로젝트 관리하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 환경을 외부로 노출하므로 보안 설정 확인 필요
+- 클라이언트 설치가 없더라도 네트워크 환경에 따른 연결 안정성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 환경의 보안 수준과 외부 접속 시의 데이터 보호 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Localdock_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Localdock_media_2.jpg)
+![Screenshot](images/ph_2026-08-24_Localdock_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/87c21d7f-c369-4aed-91e2-cd2b4ad1e8d3.jpeg?auto=format)
+
+---
+
+## 10. [Trama](https://www.producthunt.com/products/trama-mac-automation-in-plain-language)
+**Votes**: 97 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Create macOS native automations using plain language
+**서비스 링크**: https://www.producthunt.com/r/V7HJKXXGPGC7QL
+
+**태그**: Automation, macOS, AI, Productivity, AI Tool, API
+
+<img src="images/ph_2026-08-24_Trama.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 프로그래밍 없이 일상 언어로 macOS 자동화를 만드는 AI 도구
+
+### 🔑 주요 기능
+- 자연어 기반의 직관적인 자동화 생성 (Cmd+Option+X)
+- AppleScript, Shell, OCR 등 macOS 시스템 깊숙한 제어
+- 반복 작업 감지 및 자동화 제안 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+워크플로우 설계에 대한 전문 지식 없이도 누구나 자신만의 맞춤형 Mac 자동화 도구를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자주 반복하는 작업을 자연어로 설명하여 자동화 생성해보기
+- 사용 중인 LLM(Claude, GPT 등) 키를 연결하여 성능 최적화하기
+- 시스템 제어 및 화면 인식 기능을 활용한 워크플로우 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 개인 LLM API 키를 직접 입력해야 하므로 보안 관리에 유의 필요
+- 시스템 권한(Shell, AppleScript)을 사용하는 만큼 실행 결과에 대한 책임은 사용자에게 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자의 개인 API 키를 사용하는 방식이므로 데이터 프라이버시 및 보안 정책을 사전에 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Trama_media_0.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b60e5a65-18e8-4667-91a7-edbd733078d1.jpeg?auto=format)
+
+---
+
+## 11. [Phoenix](https://www.producthunt.com/products/phoenix-10)
+**Votes**: 89 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI coding agent built for iOS, macOS app development
+**서비스 링크**: https://www.producthunt.com/r/R2WY3CAIXHTVOZ
+
+**태그**: iOS, macOS, AI-Agent, DevTool, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-08-24_Phoenix.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+iOS 및 macOS 앱 개발을 위해 설계된 전문 AI 코딩 에이전트
+
+### 🔑 주요 기능
+- iOS 개발에 특화된 코드 작성 및 편집 기능
+- 빌드 실행, 도구 구동 및 오류 진단 자동화
+- 아이디어 단계부터 작동하는 앱까지의 전체 개발 사이클 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+iOS 개발 프로세스의 복잡한 빌드 및 디버깅 과정을 자동화하여 개발 시간을 단축하고 아이디어를 빠르게 앱으로 구현할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 iOS 프로젝트에 코드 편집 기능 적용해보기
+- AI를 통한 빌드 및 오류 진단 프로세스 테스트
+- 아이디어 단계의 프로토타입 생성 시도
+
+### ⚠️ 사용 전 확인할 점
+- iOS/macOS 외 플랫폼 개발 시 활용도 제한 가능성
+- AI 생성 코드의 품질 및 보안 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 프로그래밍 언어(Swift 등) 및 특정 개발 환경(Xcode 등)과의 통합 수준에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Phoenix_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Phoenix_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Phoenix_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ec1c8734-869e-4586-84f8-04750d7ca4bd.jpeg?auto=format)
+
+---
+
+## 12. [Lucid Train](https://www.producthunt.com/products/lucid-train)
+**Votes**: 87 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Build system design for new and existing codebase
+**서비스 링크**: https://www.producthunt.com/r/EIVQY453NHXK2T
+
+**태그**: DevTool, Architecture, AI-Agent, Automation, Local-First, Agent, AI Tool, Design
+
+<img src="images/ph_2026-08-24_Lucid_Train.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코드베이스를 분석해 아키텍처 다이어그램을 생성하고, 이를 코딩 에이전트의 설계도로 활용하는 도구
+
+### 🔑 주요 기능
+- 기존 및 신규 코드베이스로부터 자동 아키텍처 다이어그램 생성
+- 생성된 다이어그램을 코딩 에이전트의 명세(Specification)로 전달
+- 로컬 모델 기반의 완전 오프라인 환경 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코드 구조를 시각화하여 시스템 설계를 자동화하고, 이를 통해 AI 에이전트가 정확한 설계를 바탕으로 코딩할 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 프로젝트의 코드베이스를 연결하여 아키텍처 다이어그램 생성해보기
+- 생성된 다이어그램이 코딩 에이전트의 작업에 얼마나 정확하게 반영되는지 테스트하기
+- 로컬 환경에서의 구동 성능 및 보안성 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 모델 사양에 따른 다이어그램 생성 품질 차이 가능성
+- 복잡도가 매우 높은 레거시 코드의 경우 다이어그램 가독성 문제 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+로컬 모델 구동을 위한 최소 하드웨어 사양과 지원되는 프로그래밍 언어 범위에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Lucid_Train_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Lucid_Train_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Lucid_Train_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2b88fe1e-a57e-4244-af8f-497f7292317f.jpeg?auto=format)
+
+---
+
+## 13. [Destiny Rings](https://www.producthunt.com/products/destiny-rings)
+**Votes**: 86 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: Proximity-powered dating, social & networking
+**서비스 링크**: https://www.producthunt.com/r/3DTTW4XISHZK6G
+
+**태그**: Social, Hardware, Dating, Networking, Lifestyle
+
+<img src="images/ph_2026-08-24_Destiny_Rings.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+스마트 링의 근거리 통신을 활용해 현실 세계에서 즉각적인 만남을 연결하는 프로크시미티 기반 소셜 서비스
+
+### 🔑 주요 기능
+- 블루투스 스마트 링을 통한 실시간 근거리 매칭
+- 데이트, 소셜, 네트워킹 등 목적에 따른 모드 전환 기능
+- 온라인 프로필 스와이프 대신 오프라인 현장 만남에 집중
+
+### 🙋 사용자에게 어떤 점이 좋은가
+온라인상의 가상 프로필 대신 실제 같은 공간에 있는 사람과 즉각적인 교감을 나눌 수 있어 현실적인 만남의 기회를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 상황에 맞는 모드(Dating/Social/Networking) 설정하기
+- 주변에 호감 있는 상대가 나타났을 때 'Signal' 보내기
+- 매칭 시 'Fate Check'를 통해 상대방 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 전용 스마트 링 하드웨어를 반드시 착용해야 서비스 이용 가능
+- 주변에 사용자가 충분히 밀집되어 있어야 서비스 가치 발생
+
+### 🧭 확인이 더 필요한 정보
+하드웨어의 배터리 수명, 연결 안정성 및 개인정보 보호 정책에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Destiny_Rings_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Destiny_Rings_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Destiny_Rings_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9fea5868-b825-4d0c-863e-b989c3b06dd6.jpeg?auto=format)
+
+---
+
+## 14. [Wavepocket ▶︎•၊||၊||။၊|။](https://www.producthunt.com/products/wavepocket-free-ios-app)
+**Votes**: 84 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Synth, drum kit, a 4-track tape loop, and FX app
+**서비스 링크**: https://www.producthunt.com/r/H3U3J7JMT6UHQ2
+
+**태그**: Music Production, Sampler, Beatmaking, Lo-fi
+
+<img src="images/ph_2026-08-24_Wavepocket_▶︎•၊၊။၊။.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+손안의 스튜디오: 신디사이저, 드럼, 샘플러, 4트랙 테이프 루프가 결합된 올인원 음악 제작 앱
+
+### 🔑 주요 기능
+- 신디사이저, 드럼 키트, 샘플러, 4트랙 테이프 레코더 기능 통합
+- 파형 단위 샘플 슬라이싱 및 직관적인 클립 타임라인 제공
+- 모든 레이어가 하나의 루프 경계를 공유하여 완벽한 싱크 유지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 DAW 없이도 언제 어디서나 아이디어를 즉시 음악으로 만들고 루프 기반의 비트를 완성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 샘플을 파형 단위로 슬라이스하여 나만의 소리 만들기
+- 4트랙 타임라인에 클립을 배치하여 루프 비트 구성하기
+- 믹서 기능을 활용해 트랙별 레벨과 팬 조절하기
+
+### ⚠️ 사용 전 확인할 점
+- 루프 기반 작업 방식이므로 복잡한 곡 구조 설계에는 제한이 있을 수 있음
+- 모바일/휴대용 환경에 최적화된 기능 위주로 구성됨
+
+### 🧭 확인이 더 필요한 정보
+지원하는 OS(iOS/Android) 및 외부 악기/플러그인 연동 가능 여부에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Wavepocket_▶︎•၊၊။၊။_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Wavepocket_▶︎•၊၊။၊။_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Wavepocket_▶︎•၊၊။၊။_media_2.jpg)
+
+---
+
+## 15. [Contrive](https://www.producthunt.com/products/contrive)
+**Votes**: 84 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Search and act across all your work apps
+**서비스 링크**: https://www.producthunt.com/r/6IPCP4KZKB3T62
+
+**태그**: Productivity, Search, Automation, Workflow, AI Tool
+
+<img src="images/ph_2026-08-24_Contrive.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+모든 업무 앱의 정보를 검색하고 즉각적인 실행까지 연결하는 통합 워크스페이스 커맨드 바
+
+### 🔑 주요 기능
+- 단순 링크 제공을 넘어 여러 도구의 맥락을 결합한 정보 합성
+- 검색 결과에서 즉시 실행 가능한 액션으로 연결되는 워크플로우
+- 워크스페이스 권한을 준수하며 팀별로 인덱싱 범위를 제어하는 보안성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 앱을 오가는 번거로움 없이 키보드 하나로 필요한 정보를 찾고 업무를 즉시 처리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 데스크톱 커맨드 바를 통한 통합 검색 테스트
+- 연결된 업무 앱 간의 맥락 합성 기능 확인
+- 검색 결과에서 바로 실행되는 액션 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- 연결된 업무 앱의 권한 설정 및 데이터 인덱싱 범위 확인 필요
+- 데스크톱 설치형 도구로서의 시스템 리소스 점유율 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 구체적인 업무용 앱 목록과 데이터 보안/프라이버시 정책에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Contrive_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Contrive_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Contrive_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d0c44b60-1e54-474a-872a-259797a71f31.jpeg?auto=format)
+
+---
+
+## 16. [Cortex by SKYNETLAB](https://www.producthunt.com/products/cortex-by-skynetlab)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The memory layer that decides what's worth remembering
+**서비스 링크**: https://www.producthunt.com/r/KKJVZ2IIEPI66M
+
+**태그**: AI, DevTool, KnowledgeManagement, MCP, AI Tool
+
+<img src="images/ph_2026-08-24_Cortex_by_SKYNETLAB.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI를 위한 고품질 시맨틱 메모리 레이어: 중복을 제거하고 사실 관계를 관리하는 지능형 저장소
+
+### 🔑 주요 기능
+- 중복 데이터 80%를 걸러내는 고품질 데이터 게이트웨이
+- 사실 기반의 타입화된 클레임 및 모순 추적 기능
+- MCP(Model Context Protocol)를 통한 간편한 연결 및 출처 인용
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 불필요한 정보에 매몰되지 않도록 핵심 사실만 정제하여 저장하며, 답변의 근거를 명확히 제공하여 신뢰도를 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- Claude와 연동하여 2분 만에 설정해보기
+- MCP 클라이언트를 통한 데이터 연결 테스트
+- 30일 무료 체험을 통한 데이터 정제 품질 확인
+
+### ⚠️ 사용 전 확인할 점
+- 데이터가 타입화된 클레임 형태로 저장되므로 기존 비정형 데이터 활용 방식과 차이가 있을 수 있음
+- 생산 환경에서 80%의 데이터가 거부될 수 있으므로 중요한 정보 누락 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 특정 워크플로우에서 데이터 거부율이 실제 어떻게 작용할지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Cortex_by_SKYNETLAB_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Cortex_by_SKYNETLAB_media_2.jpg)
+![Screenshot](images/ph_2026-08-24_Cortex_by_SKYNETLAB_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bcd928c9-9c3d-4077-9ae2-f7c7c16af00e.jpeg?auto=format)
+
+---
+
+## 17. [IFAH](https://www.producthunt.com/products/ifah-a-new-experience-of-sound)
+**Votes**: 77 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: Instruments for composing and experiencing sound as a space
+**서비스 링크**: https://www.producthunt.com/r/LKGV76WCQ4VW2L
+
+**태그**: Music, SoundDesign, CreativeTools, ImmersiveAudio
+
+<img src="images/ph_2026-08-24_IFAH.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+공간으로서의 소리를 설계하고 재현하는 혁신적인 악기 및 사운드 환경 구축 도구
+
+### 🔑 주요 기능
+- 소리를 하나의 환경(Environment)으로 구성하는 새로운 방식의 악기 시리즈
+- 재현 가능한 음향 필드를 생성, 보존 및 재생하는 기능
+- 오프라인 우선 방식과 새로운 인터페이스를 결합한 몰입형 사운드 경험
+
+### 🙋 사용자에게 어떤 점이 좋은가
+음악가나 연구자가 정교하게 설계된 음향 공간을 만들고, 이를 연습이나 공연 시 동일하게 재현할 수 있게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제공되는 인터페이스를 통한 사운드 필드 구성 시도
+- 설계된 음향 환경의 재현성 테스트
+- 오프라인 환경에서의 악기 구동 확인
+
+### ⚠️ 사용 전 확인할 점
+- 새로운 인터페이스 방식에 따른 학습 곡선 존재 가능성
+- 물리적/디지털 환경에 따른 음향 재현의 변수 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 하드웨어 사양 및 소프트웨어 호환성에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_IFAH_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_IFAH_media_2.jpg)
+![Screenshot](images/ph_2026-08-24_IFAH_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/882291eb-3ddf-4fd6-9a5d-c41bf757c3d1.jpeg?auto=format)
+
+---
+
+## 18. [Treebar](https://www.producthunt.com/products/treebar-where-is-codex)
+**Votes**: 73 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Treebar gives you one view of every active worktree
+**서비스 링크**: https://www.producthunt.com/r/MP4Y4NBWEJJAF4
+
+**태그**: DevTool, Productivity, Git, macOS, Agent
+
+<img src="images/ph_2026-08-24_Treebar.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+여러 개의 워크트리를 사용하는 개발자를 위한 맥북 노치 기반의 실시간 작업 현황 모니터링 도구
+
+### 🔑 주요 기능
+- Git 및 Codex 작업 상태를 실시간으로 감시
+- 맥북 노치 영역을 활용한 직관적인 통합 뷰 제공
+- 여러 워크트리 간의 작업 위치 및 에이전트 활동 추적
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 작업 환경을 오가는 개발자가 현재 어떤 워크트리에서 어떤 작업이 진행 중인지 즉각적으로 파악하여 맥락을 놓치지 않게 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 맥북 노치 영역의 실시간 상태 확인하기
+- 현재 활성화된 워크트리 및 에이전트 수 확인하기
+- Git 작업과 연동된 실시간 변경 사항 모니터링하기
+
+### ⚠️ 사용 전 확인할 점
+- 맥북(macOS) 환경에 특화된 UI/UX로 다른 OS에서는 사용이 제한될 수 있음
+- Git 및 Codex와의 연동 방식에 따른 시스템 리소스 사용량 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+핵심 기능의 오픈소스 공개 일정 및 상세 연동 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Treebar_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Treebar_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Treebar_media_2.jpg)
+
+---
+
+## 19. [Wild Static](https://www.producthunt.com/products/wild-static)
+**Votes**: 17 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: One AI. One memory. Shared by everyone.
+**서비스 링크**: https://www.producthunt.com/r/RNIVV642YTTLZ7
+
+**태그**: AI, Social, Experimental, Memory System, AI Tool
+
+<img src="images/ph_2026-08-24_Wild_Static.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+모두의 대화가 모여 하나의 인격이 되는 공유형 AI 실험 플랫폼
+
+### 🔑 주요 기능
+- 모든 사용자가 동일한 하나의 AI 모델과 상호작용
+- 사용자 간의 대화 기록이 AI의 기억으로 축적되는 공유 메모리 시스템
+- 집단 지성과 상호작용을 통해 실시간으로 변화하는 AI 경험
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개별적인 비서가 아닌, 사회적 상호작용이 반영된 살아있는 AI를 경험하며 새로운 형태의 디지털 인격과 교감할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Static과 직접 대화하며 변화 관찰하기
+- 다른 사용자의 흔적이 AI에 미치는 영향 확인하기
+- 공유 메모리 시스템의 작동 방식 탐색하기
+
+### ⚠️ 사용 전 확인할 점
+- 타인의 대화 내용이 AI의 기억에 반영되어 개인적인 대화가 노출될 위험이 있음
+- 집단적인 대화 패턴에 의해 AI의 성격이 의도치 않은 방향으로 편향될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+공유 메모리 시스템의 구체적인 데이터 필터링 및 개인정보 보호 메커니즘에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Wild_Static_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Wild_Static_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Wild_Static_media_2.jpg)
+
+---
+
+## 20. [TapTo.Top](https://www.producthunt.com/products/tapto-top)
+**Votes**: 15 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Tap to play, rank your product To Top  -  Free
+**서비스 링크**: https://www.producthunt.com/r/4UB5ITRX6JJLCT
+
+**태그**: Marketing, Gamification, GrowthHacking
+
+<img src="images/ph_2026-08-24_TapTo.Top.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+게임 플레이를 통해 제품의 순위를 높이고 더 많은 사람들에게 노출하는 마케팅 도구
+
+### 🔑 주요 기능
+- 게임 플레이를 통한 재미 요소 결합
+- 높은 점수를 통한 제품 순위 상승
+- 사용자 참여를 통한 제품 홍보 효과
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품 출시 시 사용자들이 게임을 즐기면서 자연스럽게 제품을 노출하고 인지도를 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 게임 플레이를 통한 점수 획득
+- 획득한 점수로 제품 순위 확인
+- 제품 홍보를 위한 점수 경쟁
+
+### ⚠️ 사용 전 확인할 점
+- 게임 점수가 실제 제품의 품질이나 가치를 대변하지 않을 수 있음
+- 단순 점수 경쟁 위주의 방식이므로 지속적인 유입 유지가 어려울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+게임 방식이 구체적으로 어떤 메커니즘을 통해 제품 노출로 이어지는지 명확하지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_TapTo.Top_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_TapTo.Top_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_TapTo.Top_media_2.jpg)
+
+---
+
+## 21. [Reproof](https://www.producthunt.com/products/reproof)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The writing app for perfectionists.
+**서비스 링크**: https://www.producthunt.com/r/2RNCOK7EE5QYBK
+
+**태그**: Writing, Productivity, ContentCreation
+
+<img src="images/ph_2026-08-24_Reproof.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+완벽한 문장을 위해 쓰고, 고치고, 다듬는 과정을 지원하는 작가용 워크플로우 앱
+
+### 🔑 주요 기능
+- 문단 버전 관리 및 잘라낸 문구 보관 기능
+- 사이드 바이 사이드 문서 비교 및 편집 환경
+- 마크다운 및 리치 텍스트 지원과 선택적 찾기/바꾸기
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글을 쓰는 과정에서 버려지는 아이디어를 보관하고 문장 구조를 유연하게 변경할 수 있어, 퇴고와 재구성 작업이 빈번한 작가들에게 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 버전 관리 기능을 활용해 문단별 수정 이력 관리하기
+- 클리핑 기능을 사용하여 버려지는 문장들을 따로 저장하기
+- 사이드 바이 사이드 모드로 이전 버전과 현재 버전 비교하기
+
+### ⚠️ 사용 전 확인할 점
+- 최종 결과물을 CMS나 뉴스레터로 옮길 때의 호환성 확인 필요
+- 특정 플랫폼(CMS)과의 직접적인 자동 연동 여부는 명시되지 않음
+
+### 🧭 확인이 더 필요한 정보
+외부 CMS나 뉴스레터 앱으로의 내보내기 방식이 단순 복사-붙여넣기인지, API 연동을 지원하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Reproof_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Reproof_media_2.jpg)
+![Screenshot](images/ph_2026-08-24_Reproof_media_3.jpg)
+
+---
+
+## 22. [Userscom](https://www.producthunt.com/products/userscom)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The support tool that can refund, cancel & fix
+**서비스 링크**: https://www.producthunt.com/r/5BJO56W7FUIBYT
+
+**태그**: CustomerSupport, SaaS, Fintech, Productivity, Chat
+
+<img src="images/ph_2026-08-24_Userscom.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+채팅과 결제 관리를 하나로 합친 1인 개발자 및 소규모 팀용 고객 지원 도구
+
+### 🔑 주요 기능
+- 라이브 채팅, 티켓팅, 결제 관리(Stripe, Paddle) 통합 기능
+- 대화창 내에서 즉시 환불 및 구독 취소 가능
+- 인원수 기반 요금이 없는 합리적인 고정 가격 정책
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고객 응대와 결제 처리를 위해 여러 창을 오갈 필요 없이 하나의 위젯에서 모든 문제를 해결할 수 있어 운영 효율이 극대화됩니다.
+
+### ✅ 지금 바로 써볼 기능
+- 2분 만에 위젯 설치하기
+- Stripe/Paddle 연동하여 결제 관리하기
+- 라이브 채팅으로 고객 응대하기
+
+### ⚠️ 사용 전 확인할 점
+- 소규모 팀 및 인디 해커에 최적화되어 있어 대규모 엔터프라이즈 기능은 부족할 수 있음
+- 결제 연동 시 기존 결제 데이터 이전 가능 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 고정 가격(Flat pricing)의 구체적인 금액과 지원되는 결제 수단의 전체 목록을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Userscom_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Userscom_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Userscom_media_2.jpg)
+
+---
+
+## 23. [BetterFileTransfer](https://www.producthunt.com/products/betterfiletransfer)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Send anything to anyone, anywhere, safely.
+**서비스 링크**: https://www.producthunt.com/r/UE5IZFONIT7Y7K
+
+**태그**: Productivity, Security, FileTransfer
+
+<img src="images/ph_2026-08-24_BetterFileTransfer.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+대용량 파일을 안전하고 간편하게 공유할 수 있는 종단간 암호화 파일 전송 서비스
+
+### 🔑 주요 기능
+- 대용량 파일의 신속한 링크 생성
+- 기본 제공되는 종단간 암호화(E2EE)로 보안 강화
+- 사용자가 지정한 날짜에 파일 자동 삭제
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 설정 없이 대용량 파일을 안전하게 전달해야 할 때, 보안과 편의성을 동시에 해결할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 대용량 파일 업로드 및 링크 생성해보기
+- 보안을 위한 자동 삭제 일정 설정하기
+- 암호화된 링크 공유 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 파일 크기 제한 및 저장 용량 정책 확인 필요
+- 삭제 설정 시 복구 가능 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 파일 용량 제한과 요금제별 기능 차이는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_BetterFileTransfer_media_0.jpg)
+
+---
+
+## 24. [topple.lol](https://www.producthunt.com/products/topple-lol)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A bid-based directory ranking startups by payment amount.
+**서비스 링크**: https://www.producthunt.com/r/BCUIZU27K5GY2R
+
+**태그**: Marketing, Advertising, Startup, Directory, AI Tool
+
+<img src="images/ph_2026-08-24_topple.lol.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+매일 50% 감쇠하는 입찰 시스템을 통해 신규 스타트업에게도 공정한 노출 기회를 제공하는 동적 광고 디렉토리
+
+### 🔑 주요 기능
+- 24시간마다 노출 가치가 절반으로 감소하는 50% 입찰 감쇠 메커니즘 적용
+- 자본력이 큰 기업이 상단을 독점하는 것을 방지하는 역동적인 리더보드
+- 예산이 적은 신규 소프트웨어 제품도 상위 노출을 노릴 수 있는 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자본력이 부족한 초기 스타트업이 적은 비용으로도 상위 랭킹에 진입하여 실시간 트래픽을 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 리더보드 순위 및 입찰 경쟁 현황 확인
+- 자사 제품의 노출 가치 유지를 위한 입찰 전략 수립
+- 실시간 트래픽 유입 및 경쟁사 노출 패턴 분석
+
+### ⚠️ 사용 전 확인할 점
+- 입찰액이 감쇠하므로 지속적인 비용 지출이 발생할 수 있음
+- 순위 변동이 매우 빈번하여 트래픽 유입이 불규칙할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+정확한 입찰 방식과 최소/최대 입찰 금액 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_topple.lol_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_topple.lol_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_topple.lol_media_2.jpg)
+
+---
+
+## 25. [Multi](https://www.producthunt.com/products/multi-7)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A new way of tracking your life
+**서비스 링크**: https://www.producthunt.com/r/XBUIUHWK73MCOK
+
+**태그**: Productivity, LifeTracker, iOS, Minimalism
+
+<img src="images/ph_2026-08-24_Multi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+할 일, 습관, 지출을 하나의 직관적인 인터페이스로 통합 관리하는 아이폰 앱
+
+### 🔑 주요 기능
+- 할 일, 습관, 지출을 동일한 성격의 데이터로 취급하는 통합 관리 방식
+- 제스처 기반의 직관적인 인터페이스 (위로 밀면 반복, 아래로 밀면 비용 발생)
+- 아이폰 환경에 최적화된 모바일 중심의 라이프 트래킹
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 앱을 오갈 필요 없이 하나의 인터페이스에서 일상적인 기록을 간편하게 처리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제스처를 통한 할 일 반복 설정해보기
+- 지출 기록 기능을 통한 비용 관리해보기
+- 습관 형성 루틴에 적용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 아이폰 전용 앱이므로 안드로이드 사용자는 사용 불가
+- 데이터 유형이 통합되어 있어 세부적인 전문 관리 기능은 제한적일 수 있음
+
+### 🧭 확인이 더 필요한 정보
+상세한 데이터 동기화 방식이나 외부 서비스 연동 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Multi_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Multi_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Multi_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9b237c3f-67eb-4e04-ba3f-4a0bfe5fd125.jpeg?auto=format)
+
+---
+
+## 26. [Movie Finder](https://www.producthunt.com/products/oriane)
+**Votes**: 7 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Movies recommandations from Instragram and Tiktok
+**서비스 링크**: https://www.producthunt.com/r/TBSAMSWG3WDOSL
+**재등장**: 최근 7일 내 재등장 (마지막 등장 6일 전)
+
+**태그**: AI, Entertainment, SocialMedia, Recommendation, AI Tool, Video
+
+<img src="images/ph_2026-08-24_Movie_Finder.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+틱톡과 인스타그램의 트렌드를 반영한 AI 기반 영화 추천 서비스
+
+### 🔑 주요 기능
+- SNS(TikTok, Instagram) 실시간 트렌드 기반 영화 추천
+- 사용자 선택 장르 및 국가별 맞춤형 랭킹 제공
+- 추천 근거가 되는 영상과 시청 가능한 플랫폼 정보 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+SNS에서 유행하는 영화를 일일이 찾을 필요 없이, 검증된 영상 콘텐츠와 함께 바로 시청 가능한 플랫폼을 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 선호하는 장르와 국가 설정하기
+- AI가 선별한 실시간 트렌드 리스트 확인하기
+- 추천 영상과 시청 가능 플랫폼 매칭하기
+
+### ⚠️ 사용 전 확인할 점
+- SNS 트렌드에 의존하므로 개인의 취향과 다를 수 있음
+- 실제 시청 가능 여부는 플랫폼 정책에 따라 변동될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자 개인의 상세 취향 반영 여부와 데이터 업데이트 주기에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Movie_Finder_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Movie_Finder_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Movie_Finder_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7682531c-4fc6-42bf-827a-3a2995d018ff.jpeg?auto=format)
+
+---
+
+## 27. [FeedPulse](https://www.producthunt.com/products/feedpulse)
+**Votes**: 6 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Never miss what your audience is saying again
+**서비스 링크**: https://www.producthunt.com/r/B5WFKCT52QIGKS
+
+**태그**: SocialMedia, Analytics, ContentCreation, Automation, AI Tool
+
+<img src="images/ph_2026-08-24_FeedPulse.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+수천 개의 소셜 댓글을 분석하여 팬들이 원하는 다음 콘텐츠를 알려주는 인사이트 도구
+
+### 🔑 주요 기능
+- 다양한 소셜 플랫폼의 댓글 자동 수집
+- 감정 분석, 반복 주제, 질문 및 불만 사항 자동 분류
+- 수동 읽기 없이 핵심적인 사용자 요구사항 파악
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수많은 댓글을 일일이 읽는 시간을 절약하고, 데이터에 기반해 다음 콘텐츠 제작 방향을 결정할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 소셜 계정 연동 및 댓글 수집 시작
+- 감정 변화 및 주요 토픽 대시보드 확인
+- 사용자 질문 및 콘텐츠 요청 리스트 추출
+
+### ⚠️ 사용 전 확인할 점
+- 지원하는 소셜 플랫폼 범위 확인 필요
+- 문맥 파악의 정확도 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 소셜 미디어 플랫폼의 종류와 데이터 수집 범위에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_FeedPulse_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_FeedPulse_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_FeedPulse_media_2.jpg)
+
+---
+
+## 28. [Listpro](https://www.producthunt.com/products/listpro-2)
+**Votes**: 6 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Launch kit - videos & images, all from your raw screenshots.
+**서비스 링크**: https://www.producthunt.com/r/L5DVJCVLO3U5NK
+
+**태그**: Design, Marketing, Automation, Product Launch, Video, Vision
+
+<img src="images/ph_2026-08-24_Listpro.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+스크린샷만으로 전문가 수준의 제품 런칭 에셋을 자동 생성하는 툴
+
+### 🔑 주요 기능
+- 스크린샷과 URL만으로 피처 카드, 커버 이미지, 데모 영상 자동 생성
+- 디자인 기술이나 영상 편집 없이도 전문적인 런칭 키트 제작 가능
+- Product Hunt, Gumroad 등 다양한 마켓플레이스에 최적화된 결과물 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품 출시를 앞둔 메이커가 디자인이나 영상 편집에 들이는 시간을 획기적으로 줄이고, 일관성 있는 프로페셔널한 이미지를 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유 중인 제품 스크린샷 업로드하기
+- 제품 URL 입력하여 자동 생성 기능 테스트하기
+- 생성된 데모 영상 및 이미지 에셋 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 스크린샷 품질에 따라 최종 결과물의 퀄리티가 달라질 수 있음
+- 특정 마켓플레이스 규격에 맞춘 세부 커스텀 기능 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 스크린샷 품질이 낮을 경우 결과물의 완성도가 어떻게 변하는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Listpro_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Listpro_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Listpro_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cff74a26-d6b8-4483-9fa5-7f9bcf744c38.jpeg?auto=format)
+
+---
+
+## 29. [Optics-QA](https://www.producthunt.com/products/optics-qa)
+**Votes**: 6 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: One run: bug found, ticket written, fix prompt ready
+**서비스 링크**: https://www.producthunt.com/r/YWBF6DOFQBW45I
+
+**태그**: DevOps, QA, Automation, Security, Testing, AI Tool, Prompting
+
+<img src="images/ph_2026-08-24_Optics-QA.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+에러 감지부터 티켓 생성, 수정 프롬프트 준비까지 한 번에 해결하는 올인원 QA 자동화 플랫폼
+
+### 🔑 주요 기능
+- 에러 트래킹, 세션 리플레이, 부하 테스트 등 9가지 기능을 하나의 제품으로 통합
+- 장애 발생 시 자동 그룹화 및 이슈 티켓 작성을 통한 워크플로우 자동화
+- SOC2 준비 및 감사용 공유 리포트 생성 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 탭을 오갈 필요 없이 장애 발생부터 이슈 할당까지 자동화되어 개발 및 QA 운영 효율을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 실제 앱 환경에서의 사용자 흐름(User Flow) 기록 및 리플레이 테스트
+- 자동 생성되는 이슈 보드와 리포트 품질 확인
+- 부하 테스트 및 DDoS 드릴 기능 검증
+
+### ⚠️ 사용 전 확인할 점
+- 다양한 기능을 통합 제공하므로 기존에 사용 중인 개별 도구들과의 교체 비용 고려 필요
+- 실제 앱 데이터에 접근하는 만큼 보안 및 권한 설정 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+기존 CI/CD 파이프라인 및 외부 협업 도구(Jira, GitHub 등)와의 구체적인 연동 범위 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Optics-QA_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Optics-QA_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0690816d-1b8b-474e-acfa-eae2c5f8d931.jpeg?auto=format)
+
+---
+
+## 30. [Ainswer](https://www.producthunt.com/products/ainswer)
+**Votes**: 6 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Know if AI recommends your brand — and fix it
+**서비스 링크**: https://www.producthunt.com/r/KJPT2SNTNE4LGS
+
+**태그**: Marketing, AI, Analytics, SEO, AI Tool, Chat
+
+<img src="images/ph_2026-08-24_Ainswer.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+주요 AI 모델의 브랜드 추천 여부를 추적하고 최적화하는 분석 도구
+
+### 🔑 주요 기능
+- ChatGPT, Perplexity, Gemini, Claude 등 주요 AI 모델의 브랜드 언급 여부 모니터링
+- AI 검색 결과에서 브랜드가 추천되는 방식 분석
+- AI 추천 리스트에 포함되기 위한 전략적 가이드 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+브랜드가 AI 답변에 어떻게 노출되는지 파악하여, AI 검색 시대에 맞는 마케팅 전략을 세울 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자사 브랜드 키워드로 AI 모델별 추천 현황 확인하기
+- AI 답변 내 브랜드 노출 방식 분석하기
+- AI 추천 최적화를 위한 개선점 도출하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 모델의 답변 생성 로직이 수시로 변할 수 있음
+- 실시간 데이터 반영 주기 및 정확도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 수집 주기와 상세 분석 리포트의 제공 방식은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-24_Ainswer_media_0.jpg)
+![Screenshot](images/ph_2026-08-24_Ainswer_media_1.jpg)
+![Screenshot](images/ph_2026-08-24_Ainswer_media_2.jpg)
+
+---
+
