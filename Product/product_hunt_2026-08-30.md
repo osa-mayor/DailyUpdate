@@ -1,0 +1,1224 @@
+# 🚀 Product Hunt Daily Top 30 (2026-08-30)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트와 대규모 모델을 활용한 고도화된 자동화 및 데이터 구조화 작업이 주를 이루었습니다. 또한, 복잡한 코딩이나 문서 작업의 효율을 높이는 전문 도구와 더불어 디지털 공간에서의 독특한 사용자 경험을 제공하는 서비스들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- 초거대 모델과 정밀한 파싱 기술을 통해 비정형 데이터를 AI가 즉시 활용 가능한 형태로 변환하는 기술적 진보가 돋보였습니다.
+- AI 에이전트가 생성한 방대한 코드나 문서를 효율적으로 검토하고 관리할 수 있는 전문적인 워크플로우 도구들이 등장했습니다.
+- 창작, 데이터 시각화, 디지털 점유 등 개인의 생산성과 몰입감을 극대화하는 데 초점을 맞춘 서비스들이 주목받았습니다.
+
+**오늘의 태그**: AI 에이전트, 데이터 구조화, 생산성 도구, 자동화, 디지털 경험
+
+## 1. [1752vc Pitch Deck Analyzer](https://www.producthunt.com/products/1752vc-pitch-deck-analysis)
+**Votes**: 203 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Know what investors will say before you ever hit send.
+**서비스 링크**: https://www.producthunt.com/r/DU4BZJ5GYQ4Z44
+
+**태그**: AI, PitchDeck, VentureCapital, Startup, Productivity, AI Tool
+
+<img src="images/ph_2026-08-29_1752vc_Pitch_Deck_Analyzer.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실제 VC 투자 데이터를 기반으로 피치덱의 투자 유치 가능성을 분석해주는 AI 도구
+
+### 🔑 주요 기능
+- 25,000개 이상의 실제 피치덱과 투자 결정 데이터를 학습한 전문 피드백
+- 슬라이드별 투자 적합성 및 서사적 일관성 검토
+- 투자자가 발견할 수 있는 논리적 모순 및 데이터 충돌 체크
+
+### 🙋 사용자에게 어떤 점이 좋은가
+실제 VC 심사역의 관점에서 피치덱을 미리 검증하여, 투자자의 신뢰를 잃을 수 있는 요소를 사전에 차단할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 작성된 피치덱 업로드 및 분석
+- 슬라이드별 서사 일관성 및 논리적 모순 체크
+- 투자 단계별 적합성 피드백 확인
+
+### ⚠️ 사용 전 확인할 점
+- AI 피드백이 실제 인간 심사역의 판단과 100% 일치하지 않을 수 있음
+- 민감한 기업 내부 정보가 포함된 피치덱 업로드 시 보안 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 비즈니스 단계(Stage)에 따른 맞춤형 분석 기능의 구체적인 작동 방식은 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_1752vc_Pitch_Deck_Analyzer_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_1752vc_Pitch_Deck_Analyzer_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_1752vc_Pitch_Deck_Analyzer_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/25fe059a-2d44-4955-9bf7-e18cd5e10ecc.jpeg?auto=format)
+
+---
+
+## 2. [Hy4 preview](https://www.producthunt.com/products/hunyuan-a13b)
+**Votes**: 164 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: Tencent’s 770B open model for long-horizon work
+**서비스 링크**: https://www.producthunt.com/r/MO6FCOZWR6JECM
+
+**태그**: AI, Automation, Coding, Agentic, BigData, Agent
+
+<img src="images/ph_2026-08-29_Hy4_preview.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 장기 과업과 코딩을 자율적으로 수행하는 텐센트의 770B 초거대 MoE 모델
+
+### 🔑 주요 기능
+- 770B 규모의 MoE 모델로 49B 파라미터만 활성화하여 효율적 구동
+- 1M(100만) 토큰의 대규모 컨텍스트 창 지원
+- 코딩, 게임 개발, 복잡한 문서 분석 등 자율적 에이전트 작업 특화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+방대한 문서를 한 번에 분석하거나, 스스로 테스트하고 버그를 수정하며 결과물을 완성하는 고난도 자동화 작업에 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 대규모 코드베이스 업로드 및 분석 테스트
+- 1M 컨텍스트를 활용한 긴 문서/데이터 분석
+- 자율적 버그 수정 및 테스트 루프 확인
+
+### ⚠️ 사용 전 확인할 점
+- 770B 모델의 크기로 인해 구동 환경 및 비용(API/인프라) 확인 필요
+- 자율적 작업 수행 시 결과물의 정확성 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+모델의 구체적인 API 비용 정책과 하드웨어 요구 사양에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Hy4_preview_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Hy4_preview_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Hy4_preview_media_2.jpg)
+
+---
+
+## 3. [Cohere Parse 5](https://www.producthunt.com/products/cohere-2)
+**Votes**: 145 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn complex docs, tables & images into AI-ready data
+**서비스 링크**: https://www.producthunt.com/r/LFCJ26EGCCWVWE
+
+**태그**: AI, OCR, Data Extraction, Automation, Enterprise, Agent, AI Tool, Vision, API
+
+<img src="images/ph_2026-08-29_Cohere_Parse_5.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 문서와 이미지를 AI가 즉시 활용 가능한 구조화된 데이터로 변환하는 비전 파싱 모델
+
+### 🔑 주요 기능
+- OCR, 표, 다이어그램, 이미지를 포함한 비정형 데이터의 구조화
+- 시각적 근거(Bounding Boxes)를 통한 정밀한 데이터 추출
+- API, 클라우드, 온프레미스(Air-gapped) 등 유연한 배포 방식 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수작업이 필요한 복잡한 문서 작업을 자동화하여, 추출된 데이터를 AI 에이전트나 애플리케이션에 즉시 투입할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 이미지 내 텍스트 및 표 추출 테스트
+- Bounding Box를 활용한 시각적 데이터 검증
+- 기업 보안 환경에 맞는 배포 방식(Cloud vs On-prem) 검토
+
+### ⚠️ 사용 전 확인할 점
+- 문서 복잡도에 따른 추출 정확도 차이 확인 필요
+- 9개 언어 지원 범위 내에서의 언어별 성능 차이 검토
+
+### 🧭 확인이 더 필요한 정보
+구체적인 처리 가능한 문서 페이지 수나 파일 크기 제한에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Cohere_Parse_5_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Cohere_Parse_5_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Cohere_Parse_5_media_2.jpg)
+
+---
+
+## 4. [seendiff](https://www.producthunt.com/products/seendiff)
+**Votes**: 124 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Code diff viewer with progress tracking
+**서비스 링크**: https://www.producthunt.com/r/22PJM2KITAJVVG
+
+**태그**: DevTool, AI-Assisted, CodeReview, Agent, AI Tool
+
+<img src="images/ph_2026-08-29_seendiff.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 생성한 방대한 코드 변경 사항을 효율적으로 검토하고 추적하는 로컬 디프 뷰어
+
+### 🔑 주요 기능
+- 대규모 코드 변경 사항을 관리하기 위한 로컬 디프 도구
+- 검토 진행 상황 추적 및 청크(chunk) 단위 리뷰 기능
+- AI 에이전트가 작성한 코드를 설명하도록 요청하는 상호작용 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI가 생성한 거대한 코드 변경 사항을 사람이 일일이 읽어야 하는 번거로움을 줄여주며, 체계적인 리뷰 흐름을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 대규모 코드 변경 사항을 청크 단위로 나누어 리뷰하기
+- 검토 진행 상황을 추적하며 누락 없이 코드 확인하기
+- 이해가 어려운 부분은 AI 에이전트를 호출해 설명 듣기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 도구이므로 작업 환경(IDE 등)과의 연동 방식 확인 필요
+- AI 에이전트와의 상호작용 방식에 따른 작업 흐름 변화 가능성
+
+### 🧭 확인이 더 필요한 정보
+로컬 환경에서의 구체적인 설치 방법 및 지원하는 IDE/언어 범위에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_seendiff_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_seendiff_media_2.jpg)
+![Screenshot](images/ph_2026-08-29_seendiff_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4f111e92-7478-47b7-bda5-5d73171e4a6c.jpeg?auto=format)
+
+---
+
+## 5. [Neo](https://www.producthunt.com/products/neo)
+**Votes**: 119 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A novel-writing tool from the author of Silo
+**서비스 링크**: https://www.producthunt.com/r/DTBFLEA2UBAF7S
+
+**태그**: Writing, Productivity, Minimalism
+
+<img src="images/ph_2026-08-29_Neo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+집중력 있는 집필과 자동 서식 설정을 지원하는 미니멀 소설 집필 도구
+
+### 🔑 주요 기능
+- 집필에만 집중할 수 있는 미니멀한 UI와 방해 요소 제거
+- 작업 중인 모든 원고를 한곳에서 관리하는 워크플로우
+- 엔터 키만으로 책처럼 보이도록 자동 서식 지정
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 기능 대신 초안 작성에만 집중할 수 있어, 글쓰기 흐름을 깨지 않고 빠르게 원고를 완성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 미니멀한 UI 환경에서 초안 작성 시작하기
+- 자동 서식 기능을 활용해 원고 레이아웃 확인하기
+- 여러 개의 작업 중인 원고(WIPs) 관리해보기
+
+### ⚠️ 사용 전 확인할 점
+- 기능이 최소화되어 있어 복잡한 편집이나 고급 서식 기능은 부족할 수 있음
+- 특정 장르나 전문적인 출판용 편집 기능이 필요한 사용자에게는 제한적일 수 있음
+
+### 🧭 확인이 더 필요한 정보
+상세한 기능 목록과 플랫폼 지원 범위(웹/데스크톱 등)에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Neo_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Neo_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Neo_media_2.jpg)
+
+---
+
+## 6. [Cursor Craft v2](https://www.producthunt.com/products/cursor-craft)
+**Votes**: 95 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Custom Mac cursors, rebuilt for v2
+**서비스 링크**: https://www.producthunt.com/r/47RBS54W5J4LRA
+
+**태그**: macOS, Customization, DesignTool, Design
+
+<img src="images/ph_2026-08-29_Cursor_Craft_v2.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+더 빠르고 세련된 인터페이스로 커스텀 마우스 커서를 관리하는 macOS 전용 앱
+
+### 🔑 주요 기능
+- 사용자 경험 중심의 인터페이스 전면 재설계
+- 더욱 빨라진 커서 팩 탐색 및 미리보기 기능
+- 향상된 커서 렌더링 및 애니메이션 커서 지원 준비
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자신만의 개성 있는 데스크탑 환경을 원하는 macOS 사용자에게 빠르고 직관적인 커스텀 커서 적용 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 새로운 인터페이스에서 커스텀 커서 팩 탐색하기
+- 개선된 렌더링 성능으로 커스텀 커서 적용해보기
+- 향후 업데이트될 애니메이션 커서 기능 기대하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 앱이므로 다른 운영체제에서는 사용 불가
+- 애니메이션 커서 기능은 향후 업데이트를 통해 제공될 예정
+
+### 🧭 확인이 더 필요한 정보
+애니메이션 커서 팩의 구체적인 지원 시점과 호환 범위는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Cursor_Craft_v2_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Cursor_Craft_v2_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Cursor_Craft_v2_media_2.jpg)
+
+---
+
+## 7. [publicdesktop.lol](https://www.producthunt.com/products/publicdesktop-lol)
+**Votes**: 94 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Public computer of the internet
+**서비스 링크**: https://www.producthunt.com/r/VVTE3OMXQCBVCR
+
+**태그**: DigitalAsset, Community, WebExperiment
+
+<img src="images/ph_2026-08-29_publicdesktop.lol.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+인터넷상의 공용 컴퓨터 공간에 나만의 아이콘이나 음악을 배치하는 디지털 점유 서비스
+
+### 🔑 주요 기능
+- 인터넷 공용 컴퓨터 내 $10로 영구적인 아이콘 위치 확보 가능
+- 입찰을 통한 공용 컴퓨터 음악 제어 기능
+- 디지털 공간에서의 상징적 점유 및 커뮤니티 참여
+
+### 🙋 사용자에게 어떤 점이 좋은가
+온라인상에 자신만의 흔적을 남기거나, 소액으로 디지털 공간의 일부를 소유하는 색다른 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아이콘 위치 확보를 위한 $10 결제
+- 공용 음악 제어를 위한 입찰 참여
+
+### ⚠️ 사용 전 확인할 점
+- 디지털 자산의 영속성 및 서비스 유지 여부 확인 필요
+- 단순한 상징적 가치에 기반한 서비스임을 인지
+
+### 🧭 확인이 더 필요한 정보
+서비스의 기술적 구현 방식과 아이콘의 시각적 노출 범위에 대한 구체적인 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_publicdesktop.lol_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_publicdesktop.lol_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_publicdesktop.lol_media_2.jpg)
+
+---
+
+## 8. [God’s Eye View](https://www.producthunt.com/products/god-s-eye-view)
+**Votes**: 89 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Spy satellite simulator in your browser but the data is real
+**서비스 링크**: https://www.producthunt.com/r/CFL7AKRNAWM4YD
+
+**태그**: Data Visualization, Real-time, AI Agent, Simulation, Agent, AI Tool
+
+<img src="images/ph_2026-08-29_God’s_Eye_View.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실시간 공공 데이터를 활용한 초정밀 3D 지구 관측 및 스파이 위성 시뮬레이터
+
+### 🔑 주요 기능
+- 실제 공공 데이터를 기반으로 한 실시간 3D 지구 모델링
+- 항공기, 선박, 위성, 지진, 교통 및 공공 카메라의 실시간 데이터 통합
+- AI 에이전트를 통한 핸즈프리 음성 제어 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+전 세계의 실시간 움직임을 시각적으로 탐색하며, 공공 데이터를 통해 마치 스파이 위성을 운용하는 듯한 몰입형 관찰 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 실시간 항공기 및 선박 위치 추적해보기
+- AI 음성 제어로 지구 데이터 탐색하기
+- 전 세계 공공 카메라 피드 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 실시간 피드가 없는 지역은 모델링된 가상 데이터로 대체될 수 있음
+- 데이터 소스의 공공성 여부에 따라 정보의 정확도가 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용되는 공공 데이터 소스의 구체적인 출처와 데이터 업데이트 주기에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_God’s_Eye_View_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_God’s_Eye_View_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/663433b7-0a39-4485-99e8-5248fff60789.jpeg?auto=format)
+
+---
+
+## 9. [Mossy](https://www.producthunt.com/products/mossy-2)
+**Votes**: 88 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**:  A desk plant that wilts when you need a break
+**서비스 링크**: https://www.producthunt.com/r/P5QGOSUBJ3TMWS
+
+**태그**: Productivity, Wellness, macOS, AI, AI Tool
+
+<img src="images/ph_2026-08-29_Mossy.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+휴식 타이밍을 알려주는 귀여운 데스크탑 식물 위젯
+
+### 🔑 주요 기능
+- 사용자가 설정한 휴식 목표를 바탕으로 AI가 맞춤형 미션을 생성
+- 휴식이 길어질수록 데스크탑의 식물이 시드는 시각적 피드백 제공
+- 화면을 가리지 않는 가벼운 네이티브 macOS 앱
+
+### 🙋 사용자에게 어떤 점이 좋은가
+업무 중 적절한 휴식 타이밍을 직관적으로 인지하게 하여 번아웃을 방지하고 건강한 습관을 형성하도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신만의 휴식 목표(예: 스트레칭, 단어 공부) 입력하기
+- 데스크탑 식물의 상태 변화 관찰하기
+- AI가 제안하는 휴식 미션 수행하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 12 이상의 환경에서만 작동함
+- 사용자의 직접적인 개입(휴식 수행)이 있어야 효과를 볼 수 있음
+
+### 🧭 확인이 더 필요한 정보
+AI가 생성하는 미션의 구체적인 빈도나 정교함은 사용자의 입력 문장에 따라 달라질 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Mossy_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Mossy_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Mossy_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e1d5a0b9-25da-4252-b176-d72bb7e483e5.jpeg?auto=format)
+
+---
+
+## 10. [RawToHEIC](https://www.producthunt.com/products/rawtoheic)
+**Votes**: 77 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Convert RAW to HEIC inside Apple Photos
+**서비스 링크**: https://www.producthunt.com/r/GLCXDYQFUPGRFG
+
+**태그**: Photography, Productivity, Apple, Storage, Analytics
+
+<img src="images/ph_2026-08-29_RawToHEIC.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+애플 사진 앱 내에서 RAW 파일을 손쉽게 HEIC로 변환하여 저장 공간을 절약하는 도구
+
+### 🔑 주요 기능
+- 애플 사진(Photos) 공유 시트에서 즉시 변환 가능
+- 원본 대비 최대 10배 작은 용량으로 압축
+- 편집 내역, 앨범 정보, 메타데이터 유지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고용량 RAW/ProRAW 파일을 효율적으로 관리하면서도 사진의 품질과 메타데이터를 유지하고 싶은 사용자에게 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 애플 사진 앱에서 RAW 파일 선택 후 공유 시트 실행
+- RawToHEIC를 통해 HEIC로 변환하여 용량 확보하기
+
+### ⚠️ 사용 전 확인할 점
+- 변환 시 원본 RAW 파일의 품질 손실 여부 확인 필요
+- 애플 기기(iOS, iPadOS, macOS) 환경에서만 사용 가능
+
+### 🧭 확인이 더 필요한 정보
+변환된 HEIC 파일의 화질이 원본 RAW의 디테일을 얼마나 잘 보존하는지에 대한 구체적인 벤치마크는 제공되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_RawToHEIC_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_RawToHEIC_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_RawToHEIC_media_2.jpg)
+
+---
+
+## 11. [Staats](https://www.producthunt.com/products/staats-3)
+**Votes**: 75 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Ask your coding agent how your site is doing
+**서비스 링크**: https://www.producthunt.com/r/5TF6TUVXTV72WX
+
+**태그**: DevTool, Automation, Analytics, AI-Agent, Agent
+
+<img src="images/ph_2026-08-29_Staats.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+대시보드 없이 코딩 에이전트와 대화하며 사이트 상태를 관리하는 차세대 분석 도구
+
+### 🔑 주요 기능
+- 에이전트 중심의 쿠키리스(cookieless) 사이트 분석
+- 차트나 대시보드 대신 자연어 질의를 통한 데이터 확인
+- 배포 측정, 변경 사항 감지 및 근거 기반의 다음 단계 제안
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 분석 차트를 해석할 필요 없이, 코딩 에이전트에게 질문하는 것만으로 사이트의 상태를 즉각 파악하고 대응할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에이전트에게 사이트 상태 질문하기
+- 배포 및 변경 사항에 따른 에이전트의 피드백 확인하기
+- 제안된 다음 단계(next moves) 검토하기
+
+### ⚠️ 사용 전 확인할 점
+- 시각적 차트가 없으므로 복잡한 데이터 시각화가 필요한 경우 제약이 있을 수 있음
+- 에이전트의 분석 근거가 사용자의 의도와 일치하는지 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+에이전트가 제안하는 '다음 단계'가 실제 코드 수정이나 자동 배포까지 연결되는지 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Staats_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Staats_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Staats_media_2.jpg)
+
+---
+
+## 12. [WIT](https://www.producthunt.com/products/wit-will-it-travel)
+**Votes**: 73 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Spot potential misunderstandings across global Englishes
+**서비스 링크**: https://www.producthunt.com/r/X45PSREHVK4XF3
+
+**태그**: AI, Communication, Productivity, GlobalTeam, Writing, AI Tool, Email
+
+<img src="images/ph_2026-08-29_WIT.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+글로벌 팀을 위한 AI 기반 커뮤니케이션 오해 방지 도구
+
+### 🔑 주요 기능
+- 미국, 인도, 싱가포르 등 다양한 영어권 문화에 따른 메시지 전달력 분석
+- 이메일, 슬랙 메시지, 제품 카피의 잠재적 오해 요소 식별
+- 본래의 어조를 유지하면서 더 명확한 대안 문구 제안
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글로벌 협업 시 발생할 수 있는 언어적 오해를 사전에 방지하여 팀 간의 신뢰를 높이고 커뮤니케이션 비용을 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 작성한 이메일이나 슬랙 메시지 붙여넣기
+- 지역별(미국, 인도, 싱가포르) 수신자 반응 예측 확인
+- 제안된 대안 문구로 메시지 최적화하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 제안하는 대안이 사용자의 의도나 미묘한 뉘앙스를 완벽히 반영하지 못할 수 있음
+- 특정 지역의 문화적 맥락이 데이터에 따라 편향될 가능성
+
+### 🧭 확인이 더 필요한 정보
+지원하는 영어권 지역의 범위와 구체적인 분석 알고리즘의 상세 수준은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_WIT_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_WIT_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_WIT_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8f2f892d-4f61-448f-ae5e-d386a2ce6f0a.jpeg?auto=format)
+
+---
+
+## 13. [Einfall](https://www.producthunt.com/products/einfall-a-place-for-fugitive-thoughts)
+**Votes**: 70 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Capture fugitive thoughts + route them to where they belong
+**서비스 링크**: https://www.producthunt.com/r/2FCVIBJGIVC4VP
+
+**태그**: Productivity, Automation, Apple, AI, Agent, AI Tool
+
+<img src="images/ph_2026-08-29_Einfall.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+찰나의 아이디어를 놓치지 않고 원하는 곳으로 자동 분류하는 스마트 메모 캡처 도구
+
+### 🔑 주요 기능
+- Mac, iPhone, iPad 등 Apple 생태계 전반에서 빠르고 간편한 아이디어 캡처 지원
+- 수집된 생각을 리마인더, 캘린더, 파일 또는 AI 에이전트(MCP)로 자동 라우팅
+- 메뉴 바, 공유 시트, Siri, 위젯 등 다양한 입력 방식 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+갑자기 떠오른 생각을 기록하는 데 드는 번거로움을 최소화하고, 기록과 동시에 적절한 작업 환경으로 자동 배분하여 생산성을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 메뉴 바와 위젯을 활용해 즉각적인 캡처 환경 설정하기
+- 수집된 아이디어를 Reminders나 Calendar로 보내는 자동화 규칙 만들기
+- AI 에이전트(MCP) 연동을 통한 고급 워크플로우 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 버전은 15회의 라우팅 액션까지만 허용되며, 이후에는 $29.99의 일회성 결제 필요
+- Apple 기기 간의 연동성에 최적화되어 있어 타 OS 사용 시 제약이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+AI 에이전트(MCP)를 통한 라우팅 기능의 구체적인 기술적 요구사항과 설정 난이도는 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Einfall_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Einfall_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Einfall_media_2.jpg)
+
+---
+
+## 14. [Lubb](https://www.producthunt.com/products/lubb-heartbeat-for-sleep)
+**Votes**: 69 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A realistic heartbeat for falling asleep
+**서비스 링크**: https://www.producthunt.com/r/PEBIK7ULR4WTED
+
+**태그**: SleepAid, Wellness, iPhone
+
+<img src="images/ph_2026-08-29_Lubb.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아이폰의 탭틱 엔진을 활용해 마치 옆에 누군가 있는 듯한 현실적인 심장 박동을 제공하는 수면 보조 앱
+
+### 🔑 주요 기능
+- 아이폰 탭틱 엔진을 이용한 부드럽고 현실적인 심장 박동 재현
+- 베개 가장자리에 두어 사용할 수 있는 직관적인 사용 방식
+- 계정 생성 없이 즉시 사용 가능한 심플한 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+심리적 안정감을 주는 규칙적인 심장 박동을 통해 더 쉽고 편안하게 잠들 수 있도록 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 10분 무료 야간 체험 기능 사용하기
+- 사용자 취향에 맞춰 박동 속도 및 느낌 조절하기
+- 베개 가장자리에 기기를 배치하여 진동 전달 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 아이폰의 탭틱 엔진(진동) 기능이 탑재된 모델에서만 정상 작동함
+- 기기 진동 소음이 수면에 방해가 될 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 아이폰 모델에 따라 진동의 질감과 강도가 다를 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Lubb_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Lubb_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Lubb_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f4359022-0a42-4e68-9248-de0a0e4d911b.jpeg?auto=format)
+
+---
+
+## 15. [Tiles](https://www.producthunt.com/products/tiles-5)
+**Votes**: 67 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turning desktop chaos into curated spaces.
+**서비스 링크**: https://www.producthunt.com/r/5YFIH42KDWJQRN
+
+**태그**: Productivity, macOS, Workflow, Automation, AI Tool, Design
+
+<img src="images/ph_2026-08-29_Tiles.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+클릭 한 번으로 복잡한 데스크탑 창들을 완벽한 작업 공간으로 재배치하는 macOS 워크스페이스 매니저
+
+### 🔑 주요 기능
+- 사용자 정의 데스크탑 레이아웃 저장 및 복구 기능
+- 업무 전환 시 발생하는 윈도우 혼란 방지
+- 단축키, 위젯, 클릭을 통한 간편한 레이아웃 전환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 프로그램을 동시에 사용하는 멀티태스킹 환경에서 창 정리 시간을 획기적으로 줄여 업무 몰입도를 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자주 사용하는 작업별 레이아웃 저장하기
+- 단축키를 설정하여 빠른 전환 환경 구축하기
+- 위젯을 활용한 데스크탑 관리 시도하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 앱이므로 다른 OS에서는 사용 불가
+- 창 배치 방식이 기존 macOS 기본 기능과 충돌할 가능성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 시스템 리소스 점유율이나 타 앱과의 호환성 수준은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Tiles_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Tiles_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Tiles_media_2.jpg)
+
+---
+
+## 16. [Any Command](https://www.producthunt.com/products/any-command-remote-control-for-pc)
+**Votes**: 65 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn your phone into a second screen and trackpad for PC
+**서비스 링크**: https://www.producthunt.com/r/7WA3W4QVSDYGC6
+
+**태그**: Productivity, Utility, Mobile, Windows, AI Tool
+
+<img src="images/ph_2026-08-29_Any_Command.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+안드로이드 스마트폰을 PC의 보조 모니터, 트랙패드, 키보드로 변신시키는 도구
+
+### 🔑 주요 기능
+- 스마트폰을 윈도우용 보조 화면, 트랙패드, 키보드, 게임패드로 활용 가능
+- 특정 창을 폰으로 스트리밍하여 모니터의 전체 화면을 방해하지 않고 작업 가능
+- 로컬 네트워크 또는 블루투스를 통해 PC 설치 없이도 연결 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+모니터 공간이 부족할 때 스마트폰을 활용해 작업 효율을 높이거나, 영상 시청 중 컨트롤러로 활용하기 좋습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 스마트폰을 보조 화면으로 설정하여 창 하나 띄워보기
+- 트랙패드 모드로 전환하여 마우스 대신 사용해보기
+- 블루투스 연결을 통해 PC 설치 없이 연결 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 안드로이드 기기에서만 작동하므로 iOS 사용자는 사용 불가
+- 네트워크 환경에 따라 스트리밍 지연 시간이 발생할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+iOS 지원 여부와 무료 티어의 구체적인 기능 제한 범위에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Any_Command_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Any_Command_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Any_Command_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/686f40ee-19dd-4953-919d-a983dae12532.jpeg?auto=format)
+
+---
+
+## 17. [Democruit](https://www.producthunt.com/products/democruit)
+**Votes**: 31 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your candidate-first career companion, from resume to offer
+**서비스 링크**: https://www.producthunt.com/r/ZLEF4CFHZL47L7
+
+**태그**: Career, AI, JobSearch, Productivity, AI Tool, Prompting, Design
+
+<img src="images/ph_2026-08-29_Democruit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순 문서 작성을 넘어 합격까지 이끌어주는 AI 기반 커리어 가이드
+
+### 🔑 주요 기능
+- ATS(채용 관리 시스템) 분석 및 맞춤형 커버 레터 생성
+- 단순 생성이 아닌 지원 과정 전반에 대한 AI 가이드 제공
+- 개인용 이력서 웹사이트 및 지원 현황 추적 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순히 서류를 만드는 것을 넘어, 실제 면접 기회를 얻을 수 있도록 전략적인 피드백을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- ATS 분석 기능을 통한 현재 이력서 진단
+- 지원하려는 공고에 맞춘 커버 레터 최적화
+- 개인 이력서 웹사이트 구축
+
+### ⚠️ 사용 전 확인할 점
+- 취업 성공 시 잔금 50%를 지불하는 성과 기반 과금 모델 확인 필요
+- 최근 해고된 사용자를 위한 무료 액세스 정책 문의 필요
+
+### 🧭 확인이 더 필요한 정보
+취업 성공 시 발생하는 후불 결제 방식의 구체적인 프로세스와 증빙 절차를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Democruit_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Democruit_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Democruit_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/71dbf31a-71f5-464a-8eb5-ff2375cc33e5.jpeg?auto=format)
+
+---
+
+## 18. [TCTGame : Social Habit Tracker](https://www.producthunt.com/products/tctgame-social-habit-tracker)
+**Votes**: 26 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A Social Habit Game Built for Accountability and Consistency
+**서비스 링크**: https://www.producthunt.com/r/NCT34SAZO22OPT
+
+**태그**: Productivity, Gamification, Social, Habit Tracker, AI Tool
+
+<img src="images/ph_2026-08-29_TCTGame__Social_Habit_Tracker.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+함께 성장하는 재미를 더한 소셜 게임형 습관 형성 도구
+
+### 🔑 주요 기능
+- 목표 설정 및 맞춤형 데일리 플랜 제공
+- 커뮤니티(Tribe)를 통한 상호 책임감 및 동기부여
+- XP 획득, 스트릭, 리더보드 등 게임 요소 결합
+
+### 🙋 사용자에게 어떤 점이 좋은가
+혼자 하면 포기하기 쉬운 습관 형성을 게임과 소셜 기능을 통해 지속 가능하게 만들어 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 목표 설정 및 데일리 플랜 생성하기
+- Tribe에 참여하여 일일 로그 기록하기
+- 게임 요소를 활용해 스트릭 쌓기
+
+### ⚠️ 사용 전 확인할 점
+- 소셜 기능 중심이므로 타인의 시선이 부담스러울 수 있음
+- 게임 요소가 오히려 본래의 습관 형성 목적을 방해할 가능성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 플랫폼(모바일 앱/웹) 및 상세 기능의 유료화 여부가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_TCTGame__Social_Habit_Tracker_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_TCTGame__Social_Habit_Tracker_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_TCTGame__Social_Habit_Tracker_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bdd47ee1-2700-4c93-aae8-4bf18b86b8d9.jpeg?auto=format)
+
+---
+
+## 19. [Mole](https://www.producthunt.com/products/mole-3)
+**Votes**: 24 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A native Mac maintenance app that shows before it cleans
+**서비스 링크**: https://www.producthunt.com/r/MQ4EEU22LABWWF
+
+**태그**: Mac, Utility, Maintenance, Productivity, AI Tool
+
+<img src="images/ph_2026-08-29_Mole.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+삭제 전 미리보기를 통해 안전하고 투명하게 관리하는 Mac 전용 유지보수 앱
+
+### 🔑 주요 기능
+- 캐시 삭제, 앱 삭제/업데이트, 디스크 공간 검사 및 시스템 상태 모니터링 기능 제공
+- 삭제 전 파일 경로와 크기를 미리 보여주는 프리뷰 기능으로 실수 방지
+- 로컬 스캔 방식 및 삭제 파일을 휴지통으로 이동하는 안전한 삭제 프로세스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+무엇이 삭제되는지 명확히 확인하고 제어할 수 있어, 시스템 파일을 잘못 건드릴 위험 없이 안전하게 Mac 용량을 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 디스크 공간 검사로 불필요한 파일 식별하기
+- 프리뷰 기능을 통해 삭제될 경로 확인하기
+- 삭제된 파일을 휴지통에서 복구 가능 여부 체크하기
+
+### ⚠️ 사용 전 확인할 점
+- 삭제 전 프리뷰를 확인하지 않을 경우 의도치 않은 파일이 삭제될 수 있음
+- 시스템 핵심 파일 삭제 시 주의 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 시스템 리소스 점유율이나 자동화 스케줄링 기능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Mole_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Mole_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Mole_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/93138cbd-fa19-4f00-ad68-fe80f298f6a3.jpeg?auto=format)
+
+---
+
+## 20. [ThriveStack citedby](https://www.producthunt.com/products/thrivestack-citedby)
+**Votes**: 17 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI visibility that measures, fixes, and attributes revenue.
+**서비스 링크**: https://www.producthunt.com/r/NLRRTIZWHI55QH
+
+**태그**: SEO, AEO, Marketing Analytics, AI Visibility, AI Tool
+
+<img src="images/ph_2026-08-29_ThriveStack_citedby.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 엔진의 인용 현황을 분석하여 매출로 연결하는 AI 가시성 최적화 플랫폼
+
+### 🔑 주요 기능
+- 주요 AI 엔진별 브랜드 인용 및 추천 현황 분석
+- AI 답변 노출을 방해하는 콘텐츠 및 사이트 격차 식별 및 수정
+- AI 기반 트래픽이 실제 매출 파이프라인에 미치는 영향 측정
+
+### 🙋 사용자에게 어떤 점이 좋은가
+SEO/AEO 전문가와 마케팅 경영진이 AI 검색 결과에서의 브랜드 노출을 관리하고, 이를 실질적인 매출 성과로 연결할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 AI 엔진별 브랜드 인용 현황 분석하기
+- AI 답변 노출을 위한 콘텐츠 격차 진단하기
+- AI 트래픽의 매출 기여도 측정 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 엔진의 알고리즘 변화에 따른 분석 결과의 변동성 가능성
+- 수정된 콘텐츠가 실제 검색 엔진 결과에 반영되는 데 걸리는 시간 차이
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 수집 방식과 타겟 플랫폼(LLM 모델 등)의 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_ThriveStack_citedby_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_ThriveStack_citedby_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_ThriveStack_citedby_media_2.jpg)
+
+---
+
+## 21. [NirnaY](https://www.producthunt.com/products/nirnay)
+**Votes**: 15 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn uncertain disaster data into clear decisions.
+**서비스 링크**: https://www.producthunt.com/r/7MZF4YUM2DRKLQ
+
+**태그**: AI, EmergencyResponse, DecisionSupport, RiskManagement, AI Tool
+
+<img src="images/ph_2026-08-29_NirnaY.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+불확실한 재난 데이터를 명확한 의사결정으로 전환하는 AI 긴급 대응 지원 시스템
+
+### 🔑 주요 기능
+- 불완전하고 상충하는 재난 정보를 분석하여 실행 가능한 액션 도출
+- 실시간 위험 매핑, 신뢰도 점수, 긴급 경로 최로화 기능 제공
+- AI 설명 기능을 통해 인간이 통제권을 유지하며 의사결정 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+재난 상황에서 발생하는 혼란스러운 데이터를 정제하여, 대응 요원이 빠르고 정확한 판단을 내릴 수 있도록 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 실시간 위험 매핑 기능 확인
+- 시나리오별 What-if 시뮬레이션 실행
+- AI가 제공하는 의사결정 근거(Explanation) 검토
+
+### ⚠️ 사용 전 확인할 점
+- AI의 제안이 실제 현장 상황과 다를 수 있으므로 최종 결정은 반드시 인간이 수행해야 함
+- 데이터 소스의 정확도에 따라 결과값이 크게 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+실제 재난 현장의 데이터 소스와의 연동 방식 및 실시간 데이터 업데이트 주기에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_NirnaY_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_NirnaY_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_NirnaY_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0d90a77e-d868-4434-adc9-40417b8200cb.jpeg?auto=format)
+
+---
+
+## 22. [AquaRise App](https://www.producthunt.com/products/aquarise-app)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Take action. Restore our waters.
+**서비스 링크**: https://www.producthunt.com/r/D7GETSSGEPWEON
+
+**태그**: Environment, Community, Social Impact, Design
+
+<img src="images/ph_2026-08-29_AquaRise_App.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+오염된 수역을 발견하고 환경 정화 활동에 쉽게 참여할 수 있는 환경 보호 플랫폼
+
+### 🔑 주요 기능
+- 오염된 해변, 강, 호수 등 수역 정보 탐색
+- 수역 오염 원인 및 필요성 학습
+- 환경 단체가 조직한 실제 정화 활동 연결
+
+### 🙋 사용자에게 어떤 점이 좋은가
+환경 보호에 기여하고 싶지만 어디서부터 시작해야 할지 모르는 사용자에게 구체적인 행동 기회를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 주변 수역의 오염 상태 확인하기
+- 환경 단체의 정화 활동 일정 탐색하기
+- 관심 있는 정화 활동 참여 신청하기
+
+### ⚠️ 사용 전 확인할 점
+- 실제 오염 정보의 실시간성 및 정확성 확인 필요
+- 사용자 거주 지역에 따른 활동 기회 차이 발생 가능
+
+### 🧭 확인이 더 필요한 정보
+사용자 위치 기반의 실시간 오염 데이터 업데이트 주기와 참여 가능한 활동의 지역적 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_AquaRise_App_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_AquaRise_App_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_AquaRise_App_media_2.jpg)
+
+---
+
+## 23. [reroute — circular intelligence](https://www.producthunt.com/products/reroute-circular-intelligence)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: rethink . reuse . reroute
+**서비스 링크**: https://www.producthunt.com/r/ALLYDBTD3TPQY2
+
+**태그**: AI, Sustainability, CircularEconomy, EcoFriendly, AI Tool
+
+<img src="images/ph_2026-08-29_reroute_—_circular_intelligence.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 기술을 활용하여 자원 순환 경제를 실현하는 스마트 에코 앱
+
+### 🔑 주요 기능
+- AI 기반의 순환 경제 솔루션 제공
+- 자원의 재고 및 재사용 가치 극대화
+- 지속 가능한 소비를 위한 지능형 가이드
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사용자는 AI를 통해 물건의 재사용 가치를 높이고, 더 나은 순환 경제적 의사결정을 내릴 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 순환 경제 가이드 확인하기
+- 재사용 가능한 자원 식별해보기
+- 지속 가능한 소비 패턴 적용하기
+
+### ⚠️ 사용 전 확인할 점
+- 구체적인 서비스 기능 및 사용 방법 확인 필요
+- AI 모델의 판단 근거에 대한 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 구체적인 기능 리스트와 서비스 대상(B2B/B2C)이 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_reroute_—_circular_intelligenc_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_reroute_—_circular_intelligenc_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_reroute_—_circular_intelligenc_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/dce2ea01-0bd0-4598-8f76-24e387fe02a0.jpeg?auto=format)
+
+---
+
+## 24. [Lumora World](https://www.producthunt.com/products/lumora-world)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: “Where learning challenges become magical adventures ✨”
+**서비스 링크**: https://www.producthunt.com/r/P4YZOWY4HQ46VK
+
+**태그**: EdTech, Gamification, Accessibility, Learning-Support, AI Tool, Design
+
+<img src="images/ph_2026-08-29_Lumora_World.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+학습 장애를 겪는 아이들을 위한 마법 같은 게임형 학습 플랫폼
+
+### 🔑 주요 기능
+- 난독증, 난서증, 난산증 등 학습 어려움을 겪는 아동을 위한 맞춤형 설계
+- 음성, 컴퓨터 비전, 움직임을 결합한 인터랙티브한 게임 방식
+- 개인별 학습 패턴 분석을 통한 맞춤형 연습 콘텐츠 추천
+
+### 🙋 사용자에게 어떤 점이 좋은가
+학습에 어려움을 느끼는 아이들이 놀이처럼 즐겁게 읽기, 쓰기, 수리 능력을 연습할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 마법 세계 테마의 학습 콘텐츠 체험하기
+- 아이의 학습 패턴에 따른 맞춤형 연습 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 의료적 진단이나 치료 목적이 아닌 학습 보조 도구임을 유의해야 함
+- 아이의 학습 상태에 따라 인터랙티브 기능의 적합성을 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 연령대와 구체적인 하드웨어 요구 사양에 대한 정보가 추가로 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Lumora_World_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Lumora_World_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Lumora_World_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4ab531e7-7b53-4e41-ae70-d90308c37d78.jpeg?auto=format)
+
+---
+
+## 25. [The Pearl Club](https://www.producthunt.com/products/pearl-club)
+**Votes**: 11 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**:  A quite corner on the internet
+**서비스 링크**: https://www.producthunt.com/r/N4SQ3NBAOBJKLG
+
+**태그**: Lifestyle, Journaling, Gaming, Community, MentalHealth
+
+<img src="images/ph_2026-08-29_The_Pearl_Club.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+생산성 압박 없이 나만의 속도로 즐기는 아늑한 디지털 휴식 공간
+
+### 🔑 주요 기능
+- 일기 쓰기, 게임, 생각 공유 등 다양한 활동이 가능한 코지(Cozy)한 커뮤니티
+- 귀여운 바다 생물들을 수집하고 탐험하는 재미 요소
+- 경쟁이나 생산성 향상에 대한 압박이 없는 느린 호흡의 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+바쁜 일상 속에서 디지털 피로감을 느끼는 사용자가 아무런 압박 없이 마음을 정리하고 소소한 즐거움을 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 일기 쓰기 기능을 통해 생각 정리하기
+- 귀여운 바다 생물 친구들 수집하기
+- 피드에 짧은 생각 공유하며 소통하기
+
+### ⚠️ 사용 전 확인할 점
+- 생산성 중심의 도구가 아니므로 목적 지향적인 작업에는 적합하지 않음
+- 사용자 간의 상호작용 방식이나 커뮤니티 규칙이 명시되지 않음
+
+### 🧭 확인이 더 필요한 정보
+서비스의 구체적인 모바일 앱 지원 여부와 커뮤니티 규모를 확인할 필요가 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_The_Pearl_Club_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_The_Pearl_Club_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_The_Pearl_Club_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9e4b7b93-a20f-4cfc-9a93-497905b221a2.gif?auto=format)
+
+---
+
+## 26. [Saylo](https://www.producthunt.com/products/saylo-3)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI that helps you find the right words for tough talks.
+**서비스 링크**: https://www.producthunt.com/r/YL6ZPZID4C723M
+
+**태그**: AI, Communication, SoftSkills, Productivity, AI Tool
+
+<img src="images/ph_2026-08-29_Saylo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+어려운 대화 상황에서 최적의 말과 대응 전략을 제안하는 AI 커뮤니케이션 가이드
+
+### 🔑 주요 기능
+- 상황과 목표에 맞춘 맞춤형 대화 접근 방식 제안
+- 막막한 순간에 바로 사용할 수 있는 구체적인 문구 생성
+- 갈등 해결부터 경계 설정까지 실전 대화 준비 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+말하기 어려운 갈등 상황이나 경계 설정이 필요한 순간에 실질적인 대화 가이드를 제공하여 심리적 부담을 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 직면한 어려운 대화 상황 입력하기
+- 목표에 따른 대화 전략 및 문구 생성해보기
+- 예상되는 반응에 대한 다음 단계 준비하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 문구가 실제 대화 상대방의 성향과 맞지 않을 수 있음
+- 복잡한 감정적 맥락이 완벽하게 반영되지 않을 가능성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 대화 시나리오별 지원 범위와 개인정보 보호 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Saylo_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Saylo_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Saylo_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a6944e4c-38c8-4ece-ab52-7d616440314e.jpeg?auto=format)
+
+---
+
+## 27. [Mugiwara Security](https://www.producthunt.com/products/mugiwara-security)
+**Votes**: 10 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Proves vulnerabilities before reporting them.
+**서비스 링크**: https://www.producthunt.com/r/KMGOAEP7ENHRXZ
+
+**태그**: Security, DevSecOps, Automation, AI, AI Tool, DevTool
+
+<img src="images/ph_2026-08-29_Mugiwara_Security.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+취약점 탐지를 넘어 실제 공격 성공 여부를 검증하고 자동 패치까지 제안하는 보안 도구
+
+### 🔑 주요 기능
+- PoC(Proof-of-Concept) 자동 생성 및 격리된 컨테이너 내 실행을 통한 실질적 취약점 검증
+- AI를 활용한 자동 패치 생성 및 패치 적용 후 재공격 테스트를 통한 유효성 확인
+- 로컬 실행 환경을 통해 소스 코드가 외부로 유출되지 않는 보안 중심 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 경고가 아닌 실제 작동하는 취약점만 필터링하여 보안 담당자의 분석 피로도를 획기적으로 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- Python 환경에서의 인젝션 취약점 탐지 기능 테스트
+- 생성된 PoC와 자동 패치의 정확도 검증
+
+### ⚠️ 사용 전 확인할 점
+- 현재 V0 단계로 Python 인젝션 클래스에 국한된 기능 제공
+- 자동 생성된 패치가 실제 운영 환경에 적용하기에는 위험할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 지원되는 프로그래밍 언어 범위와 다른 취약점 클래스에 대한 확장 계획이 명확하지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Mugiwara_Security_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Mugiwara_Security_media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Mugiwara_Security_media_2.jpg)
+
+---
+
+## 28. [BizWise - Your Business Partner](https://www.producthunt.com/products/bizwise-your-business-partner)
+**Votes**: 10 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Find Where Your Money Goes.
+**서비스 링크**: https://www.producthunt.com/r/6SUCZ4OXI5DGRP
+
+**태그**: SaaS, AI, Profit Intelligence, Business Analytics, B2B, AI Tool, API, Sales
+
+<img src="images/ph_2026-08-29_BizWise_-_Your_Business_Partner.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+흩어진 비즈니스 데이터를 분석하여 숨겨진 수익 누수 지점을 찾아주는 AI 수익 지능 플랫폼
+
+### 🔑 주요 기능
+- 판매, 재고, 광고, 비용 등 파편화된 B2B 데이터를 통합 분석
+- 재고에 묶인 자본이나 비효율적인 광고비 등 수익 저해 요인 식별
+- 데이터를 바탕으로 수익 개선을 위한 우선순위 액션 제안
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 데이터 속에서 어디서 돈이 새고 있는지 직관적으로 파악하여, 즉각적인 수익 개선 조치를 취할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 판매 및 비용 데이터 연동을 통한 수익 현황 파악
+- 재고 및 광고 지출 데이터 분석을 통한 손실 지점 확인
+- 제안된 우선순위 액션을 통한 수익 최적화 실행
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 소스(ERP, 광고 플랫폼 등)의 연동 범위 및 보안 정책 확인 필요
+- 데이터의 정확도에 따라 분석 결과의 신뢰도가 결정됨
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 데이터 통합(Integration) 범위와 실시간 분석 지원 여부에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_BizWise_-_Your_Business_Partne_media_0.jpg)
+![Screenshot](images/ph_2026-08-29_BizWise_-_Your_Business_Partne_media_1.jpg)
+
+---
+
+## 29. [Silent Interpreter ](https://www.producthunt.com/products/silent-interpreter)
+**Votes**: 9 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Communication Should Never Need A Translator
+**서비스 링크**: https://www.producthunt.com/r/JAOTCIVQG7SEOL
+
+**태그**: Accessibility, AI, Real-time, Communication, AI Tool
+
+<img src="images/ph_2026-08-29_Silent_Interpreter_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+수어를 음성으로 실시간 변환하여 의사소통 장벽을 허무는 AI 통역 솔루션
+
+### 🔑 주요 기능
+- 인도 수어를 실시간으로 해석하는 기술
+- 제스처를 음성으로 변환하여 즉각적인 소통 지원
+- 병원, 식당, 공항 등 다양한 공공장소에서의 활용성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수어 사용자 간의 의사소통 문제를 해결하고, 비사용자와의 원활한 대화를 가능하게 합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 실시간 제스처 인식 정확도 테스트
+- 다양한 환경(소음 등)에서의 음성 출력 확인
+- 모바일/웹 환경에서의 사용 편의성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 특정 지역(인도) 수어에 특화되어 있어 다른 수어와의 호환성 확인 필요
+- 조명이나 카메라 각도에 따른 인식률 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+지원하는 구체적인 하드웨어 플랫폼(모바일 앱, 웹, 전용 기기 등)과 인식 정확도 수치가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Silent_Interpreter__media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Silent_Interpreter__media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Silent_Interpreter__media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/57f9231c-8d29-4206-8a74-62da27d12bed.jpeg?auto=format)
+
+---
+
+## 30. [Brain Byte ](https://www.producthunt.com/products/brain-byte)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn anything you study into a learning journey.
+**서비스 링크**: https://www.producthunt.com/r/SRJ42VEPBUQEBQ
+
+**태그**: EdTech, AI, Productivity, Learning, AI Tool, Video
+
+<img src="images/ph_2026-08-29_Brain_Byte_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+학습 자료를 능동적인 학습 여정으로 변환하여 기억력을 극대화하는 AI 학습 도구
+
+### 🔑 주요 기능
+- PDF, 노트, 영상 등 다양한 학습 자료를 학습 콘텐츠로 자동 변환
+- 단순 시청을 넘어 개념 이해, 도전 과제, 맞춤형 복습 제공
+- 검색과 단순 반복 시청 시간을 줄이고 실질적인 이해와 연습에 집중
+
+### 🙋 사용자에게 어떤 점이 좋은가
+공부 자료를 단순히 읽는 데 그치지 않고, 문제를 풀고 복습하는 능동적 학습 체계로 바꿔주어 학습 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 가지고 있는 PDF나 노트를 업로드하여 학습 경로 생성하기
+- 생성된 챌린지를 통해 자신의 이해도 테스트하기
+- 맞춤형 복습 기능을 활용해 장기 기억 형성하기
+
+### ⚠️ 사용 전 확인할 점
+- 학습 자료의 품질에 따라 생성되는 콘텐츠의 질이 달라질 수 있음
+- 영상 자료의 경우 영상 내 텍스트/음성 추출 정확도에 의존함
+
+### 🧭 확인이 더 필요한 정보
+제공되는 학습 콘텐츠의 구체적인 문제 유형과 복습 알고리즘의 상세 방식은 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-08-29_Brain_Byte__media_0.jpg)
+![Screenshot](images/ph_2026-08-29_Brain_Byte__media_1.jpg)
+![Screenshot](images/ph_2026-08-29_Brain_Byte__media_2.jpg)
+
+---
+
