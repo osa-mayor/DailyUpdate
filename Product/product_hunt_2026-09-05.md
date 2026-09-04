@@ -1,0 +1,1226 @@
+# 🚀 Product Hunt Daily Top 30 (2026-09-05)
+
+## 오늘의 요약
+오늘의 트렌드는 단순한 답변을 넘어 복잡한 업무를 스스로 수행하는 'AI 에이전트'와 '자동화된 워크플로우'에 집중되었습니다. 또한, 개발 생산성을 높이는 커스텀 환경과 실무 중심의 AI 교육, 그리고 특정 도구(Slack, 영상 등) 내에서의 자동화된 관리 솔루션들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- 복잡한 추론과 소프트웨어 엔지니어링을 수행할 수 있는 차세대 AI 에이전트 모델들이 등장했습니다.
+- 사용자 정의 규칙과 자동화 기능을 통해 영상 검토, 조직도 관리 등 전문적인 업무를 효율화하는 솔루션이 주목받았습니다.
+- 실무 역량 강화와 개발 환경 최적화를 위한 맞춤형 AI 교육 및 커스텀 데스크톱 환경이 제안되었습니다.
+
+**오늘의 태그**: AI 에이전트, 업무 자동화, 개발 생산성, SaaS
+
+## 1. [GPT-6 Astra](https://www.producthunt.com/products/openai)
+**Votes**: 325 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: OpenAI's most capable model for end-to-end work
+**서비스 링크**: https://www.producthunt.com/r/JZWSD2RN4SUNT2
+
+**태그**: AI-Agent, Software-Engineering, Automation, OpenAI, Agent, AI Tool, API, Security
+
+<img src="images/ph_2026-09-04_GPT-6_Astra.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 추론과 소프트웨어 엔지니어링을 위한 OpenAI의 차세대 에이전트 모델
+
+### 🔑 주요 기능
+- 복잡한 추론, 소프트웨어 엔지니어링, 컴퓨터 제어 및 과학 연구에 최적화
+- 비동기 도구 호출 및 중간 단계 제어 기능을 통한 멀티스텝 에이전트 워크플로우 지원
+- 고도화된 사이버 보안 역량을 갖춘 최초의 OpenAI 모델
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 답변을 넘어 복잡한 업무를 스스로 수행하는 에이전트로서, 전문적인 전문직 업무와 개발 워크플로우를 자동화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Trusted Access/Daybreak 권한 확인
+- API(gpt-6-astra)를 통한 에이전트 워크플로우 테스트
+- Plus/Pro/Business 등급별 배포 일정 확인
+
+### ⚠️ 사용 전 확인할 점
+- 사용자 등급(Plus, Pro, Enterprise 등)에 따른 순차적 배포로 인해 즉시 사용이 어려울 수 있음
+- 고성능 모델로서 토큰당 비용($10/$50 per 1M) 고려 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 등급별 구체적인 배포 시점과 API 접근 가능 시점이 유동적입니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_GPT-6_Astra_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_GPT-6_Astra_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_GPT-6_Astra_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c32d60c3-f17e-413c-b10d-472f17d8c7fe.jpeg?auto=format)
+
+---
+
+## 2. [myAIcademy](https://www.producthunt.com/products/myaicademy)
+**Votes**: 250 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Learn AI skills for your specific role and team
+**서비스 링크**: https://www.producthunt.com/r/ZV2IS4ZFBSIMTJ
+
+**태그**: EdTech, AI Training, Skill Development, Personalized Learning, AI Tool, Prompting
+
+<img src="images/ph_2026-09-04_myAIcademy.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인별 역할과 실무 도구에 맞춘 맞춤형 AI 교육 및 실습 플랫폼
+
+### 🔑 주요 기능
+- 사용자의 역할과 목표에 맞춘 개인화된 AI 학습 커리큘럼 제공
+- 실제 AI 도구를 안전하게 연습할 수 있는 시뮬레이션 환경 지원
+- AI 기술 변화에 맞춰 지속적으로 업데이트되는 최신 콘텐츠
+
+### 🙋 사용자에게 어떤 점이 좋은가
+범용적인 강의 대신 실제 업무에 즉시 적용 가능한 실무 중심의 AI 기술을 습득할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 직무에 맞는 맞춤형 학습 경로 설정하기
+- 시뮬레이션을 통한 실무 도구 실습하기
+- AI 가이드 Aimy의 단계별 가이드 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 구체적인 직무 분야에 따라 콘텐츠의 유효성이 달라질 수 있음
+- 실제 업무 도구와의 완벽한 연동 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 특정 직무에 대한 세부 커리큘럼 구성 방식과 실무 도구 시뮬레이션의 범위가 명확하지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_myAIcademy_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_myAIcademy_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_myAIcademy_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ef95c234-d697-457e-b35b-0bfedbd77c7b.jpeg?auto=format)
+
+---
+
+## 3. [Compliance by TwelveLabs](https://www.producthunt.com/products/twelvelabs)
+**Votes**: 212 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Video compliance review powered by rules you control
+**서비스 링크**: https://www.producthunt.com/r/MYCJI5GMJFP5EN
+
+**태그**: VideoAI, Compliance, Automation, SaaS, AI Tool, Video
+
+<img src="images/ph_2026-09-04_Compliance_by_TwelveLabs.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자 정의 규칙을 통해 영상 라이브러리의 규정 준수 여부를 자동 검토하는 AI 솔루션
+
+### 🔑 주요 기능
+- 사용자가 직접 작성한 맞춤형 컴플라이언스 규칙 적용 가능
+- 단순 타임스탬프를 넘어 위반 이유를 설명하는 맥락 중심의 결과 제공
+- Pegasus 모델 기반의 검토 준비가 완료된 리포트 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+영상 검토자가 일일이 영상을 돌려보는 시간을 줄여주며, AI가 제공하는 맥락을 바탕으로 빠른 의사결정이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자체 컴플라이언스 규칙 팩 작성 및 테스트
+- 영상 라이브러리 업로드 및 규칙 적용 테스트
+- AI가 생성한 위반 근거와 실제 영상 대조
+
+### ⚠️ 사용 전 확인할 점
+- 사용자가 정의한 규칙의 정교함에 따라 검토 결과의 정확도가 달라질 수 있음
+- 대규모 영상 라이브러리 인제스트 시 소요되는 시간 및 비용 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 정의 규칙의 구체적인 작성 방식과 영상 데이터 보안 정책에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Compliance_by_TwelveLabs_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Compliance_by_TwelveLabs_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/1b8206b5-a7b8-4182-8260-5c15ef95b01b.jpeg?auto=format)
+
+---
+
+## 4. [Google Gemini 3.8 Flash and Cyber](https://www.producthunt.com/products/gemini-3-8-flash)
+**Votes**: 194 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Next-gen Gemini for agents, reasoning, and cyber security
+**서비스 링크**: https://www.producthunt.com/r/6J4RDEKQ5QRPHZ
+
+**태그**: AI, DevTool, Cybersecurity, Automation, Agent, Security
+
+<img src="images/ph_2026-09-04_Google_Gemini_3.8_Flash_and_Cyber.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+에이전트 작업과 사이버 보안에 최적화된 초고속·저비용 차세대 AI 모델
+
+### 🔑 주요 기능
+- 에이전트 워크플로우 및 다단계 추론 최적화
+- 장기 코딩 작업 및 자율적 작업 수행 능력 강화
+- 취약점 탐지를 위한 사이버 보안 특화 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+빠른 속도와 낮은 비용으로 복잡한 코딩 및 보안 업무를 자동화할 수 있어 개발 생산성을 크게 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 복잡한 코딩 작업에 Flash 모델 적용해보기
+- 보안 취약점 점검 워크플로우에 Cyber 모델 테스트하기
+- 에이전트 기반 자동화 작업에 모델 통합하기
+
+### ⚠️ 사용 전 확인할 점
+- 특정 보안 도구와의 호환성 및 탐지 정확도 검증 필요
+- 자율적 작업 수행 시 발생할 수 있는 예외 상황 관리 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 모델별 상세 벤치마크 성능과 API 비용 구조에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Google_Gemini_3.8_Flash_and_Cy_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Google_Gemini_3.8_Flash_and_Cy_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Google_Gemini_3.8_Flash_and_Cy_media_2.jpg)
+
+---
+
+## 5. [cmmnts](https://www.producthunt.com/products/cmmnts)
+**Votes**: 126 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Add a powerful comment section to any website
+**서비스 링크**: https://www.producthunt.com/r/LGMPU3ACYOA63X
+
+**태그**: DevTool, SaaS, Community, WebDev
+
+<img src="images/ph_2026-09-04_cmmnts.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 개발 과정 없이 웹사이트에 강력한 댓글 시스템을 즉시 도입하세요.
+
+### 🔑 주요 기능
+- 스레드, 모더레이션, 로그인 등 완성형 토론 기능 제공
+- 익명 댓글, Markdown, 멘션, 이모지, GIF 등 풍부한 사용자 경험 지원
+- 직접 구축할 필요 없이 사이트에 바로 삽입 가능한 간편한 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+댓글 시스템을 직접 개발하는 시간과 비용을 절약하면서, 사용자들에게 익숙하고 강력한 커뮤니티 기능을 제공할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사이트에 스크립트 삽입하여 기능 작동 확인하기
+- Markdown 및 GIF 등 콘텐츠 표현 기능 테스트하기
+- 관리자 모더레이션 기능 설정해보기
+
+### ⚠️ 사용 전 확인할 점
+- 사이트에 삽입 시 기존 UI/UX와의 디자인 정합성 확인 필요
+- 사용자 데이터 및 댓글 저장 방식에 대한 보안 정책 검토
+
+### 🧭 확인이 더 필요한 정보
+구체적인 설치 방법(SDK/API) 및 데이터 저장 방식에 대한 상세 기술 문서 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_cmmnts_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_cmmnts_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_cmmnts_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d53be9b6-7b9f-499f-9af3-b0bab5c44bae.jpeg?auto=format)
+
+---
+
+## 6. [Omarchy](https://www.producthunt.com/products/omarchy-3)
+**Votes**: 117 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: The malleable OS for the age of agents
+**서비스 링크**: https://www.producthunt.com/r/ANPVQTR3VUDIDN
+
+**태그**: OS, Linux, Automation, DeveloperTools, AI, Agent
+
+<img src="images/ph_2026-09-04_Omarchy.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+설정의 번거로움 없이 즉시 코딩에 몰입할 수 있는 AI 기반 커스텀 리눅스 데스크톱 환경
+
+### 🔑 주요 기능
+- Arch Linux, Hyprland, Quickshell 기반의 완성형 데스크톱 환경 제공
+- 키보드 중심의 워크스테이션 설계로 생산성 극대화
+- 사용자가 직접 조립하는 대신 에이전트가 환경을 구성하는 자동화 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 리눅스 설정 과정 없이도 전문가급의 커스텀 데스크톱 환경을 즉시 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 키보드 중심의 워크플로우 경험하기
+- 시스템 테마 및 업데이트 패키지 확인하기
+- 코딩 에이전트를 통한 환경 자동 구성 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- Arch Linux 기반이므로 시스템 구조에 대한 기본 지식 필요
+- 에이전트가 시스템 설정을 변경할 때 발생할 수 있는 안정성 문제
+
+### 🧭 확인이 더 필요한 정보
+에이전트가 시스템을 재구성하는 방식의 안정성과 사용자 제어 범위에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Omarchy_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Omarchy_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Omarchy_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/fdd3391f-65a2-43c0-9636-7bfa2bdb0f77.jpeg?auto=format)
+
+---
+
+## 7. [WeatherNext 3](https://www.producthunt.com/products/weathernext-3)
+**Votes**: 110 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Our most advanced and accurate global weather AI model
+**서비스 링크**: https://www.producthunt.com/r/3UIBZLKQ7QOH46
+
+**태그**: AI, Weather, Google, Data, Cloud, AI Tool
+
+<img src="images/ph_2026-09-04_WeatherNext_3.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실시간 위성 데이터와 고해상도 예측을 결합한 구글의 차세대 글로벌 AI 기상 모델
+
+### 🔑 주요 기능
+- 실시간 위성 데이터 및 시간 단위 업데이트를 통한 정밀한 기상 예측
+- 강수량 예측 정밀도 향상 및 클린 에너지 변수 포함
+- Search, Gemini, Maps, Cloud 등 구글 생태계 전반에 통합
+
+### 🙋 사용자에게 어떤 점이 좋은가
+구글의 주요 서비스와 클라우드 플랫폼에 즉시 통합되어, 사용자에게 더욱 정확한 날씨 정보와 에너지 관련 데이터를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 구글 맵 및 검색 서비스의 날씨 정보 정확도 확인
+- 클라우드 및 개발자 환경에서의 API 통합 가능성 검토
+- 에너지 관련 비즈니스 모델에 정밀 기상 데이터 적용
+
+### ⚠️ 사용 전 확인할 점
+- 지역별로 제공되는 해상도 및 데이터 정확도 차이가 있을 수 있음
+- 기존 구글 서비스 내에서 업데이트되는 방식이므로 개별 사용자 제어 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구글 서비스 내의 구체적인 배포 일정과 API 접근 권한 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_WeatherNext_3_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_WeatherNext_3_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_WeatherNext_3_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/707f3c49-aa2d-44e7-b08c-a9f46d8f052f.jpeg?auto=format)
+
+---
+
+## 8. [Snitch](https://www.producthunt.com/products/snitch-4)
+**Votes**: 100 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your Slack org chart, built by everyone in it.
+**서비스 링크**: https://www.producthunt.com/r/JDO6DCJLC6RRIQ
+
+**태그**: Slack, HR-Tech, Automation, Organization-Chart, AI Tool
+
+<img src="images/ph_2026-09-04_Snitch.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Slack 구성원들의 응답을 바탕으로 자동 생성되는 실시간 조직도 솔루션
+
+### 🔑 주요 기능
+- Slack 내 구성원들의 직접 응답을 통한 조직도 자동 구축
+- 보고 체계, 팀 규모, 역할 소유권 등 조직 구조 관련 질의응답 기능
+- 별도의 HR 시스템 입력 없이 Slack만으로 운영 가능한 간편함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 HR 시스템 관리 없이도 Slack 내에서 즉각적이고 정확한 조직 구조 정보를 파악할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack 워크스페이스에 Snitch 설치하기
+- 구성원들에게 보고 체계 질문 응답 요청하기
+- 생성된 조직도에서 팀 규모 및 보고 체계 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 구성원들이 질문에 응답하지 않을 경우 데이터의 정확도가 떨어질 수 있음
+- Slack 권한 설정에 따른 데이터 접근 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 응답 기반이므로 조직 개편 시 데이터 업데이트 주기가 어떻게 관리되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Snitch_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Snitch_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Snitch_media_2.jpg)
+
+---
+
+## 9. [TrackMCP](https://www.producthunt.com/products/trackmcp)
+**Votes**: 93 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Google Analytics for MCP Servers
+**서비스 링크**: https://www.producthunt.com/r/X7ARBMMI3SQ5WY
+
+**태그**: DevTool, Analytics, MCP
+
+<img src="images/ph_2026-09-04_TrackMCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단 한 줄의 코드로 MCP 서버의 사용자 행동과 성능을 분석하는 분석 도구
+
+### 🔑 주요 기능
+- MCP 서버 사용자 및 작업 패턴 추적
+- 작업 성공 여부 및 개선 지점 파악
+- 코드 한 줄로 구현 가능한 간편한 설치
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 만든 MCP 서버가 실제로 어떻게 사용되는지 실시간으로 파악하여 서비스 품질을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 MCP 서버에 분석 코드 삽입
+- 사용자 작업 흐름 및 성공률 대시보드 확인
+- 데이터 기반의 서버 기능 개선
+
+### ⚠️ 사용 전 확인할 점
+- 사용자 데이터 수집 시 개인정보 보호 및 보안 정책 검토 필요
+- 데이터 수집 방식에 따른 서버 성능 영향성 확인
+
+### 🧭 확인이 더 필요한 정보
+데이터 저장 방식 및 보안 수준에 대한 상세 명세가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_TrackMCP_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_TrackMCP_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_TrackMCP_media_2.jpg)
+
+---
+
+## 10. [sidebranch](https://www.producthunt.com/products/sidebranch)
+**Votes**: 91 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Easy git-based visual diffing
+**서비스 링크**: https://www.producthunt.com/r/VM7PTXCRQ6DZBD
+
+**태그**: DevTool, Git, Productivity
+
+<img src="images/ph_2026-09-04_sidebranch.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실행 중인 앱 내에서 브랜치를 전환하며 즉시 시각적 차이를 확인할 수 있는 Git 기반 디프 도구
+
+### 🔑 주요 기능
+- 앱 내부 위젯을 통한 간편한 브랜치 전환
+- 워크트리(worktrees) 간의 사이드 바이 사이드 시각적 비교
+- 의존성 없는 루프백 전용(Loopback-only) 구조
+
+### 🙋 사용자에게 어떤 점이 좋은가
+PR 리뷰 시 별도의 환경 설정 없이 실행 중인 앱 안에서 즉각적인 시각적 검증이 가능하여 개발 워크플로우를 단축해 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 인페이지 위젯을 통한 브랜치 전환 테스트
+- 워크트리 간 사이드 바이 사이드 비교 기능 확인
+- 로컬 환경에서의 의존성 없는 설치 및 실행
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 개발 환경(Loopback)에 국한된 기능일 가능성
+- 시각적 디프를 위한 특정 프레임워크/환경 지원 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 로컬 개발 환경 및 특정 프레임워크와의 호환성 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_sidebranch_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_sidebranch_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_sidebranch_media_2.jpg)
+
+---
+
+## 11. [Offline JS Playground](https://www.producthunt.com/products/offline-js-playground)
+**Votes**: 89 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Write, run, and test JavaScript snippets & JSON offline
+**서비스 링크**: https://www.producthunt.com/r/OMJMVDSME5NU4F
+
+**태그**: DevTool, JavaScript, Productivity, Design
+
+<img src="images/ph_2026-09-04_Offline_JS_Playground.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+별도의 개발 환경 없이 브라우저에서 즉시 자바스크립트를 실행하고 테스트할 수 있는 오프라인 플레이그라운드
+
+### 🔑 주요 기능
+- 간편한 UI 내장 콘솔을 통한 자바스크립트 코드 실행 및 테스트
+- 오프라인 설계를 통한 보안 및 독립적인 작업 환경 제공
+- 빠른 실험, 디버깅, 학습을 위한 가벼운 개발 도구
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 IDE 설정 없이 브라우저만 있으면 즉시 코드 스니펫을 테스트하거나 JSON 데이터를 다룰 수 있어 작업 흐름이 끊기지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자바스크립트 코드 스니펫 작성 및 실행
+- UI 내장 콘솔을 활용한 디버깅
+- JSON 데이터 구조 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 브라우저 기반이므로 대규모 프로젝트 개발에는 적합하지 않음
+- 오프라인 환경에서의 데이터 저장 및 동기화 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 저장소 활용 방식이나 데이터 영속성에 대한 구체적인 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Offline_JS_Playground_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Offline_JS_Playground_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Offline_JS_Playground_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/030d11f0-6975-4411-9b9a-8601baba6933.jpeg?auto=format)
+
+---
+
+## 12. [Clockwork](https://www.producthunt.com/products/clockwork-5)
+**Votes**: 84 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: The calendar where your AI agents show up for work
+**서비스 링크**: https://www.producthunt.com/r/JW45CRUJFINZDM
+
+**태그**: DevTool, AI, Automation, Workflow, Agent, AI Tool
+
+<img src="images/ph_2026-09-04_Clockwork.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 코딩 에이전트를 캘린더로 예약하고 자동 실행하는 워크플로우 도구
+
+### 🔑 주요 기능
+- 로컬 Mac 환경의 격리된 git 워크트리에서 에이전트 실행
+- 스케줄링된 반복 작업 및 위험 상황 발생 시 승인 대기 기능
+- 실제 발생한 비용 리포트 및 작업 결과 보고서 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 자리를 비운 사이에도 AI 에이전트가 예약된 작업을 안전하게 수행하며, 비용과 작업 내용을 투명하게 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 API 키를 연결하여 에이전트 환경 설정하기
+- 반복적인 코딩 작업을 위한 스케줄링 작업 등록하기
+- 샌드박스 환경에서의 작업 결과 및 비용 리포트 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 Mac 자원 사용 및 보안을 위한 샌드박스 환경 확인 필요
+- 사용자 API 키 또는 구독 모델에 따른 비용 발생 구조 이해 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 기존 구독 모델이 어떤 에이전트 모델과 호환되는지 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Clockwork_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Clockwork_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Clockwork_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2ee04851-7d77-4cf6-aea4-98834ae79398.jpeg?auto=format)
+
+---
+
+## 13. [Inline](https://www.producthunt.com/products/inline-5)
+**Votes**: 83 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Multiplayer work with AI, teammates, and friends
+**서비스 링크**: https://www.producthunt.com/r/AMNX2GJDJAQ7FY
+
+**태그**: Collaboration, AI, Productivity, Chat, Agent, AI Tool
+
+<img src="images/ph_2026-09-04_Inline.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+팀원 및 AI 에이전트와 함께 협업하는 스레드 기반 채팅 앱
+
+### 🔑 주요 기능
+- 스레드 중심의 대화 구조로 업무 맥락 유지
+- 팀원과 AI 에이전트 간의 멀티플레이어 협업 지원
+- 업무 효율을 높이는 통합 워크스페이스 환경
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팀원뿐만 아니라 AI 에이전트를 대화에 참여시켜 업무 자동화와 협업을 동시에 해결할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 스레드 생성 및 대화 흐름 테스트
+- AI 에이전트 초대 및 협업 기능 확인
+- 팀원 초대 및 멀티플레이어 환경 설정
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트와의 협업 시 데이터 보안 및 프라이버시 정책 확인 필요
+- 기존 협업 툴과의 데이터 마이그레이션 편의성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 AI 에이전트 연동 방식 및 보안 프로토콜에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Inline_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Inline_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Inline_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2be341ea-8386-4deb-b41c-150805bfa1c2.jpeg?auto=format)
+
+---
+
+## 14. [Chalked for Mac](https://www.producthunt.com/products/chalked)
+**Votes**: 80 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your replies ready with your work's full context
+**서비스 링크**: https://www.producthunt.com/r/N2ZRJFD6E2ZQAT
+
+**태그**: Productivity, AI, Mac, Communication, Automation
+
+<img src="images/ph_2026-09-04_Chalked_for_Mac.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+업무 맥락을 반영하여 최적의 답장 초안을 작성해 주는 Mac용 AI 커뮤니케이션 레이어
+
+### 🔑 주요 기능
+- 대화 스레드, 캘린더, 업무 문서를 기반으로 한 맥락 중심의 답장 생성
+- Tab 키로 즉시 삽입, 음성 명령(fn 키)을 통한 결과물 제어
+- 사용자가 직접 검토 후 전송하는 방식으로 자동 발송 위험 방지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+맥락 파악에 드는 시간을 줄여주며, 사용자가 최종 검토를 거치므로 업무 실수 없이 빠르고 정확한 커뮤니케이션이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 지원되는 대화창을 열고 맥락이 반영되는지 확인하기
+- Tab 키를 눌러 생성된 답안 삽입해 보기
+- fn 키를 활용한 음성 제어 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 개인정보 및 업무 데이터(캘린더, 문서 등) 접근 권한 필요
+- 사용자가 직접 검토하지 않을 경우 잘못된 정보가 전송될 위험
+
+### 🧭 확인이 더 필요한 정보
+현재 어떤 종류의 대화 앱(Slack, Email 등)을 구체적으로 지원하는지 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Chalked_for_Mac_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Chalked_for_Mac_media_2.jpg)
+![Screenshot](images/ph_2026-09-04_Chalked_for_Mac_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/aebc1837-946a-406f-a224-5cf624e812b2.jpeg?auto=format)
+
+---
+
+## 15. [A2A Net](https://www.producthunt.com/products/a2a-net)
+**Votes**: 14 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Automatically optimize an AI agent from your B2B SaaS APIs
+**서비스 링크**: https://www.producthunt.com/r/CALT7AV7SDW5VX
+
+**태그**: AI, B2B SaaS, Automation, DevTool, Agent, AI Tool, API
+
+<img src="images/ph_2026-09-04_A2A_Net.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+B2B SaaS API를 활용해 고객용 AI 에이전트를 5분 만에 자동 구축하는 플랫폼
+
+### 🔑 주요 기능
+- OpenAPI 스펙 또는 MCP 서버를 통한 초고속 에이전트 생성
+- 웹사이트, Slack, Teams, Copilot 등 다양한 채널로의 즉각적인 배포
+- GEPA 기반의 대화형 에이전트 최적화 기술 적용
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기존 B2B SaaS의 API를 활용해 고객이 즉시 사용할 수 있는 고성능 AI 에이전트를 쉽고 빠르게 배포할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유 중인 OpenAPI 스펙 URL 입력하여 에이전트 생성해보기
+- 생성된 에이전트의 코드 모드 및 파일 업로드/다운로드 기능 테스트
+- Slack이나 Teams 등 주요 협업 툴 연동 확인
+
+### ⚠️ 사용 전 확인할 점
+- API 스펙(OpenAPI/MCP)의 완성도에 따라 에이전트 성능이 결정됨
+- B2B SaaS API 보안 및 데이터 접근 권한 설정 필요
+
+### 🧭 확인이 더 필요한 정보
+GEPA 프레임워크가 구체적으로 어떻게 대화형 에이전트 최적화에 작용하는지 상세 기술 문서 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_A2A_Net_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_A2A_Net_media_2.jpg)
+![Screenshot](images/ph_2026-09-04_A2A_Net_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/317d95de-6f0e-4bf0-bbfa-aa85e28a245c.jpeg?auto=format)
+
+---
+
+## 16. [Email Health Check by Truelist](https://www.producthunt.com/products/truelist-2)
+**Votes**: 10 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Grade your email list's health in 30 seconds, free
+**서비스 링크**: https://www.producthunt.com/r/OEXXAHBELQQHKQ
+**재등장**: 최근 7일 내 재등장 (마지막 등장 6일 전)
+
+**태그**: Marketing, Email, Data Validation, Free, AI Tool
+
+<img src="images/ph_2026-09-04_Email_Health_Check_by_Truelist.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+30초 만에 이메일 리스트의 품질을 무료로 진단하는 실시간 검증 도구
+
+### 🔑 주요 기능
+- CSV 파일을 업로드하여 즉각적인 이메일 리스트 건강 점수 확인
+- Ok, Risky, Catch-all, Invalid로 세분화된 실시간 분석 리포트 제공
+- 가입이나 이메일 입력 없이 즉시 사용 가능한 무료 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+이메일 마케팅 전 리스트의 유효성을 빠르게 검증하여 발송 실패율을 낮추고 도메인 평판을 보호할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유 중인 이메일 리스트 CSV 업로드하기
+- 실시간 서버 검증을 통한 리스트 상태 점검하기
+
+### ⚠️ 사용 전 확인할 점
+- 개인정보가 포함된 CSV 파일을 외부 서버에 업로드해야 하므로 보안 정책 확인 필요
+- 무료 서비스이므로 대용량 리스트 처리에 대한 제한이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+대용량 파일 업로드 시의 처리 속도와 데이터 보관 정책에 대한 구체적인 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Email_Health_Check_by_Truelist_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Email_Health_Check_by_Truelist_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Email_Health_Check_by_Truelist_media_2.jpg)
+
+---
+
+## 17. [SCRUB.](https://www.producthunt.com/products/scrub)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Run creator campaigns across platforms, end to end
+**서비스 링크**: https://www.producthunt.com/r/SIK6A6G6OAMULT
+
+**태그**: Marketing, Creator Economy, Automation, SaaS, AI Tool
+
+<img src="images/ph_2026-09-04_SCRUB..jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+브랜드와 크리에이터를 연결하는 엔드 투 엔드 캠페인 관리 플랫폼
+
+### 🔑 주요 기능
+- 브랜드와 크리에이터 간의 원스톱 매칭 및 캠페인 운영
+- 팔로워 규모(50명~50만 명 이상)에 상관없는 크리에이터 기회 제공
+- 발굴부터 관리, 자동화, 트래킹, 정산까지 통합된 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+브랜드는 효율적인 캠페인 관리를, 크리에이터는 간편한 수익 창출 기회를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브랜드/크리에이터 프로필 등록
+- 적합한 캠페인 탐색 및 매칭
+- 캠페인 관리 및 성과 트래킹
+
+### ⚠️ 사용 전 확인할 점
+- 플랫폼 내 결제 및 정산 방식의 세부 정책 확인 필요
+- 외부 소셜 미디어 플랫폼과의 연동 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+플랫폼이 지원하는 구체적인 외부 툴 연동 범위와 수수료 정책에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_SCRUB._media_0.jpg)
+![Screenshot](images/ph_2026-09-04_SCRUB._media_1.jpg)
+![Screenshot](images/ph_2026-09-04_SCRUB._media_2.jpg)
+
+---
+
+## 18. [Trailmarks iOS](https://www.producthunt.com/products/trailmarks)
+**Votes**: 9 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Real World Travel Quiz & Trivia Adventure
+**서비스 링크**: https://www.producthunt.com/r/NWXIR52XXFHQZO
+
+**태그**: Mobile Game, Travel, Offline, Trivia, AI Tool
+
+<img src="images/ph_2026-09-04_Trailmarks_iOS.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실제 도시를 배경으로 즐기는 오프라인 여행 퀴즈 어드벤처 게임
+
+### 🔑 주요 기능
+- 실제 도시와 교통망을 기반으로 한 리얼 월드 트래블 퀴즈
+- 정답을 맞혀 보상을 얻고 실제 노선(항공, 기차, 선박)을 이용해 이동하는 게임 방식
+- 1,000개 이상의 도시 지원 및 광고 없는 완전 오프라인 플레이
+
+### 🙋 사용자에게 어떤 점이 좋은가
+계정 생성이나 광고 없이 한 번의 구매로 어디서든 끊김 없이 즐길 수 있는 여행 테마 게임입니다.
+
+### ✅ 지금 바로 써볼 기능
+- 1,000개 이상의 도시 중 본인이 아는 도시 찾기
+- 획득한 보상으로 실제 존재하는 노선을 따라 여행하기
+- 오프라인 환경에서 데이터 걱정 없이 플레이하기
+
+### ⚠️ 사용 전 확인할 점
+- iPhone 전용 앱이므로 Android 사용자는 이용 불가
+- 유료 앱($4.99) 구매가 필요함
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 1,000개 이상의 도시 목록과 구체적인 게임 난이도 체계는 앱 설치 후 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Trailmarks_iOS_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Trailmarks_iOS_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Trailmarks_iOS_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0bedcc31-1a53-4f1a-bdb0-a5f155dd3598.jpeg?auto=format)
+
+---
+
+## 19. [Present: Clock + Weather + Calendar](https://www.producthunt.com/products/present-clock-weather-calendar)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Everything you need at a glance. Nothing else. 
+**서비스 링크**: https://www.producthunt.com/r/W5U3ASKRGGRV6N
+
+**태그**: Productivity, Minimalism, Dashboard, Utility
+
+<img src="images/ph_2026-09-04_Present_Clock_+_Weather_+_Calendar.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+불필요한 알림 없이 시간, 날씨, 일정만 직관적으로 보여주는 미니멀리즘 대시보드
+
+### 🔑 주요 기능
+- 시간, 날씨, 일정 등 필수 정보만 제공하는 미니멀한 UI
+- 사용자의 주의를 분산시키는 피드나 알림 배제
+- 멀리서도 한눈에 확인할 수 있는 직관적인 정보 전달
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스마트폰을 붙잡고 스크롤하는 시간을 줄이고, 작업 중 찰나의 시선만으로 필요한 정보를 즉시 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 핵심 정보(시간, 날씨, 일정)의 가독성 확인
+- 주방이나 작업실 등 멀리서 보는 환경에서의 활용도 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 상세한 정보 확인이나 상호작용을 위한 기능은 제한적일 수 있음
+- 단순 정보 확인용이므로 복잡한 일정 관리는 별도 앱이 필요함
+
+### 🧭 확인이 더 필요한 정보
+하드웨어 기기인지, 아니면 태블릿/PC용 소프트웨어인지에 대한 구체적인 플랫폼 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Present_Clock_+_Weather_+_Cale_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Present_Clock_+_Weather_+_Cale_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Present_Clock_+_Weather_+_Cale_media_2.jpg)
+
+---
+
+## 20. [ALIA](https://www.producthunt.com/products/alia-2)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The data infrastructure for AI that speaks Africa
+**서비스 링크**: https://www.producthunt.com/r/WFEWN2AYXSZVB7
+
+**태그**: AI, Data Infrastructure, Localization, NLP, AI Tool
+
+<img src="images/ph_2026-09-04_ALIA.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+아프리카 언어 및 문화 특화 고품질 AI 데이터 구축 플랫폼
+
+### 🔑 주요 기능
+- 아프리카 언어 및 문화에 최적화된 데이터 수집, 주석 작업, 검증 및 평가 기능 제공
+- 조직을 위한 데이터 프로젝트 관리 및 기여자 보상 시스템 구축
+- 웹과 텔레그램을 통한 간편한 데이터 기여(Mission) 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+아프리카 시장을 타겟으로 하는 AI 모델 개발 시, 현지 언어와 문화적 맥락이 반영된 고품질 학습 데이터를 확보할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 데이터 프로젝트 생성 및 관리 프로세스 확인
+- 웹 및 텔레그램을 통한 기여자 참여 방식 테스트
+- 데이터 검증 및 평가 워크플로우 검토
+
+### ⚠️ 사용 전 확인할 점
+- 아프리카 지역 외 언어/문화 데이터에 대한 전문성 확인 필요
+- 기여자 보상 체계 및 데이터 품질 관리 정책 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+플랫폼의 구체적인 데이터 보안 정책과 보상 지급 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_ALIA_media_0.jpg)
+
+---
+
+## 21. [Dnipro](https://www.producthunt.com/products/dnipro)
+**Votes**: 6 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Suspicious Profile Checker for LinkedIn
+**서비스 링크**: https://www.producthunt.com/r/CDN67GBFGPR3CB
+
+**태그**: LinkedIn, Security, Verification, Productivity, AI Tool
+
+<img src="images/ph_2026-09-04_Dnipro.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+링크드인 프로필의 허위 여부를 식별하는 의심 프로필 검사 도구
+
+### 🔑 주요 기능
+- 링크드인 프로필 페이지를 분석하여 가짜 계정 신호 탐지
+- 7가지 정밀 체크리스트를 통한 다각도 검증 방식
+- 개별 신호가 아닌 복합적인 패턴 분석을 통한 신뢰도 판단
+
+### 🙋 사용자에게 어떤 점이 좋은가
+링크드인에서 만나는 상대방이 신뢰할 수 있는 인물인지 빠르게 판단하여 비즈니스 사기나 허위 프로필로 인한 리스크를 줄일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 의심스러운 링크드인 프로필 페이지 열기
+- Dnipro 실행하여 7가지 체크 항목 결과 확인하기
+- 검출된 패턴을 바탕으로 프로필 신뢰도 최종 판단하기
+
+### ⚠️ 사용 전 확인할 점
+- 단일 신호만으로는 프로필의 진위 여부를 확신할 수 없음
+- 알고리즘에 의한 패턴 분석이므로 최종 판단은 사용자의 몫임
+
+### 🧭 확인이 더 필요한 정보
+7가지 체크 항목의 구체적인 검증 기준과 알고리즘에 대한 상세 정보가 공개되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Dnipro_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Dnipro_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Dnipro_media_2.jpg)
+
+---
+
+## 22. [SuperQode](https://www.producthunt.com/products/superqode)
+**Votes**: 5 | **도입 난이도**: 상 | **신뢰도**: 중
+**Tagline**: The harness interoperability layer for coding agents
+**서비스 링크**: https://www.producthunt.com/r/6BZUOXFKPNU3VV
+
+**태그**: DevTool, AI-Agent, Interoperability, Agent
+
+<img src="images/ph_2026-09-04_SuperQode.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+서로 다른 코딩 에이전트 환경 간의 원활한 전환과 협업을 지원하는 상호 운용성 레이어
+
+### 🔑 주요 기능
+- 에이전트 간 통신(A2A, ACP, UHP)을 통한 하네스 간 격차 해소
+- 모델 의존성을 넘어선 하네스 독립성 확보
+- 사용자 목적에 맞는 최적의 에이전트 환경을 위한 평가 및 최적화 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+다양한 코딩 에이전트를 사용하는 개발자가 환경을 옮겨 다닐 때 발생하는 번거로움을 줄이고, 작업에 가장 적합한 에이전트 환경을 쉽게 선택할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- A2A/ACP/UHP 프로토콜을 통한 에이전트 간 통신 테스트
+- 현재 사용 중인 코딩 에이전트 하네스와의 호환성 확인
+- 제공되는 평가 도구를 통한 에이전트 환경 최적화
+
+### ⚠️ 사용 전 확인할 점
+- 기존 코딩 에이전트 환경과의 통합 난이도가 높을 수 있음
+- 상호 운용성 레이어 도입에 따른 추가적인 시스템 복잡성 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 기술 스택(A2A, ACP, UHP)의 상세 구현 방식과 기존 IDE/에이전트와의 통합 방식에 대한 추가 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_SuperQode_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_SuperQode_media_2.jpg)
+![Screenshot](images/ph_2026-09-04_SuperQode_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4b0434c6-8abf-4625-8e1d-2f8febd43be9.jpeg?auto=format)
+
+---
+
+## 23. [Agent Barn](https://www.producthunt.com/products/agent-barn)
+**Votes**: 5 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: Run a fleet of AI agents on your own Kubernetes
+**서비스 링크**: https://www.producthunt.com/r/FPVQ5SSXKPYGVU
+
+**태그**: DevOps, AI, OpenSource, Kubernetes, Automation, Agent, AI Tool, LLM
+
+<img src="images/ph_2026-09-04_Agent_Barn.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자체 쿠버네티스 환경에서 멀티 플랫폼 AI 에이전트 군단을 관리하는 오픈소스 컨트롤 플레인
+
+### 🔑 주요 기능
+- Slack, Teams, Telegram 등 다양한 메신저를 지원하는 통합 에이전트 관리
+- Kubernetes 기반의 셀프 호스팅 방식으로 보안 및 데이터 제어권 확보
+- Markdown 파일 기반의 간편한 에이전트 설정, 배포 및 롤백 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자체 인프라 내에서 여러 AI 에이전트를 안전하게 운영하면서, 각 에이전트의 성능과 비용을 중앙에서 통합 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Helm을 이용한 Kubernetes 클러스터 설치
+- Markdown 파일을 활용한 커스텀 에이전트 생성
+- OpenRouter 연동을 통한 모델 인퍼런스 테스트
+
+### ⚠️ 사용 전 확인할 점
+- Kubernetes 운영 역량이 필수적이며, 로컬 설치 시에도 리소스 소모가 클 수 있음
+- OpenRouter 및 외부 LLM API를 사용하므로 외부 네트워크 의존성이 존재함
+
+### 🧭 확인이 더 필요한 정보
+사용자의 인프라 규모에 따른 확장성 및 보안 설정의 세부 구현 방식에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Agent_Barn_media_0.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e56d5c67-b421-4a35-81a2-1c122b8d9898.jpeg?auto=format)
+
+---
+
+## 24. [InboxAlly](https://www.producthunt.com/products/inboxally)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: 9 free tools to fix your email deliverability
+**서비스 링크**: https://www.producthunt.com/r/4X3TBCMDPOV3XV
+
+**태그**: EmailMarketing, MarketingTools, Productivity, AI Tool, Email
+
+<img src="images/ph_2026-09-04_InboxAlly.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+이메일 스팸 문제를 해결하고 도메인 건강 상태를 진단하는 9가지 무료 도구 모음
+
+### 🔑 주요 기능
+- 스팸 단어 체크, 워밍업 플래너, DMARC 생성기 등 9가지 무료 진단 도구 제공
+- 이메일 도달률 저하 원인을 무료로 분석하여 도메인 상태 점검 가능
+- 문제 해결을 위한 유료 시드 참여(seed-engagement) 플랫폼 연계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+이메일이 스팸함으로 빠지는 원인을 비용 부담 없이 즉시 진단하고, 발신자 평판을 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 스팸 단어 체크 도구로 이메일 문구 검토하기
+- DMARC 생성기를 통한 도메인 보안 설정 확인
+- 워밍업 플래너를 활용한 발신 환경 점검
+
+### ⚠️ 사용 전 확인할 점
+- 무료 도구는 진단용이며, 근본적인 평판 복구는 유료 서비스가 필요할 수 있음
+- 도구 사용 시 도메인 정보 입력에 따른 보안 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+무료 도구의 상세 기능 범위와 유료 서비스로의 전환 시 발생하는 비용 구조에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_InboxAlly_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_InboxAlly_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_InboxAlly_media_2.jpg)
+
+---
+
+## 25. [Trends](https://www.producthunt.com/products/particle-5)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: See what's driving the most popular topics on podcasts
+**서비스 링크**: https://www.producthunt.com/r/BLITO5VAHR6KTQ
+**재등장**: 최근 7일 내 재등장 (마지막 등장 3일 전)
+
+**태그**: Analytics, ContentStrategy, Podcast, TrendAnalysis, Video
+
+<img src="images/ph_2026-09-04_Trends.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+팟캐스트 데이터 분석을 통해 인기 주제의 변화를 실시간으로 파악하는 트렌드 탐지 도구
+
+### 🔑 주요 기능
+- 13만 개 이상의 팟캐스트 데이터를 기반으로 한 카테고리별 트렌드 차트 제공
+- TV 쇼, 영화, 게임, 게스트 출연 등 다양한 엔티티별 트렌드 변화 분석
+- 최신 트렌드를 빠르게 포착하는 'breaking' 필터 및 맞춤형 알림 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팟캐스트 콘텐츠 제작자나 마케터가 현재 어떤 주제가 급상승 중인지 파악하여 콘텐츠 기획에 즉각 반영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Breaking 필터를 사용하여 지금 막 뜨고 있는 주제 확인하기
+- 관심 있는 엔티티에 대한 알림(Alerts) 설정하기
+- 카테고리 차트를 통해 주제별 변화 추이 분석하기
+
+### ⚠️ 사용 전 확인할 점
+- 데이터 소스가 팟캐스트에 집중되어 있어 다른 채널의 트렌드와는 차이가 있을 수 있음
+- 특정 엔티티의 트렌드 변화 원인에 대한 심층적 분석은 사용자의 해석이 필요함
+
+### 🧭 확인이 더 필요한 정보
+사용자별 맞춤형 대시보드 제공 여부나 데이터 업데이트 주기에 대한 상세 정보는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Trends_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Trends_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Trends_media_2.jpg)
+
+---
+
+## 26. [Web2MCP](https://www.producthunt.com/products/web2mcp)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn any website's APIs into WebMCP tools for your AI agent
+**서비스 링크**: https://www.producthunt.com/r/ZKXVO2RLKGIISF
+
+**태그**: AI, Automation, BrowserExtension, DevTool, Agent, AI Tool, API
+
+<img src="images/ph_2026-09-04_Web2MCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+웹사이트의 API를 AI 에이전트용 도구로 즉시 변환해주는 크롬 확장 프로그램
+
+### 🔑 주요 기능
+- 브라우징 중 발생하는 API 호출을 자동으로 기록하여 도구화
+- 별도의 키, 설정, 스키마 정의가 필요 없는 자동화 프로세스
+- 100% 로컬 실행으로 보안 및 개인정보 보호 강화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 API 연동 과정 없이 웹사이트의 기능을 AI 에이전트가 즉시 사용할 수 있는 도구로 만들어줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 크롬 확장 프로그램 설치 및 웹사이트 탐색
+- 기록된 API가 AI 에이전트 도구로 자동 생성되는지 확인
+- 로컬 환경에서의 도구 호출 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 웹사이트의 UI 변경 시 API 호출 구조가 변하여 도구가 작동하지 않을 수 있음
+- 브라우저 기반이므로 백그라운드 작업이나 대규모 데이터 처리에 제한이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+특정 웹사이트의 인증(Auth) 세션이 AI 에이전트에게 어떻게 안전하게 전달되는지에 대한 상세 보안 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Web2MCP_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Web2MCP_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3909fc00-94de-4412-a4bf-11b4d18e6054.jpeg?auto=format)
+
+---
+
+## 27. [Beevelope](https://www.producthunt.com/products/beevelope)
+**Votes**: 4 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Contact. Context. Conversation
+**서비스 링크**: https://www.producthunt.com/r/H64MT2IRWUA222
+
+**태그**: Sales Automation, AI, Outreach, CRM, Productivity, Automation, AI Tool, Email
+
+<img src="images/ph_2026-09-04_Beevelope.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인화된 리서치와 자동화된 이메일 작성을 통해 영업 성공률을 높이는 올인원 아웃리치 플랫폼
+
+### 🔑 주요 기능
+- 15개 이상의 소스를 활용한 잠재 고객의 역할, 뉴스, 재무 상태 등 심층 리서치
+- 리서치 데이터를 기반으로 한 초개인화 이메일 작성 및 후속 작업 자동화
+- 데이터 보강, 분기 처리, A/B 테스트가 가능한 드래그 앤 드롭 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 대량 발송이 아닌 정교한 타겟팅과 자동화된 개인화로 영업 팀이 실제 관심 있는 고객에게만 집중할 수 있게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 잠재 고객 리서치 및 자동 이메일 생성 워크플로우 설정
+- A/B 테스트를 통한 이메일 반응도 최적화
+- 개별 고객을 위한 맞춤형 피치 덱 생성 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 자동 생성된 이메일의 품질을 검토하기 위한 초기 수동 확인 필요
+- 리서치 데이터 소스의 정확도 및 업데이트 주기 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 15개 이상의 데이터 소스가 사용자의 특정 산업군이나 타겟 시장에 얼마나 적합한지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Beevelope_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Beevelope_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Beevelope_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a51cce46-6cc4-489e-bbd5-df10336892d1.jpeg?auto=format)
+
+---
+
+## 28. [Findcheap](https://www.producthunt.com/products/findcheap)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Save 60% in one click with AI.
+**서비스 링크**: https://www.producthunt.com/r/T6Z2ZRPNOUVVSS
+
+**태그**: AI, Shopping, Automation, Savings, Agent, AI Tool
+
+<img src="images/ph_2026-09-04_Findcheap.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 웹을 탐색하여 최저가를 찾아주는 스마트 쇼핑 도구
+
+### 🔑 주요 기능
+- AI 에이전트 기반의 자동 웹 검색 기능
+- 사용자 평균 60% 비용 절감 효과
+- 완전 무료로 제공되는 서비스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+물건을 구매할 때 일일이 가격을 비교할 필요 없이, 클릭 한 번으로 가장 저렴한 구매처를 찾을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 구매하려는 제품의 최저가 검색해보기
+- AI가 제안하는 가격과 실제 쇼핑몰 가격 비교하기
+
+### ⚠️ 사용 전 확인할 점
+- 검색 결과의 실시간 재고 여부 확인 필요
+- 배송비 등을 포함한 최종 결제 금액과의 차이 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제시된 60% 절감 수치가 모든 카테고리에 동일하게 적용되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Findcheap_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Findcheap_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Findcheap_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e541bf68-5b18-4b20-80f2-5abb161868ef.jpeg?auto=format)
+
+---
+
+## 29. [UniSin ](https://www.producthunt.com/products/unisin-2)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn a video into captioned vertical shorts 
+**서비스 링크**: https://www.producthunt.com/r/7ZAEXX64CIZH6H
+
+**태그**: VideoEditor, Automation, ContentCreation, WindowsApp, Video
+
+<img src="images/ph_2026-09-04_UniSin_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+영상 링크나 파일만 넣으면 숏폼용 세로 영상을 자동으로 만들어주는 윈도우 데스크톱 앱
+
+### 🔑 주요 기능
+- 영상 링크 붙여넣기 또는 파일 드롭으로 간편한 작업 시작
+- AI가 영상 내 주요 순간을 자동으로 탐색
+- 스타일리시한 자막 삽입 및 세로형 숏폼 포맷 자동 변환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+긴 영상을 릴스, 쇼츠, 틱톡용 숏폼으로 변환하는 번거로운 편집 과정을 자동화하여 콘텐츠 제작 시간을 획기적으로 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 영상 링크를 붙여넣어 자동 하이라이트 추출 기능 테스트하기
+- 제공되는 스타일별 자막 디자인 적용해보기
+- 세로형 숏폼 파일로 내보내기 기능 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 윈도우 데스크톱 환경에서만 구동되는 소프트웨어임
+- 자동 추출된 하이라이트 구간의 편집 정밀도는 수동 작업과 다를 수 있음
+
+### 🧭 확인이 더 필요한 정보
+가격 정책 및 지원하는 최대 영상 파일 크기/길이에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_UniSin__media_0.jpg)
+![Screenshot](images/ph_2026-09-04_UniSin__media_1.jpg)
+![Screenshot](images/ph_2026-09-04_UniSin__media_2.jpg)
+
+---
+
+## 30. [Track Country Days](https://www.producthunt.com/products/track-country-days)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Automatic country & day tracker for visas and tax residency
+**서비스 링크**: https://www.producthunt.com/r/EX5LJNYRUGBEIL
+
+**태그**: Travel, Productivity, Privacy, DigitalNomad
+
+<img src="images/ph_2026-09-04_Track_Country_Days.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+비자 및 세금 거주 요건 관리를 위한 자동 국가 체류 일수 추적기
+
+### 🔑 주요 기능
+- 국가별 체류 일수 자동 기록
+- 쉥겐 협정 및 비자 제한 규정 관리 지원
+- 개인 기기 내 데이터 보관으로 프라이버시 보호
+
+### 🙋 사용자에게 어떤 점이 좋은가
+해외 체류가 잦은 디지털 노마드나 여행자가 복잡한 비자 및 세금 거주 요건을 위반하지 않도록 정확한 일수 계산을 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 체류 중인 국가 기록하기
+- 비자 만료일 및 체류 제한 일수 설정하기
+- 데이터 보안 설정 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 자동 기록 방식이 사용자의 실제 위치와 일치하는지 확인 필요
+- 법적/세무적 최종 판단은 전문가와 상의해야 함
+
+### 🧭 확인이 더 필요한 정보
+위치 데이터가 어떤 방식으로 자동 수집되는지, 개인정보 보호 정책이 어떻게 적용되는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-04_Track_Country_Days_media_0.jpg)
+![Screenshot](images/ph_2026-09-04_Track_Country_Days_media_1.jpg)
+![Screenshot](images/ph_2026-09-04_Track_Country_Days_media_2.jpg)
+
+---
+
