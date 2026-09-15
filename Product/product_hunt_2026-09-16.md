@@ -1,0 +1,1241 @@
+# 🚀 Product Hunt Daily Top 30 (2026-09-16)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트의 구축, 관리, 그리고 실무 적용을 위한 인프라와 도구들이 주를 이루었습니다. 특히 복잡한 백엔드나 보안 업무를 자동화하여 즉각적인 수익화나 업무 효율로 연결하는 '실행 중심'의 솔루션들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트의 구축, 세션 제어, 워크플로우 관리를 간소화하는 클라우드 기반 도구들이 다수 등장했습니다.
+- 단순 자동화를 넘어 비즈니스 전략, 보안, 소비자 리서치 등 전문적인 영역에 AI를 결합한 서비스가 눈에 띕니다.
+- 모바일 환경에서의 개발 제어, 클립보드 관리, 음성 타이핑 등 사용자 경험의 연속성을 높이는 생산성 도구들이 강세를 보였습니다.
+
+**오늘의 태그**: AI 에이전트, 업무 자동화, 생산성 도구, SaaS, 개발자 도구
+
+## 1. [tiun.](https://www.producthunt.com/products/tiun-2)
+**Votes**: 392 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Auth, billing, and payments for AI builders
+**서비스 링크**: https://www.producthunt.com/r/TDDTPREQN2HR4H
+
+**태그**: AI, SaaS, DevTool, Payments, Auth, AI Tool, Analytics
+
+<img src="images/ph_2026-09-15_tiun..jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 빌더를 위한 인증, 결제, 고객 데이터 통합 관리 솔루션
+
+### 🔑 주요 기능
+- 인증, 결제, 고객 데이터, 분석을 하나의 시스템으로 통합
+- 단 한 번의 명령어로 간편하게 설치 가능
+- 제품 개발 당일 유료 서비스 출시가 가능한 빠른 속도
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 백엔드 인프라 구축 시간을 줄여주어, 아이디어를 즉시 수익화할 수 있는 유료 제품으로 전환할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단일 명령어를 통한 설치 프로세스 테스트
+- 인증 및 결제 워크플로우 연동 확인
+- 데이터 분석 대시보드 활용성 검토
+
+### ⚠️ 사용 전 확인할 점
+- 통합 시스템이므로 특정 기능의 커스텀 자유도가 제한될 수 있음
+- 모든 핵심 데이터가 하나의 플랫폼에 집중되는 구조적 특성 고려 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 상세 API 문서와 지원하는 결제 게이트웨이(PG) 종류에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_tiun._media_0.jpg)
+![Screenshot](images/ph_2026-09-15_tiun._media_1.jpg)
+![Screenshot](images/ph_2026-09-15_tiun._media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/70fe28e5-0006-498f-adce-4f9fcb6f26f6.jpeg?auto=format)
+
+---
+
+## 2. [Kilo Code for iOS and Android](https://www.producthunt.com/products/kilocode)
+**Votes**: 359 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Start coding agents, control sessions, review PRs. Anywhere.
+**서비스 링크**: https://www.producthunt.com/r/3BV5OZ5E63H3QD
+
+**태그**: DevTool, Mobile, Remote-Control, Automation, Agent
+
+<img src="images/ph_2026-09-15_Kilo_Code_for_iOS_and_Android.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+모바일에서 클라우드 에이전트와 코딩 세션을 제어하는 모바일 개발 도구
+
+### 🔑 주요 기능
+- 모바일 기기(iOS/Android)를 통한 클라우드 에이전트 실행
+- VS Code 및 CLI 세션 원격 제어
+- Pull Request(PR) 리뷰 및 코딩 에이전트 응답
+
+### 🙋 사용자에게 어떤 점이 좋은가
+장소에 구애받지 않고 이동 중에도 모바일로 코드 리뷰를 하거나 에이전트 작업을 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 모바일에서 클라우드 에이전트 실행해보기
+- 원격 VS Code 세션 연결 테스트
+- 모바일 환경에서의 PR 리뷰 프로세스 확인
+
+### ⚠️ 사용 전 확인할 점
+- 모바일 환경에서의 복잡한 코드 편집 제약 가능성
+- 클라우드 세션 유지 및 네트워크 의존성
+
+### 🧭 확인이 더 필요한 정보
+모바일 환경에서의 상세한 코드 편집 기능 및 보안 프로토콜에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Kilo_Code_for_iOS_and_Android_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Kilo_Code_for_iOS_and_Android_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Kilo_Code_for_iOS_and_Android_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/8bd1af25-5129-4e85-ac70-90af7633bb47.jpeg?auto=format)
+
+---
+
+## 3. [Voiskey](https://www.producthunt.com/products/voiskey)
+**Votes**: 324 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI voice typing that sounds right in every app
+**서비스 링크**: https://www.producthunt.com/r/QOEFADHWXGZN5X
+
+**태그**: Productivity, AI, Voice-to-Text, Writing-Assistant, AI Tool
+
+<img src="images/ph_2026-09-15_Voiskey.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 의도를 파악해 상황에 맞는 문체로 다듬어주는 AI 음성 타이핑 도구
+
+### 🔑 주요 기능
+- 단순 받아쓰기를 넘어 문맥과 의도에 맞게 문장을 재구성
+- 친구, 동료, AI 등 수신자에 맞춘 다양한 말투 지원
+- iOS, macOS, Android, Windows 등 모든 주요 플랫폼 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+말하는 대로 적는 것을 넘어, 상황에 적절한 완성된 메시지를 즉시 생성하여 타이핑 시간을 획기적으로 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다양한 플랫폼(모바일/데스크톱)에 설치하여 연동하기
+- 상황별(캐주얼/격식/기술적) 문체 변환 기능 테스트하기
+- 런칭 프로모션을 통해 Pro 버전 무료 체험하기
+
+### ⚠️ 사용 전 확인할 점
+- 음성 기반이므로 주변 소음 환경에 따라 정확도가 달라질 수 있음
+- 개인적인 대화나 민감한 정보 입력 시 보안 정책 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Pro 버전의 상세 기능과 무료 사용량 제한에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Voiskey_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Voiskey_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Voiskey_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6ca0d529-b562-49e3-bb26-6e5fc80cc01b.jpeg?auto=format)
+
+---
+
+## 4. [siift](https://www.producthunt.com/products/siift)
+**Votes**: 216 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn AI noise into better business decisions
+**서비스 링크**: https://www.producthunt.com/r/MZ6REKYNNA3MS4
+
+**태그**: Business Strategy, AI, Decision Support, Product Management, AI Tool, Chat
+
+<img src="images/ph_2026-09-15_siift.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI로 발생하는 비즈니스 파편화 문제를 해결하고 전략과 실행을 연결하는 비즈니스 맵
+
+### 🔑 주요 기능
+- 분산된 AI 대화, 도구, 아이디어를 하나의 비즈니스 맥락으로 통합
+- 전략, 증거, 의사결정, 결과를 연결하는 살아있는 비즈니스 맵 구축
+- 검증부터 GTM(시장 진출)까지 비즈니스 전 과정의 리스크 식별 및 의사결정 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+비즈니스 운영 과정에서 발생하는 정보 과부하를 줄이고, 데이터에 기반해 다음 실행 단계에 집중할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 진행 중인 비즈니스 아이디어와 전략 데이터 입력
+- AI가 제안하는 가설 검증 및 리스크 식별 기능 테스트
+- 전략과 실행 결과 간의 연결성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 사용자의 비즈니스 맥락 입력 수준에 따라 결과물의 품질이 달라질 수 있음
+- 기존에 사용 중인 다른 협업/관리 도구와의 연동 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 보안 정책 및 외부 툴과의 통합(Integration) 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_siift_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_siift_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_siift_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/0433b881-1769-494d-980e-07815e8e70d7.jpeg?auto=format)
+
+---
+
+## 5. [Axari](https://www.producthunt.com/products/axari)
+**Votes**: 140 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Assign your security busywork to your AI twin
+**서비스 링크**: https://www.producthunt.com/r/3UNO2F2UTMGA5I
+
+**태그**: Security, Automation, AI, DevOps, Collaboration, AI Tool
+
+<img src="images/ph_2026-09-15_Axari.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+보안 업무 자동화를 위한 AI 트윈을 통해 반복적인 보안 태스크를 해결하세요.
+
+### 🔑 주요 기능
+- 보안 도구 및 팀 간의 워크플로우를 이해하는 AI 트윈 제공
+- Slack 및 MS Teams를 통한 간편한 업무 할당 및 관리
+- 목표 설정, 프로액티브 작업, 반복적 책임 부여 기능 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+보안 전문가가 수동으로 처리하던 번거로운 업무를 AI에게 맡겨 업무 효율을 극대화하고 보안 대응력을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack/MS Teams 연동 설정하기
+- 반복적인 보안 업무를 AI 트윈에게 할당하기
+- 특정 보안 목표를 설정하여 자동화 워크플로우 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- AI가 보안 도구에 접근할 때의 권한 관리 및 보안 정책 확인 필요
+- AI의 자동화 작업이 실제 보안 환경에 미치는 영향 모니터링 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 지원하는 구체적인 보안 도구 목록과 자동화 가능한 업무의 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Axari_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Axari_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Axari_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9fd80c87-7f54-4d10-ad5b-87e14ee0eaeb.jpeg?auto=format)
+
+---
+
+## 6. [Anthropologic](https://www.producthunt.com/products/anthropologic)
+**Votes**: 139 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The zero distance consumer research platform.
+**서비스 링크**: https://www.producthunt.com/r/AFNP4IRB77HQX5
+
+**태그**: Market Research, Consumer Insights, AI, Global Strategy, Automation, LLM
+
+<img src="images/ph_2026-09-15_Anthropologic.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전 세계 인터넷 데이터를 분석하여 문화적 맥락이 담긴 소비자 인사이트를 즉각 제공하는 리서치 플랫폼
+
+### 🔑 주요 기능
+- 인터넷 전반을 읽는 'Human Context Protocol'을 통한 심층적 문화 분석
+- 239개 시장과 100개 이상의 언어를 지원하는 글로벌 리서치 역량
+- 전통적 조사와 소셜 리스닝의 단점을 보완한 빠른 인사이트 도출
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글로벌 시장 진출이나 신제품 기획 시, 현지 문화적 맥락이 반영된 소비자 트렌드를 몇 분 만에 파악할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 9가지 워크플로우를 통한 리서치 결과 확인
+- 특정 시장/언어별 문화적 트렌드 분석
+- 혁신 및 미래 예측(Foresight) 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- LLM 기반 분석의 특성상 데이터의 원천과 신뢰도 검증 필요
+- 문화적 맥락 해석의 주관성 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 수집 소스와 'Human Context Protocol'의 기술적 메커니즘에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Anthropologic_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Anthropologic_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Anthropologic_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6bb67bec-63d9-4cfe-9522-d61a157f3087.gif?auto=format)
+
+---
+
+## 7. [OpenAI Agents API](https://www.producthunt.com/products/openai)
+**Votes**: 136 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Cloud agents, run on OpenAI's Codex harness
+**서비스 링크**: https://www.producthunt.com/r/H64MIDHBQWCEAM
+**재등장**: 최근 7일 내 재등장 (마지막 등장 5일 전)
+
+**태그**: AI, Automation, DevTool, Cloud, Agent, AI Tool, API
+
+<img src="images/ph_2026-09-15_OpenAI_Agents_API.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 오케스트레이션 없이 API 호출 한 번으로 클라우드 에이전트를 구축하는 도구
+
+### 🔑 주요 기능
+- OpenAI Codex 하네스를 기반으로 한 관리형 클라우드 에이전트 서비스
+- 긴 세션 관리, 스마트 도구 사용, 병렬 서브 에이전트 실행 기능 내장
+- 별도의 오케스트레이션 구축 없이 단일 API 호출로 에이전트 운영 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+직접 에이전트 워크플로우를 설계하고 관리하는 번거로움 없이, 토큰 및 도구 사용량 기반의 비용으로 강력한 자동화 에이전트를 즉시 배포할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단일 API 호출을 통한 기본 에이전트 생성 테스트
+- 병렬 서브 에이전트 워크플로우 실험
+- 샌드박스 환경에서의 도구 사용(Tool use) 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 현재 퍼블릭 베타 단계이므로 안정성 및 기능 변경 가능성 확인 필요
+- 토큰 및 도구 사용량에 따른 비용 발생 구조 이해 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 퍼블릭 베타 단계이므로 향нт 정식 출시 시의 기능 완성도와 비용 구조의 변화를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_OpenAI_Agents_API_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_OpenAI_Agents_API_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_OpenAI_Agents_API_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2e6e4e77-f978-4946-bec5-e07869d525f8.jpeg?auto=format)
+
+---
+
+## 8. [PeekPaste](https://www.producthunt.com/products/lucidbit)
+**Votes**: 107 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your clipboard, within reach
+**서비스 링크**: https://www.producthunt.com/r/2CZY32AEUO2AF5
+
+**태그**: Productivity, Mac, Utility, Privacy, AI Tool, Vision, DevTool, Analytics
+
+<img src="images/ph_2026-09-15_PeekPaste.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+화면 가장자리에서 바로 불러오는 프라이버시 중심의 Mac 전용 클립보드 관리자
+
+### 🔑 주요 기능
+- 화면 가장자리 제스처를 통한 직관적인 클립보드 접근
+- 텍스트, 코드, 이미지, 파일 등 다양한 형식 지원 및 OCR 검색 기능
+- 계정이나 클라우드 없이 로컬에서만 작동하는 강력한 보안성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+클립보드 기록을 별도의 창 없이도 즉시 확인하고 관리할 수 있어 작업 흐름이 끊기지 않으며, 개인 데이터가 외부로 유출될 걱정 없이 안전하게 사용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 화면 가장자리로 포인터를 밀어 클립보드 패널 열기
+- OCR 기능을 활용해 스크린샷 내 텍스트 검색하기
+- 자주 사용하는 클립을 핀(Pin) 기능으로 고정하기
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 앱이므로 macOS 환경에서만 사용 가능
+- 클라우드 동기화를 지원하지 않으므로 기기 간 데이터 공유 불가
+
+### 🧭 확인이 더 필요한 정보
+상세한 가격 정책(유료/무료 여부)에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_PeekPaste_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_PeekPaste_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_PeekPaste_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/36fa5a3c-f146-4b99-93e7-f33851765c77.jpeg?auto=format)
+
+---
+
+## 9. [DynamicLake 2.0](https://www.producthunt.com/products/dynamiclake)
+**Votes**: 97 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Dynamic Island for Mac with 3rd Live Activities and more
+**서비스 링크**: https://www.producthunt.com/r/4KRJIEIZ7Y56AY
+
+**태그**: Productivity, Mac, Utility, AI Tool
+
+<img src="images/ph_2026-09-15_DynamicLake_2.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mac 환경에 다이내믹 아일랜드를 구현하여 실시간 알림과 다양한 기능을 통합 관리하는 생산성 도구
+
+### 🔑 주요 기능
+- Mac용 다이내믹 아일랜드 인터페이스 제공
+- 라이브 액티비티, 알림, 타이머 등 다양한 위젯 기능 통합
+- 드래그 앤 드롭, 변환기, 에어드롭 등 편의 기능 포함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Mac 사용자에게 모바일의 다이내믹 아일랜드와 같은 직관적인 UI를 제공하여, 작업 흐름을 방해하지 않고 실시간 정보를 확인하게 해줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 다이내믹 아일랜드 인터페이스 설정하기
+- 타이머 및 라이브 액티비티 기능 활용하기
+- 드래그 앤 드롭 및 변환기 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- Mac OS 버전과의 호환성 확인 필요
+- 백그라운드 실행에 따른 시스템 리소스 점유율 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 기능별 작동 방식과 시스템 리소스 사용량에 대한 구체적인 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_DynamicLake_2.0_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_DynamicLake_2.0_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_DynamicLake_2.0_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3cf047e0-c890-4ffe-b2c4-4807eaf709a2.jpeg?auto=format)
+
+---
+
+## 10. [Buddy AI Access (MCP)](https://www.producthunt.com/products/buddy)
+**Votes**: 96 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Your agent needs more than your repo
+**서비스 링크**: https://www.producthunt.com/r/5JM27ZBJYBOHNP
+
+**태그**: DevOps, AI-Agent, Automation, Security, MCP, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-09-15_Buddy_AI_Access_(MCP).jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트에게 안전한 인프라 제어 권한을 부여하는 MCP 기반 워크플로우 자동화 도구
+
+### 🔑 주요 기능
+- AI 에이전트용 보안 인프라 및 워크플로우 액세스 제공
+- 파이프라인 실행, 로그 검사, 앱 배포, 샌드박스 생성 등 다양한 작업 수행 가능
+- 워크스페이스 권한 및 툴 스코프를 통한 정밀한 접근 제어
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 일일이 수동으로 수행하던 인프라 관리 작업을 AI 에이전트가 안전하게 대행할 수 있어 개발 생산성이 극대화됩니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사용 중인 MCP 클라이언트(Cursor, Claude Code 등)에 연결하기
+- 워크스페이스 권한 설정을 통해 에이전트의 접근 범위 제한하기
+- 에이전트를 활용한 자동화 파이프라인 및 샌드박스 생성 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트에게 부여된 권한 범위에 따른 보안 위험 관리 필요
+- 인프라 제어 권한이 포함되어 있으므로 초기 설정 시 주의 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 기존 인프라 환경(Cloud, On-premise 등)과의 구체적인 연동 방식과 보안 프로토콜에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Buddy_AI_Access_(MCP)_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Buddy_AI_Access_(MCP)_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Buddy_AI_Access_(MCP)_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d1ad3b31-5a6c-4676-8926-cfff558fd140.jpeg?auto=format)
+
+---
+
+## 11. [FATHER](https://www.producthunt.com/products/father-web-monitoring)
+**Votes**: 94 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A Mac dashboard for site traffic, deploys, uptime, and SEO
+**서비스 링크**: https://www.producthunt.com/r/DGIK3SGDBCSD67
+
+**태그**: DevTool, Dashboard, Vercel, SEO, Monitoring, AI Tool
+
+<img src="images/ph_2026-09-15_FATHER.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Vercel 배포 팀을 위한 실시간 사이트 상태 및 SEO 모니터링 Mac 대시보드
+
+### 🔑 주요 기능
+- Vercel 프로젝트의 트래픽, 배포, 업타임, PageSpeed 점수 실시간 통합 관리
+- Search Console 및 Bing 데이터를 통한 클릭, 순위, 인덱싱 상태 확인
+- SSL/도메인 만료 카운트다운 및 GitHub 빌드 실패 알림 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+브라우저를 열지 않고도 메뉴 바를 통해 사이트 상태를 즉각 파악할 수 있어, 장애 발생 시 클라이언트보다 먼저 대응할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Vercel 계정 연결하여 프로젝트 데이터 동기화하기
+- 메뉴 바의 'F' 아이콘을 통한 실시간 빌드 상태 모니터링하기
+- Search Console 연동으로 SEO 지표 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- Vercel 환경에 최적화되어 있어 타 호스팅 환경에서는 기능이 제한될 수 있음
+- Mac 전용 대시보드이므로 Windows/Linux 사용자는 사용 불가
+
+### 🧭 확인이 더 필요한 정보
+Vercel 외의 다른 클라우드 플랫폼이나 호스팅 서비스와의 호환성 범위는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_FATHER_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_FATHER_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_FATHER_media_2.jpg)
+
+---
+
+## 12. [Mac Duo](https://www.producthunt.com/products/mac-duo)
+**Votes**: 92 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn your display into frosted glass as you close the lid
+**서비스 링크**: https://www.producthunt.com/r/NNPINDEJRMJQDE
+
+**태그**: macOS, UI/UX, Productivity
+
+<img src="images/ph_2026-09-15_Mac_Duo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 덮개를 닫을 때 디스플레이가 서서히 불투명해지는 시각적 효과를 제공하는 앱
+
+### 🔑 주요 기능
+- 맥북 힌지 센서를 활용한 실시간 애니메이션
+- 디스플레이를 프로스트 글래스(Frosted Glass) 효과로 전환
+- 사용자의 손 움직임 속도에 맞춘 부드러운 전환
+
+### 🙋 사용자에게 어떤 점이 좋은가
+맥북을 닫는 물리적 동작과 화면의 시각적 변화를 결합하여 매끄러운 사용자 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 맥북 덮개를 천천히 닫으며 애니메이션 확인하기
+- 힌지 센서 반응 속도 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 하드웨어 힌지 센서 의존성으로 인한 기기별 동작 차이 가능성
+- 애니메이션 효과가 시스템 리소스에 미치는 영향 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+모든 맥북 모델의 힌지 센서와 호환되는지 여부는 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Mac_Duo_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Mac_Duo_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Mac_Duo_media_2.jpg)
+
+---
+
+## 13. [Narrative](https://www.producthunt.com/products/narrative-3)
+**Votes**: 89 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI-first video editor, just describe edits & refine in chat
+**서비스 링크**: https://www.producthunt.com/r/T5MY5GABVVLMSG
+
+**태그**: VideoEditing, AI, ContentCreation, NoCode, AI Tool, Chat, Video
+
+<img src="images/ph_2026-09-15_Narrative.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+채팅으로 편집 명령을 내리는 AI 기반 차세대 비디오 에디터
+
+### 🔑 주요 기능
+- 대화형 인터페이스를 통한 자연어 기반 영상 편집 및 정교한 수정
+- 모션 그래픽 제작 및 레퍼런스 영상 스타일 매칭 기능 통합
+- 전문적인 영상 편집 툴(Premiere, After Effects) 학습 없이 결과물 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 편집 소프트웨어를 배울 필요 없이, 아이디어를 말하는 것만으로 고품질의 영상(팟캐스트 클립, 홍보 영상 등)을 제작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 푸티지를 업로드하고 편집 명령 입력해보기
+- 레퍼런스 영상을 활용한 스타일 매칭 기능 테스트
+- 채팅을 통한 세부 편집 및 효과 추가 시도
+
+### ⚠️ 사용 전 확인할 점
+- 전문가용 툴 대비 세밀한 프레임 단위 제어의 한계 가능성
+- 클라우드 기반 렌더링 및 저장 방식에 따른 데이터 의존성
+
+### 🧭 확인이 더 필요한 정보
+사용자의 하드웨어 사양에 따른 성능 차이 및 구체적인 렌더링 속도/비용 정책은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Narrative_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Narrative_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Narrative_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c4f57a78-46d6-44c6-b814-a002f7ff7ad3.jpeg?auto=format)
+
+---
+
+## 14. [The Minimalist Entrepreneur Skills](https://www.producthunt.com/products/the-minimalist-entrepreneur-skills)
+**Votes**: 87 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Book playbook as Claude Code slash skills
+**서비스 링크**: https://www.producthunt.com/r/HU64R4NPQVU7WZ
+
+**태그**: DevTool, Productivity, BusinessStrategy, OpenSource
+
+<img src="images/ph_2026-09-15_The_Minimalist_Entrepreneur_Skills.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Sahil Lavingia의 저서를 Claude Code 명령어로 변환하여 비즈니스 전략을 실행하는 플러그인
+
+### 🔑 주요 기능
+- Sahil Lavingia의 'The Minimalist Entrepreneur' 핵심 원칙을 10가지 Claude Code 슬래시 명령어로 구현
+- 아이디어 검증, MVP 제작, 가격 책정 등 비즈니스 단계별 실행 가이드 제공
+- 오픈 소스(MIT 라이선스)로 GitHub에서 무료로 사용 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+책의 이론을 읽는 데 그치지 않고, 개발 환경 내에서 즉시 비즈니스 의사결정에 적용할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- /validate-idea 명령어로 아이디어 검증하기
+- /mvp 명령어로 최소 기능 제품 기획하기
+- /minimalist-review 명령어로 비즈니스 모델 검토하기
+
+### ⚠️ 사용 전 확인할 점
+- Claude Code 환경에 플러그인을 설치해야 사용 가능함
+- 책의 이론을 자동화한 것이므로 최종 의사결정은 사용자의 판단이 필요함
+
+### 🧭 확인이 더 필요한 정보
+Claude Code 환경에 대한 사전 숙련도가 필요할 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_The_Minimalist_Entrepreneur_Sk_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_The_Minimalist_Entrepreneur_Sk_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_The_Minimalist_Entrepreneur_Sk_media_2.jpg)
+
+---
+
+## 15. [Idlen](https://www.producthunt.com/products/idlen)
+**Votes**: 86 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Earn while you work with AI in any IDE or browser
+**서비스 링크**: https://www.producthunt.com/r/MH6KREEETYYWB5
+
+**태그**: DevTool, Monetization, AI, Productivity, AI Tool, Chat, Prompting
+
+<img src="images/ph_2026-09-15_Idlen.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 모델의 응답을 기다리는 시간을 수익 창출 기회로 전환하는 개발자용 광고 네트워크
+
+### 🔑 주요 기능
+- VS Code, Cursor, Chrome 확장 프로그램을 통한 대기 시간 활용
+- 프롬프트 보안 유지 및 수익의 70% 배분
+- 개발 스택(React, Python 등) 기반의 정밀한 타겟팅 광고 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 모델의 추론 시간을 기다리는 동안 발생하는 유휴 시간을 활용해 부가 수익을 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사용 중인 IDE(VS Code, Cursor) 또는 브라우저에 확장 프로그램 설치
+- 수익 배분 및 보안 정책 확인
+- 개발자 도구 판매자를 위한 타겟팅 노출 옵션 검토
+
+### ⚠️ 사용 전 확인할 점
+- 광고 노출이 개발 작업 흐름(Workflow)에 방해가 될 가능성
+- 수익 모델이 AI 응답 대기 시간에 의존하므로 작업 방식에 따라 수익 변동 가능
+
+### 🧭 확인이 더 필요한 정보
+광고 노출 방식이 작업 흐름을 얼마나 방해하는지에 대한 구체적인 UX 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Idlen_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Idlen_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Idlen_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2c944c6f-6de2-4633-8170-d087050a6aea.jpeg?auto=format)
+
+---
+
+## 16. [Proofrr](https://www.producthunt.com/products/proofrr)
+**Votes**: 85 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: One workspace for creative feedback, reviews, and approvals
+**서비스 링크**: https://www.producthunt.com/r/CM6ZIAJFJ24KEA
+
+**태그**: Design, Collaboration, Workflow, Creative, AI, Automation, AI Tool, Video, Email
+
+<img src="images/ph_2026-09-15_Proofrr.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+디자인 및 영상 작업물의 피드백, 버전 관리, 승인을 한 곳에서 해결하는 크리에이티브 워크스페이스
+
+### 🔑 주요 기능
+- 디자인 및 영상 워크플로우를 위한 프로젝트 관리 기능
+- 버전 간 사이드 바이 사이드 비교 및 주석/스레드형 댓글 지원
+- 클라이언트 로그인 없이 공유 가능한 리뷰 링크 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+메신저와 이메일을 오가며 발생하는 피드백 혼선을 줄이고, 버전 관리와 승인 과정을 단일 워크스페이스로 통합하여 작업 시간을 절약할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 공유 링크를 생성하여 클라이언트 피드백 받아보기
+- 버전 비교 기능을 통해 이전 시안과 차이점 확인하기
+- AI 보조 기능을 활용해 피드백 검토 효율 높이기
+
+### ⚠️ 사용 전 확인할 점
+- 클라이언트가 별도 로그인 없이 사용하므로 보안 정책에 따른 검토 필요
+- 외부 툴(Drive 등)과의 연동 방식에 따른 데이터 동기화 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 외부 서비스(Google Drive 등)와의 실시간 동기화 범위와 보안 수준에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Proofrr_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Proofrr_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Proofrr_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/44917599-b862-4ec4-8e12-abbb2db467e8.jpeg?auto=format)
+
+---
+
+## 17. [Workshopy.io](https://www.producthunt.com/products/workshopy-io)
+**Votes**: 84 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn a Markdown file into a live, trackable workshop
+**서비스 링크**: https://www.producthunt.com/r/6W3WD2LGNRQ25S
+
+**태그**: EdTech, Markdown, Workshop, Productivity, AI Tool, Chat, DevTool
+
+<img src="images/ph_2026-09-15_Workshopy.io.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+마크다운 파일 하나로 실시간 추적이 가능한 워크숍을 만드는 도구
+
+### 🔑 주요 기능
+- 단일 마크다운 파일로 워크숍 콘텐츠 작성 및 라이브 실행
+- 계정 생성 없이 코드로 간편하게 참여하는 학생 환경
+- 참가자별 진행 단계 실시간 모니터링 및 학습 상태 확인
+
+### 🙋 사용자에게 어떤 점이 좋은가
+강사가 학생들의 진행 상황을 실시간으로 파악할 수 있어, 누가 막혀 있는지 즉각적인 피드백이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 마크다운 파일로 워크숍 초안 작성하기
+- 참가자용 접속 코드로 실시간 진행 테스트하기
+- 내장된 퀴즈와 폴 기능 활용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 계정 없이 참여하므로 데이터 영속성이나 학생 관리 방식 확인 필요
+- 마크다운 기반이므로 복잡한 멀티미디어 구성에는 제한이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자 계정 없이 진행되는 방식이 데이터 저장 및 사후 관리에 어떤 영향을 미치는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Workshopy.io_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Workshopy.io_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Workshopy.io_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/502c83ea-5948-471f-ab45-ebb172ae65fc.jpeg?auto=format)
+
+---
+
+## 18. [Shotbase ](https://www.producthunt.com/products/shotbase)
+**Votes**: 83 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The last Screenshot & Screen Recording  Tool You'll Need
+**서비스 링크**: https://www.producthunt.com/r/TCSTUNSQB4K5NH
+
+**태그**: Productivity, Mac, Screenshot, AI, Design, Automation, AI Tool
+
+<img src="images/ph_2026-09-15_Shotbase_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mac 사용자를 위한 AI 기반의 올인원 스크린샷 및 화면 녹화 워크플로우 도구
+
+### 🔑 주요 기능
+- 캡처, 편집, 정리, 공유를 하나의 워크플로우로 통합
+- Mac에서 실행되는 프라이빗 AI를 통한 스마트한 정리 기능
+- 출시 기념 25% 할인 혜택 제공 (월간/연간 플랜)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스크린샷과 녹화 파일을 별도로 관리할 필요 없이, AI를 통해 효율적으로 정리하고 빠르게 공유할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 7일 무료 체험을 통한 워크플로우 테스트
+- AI 기반 자동 정리 기능 확인
+- 출시 할인 적용하여 구독 검토
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 도구이므로 다른 OS에서는 사용 불가
+- 무료 체험 기간 종료 후 유료 전환 필요
+
+### 🧭 확인이 더 필요한 정보
+AI 기능의 구체적인 작동 방식과 데이터 보안 수준에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Shotbase__media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Shotbase__media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Shotbase__media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c48a00b1-48ee-4409-9092-a50093dbbcce.jpeg?auto=format)
+
+---
+
+## 19. [Thoughts for Mac](https://www.producthunt.com/products/thoughts-for-mac)
+**Votes**: 83 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Capture notes from your menubar using text, images or voice
+**서비스 링크**: https://www.producthunt.com/r/XNRPFF23KK6FBE
+
+**태그**: Productivity, MacApp, AI, Note-taking, Agent, Vision, API
+
+<img src="images/ph_2026-09-15_Thoughts_for_Mac.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥 메뉴바에서 텍스트, 이미지, 음성을 통해 빠르게 메모를 기록하는 멀티툴
+
+### 🔑 주요 기능
+- 메뉴바 상주형 앱으로 어디서든 즉각적인 메모 가능
+- 텍스트, 이미지, 음성 입력을 지원하는 다채로운 기록 방식
+- AI API 연동을 통한 음성 전사, 이미지 텍스트 변환 및 텍스트 편집 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+작업 흐름을 방해하지 않고 메뉴바에서 즉시 아이디어를 기록하거나, AI를 활용해 복잡한 텍스트 작업을 간편하게 처리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 메뉴바에서 음성 녹음으로 아이디어 기록하기
+- 이미지를 텍스트로 변환하여 메모에 추가하기
+- AI API를 연결하여 번역 및 맞춤법 교정 기능 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 기능 활용을 위해 별도의 에이전트 API 키 설정이 필요할 수 있음
+- 개인정보가 포함된 음성이나 이미지를 처리할 때 보안 주의 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 개인 API 키를 직접 입력하는 방식이므로 보안 및 비용 발생 구조를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Thoughts_for_Mac_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Thoughts_for_Mac_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Thoughts_for_Mac_media_2.jpg)
+
+---
+
+## 20. [Multimodal Agents by Sierra](https://www.producthunt.com/products/sierra)
+**Votes**: 82 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI agents that switch between voice, text, and visuals
+**서비스 링크**: https://www.producthunt.com/r/WDAUU2HKON7B7G
+
+**태그**: AI, Multimodal, Customer Experience, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-09-15_Multimodal_Agents_by_Sierra.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+음성, 텍스, 시각적 요소를 상황에 맞춰 자동 전환하는 멀티모달 AI 에이전트
+
+### 🔑 주요 기능
+- 음성, 텍스트, 시각적 모드를 하나의 대화 흐름에서 통합 제공
+- 대화 맥락에 따라 에이전트가 최적의 모드로 자동 전환
+- 설명(음성), 비교(시각), 참조(텍스트) 등 목적에 맞는 상호작용 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사용자는 대화의 목적에 따라 매번 입력 방식을 고민할 필요 없이, AI가 제안하는 가장 직관적인 방식으로 정보를 주고받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 모드로 복잡한 요구사항 설명하기
+- 시각적 모드를 활용한 옵션 비교하기
+- 텍스트 모드로 중요한 정보 기록 및 참조하기
+
+### ⚠️ 사용 전 확인할 점
+- 모드 전환 시 맥락 유지 여부 확인 필요
+- 시각적 요소 생성 및 인터페이스의 직관성 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 사용자 인터페이스(UI) 구현 방식과 모드 전환 알고리즘의 상세 로직은 공개되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Multimodal_Agents_by_Sierra_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Multimodal_Agents_by_Sierra_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Multimodal_Agents_by_Sierra_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/cfd7d93e-492f-4279-8eab-83dd48f36ac4.jpeg?auto=format)
+
+---
+
+## 21. [is.team](https://www.producthunt.com/products/is-team)
+**Votes**: 81 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your AI agent joins the board like a teammate
+**서비스 링크**: https://www.producthunt.com/r/STRKZA6LCAYA6M
+
+**태그**: Collaboration, AI, Productivity, DevTool, NoCode, Agent, AI Tool
+
+<img src="images/ph_2026-09-15_is.team.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트와 팀원이 하나의 캔버스에서 협업하는 시각적 워크스페이스
+
+### 🔑 주요 기능
+- 무한 캔버스 기반의 시각적 협업 및 칸반 보드 활용
+- MCP를 통해 팀원처럼 작업하는 AI 에이전트 통합
+- 음성 채팅, GitHub/Slack/Calendar 등 강력한 실시간 협업 도구
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팀원과 AI가 같은 공간에서 작업하며, 복잡한 프로젝트를 시각적으로 관리하고 자동화된 업무 흐름을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무한 캔버스에 칸반 보드와 노트 배치해보기
+- AI 에이전트를 워크스페이스에 초대하여 작업 지시하기
+- GitHub 및 Slack 연동을 통한 워크플로우 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트의 작업 범위와 권한 설정 확인 필요
+- 시각적 캔버스 방식이 기존 텍스트 중심 워크플로우와 맞는지 검토
+
+### 🧭 확인이 더 필요한 정보
+MCP를 통한 AI 에이전트의 구체적인 작업 수행 범위와 보안 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_is.team_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_is.team_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_is.team_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b5423d27-05c4-47ff-80d6-6cef4b12b313.jpeg?auto=format)
+
+---
+
+## 22. [Tangerine](https://www.producthunt.com/products/tangerine-zero-click-file-converter)
+**Votes**: 80 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Offline file modifier for Mac
+**서비스 링크**: https://www.producthunt.com/r/XZEX3AUAG3UUCN
+
+**태그**: Productivity, Mac, FileManagement, Privacy, Video, Vision
+
+<img src="images/ph_2026-09-15_Tangerine.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+드래그 한 번으로 파일 형식을 변환하고 편집하는 맥 전용 오프라인 도구
+
+### 🔑 주요 기능
+- Shift-drag 방식의 직관적인 파일 변환 기능
+- 이미지, 영상, 오디오, PDF, 압축 파일 등 다양한 포맷 지원
+- 메타데이터 제거, 문서 검열, 사진 주석 등 고급 편집 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+파일을 클라우드에 업로드할 필요 없이 맥 로컬 환경에서 즉시 변환 및 편집할 수 있어 작업 속도가 빨라지고 보안이 유지됩니다.
+
+### ✅ 지금 바로 써볼 기능
+- Shift 키를 누른 채 파일을 드래그하여 빠른 변환 시도하기
+- Option 키를 활용한 고급 편집 도구 사용해보기
+- 민감한 문서의 메타데이터 제거 및 검열 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 실행 방식이므로 맥(macOS) 환경에서만 사용 가능
+- 고급 기능 사용 시 숙련도에 따라 조작 방식 차이 발생 가능
+
+### 🧭 확인이 더 필요한 정보
+상세한 기능별 유료 여부 및 지원하는 구체적인 파일 확장자 목록은 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Tangerine_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Tangerine_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Tangerine_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e4fb38b5-f497-4530-9df7-8ffa93b4b5f4.jpeg?auto=format)
+
+---
+
+## 23. [Grimo AI](https://www.producthunt.com/products/grimo-ai)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Say it once and all tasks, calendar and notes are sorted
+**서비스 링크**: https://www.producthunt.com/r/RNI6Y54DIGVL7Y
+
+**태그**: Productivity, AI, Automation, iOS, AI Tool, Chat
+
+<img src="images/ph_2026-09-15_Grimo_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+한 문장의 말이나 글로 일정, 할 일, 메모를 자동 분류하는 AI 비서
+
+### 🔑 주요 기능
+- 단 한 번의 입력으로 태스크, 캘린더, 메모 자동 생성
+- 앱을 전환할 필요 없는 통합 채팅 인터페이스
+- 일정 중복 확인 및 우선순위 지정 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 앱을 오가며 정보를 입력하는 번거로움을 줄여주며, 바쁜 일상 속에서 말 한마디로 복잡한 일정을 정리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 모드를 통한 핸즈프리 일정 등록
+- 단일 채팅 스레드를 통한 통합 기록 관리
+- 중복 일정을 확인하며 주간 일정 최적화
+
+### ⚠️ 사용 전 확인할 점
+- 현재 iOS 전용 앱이므로 안드로이드 사용자는 이용 불가
+- 외부 캘린더/메모 앱과의 연동 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+외부 서비스(Google Calendar, Notion 등)와의 구체적인 동기화 방식 및 연동 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Grimo_AI_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Grimo_AI_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Grimo_AI_media_2.jpg)
+
+---
+
+## 24. [Mailyte](https://www.producthunt.com/products/mailyte)
+**Votes**: 75 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Email for your team, your app, and your customers.
+**서비스 링크**: https://www.producthunt.com/r/CEVFRJNBYIIQU3
+
+**태그**: SaaS, OpenSource, Email, Productivity, DevOps, AI Tool, API, Marketing
+
+<img src="images/ph_2026-09-15_Mailyte.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+팀 협업, 트랜잭션 메일, 마케팅 캠페인을 하나의 도메인에서 통합 관리하는 오픈소스 이메일 플랫폼
+
+### 🔑 주요 기능
+- 팀 인박스, API 이메일, 마케팅 기능을 하나의 플랫폼으로 통합
+- 오픈소스(AGL-3.0) 기반으로 직접 호스팅하거나 관리형 서비스 선택 가능
+- SPF/DKIM/DMARC 기본 지원 및 실시간 배달 상태 확인 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 이메일 서비스를 개별적으로 구독할 필요 없이 하나의 도메인에서 모든 이메일 워크플로우를 통합 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자체 도메인 연결 및 이메일 통합 테스트
+- 오픈소스 코드를 통한 셀프 호스팅 환경 구축
+- API를 통한 트랜잭션 메일 발송 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 셀프 호스팅 시 서버 관리 및 보안 책임이 사용자에게 있음
+- 기존에 사용 중인 여러 이메일 서비스의 데이터를 이전하는 과정이 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자 규모에 따른 상세 가격 정책과 관리형 서비스의 구체적인 비용 구조는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Mailyte_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Mailyte_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Mailyte_media_2.jpg)
+
+---
+
+## 25. [Kodro](https://www.producthunt.com/products/kodro)
+**Votes**: 72 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Code robots in an offline Python learning simulator
+**서비스 링크**: https://www.producthunt.com/r/NKYFSN4GPBVE47
+
+**태그**: EdTech, Python, Robotics, Simulation, Offline-First, AI Tool, Design, DevTool
+
+<img src="images/ph_2026-09-15_Kodro.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+오프라인 환경에서 로봇 설계부터 프로그래밍, 시뮬레이션까지 한 번에 학습하는 파이썬 기반 로봇 교육 시뮬레이터
+
+### 🔑 주요 기능
+- 설계-코딩-시뮬레이션-검증-제작으로 이어지는 통합 학습 루프 제공
+- 파이썬 및 블록 코딩을 지원하는 인터랙티브 선형 3D 시뮬레이션 환경
+- 계정 생성, 클라우드 연결, AI 없이 작동하는 오프라인 우선(Offline-first) 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고가의 하드웨어 없이도 로봇 프로그래밍을 실습할 수 있으며, 인터넷 연결이 제한된 환경에서도 안정적인 학습이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 3D 시뮬레이션 환경에서 로봇 조립 및 프로그래밍 실습
+- 제공되는 24개의 커리큘럼 레슨 따라하기
+- 센서 데이터 확인 및 결과물 내보내기 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 실제 물리적 하드웨어가 아닌 소프트웨어 시뮬레이션 환경임
+- 오프라인 중심이므로 클라우드 기반 협업 기능은 제한적일 수 있음
+
+### 🧭 확인이 더 필요한 정보
+하드웨어 프로토타이핑을 위한 실제 로봇 키트와의 호환성 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Kodro_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Kodro_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Kodro_media_2.jpg)
+
+---
+
+## 26. [Payflip](https://www.producthunt.com/products/payflip)
+**Votes**: 72 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Pay anyone you can name. No IBAN, no wallet address.
+**서비스 링크**: https://www.producthunt.com/r/IDWUFKACQ6JR7M
+
+**태그**: Fintech, Crypto, Wallet, Payments, AI Tool, Email
+
+<img src="images/ph_2026-09-15_Payflip.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복잡한 계좌 정보 없이 이메일이나 핸들만으로 간편하게 스테이블코인을 송금하는 비수탁형 월렛
+
+### 🔑 주요 기능
+- IBAN이나 복잡한 지갑 주소 대신 이메일, 핸들, 전화번호로 송금 가능
+- 수취인이 수령 방식을 직접 선택할 수 있는 유연한 구조
+- 비수탁형(Non-custodial) 방식으로 사용자가 자산 제어권을 유지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 암호화폐 주소를 외울 필요 없이 일상적인 연락처만으로 간편하게 가상자산을 주고받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 이메일이나 핸들을 이용한 송금 테스트
+- 수취인 미수령 시 환불 프로세스 확인
+- 송금 전 표시되는 수수료 체계 확인
+
+### ⚠️ 사용 전 확인할 점
+- 비수탁형 방식이므로 개인 키 관리 책임은 사용자에게 있음
+- 수취인이 수령하지 않을 경우의 환불 정책 및 소요 시간 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+수취인이 수령 방식을 선택할 때 발생하는 추가 수수료나 네트워크 가스비 정책이 명확히 기술되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Payflip_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Payflip_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Payflip_media_2.jpg)
+
+---
+
+## 27. [Fifi](https://www.producthunt.com/products/fifi-wake-up-call-alarm-clock)
+**Votes**: 69 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: An alarm that calls you, and reads you your day
+**서비스 링크**: https://www.producthunt.com/r/RXIRCMC4Q4YVUM
+
+**태그**: Productivity, iOS, Lifestyle, Daily Routine, AI Tool
+
+<img src="images/ph_2026-09-15_Fifi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+단순한 알람을 넘어, 마치 전화를 받는 듯한 경험으로 하루를 시작하게 하는 개인 맞춤형 알람 서비스
+
+### 🔑 주요 기능
+- iOS AlarmKit 기반의 실제 전화 수신 형태의 알람 인터페이스
+- 10가지 개성 있는 캐릭터가 읽어주는 오늘의 일정, 날씨, 뉴스
+- 무음 모드 및 집중 모드를 뚫고 울리는 강력한 알람 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 소음이 아닌 대화형 경험을 통해 아침 잠을 깨우고, 잠에서 깨자마자 핵심 정보를 자연스럽게 전달받을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 취향에 맞는 캐릭터(ASMR, 탐정, 요정 등) 선택하기
+- 잠금 화면에서 바로 확인 가능한 일정 및 뉴스 설정하기
+- 연속적인 아침 루틴을 위한 스트릭 기능 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- iOS 전용 기능이므로 안드로이드 사용자는 이용 불가
+- 전화 형태의 알람이 공공장소에서 당황스러운 상황을 만들 수 있음
+
+### 🧭 확인이 더 필요한 정보
+iOS 26 AlarmKit이라는 명칭이 미래 버전 혹은 특정 환경을 의미하므로 현재 기기와의 호환성을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Fifi_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Fifi_media_2.jpg)
+![Screenshot](images/ph_2026-09-15_Fifi_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/fe79480b-637f-4353-aee1-d2d9f7120704.jpeg?auto=format)
+
+---
+
+## 28. [jurniti](https://www.producthunt.com/products/jurniti)
+**Votes**: 68 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Always-on AI agents in Firecracker microVMs
+**서비스 링크**: https://www.producthunt.com/r/FKR7TXTWBYYHYS
+
+**태그**: AI, DevOps, Security, Automation, Agent, AI Tool, DevTool
+
+<img src="images/ph_2026-09-15_jurniti.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Firecracker microVM 기반의 보안이 강화된 개인용 AI 에이전트 전용 서버
+
+### 🔑 주요 기능
+- AWS Lambda와 동일한 수준의 Firecracker microVM을 통한 강력한 보안 격리
+- 개인 모델 키를 게스트 환경 내에 안전하게 보관하는 프라이빗 환경
+- 브라우저 터미널, 영구 디스크, 전용 서브도메인을 포함한 즉각적인 배포
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Docker 컨테이너보다 높은 보안 수준에서 AI 에이전트를 상시 가동할 수 있어, 모델 키 유출 걱정 없이 안정적인 자동화 환경을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 브라우저 터미널을 통한 에이전트 환경 설정
+- Claude Code, Codex 등 외부 에이전트 연동 테스트
+- 개인 모델 키를 활용한 커스텀 에이전트 배포
+
+### ⚠️ 사용 전 확인할 점
+- 무료 체험(Free Trial)이 제공되지 않으므로 결제 전 신중한 결정 필요
+- 사용자 모델 키를 직접 입력해야 하므로 보안 정책 숙지 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 microVM의 구체적인 리소스 사양(CPU/RAM)은 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_jurniti_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_jurniti_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_jurniti_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b19bf77b-2aed-408f-9864-e59c1aba21bc.jpeg?auto=format)
+
+---
+
+## 29. [Portfolio Frame](https://www.producthunt.com/products/portfolio-frame)
+**Votes**: 65 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Frame, annotate, and export screenshots that look designed
+**서비스 링크**: https://www.producthunt.com/r/M6MSMC2J32B4PI
+
+**태그**: DesignTool, DeveloperTools, Productivity, Screenshot, AI Tool, Vision, Design, DevTool
+
+<img src="images/ph_2026-09-15_Portfolio_Frame.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+평범한 스크린샷을 전문가 수준의 디자인 이미지로 변환해주는 브라우저 기반 도구
+
+### 🔑 주요 기능
+- 탭 전체, 코드 영역 또는 특정 요소별 맞춤형 캡처 지원
+- 디바이스 목업, 배경, 주석 기능을 통한 즉각적인 디자인 완성
+- 개인정보 보호를 위한 레드액트(Redact) 도구 및 다양한 파일 형식(PNG, JPEG, WEBP, SVG) 내보내기
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 디자인 작업 없이도 개발 결과물이나 작업물을 공유 가능한 수준의 고품질 이미지로 빠르게 만들 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 코드 영역을 선택하여 깔끔한 코드 스니펫 이미지 만들기
+- 레드액트 도구로 민감한 정보를 가린 후 포트폴리오용 이미지 생성하기
+- 다양한 디바이스 목업을 적용하여 반응형 디자인 결과물 시각화하기
+
+### ⚠️ 사용 전 확인할 점
+- 브라우저 기반 도구이므로 오프라인 환경에서는 사용이 제한될 수 있음
+- 계정 없이 사용 가능하므로 작업 내용의 영구 저장이 어려울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+무료 사용 범위에 대한 구체적인 제한 사항이나 고급 기능의 유료 전환 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_Portfolio_Frame_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_Portfolio_Frame_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_Portfolio_Frame_media_2.jpg)
+
+---
+
+## 30. [PortAura](https://www.producthunt.com/products/portaura)
+**Votes**: 64 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: See what’s listening on your Mac
+**서비스 링크**: https://www.producthunt.com/r/H2YIITWP75WXFT
+
+**태그**: DevTool, macOS, Networking, Security
+
+<img src="images/ph_2026-09-15_PortAura.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+터미널 명령 없이 Mac의 네트워크 포트 사용 현황을 한눈에 파악하는 네이티브 유틸리티
+
+### 🔑 주요 기능
+- 어떤 프로세스가 어떤 포트를 사용 중인지 시각적으로 확인
+- 신뢰할 수 있는 베이스라인 대비 변경 사항 감지
+- 터미널 작업 없이 로컬 서비스 상태를 직관적으로 파악
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 터미널 명령어 없이도 내 Mac의 네트워크 보안과 서비스 상태를 즉각적으로 점검할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 실행 중인 로컬 서비스 목록 확인하기
+- 기존 베이스라인과 현재 포트 상태 비교하기
+- 의도치 않게 열려 있는 포트 식별하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 실행 환경이므로 시스템 전체 네트워크 트래픽 분석과는 차이가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+상세한 UI 구성 및 베이스라인 설정 방식에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-15_PortAura_media_0.jpg)
+![Screenshot](images/ph_2026-09-15_PortAura_media_1.jpg)
+![Screenshot](images/ph_2026-09-15_PortAura_media_2.jpg)
+
+---
+
