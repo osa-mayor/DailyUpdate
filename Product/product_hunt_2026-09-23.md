@@ -1,0 +1,1248 @@
+# 🚀 Product Hunt Daily Top 30 (2026-09-23)
+
+## 오늘의 요약
+오늘의 트렌드는 단순한 생성형 AI를 넘어, 사용자와 상호작용하거나 스스로 업무를 수행하는 '에이전트(Agent)' 중심의 도구들이 주를 이루었습니다. 영상 제작, 디자인, 문서 작성 등 전문적인 워크플로우를 자동화하고, 데이터 분석과 검색을 통합하여 복잡한 운영 과정을 단순화하는 솔루션들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트가 기획, 디자인, 코딩 및 업무 할당까지 수행하는 엔드투엔드 자동화 솔루션이 등장했습니다.
+- 정적인 문서나 데이터를 대화형 콘텐츠로 변환하여 사용자와 상호작용하는 생산성 도구가 강화되었습니다.
+- 데이터 모니터링과 검색/분석 엔진의 통합을 통해 복잡한 데이터 관리 아키텍처를 단순화하는 기술적 진보가 나타났습니다.
+
+**오늘의 태그**: AI 에이전트, 업무 자동화, 생산성 도구, 데이터 분석, 디자인 자동화
+
+## 1. [Clueso MCP](https://www.producthunt.com/products/clueso)
+**Votes**: 375 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Create and edit videos by chatting
+**서비스 링크**: https://www.producthunt.com/r/CFUV35KT4ZLPZO
+
+**태그**: AI-Video, Automation, Content-Creation, Productivity, Agent, AI Tool, Chat, Video
+
+<img src="images/ph_2026-09-22_Clueso_MCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+채팅만으로 스토리보드부터 편집까지 완료하는 AI 영상 제작 도구
+
+### 🔑 주요 기능
+- AI 에이전트(Claude, ChatGPT 등)를 통한 대화형 영상 제작
+- 아이디어, 슬라이드, 레퍼런스 영상을 활용한 자동 스토리보드 및 장면 생성
+- 음성 녹음, 배경음악, 편집까지 포함된 올인원 영상 제작 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 영상 편집 기술 없이도 아이디어만 있으면 브랜드에 맞는 고품질 영상을 빠르게 제작할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아이디어나 슬라이드를 입력하여 자동 스토리보드 생성해보기
+- 채팅 명령어를 통해 생성된 장면 및 음성 수정해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 생성 결과물의 브랜드 일관성 및 세부 편집 품질 확인 필요
+- 사용자 의도와 다른 결과물이 나올 경우를 대비한 수동 편집 기능 숙지
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 영상의 해상도, 길이 제한 및 구체적인 가격 정책은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Clueso_MCP_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Clueso_MCP_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Clueso_MCP_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7d52afc1-9d27-45c5-b258-6b557bf0e7d4.jpeg?auto=format)
+
+---
+
+## 2. [Anomalo](https://www.producthunt.com/products/anomalo)
+**Votes**: 228 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Your data is always talking. Don't miss what it's saying.
+**서비스 링크**: https://www.producthunt.com/r/JX5YLOBNA72SYU
+
+**태그**: DataQuality, Observability, Automation, Analytics, AI, AI Tool
+
+<img src="images/ph_2026-09-22_Anomalo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+데이터 변화를 실시간으로 감지하고 자연어로 질의하여 인사이트를 얻는 지능형 데이터 모니터링 솔루션
+
+### 🔑 주요 기능
+- Snowflake, Databricks, BigQuery 등 주요 데이터 웨어하우스 프로액티브 모니터링
+- 데이터 트렌드, 이상 징후, 급격한 변화를 자동으로 감지 및 시각화
+- 자연어 질의를 통한 쉬운 데이터 조사 및 비즈니스 변화와 데이터 오류의 구분
+
+### 🙋 사용자에게 어떤 점이 좋은가
+데이터가 변할 때마다 수동으로 확인하는 번거로움을 줄여주며, 데이터 오류와 실제 비즈니스 변화를 명확히 구분하여 의사결정의 신뢰도를 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 데이터 웨어하우스(Snowflake, Databricks, BigQuery) 연동
+- 자동화된 이상 징후 감지 및 트렌드 분석 기능 활성화
+- 자연어 질의 기능을 활용한 데이터 심층 조사
+
+### ⚠️ 사용 전 확인할 점
+- 지원되는 데이터 플랫폼 외의 환경에서의 호환성 확인 필요
+- 자동 감지된 인사이트의 비즈니스 맥락 일치 여부 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+구체적인 데이터 처리 비용 체계와 상세 연동 가능 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Anomalo_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Anomalo_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Anomalo_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f949db42-83d3-4bfc-b8e3-61bb500be217.jpeg?auto=format)
+
+---
+
+## 3. [WZRD](https://www.producthunt.com/products/wzrd)
+**Votes**: 226 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI-native documents, slides, forms and sheets that talk back
+**서비스 링크**: https://www.producthunt.com/r/6OKF7YXETYBRXV
+
+**태그**: AI, Productivity, Collaboration, ContentCreation, AI Tool, Prompting
+
+<img src="images/ph_2026-09-22_WZRD.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+문서와 슬라이드를 대화형 AI 경험으로 변환하는 AI 네이티브 생산성 도구
+
+### 🔑 주요 기능
+- 기존 문서를 업로드하거나 프롬프트로 새로운 문서, 슬라이드, 폼, 시트 생성 가능
+- 정적인 문서를 사용자와 상호작용이 가능한 대화형 콘텐츠로 전환
+- 폼(입력), 시트(데이터 설명), 슬라이드(스토리텔링) 등 각 형식에 최적화된 응답 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 정보 전달을 넘어 사용자가 문서와 직접 대화하며 정보를 얻을 수 있어, 발표나 데이터 공유 시 몰입감을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 작업물을 업로드하여 AI 대화형 버전으로 변환해보기
+- 프롬프트를 사용하여 새로운 슬라이드나 시트 생성해보기
+- 생성된 결과물이 사용자의 질문에 적절히 응답하는지 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- AI 생성 콘텐츠의 정확성 및 데이터 신뢰성 검토 필요
+- 대화형 인터페이스가 기존의 정적인 문서 형식을 선호하는 사용자에게는 생소할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+기존 협업 툴(Google Workspace, Microsoft 365 등)과의 실시간 동기화 및 연동 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_WZRD_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_WZRD_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_WZRD_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f092e01e-4adb-4c73-85b1-7e3518a807c9.jpeg?auto=format)
+
+---
+
+## 4. [SereneDB](https://www.producthunt.com/products/serenedb-krummelanke)
+**Votes**: 177 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Ultra-Fast Search & Analytics Database, Agentic AI ready
+**서비스 링크**: https://www.producthunt.com/r/JNUSRVQLG5UDSB
+
+**태그**: Database, Search, Analytics, OpenSource, DevTool, Agent, AI Tool
+
+<img src="images/ph_2026-09-22_SereneDB.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+검색과 분석을 하나로 통합하여 ETL 복잡성을 제거한 초고속 오픈소스 데이터베이스
+
+### 🔑 주요 기능
+- Full-text 검색과 분석 기능을 단일 엔진에서 제공
+- Postgres 및 Elasticsearch와 호환되어 기존 SQL 및 클라이언트 유지 가능
+- 대규모 로그 인덱싱 성능 및 디스크 효율성 입증 (10억 개 로그 8분 이내)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+검색 엔진과 분석 엔진을 분리하여 운영하던 복잡한 아키텍처를 단순화하고, 데이터 동기화(ETL) 비용을 획기적으로 줄일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 SQL 및 Elastic 클라이언트를 활용한 호환성 테스트
+- 대규모 로그 데이터 인덱싱 성능 벤치마크 수행
+- 검색과 분석 통합 시의 데이터 일관성 검증
+
+### ⚠️ 사용 전 확인할 점
+- 기존 시스템(Postgres/Elastic)에서 전환 시 데이터 마이그레이션 전략 필요
+- 실제 운영 환경에서의 안정성 및 엣지 케이스 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+공개된 벤치마크 결과가 사용자의 특정 워크로드에서도 동일하게 나타나는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_SereneDB_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_SereneDB_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_SereneDB_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/24682517-2702-46bc-9427-6fd1844450f6.jpeg?auto=format)
+
+---
+
+## 5. [thestory.run](https://www.producthunt.com/products/thestory-run)
+**Votes**: 156 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A writing coach for corporate influencers.
+**서비스 링크**: https://www.producthunt.com/r/4NQTG6TFZMKOFG
+
+**태그**: Writing, Productivity, PersonalBranding, AI, AI Tool
+
+<img src="images/ph_2026-09-22_thestory.run.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+기업 임직원의 전문성을 글로 녹여내는 AI 글쓰기 코칭 서비스
+
+### 🔑 주요 기능
+- 단순 대필이 아닌 사용자의 생각을 끌어내는 인터뷰 방식의 코칭
+- 정리되지 않은 아이디어를 완성도 있는 스토리 아크로 변환
+- 지속적인 콘텐츠 작성을 돕는 주간 일정 관리 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글쓰기 실력이 부족한 전문가가 자신의 생각을 체계적인 콘텐츠로 빠르게 변환하여 퍼스널 브랜딩을 할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 인터뷰 세션을 통한 아이디어 구체화
+- 스토리 아크를 활용한 초안 작성
+- 주간 콘텐츠 스케줄링 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- 사용자가 직접 글을 써야 하는 주도적 참여가 필요함
+- 개인적인 생각이나 경험을 기반으로 하므로 입력 데이터의 질에 따라 결과물이 달라짐
+
+### 🧭 확인이 더 필요한 정보
+구체적인 인터뷰 방식(텍text/voice)과 지원하는 언어 범위에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_thestory.run_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_thestory.run_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_thestory.run_media_2.jpg)
+
+---
+
+## 6. [Freebuff Ads](https://www.producthunt.com/products/freebuff-2)
+**Votes**: 124 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Advertise to 500k developers in our coding agent
+**서비스 링크**: https://www.producthunt.com/r/M4PG5RMW35MG4V
+
+**태그**: AdTech, DeveloperTools, Marketing, Agent, DevTool
+
+<img src="images/ph_2026-09-22_Freebuff_Ads.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+50만 개발자 타겟팅이 가능한 개발자 워크플로우 내 광고 플랫폼
+
+### 🔑 주요 기능
+- 데스크톱, 모바일, 웹, CLI 등 개발자 작업 환경 내 직접 광고 노출
+- 50만 명 규모의 개발자 사용자층 확보
+- 클릭당 과금(PPC) 방식 및 사용자 설정 가능한 예산 캡 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발 도구 및 B2B 솔루션을 타겟팅하는 마케터에게 개발자의 작업 흐름을 방해하지 않으면서도 직접적인 노출 기회를 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 광고 노출 위치 및 UI 확인
+- 클릭당 비용(PPC) 모델 검토
+- 대시보드를 통한 전환 측정 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 개발자 환경 내 광고 노출에 대한 사용자 경험(UX) 저하 우려
+- 타겟팅 정밀도 및 실제 전환율 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+광고가 노출되는 구체적인 UI 위치와 개발자들의 광고 수용도에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Freebuff_Ads_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Freebuff_Ads_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Freebuff_Ads_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4aa83008-bf25-436f-bfcc-4b4d944cad8f.jpeg?auto=format)
+
+---
+
+## 7. [PixelCrew](https://www.producthunt.com/products/pixelcrew)
+**Votes**: 120 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Production-ready design from a crew of AI agents
+**서비스 링크**: https://www.producthunt.com/r/4J7QOHDZNA32KU
+
+**태그**: Design, AI-Agents, Automation, Frontend, Prototyping, Agent, AI Tool
+
+<img src="images/ph_2026-09-22_PixelCrew.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트 팀이 기획부터 디자인 시스템, HTML 코드까지 한 번에 완성하는 자동화 디자인 툴
+
+### 🔑 주요 기능
+- 리서치, 크리에이티브 디렉션, 와이어프레임, HTML 코드를 아우르는 엔드투엔드 디자인 프로세스
+- 에이전트들이 서로 토론하며 의사결정하는 과정을 실시간으로 확인 가능
+- 사용자 개인의 OpenRouter 키를 사용하여 원하는 모델로 실행 가능한 알파 버전
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자인 기획부터 프로덕션 수준의 코드까지 자동 생성해주므로, 아이디어를 빠르게 프로토타입으로 구현할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- OpenRouter API 키 준비하기
+- 자신의 디자인 요구사항(Brief) 입력해보기
+- 에이전트 간의 의사결정 과정 관찰하기
+
+### ⚠️ 사용 전 확인할 점
+- 알파 단계이므로 결과물의 품질이 가변적일 수 있음
+- 사용자가 직접 모델 API 키를 관리해야 하는 기술적 진입장벽 존재
+
+### 🧭 확인이 더 필요한 정보
+현재 알파 버전이므로 최종 결과물의 디자인 완성도와 코드 품질에 대한 검증이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_PixelCrew_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_PixelCrew_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_PixelCrew_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/15175cd5-73b4-43f7-adaf-0301003db16d.jpeg?auto=format)
+
+---
+
+## 8. [Plane Agents](https://www.producthunt.com/products/planehq)
+**Votes**: 109 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Assign work to AI agents, like any teammate
+**서비스 링크**: https://www.producthunt.com/r/K3DAYV2WJKMEFI
+
+**태그**: AI, Automation, Productivity, Workflow, Agent, AI Tool
+
+<img src="images/ph_2026-09-22_Plane_Agents.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트를 팀원으로 영입하여 업무 자동화를 실현하는 워크스페이스 솔루션
+
+### 🔑 주요 기능
+- AI 에이전트를 워크스페이스 멤버로 추가하여 업무 할당 가능
+- 요청 분류, 스펙 초안 작성, 스탠드업 미팅 등 다양한 업무 수행
+- 워크플로 변화에 따른 트리거 또는 스케줄 기반 자동 실행 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+반복적인 관리 업무와 문서 작업을 AI에게 맡겨 팀의 생산성을 높이고 핵심 업무에 집중할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에이전트에게 첫 번째 업무 아이템 할당하기
+- 워크플로 변경 시 자동 실행되도록 트리거 설정하기
+- 스케줄링 기능을 통한 정기 업무 자동화하기
+
+### ⚠️ 사용 전 확인할 점
+- 유료 플랜에 포함된 AI 크레딧 소진량 확인 필요
+- 에이전트의 작업 결과물에 대한 인간의 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 기존 협업 툴과의 구체적인 연동 범위와 크레딧 소진 정책을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Plane_Agents_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Plane_Agents_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Plane_Agents_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/db04b224-47eb-4228-b358-4dba3370da66.jpeg?auto=format)
+
+---
+
+## 9. [Pulsetic RUM](https://www.producthunt.com/products/pulsetic)
+**Votes**: 107 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Uptime monitoring that measures your real visitors
+**서비스 링크**: https://www.producthunt.com/r/IL52O5VB4PYSYL
+
+**태그**: DevTool, Monitoring, Analytics, UX, AI Tool
+
+<img src="images/ph_2026-09-22_Pulsetic_RUM.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실제 사용자 경험과 서버 상태를 동시에 모니터링하여 보이지 않는 성능 문제를 해결하는 통합 업타임 도구
+
+### 🔑 주요 기능
+- 단순 서버 응답을 넘어 실제 방문자의 Core Web Vitals 및 로딩 성능 측정
+- JavaScript 에러 및 페이지/국가/브라우저별 상세 데이터 분석
+- AI를 활용한 장애 원인 분석 및 도메인 만료/상태 페이지 관리 통합
+
+### 🙋 사용자에게 어떤 점이 좋은가
+서버가 정상(200 OK)이라도 사용자가 겪는 느린 결제나 스크립트 오류를 즉각 포착하여 이탈을 방지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 비동기 스크립트 설치를 통한 실시간 성능 데이터 수집
+- AI 기능을 활용한 어젯밤 발생한 장애 원인 질의
+- 브랜드 맞춤형 상태 페이지(Status Page) 설정
+
+### ⚠️ 사용 전 확인할 점
+- 비동기 스크립트 설치 시 사이트 성능에 미치는 영향 확인 필요
+- 사용자 데이터 수집에 따른 개인정보 보호 정책 검토
+
+### 🧭 확인이 더 필요한 정보
+제공되는 데이터의 상세한 수집 방식과 스크립트 부하 정도에 대한 구체적인 기술 사양은 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Pulsetic_RUM_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Pulsetic_RUM_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Pulsetic_RUM_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2509fcc1-e855-4aaa-abb9-c7db865988ae.jpeg?auto=format)
+
+---
+
+## 10. [MiMo-V2.6](https://www.producthunt.com/products/mimo-3)
+**Votes**: 101 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: Open omnimodal intelligence, trained in public
+**서비스 링크**: https://www.producthunt.com/r/2DBGXRT2EMQKE7
+
+**태그**: AI, OpenSource, Multimodal, LLM, Agent, AI Tool, Video, Vision, DevTool
+
+<img src="images/ph_2026-09-22_MiMo-V2.6.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+샤오미가 공개한 100만 토큰 컨텍스트 지원 오픈 소스 멀티모달 AI 모델
+
+### 🔑 주요 기능
+- 텍스트, 이미지, 오디오, 비디오를 모두 처리하는 옴니모달 모델
+- 1M(100만) 토큰의 대규모 컨텍스트 창 지원
+- 기술 보고서, RL 환경 및 학습 코드를 포함한 투명한 공개
+
+### 🙋 사용자에게 어떤 점이 좋은가
+방대한 양의 데이터(긴 문서, 긴 영상 등)를 한 번에 처리해야 하는 에이전트 작업 및 복합 미디어 분석에 유용합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Pro/Flash 모델을 활용한 대규모 컨텍스트 작업 테스트
+- 공개된 RL 환경 및 학습 코드를 통한 모델 커스텀 연구
+- 기술 보고서를 통한 모델 성능 및 아키텍처 검토
+
+### ⚠️ 사용 전 확인할 점
+- 모델 크기와 복잡도에 따른 하드웨어 리소스 요구량 확인 필요
+- 오픈 소스 모델의 라이선스 및 상업적 이용 조건 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+모델의 구체적인 하드웨어 요구 사양과 상업적 이용 가능 범위에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_MiMo-V2.6_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_MiMo-V2.6_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_MiMo-V2.6_media_2.jpg)
+
+---
+
+## 11. [WeWeb MCP](https://www.producthunt.com/products/weweb-io)
+**Votes**: 100 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Your AI agent builds the app. You stay in control.
+**서비스 링크**: https://www.producthunt.com/r/RTC37K6TSMDRZJ
+
+**태그**: AI, NoCode, LowCode, DevTool, Automation, Agent, AI Tool, Chat
+
+<img src="images/ph_2026-09-22_WeWeb_MCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트가 앱을 구축하고 사용자는 시각적 편집기로 제어하는 차세대 노코드/로우코드 도구
+
+### 🔑 주요 기능
+- Claude Code, Cursor 등 MCP 지원 AI 에이전트와 연동하여 페이지, 워크플로우, 데이터 모델 자동 생성
+- AI가 생성한 모든 변경 사항은 사용자가 직접 검토하고 수정할 수 있는 시각적 에디터에 반영
+- 사용자의 토큰과 코드를 직접 사용하므로 블랙박스 현상 없는 투명한 개발 환경 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트의 자동화 능력과 인간의 시각적 제어력을 결합하여, 개발 속도를 극대화하면서도 결과물의 품질을 직접 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 사용 중인 AI 에이전트(Cursor, Claude 등)에 WeWeb MCP 연결하기
+- AI가 생성한 데이터 모델과 워크플로우를 시각적 에디터에서 검토하기
+- 복잡한 페이지 레이아웃 및 통합 기능을 AI를 통해 자동 생성해보기
+
+### ⚠️ 사용 전 확인할 점
+- AI 에이전트의 작업 결과물이 사용자의 의도와 다를 경우 수동 수정 작업이 필요할 수 있음
+- 사용 중인 AI 모델의 성능과 토큰 소모량에 따라 개발 효율이 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 MCP 에이전트 외에 다른 외부 도구와의 호환성 범위와 상세 연동 방식에 대한 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_WeWeb_MCP_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_WeWeb_MCP_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_WeWeb_MCP_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/49a7b7a7-f143-4aad-8c06-03f16687d68a.jpeg?auto=format)
+
+---
+
+## 12. [Keet](https://www.producthunt.com/products/keet-2)
+**Votes**: 96 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Video Courses on Anything
+**서비스 링크**: https://www.producthunt.com/r/TEUVUDNS54ZKR3
+
+**태그**: Education, Video, Learning
+
+<img src="images/ph_2026-09-22_Keet.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+어떤 주제든 학습 가능한 대화형 비디오 코스 플랫폼
+
+### 🔑 주요 기능
+- 주제 제한 없는 폭넓은 학습 콘텐츠 제공
+- 상호작용이 가능한 비디오 기반 학습 방식
+- 사용자 중심의 인터랙티브 교육 경험
+
+### 🙋 사용자에게 어떤 점이 좋은가
+원하는 주제에 대해 단순 시청을 넘어 직접 참여하는 방식의 학습을 통해 지식을 빠르게 습득할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 관심 있는 주제의 코스 검색하기
+- 인터랙티브 비디오 기능 체험하기
+- 학습 커리큘럼 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 제공되는 코스의 품질과 전문성 확인 필요
+- 상호작용 기능의 구체적인 구현 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 코스의 제작 주체와 콘텐츠의 전문성 수준을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Keet_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Keet_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/34b07b51-cab8-4555-956c-dc9fea426308.jpeg?auto=format)
+
+---
+
+## 13. [Hola AI](https://www.producthunt.com/products/hola-ai)
+**Votes**: 89 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: An AI voicemail assistant that answers calls when you can’t.
+**서비스 링크**: https://www.producthunt.com/r/KJZWPK66BYBG3Q
+
+**태그**: AI, Productivity, Communication, Automation, AI Tool, Email
+
+<img src="images/ph_2026-09-22_Hola_AI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+전화를 대신 받아 메시지를 남기고 요약까지 해주는 AI 음성 비서
+
+### 🔑 주요 기능
+- 부재중 전화 시 AI가 대신 응대 및 메시지 수집
+- 통화 내용 자동 녹음, 전사 및 핵심 요약 제공
+- 스팸 필터링 및 통화 맥락 파악을 통한 효율적 회신 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+모든 전화를 직접 받을 수 없는 상황에서도 중요한 연락을 놓치지 않게 해주며, 통화 전 맥락을 파악해 효율적인 업무 처리를 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 대리 응대 기능 테스트
+- 통화 요약 및 전사 기능 확인
+- 스팸 필터링 설정
+
+### ⚠️ 사용 전 확인할 점
+- 개인정보 및 통화 내용 보안 정책 확인 필요
+- AI의 응대 품질이 실제 대화와 얼마나 유사한지 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 서비스의 요금 체계와 지원 가능한 통화 방식(VoIP, 모바일 등)에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Hola_AI_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Hola_AI_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Hola_AI_media_2.jpg)
+
+---
+
+## 14. [gg-friggin-ez](https://www.producthunt.com/products/gg-friggin-ez)
+**Votes**: 87 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Fast & free profanity and toxicity screening via Jev & Laya
+**서비스 링크**: https://www.producthunt.com/r/62NHVES2YJVPJO
+
+**태그**: DevTool, Moderation, Nodejs, OpenSource, AI Tool
+
+<img src="images/ph_2026-09-22_gg-friggin-ez.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+다국어 및 변형 문구까지 잡아내는 초저가·고성능 Node.js용 욕설/유해성 필터링 라이브러리
+
+### 🔑 주요 기능
+- leetspeak, ASCII 아트, 문자 간격 변형 등 우회 시도를 감지하는 지능형 필터링
+- 힌디어, 타밀어, 벵골어 등 인도 계열 언어를 포함한 강력한 다국어 지원
+- 메시지당 약 $0.000004 수준의 초저비용 및 500ms 미만의 빠른 응답 속도
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Node.js 환경에서 복잡한 우회 문구까지 포함된 글로벌 커뮤니티의 유해 콘텐츠를 쉽고 저렴하게 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- npm i gg-friggin-ez 명령어로 라이브러리 설치
+- 프로젝트의 다국어 필터링 성능 테스트
+- 기존 모더레이션 로직에 드롭인(drop-in) 방식으로 통합
+
+### ⚠️ 사용 전 확인할 점
+- Node.js 환경 전용이므로 다른 언어 런타임에서는 사용이 제한될 수 있음
+- System 1 모델 기반이므로 문맥적 의미 파악보다는 패턴 감지에 특화되어 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공되는 모델(Jev & Laya)의 구체적인 아키텍처와 상세한 언어별 정확도 벤치마크는 추가 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_gg-friggin-ez_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_gg-friggin-ez_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_gg-friggin-ez_media_2.jpg)
+
+---
+
+## 15. [Grok 4.7](https://www.producthunt.com/products/grok-4-7-8)
+**Votes**: 85 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: SpaceXAI's most powerful model for coding and knowledge work
+**서비스 링크**: https://www.producthunt.com/r/B7XCD2WL2H3O32
+
+**태그**: DevTool, AI, Productivity, AI Tool
+
+<img src="images/ph_2026-09-22_Grok_4.7.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코딩과 전문 지식 작업에 최적화된 SpaceXAI의 가장 강력한 AI 모델
+
+### 🔑 주요 기능
+- 코딩 및 지식 작업에 특화된 고성능 모델
+- 어려운 과제 수행 능력 및 자가 검증 기능 강화
+- 이전 버전(4.6)과 동일한 가격 및 속도 유지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+더 복잡한 코딩 작업과 전문적인 업무를 기존과 같은 비용과 속도로 수행할 수 있어 생산성이 크게 향상됩니다.
+
+### ✅ 지금 바로 써볼 기능
+- 복잡한 코딩 과제에 Grok 4.7 적용해보기
+- 기존 Grock 4.6 작업 워크플로우로 전환하기
+- 모델의 자가 검증 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 이전 버전 대비 성능 향상 폭이 작업 유형별로 다를 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 벤치마크 점수나 상세 기술 사양은 제공되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Grok_4.7_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Grok_4.7_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Grok_4.7_media_2.jpg)
+
+---
+
+## 16. [Googlebook](https://www.producthunt.com/products/googlebook-4)
+**Votes**: 82 | **도입 난이도**: 하 | **신뢰도**: 중
+**Tagline**: The laptop your Android phone has been waiting for
+**서비스 링크**: https://www.producthunt.com/r/E5A4M3H2A3BMOV
+
+**태그**: Hardware, AI, Android, Productivity, AI Tool, Design
+
+<img src="images/ph_2026-09-22_Googlebook.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Gemini AI와 안드로이드 스마트폰이 완벽하게 동기화되는 차세대 프리미엄 노트북
+
+### 🔑 주요 기능
+- Gemini AI 지능을 위해 설계된 최초의 노트북
+- 프리미엄 소재를 사용한 강력한 퍼포먼스
+- 안드로이드 스마트폰과의 원활한 동기화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+안드로이드 사용자에게 최적화된 작업 환경을 제공하며, AI 기반의 강력한 성능을 통해 생산성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 안드로이드 기기와의 동기화 기능 확인
+- Gemini AI 기반 작업 워크플로우 테스트
+- 프리미엄 하드웨어 빌드 품질 확인
+
+### ⚠️ 사용 전 확인할 점
+- 안드로이드 생태계 의존도가 높을 수 있음
+- 상세한 하드웨어 사양 및 성능 지표 미비
+
+### 🧭 확인이 더 필요한 정보
+상세한 하드웨어 사양과 구체적인 Gemini AI 통합 기능에 대한 정보가 더 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Googlebook_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Googlebook_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Googlebook_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9e551077-cdb6-4e66-8b27-abd33fefb4c4.jpeg?auto=format)
+
+---
+
+## 17. [Fulvid](https://www.producthunt.com/products/fulvid)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A standalone desktop editor for Markdown and MDX
+**서비스 링크**: https://www.producthunt.com/r/227TFLXLLME44E
+
+**태그**: Markdown, OpenSource, Productivity, DevTool, KnowledgeManagement, Automation, LLM
+
+<img src="images/ph_2026-09-22_Fulvid.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+로컬 파일 시스템 기반의 오픈 소스 Markdown 및 MDX 편집기
+
+### 🔑 주요 기능
+- 로컬 디스크에 저장되는 휴대성 높은 Markdown/MDX 파일 중심
+- 클라우드나 독점적 워크스페이스가 없는 파일 시스템 친화적 구조
+- 검색, 미리보기, 문서 링크 및 그래프 탐색 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+데이터가 특정 서비스에 종속되지 않아 파일의 이식성이 높으며, LLM 워크플로우와 연동하여 지식 베이스를 관리하기에 용이합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 로컬 Markdown 파일 불러오기
+- MDX 파일 편집 및 미리보기 기능 테스트
+- 그래프 탐색 기능을 통한 문서 간 연결 확인
+
+### ⚠️ 사용 전 확인할 점
+- 클라우드 동기화 기능이 기본 제공되지 않으므로 별도의 파일 동기화 수단 필요
+- 오픈 소스 프로젝트로서 기능 완성도 및 안정성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 기능 외에 추가적인 플러그인 생태계나 협업 기능 지원 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Fulvid_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Fulvid_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Fulvid_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/1c36739b-8424-4017-b281-5d65b673ba77.jpeg?auto=format)
+
+---
+
+## 18. [QuietGlass](https://www.producthunt.com/products/quietglass)
+**Votes**: 77 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Screen privacy for your Mac, with or without AirPods
+**서비스 링크**: https://www.producthunt.com/r/TNCP5BHRHY3FZK
+
+**태그**: Privacy, macOS, Productivity, OpenSource, AI Tool
+
+<img src="images/ph_2026-09-22_QuietGlass.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+에어팟과 카메라를 활용해 시선에 따라 화면을 자동으로 블러 처리하는 맥용 프라이버시 보호 앱
+
+### 🔑 주요 기능
+- 에어팟 착용 여부 및 시선 방향에 따른 자동 화면 블러 기능
+- 카메라를 통한 타인 감지 및 화면 보호 경고 기능
+- 특정 영역 지정 또는 포커스 모드를 통한 선택적 화면 보호
+
+### 🙋 사용자에게 어떤 점이 좋은가
+공공장소나 카페에서 맥을 사용할 때, 타인의 시선으로부터 민감한 정보를 효과적으로 가려줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에어팟을 연결하여 시선 기반 블러 기능 테스트하기
+- 특정 윈도우나 영역만 보호하는 포커스 모드 설정하기
+- 카메라 감지 기능을 통한 타인 침입 방지 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 14 이상의 운영체제 버전 필요
+- 에어팟 및 카메라 하드웨어 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 에어팟 모델 및 카메라 하드웨어에 따른 기능 작동 범위가 다를 수 있습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_QuietGlass_media_1.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3d9d60aa-71b4-44c9-8fd2-378e500ef06f.jpeg?auto=format)
+
+---
+
+## 19. [Diurnal](https://www.producthunt.com/products/diurnal)
+**Votes**: 77 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The fastest way to get a thought out of your head
+**서비스 링크**: https://www.producthunt.com/r/LGRBJB3WOOPUR2
+
+**태그**: Productivity, MacApp, Planning, TaskManagement
+
+<img src="images/ph_2026-09-22_Diurnal.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+생각을 즉시 기록하고 일정과 연결하는 가장 빠른 Mac 전용 데일리 플래너
+
+### 🔑 주요 기능
+- 단축키(⌥⌘ K)를 통한 즉각적인 생각 기록 기능
+- 음성 입력(⌥⌘ L)을 통한 간편한 할 일 등록
+- Google Calendar와 할 일/리마인더의 통합 관리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+머릿속에 떠오르는 아이디어를 놓치지 않고 즉시 기록할 수 있어, 계획 세우기와 일정 관리 사이의 간극을 줄여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단축키 ⌥⌘ K를 활용해 떠오르는 생각을 즉시 메모하기
+- 음성 입력 ⌥⌘ L로 손을 쓰지 않고 할 일 등록하기
+- Google Calendar와 연동하여 일정과 작업 통합 관리하기
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 앱이므로 다른 OS(Windows, iOS 등)와의 호환성 확인 필요
+- 오프라인 작업 시 데이터 동기화 시점 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+모바일 기기와의 실시간 동기화 지원 여부 및 타 플랫폼 지원 여부가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Diurnal_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Diurnal_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Diurnal_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b7f3b5c1-9b00-4593-90c1-5b6ea472eaba.jpeg?auto=format)
+
+---
+
+## 20. [Fez](https://www.producthunt.com/products/fez-2)
+**Votes**: 75 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: AI agents that work as a team and make decisions together
+**서비스 링크**: https://www.producthunt.com/r/TUKYNKJJGXFNBS
+
+**태그**: AI Agents, Automation, Productivity, Collaboration, Mac App, Agent, AI Tool
+
+<img src="images/ph_2026-09-22_Fez.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+여러 AI 에이전트가 팀처럼 협업하며 스스로 의사결정을 내리는 데스크톱 워크스페이스
+
+### 🔑 주요 기능
+- 다수의 AI 에이전트가 하나의 워크스페이스 내에서 팀 단위로 협업
+- 작업 분담 및 의사결정을 에이전트들이 자율적으로 수행
+- Nostr 및 Jev 프로토콜 기반의 데스크톱 애플리케이션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+사용자가 일일이 개별 에이전트에게 명령할 필요 없이, 팀 단위의 자동화된 작업 흐름을 경험할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에이전트 간의 협업 방식 및 의사결정 프로세스 관찰
+- Mac 데스크톱 환경에서의 워크스페이스 설정 및 작업 할당 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트 간의 자율적 결정에 따른 결과물의 예측 불가능성
+- Nostr/Jev 기반 기술 스택에 대한 사용자 숙련도 필요성
+
+### 🧭 확인이 더 필요한 정보
+에이전트 간의 작업 분배 알고리즘과 구체적인 사용자 제어 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Fez_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Fez_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Fez_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f46a79ab-680b-4dc5-9610-d549eca980de.jpeg?auto=format)
+
+---
+
+## 21. [Edyt](https://www.producthunt.com/products/edyt)
+**Votes**: 75 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI for text you can't even select. Any app on Mac & Windows
+**서비스 링크**: https://www.producthunt.com/r/DYBMN4GOPALJIO
+
+**태그**: Productivity, AI, Automation, DesktopApp, AI Tool, Prompting
+
+<img src="images/ph_2026-09-22_Edyt.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+어떤 앱이나 화면에서도 선택 불가능한 텍스트까지 AI로 편집할 수 있는 데스크톱 생산성 도구
+
+### 🔑 주요 기능
+- Mac 및 Windows 전역에서 작동하는 AI 텍스트 편집 도구
+- PDF, 스크린샷, 공유 화면 등 선택이 불가능한 텍스트도 인식 가능
+- 재작성, 설명, 번역, 대안 제시 등 다양한 AI 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+어떤 앱을 사용하든 별도의 복사-붙여넣기 과정 없이 커서 위치에서 즉시 AI 결과물을 적용할 수 있어 작업 흐름이 끊기지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단축키를 활용해 선택 불가능한 텍스트(PDF/이미지) 드래그해보기
+- Rewrite 기능을 통해 기존 문장의 톤 유지하며 수정해보기
+- 저장된 프롬프트를 활용해 반복적인 작업 자동화하기
+
+### ⚠️ 사용 전 확인할 점
+- 데스크톱 전역에서 작동하므로 개인정보 및 보안이 중요한 작업 시 주의 필요
+- 현재 Ubuntu는 지원 예정 단계임
+
+### 🧭 확인이 더 필요한 정보
+사용자 기기 내의 텍스트를 읽는 방식에 따른 보안 정책과 데이터 처리 방식을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Edyt_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Edyt_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Edyt_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/03622e42-94f6-4a48-a64a-e760e72dbc5e.jpeg?auto=format)
+
+---
+
+## 22. [Brev](https://www.producthunt.com/products/brev-io)
+**Votes**: 74 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The AI coworker that drives action on your goals
+**서비스 링크**: https://www.producthunt.com/r/OQYYDAU5J7ZLJ4
+
+**태그**: AI, Productivity, Slack, Management, Automation, AI Tool
+
+<img src="images/ph_2026-09-22_Brev.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Slack에서 팀의 목표 달성을 돕고 업무 실행력을 높여주는 AI 동료
+
+### 🔑 주요 기능
+- Slack 기반의 AI 협업 환경 제공
+- 목표, 회의, 지표, 의사결정 간의 유기적 연결
+- 실행 현황 파악 및 문제 원인 분석을 통한 선제적 대응
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팀의 목표와 실제 업무 사이의 간극을 줄여주며, 리더가 실행 상태를 실시간으로 파악하고 빠르게 조치할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Slack에 Brev 연동하기
+- 팀 및 회사의 핵심 목표 설정하기
+- 기존 업무 도구와 연결하여 데이터 동기화하기
+
+### ⚠️ 사용 전 확인할 점
+- 기존에 사용 중인 업무 도구들과의 연동 범위 확인 필요
+- AI가 업무 맥락을 정확히 파악하는지 초기 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 구체적인 지원 도구 목록과 데이터 보안 정책에 대한 상세 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Brev_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Brev_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Brev_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ce824980-b1fe-4e19-af2a-60724ad6dd02.jpeg?auto=format)
+
+---
+
+## 23. [Blurt ](https://www.producthunt.com/products/assemblyai)
+**Votes**: 73 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Push-to-talk dictation on the AssemblyAI Dictation API
+**서비스 링크**: https://www.producthunt.com/r/PJO6PZTAJGEHJM
+
+**태그**: Productivity, Mac, OpenSource, AI, AI Tool, API
+
+<img src="images/ph_2026-09-22_Blurt_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+키를 누르는 동안 실시간으로 텍스트를 입력하는 오픈소스 Mac 전용 음성 받아쓰기 앱
+
+### 🔑 주요 기능
+- AssemblyAI Dictation API 기반의 고성능 음성 인식
+- Push-to-talk 방식의 직관적인 입력 방식
+- Mac 환경에 최적화된 무료 오픈소스 소프트웨어
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 복잡한 설정 없이 키 하나로 어디서든 즉시 음성 타이핑이 가능하여 문서 작성 및 메시지 전송 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- Push-to-talk 단축키 설정 및 테스트
+- 다양한 텍스트 편집기에서의 입력 정확도 확인
+- 오픈소스 코드 검토 및 설치
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 앱이므로 다른 OS에서는 사용 불가
+- API 기반 서비스이므로 네트워크 연결 상태에 따라 성능 영향 가능성 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자의 API 키 설정 방식 및 데이터 프라이버시 정책에 대한 상세 정보 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Blurt__media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Blurt__media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Blurt__media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/fe4ebd34-edc4-4df0-9a3b-c20a2ed067b6.jpeg?auto=format)
+
+---
+
+## 24. [Walkie](https://www.producthunt.com/products/walkie-3)
+**Votes**: 72 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Dictation + meetings + read aloud in one app on-device
+**서비스 링크**: https://www.producthunt.com/r/UJA6GXF45NTHW3
+
+**태그**: Productivity, AI, Transcription, TTS, On-device, AI Tool
+
+<img src="images/ph_2026-09-22_Walkie.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+음성 받아쓰기, 회의록 작성, 텍스트 읽어주기를 하나로 합친 온디바이스 AI 도구
+
+### 🔑 주요 기능
+- 어떤 앱에서도 사용 가능한 실시간 받아쓰기 기능
+- 화자 식별 및 요약 기능이 포함된 회의 기록
+- 950개 이상의 목소리를 지원하는 고품질 TTS(Text-to-Speech)
+
+### 🙋 사용자에게 어떤 점이 좋은가
+회의 기록과 문서 작성을 자동화하고, 텍스트를 음성으로 변환하여 멀티태스킹 효율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 회의 중 실시간 회의록 생성 기능 테스트
+- 텍스트를 음성으로 읽어주는 기능 활용
+- 다양한 OS(Mac, Windows, Linux, iPhone)에서의 호환성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 온디바이스 처리 방식이므로 하드웨어 사양에 따른 성능 차이가 있을 수 있음
+- 복잡한 배경 소음 환경에서의 인식 정확도 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 하드웨어 사양에 따른 최적의 성능 발휘 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Walkie_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Walkie_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Walkie_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7a356627-67be-40bf-bf34-c7045aa19891.jpeg?auto=format)
+
+---
+
+## 25. [VideoFlow Studio](https://www.producthunt.com/products/videoflow-studio)
+**Votes**: 71 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Type your startup URL and get a premium video trailer
+**서비스 링크**: https://www.producthunt.com/r/K5MHDBQO2AKZNW
+
+**태그**: AI-Agent, Video-Automation, DevTool, Open-Source, Agent, AI Tool, Video
+
+<img src="images/ph_2026-09-22_VideoFlow_Studio.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+URL 입력만으로 제품의 핵심 가치를 분석해 맞춤형 홍보 영상을 제작하는 AI 에이전트
+
+### 🔑 주요 기능
+- URL 기반의 자동화된 영상 기획 및 제작 프로세스
+- 템플릿 방식이 아닌 제품 내용을 직접 분석하는 지능형 에이전트 활용
+- 자연어 명령을 통한 편집 및 오픈소스 렌더링 엔진 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스타트업이나 개발자가 별도의 영상 편집 기술 없이도 제품의 특징을 담은 고품질 트레일러를 빠르게 생성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- npx 명령어를 통한 로컬 환경 설치 및 실행
+- 제품 URL을 입력하여 자동 생성된 영상 확인
+- 자연어 명령을 사용하여 영상 스타일 수정하기
+
+### ⚠️ 사용 전 확인할 점
+- CLI 기반 도구이므로 터미널 환경 숙련도 필요
+- AI가 생성한 영상의 창의성이나 디테일이 사용자의 의도와 다를 수 있음
+
+### 🧭 확인이 더 필요한 정보
+로컬 환경의 하드웨어 사양에 따른 렌더링 속도 차이를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_VideoFlow_Studio_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_VideoFlow_Studio_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_VideoFlow_Studio_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/64e03be2-7ddb-47ca-b638-480988a0c59e.jpeg?auto=format)
+
+---
+
+## 26. [ResumeContext](https://www.producthunt.com/products/resumecontext)
+**Votes**: 70 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Shared memory for coding agents.
+**서비스 링크**: https://www.producthunt.com/r/CVDCXMVEXYOYTL
+
+**태그**: DevTool, AI-Agent, Productivity, Collaboration, Agent
+
+<img src="images/ph_2026-09-22_ResumeContext.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코딩 에이전트 간의 맥락을 공유하여 팀의 작업 흐름을 하나로 묶어주는 공유 메모리 솔루션
+
+### 🔑 주요 기능
+- 개별 노트북에 갇혀 있던 코딩 에이전트의 컨텍스트를 팀 단위로 공유 가능
+- 에이전트를 교체하더라도 작업 맥락을 유지하며 끊김 없는 개발 지원
+- MCP(Model Context Protocol)를 통한 효율적인 컨텍스트 전달
+
+### 🙋 사용자에게 어떤 점이 좋은가
+팀원 간의 작업 맥락 공유가 쉬워지고, 서로 다른 코딩 에이전트를 사용하더라도 작업 흐름을 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- MCP를 통한 에이전트 연동 설정하기
+- 팀 내 공유 아카이브 구축 및 테스트하기
+- 에이전트 전환 시 컨텍스트 유지 여부 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 공유되는 컨텍스트 내 민감한 코드나 보안 정보 포함 여부 검토 필요
+- 사용 중인 코딩 에이전트와 MCP 간의 호환성 확인
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 MCP 인터페이스의 구체적인 보안 정책과 데이터 저장 방식에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_ResumeContext_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_ResumeContext_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_ResumeContext_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/32a4f32f-aa12-45da-810a-8aa9850d3697.jpeg?auto=format)
+
+---
+
+## 27. [Shootsolo 2.0](https://www.producthunt.com/products/shootsolo)
+**Votes**: 68 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Voice-controlled camera + teleprompter for solo creators
+**서비스 링크**: https://www.producthunt.com/r/YDIG67JA6MIQ5D
+
+**태그**: ContentCreation, VideoProduction, MobileApp, Productivity, AI Tool, Prompting
+
+<img src="images/ph_2026-09-22_Shootsolo_2.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+음성 제어와 텔레프롬프터를 결합하여 1인 크리에이터의 촬영 과정을 자동화하는 앱
+
+### 🔑 주요 기능
+- 음성 명령을 통한 핸즈프리 촬영 제어 (시작/중지)
+- 대본 읽기를 위한 내장 텔레프롬프터 기능
+- 가상 스튜디오 조명 및 가로/세로 동시 녹화 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+혼자서 촬영할 때 발생하는 장비 조작의 번거로움을 줄여주며, 대본을 보며 자연스럽게 영상을 찍을 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 음성 명령으로 촬영 시작/종료 테스트하기
+- 내장 텔레프롬프터로 대본 읽기 연습하기
+- 가상 조명 기능을 활용한 영상 품질 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 음성 인식 환경에 따라 주변 소음이 있을 경우 제어가 어려울 수 있음
+- 스마트폰 기종에 따라 가상 조명이나 화면 비율 기능의 차이가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+iOS와 Android에서 제공하는 기능의 세부 사양 및 유료 플랜 여부에 대한 구체적인 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Shootsolo_2.0_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Shootsolo_2.0_media_2.jpg)
+![Screenshot](images/ph_2026-09-22_Shootsolo_2.0_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/70a16180-2ea8-48c4-8f44-ff52ee77cd44.jpeg?auto=format)
+
+---
+
+## 28. [Contextberg](https://www.producthunt.com/products/contextberg)
+**Votes**: 68 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Local AI agent memory served via MCP
+**서비스 링크**: https://www.producthunt.com/r/IAC2NVVLCOYN4Q
+
+**태그**: AI, Productivity, DevTool, Automation, Agent, AI Tool, API
+
+<img src="images/ph_2026-09-22_Contextberg.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 화면과 기록을 학습하여 AI 에이전트에게 맥락을 제공하는 로컬 메모리 도구
+
+### 🔑 주요 기능
+- 화면 캡처, 브라우저 기록, 대화 내용을 통한 개인화된 맥락 저장
+- MCP(Model Context Protocol)를 통해 Claude Code, Cursor 등 AI 에이전트에 데이터 제공
+- macOS 및 Windows 지원, OCR 검색 및 소스 제외 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트가 사용자의 작업 환경을 실시간으로 이해하게 하여, 별도의 설명 없이도 맥락에 맞는 정확한 답변과 작업을 수행할 수 있게 돕습니다.
+
+### ✅ 지금 바로 써볼 기능
+- macOS/Windows 환경에서 화면 캡처 및 데이터 수집 설정하기
+- Cursor나 Claude Code 등 사용 중인 에이전트에 MCP로 연결하기
+- 개인정보 보호를 위해 소스 제외(Exclusions) 설정하기
+
+### ⚠️ 사용 전 확인할 점
+- 화면 및 브라우저 기록을 수집하므로 개인정보 유출에 대한 보안 검토 필요
+- 로컬 모델 사용 시 하드웨어 리소스 소모량 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 데이터가 클라우드 모델로 전송될 때의 보안 프로토콜과 상세한 개인정보 처리 방침에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Contextberg_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Contextberg_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Contextberg_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3fa9135f-880e-42dd-a27f-84a250f1e556.jpeg?auto=format)
+
+---
+
+## 29. [FeedsBar](https://www.producthunt.com/products/feedsbar)
+**Votes**: 68 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A quiet, continuous news/media ticker for your Mac desktop
+**서비스 링크**: https://www.producthunt.com/r/F6W42MN577FKKC
+
+**태그**: Productivity, macOS, News, Minimalism, AI Tool
+
+<img src="images/ph_2026-09-22_FeedsBar.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+광고 없이 엄선된 뉴스만 맥 데스크탑에 흐르게 하는 미니멀 뉴스 티커
+
+### 🔑 주요 기능
+- 편집 품질과 광고 제한을 기준으로 엄선된 500개의 고품질 소스 제공
+- 데스크탑에 상주하는 슬림한 디자인과 토픽 오브(Orbs)를 통한 요약 기능
+- 계정 생성이나 트래킹이 없는 네이티브 macOS 앱 및 일회성 구매 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+업무 중 화면을 가리지 않으면서도 중요한 헤드라인을 실시간으로 확인할 수 있어 정보 습득의 흐름을 깨지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 7일 무료 체험을 통해 데스크탑 환경과의 조화 확인하기
+- 자신만의 피드와 심볼을 추가하여 개인화된 티커 만들기
+- 전체 화면 모드를 활용해 앰비언트 보드로 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 7일 무료 체험 종료 후 $24.99의 일회성 결제가 필요함
+- macOS 전용 앱이므로 다른 운영체제에서는 사용 불가
+
+### 🧭 확인이 더 필요한 정보
+사용자의 개인 피드 추가 시 발생할 수 있는 시스템 리소스 점유율은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_FeedsBar_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_FeedsBar_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_FeedsBar_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ffbc3c87-2932-4988-ae4f-1ffe51520f1e.jpeg?auto=format)
+
+---
+
+## 30. [Xem](https://www.producthunt.com/products/xem)
+**Votes**: 67 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Open-source email marketing with managed SMTP
+**서비스 링크**: https://www.producthunt.com/r/2HM5YETIBNQBHI
+
+**태그**: Marketing, OpenSource, Automation, Email, AI Tool, Analytics
+
+<img src="images/ph_2026-09-22_Xem.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자체 SMTP 연결과 관리형 발송을 모두 지원하는 오픈소스 이메일 마케팅 워크스페이스
+
+### 🔑 주요 기능
+- 뉴스레터 제작, 캠페인 관리, 시각적 자동화 기능을 갖춘 통합 워크스페이스
+- 사용자 개인 SMTP 제공 또는 Amazon SES를 통한 관리형 발송 지원
+- 템플릿, 가입 양식, 연락처 목록 및 분석 도구 기본 포함
+
+### 🙋 사용자에게 어떤 점이 좋은가
+오픈소스의 유연성과 Amazon SES의 안정적인 발송 기능을 결합하여, 비용 효율적이면서도 강력한 이메일 마케팅 환경을 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제공되는 재사용 가능한 템플릿으로 뉴스레터 초안 만들기
+- 자신의 SMTP 또는 Amazon SES 연결 설정하기
+- 가입 양식을 생성하여 연락처 목록 구축하기
+
+### ⚠️ 사용 전 확인할 점
+- 관리형 발송 시 도메인 인증 및 워크스페이스 승인 절차 필요
+- 직접 SMTP를 사용할 경우 발송 신뢰도 관리가 사용자 책임임
+
+### 🧭 확인이 더 필요한 정보
+오픈소스 설치형과 관리형 서비스 간의 구체적인 비용 구조 및 데이터 저장 방식에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-09-22_Xem_media_0.jpg)
+![Screenshot](images/ph_2026-09-22_Xem_media_1.jpg)
+![Screenshot](images/ph_2026-09-22_Xem_media_2.jpg)
+
+---
+
