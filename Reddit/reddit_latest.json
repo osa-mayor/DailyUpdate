@@ -1,61 +1,59 @@
 {
   "source": "reddit",
-  "date": "2026-10-05",
-  "generated_at": "2026-10-05T04:58:47.515027+09:00",
-  "count": 4,
-  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 로컬 LLM의 효율적인 운영을 위한 하드웨어 구성과 캐싱 전략, 그리고 임베딩 차원과 같은 모델 아키텍처의 기술적 배경에 대한 논의가 활발했습니다. 또한, 실무적인 NLP 기술 스택 선택과 데이터 처리 효율성을 높이기 위한 다양한 방법론들이 공유되었습니다.",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T05:32:52.034883+09:00",
+  "count": 2,
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 소비자용 GPU와 브라우저 환경에서의 효율적인 모델 구동 기술이 주요 화두였습니다. 특히 대규모 MoE 모델을 저사양 하드웨어에서 구동하는 최적화 기법과 WebGPU를 활용한 초고속 추론 성능 확보가 주목받았습니다.",
   "daily_key_points": [
-    "kNN 기반 로컬 캐싱 시스템을 통해 모델 응답 속도를 높이고 API 비용 및 레이트 리밋 문제를 효과적으로 해결할 수 있습니다.",
-    "임베딩 모델의 1536 차원은 GPT-3의 영향과 계산 효율성을 고려한 업계의 관습적 표준으로 자리 잡았습니다.",
-    "하드웨어 구성 시 모델 크기가 VRAM 용량 이내라면 GPU를 분리하여 메인 작업과 LLM 구동을 병행하는 것이 실용적입니다."
+    "capy-flash 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 소비자용 GPU 환경에서도 대형 MoE 모델을 안정적으로 구동합니다.",
+    "새롭게 출시된 Ternary Bonsai 2 모델 시리즈는 브라우저 기반의 로컬 실행 환경에서 매우 높은 추론 속도를 제공합니다.",
+    "하드웨어 제약을 극복하기 위한 정밀도 최적화와 WebGPU 커널 활용 등 로컬 LLM 구동 효율을 극대화하는 기술적 시도들이 이어지고 있습니다."
   ],
   "daily_tags": [
-    "LLM",
-    "NLP",
-    "Embedding",
-    "Hardware",
-    "MachineLearning"
+    "LocalLLM",
+    "ModelOptimization",
+    "WebGPU",
+    "MoE",
+    "EdgeAI"
   ],
   "subreddits_covered": [
-    "LanguageTechnology",
     "LocalLLaMA"
   ],
   "source_modes_used": [
-    "new",
-    "rising"
+    "new"
   ],
   "run_stats": {
     "candidate_count": 16,
-    "finalist_count": 4,
-    "summarization_wall_sec": 247.462,
-    "total_wall_sec": 339.496
+    "finalist_count": 2,
+    "summarization_wall_sec": 174.715,
+    "total_wall_sec": 232.758
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 로컬 LLM의 효율적인 운영을 위한 하드웨어 구성과 캐싱 전략, 그리고 임베딩 차원과 같은 모델 아키텍처의 기술적 배경에 대한 논의가 활발했습니다. 또한, 실무적인 NLP 기술 스택 선택과 데이터 처리 효율성을 높이기 위한 다양한 방법론들이 공유되었습니다.\n\n🔥 1. I built a local kNN cache in front of Jev. Numbers, caveats and two negative results inside (author here)\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: Jev 모델의 응답 속도를 높이고 비용을 절감하기 위해 kNN(k-Nearest Neighbors) 기반의 로컬 캐싱 시스템을 구축한 프로젝트를 소개합니다. 유사도 임계값과 투표 방식을 사용하여 로컬에서 즉각적인 답변을 제공하며, 반복적인 입력에 대해 빠른 응답과 낮은 지연 시간을 목표로 합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1wxoqqp/i_built_a_local_knn_cache_in_front_of_jev_numbers/\n\n🔥 2. Why 1536 dimensions for embedding models?\nr/LanguageTechnology | 👍 28 | 💬 11\n📝 요약: 임베딩 모델에서 1536 차원이 자주 사용되는 이유에 대한 기술적 의문과 그에 대한 커뮤니티의 분석을 다루고 있습니다. 사용자들은 특정 수치가 관습적인 표준이 되었거나 아키텍처 설계상의 효율성 때문일 것이라는 다양한 가설을 제시합니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1wwf9hb/why_1536_dimensions_for_embedding_models/\n\n🔥 3. Any benefit to doing this?\nr/LocalLLaMA | 👍 0 | 💬 2\n📝 요약: 사용자가 RTX 4090과 3090 Ti를 분리하여 하나는 메인 PC로, 다른 하나는 별도의 LLM 전용 PC로 구성하는 것에 대한 효율성을 질문했습니다. 커뮤니티에서는 모델 크기가 24GB 이내라면 작업 분리를 통해 메인 PC의 활용도를 높이는 것이 유리하다는 의견이 지배적입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1wxomzr/any_benefit_to_doing_this/\n\n🔥 4. Im new to this and i need help.\nr/LanguageTechnology | 👍 1 | 💬 0\n📝 요약: 채팅 시스템의 의도 분류를 위해 개체명 인식(NER) 기술을 활용하려는 초보 개발자의 질문입니다. 문장에서 인물, 객체, 동사 및 관계를 추출하는 데 있어 spaCy와 BERT 중 어떤 방식이 더 적합할지 조언을 구하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1wwsykv/im_new_to_this_and_i_need_help/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 소비자용 GPU와 브라우저 환경에서의 효율적인 모델 구동 기술이 주요 화두였습니다. 특히 대규모 MoE 모델을 저사양 하드웨어에서 구동하는 최적화 기법과 WebGPU를 활용한 초고속 추론 성능 확보가 주목받았습니다.\n\n🔥 1. capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/\n\n🔥 2. Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.\nr/LocalLLaMA | 👍 12 | 💬 4\n📝 요약: Ternary Bonsai 2 모델 시리즈(2B, 4B, 9B)가 Hugging Face에 출시되었습니다. 특히 2B 모델은 M4 Max 환경에서 커스텀 WebGPU 커널을 통해 브라우저 내 로컬 실행 시 초당 최대 500 토큰의 빠른 속도를 구현합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/\n\n출처: Reddit (r/LocalLLaMA)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1wxoqqp",
+      "post_id": "1x6wh1z",
       "subreddit": "LocalLLaMA",
-      "title": "I built a local kNN cache in front of Jev. Numbers, caveats and two negative results inside (author here)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxoqqp/i_built_a_local_knn_cache_in_front_of_jev_numbers/",
+      "title": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-04T19:48:07",
-      "korean_summary": "Jev 모델의 응답 속도를 높이고 비용을 절감하기 위해 kNN(k-Nearest Neighbors) 기반의 로컬 캐싱 시스템을 구축한 프로젝트를 소개합니다. 유사도 임계값과 투표 방식을 사용하여 로컬에서 즉각적인 답변을 제공하며, 반복적인 입력에 대해 빠른 응답과 낮은 지연 시간을 목표로 합니다.",
+      "pub_date": "2026-10-15T20:20:40",
+      "korean_summary": "사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.",
       "external_article_summary": "",
       "key_points": [
-        "bge-small-en-v1.5 임베딩을 활용하여 유사도가 0.90 이상이고 5개 이웃이 일치할 경우 로컬에서 답변을 처리하는 방식입니다.",
-        "Warm 상태에서는 호출의 87%를 절감하며 97.6%의 정확도를 보이고, Cold 상태에서는 53% 절감 및 97.4%의 정확도를 기록했습니다.",
-        "비용 절감보다는 응답 속도 향상(30-50ms), API 레이트 리밋 회피, 데이터 보안 유지 측면에서 강점을 가집니다."
+        "capy-flash는 2개의 RTX 5070 Ti 16GB 환경에서 Qwen3.8-Flash-Next 125B 모델을 NVFP4 포맷으로 구동하며, 텐서 병렬 방식을 통해 높은 생성 속도와 프리필 성능을 제공합니다.",
+        "텐서 병렬 처리 시 발생하는 반올림 오차 문제를 해결하기 위해 부분 합을 FP16으로 기록하는 방식을 도입하여, 단일 GPU 수준의 수치적 정확도를 유지합니다.",
+        "현재 리눅스 및 RTX 50 시리즈(sm_120) 환경을 지원하며, 기존 Strata 엔진 대비 특정 작업에서 더 빠른 성능을 보여줍니다."
       ],
       "tags": [
-        "Efficiency",
-        "Benchmark",
-        "Semantic_Search",
+        "Agent",
         "AI",
-        "LLM_Caching"
+        "Benchmark",
+        "NVIDIA",
+        "Quantization"
       ],
       "source_modes": [
         "new"
@@ -69,98 +67,31 @@
     },
     {
       "source": "reddit",
-      "post_id": "1wwf9hb",
-      "subreddit": "LanguageTechnology",
-      "title": "Why 1536 dimensions for embedding models?",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1wwf9hb/why_1536_dimensions_for_embedding_models/",
+      "post_id": "1x6w658",
+      "subreddit": "LocalLLaMA",
+      "title": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
       "external_link": null,
-      "score": "28",
-      "comments_count": 11,
-      "comment_sample_count": 7,
-      "pub_date": "2026-10-03T05:36:01",
-      "korean_summary": "임베딩 모델에서 1536 차원이 자주 사용되는 이유에 대한 기술적 의문과 그에 대한 커뮤니티의 분석을 다루고 있습니다. 사용자들은 특정 수치가 관습적인 표준이 되었거나 아키텍처 설계상의 효율성 때문일 것이라는 다양한 가설을 제시합니다.",
+      "score": "12",
+      "comments_count": 4,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-15T20:09:00",
+      "korean_summary": "Ternary Bonsai 2 모델 시리즈(2B, 4B, 9B)가 Hugging Face에 출시되었습니다. 특히 2B 모델은 M4 Max 환경에서 커스텀 WebGPU 커널을 통해 브라우저 내 로컬 실행 시 초당 최대 500 토큰의 빠른 속도를 구현합니다.",
       "external_article_summary": "",
       "key_points": [
-        "BERT의 768 차원을 확장한 GPT-3 모델의 영향으로 1536 차원이 업계의 사실상 표준(de facto standard)이 되었다는 분석이 있습니다.",
-        "트랜스포머 아키텍처에서 어텐션 헤드(Attention Heads) 분할 시 512의 배수로서 계산 효율성을 제공할 수 있다는 기술적 추측이 제기되었습니다.",
-        "표현력과 메모리/연산 비용 사이의 균형을 맞추기 위한 경험적인 선택일 가능성이 논의되었습니다."
+        "2B, 4B, 9B 세 가지 크기의 Ternary Bonsai 2 모델이 Hugging Face에 공개되었습니다.",
+        "M4 Max 칩셋과 커스텀 WebGPU 커널을 활용하여 브라우저 기반 로컬 실행 시 매우 높은 추론 속도를 제공합니다.",
+        "Hugging Face를 통해 모델 컬렉션과 WebGPU 데모를 바로 확인할 수 있습니다."
       ],
       "tags": [
-        "Transformer",
         "AI",
-        "Embedding",
+        "EdgeAI",
+        "Release",
+        "WebGPU",
         "LLM"
       ],
       "source_modes": [
-        "rising"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1wxomzr",
-      "subreddit": "LocalLLaMA",
-      "title": "Any benefit to doing this?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxomzr/any_benefit_to_doing_this/",
-      "external_link": null,
-      "score": "0",
-      "comments_count": 2,
-      "comment_sample_count": 2,
-      "pub_date": "2026-10-04T19:43:55",
-      "korean_summary": "사용자가 RTX 4090과 3090 Ti를 분리하여 하나는 메인 PC로, 다른 하나는 별도의 LLM 전용 PC로 구성하는 것에 대한 효율성을 질문했습니다. 커뮤니티에서는 모델 크기가 24GB 이내라면 작업 분리를 통해 메인 PC의 활용도를 높이는 것이 유리하다는 의견이 지배적입니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "두 GPU를 분리하면 LLM 구동 중에도 메인 PC에서 게임이나 ComfyUI 작업을 원활하게 수행할 수 있습니다.",
-        "단일 시스템에 두 카드를 모두 장착할 경우 VRAM 통합 활용 측면에서 손해를 볼 수 있으나, 모델이 24GB 이내라면 분리 구성이 실용적입니다.",
-        "사용자가 보유한 구형 부품을 활용해 저비용으로 별도 워크스테이션을 구축하는 방안이 제시되었습니다."
-      ],
-      "tags": [
-        "AI",
-        "LLM",
-        "GPU",
-        "Hardware"
-      ],
-      "source_modes": [
         "new"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1wwsykv",
-      "subreddit": "LanguageTechnology",
-      "title": "Im new to this and i need help.",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1wwsykv/im_new_to_this_and_i_need_help/",
-      "external_link": null,
-      "score": "1",
-      "comments_count": 0,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-03T17:33:44",
-      "korean_summary": "채팅 시스템의 의도 분류를 위해 개체명 인식(NER) 기술을 활용하려는 초보 개발자의 질문입니다. 문장에서 인물, 객체, 동사 및 관계를 추출하는 데 있어 spaCy와 BERT 중 어떤 방식이 더 적합할지 조언을 구하고 있습니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "채팅 시스템 내 의도 분류를 목적으로 문장에서 인물, 객체, 동사, 수량 및 관계를 파싱하는 프로젝트를 진행 중입니다.",
-        "전통적인 NLP 라이브러리인 spaCy와 트랜스포머 기반의 BERT 모델 사이에서 어떤 기술 스택을 선택할지 고민하고 있습니다.",
-        "사용자 핸들을 통해 인물을 식별하고, 문장 내 객체와 속성 간의 관계를 추출하는 정교한 의미론적 이해를 목표로 합니다."
-      ],
-      "tags": [
-        "NLP",
-        "AI",
-        "NER",
-        "NaturalLanguageProcessing"
-      ],
-      "source_modes": [
-        "rising"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",

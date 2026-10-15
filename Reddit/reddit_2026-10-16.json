@@ -1,0 +1,104 @@
+{
+  "source": "reddit",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T05:32:52.034883+09:00",
+  "count": 2,
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 소비자용 GPU와 브라우저 환경에서의 효율적인 모델 구동 기술이 주요 화두였습니다. 특히 대규모 MoE 모델을 저사양 하드웨어에서 구동하는 최적화 기법과 WebGPU를 활용한 초고속 추론 성능 확보가 주목받았습니다.",
+  "daily_key_points": [
+    "capy-flash 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 소비자용 GPU 환경에서도 대형 MoE 모델을 안정적으로 구동합니다.",
+    "새롭게 출시된 Ternary Bonsai 2 모델 시리즈는 브라우저 기반의 로컬 실행 환경에서 매우 높은 추론 속도를 제공합니다.",
+    "하드웨어 제약을 극복하기 위한 정밀도 최적화와 WebGPU 커널 활용 등 로컬 LLM 구동 효율을 극대화하는 기술적 시도들이 이어지고 있습니다."
+  ],
+  "daily_tags": [
+    "LocalLLM",
+    "ModelOptimization",
+    "WebGPU",
+    "MoE",
+    "EdgeAI"
+  ],
+  "subreddits_covered": [
+    "LocalLLaMA"
+  ],
+  "source_modes_used": [
+    "new"
+  ],
+  "run_stats": {
+    "candidate_count": 16,
+    "finalist_count": 2,
+    "summarization_wall_sec": 174.715,
+    "total_wall_sec": 232.758
+  },
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 소비자용 GPU와 브라우저 환경에서의 효율적인 모델 구동 기술이 주요 화두였습니다. 특히 대규모 MoE 모델을 저사양 하드웨어에서 구동하는 최적화 기법과 WebGPU를 활용한 초고속 추론 성능 확보가 주목받았습니다.\n\n🔥 1. capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/\n\n🔥 2. Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.\nr/LocalLLaMA | 👍 12 | 💬 4\n📝 요약: Ternary Bonsai 2 모델 시리즈(2B, 4B, 9B)가 Hugging Face에 출시되었습니다. 특히 2B 모델은 M4 Max 환경에서 커스텀 WebGPU 커널을 통해 브라우저 내 로컬 실행 시 초당 최대 500 토큰의 빠른 속도를 구현합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/\n\n출처: Reddit (r/LocalLLaMA)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "items": [
+    {
+      "source": "reddit",
+      "post_id": "1x6wh1z",
+      "subreddit": "LocalLLaMA",
+      "title": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+      "external_link": null,
+      "score": "Error",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-15T20:20:40",
+      "korean_summary": "사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "capy-flash는 2개의 RTX 5070 Ti 16GB 환경에서 Qwen3.8-Flash-Next 125B 모델을 NVFP4 포맷으로 구동하며, 텐서 병렬 방식을 통해 높은 생성 속도와 프리필 성능을 제공합니다.",
+        "텐서 병렬 처리 시 발생하는 반올림 오차 문제를 해결하기 위해 부분 합을 FP16으로 기록하는 방식을 도입하여, 단일 GPU 수준의 수치적 정확도를 유지합니다.",
+        "현재 리눅스 및 RTX 50 시리즈(sm_120) 환경을 지원하며, 기존 Strata 엔진 대비 특정 작업에서 더 빠른 성능을 보여줍니다."
+      ],
+      "tags": [
+        "Agent",
+        "AI",
+        "Benchmark",
+        "NVIDIA",
+        "Quantization"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "playwright",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1x6w658",
+      "subreddit": "LocalLLaMA",
+      "title": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+      "external_link": null,
+      "score": "12",
+      "comments_count": 4,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-15T20:09:00",
+      "korean_summary": "Ternary Bonsai 2 모델 시리즈(2B, 4B, 9B)가 Hugging Face에 출시되었습니다. 특히 2B 모델은 M4 Max 환경에서 커스텀 WebGPU 커널을 통해 브라우저 내 로컬 실행 시 초당 최대 500 토큰의 빠른 속도를 구현합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "2B, 4B, 9B 세 가지 크기의 Ternary Bonsai 2 모델이 Hugging Face에 공개되었습니다.",
+        "M4 Max 칩셋과 커스텀 WebGPU 커널을 활용하여 브라우저 기반 로컬 실행 시 매우 높은 추론 속도를 제공합니다.",
+        "Hugging Face를 통해 모델 컬렉션과 WebGPU 데모를 바로 확인할 수 있습니다."
+      ],
+      "tags": [
+        "AI",
+        "EdgeAI",
+        "Release",
+        "WebGPU",
+        "LLM"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    }
+  ]
+}
