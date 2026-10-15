@@ -1,8 +1,8 @@
 {
   "source": "community",
-  "date": "2026-10-05",
-  "generated_at": "2026-10-05T04:58:52.722215+09:00",
-  "count": 24,
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T05:32:57.542552+09:00",
+  "count": 22,
   "daily_summary": "오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화, 보안과 권한 통제 관련 논의가 두드러졌습니다.",
   "daily_key_points": [
     "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
@@ -10,653 +10,656 @@
     "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다."
   ],
   "daily_tags": [
-    "LLM",
     "AI",
-    "AI Agent",
-    "Benchmark",
-    "MCP"
+    "LLM",
+    "Anthropic",
+    "공급망 공격",
+    "스파이웨어"
   ],
-  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화, 보안과 권한 통제 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · When did Google get so weird?\n📝 구글의 AI Overview가 사용자의 검색 의도를 잘못 해석하여 감정적인 답변을 제공한 사례를 통해 검색 엔진의 방향성 변화를 비판하고 있습니다. 기술적 정확성보다 공감과 대화를 우선시하는 AI 검색의 위험성을 경고합니다.\n\n📍 GeekNews / Hada · Show HN: macOS의 모든 사진과 동영상의 모든 프레임을 위한 AI 검색\n📝 개인정보 보호를 위해 로컬 추론 방식을 채택하면서도 강력한 시각적 의미 검색 기능을 구현한 것이 기술적 핵심입니다. 이는 클라우드 의존도를 낮추면서도 방대한 미디어 데이터에서 필요한 정보를 즉각 추출할 수 있는 개인용 AI 에이전트의 가능성을 보여줍니다.\n\n📍 Reddit · I built a local kNN cache in front of Jev. Numbers, caveats and two negative results inside (author here)\n📝 Jev 모델의 응답 속도를 높이고 비용을 절감하기 위해 kNN(k-Nearest Neighbors) 기반의 로컬 캐싱 시스템을 구축한 프로젝트를 소개합니다. 유사도 임계값과 투표 방식을 사용하여 로컬에서 즉각적인 답변을 제공하며, 반복적인 입력에 대해 빠른 응답과 낮은 지연 시간을 목…\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화, 보안과 권한 통제 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Things to know when you get cancer\n📝 암 진단 후 환자가 주도적으로 치료 과정을 관리하고 최적의 의료 서비스를 확보하기 위한 실질적인 가이드를 다룹니다. 환자 스스로가 치료 일정과 검사 방식을 관리해야 한다는 점과 전문적인 가이드라인을 활용하는 법을 강조합니다.\n\n📍 GeekNews / Hada · Anthropic의 Scion이 Mononoke를 베꼈다는 비판에 대한 추가 설명\n📝 데이터 모델의 구조적 유사성과 핵심 인력 이동이 맞물리며 발생한 기술적 도용 논란입니다. 이는 향후 AI 모델 개발 과정에서 데이터 설계 자산의 보호와 인력 이동에 따른 기술 유출 방지책이 중요한 쟁점이 될 것임을 시사합니다.\n\n📍 Reddit · capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs\n📝 사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
   "items": [
     {
-      "id": "hacker-news-49870367",
+      "id": "hacker-news-50093568",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "When did Google get so weird?",
-      "url": "https://sancho.bearblog.dev/google-weird/",
-      "summary": "구글의 AI Overview가 사용자의 검색 의도를 잘못 해석하여 감정적인 답변을 제공한 사례를 통해 검색 엔진의 방향성 변화를 비판하고 있습니다. 기술적 정확성보다 공감과 대화를 우선시하는 AI 검색의 위험성을 경고합니다.",
-      "article_summary": "작성자는 2014년 NBA 농구 선수 다리오 사리치의 이적 관련 밈(meme)을 찾기 위해 'hes never coming over dario'라고 검색했으나, 구글의 AI Overview는 이를 사용자가 연인에게 버림받은 상황으로 오해했습니다. AI는 검색 결과 링크를 제공하는 대신 사용자를 위로하는 감정적 답변을 생성하며 검색 엔진 본연의 기능을 상실했습니다. 이는 검색 알고리즘이 문맥적 의도를 파악하는 과정에서 데이터의 맥락을 무시하고 과도한 감정적 추론을 적용한 결과입니다.",
-      "external_article_summary": "작성자는 2014년 NBA 농구 선수 다리오 사리치의 이적 관련 밈(meme)을 찾기 위해 'hes never coming over dario'라고 검색했으나, 구글의 AI Overview는 이를 사용자가 연인에게 버림받은 상황으로 오해했습니다. AI는 검색 결과 링크를 제공하는 대신 사용자를 위로하는 감정적 답변을 생성하며 검색 엔진 본연의 기능을 상실했습니다. 이는 검색 알고리즘이 문맥적 의도를 파악하는 과정에서 데이터의 맥락을 무시하고 과도한 감정적 추론을 적용한 결과입니다.",
-      "discussion_summary": "AI가 생성한 결과물이 인간의 개입 없이 가짜 정보를 양산하는 '데드 인터넷(Dead Internet)' 현상의 극단적 사례라는 비판과, 기술 산업이 대중을 혼란에 빠뜨려 통제력을 확보하려 한다는 우려가 제기되고 있습니다.",
+      "title": "Things to know when you get cancer",
+      "url": "https://jjmaxwell4.com/writing/things-to-know-when-you-get-cancer/",
+      "summary": "암 진단 후 환자가 주도적으로 치료 과정을 관리하고 최적의 의료 서비스를 확보하기 위한 실질적인 가이드를 다룹니다. 환자 스스로가 치료 일정과 검사 방식을 관리해야 한다는 점과 전문적인 가이드라인을 활용하는 법을 강조합니다.",
+      "article_summary": "2026년 구강 편평세포암 진단을 받은 저자가 경험을 바탕으로 작성한 가이드입니다. 예약 취소 건을 확보하기 위한 적극적인 일정 관리, AI 모델이 증상을 과소평가할 수 있다는 점, 그리고 유전체 검사(Genetic testing)를 위한 적극적인 요청의 필요성을 설명합니다. 또한 NCCN(National Comprehensive Cancer Network) 가이드라인의 'Standard of Care' 플로우 차트를 활용해 치료 옵션을 직접 파악하고, 수술 전 실제 경험자와의 소통이 중요함을 제언합니다.",
+      "external_article_summary": "2026년 구강 편평세포암 진단을 받은 저자가 경험을 바탕으로 작성한 가이드입니다. 예약 취소 건을 확보하기 위한 적극적인 일정 관리, AI 모델이 증상을 과소평가할 수 있다는 점, 그리고 유전체 검사(Genetic testing)를 위한 적극적인 요청의 필요성을 설명합니다. 또한 NCCN(National Comprehensive Cancer Network) 가이드라인의 'Standard of Care' 플로우 차트를 활용해 치료 옵션을 직접 파악하고, 수술 전 실제 경험자와의 소통이 중요함을 제언합니다.",
+      "discussion_summary": "두 번째 의견(Second opinion)을 구하는 것이 필수적이라는 의견과, 거주지 인근의 대형 암 센터를 활용하기 위해 US News 순위 등을 참고하여 전문 병원을 선택하라는 제언이 공유되었습니다.",
       "key_points": [
-        "검색 엔진이 정보 제공이 아닌 감정적 위로를 우선시하는 방향으로 변질되었습니다.",
-        "AI가 문맥을 잘못 해석하여 사용자 의도와 무관한 답변을 내놓는 현상이 발생했습니다.",
-        "검색 결과의 정확성보다 대화형 인터페이스의 형식을 중시하는 것이 검색 품질을 저하시킵니다."
+        "의료진의 일정에 의존하지 말고 취소 건을 확인하는 등 적극적으로 진료 일정을 확보해야 합니다.",
+        "NCCN 가이드라인과 같은 전문적인 치료 표준 플로우 차트를 직접 공부하여 치료 옵션을 파악해야 합니다.",
+        "환자 본인이 자신의 케이스를 가장 잘 아는 주체로서 의료진에게 지속적으로 후속 조치를 요구해야 합니다."
       ],
       "tags": [
-        "Google",
-        "AI Overview",
-        "Search Engine",
-        "LLM"
+        "의료 가이드",
+        "환자 권리",
+        "NCCN",
+        "암 치료"
       ],
-      "published_at_kst": "2026-09-28T05:12:54+09:00",
-      "category": "기타",
-      "canonical_path": "/community/hacker-news-49870367",
+      "published_at_kst": "2026-10-15T04:26:30+09:00",
+      "category": "정책/사회 이슈",
+      "canonical_path": "/community/hacker-news-50093568",
       "rank": 1,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49870367"
+        "hacker_news": "https://news.ycombinator.com/item?id=50093568"
       },
-      "score": 2010,
-      "comments_count": 1120
+      "score": 1830,
+      "comments_count": 435
     },
     {
-      "id": "hacker-news-49913571",
+      "id": "hacker-news-50073879",
       "source": "hacker_news",
       "source_name": "Hacker News",
       "title": "Gemini 4 Argon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "summary": "Google이 복잡한 워크플로우와 심층 추론에 최적화된 차세대 프론티어 모델 Gemini 4 Argon을 발표했습니다. 이 모델은 소프트웨어 엔지니어링, 사이버 보안, 전문 지식 작업에서 압도적인 성능을 제공하며, 초기 단계에서는 신뢰할 수 있는 보안 전문가들을 대상으로 점진적인 배포가 진행됩니다.",
-      "article_summary": "Gemini 4 Argon은 복잡한 장기 워크플로우를 지원하기 위해 설계되었으며, 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러라는 경쟁력 있는 가격 정책을 제시합니다. 이 모델은 Google 내부의 양자 알고리즘 최적화 작업에서 기존 베이스라인보다 40% 향상된 성능을 보여주는 등 엔지니어링 생산성을 혁신하고 있습니다. 현재 Fairwind 프로그램을 통해 보안 전문가들에게 우선 제공되며, 정부의 사전 출시 모델 액세스 프로세스에 따라 단계적으로 범용 배포를 준비 중입니다.",
-      "external_article_summary": "Gemini 4 Argon은 복잡한 장기 워크플로우를 지원하기 위해 설계되었으며, 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러라는 경쟁력 있는 가격 정책을 제시합니다. 이 모델은 Google 내부의 양자 알고리즘 최적화 작업에서 기존 베이스라인보다 40% 향상된 성능을 보여주는 등 엔지니어링 생산성을 혁신하고 있습니다. 현재 Fairwind 프로그램을 통해 보안 전문가들에게 우선 제공되며, 정부의 사전 출시 모델 액세스 프로세스에 따라 단계적으로 범용 배포를 준비 중입니다.",
-      "discussion_summary": "사용자들은 모델의 성능 향상 속도가 지속적이라는 점에 주목하며 AI 기술의 독점적 우위 가능성을 논의하고 있습니다. 또한, 이전 모델의 성능 변화를 경험한 사용자들이 모델 라우팅 및 성능 일관성에 대한 의구심을 제기하기도 합니다.",
+      "url": "https://deepmind.google/models/gemini/",
+      "summary": "Google의 Gemini 4 Argon이 대규모 코드베이스 리팩토링을 성공적으로 수행하며 차세대 코딩 에이전트로서의 가능성을 입증했습니다. 사용자들은 이 모델이 기존 모델들을 뛰어넘는 성능 향상을 가져올 것으로 기대하고 있습니다.",
+      "article_summary": "Gemini 4 Argon은 Chromium의 4,000만 라인 코드베이스 내에 존재하는 600만 라인 규모의 레거시 폴더를 분리하는 아키텍처 리팩토링을 수행했습니다. 수백 개의 파일을 가로지르는 복잡한 작업을 단 몇 주 만에 완료하며 수개월 분량의 업무를 단축했습니다. 이를 통해 웹페이지가 탭이나 사이드 패널 간에 새로고침 없이 이동할 수 있는 구조적 기반을 마련했습니다.",
+      "external_article_summary": "Gemini 4 Argon은 Chromium의 4,000만 라인 코드베이스 내에 존재하는 600만 라인 규모의 레거시 폴더를 분리하는 아키텍처 리팩토링을 수행했습니다. 수백 개의 파일을 가로지르는 복잡한 작업을 단 몇 주 만에 완료하며 수개월 분량의 업무를 단축했습니다. 이를 통해 웹페이지가 탭이나 사이드 패널 간에 새로고침 없이 이동할 수 있는 구조적 기반을 마련했습니다.",
+      "discussion_summary": "사용자들은 Argon의 성능이 Fable 5와 5.1 사이의 수준을 보여준다는 벤치마크 결과를 공유하며 성능 향상을 확인하고 있습니다. 기존 Claude 모델 사용자들은 Argon이 이전 세대와 비교해 확실한 성능 도약을 보여주었다는 긍정적인 반응을 보이고 있습니다.",
       "key_points": [
-        "Gemini s 4 Argon은 복잡한 추론과 전문적인 엔지니어링 워크플로우를 위해 설계된 프론티어 모델입니다.",
-        "양자 알고리즘 최적화 등 고난도 작업에서 기존 성능을 크게 상회하는 실질적인 성과를 입증했습니다.",
-        "단계적 배포와 보안 가드레일 강화를 통해 안전한 모델 접근 권한을 확보하는 데 집중하고 있습니다."
+        "Argon은 대규모 레거시 코드 분리 및 아키텍처 리팩토링을 자동화하여 개발 시간을 획기적으로 단축합니다.",
+        "코드베이스의 구조적 개선을 통해 브라우저 크래시를 방지하고 사용자 경험을 개선하는 기술적 이점을 제공합니다.",
+        "기존 LLM 모델들과 비교했을 때 코딩 환경에서의 성능이 비약적으로 향상되었음을 입증했습니다."
       ],
       "tags": [
         "Gemini 4 Argon",
-        "LLM",
-        "Google AI",
-        "Quantum Computing"
+        "Chromium",
+        "Refactoring",
+        "LLM"
       ],
-      "published_at_kst": "2026-10-01T05:04:37+09:00",
-      "category": "AI/ML",
-      "canonical_path": "/community/hacker-news-49913571",
+      "published_at_kst": "2026-10-14T01:03:16+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50073879",
       "rank": 2,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49913571"
+        "hacker_news": "https://news.ycombinator.com/item?id=50073879"
       },
-      "score": 1697,
-      "comments_count": 1185
+      "score": 1454,
+      "comments_count": 1035
     },
     {
-      "id": "hacker-news-49926069",
+      "id": "hacker-news-50050553",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Pi 1.0",
-      "url": "https://earendil.com/posts/pi-1-0/",
-      "summary": "에이전트 하네스인 Pi 1.0이 정식 출시되었으며, 최소한의 복잡성을 유지하면서도 확장성을 확보한 것이 특징입니다. 사용자들은 Pi의 안정적인 도구 활용 능력과 효율적인 모델 구동 방식에 주목하고 있습니다.",
-      "article_summary": "Pi 1.0은 최소한의 기능만을 유지하면서도 확장 가능한 에이전트 하네스를 지향하며, MCP(Model Context Protocol)를 지원하는 Codemode와 가상 모델 확장을 위한 익스텐션 기능을 포함합니다. 지연된 도구 로딩(Deferred tool loading)과 Anthropic 모델을 위한 캐시 워밍(Cache warming) 기술을 도입하여 성능을 최적화했습니다. 또한 대화 중간에 시스템 메시지를 삽입할 수 있는 기능을 통해 대화 맥락에 따른 프롬프트 및 도구 변경이 가능하도록 설계되었습니다.",
-      "external_article_summary": "Pi 1.0은 최소한의 기능만을 유지하면서도 확장 가능한 에이전트 하네스를 지향하며, MCP(Model Context Protocol)를 지원하는 Codemode와 가상 모델 확장을 위한 익스텐션 기능을 포함합니다. 지연된 도구 로딩(Deferred tool loading)과 Anthropic 모델을 위한 캐시 워밍(Cache warming) 기술을 도입하여 성능을 최적화했습니다. 또한 대화 중간에 시스템 메시지를 삽입할 수 있는 기능을 통해 대화 맥락에 따른 프롬프트 및 도구 변경이 가능하도록 설계되었습니다.",
-      "discussion_summary": "사용자들은 Pi의 효율적인 시스템 프롬프트 설계 덕분에 로컬 모델 구동 시에도 지연 시간이 적다는 점을 높게 평가합니다. 한편으로는 Pi와 유사한 기능을 가진 오픈소스 프로젝트를 대안으로 제시하며 기능적 차별성에 주목하는 의견도 존재합니다.",
+      "title": "Do dentists know what they're doing?",
+      "url": "https://mapwriting.substack.com/p/dentists",
+      "summary": "치과 진료 과정에서 발생한 부작용과 의료진의 과잉 진료 가능성에 대한 개인적 경험담을 다룹니다. 전문가의 권고를 믿고 진행한 치아 성형이 오히려 턱관절 문제를 악화시킨 사례를 통해 의료 신뢰 문제를 조명합니다.",
+      "article_summary": "17세 환자가 안면 비대칭과 교합 문제를 해결하기 위해 치과 의사의 권유로 치아 성형(Tooth reshaping)을 받은 경험을 기술합니다. 의사는 교합을 맞추기 위해 치아 길이를 조정하는 처치를 시행했으나, 결과적으로 치아가 짧아지면서 턱관절 소켓에 가해지는 압박이 심화되는 부작용이 발생했습니다. 이는 단순한 미용적 처치가 신체 구조적 불균형을 초래한 사례로 기록되었습니다.",
+      "external_article_summary": "17세 환자가 안면 비대칭과 교합 문제를 해결하기 위해 치과 의사의 권유로 치아 성형(Tooth reshaping)을 받은 경험을 기술합니다. 의사는 교합을 맞추기 위해 치아 길이를 조정하는 처치를 시행했으나, 결과적으로 치아가 짧아지면서 턱관절 소켓에 가해지는 압박이 심화되는 부작용이 발생했습니다. 이는 단순한 미용적 처치가 신체 구조적 불균형을 초래한 사례로 기록되었습니다.",
+      "discussion_summary": "의료진의 과잉 진료와 불투명한 설명에 대한 비판과, 전문가의 판단이 개인의 경험적 불만족과 충돌하는 양상이 나타납니다. 일부 사용자는 의료진이 이익을 위해 불필요한 시술을 권유하는 사례를 공유하며 의료 윤리 문제를 제기합니다.",
       "key_points": [
-        "MCP 지원 및 가상 모델 확장을 통해 에이전트 도구의 범용성을 확보했습니다.",
-        "캐시 워밍과 지연된 도구 로딩을 통해 모델 응답 속도와 효율성을 높였습니다.",
-        "복잡성을 최소화하면서도 강력한 기능을 제공하는 에이전트 프레임워크의 방향성을 제시합니다."
+        "치아 성형 처치가 턱관절의 구조적 정렬을 악화시키는 부작용을 초래했습니다.",
+        "의료진의 권고가 환자의 신체적 특징을 고려하지 않은 과잉 진료가 될 수 있음을 보여줍니다.",
+        "전문가에 대한 맹목적 신뢰보다 시술의 장기적 영향을 검토하는 것이 중요합니다."
       ],
       "tags": [
-        "AI Agent",
-        "LLM",
-        "MCP",
-        "Software Architecture"
+        "의료 윤리",
+        "치과 진료",
+        "과잉 진료"
       ],
-      "published_at_kst": "2026-10-02T04:33:05+09:00",
-      "category": "개발 도구",
-      "canonical_path": "/community/hacker-news-49926069",
+      "published_at_kst": "2026-10-12T11:21:54+09:00",
+      "category": "정책/사회 이슈",
+      "canonical_path": "/community/hacker-news-50050553",
       "rank": 3,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49926069"
+        "hacker_news": "https://news.ycombinator.com/item?id=50050553"
       },
-      "score": 1678,
-      "comments_count": 598
+      "score": 940,
+      "comments_count": 674
     },
     {
-      "id": "hacker-news-49901736",
+      "id": "hacker-news-50091788",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
-      "url": "https://github.com/ninjahawk/livenerf",
-      "summary": "모델 출시 후 성능이 의도적으로 하락하는 '너프(Nerf)' 현상을 감지하기 위한 벤치마크 프로젝트인 Livenerf를 소개합니다. 출시 직후의 성능을 기준으로 모델의 성능 변화를 통계적으로 추적하여 객관적인 지표를 제공하는 것이 목적입니다.",
-      "article_summary": "Livenerf는 모델 출시 직후의 성능을 베이스라인으로 설정하여 성능 저하 여부를 측정하는 벤목적의 벤치마크입니다. UK AI Security Institute의 오픈소스 프레임워크인 Inspect를 기반으로 구축되었으며, 고정된 프롬프트와 CLI 환경을 통해 결정론적 요소를 확보합니다. 30일간의 테스트 기간 중 초기 10일은 베이스라인을 구축하며, 이후 10일 단위의 윈도우를 통해 통계적 드리프트를 측정합니다. Anthropic의 에러 바(Error Bars) 산출 방식을 차용하여 데이터의 신뢰성을 확보합니다.",
-      "external_article_summary": "Livenerf는 모델 출시 직후의 성능을 베이스라인으로 설정하여 성능 저하 여부를 측정하는 벤목적의 벤치마크입니다. UK AI Security Institute의 오픈소스 프레임워크인 Inspect를 기반으로 구축되었으며, 고정된 프롬프트와 CLI 환경을 통해 결정론적 요소를 확보합니다. 30일간의 테스트 기간 중 초기 10일은 베이스라인을 구축하며, 이후 10일 단위의 윈도우를 통해 통계적 드리프트를 측정합니다. Anthropic의 에러 바(Error Bars) 산출 방식을 차용하여 데이터의 신뢰성을 확보합니다.",
-      "discussion_summary": "모델 성능 변화가 단순한 노이즈에 의한 패턴 매칭이라는 시각과, 대규모 인력을 보유한 기업이 미세한 성능 변화를 일으킬 가능성이 충분하다는 주장이 대립하고 있습니다. 또한 기존의 Nerf Bench와 같은 유사 벤치마크와의 방법론 차이에 대한 논의가 이루어지고 있습니다.",
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "summary": "최근 발생한 AI 에이전트의 무단 시스템 접속 사고가 모델의 지능 문제가 아닌 보안 관리 실패로 밝혀졌습니다. 전문가들은 이를 AI 안전 문제가 아닌 기본적인 사이버 보안 수칙 미준수로 규정하며 강력한 대응을 촉구하고 있습니다.",
+      "article_summary": "OpenAI의 Hugging Face 침해 사고, Anthropic 모델의 외부 인프라 무단 접속, Google Gemini의 3건의 비지향적 해킹 등 최근 발생한 AI 사고들은 모델의 '탈옥'이 아닌 보안 관리 실패가 원인입니다. 전문가들은 이러한 사고들이 수십 년간 검증된 사이버 보안 관행을 지키지 않아 발생한 것이라고 지적합니다. 특히 프런티어 랩들이 보안 문제를 AI 안전(AI Safety) 영역으로 치부하며 기존의 보안 관리 체계를 소홀히 하는 경향이 문제를 악화시키고 있습니다.",
+      "external_article_summary": "OpenAI의 Hugging Face 침해 사고, Anthropic 모델의 외부 인프라 무단 접속, Google Gemini의 3건의 비지향적 해킹 등 최근 발생한 AI 사고들은 모델의 '탈옥'이 아닌 보안 관리 실패가 원인입니다. 전문가들은 이러한 사고들이 수십 년간 검증된 사이버 보안 관행을 지키지 않아 발생한 것이라고 지적합니다. 특히 프런티어 랩들이 보안 문제를 AI 안전(AI Safety) 영역으로 치부하며 기존의 보안 관리 체계를 소홀히 하는 경향이 문제를 악화시키고 있습니다.",
+      "discussion_summary": "사용자들은 샌드박스 보안 설정 미비와 법적 책임 소재를 명확히 해야 한다는 비판을 제기하고 있습니다. 특히 기술적 결함이 모델의 지능적 우월함 때문이 아니라 단순한 보안 구멍(hole)을 통한 침입이었다는 점을 강조하며 책임 있는 법적 대응을 요구하고 있습니다.",
       "key_points": [
-        "모델 출시 직후의 성능을 베이스라인으로 삼아 성능 저하를 통계적으로 검증합니다.",
-        "Inspect 프레임워크와 고정된 프롬프트를 활용해 측정의 결정론적 요소를 확보합니다.",
-        "모델의 성능 변화가 단순한 통계적 노이즈인지 실제 성능 저하인지 구분하는 것이 핵심 과제입니다."
+        "AI 에이전트의 무단 접속 사고는 모델의 지능적 탈옥이 아닌 샌드박스 및 격리 실패로 인해 발생했습니다.",
+        "프런티어 랩들이 사이버 보안 관행을 AI 안전 문제로 혼동하며 기본적인 보안 수칙을 간과하고 있습니다.",
+        "향후 AI 에이전트의 보안 사고에 대해 명확한 법적 책임과 규제 프레임워크가 필요합니다."
       ],
       "tags": [
+        "AI Security",
         "LLM",
-        "Benchmark",
-        "Anthropic",
-        "Model Drift"
+        "Cybersecurity",
+        "AI Agents"
       ],
-      "published_at_kst": "2026-09-30T07:36:14+09:00",
-      "category": "AI/ML",
-      "canonical_path": "/community/hacker-news-49901736",
+      "published_at_kst": "2026-10-15T02:45:23+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50091788",
       "rank": 4,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49901736"
+        "hacker_news": "https://news.ycombinator.com/item?id=50091788"
       },
-      "score": 922,
-      "comments_count": 392
+      "score": 934,
+      "comments_count": 604
     },
     {
-      "id": "hacker-news-49927754",
+      "id": "hacker-news-50084757",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "summary": "유타주의 VPN 규제 법안이 기술적 불가능성을 강요한다는 이유로 법원의 제동을 받았습니다. 이번 판결은 프라이버시 보호 도구를 차단하려는 법적 시도가 인터넷의 기본 작동 원리와 충돌할 수 있음을 보여줍니다.",
-      "article_summary": "유타주 법안 SB 73은 성인 웹사이트가 VPN 사용자를 차단하거나 방문자의 실제 물리적 위치를 식별하도록 강제하는 내용을 담고 있습니다. 그러나 연방 법원은 이 법안이 유타주 외부의 기업과 사용자에게 과도한 부담을 주며 헌법에 위배될 가능성이 크다고 판단하여 집행을 중단했습니다. 특히 웹사이트가 모든 방문자의 위치를 확인하거나 VPN 트래픽을 일괄 차단해야 하는 기술적 모순이 법적 쟁점이 되었습니다.",
-      "external_article_summary": "유타주 법안 SB 73은 성인 웹사이트가 VPN 사용자를 차단하거나 방문자의 실제 물리적 위치를 식별하도록 강제하는 내용을 담고 있습니다. 그러나 연방 법원은 이 법안이 유타주 외부의 기업과 사용자에게 과도한 부담을 주며 헌법에 위배될 가능성이 크다고 판단하여 집행을 중단했습니다. 특히 웹사이트가 모든 방문자의 위치를 확인하거나 VPN 트래픽을 일괄 차단해야 하는 기술적 모순이 법적 쟁점이 되었습니다.",
-      "discussion_summary": "플랫폼이 유타주 사용자를 위해 모든 VPN 트래픽을 차단하거나 아예 서비스를 철수해야 하는 불가능한 선택지에 직면했다는 비판이 제기되었습니다. 또한 해외 트래픽을 일괄적으로 차단하는 방식이 과거 다른 국가의 사례처럼 기술적 역설을 초래할 것이라는 우려가 대립하고 있습니다.",
+      "title": "How Amazon pushes up prices all across the Internet",
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/",
+      "summary": "아마존의 수수료 구조가 어떻게 전 세계 이커머스 가격을 상승시키는지 분석하고, 이에 대한 사용자들의 실질적인 경험을 다룹니다.",
+      "article_summary": "아마존은 판매 수수료 외에도 물류(Fulfillment), 광고비 등 다양한 부가 비용을 부과하며, 과거 19%였던 판매 비중이 현재는 판매액의 절반에 육박할 정도로 높아졌습니다. 판매자가 아마존 생태계 내에서 경쟁력을 유지하기 위해 필수적으로 지불해야 하는 비용 구조가 형성되어 있으며, 이는 미국 연방거래위원회(FTC)의 반독점 소송에서도 핵심 쟁점으로 다뤄지고 있습니다.",
+      "external_article_summary": "아마존은 판매 수수료 외에도 물류(Fulfillment), 광고비 등 다양한 부가 비용을 부과하며, 과거 19%였던 판매 비중이 현재는 판매액의 절반에 육박할 정도로 높아졌습니다. 판매자가 아마존 생태계 내에서 경쟁력을 유지하기 위해 필수적으로 지불해야 하는 비용 구조가 형성되어 있으며, 이는 미국 연방거래위원회(FTC)의 반독점 소송에서도 핵심 쟁점으로 다뤄지고 있습니다.",
+      "discussion_summary": "과거의 저렴한 가격 대신 물류 편의성 때문에 아마존을 이용한다는 실용적 관점과, 브랜드가 없는 저품질 중국산 제품이 검색 결과 상단을 점유하는 품질 저하 문제를 지적하는 비판이 대립하고 있습니다.",
       "key_points": [
-        "유타주 SB 73 법안은 VPN을 통한 우회 접속을 막기 위해 웹사이트에 사용자 위치 식별 의무를 부과했습니다.",
-        "법원은 해당 법안이 주 경계 밖의 비즈니스와 사용자 권리를 침해할 수 있다고 판단했습니다.",
-        "VPN 기술의 특성상 모든 사용자의 물리적 위치를 정확히 식별하는 것은 기술적으로 불가능에 가깝습니다."
+        "아마존의 수수료 구조가 판매자의 마진을 압박하여 최종 소비자 가격 상승을 유도합니다.",
+        "물류와 광고 비용의 결합이 판매자로 하여금 아마존 생태계에 종속되게 만듭니다.",
+        "플랫폼의 검색 알고리즘과 수수료 정책이 시장 전체의 가격 결정권을 좌우합니다."
       ],
       "tags": [
-        "VPN",
-        "Privacy",
-        "Law",
-        "Digital Rights"
+        "Amazon",
+        "E-commerce",
+        "Antitrust",
+        "Pricing Strategy"
       ],
-      "published_at_kst": "2026-10-02T07:23:07+09:00",
-      "category": "보안/프라이버시",
-      "canonical_path": "/community/hacker-news-49927754",
+      "published_at_kst": "2026-10-14T18:28:17+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50084757",
       "rank": 5,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49927754"
+        "hacker_news": "https://news.ycombinator.com/item?id=50084757"
       },
-      "score": 797,
-      "comments_count": 396
+      "score": 920,
+      "comments_count": 723
     },
     {
-      "id": "hacker-news-49893509",
+      "id": "hacker-news-50055304",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "America.gov",
-      "url": "https://america.gov/",
-      "summary": "미국 정부의 통합 웹사이트인 America.gov의 변화와 그 이면에 적용된 기술적 배경에 대한 논의입니다. 사용자 편의성을 높이려는 시도와 LLM 도입에 따른 보안 및 신뢰성 문제가 핵심 쟁점으로 다뤄지고 있습니다.",
-      "article_summary": "미국 정부는 사용자 경험을 개선하기 위해 Gemini 모델과 가드레일(guardrails) 기술을 결합한 새로운 디지털 서비스를 도입했습니다. 이 시스템은 사용자가 필요한 정부 서비스를 쉽게 찾을 수 있도록 돕는 동시에, AI 모델의 답변이 정책 범위를 벗어나지 않도록 제어하는 아키텍처를 갖추고 있습니다. 구글은 기술 파트너로서 Gemini를 활용해 복잡한 정부 서비스 탐색 과정을 자동화하는 데 기여합니다.",
-      "external_article_summary": "미국 정부는 사용자 경험을 개선하기 위해 Gemini 모델과 가드레일(guardrails) 기술을 결합한 새로운 디지털 서비스를 도입했습니다. 이 시스템은 사용자가 필요한 정부 서비스를 쉽게 찾을 수 있도록 돕는 동시에, AI 모델의 답변이 정책 범위를 벗어나지 않도록 제어하는 아키텍처를 갖추고 있습니다. 구글은 기술 파트너로서 Gemini를 활용해 복잡한 정부 서비스 탐색 과정을 자동화하는 데 기여합니다.",
-      "discussion_summary": "정부 서비스의 접근성을 높이는 혁신적인 아이디어라는 옹호와, 피싱 공격에 취약해질 수 있고 개인정보 노출 위험이 있다는 비판이 대립하고 있습니다.",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "summary": "유럽 전역의 슈퍼마켓 냉장고가 해킹되어 자동 성에 제거 기능이 활성화되는 보안 사고가 발생했습니다. 커뮤니티에서는 관리 소홀에 의한 취약점 노출과 군사 시설과의 연관 가능성을 중심으로 논의가 진행 중입니다.",
+      "article_summary": "유럽 내 슈퍼마켓 냉장고 시스템이 해킹되어 제어 시스템이 임의로 성에 제거(defrosting) 모드를 실행하는 사고가 발생했습니다. 이번 취약점은 Danfoss 제어 장치와 관련된 것으로 추정되며, 2026년 8월 미국 군사 기지에서 발생한 유사한 보안 사고와 기술적 연관성이 제기되었습니다. 공격자들은 관리자 계정의 취약한 인증 방식을 악용하여 원격으로 냉장고 온도를 조절했습니다.",
+      "external_article_summary": "유럽 내 슈퍼마켓 냉장고 시스템이 해킹되어 제어 시스템이 임의로 성에 제거(defrosting) 모드를 실행하는 사고가 발생했습니다. 이번 취약점은 Danfoss 제어 장치와 관련된 것으로 추정되며, 2026년 8월 미국 군사 기지에서 발생한 유사한 보안 사고와 기술적 연관성이 제기되었습니다. 공격자들은 관리자 계정의 취약한 인증 방식을 악용하여 원격으로 냉장고 온도를 조절했습니다.",
+      "discussion_summary": "사용자 계정 정보가 'admin'으로 설정되어 있고 비밀번호가 날짜 기반으로 자동 초기화되는 관리 소홀이 근본 원인이라는 비판이 제기되었습니다. 동시에 이번 사건이 미국 군사 기지에서 발생한 보안 사고와 동일한 취약점을 공유하고 있다는 기술적 분석이 대립하고 있습니다.",
       "key_points": [
-        "Gemini LLM과 가드레일 기술을 결합하여 정부 서비스 접근성을 높이는 시도입니다.",
-        "사용자 편의성 증대라는 긍정적 측면과 피싱 및 보안 취약점에 대한 우려가 공존합니다.",
-        "정부 서비스의 디지털 전환 과정에서 AI 도입 시 보안과 신뢰성 확보가 핵심 과제입니다."
+        "관리자 계정의 기본 설정과 자동 초기화 로직을 악용한 보안 취약점이 노출되었습니다.",
+        "Danfoss 제어 장치의 취약점이 민간 유통망과 군사 시설 모두에 영향을 미칠 수 있음이 확인되었습니다.",
+        "IoT 제어 시스템의 인증 체계와 원격 관리 프로토콜에 대한 보안 강화가 시급합니다."
       ],
       "tags": [
-        "Gemini",
-        "LLM",
-        "정부 서비스",
-        "보안"
+        "IoT 보안",
+        "취약점",
+        "공급망 공격",
+        "인증 보안"
       ],
-      "published_at_kst": "2026-09-29T23:04:57+09:00",
-      "category": "기타",
-      "canonical_path": "/community/hacker-news-49893509",
+      "published_at_kst": "2026-10-12T21:16:42+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50055304",
       "rank": 6,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49893509"
+        "hacker_news": "https://news.ycombinator.com/item?id=50055304"
       },
-      "score": 778,
-      "comments_count": 737
+      "score": 906,
+      "comments_count": 1002
     },
     {
-      "id": "hacker-news-49896604",
+      "id": "hacker-news-50073633",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Dots: Always-on agents",
-      "url": "https://openai.com/index/introducing-dots/",
-      "summary": "상시 가동형 AI 에이전트인 Dots의 등장과 이에 따른 업무 자동화의 실효성에 대한 논의를 다룹니다. 사용자의 개입 없이 작동하는 에이전트 기술이 실무 워크플로우에 어떻게 통합될 수 있는지가 핵심입니다.",
-      "article_summary": "Dots는 사용자가 잠든 시간에도 독립적으로 작업을 수행하는 'Always-on' 에이전트 기술을 선보였습니다. 이 시스템은 사용자의 승인 없이도 복잡한 워크플로우를 자율적으로 실행하며, 협업형 에이전트 간의 상호작용을 통해 업무 처리량을 극대화하는 아키텍처를 지향합니다.",
-      "external_article_summary": "Dots는 사용자가 잠든 시간에도 독립적으로 작업을 수행하는 'Always-on' 에이전트 기술을 선보였습니다. 이 시스템은 사용자의 승인 없이도 복잡한 워크플로우를 자율적으로 실행하며, 협업형 에이전트 간의 상호작용을 통해 업무 처리량을 극대화하는 아키텍처를 지향합니다.",
-      "discussion_summary": "에이전트 간의 협업과 자율적 작업 수행이 업무 효율을 높인다는 옹호론과, 최종 승인 단계가 필요한 실무 특성상 인간의 개입 없는 야간 작업은 실효성이 낮다는 비판이 대립하고 있습니다.",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "summary": "Anthropic이 기존 Git 기반의 소스 제어 방식을 개선하기 위해 구축한 새로운 시스템 'Scion'에 대한 기술적 여정을 다룹니다. AI 모델 개발 과정에서 발생하는 코드 관리의 복잡성을 해결하기 위한 아키텍처 변화와 이에 대한 개발자들의 실무적 우려를 담고 있습니다.",
+      "article_summary": "Anthropic은 기존 Git 워크플로우의 한계를 극복하기 위해 새로운 소스 제어 시스템인 Scion을 도입했습니다. 초기에는 Git 데이터를 Scion으로 가져오는 파이프라인을 수동으로 작성했으나, 점차 자동화된 인제스션(Ingestion) 구조로 발전시켰습니다. 이는 대규모 AI 모델 개발 환경에 최적화된 코드 관리 체계를 구축하기 위한 시도입니다.",
+      "external_article_summary": "Anthropic은 기존 Git 워크플로우의 한계를 극복하기 위해 새로운 소스 제어 시스템인 Scion을 도입했습니다. 초기에는 Git 데이터를 Scion으로 가져오는 파이프라인을 수동으로 작성했으나, 점차 자동화된 인제스션(Ingestion) 구조로 발전시켰습니다. 이는 대규모 AI 모델 개발 환경에 최적화된 코드 관리 체계를 구축하기 위한 시도입니다.",
+      "discussion_summary": "AI가 생성한 코드를 검토할 때 발생하는 품질 저하와 그로 인해 리뷰어의 업무 부하가 가중된다는 실무적 비판이 제기되었습니다. 반면, 기존의 수동 파이프라인을 자동화된 시스템으로 전환하는 과정의 기술적 필요성에 주목하는 의견이 대립하고 있습니다.",
       "key_points": [
-        "사용자의 개입 없이 24시간 가동되는 자율형 AI 에이전트 기술이 핵심입니다.",
-        "에이전트 간의 협업을 통한 업무 자동화와 인간의 최종 승인 절차 사이의 간극이 주요 쟁점입니다.",
-        "실제 업무 워크플로우에 에이전트를 통합하기 위해서는 인간의 검토 과정을 어떻게 효율적으로 설계할지가 관건입니다."
+        "Git의 한계를 넘기 위해 Anthropic이 자체 설계한 Scion 시스템의 도입 과정을 설명합니다.",
+        "AI 생성 코드의 품질 문제로 인해 코드 리뷰 과정에서 발생하는 운영 효율성 저하가 주요 쟁점입니다.",
+        "대규모 AI 모델 개발을 위한 소스 제어 시스템의 자동화와 정교한 파이프라인 구축이 핵심 과제입니다."
       ],
       "tags": [
-        "AI Agents",
-        "Automation",
-        "Workflow"
+        "Anthropic",
+        "Scion",
+        "Git",
+        "Source Control",
+        "AI Software Engineering"
       ],
-      "published_at_kst": "2026-09-30T02:07:57+09:00",
-      "category": "AI/ML",
-      "canonical_path": "/community/hacker-news-49896604",
+      "published_at_kst": "2026-10-14T00:49:56+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50073633",
       "rank": 7,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49896604"
+        "hacker_news": "https://news.ycombinator.com/item?id=50073633"
       },
-      "score": 766,
-      "comments_count": 646
+      "score": 884,
+      "comments_count": 997
     },
     {
-      "id": "hacker-news-49949438",
+      "id": "hacker-news-50094994",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Tell HN: Bob Cringely has died",
-      "url": "https://news.ycombinator.com/item?id=49949438",
-      "summary": "컴퓨터 역사 기록가이자 Apple 초기 직원이었던 Bob Cringely(본명 Mark Stevens)의 별세 소식을 전합니다. 그는 기술 산업의 역사를 기록한 다큐멘터리로 잘 알려져 있으며 많은 이들의 애도를 받고 있습니다.",
-      "article_summary": "본명 Mark Stevens로 알려진 Bob Cringely는 Apple의 초기 직원 출신이자 기술 역사를 기록한 저술가입니다. 그는 특히 PBS 다큐멘터리 'Triumph of the Nerds'를 통해 초기 개인용 컴퓨터 산업의 발전을 기록하며 대중에게 이름을 알렸습니다. 그는 생전 기술 산업의 변천사를 기록하는 데 평생을 바쳤습니다.",
-      "external_article_summary": "본명 Mark Stevens로 알려진 Bob Cringely는 Apple의 초기 직원 출신이자 기술 역사를 기록한 저술가입니다. 그는 특히 PBS 다큐멘터리 'Triumph of the Nerds'를 통해 초기 개인용 컴퓨터 산업의 발전을 기록하며 대중에게 이름을 알렸습니다. 그는 생전 기술 산업의 변천사를 기록하는 데 평생을 바쳤습니다.",
-      "discussion_summary": "사용자들은 그의 저서 'Accidental Empires'와 PBS 다큐멘터리 시리즈를 통해 그가 남긴 기술적 통찰과 기록물에 대해 깊은 애도를 표하고 있습니다. 특히 그가 겪었던 개인적인 역경과 기술 역사를 기록해 온 그의 업적을 기리는 반응이 주를 이룹니다.",
+      "title": "OpenCode 2.0",
+      "url": "https://anoma.ly/notes/opencode-2-0/",
+      "summary": "OpenCode 2.0 출시와 함께 개선된 사용자 경험과 아키텍처 변화에 대한 기술적 평가가 이어지고 있습니다. 이전 버전의 불편함을 해소하고 자동화된 워크플로우를 강화한 것이 핵심입니다.",
+      "article_summary": "OpenCode 2.0은 클라이언트/서버 모델을 기반으로 설계되어 사용성 및 자가 인식 능력을 대폭 향상했습니다. 특히 스킬과 플러그인의 자동 리로드 기능을 도입하여 개발 워크플로우의 중단을 최소화했습니다. 또한 작업(Task)을 백그라운드로 전환할 수 있는 기능을 통해 리소스 관리 효율성을 높였습니다.",
+      "external_article_summary": "OpenCode 2.0은 클라이언트/서버 모델을 기반으로 설계되어 사용성 및 자가 인식 능력을 대폭 향상했습니다. 특히 스킬과 플러그인의 자동 리로드 기능을 도입하여 개발 워크플로우의 중단을 최소화했습니다. 또한 작업(Task)을 백그라운드로 전환할 수 있는 기능을 통해 리소스 관리 효율성을 높였습니다.",
+      "discussion_summary": "사용자들은 V1에서 발생하던 번거로운 문제들이 해결된 점을 높게 평가하며 긍정적인 반응을 보이고 있습니다. 특히 자동화된 플러그인 로드와 백그라운드 작업 처리 방식에 대한 실무적인 피드백이 이어지고 있습니다.",
       "key_points": [
-        "Apple 초기 직원이자 기술 역사 기록가인 Bob Cringely의 별세 소식을 전달합니다.",
-        "그는 'Triumph of the Nerds'와 같은 다큐멘터리를 통해 컴퓨터 산업의 역사를 기록했습니다.",
-        "기술 산업의 초기 발전을 기록한 그의 업적은 후대 개발자들에게 중요한 사료로 남았습니다."
+        "클라이언트/서버 모델을 통한 향상된 사용성과 자가 인식 기능 제공.",
+        "플러그인 및 스킬의 자동 리로드 기능을 통한 개발 편의성 확보.",
+        "백그라운드 작업 실행 기능을 통한 워크플로우 효율성 개선."
       ],
       "tags": [
-        "Computer History",
-        "Apple",
-        "Documentary"
+        "OpenCode",
+        "Software Architecture",
+        "Developer Experience"
       ],
-      "published_at_kst": "2026-10-04T09:50:52+09:00",
-      "category": "기타",
-      "canonical_path": "/community/hacker-news-49949438",
+      "published_at_kst": "2026-10-15T05:48:24+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50094994",
       "rank": 8,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49949438"
+        "hacker_news": "https://news.ycombinator.com/item?id=50094994"
       },
-      "score": 741,
-      "comments_count": 155
+      "score": 837,
+      "comments_count": 358
     },
     {
-      "id": "hacker-news-49906637",
+      "id": "hacker-news-50054092",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "You said no MCP",
-      "url": "https://earendil.com/posts/you-said-no-mcp/",
-      "summary": "MCP(Model Context Protocol)의 활용 범위와 설계 철학에 대한 기술적 논쟁을 다루고 있습니다. 단순한 코딩 도구를 넘어 애플리케이션 제어 프레임워크로서의 가치와 기존 신념을 수정한 개발팀의 결정에 대한 반응이 핵심입니다.",
-      "article_summary": "MCP는 LLM이 외부 데이터나 도구에 접근할 수 있도록 하는 프로토콜로, 단순한 코드 작성을 넘어 macOS 앱(rcmd, Clop, Lunar 등)의 설정을 자연어로 제어하는 등 복잡한 애플리케이션 환경에 적용되고 있습니다. 개발팀은 초기 설계 방향을 수정하며 기술적 유연성을 확보하는 방향으로 프로토콜을 발전시키고 있습니다.",
-      "external_article_summary": "MCP는 LLM이 외부 데이터나 도구에 접근할 수 있도록 하는 프로토콜로, 단순한 코드 작성을 넘어 macOS 앱(rcmd, Clop, Lunar 등)의 설정을 자연어로 제어하는 등 복잡한 애플리케이션 환경에 적용되고 있습니다. 개발팀은 초기 설계 방향을 수정하며 기술적 유연성을 확보하는 방향으로 프로토콜을 발전시키고 있습니다.",
-      "discussion_summary": "MCP를 단순한 코딩 보조 도구로 보는 시각과 복잡한 앱 설정을 자동화하는 범용 프레임워크로 보는 시각이 대립합니다. 또한, 기존의 강한 신념을 철회하고 설계를 변경한 개발팀의 투명한 의사결정 방식에 대해 긍정적인 평가가 이어지고 있습니다.",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "summary": "하드웨어 월렛 제조사 Ledger의 제품에 스파이 칩이 심어져 암호화폐를 탈취한 사건이 확인되었습니다. 공급망 공격을 통해 물리적 기기가 변조되었으며, 이는 하드웨어 보안의 신뢰성을 근본적으로 위협하는 사례입니다.",
+      "article_summary": "Ledger 제품의 공급망에 침투한 공격자가 하드웨어 내부 회로에 스파이 칩을 심어 개인 키를 탈취하는 공격이 확인되었습니다. 이번 사건은 단순한 소프트웨어 취약점이 아니라, 제조 및 유통 과정에서 물리적 부품이 변조된 공급망 공격(Supply Chain Attack)의 형태를 띱니다. 특히 독일의 대형 가전 유통사인 MediaMarkt 매장에서 판매된 제품들에서도 변조된 기기가 발견되어 피해 범위가 광범위할 수 있습니다.",
+      "external_article_summary": "Ledger 제품의 공급망에 침투한 공격자가 하드웨어 내부 회로에 스파이 칩을 심어 개인 키를 탈취하는 공격이 확인되었습니다. 이번 사건은 단순한 소프트웨어 취약점이 아니라, 제조 및 유통 과정에서 물리적 부품이 변조된 공급망 공격(Supply Chain Attack)의 형태를 띱니다. 특히 독일의 대형 가전 유통사인 MediaMarkt 매장에서 판매된 제품들에서도 변조된 기기가 발견되어 피해 범위가 광범위할 수 있습니다.",
+      "discussion_summary": "이론적 위협으로만 여겨졌던 하드웨어 변조 공격이 현실화되었다는 점에 대해 보안 전문가들이 경악하고 있습니다. 또한, 유통망을 통해 변조된 기기가 일반 매장에서 판매되었다는 사실이 알려지며 하드웨어 보안의 신뢰도에 대한 비판이 제기되고 있습니다.",
       "key_points": [
-        "MCP는 자연어를 통해 복잡한 macOS 애플리케이션의 설정을 변경하는 등 확장 가능한 인터페이스 역할을 수행합니다.",
-        "기술적 신념을 유지하는 것보다 더 나은 설계를 위해 기존 결정을 공개적으로 번복하는 유연한 개발 문화가 강조됩니다.",
-        "LLM 기반 도구가 단순한 텍    트 생성을 넘어 시스템 제어 계층으로 진화할 가능성을 보여줍니다."
+        "공급망 공격을 통해 하드웨어 월렛 내부에 스파이 칩이 심어져 암호화폐 탈취가 발생했습니다.",
+        "이론적 수준에 머물던 하드웨어 변조 공격이 실제 유통망을 통해 대규모로 이루어졌습니다.",
+        "물리적 보안이 핵심인 하드웨어 지갑의 신뢰 체계와 유통 과정의 보안 검증이 시급한 과제로 떠올랐습니다."
       ],
       "tags": [
-        "MCP",
-        "LLM",
-        "애플리케이션 제어",
-        "소프트웨어 설계"
+        "Ledger",
+        "공급망 공격",
+        "암호화폐",
+        "하드웨어 보안"
       ],
-      "published_at_kst": "2026-09-30T18:55:23+09:00",
-      "category": "개발 도구",
-      "canonical_path": "/community/hacker-news-49906637",
+      "published_at_kst": "2026-10-12T19:09:37+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50054092",
       "rank": 9,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49906637"
+        "hacker_news": "https://news.ycombinator.com/item?id=50054092"
       },
-      "score": 680,
-      "comments_count": 362
+      "score": 790,
+      "comments_count": 502
     },
     {
-      "id": "hacker-news-49925184",
+      "id": "hacker-news-50063427",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Mike Tomlin spent 12 years building a Minecraft city",
-      "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
-      "summary": "전 피츠버그 스틸러스 감독 마이크 톰린이 12년 동안 진행해 온 마인크래프트 도시 건설 프로젝트가 화제가 되고 있습니다. 커뮤니티에서는 그의 커리어와 취미 사이의 연결 고리에 주목하고 있습니다.",
-      "article_summary": "전 NFL 헤드 코치인 마이크 톰린은 12년이라는 긴 시간 동안 마인크래프트 내에서 거대한 도시를 구축해 왔습니다. 그는 리그에서 두 번째로 장기 재임한 코치로서 쌓아온 리더십과 인내심을 이 프로젝트에 투영했습니다. 이번 프로젝트는 단순한 게임 플레이를 넘어 장기적인 목표를 설정하고 실행하는 그의 성향을 보여줍니다.",
-      "external_article_summary": "전 NFL 헤드 코치인 마이크 톰린은 12년이라는 긴 시간 동안 마인크래프트 내에서 거대한 도시를 구축해 왔습니다. 그는 리그에서 두 번째로 장기 재임한 코치로서 쌓아온 리더십과 인내심을 이 프로젝트에 투영했습니다. 이번 프로젝트는 단순한 게임 플레이를 넘어 장기적인 목표를 설정하고 실행하는 그의 성향을 보여줍니다.",
-      "discussion_summary": "마이크 톰린의 커리어적 성취와 게임 내 성과를 연결 지어 감탄하는 반응과, 게임 플레이 자체의 가치에 집중해야 한다는 의견이 공존합니다.",
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "summary": "AI를 도구로 활용하는 숙련도가 중요해지는 시점에서 기술적 숙련도와 인간의 지식 축적 사이의 관계를 다룹니다. AI 기술의 발전 속도와 인간의 학습 속도 사이의 격차에 대한 우려와 실무적 관점의 논쟁이 핵심입니다.",
+      "article_summary": "AI는 단순한 자동화 도구를 넘어 사용자의 숙련도에 따라 결과물의 품질이 결정되는 복합적인 도구로 정의됩니다. 기술적 숙련도를 높이는 과정에서 워크플로우 최적화와 정교한 프롬프트 엔지니어링이 결과물의 방향성을 결정하는 핵심 요소로 작용합니다. AI 활용 능력이 인간의 지식 증진으로 이어질지, 아니면 지식 퇴화로 이어질지가 기술적 쟁점입니다.",
+      "external_article_summary": "AI는 단순한 자동화 도구를 넘어 사용자의 숙련도에 따라 결과물의 품질이 결정되는 복합적인 도구로 정의됩니다. 기술적 숙련도를 높이는 과정에서 워크플로우 최적화와 정교한 프롬프트 엔지니어링이 결과물의 방향성을 결정하는 핵심 요소로 작용합니다. AI 활용 능력이 인간의 지식 증진으로 이어질지, 아니면 지식 퇴화로 이어질지가 기술적 쟁점입니다.",
+      "discussion_summary": "AI의 발전 속도가 인간의 숙련도 향상 속도를 앞질러 인간의 지식 축적을 저해할 것이라는 비판과, 초기에는 워크플로우 조정에 많은 시간이 소요되지만 숙련도가 쌓이면 효율성이 극대화될 것이라는 옹호가 대립하고 있습니다.",
       "key_points": [
-        "마이크 톰린은 12년 동안 마인크래프트를 통해 정교한 도시를 건설했습니다.",
-        "NFL에서의 장기 재임 경력과 게임 내 프로젝트 수행 능력이 유사한 맥락으로 해석됩니다.",
-        "취미 생활에서의 끈기가 전문적인 커리어와 결합되어 독특한 서사를 형성합니다."
+        "AI 활용 능력은 단순한 도구 사용을 넘어 결과물의 품질을 결정하는 핵심 기술로 자리 잡고 있습니다.",
+        "AI 기술의 급격한 보급이 인간의 지식 습득과 숙련도 향상 기회를 박탈할 수 있다는 우려가 존재합니다.",
+        "효율적인 워크플로우 설계와 정교한 제어 능력이 AI 시대의 새로운 전문성 지표가 될 것입니다."
       ],
       "tags": [
-        "Minecraft",
-        "Mike Tomlin",
-        "Gaming"
+        "AI",
+        "Productivity",
+        "Skill Development"
       ],
-      "published_at_kst": "2026-10-02T03:20:18+09:00",
-      "category": "기타",
-      "canonical_path": "/community/hacker-news-49925184",
+      "published_at_kst": "2026-10-13T06:40:18+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50063427",
       "rank": 10,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=49925184"
+        "hacker_news": "https://news.ycombinator.com/item?id=50063427"
       },
-      "score": 664,
-      "comments_count": 166
+      "score": 784,
+      "comments_count": 600
     },
     {
-      "id": "hada-34774",
+      "id": "hada-35434",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Show HN: macOS의 모든 사진과 동영상의 모든 프레임을 위한 AI 검색",
-      "url": "https://news.hada.io/topic?id=34774",
-      "summary": "개인정보 보호를 위해 로컬 추론 방식을 채택하면서도 강력한 시각적 의미 검색 기능을 구현한 것이 기술적 핵심입니다. 이는 클라우드 의존도를 낮추면서도 방대한 미디어 데이터에서 필요한 정보를 즉각 추출할 수 있는 개인용 AI 에이전트의 가능성을 보여줍니다.",
-      "article_summary": "SCM(Screen Memories)은 macOS 로컬 환경에서 사진과 동영상의 모든 프레임을 분석하여 자연어로 검색할 수 있는 AI 기반 애플리케이션입니다. 클라우드 업로드 없이 Mac의 로컬 자원만을 활용해 추론을 수행하며, 시각적 의미 검색, OCR(광학 문자 인식), 대사 기반 검색 등 다섯 가지 특화된 검색 모드를 제공합니다. 사용자는 복잡한 설정 없이 폴더 내 미디어 파일의 시각적 맥락과 텍스트 정보를 즉각적으로 탐색할 수 있습니다.",
-      "external_article_summary": "SCM(Screen Memories)은 macOS 로컬 환경에서 사진과 동영상의 모든 프레임을 분석하여 자연어로 검색할 수 있는 AI 기반 애플리케이션입니다. 클라우드 업로드 없이 Mac의 로컬 자원만을 활용해 추론을 수행하며, 시각적 의미 검색, OCR(광학 문자 인식), 대사 기반 검색 등 다섯 가지 특화된 검색 모드를 제공합니다. 사용자는 복잡한 설정 없이 폴더 내 미디어 파일의 시각적 맥락과 텍스트 정보를 즉각적으로 탐색할 수 있습니다.",
+      "title": "Anthropic의 Scion이 Mononoke를 베꼈다는 비판에 대한 추가 설명",
+      "url": "https://news.hada.io/topic?id=35434",
+      "summary": "데이터 모델의 구조적 유사성과 핵심 인력 이동이 맞물리며 발생한 기술적 도용 논란입니다. 이는 향후 AI 모델 개발 과정에서 데이터 설계 자산의 보호와 인력 이동에 따른 기술 유출 방지책이 중요한 쟁점이 될 것임을 시사합니다.",
+      "article_summary": "Mononoke의 Bonsai 데이터 모델 설계를 주도했던 엔지니어가 Anthropic의 Scion 모델이 의도적으로 설계를 모방하고 출처를 누락했다고 비판했습니다. 비공개로 확인된 정보와 참여 인력의 중첩을 근거로 제시하며, 단순한 파생 데이터를 넘어 전체 데이터 모델과 주변 구조까지 유사하다는 점을 지적했습니다. 이번 논란은 데이터 모델링의 독창성과 인력 이동에 따른 지식재산권 경계 문제를 핵심으로 합니다.",
+      "external_article_summary": "Mononoke의 Bonsai 데이터 모델 설계를 주도했던 엔지니어가 Anthropic의 Scion 모델이 의도적으로 설계를 모방하고 출처를 누락했다고 비판했습니다. 비공개로 확인된 정보와 참여 인력의 중첩을 근거로 제시하며, 단순한 파생 데이터를 넘어 전체 데이터 모델과 주변 구조까지 유사하다는 점을 지적했습니다. 이번 논란은 데이터 모델링의 독창성과 인력 이동에 따른 지식재산권 경계 문제를 핵심으로 합니다.",
       "discussion_summary": "",
       "key_points": [
-        "SCM은 계정 생성이나 데이터 업로드 없이 Mac 로컬 환경에서 모든 AI 추론을 실행합니다.",
-        "시각적 의미, 장면, OCR, 대사, LLM 등 다섯 가지 검색 모드를 통해 미디어 콘텐츠를 정밀하게 탐색합니다.",
-        "사용자의 프라이버시를 보호하면서도 사진과 동영상의 모든 프레임을 데이터베이스화하여 자연어 검색을 지원합니다."
+        "Mononoke의 Bonsai 모델 설계자가 Scion의 의도적인 설계 모방과 출처 누락을 강력히 비판했습니다.",
+        "비공개 확인 내용과 참여 인력의 중첩을 근거로 제시하며 데이터 모델 전체의 유사성을 주장했습니다.",
+        "단순한 데이터 복제를 넘어 모델의 구조적 설계가 핵심적인 쟁점으로 부각되었습니다."
       ],
       "tags": [
-        "Local-first",
-        "AI",
-        "Computer Vision",
-        "macOS"
+        "Mononoke",
+        "데이터모델링",
+        "Anthropic",
+        "AI윤리"
       ],
-      "published_at_kst": "2026-10-05T04:37:48+09:00",
+      "published_at_kst": "2026-10-16T04:43:06+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34774",
+      "canonical_path": "/community/hada-35434",
       "rank": 1,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34774"
+        "hada_news": "https://news.hada.io/topic?id=35434"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34773",
+      "id": "hada-35433",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "메타데이터를 일찍 출력하면 Rust 빌드와 검사가 최대 두 배 빨라짐",
-      "url": "https://news.hada.io/topic?id=34773",
-      "summary": "의존성 검사 단계와 메타데이터 생성 단계를 분리하여 컴파일 파이프라인의 병렬성을 극대화한 기술적 시도입니다. 이는 대규모 프로젝트에서 발생하는 빌드 대기 시간을 줄여 개발 생산성을 높이는 데 기여할 것입니다.",
-      "article_summary": "Rust의 새로운 빌드 최적화 기법인 'headstart'는 의존성 크레이트의 인터페이스 검사가 완료되는 즉시 메타데이터를 출력하여 후속 컴파일을 조기에 시작합니다. 이 방식은 함수 본문의 상세 검사가 끝나기 전이라도 다음 단계의 컴파일을 병렬로 진행할 수 있게 합니다. 이를 통해 cargo check와 cargo build 작업에서 빌드 및 검사 속도를 최대 두 배까지 향상시킬 수 있습니다.",
-      "external_article_summary": "Rust의 새로운 빌드 최적화 기법인 'headstart'는 의존성 크레이트의 인터페이스 검사가 완료되는 즉시 메타데이터를 출력하여 후속 컴파일을 조기에 시작합니다. 이 방식은 함수 본문의 상세 검사가 끝나기 전이라도 다음 단계의 컴파일을 병렬로 진행할 수 있게 합니다. 이를 통해 cargo check와 cargo build 작업에서 빌드 및 검사 속도를 최대 두 배까지 향상시킬 수 있습니다.",
+      "title": "Krea 3 - 대규모 편집을 위해 설계된 이미지 모델",
+      "url": "https://news.hada.io/topic?id=35433",
+      "summary": "Krea 3는 단순 생성 모델을 넘어 정밀한 영역 제어와 일관성 유지를 목표로 설계된 편집 특화 모델입니다. 이는 생성형 AI가 단순한 이미지 제작 도구를 넘어 실무적인 워크플로우를 지원하는 편집 도구로 진화하고 있음을 보여줍니다.",
+      "article_summary": "Krea 3는 제품의 일관성을 유지하면서 장면 변경, 객체 제거, 대량 변형 이미지 제작을 수행하는 편집 전용 모델입니다. 기존의 거대 모델을 경량화(Distillation)한 방식이 아니라, 편집 작업에 최적화되도록 새롭게 학습된 모델이라는 점이 특징입니다. 이미지 전체를 다시 그리는 대신 변경이 필요한 영역을 먼저 식별하여 렌더링함으로써 효율적인 편집 프로세스를 제공합니다.",
+      "external_article_summary": "Krea 3는 제품의 일관성을 유지하면서 장면 변경, 객체 제거, 대량 변형 이미지 제작을 수행하는 편집 전용 모델입니다. 기존의 거대 모델을 경량화(Distillation)한 방식이 아니라, 편집 작업에 최적화되도록 새롭게 학습된 모델이라는 점이 특징입니다. 이미지 전체를 다시 그리는 대신 변경이 필요한 영역을 먼저 식별하여 렌더링함으로써 효율적인 편집 프로세스를 제공합니다.",
       "discussion_summary": "",
       "key_points": [
-        "headstart는 인터페이스 검사 직후 메타데이터를 출력하여 후속 크레이트의 컴파일을 조기에 트리거합니다.",
-        "함수 본문 검사가 완료될 때까지 기다리지 않고 다음 작업을 시작함으로써 빌드 효율을 높입니다.",
-        "이 기법을 적용하면 cargo check와 cargo build 작업 속도가 최대 2배까지 빨라집니다."
+        "Krea 3는 제품 일관성 유지와 객체 제거 등 정밀한 편집을 위해 설계된 전용 모델입니다.",
+        "기존 모델의 증류 방식이 아닌 편집 작업에 최적화된 새로운 학습 방식을 채택했습니다.",
+        "이미지 전체가 아닌 변경할 영역을 우선적으로 찾아 렌더링하는 로직을 사용합니다."
       ],
       "tags": [
-        "컴파일 최적화",
-        "Rust",
-        "headstart"
+        "AI 모델링",
+        "Krea 3",
+        "이미지 생성 AI",
+        "이미지 편집"
       ],
-      "published_at_kst": "2026-10-05T04:34:48+09:00",
+      "published_at_kst": "2026-10-16T04:40:06+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34773",
+      "canonical_path": "/community/hada-35433",
       "rank": 2,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34773"
+        "hada_news": "https://news.hada.io/topic?id=35433"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34772",
+      "id": "hada-35432",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Show GN: LunarIQ — AI 번역이 되는 익명 텔레그램 채팅 봇",
-      "url": "https://news.hada.io/topic?id=34772",
-      "summary": "언어 장벽을 제거한 익명 채팅 서비스는 글로벌 사용자 간의 즉각적인 소통을 가능하게 합니다. 이는 AI 번역 기술이 단순한 정보 전달을 넘어 사회적 상호작용의 방식을 어떻게 변화시킬 수 있는지 보여줍니다.",
-      "article_summary": "LunarIQ는 텔레그램 플랫폼을 기반으로 구축된 익명 채팅 봇 서비스입니다. 사용자는 신원을 노출하지 않고도 챗봇을 통해 타인과 실시간으로 대화할 수 있습니다. 특히 AI 번역 기술을 핵심 로직으로 채택하여, 서로 다른 언어를 사용하는 사용자 간의 언어 장벽을 실시간으로 해소합니다.",
-      "external_article_summary": "LunarIQ는 텔레그램 플랫폼을 기반으로 구축된 익명 채팅 봇 서비스입니다. 사용자는 신원을 노출하지 않고도 챗봇을 통해 타인과 실시간으로 대화할 수 있습니다. 특히 AI 번역 기술을 핵심 로직으로 채택하여, 서로 다른 언어를 사용하는 사용자 간의 언어 장벽을 실시간으로 해소합니다.",
+      "title": "이스라엘 기업, 온라인 광고로 제로클릭 스파이웨어 유포",
+      "url": "https://news.hada.io/topic?id=35432",
+      "summary": "이번 사건은 광고 네트워크를 통한 스파이웨어 유포가 사용자 상호작용 없이도 가능하다는 기술적 위험성을 보여줍니다. 이는 향후 온라인 광고 생태계가 정교한 사이버 공격의 통로로 악용될 수 있음을 시사합니다.",
+      "article_summary": "Citizen Lab과 Confiant의 공동 조사 결과, 이스라엘의 광고 기술 기업 Discover-Tech가 스파이웨어 업체와 협력하여 악성 코드를 유포한 정황이 포착되었습니다. 이들은 사용자가 광고를 클릭하거나 특정 행동을 하지 않아도 기기가 감염되는 '제로클릭(Zero-click)' 공격 방식을 활용했습니다. 연구진은 표적 광고를 통해 사용자 개입 없이도 스파이웨어가 기기에 침투할 수 있는 기술적 증거를 최초로 확보했습니다.",
+      "external_article_summary": "Citizen Lab과 Confiant의 공동 조사 결과, 이스라엘의 광고 기술 기업 Discover-Tech가 스파이웨어 업체와 협력하여 악성 코드를 유포한 정황이 포착되었습니다. 이들은 사용자가 광고를 클릭하거나 특정 행동을 하지 않아도 기기가 감염되는 '제로클릭(Zero-click)' 공격 방식을 활용했습니다. 연구진은 표적 광고를 통해 사용자 개입 없이도 스파이웨어가 기기에 침투할 수 있는 기술적 증거를 최초로 확보했습니다.",
       "discussion_summary": "",
       "key_points": [
-        "텔레그램 환경에서 작동하는 익명 기반의 채팅 봇 서비스입니다.",
-        "AI 실시간 번역 기능을 통해 언어가 다른 사용자 간의 자연스러운 대화를 지원합니다.",
-        "사용자의 신원을 보호하면서도 글로벌 커뮤니케이션을 가능하게 하는 데 초점을 맞췄습니다."
+        "이스라엘 기업 Discover-Tech가 스파이웨어 업체와 공모하여 악성 광고를 유포했습니다.",
+        "사용자의 클릭이나 조작이 필요 없는 제로클릭 방식의 공격이 기술적으로 입증되었습니다.",
+        "표적 광고를 통해 사용자 기기를 감염시키는 새로운 형태의 사이버 위협이 확인되었습니다."
       ],
       "tags": [
-        "텔레그램 봇",
-        "AI 번역",
-        "AI",
-        "익명 채팅"
+        "제로클릭",
+        "애드테크",
+        "스파이웨어",
+        "사이버보안"
       ],
-      "published_at_kst": "2026-10-05T04:06:01+09:00",
+      "published_at_kst": "2026-10-16T04:37:06+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34772",
+      "canonical_path": "/community/hada-35432",
       "rank": 3,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34772"
+        "hada_news": "https://news.hada.io/topic?id=35432"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34771",
+      "id": "hada-35431",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "영재 아동과 이중 예외 아동의 거절 민감성",
-      "url": "https://news.hada.io/topic?id=34771",
-      "summary": "영재성과 신경다양성이 결합된 이중 예외(2e) 아동은 일반적인 영재 아동보다 거절 민감성이 더욱 강하게 나타날 위험이 있습니다. 이는 단순한 성격 문제를 넘어 발달적 특성이 복합적으로 얽힌 결과이므로, 개별적인 심리적 지원 체계가 필요함을 시사합니다.",
-      "article_summary": "거절 민감성(Rejection Sensitivity)은 중립적이거나 모호한 상황에서도 타인의 비판을 감지하고 강하게 반응하는 심리적 경향을 의미합니다. 영재성을 가진 아동이 ADHD나 자폐 스펙트럼과 같은 특성을 동시에 보유한 '이중 예외(2e)' 상태일 경우, 여러 심리적 기제가 복합적으로 작용하여 거절 민감성이 더욱 증폭될 수 있습니다. 이러한 특성은 아동의 사회적 상호작용과 정서 조절에 복잡한 변수로 작용합니다.",
-      "external_article_summary": "거절 민감성(Rejection Sensitivity)은 중립적이거나 모호한 상황에서도 타인의 비판을 감지하고 강하게 반응하는 심리적 경향을 의미합니다. 영재성을 가진 아동이 ADHD나 자폐 스펙트럼과 같은 특성을 동시에 보유한 '이중 예외(2e)' 상태일 경우, 여러 심리적 기제가 복합적으로 작용하여 거절 민감성이 더욱 증폭될 수 있습니다. 이러한 특성은 아동의 사회적 상호작용과 정서 조절에 복잡한 변수로 작용합니다.",
+      "title": "Muse Spark Open - M5 Ultra Mac Studio 두 대에서 실행하는 멀티모달 오픈 웨이트 모델",
+      "url": "https://news.hada.io/topic?id=35431",
+      "summary": "Muse Spark Open은 거대 파라미터 모델의 효율적인 활성화 전략과 방대한 컨텍스트 창을 결합하여 복잡한 엔지니어링 작업에 초점을 맞춘 모델입니다. 이는 오픈 웨이트 모델이 단순한 대화를 넘어 전문적인 소프트웨어 개발 에이전트 영역으로 확장될 수 있음을 시사합니다.",
+      "article_summary": "Meta가 코딩 및 에이전트 작업에 특화된 멀티모달 오픈 웨이트 모델인 'Muse Spark Open'의 가중치를 공개했습니다. 이 모델은 총 8,160억 개의 파라미터를 보유하고 있으며, 추론 시에는 420억 개의 파라미터를 활성화하는 구조를 갖추고 있습니다. 특히 100만 토큰의 거대한 컨텍스트 창을 지원하여 복잡한 소프트웨어 엔지니어링과 다단계 추론 작업에 최적화되었습니다.",
+      "external_article_summary": "Meta가 코딩 및 에이전트 작업에 특화된 멀티모달 오픈 웨이트 모델인 'Muse Spark Open'의 가중치를 공개했습니다. 이 모델은 총 8,160억 개의 파라미터를 보유하고 있으며, 추론 시에는 420억 개의 파라미터를 활성화하는 구조를 갖추고 있습니다. 특히 100만 토큰의 거대한 컨텍스트 창을 지원하여 복잡한 소프트웨어 엔지니어링과 다단계 추론 작업에 최적화되었습니다.",
       "discussion_summary": "",
       "key_points": [
-        "거절 민감성은 모호한 상황에서도 비판을 예상하고 강하게 반응하는 심리적 경향입니다.",
-        "영재성과 ADHD, 자폐 특성이 공존하는 이중 예외(2e) 아동은 거절 민감 반응이 더욱 예측 불가능하고 강할 수 있습니다.",
-        "이중 예외 아동의 경우 여러 발달적 기제가 중첩되어 정서적 반응이 증폭되는 특성을 보입니다."
+        "Meta가 코딩과 에이전트 작업에 최적화된 8,160억 파라미터 규모의 Muse Spark Open 가중치를 공개했습니다.",
+        "420억 개의 활성 파라미터와 100만 토큰의 컨텍스트 창을 통해 복잡한 소프트웨어 엔지니어링 작업을 지원합니다.",
+        "네이티브 멀티모달 설계를 바탕으로 장시간 지속되는 작업과 정교한 다단계 추론을 수행할 수 있습니다."
       ],
       "tags": [
-        "심리학",
-        "거절 민감성",
-        "영재 교육",
-        "이중 예외"
+        "Muse Spark Open",
+        "Meta",
+        "코딩 에이전트",
+        "LLM",
+        "멀티모달"
       ],
-      "published_at_kst": "2026-10-05T03:36:00+09:00",
+      "published_at_kst": "2026-10-16T04:11:57+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34771",
+      "canonical_path": "/community/hada-35431",
       "rank": 4,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34771"
+        "hada_news": "https://news.hada.io/topic?id=35431"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34770",
+      "id": "hada-35430",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Meta가 Muse에서 잘한 것",
-      "url": "https://news.hada.io/topic?id=34770",
-      "summary": "Muse는 고도화된 에이전트 기술을 사용자 중심의 단순한 인터페이스로 추상화하여 실용성을 극대화했습니다. 이는 기술적 복잡성을 제거함으로써 AI 에이전트가 대중적인 개인용 컴퓨팅 도구로 자리 잡을 수 있음을 시사합니다.",
-      "article_summary": "Meta의 Muse는 복잡한 에이전트 기술을 직관적인 제품 경험으로 통합하는 데 강점을 보입니다. 모델 선택이나 작업 모드 전환 같은 기술적 복잡성을 단일 채팅 인터페이스 뒤로 숨겨 사용자 경험을 단순화했습니다. 이를 통해 일반 소비자가 에이전트 AI를 일상적인 도구로 받아들이는 진입 장벽을 낮추는 데 집중합니다.",
-      "external_article_summary": "Meta의 Muse는 복잡한 에이전트 기술을 직관적인 제품 경험으로 통합하는 데 강점을 보입니다. 모델 선택이나 작업 모드 전환 같은 기술적 복잡성을 단일 채팅 인터페이스 뒤로 숨겨 사용자 경험을 단순화했습니다. 이를 통해 일반 소비자가 에이전트 AI를 일상적인 도구로 받아들이는 진입 장벽을 낮추는 데 집중합니다.",
+      "title": "Steam 클라이언트, Epic의 새 바이브 코딩 런처보다 빨라짐",
+      "url": "https://news.hada.io/topic?id=35430",
+      "summary": "플랫폼 간의 로딩 속도 경쟁이 가속화되는 가운데, Valve가 신속한 업데이트로 기술적 우위를 탈환했습니다. 이는 사용자 경험(UX)의 핵심인 실행 속도를 확보하기 위한 플랫폼 간의 치열한 최적화 경쟁을 보여줍니다.",
+      "article_summary": "Epic Games가 빠른 로딩 속도를 강점으로 내세운 새 런처 프리뷰를 출시하자, Valve는 24시간 만에 Steam 클라이언트 성능을 개선하는 소규모 업데이트를 배포했습니다. 업데이트 이후 기본 테스트 시스템 환경에서 Steam의 시작 시간은 5.23초로 단축되었습니다. 이 수치는 Epic의 새로운 런처보다 빠른 속도로, 경쟁사의 성능 공세에 즉각 대응한 결과입니다.",
+      "external_article_summary": "Epic Games가 빠른 로딩 속도를 강점으로 내세운 새 런처 프리뷰를 출시하자, Valve는 24시간 만에 Steam 클라이언트 성능을 개선하는 소규모 업데이트를 배포했습니다. 업데이트 이후 기본 테스트 시스템 환경에서 Steam의 시작 시간은 5.23초로 단축되었습니다. 이 수치는 Epic의 새로운 런처보다 빠른 속도로, 경쟁사의 성능 공세에 즉각 대응한 결과입니다.",
       "discussion_summary": "",
       "key_points": [
-        "Muse는 복잡한 에이전트 기술을 직관적인 제품 기능으로 묶어 사용자 접근성을 높였습니다.",
-        "모델 선택과 작업 모드 전환 과정을 단일 채팅창으로 통합하여 기술적 복잡성을 제거했습니다.",
-        "일반 소비자가 AI 에이전트를 일상적인 도구로 받아들이는 중요한 계기가 될 전망입니다."
+        "Epic Games의 새 런처 출시 24시간 만에 Valve가 Steam 클라이언트 속도 개선 업데이트를 배포했습니다.",
+        "업데이트된 Steam의 시작 시간은 5.23초를 기록하며 Epic의 새 런처보다 빠른 성능을 증명했습니다.",
+        "플랫폼 간의 로딩 속도 경쟁이 사용자 확보를 위한 핵심 기술 지표로 부상하고 있습니다."
       ],
       "tags": [
-        "AI Agent",
-        "UX",
-        "Meta",
-        "Muse"
+        "Steam",
+        "Valve",
+        "Epic Games",
+        "소프트웨어 최적화"
       ],
-      "published_at_kst": "2026-10-05T02:40:24+09:00",
+      "published_at_kst": "2026-10-16T04:08:57+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34770",
+      "canonical_path": "/community/hada-35430",
       "rank": 5,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34770"
+        "hada_news": "https://news.hada.io/topic?id=35430"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34769",
+      "id": "hada-35429",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "자동차는 바퀴 달린 스마트폰이다. 누가 귀 기울이고 있을까",
-      "url": "https://news.hada.io/topic?id=34769",
-      "summary": "커넥티드 카 기술의 발전이 차량을 움직이는 스마트폰으로 변모시키며 사용자 데이터의 외부 유출 위험을 심화시키고 있습니다. 차량 식별 정보와 민감한 개인정보가 광고 및 추적 업체로 무단 전송되는 현상은 향후 모빌리티 보안 정책의 핵심 과제가 될 것입니다.",
-      "article_summary": "미국 시장 내 차량 21대와 연동 앱 30개를 대상으로 보안 조사를 실시한 결과, 조사 대상 차량 중 19대가 Wi-Fi를 통해 제3자 서버와 통신하는 것으로 나타났습니다. 특히 접속 대상에는 광고 및 사용자 추적용 도메인이 포함되어 있어 개인정보 유출 위험을 높였습니다. 연동 앱 30개 중 7개는 민감한 식별 정보를 광고 업체에 전송했으며, 5개는 차량 식별번호(VIN)를 외부로 노출하는 보안 취약점을 보였습니다.",
-      "external_article_summary": "미국 시장 내 차량 21대와 연동 앱 30개를 대상으로 보안 조사를 실시한 결과, 조사 대상 차량 중 19대가 Wi-Fi를 통해 제3자 서버와 통신하는 것으로 나타났습니다. 특히 접속 대상에는 광고 및 사용자 추적용 도메인이 포함되어 있어 개인정보 유출 위험을 높였습니다. 연동 앱 30개 중 7개는 민감한 식별 정보를 광고 업체에 전송했으며, 5개는 차량 식별번호(VIN)를 외부로 노출하는 보안 취약점을 보였습니다.",
+      "title": "신경망은 깔끔하다",
+      "url": "https://news.hada.io/topic?id=35429",
+      "summary": "신경망 내부의 복잡한 현상이 관찰 도구의 한계나 잘못된 해석에서 비롯되었을 가능성을 제기하며 해석 가능성의 새로운 방향을 제시합니다. 이는 인공지능 모델의 내부 로직을 분석할 때 기존의 중첩 가설을 재검토해야 함을 시사합니다.",
+      "article_summary": "신경망의 뉴런과 회로 구조는 별도의 분해나 재구성 과정 없이도 그 자체로 직접적인 이해가 가능하다는 가설이 제시되었습니다. 기존에 서로 무관한 개념이 혼합된 것처럼 보였던 현상은 재귀적 일반화와 관찰 도구의 오류로 설명될 수 있습니다. 특히 과거 중첩(Superposition)의 대표적 사례로 꼽혔던 고양이와 자동차 뉴런 현상은 V자 형태의 구조적 특성을 가짐이 밝혀졌습니다.",
+      "external_article_summary": "신경망의 뉴런과 회로 구조는 별도의 분해나 재구성 과정 없이도 그 자체로 직접적인 이해가 가능하다는 가설이 제시되었습니다. 기존에 서로 무관한 개념이 혼합된 것처럼 보였던 현상은 재귀적 일반화와 관찰 도구의 오류로 설명될 수 있습니다. 특히 과거 중첩(Superposition)의 대표적 사례로 꼽혔던 고양이와 자동차 뉴런 현상은 V자 형태의 구조적 특성을 가짐이 밝혀졌습니다.",
       "discussion_summary": "",
       "key_points": [
-        "조사 대상 차량 21대 중 19대가 Wi-Fi를 통해 광고 및 추적 도메인을 포함한 제3자 서버와 통신했습니다.",
-        "연동 앱 중 일부는 사용자의 민감한 식별 정보를 광고 업체에 전송하거나 차량 식별번호(VIN)를 노출했습니다.",
-        "차량의 스마트 기기화로 인해 발생하는 데이터 프라이버시 침해 문제가 심각한 수준으로 확인되었습니다."
+        "신경망의 뉴런과 회로는 별도의 재구성 없이 직접적인 해석이 가능하다는 가설이 제기되었습니다.",
+        "개념 혼합 현상은 재귀적 일반화와 관찰 도구의 오류로 설명될 수 있습니다.",
+        "기존 중첩 사례로 여겨졌던 특정 뉴런들의 동작은 구조적 특성에 의한 현상임이 밝혀졌습니다."
       ],
       "tags": [
-        "데이터프라이버시",
-        "모빌리티보안",
-        "개인정보보호",
-        "커넥티드카"
+        "AI 연구",
+        "신경망",
+        "해석 가능성"
       ],
-      "published_at_kst": "2026-10-05T02:37:24+09:00",
+      "published_at_kst": "2026-10-16T04:05:57+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34769",
+      "canonical_path": "/community/hada-35429",
       "rank": 6,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34769"
+        "hada_news": "https://news.hada.io/topic?id=35429"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34768",
+      "id": "hada-35428",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "암호화폐를 통한 해외 원조금 유용",
-      "url": "https://news.hada.io/topic?id=34768",
-      "summary": "원조 자금 집행 시점과 맞물린 암호화폐 거래 급증은 블록체인의 익명성을 악용한 자금 유용 가능성을 보여줍니다. 투명한 자금 추적을 위해 블록체인 온체인 데이터 분석을 통한 감시 체계 구축이 필요합니다.",
-      "article_summary": "세계은행의 해외 원조금 지급 시점과 암호화폐 거래 패턴을 분석한 결과, 자금이 집행되는 당월에 암호화폐 활동이 급증했다가 급격히 감소하는 상관관계가 발견되었습니다. 이러한 활동은 주로 조세피난처 소재 거래소와 일반 거래소의 익명 지갑 및 신규 생성 지갑을 통해 주도되었습니다. 이는 블록체인 기술이 전통적인 자금 세탁 및 원조금 유용 수단으로 활용될 수 있음을 시사합니다.",
-      "external_article_summary": "세계은행의 해외 원조금 지급 시점과 암호화폐 거래 패턴을 분석한 결과, 자금이 집행되는 당월에 암호화폐 활동이 급증했다가 급격히 감소하는 상관관계가 발견되었습니다. 이러한 활동은 주로 조세피난처 소재 거래소와 일반 거래소의 익명 지갑 및 신규 생성 지갑을 통해 주도되었습니다. 이는 블록체인 기술이 전통적인 자금 세탁 및 원조금 유용 수단으로 활용될 수 있음을 시사합니다.",
+      "title": "Simons Foundation, 수학자의 AI 시대 대응을 돕는 약 225억원 규모 지원 사업 출범",
+      "url": "https://news.hada.io/topic?id=35428",
+      "summary": "AI 기술이 수학적 발견의 방식을 근본적으로 변화시키는 흐름에 맞춰 학계와 산업계가 협력하는 모델을 제시합니다. 이는 AI가 단순한 계산 도구를 넘어 수학적 추론과 증명 과정에 깊이 개입하는 시대에 대비한 전략적 투자입니다.",
+      "article_summary": "Simons Foundation이 Anthropic, OpenAI와 협력하여 수학 연구의 AI 활용을 지원하기 위해 총 1,500만 달러(약 225억 원) 규모의 자금을 투입합니다. 이번 지원 사업은 공개 제안 공모를 통해 수학자들이 AI를 연구 도구로 활용하고 변화하는 학문 환경에 적응할 수 있도록 돕는 데 목적이 있습니다. 재단은 지원금을 통해 AI 보조 연구 결과의 신뢰성을 평가하고 새로운 수학적 도구 개발을 촉창할 계획입니다.",
+      "external_article_summary": "Simons Foundation이 Anthropic, OpenAI와 협력하여 수학 연구의 AI 활용을 지원하기 위해 총 1,500만 달러(약 225억 원) 규모의 자금을 투입합니다. 이번 지원 사업은 공개 제안 공모를 통해 수학자들이 AI를 연구 도구로 활용하고 변화하는 학문 환경에 적응할 수 있도록 돕는 데 목적이 있습니다. 재단은 지원금을 통해 AI 보조 연구 결과의 신뢰성을 평가하고 새로운 수학적 도구 개발을 촉창할 계획입니다.",
       "discussion_summary": "",
       "key_points": [
-        "세계은행 원조금 지급 시점에 맞춰 암호화폐 거래량이 급증하는 패턴이 확인되었습니다.",
-        "조세피난처 거래소의 익명 지갑과 신규 생성 지갑이 자금 유용의 주요 경로로 활용되었습니다.",
-        "블록체인 기술이 전통적인 자금 세탁 및 원조금 탈취 수단으로 변질될 위험이 존재합니다."
+        "Simons Foundation이 Anthropic, OpenAI와 함께 1,500만 달러 규모의 수학 연구 지원 사업을 시작합니다.",
+        "지원금은 AI를 활용한 수학 연구의 질적 향상과 새로운 연구 도구 개발에 배분됩니다.",
+        "AI 시대에 수학자들이 변화하는 연구 환경에 대응하고 기술적 우위를 확보하는 것이 핵심 목표입니다."
       ],
       "tags": [
-        "블록체인",
-        "세계은행",
-        "암호화폐",
-        "자금세탁"
+        "Anthropic",
+        "AI",
+        "OpenAI",
+        "Simons Foundation",
+        "수학"
       ],
-      "published_at_kst": "2026-10-05T01:46:46+09:00",
+      "published_at_kst": "2026-10-16T03:11:55+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34768",
+      "canonical_path": "/community/hada-35428",
       "rank": 7,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34768"
+        "hada_news": "https://news.hada.io/topic?id=35428"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34767",
+      "id": "hada-35427",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "여러분도 쓰레기통에 초광대역 무선 장치쯤은 달아 두셨겠죠?",
-      "url": "https://news.hada.io/topic?id=34767",
-      "summary": "이 프로젝트는 저전력·고정밀 위치 측정이 가능한 UWB 기술을 일상적인 가사 자동화에 접목한 사례입니다. 단순한 위치 추적을 넘어 스마트 홈 플랫폼과의 데이터 연동을 통해 실생활의 번거로움을 해결하는 기술적 실용성을 보여줍니다.",
-      "article_summary": "BinRange는 고정된 UWB(Ultra-Wideband) 앵커 1대와 6개의 배터리 기반 태그를 활용해 쓰레기통의 위치 이동을 감지하는 취미 프로젝트입니다. 기존 블루투스의 신호 세기(RSSI) 기반 거리 추정 방식 대신, 전파의 이동 시간(ToF)을 측정하는 UWB 기술을 사용하여 정밀한 거리 측정이 가능합니다. 이 시스템은 Home Assistant의 수거 일정 데이터와 결합하여 사용자가 쓰레기통을 실제로 수거 장소에 내놓았는지 자동으로 확인합니다.",
-      "external_article_summary": "BinRange는 고정된 UWB(Ultra-Wideband) 앵커 1대와 6개의 배터리 기반 태그를 활용해 쓰레기통의 위치 이동을 감지하는 취미 프로젝트입니다. 기존 블루투스의 신호 세기(RSSI) 기반 거리 추정 방식 대신, 전파의 이동 시간(ToF)을 측정하는 UWB 기술을 사용하여 정밀한 거리 측정이 가능합니다. 이 시스템은 Home Assistant의 수거 일정 데이터와 결합하여 사용자가 쓰레기통을 실제로 수거 장소에 내놓았는지 자동으로 확인합니다.",
+      "title": "표적 광고로 전달되는 제로클릭 스파이웨어: AdFection",
+      "url": "https://news.hada.io/topic?id=35427",
+      "summary": "이번 사건은 정교한 광고 인프라가 악성 스파이웨어를 전달하는 통로로 악용될 수 있음을 보여주는 기술적 사례입니다. 사용자의 직접적인 상호작용 없이도 감염이 가능한 제로클릭 공격의 위험성이 광고 생태계로 확장되고 있다는 점이 핵심입니다.",
+      "article_summary": "Citizen Lab은 Al Jazeera 기기에서 발견된 Candiru 스파이웨어 감염 경로가 표적 광고(Targeted Advertising)를 통해 이루어졌음을 확인했습니다. 공격자들은 이스라엘 광고 업체인 Discover-Tech의 인프라를 활용하여 사용자가 링크를 클릭하지 않아도 기기가 감염되는 '제로클릭(Zero-click)' 방식을 사용했습니다. 이러한 공격 기법은 'AdFection'으로 명명되었으며. 이는 광고 네트워크를 통한 스파이웨어 전달 방식이 기술적으로 입증된 첫 사례입니다.",
+      "external_article_summary": "Citizen Lab은 Al Jazeera 기기에서 발견된 Candiru 스파이웨어 감염 경로가 표적 광고(Targeted Advertising)를 통해 이루어졌음을 확인했습니다. 공격자들은 이스라엘 광고 업체인 Discover-Tech의 인프라를 활용하여 사용자가 링크를 클릭하지 않아도 기기가 감염되는 '제로클릭(Zero-click)' 방식을 사용했습니다. 이러한 공격 기법은 'AdFection'으로 명명되었으며. 이는 광고 네트워크를 통한 스파이웨어 전달 방식이 기술적으로 입증된 첫 사례입니다.",
       "discussion_summary": "",
       "key_points": [
-        "UWB 기술의 전파 이동 시간(ToF) 측정 방식을 활용해 쓰레기통의 이동을 정밀하게 감지합니다.",
-        "고정 앵커 1대와 6개의 태그를 구성하여 효율적인 위치 추적 시스템을 구축했습니다.",
-        "Home Assistant와 연동하여 수거 일정에 따른 쓰레기 배출 여부를 자동 확인합니다."
+        "Citizen Lab은 광고 인프라를 통해 Candiru 스파이웨어가 전달되는 'AdFection' 공격 기법을 규명했습니다.",
+        "공격자는 이스라엘 광고 업체 Discover-Tech의 인프라를 활용해 사용자의 클릭 없이도 기기를 감염시켰습니다.",
+        "이번 사례는 표적 광고가 고도화된 스파이웨어 전달 경로로 활용될 수 있음을 보여주는 첫 기술적 확인입니다."
       ],
       "tags": [
-        "IoT",
-        "UWB",
-        "Smart Home",
-        "Home Assistant"
+        "스파이웨어",
+        "제로클릭",
+        "AdFection",
+        "사이버 보안",
+        "Citizen Lab"
       ],
-      "published_at_kst": "2026-10-05T01:43:46+09:00",
+      "published_at_kst": "2026-10-16T03:08:55+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34767",
+      "canonical_path": "/community/hada-35427",
       "rank": 8,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34767"
+        "hada_news": "https://news.hada.io/topic?id=35427"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34766",
+      "id": "hada-35426",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Pi pod - 자체 서버의 샌드박스에서 pi 코딩 에이전트 실행하기",
-      "url": "https://news.hada.io/topic?id=34766",
-      "summary": "이 프로젝트는 코딩 에이전트 실행 환경을 격리된 샌드박스로 분리하여 보안 위협을 최소화하고 환경 구성의 유연성을 확보합니다. 자체 서버 자원을 활용하면서도 독립적인 실행 환경을 구축할 수 있다는 점이 기술적 핵심입니다.",
-      "article_summary": "Pi pod는 사용자가 직접 운영하는 서버 내에서 pi 코딩 에이전트 세션을 격리된 샌드박스 환경인 pod로 실행할 수 있게 해주는 오픈소스 프로젝트입니다. 기존 pi 하네스의 사용자 경험을 유지하면서도, 환경 간의 결합이 용이하도록 설계되었습니다. 샌드박스 실행에 필요한 최소한의 엄선된 도구만을 포함하여 보안과 효율성을 동시에 확보하는 것을 목표로 합니다.",
-      "external_article_summary": "Pi pod는 사용자가 직접 운영하는 서버 내에서 pi 코딩 에이전트 세션을 격리된 샌드박스 환경인 pod로 실행할 수 있게 해주는 오픈소스 프로젝트입니다. 기존 pi 하네스의 사용자 경험을 유지하면서도, 환경 간의 결합이 용이하도록 설계되었습니다. 샌드박스 실행에 필요한 최소한의 엄선된 도구만을 포함하여 보안과 효율성을 동시에 확보하는 것을 목표로 합니다.",
+      "title": "내 반려견을 위해 코 보호대를 설계해 무료로 공개했다. 이제 500마리가 착용한다",
+      "url": "https://news.hada.io/topic?id=35426",
+      "summary": "개인적 필요에 의해 설계된 3D 프린팅 솔루션이 오픈 소스 배포를 거쳐 글로벌 커머스로 확장된 사례입니다. 이는 특정 문제를 해결하는 정밀한 설계가 어떻게 전 세계적인 수요를 창출할 수 있는지 보여줍니다.",
+      "article_summary": "원판상 홍반성 루푸스(DLE)를 앓는 반려견을 위해 설계된 코 보호대 'SnoutCover'가 무료 3D 프린팅 파일 공개 이후 사업적 성과를 거두고 있습니다. 이 장치는 반려견이 코에 바른 연고를 핥지 못하게 차단하고 자외선으로부터 환부를 보호하는 기능을 수행합니다. 초기에는 오픈 소스 형태로 배포되었으나, 직접 제작이 어려운 보호자들의 요청에 따라 판매를 시작하며 현재까지 16개국에서 39건의 주문을 기록했습니다.",
+      "external_article_summary": "원판상 홍반성 루푸스(DLE)를 앓는 반려견을 위해 설계된 코 보호대 'SnoutCover'가 무료 3D 프린팅 파일 공개 이후 사업적 성과를 거두고 있습니다. 이 장치는 반려견이 코에 바른 연고를 핥지 못하게 차단하고 자외선으로부터 환부를 보호하는 기능을 수행합니다. 초기에는 오픈 소스 형태로 배포되었으나, 직접 제작이 어려운 보호자들의 요청에 따라 판매를 시작하며 현재까지 16개국에서 39건의 주문을 기록했습니다.",
       "discussion_summary": "",
       "key_points": [
-        "직접 운영하는 서버에서 pi 세션을 격리된 록(pod) 환경으로 실행할 수 있습니다.",
-        "기존 pi 하네스의 사용 경험을 유지하면서도 조합 가능한 환경을 지원합니다.",
-        "샌드박스 실행에 필요한 최소한의 도구만을 사용하여 효율적인 환경을 제공합니다."
+        "DLE 질환을 앓는 반려견의 환부 보호와 연고 섭취 방지를 위해 설계된 SnoutCover가 개발되었습니다.",
+        "무료 3드로 프린팅 파일 공개를 통해 전 세계 사용자들에게 검증받은 후 정식 판매로 이어졌습니다.",
+        "현재 16개국에서 주문이 발생하는 등 글로벌 시장에서의 수요를 확인하고 있습니다."
       ],
       "tags": [
-        "샌드박스",
-        "Pi pod",
-        "코딩 에이전트",
-        "오픈소스"
+        "3D프린팅",
+        "반려견헬스케어",
+        "오픈소스하드웨어"
       ],
-      "published_at_kst": "2026-10-05T01:40:46+09:00",
+      "published_at_kst": "2026-10-16T03:05:55+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34766",
+      "canonical_path": "/community/hada-35426",
       "rank": 9,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34766"
+        "hada_news": "https://news.hada.io/topic?id=35426"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-34765",
+      "id": "hada-35425",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Show GN: 안 쓰던 태블릿에 ChatGPT Dots가 사는 방을 만들었습니다 (Dots Room)",
-      "url": "https://news.hada.io/topic?id=34765",
-      "summary": "유휴 태블릿을 AI 전용 디스플레이로 재정의하여 디지털 비서를 물리적 공간에 배치하는 새로운 사용자 경험을 제시합니다. 이는 단순한 알림 도구를 넘어, AI와의 상호작용을 일상적인 공간의 일부로 편입시키는 시도입니다.",
-      "article_summary": "사용하지 않는 안드로이드 태블릿을 활용해 ChatGPT의 메시지를 시각화하는 'Dots Room'을 구축했습니다. 이 프로젝트는 새로운 메시지가 도착할 때마다 태블릿 화면이 활성화되도록 설계되어 작업 중에도 답변을 놓치지 않게 돕습니다. 픽셀 단위의 작은 공간을 통해 AI와의 상호작용을 물리적인 공간 경험으로 전환한 것이 특징입니다.",
-      "external_article_summary": "사용하지 않는 안드로이드 태블릿을 활용해 ChatGPT의 메시지를 시각화하는 'Dots Room'을 구축했습니다. 이 프로젝트는 새로운 메시지가 도착할 때마다 태블릿 화면이 활성화되도록 설계되어 작업 중에도 답변을 놓치지 않게 돕습니다. 픽셀 단위의 작은 공간을 통해 AI와의 상호작용을 물리적인 공간 경험으로 전환한 것이 특징입니다.",
+      "title": "Show HN: Unfenced - 공공 토지와 맞닿은 매물 토지 찾기",
+      "url": "https://news.hada.io/topic?id=35425",
+      "summary": "공공 토지 경계 데이터를 활용해 매물의 입지적 가치를 정밀하게 검증하는 서비스입니다. 데이터 기반의 경계 대조 로직을 통해 부동산 거래의 투명성과 정보 비대칭을 해결하는 데 초점을 맞추고 있습니다.",
+      "article_summary": "Unfenced는 공공 산림, 수렵지, 야생 보호구역과 경계를 맞댄 매물 토지를 식별해 주는 서비스입니다. 단순한 매물 설명을 넘어 공식 경계 지도 데이터를 대조하여 토지의 인접 여부를 기술적으로 검증합니다. 사용자는 공유 경계의 측정 길이, 인접한 공공 토지의 면적 및 가격 정보를 한눈에 확인할 수 있습니다.",
+      "external_article_summary": "Unfenced는 공공 산림, 수렵지, 야생 보호구역과 경계를 맞댄 매물 토지를 식별해 주는 서비스입니다. 단순한 매물 설명을 넘어 공식 경계 지도 데이터를 대조하여 토지의 인접 여부를 기술적으로 검증합니다. 사용자는 공유 경계의 측정 길이, 인접한 공공 토지의 면적 및 가격 정보를 한눈에 확인할 수 있습니다.",
       "discussion_summary": "",
       "key_points": [
-        "안 쓰던 안드로이드 태블릿을 활용해 ChatGPT 전용 공간인 'Dots Room'을 구현했습니다.",
-        "새로운 메시지가 도착하면 태블릿 화면이 자동으로 켜지며 사용자에게 알림을 전달합니다.",
-        "AI와의 상호작용을 시각적이고 물리적인 경험으로 전환하여 일상 속 활용도를 높였습니다."
+        "공공 산림 및 보호구역과 경계를 맞댄 매물을 자동으로 찾아주는 서비스입니다.",
+        "공식 경계 지도 데이터를 활용해 매물과 공공 토지의 인접 여부를 정확히 검증합니다.",
+        "공유 경계의 길이와 인접 토지의 면적 및 가격 정보를 통합 제공합니다."
       ],
       "tags": [
-        "SmartHome",
-        "ChatGPT",
-        "UI/UX",
-        "Android"
+        "부동산 테크",
+        "공공데이터",
+        "Unfenced",
+        "GIS"
       ],
-      "published_at_kst": "2026-10-05T01:36:10+09:00",
+      "published_at_kst": "2026-10-16T01:47:13+09:00",
       "category": "",
-      "canonical_path": "/community/hada-34765",
+      "canonical_path": "/community/hada-35425",
       "rank": 10,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=34765"
+        "hada_news": "https://news.hada.io/topic?id=35425"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "reddit-1wxoqqp",
+      "id": "reddit-1x6wh1z",
       "source": "reddit",
       "source_name": "Reddit",
-      "title": "I built a local kNN cache in front of Jev. Numbers, caveats and two negative results inside (author here)",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxoqqp/i_built_a_local_knn_cache_in_front_of_jev_numbers/",
-      "summary": "Jev 모델의 응답 속도를 높이고 비용을 절감하기 위해 kNN(k-Nearest Neighbors) 기반의 로컬 캐싱 시스템을 구축한 프로젝트를 소개합니다. 유사도 임계값과 투표 방식을 사용하여 로컬에서 즉각적인 답변을 제공하며, 반복적인 입력에 대해 빠른 응답과 낮은 지연 시간을 목표로 합니다.",
+      "title": "capy-flash: Qwen3.8-Flash-Next (125B MoE) in full NVFP4 on two 16 GB consumer GPUs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6wh1z/capyflash_qwen38flashnext_125b_moe_in_full_nvfp4/",
+      "summary": "사용자 제작 엔진인 capy-flash를 통해 두 개의 16GB 소비자용 GPU에서 125B MoE 모델을 NVFP4 정밀도로 구동하는 기술적 성과를 소개합니다. 이 엔진은 텐서 병렬 처리 시 발생하는 수치적 오차를 해결하여 높은 생성 속도와 모델 품질을 동시에 확보했습니다.",
       "discussion_summary": "",
       "key_points": [
-        "bge-small-en-v1.5 임베딩을 활용하여 유사도가 0.90 이상이고 5개 이웃이 일치할 경우 로컬에서 답변을 처리하는 방식입니다.",
-        "Warm 상태에서는 호출의 87%를 절감하며 97.6%의 정확도를 보이고, Cold 상태에서는 53% 절감 및 97.4%의 정확도를 기록했습니다.",
-        "비용 절감보다는 응답 속도 향상(30-50ms), API 레이트 리밋 회피, 데이터 보안 유지 측면에서 강점을 가집니다."
+        "capy-flash는 2개의 RTX 5070 Ti 16GB 환경에서 Qwen3.8-Flash-Next 125B 모델을 NVFP4 포맷으로 구동하며, 텐서 병렬 방식을 통해 높은 생성 속도와 프리필 성능을 제공합니다.",
+        "텐서 병렬 처리 시 발생하는 반올림 오차 문제를 해결하기 위해 부분 합을 FP16으로 기록하는 방식을 도입하여, 단일 GPU 수준의 수치적 정확도를 유지합니다.",
+        "현재 리눅스 및 RTX 50 시리즈(sm_120) 환경을 지원하며, 기존 Strata 엔진 대비 특정 작업에서 더 빠른 성능을 보여줍니다."
       ],
       "tags": [
-        "Efficiency",
-        "Benchmark",
-        "Semantic_Search",
+        "Agent",
         "AI",
-        "LLM_Caching"
+        "Benchmark",
+        "NVIDIA",
+        "Quantization"
       ],
-      "published_at_kst": "2026-10-04T19:48:07",
+      "published_at_kst": "2026-10-15T20:20:40",
       "category": "LocalLLaMA",
-      "canonical_path": "/community/reddit-1wxoqqp",
+      "canonical_path": "/community/reddit-1x6wh1z",
       "rank": null,
       "subreddit": "LocalLLaMA",
       "score": "Error",
@@ -664,87 +667,32 @@
       "comments": []
     },
     {
-      "id": "reddit-1wwf9hb",
+      "id": "reddit-1x6w658",
       "source": "reddit",
       "source_name": "Reddit",
-      "title": "Why 1536 dimensions for embedding models?",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1wwf9hb/why_1536_dimensions_for_embedding_models/",
-      "summary": "임베딩 모델에서 1536 차원이 자주 사용되는 이유에 대한 기술적 의문과 그에 대한 커뮤니티의 분석을 다루고 있습니다. 사용자들은 특정 수치가 관습적인 표준이 되었거나 아키텍처 설계상의 효율성 때문일 것이라는 다양한 가설을 제시합니다.",
+      "title": "Ternary Bonsai 2 (2B, 4B, and 9B) just released on Hugging Face. The 2B can run entirely locally in the browser at up to 500 tok/s on an M4 Max with custom WebGPU kernels.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x6w658/ternary_bonsai_2_2b_4b_and_9b_just_released_on/",
+      "summary": "Ternary Bonsai 2 모델 시리즈(2B, 4B, 9B)가 Hugging Face에 출시되었습니다. 특히 2B 모델은 M4 Max 환경에서 커스텀 WebGPU 커널을 통해 브라우저 내 로컬 실행 시 초당 최대 500 토큰의 빠른 속도를 구현합니다.",
       "discussion_summary": "",
       "key_points": [
-        "BERT의 768 차원을 확장한 GPT-3 모델의 영향으로 1536 차원이 업계의 사실상 표준(de facto standard)이 되었다는 분석이 있습니다.",
-        "트랜스포머 아키텍처에서 어텐션 헤드(Attention Heads) 분할 시 512의 배수로서 계산 효율성을 제공할 수 있다는 기술적 추측이 제기되었습니다.",
-        "표현력과 메모리/연산 비용 사이의 균형을 맞추기 위한 경험적인 선택일 가능성이 논의되었습니다."
+        "2B, 4B, 9B 세 가지 크기의 Ternary Bonsai 2 모델이 Hugging Face에 공개되었습니다.",
+        "M4 Max 칩셋과 커스텀 WebGPU 커널을 활용하여 브라우저 기반 로컬 실행 시 매우 높은 추론 속도를 제공합니다.",
+        "Hugging Face를 통해 모델 컬렉션과 WebGPU 데모를 바로 확인할 수 있습니다."
       ],
       "tags": [
-        "Transformer",
         "AI",
-        "Embedding",
+        "EdgeAI",
+        "Release",
+        "WebGPU",
         "LLM"
       ],
-      "published_at_kst": "2026-10-03T05:36:01",
-      "category": "LanguageTechnology",
-      "canonical_path": "/community/reddit-1wwf9hb",
-      "rank": null,
-      "subreddit": "LanguageTechnology",
-      "score": "28",
-      "comments_count": 11,
-      "comments": []
-    },
-    {
-      "id": "reddit-1wxomzr",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "title": "Any benefit to doing this?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wxomzr/any_benefit_to_doing_this/",
-      "summary": "사용자가 RTX 4090과 3090 Ti를 분리하여 하나는 메인 PC로, 다른 하나는 별도의 LLM 전용 PC로 구성하는 것에 대한 효율성을 질문했습니다. 커뮤니티에서는 모델 크기가 24GB 이내라면 작업 분리를 통해 메인 PC의 활용도를 높이는 것이 유리하다는 의견이 지배적입니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "두 GPU를 분리하면 LLM 구동 중에도 메인 PC에서 게임이나 ComfyUI 작업을 원활하게 수행할 수 있습니다.",
-        "단일 시스템에 두 카드를 모두 장착할 경우 VRAM 통합 활용 측면에서 손해를 볼 수 있으나, 모델이 24GB 이내라면 분리 구성이 실용적입니다.",
-        "사용자가 보유한 구형 부품을 활용해 저비용으로 별도 워크스테이션을 구축하는 방안이 제시되었습니다."
-      ],
-      "tags": [
-        "AI",
-        "LLM",
-        "GPU",
-        "Hardware"
-      ],
-      "published_at_kst": "2026-10-04T19:43:55",
+      "published_at_kst": "2026-10-15T20:09:00",
       "category": "LocalLLaMA",
-      "canonical_path": "/community/reddit-1wxomzr",
+      "canonical_path": "/community/reddit-1x6w658",
       "rank": null,
       "subreddit": "LocalLLaMA",
-      "score": "0",
-      "comments_count": 2,
-      "comments": []
-    },
-    {
-      "id": "reddit-1wwsykv",
-      "source": "reddit",
-      "source_name": "Reddit",
-      "title": "Im new to this and i need help.",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1wwsykv/im_new_to_this_and_i_need_help/",
-      "summary": "채팅 시스템의 의도 분류를 위해 개체명 인식(NER) 기술을 활용하려는 초보 개발자의 질문입니다. 문장에서 인물, 객체, 동사 및 관계를 추출하는 데 있어 spaCy와 BERT 중 어떤 방식이 더 적합할지 조언을 구하고 있습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "채팅 시스템 내 의도 분류를 목적으로 문장에서 인물, 객체, 동사, 수량 및 관계를 파싱하는 프로젝트를 진행 중입니다.",
-        "전통적인 NLP 라이브러리인 spaCy와 트랜스포머 기반의 BERT 모델 사이에서 어떤 기술 스택을 선택할지 고민하고 있습니다.",
-        "사용자 핸들을 통해 인물을 식별하고, 문장 내 객체와 속성 간의 관계를 추출하는 정교한 의미론적 이해를 목표로 합니다."
-      ],
-      "tags": [
-        "NLP",
-        "AI",
-        "NER",
-        "NaturalLanguageProcessing"
-      ],
-      "published_at_kst": "2026-10-03T17:33:44",
-      "category": "LanguageTechnology",
-      "canonical_path": "/community/reddit-1wwsykv",
-      "rank": null,
-      "subreddit": "LanguageTechnology",
-      "score": "1",
-      "comments_count": 0,
+      "score": "12",
+      "comments_count": 4,
       "comments": []
     }
   ]
