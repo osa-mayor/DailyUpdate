@@ -1,20 +1,22 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T05:27:06.993792+09:00",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T04:45:18.920063+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face에서는 다양한 규모와 태스크(이미지-텍스트, 텍스트 생성)를 가진 신규 모델들이 주목받고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+  "daily_summary": "Hugging Face에서는 멀티모달(image-text-to-text) 및 텍스트 생성 모델들이 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 시리즈와 O4-Mini 등 코딩 성능이 우수한 모델들이 상위권을 기록했습니다.",
   "daily_key_points": [
-    "OpenBMB 및 ConwayResearch 등에서 공개한 27B~35B 규모의 신규 모델들이 Hugging Face 트렌드에 진입",
-    "jialinyyzz/humanizer 모델이 높은 다운로드 수를 기록하며 텍스트 생성 분야에서 주목",
-    "LiveCodeBench 벤치마크에서 O4-Mini와 Gemini 시리즈 모델들이 상위권 성적 달성"
+    "OpenBMB 및 meta-models의 멀티모달 모델(image-text-to-text)이 Hugging Face에서 주목받음",
+    "jialinyyzz/humanizer와 같은 텍스트 생성 모델의 높은 다운로드 수 기록",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들의 상위권 성적 달성"
   ],
   "daily_tags": [
     "HuggingFace",
+    "Multimodal",
     "LiveCodeBench",
-    "LLM_Trending"
+    "LLM",
+    "Text-Generation"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 다양한 규모와 태스크(이미지-텍스트, 텍스트 생성)를 가진 신규 모델들이 주목받고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. openbmb/MiniCPM-V-4.7-35B-A3B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 35B 규모의 파라미터를 가진 image-text-to-text 태스크용 모델입니다.\n🔗 링크: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B\n\n📍 2. ConwayResearch/Underdog-Saluki-27B-1.0\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: ConwayResearch에서 공개한 Underdog-Saluki-27B-1.0 모델이 Hugging Face에서 주목받고 있습니다. 약 27B 파라미터를 가진 이 모델은 텍스트 생성(text-generation) 태그를 사용하는 모델입니다.\n🔗 링크: https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0\n\n📍 3. jialinyyzz/humanizer\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: jialinyyzz/humanizer 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-generation 파이프라인을 사용하는 텍스트 생성 모델입니다.\n🔗 링크: https://huggingface.co/jialinyyzz/humanizer\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-16.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 멀티모달(image-text-to-text) 및 텍스트 생성 모델들이 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 시리즈와 O4-Mini 등 코딩 성능이 우수한 모델들이 상위권을 기록했습니다.\n\n📍 1. openbmb/MiniCPM-V-4.7-35B-A3B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B\n\n📍 2. meta-models/Muse-Spark-Open-816B-A42B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: meta-models/Muse-Spark-Open-816B-A42B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 대규모 모델입니다.\n🔗 링크: https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B\n\n📍 3. jialinyyzz/humanizer\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: jialinyyzz/humanizer 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-generation 파이프라인을 사용하는 텍스트 생성 모델입니다.\n🔗 링크: https://huggingface.co/jialinyyzz/humanizer\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-17.md",
   "items": [
     {
       "source_key": "hf_trending",
@@ -24,54 +26,54 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-16T01:33:30+09:00",
       "published_date": "2026-10-16",
-      "original_description": "likes=786, downloads=9278, pipeline_tag=image-text-to-text",
+      "original_description": "likes=838, downloads=17553, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 786,
-        "downloads": 9278,
+        "likes": 838,
+        "downloads": 17553,
         "num_parameters": 35212875824,
         "pipeline_tag": "image-text-to-text"
       },
       "rank": 1,
-      "summary": "OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 35B 규모의 파라미터를 가진 image-text-to-text 태스크용 모델입니다.",
+      "summary": "OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.",
       "key_points": [
-        "MiniCPM-V-4.7-35B-A3B 모델의 높은 관심도(likes 786, downloads 9278) 확인",
-        "35B 규모의 파라미터를 보유한 모델",
-        "image-text-to-text 파이프라인을 지원하는 멀티모달 모델"
+        "OpenBMB의 MiniCPM-V-4.7-35B-A3B 모델이 17,553회의 다운로드를 기록하며 트렌드에 진입했습니다.",
+        "약 35B 규모의 파라미터를 가진 모델로, image-text-to-text 태그를 보유하고 있습니다.",
+        "838개의 likes를 기록하며 사용자들의 관심을 받고 있습니다."
       ],
       "tags": [
         "MiniCPM-V-4.7-35B-A3B",
-        "image-text-to-text",
-        "OpenBMB"
+        "OpenBMB",
+        "image-text-to-text"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "ConwayResearch/Underdog-Saluki-27B-1.0",
-      "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+      "title": "meta-models/Muse-Spark-Open-816B-A42B",
+      "url": "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-15T20:43:02+09:00",
-      "published_date": "2026-10-15",
-      "original_description": "likes=496, downloads=344177, pipeline_tag=text-generation",
+      "published_at_kst": "2026-10-16T00:46:43+09:00",
+      "published_date": "2026-10-16",
+      "original_description": "likes=426, downloads=815, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 496,
-        "downloads": 344177,
-        "num_parameters": 26895998464,
-        "pipeline_tag": "text-generation"
+        "likes": 426,
+        "downloads": 815,
+        "num_parameters": 822036529664,
+        "pipeline_tag": "image-text-to-text"
       },
       "rank": 2,
-      "summary": "ConwayResearch에서 공개한 Underdog-Saluki-27B-1.0 모델이 Hugging Face에서 주목받고 있습니다. 약 27B 파라미터를 가진 이 모델은 텍스트 생성(text-generation) 태그를 사용하는 모델입니다.",
+      "summary": "meta-models/Muse-Spark-Open-816B-A42B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 대규모 모델입니다.",
       "key_points": [
-        "ConwayResearch의 Underdog-Saluki-27B-1.0 모델 출시",
-        "약 26.9B 파라미터를 보유한 text-generation 태그 모델",
-        "누적 다운로드 수 344,177회를 기록하며 높은 관심을 받음"
+        "모델명은 meta-models/Muse-Spark-Open-816B-A42B이며, 약 822B 파라미터를 보유하고 있습니다.",
+        "pipeline_tag는 image-text-to-text로 분류됩니다.",
+        "현재 likes 426회, downloads 815회를 기록하며 트렌드에 진입했습니다."
       ],
       "tags": [
-        "Underdog-Saluki-27B-1.0",
-        "text-generation",
-        "HuggingFace"
+        "meta-models/Muse-Spark-Open-816B-A42B",
+        "image-text-to-text",
+        "Hugging Face"
       ]
     },
     {
@@ -82,25 +84,25 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-15T11:09:56+09:00",
       "published_date": "2026-10-15",
-      "original_description": "likes=1720, downloads=75253, pipeline_tag=text-generation",
+      "original_description": "likes=1816, downloads=85612, pipeline_tag=text-generation",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 1720,
-        "downloads": 75253,
+        "likes": 1816,
+        "downloads": 85612,
         "num_parameters": 11959730224,
         "pipeline_tag": "text-generation"
       },
       "rank": 3,
       "summary": "jialinyyzz/humanizer 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-generation 파이프라인을 사용하는 텍스트 생성 모델입니다.",
       "key_points": [
-        "jialinyyzz/humanizer 모델의 downloads가 75,253회를 기록하며 높은 관심을 받고 있습니다.",
+        "jialinyyzz/humanizer 모델의 downloads가 85,612회를 기록하며 높은 관심을 받고 있습니다.",
         "모델의 파라미터 규모는 약 11.96B입니다.",
         "pipeline_tag는 text-generation으로 분류됩니다."
       ],
       "tags": [
         "text-generation",
-        "HuggingFace",
-        "LLM"
+        "LLM",
+        "HuggingFace"
       ]
     },
     {
