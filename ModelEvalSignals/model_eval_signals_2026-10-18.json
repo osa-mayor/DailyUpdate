@@ -1,0 +1,193 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T04:43:55.368786+09:00",
+  "count": 6,
+  "daily_summary": "Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 성과를 중심으로 멀티모달, TTS, 코딩 성능 분야의 기술 동향이 관찰되었습니다.",
+  "daily_key_points": [
+    "Hugging Face에서 이미지 생성(flux-3), 멀티모달(DeepSeek-V4.1), TTS(drama-3) 등 다양한 도메인의 모델들이 높은 관심을 받으며 트렌드에 진입함",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁이 지속됨",
+    "이미지-텍스트 결합 및 텍스트-음성 변환 등 멀티모달 기능 중심의 모델 활용도가 높아지는 추세임"
+  ],
+  "daily_tags": [
+    "HuggingFace",
+    "LiveCodeBench",
+    "Multimodal",
+    "LLM",
+    "TTS"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 성과를 중심으로 멀티모달, TTS, 코딩 성능 분야의 기술 동향이 관찰되었습니다.\n\n📍 1. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 2. deepseek-ai/DeepSeek-V4.1-Flash-1017\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-AI에서 출시한 DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\n\n📍 3. fishaudio/drama-3\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: fishaudio에서 공개한 drama-3 모델이 text-to-speech 분야에서 주목받고 있습니다. 약 35.9B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/fishaudio/drama-3\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-18.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "black-forest-labs/flux-3-image-klein-comfy",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-17T16:10:12+09:00",
+      "published_date": "2026-10-17",
+      "original_description": "likes=626, downloads=224108, pipeline_tag=image-to-image",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 626,
+        "downloads": 224108,
+        "num_parameters": 0,
+        "pipeline_tag": "image-to-image"
+      },
+      "rank": 1,
+      "summary": "black-forest-labs/flux-3-image-klein-comfy 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.",
+      "key_points": [
+        "black-forest-labs/flux-3-image-klein-comfy 모델의 높은 사용자 유입 확인",
+        "224,108회의 downloads와 626개의 likes 기록",
+        "image-to-image 파이프라인 태그를 사용하는 모델"
+      ],
+      "tags": [
+        "black-forest-labs",
+        "flux-3-image-klein-comfy",
+        "image-to-image"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-17T14:46:55+09:00",
+      "published_date": "2026-10-17",
+      "original_description": "likes=856, downloads=0, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 856,
+        "downloads": 0,
+        "num_parameters": 763205315794,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 2,
+      "summary": "DeepSeek-AI에서 출시한 DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
+      "key_points": [
+        "DeepSeek-AI에서 공개한 image-text-to-text 태그의 모델입니다.",
+        "856개의 likes를 기록하며 모델 트렌드에 진입했습니다.",
+        "약 763B 규모의 파라미터를 보유한 대형 모델입니다."
+      ],
+      "tags": [
+        "DeepSeek-V4.1-Flash-1017",
+        "image-text-to-text",
+        "DeepSeek-AI"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "fishaudio/drama-3",
+      "url": "https://huggingface.co/fishaudio/drama-3",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-17T14:06:07+09:00",
+      "published_date": "2026-10-17",
+      "original_description": "likes=610, downloads=8193, pipeline_tag=text-to-speech",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 610,
+        "downloads": 8193,
+        "num_parameters": 35899643008,
+        "pipeline_tag": "text-to-speech"
+      },
+      "rank": 3,
+      "summary": "fishaudio에서 공개한 drama-3 모델이 text-to-speech 분야에서 주목받고 있습니다. 약 35.9B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "key_points": [
+        "fishaudio/drama-3 모델은 text-to-speech 파이프라인을 지원합니다.",
+        "모델의 파라미터 규모는 약 35.9B입니다.",
+        "최근 8,193회의 다운로드와 610개의 likes를 기록하며 트렌드에 진입했습니다."
+      ],
+      "tags": [
+        "fishaudio",
+        "text-to-speech",
+        "LLM"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
