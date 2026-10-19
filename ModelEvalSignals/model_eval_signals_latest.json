@@ -1,23 +1,50 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T05:03:09.548321+09:00",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T05:11:11.336046+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face의 신규 모델 출시로 인한 멀티모달 및 TTS 분야의 트렌드 형성과 LiveCodeBench를 통한 코딩 성능 벤치마크 결과가 주요 흐름을 이뤘습니다.",
+  "daily_summary": "Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 특히 멀티모달 모델과 코딩 성능 중심의 모델들이 주목받았습니다.",
   "daily_key_points": [
-    "Hugging Face에서 이미지 생성(flux-3), 멀티모달(DeepSeek-V4.1), TTS(drama-3) 등 다양한 도메인의 모델들이 높은 관심을 받으며 트렌드에 진입함",
+    "OpenBMB, black-forest-labs, DeepSeek 등 다양한 기업의 멀티모달(Image-to-Text/Image) 모델이 높은 다운로드 수를 기록하며 트렌드를 주도함",
     "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여줌",
-    "텍스트뿐만 아니라 이미지, 음성 등 멀티모달 기능과 대규모 파라미터를 활용한 특화 모델들의 활발한 배포가 관찰됨"
+    "이미지-텍스트 결합 파이프라인을 지원하는 모델들의 활발한 배포가 관찰됨"
   ],
   "daily_tags": [
     "HuggingFace",
     "Multimodal",
-    "LiveCodeBench",
-    "LLM",
-    "TTS"
+    "LiveCodeBench"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 출시로 인한 멀티모달 및 TTS 분야의 트렌드 형성과 LiveCodeBench를 통한 코딩 성능 벤치마크 결과가 주요 흐름을 이뤘습니다.\n\n📍 1. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 2. deepseek-ai/DeepSeek-V4.1-Flash-1017\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-AI에서 출시한 DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\n\n📍 3. fishaudio/drama-3\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: fishaudio에서 공개한 drama-3 모델이 text-to-speech 분야에서 주목받고 있습니다. 약 35.9B 파라미터를 가진 대규모 모델로, 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/fishaudio/drama-3\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-19.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 특히 멀티모달 모델과 코딩 성능 중심의 모델들이 주목받았습니다.\n\n📍 1. openbmb/MiniCPM-V-4.7-35B-A3B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B\n\n📍 2. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 3. deepseek-ai/DeepSeek-V4.1-Flash-1017\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 성격의 모델입니다.\n🔗 링크: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-20.md",
   "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-19T21:52:58+09:00",
+      "published_date": "2026-10-19",
+      "original_description": "likes=1051, downloads=76410, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 1051,
+        "downloads": 76410,
+        "num_parameters": 35212875824,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 1,
+      "summary": "OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.",
+      "key_points": [
+        "MiniCPM-V-4.7-35B-A3B 모델의 높은 사용자 관심도(likes 1,051, downloads 76,410)",
+        "35B 규모의 파라미터를 가진 image-text-to-text 태스크 특화 모델",
+        "멀티모달 작업 수행을 위한 효율적인 구조 제공"
+      ],
+      "tags": [
+        "MiniCPM-V-4.7-35B-A3B",
+        "image-text-to-text",
+        "OpenBMB"
+      ]
+    },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
@@ -26,20 +53,20 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-17T16:10:12+09:00",
       "published_date": "2026-10-17",
-      "original_description": "likes=786, downloads=338036, pipeline_tag=image-to-image",
+      "original_description": "likes=938, downloads=393062, pipeline_tag=image-to-image",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 786,
-        "downloads": 338036,
+        "likes": 938,
+        "downloads": 393062,
         "num_parameters": 0,
         "pipeline_tag": "image-to-image"
       },
-      "rank": 1,
+      "rank": 2,
       "summary": "black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.",
       "key_points": [
         "black-forest-labs/flux-3-image-klein-comfy 모델의 높은 인기도 확인",
-        "338,036회의 downloads와 786 likes 기록",
-        "image-to-image 파이프라인 태그를 사용하는 모델"
+        "393,062회의 downloads와 938개의 likes 기록",
+        "pipeline_tag는 image-to-image로 분류됨"
       ],
       "tags": [
         "black-forest-labs",
@@ -55,54 +82,25 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-17T14:46:55+09:00",
       "published_date": "2026-10-17",
-      "original_description": "likes=1295, downloads=10233, pipeline_tag=image-text-to-text",
+      "original_description": "likes=1654, downloads=17924, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 1295,
-        "downloads": 10233,
+        "likes": 1654,
+        "downloads": 17924,
         "num_parameters": 763205315794,
         "pipeline_tag": "image-text-to-text"
       },
-      "rank": 2,
-      "summary": "DeepSeek-AI에서 출시한 DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
+      "rank": 3,
+      "summary": "DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 성격의 모델입니다.",
       "key_points": [
-        "DeepSeek-AI의 image-text-to-text 파이프라인 모델임",
-        "10,233회의 다운로드와 1,295개의 likes를 기록하며 트렌딩 중",
-        "약 763B 규모의 파라미터를 보유한 대형 모델임"
+        "DeepSeek-V4.1-Flash-1017 모델의 높은 사용자 관심도(likes 1,654, downloads 17,924) 확인",
+        "image-text-to-text 파이프라인을 지원하는 모델로 분류됨",
+        "약 763B 규모의 파라미터를 보유한 대형 모델"
       ],
       "tags": [
         "DeepSeek-V4.1-Flash-1017",
         "image-text-to-text",
-        "DeepSeek-AI"
-      ]
-    },
-    {
-      "source_key": "hf_trending",
-      "source_name": "HF Model Trending",
-      "title": "fishaudio/drama-3",
-      "url": "https://huggingface.co/fishaudio/drama-3",
-      "category": "Model Trending",
-      "published_at_kst": "2026-10-17T14:06:07+09:00",
-      "published_date": "2026-10-17",
-      "original_description": "likes=680, downloads=9620, pipeline_tag=text-to-speech",
-      "signal_type": "model_trending",
-      "metrics": {
-        "likes": 680,
-        "downloads": 9620,
-        "num_parameters": 35899643008,
-        "pipeline_tag": "text-to-speech"
-      },
-      "rank": 3,
-      "summary": "fishaudio에서 공개한 drama-3 모델이 text-to-speech 분야에서 주목받고 있습니다. 약 35.9B 파라미터를 가진 대규모 모델로, 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
-      "key_points": [
-        "fishaudio/drama-3 모델은 text-to-speech 파이프라인을 지원합니다.",
-        "모델 파라미터 규모는 약 35.9B입니다.",
-        "680개의 likes와 9,620회의 downloads를 기록하며 높은 관심을 받고 있습니다."
-      ],
-      "tags": [
-        "fishaudio",
-        "text-to-speech",
-        "LLM"
+        "Model Trending"
       ]
     },
     {
