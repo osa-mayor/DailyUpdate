@@ -1,21 +1,20 @@
 {
   "source": "official_news",
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T05:00:19.826390+09:00",
-  "count": 11,
-  "daily_summary": "Google DeepMind, Anthropic, OpenAI 등 주요 AI 기업들이 차세대 모델 출시, 산업별 특화 솔루션 적용, 그리고 AI의 사회적 책임과 안전 정책을 중심으로 활발한 행보를 보였습니다.",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T05:08:02.528925+09:00",
+  "count": 12,
+  "daily_summary": "Google DeepMind, Anthropic, OpenAI 등 주요 AI 기업들의 모델 고도화, 산업별 특화 솔루션 적용, 그리고 사회적 책임 및 정책 대응을 중심으로 한 기술 생태계의 확장이 관찰되었습니다.",
   "daily_key_points": [
-    "Google DeepMind의 Gemini 4 Argon 출시 및 과학적 연구(항균 펩타이드)와 보안(사기 탐지) 분야로의 모델 확장",
-    "금융 및 개발 도구 등 실질적 비즈니스 효율을 높이기 위한 생성형 AI 및 에이전트 기술의 산업 현장 적용 사례 증가",
-    "Anthropic과 GovTech의 협업 등 AI 모델의 투명성, 공공 이익, 정책적 책임에 대한 논의 심화"
+    "Google DeepMind의 차세대 모델(Gemini 4 Argon) 및 과학적 탐색(Antigravity) 도구 공개를 통한 문제 해결 능력 강화",
+    "금융(Itaú), 법률/신용(Benefit Street Partners), 개발(Stack Overflow) 등 다양한 산업 분야에서의 생성형 AI 및 에이전트 기술 실무 적용",
+    "사기 탐지(GovTech Singapore), 공공 이익 투자, 선거 정책 등 AI의 사회적 책임과 안전성 확보를 위한 움직임 가속화"
   ],
   "daily_tags": [
     "Generative AI",
     "AI Agents",
-    "Model Safety",
-    "Business Automation"
+    "AI Safety & Policy"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind, Anthropic, OpenAI 등 주요 AI 기업들이 차세대 모델 출시, 산업별 특화 솔루션 적용, 그리고 AI의 사회적 책임과 안전 정책을 중심으로 활발한 행보를 보였습니다.\n\n📍 1. Gemini 4 Argon: Built to solve your hardest problems\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 최신 프론티어 모델인 Gemini 4 Argon을 공개했습니다. 이 모델은 개발자, 기업, 과학자 및 일반 소비자들이 직면한 가장 어려운 문제들을 해결하기 위해 설계되었습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n📍 2. Accelerating the search for antimicrobial peptides with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.\n🔗 링크: https://deepmind.google/blog/accelerating-antimicrobial-discovery/\n\n📍 3. Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection\n🗂️ 소스: Google DeepMind | 분류: Responsibility & Safety\n📝 요약: Google DeepMind와 GovTech Singapore가 협력하여 대화형 사기 탐지를 위한 미세 조정된 AI 모델을 구축했습니다. 이 프로젝트는 가벼운 온디바이스 Gemma 모델을 활용하여 클라우드 데이터 유출 없이 개인 채팅 내 사기 시도를 차단하는 것을 목표로 합니다.\n🔗 링크: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/\n\n📍 4. Oct 18, 2026 Announcements Investing in the public benefit\n🗂️ 소스: Anthropic News | 분류: Announcements\n📝 요약: Anthropic이 공공의 이익을 위한 투자를 발표했습니다. 이번 발표는 사회적 가치 창출을 위한 새로운 행보를 담고 있습니다.\n🔗 링크: https://www.anthropic.com/news/public-benefit-fund\n\n📍 5. How Itaú is building generative AI for its entire customer base\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: 브라질의 금융 기업 Itaú가 대화형 인터페이스인 ia.i와 거버넌스 플랫폼 IARA를 통해 생성형 AI를 구축하고 있습니다. 이를 통해 규제가 엄격한 금융 환경 속에서 고객과 직원 모두를 대상으로 'AI First' 전략을 실행하고 있습니다.\n🔗 링크: https://openai.com/index/itau-generative-ai\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-10-19.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind, Anthropic, OpenAI 등 주요 AI 기업들의 모델 고도화, 산업별 특화 솔루션 적용, 그리고 사회적 책임 및 정책 대응을 중심으로 한 기술 생태계의 확장이 관찰되었습니다.\n\n📍 1. Gemini 4 Argon: Built to solve your hardest problems\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 최신 프론티어 모델인 Gemini 4 Argon을 공개했습니다. 이 모델은 개발자, 기업, 과학자 및 일반 소비자들이 직면한 가장 어려운 문제들을 해결하기 위해 설계되었습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n📍 2. Accelerating the search for antimicrobial peptides with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.\n🔗 링크: https://deepmind.google/blog/accelerating-antimicrobial-discovery/\n\n📍 3. Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection\n🗂️ 소스: Google DeepMind | 분류: Responsibility & Safety\n📝 요약: Google DeepMind와 GovTech Singapore가 협력하여 대화형 사기 탐지를 위한 미세 조정된 AI 모델을 구축했습니다. 이 프로젝트는 가벼운 온디바이스 Gemma 모델을 활용하여 클라우드 데이터 유출 없이 개인 채팅 내 사기 시도를 차단하는 것을 목표로 합니다.\n🔗 링크: https://deepmind.google/blog/on-device-ai-scam-detection-mddi/\n\n📍 4. Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google이 IDC MarketScape의 'Worldwide Agentic AI Platforms 2026 Vendor Assessment'에서 Leader로 선정되었습니다. Gemini를 기반으로 한 연결된 인프라가 이번 평가의 핵심 요인으로 작용했습니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms\n\n📍 5. Oct 18, 2026 Announcements Investing in the public benefit\n🗂️ 소스: Anthropic News | 분류: Announcements\n📝 요약: Anthropic이 공공의 이익을 위한 투자를 발표했습니다. 이번 발표는 사회적 가치 창출을 위한 새로운 행보를 담고 있습니다.\n🔗 링크: https://www.anthropic.com/news/public-benefit-fund\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-10-20.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -87,6 +86,29 @@
       ]
     },
     {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Google named a Leader in the 2026 IDC MarketScape for Agentic AI Platforms",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-named-leader-in-2026-idc-marketscape-for-agentic-ai-platforms",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-10-19T00:00:00+09:00",
+      "published_date": "2026-10-19",
+      "original_description": "Gemini provides that connected foundation across your spectrum of employees and surfaces, and it’s why we believe Google was named a Leader in the inaugural IDC MarketScape: Worldwide Agentic AI Platforms 2026 Vendor Assessment.",
+      "release_type": "engineering_update",
+      "rank": 4,
+      "summary": "Google이 IDC MarketScape의 'Worldwide Agentic AI Platforms 2026 Vendor Assessment'에서 Leader로 선정되었습니다. Gemini를 기반으로 한 연결된 인프라가 이번 평가의 핵심 요인으로 작용했습니다.",
+      "key_points": [
+        "Google이 2026 IDC MarketScape Agentic AI Platforms 부문에서 Leader로 선정됨",
+        "Gemini가 전 직원과 다양한 접점을 연결하는 기반 역할을 수행함",
+        "최초로 진행된 Worldwide Agentic AI Platforms 2026 Vendor Assessment 결과임"
+      ],
+      "tags": [
+        "Google",
+        "Gemini",
+        "IDC MarketScape"
+      ]
+    },
+    {
       "source_key": "anthropic",
       "source_name": "Anthropic News",
       "title": "Oct 18, 2026 Announcements Investing in the public benefit",
@@ -96,7 +118,7 @@
       "published_date": "2026-10-18",
       "original_description": "",
       "release_type": "announcement",
-      "rank": 4,
+      "rank": 5,
       "summary": "Anthropic이 공공의 이익을 위한 투자를 발표했습니다. 이번 발표는 사회적 가치 창출을 위한 새로운 행보를 담고 있습니다.",
       "key_points": [
         "Anthropic의 공공 이익 투자 발표",
@@ -118,7 +140,7 @@
       "published_date": "2026-10-17",
       "original_description": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "release_type": "official_update",
-      "rank": 5,
+      "rank": 6,
       "summary": "브라질의 금융 기업 Itaú가 대화형 인터페이스인 ia.i와 거버넌스 플랫폼 IARA를 통해 생성형 AI를 구축하고 있습니다. 이를 통해 규제가 엄격한 금융 환경 속에서 고객과 직원 모두를 대상으로 'AI First' 전략을 실행하고 있습니다.",
       "key_points": [
         "Itaú의 대화형 인터페이스 ia.i와 거버넌스 플랫폼 IARA 도입",
@@ -141,7 +163,7 @@
       "published_date": "2026-10-16",
       "original_description": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "release_type": "official_update",
-      "rank": 6,
+      "rank": 7,
       "summary": "Benefit Street Partners는 Codex를 활용하여 대출 가치 비교 및 신용 계약 분석 도구를 구축했습니다. 이를 통해 코드 리뷰와 후속 작업 속도를 높여 업무 효율을 개선했습니다.",
       "key_points": [
         "Codex를 활용한 대출 가치 비교 및 신용 계약 분석 도구 개발",
@@ -164,7 +186,7 @@
       "published_date": "2026-10-16",
       "original_description": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "release_type": "official_update",
-      "rank": 7,
+      "rank": 8,
       "summary": "두 명의 엔지니어가 Codex를 활용해 Stack Overflow for Agents를 단 몇 주 만에 출시했습니다. 이 서비스의 ChatGPT plugin은 에이전트 생성 수를 최대 10배까지 증가시키며 가입자 수를 세 배로 늘리는 데 기여했습니다.",
       "key_points": [
         "두 명의 엔지니어가 Codex를 사용하여 Stack Overflow for Agents를 단기간에 개발 및 출시함",
@@ -187,7 +209,7 @@
       "published_date": "2026-10-15",
       "original_description": "",
       "release_type": "announcement",
-      "rank": 8,
+      "rank": 9,
       "summary": "Anthropic이 독립적인 평가자(independent evaluators)에 대한 업데이트를 발표했습니다. 이번 업데이트는 모델 평가 방식의 투명성과 신뢰성을 높이기 위한 내용을 담고 있습니다.",
       "key_points": [
         "Anthropic의 독립적 평가자 관련 업데이트 발표",
@@ -210,7 +232,7 @@
       "published_date": "2026-10-14",
       "original_description": "",
       "release_type": "announcement",
-      "rank": 9,
+      "rank": 10,
       "summary": "Anthropic이 2026년 미국 중간선거를 대비하여 발표한 새로운 정책에 관한 내용입니다.",
       "key_points": [
         "2026년 US midterms를 대비한 정책 수립",
@@ -232,7 +254,7 @@
       "published_date": "2026-10-14",
       "original_description": "Starting today, we are making our new frontier model, Gemini 4 Argon, available for everyone on Google Cloud.",
       "release_type": "engineering_update",
-      "rank": 10,
+      "rank": 11,
       "summary": "Google Cloud가 새로운 프런티어 모델인 Gemini 4 Argon을 출시했습니다. 이 모델은 비즈니스의 가장 어려운 문제들을 해결할 수 있도록 설계되었습니다.",
       "key_points": [
         "Google Cloud에서 새로운 프런티어 모델 Gemini 4 Argon 사용 가능",
@@ -255,7 +277,7 @@
       "published_date": "2026-10-09",
       "original_description": "This article is adapted from Thomas Kurian’s keynote address at Gemini at Work 2026. Read on to learn more.",
       "release_type": "engineering_update",
-      "rank": 11,
+      "rank": 12,
       "summary": "Gemini at Work 2026에서 발표된 Thomas Kurian의 기조연설 내용을 바탕으로 작성된 글입니다. 이번 행사에서는 새로운 Gemini agent의 도입을 다루고 있습니다.",
       "key_points": [
         "Gemini at Work 2026 기조연설 내용 요약",
