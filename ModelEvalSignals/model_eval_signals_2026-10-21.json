@@ -1,0 +1,191 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T04:48:35.469933+09:00",
+  "count": 6,
+  "daily_summary": "Hugging Face에서는 MOSS-Image 시리즈와 Flux-3 관련 모델들이 텍스트/이미지 생성 분야에서 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 상위권을 기록했습니다.",
+  "daily_key_points": [
+    "OpenMOSS-Team의 MOSS-Image(SFT/Base) 모델이 5B 규모의 text-to-image 파이프라인으로 주목받음",
+    "black-forest-labs의 flux-3-image-klein-comfy 모델이 image-to-image 작업에서 높은 다운로드 수 기록",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적 달성"
+  ],
+  "daily_tags": [
+    "Text-to-Image",
+    "LiveCodeBench",
+    "HuggingFace_Trending"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 MOSS-Image 시리즈와 Flux-3 관련 모델들이 텍스트/이미지 생성 분야에서 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 상위권을 기록했습니다.\n\n📍 1. OpenMOSS-Team/MOSS-Image-SFT\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenMOSS-Team에서 공개한 MOSS-Image-SFT 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 약 5B 파라미터 규모의 모델입니다.\n🔗 링크: https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\n\n📍 2. OpenMOSS-Team/MOSS-Image-Base\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenMOSS-Team에서 공개한 text-to-image 모델인 MOSS-Image-Base가 Hugging Face에서 주목받고 있습니다. 약 5.08B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base\n\n📍 3. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 해당 모델은 image-to-image 파이프라인을 지원하며 많은 다운로드 수를 기록하고 있습니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-21.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "OpenMOSS-Team/MOSS-Image-SFT",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-19T17:31:03+09:00",
+      "published_date": "2026-10-19",
+      "original_description": "likes=490, downloads=4547, pipeline_tag=text-to-image",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 490,
+        "downloads": 4547,
+        "num_parameters": 5082308624,
+        "pipeline_tag": "text-to-image"
+      },
+      "rank": 1,
+      "summary": "OpenMOSS-Team에서 공개한 MOSS-Image-SFT 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 약 5B 파라미터 규모의 모델입니다.",
+      "key_points": [
+        "OpenMOSS-Team에서 개발한 MOSS-Image-SFT 모델 공개",
+        "text-to-image 태그를 사용하는 이미지 생성 관련 모델",
+        "약 5.08B 규모의 파라미터를 보유함"
+      ],
+      "tags": [
+        "MOSS-Image-SFT",
+        "text-to-image",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "OpenMOSS-Team/MOSS-Image-Base",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-19T17:31:00+09:00",
+      "published_date": "2026-10-19",
+      "original_description": "likes=428, downloads=3558, pipeline_tag=text-to-image",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 428,
+        "downloads": 3558,
+        "num_parameters": 5082308624,
+        "pipeline_tag": "text-to-image"
+      },
+      "rank": 2,
+      "summary": "OpenMOSS-Team에서 공개한 text-to-image 모델인 MOSS-Image-Base가 Hugging Face에서 주목받고 있습니다. 약 5.08B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "key_points": [
+        "OpenMOSS-Team이 공개한 text-to-image 파이프라인 모델입니다.",
+        "모델의 파라미터 규모는 약 5.08B입니다.",
+        "최근 3,558회의 다운로드와 428개의 likes를 기록하며 트렌딩 중입니다."
+      ],
+      "tags": [
+        "MOSS-Image-Base",
+        "text-to-image",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "black-forest-labs/flux-3-image-klein-comfy",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-17T16:10:12+09:00",
+      "published_date": "2026-10-17",
+      "original_description": "likes=1072, downloads=439528, pipeline_tag=image-to-image",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 1072,
+        "downloads": 439528,
+        "num_parameters": 0,
+        "pipeline_tag": "image-to-image"
+      },
+      "rank": 3,
+      "summary": "black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 해당 모델은 image-to-image 파이프라인을 지원하며 많은 다운로드 수를 기록하고 있습니다.",
+      "key_points": [
+        "black-forest-labs/flux-3-image-klein-comfy 모델의 높은 다운로드 수 기록",
+        "pipeline_tag는 image-to-image로 분류됨",
+        "1,000개 이상의 likes를 기록하며 모델 트렌드 형성"
+      ],
+      "tags": [
+        "black-forest-labs",
+        "flux-3-image-klein-comfy",
+        "image-to-image"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}

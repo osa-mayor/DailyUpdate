@@ -1,48 +1,77 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T05:11:11.336046+09:00",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T04:48:35.469933+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 특히 멀티모달 모델과 코딩 성능 중심의 모델들이 주목받았습니다.",
+  "daily_summary": "Hugging Face에서는 MOSS-Image 시리즈와 Flux-3 관련 모델들이 텍스트/이미지 생성 분야에서 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 상위권을 기록했습니다.",
   "daily_key_points": [
-    "OpenBMB, black-forest-labs, DeepSeek 등 다양한 기업의 멀티모달(Image-to-Text/Image) 모델이 높은 다운로드 수를 기록하며 트렌드를 주도함",
-    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여줌",
-    "이미지-텍스트 결합 파이프라인을 지원하는 모델들의 활발한 배포가 관찰됨"
+    "OpenMOSS-Team의 MOSS-Image(SFT/Base) 모델이 5B 규모의 text-to-image 파이프라인으로 주목받음",
+    "black-forest-labs의 flux-3-image-klein-comfy 모델이 image-to-image 작업에서 높은 다운로드 수 기록",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적 달성"
   ],
   "daily_tags": [
-    "HuggingFace",
-    "Multimodal",
-    "LiveCodeBench"
+    "Text-to-Image",
+    "LiveCodeBench",
+    "HuggingFace_Trending"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 특히 멀티모달 모델과 코딩 성능 중심의 모델들이 주목받았습니다.\n\n📍 1. openbmb/MiniCPM-V-4.7-35B-A3B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B\n\n📍 2. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 3. deepseek-ai/DeepSeek-V4.1-Flash-1017\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 성격의 모델입니다.\n🔗 링크: https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-20.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 MOSS-Image 시리즈와 Flux-3 관련 모델들이 텍스트/이미지 생성 분야에서 높은 관심을 받았으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 상위권을 기록했습니다.\n\n📍 1. OpenMOSS-Team/MOSS-Image-SFT\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenMOSS-Team에서 공개한 MOSS-Image-SFT 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 약 5B 파라미터 규모의 모델입니다.\n🔗 링크: https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT\n\n📍 2. OpenMOSS-Team/MOSS-Image-Base\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: OpenMOSS-Team에서 공개한 text-to-image 모델인 MOSS-Image-Base가 Hugging Face에서 주목받고 있습니다. 약 5.08B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base\n\n📍 3. black-forest-labs/flux-3-image-klein-comfy\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 해당 모델은 image-to-image 파이프라인을 지원하며 많은 다운로드 수를 기록하고 있습니다.\n🔗 링크: https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-21.md",
   "items": [
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "openbmb/MiniCPM-V-4.7-35B-A3B",
-      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "title": "OpenMOSS-Team/MOSS-Image-SFT",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-19T21:52:58+09:00",
+      "published_at_kst": "2026-10-19T17:31:03+09:00",
       "published_date": "2026-10-19",
-      "original_description": "likes=1051, downloads=76410, pipeline_tag=image-text-to-text",
+      "original_description": "likes=490, downloads=4547, pipeline_tag=text-to-image",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 1051,
-        "downloads": 76410,
-        "num_parameters": 35212875824,
-        "pipeline_tag": "image-text-to-text"
+        "likes": 490,
+        "downloads": 4547,
+        "num_parameters": 5082308624,
+        "pipeline_tag": "text-to-image"
       },
       "rank": 1,
-      "summary": "OpenBMB에서 공개한 MiniCPM-V-4.7-35B-A3B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 결합하여 처리하는 image-text-to-text 파이프라인을 지원합니다.",
+      "summary": "OpenMOSS-Team에서 공개한 MOSS-Image-SFT 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 약 5B 파라미터 규모의 모델입니다.",
       "key_points": [
-        "MiniCPM-V-4.7-35B-A3B 모델의 높은 사용자 관심도(likes 1,051, downloads 76,410)",
-        "35B 규모의 파라미터를 가진 image-text-to-text 태스크 특화 모델",
-        "멀티모달 작업 수행을 위한 효율적인 구조 제공"
+        "OpenMOSS-Team에서 개발한 MOSS-Image-SFT 모델 공개",
+        "text-to-image 태그를 사용하는 이미지 생성 관련 모델",
+        "약 5.08B 규모의 파라미터를 보유함"
       ],
       "tags": [
-        "MiniCPM-V-4.7-35B-A3B",
-        "image-text-to-text",
-        "OpenBMB"
+        "MOSS-Image-SFT",
+        "text-to-image",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "OpenMOSS-Team/MOSS-Image-Base",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-Base",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-19T17:31:00+09:00",
+      "published_date": "2026-10-19",
+      "original_description": "likes=428, downloads=3558, pipeline_tag=text-to-image",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 428,
+        "downloads": 3558,
+        "num_parameters": 5082308624,
+        "pipeline_tag": "text-to-image"
+      },
+      "rank": 2,
+      "summary": "OpenMOSS-Team에서 공개한 text-to-image 모델인 MOSS-Image-Base가 Hugging Face에서 주목받고 있습니다. 약 5.08B 파라미터를 보유한 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "key_points": [
+        "OpenMOSS-Team이 공개한 text-to-image 파이프라인 모델입니다.",
+        "모델의 파라미터 규모는 약 5.08B입니다.",
+        "최근 3,558회의 다운로드와 428개의 likes를 기록하며 트렌딩 중입니다."
+      ],
+      "tags": [
+        "MOSS-Image-Base",
+        "text-to-image",
+        "Hugging Face"
       ]
     },
     {
@@ -53,54 +82,25 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-17T16:10:12+09:00",
       "published_date": "2026-10-17",
-      "original_description": "likes=938, downloads=393062, pipeline_tag=image-to-image",
+      "original_description": "likes=1072, downloads=439528, pipeline_tag=image-to-image",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 938,
-        "downloads": 393062,
+        "likes": 1072,
+        "downloads": 439528,
         "num_parameters": 0,
         "pipeline_tag": "image-to-image"
       },
-      "rank": 2,
-      "summary": "black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-to-image 파이프라인을 지원하는 것이 특징입니다.",
+      "rank": 3,
+      "summary": "black-forest-labs/flux-3-image-klein-comfy 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 해당 모델은 image-to-image 파이프라인을 지원하며 많은 다운로드 수를 기록하고 있습니다.",
       "key_points": [
-        "black-forest-labs/flux-3-image-klein-comfy 모델의 높은 인기도 확인",
-        "393,062회의 downloads와 938개의 likes 기록",
-        "pipeline_tag는 image-to-image로 분류됨"
+        "black-forest-labs/flux-3-image-klein-comfy 모델의 높은 다운로드 수 기록",
+        "pipeline_tag는 image-to-image로 분류됨",
+        "1,000개 이상의 likes를 기록하며 모델 트렌드 형성"
       ],
       "tags": [
         "black-forest-labs",
         "flux-3-image-klein-comfy",
         "image-to-image"
-      ]
-    },
-    {
-      "source_key": "hf_trending",
-      "source_name": "HF Model Trending",
-      "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "category": "Model Trending",
-      "published_at_kst": "2026-10-17T14:46:55+09:00",
-      "published_date": "2026-10-17",
-      "original_description": "likes=1654, downloads=17924, pipeline_tag=image-text-to-text",
-      "signal_type": "model_trending",
-      "metrics": {
-        "likes": 1654,
-        "downloads": 17924,
-        "num_parameters": 763205315794,
-        "pipeline_tag": "image-text-to-text"
-      },
-      "rank": 3,
-      "summary": "DeepSeek-V4.1-Flash-1017 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 성격의 모델입니다.",
-      "key_points": [
-        "DeepSeek-V4.1-Flash-1017 모델의 높은 사용자 관심도(likes 1,654, downloads 17,924) 확인",
-        "image-text-to-text 파이프라인을 지원하는 모델로 분류됨",
-        "약 763B 규모의 파라미터를 보유한 대형 모델"
-      ],
-      "tags": [
-        "DeepSeek-V4.1-Flash-1017",
-        "image-text-to-text",
-        "Model Trending"
       ]
     },
     {
