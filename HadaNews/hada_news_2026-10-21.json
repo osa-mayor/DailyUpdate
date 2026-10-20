@@ -1,0 +1,321 @@
+{
+  "source": "hada_news",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T04:40:57.711228+09:00",
+  "count": 10,
+  "daily_summary": "오늘의 기술 뉴스는 보안 사고와 플랫폼 규제, 그리고 AI 및 개발 도구의 성능 최적화라는 세 가지 축을 중심으로 전개되었습니다. 특히 Tor 네트워크와 CA 인증서 유출과 같은 심각한 보안 위협과, LLM을 활용한 허위 정보 유통 및 소셜 미디어의 외부 링크 과금 정책 등 변화하는 디지털 생태계의 이슈들이 주목받았습니다.",
+  "daily_key_points": [
+    "Tor 출구 노드 및 중간 CA 개인 키 유출과 같은 대규모 보안 사고가 디지털 신뢰 체계에 심각한 위협을 가했습니다.",
+    "Voxtral 3와 tsrs 프로젝트를 통해 AI 음성 에이전트와 컴파일러 성능 최적화 등 개발 효율성을 높이는 기술적 진보가 나타났습니다.",
+    "LLM 기반의 허위 정보 유입과 플랫폼의 외부 링크 유료화 정책은 향후 정보 신뢰성과 플랫폼 생태계의 변화를 예고합니다."
+  ],
+  "daily_tags": [
+    "보안사고",
+    "AI/LLM",
+    "소프트웨어엔지니어링",
+    "플랫폼정책"
+  ],
+  "chat_message": "🇰🇷 오늘의 Hada News\n정렬 기준: points*0.65 + log(comments+1)*0.15 + recency*0.20\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 보안 사고와 플랫폼 규제, 그리고 AI 및 개발 도구의 성능 최적화라는 세 가지 축을 중심으로 전개되었습니다. 특히 Tor 네트워크와 CA 인증서 유출과 같은 심각한 보안 위협과, LLM을 활용한 허위 정보 유통 및 소셜 미디어의 외부 링크 과금 정책 등 변화하는 디지털 생태계의 이슈들이 주목받았습니다.\n\n📍 1. Ofcom, 4chan 사건에서 패배 인정\n⭐ 점수: 0 | 💬 댓글: 0\n📰 원문 핵심 요약: 영국 통신 규제 기관인 Ofcom의 최고경영자는 영국 의회에서 외국 법원이 벌금 집행을 막을 경우 해당 금액을 회수할 수 없음을 인정했습니다. 4chan 관련 사건의 변호사인 Preston Byrne는 이번 발언이 사실상 Ofcom의 패배를 의미한다고 주장했습니다. 미국 법원은 미국 헌법에 위배되는 외국 판결의 집행을 일반적으로 거부하는 원칙을 가지고 있어, 4chan 사건의 벌금 회수에도 영향을 미칠 전망입니다.\n📌 왜 중요한가: 국가 간 법적 관할권 차이로 인해 규제 기관의 벌금 집행력이 제한될 수 있음을 보여주는 사례입니다. 이는 글로벌 플랫폼에 대한 각국 정부의 규제 집행이 국제법적 충돌로 인해 실효성을 잃을 수 있다는 기술적·법적 시사점을 던집니다.\n✅ 지금 확인할 포인트: Ofcom 최고경영자는 외국 법원이 벌금 집행을 막을 경우 회수가 불가능할 수 있음을 영국 의회에서 인정했습니다.\n🔗 원문: https://news.hada.io/topic?id=35726\n\n📍 2. Voxtral 3 - 50개 이상 언어의 음성 인식 모델과 실시간 음성 에이전트 SDK\n⭐ 점수: 0 | 💬 댓글: 0\n📰 원문 핵심 요약: Mistral이 50개 이상의 언어를 지원하는 음성 모델군인 Voxtral 3와 실시간 음성 에이전트 SDK를 공개했습니다. 이 모델군은 음성 인식(ASR), 추론, 도구 호출, 음성 합성(TTS)을 하나의 실시간 스트리밍 파이프라인으로 통합한 것이 특징입니다. 특히 화자 분리 기능과 문맥 기반의 인식 보정 기술을 통해 높은 정확도의 음성 전사를 제공합니다.\n📌 왜 중요한가: Voxtral 3는 음성 인식부터 합성까지의 전 과정을 단일 파이프라인으로 통합하여 지연 시간을 최소화한 것이 기술적 핵심입니다. 이는 단순한 음성 인식을 넘어 실시간 상호작용이 가능한 지능형 음성 에이전트 개발의 효율성을 크게 높일 것으로 전망됩니다.\n✅ 지금 확인할 포인트: 50개 이상의 언어를 지원하며 화자 분리와 문맥 기반 보정 기능을 갖춘 Voxtral 3 모델군이 공개되었습니다.\n🔗 원문: https://news.hada.io/topic?id=35725\n\n📍 3. tsrs: TypeScript 컴파일러의 Rust 포트\n⭐ 점수: 0 | 💬 댓글: 0\n📰 원문 핵심 요약: Cloudflare와 VoidZero, 그리고 Max Schwenk가 협력하여 개발한 tsrs는 TypeScript 컴파일러를 Rust로 포팅한 프로젝트입니다. 이 프로젝트는 Oxc 도구 생태계 내에서 TypeScript 팀과 긴밀한 협업을 통해 구축되었습니다. 초기 벤치마크 결과, 동일한 수의 타입 검사 워커를 사용하는 환경에서 기존 컴파일러 대비 성능 우위를 목표로 설계되었습니다.\n📌 왜 중요한가: tsrs는 기존 TypeScript 컴파일러를 Rust 언어로 재구현하여 개발 도구의 성능을 극대화하려는 시도입니다. 이는 대규모 프로젝트에서 타입 검사 속도를 높여 개발 생산성을 개선하는 데 기술적 본질이 있습니다.\n✅ 지금 확인할 포인트: Cloudflare와 VoidZero가 협력하여 Rust 기반의 TypeScript 컴파일러 포트인 tsrs를 개발했습니다.\n🔗 원문: https://news.hada.io/topic?id=35724\n\n📍 4. Tor 출구 노드 300개 이상을 퇴출시킨 과정\n⭐ 점수: 0 | 💬 댓글: 0\n📰 원문 핵심 요약: 지난 10월 2일부터 전체 Tor 출구 릴레이의 약 10%에 해당하는 333개의 노드가 감염되어 SSH 연결 가로채기 및 평문 데이터 수집 공격을 수행했습니다. 공격자는 22번 포트의 SSH 연결을 12개의 특정 서버로 우회시켜 사용자 데이터를 탈취하는 방식을 사용했습니다. 이번 공격은 전체 출구 노드 약 3,000개 중 상당수가 동시에 감염된 대규모 보안 사고입니다.\n📌 왜 중요한가: Tor 네트워크의 신뢰를 기반으로 하는 출구 노드 대규모 감염을 통해 SSH 트래픽 탈취가 이루어진 보안 사고입니다. 이는 익명 네트워크 환경에서도 종단 간 암호화가 완벽하지 않을 경우 데이터 노출 위험이 있음을 시사합니다.\n✅ 지금 확인할 포인트: 감염된 333개의 Tor 출구 노드가 22번 포트 SSH 연결을 가로채고 평문 데이터를 수집했습니다.\n🔗 원문: https://news.hada.io/topic?id=35723\n\n📍 5. eMudhra 중간 CA 개인 키 유출\n⭐ 점수: 0 | 💬 댓글: 0\n📰 원문 핵심 요약: eMudhra의 중간 CA(Certificate Authority) 인증서 8개에 해당하는 개인 키가 유출되는 보안 사고가 발생했습니다. 유출된 인증서들은 Mozilla, Microsoft, Apple, Chrome 등 주요 브라우저와 하위 신뢰 저장소와 연결된 루트 인증서 체인에 포함되어 있어 보안 위협이 큽니다. 최초 신고자는 유출된 각 개인 키를 사용하여 동일한 메시지에 서명함으로써 키 유출 사실을 입증했으며, 해당 인증서의 유효 기간은 2026년 10월 17일까지입니다.\n📌 왜 중요한가: 신뢰할 수 있는 루트 인증서와 연결된 중간 CA의 개인 키 유출은 광범위한 디지털 신뢰 체인을 무너뜨릴 수 있는 심각한 보안 결함입니다. 이번 사고는 인증서 체인의 상위 계층이 탈취될 경우 전 세계 사용자의 브라우저 환경에 즉각적인 위협이 될 수 있음을 시사합니다.\n✅ 지금 확인할 포인트: eMudhra의 중간 CA 인증서 8개에 대한 개인 키가 유출되어 보안 위협이 발생했습니다.\n🔗 원문: https://news.hada.io/topic?id=35722\n\n출처: GeekNews(Hada)\nhttps://news.hada.io/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HadaNews/hada_news_2026-10-21.md",
+  "items": [
+    {
+      "rank": 1,
+      "topic_id": "35726",
+      "title": "Ofcom, 4chan 사건에서 패배 인정",
+      "url": "https://news.hada.io/topic?id=35726",
+      "hada_link": "https://news.hada.io/topic?id=35726",
+      "hada_topic_url": "https://news.hada.io/topic?id=35726",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T03:38:22+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "영국 통신 규제 기관인 Ofcom의 최고경영자는 영국 의회에서 외국 법원이 벌금 집행을 막을 경우 해당 금액을 회수할 수 없음을 인정했습니다. 4chan 관련 사건의 변호사인 Preston Byrne는 이번 발언이 사실상 Ofcom의 패배를 의미한다고 주장했습니다. 미국 법원은 미국 헌법에 위배되는 외국 판결의 집행을 일반적으로 거부하는 원칙을 가지고 있어, 4chan 사건의 벌금 회수에도 영향을 미칠 전망입니다.",
+      "external_article_summary": "영국 통신 규제 기관인 Ofcom의 최고경영자는 영국 의회에서 외국 법원이 벌금 집행을 막을 경우 해당 금액을 회수할 수 없음을 인정했습니다. 4chan 관련 사건의 변호사인 Preston Byrne는 이번 발언이 사실상 Ofcom의 패배를 의미한다고 주장했습니다. 미국 법원은 미국 헌법에 위배되는 외국 판결의 집행을 일반적으로 거부하는 원칙을 가지고 있어, 4chan 사건의 벌금 회수에도 영향을 미칠 전망입니다.",
+      "discussion_summary": "",
+      "summary": "국가 간 법적 관할권 차이로 인해 규제 기관의 벌금 집행력이 제한될 수 있음을 보여주는 사례입니다. 이는 글로벌 플랫폼에 대한 각국 정부의 규제 집행이 국제법적 충돌로 인해 실효성을 잃을 수 있다는 기술적·법적 시사점을 던집니다.",
+      "key_points": [
+        "Ofcom 최고경영자는 외국 법원이 벌금 집행을 막을 경우 회수가 불가능할 수 있음을 영국 의회에서 인정했습니다.",
+        "4chan 측 변호사는 이번 인정을 사실상의 법적 패배로 규정했습니다.",
+        "미국 법원은 자국 헌법과 충돌하는 외국 판결의 집행을 거부하는 경향이 있어 향후 4chan 사건에 영향을 미칠 것입니다."
+      ],
+      "tags": [
+        "4chan",
+        "규제집행",
+        "국제법",
+        "Ofcom"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.19167128111342593,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 2,
+      "topic_id": "35725",
+      "title": "Voxtral 3 - 50개 이상 언어의 음성 인식 모델과 실시간 음성 에이전트 SDK",
+      "url": "https://news.hada.io/topic?id=35725",
+      "hada_link": "https://news.hada.io/topic?id=35725",
+      "hada_topic_url": "https://news.hada.io/topic?id=35725",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T03:35:22+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "Mistral이 50개 이상의 언어를 지원하는 음성 모델군인 Voxtral 3와 실시간 음성 에이전트 SDK를 공개했습니다. 이 모델군은 음성 인식(ASR), 추론, 도구 호출, 음성 합성(TTS)을 하나의 실시간 스트리밍 파이프라인으로 통합한 것이 특징입니다. 특히 화자 분리 기능과 문맥 기반의 인식 보정 기술을 통해 높은 정확도의 음성 전사를 제공합니다.",
+      "external_article_summary": "Mistral이 50개 이상의 언어를 지원하는 음성 모델군인 Voxtral 3와 실시간 음성 에이전트 SDK를 공개했습니다. 이 모델군은 음성 인식(ASR), 추론, 도구 호출, 음성 합성(TTS)을 하나의 실시간 스트리밍 파이프라인으로 통합한 것이 특징입니다. 특히 화자 분리 기능과 문맥 기반의 인식 보정 기술을 통해 높은 정확도의 음성 전사를 제공합니다.",
+      "discussion_summary": "",
+      "summary": "Voxtral 3는 음성 인식부터 합성까지의 전 과정을 단일 파이프라인으로 통합하여 지연 시간을 최소화한 것이 기술적 핵심입니다. 이는 단순한 음성 인식을 넘어 실시간 상호작용이 가능한 지능형 음성 에이전트 개발의 효율성을 크게 높일 것으로 전망됩니다.",
+      "key_points": [
+        "50개 이상의 언어를 지원하며 화자 분리와 문맥 기반 보정 기능을 갖춘 Voxtral 3 모델군이 공개되었습니다.",
+        "음성 인식, 추론, 도구 호출, 합성을 하나의 실시간 스트리밍 파이프라인으로 연결하여 응답 속도를 최적화했습니다.",
+        "개발자가 즉시 활용할 수 있는 음성 에이전트 SDK를 통해 복합적인 음성 서비스 구현이 가능해졌습니다."
+      ],
+      "tags": [
+        "음성 AI",
+        "Voxtral 3",
+        "ASR",
+        "LLM",
+        "Mistral"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.19125461444675929,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 3,
+      "topic_id": "35724",
+      "title": "tsrs: TypeScript 컴파일러의 Rust 포트",
+      "url": "https://news.hada.io/topic?id=35724",
+      "hada_link": "https://news.hada.io/topic?id=35724",
+      "hada_topic_url": "https://news.hada.io/topic?id=35724",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T02:37:54+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "Cloudflare와 VoidZero, 그리고 Max Schwenk가 협력하여 개발한 tsrs는 TypeScript 컴파일러를 Rust로 포팅한 프로젝트입니다. 이 프로젝트는 Oxc 도구 생태계 내에서 TypeScript 팀과 긴밀한 협업을 통해 구축되었습니다. 초기 벤치마크 결과, 동일한 수의 타입 검사 워커를 사용하는 환경에서 기존 컴파일러 대비 성능 우위를 목표로 설계되었습니다.",
+      "external_article_summary": "Cloudflare와 VoidZero, 그리고 Max Schwenk가 협력하여 개발한 tsrs는 TypeScript 컴파일러를 Rust로 포팅한 프로젝트입니다. 이 프로젝트는 Oxc 도구 생태계 내에서 TypeScript 팀과 긴밀한 협업을 통해 구축되었습니다. 초기 벤치마크 결과, 동일한 수의 타입 검사 워커를 사용하는 환경에서 기존 컴파일러 대비 성능 우위를 목표로 설계되었습니다.",
+      "discussion_summary": "",
+      "summary": "tsrs는 기존 TypeScript 컴파일러를 Rust 언어로 재구현하여 개발 도구의 성능을 극대화하려는 시도입니다. 이는 대규모 프로젝트에서 타입 검사 속도를 높여 개발 생산성을 개선하는 데 기술적 본질이 있습니다.",
+      "key_points": [
+        "Cloudflare와 VoidZero가 협력하여 Rust 기반의 TypeScript 컴파일러 포트인 tsrs를 개발했습니다.",
+        "tsrs는 Oxc 도구 체계 내에서 TypeScript 팀과의 협업을 통해 프로젝트를 육성하고 있습니다.",
+        "동일한 타입 검사 워커 수를 기준으로 성능 최적화를 진행하며 차세대 컴파일러 환경을 구축합니다."
+      ],
+      "tags": [
+        "Cloudflare",
+        "Oxc",
+        "TypeScript",
+        "Rust",
+        "컴파일러"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.1832731329652778,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 4,
+      "topic_id": "35723",
+      "title": "Tor 출구 노드 300개 이상을 퇴출시킨 과정",
+      "url": "https://news.hada.io/topic?id=35723",
+      "hada_link": "https://news.hada.io/topic?id=35723",
+      "hada_topic_url": "https://news.hada.io/topic?id=35723",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T02:34:54+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "지난 10월 2일부터 전체 Tor 출구 릴레이의 약 10%에 해당하는 333개의 노드가 감염되어 SSH 연결 가로채기 및 평문 데이터 수집 공격을 수행했습니다. 공격자는 22번 포트의 SSH 연결을 12개의 특정 서버로 우회시켜 사용자 데이터를 탈취하는 방식을 사용했습니다. 이번 공격은 전체 출구 노드 약 3,000개 중 상당수가 동시에 감염된 대규모 보안 사고입니다.",
+      "external_article_summary": "지난 10월 2일부터 전체 Tor 출구 릴레이의 약 10%에 해당하는 333개의 노드가 감염되어 SSH 연결 가로채기 및 평문 데이터 수집 공격을 수행했습니다. 공격자는 22번 포트의 SSH 연결을 12개의 특정 서버로 우회시켜 사용자 데이터를 탈취하는 방식을 사용했습니다. 이번 공격은 전체 출구 노드 약 3,000개 중 상당수가 동시에 감염된 대규모 보안 사고입니다.",
+      "discussion_summary": "",
+      "summary": "Tor 네트워크의 신뢰를 기반으로 하는 출구 노드 대규모 감염을 통해 SSH 트래픽 탈취가 이루어진 보안 사고입니다. 이는 익명 네트워크 환경에서도 종단 간 암호화가 완벽하지 않을 경우 데이터 노출 위험이 있음을 시사합니다.",
+      "key_points": [
+        "감염된 333개의 Tor 출구 노드가 22번 포트 SSH 연결을 가로채고 평문 데이터를 수집했습니다.",
+        "공격자는 탈취한 연결을 12개의 서버로 우회시켜 데이터 수집 효율을 높였습니다.",
+        "전체 출구 릴레이의 약 10%가 동시에 감염되어 네트워크 보안에 심각한 위협을 가했습니다."
+      ],
+      "tags": [
+        "Tor",
+        "보안사고",
+        "SSH",
+        "네트워크보안"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.1828564662986111,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 5,
+      "topic_id": "35722",
+      "title": "eMudhra 중간 CA 개인 키 유출",
+      "url": "https://news.hada.io/topic?id=35722",
+      "hada_link": "https://news.hada.io/topic?id=35722",
+      "hada_topic_url": "https://news.hada.io/topic?id=35722",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T01:43:24+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "eMudhra의 중간 CA(Certificate Authority) 인증서 8개에 해당하는 개인 키가 유출되는 보안 사고가 발생했습니다. 유출된 인증서들은 Mozilla, Microsoft, Apple, Chrome 등 주요 브라우저와 하위 신뢰 저장소와 연결된 루트 인증서 체인에 포함되어 있어 보안 위협이 큽니다. 최초 신고자는 유출된 각 개인 키를 사용하여 동일한 메시지에 서명함으로써 키 유출 사실을 입증했으며, 해당 인증서의 유효 기간은 2026년 10월 17일까지입니다.",
+      "external_article_summary": "eMudhra의 중간 CA(Certificate Authority) 인증서 8개에 해당하는 개인 키가 유출되는 보안 사고가 발생했습니다. 유출된 인증서들은 Mozilla, Microsoft, Apple, Chrome 등 주요 브라우저와 하위 신뢰 저장소와 연결된 루트 인증서 체인에 포함되어 있어 보안 위협이 큽니다. 최초 신고자는 유출된 각 개인 키를 사용하여 동일한 메시지에 서명함으로써 키 유출 사실을 입증했으며, 해당 인증서의 유효 기간은 2026년 10월 17일까지입니다.",
+      "discussion_summary": "",
+      "summary": "신뢰할 수 있는 루트 인증서와 연결된 중간 CA의 개인 키 유출은 광범위한 디지털 신뢰 체인을 무너뜨릴 수 있는 심각한 보안 결함입니다. 이번 사고는 인증서 체인의 상위 계층이 탈취될 경우 전 세계 사용자의 브라우저 환경에 즉각적인 위협이 될 수 있음을 시사합니다.",
+      "key_points": [
+        "eMudhra의 중간 CA 인증서 8개에 대한 개인 키가 유출되어 보안 위협이 발생했습니다.",
+        "유출된 인증서는 Mozilla, Microsoft, Apple, Chrome 등 주요 플랫폼의 신뢰 저장소와 연결되어 있습니다.",
+        "공격자는 유출된 키를 이용해 동일한 메시지에 서명함으로써 키 탈취를 증명했습니다."
+      ],
+      "tags": [
+        "PKI",
+        "eMudhra",
+        "인증서_보안",
+        "CA_유출"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.17570368852083335,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 6,
+      "topic_id": "35721",
+      "title": "가짜 통계를 게시해 LLM의 인용을 얻다",
+      "url": "https://news.hada.io/topic?id=35721",
+      "hada_link": "https://news.hada.io/topic?id=35721",
+      "hada_topic_url": "https://news.hada.io/topic?id=35721",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T01:40:24+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "GPT-4.1을 활용해 생성한 5만 개의 허위 통계 페이지를 게시한 실험 사이트가 7개월 동안 1만 건 이상의 ChatGPT 유입 세션을 기록했습니다. 해당 사이트는 330개 이상의 도메인으로부터 백링크를 확보하며 검색 엔진 최적화(SEO) 방식의 변화를 보여주었습니다. Google 검색 노출이 급감하는 상황에서도 ChatGPT를 통한 트래픽과 인용은 지속되는 양상을 보였습니다.",
+      "external_article_summary": "GPT-4.1을 활용해 생성한 5만 개의 허위 통계 페이지를 게시한 실험 사이트가 7개월 동안 1만 건 이상의 ChatGPT 유입 세션을 기록했습니다. 해당 사이트는 330개 이상의 도메인으로부터 백링크를 확보하며 검색 엔진 최적화(SEO) 방식의 변화를 보여주었습니다. Google 검색 노출이 급감하는 상황에서도 ChatGPT를 통한 트래픽과 인용은 지속되는 양상을 보였습니다.",
+      "discussion_summary": "",
+      "summary": "LLM이 웹상의 허위 정보를 학습하거나 인용함으로써 발생하는 데이터 오염과 새로운 형태의 트래픽 유입 경로를 보여주는 사례입니다. 검색 엔진 중심의 SEO에서 LLM 답변 중심의 인용 구조로 변화하는 과정에서 정보의 신뢰성 검증이 핵심 과제로 떠오르고 있습니다.",
+      "key_points": [
+        "GPT-4.1로 생성한 5만 개의 허위 통계 페이지가 7개월간 1만 건 이상의 ChatGPT 유입을 만들어냈습니다.",
+        "Google 검색 노출이 감소하더라도 LLM의 답변에 인용되는 방식의 트래픽은 유지될 수 있음을 입증했습니다.",
+        "330개 이상의 도메인으로부터 링크를 확보하며 LLM 기반의 새로운 정보 유통 경로를 실험했습니다."
+      ],
+      "tags": [
+        "데이터오염",
+        "GPT-4.1",
+        "LLM",
+        "SEO"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.17528702185416667,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 7,
+      "topic_id": "35720",
+      "title": "Facebook, 이제 월 2개를 초과하는 링크 게시에 요금 부과",
+      "url": "https://news.hada.io/topic?id=35720",
+      "hada_link": "https://news.hada.io/topic?id=35720",
+      "hada_topic_url": "https://news.hada.io/topic?id=35720",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T01:37:24+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "Facebook이 월 2회를 초과하는 외부 링크 게시물에 대해 유료 요금을 부과하는 정책을 도입합니다. 이번 정책은 플랫폼 내 체류 시간을 높이고 외부 유출을 방지하기 위한 수익 모델의 일환으로 분석됩니다. 사용자는 월간 할당된 2개의 링크 게시물 이후부터는 추가 비용을 지불해야 합니다.",
+      "external_article_summary": "Facebook이 월 2회를 초과하는 외부 링크 게시물에 대해 유료 요금을 부과하는 정책을 도입합니다. 이번 정책은 플랫폼 내 체류 시간을 높이고 외부 유출을 방지하기 위한 수익 모델의 일환으로 분석됩니다. 사용자는 월간 할당된 2개의 링크 게시물 이후부터는 추가 비용을 지불해야 합니다.",
+      "discussion_summary": "",
+      "summary": "플랫폼이 외부 링크를 제한하고 과금하는 것은 사용자 경험보다 플랫폼 내 체류 시간과 광고 노출을 우선시하는 전략적 변화를 의미합니다. 이는 소셜 미디어 생태계에서 정보 공유의 자유와 플랫폼 수익성 사이의 갈등을 심화시킬 수 있습니다.",
+      "key_points": [
+        "Facebook은 월 2개를 초과하는 외부 링크 게시물에 대해 유료 요금을 부과합니다.",
+        "이번 정책은 플랫폼 외부로의 사용자 이탈을 막기 위한 강력한 제약 조치입니다.",
+        "사용자들은 링크 공유를 위해 비용을 지불하거나 플랫폼 내 자체 콘텐츠 생산에 집중해야 합니다."
+      ],
+      "tags": [
+        "소셜미디어정책",
+        "Facebook",
+        "수익모델"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.17487035518750002,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 8,
+      "topic_id": "35719",
+      "title": "맥락 속에서",
+      "url": "https://news.hada.io/topic?id=35719",
+      "hada_link": "https://news.hada.io/topic?id=35719",
+      "hada_topic_url": "https://news.hada.io/topic?id=35719",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T01:06:07+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "제공된 원문 내용이 비어 있어 구체적인 기술적 요약을 작성할 수 없습니다. 원문 텍스트를 제공하면 기술 명칭과 핵심 로직을 포함하여 요약해 드립니다.",
+      "external_article_summary": "제공된 원문 내용이 비어 있어 구체적인 기술적 요약을 작성할 수 없습니다. 원문 텍스트를 제공하면 기술 명칭과 핵심 로직을 포함하여 요약해 드립니다.",
+      "discussion_summary": "",
+      "summary": "현재 입력된 본문 내용이 없어 기술적 본질과 시사점을 도출할 수 없습니다. 분석할 기사 내용을 입력해 주세요.",
+      "key_points": [
+        "분석할 원문 기사 내용이 입력되지 않았습니다.",
+        "기술적 수치와 핵심 로직이 포함된 본문을 제공해 주세요.",
+        "입력된 데이터를 바탕으로 즉시 요약을 진행하겠습니다."
+      ],
+      "tags": [
+        "입력필요",
+        "대기중"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.1705254477800926,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 9,
+      "topic_id": "35718",
+      "title": "네덜란드, Microsoft 의존에서 벗어나기 위해 자체 Linux OS 개발 중",
+      "url": "https://news.hada.io/topic?id=35718",
+      "hada_link": "https://news.hada.io/topic?id=35718",
+      "hada_topic_url": "https://news.hada.io/topic?id=35718",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T01:03:07+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "네덜란드 정부는 특정 국가의 소프트웨어 의존도를 낮추고 디지털 주권을 확보하기 위해 'DAWO' 프로젝트를 추진합니다. 이 프로젝트는 Nix와 NixOS를 기반으로 설계되었으며, 정부 및 공공기관의 IT 환경을 재구축하는 것을 목표로 합니다. 단순히 운영체제 교체에 그치지 않고 업무용 애플리케이션, 클라우드 서비스, 관리 도구 등 공공 부문 전반의 소프트웨어 스택을 대체하려는 전략을 담고 있습니다.",
+      "external_article_summary": "네덜란드 정부는 특정 국가의 소프트웨어 의존도를 낮추고 디지털 주권을 확보하기 위해 'DAWO' 프로젝트를 추진합니다. 이 프로젝트는 Nix와 NixOS를 기반으로 설계되었으며, 정부 및 공공기관의 IT 환경을 재구축하는 것을 목표로 합니다. 단순히 운영체제 교체에 그치지 않고 업무용 애플리케이션, 클라우드 서비스, 관리 도구 등 공공 부문 전반의 소프트웨어 스택을 대체하려는 전략을 담고 있습니다.",
+      "discussion_summary": "",
+      "summary": "네덜란드는 NixOS의 선언적 구성 방식을 활용해 미국산 소프트웨어 의존도를 낮추고 국가 차원의 디지털 자립을 시도하고 있습니다. 이는 특정 기업의 생태계에 종속되지 않는 기술적 주권을 확보하려는 국가적 차원의 IT 전략 모델로 평가됩니다.",
+      "key_points": [
+        "네덜란드 정부는 Nix와 NixOS 기반의 DAWO 프로젝트를 통해 디지털 주권을 확보하고자 합니다.",
+        "이번 프로젝트는 운영체제를 넘어 클라우드와 업무용 애플리케이션까지 포함하는 포괄적인 대체 전략입니다.",
+        "미국산 소프트웨어 의존도를 낮추고 공공 부문의 IT 환경을 독자적인 생태계로 전환하는 것이 핵심입니다."
+      ],
+      "tags": [
+        "네덜란드",
+        "NixOS",
+        "디지털주권",
+        "오픈소스",
+        "DAWO"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.17010878111342595,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    },
+    {
+      "rank": 10,
+      "topic_id": "35717",
+      "title": "Apple이 iPad의 필수 프레젠테이션 기능을 망가뜨렸다",
+      "url": "https://news.hada.io/topic?id=35717",
+      "hada_link": "https://news.hada.io/topic?id=35717",
+      "hada_topic_url": "https://news.hada.io/topic?id=35717",
+      "author": "neo",
+      "published_at_kst": "2026-10-21T00:32:52+09:00",
+      "published_date": "2026-10-21",
+      "article_summary": "iPadOS 27 환경에서 AirPlay를 통해 외부 디스플레이로 프레젠테이션을 진행할 때 심각한 화면 노출 문제가 발생합니다. 사용자가 발표 중 다른 앱을 선택하면 외부 화면이 발표 자료가 아닌 iPad의 전체 화면을 그대로 투사하여 프라이버시를 침해합니다. 이 현상은 스테이지 매니저(Stage Manager) 활성화 여부와 관계없이 발생하며, 발표용 메모나 개인적인 데이터가 청중에게 무방비로 노출될 위험이 있습니다.",
+      "external_article_summary": "iPadOS 27 환경에서 AirPlay를 통해 외부 디스플레이로 프레젠테이션을 진행할 때 심각한 화면 노출 문제가 발생합니다. 사용자가 발표 중 다른 앱을 선택하면 외부 화면이 발표 자료가 아닌 iPad의 전체 화면을 그대로 투사하여 프라이버시를 침해합니다. 이 현상은 스테이지 매니저(Stage Manager) 활성화 여부와 관계없이 발생하며, 발표용 메모나 개인적인 데이터가 청중에게 무방비로 노출될 위험이 있습니다.",
+      "discussion_summary": "",
+      "summary": "iPad의 화면 미러링 방식이 발표용 콘텐츠와 기기 화면을 분리하지 못해 발생하는 기술적 결함입니다. 이는 전문적인 프레젠테이션 도구로서 iPad의 신뢰성을 저하시키는 요소로 작용할 수 있습니다.",
+      "key_points": [
+        "iPadOS 27에서 AirPlay 사용 시 외부 화면에 iPad 전체 화면이 노출되는 문제가 발견되었습니다.",
+        "스테이지 매니저 설정과 무관하게 발생하여 발표 중 개인 정보가 노출될 위험이 큽니다.",
+        "발표 자료와 기기 화면 간의 명확한 분리 기능이 부재하여 프레젠테이션 효율을 떨어뜨립니다."
+      ],
+      "tags": [
+        "프레젠테이션",
+        "iPadOS",
+        "Apple",
+        "AirPlay"
+      ],
+      "points": 0,
+      "comments": 0,
+      "rank_score": 0.16590739222453704,
+      "ranking_basis": "points*0.65 + log(comments+1)*0.15 + recency*0.20"
+    }
+  ]
+}
