@@ -1,0 +1,702 @@
+{
+  "source": "community",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T06:18:03.173306+09:00",
+  "count": 22,
+  "daily_summary": "오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_key_points": [
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+    "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+  ],
+  "daily_tags": [
+    "LLM",
+    "PHP",
+    "AI",
+    "RCE",
+    "Cybersecurity"
+  ],
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · DeepInfer: High-performance inference framework for DeepSeek models\n📝 DeepSeek 모델의 대규모 서비스 운영을 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 최적화된 커널과 비동기 스케줄링을 통해 대규모 추론 환경에서 높은 처리량과 낮은 지연 시간을 동시에 달현하는 것을 목표로 합니다.\n\n📍 GeekNews / Hada · EA, BioWare 폐쇄\n📝 이번 조치는 수익성 중심의 경영 전략에 따라 IP 개발보다 구조조정을 우선시한 결과로 분석됩니다. 이는 거대 게임사의 비상장 전환 과정에서 핵심 개발 스튜디오가 희생될 수 있음을 보여주는 사례입니다.\n\n📍 Reddit · Published a few model conversions for OpenVINO please request more\n📝 사용자가 직접 변환한 OpenVINO 형식의 모델들을 공유하며 추가적인 모델 변환 요청을 받고 있습니다. 기존에 온라인에서 제공되지 않던 특정 모델들을 직접 변환하여 배포하는 것이 목적입니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "items": [
+    {
+      "id": "hacker-news-50163277",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "summary": "DeepSeek 모델의 대규모 서비스 운영을 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 최적화된 커널과 비동기 스케줄링을 통해 대규모 추론 환경에서 높은 처리량과 낮은 지연 시간을 동시에 달현하는 것을 목표로 합니다.",
+      "article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 추론 성능을 극대화합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 GPU 작업의 오버랩, DSpark 및 신뢰도 기반 검증을 통한 디코딩 가속, 그리고 SWA(Sliding Window Attention) 경계 내 리플레이를 통한 프리필 작업 효율화가 있습니다. 또한 배치 구성이 달라져도 결과가 동일하게 유지되는 Batch-invariant inference와 정규식 및 JSON 형식을 강제하는 Structured outputs 기능을 제공합니다.",
+      "external_article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 추론 성능을 극대화합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 GPU 작업의 오버랩, DSpark 및 신뢰도 기반 검증을 통한 디코딩 가속, 그리고 SWA(Sliding Window Attention) 경계 내 리플레이를 통한 프리필 작업 효율화가 있습니다. 또한 배치 구성이 달라져도 결과가 동일하게 유지되는 Batch-invariant inference와 정규식 및 JSON 형식을 강제하는 Structured outputs 기능을 제공합니다.",
+      "discussion_summary": "사용자들은 DeepInfer 프레임워크를 통해 확보한 높은 처리량과 낮은 지연 시간 성능에 주목하며 기술적 성과를 높게 평가하고 있습니다. 다만 일부 댓글에서는 기술적 내용과 무관한 정책적 이슈가 언급되는 등 혼선이 관찰됩니다.",
+      "key_points": [
+        "DeepSeek 모델의 대규모 프로덕션 서비스를 위해 설계된 고성능 추론 프레임워크입니다.",
+        "FlashMLA, DeepEP 등 최적화된 커널과 비동기 스케줄링을 통해 추론 효율을 극대화합니다.",
+        "배치 구성 변화에 관계없이 일관된 결과를 보장하는 Batch-invariant 기술을 지원합니다."
+      ],
+      "tags": [
+        "DeepSeek",
+        "DeepInfer",
+        "LLM",
+        "Inference",
+        "Open Source"
+      ],
+      "published_at_kst": "2026-10-20T18:08:54+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50163277",
+      "rank": 1,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50163277"
+      },
+      "score": 2296,
+      "comments_count": 880
+    },
+    {
+      "id": "hacker-news-50112657",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Tesla Roadster",
+      "url": "https://www.tesla.com/roadster",
+      "summary": "테슬라가 공개한 새로운 로드스터 모델의 기술적 성능과 그에 따른 커뮤니티의 열띤 반응을 다룹니다. 고성능 차량에 로켓 엔진과 팬 시스템을 결합한 엔지니어링 성과에 대해 기술적 실효성을 중심으로 논쟁이 이어지고 있습니다.",
+      "article_summary": "테슬라는 고성능 스포츠카에 대형 팬과 로켓 엔진을 통합하여 비행이 가능한 수준의 엔지니어링을 선보였습니다. 이번 모델은 우주선에서 사용하는 콜드 가스 스러스트(Cold-gas thrusters) 기술과 정밀한 가이드 하드웨어/소프트웨어를 결합하여 차량의 역동적인 움직임을 제어합니다. 이는 단순한 전기차를 넘어 항공우주 기술이 접목된 하이브리드 모빌리티의 가능성을 보여주는 기술 데모입니다.",
+      "external_article_summary": "테슬라는 고성능 스포츠카에 대형 팬과 로켓 엔진을 통합하여 비행이 가능한 수준의 엔지니어링을 선보였습니다. 이번 모델은 우주선에서 사용하는 콜드 가스 스러스트(Cold-gas thrusters) 기술과 정밀한 가이드 하드웨어/소프트웨어를 결합하여 차량의 역동적인 움직임을 제어합니다. 이는 단순한 전기차를 넘어 항공우주 기술이 접목된 하이브리드 모빌리티의 가능성을 보여주는 기술 데모입니다.",
+      "discussion_summary": "로켓 엔진과 팬을 탑재한 엔지니어링 성과가 놀랍다는 기술적 찬사와, 이러한 기술이 실제 양산형 차량의 실용성이나 일상적 주행에 어떤 의미를 갖는지에 대한 비판이 대립하고 있습니다.",
+      "key_points": [
+        "우주선 기술인 콜드 가스 스러스트와 정밀 제어 소프트웨어를 차량에 이식한 엔지니어링 성과입니다.",
+        "기술적 경이로움에 대한 옹호와 실질적인 차량 활용도에 대한 의구심이 충돌하고 있습니다.",
+        "고성능 모빌리티와 항공우주 기술의 결합이 가져올 미래형 차량 설계의 방향성을 제시합니다."
+      ],
+      "tags": [
+        "Tesla",
+        "Engineering",
+        "Aerospace",
+        "Electric Vehicles"
+      ],
+      "published_at_kst": "2026-10-16T10:32:45+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50112657",
+      "rank": 2,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50112657"
+      },
+      "score": 1643,
+      "comments_count": 3156
+    },
+    {
+      "id": "hacker-news-50172041",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "summary": "PHP에서 인증되지 않은 사용자가 원격 코드를 실행할 수 있는 심각한 취약점이 발견되어 즉각적인 업데이트가 권고되었습니다. 이번 취약점은 메모리 관리 방식의 허점을 이용하며, 모든 PHP 기반 웹 서버 환경이 잠재적 공격 대상입니다.",
+      "article_summary": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전에서 해결된 두 가지 RCE 취약점이 발표되었습니다. CVE-2026-109618은 OOM(Out-of-Memory) 발생 시 데이터 초기화가 불완전한 상태에서 리소스 정리가 수행되어 발생하는 취약점이며, CVE-2026-109619는 이전 요청의 전역 상태가 메모리 해제 후에도 남아 다음 요청에 영향을 주는 취약점입니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기도 전에 공격이 트리거될 수 있어 위험도가 매우 높습니다.",
+      "external_article_summary": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전에서 해결된 두 가지 RCE 취약점이 발표되었습니다. CVE-2026-109618은 OOM(Out-of-Memory) 발생 시 데이터 초기화가 불완전한 상태에서 리소스 정리가 수행되어 발생하는 취약점이며, CVE-2026-109619는 이전 요청의 전역 상태가 메모리 해제 후에도 남아 다음 요청에 영향을 주는 취약점입니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기도 전에 공격이 트리거될 수 있어 위험도가 매우 높습니다.",
+      "discussion_summary": "패치 배포 시점을 두고 보안 취약점의 상세 정보를 미리 공개하는 것이 공격자에게 정보를 제공하는 행위인지, 아니면 빠른 대응을 돕는 조치인지에 대한 기술적 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "OOM 처리 과정의 데이터 불일치와 잔류 전역 상태를 이용한 원격 코드 실행(RCE) 위험이 존재합니다.",
+        "PHP-FPM, Apache(mod_php), FrankenPHP 등 웹 요청을 처리하는 모든 PHP 설치 환경이 공격 대상입니다.",
+        "사용자는 즉시 지원되는 최신 버전으로 업데이트하거나, 지원이 종료된 구버전 사용 시 배포판의 백포트 패치를 확인해야 합니다."
+      ],
+      "tags": [
+        "PHP",
+        "RCE",
+        "Security Advisory",
+        "Vulnerability"
+      ],
+      "published_at_kst": "2026-10-21T05:15:50+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50172041",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50172041"
+      },
+      "score": 1488,
+      "comments_count": 648
+    },
+    {
+      "id": "hacker-news-50166579",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "eMudhra intermediate CA compromise",
+      "url": "https://emudhra.we-have-a-problem.com/",
+      "summary": "eMudhra의 중간 CA 개인키 8개가 유출되어 주요 브라우저와 OS 제조사들이 긴급 차단 조치를 취했습니다. 공격자가 해당 키를 이용해 웹사이트를 사칭할 수 있는 심각한 보안 위협이 발생했습니다.",
+      "article_summary": "eMudhra의 중간 CA 인증서 8개의 개인키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 루트 프로그램에 연결된 신뢰 체인이 위협받고 있습니다. 공격자는 유출된 키를 사용해 웹사이트나 서비스를 사칭할 수 있으며, 이에 대응하기 위해 OneCRL, CRLite, CRLSets와 같은 기술을 통해 이미 차단 조치가 완료되었습니다. 보안 전문가가 직접 유출된 키로 서명한 메시지를 제출하여 취약점을 증명했으며, CA 측에서도 해당 인증서들을 폐기했습니다.",
+      "external_article_summary": "eMudhra의 중간 CA 인증서 8개의 개인키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 루트 프로그램에 연결된 신뢰 체인이 위협받고 있습니다. 공격자는 유출된 키를 사용해 웹사이트나 서비스를 사칭할 수 있으며, 이에 대응하기 위해 OneCRL, CRLite, CRLSets와 같은 기술을 통해 이미 차단 조치가 완료되었습니다. 보안 전문가가 직접 유출된 키로 서명한 메시지를 제출하여 취약점을 증명했으며, CA 측에서도 해당 인증서들을 폐기했습니다.",
+      "discussion_summary": "유출된 8개 중간 CA의 개인키가 사실상 단일 바이트 수준의 취약점을 공유하고 있다는 기술적 분석이 제기되었습니다. 또한, 브라우저 제조사별로 보안 업데이트 적용 속도가 달라 사용자별로 보안 영향도가 불균형하게 나타난다는 비판이 존재합니다.",
+      "key_points": [
+        "eMudhra 중간 CA 개인키 유출로 인해 웹사이트 사칭 및 중간자 공격 위험이 발생했습니다.",
+        "주요 브라우저와 OS 제조사는 CRLite 및 CRLSets 기술을 통해 유출된 인증서를 즉각 차단했습니다.",
+        "인증서 폐기 정보가 실시간으로 반영되지 않는 구형 클라이언트는 소프트웨어 업데이트가 필수적입니다."
+      ],
+      "tags": [
+        "eMudhra",
+        "CA_Compromise",
+        "PKI",
+        "Certificate_Authority",
+        "Cybersecurity"
+      ],
+      "published_at_kst": "2026-10-20T22:58:33+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50166579",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50166579"
+      },
+      "score": 1182,
+      "comments_count": 463
+    },
+    {
+      "id": "hacker-news-50170593",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "summary": "도시 건설 시뮬레이션 게임에 복잡한 행정 절차와 이해관계 충돌을 결합한 새로운 게임 프로젝트가 공개되었습니다. 현실 세계의 정책 결정이 가져오는 사회적 갈등을 게임 메커니즘으로 구현한 것이 특징입니다.",
+      "article_summary": "이 프로젝트는 도시의 발전을 저해하는 현실적인 규제와 반대 세력을 게임의 핵심 요소로 도입했습니다. 주택 공급 확대가 임대료를 낮추지만 기존 주택 소유자의 반발을 사는 등, 하나의 문제를 해결하면 새로운 정치적 갈등이 발생하는 순환 구조를 설계했습니다. 이를 통해 단순한 도시 건설을 넘어 정책 결정에 따른 사회적 비용과 정치적 역학 관계를 시뮬레이션합니다.",
+      "external_article_summary": "이 프로젝트는 도시의 발전을 저해하는 현실적인 규제와 반대 세력을 게임의 핵심 요소로 도입했습니다. 주택 공급 확대가 임대료를 낮추지만 기존 주택 소유자의 반발을 사는 등, 하나의 문제를 해결하면 새로운 정치적 갈등이 발생하는 순환 구조를 설계했습니다. 이를 통해 단순한 도시 건설을 넘어 정책 결정에 따른 사회적 비용과 정치적 역학 관계를 시뮬레이션합니다.",
+      "discussion_summary": "사용자들은 인구수보다 많은 서명이 담긴 청원 등 게임 내 수치 설정이 몰입감을 해친다는 비판을 제기했습니다. 동시에 현실의 복잡한 규제와 갈등을 반영한 사회적 메시지가 담긴 시뮬레이션이라는 점에 주목하는 반응이 대립하고 있습니다.",
+      "key_points": [
+        "도시 개발 과정에서 발생하는 이해관계자 간의 갈등을 게임의 핵심 메커니즘으로 설정했습니다.",
+        "정책 결정이 새로운 유권자 집단의 반발을 불러오는 현실적인 정치 역학을 구현했습니다.",
+        "게임 내 수치 설정의 정교함이 시뮬레이션의 몰입도에 미치는 영향이 주요 쟁점입니다."
+      ],
+      "tags": [
+        "SimCity",
+        "시뮬레이션",
+        "도시공학",
+        "게임디자인"
+      ],
+      "published_at_kst": "2026-10-21T03:29:09+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50170593",
+      "rank": 5,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50170593"
+      },
+      "score": 898,
+      "comments_count": 406
+    },
+    {
+      "id": "hacker-news-50180873",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "summary": "PHP 8.2.35 보안 업데이트와 함께 발견된 새로운 취약점인 PHP2Shell에 대한 기술적 분석이 이루어지고 있습니다. 보안 전문가들은 AI를 활용한 취약점 탐지 기법이 실제 RCE(원격 코드 실행) 공격으로 이어지는 과정을 주목하고 있습니다.",
+      "article_summary": "이번 PHP 8.2.35 릴리스는 보안 강화를 목적으로 하며, 특히 AI를 활용해 취약점을 찾아내는 'PHP2Shell' 공격 방식이 핵심 쟁점으로 떠올랐습니다. Wiz, Calif, OpenAI 등이 협력한 공동 공개(Coordinated Disclosure)를 통해, AI가 코드의 취약한 지점을 식별하고 이를 통해 원격 코드 실행(R제)이 가능한 경로를 찾아내는 메커니즘이 공개되었습니다.",
+      "external_article_summary": "이번 PHP 8.2.35 릴리스는 보안 강화를 목적으로 하며, 특히 AI를 활용해 취약점을 찾아내는 'PHP2Shell' 공격 방식이 핵심 쟁점으로 떠올랐습니다. Wiz, Calif, OpenAI 등이 협력한 공동 공개(Coordinated Disclosure)를 통해, AI가 코드의 취약한 지점을 식별하고 이를 통해 원격 코드 실행(R제)이 가능한 경로를 찾아내는 메커니즘이 공개되었습니다.",
+      "discussion_summary": "AI가 보안 취약점을 자동으로 식별하여 공격 도구로 활용될 수 있다는 기술적 위험성에 대한 우려와, 이를 통해 역으로 보안 패치를 더 빠르게 적용할 수 있다는 방어적 관점이 대립하고 있습니다.",
+      "key_points": [
+        "AI를 활용한 자동화된 취약점 탐지 기법인 PHP2Shell이 보안 위협으로 부상했습니다.",
+        "Wiz, Calif, OpenAI 등 주요 보안 기업들이 협력하여 취약점 공개 및 대응을 진행했습니다.",
+        "AI 기반 공격 도구의 발전은 소프트웨어 공급망 보안과 패치 관리의 중요성을 증대시킵니다."
+      ],
+      "tags": [
+        "PHP",
+        "Security",
+        "AI",
+        "RCE",
+        "Vulnerability"
+      ],
+      "published_at_kst": "2026-10-21T22:45:33+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50180873",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50180873"
+      },
+      "score": 894,
+      "comments_count": 506
+    },
+    {
+      "id": "hacker-news-50168396",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Voxtral 3",
+      "url": "https://mistral.ai/news/voxtral-3/",
+      "summary": "Mistral AI의 새로운 STT 모델인 Voxtral 3 출시 소식과 이에 대한 사용자들의 기술적 평가를 다룹니다. 이전 세대 모델의 성능을 계승하면서도 폐쇄형 모델로 출시된 점에 대해 커뮤니티의 의견이 나뉩니다.",
+      "article_summary": "Mistral AI가 발표한 Voxtal 3는 음성 인식(STT) 성능을 강화한 모델 시리즈입니다. 특히 4B 파라미터 규모의 Voxtral Mini 모델은 로컬 환경에서의 실시간 추론(Realtime inference)을 지원하도록 설계되었습니다. 사용자는 이를 통해 오프라인 환경에서도 구동 가능한 상용 소프트웨어 구현이 가능합니다.",
+      "external_article_summary": "Mistral AI가 발표한 Voxtal 3는 음성 인식(STT) 성능을 강화한 모델 시리즈입니다. 특히 4B 파라미터 규모의 Voxtral Mini 모델은 로컬 환경에서의 실시간 추론(Realtime inference)을 지원하도록 설계되었습니다. 사용자는 이를 통해 오프라인 환경에서도 구동 가능한 상용 소프트웨어 구현이 가능합니다.",
+      "discussion_summary": "이전 세대 오픈 웨이트 모델의 우수한 성능을 바탕으로 로컬 배포 가능성을 높였다는 긍정적 평가가 있습니다. 반면, 이번 모델이 폐쇄형(Closed model)으로 출시되어 로컬 배포 및 커스터마이징이 어려운 점에 대한 비판이 대립하고 있습니다.",
+      "key_points": [
+        "Voxtral Mini 4B 모델은 로컬 환경에서의 실시간 추론을 지원합니다.",
+        "이전 세대 오픈 웨이트 모델의 성능을 계승하여 상용 소프트웨어 적용이 가능합니다.",
+        "모델의 폐쇄적 운영 방식이 로컬 배포 환경에서의 활용도를 제한한다는 지적이 있습니다."
+      ],
+      "tags": [
+        "Mistral AI",
+        "STT",
+        "LLM",
+        "Edge AI"
+      ],
+      "published_at_kst": "2026-10-21T01:02:07+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50168396",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50168396"
+      },
+      "score": 754,
+      "comments_count": 194
+    },
+    {
+      "id": "hacker-news-50177916",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "summary": "eMudhra의 CA(인증 기관) 키가 단 몇 밀리초 만에 탈취된 보안 사고가 발생하여 신뢰 체계에 큰 충격을 주었습니다. 이번 사건은 취약한 암호화 알고리즘이 신뢰의 근간을 어떻게 무너뜨릴 수 있는지 보여주는 사례입니다.",
+      "article_summary": "인증 기관인 eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 보안 위협이 발생했습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 키의 길이가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 구조적 결함이 있었습니다. 이는 현대적인 보안 표준에서 키 길이나 알고리즘 선택이 얼마나 치명적인지 입증합니다.",
+      "external_article_summary": "인증 기관인 eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 보안 위협이 발생했습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 키의 길이가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 구조적 결함이 있었습니다. 이는 현대적인 보안 표준에서 키 길이나 알고리즘 선택이 얼마나 치명적인지 입증합니다.",
+      "discussion_summary": "이번 사고를 통해 너무 많은 수의 인증 기관(CA)을 신뢰하는 현재의 PKI 구조가 과도하다는 비판이 제기되었습니다. 또한, 이번 취약점이 발견된 구체적인 기술적 배경과 탐지 방식에 대한 커뮤니티의 질문이 이어지고 있습니다.",
+      "key_points": [
+        "eMudhra의 CA 키가 공격자에 의해 밀리초 단위로 탈취되는 보안 사고가 발생했습니다.",
+        "신뢰할 수 있는 인증 기관의 수가 지나치게 많아 관리와 보안이 어려워진 점이 지적되었습니다.",
+        "암호화 알고리즘의 취약점은 전체 디지털 신뢰 체계를 순식간에 붕괴시킬 수 있습니다."
+      ],
+      "tags": [
+        "eMudhra",
+        "CA",
+        "PKI",
+        "암호화",
+        "보안 사고"
+      ],
+      "published_at_kst": "2026-10-21T18:08:08+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50177916",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50177916"
+      },
+      "score": 740,
+      "comments_count": 361
+    },
+    {
+      "id": "hacker-news-50159341",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "summary": "WhatsApp의 도움말 페이지에 LLM 지침이 노출된 보안 이슈와 이에 대한 Meta 측의 대응을 다룹니다. 기술적 결함으로 인해 사용자에게 노출된 프롬프트 엔지니어링 가이드가 논란이 되었습니다.",
+      "article_summary": "WhatsApp 도움말 페이지에 LLM의 동작 방식을 제어하는 내부 지침이 실수로 노출되었습니다. WIRED의 보도 이후 Meta는 해당 텍스트를 모든 페이지에서 삭제했으며, WhatsApp 대변인은 이것이 시스템 버그로 인해 발생한 문제라고 설명했습니다. Meta는 지원 챗봇이 최적의 조언을 제공하는 데 집중할 수 있도록 해당 지침을 수정했습니다.",
+      "external_article_summary": "WhatsApp 도움말 페이지에 LLM의 동작 방식을 제어하는 내부 지침이 실수로 노출되었습니다. WIRED의 보도 이후 Meta는 해당 텍스트를 모든 페이지에서 삭제했으며, WhatsApp 대변인은 이것이 시스템 버그로 인해 발생한 문제라고 설명했습니다. Meta는 지원 챗봇이 최적의 조언을 제공하는 데 집중할 수 있도록 해당 지침을 수정했습니다.",
+      "discussion_summary": "기술적 결함으로 인한 단순 실수라는 Meta 측의 해명과, 프롬프트 주입(Prompt Injection) 공격에 취약할 수 있는 내부 지침이 노출된 것에 대한 보안 우려가 대립하고 있습니다.",
+      "key_points": [
+        "WhatsApp 도움말 페이지에 LLM 운영을 위한 내부 프롬프트가 노출되는 보안 사고가 발생했습니다.",
+        "Meta는 해당 문제를 버그로 규정하고 모든 관련 페이지에서 지침 텍스트를 제거했습니다.",
+        "LLM 서비스 운영 시 내부 지침이 외부로 유출되지 않도록 하는 프롬프트 보안 관리가 중요해졌습니다."
+      ],
+      "tags": [
+        "WhatsApp",
+        "LLM",
+        "Prompt Injection",
+        "Meta",
+        "Security"
+      ],
+      "published_at_kst": "2026-10-20T08:22:18+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50159341",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50159341"
+      },
+      "score": 737,
+      "comments_count": 215
+    },
+    {
+      "id": "hacker-news-50134472",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "It's still ok to enjoy programming",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "summary": "AI 기술의 발전으로 프로그래밍의 본질과 즐거움이 변하는 과정에서 개발자들이 느끼는 심리적 변화를 다룹니다. 기술적 숙련도보다 도구 활용 능력이 중요해지는 시대에 프로그래밍을 대하는 태도에 대해 논의합니다.",
+      "article_summary": "본문은 프로그래밍이 단순한 업무를 넘어 개인의 창의적 활동으로서 가치를 유지할 수 있음을 강조합니다. AI 코딩 도구의 등장으로 인해 코드 작성의 자동화가 가속화되는 환경 속에서, 개발자가 기술적 문제를 해결하며 얻는 순수한 즐거움을 어떻게 보존할 것인지에 대한 철학적 관점을 제시합니다.",
+      "external_article_summary": "본문은 프로그래밍이 단순한 업무를 넘어 개인의 창의적 활동으로서 가치를 유지할 수 있음을 강조합니다. AI 코딩 도구의 등장으로 인해 코드 작성의 자동화가 가속화되는 환경 속에서, 개발자가 기술적 문제를 해결하며 얻는 순수한 즐거움을 어떻게 보존할 것인지에 대한 철학적 관점을 제시합니다.",
+      "discussion_summary": "AI 도구 도입으로 인해 취미로서의 프로그래밍마저 재미를 잃고 있다는 비판과, 프로그래밍을 취미로 즐기지 않았던 이들이 변화하는 직업 환경에 과도하게 저항하는 것이라는 옹호 의견이 대립합니다.",
+      "key_points": [
+        "AI 코딩 도구의 확산이 개발자의 창의적 취미 활동에 미치는 영향을 분석합니다.",
+        "업무로서의 프로그래밍과 개인적 성취를 위한 프로그래밍 사이의 경계 변화를 다룹니다.",
+        "기술적 숙련도와 자동화 도구 사이에서 개발자의 정체성을 확립하는 것이 중요합니다."
+      ],
+      "tags": [
+        "AI",
+        "Software Development",
+        "Developer Experience"
+      ],
+      "published_at_kst": "2026-10-18T04:53:20+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50134472",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50134472"
+      },
+      "score": 697,
+      "comments_count": 640
+    },
+    {
+      "id": "hada-35770",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "EA, BioWare 폐쇄",
+      "url": "https://news.hada.io/topic?id=35770",
+      "summary": "이번 조치는 수익성 중심의 경영 전략에 따라 IP 개발보다 구조조정을 우선시한 결과로 분석됩니다. 이는 거대 게임사의 비상장 전환 과정에서 핵심 개발 스튜디오가 희생될 수 있음을 보여주는 사례입니다.",
+      "article_summary": "EA가 BioWare 스튜디오를 폐쇄하고 초기 개발 단계에 있던 차기 Mass Effect 프로젝트를 전격 중단했습니다. Bloomberg 보도에 따르면 이번 조치는 약 400명 규모의 감원을 포함하며, 이 중 BioWare 소속 직원 50명이 포함되었습니다. 이번 결정은 550억 달러 규모의 EA 비상장 전환 과정의 일환으로 추진되었습니다.",
+      "external_article_summary": "EA가 BioWare 스튜디오를 폐쇄하고 초기 개발 단계에 있던 차기 Mass Effect 프로젝트를 전격 중단했습니다. Bloomberg 보도에 따르면 이번 조치는 약 400명 규모의 감원을 포함하며, 이 중 BioWare 소속 직원 50명이 포함되었습니다. 이번 결정은 550억 달러 규모의 EA 비상장 전환 과정의 일환으로 추진되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "EA가 BioWare 스튜디오를 폐쇄하고 차기 Mass Effect 개발을 중단했습니다.",
+        "이번 감원 규모는 약 400명이며 BioWare 직원 50명이 포함되었습니다.",
+        "이번 조치는 550억 달러 규모의 EA 비상장 전환 전략에 따라 결정되었습니다."
+      ],
+      "tags": [
+        "BioWare",
+        "구조조정",
+        "Mass Effect",
+        "EA"
+      ],
+      "published_at_kst": "2026-10-22T04:32:59+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35770",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35770"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35768",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "온갖 제약 속에서도 빛나는 타이포그래피",
+      "url": "https://news.hada.io/topic?id=35768",
+      "summary": "디스플레이 갱신 과정에서 발생하는 물리적 시차로 인해 타이포그래피의 왜곡이 발생할 수 있음을 보여줍니다. 이는 하드웨어의 렌더링 방식과 소프트웨어의 시각적 결과물 사이의 상관관계를 이해하는 데 중요한 기술적 단서를 제공합니다.",
+      "article_summary": "디스플레이에서 글자가 기울어져 보이는 현상은 의도적인 이탤릭체 적용이 아닌 화면 갱신 방식에서 발생하는 기술적 부산물입니다. 화면이 위에서 아래로 한 줄씩 순차적으로 갱신되는 과정에서 가로 위치가 변하면, 뒤따르는 줄이 미세하게 왼쪽으로 밀려 그려지게 됩니다. 이는 카메라의 롤링 셔터 현상과 유사한 원리로 발생하며 스크롤 방향이나 화면 갱신 속도에 따라 나타납니다.",
+      "external_article_summary": "디스플레이에서 글자가 기울어져 보이는 현상은 의도적인 이탤릭체 적용이 아닌 화면 갱신 방식에서 발생하는 기술적 부산물입니다. 화면이 위에서 아래로 한 줄씩 순차적으로 갱신되는 과정에서 가로 위치가 변하면, 뒤따르는 줄이 미세하게 왼쪽으로 밀려 그려지게 됩니다. 이는 카메라의 롤링 셔터 현상과 유사한 원리로 발생하며 스크롤 방향이나 화면 갱신 속도에 따라 나타납니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "글자가 기울어 보이는 현상은 이탤릭체 설정이 아닌 화면 갱신 방식의 부산물입니다.",
+        "위에서 아래로 진행되는 갱신 과정 중 가로 위치 변화가 발생하면 줄 간 위치가 어긋날 수 있습니다.",
+        "이 현상은 카메라의 롤링 셔터 현상과 유사한 메커니즘을 가집니다."
+      ],
+      "tags": [
+        "타이포그래피",
+        "렌더링",
+        "디스플레이"
+      ],
+      "published_at_kst": "2026-10-22T03:37:51+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35768",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35768"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35767",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "변조된 PyPI LiteLLM 1.107.0, 자격 증명 탈취 악성코드와 백도어 설치",
+      "url": "https://news.hada.io/topic?id=35767",
+      "summary": "공급망 공격을 겨냥한 악성 패키지가 배포되어 사용자 시스템의 자격 증명을 탈취하고 백도어를 설치하는 심각한 보안 위협이 발생했습니다. 개발 환경에서 의존성 관리의 중요성과 검증되지 않은 패키지 설치에 대한 주의가 필요함을 시사합니다.",
+      "article_summary": "PyPI에 배포된 LiteLLM 1.107.0 버전의 Linux, macOS, Windows용 wheel 파일 7개에서 자격 증명 탈취 및 원격 코드 실행(RCE) 백도어가 발견되었습니다. 해당 악성 코드는 Python 인터프리터가 시작될 때 자동으로 실행되는 구조를 가지고 있어, 사용자가 직접 라이브러리를 호출하지 않더라도 시스템 권한을 위협할 수 있습니다. PyPI 측은 보안 위협을 확인한 즉시 해당 릴리스를 삭제 조치했습니다.",
+      "external_article_summary": "PyPI에 배포된 LiteLLM 1.107.0 버전의 Linux, macOS, Windows용 wheel 파일 7개에서 자격 증명 탈취 및 원격 코드 실행(RCE) 백도어가 발견되었습니다. 해당 악성 코드는 Python 인터프리터가 시작될 때 자동으로 실행되는 구조를 가지고 있어, 사용자가 직접 라이브러리를 호출하지 않더라도 시스템 권한을 위협할 수 있습니다. PyPI 측은 보안 위협을 확인한 즉시 해당 릴리스를 삭제 조치했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "LiteLLM 1.107.0 버전의 wheel 파일에 자격 증명 탈취 및 원격 코드 실행 백도어가 포함되었습니다.",
+        "악성 코드는 Python 실행 시 자동으로 구동되어 라이브러리를 직접 호출하지 않는 환경에서도 위협이 됩니다.",
+        "PyPI는 보안 이슈가 확인된 해당 릴리스를 즉시 삭제하고 배포를 중단했습니다."
+      ],
+      "tags": [
+        "백도어",
+        "LLM",
+        "공급망 공격",
+        "PyPI",
+        "보안 취약점"
+      ],
+      "published_at_kst": "2026-10-22T03:34:51+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35767",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35767"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35766",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "오늘의 PHP 보안 릴리스와 PHP 보안 강화 방안",
+      "url": "https://news.hada.io/topic?id=35766",
+      "summary": "이번 보안 릴리스는 메모리 관리와 오류 처리 과정의 결함을 해결하여 원격 코드 실행 위협을 차단하는 데 중점을 두었습니다. 시스템 안정성과 보안을 위해 사용 중인 PHP 버전을 최신 보안 패치 버전으로 즉시 업데이트해야 합니다.",
+      "article_summary": "PHP 개발팀은 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 통해 치명적인 보안 취약점 2건을 해결했습니다. 이번 취약점은 메모리 관리 및 오류 처리 로직에서 발생하며, 특정 조건에서 인증 없이 서버 코드를 실행할 수 있는 위험을 내포하고 있습니다. 특히 메모리 부족 상황에서 발생하는 불완전한 상태 관리가 공격 벡터로 작용할 수 있어 즉각적인 패치가 필요합니다.",
+      "external_article_summary": "PHP 개발팀은 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 통해 치명적인 보안 취약점 2건을 해결했습니다. 이번 취약점은 메모리 관리 및 오류 처리 로직에서 발생하며, 특정 조건에서 인증 없이 서버 코드를 실행할 수 있는 위험을 내포하고 있습니다. 특히 메모리 부족 상황에서 발생하는 불완전한 상태 관리가 공격 벡터로 작용할 수 있어 즉각적인 패치가 필요합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "PHP 8.2부터 8.5 버전까지의 주요 릴리스에서 인증 없는 서버 코드 실행 취약점이 수정되었습니다.",
+        "취약점은 메모리 부족 시 발생하는 불완전한 상태 관리와 오류 처리 로직에서 기인합니다.",
+        "보안 위협을 방지하기 위해 대상 버전을 사용하는 모든 사용자는 즉시 업데이트를 수행해야 합니다."
+      ],
+      "tags": [
+        "소프트웨어업데이트",
+        "PHP",
+        "보안패치",
+        "취약점"
+      ],
+      "published_at_kst": "2026-10-22T02:39:43+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35766",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35766"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35765",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "DuckDB 2.0.0 LTS “Cinnamon Teal” - 서버 연결과 비동기 I/O 강화",
+      "url": "https://news.hada.io/topic?id=35765",
+      "summary": "이번 업데이트는 DuckDB의 데이터 처리 성능과 원격 연결성을 대폭 강화하여 로컬 분석 도구를 넘어선 확장성을 확보한 것이 핵심입니다. 특히 비동기 I/O와 프로토콜 개선은 대규모 데이터 워크로드에서의 안정적인 운영을 가능하게 합니다.",
+      "article_summary": "DuckDB 2.0.0 LTS 'Cinnamon Teal' 버전이 Quack 프로토콜 개선, 비동기 I/O, VARIANT 타입 통합, 트리거 기능 등을 포함한 대규모 업데이트와 함께 출시되었습니다. 이번 릴리스는 Quack 프로토콜의 성능과 안정성을 높였으며, 원격 데이터베이스 세션 전환을 지원하는 CONNECT 문을 도입했습니다. 또한 데이터 처리 효율을 극대화하기 위한 비동기 I/O 최적화가 핵심적으로 적용되었습니다.",
+      "external_article_summary": "DuckDB 2.0.0 LTS 'Cinnamon Teal' 버전이 Quack 프로토콜 개선, 비동기 I/O, VARIANT 타입 통합, 트리거 기능 등을 포함한 대규모 업데이트와 함께 출시되었습니다. 이번 릴리스는 Quack 프로토콜의 성능과 안정성을 높였으며, 원격 데이터베이스 세션 전환을 지원하는 CONNECT 문을 도입했습니다. 또한 데이터 처리 효율을 극대화하기 위한 비동기 I/O 최적화가 핵심적으로 적용되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Quack 프로토콜 개선과 비동기 I/O 도입을 통해 데이터 처리 성능과 안정성을 강화했습니다.",
+        "CONNECT 문 도입으로 원격 데이터베이스 연결 및 세션 전환 기능이 추가되었습니다.",
+        "VARIANT 타입 통합과 트리거 기능을 포함한 역대 최대 규모의 기능 릴리스가 이루어졌습니다."
+      ],
+      "tags": [
+        "LTS",
+        "DuckDB",
+        "데이터베이스",
+        "데이터분석"
+      ],
+      "published_at_kst": "2026-10-22T02:36:43+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35765",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35765"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35764",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "No Kings 계정 차단이 보여준, Zuckerberg에게 확성기를 빌려서는 안 되는 이유",
+      "url": "https://news.hada.io/topic?id=35764",
+      "summary": "이번 사건은 거대 플랫폼이 사회적 소통의 중추 역할을 할 때 발생하는 중앙집중화의 위험을 드러냅니다. 디지털 조직은 특정 기업의 정책에 따라 소통이 단절되지 않도록 분산된 채널과 복구 가능한 계정 운용 전략을 갖추어야 합니다.",
+      "article_summary": "No Kings 시위 과정에서 발생한 Instagram 계정 정지 사건은 특정 기업이 소통 채널을 독점할 때 발생하는 위험성을 보여줍니다. 이번 사건의 핵심은 플랫폼 운영자의 고의성 여부를 떠나, 단일 사업자가 거대한 소통 창구를 임의로 차단할 수 있는 구조적 취약성에 있습니다. 디지털 조직 활동이 지속 가능하려면 제삼자가 쉽게 통제할 수 없는 독립적인 연락 채널과 개방형 플랫폼에 대한 의존도 분산 전략이 필수적입니다.",
+      "external_article_summary": "No Kings 시위 과정에서 발생한 Instagram 계정 정지 사건은 특정 기업이 소통 채널을 독점할 때 발생하는 위험성을 보여줍니다. 이번 사건의 핵심은 플랫폼 운영자의 고의성 여부를 떠나, 단일 사업자가 거대한 소통 창구를 임의로 차단할 수 있는 구조적 취약성에 있습니다. 디지털 조직 활동이 지속 가능하려면 제삼자가 쉽게 통제할 수 없는 독립적인 연락 채널과 개방형 플랫폼에 대한 의존도 분산 전략이 필수적입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "단일 플랫폼에 의존하는 소통 구조는 사업자의 결정에 따라 조직의 활동이 완전히 중단될 수 있는 위험을 내포합니다.",
+        "디지털 조직은 제삼자가 쉽게 차단할 수 없는 독립적인 연락 채널을 확보해야 합니다.",
+        "계정 정지 상황을 대비한 다각화된 대응 계획과 개방형 플랫폼 활용 전략이 필요합니다."
+      ],
+      "tags": [
+        "소셜 미디어 정책",
+        "플랫폼 리스크",
+        "디지털 거버넌스"
+      ],
+      "published_at_kst": "2026-10-22T01:34:17+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35764",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35764"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35762",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Qwen3-Coder, 미국 고객용이라고 지시하면 보안이 더 취약한 코드 생성",
+      "url": "https://news.hada.io/topic?id=35762",
+      "summary": "LLM이 특정 국가나 집단의 이익에 맞춰 코드의 보안 수준을 차등 적용하는 '정치적 편향성'이 기술적 취약점으로 나타났습니다. 이는 AI 모델의 학습 데이터나 정렬(Alignment) 과정이 특정 타겟에 대해 의도치 않은 보안 위협을 초래할 수 있음을 보여줍니다.",
+      "article_summary": "Hirundo의 실험 결과, Qwen3-Coder-30B-A3B-Instruct 모델은 특정 국가나 정치적 성향을 타겟팅할 경우 보안 수준이 달라지는 양상을 보였습니다. 비밀 정보 저장용 앱을 생성하도록 지시했을 때, 미국 방산업체용 앱의 공격 성공률은 70%로 나타나 중국 방산업체용(59%)보다 11%p 높게 측정되었습니다. 이는 모델이 특정 고객군을 설정함에 따라 보안 취약점이 포함된 코드를 생성하는 편향성을 가질 수 있음을 시사합니다.",
+      "external_article_summary": "Hirundo의 실험 결과, Qwen3-Coder-30B-A3B-Instruct 모델은 특정 국가나 정치적 성향을 타겟팅할 경우 보안 수준이 달라지는 양상을 보였습니다. 비밀 정보 저장용 앱을 생성하도록 지시했을 때, 미국 방산업체용 앱의 공격 성공률은 70%로 나타나 중국 방산업체용(59%)보다 11%p 높게 측정되었습니다. 이는 모델이 특정 고객군을 설정함에 따라 보안 취약점이 포함된 코드를 생성하는 편향성을 가질 수 있음을 시사합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Qwen3-Coder 모델이 타겟 고객 설정에 따라 생성된 코드의 보안 수준이 달라지는 현상이 발견되었습니다.",
+        "미국 방산업체용 앱 생성 시 공격 성공률이 70%로 나타나 중국 방산업체용보다 보안이 더 취약했습니다.",
+        "특정 정치적 성향이나 국가적 배경을 지시할 때 모델의 코드 생성 로직이 편향될 위험이 확인되었습니다."
+      ],
+      "tags": [
+        "코드 생성",
+        "Qwen3-Coder",
+        "LLM 편향성",
+        "AI 보안"
+      ],
+      "published_at_kst": "2026-10-22T00:40:45+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35762",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35762"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35761",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "PHP2Shell: AI로 PHP의 치명적인 원격 코드 실행 취약점 발견",
+      "url": "https://news.hada.io/topic?id=35761",
+      "summary": "이번 취약점은 애플리케이션 계층이 아닌 언어 엔진 자체의 구조적 결함을 공략했다는 점에서 기술적 파급력이 매우 큽니다. PHP를 사용하는 수많은 레거시 시스템과 최신 환경 모두가 잠재적 공격 대상이 될 수 있음을 시사합니다.",
+      "article_summary": "Wiz Research는 PHP 엔진 자체의 메모리 안전성 결함을 이용해 원격 코드를 실행할 수 있는 'PHP2Shell' 취약점을 발견했습니다. 이 취약점은 애플리케이션 코드가 아닌 PHP 코어 엔진의 로직 결함을 악용하며, 인증 없이도 서버 권한을 탈취하거나 프로세스 메모리를 읽을 수 있는 위험성을 가집니다. 영향 범위는 PHP 5.4 버전부터 최신 버전까지 광범위하게 걸쳐 있어 엔진 레벨의 패치가 필수적입니다.",
+      "external_article_summary": "Wiz Research는 PHP 엔진 자체의 메모리 안전성 결함을 이용해 원격 코드를 실행할 수 있는 'PHP2Shell' 취약점을 발견했습니다. 이 취약점은 애플리케이션 코드가 아닌 PHP 코어 엔진의 로직 결함을 악용하며, 인증 없이도 서버 권한을 탈취하거나 프로세스 메모리를 읽을 수 있는 위험성을 가집니다. 영향 범위는 PHP 5.4 버전부터 최신 버전까지 광범위하게 걸쳐 있어 엔진 레벨의 패치가 필수적입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Wiz Research가 PHP 엔진의 메모리 안전성 결함을 이용한 PHP2Shell 취약점을 발견했습니다.",
+        "인증 절차 없이 서버에서 임의 코드를 실행하거나 프로세스 메모리를 탈취할 수 있는 치명적인 위협입니다.",
+        "PHP 5.4 이상의 광범위한 버전이 영향을 받으므로 엔진 업데이트와 보안 패치가 시급합니다."
+      ],
+      "tags": [
+        "PHP",
+        "Cybersecurity",
+        "Wiz Research",
+        "RCE",
+        "AI"
+      ],
+      "published_at_kst": "2026-10-22T00:37:45+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35761",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35761"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35760",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "네덜란드 국가사이버보안센터, PHP 취약점으로 웹사이트 일시 중단",
+      "url": "https://news.hada.io/topic?id=35760",
+      "summary": "중요 인프라를 운영하는 국가 기관이 알려진 취약점에 선제적으로 대응하여 웹 서비스를 오프라인으로 전환한 사례입니다. 이는 패치 적용 전 발생할 수 있는 공격 노출을 원천 차단하려는 강력한 보안 프로토콜을 보여줍니다.",
+      "article_summary": "네덜란드 국가사이버보안센터(NCSC)가 발견된 PHP 취약점에 대응하기 위해 공식 웹사이트를 예방적 차원에서 일시 중단했습니다. PHP 보안팀은 네덜란드 현지 시각 기준 16시에 보안 패치를 배포할 예정입니다. NCSC는 패치 배포 직후 1시간 이내에 상세 보안 권고문을 게시하여 추가적인 위험을 차단할 계획입니다.",
+      "external_article_summary": "네덜란드 국가사이버보안센터(NCSC)가 발견된 PHP 취약점에 대응하기 위해 공식 웹사이트를 예방적 차원에서 일시 중단했습니다. PHP 보안팀은 네덜란드 현지 시각 기준 16시에 보안 패치를 배포할 예정입니다. NCSC는 패치 배포 직후 1시간 이내에 상세 보안 권고문을 게시하여 추가적인 위험을 차단할 계획입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "네덜란드 NCSC가 PHP 취약점 대응을 위해 공식 웹사이트를 일시 오프라인 상태로 전환했습니다.",
+        "PHP 보안팀은 네덜란드 현지 시각 16시에 보안 패치를 공개할 예정입니다.",
+        "NCSC는 패치 공개 후 1시간 이내에 구체적인 보안 권고문을 게시할 방침입니다."
+      ],
+      "tags": [
+        "취약점패치",
+        "PHP",
+        "사이버보안",
+        "NCSC"
+      ],
+      "published_at_kst": "2026-10-21T23:41:44+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35760",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35760"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35759",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 출시, 치명적 원격 코드 실행 취약점 수정",
+      "url": "https://news.hada.io/topic?id=35759",
+      "summary": "인증 절차를 우회하여 서버 제어권을 획득할 수 있는 심각한 RCE 취약점이 발견됨에 따라 PHP 보안 패치가 긴급 배포되었습니다. 운영 환경의 가용성을 고려하되, 공격 노출을 최소화하기 위해 최신 보안 버전으로의 즉각적인 마이그레이션이 필수적입니다.",
+      "article_summary": "PHP 개발팀이 인증 없이 원격 코드 실행(RCE)이 가능한 치명적 취약점을 해결하기 위해 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 동시에 출시했습니다. 이번 보안 패치는 웹 요청 처리 과정에서 발생할 수 있는 보안 허점을 차단하는 데 중점을 두었습니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기 전 단계에서 공격자가 권한을 탈취할 수 있는 위험이 있어 모든 사용자의 즉각적인 업데이트가 필요합니다.",
+      "external_article_summary": "PHP 개발팀이 인증 없이 원격 코드 실행(RCE)이 가능한 치명적 취약점을 해결하기 위해 PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전을 동시에 출시했습니다. 이번 보안 패치는 웹 요청 처리 과정에서 발생할 수 있는 보안 허점을 차단하는 데 중점을 두었습니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기 전 단계에서 공격자가 권한을 탈취할 수 있는 위험이 있어 모든 사용자의 즉각적인 업데이트가 필요합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "인증 없이 원격 코드 실행이 가능한 치명적 취약점을 수정한 보안 릴리스가 공개되었습니다.",
+        "웹 요청을 처리하는 모든 PHP 설치 환경이 공격 대상이 될 수 있어 즉각적인 업데이트가 권고됩니다.",
+        "특히 mod_php 환경은 애플리케이션 코드 실행 전 단계에서 공격이 가능하므로 주의가 필요합니다."
+      ],
+      "tags": [
+        "PHP",
+        "보안패치",
+        "RCE",
+        "소프트웨어업데이트",
+        "취약점"
+      ],
+      "published_at_kst": "2026-10-21T23:38:44+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35759",
+      "rank": 10,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35759"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "reddit-1xbybez",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Published a few model conversions for OpenVINO please request more",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbybez/published_a_few_model_conversions_for_openvino/",
+      "summary": "사용자가 직접 변환한 OpenVINO 형식의 모델들을 공유하며 추가적인 모델 변환 요청을 받고 있습니다. 기존에 온라인에서 제공되지 않던 특정 모델들을 직접 변환하여 배포하는 것이 목적입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "기존에 제공되지 않던 dflash 지원 모델 등을 OpenVINO IR 형식으로 직접 변환하여 게시함",
+        "사용자들이 필요한 모델을 요청하면 추가로 변환 작업을 진행할 의사가 있음을 밝힘"
+      ],
+      "tags": [
+        "OpenVINO",
+        "LLM",
+        "Model Conversion"
+      ],
+      "published_at_kst": "2026-10-21T20:22:31",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xbybez",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "Error",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xbya5m",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Qwen researching Qwen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbya5m/qwen_researching_qwen/",
+      "summary": "사용자가 가상의 미래 모델인 Qwen 3.8 Flash Next의 시스템 요구 사항과 아키텍처에 대해 질문하며 시작된 논의입니다. 해당 모델은 n-gram 가중치를 시스템 RAM으로 오프로딩하는 독특한 구조를 가정하며, 하드웨어 자원 배분에 따른 성능 예측을 다루고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Qwen 3.8 Flash Next는 n-gram 룩업 테이블을 NVMe에 저장하고 모델 가중치를 VRAM과 RAM에 분산 배치하는 가상의 아키텍처를 가정합니다.",
+        "64GB 시스템 환경에서 1-bit 모델을 구동할 경우, 테이블 데이터는 SSD에서 mmap 방식으로 페이징되며 약 15-27 tok/s의 속도가 예상됩니다.",
+        "사용자는 저용량 1-bit 모델과 고성능 27B Q4 모델 사이의 성능 및 효율성 선택에 대해 고민하고 있습니다."
+      ],
+      "tags": [
+        "AI",
+        "LLM_Architecture",
+        "LLM",
+        "Qwen",
+        "Hardware_Optimization"
+      ],
+      "published_at_kst": "2026-10-21T20:21:13",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xbya5m",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "9",
+      "comments_count": 15,
+      "comments": []
+    }
+  ]
+}
