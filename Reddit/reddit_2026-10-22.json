@@ -1,0 +1,100 @@
+{
+  "source": "reddit",
+  "date": "2026-10-22",
+  "generated_at": "2026-10-22T06:17:37.510072+09:00",
+  "count": 2,
+  "daily_summary": "오늘 Reddit의 LocalLLaMA 커뮤니티에서는 특정 하드웨어 가속을 위한 모델 변환 작업과 차세대 가상 모델 아키텍처에 대한 논의가 이루어졌습니다. 특히 OpenVINO를 활용한 모델 배포와 저용량 1-bit 모델의 효율적인 하드웨어 자원 배분 방식이 주요 화두였습니다.",
+  "daily_key_points": [
+    "사용자가 직접 변환한 OpenVINO IR 형식의 모델들이 공유되며 추가적인 모델 변환 요청이 이어지고 있습니다.",
+    "가상의 Qwen 3.8 Flash Next 모델 아키텍처를 통해 n-gram 가중치의 RAM/NVMe 오프로딩 방식에 대한 기술적 논의가 진행되었습니다.",
+    "1-bit 모델 구동 시 SSD mmap 방식의 페이징 성능과 VRAM/RAM 분산 배치에 따른 추론 속도 예측이 다뤄졌습니다."
+  ],
+  "daily_tags": [
+    "OpenVINO",
+    "LocalLLM",
+    "ModelQuantization",
+    "HardwareOptimization"
+  ],
+  "subreddits_covered": [
+    "LocalLLaMA"
+  ],
+  "source_modes_used": [
+    "new"
+  ],
+  "run_stats": {
+    "candidate_count": 8,
+    "finalist_count": 2,
+    "summarization_wall_sec": 435.47,
+    "total_wall_sec": 563.081
+  },
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit의 LocalLLaMA 커뮤니티에서는 특정 하드웨어 가속을 위한 모델 변환 작업과 차세대 가상 모델 아키텍처에 대한 논의가 이루어졌습니다. 특히 OpenVINO를 활용한 모델 배포와 저용량 1-bit 모델의 효율적인 하드웨어 자원 배분 방식이 주요 화두였습니다.\n\n🔥 1. Published a few model conversions for OpenVINO please request more\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자가 직접 변환한 OpenVINO 형식의 모델들을 공유하며 추가적인 모델 변환 요청을 받고 있습니다. 기존에 온라인에서 제공되지 않던 특정 모델들을 직접 변환하여 배포하는 것이 목적입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xbybez/published_a_few_model_conversions_for_openvino/\n\n🔥 2. Qwen researching Qwen\nr/LocalLLaMA | 👍 9 | 💬 15\n📝 요약: 사용자가 가상의 미래 모델인 Qwen 3.8 Flash Next의 시스템 요구 사항과 아키텍처에 대해 질문하며 시작된 논의입니다. 해당 모델은 n-gram 가중치를 시스템 RAM으로 오프로딩하는 독특한 구조를 가정하며, 하드웨어 자원 배분에 따른 성능 예측을 다루고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xbya5m/qwen_researching_qwen/\n\n출처: Reddit (r/LocalLLaMA)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "items": [
+    {
+      "source": "reddit",
+      "post_id": "1xbybez",
+      "subreddit": "LocalLLaMA",
+      "title": "Published a few model conversions for OpenVINO please request more",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbybez/published_a_few_model_conversions_for_openvino/",
+      "external_link": null,
+      "score": "Error",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-21T20:22:31",
+      "korean_summary": "사용자가 직접 변환한 OpenVINO 형식의 모델들을 공유하며 추가적인 모델 변환 요청을 받고 있습니다. 기존에 온라인에서 제공되지 않던 특정 모델들을 직접 변환하여 배포하는 것이 목적입니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "기존에 제공되지 않던 dflash 지원 모델 등을 OpenVINO IR 형식으로 직접 변환하여 게시함",
+        "사용자들이 필요한 모델을 요청하면 추가로 변환 작업을 진행할 의사가 있음을 밝힘"
+      ],
+      "tags": [
+        "OpenVINO",
+        "LLM",
+        "Model Conversion"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "playwright",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xbya5m",
+      "subreddit": "LocalLLaMA",
+      "title": "Qwen researching Qwen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xbya5m/qwen_researching_qwen/",
+      "external_link": null,
+      "score": "9",
+      "comments_count": 15,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-21T20:21:13",
+      "korean_summary": "사용자가 가상의 미래 모델인 Qwen 3.8 Flash Next의 시스템 요구 사항과 아키텍처에 대해 질문하며 시작된 논의입니다. 해당 모델은 n-gram 가중치를 시스템 RAM으로 오프로딩하는 독특한 구조를 가정하며, 하드웨어 자원 배분에 따른 성능 예측을 다루고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Qwen 3.8 Flash Next는 n-gram 룩업 테이블을 NVMe에 저장하고 모델 가중치를 VRAM과 RAM에 분산 배치하는 가상의 아키텍처를 가정합니다.",
+        "64GB 시스템 환경에서 1-bit 모델을 구동할 경우, 테이블 데이터는 SSD에서 mmap 방식으로 페이징되며 약 15-27 tok/s의 속도가 예상됩니다.",
+        "사용자는 저용량 1-bit 모델과 고성능 27B Q4 모델 사이의 성능 및 효율성 선택에 대해 고민하고 있습니다."
+      ],
+      "tags": [
+        "AI",
+        "LLM_Architecture",
+        "LLM",
+        "Qwen",
+        "Hardware_Optimization"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    }
+  ]
+}
