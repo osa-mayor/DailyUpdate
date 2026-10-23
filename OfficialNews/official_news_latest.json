@@ -1,22 +1,22 @@
 {
   "source": "official_news",
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T06:25:33.180494+09:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T05:40:07.382088+09:00",
   "count": 9,
-  "daily_summary": "Google DeepMind와 OpenAI의 기술적 성과 및 클라우드 생태계 확장이 주를 이루었으며, 특히 Google Cloud를 중심으로 한 멀티 모델 지원과 과학적 연구를 위한 AI 워크벤블 구축이 핵심 흐름으로 나타났습니다.",
+  "daily_summary": "Google DeepMind와 OpenAI, Google Cloud를 중심으로 차세대 AI 모델 출시, 과학적 탐색 도구 공개, 그리고 클라우드 생태계 내 모델 선택권 확장이 핵심 흐름으로 나타났습니다.",
   "daily_key_points": [
-    "Google DeepMind의 차세대 모델 Gemini 4 Argon 및 과학적 탐색을 위한 Google Antigravity 공개",
-    "Google Cloud의 모델 선택권 확대: Claude 및 OpenAI 모델의 통합 제공을 통한 하이퍼스케일 클라우드 경쟁력 강화",
-    "OpenAI의 새로운 API 출시 및 조직적/안전 가이드라인(FDE, Safety)에 대한 기술적 정의 공유"
+    "Google DeepMind의 신규 모델(Gemini 4 Argon) 및 과학적 연구를 위한 에이전트 기반 워크벤치(Google Antigravity) 공개",
+    "OpenAI의 대규모 사용자 지원을 위한 스토리지 확장 기술 및 프론티어 모델 보안 강화, Decisions API 출시",
+    "Google Cloud가 Claude 및 OpenAI 모델을 Model Garden에 통합하며 멀티 모델 클라우드 생태계 구축"
   ],
   "daily_tags": [
     "AI Model",
     "Cloud Ecosystem",
     "Scientific AI",
-    "OpenAI",
-    "Google DeepMind"
+    "Infrastructure",
+    "Security"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI의 기술적 성과 및 클라우드 생태계 확장이 주를 이루었으며, 특히 Google Cloud를 중심으로 한 멀티 모델 지원과 과학적 연구를 위한 AI 워크벤블 구축이 핵심 흐름으로 나타났습니다.\n\n📍 1. Gemini 4 Argon: Built to solve your hardest problems\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 최신 프론티어 모델인 Gemini 4 Argon을 공개했습니다. 이 모델은 개발자, 기업, 과학자 및 일반 소비자들이 직면한 가장 어려운 문제들을 해결하기 위해 설계되었습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n📍 2. Beyond tree cover: mapping the world’s forest types\n🗂️ 소스: Google DeepMind | 분류: Research\n📝 요약: Google DeepMind가 전 세계 산림 유형을 분류하는 Forest Typology (ForTy) 2020 지도를 공개했습니다. 이 지도는 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류하며 10미터 해상도를 제공합니다.\n🔗 링크: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\n\n📍 3. Accelerating the search for antimicrobial peptides with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.\n🔗 링크: https://deepmind.google/blog/accelerating-antimicrobial-discovery/\n\n📍 4. Build more responsive apps with the Decisions API\n🗂️ 소스: OpenAI News | 분류: Product\n📝 요약: OpenAI가 애플리케이션의 응답성을 높일 수 있는 Decisions API를 출시했습니다. 이 API는 모든 애플리케이션을 위해 빠르고 집중된 저비용 의사결정 기능을 제공합니다.\n🔗 링크: https://openai.com/index/decisions-api\n\n📍 5. Expanding Claude availability and deployment choice on Google Cloud\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud에서 Anthropic이 직접 관리하는 Claude 모델 배포 옵션이 일반 제공(GA)됩니다. 이를 통해 개발자는 기존의 Google 관리형 옵션과 더불어 더 넓은 선택지를 갖게 되어 Google Cloud 내에서 AI 워크로드를 통합할 수 있습니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-10-23.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI, Google Cloud를 중심으로 차세대 AI 모델 출시, 과학적 탐색 도구 공개, 그리고 클라우드 생태계 내 모델 선택권 확장이 핵심 흐름으로 나타났습니다.\n\n📍 1. Gemini 4 Argon: Built to solve your hardest problems\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 최신 프론티어 모델인 Gemini 4 Argon을 공개했습니다. 이 모델은 개발자, 기업, 과학자 및 일반 소비자들이 직면한 가장 어려운 문제들을 해결하기 위해 설계되었습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/\n\n📍 2. Beyond tree cover: mapping the worldâs forest types\n🗂️ 소스: Google DeepMind | 분류: Research\n📝 요약: Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.\n🔗 링크: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\n\n📍 3. Accelerating the search for antimicrobial peptides with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.\n🔗 링크: https://deepmind.google/blog/accelerating-antimicrobial-discovery/\n\n📍 4. Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)\n🗂️ 소스: OpenAI News | 분류: Engineering\n📝 요약: OpenAI가 10억 명 이상의 ChatGPT 사용자를 지원하기 위해 구축한 온라인 스토리지 시스템인 Habitat의 확장 과정을 다룹니다. 신뢰할 수 있는 멀티테넌시, 글로벌 캐싱, Azure Cosmos DB를 활용하여 ChatGPT의 읽기 속도를 12배 향상시킨 기술적 성과를 설명합니다.\n🔗 링크: https://openai.com/index/scaling-storage-one-billion-users-part-two\n\n📍 5. Securing our frontier model training environment\n🗂️ 소스: OpenAI News | 분류: Security\n📝 요약: OpenAI가 차세대 프론티어 모델의 학습 및 평가 과정을 보호하기 위해 강화된 격리 조치를 도입했습니다. 오프라인 환경 구축과 고성능 컴퓨팅 기반의 레드팀 활동을 통해 보안을 강화하는 방안을 설명합니다.\n🔗 링크: https://openai.com/index/securing-our-frontier-model-training-environment\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-10-24.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -44,7 +44,7 @@
     {
       "source_key": "deepmind",
       "source_name": "Google DeepMind",
-      "title": "Beyond tree cover: mapping the world’s forest types",
+      "title": "Beyond tree cover: mapping the worldâs forest types",
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "category": "Research",
       "published_at_kst": "2026-10-31T00:00:00+09:00",
@@ -52,11 +52,11 @@
       "original_description": "Explore Forest Typology (ForTy) 2020: a global 10-meter map categorizing Earth's land into six distinct forest and land-use types, plus an annual time series.",
       "release_type": "research_release",
       "rank": 2,
-      "summary": "Google DeepMind가 전 세계 산림 유형을 분류하는 Forest Typology (ForTy) 2020 지도를 공개했습니다. 이 지도는 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류하며 10미터 해상도를 제공합니다.",
+      "summary": "Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.",
       "key_points": [
         "Forest Typology (ForTy) 2020: 10미터 해상도의 글로벌 산림 유형 지도",
         "지구의 토지를 6가지의 서로 다른 산림 및 토지 이용 유형으로 분류",
-        "연간 시계열 데이터를 포함하여 변화를 파악할 수 있음"
+        "연간 시계열 데이터를 제공하여 시간에 따른 변화 파악 가능"
       ],
       "tags": [
         "Google DeepMind",
@@ -90,6 +90,52 @@
     {
       "source_key": "openai",
       "source_name": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "category": "Engineering",
+      "published_at_kst": "2026-10-24T02:00:00+09:00",
+      "published_date": "2026-10-24",
+      "original_description": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "release_type": "engineering_update",
+      "rank": 4,
+      "summary": "OpenAI가 10억 명 이상의 ChatGPT 사용자를 지원하기 위해 구축한 온라인 스토리지 시스템인 Habitat의 확장 과정을 다룹니다. 신뢰할 수 있는 멀티테넌시, 글로벌 캐싱, Azure Cosmos DB를 활용하여 ChatGPT의 읽기 속도를 12배 향상시킨 기술적 성과를 설명합니다.",
+      "key_points": [
+        "10억 명 이상의 ChatGPT 사용자를 수용하기 위한 Habitat 시스템의 확장 전략",
+        "신뢰할 수 있는 멀티테넌시와 글로벌 캐싱 기술 적용",
+        "Azure Cosmos DB를 활용하여 ChatGPT 읽기 성능을 12배 향상"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT",
+        "Azure Cosmos DB"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "category": "Security",
+      "published_at_kst": "2026-10-23T19:00:00+09:00",
+      "published_date": "2026-10-23",
+      "original_description": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "release_type": "safety_update",
+      "rank": 5,
+      "summary": "OpenAI가 차세대 프론티어 모델의 학습 및 평가 과정을 보호하기 위해 강화된 격리 조치를 도입했습니다. 오프라인 환경 구축과 고성능 컴퓨팅 기반의 레드팀 활동을 통해 보안을 강화하는 방안을 설명합니다.",
+      "key_points": [
+        "프론티어 모델 학습 및 평가를 위한 격리 환경 강화",
+        "오프라인 환경을 활용한 보안 체계 구축",
+        "고성능 컴퓨팅(high-compute) 기반의 레드팀 운영"
+      ],
+      "tags": [
+        "OpenAI",
+        "Security",
+        "Frontier Model"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
       "title": "Build more responsive apps with the Decisions API",
       "url": "https://openai.com/index/decisions-api",
       "category": "Product",
@@ -97,7 +143,7 @@
       "published_date": "2026-10-23",
       "original_description": "Fast, focused, low-cost decisions for any application.",
       "release_type": "product_release",
-      "rank": 4,
+      "rank": 6,
       "summary": "OpenAI가 애플리케이션의 응답성을 높일 수 있는 Decisions API를 출시했습니다. 이 API는 모든 애플리케이션을 위해 빠르고 집중된 저비용 의사결정 기능을 제공합니다.",
       "key_points": [
         "애플리케이션의 응답성을 높이기 위한 Decisions API 출시",
@@ -120,7 +166,7 @@
       "published_date": "2026-10-23",
       "original_description": "Today, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives developers more choice in how they run their models, helping them consolidate AI workloads on Google Cloud by pairing direct access to Anthropic’s platform alongside our existing, in-boundary Google-managed deployment option.",
       "release_type": "engineering_update",
-      "rank": 5,
+      "rank": 7,
       "summary": "Google Cloud에서 Anthropic이 직접 관리하는 Claude 모델 배포 옵션이 일반 제공(GA)됩니다. 이를 통해 개발자는 기존의 Google 관리형 옵션과 더불어 더 넓은 선택지를 갖게 되어 Google Cloud 내에서 AI 워크로드를 통합할 수 있습니다.",
       "key_points": [
         "Anthropic이 직접 관리하는 Claude 모델 배포 옵션의 GA(General Availability) 발표",
@@ -131,52 +177,6 @@
         "Google Cloud",
         "Anthropic",
         "Claude"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "category": "Engineering",
-      "published_at_kst": "2026-10-22T15:00:00+09:00",
-      "published_date": "2026-10-22",
-      "original_description": "What forward deployed engineering means at OpenAI",
-      "release_type": "engineering_update",
-      "rank": 6,
-      "summary": "OpenAI에서 Forward Deployed Engineering(FDE)이 의미하는 역할과 정의를 설명합니다. 이 직무가 OpenAI의 기술적 역량을 어떻게 활용하는지에 대한 내용을 담고 있습니다.",
-      "key_points": [
-        "OpenAI 내 Forward Deployed Engineering(FDE)의 정의",
-        "FDE 직무가 수행하는 역할과 의미",
-        "OpenAI의 기술적 접근 방식에 대한 설명"
-      ],
-      "tags": [
-        "OpenAI",
-        "FDE",
-        "Engineering"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Broad access through consistent standards",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "category": "Safety",
-      "published_at_kst": "2026-10-22T06:00:00+09:00",
-      "published_date": "2026-10-22",
-      "original_description": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "release_type": "safety_update",
-      "rank": 7,
-      "summary": "OpenAI가 배포 파트너들과 협력하여 일관된 안전 가드레일을 유지하는 방법에 대해 설명합니다. 책임감 있는 접근을 지원하고 이용 정책(Usage Policies)에 대한 기대치를 명확히 하는 것을 목표로 합니다.",
-      "key_points": [
-        "배포 파트너와의 협력을 통한 일관된 안전 표준 유지",
-        "책임감 있는 AI 접근 방식 지원",
-        "Usage Policies를 통한 명확한 기대치 설정"
-      ],
-      "tags": [
-        "OpenAI",
-        "Safety",
-        "Usage Policies"
       ]
     },
     {
