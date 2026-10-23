@@ -1,63 +1,61 @@
 {
   "source": "reddit",
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T06:51:09.367693+09:00",
-  "count": 8,
-  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 모델 성능 최적화와 의료 진단 분야에서의 AI 성과, 그리고 테슬라의 휴머노이드 로봇 대량 생산 계획 등 기술적 진보와 실질적 적용 사례가 주목받았습니다. 또한, 오픈소스 도구 개발과 보안 우려 등 커뮤니티 내의 기술적 논의와 보안 이슈도 활발히 다뤄졌습니다.",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T06:39:34.720589+09:00",
+  "count": 6,
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 고성능 컴퓨팅(HPC) 인프라 설계와 같은 하드웨어 최적화부터 RAG 및 컨텍스트 그래프 구축을 위한 실무적인 기술 논의가 활발히 이루어졌습니다. 또한, AI 자동화 에이전시를 통한 수익화 전략과 학회 관련 메가스레드 등 기술적 성취와 커리어 전략이 공존하는 흐름을 보였습니다.",
   "daily_key_points": [
-    "Opus 5.5 모델을 활용한 TTS 성능 향상과 테슬라 옵티머스의 대량 생산 계획 등 AI 기술의 실질적 구현과 확장성이 강조되었습니다.",
-    "마이크로소프트의 AI 진단 도구가 의료 전문가를 능가하는 성과를 보이며 AI의 전문 영역 침투 가능성을 시사했습니다.",
-    "오픈소스 기반의 작업 스케줄러 및 노트 작성 도구 등 사용자 중심의 자동화 및 생산성 도구들이 소개되었습니다."
+    "AlphaFold 2와 같은 연산 집약적 워크로드를 위해 VRAM 확보와 효율적인 GPU 배치가 핵심적인 HPC 설계 요소로 논의되었습니다.",
+    "V100 환경에서 DFlash2 투기적 디코딩을 지원하는 ReVolta 0.1.2 출시로 인해 특정 작업에서의 추론 속도가 크게 향상되었습니다.",
+    "AI 엔지니어링의 수익화를 위해 기술 감사 대신 작은 단위의 기술적 과업을 수행하는 하청 방식의 실질적인 업무 확보 전략이 제안되었습니다."
   ],
   "daily_tags": [
-    "AI_기술진보",
-    "오픈소스",
-    "로보틱스",
-    "AI보안",
-    "생산성도구"
+    "HPC",
+    "LLM_Optimization",
+    "AI_Automation",
+    "DeepLearning"
   ],
   "subreddits_covered": [
     "LanguageTechnology",
     "LocalLLaMA",
-    "OpenSourceAI",
-    "Singularity"
+    "Rag"
   ],
   "source_modes_used": [
     "hot",
-    "new",
-    "rising"
+    "new"
   ],
   "run_stats": {
-    "candidate_count": 32,
-    "finalist_count": 8,
-    "summarization_wall_sec": 962.236,
-    "total_wall_sec": 1097.696
+    "candidate_count": 24,
+    "finalist_count": 6,
+    "summarization_wall_sec": 404.502,
+    "total_wall_sec": 534.249
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 모델 성능 최적화와 의료 진단 분야에서의 AI 성과, 그리고 테슬라의 휴머노이드 로봇 대량 생산 계획 등 기술적 진보와 실질적 적용 사례가 주목받았습니다. 또한, 오픈소스 도구 개발과 보안 우려 등 커뮤니티 내의 기술적 논의와 보안 이슈도 활발히 다뤄졌습니다.\n\n🔥 1. Making Kokoro TTS 50-100x faster without knowing how\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자가 Opus 5.5 모델을 활용하여 Kokoro TTS의 속도를 50-100배 향상시키는 데 성공했다는 내용입니다. 전문적인 ML 엔지니어가 아닌 일반 웹 개발자도 모델의 성능 향상 기능을 통해 놀라운 성과를 거둘 수 있음을 보여줍니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xcuqor/making_kokoro_tts_50100x_faster_without_knowing/\n\n🔥 2. Microsoft says its AI tool is better than doctors at diagnosing diseases\nr/Singularity | 👍 237 | 💬 89\n📝 요약: 마이크로소프트의 AI 도구가 질병 진단 분야에서 의사보다 뛰어난 성능을 보였다는 소식이 전해졌습니다. 인공지능 기술이 의료 진단 영역에서 전문가를 능가할 수 있는 가능성을 시사합니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1xct31u/microsoft_says_its_ai_tool_is_better_than_doctors/\n\n🔥 3. *ACL Megathread\nr/LanguageTechnology | 👍 8 | 💬 22\n📝 요약: ACL 학회와 관련된 정보를 모으기 위한 메가스레드가 게시되었습니다. 학회 관련 논의를 위한 게시물로 보입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vv140o/acl_megathread/\n\n🔥 4. Ordo, a self-hosted job scheduler for humans and AI agents\nr/OpenSourceAI | 👍 2 | 💬 1\n📝 요약: 인간과 AI 에이전트 모두를 위해 설계된 셀프 호스팅 방식의 작업 스케줄러인 Ordo가 소개되었습니다. 사용자가 직접 서버를 운영하며 자동화된 작업을 관리할 수 있는 도구입니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xcsuf6/ordo_a_selfhosted_job_scheduler_for_humans_and_ai/\n\n🔥 5. Is anyone else concerned about the security of the implementation engines?\nr/LocalLLaMA | 👍 15 | 💬 36\n📝 요약: 사용자가 새로운 구현 엔진의 보안성과 데이터 유출 가능성에 대해 우려를 표하며 질문을 게시했습니다. 특히 특정 엔진이 사용자의 데이터를 탈취할 수 있는지에 대한 불안감을 드러내고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xcu4or/is_anyone_else_concerned_about_the_security_of/\n\n🔥 6. Tesla Optimus production starts, targets 20,000 robots weekly\nr/Singularity | 👍 348 | 💬 547\n📝 요약: 테슬라가 옵티머스 휴머노이드 로봇의 생산을 시작하며 주당 20,000대의 생산 목표를 설정했습니다. 이는 로봇 대량 생산 시대의 본격적인 시작을 예고하는 움직임입니다.\n🔗 Reddit: https://www.reddit.com/r/singularity/comments/1xcjgeh/tesla_optimus_production_starts_targets_20000/\n\n🔥 7. EMMLP + ARR Megathread\nr/LanguageTechnology | 👍 22 | 💬 67\n📝 요약: EMMLP 및 ARR 관련 질문과 토론을 한곳에 모으기 위한 메가스레드가 개설되었습니다. 개별 스레드를 정리하고 효율적인 논의를 위해 작성된 게시물입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vdga9s/emmlp_arr_megathread/\n\n🔥 8. Opensource Obsidian Alternative\nr/OpenSourceAI | 👍 5 | 💬 2\n📝 요약: 사용자가 Tauri 프레임워크를 기반으로 개발한 오픈소스 노트 작성 도구인 KbWrite를 소개했습니다. Obsidian의 대안을 목표로 하며 GitHub와 웹사이트를 통해 프로젝트를 공개했습니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xcikba/opensource_obsidian_alternative/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI, r/Singularity)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 고성능 컴퓨팅(HPC) 인프라 설계와 같은 하드웨어 최적화부터 RAG 및 컨텍스트 그래프 구축을 위한 실무적인 기술 논의가 활발히 이루어졌습니다. 또한, AI 자동화 에이전시를 통한 수익화 전략과 학회 관련 메가스레드 등 기술적 성취와 커리어 전략이 공존하는 흐름을 보였습니다.\n\n🔥 1. wanna help me design an HPC system upgrade for cancer research?\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 암 연구를 위한 AlphaFold 2 워크로드를 지원할 30만~40만 달러 규모의 HPC 시스템 업그레이드 설계를 요청하는 내용입니다. 높은 연산 성능과 적절한 VRAM 확보가 핵심이며, 기존 Dell R7525 클러스터를 활용한 효율적인 GPU 구성 방안을 모색하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/\n\n🔥 2. Honest reviews of Context graphs and Gemini Knowledge Catalog please\nr/Rag | 👍 2 | 💬 0\n📝 요약: 컨텍스트 그래프의 개념, 구축 및 유지 관리 방법, 그리고 스키마 설계를 위한 엔지니어의 필요성에 대해 질문하고 있습니다. 또한 Gemini Knowledge Catalog의 성능과 이를 활용한 컨텍스트 그래프 개발을 위한 다른 프레임워크에 대한 의견을 구하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/Rag/comments/1xdllg2/honest_reviews_of_context_graphs_and_gemini/\n\n🔥 3. *ACL Megathread\nr/LanguageTechnology | 👍 8 | 💬 22\n📝 요약: ACL 학회와 관련된 정보를 모으기 위한 메가스레드가 게시되었습니다. 학회 관련 논의를 위한 게시물로 보입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vv140o/acl_megathread/\n\n🔥 4. ReVolta 0.1.2: DFlash speculative decoding running on 4× V100\nr/LocalLLaMA | 👍 1 | 💬 1\n📝 요약: V100 GPU 환경에서 구동되는 vLLM 포크 버전인 ReVolta 0.1.2가 출시되었습니다. 이번 업데이트는 Volta 아키텍처에서 DFlash2 투기적 디코딩(Speculative Decoding)을 지원하여 영어 및 코드 생성 속도를 크게 향상시킨 것이 특징입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xdqgps/revolta_012_dflash_speculative_decoding_running/\n\n🔥 5. How do AI automation agencies find subcontractors for small paid tasks?\nr/Rag | 👍 2 | 💬 1\n📝 요약: 독립적인 AI 엔지니어링 프로젝트를 수익화하려는 작성자가 기술 감사 대신 작은 단위의 업무를 수행하는 하청 방식으로 전략을 변경하려 합니다. 이미 고객을 보유한 AI 자동화 에이전시에 협력할 수 있는 구체적인 채널과 실질적인 업무 확보 방법을 묻고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/Rag/comments/1xdlfaj/how_do_ai_automation_agencies_find_subcontractors/\n\n🔥 6. EMMLP + ARR Megathread\nr/LanguageTechnology | 👍 22 | 💬 67\n📝 요약: EMMLP 및 ARR 관련 질문과 토론을 한곳에 모으기 위한 메가스레드가 개설되었습니다. 개별 스레드를 정리하고 효율적인 논의를 위해 작성된 게시물입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vdga9s/emmlp_arr_megathread/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/Rag)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1xcuqor",
+      "post_id": "1xdqk1d",
       "subreddit": "LocalLLaMA",
-      "title": "Making Kokoro TTS 50-100x faster without knowing how",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcuqor/making_kokoro_tts_50100x_faster_without_knowing/",
+      "title": "wanna help me design an HPC system upgrade for cancer research?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-22T21:02:36",
-      "korean_summary": "사용자가 Opus 5.5 모델을 활용하여 Kokoro TTS의 속도를 50-100배 향상시키는 데 성공했다는 내용입니다. 전문적인 ML 엔지니어가 아닌 일반 웹 개발자도 모델의 성능 향상 기능을 통해 놀라운 성과를 거둘 수 있음을 보여줍니다.",
+      "pub_date": "2026-10-23T21:25:42",
+      "korean_summary": "암 연구를 위한 AlphaFold 2 워크로드를 지원할 30만~40만 달러 규모의 HPC 시스템 업그레이드 설계를 요청하는 내용입니다. 높은 연산 성능과 적절한 VRAM 확보가 핵심이며, 기존 Dell R7525 클러스터를 활용한 효율적인 GPU 구성 방안을 모색하고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "Opus 5.5 모델의 성능 향상 기능을 활용하여 Kokoro TTS 모델을 효율적으로 증류(Distillation)함",
-        "RTX 4070 Ti Super급의 개인용 GPU 환경에서 하루 정도의 학습을 통해 결과물을 도출함",
-        "명확한 지표와 달성 가능한 목표가 주어지면 모델이 스스로 성능을 개선할 수 있음을 입증함"
+        "AlphaFold 2 워크로드 특성에 맞춰 50GB 이상의 VRAM 확보와 높은 연산 성능을 우선시하며, 데이터 입출력보다는 연산 집약적인 구성이 필요함",
+        "기존 3세대 EPYC 기반 Dell R7525 노드와 A30 GPU를 활용하여 2개의 GPU를 하나의 NUMA 노드에 배치하는 전략을 검토 중임",
+        "수백만 개의 작은 파일로 인한 IOPS 문제를 해결하기 위해 노드 로컬 스토리지와 HPC 스토리지 간의 스크립트 기반 데이터 이동 방식을 고려함"
       ],
       "tags": [
-        "ModelDistillation",
+        "LLM",
         "AI",
-        "AIOptimization",
-        "TTS"
+        "HPC",
+        "GPU_Infrastructure",
+        "AlphaFold"
       ],
       "source_modes": [
         "new"
@@ -71,28 +69,30 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xct31u",
-      "subreddit": "Singularity",
-      "title": "Microsoft says its AI tool is better than doctors at diagnosing diseases",
-      "url": "https://www.reddit.com/r/singularity/comments/1xct31u/microsoft_says_its_ai_tool_is_better_than_doctors/",
+      "post_id": "1xdllg2",
+      "subreddit": "Rag",
+      "title": "Honest reviews of Context graphs and Gemini Knowledge Catalog please",
+      "url": "https://www.reddit.com/r/Rag/comments/1xdllg2/honest_reviews_of_context_graphs_and_gemini/",
       "external_link": null,
-      "score": "237",
-      "comments_count": 89,
+      "score": "2",
+      "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-22T19:59:45",
-      "korean_summary": "마이크로소프트의 AI 도구가 질병 진단 분야에서 의사보다 뛰어난 성능을 보였다는 소식이 전해졌습니다. 인공지능 기술이 의료 진단 영역에서 전문가를 능가할 수 있는 가능성을 시사합니다.",
+      "pub_date": "2026-10-23T18:13:20",
+      "korean_summary": "컨텍스트 그래프의 개념, 구축 및 유지 관리 방법, 그리고 스키마 설계를 위한 엔지니어의 필요성에 대해 질문하고 있습니다. 또한 Gemini Knowledge Catalog의 성능과 이를 활용한 컨텍스트 그래프 개발을 위한 다른 프레임워크에 대한 의견을 구하고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "마이크로소프트의 AI 기술이 질병 진단 정확도 면에서 전문 의료진을 앞섰다는 발표가 있었습니다.",
-        "AI가 의료 현장의 의사 결정 과정을 보조하거나 대체할 수 있는 기술적 진보를 보여줍니다."
+        "컨텍스트 그래프의 실무적인 구축, 유지 관리 및 최적의 활용 방안에 대한 심도 있는 정보 요청",
+        "Gemini Knowledge Catalog의 실질적인 유용성과 성능에 대한 사용자 경험 확인",
+        "컨텍스트 그래프 개발을 지원하는 다른 프레임워크나 솔루션에 대한 추천 요청"
       ],
       "tags": [
-        "의료기술",
         "AI",
-        "Microsoft"
+        "Knowledge Graph",
+        "Gemini Knowledge Catalog",
+        "Context Graph"
       ],
       "source_modes": [
-        "rising"
+        "new"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",
@@ -135,61 +135,28 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xcsuf6",
-      "subreddit": "OpenSourceAI",
-      "title": "Ordo, a self-hosted job scheduler for humans and AI agents",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xcsuf6/ordo_a_selfhosted_job_scheduler_for_humans_and_ai/",
+      "post_id": "1xdqgps",
+      "subreddit": "LocalLLaMA",
+      "title": "ReVolta 0.1.2: DFlash speculative decoding running on 4× V100",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqgps/revolta_012_dflash_speculative_decoding_running/",
       "external_link": null,
-      "score": "2",
+      "score": "1",
       "comments_count": 1,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-22T19:50:52",
-      "korean_summary": "인간과 AI 에이전트 모두를 위해 설계된 셀프 호스팅 방식의 작업 스케줄러인 Ordo가 소개되었습니다. 사용자가 직접 서버를 운영하며 자동화된 작업을 관리할 수 있는 도구입니다.",
+      "pub_date": "2026-10-23T21:21:54",
+      "korean_summary": "V100 GPU 환경에서 구동되는 vLLM 포크 버전인 ReVolta 0.1.2가 출시되었습니다. 이번 업데이트는 Volta 아키텍처에서 DFlash2 투기적 디코딩(Speculative Decoding)을 지원하여 영어 및 코드 생성 속도를 크게 향상시킨 것이 특징입니다.",
       "external_article_summary": "",
       "key_points": [
-        "인간 사용자와 AI 에이전트가 공통으로 사용할 수 있는 작업 스케줄링 기능을 제공합니다.",
-        "사용자가 직접 호스팅할 수 있는 오픈소스 방식으로 설계되었습니다.",
-        "자동화된 워크플로우를 관리하기 위한 효율적인 작업 관리 도구입니다."
+        "DFlash2 투기적 디코딩 도입으로 단일 요청 시 영어 및 코드 작업에서 약 160~200 tok/s의 높은 처리량을 달상했습니다.",
+        "KV 풀 용량이 최대 1.27M 토큰까지 확장되었으며, 툴 콜링 및 Anthropic 메시지 엔드포인트 등 다양한 기능 수정이 포함되었습니다.",
+        "영어/코드 작업에는 효과적이지만 중국어 작업이나 다중 요청 환경에서는 성능 향상 폭이 제한적이어서 MTP가 기본값으로 유지됩니다."
       ],
       "tags": [
-        "AI_Agent",
-        "Automation",
+        "LLM",
         "AI",
+        "SpeculativeDecoding",
         "Agent",
-        "OpenSource"
-      ],
-      "source_modes": [
-        "hot"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1xcu4or",
-      "subreddit": "LocalLLaMA",
-      "title": "Is anyone else concerned about the security of the implementation engines?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xcu4or/is_anyone_else_concerned_about_the_security_of/",
-      "external_link": null,
-      "score": "15",
-      "comments_count": 36,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-22T20:38:37",
-      "korean_summary": "사용자가 새로운 구현 엔진의 보안성과 데이터 유출 가능성에 대해 우려를 표하며 질문을 게시했습니다. 특히 특정 엔진이 사용자의 데이터를 탈취할 수 있는지에 대한 불안감을 드러내고 있습니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "새로운 구현 엔진의 보안 취약성에 대한 사용자들의 우려 제기",
-        "데이터 프라이버시 및 데이터 탈취 가능성에 대한 의문점 제시"
-      ],
-      "tags": [
-        "AI Security",
-        "Security",
-        "LLM Implementation",
-        "Data Privacy"
+        "Release"
       ],
       "source_modes": [
         "new"
@@ -203,28 +170,31 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xcjgeh",
-      "subreddit": "Singularity",
-      "title": "Tesla Optimus production starts, targets 20,000 robots weekly",
-      "url": "https://www.reddit.com/r/singularity/comments/1xcjgeh/tesla_optimus_production_starts_targets_20000/",
+      "post_id": "1xdlfaj",
+      "subreddit": "Rag",
+      "title": "How do AI automation agencies find subcontractors for small paid tasks?",
+      "url": "https://www.reddit.com/r/Rag/comments/1xdlfaj/how_do_ai_automation_agencies_find_subcontractors/",
       "external_link": null,
-      "score": "348",
-      "comments_count": 547,
+      "score": "2",
+      "comments_count": 1,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-22T14:02:58",
-      "korean_summary": "테슬라가 옵티머스 휴머노이드 로봇의 생산을 시작하며 주당 20,000대의 생산 목표를 설정했습니다. 이는 로봇 대량 생산 시대의 본격적인 시작을 예고하는 움직임입니다.",
+      "pub_date": "2026-10-23T18:06:56",
+      "korean_summary": "독립적인 AI 엔지니어링 프로젝트를 수익화하려는 작성자가 기술 감사 대신 작은 단위의 업무를 수행하는 하청 방식으로 전략을 변경하려 합니다. 이미 고객을 보유한 AI 자동화 에이전시에 협력할 수 있는 구체적인 채널과 실질적인 업무 확보 방법을 묻고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "테슬라 옵티머스 로봇의 본격적인 생산 공정 돌입",
-        "주당 20,000대 규모의 대량 생산 목표 설정"
+        "단독 기술 감사 판매의 어려움을 깨닫고, 문제 해결을 원하는 기업을 대상으로 하는 에이전시의 하청 업무를 고려 중입니다.",
+        "에이전트 실패 재현, 워크플로우 테스트, 검색 회귀 조사 등 작고 측정 가능한 기술적 과업을 선호합니다.",
+        "브랜딩 전략이 아닌, 실제 유료 업무를 확보할 수 있는 에이전시 파트너 네트워크나 개발자 커뮤니티 등의 실질적인 채널을 찾고 있습니다."
       ],
       "tags": [
-        "Robotics",
-        "Optimus",
-        "Tesla"
+        "AI",
+        "Agent",
+        "AI Automation",
+        "Subcontracting",
+        "Freelancing"
       ],
       "source_modes": [
-        "rising"
+        "new"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",
@@ -251,42 +221,9 @@
         "효율적인 관리를 위해 개별적으로 생성된 스레드는 삭제될 예정임"
       ],
       "tags": [
-        "Discussion",
+        "EMMLP",
         "ARR",
-        "EMMLP"
-      ],
-      "source_modes": [
-        "hot"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1xcikba",
-      "subreddit": "OpenSourceAI",
-      "title": "Opensource Obsidian Alternative",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xcikba/opensource_obsidian_alternative/",
-      "external_link": null,
-      "score": "5",
-      "comments_count": 2,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-22T13:27:51",
-      "korean_summary": "사용자가 Tauri 프레임워크를 기반으로 개발한 오픈소스 노트 작성 도구인 KbWrite를 소개했습니다. Obsidian의 대안을 목표로 하며 GitHub와 웹사이트를 통해 프로젝트를 공개했습니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "Tauri 프레임워크를 사용하여 구축된 오픈소스 Obsidian 대안 소프트웨어입니다.",
-        "GitHub 저장소를 통해 소스 코드를 제공하며 Curl 또는 PowerShell을 통해 설치가 가능합니다.",
-        "웹사이트와 GitHub를 통해 프로젝트의 상세 정보와 설치 방법을 확인할 수 있습니다."
-      ],
-      "tags": [
-        "NoteTaking",
-        "Tauri",
-        "OpenSource"
+        "Discussion"
       ],
       "source_modes": [
         "hot"
