@@ -1,22 +1,22 @@
 {
   "source": "hacker_news",
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T05:54:09.769604+09:00",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T05:24:35.121679+09:00",
   "count": 10,
-  "daily_summary": "오늘은 PHP의 치명적인 원격 코드 실행(RCE) 취약점 발견과 그에 따른 긴급 보안 패치 배포가 주요 이슈로 다뤄졌습니다. 또한, eMudhra의 중간 CA 개인키 유출로 인한 PKI 체계의 신뢰 위기와 이에 따른 인증서 사업 철수 등 보안 생태계의 구조적 취약성이 큰 주목을 받았습니다. 한편, DeepSeek 모델을 위한 고성능 추론 프레임워크인 DeepInfer의 공개와 현실적인 사회 갈등을 반영한 도시 건설 시뮬레이션 게임 등 다양한 기술적 시도들도 논의되었습니다.",
+  "daily_summary": "오늘은 eMudhra의 CA 인증서 유출 및 키 크랙 사고로 인해 PKI(공개키 기반 구조)와 브라우저 신뢰 체계의 취약성이 핵심 이슈로 떠올랐습니다. 또한, PHP의 RCE 취약점과 AI를 활용한 새로운 공격 기법인 PHP2Shell 등 보안 패치와 관련된 기술적 논쟁이 활발했습니다. 이와 더불어 대규모 LLM 추론을 위한 프레임워크 공개와 지리적 맥락을 활용한 새로운 정보 공유 모델 등 기술적 혁신과 서비스 전략의 변화도 관찰되었습니다.",
   "daily_key_points": [
-    "PHP의 심각한 RCE 취약점(CVE-2026-109618, CVE-2026-109619)이 발견되어 모든 사용자의 즉각적인 업데이트가 권고되었습니다.",
-    "eMudhra의 중간 CA 키 유출 사고는 현대 PKI 체계의 취약성을 드러냈으며, 주요 브라우저 제조사들의 긴급 차단 조치로 이어졌습니다.",
-    "DeepSeek 모델의 효율적인 서비스를 위한 고성능 추론 프레임워크 DeepInfer가 공개되어 하드웨어 자원 활용 극대화 방안을 제시했습니다."
+    "eMudhra의 CA 키 유출 및 크랙 사고로 인해 전 세계 브라우저와 OS의 인증 체계 신뢰도가 위협받으며 사업 구조 재편이 결정되었습니다.",
+    "AI 기술을 활용해 취약한 코드 패턴을 식별하는 PHP2Shell과 같은 새로운 공격 모델이 등장하며 보안 패치의 중요성이 강조되었습니다.",
+    "DeepSeek 모델을 위한 고성능 추론 프레임워크 공개와 DNS 중립성 이슈로 인한 서비스 철수 등 기술적 결정이 비즈니스에 미치는 영향이 주목받았습니다."
   ],
   "daily_tags": [
     "Cybersecurity",
-    "PHP",
     "PKI",
-    "DeepSeek",
-    "Software Engineering"
+    "AI_Security",
+    "OpenSource",
+    "Software_Development"
   ],
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 PHP의 치명적인 원격 코드 실행(RCE) 취약점 발견과 그에 따른 긴급 보안 패치 배포가 주요 이슈로 다뤄졌습니다. 또한, eMudhra의 중간 CA 개인키 유출로 인한 PKI 체계의 신뢰 위기와 이에 따른 인증서 사업 철수 등 보안 생태계의 구조적 취약성이 큰 주목을 받았습니다. 한편, DeepSeek 모델을 위한 고성능 추론 프레임워크인 DeepInfer의 공개와 현실적인 사회 갈등을 반영한 도시 건설 시뮬레이션 게임 등 다양한 기술적 시도들도 논의되었습니다.\n\n📍 1. DeepInfer: High-performance inference framework for DeepSeek models\n⭐ Score: 2328 | 💬 Comments: 887\n📰 원문 요약: DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 고성능 추론을 구현합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 디바이스 간 작업 중첩, SWA(Sliding Window Attention) 기반의 리플레이를 통한 프리필 작업 감소, 그리고 배치 구성에 상관없이 동일한 결과를 보장하는 Batch-invariant inference 기술이 포함됩니다. 또한 DSpark와 신뢰도 기반 검증(confidence-scheduled verification)을 통해 디코딩 속도를 가속화합니다.\n💬 토론 요약: 사용자들은 DeepInfer 프레임워크를 통해 확보한 높은 처리량(throughput)과 낮은 지연 시간(latency)이 실제 서비스 성능에 미치는 영향에 주목하고 있습니다.\n📌 종합 요약: DeepSeek 모델의 대규모 프로덕션 서비스를 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 대규모 모델의 추론 효율을 극대화하기 위한 최적화된 커널과 스케줄링 기술을 제공합니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://github.com/deepseek-ai/DeepInfer\n💬 토론: https://news.ycombinator.com/item?id=50163277\n\n📍 2. Security advisory: Critical remote code execution vulnerabilities, update now\n⭐ Score: 1545 | 💬 Comments: 657\n📰 원문 요약: PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전에서 해결된 두 가지 RCE 취약점이 발표되었습니다. CVE-2026-109618은 OOM(Out-of-Memory) 발생 시 데이터 초기화가 불완전한 상태에서 리소스 정리가 수행되어 발생하는 취약점이며, CVE-2026-109619는 이전 요청의 잔류 상태가 메모리 해제 후에도 유지되어 다음 요청에 영향을 주는 취약점입니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기 전 단계에서 공격이 가능하여 위험도가 매우 높습니다.\n💬 토론 요약: 패치 배포 시점과 기술적 세부 정보 공개 시점에 대해, 보안 위협을 줄이기 위해 더 빠른 공개가 필요하다는 의견과 패치 공개가 오히려 공격자에게 악용 기회를 제공할 수 있다는 우려가 대립하고 있습니다.\n📌 종합 요약: PHP에서 인증 없이 원격 코드 실행(RCE)이 가능한 치명적인 보안 취약점이 발견되어 즉각적인 업데이트가 권고되었습니다. 이번 취약점은 메모리 관리 및 상태 유지 방식의 결함을 이용하며, 모든 PHP 사용자는 최신 패치 버전으로 업데이트해야 합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://www.php.net/archive/2026.php#2026-10-21-5\n💬 토론: https://news.ycombinator.com/item?id=50172041\n\n📍 3. eMudhra intermediate CA compromise\n⭐ Score: 1262 | 💬 Comments: 496\n📰 원문 요약: eMudhra의 중간 CA 인증서 8개의 개인키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 신뢰 루트 체인에 영향을 미치게 되었습니다. 공격자는 유출된 키를 사용하여 웹사이트나 서비스를 사칭할 수 있으며, 이에 대응하기 위해 각 제조사는 OneCRL, CRLite, CRLSets와 같은 기술을 통해 해당 인증서를 차단했습니다. 10월 17일부터 Firefox와 Chrome에서 차단이 시작되었고, Microsoft와 Apple 플랫폼도 순차적으로 업데이트를 완료했습니다.\n💬 토론 요약: 유출된 8개 CA의 개인키가 사실상 단일 바이트 수준의 취약점을 공유하고 있다는 기술적 분석이 제기되었습니다. 이에 따라 보안 조치의 속도가 브라우저 제조사마다 상이하여 사용자별로 보안 수준이 불균형하게 적용된다는 비판이 나오고 있습니다.\n📌 종합 요약: eMudhra의 중간 CA 개인키 8개가 유출되어 주요 브라우저와 OS 제조사가 긴급 차단 조치를 취했습니다. 공격자가 해당 키를 이용해 웹사이트를 사칭할 수 있는 심각한 보안 위협이 발생했습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://emudhra.we-have-a-problem.com/\n💬 토론: https://news.ycombinator.com/item?id=50166579\n\n📍 4. PHP 8.2.35\n⭐ Score: 1069 | 💬 Comments: 557\n📰 원문 요약: PHP 개발팀은 인증되지 않은 사용자가 원격으로 코드를 실행할 수 있는 두 가지 심각한 취약점(CVE-2026-109618, CVE-2026-109619)을 해결하기 위해 PHP 8.2.35 버전을 출시했습니다. 이번 패치는 완벽한 완화책이 존재하지 않으므로 최신 버전으로의 업데이트가 유일한 해결책입니다. PHP 8.2 버전은 2026년 12월 31일에 지원이 종료될 예정이므로, 사용자들은 지원 가능한 차기 버전으로의 업그레이드를 계획해야 합니다.\n💬 토론 요약: 사용자들은 이번 취약점 공개가 Wiz, Calif, OpenAI 등 보안 기업과 AI 기술 간의 조율된 정보 공개(Coordinated Disclosure)일 가능성을 제기하고 있습니다. 특히 AI를 활용한 취약점 발견 도구인 PHP2Shell과 관련된 보안 위협에 대한 논의가 이어지고 있습니다.\n📌 종합 요약: PHP 8.2.35 보안 업데이트는 인증되지 않은 원격 코드 실행(RCE) 취약점을 해결하기 위한 긴급 패치입니다. 사용자들은 즉각적인 업데이트를 통해 보안 위협에 대응해야 합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/php/php-src/releases/tag/php-8.2.35\n💬 토론: https://news.ycombinator.com/item?id=50180873\n\n📍 5. Show HN: SimCity, but with Permits\n⭐ Score: 927 | 💬 Comments: 418\n📰 원문 요약: 이 프로젝트는 도시의 발전을 저해하는 현실적인 규제와 반대 세력을 게임의 핵심 요소로 도입했습니다. 주택 공급 확대, 산업 유치, 대중교통 확충 등 도시 개선 정책이 새로운 이익 집단과 갈등을 유발하는 과정을 시뮬레이션합니다. 모든 개선책은 새로운 유권자 집단의 반발을 불러일으키며, 이는 단순한 건설을 넘어 정치적 의사결정의 복잡성을 다룹니다.\n💬 토론 요약: 게임의 몰입감을 해칠 수 있는 비현실적인 수치 설정에 대한 비판과, 현실의 복잡한 사회적 갈등을 반영한 시뮬레이션이라는 점에 대한 긍정적 평가가 대립하고 있습니다.\n📌 종합 요약: 도시 건설 시뮬레이션 게임에 복잡한 행정 절차와 이해관계 충돌을 결합한 새로운 프로젝트가 공개되었습니다. 현실 세계의 정책 결정이 가져오는 사회적 갈등을 게임 메커니즘으로 구현하여 사용자들의 관심을 끌고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://permit.petercai.com/\n💬 토론: https://news.ycombinator.com/item?id=50170593\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-10-23.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 eMudhra의 CA 인증서 유출 및 키 크랙 사고로 인해 PKI(공개키 기반 구조)와 브라우저 신뢰 체계의 취약성이 핵심 이슈로 떠올랐습니다. 또한, PHP의 RCE 취약점과 AI를 활용한 새로운 공격 기법인 PHP2Shell 등 보안 패치와 관련된 기술적 논쟁이 활발했습니다. 이와 더불어 대규모 LLM 추론을 위한 프레임워크 공개와 지리적 맥락을 활용한 새로운 정보 공유 모델 등 기술적 혁신과 서비스 전략의 변화도 관찰되었습니다.\n\n📍 1. DeepInfer: High-performance inference framework for DeepSeek models\n⭐ Score: 2340 | 💬 Comments: 891\n📰 원문 요약: DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 추론 성능을 극대화합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 GPU 작업의 오버랩, DSpark 및 신뢰도 기반 검증을 통한 디코딩 가속, 그리고 SWA(Sliding Window Attention) 기반의 효율적인 프리필(Prefill) 작업 수행 기능이 포함되어 있습니다. 또한 배치 구성이 달라져도 결과가 동일하게 유지되는 Batch-invariant inference와 정규식 및 JSON 형식을 강제하는 Structured outputs 기능을 제공합니다.\n💬 토론 요약: 사용자들은 DeepInfer 프레임워크를 통해 확보한 높은 처리량과 낮은 지연 시간 성능에 주목하며 기술적 성과를 높게 평가하고 있습니다. 다만 일부 댓글에서는 프레임워크의 기술적 내용과 무관한 정책적 이슈가 언급되는 등 혼선이 관찰됩니다.\n📌 종합 요약: DeepSeek 모델의 대규모 프로덕션 서비스를 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 최적화된 커널과 비동기 스케줄링을 통해 대규모 추론 환경에서 높은 처리량과 낮은 지연 시간을 제공합니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://github.com/deepseek-ai/DeepInfer\n💬 토론: https://news.ycombinator.com/item?id=50163277\n\n📍 2. Security advisory: Critical remote code execution vulnerabilities, update now\n⭐ Score: 1554 | 💬 Comments: 658\n📰 원문 요약: 이번 취약점(CVE-2026-115560)은 세션 직렬화 핸들러를 설정값과 런타임에서 다르게 운용할 때 발생하는 RCE 벡터를 포함합니다. 구체적으로 설정 파일에서 `session.serialize_handler`를 `php_binary` 또는 `php_serialize`로 지정한 후, 런타임에서 `ini_set()`을 통해 `php`로 변경하고 `session_start()`를 호출하는 특이한 조건에서 발생합니다. 이를 방지하기 위해 차기 정식 패치 배포 전까지 `session.upload_progress.enabled=0` 설정을 권장합니다.\n💬 토론 요약: 패치를 조기에 배포하여 취약점을 즉시 해결해야 한다는 주장과, 성급한 패치 배포가 오히려 새로운 보안 위협이나 시스템 불안정을 초래할 수 있다는 우려가 대립하고 있습니다.\n📌 종합 요약: PHP에서 발생한 심각한 원격 코드 실행(RCE) 취약점에 대한 보안 권고와 대응 방안을 다룹니다. 특정 설정 조합에서 발생하는 취약점으로, 사용자들은 즉각적인 설정 변경을 통해 위험을 방지해야 합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://www.php.net/archive/2026.php#2026-10-21-5\n💬 토론: https://news.ycombinator.com/item?id=50172041\n\n📍 3. Quad9 to exit France\n⭐ Score: 1331 | 💬 Comments: 462\n📰 원문 요약: 프랑스 법원이 beIN의 저작권 침해 주장을 수용하여 Quad9에 특정 도메인에 대한 DNS 해상 차단을 명령했습니다. 이에 따라 Quad9는 11월 4일부로 프랑스 내 무료 사이버 보안 서비스를 중단합니다. Quad9 측은 특정 도메인을 차단하는 것이 DNS 서비스의 중립성과 프라이버시 보호라는 핵심 미션에 위배된다고 판단했습니다.\n💬 토론 요약: 법원의 판결이 VPN 등을 통한 우회 접속을 허용하는 등 기술적 실효성이 부족하다는 비판과, 저작권 보호를 위해 DNS 서비스 제공자에게 책임을 묻는 법적 쟁점이 대립하고 있습니다.\n📌 종합 요약: 프랑스 법원의 저작권 보호 판결로 인해 Quad9가 프랑스 내 서비스 제공을 중단하기로 결정했습니다. 이는 DNS 중립성과 프라이버시 원칙을 지키기 위한 기술적 결단입니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://quad9.net/news/blog/au-revoir-france/\n💬 토론: https://news.ycombinator.com/item?id=50195959\n\n📍 4. eMudhra intermediate CA compromise\n⭐ Score: 1272 | 💬 Comments: 504\n📰 원문 요약: eMudhra의 중간 CA 인증서 8개의 개인 키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 루트 프로그램 및 신뢰 저장소에 연결된 인증서들이 위험에 처했습니다. 공격자는 유출된 키를 사용해 웹사이트나 서비스를 사칭할 수 있으며, 이를 증명하기 위해 원문 제보자가 8개 인증서의 개인 키로 서명된 메시지를 공개했습니다. 이에 따라 Firefox와 Chrome은 10월 17일부터, Microsoft는 20일, Apple은 22일부터 해당 인증서들을 차단하는 조치를 완료했습니다.\n💬 토론 요약: 유출된 8개 인증서의 개인 키가 사실상 단일 바이트 수준의 취약점을 공유하고 있다는 기술적 분석이 제기되었습니다. 또한, OneCRL과 같은 기술을 통해 신속하게 대응한 브라우저 벤더와 그렇지 못한 플랫폼 간의 대응 속도 차이가 쟁점으로 떠올랐습니다.\n📌 종합 요약: eMudhra의 중간 CA 인증서 8개가 유출되어 주요 브라우저와 OS의 신뢰 체계가 위협받는 보안 사고가 발생했습니다. 공격자가 유출된 키를 이용해 웹사이트를 사칭할 수 있는 위험이 있어 주요 벤더들이 긴급 차단 조치를 완료했습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://emudhra.we-have-a-problem.com/\n💬 토론: https://news.ycombinator.com/item?id=50166579\n\n📍 5. eMudhra to exit global SSL/TLS certificate business\n⭐ Score: 1128 | 💬 Comments: 729\n📰 원문 요약: eMudhra는 기존의 SSL/TLS 인증서 발급 및 관리 사업을 종료하고, 기업용 전자 서명(eSignature)과 통합 ID 관리(IAM) 플랫폼에 집중할 계획입니다. emSigner를 통한 워크플로우 자동화와 PKI 기반의 인증 및 암호화 기술을 활용하여 5,000만 명 이상의 사용자를 보유한 보험사 및 정부 기관 등 대규모 엔터프라이즈 고객을 대상으로 서비스를 확장합니다. 이를 통해 문서 서명 자동화와 중앙 집중식 거버넌스 체계를 구축하는 데 주력합니다.\n💬 토론 요약: 브라우저 개발팀(Chrome 등)의 엄격한 기술적 검증 과정이 eMudhra의 사업 결정에 영향을 미쳤다는 분석과, 소셜 미디어를 통한 과도한 여론 형성이 실제 비즈니스 규모에 비해 과도한 감시를 불러일으켰다는 비판이 대립하고 있습니다.\n📌 종합 요약: eMudhra가 글로벌 SSL/TLS 인증서 사업에서 철수하며 보안 및 디지털 서명 분야의 사업 구조를 재편합니다. 이번 결정은 인증서 발급 중심에서 기업용 전자 서명 및 ID 관리 플랫폼으로의 전략적 전환을 의미합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business\n💬 토론: https://news.ycombinator.com/item?id=50195110\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-10-24.md",
   "items": [
     {
       "rank": 1,
@@ -25,20 +25,20 @@
       "url": "https://github.com/deepseek-ai/DeepInfer",
       "hn_url": "https://news.ycombinator.com/item?id=50163277",
       "author": "ggcr",
-      "score": 2328,
-      "comments": 887,
-      "rank_score": 1631.6366915228975,
+      "score": 2340,
+      "comments": 891,
+      "rank_score": 1640.038039839774,
       "published_at_kst": "2026-10-20T18:08:54+09:00",
       "published_date": "2026-10-20",
-      "summary": "DeepSeek 모델의 대규모 프로덕션 서비스를 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 대규모 모델의 추론 효율을 극대화하기 위한 최적화된 커널과 스케줄링 기술을 제공합니다.",
+      "summary": "DeepSeek 모델의 대규모 프로덕션 서비스를 위해 개발된 고성능 추론 프레임워크인 DeepInfer가 오픈 소스로 공개되었습니다. 이 프레임워크는 최적화된 커널과 비동기 스케줄링을 통해 대규모 추론 환경에서 높은 처리량과 낮은 지연 시간을 제공합니다.",
       "story_text": "",
-      "external_article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 고성능 추론을 구현합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 디바이스 간 작업 중첩, SWA(Sliding Window Attention) 기반의 리플레이를 통한 프리필 작업 감소, 그리고 배치 구성에 상관없이 동일한 결과를 보장하는 Batch-invariant inference 기술이 포함됩니다. 또한 DSpark와 신뢰도 기반 검증(confidence-scheduled verification)을 통해 디코딩 속도를 가속화합니다.",
-      "article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 고성능 추론을 구현합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 디바이스 간 작업 중첩, SWA(Sliding Window Attention) 기반의 리플레이를 통한 프리필 작업 감소, 그리고 배치 구성에 상관없이 동일한 결과를 보장하는 Batch-invariant inference 기술이 포함됩니다. 또한 DSpark와 신뢰도 기반 검증(confidence-scheduled verification)을 통해 디코딩 속도를 가속화합니다.",
-      "discussion_summary": "사용자들은 DeepInfer 프레임워크를 통해 확보한 높은 처리량(throughput)과 낮은 지연 시간(latency)이 실제 서비스 성능에 미치는 영향에 주목하고 있습니다.",
+      "external_article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 추론 성능을 극대화합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 GPU 작업의 오버랩, DSpark 및 신뢰도 기반 검증을 통한 디코딩 가속, 그리고 SWA(Sliding Window Attention) 기반의 효율적인 프리필(Prefill) 작업 수행 기능이 포함되어 있습니다. 또한 배치 구성이 달라져도 결과가 동일하게 유지되는 Batch-invariant inference와 정규식 및 JSON 형식을 강제하는 Structured outputs 기능을 제공합니다.",
+      "article_summary": "DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, FlashMLA, DeepGEMM, DeepEP와 같은 최적화된 커널을 통해 추론 성능을 극대화합니다. 주요 특징으로는 비동기 스케줄링을 통한 CPU와 GPU 작업의 오버랩, DSpark 및 신뢰도 기반 검증을 통한 디코딩 가속, 그리고 SWA(Sliding Window Attention) 기반의 효율적인 프리필(Prefill) 작업 수행 기능이 포함되어 있습니다. 또한 배치 구성이 달라져도 결과가 동일하게 유지되는 Batch-invariant inference와 정규식 및 JSON 형식을 강제하는 Structured outputs 기능을 제공합니다.",
+      "discussion_summary": "사용자들은 DeepInfer 프레임워크를 통해 확보한 높은 처리량과 낮은 지연 시간 성능에 주목하며 기술적 성과를 높게 평가하고 있습니다. 다만 일부 댓글에서는 프레임워크의 기술적 내용과 무관한 정책적 이슈가 언급되는 등 혼선이 관찰됩니다.",
       "key_points": [
-        "DeepSeek 모델의 대규모 서비스 운영을 위해 설계된 고성능 추론 프레임워크입니다.",
-        "커스텀 커널과 비동기 스케줄링을 통해 하드웨어 자원 활용도를 극대화합니다.",
-        "배치 크기 변화에 관계없이 일관된 결과를 유지하는 결정론적 샘플링 기능을 제공합니다."
+        "DeepSeek 모델의 대규모 서비스 운영을 위해 최적화된 고성능 추론 프레임워크입니다.",
+        "비동기 스케줄링과 특화된 커널을 통해 대규모 배치 환경에서도 일관된 성능을 보장합니다.",
+        "오픈 소스 공개를 통해 대규모 LLM 추론 인프라 구축의 효율성을 높일 것으로 기대됩니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -69,20 +69,20 @@
       "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
       "hn_url": "https://news.ycombinator.com/item?id=50172041",
       "author": "xd",
-      "score": 1545,
-      "comments": 657,
-      "rank_score": 1083.4467614793975,
+      "score": 1554,
+      "comments": 658,
+      "rank_score": 1089.7472170603507,
       "published_at_kst": "2026-10-21T05:15:50+09:00",
       "published_date": "2026-10-21",
-      "summary": "PHP에서 인증 없이 원격 코드 실행(RCE)이 가능한 치명적인 보안 취약점이 발견되어 즉각적인 업데이트가 권고되었습니다. 이번 취약점은 메모리 관리 및 상태 유지 방식의 결함을 이용하며, 모든 PHP 사용자는 최신 패치 버전으로 업데이트해야 합니다.",
+      "summary": "PHP에서 발생한 심각한 원격 코드 실행(RCE) 취약점에 대한 보안 권고와 대응 방안을 다룹니다. 특정 설정 조합에서 발생하는 취약점으로, 사용자들은 즉각적인 설정 변경을 통해 위험을 방지해야 합니다.",
       "story_text": "https://cert.europa.eu/publications/security-advisories/2026... https://news.ycombinator.com/item?id=50167754",
-      "external_article_summary": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전에서 해결된 두 가지 RCE 취약점이 발표되었습니다. CVE-2026-109618은 OOM(Out-of-Memory) 발생 시 데이터 초기화가 불완전한 상태에서 리소스 정리가 수행되어 발생하는 취약점이며, CVE-2026-109619는 이전 요청의 잔류 상태가 메모리 해제 후에도 유지되어 다음 요청에 영향을 주는 취약점입니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기 전 단계에서 공격이 가능하여 위험도가 매우 높습니다.",
-      "article_summary": "PHP 8.5.12, 8.4.27, 8.3.36, 8.2.35 버전에서 해결된 두 가지 RCE 취약점이 발표되었습니다. CVE-2026-109618은 OOM(Out-of-Memory) 발생 시 데이터 초기화가 불완전한 상태에서 리소스 정리가 수행되어 발생하는 취약점이며, CVE-2026-109619는 이전 요청의 잔류 상태가 메모리 해제 후에도 유지되어 다음 요청에 영향을 주는 취약점입니다. 특히 mod_php 환경에서는 애플리케이션 코드가 실행되기 전 단계에서 공격이 가능하여 위험도가 매우 높습니다.",
-      "discussion_summary": "패치 배포 시점과 기술적 세부 정보 공개 시점에 대해, 보안 위협을 줄이기 위해 더 빠른 공개가 필요하다는 의견과 패치 공개가 오히려 공격자에게 악용 기회를 제공할 수 있다는 우려가 대립하고 있습니다.",
+      "external_article_summary": "이번 취약점(CVE-2026-115560)은 세션 직렬화 핸들러를 설정값과 런타임에서 다르게 운용할 때 발생하는 RCE 벡터를 포함합니다. 구체적으로 설정 파일에서 `session.serialize_handler`를 `php_binary` 또는 `php_serialize`로 지정한 후, 런타임에서 `ini_set()`을 통해 `php`로 변경하고 `session_start()`를 호출하는 특이한 조건에서 발생합니다. 이를 방지하기 위해 차기 정식 패치 배포 전까지 `session.upload_progress.enabled=0` 설정을 권장합니다.",
+      "article_summary": "이번 취약점(CVE-2026-115560)은 세션 직렬화 핸들러를 설정값과 런타임에서 다르게 운용할 때 발생하는 RCE 벡터를 포함합니다. 구체적으로 설정 파일에서 `session.serialize_handler`를 `php_binary` 또는 `php_serialize`로 지정한 후, 런타임에서 `ini_set()`을 통해 `php`로 변경하고 `session_start()`를 호출하는 특이한 조건에서 발생합니다. 이를 방지하기 위해 차기 정식 패치 배포 전까지 `session.upload_progress.enabled=0` 설정을 권장합니다.",
+      "discussion_summary": "패치를 조기에 배포하여 취약점을 즉시 해결해야 한다는 주장과, 성급한 패치 배포가 오히려 새로운 보안 위협이나 시스템 불안정을 초래할 수 있다는 우려가 대립하고 있습니다.",
       "key_points": [
-        "OOM 처리 과정에서의 데이터 불일치와 잔류 글로벌 상태를 이용한 RCE 취약점이 확인되었습니다.",
-        "PHP-FPM, Apache(mod_php), FrankenPHP 등 웹 요청을 처리하는 모든 PHP 설치 환경이 공격 대상입니다.",
-        "사용자는 즉시 지원되는 최신 버전으로 업데이트하거나, 지원이 종료된 구버전의 경우 배포판의 백포트 패치를 확인해야 합니다."
+        "런타임 시 세션 직렬화 핸들러를 변경하는 특수한 설정 환경에서 RCE 취약점이 발생합니다.",
+        "위험을 방지하려면 `session.upload_progress.enabled` 설정을 0으로 변경해야 합니다.",
+        "패치 배포 시점과 기술적 상세 정보 공개 사이의 보안 균형이 핵심 쟁점입니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -107,25 +107,69 @@
     },
     {
       "rank": 3,
+      "story_id": "50195959",
+      "title": "Quad9 to exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "hn_url": "https://news.ycombinator.com/item?id=50195959",
+      "author": "farrokhi",
+      "score": 1331,
+      "comments": 462,
+      "rank_score": 933.5413181162259,
+      "published_at_kst": "2026-10-22T23:32:38+09:00",
+      "published_date": "2026-10-22",
+      "summary": "프랑스 법원의 저작권 보호 판결로 인해 Quad9가 프랑스 내 서비스 제공을 중단하기로 결정했습니다. 이는 DNS 중립성과 프라이버시 원칙을 지키기 위한 기술적 결단입니다.",
+      "story_text": "",
+      "external_article_summary": "프랑스 법원이 beIN의 저작권 침해 주장을 수용하여 Quad9에 특정 도메인에 대한 DNS 해상 차단을 명령했습니다. 이에 따라 Quad9는 11월 4일부로 프랑스 내 무료 사이버 보안 서비스를 중단합니다. Quad9 측은 특정 도메인을 차단하는 것이 DNS 서비스의 중립성과 프라이버시 보호라는 핵심 미션에 위배된다고 판단했습니다.",
+      "article_summary": "프랑스 법원이 beIN의 저작권 침해 주장을 수용하여 Quad9에 특정 도메인에 대한 DNS 해상 차단을 명령했습니다. 이에 따라 Quad9는 11월 4일부로 프랑스 내 무료 사이버 보안 서비스를 중단합니다. Quad9 측은 특정 도메인을 차단하는 것이 DNS 서비스의 중립성과 프라이버시 보호라는 핵심 미션에 위배된다고 판단했습니다.",
+      "discussion_summary": "법원의 판결이 VPN 등을 통한 우회 접속을 허용하는 등 기술적 실효성이 부족하다는 비판과, 저작권 보호를 위해 DNS 서비스 제공자에게 책임을 묻는 법적 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "프랑스 법원의 도메인 차단 명령이 DNS 서비스의 중립성을 침해한다는 것이 핵심 쟁점입니다.",
+        "Quad9는 기술적 구현이 프라이버시 보호 원칙과 충돌하므로 프랑스 시장에서 철수하기로 결정했습니다.",
+        "이번 사례는 저작권 보호를 위한 DNS 필터링 명령이 인터넷의 개방성과 충돌할 수 있음을 보여줍니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "johnhtodd",
+          "text": "(context: I'm the CTO of Quad9 and am one of the people dealing with the lawyers) There is an understandable focus on \"how are you going to block French users\" when we have also c…"
+        },
+        {
+          "author": "nadermx",
+          "text": "\"The plaintiff (Sony Music Entertainment GmbH) then used a VPN to access the blocked content from Germany in circumvention of the geoIP blocking. The court agreed with Sony in the…"
+        }
+      ],
+      "tags": [
+        "Quad9",
+        "DNS",
+        "저작권",
+        "프라이버시",
+        "프랑스"
+      ],
+      "domain": "quad9.net",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 4,
       "story_id": "50166579",
       "title": "eMudhra intermediate CA compromise",
       "url": "https://emudhra.we-have-a-problem.com/",
       "hn_url": "https://news.ycombinator.com/item?id=50166579",
       "author": "galadran",
-      "score": 1262,
-      "comments": 496,
-      "rank_score": 885.262577007829,
+      "score": 1272,
+      "comments": 504,
+      "rank_score": 892.2673675287825,
       "published_at_kst": "2026-10-20T22:58:33+09:00",
       "published_date": "2026-10-20",
-      "summary": "eMudhra의 중간 CA 개인키 8개가 유출되어 주요 브라우저와 OS 제조사가 긴급 차단 조치를 취했습니다. 공격자가 해당 키를 이용해 웹사이트를 사칭할 수 있는 심각한 보안 위협이 발생했습니다.",
+      "summary": "eMudhra의 중간 CA 인증서 8개가 유출되어 주요 브라우저와 OS의 신뢰 체계가 위협받는 보안 사고가 발생했습니다. 공격자가 유출된 키를 이용해 웹사이트를 사칭할 수 있는 위험이 있어 주요 벤더들이 긴급 차단 조치를 완료했습니다.",
       "story_text": "https://blog.mozilla.org/security/2026/10/20/protecting-fire... https://bugzilla.mozilla.org/show_bug.cgi?id=2083449",
-      "external_article_summary": "eMudhra의 중간 CA 인증서 8개의 개인키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 신뢰 루트 체인에 영향을 미치게 되었습니다. 공격자는 유출된 키를 사용하여 웹사이트나 서비스를 사칭할 수 있으며, 이에 대응하기 위해 각 제조사는 OneCRL, CRLite, CRLSets와 같은 기술을 통해 해당 인증서를 차단했습니다. 10월 17일부터 Firefox와 Chrome에서 차단이 시작되었고, Microsoft와 Apple 플랫폼도 순차적으로 업데이트를 완료했습니다.",
-      "article_summary": "eMudhra의 중간 CA 인증서 8개의 개인키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 신뢰 루트 체인에 영향을 미치게 되었습니다. 공격자는 유출된 키를 사용하여 웹사이트나 서비스를 사칭할 수 있으며, 이에 대응하기 위해 각 제조사는 OneCRL, CRLite, CRLSets와 같은 기술을 통해 해당 인증서를 차단했습니다. 10월 17일부터 Firefox와 Chrome에서 차단이 시작되었고, Microsoft와 Apple 플랫폼도 순차적으로 업데이트를 완료했습니다.",
-      "discussion_summary": "유출된 8개 CA의 개인키가 사실상 단일 바이트 수준의 취약점을 공유하고 있다는 기술적 분석이 제기되었습니다. 이에 따라 보안 조치의 속도가 브라우저 제조사마다 상이하여 사용자별로 보안 수준이 불균형하게 적용된다는 비판이 나오고 있습니다.",
+      "external_article_summary": "eMudhra의 중간 CA 인증서 8개의 개인 키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 루트 프로그램 및 신뢰 저장소에 연결된 인증서들이 위험에 처했습니다. 공격자는 유출된 키를 사용해 웹사이트나 서비스를 사칭할 수 있으며, 이를 증명하기 위해 원문 제보자가 8개 인증서의 개인 키로 서명된 메시지를 공개했습니다. 이에 따라 Firefox와 Chrome은 10월 17일부터, Microsoft는 20일, Apple은 22일부터 해당 인증서들을 차단하는 조치를 완료했습니다.",
+      "article_summary": "eMudhra의 중간 CA 인증서 8개의 개인 키가 유출되어 Mozilla, Microsoft, Apple, Chrome의 루트 프로그램 및 신뢰 저장소에 연결된 인증서들이 위험에 처했습니다. 공격자는 유출된 키를 사용해 웹사이트나 서비스를 사칭할 수 있으며, 이를 증명하기 위해 원문 제보자가 8개 인증서의 개인 키로 서명된 메시지를 공개했습니다. 이에 따라 Firefox와 Chrome은 10월 17일부터, Microsoft는 20일, Apple은 22일부터 해당 인증서들을 차단하는 조치를 완료했습니다.",
+      "discussion_summary": "유출된 8개 인증서의 개인 키가 사실상 단일 바이트 수준의 취약점을 공유하고 있다는 기술적 분석이 제기되었습니다. 또한, OneCRL과 같은 기술을 통해 신속하게 대응한 브라우저 벤더와 그렇지 못한 플랫폼 간의 대응 속도 차이가 쟁점으로 떠올랐습니다.",
       "key_points": [
-        "eMudhra 중간 CA 개인키 유출로 인해 웹사이트 사칭 및 중간자 공격 위험이 발생했습니다.",
-        "주요 브라우저 제조사는 CRLite 및 CRLSets 기술을 통해 유출된 인증서를 즉각 차단했습니다.",
-        "인증서 폐기 정보를 반영하는 방식에 따라 사용자별 보안 대응 수준에 차이가 발생합니다."
+        "eMudhra 중간 CA 인증서 8개의 개인 키 유출로 인해 웹사이트 사칭 위험이 발생했습니다.",
+        "주요 브라우저와 OS 벤더는 유출된 인증서를 신뢰 목록에서 제거하는 긴급 조치를 완료했습니다.",
+        "취약한 키 생성 방식이 여러 인증서에 공통적으로 적용되었을 가능성이 제기되었습니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -149,26 +193,70 @@
       "repeated_days_ago": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "story_id": "50195110",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "hn_url": "https://news.ycombinator.com/item?id=50195110",
+      "author": "bo0tzz",
+      "score": 1128,
+      "comments": 729,
+      "rank_score": 791.5779133602426,
+      "published_at_kst": "2026-10-22T22:33:39+09:00",
+      "published_date": "2026-10-22",
+      "summary": "eMudhra가 글로벌 SSL/TLS 인증서 사업에서 철수하며 보안 및 디지털 서명 분야의 사업 구조를 재편합니다. 이번 결정은 인증서 발급 중심에서 기업용 전자 서명 및 ID 관리 플랫폼으로의 전략적 전환을 의미합니다.",
+      "story_text": "",
+      "external_article_summary": "eMudhra는 기존의 SSL/TLS 인증서 발급 및 관리 사업을 종료하고, 기업용 전자 서명(eSignature)과 통합 ID 관리(IAM) 플랫폼에 집중할 계획입니다. emSigner를 통한 워크플로우 자동화와 PKI 기반의 인증 및 암호화 기술을 활용하여 5,000만 명 이상의 사용자를 보유한 보험사 및 정부 기관 등 대규모 엔터프라이즈 고객을 대상으로 서비스를 확장합니다. 이를 통해 문서 서명 자동화와 중앙 집중식 거버넌스 체계를 구축하는 데 주력합니다.",
+      "article_summary": "eMudhra는 기존의 SSL/TLS 인증서 발급 및 관리 사업을 종료하고, 기업용 전자 서명(eSignature)과 통합 ID 관리(IAM) 플랫폼에 집중할 계획입니다. emSigner를 통한 워크플로우 자동화와 PKI 기반의 인증 및 암호화 기술을 활용하여 5,000만 명 이상의 사용자를 보유한 보험사 및 정부 기관 등 대규모 엔터프라이즈 고객을 대상으로 서비스를 확장합니다. 이를 통해 문서 서명 자동화와 중앙 집중식 거버넌스 체계를 구축하는 데 주력합니다.",
+      "discussion_summary": "브라우저 개발팀(Chrome 등)의 엄격한 기술적 검증 과정이 eMudhra의 사업 결정에 영향을 미쳤다는 분석과, 소셜 미디어를 통한 과도한 여론 형성이 실제 비즈니스 규모에 비해 과도한 감시를 불러일으켰다는 비판이 대립하고 있습니다.",
+      "key_points": [
+        "eMudhra는 SSL/TLS 인증서 사업을 종료하고 전자 서명 및 ID 관리 플랫폼으로 사업 영역을 전환합니다.",
+        "브라우저 제조사의 엄격한 기술적 요구사항이 인증서 발급 사업의 운영 난이도를 높였습니다.",
+        "기업용 디지털 전환 시장에서 PKI 기술을 활용한 워크플로우 자동화가 핵심 경쟁력이 될 전망입니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "rdtsc",
+          "text": "> However, the level of social media amplification around this incident has brought scrutiny that is out of proportion to SSL/TLS’s place in our business Scrutiny is inversely pro…"
+        },
+        {
+          "author": "ieie3366",
+          "text": "Related: the absolutely brutal question battery the Chrome team publicly submitted to eMudhra https://bugzilla.mozilla.org/show_bug.cgi?id=2083449#c30"
+        }
+      ],
+      "tags": [
+        "eMudhra",
+        "SSL/TLS",
+        "PKI",
+        "전자서명",
+        "IAM"
+      ],
+      "domain": "emudhra.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 6,
       "story_id": "50180873",
       "title": "PHP 8.2.35",
       "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
       "hn_url": "https://news.ycombinator.com/item?id=50180873",
       "author": "tuyuri",
-      "score": 1069,
-      "comments": 557,
-      "rank_score": 750.1973076887143,
+      "score": 1092,
+      "comments": 576,
+      "rank_score": 766.3073526799524,
       "published_at_kst": "2026-10-21T22:45:33+09:00",
       "published_date": "2026-10-21",
-      "summary": "PHP 8.2.35 보안 업데이트는 인증되지 않은 원격 코드 실행(RCE) 취약점을 해결하기 위한 긴급 패치입니다. 사용자들은 즉각적인 업데이트를 통해 보안 위협에 대응해야 합니다.",
+      "summary": "PHP 8.2.35 보안 업데이트와 함께 발견된 새로운 RCE 취약점인 PHP2Shell에 대한 기술적 분석과 대응이 이루어지고 있습니다. 보안 전문가들은 이번 취약점이 AI 기술을 활용해 탐지 및 공격 경로를 식별한 사례라는 점에 주목하고 있습니다.",
       "story_text": "Related ongoing thread: Today's PHP security release, and how we're strengthening security - https://news.ycombinator.com/item?id=50182987",
-      "external_article_summary": "PHP 개발팀은 인증되지 않은 사용자가 원격으로 코드를 실행할 수 있는 두 가지 심각한 취약점(CVE-2026-109618, CVE-2026-109619)을 해결하기 위해 PHP 8.2.35 버전을 출시했습니다. 이번 패치는 완벽한 완화책이 존재하지 않으므로 최신 버전으로의 업데이트가 유일한 해결책입니다. PHP 8.2 버전은 2026년 12월 31일에 지원이 종료될 예정이므로, 사용자들은 지원 가능한 차기 버전으로의 업그레이드를 계획해야 합니다.",
-      "article_summary": "PHP 개발팀은 인증되지 않은 사용자가 원격으로 코드를 실행할 수 있는 두 가지 심각한 취약점(CVE-2026-109618, CVE-2026-109619)을 해결하기 위해 PHP 8.2.35 버전을 출시했습니다. 이번 패치는 완벽한 완화책이 존재하지 않으므로 최신 버전으로의 업데이트가 유일한 해결책입니다. PHP 8.2 버전은 2026년 12월 31일에 지원이 종료될 예정이므로, 사용자들은 지원 가능한 차기 버전으로의 업그레이드를 계획해야 합니다.",
-      "discussion_summary": "사용자들은 이번 취약점 공개가 Wiz, Calif, OpenAI 등 보안 기업과 AI 기술 간의 조율된 정보 공개(Coordinated Disclosure)일 가능성을 제기하고 있습니다. 특히 AI를 활용한 취약점 발견 도구인 PHP2Shell과 관련된 보안 위협에 대한 논의가 이어지고 있습니다.",
+      "external_article_summary": "이번 PHP 8.2.35 릴리스는 보안 강화를 목적으로 배포되었으며, 특히 Wiz, Calif, OpenAI 등이 협력하여 발견한 'PHP2Shell' 취약점 대응이 핵심입니다. PHP2Shell은 AI 모델을 활용해 기존의 정적 분석으로는 찾기 어려웠던 취약한 코드 패턴을 식별하고 원격 코드 실행(RCE) 경로를 확보하는 공격 기법을 포함합니다.",
+      "article_summary": "이번 PHP 8.2.35 릴리스는 보안 강화를 목적으로 배포되었으며, 특히 Wiz, Calif, OpenAI 등이 협력하여 발견한 'PHP2Shell' 취약점 대응이 핵심입니다. PHP2Shell은 AI 모델을 활용해 기존의 정적 분석으로는 찾기 어려웠던 취약한 코드 패턴을 식별하고 원격 코드 실행(RCE) 경로를 확보하는 공격 기법을 포함합니다.",
+      "discussion_summary": "사용자들은 이번 취약점이 AI를 통해 발견되었다는 점에 주목하며, AI 기반 보안 도구가 취약점 탐지 속도를 어떻게 변화시킬지에 대해 논의하고 있습니다. 특히 AI가 생성한 코드가 보안 위협을 초래할 수 있다는 우려와 이를 방어하기 위한 새로운 보안 표준의 필요성이 대립하고 있습니다.",
       "key_points": [
-        "CVE-2026-109618 및 CVE-2026-109619 취약점 해결을 위한 긴급 보안 패치가 배포되었습니다.",
-        "인증되지 않은 원격 코드 실행(RCE) 위험이 있으므로 즉각적인 업데이트가 필수적입니다.",
-        "AI 기반 취약점 탐지 기술이 보안 생태계에 미치는 영향과 대응 방안이 주요 쟁점입니다."
+        "PHP 8.2.35 버전은 AI 기반 취약점 탐지 기술인 PHP2Shell에 대응하기 위한 보안 패치를 포함합니다.",
+        "AI를 활용한 취약점 식별 방식이 기존의 수동 분석이나 정적 분석의 한계를 넘어서는 새로운 위협 모델로 등장했습니다.",
+        "개발 단계에서 AI 생성 코드를 검증하고 보안을 강화하는 프로세스 구축이 필수적입니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -183,78 +271,78 @@
       ],
       "tags": [
         "PHP",
-        "Security Release",
+        "Security",
+        "AI",
         "RCE",
-        "Vulnerability",
-        "Open Source"
+        "Vulnerability"
       ],
       "domain": "github.com",
       "repeated_in_window": true,
       "repeated_days_ago": 1
     },
     {
-      "rank": 5,
-      "story_id": "50170593",
-      "title": "Show HN: SimCity, but with Permits",
-      "url": "https://permit.petercai.com/",
-      "hn_url": "https://news.ycombinator.com/item?id=50170593",
-      "author": "pcai",
-      "score": 927,
-      "comments": 418,
-      "rank_score": 650.7113612759766,
-      "published_at_kst": "2026-10-21T03:29:09+09:00",
-      "published_date": "2026-10-21",
-      "summary": "도시 건설 시뮬레이션 게임에 복잡한 행정 절차와 이해관계 충돌을 결합한 새로운 프로젝트가 공개되었습니다. 현실 세계의 정책 결정이 가져오는 사회적 갈등을 게임 메커니즘으로 구현하여 사용자들의 관심을 끌고 있습니다.",
+      "rank": 7,
+      "story_id": "50202285",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "hn_url": "https://news.ycombinator.com/item?id=50202285",
+      "author": "sohkamyung",
+      "score": 1075,
+      "comments": 210,
+      "rank_score": 754.2197866291285,
+      "published_at_kst": "2026-10-23T08:01:18+09:00",
+      "published_date": "2026-10-23",
+      "summary": "사용자의 현재 위치를 기준으로 반경 내의 정보만을 다루는 로컬 위키피디아 개념의 프로젝트를 소개합니다. 거대 정보 대신 주변의 구체적인 장소와 사건에 집중하는 새로운 정보 공유 방식을 제안합니다.",
       "story_text": "",
-      "external_article_summary": "이 프로젝트는 도시의 발전을 저해하는 현실적인 규제와 반대 세력을 게임의 핵심 요소로 도입했습니다. 주택 공급 확대, 산업 유치, 대중교통 확충 등 도시 개선 정책이 새로운 이익 집단과 갈등을 유발하는 과정을 시뮬레이션합니다. 모든 개선책은 새로운 유권자 집단의 반발을 불러일으키며, 이는 단순한 건설을 넘어 정치적 의사결정의 복잡성을 다룹니다.",
-      "article_summary": "이 프로젝트는 도시의 발전을 저해하는 현실적인 규제와 반대 세력을 게임의 핵심 요소로 도입했습니다. 주택 공급 확대, 산업 유치, 대중교통 확충 등 도시 개선 정책이 새로운 이익 집단과 갈등을 유발하는 과정을 시뮬레이션합니다. 모든 개선책은 새로운 유권자 집단의 반발을 불러일으키며, 이는 단순한 건설을 넘어 정치적 의사결정의 복잡성을 다룹니다.",
-      "discussion_summary": "게임의 몰입감을 해칠 수 있는 비현실적인 수치 설정에 대한 비판과, 현실의 복잡한 사회적 갈등을 반영한 시뮬레이션이라는 점에 대한 긍정적 평가가 대립하고 있습니다.",
+      "external_article_summary": "이 프로젝트는 사용자의 물리적 위치를 기반으로 반경 내의 정보만을 필터링하여 제공하는 로컬 위키피디아 모델을 제안합니다. 기존의 광범위한 지식 백과사전과 달리, 도보 거리 내의 구체적인 장소나 역사적 사건을 기록하는 데 초점을 맞춥니다. 이는 정보의 범위를 지리적 근접성으로 제한하여 사용자에게 더 밀접한 맥락을 제공하는 것이 핵심입니다.",
+      "article_summary": "이 프로젝트는 사용자의 물리적 위치를 기반으로 반경 내의 정보만을 필터링하여 제공하는 로컬 위키피디아 모델을 제안합니다. 기존의 광범위한 지식 백과사전과 달리, 도보 거리 내의 구체적인 장소나 역사적 사건을 기록하는 데 초점을 맞춥니다. 이는 정보의 범위를 지리적 근접성으로 제한하여 사용자에게 더 밀접한 맥락을 제공하는 것이 핵심입니다.",
+      "discussion_summary": "사용자들은 거주지 근처의 정보가 부족한 현실적인 문제를 지적하며, 정보의 가치가 물리적 거리와 결합했을 때 발생하는 심리적 유대감에 대해 논의합니다. 정보의 유용성이 지리적 근접성에 따라 어떻게 변화하는지에 대한 흥미로운 관점이 제시되었습니다.",
       "key_points": [
-        "도시 개발 과정에서 발생하는 이해관계자 간의 갈등을 게임의 핵심 메커니즘으로 설정했습니다.",
-        "현실의 정책 결정이 가져오는 예측 불가능한 사회적 비용을 시뮬레이션합니다.",
-        "게임적 허용과 현실적 사회 비판 사이의 균형이 주요 쟁점입니다."
+        "물리적 거리와 지리적 맥락을 결합한 새로운 형태의 지식 공유 모델을 제안합니다.",
+        "정보의 가치가 거주지 근처의 구체적인 사건이나 장소와 결합할 때 발생하는 심리적 몰입감을 활용합니다.",
+        "광범위한 정보 대신 국지적 정보를 우선시하는 새로운 정보 소비 패턴을 보여줍니다."
       ],
       "category": "기타",
       "comment_highlights": [
         {
-          "author": "goda90",
-          "text": "The various decisions/petitions that pop up can break the immersion by mentioning details that don't fit the city(petitions with signatures from >250% of the town population, traf…"
+          "author": "delichon",
+          "text": "The nearest Wikipedia entry to me is about a 3 hours 15 minute walk away, the nearest town. But there are so many interesting things closer, perhaps I should add them to the wiki.…"
         },
         {
-          "author": "ryandrake",
-          "text": "Kind of like this one[1] which made the rounds on HN a few weeks ago. Looks like the social commentary from them are similar: \"Real life is worse than SimCity because of rules and…"
+          "author": "nomilk",
+          "text": "Weird psychological quirk: otherwise banal articles seem much more pertinent when they happen to be nearby (I just read about a random plane crash from decades ago but felt very i…"
         }
       ],
       "tags": [
-        "SimCity",
-        "도시 시뮬레이션",
-        "사회 정책"
+        "Local Wikipedia",
+        "Information Architecture",
+        "User Experience"
       ],
-      "domain": "permit.petercai.com",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "domain": "edjefferson.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
     },
     {
-      "rank": 6,
+      "rank": 8,
       "story_id": "50177916",
       "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
       "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
       "hn_url": "https://news.ycombinator.com/item?id=50177916",
       "author": "hkc",
-      "score": 920,
-      "comments": 449,
-      "rank_score": 645.8327742748293,
+      "score": 939,
+      "comments": 460,
+      "rank_score": 659.1400194128989,
       "published_at_kst": "2026-10-21T18:08:08+09:00",
       "published_date": "2026-10-21",
-      "summary": "eMudhra의 CA(인증 기관) 키가 단 몇 밀리초 만에 탈취된 보안 사고가 발생했습니다. 이번 사건은 신뢰 기반의 PKI 체계가 가진 취약성을 드러내며 보안 업계에 큰 충격을 주고 있습니다.",
+      "summary": "eMudhra의 CA(인증 기관) 키가 단 몇 밀리초 만에 탈취된 보안 사고가 발생하여 신뢰 체계에 경종을 울렸습니다. 이번 사건은 취약한 암호화 알고리즘이 전체 PKI 생태계에 미치는 위험성을 보여줍니다.",
       "story_text": "",
-      "external_article_summary": "인증 기관인 eMudhra의 개인키가 매우 짧은 시간 내에 무력화되는 보안 결함이 발견되었습니다. 이번 취약점은 Google의 paranoid_c 가이드라인과 관련된 도구 등을 통해 발견되었으며, 암호화 알고리즘의 강도가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 상태였습니다. 이는 현대적인 PKI 아키텍처에서 키 관리와 알고리즘 선택이 얼마나 치명적인지 보여주는 사례입니다.",
-      "article_summary": "인증 기관인 eMudhra의 개인키가 매우 짧은 시간 내에 무력화되는 보안 결함이 발견되었습니다. 이번 취약점은 Google의 paranoid_c 가이드라인과 관련된 도구 등을 통해 발견되었으며, 암호화 알고리즘의 강도가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 상태였습니다. 이는 현대적인 PKI 아키텍처에서 키 관리와 알고리즘 선택이 얼마나 치명적인지 보여주는 사례입니다.",
-      "discussion_summary": "사용자들은 이번 사고가 Google의 보안 도구 등을 통해 발견된 점을 주목하며 취약점의 원인을 분석하고 있습니다. 또한, 현재 브라우저와 시스템이 수용하는 수많은 신뢰할 수 있는 CA의 개수가 과도하게 많다는 구조적 비판이 제기되고 있습니다.",
+      "external_article_summary": "eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 인증 체계의 신뢰가 무너졌습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 키의 길이가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 구조적 결함을 가지고 있습니다. 이는 현대적인 보안 표준에서 키 길이나 알고리즘 선택이 얼마나 중요한지를 입증하는 사례입니다.",
+      "article_summary": "eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 인증 체계의 신뢰가 무너졌습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 키의 길이가 충분하지 않아 공격자가 순식간에 키를 복구할 수 있는 구조적 결함을 가지고 있습니다. 이는 현대적인 보안 표준에서 키 길이나 알고리즘 선택이 얼마나 중요한지를 입증하는 사례입니다.",
+      "discussion_summary": "사용자들은 이번 취약점이 Google의 보안 도구에 의해 발견된 점을 주목하며 기술적 원인을 분석하고 있습니다. 또한, 너무 많은 수의 CA를 신뢰하는 현재의 브라우저/OS 보안 정책이 과도하다는 비판이 제기되었습니다.",
       "key_points": [
-        "eMudhra의 CA 키가 밀리초 단위의 빠른 속도로 탈취될 수 있는 심각한 보안 결함이 확인되었습니다.",
-        "신뢰할 수 있는 인증 기관(CA)의 개수가 지나치게 많아 관리와 보안 통제가 어렵다는 구조적 문제가 지적되었습니다.",
-        "암호화 키의 강도와 관리 체계가 현대적인 공격 기법에 대응하기에 부족함을 시사합니다."
+        "eMudhra의 CA 키가 공격자에 의해 밀리초 단위로 크랙되는 심각한 보안 결함이 발생했습니다.",
+        "과도하게 많은 수의 인증 기관(CA)을 신뢰하는 현재의 보안 모델이 잠재적 위험 요소로 지목되었습니다.",
+        "암호화 알고리즘의 강도와 키 길이는 전체 PKI 생태계의 신뢰를 결정짓는 핵심 요소입니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -271,77 +359,76 @@
         "eMudhra",
         "CA",
         "PKI",
-        "Cybersecurity",
-        "Encryption"
+        "암호화",
+        "보안 취약점"
       ],
       "domain": "scotthelme.co.uk",
       "repeated_in_window": true,
       "repeated_days_ago": 1
     },
     {
-      "rank": 7,
-      "story_id": "50195110",
-      "title": "eMudhra to exit global SSL/TLS certificate business",
-      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-      "hn_url": "https://news.ycombinator.com/item?id=50195110",
-      "author": "bo0tzz",
-      "score": 807,
-      "comments": 569,
-      "rank_score": 567.5131651645448,
-      "published_at_kst": "2026-10-22T22:33:39+09:00",
-      "published_date": "2026-10-22",
-      "summary": "eMudhra가 글로벌 SSL/TLS 인증서 사업에서 철수하기로 결정하며 보안 시장의 판도 변화가 예상됩니다. 이번 결정은 인증서 시장의 구조적 변화와 비즈니스 전략 수정에 따른 결과로 분석됩니다.",
+      "rank": 9,
+      "story_id": "50170593",
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=50170593",
+      "author": "pcai",
+      "score": 936,
+      "comments": 421,
+      "rank_score": 657.0135015942108,
+      "published_at_kst": "2026-10-21T03:29:09+09:00",
+      "published_date": "2026-10-21",
+      "summary": "도시 건설 시뮬레이션 게임에 복잡한 행정 절차와 규제를 결합한 새로운 형태의 게임이 공개되었습니다. 사용자들은 현실적인 규제가 게임의 몰입감을 해칠 수 있다는 점과 사회적 메시지에 대해 다양한 반응을 보이고 있습니다.",
       "story_text": "",
-      "external_article_summary": "eMudhra는 기존의 글로벌 SSL/TLS 인증서 발급 사업을 중단하고 핵심 비즈니스 영역에 집중하기로 결정했습니다. 이번 사업 철수는 인증서 시장의 경쟁 심화와 기술적 변화에 대응하기 위한 전략적 선택입니다. 기업은 향후 디지털 신원 및 보안 솔루션 중심의 포트폴리오 재편을 추진할 계획입니다.",
-      "article_summary": "eMudhra는 기존의 글로벌 SSL/TLS 인증서 발급 사업을 중단하고 핵심 비즈니스 영역에 집중하기로 결정했습니다. 이번 사업 철수는 인증서 시장의 경쟁 심화와 기술적 변화에 대응하기 위한 전략적 선택입니다. 기업은 향후 디지털 신원 및 보안 솔루션 중심의 포트폴리오 재편을 추진할 계획입니다.",
-      "discussion_summary": "사회적 관심이 과도하게 집중되어 비즈니스 가치에 비해 불필요한 감시를 받고 있다는 비판과, 이러한 상황이 오히려 사업 철수의 명분을 강화하고 복잡한 상황을 악화시킨다는 우려가 대립하고 있습니다.",
+      "external_article_summary": "이 프로젝트는 SimCity와 같은 도시 건설 장르에 인허가(Permits)와 같은 행정적 제약 요소를 도입한 시뮬레이션 게임입니다. 플레이어는 단순히 건물을 짓는 것을 넘어, 복잡한 법적 절차와 시민들의 요구사항을 관리하며 도시를 운영해야 합니다. 게임의 핵심 메커니즘은 현실 세계의 관료주의적 요소를 게임 플레이의 핵심 난이도로 설정하여 사회적 상호작용을 유도하는 데 있습니다.",
+      "article_summary": "이 프로젝트는 SimCity와 같은 도시 건설 장르에 인허가(Permits)와 같은 행정적 제약 요소를 도입한 시뮬레이션 게임입니다. 플레이어는 단순히 건물을 짓는 것을 넘어, 복잡한 법적 절차와 시민들의 요구사항을 관리하며 도시를 운영해야 합니다. 게임의 핵심 메커니즘은 현실 세계의 관료주의적 요소를 게임 플레이의 핵심 난이도로 설정하여 사회적 상호작용을 유도하는 데 있습니다.",
+      "discussion_summary": "인구수보다 많은 서명이 담긴 청원과 같은 비현실적인 설정이 게임의 몰입감을 깨뜨린다는 비판과, 현실의 복잡한 규칙이 게임에 반영되어 사회적 메시지를 전달한다는 옹호가 대립하고 있습니다.",
       "key_points": [
-        "eMudhra의 SSL/TLS 인증서 사업 철수로 인한 보안 시장 공급망 변화.",
-        "비즈니스 규모에 비해 과도한 사회적 관심이 가져온 전략적 판단의 어려움.",
-        "인증서 시장의 경쟁 심화와 기업의 핵심 역량 집중 전략."
+        "행정적 규제와 인허가 절차를 게임의 핵심 메커니즘으로 설계했습니다.",
+        "현실 세계의 관료주의를 게임 플레이에 투영하여 사회적 메시지를 전달합니다.",
+        "게임 내 데이터 수치와 현실적 개연성 사이의 균형이 주요 쟁점입니다."
       ],
-      "category": "보안/프라이버시",
+      "category": "기타",
       "comment_highlights": [
         {
-          "author": "rdtsc",
-          "text": "> However, the level of social media amplification around this incident has brought scrutiny that is out of proportion to SSL/TLS’s place in our business Scrutiny is inversely pro…"
+          "author": "goda90",
+          "text": "The various decisions/petitions that pop up can break the immersion by mentioning details that don't fit the city(petitions with signatures from >250% of the town population, traf…"
         },
         {
-          "author": "Toutouxc",
-          "text": "Somehow this is making it even worse. Like, I'm having issues explaining the whole thing to my wife, because I can't come up with a metaphor or parable that's even remotely as rid…"
+          "author": "ryandrake",
+          "text": "Kind of like this one[1] which made the rounds on HN a few weeks ago. Looks like the social commentary from them are similar: \"Real life is worse than SimCity because of rules and…"
         }
       ],
       "tags": [
-        "eMudhra",
-        "SSL/TLS",
-        "인증서",
-        "보안 비즈니스"
+        "SimCity",
+        "시뮬레이션",
+        "게임 디자인"
       ],
-      "domain": "emudhra.com",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
+      "domain": "permit.petercai.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
     },
     {
-      "rank": 8,
+      "rank": 10,
       "story_id": "50182987",
       "title": "Today's PHP security release, and how we're strengthening security",
       "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
       "hn_url": "https://news.ycombinator.com/item?id=50182987",
       "author": "ejohnso49",
-      "score": 787,
-      "comments": 388,
-      "rank_score": 552.6890738030855,
+      "score": 811,
+      "comments": 399,
+      "rank_score": 569.4974393641323,
       "published_at_kst": "2026-10-22T00:48:56+09:00",
       "published_date": "2026-10-22",
-      "summary": "PHP의 최신 보안 업데이트와 함께 강화된 보안 모델에 대한 기술적 논의가 진행 중입니다. 커뮤니티는 보안 패치 적용의 중요성과 더불어 인터넷상의 개인정보 보호 모델에 대해 심도 있는 의견을 나누고 있습니다.",
+      "summary": "PHP 보안 업데이트와 취약점 노출 과정에서 발생한 보안 관리 이슈를 다루고 있습니다. 보안 패치 배포 과정에서 발생한 정보 유출 사고와 이에 대한 커뮤니티의 반응을 핵심적으로 요약합니다.",
       "story_text": "Related ongoing thread: PHP 8.2.35 - https://news.ycombinator.com/item?id=50180873 (links to more at https://news.ycombinator.com/item?id=50184935 )",
-      "external_article_summary": "PHP 재단은 보안 취약점 해결을 위해 PHP 8.2.35를 포함한 최신 보안 릴리스를 발표했습니다. 이번 업데이트는 기존 버전의 보안 허점을 보완하고 런타임 환경의 안정성을 높이는 데 중점을 두었습니다. 개발자들은 보안 패치 적용을 통해 잠재적인 공격 벡터를 차단하고 시스템 무결성을 유지해야 합니다.",
-      "article_summary": "PHP 재단은 보안 취약점 해결을 위해 PHP 8.2.35를 포함한 최신 보안 릴리스를 발표했습니다. 이번 업데이트는 기존 버전의 보안 허점을 보완하고 런타임 환경의 안정성을 높이는 데 중점을 두었습니다. 개발자들은 보안 패치 적용을 통해 잠재적인 공격 벡터를 차단하고 시스템 무결성을 유지해야 합니다.",
-      "discussion_summary": "Hacker News 사용자들은 보안 패치에 대한 커뮤니티의 협력적 태도를 긍정적으로 평가하는 한편, 웹 쇼핑 등 일상적인 서비스에서 과도한 개인정보를 요구하는 현재의 인터넷 보안 모델에 대한 근본적인 비판을 제기하고 있습니다.",
+      "external_article_summary": "PHP 재단은 보안 취약점 해결을 위한 최신 보안 릴리스를 발표했습니다. 이번 과정에서 보안 업체인 Calif가 취약점 보고 과정 중 실수로 관련 영상을 미리 공개하는 사고가 발생했습니다. 이로 인해 보안 패치 발표 전 정보가 유출되는 상황이 발생하여 보안 관리 체계의 중요성이 대두되었습니다.",
+      "article_summary": "PHP 재단은 보안 취약점 해결을 위한 최신 보안 릴리스를 발표했습니다. 이번 과정에서 보안 업체인 Calif가 취약점 보고 과정 중 실수로 관련 영상을 미리 공개하는 사고가 발생했습니다. 이로 인해 보안 패치 발표 전 정보가 유출되는 상황이 발생하여 보안 관리 체계의 중요성이 대두되었습니다.",
+      "discussion_summary": "보안 업체 측의 실수로 인한 정보 유출에 대해 우려하는 목소리와, 이러한 위기 상황에서도 신속하게 대응하는 커뮤니티의 협력에 감사하는 의견이 공존합니다.",
       "key_points": [
-        "PHP 8.2.35 등 최신 보안 릴리스를 통한 취약점 해결과 시스템 강화가 이루어졌습니다.",
-        "사용자 개인정보를 최소화하는 새로운 인터넷 보안 모델의 필요성이 제기되었습니다.",
-        "지속적인 보안 패치 관리는 소프트웨어 생태계의 안정성을 유지하는 핵심 요소입니다."
+        "PHP 보안 패치 배포 과정에서 외부 보안 업체의 실수로 취약점 정보가 사전 유출되었습니다.",
+        "보안 취약점 공표 전 정보 관리와 보안 업체 간의 협업 프로세스 정립이 필요합니다.",
+        "소프트웨어 보안 업데이트는 패치 배포와 정보 공개 사이의 타이밍 조절이 핵심입니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -350,104 +437,17 @@
           "text": "You may never hear me say this again because I am a gruff cynic who is not sure that hanging out here is good for his psyche, but thank goodness for HN. While I have been chasing…"
         },
         {
-          "author": "amelius",
-          "text": "We should really move to a different security model on the internet. For example, when I buy something from a webshop, why does that webshop need my personal information? Why can'…"
+          "author": "dannyw",
+          "text": "> As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. This is the most surpr…"
         }
       ],
       "tags": [
         "PHP",
-        "Security",
-        "Open Source",
-        "Privacy"
+        "Security Release",
+        "Vulnerability",
+        "Open Source"
       ],
       "domain": "thephp.foundation",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
-    },
-    {
-      "rank": 9,
-      "story_id": "50168396",
-      "title": "Voxtral 3",
-      "url": "https://mistral.ai/news/voxtral-3/",
-      "hn_url": "https://news.ycombinator.com/item?id=50168396",
-      "author": "ilreb",
-      "score": 765,
-      "comments": 200,
-      "rank_score": 537.0909914724177,
-      "published_at_kst": "2026-10-21T01:02:07+09:00",
-      "published_date": "2026-10-21",
-      "summary": "Mistral AI의 새로운 STT 모델인 Voxtral 3 출시 소식과 이에 대한 사용자들의 기술적 평가를 다룹니다. 이전 세대 모델의 성능을 계승하면서도 폐쇄형 모델로 출시된 점에 대해 커뮤니티의 의견이 나뉩니다.",
-      "story_text": "",
-      "external_article_summary": "Mistral AI가 발표한 Voxtral 3는 음성 인식(STT) 성능을 강화한 모델 시리즈입니다. 이전 세대인 Voxtral Mini 4B 모델이 오프라인 추론 환경에서 우수한 성능을 보여주었으며, 이번 모델 역시 실시간 음성 처리를 목표로 설계되었습니다. 사용자는 모델의 가중치 공개 여부와 로컬 배포 환경에서의 효율성을 중심으로 기술적 성능을 검토하고 있습니다.",
-      "article_summary": "Mistral AI가 발표한 Voxtral 3는 음성 인식(STT) 성능을 강화한 모델 시리즈입니다. 이전 세대인 Voxtral Mini 4B 모델이 오프라인 추론 환경에서 우수한 성능을 보여주었으며, 이번 모델 역시 실시간 음성 처리를 목표로 설계되었습니다. 사용자는 모델의 가중치 공개 여부와 로컬 배포 환경에서의 효율성을 중심으로 기술적 성능을 검토하고 있습니다.",
-      "discussion_summary": "이전 세대 모델의 우수한 성능을 바탕으로 실용적인 로컬 배포가 가능하다는 긍정적 평가와, 모델이 폐쇄형(Closed)으로 제공되어 로컬 환경에서의 자유로운 활용이 어렵다는 비판이 대립하고 있습니다.",
-      "key_points": [
-        "Voxtral 시리즈는 실시간 추론에 최적화된 STT 모델 성능을 제공합니다.",
-        "이전 세대 4B 모델은 오프라인 환경에서도 구동 가능한 수준의 효율성을 보여주었습니다.",
-        "모델의 폐쇄적 운영 방식이 로컬 배포 및 오픈 소스 생태계 활용에 제약이 될 수 있습니다."
-      ],
-      "category": "AI/ML",
-      "comment_highlights": [
-        {
-          "author": "Const-me",
-          "text": "Their previous generation open weight STT model was pretty good. I have recently launched commercial Windows software implementing offline inference of Voxtral Mini 4B Realtime on…"
-        },
-        {
-          "author": "drum55",
-          "text": "Closed model unfortunately, continues the theme of TTS / STT being really not great for local deployments."
-        }
-      ],
-      "tags": [
-        "Mistral AI",
-        "STT",
-        "Speech-to-Text",
-        "AI 모델"
-      ],
-      "domain": "mistral.ai",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 10,
-      "story_id": "50159341",
-      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-      "hn_url": "https://news.ycombinator.com/item?id=50159341",
-      "author": "ds",
-      "score": 739,
-      "comments": 217,
-      "rank_score": 518.9153485188367,
-      "published_at_kst": "2026-10-20T08:22:18+09:00",
-      "published_date": "2026-10-20",
-      "summary": "WhatsApp의 도움말 페이지에 LLM 지침이 노출된 보안 이슈와 이에 대한 Meta 측의 대응을 다룹니다. 기술적 결함으로 인해 사용자에게 노출된 프롬프트 엔지니어링 가이드가 논란이 되었습니다.",
-      "story_text": "",
-      "external_article_summary": "WhatsApp 도움말 페이지에 LLM의 동작 방식을 제어하는 내부 지침이 실수로 노출되었습니다. WIRED의 보도 이후 Meta는 해당 텍스트를 모든 페이지에서 삭제했으며, WhatsApp 대변인은 이것이 시스템 버그로 인해 발생한 문제라고 설명했습니다. 이 버그는 챗봇이 사용자에게 최적의 조언을 제공하도록 설계된 프롬프트가 웹 페이지에 잘못 렌더링된 현상입니다.",
-      "article_summary": "WhatsApp 도움말 페이지에 LLM의 동작 방식을 제어하는 내부 지침이 실수로 노출되었습니다. WIRED의 보도 이후 Meta는 해당 텍스트를 모든 페이지에서 삭제했으며, WhatsApp 대변인은 이것이 시스템 버그로 인해 발생한 문제라고 설명했습니다. 이 버그는 챗봇이 사용자에게 최적의 조언을 제공하도록 설계된 프롬프트가 웹 페이지에 잘못 렌더링된 현상입니다.",
-      "discussion_summary": "기술적 결함으로 인한 단순 노출이라는 Meta 측의 해명과, 내부 프롬프트가 외부에 드러난 보안 관리 부실에 대한 비판이 대립하고 있습니다.",
-      "key_points": [
-        "LLM의 시스템 프롬프트가 웹 페이지에 노출되는 보안 취약점이 발생했습니다.",
-        "Meta는 해당 문제를 버그로 규정하고 모든 관련 페이지에서 텍실을 제거했습니다.",
-        "프롬프트 엔지니어링 결과물이 사용자 인터페이스에 직접 노출되지 않도록 하는 검증 프로세스가 필요합니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "gruez",
-          "text": ">that they showed up in the pages because of a bug that has now been fixed. A WhatsApp spokesperson told WIRED it wants its support chatbots \"focused on providing the best advice…"
-        },
-        {
-          "author": "gnabgib",
-          "text": "> After WIRED contacted Meta about the issue, the text was removed from across all the pages, with WhatsApp spokesperson Joshua Breckman saying it was being displayed due to a bug…"
-        }
-      ],
-      "tags": [
-        "WhatsApp",
-        "LLM",
-        "Prompt Injection",
-        "Meta",
-        "Security Bug"
-      ],
-      "domain": "redact.dev",
       "repeated_in_window": true,
       "repeated_days_ago": 1
     }
