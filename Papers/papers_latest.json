@@ -1,22 +1,22 @@
 {
   "source": "huggingface_papers",
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T04:44:18.560358+09:00",
-  "count": 45,
-  "daily_summary": "오늘의 연구는 멀티모달 모델(VLM)의 시각적 이해와 생성 능력을 통합하여 정교한 제어 및 편집을 가능케 하는 방법론에 집중되었습니다. 또한, 자율적인 웹 탐색 에이전트와 로봇의 자기 개선 등 에이전트 시스템의 고도화를 위한 벤치마크와 학습 전략도 주요하게 다뤄졌습니다.",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T04:20:20.013426+09:00",
+  "count": 50,
+  "daily_summary": "오늘의 연구는 멀티모달 모델(VLM)의 시각적 이해와 생성 능력을 통합하여 정교한 제어를 구현하는 방향과, 에이전트의 자율적 탐색 및 효율적인 메모리 구조를 설계하는 연구들이 주를 이루었습니다. 또한, 생성 모델의 내부 표현을 활용해 시각적 이해도를 높이거나 물리적 환경에서 로봇의 자기 개선을 도모하는 등 AI의 실무적 활용과 지능 고도화를 위한 다양한 시도가 돋보였습니다.",
   "daily_key_points": [
-    "생성 모델의 잠재 표현과 레이어 구조를 활용하여 정교한 영상 생성, 이미지 편집 및 세밀한 시각적 이해를 구현하는 연구들이 주목받았습니다.",
-    "웹 탐색 및 코딩 등 실무 자동화를 위한 에이전트 역량 강화와 이를 평가하기 위한 새로운 벤치마크 구축이 활발히 진행되었습니다.",
-    "RAG의 지연 시간을 해결하기 위한 파라미터 메모리 방식이나 로봇의 재귀적 자기 개선 등 효율적이고 자율적인 학습 구조에 대한 제안이 이어졌습니다."
+    "객체 탐지부터 세그멘테이션까지 수행하는 통합 VLM과 생성 모델의 표현력을 활용한 정밀 시각 이해 기술이 주목받았습니다.",
+    "웹 탐색 에이전트와 코딩 에이전트 등 실무 자동화를 위한 자율적 에이전트 시스템 및 벤치마크 연구가 활발히 진행되었습니다.",
+    "RAG의 지연 시간을 해결하는 파라미터 메모리나 로봇의 재귀적 자기 개선과 같이 모델의 효율성과 학습 메커니즘을 최적화하는 방법론이 제시되었습니다."
   ],
   "daily_tags": [
     "VLM",
     "AI Agent",
     "Generative AI",
-    "Multimodal",
-    "Automation"
+    "Robot Learning",
+    "Multimodal"
   ],
-  "chat_message": "🔥 오늘의 논문\n\n📌 오늘의 요약: 오늘의 연구는 멀티모달 모델(VLM)의 시각적 이해와 생성 능력을 통합하여 정교한 제어 및 편집을 가능케 하는 방법론에 집중되었습니다. 또한, 자율적인 웹 탐색 에이전트와 로봇의 자기 개선 등 에이전트 시스템의 고도화를 위한 벤치마크와 학습 전략도 주요하게 다뤄졌습니다.\n\n📍 1. WeVisOne-VL: Unified Visual Perception from Objects to Pixels\n📝 설명: 객체 탐지부터 픽셀 단위 세그멘테이션까지 하나의 모델로 해결하는 통합 시각 인지 VLM 모델. 객체 탐지, OCR, 세그멘테이션, 매팅을 하나의 모델로 통합한 All-in-One VLM. 특수 <OBJ> 토큰과 경량 픽셀 디코더를 결합한 구조적 설계. 단일 모델로 박스(Box)부터 마스크(Mask)까지 다양한 해상도의 시각 작업을 수행할 수 있어, 복잡한 멀티태스크 비전 파이프라인을 단순화할 수 있습니다. 기존의 시각-언어 모델(VLM)은 세밀한 시각적 인지 작업에서 신뢰도가 낮다는 문제를 가지고 있습니다. 이를 해결하기 위해 본 논문은 객체 수준과 픽셀 수준의 인지를 구조화된 차세대 토큰 예측 방식으로 통합한 WeVisOne-VL을 제안합니다. 아키텍처 측면에서는 특수 <OBJ> 토큰을 통해 경량 픽셀 디코더를 VLM에 통합하여 인스턴스 수준의 픽셀 출력을 생성합니다. 3단계 커리큘럼 SFT와 혼합 작업 RL을 통해 학습되었으며, 30개 이상의 벤치마크에서 객체 및 픽셀 작업 모두에서 뛰어난 성능을 입증했습니다.\n\n📍 2. Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation\n📝 설명: MLLM의 잠재 표현을 활용하여 정교한 제어와 시간적 추론이 가능한 시네마틱 비디오 생성 프레임워크 제안. Latent-only generator grounding을 통해 DiT가 MLLM의 잠재 표현을 생성에 직접 활용하도록 학습. Factor-span replacement를 통해 특정 요소(캐릭터, 액션 등)만 변경하고 나머지는 유지하는 정교한 제어 구현. LLM의 풍부한 의미 정보를 비디오 생성 모델의 제어 신호로 변환하는 효과적인 방법론을 제시하여, 텍스트 기반의 정교한 영상 편집 및 생성 워크플로우 구축에 도움을 줌.\n\n📍 3. Deep Search in Real-World Web Environments\n📝 설명: 실제 웹 환경에서의 복합적 정보 탐색 및 추론 능력을 평가하기 위한 새로운 벤치마크 OpenDS-World를 제안합니다. 실제 웹 환경의 복잡성을 반영한 OpenDS 태스크 및 OpenDS-World 벤합 구축. 검색, 브라우징, 증거 통합을 아우르는 엔드투엔드 에이전트 평가 프레임워크 제안. 단순 RAG를 넘어, 에이전트가 직접 웹을 탐색하고 정보를 수집하는 '자율적 리서치 에이전트' 개발 시 성능 측정의 기준이 됩니다. 기존의 딥 서치 에이전트는 정적인 데이터셋에 의존하여 실제 웹의 복잡한 상호작용과 분산된 정보를 다루는 능력을 평가하기 어려웠습니다. 이를 해결하기 위해 실시간 웹 탐색, 브라우저 상호작용, 다중 소스 증거 통합 능력을 요구하는 OpenDS 태스크를 도입했습니다. 연구진은 200개의 도전적인 과제로 구성된 OpenDS-World 벤치마크를 구축하고 12개의 최첨단 모델을 평가했습니다.\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "chat_message": "🔥 오늘의 논문\n\n📌 오늘의 요약: 오늘의 연구는 멀티모달 모델(VLM)의 시각적 이해와 생성 능력을 통합하여 정교한 제어를 구현하는 방향과, 에이전트의 자율적 탐색 및 효율적인 메모리 구조를 설계하는 연구들이 주를 이루었습니다. 또한, 생성 모델의 내부 표현을 활용해 시각적 이해도를 높이거나 물리적 환경에서 로봇의 자기 개선을 도모하는 등 AI의 실무적 활용과 지능 고도화를 위한 다양한 시도가 돋보였습니다.\n\n📍 1. WeVisOne-VL: Unified Visual Perception from Objects to Pixels\n📝 설명: 객체 탐지부터 픽셀 단위 세그멘테이션까지 하나의 모델로 해결하는 통합 시각 인지 VLM 모델. 객체 탐지, OCR, 세그멘테이션, 매팅을 하나의 모델로 통합한 All-in-One VLM. 특수 <OBJ> 토큰과 경량 픽셀 디코더를 결합한 구조적 설계. 단일 모델로 박스(Box)부터 마스크(Mask)까지 다양한 해상도의 시각 작업을 수행할 수 있어, 복잡한 멀티태스크 비전 파이프라인을 단순화할 수 있습니다. 기존의 시각-언어 모델(VLM)은 세밀한 시각적 인지 작업에서 신뢰도가 낮다는 문제를 가지고 있습니다. 이를 해결하기 위해 본 논문은 객체 수준과 픽셀 수준의 인지를 구조화된 차세대 토큰 예측 방식으로 통합한 WeVisOne-VL을 제안합니다. 아키텍처 측면에서는 특수 <OBJ> 토큰을 통해 경량 픽셀 디코더를 VLM에 통합하여 인스턴스 수준의 픽셀 출력을 생성합니다. 3단계 커리큘럼 SFT와 혼합 작업 RL을 통해 학습되었으며, 30개 이상의 벤치마크에서 객체 및 픽셀 작업 모두에서 뛰어난 성능을 입증했습니다.\n\n📍 2. Editing Images into Reusable Layers via Compositional Edit-Prior Distillation\n📝 설명: 편집 가능한 레이어 구조를 생성하여 이미지 편집과 레이어 분해를 동시에 수행하는 통합 프레임워크 제안. In-Context RGB-Alpha Token Modeling을 통한 편집 캔버스와 레이어 간의 통합 표현 방식 도입. Compositional Edit-Prior Distillation을 통한 편집 성능 유지 및 레이어 생성 최적화. 편집된 이미지를 다시 레이어별로 분리하여 그래픽 작업에 재사용할 수 있어, 생성형 AI 결과물의 사후 편집 편의성을 극대화합니다.\n\n📍 3. Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation\n📝 설명: MLLM의 잠재 표현을 활용하여 정교한 제어와 시간적 추론이 가능한 시네마틱 비디오 생성 프레임워크 제안. Latent-only generator grounding을 통해 DiT가 MLLM의 잠재 표현을 생성에 직접 활용하도록 학습. Factor-span replacement를 통해 특정 요소(캐릭터, 액션 등)만 변경하고 나머지는 유지하는 정교한 제어 구현. LLM의 풍부한 의미 정보를 비디오 생성 모델의 제어 신호로 변환하는 효과적인 방법론을 제시하여, 텍스트 기반의 정교한 영상 편집 및 생성 워크플로우 구축에 도움을 줌.\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
   "items": [
     {
       "rank": 1,
@@ -24,7 +24,7 @@
       "paper_id": "2610.31329",
       "url": "https://huggingface.co/papers/2610.31329",
       "arxiv_url": "https://arxiv.org/abs/2610.31329",
-      "upvotes": 220,
+      "upvotes": 231,
       "summary": "객체 탐지부터 픽셀 단위 세그멘테이션까지 하나의 모델로 해결하는 통합 시각 인지 VLM 모델",
       "korean_abstract": "기존의 시각-언어 모델(VLM)은 세밀한 시각적 인지 작업에서 신뢰도가 낮다는 문제를 가지고 있습니다. 이를 해결하기 위해 본 논문은 객체 수준과 픽셀 수준의 인지를 구조화된 차세대 토큰 예측 방식으로 통합한 WeVisOne-VL을 제안합니다. 아키텍처 측면에서는 특수 <OBJ> 토큰을 통해 경량 픽셀 디코더를 VLM에 통합하여 인스턴스 수준의 픽셀 출력을 생성합니다. 3단계 커리큘럼 SFT와 혼합 작업 RL을 통해 학습되었으며, 30개 이상의 벤치마크에서 객체 및 픽셀 작업 모두에서 뛰어난 성능을 입증했습니다. 결과적으로 이 모델은 광범위한 이해를 넘어 실세계 배포가 가능한 신뢰할 수 있는 인지 시스템을 지향합니다.",
       "key_points": [
@@ -62,93 +62,11 @@
     },
     {
       "rank": 2,
-      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
-      "paper_id": "2610.30926",
-      "url": "https://huggingface.co/papers/2610.30926",
-      "arxiv_url": "https://arxiv.org/abs/2610.30926",
-      "upvotes": 162,
-      "summary": "MLLM의 잠재 표현을 활용하여 정교한 제어와 시간적 추론이 가능한 시네마틱 비디오 생성 프레임워크 제안",
-      "korean_abstract": "고품질 시네마틱 비디오 생성을 위해서는 제한된 입력으로부터의 시간적 추론과 캐릭터, 장면, 카메라 등의 요소별 제어가 필수적입니다. 기존 MLLM은 유용한 사전 지식을 제공하지만, 비디오 생성 모델(DiT)이 이를 효과적으로 활용하지 못하거나 요소별 제어 및 시간적 예측 능력이 부족한 문제가 있습니다. 이를 해결하기 위해 본 논문은 FAPL(Factor-Aware Predictive Learning) 프레임워크를 제안합니다. FAPL은 DiT가 MLLM 잠재 표현을 활용하도록 학습시키고, 요소별 변화와 보존을 학습하는 factor-span replacement, 그리고 제한된 입력에서 전체 비디오를 예측하는 temporal inference 과정을 거칩니다. 실험 결과, 제안된 방식은 sparse-to-video, factor-aware editing 등 다양한 시네마틱 작업에서 기존 모델보다 우수한 성능을 입증했습니다.",
-      "key_points": [
-        "Latent-only generator grounding을 통해 DiT가 MLLM의 잠재 표현을 생성에 직접 활용하도록 학습",
-        "Factor-span replacement를 통해 특정 요소(캐릭터, 액션 등)만 변경하고 나머지는 유지하는 정교한 제어 구현",
-        "텍스트 및 부분 비디오 입력을 통한 시간적 추론 능력을 강화하여 sparse-to-video 작업 최적화"
-      ],
-      "tags": [
-        "Video Generation",
-        "MLLM",
-        "Diffusion Transformer",
-        "Control",
-        "Multimodal",
-        "Video",
-        "Inference"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "상",
-      "practical_relevance": "LLM의 풍부한 의미 정보를 비디오 생성 모델의 제어 신호로 변환하는 효과적인 방법론을 제시하여, 텍스트 기반의 정교한 영상 편집 및 생성 워크플로우 구축에 도움을 줌",
-      "recommended_actions": [
-        "제공된 FAPL 프레임워크를 기존 DiT 구조에 결합하여 잠재 표현 활용도 변화 측정",
-        "특정 요소(예: 카메라 앵글)만 변경하는 factor-aware 제어 성능 테스트",
-        "Sparse input(텍스트/이미지) 입력 시 생성된 비디오의 일관성 검증"
-      ],
-      "risks_and_limits": [
-        "MLLM과 DiT 간의 복잡한 최적화 과정으로 인해 학습 비용이 높을 수 있음",
-        "특정 요소 제어 시 의도치 않은 요소가 함께 변하는 factor leakage 가능성 존재"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30926.png",
-      "local_image_path": "images/Making_MLLM_Latents_Matter_Factor-Aware_Predictive_Learning_for_Cinematic_Video_Generation_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 3,
-      "title": "Deep Search in Real-World Web Environments",
-      "paper_id": "2610.30181",
-      "url": "https://huggingface.co/papers/2610.30181",
-      "arxiv_url": "https://arxiv.org/abs/2610.30181",
-      "upvotes": 147,
-      "summary": "실제 웹 환경에서의 복합적 정보 탐색 및 추론 능력을 평가하기 위한 새로운 벤치마크 OpenDS-World를 제안합니다.",
-      "korean_abstract": "기존의 딥 서치 에이전트는 정적인 데이터셋에 의존하여 실제 웹의 복잡한 상호작용과 분산된 정보를 다루는 능력을 평가하기 어려웠습니다. 이를 해결하기 위해 실시간 웹 탐색, 브라우저 상호작용, 다중 소스 증거 통합 능력을 요구하는 OpenDS 태스크를 도입했습니다. 연구진은 200개의 도전적인 과제로 구성된 OpenDS-World 벤치마크를 구축하고 12개의 최첨단 모델을 평가했습니다. 실험 결과, 최고 성능 모델의 정확도는 39.0%에 그쳤으며 인간의 정확도(21.1%)보다는 높지만 여전히 복잡한 탐색 과제에서 한계를 보였습니다. 이 연구는 에이전트의 자율적 딥 서치 역량을 체계적으로 평가할 수 있는 플랫폼을 제공합니다.",
-      "key_points": [
-        "실제 웹 환경의 복잡성을 반영한 OpenDS 태스크 및 OpenDS-World 벤합 구축",
-        "검색, 브라우징, 증거 통합을 아우르는 엔드투엔드 에이전트 평가 프레임워크 제안",
-        "다양한 모달리티와 파일 형식을 포함한 200개의 고난도 태스크 및 인간 검증 데이터 확보"
-      ],
-      "tags": [
-        "AI Agent",
-        "Web Navigation",
-        "Benchmark",
-        "Information Retrieval",
-        "Agent",
-        "RAG",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "단순 RAG를 넘어, 에이전트가 직접 웹을 탐색하고 정보를 수집하는 '자율적 리서치 에이전트' 개발 시 성능 측정의 기준이 됩니다.",
-      "recommended_actions": [
-        "제안된 OpenDS-World 벤치마크를 활용하여 현재 개발 중인 에이전트의 웹 탐색 성능 측정",
-        "에이전트의 도구 사용(Tool-use) 및 검색 비용(Search cost) 최적화 전략 비교",
-        "장기적 탐색(Long-horizon search) 시 발생하는 실패 복구(Failure recovery) 로직 테스트"
-      ],
-      "risks_and_limits": [
-        "실제 웹 환경의 동적 특성으로 인해 벤치마크 데이터의 유효성 유지 관리가 어려울 수 있음",
-        "모델별로 상이한 검색 전략과 도구 조정 능력 차이로 인해 일관된 비교가 복잡할 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30181.png",
-      "local_image_path": "images/Deep_Search_in_Real-World_Web_Environments_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 4,
       "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
       "paper_id": "2610.24738",
       "url": "https://huggingface.co/papers/2610.24738",
       "arxiv_url": "https://arxiv.org/abs/2610.24738",
-      "upvotes": 73,
+      "upvotes": 175,
       "summary": "편집 가능한 레이어 구조를 생성하여 이미지 편집과 레이어 분해를 동시에 수행하는 통합 프레임워크 제안",
       "korean_abstract": "기존의 이미지 편집 모델은 결과물이 단일 평면(flattened) 형태로 생성되어 국소적인 조작이나 레이어 재사용이 어렵다는 문제가 있었습니다. 또한 기존 분해 방식은 편집 지시사항과 레이어 복구 과정을 별도로 최적화하는 한계가 있었습니다. 이를 해결하기 위해 본 논문은 지시어 기반 편집과 재사용 가능한 RGBA 레이어 생성을 결합한 LayerEditor 프레임워크를 제안합니다. 핵심 기술인 In-Context RGB-Alpha Token Modeling은 편집된 캔버스와 순차적인 레이어 정보를 하나의 토큰 시퀀스로 통합 관리합니다. 또한 Compositional Edit-Prior Distillation을 통해 사전 학습된 모델의 편집 능력을 유지하면서 레이어 생성 능력을 확보했습니다. 실험 결과, LayerEditor는 높은 편집 충실도를 유지하면서도 정교한 레이어 분해와 유연한 조작을 가능하게 함을 입증했습니다.",
       "key_points": [
@@ -189,12 +107,94 @@
       ]
     },
     {
+      "rank": 3,
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "paper_id": "2610.30926",
+      "url": "https://huggingface.co/papers/2610.30926",
+      "arxiv_url": "https://arxiv.org/abs/2610.30926",
+      "upvotes": 165,
+      "summary": "MLLM의 잠재 표현을 활용하여 정교한 제어와 시간적 추론이 가능한 시네마틱 비디오 생성 프레임워크 제안",
+      "korean_abstract": "고품질 시네마틱 비디오 생성을 위해서는 제한된 입력으로부터의 시간적 추론과 캐릭터, 장면, 카메라 등의 요소별 제어가 필수적입니다. 기존 MLLM은 유용한 사전 지식을 제공하지만, 비디오 생성 모델(DiT)이 이를 효과적으로 활용하지 못하거나 요소별 제어 및 시간적 예측 능력이 부족한 문제가 있습니다. 이를 해결하기 위해 본 논문은 FAPL(Factor-Aware Predictive Learning) 프레임워크를 제안합니다. FAPL은 DiT가 MLLM 잠재 표현을 활용하도록 학습시키고, 요소별 변화와 보존을 학습하는 factor-span replacement, 그리고 제한된 입력에서 전체 비디오를 예측하는 temporal inference 과정을 거칩니다. 실험 결과, 제안된 방식은 sparse-to-video, factor-aware editing 등 다양한 시네마틱 작업에서 기존 모델보다 우수한 성능을 입증했습니다.",
+      "key_points": [
+        "Latent-only generator grounding을 통해 DiT가 MLLM의 잠재 표현을 생성에 직접 활용하도록 학습",
+        "Factor-span replacement를 통해 특정 요소(캐릭터, 액션 등)만 변경하고 나머지는 유지하는 정교한 제어 구현",
+        "텍스트 및 부분 비디오 입력을 통한 시간적 추론 능력을 강화하여 sparse-to-video 작업 최적화"
+      ],
+      "tags": [
+        "Video Generation",
+        "MLLM",
+        "Diffusion Transformer",
+        "Control",
+        "Multimodal",
+        "Video",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "LLM의 풍부한 의미 정보를 비디오 생성 모델의 제어 신호로 변환하는 효과적인 방법론을 제시하여, 텍스트 기반의 정교한 영상 편집 및 생성 워크플로우 구축에 도움을 줌",
+      "recommended_actions": [
+        "제공된 FAPL 프레임워크를 기존 DiT 구조에 결합하여 잠재 표현 활용도 변화 측정",
+        "특정 요소(예: 카메라 앵글)만 변경하는 factor-aware 제어 성능 테스트",
+        "Sparse input(텍스트/이미지) 입력 시 생성된 비디오의 일관성 검증"
+      ],
+      "risks_and_limits": [
+        "MLLM과 DiT 간의 복잡한 최적화 과정으로 인해 학습 비용이 높을 수 있음",
+        "특정 요소 제어 시 의도치 않은 요소가 함께 변하는 factor leakage 가능성 존재"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30926.png",
+      "local_image_path": "images/Making_MLLM_Latents_Matter_Factor-Aware_Predictive_Learning_for_Cinematic_Video_Generation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "Deep Search in Real-World Web Environments",
+      "paper_id": "2610.30181",
+      "url": "https://huggingface.co/papers/2610.30181",
+      "arxiv_url": "https://arxiv.org/abs/2610.30181",
+      "upvotes": 154,
+      "summary": "실제 웹 환경에서의 복합적 정보 탐색 및 추론 능력을 평가하기 위한 새로운 벤치마크 OpenDS-World를 제안합니다.",
+      "korean_abstract": "기존의 딥 서치 에이전트는 정적인 데이터셋에 의존하여 실제 웹의 복잡한 상호작용과 분산된 정보를 다루는 능력을 평가하기 어려웠습니다. 이를 해결하기 위해 실시간 웹 탐색, 브라우저 상호작용, 다중 소스 증거 통합 능력을 요구하는 OpenDS 태스크를 도입했습니다. 연구진은 200개의 도전적인 과제로 구성된 OpenDS-World 벤치마크를 구축하고 12개의 최첨단 모델을 평가했습니다. 실험 결과, 최고 성능 모델의 정확도는 39.0%에 그쳤으며 인간의 정확도(21.1%)보다는 높지만 여전히 복잡한 탐색 과제에서 한계를 보였습니다. 이 연구는 에이전트의 자율적 딥 서치 역량을 체계적으로 평가할 수 있는 플랫폼을 제공합니다.",
+      "key_points": [
+        "실제 웹 환경의 복잡성을 반영한 OpenDS 태스크 및 OpenDS-World 벤합 구축",
+        "검색, 브라우징, 증거 통합을 아우르는 엔드투엔드 에이전트 평가 프레임워크 제안",
+        "다양한 모달리티와 파일 형식을 포함한 200개의 고난도 태스크 및 인간 검증 데이터 확보"
+      ],
+      "tags": [
+        "AI Agent",
+        "Web Navigation",
+        "Benchmark",
+        "Information Retrieval",
+        "Agent",
+        "RAG",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "단순 RAG를 넘어, 에이전트가 직접 웹을 탐색하고 정보를 수집하는 '자율적 리서치 에이전트' 개발 시 성능 측정의 기준이 됩니다.",
+      "recommended_actions": [
+        "제안된 OpenDS-World 벤치마크를 활용하여 현재 개발 중인 에이전트의 웹 탐색 성능 측정",
+        "에이전트의 도구 사용(Tool-use) 및 검색 비용(Search cost) 최적화 전략 비교",
+        "장기적 탐색(Long-horizon search) 시 발생하는 실패 복구(Failure recovery) 로직 테스트"
+      ],
+      "risks_and_limits": [
+        "실제 웹 환경의 동적 특성으로 인해 벤치마크 데이터의 유효성 유지 관리가 어려울 수 있음",
+        "모델별로 상이한 검색 전략과 도구 조정 능력 차이로 인해 일관된 비교가 복잡할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30181.png",
+      "local_image_path": "images/Deep_Search_in_Real-World_Web_Environments_img.jpg",
+      "local_figures": []
+    },
+    {
       "rank": 5,
       "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
       "paper_id": "2610.30949",
       "url": "https://huggingface.co/papers/2610.30949",
       "arxiv_url": "https://arxiv.org/abs/2610.30949",
-      "upvotes": 53,
+      "upvotes": 86,
       "summary": "320B 파라미터 규모의 MoE 구조를 활용하여 코딩 및 에이전트 역량을 극대화한 차세대 CLI 시스템용 파운데이션 모델",
       "korean_abstract": "에이전트 기반의 CLI 시스템을 위해 강력한 코딩 및 일반 작업 수행 능력을 갖춘 파운데님 모델이 필요해졌습니다. 이를 위해 총 320B(활성 15B) 파라미터 규모의 희소 MoE 모델인 IQuest-Q1을 제안합니다. 학습은 안정적인 사전 학습, 도메인 확장 중심의 미드 트레이닝, 그리고 SFT와 RL을 결합한 멀티 스캐폴드 사후 학습의 3단계 과정을 거칩니다. 특히 모델 병합 기술을 통해 서로 다른 단계의 전문가와 체크포인트를 충돌 없이 통합했습니다. 그 결과, IQuest-Q1은 코딩과 일반 작업 모두에서 뛰어난 성능을 보이며 오픈 소스로 공개되었습니다.",
       "key_points": [
@@ -232,7 +232,7 @@
       "paper_id": "2610.29677",
       "url": "https://huggingface.co/papers/2610.29677",
       "arxiv_url": "https://arxiv.org/abs/2610.29677",
-      "upvotes": 45,
+      "upvotes": 50,
       "summary": "물리적 환경에서의 재귀적 자기 개선(RSI) 메커니즘과 이를 위한 평가 원칙 제안",
       "korean_abstract": "디지털 에이전트의 코드 재작성 방식과 같은 재귀적 자기 개선(RSI) 개념을 물리적 로봇 시스템에 적용하려는 시도가 늘고 있습니다. 하지만 물리적 세계에서는 불완전한 관측, 비용이 발생하는 시행착오, 가역적이지 않은 결과와 같은 독특한 제약 조건이 존재합니다. 본 논문은 로봇 학습의 관점에서 역량 개선이 개선 프로세스 자체의 개선으로 이어지는 경로를 탐구합니다. 기존 연구들을 분석하여 물리적 경험이 어떻게 개선 메커니즘을 강화할 수 있는지, 그리고 그 이득이 지속 가능한지를 검토합니다. 최종적으로 물리적 환경에서 안전하고 효율적인 자기 개선을 달성하기 위한 평가 원칙과 연구 방향을 제시합니다.",
       "key_points": [
@@ -272,7 +272,7 @@
       "paper_id": "2610.25100",
       "url": "https://huggingface.co/papers/2610.25100",
       "arxiv_url": "https://arxiv.org/abs/2610.25100",
-      "upvotes": 39,
+      "upvotes": 41,
       "summary": "추가적인 검색 과정 없이 학습된 파라미터만으로 외부 지식을 주입하는 효율적인 청크 단위 메모리 아키텍처 제안",
       "korean_abstract": "LLM이 사전 학습된 지식 외의 외부 지식을 습득하기 위해 지속적 사전 학습이나 추론 시 검색(Retrieval)을 사용하지만, 전자는 망각 위험이 있고 후자는 오버헤드가 큽니다. 기존의 파라미터 메모리 방식은 데이터 구축 비용이 높고 결합 방식이 표면적이라는 한계가 있습니다. 본 논문은 인과적 메모리 예측기(Causal Memory Predictor)를 통해 문맥으로부터 메모리를 생성하고, 이를 게이트형 교차 주의집중(Gated Cross-attention)으로 은닉 상태에 융합하는 DFM을 제안합니다. DFM은 추론 시 별도의 검색 과정이 필요 없으며, 데이터 구축 시 검색 쿼리 및 검색 아이템 수를 획기적으로 줄였습니다. 실험 결과, QA 작업 및 도메인 적응 성능에서 기존 베이스라인 대비 우수한 성능 향상을 입증했습니다.",
       "key_points": [
@@ -314,7 +314,7 @@
       "paper_id": "2610.23987",
       "url": "https://huggingface.co/papers/2610.23987",
       "arxiv_url": "https://arxiv.org/abs/2610.23987",
-      "upvotes": 31,
+      "upvotes": 32,
       "summary": "생성 모델의 내부 표현(representation)을 활용하여 멀티모달 모델의 세밀한 시각적 이해 능력을 극대화하는 프레임워크 제안",
       "korean_abstract": "기존의 통합 멀티모달 모델(UMM)은 생성 능력을 갖추고 있음에도 불구하고, 생성 과정의 풍부한 정보를 이해 작업에 직접 활용하는 데 한계가 있었습니다. 본 논문은 생성 측의 표현이 세밀한 의미 변화와 공간적 관계를 포착하는 데 더 민감하다는 점을 체계적으로 분석했습니다. 이를 바탕으로 생성 측의 시각적 표현을 압축된 G-token으로 변환하여 이해 경로에서 활용할 수 있는 GAFU 프레임워크를 설계했습니다. 실험 결과, GAFU는 다양한 시각적 이해 벤치마크에서 기존 SFT 방식보다 월등한 성능 향상을 보였습니다. 결과적으로 생성과 이해 경로 간의 시너지를 통해 정교한 시각적 이해를 달성할 수 있음을 입증했습니다.",
       "key_points": [
@@ -353,11 +353,54 @@
     },
     {
       "rank": 9,
+      "title": "Self-Distilling Future Video Representations for World Action Models",
+      "paper_id": "2610.30320",
+      "url": "https://huggingface.co/papers/2610.30320",
+      "arxiv_url": "https://arxiv.org/abs/2610.30320",
+      "upvotes": 30,
+      "summary": "단 한 번의 디노이징만으로 고품질 미래 비디오 표현을 생성하여 로봇의 제어 성능과 제로샷 일반화 능력을 극대화하는 프레임워크",
+      "korean_abstract": null,
+      "key_points": [
+        "FRED: 자기 증류(Self-distillation)를 통해 노이즈로부터 고품질 미래 비디오 표현을 추출하는 프레임워크 제안",
+        "과거 관측 데이터를 조건부로 사용하여 미래 표현 예측의 정확도를 높이는 시간적 문맥 활용",
+        "제로샷 환경 일반화 및 인간 영상 기반의 로봇 기술 전이(Human-to-robot transfer) 성능 대폭 향상"
+      ],
+      "tags": [
+        "Robot-Policy",
+        "Diffusion-Model",
+        "Self-Distillation",
+        "Zero-Shot",
+        "Video",
+        "Inference",
+        "Distillation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "비디오 생성 모델의 무거운 반복 연산 없이도 고성능 로봇 제어 정책을 얻을 수 있는 효율적인 학습 방법론을 제시합니다.",
+      "recommended_actions": [
+        "제시된 FRED 프레임워크를 기존 WAM 구조에 적용하여 단일 단계 디노이징 성능 비교",
+        "다양한 시간적 문맥(Historical observations) 길이에 따른 미래 표현 예측 정확도 변화 측정",
+        "인간 데모 데이터만으로 학습했을 때의 제로샷 성능 벤치마크 테스트"
+      ],
+      "risks_and_limits": [
+        "미래 표현의 품질이 전체 로봇 정책 성능을 결정하는 병목 현상 발생 가능성",
+        "학습 시 사용되는 ground-truth 미래 표현에 대한 의존도 및 분포 차이 문제"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30320.png",
+      "local_image_path": "images/Self-Distilling_Future_Video_Representations_for_World_Action_Models_img.jpg",
+      "local_figures": [
+        "images/Self-Distilling_Future_Video_Representations_for_W_fig_2.png"
+      ]
+    },
+    {
+      "rank": 10,
       "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
       "paper_id": "2610.27851",
       "url": "https://huggingface.co/papers/2610.27851",
       "arxiv_url": "https://arxiv.org/abs/2610.27851",
-      "upvotes": 27,
+      "upvotes": 29,
       "summary": "자연어 액션을 인터페이스로 활용하여 이종 데이터(시뮬레이션, 로봇, 비디오)를 통합 학습하는 효율적인 잠재 월드 모델(LWM) 프레임워크 제안",
       "korean_abstract": "기존의 잠재 월드 모델(LWM)은 서로 다른 도메인과 데이터 소스 간의 통합 학습이 어려워 범용적인 계획 수립에 한계가 있었습니다. 본 논문은 비디오 생성 모델의 언어 조건부 인터페이스를 채택하여 다양한 데이터셋을 통합할 수 있는 LaLa-World를 제안합니다. 수치적 액션과 시각적 변화를 모두 언어로 기술하고, 언어 모델 기반의 예측기를 구축하여 이종 데이터 간의 공동 학습을 가능하게 했습니다. 실험 결과, LaLa-World는 기존 방식보다 높은 MPC 계획 성능을 보였으며 비디오 데이터 추가 시 강건성도 향상되었습니다. 또한, 제안된 LaLa-Policy는 기존 모델 대비 훨씬 빠른 추론 속도를 유지하면서도 경쟁력 있는 정책 성능을 달성했습니다.",
       "key_points": [
@@ -394,7 +437,49 @@
       "local_figures": []
     },
     {
-      "rank": 10,
+      "rank": 11,
+      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+      "paper_id": "2610.30753",
+      "url": "https://huggingface.co/papers/2610.30753",
+      "arxiv_url": "https://arxiv.org/abs/2610.30753",
+      "upvotes": 26,
+      "summary": "자연어 지시나 참조 영상을 기반으로 복잡한 3D 카메라 움직임을 자동 생성하는 에이전트 기반 시네마토그래피 프레임워크",
+      "korean_abstract": "시각적 스토리텔링에서 복잡한 카메라 움직임은 중요하지만, 이를 제어 가능한 궤적으로 변환하는 것은 여전히 어려운 과제입니다. 본 논문은 자연어 지시나 참조 영상을 실행 가능한 3적 카메라 궤적으로 변환하는 에이전트 프레임워크인 FilmFlow를 제안합니다. FilmFlow는 Director 에이전트가 고수준의 움직임을 원자적 작업으로 구성하며, 이를 Interpreter, Scout, Critic 에이전트가 지원하는 구조를 가집니다. 또한 750개의 텍스트 기반 작업과 60개의 참조 영상을 포함하는 벤치마크인 CinemaBench를 함께 도입했습니다. 실험 결과, FilmFlow는 기존 베이스라인 대비 가장 높은 성능과 사용자 선호도를 기록하며 뛰어난 공간 추론 및 시각적 구도 능력을 입증했습니다.",
+      "key_points": [
+        "자연어 및 참조 영상을 실행 가능한 3D 카메라 궤적으로 변환하는 에이전트 프레임워크 제안",
+        "Director, Interpreter, Scout, Critic으로 구성된 전문화된 멀티 에이전트 시스템 구조",
+        "텍스트 및 비디오 참조 기반 카메라 생성을 평가하기 위한 새로운 벤치마크 CinemaBench 구축"
+      ],
+      "tags": [
+        "Agent",
+        "3D",
+        "Computer Vision",
+        "Automation",
+        "Reasoning",
+        "Video",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "3D 콘텐츠 제작 자동화 및 가상 환경에서의 자동 카메라 연출 기술을 구현하려는 개발자에게 실질적인 워크플로우를 제공합니다.",
+      "recommended_actions": [
+        "Blender 등 3D 엔진 환경에서 제안된 에이전트 워크플로우의 실행 가능성 검토",
+        "자연어 지시가 복잡한 카메라 궤적(Rotation/Translation)으로 변환되는 정밀도 테스트",
+        "기존의 단순한 카메라 경로 생성 알고리즘과 FilmFlow의 결과물 비교 실험"
+      ],
+      "risks_and_limits": [
+        "에이전트 간의 반복적인 피드백 루프로 인한 연산 비용 및 생성 시간 발생 가능성",
+        "복잡한 3D 장면 내에서의 물리적 충돌이나 비현실적인 카메라 움직임 발생 위험"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30753.png",
+      "local_image_path": "images/FilmFlow_Agentic_System_for_3D_Virtual_Film_Cinematography_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 12,
       "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
       "paper_id": "2610.27598",
       "url": "https://huggingface.co/papers/2610.27598",
@@ -434,12 +519,12 @@
       "local_figures": []
     },
     {
-      "rank": 11,
+      "rank": 13,
       "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
       "paper_id": "2610.28889",
       "url": "https://huggingface.co/papers/2610.28889",
       "arxiv_url": "https://arxiv.org/abs/2610.28889",
-      "upvotes": 22,
+      "upvotes": 24,
       "summary": "제한된 채널 예산 내에서 최적의 타임스텝, 블록, 채널을 동시에 선택하는 정책 학습 기반의 디퓨전 특징 추출 기법",
       "korean_abstract": "사전 학습된 디퓨전 모델의 중간 특징을 판별 작업에 활용할 때, 유용한 신호가 타임스텝, 네트워크 깊이, 채널에 분산되어 있어 선택이 어렵습니다. 기존 방식은 수동으로 설정하거나 타임스텝 위주의 단순 최적화에 그쳐 다양한 예산 조건에 유연하게 대응하지 못했습니다. 본 논문은 주어진 채널 예산 내에서 타임스텝, 블록, 채널을 동시에 선택하는 'Policy-Mask'를 제안합니다. 학습 안정성을 위해 채널 선택 점수를 부분 집합 크기로 정규화하여 세 가지 정책 헤드가 균형 있게 학습되도록 설계했습니다. 실험 결과, 세그멘테이션, 분류, 의미론적 대응 작업에서 기존 방식보다 우수한 성능을 보였으며 효율적인 특징 추출 능력을 입증했습니다.",
       "key_points": [
@@ -473,50 +558,52 @@
       "local_figures": []
     },
     {
-      "rank": 12,
-      "title": "Self-Distilling Future Video Representations for World Action Models",
-      "paper_id": "2610.30320",
-      "url": "https://huggingface.co/papers/2610.30320",
-      "arxiv_url": "https://arxiv.org/abs/2610.30320",
-      "upvotes": 20,
-      "summary": "단 한 번의 디노이징만으로 고품질 미래 비디오 표현을 생성하여 로봇의 제어 성능과 제로샷 일반화 능력을 극대화하는 프레임워크",
-      "korean_abstract": null,
+      "rank": 14,
+      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+      "paper_id": "2610.28416",
+      "url": "https://huggingface.co/papers/2610.28416",
+      "arxiv_url": "https://arxiv.org/abs/2610.28416",
+      "upvotes": 19,
+      "summary": "T2V, I2V, V2V를 아우르는 코드 기반 비디오 생성 성능을 측정하기 위한 포괄적인 벤치마크 제안",
+      "korean_abstract": "코드 기반 비디오 생성은 정밀한 제어와 편집이 가능하지만, 기존 벤치마크는 특정 작업에 국한되어 다양한 모달리티와 창의적 범주를 평가하기에 부족했습니다. 본 논문은 T2V, Iзо, V2V 설정을 모두 포함하는 범용 벤치마크인 Code2Video-Compass를 제안합니다. 이 벤치마크는 10개 카테고리와 24개 하위 유형, 그리고 구성·애니메이션·상태 의존성이라는 세 가지 복잡도 차원을 가진 2,104개의 태스크로 구성됩니다. 평가는 12개의 객관적 지표와 MLLM을 활용한 5개의 주관적 지표를 결합한 이중 수준 프레임워크를 통해 이루어집니다. 최신 MLLM들을 대상으로 실험한 결과, 모델의 성능은 복잡도가 증가할수록 하락하며 현재 기술로는 고품질 비디오 생성이 여전히 도전적인 과제임을 확인했습니다.",
       "key_points": [
-        "FRED: 자기 증류(Self-distillation)를 통해 노이즈로부터 고품질 미래 비디오 표현을 추출하는 프레임워크 제안",
-        "과거 관측 데이터를 조건부로 사용하여 미래 표현 예측의 정확도를 높이는 시간적 문맥 활용",
-        "제로샷 환경 일반화 및 인간 영상 기반의 로봇 기술 전이(Human-to-robot transfer) 성능 대폭 향상"
+        "T2V, I2V, V2V를 모두 아우르는 범용 코드 기반 비디오 생성 벤치마크 구축",
+        "구성, 동적 애니메이션, 상태 의존성 등 세 가지 차원의 복잡도를 반영한 2,104개 태스크 설계",
+        "객관적 지표와 MLLM 기반 주관적 평가를 결합한 이중 수준 평가 프레임워크 제안"
       ],
       "tags": [
-        "Robot-Policy",
-        "Diffusion-Model",
-        "Self-Distillation",
-        "Zero-Shot",
+        "Video Generation",
+        "MLLM",
+        "Benchmark",
+        "Code-to-Video",
+        "Multimodal",
+        "Vision",
         "Video",
-        "Inference",
-        "Distillation"
+        "Evaluation",
+        "Safety"
       ],
       "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "비디오 생성 모델의 무거운 반복 연산 없이도 고성능 로봇 제어 정책을 얻을 수 있는 효율적인 학습 방법론을 제시합니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "코드 생성형 비디오 에이전트 개발 시, 모델의 제어 능력과 복잡한 시각적 요구사항 충족 여부를 정밀하게 측정할 수 있는 기준을 제공합니다.",
       "recommended_actions": [
-        "제시된 FRED 프레임워크를 기존 WAM 구조에 적용하여 단일 단계 디노이징 성능 비교",
-        "다양한 시간적 문맥(Historical observations) 길이에 따른 미래 표현 예측 정확도 변화 측정",
-        "인간 데모 데이터만으로 학습했을 때의 제로샷 성능 벤치마크 테스트"
+        "제안된 벤치마크 데이터셋을 활용하여 현재 사용 중인 MLLM의 비디오 생성 능력 테스트",
+        "복잡도 차원(애니메이션, 상태 의존성 등)에 따른 모델의 성능 저하 구간 파악",
+        "코드 기반 비디오 생성 파이프라인 구축 시 벤치마크 지표를 최적화 목표로 설정"
       ],
       "risks_and_limits": [
-        "미래 표현의 품질이 전체 로봇 정책 성능을 결정하는 병목 현상 발생 가능성",
-        "학습 시 사용되는 ground-truth 미래 표현에 대한 의존도 및 분포 차이 문제"
+        "복잡도가 높은 태스크에서 모델 성능이 급격히 저하되는 현상 존재",
+        "주관적 평가에 MLLM을 사용하므로 평가 모델 자체의 편향 가능성 존재"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30320.png",
-      "local_image_path": "images/Self-Distilling_Future_Video_Representations_for_World_Action_Models_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28416.png",
+      "local_image_path": "images/Code2Video-Compass_A_Comprehensive_Benchmark_for_General-Purpose_Code-Based_Video_Generation_across__img.jpg",
       "local_figures": [
-        "images/Self-Distilling_Future_Video_Representations_for_W_fig_2.png"
+        "images/Code2Video-Compass_A_Comprehensive_Benchmark_for_G_fig_2.jpeg"
       ]
     },
     {
-      "rank": 13,
+      "rank": 15,
       "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
       "paper_id": "2610.26233",
       "url": "https://huggingface.co/papers/2610.26233",
@@ -561,57 +648,54 @@
       "local_figures": []
     },
     {
-      "rank": 14,
-      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
-      "paper_id": "2610.28416",
-      "url": "https://huggingface.co/papers/2610.28416",
-      "arxiv_url": "https://arxiv.org/abs/2610.28416",
+      "rank": 16,
+      "title": "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
+      "paper_id": "2610.19705",
+      "url": "https://huggingface.co/papers/2610.19705",
+      "arxiv_url": "https://arxiv.org/abs/2610.19705",
       "upvotes": 17,
-      "summary": "T2V, I2V, V2V를 아우르는 코드 기반 비디오 생성 성능을 측정하기 위한 포괄적인 벤치마크 제안",
-      "korean_abstract": "코드 기반 비디오 생성은 정밀한 제어와 편집이 가능하지만, 기존 벤치마크는 특정 작업에 국한되어 다양한 모달리티와 창의적 범주를 평가하기에 부족했습니다. 본 논문은 T2V, Iзо, V2V 설정을 모두 포함하는 범용 벤치마크인 Code2Video-Compass를 제안합니다. 이 벤치마크는 10개 카테고리와 24개 하위 유형, 그리고 구성·애니메이션·상태 의존성이라는 세 가지 복잡도 차원을 가진 2,104개의 태스크로 구성됩니다. 평가는 12개의 객관적 지표와 MLLM을 활용한 5개의 주관적 지표를 결합한 이중 수준 프레임워크를 통해 이루어집니다. 최신 MLLM들을 대상으로 실험한 결과, 모델의 성능은 복잡도가 증가할수록 하락하며 현재 기술로는 고품질 비디오 생성이 여전히 도전적인 과제임을 확인했습니다.",
+      "summary": "모드 선택과 모델 선택을 하나의 정책으로 통합하여 쿼리 요구사항에 따라 실행 방식까지 동적으로 결정하는 LLM 라우팅 프레임워크",
+      "korean_abstract": "기존의 LLM 라우팅 방식은 단일 라운드나 에이전트 방식 등 미리 정의된 실행 패러다임에 갇혀 있어 다양한 쿼리 요구사항에 유연하게 대응하기 어려웠습니다. 이를 해결하기 위해 모드 선택과 모델 선택을 하나의 LLM 정책 내에서 통합하는 RouteWeaver 프레임워크를 제안합니다. 학습을 위해 모드 선택과 실행 단계의 보상을 분리하여 정교한 신호를 제공하는 COMET-GRPO 알고리즘을 개발했습니다. 또한, 학습 초기에는 지정된 모드를 익히고 점차 자율 선택으로 전환하는 점진적 탐색(Progressive Exploration) 기법을 도입했습니다. 실험 결과, 수학, 코딩, 논리 등 다양한 도메인에서 기존 베이스라인 대비 높은 정확도 향상을 달зо했습니다.",
       "key_points": [
-        "T2V, I2V, V2V를 모두 아우르는 범용 코드 기반 비디오 생성 벤치마크 구축",
-        "구성, 동적 애니메이션, 상태 의존성 등 세 가지 차원의 복잡도를 반영한 2,104개 태스크 설계",
-        "객관적 지표와 MLLM 기반 주관적 평가를 결합한 이중 수준 평가 프레임워크 제안"
+        "모드 선택(Single/Multi-round/Agentic)과 모델 선택을 하나의 통합된 정책으로 학습",
+        "COMET-GRPO를 통한 모드 결정과 실행 단계 간의 정교한 신호 분리 및 신용 할당(Credit Assignment)",
+        "점진적 탐색(Progressive Exploration)을 통해 모드 실행 능력을 먼저 학습한 후 자율 선택으로 전환"
       ],
       "tags": [
-        "Video Generation",
-        "MLLM",
-        "Benchmark",
-        "Code-to-Video",
-        "Multimodal",
-        "Vision",
-        "Video",
-        "Evaluation",
-        "Safety"
+        "LLM Routing",
+        "Reinforcement Learning",
+        "Agentic Workflow",
+        "Optimization",
+        "Agent",
+        "RAG",
+        "Reasoning",
+        "Evaluation"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "코드 생성형 비디오 에이전트 개발 시, 모델의 제어 능력과 복잡한 시각적 요구사항 충족 여부를 정밀하게 측정할 수 있는 기준을 제공합니다.",
+      "adoption_complexity": "상",
+      "practical_relevance": "고정된 워크플로우 대신 쿼리 난이도에 따라 에이전트 모드나 단일 호출 모드를 스스로 결정함으로써 비용과 성능 사이의 최적 균형을 맞출 수 있습니다.",
       "recommended_actions": [
-        "제안된 벤치마크 데이터셋을 활용하여 현재 사용 중인 MLLM의 비디오 생성 능력 테스트",
-        "복잡도 차원(애니메이션, 상태 의존성 등)에 따른 모델의 성능 저하 구간 파악",
-        "코드 기반 비디오 생성 파이프라인 구축 시 벤치마크 지표를 최적화 목표로 설정"
+        "다양한 복잡도를 가진 쿼리 셋을 구성하여 모드 전환 양상 관찰",
+        "COMET-GRPO의 보상 분리 방식이 특정 모드로 쏠리는 현상을 방지하는지 검증",
+        "단일 라운드 대비 에이전트 모드 사용 시의 비용-성능 효율성 분석"
       ],
       "risks_and_limits": [
-        "복잡도가 높은 태스크에서 모델 성능이 급격히 저하되는 현상 존재",
-        "주관적 평가에 MLLM을 사용하므로 평가 모델 자체의 편향 가능성 존재"
+        "학습 과정에서 특정 모드로 편향될 경우(예: 단일 라운드로 수렴) 성능 저하 위험",
+        "모드 선택과 실행이 결합되어 있어 학습 난이도가 매우 높음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28416.png",
-      "local_image_path": "images/Code2Video-Compass_A_Comprehensive_Benchmark_for_General-Purpose_Code-Based_Video_Generation_across__img.jpg",
-      "local_figures": [
-        "images/Code2Video-Compass_A_Comprehensive_Benchmark_for_G_fig_2.jpeg"
-      ]
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.19705.png",
+      "local_image_path": "images/RouteWeaver_Weaving_Mode_Selection_and_Execution_into_Unified_LLM_Routing_img.jpg",
+      "local_figures": []
     },
     {
-      "rank": 15,
+      "rank": 17,
       "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
       "paper_id": "2610.31158",
       "url": "https://huggingface.co/papers/2610.31158",
       "arxiv_url": "https://arxiv.org/abs/2610.31158",
-      "upvotes": 16,
+      "upvotes": 17,
       "summary": "비디오 콘텐츠를 기반으로 외부 정보를 결합하여 심층 리포트를 생성하는 에이전트 성능 평가 벤치마크 제안",
       "korean_abstract": "심층 리서치 에이전트는 웹 정보를 종합하여 리포트를 작성하지만, 기존 벤치마크는 비디오 중심의 리서치 능력을 평가하지 못합니다. 본 논문은 비디오와 사용자 요청을 결합해 외부 멀티모달 증거를 수집하고 상호작용형 리포트를 생성하는 과제를 정의합니다. 이를 위해 스킬 기반 워크플로우와 6,414개의 세부 기준을 포함한 OmniDR-Bench를 제안합니다. 평가를 위해 오디오-비주얼 접지 및 멀티모달 증거 활용 능력을 검증하는 Omni-ARTs 프레임워크를 도입했습니다. 실험 결과, 현재의 에이전트들은 논리적 분석과 정확한 인용 지원 측면에서 여전히 개선의 여지가 있음을 확인했습니다.",
       "key_points": [
@@ -648,12 +732,54 @@
       "local_figures": []
     },
     {
-      "rank": 16,
+      "rank": 18,
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "paper_id": "2610.30418",
+      "url": "https://huggingface.co/papers/2610.30418",
+      "arxiv_url": "https://arxiv.org/abs/2610.30418",
+      "upvotes": 16,
+      "summary": "에이전트가 여러 문서를 조합해 민감한 정보를 유출하는 '모자이크 효과'의 위험성과 방어 기제의 한계를 규명함",
+      "korean_abstract": "최신 LLM 에이전트는 개별 문서를 조회하여 정보를 수집하고, 이를 조합해 민감한 결론을 도출하는 '모자이크 효과'로 인한 보안 위협을 초래할 수 있습니다. 본 연구는 사이버 보안, 의료, 군사 분야의 합성 시나리오를 통해 에이전트의 정보 유출 위험을 정량적으로 분석했습니다. 실험 결과, 최상위 모델조차 일반적인 질의 상황에서 금지된 결합 정보를 유출하는 사례가 빈번하게 발생했습니다. 분류 헤더나 집계 규칙 같은 방어책을 도입했음에도 불구하고, 여전히 상당한 비율로 보안 위반이 발생하는 것을 확인했습니다. 특히 거절(Refusal) 응답이 발생하더라도 그 과정에서 이미 민감한 결론이 노출되는 문제가 발견되었습니다. 결과적으로 에이전트 시스템 설계 시 추론 및 공개 권한에 대한 더욱 강력한 통제 메커니즘이 필요함을 시사합니다.",
+      "key_points": [
+        "개별 문서로는 안전하지만 조합 시 민감 정보가 되는 '모자이크 효과' 위험성 입증",
+        "기존의 분류 헤더 및 집계 규칙 기반 방어책의 불완전성 확인",
+        "거절(Refusal) 응답이 오히려 민감한 결론을 노출하는 역설적 보안 취약점 발견"
+      ],
+      "tags": [
+        "LLM-Agent",
+        "Security",
+        "Data-Privacy",
+        "RAG",
+        "Agent",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "에이전트가 RAG를 통해 여러 소스를 참조할 때, 개별 데이터의 보안 수준만으로는 전체 시스템의 기밀성을 보장할 수 없음을 인지해야 합니다.",
+      "recommended_actions": [
+        "에이전트의 추론 결과가 원본 데이터의 조합을 통해 유출되는지 확인하는 레드팀 테스트 수행",
+        "거절 응답(Refusal) 메시지 내에 민감한 정보가 포함되지 않도록 필터링 로직 검증",
+        "데이터 집계 시 개별 항목이 아닌 최종 결과물에 대한 접근 제어 정책 설계"
+      ],
+      "risks_and_limits": [
+        "실험 환경이 합성 데이터 및 특정 시나리오에 국한되어 실제 복잡한 환경과의 차이가 있을 수 있음",
+        "방어 기제 강화가 모델의 유용성(Utility)을 저해할 가능성 존재"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30418.png",
+      "local_image_path": "images/Agent_Mosaic_Recognizing_Confidentiality_Leaks_in_Agentic_LLM_Systems_img.jpg",
+      "local_figures": [
+        "images/Agent_Mosaic_Recognizing_Confidentiality_Leaks_in__fig_1.gif"
+      ]
+    },
+    {
+      "rank": 19,
       "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
       "paper_id": "2610.27712",
       "url": "https://huggingface.co/papers/2610.27712",
       "arxiv_url": "https://arxiv.org/abs/2610.27712",
-      "upvotes": 15,
+      "upvotes": 16,
       "summary": "추론 비용(지연 시간 및 메모리)이 가우시안 개수에 비례하여 선형적으로 감소하는 효율적인 3D 가우시안 스플래팅 프레임워크",
       "korean_abstract": "최근 Feed-forward 3D Gaussian Splatting(FF3DGS)은 예산 조절이 가능하지만, 추론 시 항상 최대 자원을 소모하는 문제가 있었습니다. 기존 방식은 많은 양의 가우시안을 먼저 생성한 뒤 가지치기(pruning)를 수행하므로, 예산이 줄어도 추론 지연 시간과 피크 메모리가 줄지 않았습니다. 이를 해결하기 위해 RLSplat은 가우시안 할당 정책을 학습하여 요청된 예산만큼만 가우시안을 생성하도록 설계되었습니다. 또한 계층적 이웃 탐색을 활용한 리소스 선형 디코딩을 통해 가우시안 개수가 줄어듦에 따라 연산량도 선형적으로 감소하게 만들었습니다. 실험 결과, RLSplat은 기존 방식보다 훨씬 적은 가우시안으로도 더 우수한 성능을 보였으며, 낮은 예산 환경에서 속도와 메모리 효율 면에서 압도적인 성능을 입증했습니다.",
       "key_points": [
@@ -692,49 +818,49 @@
       ]
     },
     {
-      "rank": 17,
-      "title": "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
-      "paper_id": "2610.19705",
-      "url": "https://huggingface.co/papers/2610.19705",
-      "arxiv_url": "https://arxiv.org/abs/2610.19705",
+      "rank": 20,
+      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+      "paper_id": "2610.31305",
+      "url": "https://huggingface.co/papers/2610.31305",
+      "arxiv_url": "https://arxiv.org/abs/2610.31305",
       "upvotes": 15,
-      "summary": "모드 선택과 모델 선택을 하나의 정책으로 통합하여 쿼리 요구사항에 따라 실행 방식까지 동적으로 결정하는 LLM 라우팅 프레임워크",
-      "korean_abstract": "기존의 LLM 라우팅 방식은 단일 라운드나 에이전트 방식 등 미리 정의된 실행 패러다임에 갇혀 있어 다양한 쿼리 요구사항에 유연하게 대응하기 어려웠습니다. 이를 해결하기 위해 모드 선택과 모델 선택을 하나의 LLM 정책 내에서 통합하는 RouteWeaver 프레임워크를 제안합니다. 학습을 위해 모드 선택과 실행 단계의 보상을 분리하여 정교한 신호를 제공하는 COMET-GRPO 알고리즘을 개발했습니다. 또한, 학습 초기에는 지정된 모드를 익히고 점차 자율 선택으로 전환하는 점진적 탐색(Progressive Exploration) 기법을 도입했습니다. 실험 결과, 수학, 코딩, 논리 등 다양한 도메인에서 기존 베이스라인 대비 높은 정확도 향상을 달зо했습니다.",
+      "summary": "연속적 의미 압축과 이산적 생성을 결합한 계층적 언어 모델링 프레임워크인 Cola2 제안",
+      "korean_abstract": "기존의 계층적 언어 생성 방식은 잠재 공간의 압축 방식과 이산적 생성기 간의 상호작용 최적화에 어려움이 있었습니다. 본 논문은 의미적 압축, 재구성-생성 간의 균형, 그리고 연속-이산 간의 공동 적응을 동시에 연구하는 Cola2 프레임워크를 제안합니다. Cola2는 동적 텍스트 분할과 보조 손실 없는 부정 피드백을 통해 압축률을 제어하며, 블록 인과적 마스크 확산 디코더를 통해 압축된 잠재 표현을 학습합니다. 실험 결과, 210B 토큰 학습만으로도 Llama-3-8B를 능가하는 성능을 보이며 효율적인 스케일링 잠재력을 입증했습니다.",
       "key_points": [
-        "모드 선택(Single/Multi-round/Agentic)과 모델 선택을 하나의 통합된 정책으로 학습",
-        "COMET-GRPO를 통한 모드 결정과 실행 단계 간의 정교한 신호 분리 및 신용 할당(Credit Assignment)",
-        "점진적 탐색(Progressive Exploration)을 통해 모드 실행 능력을 먼저 학습한 후 자율 선택으로 전환"
+        "연속적 의미 압축과 이산적 텍스트 생성 간의 Co-adaptive 학습 메커니즘 설계",
+        "부정 피드백 기반의 압축률 제어 및 재구성/생성 간의 균형을 맞추는 Classifier-free guidance 적용",
+        "추론 시 일관된 문맥 유지를 위한 고정된 스팬 레이아웃 기반의 재인코딩 방식 도입"
       ],
       "tags": [
-        "LLM Routing",
-        "Reinforcement Learning",
-        "Agentic Workflow",
-        "Optimization",
-        "Agent",
+        "LLM",
+        "Generative_AI",
+        "Hierarchical_Modeling",
+        "Diffusion_Models",
         "RAG",
-        "Reasoning",
-        "Evaluation"
+        "Vision",
+        "Inference",
+        "Optimization"
       ],
       "confidence": "상",
       "adoption_complexity": "상",
-      "practical_relevance": "고정된 워크플로우 대신 쿼리 난이도에 따라 에이전트 모드나 단일 호출 모드를 스스로 결정함으로써 비용과 성능 사이의 최적 균형을 맞출 수 있습니다.",
+      "practical_relevance": "효율적인 잠재 공간 압축을 통해 적은 파라미터로도 강력한 생성 성능을 확보할 수 있는 새로운 계층적 모델링 패러다임을 제시합니다.",
       "recommended_actions": [
-        "다양한 복잡도를 가진 쿼리 셋을 구성하여 모드 전환 양상 관찰",
-        "COMET-GRPO의 보상 분리 방식이 특정 모드로 쏠리는 현상을 방지하는지 검증",
-        "단일 라운드 대비 에이전트 모드 사용 시의 비용-성능 효율성 분석"
+        "제안된 블록 인과적 마스크 확산(Block-causal masked diffusion) 구조의 구현 가능성 검토",
+        "다양한 압축률 설정에 따른 생성 품질 및 문맥 유지 능력 비교 실험",
+        "기존 LLM의 잠재 공간 표현과 Cola2 방식의 정보 밀도 비교"
       ],
       "risks_and_limits": [
-        "학습 과정에서 특정 모드로 편향될 경우(예: 단일 라운드로 수렴) 성능 저하 위험",
-        "모드 선택과 실행이 결합되어 있어 학습 난이도가 매우 높음"
+        "추론 시 재인코딩 과정이 추가되어 연산 복잡도가 증가할 수 있음",
+        "학습 시 제어해야 하는 여러 손실 함수 간의 균형 유지가 까다로울 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.19705.png",
-      "local_image_path": "images/RouteWeaver_Weaving_Mode_Selection_and_Execution_into_Unified_LLM_Routing_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31305.png",
+      "local_image_path": "images/Cola2_Co-Adaptive_Hierarchical_Language_Modeling_with_Continuous_Semantic_Compression_and_Balanced_D_img.jpg",
       "local_figures": []
     },
     {
-      "rank": 18,
+      "rank": 21,
       "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
       "paper_id": "2610.30755",
       "url": "https://huggingface.co/papers/2610.30755",
@@ -774,91 +900,7 @@
       "local_figures": []
     },
     {
-      "rank": 19,
-      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
-      "paper_id": "2610.31305",
-      "url": "https://huggingface.co/papers/2610.31305",
-      "arxiv_url": "https://arxiv.org/abs/2610.31305",
-      "upvotes": 14,
-      "summary": "연속적 의미 압축과 이산적 생성을 결합한 계층적 언어 모델링 프레임워크인 Cola2 제안",
-      "korean_abstract": "기존의 계층적 언어 생성 방식은 잠재 공간의 압축 방식과 이산적 생성기 간의 상호작용 최적화에 어려움이 있었습니다. 본 논문은 의미적 압축, 재구성-생성 간의 균형, 그리고 연속-이산 간의 공동 적응을 동시에 연구하는 Cola2 프레임워크를 제안합니다. Cola2는 동적 텍스트 분할과 보조 손실 없는 부정 피드백을 통해 압축률을 제어하며, 블록 인과적 마스크 확산 디코더를 통해 압축된 잠재 표현을 학습합니다. 실험 결과, 210B 토큰 학습만으로도 Llama-3-8B를 능가하는 성능을 보이며 효율적인 스케일링 잠재력을 입증했습니다.",
-      "key_points": [
-        "연속적 의미 압축과 이산적 텍스트 생성 간의 Co-adaptive 학습 메커니즘 설계",
-        "부정 피드백 기반의 압축률 제어 및 재구성/생성 간의 균형을 맞추는 Classifier-free guidance 적용",
-        "추론 시 일관된 문맥 유지를 위한 고정된 스팬 레이아웃 기반의 재인코딩 방식 도입"
-      ],
-      "tags": [
-        "LLM",
-        "Generative_AI",
-        "Hierarchical_Modeling",
-        "Diffusion_Models",
-        "RAG",
-        "Vision",
-        "Inference",
-        "Optimization"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "상",
-      "practical_relevance": "효율적인 잠재 공간 압축을 통해 적은 파라미터로도 강력한 생성 성능을 확보할 수 있는 새로운 계층적 모델링 패러다임을 제시합니다.",
-      "recommended_actions": [
-        "제안된 블록 인과적 마스크 확산(Block-causal masked diffusion) 구조의 구현 가능성 검토",
-        "다양한 압축률 설정에 따른 생성 품질 및 문맥 유지 능력 비교 실험",
-        "기존 LLM의 잠재 공간 표현과 Cola2 방식의 정보 밀도 비교"
-      ],
-      "risks_and_limits": [
-        "추론 시 재인코딩 과정이 추가되어 연산 복잡도가 증가할 수 있음",
-        "학습 시 제어해야 하는 여러 손실 함수 간의 균형 유지가 까다로울 수 있음"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31305.png",
-      "local_image_path": "images/Cola2_Co-Adaptive_Hierarchical_Language_Modeling_with_Continuous_Semantic_Compression_and_Balanced_D_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 20,
-      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
-      "paper_id": "2610.30753",
-      "url": "https://huggingface.co/papers/2610.30753",
-      "arxiv_url": "https://arxiv.org/abs/2610.30753",
-      "upvotes": 12,
-      "summary": "자연어 지시나 참조 영상을 기반으로 복잡한 3D 카메라 움직임을 자동 생성하는 에이전트 기반 시네마토그래피 프레임워크",
-      "korean_abstract": "시각적 스토리텔링에서 복잡한 카메라 움직임은 중요하지만, 이를 제어 가능한 궤적으로 변환하는 것은 여전히 어려운 과제입니다. 본 논문은 자연어 지시나 참조 영상을 실행 가능한 3적 카메라 궤적으로 변환하는 에이전트 프레임워크인 FilmFlow를 제안합니다. FilmFlow는 Director 에이전트가 고수준의 움직임을 원자적 작업으로 구성하며, 이를 Interpreter, Scout, Critic 에이전트가 지원하는 구조를 가집니다. 또한 750개의 텍스트 기반 작업과 60개의 참조 영상을 포함하는 벤치마크인 CinemaBench를 함께 도입했습니다. 실험 결과, FilmFlow는 기존 베이스라인 대비 가장 높은 성능과 사용자 선호도를 기록하며 뛰어난 공간 추론 및 시각적 구도 능력을 입증했습니다.",
-      "key_points": [
-        "자연어 및 참조 영상을 실행 가능한 3D 카메라 궤적으로 변환하는 에이전트 프레임워크 제안",
-        "Director, Interpreter, Scout, Critic으로 구성된 전문화된 멀티 에이전트 시스템 구조",
-        "텍스트 및 비디오 참조 기반 카메라 생성을 평가하기 위한 새로운 벤치마크 CinemaBench 구축"
-      ],
-      "tags": [
-        "Agent",
-        "3D",
-        "Computer Vision",
-        "Automation",
-        "Reasoning",
-        "Video",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "3D 콘텐츠 제작 자동화 및 가상 환경에서의 자동 카메라 연출 기술을 구현하려는 개발자에게 실질적인 워크플로우를 제공합니다.",
-      "recommended_actions": [
-        "Blender 등 3D 엔진 환경에서 제안된 에이전트 워크플로우의 실행 가능성 검토",
-        "자연어 지시가 복잡한 카메라 궤적(Rotation/Translation)으로 변환되는 정밀도 테스트",
-        "기존의 단순한 카메라 경로 생성 알고리즘과 FilmFlow의 결과물 비교 실험"
-      ],
-      "risks_and_limits": [
-        "에이전트 간의 반복적인 피드백 루프로 인한 연산 비용 및 생성 시간 발생 가능성",
-        "복잡한 3D 장면 내에서의 물리적 충돌이나 비현실적인 카메라 움직임 발생 위험"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30753.png",
-      "local_image_path": "images/FilmFlow_Agentic_System_for_3D_Virtual_Film_Cinematography_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 21,
+      "rank": 22,
       "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
       "paper_id": "2610.20091",
       "url": "https://huggingface.co/papers/2610.20091",
@@ -898,7 +940,7 @@
       "local_figures": []
     },
     {
-      "rank": 22,
+      "rank": 23,
       "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
       "paper_id": "2610.30866",
       "url": "https://huggingface.co/papers/2610.30866",
@@ -940,7 +982,7 @@
       "local_figures": []
     },
     {
-      "rank": 23,
+      "rank": 24,
       "title": "Rethinking Sequence Compression with Test-time Regression",
       "paper_id": "2610.31574",
       "url": "https://huggingface.co/papers/2610.31574",
@@ -980,7 +1022,49 @@
       "local_figures": []
     },
     {
-      "rank": 24,
+      "rank": 25,
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "paper_id": "2610.31198",
+      "url": "https://huggingface.co/papers/2610.31198",
+      "arxiv_url": "https://arxiv.org/abs/2610.31198",
+      "upvotes": 11,
+      "summary": "DLM의 반복적 디노이징 과정에서 발생하는 태스크 및 시점별 정밀도 차이를 활용한 효율적인 혼합 정밀도 양자화 프레임워크 제안",
+      "korean_abstract": "확산 언어 모델(DLM)은 반복적인 디노이징 과정으로 인해 기존 모델과 다른 독특한 양자화 과제를 안고 있습니다. 연구진은 양자화 민감도가 수행하는 태스크와 디노이징 타임스텝에 따라 서로 다르게 나타난다는 점을 발견했습니다. 또한 이러한 민감도 패턴을 정답 라벨이나 태스크별 평가 지표 없이도 예측할 수 있음을 확인했습니다. 이를 바탕으로 제안된 T2Quant는 고정된 비트 예산 내에서 라벨 없이 감도 신호를 활용해 디노이징 단계별로 활성화 정밀도를 최적으로 할당하는 혼합 정밀도 프레임워크입니다. 실험 결과, T2Quant는 기존 양자화 방식의 정확도를 일관되게 향상시키며 동일 예산 대비 최대 6.7%p의 성능 향상을 달성했습니다.",
+      "key_points": [
+        "양자화 민감도가 태스크와 디노이징 타임스텝에 따라 가변적임을 규명",
+        "정답 라벨 없이도 태스크/시간별 민감도를 예측할 수 있는 메커니즘 개발",
+        "고정된 비트 예산 내에서 최적의 정밀도를 할당하는 T2Quant 프레임워크 제안"
+      ],
+      "tags": [
+        "Diffusion Language Models",
+        "Quantization",
+        "Mixed-precision",
+        "Model Compression",
+        "RAG",
+        "Benchmark",
+        "Evaluation",
+        "Optimization"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "DLM 모델을 배포할 때, 모든 단계에 동일한 비트를 쓰는 대신 중요도에 따라 정밀도를 분배함으로써 모델 성능 저하 없이 효율적인 경량화가 가능합니다.",
+      "recommended_actions": [
+        "제안된 T2Quant의 라벨 프리(label-free) 민감도 예측 신호가 실제 태스크와 얼마나 일치하는지 검증",
+        "특정 태스크(예: 요약 vs 생성)에 따른 타임스텝별 비트 할당 패턴 비교 실험",
+        "기존 정적 양자화 방식과 T2Quant의 추론 속도(Latency) 대비 성능 효율성 비교"
+      ],
+      "risks_and_limits": [
+        "타임스텝별로 다른 비트를 적용할 경우 하드웨어 가속기에서의 연산 효율성이 저하될 수 있음",
+        "특정 태스크에 최적화된 패턴이 다른 도메인으로 전이될 때의 일반화 성능 확인 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31198.png",
+      "local_image_path": "images/Different_Tasks,_Different_Timesteps_Temporal_Task-Aware_Quantization_for_Diffusion_Language_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 26,
       "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
       "paper_id": "2610.31494",
       "url": "https://huggingface.co/papers/2610.31494",
@@ -1023,7 +1107,7 @@
       "local_figures": []
     },
     {
-      "rank": 25,
+      "rank": 27,
       "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
       "paper_id": "2610.31466",
       "url": "https://huggingface.co/papers/2610.31466",
@@ -1065,12 +1149,12 @@
       "local_figures": []
     },
     {
-      "rank": 26,
+      "rank": 28,
       "title": "MolLean: A Process-Verifiable Language for Chemical Reasoning",
       "paper_id": "2610.20459",
       "url": "https://huggingface.co/papers/2610.20459",
       "arxiv_url": "https://arxiv.org/abs/2610.20459",
-      "upvotes": 8,
+      "upvotes": 9,
       "summary": "화학적 추론 과정의 환각을 방지하기 위해 상태 기반 검증과 실행 가능한 프로토콜을 결합한 MolLean 프레임워크 제안",
       "korean_abstract": "기존의 화학적 Chain-of-Thought(CoT) 방식은 구조적 오류나 속성 값에 대한 환각 현상을 포함할 위험이 있습니다. 이를 해결하기 위해 명시적인 분자 상태를 기반으로 추론을 검증하는 MolLean 언어를 도입했습니다. MolLean은 Lean 커널을 통해 그래프 편집부터 화합물 변환까지의 상태 전이를 체크하며, 외부 측정값과 구조적 검증을 분리하는 타입 기반 프로토콜을 제공합니다. 또한, 생성 과정에서 피드백을 주고받는 상태 유지 도구 인터페이스인 MolLean-MCP를 통해 단계별 검증을 수행합니다. 실험 결과, 제안된 방식은 분자 생성, 편집, 최적화 및 반응 등 12개 작업에서 기존 CoT보다 우수한 성능을 보였습니다.",
       "key_points": [
@@ -1105,54 +1189,12 @@
       "local_figures": []
     },
     {
-      "rank": 27,
-      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
-      "paper_id": "2610.30418",
-      "url": "https://huggingface.co/papers/2610.30418",
-      "arxiv_url": "https://arxiv.org/abs/2610.30418",
-      "upvotes": 6,
-      "summary": "에이전트가 여러 문서를 조합해 민감한 정보를 유출하는 '모자이크 효과'의 위험성과 방어 기제의 한계를 규명함",
-      "korean_abstract": "최신 LLM 에이전트는 개별 문서를 조회하여 정보를 수집하고, 이를 조합해 민감한 결론을 도출하는 '모자이크 효과'로 인한 보안 위협을 초래할 수 있습니다. 본 연구는 사이버 보안, 의료, 군사 분야의 합성 시나리오를 통해 에이전트의 정보 유출 위험을 정량적으로 분석했습니다. 실험 결과, 최상위 모델조차 일반적인 질의 상황에서 금지된 결합 정보를 유출하는 사례가 빈번하게 발생했습니다. 분류 헤더나 집계 규칙 같은 방어책을 도입했음에도 불구하고, 여전히 상당한 비율로 보안 위반이 발생하는 것을 확인했습니다. 특히 거절(Refusal) 응답이 발생하더라도 그 과정에서 이미 민감한 결론이 노출되는 문제가 발견되었습니다. 결과적으로 에이전트 시스템 설계 시 추론 및 공개 권한에 대한 더욱 강력한 통제 메커니즘이 필요함을 시사합니다.",
-      "key_points": [
-        "개별 문서로는 안전하지만 조합 시 민감 정보가 되는 '모자이크 효과' 위험성 입증",
-        "기존의 분류 헤더 및 집계 규칙 기반 방어책의 불완전성 확인",
-        "거절(Refusal) 응답이 오히려 민감한 결론을 노출하는 역설적 보안 취약점 발견"
-      ],
-      "tags": [
-        "LLM-Agent",
-        "Security",
-        "Data-Privacy",
-        "RAG",
-        "Agent",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "에이전트가 RAG를 통해 여러 소스를 참조할 때, 개별 데이터의 보안 수준만으로는 전체 시스템의 기밀성을 보장할 수 없음을 인지해야 합니다.",
-      "recommended_actions": [
-        "에이전트의 추론 결과가 원본 데이터의 조합을 통해 유출되는지 확인하는 레드팀 테스트 수행",
-        "거절 응답(Refusal) 메시지 내에 민감한 정보가 포함되지 않도록 필터링 로직 검증",
-        "데이터 집계 시 개별 항목이 아닌 최종 결과물에 대한 접근 제어 정책 설계"
-      ],
-      "risks_and_limits": [
-        "실험 환경이 합성 데이터 및 특정 시나리오에 국한되어 실제 복잡한 환경과의 차이가 있을 수 있음",
-        "방어 기제 강화가 모델의 유용성(Utility)을 저해할 가능성 존재"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30418.png",
-      "local_image_path": "images/Agent_Mosaic_Recognizing_Confidentiality_Leaks_in_Agentic_LLM_Systems_img.jpg",
-      "local_figures": [
-        "images/Agent_Mosaic_Recognizing_Confidentiality_Leaks_in__fig_1.gif"
-      ]
-    },
-    {
-      "rank": 28,
+      "rank": 29,
       "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
       "paper_id": "2610.31372",
       "url": "https://huggingface.co/papers/2610.31372",
       "arxiv_url": "https://arxiv.org/abs/2610.31372",
-      "upvotes": 6,
+      "upvotes": 8,
       "summary": "자율 연구 에이전트의 연구 부정 행위(RIV)를 탐지하고 실행 시간에 실시간으로 개입하여 연구 무결성을 보호하는 프레임워크 제안",
       "korean_abstract": "자율 연구 에이전트가 과학적 연구 과정을 자동화함에 따라 연구 무결성 위반(RIV) 문제가 대두되고 있습니다. 본 논문은 연구 과정의 유효성과 재현성을 저해하는 행위를 방지하기 위해 RIDAR 프레임워크를 제안합니다. 먼저 연구 생애 주기를 포괄하는 14가지 RIV 유형의 분류 체계인 RIVT를 도입합니다. 이를 바탕으로 에이전트 궤적 내 RIV를 탐지하는 RIDAR-post-hoc과 실행 중 실시간 탐지 및 교정을 수행하는 RIDAR-runtime을 개발했습니다. 실험 결과, RIDAR-post-hoc은 높은 탐지 성능을 보였으며, RIDAR-runtime은 작업 완료 시 남는 RIV를 효과적으로 감소시켰습니다.",
       "key_points": [
@@ -1188,12 +1230,94 @@
       "local_figures": []
     },
     {
-      "rank": 29,
+      "rank": 30,
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "paper_id": "2610.31668",
+      "url": "https://huggingface.co/papers/2610.31668",
+      "arxiv_url": "https://arxiv.org/abs/2610.31668",
+      "upvotes": 8,
+      "summary": "비디오 파운데이션 모델과 월드 모델을 '세계 모델링'이라는 통합 관점에서 재정의하고 분석한 서베이 논문",
+      "korean_abstract": "비디오 파운데이션 모델과 월드 모델은 서로 다른 목적을 가진 듯 보이지만, 관찰된 비디오와 진화하는 세계 사이의 관계를 다룬다는 공통점이 있습니다. 본 논문은 월드 모델링을 통합적인 렌즈로 채택하여 기존 연구들을 체계적으로 분류합니다. 관찰된 비디오를 잠재적 세계의 부분적 투영으로 간주하고, 이를 읽기(Reading), 쓰기(Writing), 공유(Sharing), 상호작용(Interacting)이라는 네 가지 상호 보완적 작업으로 구조화합니다. 이러한 관점은 단순한 시각적 일관성을 넘어 물리적/인과적 타당성을 갖춘 세계 상태의 일관성을 구분합니다. 결과적으로 기존의 클립 단위 인식을 넘어 지속적 상태와 제어 가능한 진화로 변화하는 연구 흐름을 제시합니다.",
+      "key_points": [
+        "월드 모델링을 통한 비디오 이해(Reading)와 생성(Writing)의 통합적 프레임워크 제안",
+        "관찰된 시퀀스의 일관성과 잠재적 세계 상태의 일관성을 구분하는 새로운 관점 제시",
+        "단순 지각을 넘어 상호작용과 인과적 타당성을 중시하는 연구 흐름 분석"
+      ],
+      "tags": [
+        "Video-Generation",
+        "World-Models",
+        "Survey",
+        "Embodied-AI",
+        "Video",
+        "Benchmark",
+        "Evaluation",
+        "Distillation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "비디오 생성 및 에이전트 학습 시 단순한 픽셀 재현을 넘어 물리 법칙과 인과 관계를 고려한 모델 설계의 방향성을 제시합니다.",
+      "recommended_actions": [
+        "제시된 4가지 작업(Reading, Writing, Sharing, Interacting) 프레임워크를 현재 개발 중인 비디오 모델에 적용해보기",
+        "단순 시각적 품질(Fidelity) 외에 물리적 일관성(Physical Validity)을 측정할 수 있는 벤치마크 검토하기"
+      ],
+      "risks_and_limits": [
+        "이론적 프레임워크 중심이므로 구체적인 구현 알고리즘을 바로 적용하기에는 추상적일 수 있음",
+        "물리적/인과적 타당성을 완벽히 검증할 수 있는 표준화된 벤치마크가 아직 부족함"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31668.png",
+      "local_image_path": "images/Reading,_Writing,_Sharing,_and_Interacting_with_the_World_through_Video_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 31,
+      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+      "paper_id": "2610.31651",
+      "url": "https://huggingface.co/papers/2610.31651",
+      "arxiv_url": "https://arxiv.org/abs/2610.31651",
+      "upvotes": 7,
+      "summary": "물리적 제약 조건을 검증하는 도구와 API를 통해 에이전트가 물리적으로 실현 가능한 3D 모델(LEGO)을 생성하도록 하는 프레임워크",
+      "korean_abstract": "최근 코딩 에이전트의 3D 모델링 능력이 향상되었으나, 물리적 세계에서 조립 가능한 구조를 만드는 데는 여전히 한계가 있습니다. 기존 방식은 부품 간 충돌, 공중 부양, 연결 끊김 등 물리적 타당성이 결여된 결과물을 생성하는 문제가 있었습니다. 본 논문은 에이전트에게 조립 도구와 물리적 타당성 검증기를 제공하는 것만으로도 프롬프트 준수와 물리적 유효성을 동시에 달성할 수 있음을 제안합니다. 이를 위해 LEGO 도메인을 대상으로, 코드 기반의 조립 API인 BrickLayer와 피드백을 제공하는 검증기를 결합한 BrickWright 프레임워크를 개발했습니다. 실험 결과, BrickWright는 기존 에이전트 대비 물리적 유효성 성공률을 100%까지 끌어올리면서도 프롬프트 준수 능력을 유지하거나 향상시켰습니다.",
+      "key_points": [
+        "물리적 제약(충돌, 연결성 등)을 검증하고 조립을 돕는 에이전트 중심 프레임워크 제안",
+        "LDraw 대비 추론 비용을 절감하는 인체공학적 Python API 'BrickLayer' 개발",
+        "검증 피드백 루프를 통해 물리적 유효성 100% 달성 및 텍스트-브릭 생성 성능 우위 확보"
+      ],
+      "tags": [
+        "Agentic Workflow",
+        "3D Modeling",
+        "Constraint Satisfaction",
+        "Code Generation",
+        "Agent",
+        "Vision",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "에이전트가 생성한 결과물이 물리적/논리적 제약 조건을 만족해야 하는 CAD, 로보틱스, 3D 모델링 분야의 워크플로우 설계에 중요한 통찰을 제공합니다.",
+      "recommended_actions": [
+        "에이전트의 결과물 검증을 위한 도메인 특화 Validator/Linter 설계 방식 벤치마킹",
+        "코드 생성 에이전트에 물리적 제약 조건을 피드백하는 루프 구조 적용 실험",
+        "API 수준에서 추론 비용을 최적화하는 데이터 구조 설계 방식 검토"
+      ],
+      "risks_and_limits": [
+        "특정 도메인(LEGO)에 특화된 프레임워크로, 일반적인 3D 모델링으로의 확장 시 제약 발생 가능",
+        "검증 로직이 복잡해질수록 에이전트의 추론 비용 및 루프 반복 횟수가 증가할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31651.png",
+      "local_image_path": "images/BrickWright_Agentic_Creation_of_Physically_Feasible_Brick_Builds_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 32,
       "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
       "paper_id": "2610.30882",
       "url": "https://huggingface.co/papers/2610.30882",
       "arxiv_url": "https://arxiv.org/abs/2610.30882",
-      "upvotes": 6,
+      "upvotes": 7,
       "summary": "자세한 분석 내용은 원문 또는 arXiv 링크를 참고해 주세요.",
       "korean_abstract": "상세 초록은 원문 페이지에서 확인 가능합니다.",
       "key_points": [
@@ -1215,7 +1339,7 @@
       "local_figures": []
     },
     {
-      "rank": 30,
+      "rank": 33,
       "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
       "paper_id": "2610.31062",
       "url": "https://huggingface.co/papers/2610.31062",
@@ -1259,7 +1383,7 @@
       "local_figures": []
     },
     {
-      "rank": 31,
+      "rank": 34,
       "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
       "paper_id": "2610.31576",
       "url": "https://huggingface.co/papers/2610.31576",
@@ -1300,7 +1424,7 @@
       "local_figures": []
     },
     {
-      "rank": 32,
+      "rank": 35,
       "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
       "paper_id": "2610.31623",
       "url": "https://huggingface.co/papers/2610.31623",
@@ -1343,48 +1467,47 @@
       ]
     },
     {
-      "rank": 33,
-      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
-      "paper_id": "2610.31668",
-      "url": "https://huggingface.co/papers/2610.31668",
-      "arxiv_url": "https://arxiv.org/abs/2610.31668",
-      "upvotes": 5,
-      "summary": "비디오 파운데이션 모델과 월드 모델을 '세계 모델링'이라는 통합 관점에서 재정의하고 분석한 서베이 논문",
-      "korean_abstract": "비디오 파운데이션 모델과 월드 모델은 서로 다른 목적을 가진 듯 보이지만, 관찰된 비디오와 진화하는 세계 사이의 관계를 다룬다는 공통점이 있습니다. 본 논문은 월드 모델링을 통합적인 렌즈로 채택하여 기존 연구들을 체계적으로 분류합니다. 관찰된 비디오를 잠재적 세계의 부분적 투영으로 간주하고, 이를 읽기(Reading), 쓰기(Writing), 공유(Sharing), 상호작용(Interacting)이라는 네 가지 상호 보완적 작업으로 구조화합니다. 이러한 관점은 단순한 시각적 일관성을 넘어 물리적/인과적 타당성을 갖춘 세계 상태의 일관성을 구분합니다. 결과적으로 기존의 클립 단위 인식을 넘어 지속적 상태와 제어 가능한 진화로 변화하는 연구 흐름을 제시합니다.",
+      "rank": 36,
+      "title": "The LLM-Attacker: A Unified Red-Team Framework for Privacy Evaluation of Split and Distributed LLM Systems",
+      "paper_id": "2610.22722",
+      "url": "https://huggingface.co/papers/2610.22722",
+      "arxiv_url": "https://arxiv.org/abs/2610.22722",
+      "upvotes": 4,
+      "summary": "분산형 LLM 시스템의 프라이버시 취약점을 표준화된 방식으로 평가하고 비교할 수 있는 통합 레드팀 프레임워크 제안",
+      "korean_abstract": "분산형 LLM(Split LLM)은 클라이언트의 입력 텍스트를 서버로 전달하는 과정에서 중간 표현값이 노출되어 데이터 복구 공격에 취약할 수 있습니다. 기존의 프라이버시 평가는 공격자의 정보 수준, 데이터셋, 복구 방식이 제각각이라 객관적인 비교가 어렵다는 문제가 있었습니다. 이를 해결하기 위해 공격 설정과 메시지를 기록하여 재사용 및 비교가 가능한 'LLM-Attacker' 프레임워크를 제안합니다. 이 프레임워크는 공격 시나리오를 기록하고, 방어 기법이 통제된 참조값(undefended reference) 대비 얼마나 효과적인지 검증하는 엄격한 스코어링 규칙을 제공합니다. GPT-2를 이용한 실험 결과, 학습 중 그래디언트 노출이 토큰 및 문서 복구율을 유의미하게 높임을 확인하며 프레임워크의 유효성을 입증했습니다.",
       "key_points": [
-        "월드 모델링을 통한 비디오 이해(Reading)와 생성(Writing)의 통합적 프레임워크 제안",
-        "관찰된 시퀀스의 일관성과 잠재적 세계 상태의 일관성을 구분하는 새로운 관점 제시",
-        "단순 지각을 넘어 상호작용과 인과적 타당성을 중시하는 연구 흐름 분석"
+        "공격 시나리오(메시지, 가중치, 데이터셋 등)를 기록하여 재현 및 비교가 가능한 통합 프레임워크 개발",
+        "방어 성능을 객관적으로 검증하기 위해 통제된 참조값(undefended reference)을 기준으로 하는 스코어링 규칙 도입",
+        "공격자가 가진 정보 수준에 따른 프라이버시 노출 정도를 정량적으로 측정하고 미검증 공격 영역을 식별"
       ],
       "tags": [
-        "Video-Generation",
-        "World-Models",
-        "Survey",
-        "Embodied-AI",
-        "Video",
-        "Benchmark",
+        "LLM-Security",
+        "Privacy-Preserving",
+        "Red-Teaming",
+        "Distributed-Systems",
         "Evaluation",
-        "Distillation"
+        "Optimization"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "비디오 생성 및 에이전트 학습 시 단순한 픽셀 재현을 넘어 물리 법칙과 인과 관계를 고려한 모델 설계의 방향성을 제시합니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "분산형/클라이언트-서버 구조의 LLM 서비스를 설계할 때, 데이터 유출 위험을 정량적이고 표준화된 방식으로 측정할 수 있는 가이드라인을 제공합니다.",
       "recommended_actions": [
-        "제시된 4가지 작업(Reading, Writing, Sharing, Interacting) 프레임워크를 현재 개발 중인 비디오 모델에 적용해보기",
-        "단순 시각적 품질(Fidelity) 외에 물리적 일관성(Physical Validity)을 측정할 수 있는 벤치마크 검토하기"
+        "자체 개발 중인 분산형 모델 구조에 LLM-Attacker 프레임워크의 기록/스코어링 로직 적용 테스트",
+        "모델 가중치 노출 수준(Full vs Partial)에 따른 데이터 복구율 변화 실험",
+        "압축 기술이나 차분 프라이버시(DP) 적용 시의 방어 효과 측정"
       ],
       "risks_and_limits": [
-        "이론적 프레임워크 중심이므로 구체적인 구현 알고리즘을 바로 적용하기에는 추상적일 수 있음",
-        "물리적/인과적 타당성을 완벽히 검증할 수 있는 표준화된 벤치마크가 아직 부족함"
+        "제시된 프레임워크가 특정 모델(GPT-2 등)에 최적화되어 있을 가능성",
+        "공격 시나리오가 복잡해질수록 평가 비용과 관리 난이도가 상승할 수 있음"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31668.png",
-      "local_image_path": "images/Reading,_Writing,_Sharing,_and_Interacting_with_the_World_through_Video_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.22722.png",
+      "local_image_path": "images/The_LLM-Attacker_A_Unified_Red-Team_Framework_for_Privacy_Evaluation_of_Split_and_Distributed_LLM_Sy_img.jpg",
       "local_figures": []
     },
     {
-      "rank": 34,
+      "rank": 37,
       "title": "Foundation4D: Towards a unified perception and reconstruction model for autonomous vehicles",
       "paper_id": "2610.30340",
       "url": "https://huggingface.co/papers/2610.30340",
@@ -1425,53 +1548,51 @@
       "local_figures": []
     },
     {
-      "rank": 35,
-      "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
-      "paper_id": "2610.31651",
-      "url": "https://huggingface.co/papers/2610.31651",
-      "arxiv_url": "https://arxiv.org/abs/2610.31651",
-      "upvotes": 2,
-      "summary": "물리적 제약 조건을 검증하는 도구와 API를 통해 에이전트가 물리적으로 실현 가능한 3D 모델(LEGO)을 생성하도록 하는 프레임워크",
-      "korean_abstract": "최근 코딩 에이전트의 3D 모델링 능력이 향상되었으나, 물리적 세계에서 조립 가능한 구조를 만드는 데는 여전히 한계가 있습니다. 기존 방식은 부품 간 충돌, 공중 부양, 연결 끊김 등 물리적 타당성이 결여된 결과물을 생성하는 문제가 있었습니다. 본 논문은 에이전트에게 조립 도구와 물리적 타당성 검증기를 제공하는 것만으로도 프롬프트 준수와 물리적 유효성을 동시에 달성할 수 있음을 제안합니다. 이를 위해 LEGO 도메인을 대상으로, 코드 기반의 조립 API인 BrickLayer와 피드백을 제공하는 검증기를 결합한 BrickWright 프레임워크를 개발했습니다. 실험 결과, BrickWright는 기존 에이전트 대비 물리적 유효성 성공률을 100%까지 끌어올리면서도 프롬프트 준수 능력을 유지하거나 향상시켰습니다.",
+      "rank": 38,
+      "title": "Diffusion Language Models Change Speed Across Tasks and Languages",
+      "paper_id": "2610.25835",
+      "url": "https://huggingface.co/papers/2610.25835",
+      "arxiv_url": "https://arxiv.org/abs/2610.25835",
+      "upvotes": 3,
+      "summary": "디퓨전 언어 모델의 추론 비용은 출력의 신규성 및 언어적 특성에 따라 결정되며, 이를 통해 추론 효율과 정답 신뢰도를 높일 수 있습니다.",
+      "korean_abstract": "디퓨전 언어 모델은 한 번의 포워드 패스로 여러 토큰을 생성할 수 있어 작업에 따라 비용 편차가 크게 발생합니다. 본 연구는 이러한 비용 변동의 근본 원인을 파악하기 위해 10가지 태스크를 대상으로 두 디퓨전 모델을 분석했습니다. 분석 결과, 입력 대비 새로운 정보의 양이 많을수록, 단어가 희귀할수록, 그리고 토큰화 효율이 낮은 언어일수록 더 많은 포워드 패스가 필요함을 발견했습니다. 또한, 정답을 맞히는 것보다 틀린 답을 생성할 때 더 많은 연산 비용이 소모되는 경향을 확인했습니다. 이러한 결과는 디퓨전 모델의 연산 이점이 출력의 결정론적 정도에 달려 있음을 보여주며, 디코딩 속도를 활용한 효율적인 추론 전략의 가능성을 제시합니다.",
       "key_points": [
-        "물리적 제약(충돌, 연결성 등)을 검증하고 조립을 돕는 에이전트 중심 프레임워크 제안",
-        "LDraw 대비 추론 비용을 절감하는 인체공학적 Python API 'BrickLayer' 개발",
-        "검증 피드백 루프를 통해 물리적 유효성 100% 달성 및 텍스트-브릭 생성 성능 우위 확보"
+        "태스크의 성격(단순 복사 vs 창의적 글쓰기)에 따라 토큰당 포워드 패스 수가 크게 달라짐",
+        "출력의 신규성(Novelty)과 단어 희귀도가 연산 비용을 결정하는 핵심 요소임",
+        "정답 여부와 연산 비용 간의 상관관계 확인 (오답 생성 시 더 많은 비용 소모)"
       ],
       "tags": [
-        "Agentic Workflow",
-        "3D Modeling",
-        "Constraint Satisfaction",
-        "Code Generation",
-        "Agent",
-        "Vision",
+        "Diffusion-LM",
+        "Inference-Efficiency",
+        "NLP",
+        "Reasoning",
         "Inference"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "에이전트가 생성한 결과물이 물리적/논리적 제약 조건을 만족해야 하는 CAD, 로보틱스, 3D 모델링 분야의 워크플로우 설계에 중요한 통찰을 제공합니다.",
+      "practical_relevance": "디퓨전 모델 도입 시 작업 유형에 따른 연산 비용 예측이 가능해지며, 디코딩 속도를 지표로 삼아 추론 효율과 정답 신뢰도를 동시에 관리할 수 있습니다.",
       "recommended_actions": [
-        "에이전트의 결과물 검증을 위한 도메인 특화 Validator/Linter 설계 방식 벤치마킹",
-        "코드 생성 에이전트에 물리적 제약 조건을 피드백하는 루프 구조 적용 실험",
-        "API 수준에서 추론 비용을 최적화하는 데이터 구조 설계 방식 검토"
+        "창의적 글쓰기 vs 문법 교정 태스크 간의 추론 비용(Pass count) 비교 실험",
+        "디코딩 속도(Decoding speed)를 활용한 정답 필터링/가중치 적용 실험",
+        "다국어 환경에서 토큰화 효율이 연산 비용에 미치는 영향 측정"
       ],
       "risks_and_limits": [
-        "특정 도메인(LEGO)에 특화된 프레임워크로, 일반적인 3D 모델링으로의 확장 시 제약 발생 가능",
-        "검증 로직이 복잡해질수록 에이전트의 추론 비용 및 루프 반복 횟수가 증가할 수 있음"
+        "특정 모델(DiffusionGemma 등)에 국한된 결과일 수 있어 범용성 검증 필요",
+        "연산 비용과 정답률 사이의 상관관계가 모든 태스크에서 일정하게 유지되는지 확인 필요"
       ],
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.31651.png",
-      "local_image_path": "images/BrickWright_Agentic_Creation_of_Physically_Feasible_Brick_Builds_img.jpg",
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.25835.png",
+      "local_image_path": "images/Diffusion_Language_Models_Change_Speed_Across_Tasks_and_Languages_img.jpg",
       "local_figures": []
     },
     {
-      "rank": 36,
+      "rank": 39,
       "title": "Who Takes the Lead? Model Ability and Task-Conditioned Collaboration with Humans",
       "paper_id": "2610.27148",
       "url": "https://huggingface.co/papers/2610.27148",
       "arxiv_url": "https://arxiv.org/abs/2610.27148",
-      "upvotes": 2,
+      "upvotes": 3,
       "summary": "에이전트의 능력이 향상됨에 따라 효율적인 협업을 위해 인간의 개입 시점을 전략적으로 결정하는 메커니즘을 분석함",
       "korean_abstract": "언어 모델 에이전트의 능력이 커지면서 인간과의 협업 방식이 단순한 의존을 넘어 효율적인 역할 분담의 문제로 진화하고 있습니다. 기존에는 인간의 개입 빈도만으로 협업의 성공 여부를 판단했으나, 이는 효율적인 분업과 협업 실패를 구분하기 어렵다는 문제가 있습니다. 본 연구는 에이전트와 인간이 공동 목표를 가진 '공유 제어 미로(shared-control maze)' 환경을 도입하여, 누가 우위를 점하느냐에 따른 협업 양상을 체계적으로 연구했습니다. 실험 결과, 단독 수행 능력이 뛰어난 모델일수록 상황에 따라 인간의 개입을 선택적으로 요청하는 전략적 행동을 보였습니다. 반면 성능이 낮은 모델은 상황에 관계없이 일관되지 않은 개입 패턴을 보였습니다.",
       "key_points": [
@@ -1506,7 +1627,87 @@
       "local_figures": []
     },
     {
-      "rank": 37,
+      "rank": 40,
+      "title": "EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?",
+      "paper_id": "2610.04184",
+      "url": "https://huggingface.co/papers/2610.04184",
+      "arxiv_url": "https://arxiv.org/abs/2610.04184",
+      "upvotes": 2,
+      "summary": "AI 에이전트가 스스로 평가 도구를 설계하고 개선하여 반복적인 자기 개선(RSI)을 자동화할 수 있는지 검증하는 벤치마크 연구",
+      "korean_abstract": "재귀적 자기 개선(RSI)을 위해서는 지속적인 평가 피드백이 필요하지만, 복잡한 벤치마크를 반복 실행하는 것은 비용과 시간이 많이 드는 문제입니다. 본 연구는 인간 전문가처럼 에이전트가 스스로 평가 과제를 설계하고 채점기를 구현하는 자동화 프로세스를 탐구하기 위해 EvalResearchBench(ERB)를 제안합니다. 에이전트인 'researcher'는 주어진 예산 내에서 과제를 선택/합성하고, 채점기를 구현 및 수정하여 최종 평가기를 고정하는 방식으로 작동합니다. 9개의 연구자 에이전트와 13개 모델을 대상으로 실험한 결과, 최적의 에이전트는 타겟 벤치마크의 순위와 유사한 결과를 도출했습니다. 하지만 에이전트가 생성한 평가기는 특정 질문에 점수가 편중되거나 예산을 소진하는 등의 한계를 보였습니다.",
+      "key_points": [
+        "에이전트가 스스로 평가 과제와 채점기를 설계하는 '자율적 평가 연구' 프레임워크 제안",
+        "제한된 시간과 API 예산 내에서 에이전트의 평가 도구 생성 및 반복 개선 능력 검증",
+        "에이전트 기반 평가기가 인간 설계 방식에 비해 비용 효율적일 수 있으나, 여전히 정교함은 부족함을 확인"
+      ],
+      "tags": [
+        "AI Agent",
+        "Automated Evaluation",
+        "Self-Improvement",
+        "Benchmark",
+        "Agent",
+        "Reasoning",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "모델 성능 평가를 위한 벤치마크 구축 비용을 줄이고, 에이전트 기반의 자동화된 평가 루프를 구축할 수 있는 가능성을 제시합니다.",
+      "recommended_actions": [
+        "제한된 예산 환경에서 에이전트가 생성한 채점기의 신뢰도(Concordance) 측정 실험",
+        "에이전트가 설계한 평가 도구의 비용 대비 성능(Cost-efficiency) 분석",
+        "에이전트가 생성한 평가 문항이 특정 도메인에 편향되는지 검증"
+      ],
+      "risks_and_limits": [
+        "에이전트가 생성한 평가기가 답변을 임의로 자르거나 예산을 조기에 소진할 위험",
+        "특정 문항이 전체 점수를 좌우하는 불균형한 평가 도구 생성 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.04184.png",
+      "local_image_path": "images/EvalResearchBench_Can_AI_Agents_Build_Their_Own_Feedback_for_Recursive_Self-Improvement_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 41,
+      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
+      "paper_id": "2610.28950",
+      "url": "https://huggingface.co/papers/2610.28950",
+      "arxiv_url": "https://arxiv.org/abs/2610.28950",
+      "upvotes": 2,
+      "summary": "GPU 가속 레이 트레이싱을 통해 초당 수백만 프레임의 렌더링을 지원하는 초고속 드론 시뮬레이터 개발",
+      "korean_abstract": "기존의 배치형 드론 시뮬레이터는 학습 데이터 생성 속도 면에서 성능 한계가 있었습니다. 이를 해결하기 위해 최적화된 멀티로터 역학 엔진과 새로운 레이 트레이싱 엔진인 HyperLux를 결합한 HyperDrone을 제안합니다. HyperLux는 현대적인 GPU 하드웨어를 활용하여 RGB, 깊이, 세그멘테이션 등 다양한 관측 데이터를 초고속으로 렌더링합니다. 실험 결과, 소비자용 GPU에서도 수백만 FPS를 달성하며 높은 충실도의 3D 장면을 생성할 수 있음을 입증했습니다. 최종적으로 시뮬레이션에서 학습된 yaw-control 정책을 실제 Crazyflie 드론에 성공적으로 이식하여 Sim-to-Real 성능을 검증했습니다.",
+      "key_points": [
+        "기존 대비 20배 이상 빠른 고성능 배치 렌더링 성능 확보",
+        "Nvidia OptiX, Vulkan, Metal, WebGPU를 지원하는 하이브리드 레이 트레이싱 엔진 HyperLux 도입",
+        "시뮬레이션에서 학습된 정책을 실제 소형 드론(Crazyflie)에 성공적으로 전이(Sim-to-Real)"
+      ],
+      "tags": [
+        "Robotics",
+        "Simulation",
+        "Reinforcement Learning",
+        "Computer Vision",
+        "Vision"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "방대한 양의 시각적 학습 데이터를 초고속으로 생성할 수 있어, 강화학습 기반의 로봇 제어 모델 학습 시간을 획기적으로 단축할 수 있습니다.",
+      "recommended_actions": [
+        "제공되는 다양한 렌더링 옵션(PBR, Motion Blur 등)에 따른 Sim-to-Real 전이 성능 비교",
+        "소형 드론 하드웨어(Crazyflie 등) 환경에서의 제어 정책 이식 테스트",
+        "다양한 GPU 백엔드(OptiX vs Vulkan) 환경에서의 렌더링 효율성 검증"
+      ],
+      "risks_and_limits": [
+        "초고속 렌더링을 위해 물리적 정확도와 시각적 충실도 사이의 트레이드오프가 발생할 수 있음",
+        "소형 드론(Crazyflie)과 같은 특정 하드웨어 환경에 특화된 실험 결과일 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28950.png",
+      "local_image_path": "images/HyperDrone_Simulation-to-Reality_Transfer_at_Millions_of_Frames_per_Second_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 42,
       "title": "MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models",
       "paper_id": "2610.22951",
       "url": "https://huggingface.co/papers/2610.22951",
@@ -1553,7 +1754,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 43,
       "title": "SplatLab: Autonomous Scientific Discovery for 3DGS Research",
       "paper_id": "2610.30468",
       "url": "https://huggingface.co/papers/2610.30468",
@@ -1594,7 +1795,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 44,
       "title": "TILDE: Teacher-in-the-Loop Distillation from Embodied Foundation Models",
       "paper_id": "2610.25376",
       "url": "https://huggingface.co/papers/2610.25376",
@@ -1634,7 +1835,7 @@
       "local_figures": []
     },
     {
-      "rank": 40,
+      "rank": 45,
       "title": "SEAM: Spectral Embedding Alignment and Merging for Low-Resource TTS",
       "paper_id": "2610.26252",
       "url": "https://huggingface.co/papers/2610.26252",
@@ -1674,7 +1875,7 @@
       "local_figures": []
     },
     {
-      "rank": 41,
+      "rank": 46,
       "title": "Skeleton-Grounded Latent Action Model for Robot World Models",
       "paper_id": "2610.31474",
       "url": "https://huggingface.co/papers/2610.31474",
@@ -1717,7 +1918,92 @@
       "local_figures": []
     },
     {
-      "rank": 42,
+      "rank": 47,
+      "title": "TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodied Agents in Evolving Physical and Social Environments",
+      "paper_id": "2610.30043",
+      "url": "https://huggingface.co/papers/2610.30043",
+      "arxiv_url": "https://arxiv.org/abs/2610.30043",
+      "upvotes": 1,
+      "summary": "물리적 제약과 사회적 상호작용이 공존하는 환경에서 장기 과업 수행 능력을 평가하고 학습하기 위한 로봇 중심 풀스택 프레임워크 제안",
+      "korean_abstract": "기존의 Embodied Agent 시스템은 특정 목표 달성이나 추상적 기호 실행에 집중하여, 변화하는 물리적/사회적 환경에서의 평가에 한계가 있었습니다. 이를 해결하기 위해 물리 시뮬레이터와 NPC, 대화 제약이 포함된 TARSphere-Infra와 MLLM 기반의 계층적 실행 구조인 TARSphere-Harness를 제안합니다. 제안된 프레임워크는 이벤트 기반 FSM을 통해 과업 상태를 업데이트하며, MLLM이 관찰과 피드백을 바탕으로 의사결정을 수정할 수 있도록 설계되었습니다. 이를 바탕으로 구축된 TARSphere-Bench를 통해 8종의 MLLM을 평가한 결과, 범용 모델이 특정 임베디드 모델보다 우수할 수 있음을 확인했습니다. 다만, 인간과의 상호작용 및 과업 업데이트, 물리적 충돌 문제는 여전히 해결해야 할 과제로 남았습니다.",
+      "key_points": [
+        "물리적 시뮬레이션과 사회적 NPC 상호작용이 결합된 로봇 중심 풀스택 프레임워크(TARSphere) 개발",
+        "Frozen MLLM을 활용하여 계층적 메모리와 실행 피드백을 통해 의사결정을 수정하는 에이전트 구조 설계",
+        "Perceptual robustness 및 Human coordination 등 복합적 능력을 평가하기 위한 360개 에피소드 규모의 벤치마크 구축"
+      ],
+      "tags": [
+        "Embodied AI",
+        "LLM",
+        "Robotics",
+        "Simulation",
+        "Agent",
+        "Multimodal",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "단순한 목표 달성을 넘어, 인간과의 협업 및 동적인 환경 변화가 포함된 실질적인 로봇 에이전트 운영 환경을 구축하는 데 중요한 가이드라인을 제공합니다.",
+      "recommended_actions": [
+        "제안된 FSM 기반의 이벤트 처리 로직을 기존 MLLM 에이전트 워크플로우에 이식해보기",
+        "물리적 충돌 및 낙하 상황을 포함한 시나리오에서 에이전트의 복구(Recovery) 능력 테스트하기",
+        "LLM의 의사결정 루프에 계층적 메모리 구조를 적용하여 장기 과업 수행력 비교하기"
+      ],
+      "risks_and_limits": [
+        "물리적 충돌 및 낙하와 같은 실행 안전성(Execution Safety) 문제가 과업 성공률과 별개로 발생할 수 있음",
+        "인간과의 복잡한 상호작용 및 실시간 과업 업데이트 상황에서의 에이전트 대응 능력 부족"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.30043.png",
+      "local_image_path": "images/TARSphere_A_Robot-Oriented_Full-Stack_Framework_for_Long-Horizon_Embodied_Agents_in_Evolving_Physica_img.jpg",
+      "local_figures": [
+        "images/TARSphere_A_Robot-Oriented_Full-Stack_Framework_fo_fig_1.jpeg"
+      ]
+    },
+    {
+      "rank": 48,
+      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
+      "paper_id": "2610.24385",
+      "url": "https://huggingface.co/papers/2610.24385",
+      "arxiv_url": "https://arxiv.org/abs/2610.24385",
+      "upvotes": 1,
+      "summary": "적은 상호작용만으로 사용자의 선호 페르소나를 빠르게 찾아내는 효율적인 에이전트 개인화 프레임워크 제안",
+      "korean_abstract": "LLM 에이전트가 적은 상호작용을 통해 사용자의 쿼리별 선호도를 파악하는 테스트 타임 개인화가 중요해지고 있습니다. 기존 방식은 거대한 페르소나 후보군 중에서 최적을 선택하는 데 어려움이 있습니다. 본 논문은 IDS(Information-Directed Sampling)에서 영감을 받은 ID-TAP 프레임워크를 제안합니다. 이 방식은 쿼리 조건부 신경 유틸리티 모델과 경량 Bradley-Terry 탐색기를 결합하여 대규모 페르소나 공간에서 효율적인 선택을 수행합니다. 실험 결과, 제한된 10회 비교 예산 내에서 기존 베이스라인 대비 가장 강력한 성능을 달성했습니다.",
+      "key_points": [
+        "ID-TAP: 대규모 페르소나 공간을 위한 효율적인 듀얼링 밴딧(Dueling-bandit) 프레임워크 개발",
+        "신경 모델과 Bradley-Terry 모델의 결합을 통한 탐색과 활용(Exploration-Exploitation) 최적화",
+        "유사도 가중 웜스타트(Similarity-weighted warm starts)를 통한 쿼리 간 증거 전이 및 효율적 학습"
+      ],
+      "tags": [
+        "LLM-Agent",
+        "Personalization",
+        "Reinforcement Learning",
+        "User Preference",
+        "Agent",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "사용자의 피드백(A/B 테스트 형태)이 적은 상황에서도 에이전트의 말투나 성격을 빠르게 최적화할 수 있는 실용적인 방법론을 제공합니다.",
+      "recommended_actions": [
+        "제한된 피드백 예산(예: 5~10회) 환경에서 페르소나 선택 성능 테스트",
+        "유사한 쿼리 그룹 간의 지식 전이(Warm-start) 효율성 검증",
+        "LLM 기반의 선호도 시뮬레이터를 활용한 에이전트 개인화 파이프라인 구축"
+      ],
+      "risks_and_limits": [
+        "사용자 피드백이 극도로 적거나 일관성이 없을 경우 모델의 수렴 속도 저하 가능성",
+        "페르소나 후보군(Persona space)의 정의와 품질에 따른 성능 의존성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.24385.png",
+      "local_image_path": "images/Bridging_Exploration_and_Persona_Information-Directed_Dueling_for_Test-Time_Agent_Personalization_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 49,
       "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
       "paper_id": "2610.24383",
       "url": "https://huggingface.co/papers/2610.24383",
@@ -1759,46 +2045,7 @@
       "local_figures": []
     },
     {
-      "rank": 43,
-      "title": "HyperDrone: Simulation-to-Reality Transfer at Millions of Frames per Second",
-      "paper_id": "2610.28950",
-      "url": "https://huggingface.co/papers/2610.28950",
-      "arxiv_url": "https://arxiv.org/abs/2610.28950",
-      "upvotes": 1,
-      "summary": "GPU 가속 레이 트레이싱을 통해 초당 수백만 프레임의 렌더링을 지원하는 초고속 드론 시뮬레이터 개발",
-      "korean_abstract": "기존의 배치형 드론 시뮬레이터는 학습 데이터 생성 속도 면에서 성능 한계가 있었습니다. 이를 해결하기 위해 최적화된 멀티로터 역학 엔진과 새로운 레이 트레이싱 엔진인 HyperLux를 결합한 HyperDrone을 제안합니다. HyperLux는 현대적인 GPU 하드웨어를 활용하여 RGB, 깊이, 세그멘테이션 등 다양한 관측 데이터를 초고속으로 렌더링합니다. 실험 결과, 소비자용 GPU에서도 수백만 FPS를 달성하며 높은 충실도의 3D 장면을 생성할 수 있음을 입증했습니다. 최종적으로 시뮬레이션에서 학습된 yaw-control 정책을 실제 Crazyflie 드론에 성공적으로 이식하여 Sim-to-Real 성능을 검증했습니다.",
-      "key_points": [
-        "기존 대비 20배 이상 빠른 고성능 배치 렌더링 성능 확보",
-        "Nvidia OptiX, Vulkan, Metal, WebGPU를 지원하는 하이브리드 레이 트레이싱 엔진 HyperLux 도입",
-        "시뮬레이션에서 학습된 정책을 실제 소형 드론(Crazyflie)에 성공적으로 전이(Sim-to-Real)"
-      ],
-      "tags": [
-        "Robotics",
-        "Simulation",
-        "Reinforcement Learning",
-        "Computer Vision",
-        "Vision"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "방대한 양의 시각적 학습 데이터를 초고속으로 생성할 수 있어, 강화학습 기반의 로봇 제어 모델 학습 시간을 획기적으로 단축할 수 있습니다.",
-      "recommended_actions": [
-        "제공되는 다양한 렌더링 옵션(PBR, Motion Blur 등)에 따른 Sim-to-Real 전이 성능 비교",
-        "소형 드론 하드웨어(Crazyflie 등) 환경에서의 제어 정책 이식 테스트",
-        "다양한 GPU 백엔드(OptiX vs Vulkan) 환경에서의 렌더링 효율성 검증"
-      ],
-      "risks_and_limits": [
-        "초고속 렌더링을 위해 물리적 정확도와 시각적 충실도 사이의 트레이드오프가 발생할 수 있음",
-        "소형 드론(Crazyflie)과 같은 특정 하드웨어 환경에 특화된 실험 결과일 가능성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.28950.png",
-      "local_image_path": "images/HyperDrone_Simulation-to-Reality_Transfer_at_Millions_of_Frames_per_Second_img.jpg",
-      "local_figures": []
-    },
-    {
-      "rank": 44,
+      "rank": 50,
       "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
       "paper_id": "2610.12586",
       "url": "https://huggingface.co/papers/2610.12586",
@@ -1838,47 +2085,6 @@
       "local_figures": [
         "images/Realism_VS_Accuracy_Event_Sequence_Forecasting_fro_fig_1.png"
       ]
-    },
-    {
-      "rank": 45,
-      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-      "paper_id": "2610.24385",
-      "url": "https://huggingface.co/papers/2610.24385",
-      "arxiv_url": "https://arxiv.org/abs/2610.24385",
-      "upvotes": 0,
-      "summary": "적은 상호작용만으로 사용자의 선호 페르소나를 빠르게 찾아내는 효율적인 에이전트 개인화 프레임워크 제안",
-      "korean_abstract": "LLM 에이전트가 적은 상호작용을 통해 사용자의 쿼리별 선호도를 파악하는 테스트 타임 개인화가 중요해지고 있습니다. 기존 방식은 거대한 페르소나 후보군 중에서 최적을 선택하는 데 어려움이 있습니다. 본 논문은 IDS(Information-Directed Sampling)에서 영감을 받은 ID-TAP 프레임워크를 제안합니다. 이 방식은 쿼리 조건부 신경 유틸리티 모델과 경량 Bradley-Terry 탐색기를 결합하여 대규모 페르소나 공간에서 효율적인 선택을 수행합니다. 실험 결과, 제한된 10회 비교 예산 내에서 기존 베이스라인 대비 가장 강력한 성능을 달성했습니다.",
-      "key_points": [
-        "ID-TAP: 대규모 페르소나 공간을 위한 효율적인 듀얼링 밴딧(Dueling-bandit) 프레임워크 개발",
-        "신경 모델과 Bradley-Terry 모델의 결합을 통한 탐색과 활용(Exploration-Exploitation) 최적화",
-        "유사도 가중 웜스타트(Similarity-weighted warm starts)를 통한 쿼리 간 증거 전이 및 효율적 학습"
-      ],
-      "tags": [
-        "LLM-Agent",
-        "Personalization",
-        "Reinforcement Learning",
-        "User Preference",
-        "Agent",
-        "Benchmark",
-        "Evaluation"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "사용자의 피드백(A/B 테스트 형태)이 적은 상황에서도 에이전트의 말투나 성격을 빠르게 최적화할 수 있는 실용적인 방법론을 제공합니다.",
-      "recommended_actions": [
-        "제한된 피드백 예산(예: 5~10회) 환경에서 페르소나 선택 성능 테스트",
-        "유사한 쿼리 그룹 간의 지식 전이(Warm-start) 효율성 검증",
-        "LLM 기반의 선호도 시뮬레이터를 활용한 에이전트 개인화 파이프라인 구축"
-      ],
-      "risks_and_limits": [
-        "사용자 피드백이 극도로 적거나 일관성이 없을 경우 모델의 수렴 속도 저하 가능성",
-        "페르소나 후보군(Persona space)의 정의와 품질에 따른 성능 의존성"
-      ],
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.24385.png",
-      "local_image_path": "images/Bridging_Exploration_and_Persona_Information-Directed_Dueling_for_Test-Time_Agent_Personalization_img.jpg",
-      "local_figures": []
     }
   ]
 }
