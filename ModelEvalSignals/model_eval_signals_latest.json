@@ -1,48 +1,49 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T06:29:13.995023+09:00",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T04:47:25.242334+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face의 신규 모델 공개로 인한 텍스트 생성 및 이미지 모델의 활발한 트렌드 형성 및 LiveCodeBench를 통한 코딩 성능 벤치마크 결과 확인.",
+  "daily_summary": "Hugging Face에서는 멀티모달 및 텍스트 생성 모델들의 신규 출시와 트렌드 진입이 두드러졌으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
   "daily_key_points": [
-    "Comfy-Org의 MOSS-Image 및 RecursiveSI의 flint 등 신규 모델들이 높은 다운로드와 관심을 받으며 트렌드 진입",
-    "4B에서 40B 규모에 이르는 다양한 파라미터 크기의 텍스트 생성 모델들이 주목받음",
-    "LiveCodeBench 벤치마크에서 O4-Mini, Gemini 시리즈 등 상위 모델들의 코딩 성능 지표 확인"
+    "MiniMax-M3.1-Flash 등 멀티모달 및 텍스트 생성 모델의 Hugging Face 트렌드 진입",
+    "40B 규모의 flint 모델 및 4.1B 규모의 Spark-X2.6-4B 모델 등 다양한 파라미터 규모의 모델 공개",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들의 상위권 성적 기록"
   ],
   "daily_tags": [
     "HuggingFace",
-    "ModelTrending",
-    "LiveCodeBench"
+    "LiveCodeBench",
+    "Multi-modal",
+    "Text-generation"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 공개로 인한 텍스트 생성 및 이미지 모델의 활발한 트렌드 형성 및 LiveCodeBench를 통한 코딩 성능 벤치마크 결과 확인.\n\n📍 1. Comfy-Org/MOSS-Image\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Comfy-Org에서 공개한 MOSS-Image 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 해당 모델은 약 160만 회 이상의 다운로드를 달성하며 활발한 사용성을 보여주고 있습니다.\n🔗 링크: https://huggingface.co/Comfy-Org/MOSS-Image\n\n📍 2. RecursiveSI/flint\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: RecursiveSI에서 공개한 flint 모델이 Hugging Face에서 주목받고 있습니다. 약 40B 파라미터 규모의 text-generation 모델로, 최근 다운로드와 좋아요 수가 증가하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/RecursiveSI/flint\n\n📍 3. XHToken/Spark-X2.6-4B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: XHToken에서 공개한 Spark-X2.6-4B 모델이 Hugging Face에서 주목받고 있습니다. 약 4.1B 파라미터를 가진 이 모델은 text-generation 태스크를 위한 모델입니다.\n🔗 링크: https://huggingface.co/XHToken/Spark-X2.6-4B\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-24.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 멀티모달 및 텍스트 생성 모델들의 신규 출시와 트렌드 진입이 두드러졌으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. MiniMaxAI/MiniMax-M3.1-Flash\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash\n\n📍 2. RecursiveSI/flint\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: RecursiveSI에서 공개한 flint 모델이 Hugging Face에서 주목받고 있습니다. 약 40B 파라미터 규모의 text-generation 모델로, 최근 다운로드 수가 증가하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/RecursiveSI/flint\n\n📍 3. XHToken/Spark-X2.6-4B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: XHToken에서 공개한 Spark-X2.6-4B 모델이 Hugging Face에서 주목받고 있습니다. 약 4.1B 파라미터를 가진 이 모델은 text-generation 태스크를 위한 모델입니다.\n🔗 링크: https://huggingface.co/XHToken/Spark-X2.6-4B\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-25.md",
   "items": [
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "Comfy-Org/MOSS-Image",
-      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "title": "MiniMaxAI/MiniMax-M3.1-Flash",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-22T14:20:17+09:00",
-      "published_date": "2026-10-22",
-      "original_description": "likes=392, downloads=1606363, pipeline_tag=",
+      "published_at_kst": "2026-10-23T12:37:20+09:00",
+      "published_date": "2026-10-23",
+      "original_description": "likes=302, downloads=5789, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 392,
-        "downloads": 1606363,
-        "num_parameters": 0,
-        "pipeline_tag": ""
+        "likes": 302,
+        "downloads": 5789,
+        "num_parameters": 220490854016,
+        "pipeline_tag": "image-text-to-text"
       },
       "rank": 1,
-      "summary": "Comfy-Org에서 공개한 MOSS-Image 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 해당 모델은 약 160만 회 이상의 다운로드를 달성하며 활발한 사용성을 보여주고 있습니다.",
+      "summary": "MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
       "key_points": [
-        "Comfy-Org에서 배포한 MOSS-Image 모델의 트렌드 확인",
-        "1,606,363회의 높은 downloads 기록",
-        "392개의 likes를 확보하며 사용자 관심을 받음"
+        "MiniMax-M3.1-Flash 모델의 Hugging Face 다운로드 수가 5,789회를 기록하며 트렌드에 진입했습니다.",
+        "해당 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다.",
+        "모델의 파라미터 규모는 약 220B 수준으로 확인됩니다."
       ],
       "tags": [
-        "MOSS-Image",
-        "Comfy-Org",
-        "Model Trending"
+        "MiniMax-M3.1-Flash",
+        "image-text-to-text",
+        "Multi-modal"
       ]
     },
     {
@@ -53,20 +54,20 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-21T23:24:03+09:00",
       "published_date": "2026-10-21",
-      "original_description": "likes=673, downloads=1904, pipeline_tag=text-generation",
+      "original_description": "likes=753, downloads=4795, pipeline_tag=text-generation",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 673,
-        "downloads": 1904,
+        "likes": 753,
+        "downloads": 4795,
         "num_parameters": 39785287456,
         "pipeline_tag": "text-generation"
       },
       "rank": 2,
-      "summary": "RecursiveSI에서 공개한 flint 모델이 Hugging Face에서 주목받고 있습니다. 약 40B 파라미터 규모의 text-generation 모델로, 최근 다운로드와 좋아요 수가 증가하며 트렌드에 진입했습니다.",
+      "summary": "RecursiveSI에서 공개한 flint 모델이 Hugging Face에서 주목받고 있습니다. 약 40B 파라미터 규모의 text-generation 모델로, 최근 다운로드 수가 증가하며 트렌드에 진입했습니다.",
       "key_points": [
         "RecursiveSI에서 공개한 40B 규모의 text-generation 모델입니다.",
-        "likes 673회, downloads 1,904회를 기록하며 모델 트렌드에 진입했습니다.",
-        "약 39.8B 파라미터를 보유한 대규모 언어 모델입니다."
+        "likes 753회, downloads 4,795회를 기록하며 모델 트렌드에 진입했습니다.",
+        "num_parameters는 약 39.8B로 확인됩니다."
       ],
       "tags": [
         "RecursiveSI",
@@ -82,11 +83,11 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-21T17:51:53+09:00",
       "published_date": "2026-10-21",
-      "original_description": "likes=408, downloads=1060, pipeline_tag=text-generation",
+      "original_description": "likes=440, downloads=2537, pipeline_tag=text-generation",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 408,
-        "downloads": 1060,
+        "likes": 440,
+        "downloads": 2537,
         "num_parameters": 4112079360,
         "pipeline_tag": "text-generation"
       },
