@@ -1,24 +1,24 @@
 {
   "source": "reddit",
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T06:39:34.720589+09:00",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T04:56:33.945535+09:00",
   "count": 6,
-  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 고성능 컴퓨팅(HPC) 인프라 설계와 같은 하드웨어 최적화부터 RAG 및 컨텍스트 그래프 구축을 위한 실무적인 기술 논의가 활발히 이루어졌습니다. 또한, AI 자동화 에이전시를 통한 수익화 전략과 학회 관련 메가스레드 등 기술적 성취와 커리어 전략이 공존하는 흐름을 보였습니다.",
+  "daily_summary": "오늘의 주요 이슈는 AI 모델의 성능 비교와 기술적 효율성을 높이는 오픈소스 도구들의 등장입니다. 또한, AI 기술의 윤리적 활용과 인류 공동 유산으로서의 법적 지위 등 기술이 사회에 미치는 영향에 대한 심도 있는 논쟁이 이어졌습니다.",
   "daily_key_points": [
-    "AlphaFold 2와 같은 연산 집약적 워크로드를 위해 VRAM 확보와 효율적인 GPU 배치가 핵심적인 HPC 설계 요소로 논의되었습니다.",
-    "V100 환경에서 DFlash2 투기적 디코딩을 지원하는 ReVolta 0.1.2 출시로 인해 특정 작업에서의 추론 속도가 크게 향상되었습니다.",
-    "AI 엔지니어링의 수익화를 위해 기술 감사 대신 작은 단위의 기술적 과업을 수행하는 하청 방식의 실질적인 업무 확보 전략이 제안되었습니다."
+    "Raon 모델과 Flint 모델 간의 성능 차이 및 벤치마크 결과에 대한 기술적 분석이 활발히 공유되었습니다.",
+    "HTML 데이터를 최적화하여 토큰 사용량을 획기적으로 줄이는 오픈소스 도구와 인용 검증 기술이 주목받았습니다.",
+    "로봇 기술의 법 집행 활용에 대한 윤리적 반대와 AI를 인류 공동의 유산으로 규정해야 한다는 철학적 논쟁이 발생했습니다."
   ],
   "daily_tags": [
-    "HPC",
-    "LLM_Optimization",
-    "AI_Automation",
-    "DeepLearning"
+    "AI_Ethics",
+    "OpenSource",
+    "LLM_Benchmark",
+    "Data_Processing"
   ],
   "subreddits_covered": [
-    "LanguageTechnology",
     "LocalLLaMA",
-    "Rag"
+    "OpenSourceAI",
+    "artificial"
   ],
   "source_modes_used": [
     "hot",
@@ -27,35 +27,33 @@
   "run_stats": {
     "candidate_count": 24,
     "finalist_count": 6,
-    "summarization_wall_sec": 404.502,
-    "total_wall_sec": 534.249
+    "summarization_wall_sec": 351.921,
+    "total_wall_sec": 467.443
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 고성능 컴퓨팅(HPC) 인프라 설계와 같은 하드웨어 최적화부터 RAG 및 컨텍스트 그래프 구축을 위한 실무적인 기술 논의가 활발히 이루어졌습니다. 또한, AI 자동화 에이전시를 통한 수익화 전략과 학회 관련 메가스레드 등 기술적 성취와 커리어 전략이 공존하는 흐름을 보였습니다.\n\n🔥 1. wanna help me design an HPC system upgrade for cancer research?\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 암 연구를 위한 AlphaFold 2 워크로드를 지원할 30만~40만 달러 규모의 HPC 시스템 업그레이드 설계를 요청하는 내용입니다. 높은 연산 성능과 적절한 VRAM 확보가 핵심이며, 기존 Dell R7525 클러스터를 활용한 효율적인 GPU 구성 방안을 모색하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/\n\n🔥 2. Honest reviews of Context graphs and Gemini Knowledge Catalog please\nr/Rag | 👍 2 | 💬 0\n📝 요약: 컨텍스트 그래프의 개념, 구축 및 유지 관리 방법, 그리고 스키마 설계를 위한 엔지니어의 필요성에 대해 질문하고 있습니다. 또한 Gemini Knowledge Catalog의 성능과 이를 활용한 컨텍스트 그래프 개발을 위한 다른 프레임워크에 대한 의견을 구하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/Rag/comments/1xdllg2/honest_reviews_of_context_graphs_and_gemini/\n\n🔥 3. *ACL Megathread\nr/LanguageTechnology | 👍 8 | 💬 22\n📝 요약: ACL 학회와 관련된 정보를 모으기 위한 메가스레드가 게시되었습니다. 학회 관련 논의를 위한 게시물로 보입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vv140o/acl_megathread/\n\n🔥 4. ReVolta 0.1.2: DFlash speculative decoding running on 4× V100\nr/LocalLLaMA | 👍 1 | 💬 1\n📝 요약: V100 GPU 환경에서 구동되는 vLLM 포크 버전인 ReVolta 0.1.2가 출시되었습니다. 이번 업데이트는 Volta 아키텍처에서 DFlash2 투기적 디코딩(Speculative Decoding)을 지원하여 영어 및 코드 생성 속도를 크게 향상시킨 것이 특징입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xdqgps/revolta_012_dflash_speculative_decoding_running/\n\n🔥 5. How do AI automation agencies find subcontractors for small paid tasks?\nr/Rag | 👍 2 | 💬 1\n📝 요약: 독립적인 AI 엔지니어링 프로젝트를 수익화하려는 작성자가 기술 감사 대신 작은 단위의 업무를 수행하는 하청 방식으로 전략을 변경하려 합니다. 이미 고객을 보유한 AI 자동화 에이전시에 협력할 수 있는 구체적인 채널과 실질적인 업무 확보 방법을 묻고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/Rag/comments/1xdlfaj/how_do_ai_automation_agencies_find_subcontractors/\n\n🔥 6. EMMLP + ARR Megathread\nr/LanguageTechnology | 👍 22 | 💬 67\n📝 요약: EMMLP 및 ARR 관련 질문과 토론을 한곳에 모으기 위한 메가스레드가 개설되었습니다. 개별 스레드를 정리하고 효율적인 논의를 위해 작성된 게시물입니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1vdga9s/emmlp_arr_megathread/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/Rag)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘의 주요 이슈는 AI 모델의 성능 비교와 기술적 효율성을 높이는 오픈소스 도구들의 등장입니다. 또한, AI 기술의 윤리적 활용과 인류 공동 유산으로서의 법적 지위 등 기술이 사회에 미치는 영향에 대한 심도 있는 논쟁이 이어졌습니다.\n\n🔥 1. Raon is better than Flint.\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자는 Flint 모델보다 Raon 모델이 훨씬 더 우수하다고 주장하며 성능 차이를 강조했습니다. Raon 모델이 아직 최적의 상태가 아님에도 불구하고 Flint보다 월등하다는 점을 언급하며 기존의 관심을 비판했습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xehs52/raon_is_better_than_flint/\n\n🔥 2. Boston Dynamics employees petition to cancel $1.3M Spot robot sale to ICE\nr/artificial | 👍 602 | 💬 49\n📝 요약: 보스턴 다이내믹스 직원들이 미 이민세관집행국(ICE)에 130만 달러 상당의 스팟 로봇을 판매하는 계획을 취소할 것을 요구하는 청원을 제출했습니다. 기술의 용도가 윤리적 문제와 직결되면서 기업의 책임에 대한 논쟁이 발생하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/artificial/comments/1xe5pqg/boston_dynamics_employees_petition_to_cancel_13m/\n\n🔥 3. 🟣 Show Quote in Context: an open-source skill that points citations to the actual passage, not just the page\nr/OpenSourceAI | 👍 2 | 💬 2\n📝 요약: 특정 웹페이지의 URL과 인용문을 입력하면 해당 문장이 위치한 정확한 지점으로 연결되는 텍스트 프래그먼트 링크(VDL)를 생성하는 오픈소스 AI 기술이 공개되었습니다. 이 도구는 단순한 페이지 링크를 넘어 근거가 되는 문맥을 즉각 확인할 수 있게 하여 저널리즘이나 학술적 인용의 신뢰성을 높여줍니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xed9m3/show_quote_in_context_an_opensource_skill_that/\n\n🔥 4. RecursiveSI Flint Benchmark: unsloth/flint-GGUF flint-UD-Q3_K_XL.gguf\nr/LocalLLaMA | 👍 6 | 💬 1\n📝 요약: Unsloth의 Flint Q3 모델이 RecursiveSI Flint 벤치마크에서 매우 낮은 성능을 기록했다는 결과가 공유되었습니다. 다양한 테스트 프레임워크를 사용했음에도 불구하고 작업 해결 능력이 현저히 떨어지는 양상을 보였습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xehn3u/recursivesi_flint_benchmark_unslothflintgguf/\n\n🔥 5. AI is humanities collective inheritance and should be legally treated as such\nr/artificial | 👍 12 | 💬 9\n📝 요약: AI는 인류가 축적해온 지식의 총합이므로 특정 기업이나 개인이 소유할 수 없는 인류 공동의 유산으로 취급되어야 합니다. 기술 기업은 소유자가 아닌 관리자 역할을 수행해야 하며, AI로 창출되는 막대한 부는 법적 장치를 통해 인류 전체에게 환원되어야 합니다.\n🔗 Reddit: https://www.reddit.com/r/artificial/comments/1xefah4/ai_is_humanities_collective_inheritance_and/\n\n🔥 6. markclean-ai: A zero-dependency HTML-to-LLM Markdown converter, Table-to-JSON/CSV parser, and RAG chunker that cuts LLM token usage by 65–90%\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: markclean-ai는 HTML 데이터를 LLM에 최적화된 마크다운 형식으로 변환하고 테이블을 JSON/CSV로 파싱하는 의존성 없는 도구입니다. 이를 통해 RAG 청킹 효율을 높이고 LLM 토큰 사용량을 65-90%까지 절감할 수 있습니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xed9be/markcleanai_a_zerodependency_htmltollm_markdown/\n\n출처: Reddit (r/LocalLLaMA, r/OpenSourceAI, r/artificial)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1xdqk1d",
+      "post_id": "1xehs52",
       "subreddit": "LocalLLaMA",
-      "title": "wanna help me design an HPC system upgrade for cancer research?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqk1d/wanna_help_me_design_an_hpc_system_upgrade_for/",
+      "title": "Raon is better than Flint.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xehs52/raon_is_better_than_flint/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-23T21:25:42",
-      "korean_summary": "암 연구를 위한 AlphaFold 2 워크로드를 지원할 30만~40만 달러 규모의 HPC 시스템 업그레이드 설계를 요청하는 내용입니다. 높은 연산 성능과 적절한 VRAM 확보가 핵심이며, 기존 Dell R7525 클러스터를 활용한 효율적인 GPU 구성 방안을 모색하고 있습니다.",
+      "pub_date": "2026-10-24T19:38:27",
+      "korean_summary": "사용자는 Flint 모델보다 Raon 모델이 훨씬 더 우수하다고 주장하며 성능 차이를 강조했습니다. Raon 모델이 아직 최적의 상태가 아님에도 불구하고 Flint보다 월등하다는 점을 언급하며 기존의 관심을 비판했습니다.",
       "external_article_summary": "",
       "key_points": [
-        "AlphaFold 2 워크로드 특성에 맞춰 50GB 이상의 VRAM 확보와 높은 연산 성능을 우선시하며, 데이터 입출력보다는 연산 집약적인 구성이 필요함",
-        "기존 3세대 EPYC 기반 Dell R7525 노드와 A30 GPU를 활용하여 2개의 GPU를 하나의 NUMA 노드에 배치하는 전략을 검토 중임",
-        "수백만 개의 작은 파일로 인한 IOPS 문제를 해결하기 위해 노드 로컬 스토리지와 HPC 스토리지 간의 스크립트 기반 데이터 이동 방식을 고려함"
+        "Raon 모델이 Flint 모델보다 성능 면에서 압도적으로 우수하다고 주장함",
+        "Raon이 아직 최고 모델이 아님에도 Flint보다 낫다는 점이 성능 차이를 증명함",
+        "Hugging Face에 공개된 KRAFTON의 Raon-1-mini-preview-gguf 모델을 언급함"
       ],
       "tags": [
-        "LLM",
-        "AI",
-        "HPC",
-        "GPU_Infrastructure",
-        "AlphaFold"
+        "Flint",
+        "Raon",
+        "LLM_Comparison"
       ],
       "source_modes": [
         "new"
@@ -69,59 +67,26 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xdllg2",
-      "subreddit": "Rag",
-      "title": "Honest reviews of Context graphs and Gemini Knowledge Catalog please",
-      "url": "https://www.reddit.com/r/Rag/comments/1xdllg2/honest_reviews_of_context_graphs_and_gemini/",
+      "post_id": "1xe5pqg",
+      "subreddit": "artificial",
+      "title": "Boston Dynamics employees petition to cancel $1.3M Spot robot sale to ICE",
+      "url": "https://www.reddit.com/r/artificial/comments/1xe5pqg/boston_dynamics_employees_petition_to_cancel_13m/",
       "external_link": null,
-      "score": "2",
-      "comments_count": 0,
+      "score": "602",
+      "comments_count": 49,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-23T18:13:20",
-      "korean_summary": "컨텍스트 그래프의 개념, 구축 및 유지 관리 방법, 그리고 스키마 설계를 위한 엔지니어의 필요성에 대해 질문하고 있습니다. 또한 Gemini Knowledge Catalog의 성능과 이를 활용한 컨텍스트 그래프 개발을 위한 다른 프레임워크에 대한 의견을 구하고 있습니다.",
+      "pub_date": "2026-10-24T10:59:13",
+      "korean_summary": "보스턴 다이내믹스 직원들이 미 이민세관집행국(ICE)에 130만 달러 상당의 스팟 로봇을 판매하는 계획을 취소할 것을 요구하는 청원을 제출했습니다. 기술의 용도가 윤리적 문제와 직결되면서 기업의 책임에 대한 논쟁이 발생하고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "컨텍스트 그래프의 실무적인 구축, 유지 관리 및 최적의 활용 방안에 대한 심도 있는 정보 요청",
-        "Gemini Knowledge Catalog의 실질적인 유용성과 성능에 대한 사용자 경험 확인",
-        "컨텍스트 그래프 개발을 지원하는 다른 프레임워크나 솔루션에 대한 추천 요청"
+        "보스턴 다이내믹스 직원들이 ICE로의 130만 달러 규모 스팟 로봇 판매 계약에 반대하는 청원을 제기함",
+        "로봇 기술이 법 집행 기관의 감시나 작전에 사용되는 것에 대한 윤리적 우려가 핵심 원인임"
       ],
       "tags": [
+        "Robotics",
         "AI",
-        "Knowledge Graph",
-        "Gemini Knowledge Catalog",
-        "Context Graph"
-      ],
-      "source_modes": [
-        "new"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1vv140o",
-      "subreddit": "LanguageTechnology",
-      "title": "*ACL Megathread",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vv140o/acl_megathread/",
-      "external_link": null,
-      "score": "8",
-      "comments_count": 22,
-      "comment_sample_count": 0,
-      "pub_date": "2026-08-22T03:20:25",
-      "korean_summary": "ACL 학회와 관련된 정보를 모으기 위한 메가스레드가 게시되었습니다. 학회 관련 논의를 위한 게시물로 보입니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "ACL 학회와 관련된 정보를 공유하고 논의하기 위한 스레드입니다.",
-        "사용자들의 참여를 유도하기 위한 메가스레드 형식의 게시물입니다."
-      ],
-      "tags": [
-        "Academic",
-        "NLP",
-        "ACL"
+        "Boston Dynamics",
+        "Ethics"
       ],
       "source_modes": [
         "hot"
@@ -135,98 +100,135 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xdqgps",
-      "subreddit": "LocalLLaMA",
-      "title": "ReVolta 0.1.2: DFlash speculative decoding running on 4× V100",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xdqgps/revolta_012_dflash_speculative_decoding_running/",
+      "post_id": "1xed9m3",
+      "subreddit": "OpenSourceAI",
+      "title": "🟣 Show Quote in Context: an open-source skill that points citations to the actual passage, not just the page",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xed9m3/show_quote_in_context_an_opensource_skill_that/",
       "external_link": null,
-      "score": "1",
-      "comments_count": 1,
+      "score": "2",
+      "comments_count": 2,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-23T21:21:54",
-      "korean_summary": "V100 GPU 환경에서 구동되는 vLLM 포크 버전인 ReVolta 0.1.2가 출시되었습니다. 이번 업데이트는 Volta 아키텍처에서 DFlash2 투기적 디코딩(Speculative Decoding)을 지원하여 영어 및 코드 생성 속도를 크게 향상시킨 것이 특징입니다.",
+      "pub_date": "2026-10-24T16:37:37",
+      "korean_summary": "특정 웹페이지의 URL과 인용문을 입력하면 해당 문장이 위치한 정확한 지점으로 연결되는 텍스트 프래그먼트 링크(VDL)를 생성하는 오픈소스 AI 기술이 공개되었습니다. 이 도구는 단순한 페이지 링크를 넘어 근거가 되는 문맥을 즉각 확인할 수 있게 하여 저널리즘이나 학술적 인용의 신뢰성을 높여줍니다.",
       "external_article_summary": "",
       "key_points": [
-        "DFlash2 투기적 디코딩 도입으로 단일 요청 시 영어 및 코드 작업에서 약 160~200 tok/s의 높은 처리량을 달상했습니다.",
-        "KV 풀 용량이 최대 1.27M 토큰까지 확장되었으며, 툴 콜링 및 Anthropic 메시지 엔드포인트 등 다양한 기능 수정이 포함되었습니다.",
-        "영어/코드 작업에는 효과적이지만 중국어 작업이나 다중 요청 환경에서는 성능 향상 폭이 제한적이어서 MTP가 기본값으로 유지됩니다."
+        "MIT 라이선스로 제공되는 오픈소스 기술로, Python 표준 라이브러리를 사용하여 별도의 API 키나 유료 서비스 없이 작동합니다.",
+        "제공된 인용문이 실제 웹페이지의 HTML 내에 존재하는지 검증하여 정확한 위치로 연결되는 딥링크를 생성합니다.",
+        "저널리즘, 학술 연구, 뉴스 보도 등 출처의 정확한 근거 제시가 필요한 분야에서 유용하게 활용될 수 있습니다."
+      ],
+      "tags": [
+        "Citation_Verification",
+        "AI_Tool",
+        "OpenSource",
+        "Python",
+        "AI"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xehn3u",
+      "subreddit": "LocalLLaMA",
+      "title": "RecursiveSI Flint Benchmark: unsloth/flint-GGUF flint-UD-Q3_K_XL.gguf",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xehn3u/recursivesi_flint_benchmark_unslothflintgguf/",
+      "external_link": null,
+      "score": "6",
+      "comments_count": 1,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-24T19:32:49",
+      "korean_summary": "Unsloth의 Flint Q3 모델이 RecursiveSI Flint 벤치마크에서 매우 낮은 성능을 기록했다는 결과가 공유되었습니다. 다양한 테스트 프레임워크를 사용했음에도 불구하고 작업 해결 능력이 현저히 떨어지는 양상을 보였습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "OMP 프레임워크에서는 12개 작업 중 7개만 해결하여 71.2점을 기록했습니다.",
+        "AtomicAgent 프레임워크에서는 12개 작업 중 3개만 해결하여 39.2점을 기록했습니다.",
+        "Hermes 프레임워크에서는 불필요한 파일 시스템 검색과 루프 현상으로 인해 작업 도중 중단되었습니다."
+      ],
+      "tags": [
+        "Unsloth",
+        "LLM Benchmark",
+        "Benchmark",
+        "Model Performance",
+        "AI"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xefah4",
+      "subreddit": "artificial",
+      "title": "AI is humanities collective inheritance and should be legally treated as such",
+      "url": "https://www.reddit.com/r/artificial/comments/1xefah4/ai_is_humanities_collective_inheritance_and/",
+      "external_link": null,
+      "score": "12",
+      "comments_count": 9,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-24T17:58:59",
+      "korean_summary": "AI는 인류가 축적해온 지식의 총합이므로 특정 기업이나 개인이 소유할 수 없는 인류 공동의 유산으로 취급되어야 합니다. 기술 기업은 소유자가 아닌 관리자 역할을 수행해야 하며, AI로 창출되는 막대한 부는 법적 장치를 통해 인류 전체에게 환원되어야 합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "AI 모델은 인류 조상들이 쌓아온 지식의 집합체이므로 특정 국가나 기업의 사적 소유가 아닌 인류 공동의 유산으로 간주되어야 함",
+        "기술 기업은 소유주가 아닌 관리자(steward) 역할을 수행해야 하며, 창출된 부를 인류에게 환원하는 법적 장치가 필요함",
+        "제안된 모델은 초기 투자자에게 보상을 제공하되, 특정 시점에 소유권을 독립적인 인류 신탁(Humanity Trust)으로 이전하는 방식을 포함함"
+      ],
+      "tags": [
+        "Rust",
+        "AI 윤리",
+        "보편적 기본소득",
+        "지식 재산권",
+        "AI"
+      ],
+      "source_modes": [
+        "hot"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xed9be",
+      "subreddit": "OpenSourceAI",
+      "title": "markclean-ai: A zero-dependency HTML-to-LLM Markdown converter, Table-to-JSON/CSV parser, and RAG chunker that cuts LLM token usage by 65–90%",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xed9be/markcleanai_a_zerodependency_htmltollm_markdown/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-24T16:37:17",
+      "korean_summary": "markclean-ai는 HTML 데이터를 LLM에 최적화된 마크다운 형식으로 변환하고 테이블을 JSON/CSV로 파싱하는 의존성 없는 도구입니다. 이를 통해 RAG 청킹 효율을 높이고 LLM 토큰 사용량을 65-90%까지 절감할 수 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "의존성 없는 가벼운 도구로 HTML을 마크다운으로 변환하고 테이블 데이터를 구조화된 형식으로 파싱합니다.",
+        "데이터 정제 및 RAG 청킹 기능을 통해 LLM 토큰 소모량을 65%에서 최대 90%까지 획기적으로 줄여줍니다.",
+        "데이터 전처리 과정을 최적화하여 LLM 비용 절감과 효율적인 정보 추출을 동시에 지원합니다."
       ],
       "tags": [
         "LLM",
+        "DataPreprocessing",
         "AI",
-        "SpeculativeDecoding",
-        "Agent",
-        "Release"
+        "OpenSource"
       ],
       "source_modes": [
         "new"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1xdlfaj",
-      "subreddit": "Rag",
-      "title": "How do AI automation agencies find subcontractors for small paid tasks?",
-      "url": "https://www.reddit.com/r/Rag/comments/1xdlfaj/how_do_ai_automation_agencies_find_subcontractors/",
-      "external_link": null,
-      "score": "2",
-      "comments_count": 1,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-23T18:06:56",
-      "korean_summary": "독립적인 AI 엔지니어링 프로젝트를 수익화하려는 작성자가 기술 감사 대신 작은 단위의 업무를 수행하는 하청 방식으로 전략을 변경하려 합니다. 이미 고객을 보유한 AI 자동화 에이전시에 협력할 수 있는 구체적인 채널과 실질적인 업무 확보 방법을 묻고 있습니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "단독 기술 감사 판매의 어려움을 깨닫고, 문제 해결을 원하는 기업을 대상으로 하는 에이전시의 하청 업무를 고려 중입니다.",
-        "에이전트 실패 재현, 워크플로우 테스트, 검색 회귀 조사 등 작고 측정 가능한 기술적 과업을 선호합니다.",
-        "브랜딩 전략이 아닌, 실제 유료 업무를 확보할 수 있는 에이전시 파트너 네트워크나 개발자 커뮤니티 등의 실질적인 채널을 찾고 있습니다."
-      ],
-      "tags": [
-        "AI",
-        "Agent",
-        "AI Automation",
-        "Subcontracting",
-        "Freelancing"
-      ],
-      "source_modes": [
-        "new"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1vdga9s",
-      "subreddit": "LanguageTechnology",
-      "title": "EMMLP + ARR Megathread",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1vdga9s/emmlp_arr_megathread/",
-      "external_link": null,
-      "score": "22",
-      "comments_count": 67,
-      "comment_sample_count": 0,
-      "pub_date": "2026-08-02T12:01:29",
-      "korean_summary": "EMMLP 및 ARR 관련 질문과 토론을 한곳에 모으기 위한 메가스레드가 개설되었습니다. 개별 스레드를 정리하고 효율적인 논의를 위해 작성된 게시물입니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "EMMLP 및 ARR 주제에 대한 질문과 토론을 위한 통합 스레드 운영",
-        "효율적인 관리를 위해 개별적으로 생성된 스레드는 삭제될 예정임"
-      ],
-      "tags": [
-        "EMMLP",
-        "ARR",
-        "Discussion"
-      ],
-      "source_modes": [
-        "hot"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",
