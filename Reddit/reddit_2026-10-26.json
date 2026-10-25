@@ -1,0 +1,206 @@
+{
+  "source": "reddit",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:56:44.652912+09:00",
+  "count": 5,
+  "daily_summary": "오늘 Reddit에서는 로컬 환경에서의 AI 최적화 및 활용 도구에 대한 기술적 논의와 함께, AI가 오픈소스 생태계에 미치는 영향에 대한 커뮤니티 간의 뜨거운 논쟁이 이어졌습니다. 특히 하드웨어 최적화를 통한 추론 속도 향상과 AI를 통한 오픈소스 진입 장벽 완화라는 긍정적 측면이 주목받았습니다.",
+  "daily_key_points": [
+    "macOS 및 Jetson AGX Orin 등 특정 하드웨어 환경에 최적화된 로컬 AI 추론 및 음성 인식 도구들이 공개되었습니다.",
+    "AI 기술이 오픈소스의 발전을 돕는 도구라는 주장과 특정 커뮤니티의 반(反) AI적 태도 사이에서 가치관 충돌이 발생했습니다.",
+    "AI를 활용하면 코딩 숙련도가 낮은 사용자도 오픈소스 생태계에 기여하고 독점적 소프트웨어로부터 독립할 수 있다는 전망이 제시되었습니다."
+  ],
+  "daily_tags": [
+    "LocalAI",
+    "OpenSource",
+    "LLM_Optimization",
+    "AI_Ethics"
+  ],
+  "subreddits_covered": [
+    "LanguageTechnology",
+    "LocalLLaMA",
+    "OpenSourceAI"
+  ],
+  "source_modes_used": [
+    "new",
+    "top_day"
+  ],
+  "run_stats": {
+    "candidate_count": 17,
+    "finalist_count": 5,
+    "summarization_wall_sec": 347.758,
+    "total_wall_sec": 507.908
+  },
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit에서는 로컬 환경에서의 AI 최적화 및 활용 도구에 대한 기술적 논의와 함께, AI가 오픈소스 생태계에 미치는 영향에 대한 커뮤니티 간의 뜨거운 논쟁이 이어졌습니다. 특히 하드웨어 최적화를 통한 추론 속도 향상과 AI를 통한 오픈소스 진입 장벽 완화라는 긍정적 측면이 주목받았습니다.\n\n🔥 1. Fully local dictation on macOS with whisper.cpp (large-v3-turbo): streaming chunks, paste anywhere, open source\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: macOS에서 whisper.cpp를 활용해 완전한 로컬 환경에서 작동하는 음성 받아쓰기 앱인 Vocs가 공개되었습니다. 이 앱은 실시간 스트리밍 방식과 정교한 후처리 과정을 통해 빠른 속도와 높은 정확도를 제공하며 개인정보 보호를 위해 모든 처리를 온디바이스로 수행합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xfbk40/fully_local_dictation_on_macos_with_whispercpp/\n\n🔥 2. ARR Oct Paper Reviewing\nr/LanguageTechnology | 👍 6 | 💬 2\n📝 요약: ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/\n\n🔥 3. Idiocracy took over r/opensource\nr/OpenSourceAI | 👍 172 | 💬 146\n📝 요약: 특정 오픈소스 커뮤니티가 AI에 대해 적대적인 태도를 취하며 운영되는 것에 대해 강한 불만을 제기하는 글입니다. 작성자는 AI가 오픈소스 발전에 기여하는 도구임에도 불구하고 커뮤니티가 편향된 입장을 취하는 것은 부적절하다고 비판합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xem14g/idiocracy_took_over_ropensource/\n\n🔥 4. Strata Optimized for 64GB AGX Orin\nr/LocalLLaMA | 👍 3 | 💬 2\n📝 요약: Jetson AGX Orin 64GB 환경에 최적화된 Strata 프레임워크의 포크 버전이 공개되었습니다. Qwen 3.6-35B 모델을 활용하여 기존 llama.cpp 대비 향상된 추론 속도를 달성한 것이 특징입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xfbjil/strata_optimized_for_64gb_agx_orin/\n\n🔥 5. r/opensource is wrong: it’s time we embrace AI’s potential to open source everything\nr/OpenSourceAI | 👍 56 | 💬 17\n📝 요약: 기술적 전문 지식이 부족했던 비개발자도 AI와 LLM을 통해 오픈소스 생태계에 기여하고 독점적 소프트웨어로부터 독립할 수 있음을 강조합니다. AI가 오픈소스의 진입 장벽을 낮추어 누구나 열정만 있다면 혁신에 참여할 수 있는 시대를 열 것이라고 주장합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xeohu7/ropensource_is_wrong_its_time_we_embrace_ais/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "items": [
+    {
+      "source": "reddit",
+      "post_id": "1xfbk40",
+      "subreddit": "LocalLLaMA",
+      "title": "Fully local dictation on macOS with whisper.cpp (large-v3-turbo): streaming chunks, paste anywhere, open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfbk40/fully_local_dictation_on_macos_with_whispercpp/",
+      "external_link": null,
+      "score": "Error",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-25T19:35:36",
+      "korean_summary": "macOS에서 whisper.cpp를 활용해 완전한 로컬 환경에서 작동하는 음성 받아쓰기 앱인 Vocs가 공개되었습니다. 이 앱은 실시간 스트리밍 방식과 정교한 후처리 과정을 통해 빠른 속도와 높은 정확도를 제공하며 개인정보 보호를 위해 모든 처리를 온디바이스로 수행합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "자연스러운 무음 구간을 기준으로 오디오를 분할하여 디코딩하는 스트리밍 방식을 통해 긴 음성 입력 시에도 대기 시간을 최소화했습니다.",
+        "반복 문구 및 환각 현상을 방지하기 위한 알고리즘과 Rust 기반의 결정론적 후처리 과정을 통해 텍스트 정확도를 높였습니다.",
+        "Tauri와 Rust로 구축되었으며, 네트워크 연결 없이 로컬에서만 작동하여 보안성을 확보하고 다른 엔진을 쉽게 추가할 수 있는 어댑터 구조를 갖췄습니다."
+      ],
+      "tags": [
+        "Rust",
+        "macOS",
+        "Whisper",
+        "OpenSource",
+        "AI"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "playwright",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xf9nkh",
+      "subreddit": "LanguageTechnology",
+      "title": "ARR Oct Paper Reviewing",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/",
+      "external_link": null,
+      "score": "6",
+      "comments_count": 2,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-25T18:20:19",
+      "korean_summary": "ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "ARR 10월 심사 사이클에 대한 논문 배정 여부 문의",
+        "심사 위원들의 배정 현황 확인 및 정보 공유 목적"
+      ],
+      "tags": [
+        "Paper Review",
+        "ARR",
+        "Academic Research"
+      ],
+      "source_modes": [
+        "top_day"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xem14g",
+      "subreddit": "OpenSourceAI",
+      "title": "Idiocracy took over r/opensource",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xem14g/idiocracy_took_over_ropensource/",
+      "external_link": null,
+      "score": "172",
+      "comments_count": 146,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-24T22:42:16",
+      "korean_summary": "특정 오픈소스 커뮤니티가 AI에 대해 적대적인 태도를 취하며 운영되는 것에 대해 강한 불만을 제기하는 글입니다. 작성자는 AI가 오픈소스 발전에 기여하는 도구임에도 불구하고 커뮤니티가 편향된 입장을 취하는 것은 부적절하다고 비판합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "AI 기술이 오픈소스의 본질과 무관하며 오히려 발전에 도움을 주는 도구라는 주장",
+        "비판적인 의견을 수용하지 않고 차단 위주로 운영되는 커뮤니티 관리 방식에 대한 비판",
+        "특정 커뮤니티가 오픈소스라는 이름에 걸맞지 않게 반(反) AI적인 태도를 취하는 것에 대한 분노"
+      ],
+      "tags": [
+        "OpenSource",
+        "CommunityConflict",
+        "AI"
+      ],
+      "source_modes": [
+        "top_day"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xfbjil",
+      "subreddit": "LocalLLaMA",
+      "title": "Strata Optimized for 64GB AGX Orin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfbjil/strata_optimized_for_64gb_agx_orin/",
+      "external_link": null,
+      "score": "3",
+      "comments_count": 2,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-25T19:35:00",
+      "korean_summary": "Jetson AGX Orin 64GB 환경에 최적화된 Strata 프레임워크의 포크 버전이 공개되었습니다. Qwen 3.6-35B 모델을 활용하여 기존 llama.cpp 대비 향상된 추론 속도를 달성한 것이 특징입니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Qwen 3.6-35B 모델 사용 시 MTP-2 샘플링을 통해 초당 약 40-41 토큰의 높은 디코딩 속도를 구현했습니다.",
+        "통합 INT8 KV 캐싱, 프리픽스 체크포인트, 선택적 KV 사전 할당 기능을 포함하여 메모리 효율을 높였습니다.",
+        "사용자는 이 프로젝트가 AI 보조를 통해 개발되었으며, Orin 하드웨어 사용자들에게 유용한 최적화 도구가 되기를 기대하고 있습니다."
+      ],
+      "tags": [
+        "Strata",
+        "Jetson_AGX_Orin",
+        "LLM_Optimization",
+        "Benchmark",
+        "AI"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xeohu7",
+      "subreddit": "OpenSourceAI",
+      "title": "r/opensource is wrong: it’s time we embrace AI’s potential to open source everything",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xeohu7/ropensource_is_wrong_its_time_we_embrace_ais/",
+      "external_link": null,
+      "score": "56",
+      "comments_count": 17,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-25T00:39:43",
+      "korean_summary": "기술적 전문 지식이 부족했던 비개발자도 AI와 LLM을 통해 오픈소스 생태계에 기여하고 독점적 소프트웨어로부터 독립할 수 있음을 강조합니다. AI가 오픈소스의 진입 장벽을 낮추어 누구나 열정만 있다면 혁신에 참여할 수 있는 시대를 열 것이라고 주장합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "AI 기술은 코딩 능력이 없는 일반인도 소프트웨어 개발 및 오픈소스 프로젝트에 실질적으로 기여할 수 있게 해주는 도구입니다.",
+        "작성자는 AI를 활용해 거대 기업의 폐쇄형 소프트웨어 의존도를 낮추고 자신만의 오픈소스 생태계를 구축하는 데 성공했습니다.",
+        "미래의 오픈소스는 소수 전문가의 영역을 넘어 대중의 열정과 협업을 통해 더욱 빠르게 발전하는 방향으로 나아가야 합니다."
+      ],
+      "tags": [
+        "LLM",
+        "Agent",
+        "Rust",
+        "OpenSource",
+        "AI"
+      ],
+      "source_modes": [
+        "top_day"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    }
+  ]
+}
