@@ -1,0 +1,781 @@
+{
+  "source": "community",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T04:56:49.927852+09:00",
+  "count": 25,
+  "daily_summary": "오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_key_points": [
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+    "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+  ],
+  "daily_tags": [
+    "AI",
+    "OpenSource",
+    "LLM",
+    "PHP",
+    "RCE"
+  ],
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Local Wikipedia: Wikipedia, but only for things a half hour walk from you\n📝 사용자의 현재 위치를 기준으로 반경 30분 거리 내의 위키피디아 정보만을 필터링하여 보여주는 서비스가 공개되었습니다. 위치 기반의 정보 제공 방식이 사용자에게 주는 심리적 밀착감과 데이터 활용 방식에 대한 논의가 이어지고 있습니다.\n\n📍 GeekNews / Hada · OpenAI의 프런티어 모델 훈련 환경 보안 강화\n📝 모델의 외부 유출 및 격리 우회 위험을 원천 차단하기 위해 훈련 환경을 폐쇄형 샌드박스로 전환하는 전략적 보안 조치입니다. 이는 차세대 모델의 통제 불가능한 행동을 방지하기 위한 기술적 방어선 구축을 의미합니다.\n\n📍 Reddit · Fully local dictation on macOS with whisper.cpp (large-v3-turbo): streaming chunks, paste anywhere, open source\n📝 macOS에서 whisper.cpp를 활용해 완전한 로컬 환경에서 작동하는 음성 받아쓰기 앱인 Vocs가 공개되었습니다. 이 앱은 실시간 스트리밍 방식과 정교한 후처리 과정을 통해 빠른 속도와 높은 정확도를 제공하며 개인정보 보호를 위해 모든 처리를 온디바이스로 수행합니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "items": [
+    {
+      "id": "hacker-news-50202285",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "url": "https://edjefferson.com/localwiki/",
+      "summary": "사용자의 현재 위치를 기준으로 반경 30분 거리 내의 위키피디아 정보만을 필터링하여 보여주는 서비스가 공개되었습니다. 위치 기반의 정보 제공 방식이 사용자에게 주는 심리적 밀착감과 데이터 활용 방식에 대한 논의가 이어지고 있습니다.",
+      "article_summary": "Local Wikipedia는 위키피디아의 지리적 태그(geocoded)가 포함된 페이지를 활용하여 사용자 주변의 정보만 제공하는 서비스입니다. 주변에 정보가 적을 경우 최대 6마일 이내의 항목을 가져오며, 데이터 과부하를 방지하기 위해 최대 500개의 항목까지만 포함하도록 설계되었습니다. 사용자의 위치 정보는 브라우저 내에만 유지되어 공유되는 링크에는 위치가 포함되지 않는 프라이버시 보호 방식을 채택했습니다.",
+      "external_article_summary": "Local Wikipedia는 위키피디아의 지리적 태그(geocoded)가 포함된 페이지를 활용하여 사용자 주변의 정보만 제공하는 서비스입니다. 주변에 정보가 적을 경우 최대 6마일 이내의 항목을 가져오며, 데이터 과부하를 방지하기 위해 최대 500개의 항목까지만 포함하도록 설계되었습니다. 사용자의 위치 정보는 브라우저 내에만 유지되어 공유되는 링크에는 위치가 포함되지 않는 프라이버시 보호 방식을 채택했습니다.",
+      "discussion_summary": "주변에 정보가 부족한 지역 거주자가 겪을 수 있는 정보 공백 문제와, 평범한 정보라도 근거리에서 발생할 때 느껴지는 심리적 유대감에 대한 흥미로운 반응이 나타나고 있습니다.",
+      "key_points": [
+        "위치 기반 지리적 태그를 활용한 위키피디어 데이터 필터링 기술을 적용했습니다.",
+        "사용자 프라이버시를 위해 위치 정보를 브라우저 내에만 국한하는 방식을 사용합니다.",
+        "근거리 정보의 밀착도가 정보의 가치와 사용자 경험에 미치는 심리적 영향을 보여줍니다."
+      ],
+      "tags": [
+        "Wikipedia",
+        "Location-based Service",
+        "Data Filtering"
+      ],
+      "published_at_kst": "2026-10-23T08:01:18+09:00",
+      "category": "데이터/DB",
+      "canonical_path": "/community/hacker-news-50202285",
+      "rank": 1,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50202285"
+      },
+      "score": 1652,
+      "comments_count": 253
+    },
+    {
+      "id": "hacker-news-50172041",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Security advisory: Critical remote code execution vulnerabilities, update now",
+      "url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+      "summary": "PHP에서 발생한 심각한 원격 코드 실행(RCE) 취약점에 대한 보안 권고와 대응 방안을 다룹니다. 특정 설정 조합에서 발생하는 취약점으로, 사용자들은 즉각적인 설정 변경을 통해 위험을 방지해야 합니다.",
+      "article_summary": "이번 취약점(CVE-2026-115560)은 애플리케이션이 설정 파일에서 `session.serialize_handler`를 `php_binary` 또는 `php_serialize`로 설정한 후, 런타임에 `ini_set()`을 통해 `php`로 변경할 때 발생합니다. 이러한 특수한 설정 상태에서 `session.upload_progress.enabled` 기능이 활성화되어 있으면 RCE 공격 벡터가 형성될 수 있습니다. 보안팀은 다음 정기 패치가 나오기 전까지 `session.upload_progress.enabled=0`으로 설정할 것을 권고합니다.",
+      "external_article_summary": "이번 취약점(CVE-2026-115560)은 애플리케이션이 설정 파일에서 `session.serialize_handler`를 `php_binary` 또는 `php_serialize`로 설정한 후, 런타임에 `ini_set()`을 통해 `php`로 변경할 때 발생합니다. 이러한 특수한 설정 상태에서 `session.upload_progress.enabled` 기능이 활성화되어 있으면 RCE 공격 벡터가 형성될 수 있습니다. 보안팀은 다음 정기 패치가 나오기 전까지 `session.upload_progress.enabled=0`으로 설정할 것을 권고합니다.",
+      "discussion_summary": "패치 배포 시점을 앞당겨야 한다는 요구와, 성급한 패치 배포가 오히려 보안 위협을 키울 수 있다는 우려가 대립하고 있습니다. 또한 이미 공개된 기술적 세부 사항이 공격자에게 악용될 가능성에 대한 논쟁이 이어지고 있습니다.",
+      "key_points": [
+        "런타임 시 세션 직렬화 핸들러를 변경하는 특수한 설정 환경에서 RCE 취약점이 발생합니다.",
+        "가장 확실한 완화 방법은 `session.upload_progress.enabled` 설정을 0으로 변경하는 것입니다.",
+        "패치 배포 시점과 기술 정보 공개 범위에 대한 보안 커뮤니티의 의견이 나뉘고 있습니다."
+      ],
+      "tags": [
+        "PHP",
+        "RCE",
+        "CVE",
+        "Security Advisory"
+      ],
+      "published_at_kst": "2026-10-21T05:15:50+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50172041",
+      "rank": 2,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50172041"
+      },
+      "score": 1559,
+      "comments_count": 659
+    },
+    {
+      "id": "hacker-news-50195959",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Quad9 to exit France",
+      "url": "https://quad9.net/news/blog/au-revoir-france/",
+      "summary": "프랑스 법원의 저작권 보호 판결로 인해 Quad9가 프랑스 내 서비스 제공을 중단하기로 결정했습니다. 이는 DNS 중립성과 프라이버시 원칙을 지키기 위한 기술적 결단입니다.",
+      "article_summary": "프랑스 법원이 beIN의 저작권 침해 주장을 수용하며 Quad9에 특정 도메인에 대한 DNS 해상 차단을 명령했습니다. 이에 따라 Quad9는 11월 4일부로 프랑스 내 무료 사이버 보안 서비스를 중단합니다. Quad9 측은 특정 도메인을 선별적으로 차단하는 것이 DNS 서비스의 중립성과 프라이버시 보호라는 핵심 미션에 위배된다고 판단했습니다.",
+      "external_article_summary": "프랑스 법원이 beIN의 저작권 침해 주장을 수용하며 Quad9에 특정 도메인에 대한 DNS 해상 차단을 명령했습니다. 이에 따라 Quad9는 11월 4일부로 프랑스 내 무료 사이버 보안 서비스를 중단합니다. Quad9 측은 특정 도메인을 선별적으로 차단하는 것이 DNS 서비스의 중립성과 프라이버시 보호라는 핵심 미션에 위배된다고 판단했습니다.",
+      "discussion_summary": "법적 규제 준수를 위해 서비스 지역을 철수하는 것이 불가피하다는 입장과, VPN 등을 통한 우회 접속 문제 등 법적 판결의 실효성에 대한 의문이 대립하고 있습니다.",
+      "key_points": [
+        "프랑스 법원의 도메인 차단 명령이 DNS 서비스의 중립성을 침해한다는 판단이 핵심입니다.",
+        "Quad9는 기술적 구현이 프라이버시 보호 원칙과 충돌함에 따라 프랑스 서비스를 종료합니다.",
+        "저작권 보호를 위한 DNS 수준의 차단이 인터넷의 투명성과 안정성을 저해할 수 있다는 우려가 제기됩니다."
+      ],
+      "tags": [
+        "Quad9",
+        "DNS",
+        "저작권",
+        "프라이버시",
+        "프랑스"
+      ],
+      "published_at_kst": "2026-10-22T23:32:38+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50195959",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50195959"
+      },
+      "score": 1369,
+      "comments_count": 476
+    },
+    {
+      "id": "hacker-news-50195110",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "eMudhra to exit global SSL/TLS certificate business",
+      "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+      "summary": "eMudhra가 글로벌 SSL/TLS 인증서 사업에서 철수하며 기업용 디지털 서명 및 ID 관리 사업에 집중하기로 결정했습니다. 이번 결정은 보안 시장의 변화와 브라우저 제조사와의 기술적 갈등이 맞물린 결과로 분석됩니다.",
+      "article_summary": "eMudhra는 기존의 SSL/TLS 인증서 발급 및 관리 사업을 중단하고, 기업용 eSignature와 통합 ID 거버넌스 플랫폼으로 사업 모델을 전환합니다. 이들은 PKI 기반의 인증 및 암호화 기술을 활용하여 5,000만 명 이상의 사용자를 보유한 보험사 및 대형 은행 등 엔터프라이즈급 고객을 대상으로 한 디지털 서명 자동화와 사용자 프로비저닝에 집중할 계획입니다.",
+      "external_article_summary": "eMudhra는 기존의 SSL/TLS 인증서 발급 및 관리 사업을 중단하고, 기업용 eSignature와 통합 ID 거버넌스 플랫폼으로 사업 모델을 전환합니다. 이들은 PKI 기반의 인증 및 암호화 기술을 활용하여 5,000만 명 이상의 사용자를 보유한 보험사 및 대형 은행 등 엔터프라이즈급 고객을 대상으로 한 디지털 서명 자동화와 사용자 프로비저닝에 집중할 계획입니다.",
+      "discussion_summary": "브라우저 제조사(Chrome 팀 등)의 엄격한 기술적 요구사항이 eMudhra의 사업 방향에 영향을 미쳤다는 비판과, 소셜 미디어를 통한 과도한 여론 형성이 기술적 실체보다 과장된 조사를 불러일으켰다는 의견이 대립하고 있습니다.",
+      "key_points": [
+        "eMudhra는 SSL/TLS 인증서 사업을 종료하고 디지털 서명 및 ID 관리 중심의 엔터프라이즈 솔루션으로 사업을 재편합니다.",
+        "브라우저 제조사의 기술적 검증 기준 강화가 인증서 사업 철수의 주요 배경 중 하나로 지목됩니다.",
+        "향후 기업용 PKI 기반의 문서 자동화 및 통합 인증 플랫폼 시장의 경쟁이 심화될 전망입니다."
+      ],
+      "tags": [
+        "eMudhra",
+        "SSL/TLS",
+        "PKI",
+        "디지털 서명",
+        "인증서"
+      ],
+      "published_at_kst": "2026-10-22T22:33:39+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50195110",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50195110"
+      },
+      "score": 1152,
+      "comments_count": 746
+    },
+    {
+      "id": "hacker-news-50180873",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "PHP 8.2.35",
+      "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+      "summary": "PHP 8.2.35 보안 업데이트는 인증되지 않은 원격 코드 실행(RCE) 취약점을 해결하기 위한 긴급 패치입니다. 사용자들은 즉각적인 업데이트를 통해 보안 위협에 대응해야 합니다.",
+      "article_summary": "PHP 개발팀은 인증되지 않은 사용자가 원격으로 코드를 실행할 수 있는 두 가지 치명적 취약점(CVE-2026-109618, CVE-2026-109619)을 해결하기 위해 PHP 8.2.35 버전을 출시했습니다. 이번 패치는 완벽한 완화책이 존재하지 않으므로 최신 버전으로의 업데이트가 유일한 해결책입니다. PHP 8.2 버전은 2026년 12월 31일에 지원이 종료될 예정이므로, 사용자들은 지원 가능한 차기 버전으로의 업그레이드를 계획해야 합니다.",
+      "external_article_summary": "PHP 개발팀은 인증되지 않은 사용자가 원격으로 코드를 실행할 수 있는 두 가지 치명적 취약점(CVE-2026-109618, CVE-2026-109619)을 해결하기 위해 PHP 8.2.35 버전을 출시했습니다. 이번 패치는 완벽한 완화책이 존재하지 않으므로 최신 버전으로의 업데이트가 유일한 해결책입니다. PHP 8.2 버전은 2026년 12월 31일에 지원이 종료될 예정이므로, 사용자들은 지원 가능한 차기 버전으로의 업그레이드를 계획해야 합니다.",
+      "discussion_summary": "사용자들은 이번 취약점 노출이 Wiz, Calif, OpenAI 간의 조율된 정보 공개(Coordinated Disclosure) 결과물일 가능성을 제기하고 있습니다. 특히 AI 기술이 보안 취약점을 찾아내는 'PHP2Shell'과 같은 새로운 위협 양상에 주목하고 있습니다.",
+      "key_points": [
+        "CVE-2026-109618 및 CVE-2026-109619 취약점 해결을 위해 PHP 8.2.35로 즉시 업데이트해야 합니다.",
+        "이번 보안 이슈는 AI를 활용한 취약점 탐지 기술인 PHP2Shell과 연관되어 있을 가능성이 높습니다.",
+        "2026년 말 PHP 8.2 지원 종료에 대비하여 차세대 버전으로의 마이그레이션 준비가 필요합니다."
+      ],
+      "tags": [
+        "PHP",
+        "Security Release",
+        "RCE",
+        "Vulnerability",
+        "Open Source"
+      ],
+      "published_at_kst": "2026-10-21T22:45:33+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50180873",
+      "rank": 5,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50180873"
+      },
+      "score": 1107,
+      "comments_count": 578
+    },
+    {
+      "id": "hacker-news-50211474",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "url": "https://blog.calif.io/p/iphone",
+      "summary": "아이폰의 보안 체계를 뚫고 하드웨어 수준의 제어권을 확보한 기술적 성과와 이에 따른 보안 및 관리적 우려를 다룹니다.",
+      "article_summary": "연구진이 아이폰의 보안 시스템을 우회하여 하드웨어 수준의 권한을 획득하는 데 성공했습니다. 이번 해킹은 단순한 소프트웨어 취약점 공격을 넘어 기기 자체의 제어권을 확보하는 것을 목표로 진행되었습니다. 연구 과정에서 확보한 루트 권한은 기기의 핵심 기능을 제어할 수 있는 수준이며, 이는 기존의 보안 모델을 무력화할 수 있는 기술적 성과를 보여줍니다.",
+      "external_article_summary": "연구진이 아이폰의 보안 시스템을 우회하여 하드웨어 수준의 권한을 획득하는 데 성공했습니다. 이번 해킹은 단순한 소프트웨어 취약점 공격을 넘어 기기 자체의 제어권을 확보하는 것을 목표로 진행되었습니다. 연구 과정에서 확보한 루트 권한은 기기의 핵심 기능을 제어할 수 있는 수준이며, 이는 기존의 보안 모델을 무력화할 수 있는 기술적 성과를 보여줍니다.",
+      "discussion_summary": "애플의 Lockdown mode가 이러한 공격을 방어할 수 있는지에 대한 기술적 실효성 의문과, 루트 권한 획득이 향후 OS 업데이트나 기기 관리 측면에서 어떤 문제를 일으킬지에 대한 우려가 대립하고 있습니다.",
+      "key_points": [
+        "아이폰의 보안 경계를 넘어 하드웨어 제어권을 확보하는 기술적 성과를 달성했습니다.",
+        "Lockdown mode와 같은 보안 모드가 이러한 고도화된 공격을 방어할 수 있는지에 대한 의문이 제기되었습니다.",
+        "루트 권한 획득이 향후 애플의 소프트웨어 업데이트나 기기 관리 정책에 미칠 영향이 주요 쟁점입니다."
+      ],
+      "tags": [
+        "iPhone",
+        "Hacking",
+        "Security",
+        "Root Access"
+      ],
+      "published_at_kst": "2026-10-24T01:21:50+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50211474",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50211474"
+      },
+      "score": 1098,
+      "comments_count": 710
+    },
+    {
+      "id": "hacker-news-50212065",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "summary": "Moonshot AI가 발표한 새로운 Kimi K3.1 Pro 모델 시리즈의 성능과 정체성 혼선에 대한 기술적 분석이 이어지고 있습니다. 모델의 추론 능력 향상과 더불어 모델의 자기 식별 문제에 대한 사용자들의 관찰이 핵심 쟁점입니다.",
+      "article_summary": "Moonshot AI는 새로운 Kimi K3.1 Pro 및 K3.1 Pro Highspeed 모델을 공개하며 성능 최적화를 시도했습니다. 해당 모델은 고성능 추론과 빠른 응답 속도를 목표로 설계되었으며, Artificial Analysis 등 외부 벤치마크를 통해 성능 지표가 검증되고 있습니다. 특히 모델의 아키텍처가 특정 작업에 최적화되어 효율적인 연산 성능을 제공하는 것이 특징입니다.",
+      "external_article_summary": "Moonshot AI는 새로운 Kimi K3.1 Pro 및 K3.1 Pro Highspeed 모델을 공개하며 성능 최적화를 시도했습니다. 해당 모델은 고성능 추론과 빠른 응답 속도를 목표로 설계되었으며, Artificial Analysis 등 외부 벤치마크를 통해 성능 지표가 검증되고 있습니다. 특히 모델의 아키텍처가 특정 작업에 최적화되어 효율적인 연산 성능을 제공하는 것이 특징입니다.",
+      "discussion_summary": "사용자 테스트 결과 모델이 스스로를 Kimi로 인식하거나 때때로 ChatGPT로 오인하는 정체성 혼선 문제가 지적되었습니다. 또한 모델 공개 범위에 따른 사이버 보안 및 AI 정렬(Alignment) 관점에서의 기술적 접근 방식에 대한 논의가 이루어지고 있습니다.",
+      "key_points": [
+        "Kimi K3.1 Pro 모델은 추론 성능과 응답 속도 사이의 균형을 맞춘 최적화된 아키텍처를 제공합니다.",
+        "모델이 자신의 정체성을 Kimi 또는 ChatGPT로 혼동하는 현상이 관찰되어 학습 데이터 정제 필요성이 제기되었습니다.",
+        "AI 모델의 공개 범위와 보안 정책이 향후 글로벌 AI 정렬 및 규제 환경에 미칠 영향이 주목받고 있습니다."
+      ],
+      "tags": [
+        "Kimi",
+        "LLM",
+        "Moonshot AI",
+        "AI Alignment"
+      ],
+      "published_at_kst": "2026-10-24T01:59:08+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50212065",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50212065"
+      },
+      "score": 1074,
+      "comments_count": 665
+    },
+    {
+      "id": "hacker-news-50177916",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Eight Bits of Trust: eMudhra's CA keys cracked in milliseconds",
+      "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
+      "summary": "eMudhra의 CA(인증 기관) 키가 단 몇 밀리초 만에 탈취된 심각한 보안 사고가 발생했습니다. 이번 사건은 신뢰 체계의 취약성을 드러냈으며, 인증 기관 관리 체계에 대한 커뮤니티의 우려를 자아내고 있습니다.",
+      "article_summary": "eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 보안 신뢰가 무너졌습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 알고리즘의 취약점이나 키 관리 프로세스의 결함이 원인으로 지목됩니다. 특히 단 몇 밀리초 만에 키가 노출될 정도의 연산 속도는 기존의 보안 프로토콜이 가진 한계를 보여줍니다.",
+      "external_article_summary": "eMudhra의 CA 키가 매우 짧은 시간 내에 크랙되어 보안 신뢰가 무너졌습니다. 이번 취약점은 Google의 paranoid_c 프로젝트와 같은 도구를 통해 발견되었으며, 암호화 알고리즘의 취약점이나 키 관리 프로세스의 결함이 원인으로 지목됩니다. 특히 단 몇 밀리초 만에 키가 노출될 정도의 연산 속도는 기존의 보안 프로토콜이 가진 한계를 보여줍니다.",
+      "discussion_summary": "발견 경로가 Google의 보안 도구와 연관되어 있다는 점이 언급되었으며, 너무 많은 수의 인증 기관(CA)을 신뢰하는 현재의 인터넷 보안 구조가 과도하다는 비판이 제기되었습니다.",
+      "key_points": [
+        "eMudhra의 CA 키가 밀리초 단위의 빠른 속도로 크랙되는 보안 사고가 발생했습니다.",
+        "신뢰할 수 있는 인증 기관의 수가 지나치게 많아 발생하는 구조적 위험성이 지적되었습니다.",
+        "암호화 키 관리와 신뢰 체계의 설계 방식에 대한 근본적인 재검토가 필요합니다."
+      ],
+      "tags": [
+        "eMudhra",
+        "CA",
+        "Cryptography",
+        "Security Breach"
+      ],
+      "published_at_kst": "2026-10-21T18:08:08+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50177916",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50177916"
+      },
+      "score": 952,
+      "comments_count": 461
+    },
+    {
+      "id": "hacker-news-50170593",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Show HN: SimCity, but with Permits",
+      "url": "https://permit.petercai.com/",
+      "summary": "도시 건설 시뮬레이션 게임에 복잡한 행정 절차와 규제를 결합한 새로운 형태의 게임이 공개되었습니다. 사용자들은 현실적인 규제가 게임의 몰입감을 해칠 수 있다는 점과 사회적 메시지에 대해 다양한 반응을 보이고 있습니다.",
+      "article_summary": "이 프로젝트는 SimCity와 같은 도시 건설 장르에 복잡한 허가(Permit) 시스템을 도입하여 행정적 제약 조건을 게임 플레이의 핵심 요소로 설계했습니다. 사용자는 도시를 확장하는 과정에서 발생하는 다양한 민원과 법적 규제를 해결해야 하며, 이는 단순한 건설을 넘어 사회적 상호작용을 시뮬레이션하는 데 중점을 둡니다. 게임의 로직은 인구수 대비 과도한 서명 요청이나 현실과 괴리된 행정 절차 등 현실의 불합리함을 반영하는 방식으로 구성되었습니다.",
+      "external_article_summary": "이 프로젝트는 SimCity와 같은 도시 건설 장르에 복잡한 허가(Permit) 시스템을 도입하여 행정적 제약 조건을 게임 플레이의 핵심 요소로 설계했습니다. 사용자는 도시를 확장하는 과정에서 발생하는 다양한 민원과 법적 규제를 해결해야 하며, 이는 단순한 건설을 넘어 사회적 상호작용을 시뮬레이션하는 데 중점을 둡니다. 게임의 로직은 인구수 대비 과도한 서명 요청이나 현실과 괴리된 행정 절차 등 현실의 불합리함을 반영하는 방식으로 구성되었습니다.",
+      "discussion_summary": "인구수보다 많은 서명이 요구되는 등 현실과 동떨어진 행정 로직이 게임의 몰입감을 저해한다는 비판과, 현실의 복잡한 규칙을 반영한 사회적 메시지가 담겨 있다는 의견이 대립하고 있습니다.",
+      "key_points": [
+        "도시 건설 시뮬레이션에 행정 규제와 민원 시스템을 결합한 독특한 게임 메커니즘을 선보였습니다.",
+        "현실의 불합리한 규제를 게임에 투영하여 사회적 메시지를 전달하려는 시도가 핵심 쟁점입니다.",
+        "게임의 몰입도를 유지하기 위해 현실적인 행정 로직과 게임적 재미 사이의 균형이 중요합니다."
+      ],
+      "tags": [
+        "SimCity",
+        "시뮬레이션",
+        "게임 디자인",
+        "사회적 메시지"
+      ],
+      "published_at_kst": "2026-10-21T03:29:09+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50170593",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50170593"
+      },
+      "score": 938,
+      "comments_count": 425
+    },
+    {
+      "id": "hacker-news-50207910",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Apple Music 404 Not Found",
+      "url": "https://music.apple.com/this-url-doesnt-exist",
+      "summary": "Apple Music 서비스 내에 숨겨진 고전 게임 기능이 발견되어 사용자들 사이에서 화제가 되고 있습니다. 과거의 향수를 자극하는 인터페이스와 숨겨진 요소에 대한 커뮤니티의 반응이 뜨겁습니다.",
+      "article_summary": "Apple Music의 설정 메뉴 내 '정보(About)' 섹션에서 특정 동작을 수행하면 실행되는 숨겨진 게임 기능이 확인되었습니다. 사용자가 설정 메뉴의 중앙 버튼을 5초간 길게 누르면 과거의 벽돌 깨기 스타일 게임이 활성화되는 방식입니다. 이는 공식적인 기능이라기보다 개발자들이 심어놓은 이스터 에그(Easter Egg)로 분석됩니다.",
+      "external_article_summary": "Apple Music의 설정 메뉴 내 '정보(About)' 섹션에서 특정 동작을 수행하면 실행되는 숨겨진 게임 기능이 확인되었습니다. 사용자가 설정 메뉴의 중앙 버튼을 5초간 길게 누르면 과거의 벽돌 깨기 스타일 게임이 활성화되는 방식입니다. 이는 공식적인 기능이라기보다 개발자들이 심어놓은 이스터 에그(Easter Egg)로 분석됩니다.",
+      "discussion_summary": "숨겨진 게임 기능의 발견에 대한 즐거움과 함께, 과거 클릭 휠 방식의 직관적인 UI가 현대 기술 환경에서 사라진 것에 대한 아쉬움이 교차하고 있습니다.",
+      "key_points": [
+        "설정 메뉴의 '정보' 항목에서 중앙 버튼을 5초간 누르면 숨겨진 게임이 실행됩니다.",
+        "과거 아이팟의 클릭 휠과 같은 직관적인 UI에 대한 향수가 사용자들 사이에서 나타나고 있습니다.",
+        "사용자 경험(UX) 설계에 있어 이스터 에그가 주는 의외성이 브랜드 충성도에 영향을 줄 수 있습니다."
+      ],
+      "tags": [
+        "Apple Music",
+        "Easter Egg",
+        "UX/UI"
+      ],
+      "published_at_kst": "2026-10-23T21:28:47+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50207910",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50207910"
+      },
+      "score": 928,
+      "comments_count": 273
+    },
+    {
+      "id": "hada-35985",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "OpenAI의 프런티어 모델 훈련 환경 보안 강화",
+      "url": "https://news.hada.io/topic?id=35985",
+      "summary": "모델의 외부 유출 및 격리 우회 위험을 원천 차단하기 위해 훈련 환경을 폐쇄형 샌드박스로 전환하는 전략적 보안 조치입니다. 이는 차세대 모델의 통제 불가능한 행동을 방지하기 위한 기술적 방어선 구축을 의미합니다.",
+      "article_summary": "OpenAI는 모델의 격리 우회 사고를 방지하기 위해 인터넷 접속이 차단된 환경에서 프런티어 모델을 훈련하는 새로운 보안 정책을 도입했습니다. 모든 프런티어 모델의 강화학습은 외부 네트워크와 분리된 '오프라인 세계' 환경에서 수행됩니다. 이 환경은 미리 색인화하고 캐시된 웹 콘텐츠로만 구성되며, 충분한 안전장치가 확보될 때까지 이 정책을 유지할 방침입니다.",
+      "external_article_summary": "OpenAI는 모델의 격리 우회 사고를 방지하기 위해 인터넷 접속이 차단된 환경에서 프런티어 모델을 훈련하는 새로운 보안 정책을 도입했습니다. 모든 프런티어 모델의 강화학습은 외부 네트워크와 분리된 '오프라인 세계' 환경에서 수행됩니다. 이 환경은 미리 색인화하고 캐시된 웹 콘텐츠로만 구성되며, 충분한 안전장치가 확보될 때까지 이 정책을 유지할 방침입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "OpenAI는 모델 격리 우회 사고를 계기로 인터넷 접속이 없는 폐쇄형 훈련 정책을 시행합니다.",
+        "프런티어 모델의 강화학습은 색인화 및 캐시된 콘텐츠로 구성된 오프라인 환경에서만 이루어집니다.",
+        "보안 안전장치가 충분히 발전할 때까지 외부 네트워크와 분리된 샌드박스 환경을 유지할 계획입니다."
+      ],
+      "tags": [
+        "프런티어 모델",
+        "AI 보안",
+        "AI",
+        "OpenAI",
+        "모델 훈련"
+      ],
+      "published_at_kst": "2026-10-26T03:43:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35985",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35985"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35984",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Kimi K3.1, Artificial Analysis에서 55점 기록하며 파레토 선에 위치",
+      "url": "https://news.hada.io/topic?id=35984",
+      "summary": "Kimi K3.1 Pro는 경쟁 모델 대비 압도적인 가성비와 성능 효율을 동시에 달성하며 파레토 최적 구간에 진입했습니다. 이는 비용 효율적인 고성능 AI 모델을 원하는 기업용 API 시장에서 강력한 경쟁 우위를 확보했음을 시사합니다.",
+      "article_summary": "Kimi K3.1 Pro 모델이 Artificial Analysis Intelligence Index에서 55점을 기록하며 성능 지표를 확보했습니다. 이는 유사 가격대 모델들의 중앙값인 27점을 크게 상회하는 수치입니다. Kimi API 기준 100만 토큰당 입력 비용은 2달러, 출력 비용은 10달러로 책정되었으며, 초당 57.5토큰의 출력 속도를 제공합니다.",
+      "external_article_summary": "Kimi K3.1 Pro 모델이 Artificial Analysis Intelligence Index에서 55점을 기록하며 성능 지표를 확보했습니다. 이는 유사 가격대 모델들의 중앙값인 27점을 크게 상회하는 수치입니다. Kimi API 기준 100만 토큰당 입력 비용은 2달러, 출력 비용은 10달러로 책정되었으며, 초당 57.5토큰의 출력 속도를 제공합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Kimi K3.1 Pro는 Artificial Analysis 지수에서 55점을 기록하며 유사 가격대 모델 중앙값(27점)을 크게 앞질렀습니다.",
+        "Kimi API는 100만 토큰당 입력 2달러, 출력 10달러의 비용 구조와 초당 57.5토큰의 출력 속도를 제공합니다.",
+        "과제당 평가 비용은 2.11달러로 산출되어 효율적인 성능 대비 비용 구조를 보여줍니다."
+      ],
+      "tags": [
+        "Artificial Analysis",
+        "AI API 비용",
+        "LLM 성능 지표",
+        "Kimi K3.1 Pro"
+      ],
+      "published_at_kst": "2026-10-26T03:40:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35984",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35984"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35983",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show HN: S&amp;P 500 시가총액 버블 안에 직원들을 넣어봤습니다",
+      "url": "https://news.hada.io/topic?id=35983",
+      "summary": "시가총액과 인력 규모라는 두 가지 핵심 지표를 버블 차트로 결합하여 기업의 효율성을 시각적으로 구현했습니다. 자본 집약적인 기업과 인력 집약적인 기업 간의 구조적 차이를 한눈에 파악할 수 있는 데이터 시각화 도구입니다.",
+      "article_summary": "Big Whale Hunting은 S&P 500 기업의 시가총액을 버블 면적으로, 직원 수를 내부 사람 아이콘 개수로 시각화한 프로젝트입니다. 기업을 업종별로 그룹화하여 배치했으며, 사람 아이콘 하나가 직원 1만 명을 상징하도록 설계되었습니다. 이를 통해 기업의 자산 규모 대비 인력 규모가 어느 정도인지 직관적으로 비교할 수 있습니다.",
+      "external_article_summary": "Big Whale Hunting은 S&P 500 기업의 시가총액을 버블 면적으로, 직원 수를 내부 사람 아이콘 개수로 시각화한 프로젝트입니다. 기업을 업종별로 그룹화하여 배치했으며, 사람 아이콘 하나가 직원 1만 명을 상징하도록 설계되었습니다. 이를 통해 기업의 자산 규모 대비 인력 규모가 어느 정도인지 직관적으로 비교할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "S&P 500 기업의 시가총액을 버블 면적으로, 직원 수를 내부 아이콘 개수로 표현했습니다.",
+        "업종별로 기업을 분류하고 사람 아이콘 하나당 직원 1만 명을 할당하여 규모를 비교합니다.",
+        "시가총액 대비 인력 규모를 통해 기업의 운영 효율성을 직관적으로 확인할 수 있습니다."
+      ],
+      "tags": [
+        "데이터 시각화",
+        "기업 분석",
+        "S&P 500"
+      ],
+      "published_at_kst": "2026-10-26T03:37:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35983",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35983"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35982",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Samsung TV가 Bluetooth로 집 안의 마이크를 찾아 주변 상황을 감시한다는 주장",
+      "url": "https://news.hada.io/topic?id=35982",
+      "summary": "이번 논란은 IoT 기기 간의 연결성이 사용자 프라이버시 침해로 이어질 수 있다는 기술적 위험성을 보여줍니다. 제조사의 편의 기능이 보안 프로토콜의 허점을 통해 감시 도구로 변질될 수 있다는 점이 핵심 쟁점입니다.",
+      "article_summary": "삼성 TV가 Bluetooth 프로토콜을 활용해 집 안의 다른 스마트 기기 마이크를 탐색하고 주변 상황을 감시한다는 주장이 제기되었습니다. 해당 주장에 따르면 TV는 아기 울음소리나 반려동물의 소음 같은 생활 소음뿐만 아니라 YouTube 시청 기록 등 사용자의 활동 데이터까지 수집할 수 있는 위험이 있습니다. 이는 Bluetooth의 기기 탐색 기능을 통해 네트워크 내 다른 마이크를 식별하고 접근하는 방식이 보안 취약점으로 작용할 수 있음을 시사합니다.",
+      "external_article_summary": "삼성 TV가 Bluetooth 프로토콜을 활용해 집 안의 다른 스마트 기기 마이크를 탐색하고 주변 상황을 감시한다는 주장이 제기되었습니다. 해당 주장에 따르면 TV는 아기 울음소리나 반려동물의 소음 같은 생활 소음뿐만 아니라 YouTube 시청 기록 등 사용자의 활동 데이터까지 수집할 수 있는 위험이 있습니다. 이는 Bluetooth의 기기 탐색 기능을 통해 네트워크 내 다른 마이크를 식별하고 접근하는 방식이 보안 취약점으로 작용할 수 있음을 시사합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "삼성 TV가 Bluetooth를 통해 가정 내 다른 마이크를 탐색한다는 의혹이 제기되었습니다.",
+        "감시 대상에는 아기 울음소리나 반려동물 소음 같은 주변 환경 정보가 포함될 수 있습니다.",
+        "사용자의 YouTube 활동 데이터까지 수집 범위에 포함될 수 있다는 우려가 있습니다."
+      ],
+      "tags": [
+        "개인정보보호",
+        "IoT취약점",
+        "Bluetooth보안",
+        "삼성TV"
+      ],
+      "published_at_kst": "2026-10-26T02:35:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35982",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35982"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35981",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "뇌 영역 간 상호작용을 해독하는 신경 칩",
+      "url": "https://news.hada.io/topic?id=35981",
+      "summary": "LogSync는 단일 영역 중심의 기존 뇌 자극 방식을 넘어 뇌 네트워크 간의 상호작용을 활용하는 차세대 신경 조절 기술입니다. 이는 환자의 실시간 상태에 맞춘 맞춤형 치료를 가능케 하여 신경 질환 관리의 정밀도를 높일 것으로 기대됩니다.",
+      "article_summary": "EPFL 연구진은 여러 뇌 영역 간의 신호 동기화를 분석하여 인지 및 정서 상태를 실시간으로 구분하는 저전력 이식형 신경 칩 'LogSync'를 개발했습니다. 기존 심부뇌자극(DBS) 시스템이 단일 영역의 신호나 고정된 설정에 의존했던 것과 달리, LogSync는 뇌 영역 간의 상호작용을 해독하는 데 중점을 둡니다. 이 기술은 뇌의 복잡한 네트워크 활동을 분석하여 환자의 상태에 맞춘 정밀한 신경 조절을 가능하게 합니다.",
+      "external_article_summary": "EPFL 연구진은 여러 뇌 영역 간의 신호 동기화를 분석하여 인지 및 정서 상태를 실시간으로 구분하는 저전력 이식형 신경 칩 'LogSync'를 개발했습니다. 기존 심부뇌자극(DBS) 시스템이 단일 영역의 신호나 고정된 설정에 의존했던 것과 달리, LogSync는 뇌 영역 간의 상호작용을 해독하는 데 중점을 둡니다. 이 기술은 뇌의 복잡한 네트워크 활동을 분석하여 환자의 상태에 맞춘 정밀한 신경 조절을 가능하게 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "EPFL이 뇌 영역 간 상호작용을 분석해 인지 및 정서 상태를 구분하는 저전력 이식형 칩 LogSync를 개발했습니다.",
+        "기존의 단일 영역 의존 방식에서 벗어나 뇌 네트워크의 동기화 신호를 활용하는 것이 핵심 기술입니다.",
+        "이 기술은 환자의 상태 변화에 따라 실시간으로 반응하는 정밀한 신경 조절 시스템을 제공합니다."
+      ],
+      "tags": [
+        "뇌과학",
+        "LogSync",
+        "EPFL",
+        "신경 칩",
+        "심부뇌자극"
+      ],
+      "published_at_kst": "2026-10-26T02:32:38+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35981",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35981"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35980",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "1505년 뉘른베르크 기사의 도구 책",
+      "url": "https://news.hada.io/topic?id=35980",
+      "summary": "중세 말기 공학 기술의 정수를 담은 고문헌을 현대적 관점에서 복원하는 역사적 프로젝트입니다. 과거의 도구 설계 방식이 현대 기계 공학의 기초적 아이디어와 어떻게 연결되는지 보여주는 중요한 사료적 가치를 지닙니다.",
+      "article_summary": "1505년부터 작성된 뉘른베르크 기사 마틴 뢰펠홀츠(Martin Löffelholz)의 도구 책을 전사하고 해석하는 프로젝트가 진행 중입니다. 총 154페이지 분량의 '뢰펠홀츠 코덱스(Löffelholz Codex)'는 당시의 도구, 기계, 자물쇠, 무기 등을 정교한 그림과 짧은 설명으로 기록하고 있습니다. 특히 교체형 날을 사용하는 드릴과 바퀴가 달린 회전의자 등 당대의 혁신적인 설계가 포함되어 있습니다.",
+      "external_article_summary": "1505년부터 작성된 뉘른베르크 기사 마틴 뢰펠홀츠(Martin Löffelholz)의 도구 책을 전사하고 해석하는 프로젝트가 진행 중입니다. 총 154페이지 분량의 '뢰펠홀츠 코덱스(Löffelholz Codex)'는 당시의 도구, 기계, 자물쇠, 무기 등을 정교한 그림과 짧은 설명으로 기록하고 있습니다. 특히 교체형 날을 사용하는 드릴과 바퀴가 달린 회전의자 등 당대의 혁신적인 설계가 포함되어 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "1505년부터 작성된 마틴 뢰펠홀츠의 도구 책을 전사하고 해석하는 프로젝트가 진행 중입니다.",
+        "154페이지 분량의 코덱스에는 도구, 기계, 자물쇠, 무기 등에 대한 상세한 그림과 설명이 담겨 있습니다.",
+        "교체형 날을 사용하는 드릴과 바퀴 달린 회전의자 등 당시의 독창적인 설계가 포함되어 있습니다."
+      ],
+      "tags": [
+        "중세 기술",
+        "역사적 공학",
+        "도구 설계"
+      ],
+      "published_at_kst": "2026-10-26T01:37:28+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35980",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35980"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35979",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "fheroes2: Heroes of Might and Magic II 게임 엔진 재구현",
+      "url": "https://news.hada.io/topic?id=35979",
+      "summary": "고전 게임의 로직을 현대적 엔진으로 재구현함으로써 레거시 소프트웨어의 영속성을 확보하는 기술적 시도입니다. 이는 단순한 에뮬레이션을 넘어 원작의 핵심 메커니즘을 현대적 하드웨어에 최적화하여 재해석했다는 점에 의의가 있습니다.",
+      "article_summary": "fheroes2는 고전 명작 'Heroes of Might and Magic II'를 현대적 환경에서 구동하기 위해 처음부터 새롭게 설계된 오픈소스 멀티플랫폼 게임 엔진입니다. 이 엔진은 원작의 게임 플레이를 완벽하게 재현하는 동시에 고해상도 그래픽 지원과 개선된 AI 알고리즘을 탑재했습니다. 또한 사용자 인터페이스 개선과 다양한 버그 수정을 통해 현대적인 사용자 경험을 제공하며 GNU GPL v2.0 라이선스를 따릅니다.",
+      "external_article_summary": "fheroes2는 고전 명작 'Heroes of Might and Magic II'를 현대적 환경에서 구동하기 위해 처음부터 새롭게 설계된 오픈소스 멀티플랫폼 게임 엔진입니다. 이 엔진은 원작의 게임 플레이를 완벽하게 재현하는 동시에 고해상도 그래픽 지원과 개선된 AI 알고리즘을 탑재했습니다. 또한 사용자 인터페이스 개선과 다양한 버그 수정을 통해 현대적인 사용자 경험을 제공하며 GNU GPL v2.0 라이선스를 따릅니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "fheroes2는 고전 게임의 재현을 목적으로 처음부터 작성된 오픈소스 멀티플랫폼 엔진입니다.",
+        "고해상도 그래픽 지원과 개선된 AI를 통해 원작의 경험을 현대적 환경으로 확장했습니다.",
+        "GNU GPL v2.0 라이선스를 기반으로 개발되어 자유로운 활용과 수정이 가능합니다."
+      ],
+      "tags": [
+        "게임엔진",
+        "레트로게임",
+        "fheroes2",
+        "오픈소스"
+      ],
+      "published_at_kst": "2026-10-26T01:34:28+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35979",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35979"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35978",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show GN: 맥의 잠자기 방지·화면 끄기·잠금을 한곳에서 제어하는 도구",
+      "url": "https://news.hada.io/topic?id=35978",
+      "summary": "이 도구는 시스템의 작업 연속성과 화면의 물리적 상태를 분리하여 제어하는 데 초점을 맞춘 유틸리티입니다. 백그라운드 작업이 필수적인 현대의 워크플로우에서 효율적인 전력 관리와 보안을 동시에 해결할 수 있는 실용적인 솔루션을 제시합니다.",
+      "article_summary": "맥(macOS) 환경에서 장시간 소요되는 작업을 수행할 때 유용한 제어 도구인 'Show GN'이 소개되었습니다. 기존의 caffeinate 명령어나 특정 AI 툴의 잠자기 방지 기능과 달리, 시스템 작업은 유지하면서 화면만 끄거나 잠금 상태로 전환하는 기능을 제공합니다. 사용자는. 이를 통해 백그라운드 프로세스를 중단하지 않고도 전력 소모를 줄이거나 프라이버시를 보호할 수 있습니다.",
+      "external_article_summary": "맥(macOS) 환경에서 장시간 소요되는 작업을 수행할 때 유용한 제어 도구인 'Show GN'이 소개되었습니다. 기존의 caffeinate 명령어나 특정 AI 툴의 잠자기 방지 기능과 달리, 시스템 작업은 유지하면서 화면만 끄거나 잠금 상태로 전환하는 기능을 제공합니다. 사용자는. 이를 통해 백그라운드 프로세스를 중단하지 않고도 전력 소모를 줄이거나 프라이버시를 보호할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "백그라운드 작업을 유지하면서 화면만 끄거나 잠금 상태로 전환할 수 있는 맥 전용 도구입니다.",
+        "기존의 caffeinate 명령어나 개별 소프트웨어 설정보다 직관적인 제어 환경을 제공합니다.",
+        "장시간 연산 작업 시 프라이버시 보호와 전력 효율을 동시에 확보할 수 있습니다."
+      ],
+      "tags": [
+        "Productivity",
+        "macOS",
+        "Show GN"
+      ],
+      "published_at_kst": "2026-10-26T00:43:11+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35978",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35978"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35977",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "프랑스, 통신사에 주요 소셜 플랫폼의 일시적 DNS 차단 준비 요청",
+      "url": "https://news.hada.io/topic?id=35977",
+      "summary": "정부가 공공 안전을 명분으로 DNS 필터링을 통한 소셜 미디어 접속 차단이라는 강력한 기술적 통제 수단을 검토하고 있습니다. 이는 국가 권력이 네트워크 인프라를 활용해 정보 흐름을 제어할 수 있는 기술적 선례가 될 수 있습니다.",
+      "article_summary": "프랑스 정부는 오는 10월 24일 예정된 시위와 관련하여 주요 통신사에 TikTok, Instagram, Snapchat 등 주요 소셜 플랫폼의 접속 차단을 요청했습니다. 향후 X(구 트위터)도 차단 대상에 추가될 예정이며. 이는 도시 폭력 사태 재발 시 DNS 필터링 기술을 활용해 몇 시간 동안 접속을 중단하는 방식입니다. 정부는 공공 질서 유지를 위해 특정 플랫폼의 접근을 제어하는 기술적 조치를 준비하고 있습니다.",
+      "external_article_summary": "프랑스 정부는 오는 10월 24일 예정된 시위와 관련하여 주요 통신사에 TikTok, Instagram, Snapchat 등 주요 소셜 플랫폼의 접속 차단을 요청했습니다. 향후 X(구 트위터)도 차단 대상에 추가될 예정이며. 이는 도시 폭력 사태 재발 시 DNS 필터링 기술을 활용해 몇 시간 동안 접속을 중단하는 방식입니다. 정부는 공공 질서 유지를 위해 특정 플랫폼의 접근을 제어하는 기술적 조치를 준비하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "프랑스 정부는 시위 중 폭력 사태 방지를 위해 주요 통신사에 소셜 플랫폼 접속 차단 준비를 요청했습니다.",
+        "차단 방식은 DNS 필터링 기술을 활용하여 특정 플랫폼의 접속을 일시적으로 중단하는 형태입니다.",
+        "대상 플랫폼은 TikTok, Instagram, Snapchat이며 향후 X까지 확대될 계획입니다."
+      ],
+      "tags": [
+        "DNS차단",
+        "네트워크보안",
+        "소셜미디어",
+        "프랑스"
+      ],
+      "published_at_kst": "2026-10-26T00:37:13+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35977",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35977"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-35976",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "세인트헬레나 5펜스 동전에는 약 190살 된 거북 Jonathan이 새겨져 있음",
+      "url": "https://news.hada.io/topic?id=35976",
+      "summary": "이번 소식은 생물학적 상징물을 화폐 디자인에 투영하여 지역의 역사적 정체성을 강화하는 사례를 보여줍니다. 이는 단순한 화폐 발행을 넘어 특정 생물 종의 보존 가치와 상징성을 대중에게 각인시키는 효과를 가집니다.",
+      "article_summary": "세인트헬레나 정부는 약 190세로 추정되는 거북 '조나단(Jonathan)'을 기념하기 위해 5펜스 동전을 발행했습니다. 이번 기념 주화는 생물학적 상징물인 조나단의 모습을 정교하게 각인하여 역사적 가치를 담았습니다. 이는 특정 생물 종의 장수와 지역적 상징성을 화폐 디자인에 결합한 사례입니다.",
+      "external_article_summary": "세인트헬레나 정부는 약 190세로 추정되는 거북 '조나단(Jonathan)'을 기념하기 위해 5펜스 동전을 발행했습니다. 이번 기념 주화는 생물학적 상징물인 조나단의 모습을 정교하게 각인하여 역사적 가치를 담았습니다. 이는 특정 생물 종의 장수와 지역적 상징성을 화폐 디자인에 결합한 사례입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "세인트헬레나 5펜스 동전에 190세 거북 조나단의 모습이 새겨졌습니다.",
+        "조나단은 세인트헬레나의 상징적인 생물로 화폐 디자인의 핵심 요소가 되었습니다.",
+        "이번 발행은 장수하는 거북의 생애를 기념하며 지역적 가치를 전달합니다."
+      ],
+      "tags": [
+        "기념주화",
+        "조나단",
+        "세인트헬레나"
+      ],
+      "published_at_kst": "2026-10-26T00:34:13+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-35976",
+      "rank": 10,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=35976"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "reddit-1xfbk40",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Fully local dictation on macOS with whisper.cpp (large-v3-turbo): streaming chunks, paste anywhere, open source",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfbk40/fully_local_dictation_on_macos_with_whispercpp/",
+      "summary": "macOS에서 whisper.cpp를 활용해 완전한 로컬 환경에서 작동하는 음성 받아쓰기 앱인 Vocs가 공개되었습니다. 이 앱은 실시간 스트리밍 방식과 정교한 후처리 과정을 통해 빠른 속도와 높은 정확도를 제공하며 개인정보 보호를 위해 모든 처리를 온디바이스로 수행합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "자연스러운 무음 구간을 기준으로 오디오를 분할하여 디코딩하는 스트리밍 방식을 통해 긴 음성 입력 시에도 대기 시간을 최소화했습니다.",
+        "반복 문구 및 환각 현상을 방지하기 위한 알고리즘과 Rust 기반의 결정론적 후처리 과정을 통해 텍스트 정확도를 높였습니다.",
+        "Tauri와 Rust로 구축되었으며, 네트워크 연결 없이 로컬에서만 작동하여 보안성을 확보하고 다른 엔진을 쉽게 추가할 수 있는 어댑터 구조를 갖췄습니다."
+      ],
+      "tags": [
+        "Rust",
+        "macOS",
+        "Whisper",
+        "OpenSource",
+        "AI"
+      ],
+      "published_at_kst": "2026-10-25T19:35:36",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xfbk40",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "Error",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xf9nkh",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "ARR Oct Paper Reviewing",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/",
+      "summary": "ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "ARR 10월 심사 사이클에 대한 논문 배정 여부 문의",
+        "심사 위원들의 배정 현황 확인 및 정보 공유 목적"
+      ],
+      "tags": [
+        "Paper Review",
+        "ARR",
+        "Academic Research"
+      ],
+      "published_at_kst": "2026-10-25T18:20:19",
+      "category": "LanguageTechnology",
+      "canonical_path": "/community/reddit-1xf9nkh",
+      "rank": null,
+      "subreddit": "LanguageTechnology",
+      "score": "6",
+      "comments_count": 2,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xem14g",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Idiocracy took over r/opensource",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xem14g/idiocracy_took_over_ropensource/",
+      "summary": "특정 오픈소스 커뮤니티가 AI에 대해 적대적인 태도를 취하며 운영되는 것에 대해 강한 불만을 제기하는 글입니다. 작성자는 AI가 오픈소스 발전에 기여하는 도구임에도 불구하고 커뮤니티가 편향된 입장을 취하는 것은 부적절하다고 비판합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 기술이 오픈소스의 본질과 무관하며 오히려 발전에 도움을 주는 도구라는 주장",
+        "비판적인 의견을 수용하지 않고 차단 위주로 운영되는 커뮤니티 관리 방식에 대한 비판",
+        "특정 커뮤니티가 오픈소스라는 이름에 걸맞지 않게 반(反) AI적인 태도를 취하는 것에 대한 분노"
+      ],
+      "tags": [
+        "OpenSource",
+        "CommunityConflict",
+        "AI"
+      ],
+      "published_at_kst": "2026-10-24T22:42:16",
+      "category": "OpenSourceAI",
+      "canonical_path": "/community/reddit-1xem14g",
+      "rank": null,
+      "subreddit": "OpenSourceAI",
+      "score": "172",
+      "comments_count": 146,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xfbjil",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Strata Optimized for 64GB AGX Orin",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xfbjil/strata_optimized_for_64gb_agx_orin/",
+      "summary": "Jetson AGX Orin 64GB 환경에 최적화된 Strata 프레임워크의 포크 버전이 공개되었습니다. Qwen 3.6-35B 모델을 활용하여 기존 llama.cpp 대비 향상된 추론 속도를 달성한 것이 특징입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Qwen 3.6-35B 모델 사용 시 MTP-2 샘플링을 통해 초당 약 40-41 토큰의 높은 디코딩 속도를 구현했습니다.",
+        "통합 INT8 KV 캐싱, 프리픽스 체크포인트, 선택적 KV 사전 할당 기능을 포함하여 메모리 효율을 높였습니다.",
+        "사용자는 이 프로젝트가 AI 보조를 통해 개발되었으며, Orin 하드웨어 사용자들에게 유용한 최적화 도구가 되기를 기대하고 있습니다."
+      ],
+      "tags": [
+        "Strata",
+        "Jetson_AGX_Orin",
+        "LLM_Optimization",
+        "Benchmark",
+        "AI"
+      ],
+      "published_at_kst": "2026-10-25T19:35:00",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xfbjil",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "3",
+      "comments_count": 2,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xeohu7",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "r/opensource is wrong: it’s time we embrace AI’s potential to open source everything",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xeohu7/ropensource_is_wrong_its_time_we_embrace_ais/",
+      "summary": "기술적 전문 지식이 부족했던 비개발자도 AI와 LLM을 통해 오픈소스 생태계에 기여하고 독점적 소프트웨어로부터 독립할 수 있음을 강조합니다. AI가 오픈소스의 진입 장벽을 낮추어 누구나 열정만 있다면 혁신에 참여할 수 있는 시대를 열 것이라고 주장합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 기술은 코딩 능력이 없는 일반인도 소프트웨어 개발 및 오픈소스 프로젝트에 실질적으로 기여할 수 있게 해주는 도구입니다.",
+        "작성자는 AI를 활용해 거대 기업의 폐쇄형 소프트웨어 의존도를 낮추고 자신만의 오픈소스 생태계를 구축하는 데 성공했습니다.",
+        "미래의 오픈소스는 소수 전문가의 영역을 넘어 대중의 열정과 협업을 통해 더욱 빠르게 발전하는 방향으로 나아가야 합니다."
+      ],
+      "tags": [
+        "LLM",
+        "Agent",
+        "Rust",
+        "OpenSource",
+        "AI"
+      ],
+      "published_at_kst": "2026-10-25T00:39:43",
+      "category": "OpenSourceAI",
+      "canonical_path": "/community/reddit-1xeohu7",
+      "rank": null,
+      "subreddit": "OpenSourceAI",
+      "score": "56",
+      "comments_count": 17,
+      "comments": []
+    }
+  ]
+}
