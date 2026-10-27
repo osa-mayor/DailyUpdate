@@ -1,23 +1,79 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T04:48:11.876292+09:00",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T04:45:09.980393+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face를 중심으로 새로운 멀티모달 및 대규모 언어 모델(LLM)들이 트렌드에 진입하였으며, LiveCodeBench 벤치마크에서는 Gemini 시리즈와 O4-Mini 모델이 상위권 성적을 기록하며 코딩 능력을 입증했습니다.",
+  "daily_summary": "Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 텍스트 생성 및 멀티모달 모델의 활약과 코드 생성 성능 경쟁이 관찰되었습니다.",
   "daily_key_points": [
-    "MiniMax-M3.1-Flash 등 멀티모달 및 대규모 파라미터 모델의 Hugging Face 트렌드 진입",
-    "DeepSeek-V4.1-Flash 및 Nanbeige4.3-33B 모델의 높은 다운로드 수 기록",
-    "LiveCodeBench 벤치마크에서 Gemini-2.5 시리즈와 O4-Mini 모델의 우수한 성능 확인"
+    "Hugging Face에서 Nanbeige 및 XHToken의 텍스트 생성 모델이 높은 다운로드 수를 기록하며 트렌드 진입",
+    "MiniMaxAI의 MiniMax-M3.1-Flash 모델이 멀티모달(image-text-to-text) 성능으로 주목받음",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적 기록"
   ],
   "daily_tags": [
-    "HuggingFace",
     "LLM",
-    "LiveCodeBench",
     "Multi-modal",
-    "Benchmark"
+    "LiveCodeBench"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face를 중심으로 새로운 멀티모달 및 대규모 언어 모델(LLM)들이 트렌드에 진입하였으며, LiveCodeBench 벤치마크에서는 Gemini 시리즈와 O4-Mini 모델이 상위권 성적을 기록하며 코딩 능력을 입증했습니다.\n\n📍 1. MiniMaxAI/MiniMax-M3.1-Flash\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash\n\n📍 2. ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 196B 파라미터를 가진 이 모델은 text-generation 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF\n\n📍 3. Nanbeige/Nanbeige4.3-33B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 텍스트 생성 태그와 함께 주목받고 있습니다. 약 33B 파라미터를 가진 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/Nanbeige/Nanbeige4.3-33B\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-27.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face의 신규 모델 트렌드와 LiveCodeBench 벤치마크 결과가 주요 흐름을 형성하였으며, 텍스트 생성 및 멀티모달 모델의 활약과 코드 생성 성능 경쟁이 관찰되었습니다.\n\n📍 1. Nanbeige/Nanbeige4.3-33B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 텍스트 생성 태그와 함께 주목받고 있습니다. 약 33B 파라미터 규모의 모델로, 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/Nanbeige/Nanbeige4.3-33B\n\n📍 2. XHToken/Spark-X2.6-4B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: XHToken/Spark-X2.6-4B 모델이 Hugging Face에서 주목받으며 높은 다운로드 수를 기록하고 있습니다. 약 4.1B 파라미터를 가진 이 모델은 text-generation 태스크를 위해 설계되었습니다.\n🔗 링크: https://huggingface.co/XHToken/Spark-X2.6-4B\n\n📍 3. MiniMaxAI/MiniMax-M3.1-Flash\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다.\n🔗 링크: https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-28.md",
   "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "Nanbeige/Nanbeige4.3-33B",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-28T01:00:24+09:00",
+      "published_date": "2026-10-28",
+      "original_description": "likes=655, downloads=4785, pipeline_tag=text-generation",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 655,
+        "downloads": 4785,
+        "num_parameters": 33118977024,
+        "pipeline_tag": "text-generation"
+      },
+      "rank": 1,
+      "summary": "Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 텍스트 생성 태그와 함께 주목받고 있습니다. 약 33B 파라미터 규모의 모델로, 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "key_points": [
+        "Nanbeige/Nanbeige4.3-33B 모델의 Hugging Face 트렌드 진입",
+        "약 33B 규모의 파라미터를 가진 text-generation 모델",
+        "4,785회의 다운로드와 655개의 likes를 기록하며 사용자 관심을 확보"
+      ],
+      "tags": [
+        "Nanbeige",
+        "text-generation",
+        "LLM"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "XHToken/Spark-X2.6-4B",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-10-27T21:55:34+09:00",
+      "published_date": "2026-10-27",
+      "original_description": "likes=777, downloads=6191, pipeline_tag=text-generation",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 777,
+        "downloads": 6191,
+        "num_parameters": 4112079360,
+        "pipeline_tag": "text-generation"
+      },
+      "rank": 2,
+      "summary": "XHToken/Spark-X2.6-4B 모델이 Hugging Face에서 주목받으며 높은 다운로드 수를 기록하고 있습니다. 약 4.1B 파라미터를 가진 이 모델은 text-generation 태스크를 위해 설계되었습니다.",
+      "key_points": [
+        "XHToken/Spark-X2.6-4B 모델의 높은 관심도(likes 777, downloads 6191) 확인",
+        "약 4.1B 규모의 파라미터를 보유한 text-generation 모델",
+        "Hugging Face 내 모델 트렌드 지표 상승"
+      ],
+      "tags": [
+        "XHToken/Spark-X2.6-4B",
+        "text-generation",
+        "LLM"
+      ]
+    },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
@@ -26,83 +82,25 @@
       "category": "Model Trending",
       "published_at_kst": "2026-10-26T16:08:15+09:00",
       "published_date": "2026-10-26",
-      "original_description": "likes=381, downloads=8782, pipeline_tag=image-text-to-text",
+      "original_description": "likes=405, downloads=11075, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 381,
-        "downloads": 8782,
+        "likes": 405,
+        "downloads": 11075,
         "num_parameters": 220490854016,
         "pipeline_tag": "image-text-to-text"
       },
-      "rank": 1,
-      "summary": "MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
+      "rank": 3,
+      "summary": "MiniMaxAI에서 출시한 MiniMax-M3.1-Flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다.",
       "key_points": [
         "MiniMaxAI의 새로운 모델인 MiniMax-M3.1-Flash가 공개되었습니다.",
-        "8,782회의 다운로드와 381개의 likes를 기록하며 트렌딩 모델로 부상했습니다.",
-        "image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다."
+        "image-text-to-text 태그를 사용하는 멀티모달 모델입니다.",
+        "약 220B 규모의 파라미터를 보유하고 있으며, 높은 다운로드 수를 기록 중입니다."
       ],
       "tags": [
         "MiniMax-M3.1-Flash",
         "Multi-modal",
         "Hugging Face"
-      ]
-    },
-    {
-      "source_key": "hf_trending",
-      "source_name": "HF Model Trending",
-      "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "category": "Model Trending",
-      "published_at_kst": "2026-10-26T08:37:22+09:00",
-      "published_date": "2026-10-26",
-      "original_description": "likes=335, downloads=891147, pipeline_tag=text-generation",
-      "signal_type": "model_trending",
-      "metrics": {
-        "likes": 335,
-        "downloads": 891147,
-        "num_parameters": 196613849600,
-        "pipeline_tag": "text-generation"
-      },
-      "rank": 2,
-      "summary": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 196B 파라미터를 가진 이 모델은 text-generation 파이프라인을 지원합니다.",
-      "key_points": [
-        "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델의 높은 사용자 유입 확인",
-        "891,147회의 다운로드와 335개의 likes 기록",
-        "약 196.6B 규모의 파라미터를 보유한 text-generation 모델"
-      ],
-      "tags": [
-        "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "text-generation",
-        "Hugging Face"
-      ]
-    },
-    {
-      "source_key": "hf_trending",
-      "source_name": "HF Model Trending",
-      "title": "Nanbeige/Nanbeige4.3-33B",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-      "category": "Model Trending",
-      "published_at_kst": "2026-10-25T20:11:17+09:00",
-      "published_date": "2026-10-25",
-      "original_description": "likes=578, downloads=2787, pipeline_tag=text-generation",
-      "signal_type": "model_trending",
-      "metrics": {
-        "likes": 578,
-        "downloads": 2787,
-        "num_parameters": 33118977024,
-        "pipeline_tag": "text-generation"
-      },
-      "rank": 3,
-      "summary": "Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 텍스트 생성 태그와 함께 주목받고 있습니다. 약 33B 파라미터를 가진 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
-      "key_points": [
-        "Nanbeige/Nanbeige4.3-33B 모델의 Hugging Face 트렌드 진입",
-        "약 33B 규모의 파라미터를 보유한 text-generation 모델",
-        "2,787회의 다운로드와 578개의 likes를 기록하며 사용자 관심을 확보"
-      ],
-      "tags": [
-        "Nanbeige",
-        "text-generation",
-        "LLM"
       ]
     },
     {
