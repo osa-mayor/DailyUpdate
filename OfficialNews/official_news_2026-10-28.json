@@ -1,0 +1,252 @@
+{
+  "source": "official_news",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T04:42:53.133938+09:00",
+  "count": 10,
+  "daily_summary": "주요 AI 기업(Google, OpenAI, Anthropic)들이 모델의 기능 확장, 클라우드 생태계 통합, 그리고 기업용 서비스 및 학술적 연구 성과를 발표하며 AI 기술의 실질적 적용과 비즈니스 확장에 집중하는 양상을 보였습니다.",
+  "daily_key_points": [
+    "Google Cloud의 모델 선택권 확대: OpenAI와 Anthropic 모델을 모두 수용하며 하이퍼스케일 클라우드로서의 경쟁력 강화",
+    "AI 모델의 실질적 응용: 월드 시뮬레이션, 로보틱스, 생물학적 탐색, 보안 취약점 조사 등 전문 분야로의 기술 확장",
+    "기업 및 학계 협력 강화: OpenAI의 비즈니스 파트너십 확장 및 학술적 난제 해결을 위한 연구 공유, Anthropic의 IPO 절차 착수"
+  ],
+  "daily_tags": [
+    "AI 모델",
+    "클라우드 생태계",
+    "기업용 AI",
+    "과학적 연구",
+    "비즈니스 확장"
+  ],
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 주요 AI 기업(Google, OpenAI, Anthropic)들이 모델의 기능 확장, 클라우드 생태계 통합, 그리고 기업용 서비스 및 학술적 연구 성과를 발표하며 AI 기술의 실질적 적용과 비즈니스 확장에 집중하는 양상을 보였습니다.\n\n📍 1. Genie 4: A new generation of world simulation\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 발표한 Genie 4는 실시간 상호작용이 가능한 차세대 월드 시뮬레이션 모델입니다. Gemini 모델을 기반으로 정교한 물리 엔진, 자연스러운 인체 움직임, 네이티브 오디오를 결합하여 현실적인 가상 세계를 구현합니다.\n🔗 링크: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\n\n📍 2. Beyond tree cover: mapping the worldâs forest types\n🗂️ 소스: Google DeepMind | 분류: Research\n📝 요약: Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.\n🔗 링크: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\n\n📍 3. Accelerating the search for antimicrobial peptides with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.\n🔗 링크: https://deepmind.google/blog/accelerating-antimicrobial-discovery/\n\n📍 4. Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud에서 Gemini Robotics Embodied Reasoning 2를 새롭게 출시했습니다. 이 모델은 기업용 로보틱스 분야에 고도화된 시공간 추론과 물리적 AI 기술을 제공합니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud\n\n📍 5. OpenAI expands partnership with Oracle to bring its apps to ChatGPT\n🗂️ 소스: OpenAI News | 분류: Company\n📝 요약: OpenAI와 Oracle이 파트너십을 확장하여 비즈니스 애플리케이션과 AI 에이전트를 ChatGPT에 통합하기로 했습니다. 이번 협력을 통해 새로운 Oracle 서비스가 강화되고 ChatGPT 내에서 다양한 비즈니스 앱을 활용할 수 있게 됩니다.\n🔗 링크: https://openai.com/index/oracle-apps-in-chatgpt\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-10-28.md",
+  "items": [
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "category": "Models",
+      "published_at_kst": "2026-10-31T00:00:00+09:00",
+      "published_date": "2026-10-31",
+      "original_description": "Genie 4 introduces real-time interactive world simulation with native audio, advanced physics, natural human motion, and steering powered by Gemini models.",
+      "release_type": "product_release",
+      "rank": 1,
+      "summary": "Google DeepMind가 발표한 Genie 4는 실시간 상호작용이 가능한 차세대 월드 시뮬레이션 모델입니다. Gemini 모델을 기반으로 정교한 물리 엔진, 자연스러운 인체 움직임, 네이티브 오디오를 결합하여 현실적인 가상 세계를 구현합니다.",
+      "key_points": [
+        "Gemini 모델을 활용한 정교한 제어(steering) 기능 제공",
+        "실시간 상호작용이 가능한 차세대 월드 시뮬레이션 구현",
+        "고급 물리 법칙, 자연스러운 인체 움직임 및 네이티브 오디오 통합"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "Genie 4",
+        "World Simulation"
+      ]
+    },
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Beyond tree cover: mapping the worldâs forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "category": "Research",
+      "published_at_kst": "2026-10-31T00:00:00+09:00",
+      "published_date": "2026-10-31",
+      "original_description": "Explore Forest Typology (ForTy) 2020: a global 10-meter map categorizing Earth's land into six distinct forest and land-use types, plus an annual time series.",
+      "release_type": "research_release",
+      "rank": 2,
+      "summary": "Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.",
+      "key_points": [
+        "Forest Typology (ForTy) 2020: 10미터 해상도의 글로벌 산림 유형 지도",
+        "지구의 토지를 6가지의 서로 다른 산림 및 토지 이용 유형으로 분류",
+        "연간 시계열 데이터를 제공하여 시간에 따른 변화 파악 가능"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "Forest Typology",
+        "Remote Sensing"
+      ]
+    },
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "category": "Science",
+      "published_at_kst": "2026-10-31T00:00:00+09:00",
+      "published_date": "2026-10-31",
+      "original_description": "Learn how Google Antigravity provides an agentic science workbench to discover, structurally evaluate, and prioritize novel antimicrobial peptides in hours.",
+      "release_type": "official_update",
+      "rank": 3,
+      "summary": "Google DeepMind가 새로운 항균 펩타이드 탐색을 위한 에이전트 기반 과학 워크벤치인 Google Antigravity를 공개했습니다. 이 시스템은 새로운 항균 펩타이드를 발견하고 구조적으로 평가하며 우선순위를 정하는 과정을 단 몇 시간 만에 수행할 수 있도록 지원합니다.",
+      "key_points": [
+        "Google Antigravity는 에이전트 기반의 과학 워크벤치 역할을 수행함",
+        "새로운 항균 펩타이드의 발견, 구조적 평가 및 우선순위 지정 가능",
+        "기존 방식보다 훨씬 빠른 몇 시간 내에 탐색 프로세스 완료"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "Google Antigravity",
+        "Antimicrobial Peptides"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-10-28T00:00:00+09:00",
+      "published_date": "2026-10-28",
+      "original_description": "Discover how Gemini Robotics Embodied Reasoning 2 on Google Cloud brings advanced spatial-temporal reasoning and physical AI to enterprise robotics.",
+      "release_type": "engineering_update",
+      "rank": 4,
+      "summary": "Google Cloud에서 Gemini Robotics Embodied Reasoning 2를 새롭게 출시했습니다. 이 모델은 기업용 로보틱스 분야에 고도화된 시공간 추론과 물리적 AI 기술을 제공합니다.",
+      "key_points": [
+        "Google Cloud를 통한 Gemini Robotics Embodied Reasoning 2 가용성 확보",
+        "고도화된 시공간 추론(spatial-temporal reasoning) 기능 제공",
+        "기업용 로보틱스를 위한 물리적 AI(physical AI) 기술 적용"
+      ],
+      "tags": [
+        "Google Cloud",
+        "Gemini Robotics Embodied Reasoning 2",
+        "Robotics"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "category": "Company",
+      "published_at_kst": "2026-10-27T16:00:00+09:00",
+      "published_date": "2026-10-27",
+      "original_description": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "release_type": "announcement",
+      "rank": 5,
+      "summary": "OpenAI와 Oracle이 파트너십을 확장하여 비즈니스 애플리케이션과 AI 에이전트를 ChatGPT에 통합하기로 했습니다. 이번 협력을 통해 새로운 Oracle 서비스가 강화되고 ChatGPT 내에서 다양한 비즈니스 앱을 활용할 수 있게 됩니다.",
+      "key_points": [
+        "OpenAI와 Oracle의 파트너십 확장",
+        "ChatGPT 내 비즈니스 애플리케이션 및 AI 에이전트 도입",
+        "새로운 Oracle 서비스 제공을 위한 협력"
+      ],
+      "tags": [
+        "OpenAI",
+        "Oracle",
+        "ChatGPT"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "category": "Official Release",
+      "published_at_kst": "2026-10-27T09:00:00+09:00",
+      "published_date": "2026-10-27",
+      "original_description": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "release_type": "official_update",
+      "rank": 6,
+      "summary": "Check Point는 OpenAI Daybreak를 활용하여 취약점 조사 과정을 가속화하고 있습니다. 이를 통해 보안 분석가들은 취약점 인텔리전스를 고객 방어 체계로 더욱 빠르게 전환할 수 있습니다.",
+      "key_points": [
+        "OpenAI Daybreak를 통한 취약점 조사 속도 향상",
+        "보안 분석가의 연구 효율성 증대",
+        "취약점 인텔리전스의 신속한 고객 방어 적용"
+      ],
+      "tags": [
+        "OpenAI",
+        "Check Point",
+        "Daybreak"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "category": "Research",
+      "published_at_kst": "2026-10-26T23:30:00+09:00",
+      "published_date": "2026-10-26",
+      "original_description": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "release_type": "research_release",
+      "rank": 7,
+      "summary": "OpenAI가 Kakeya 추측, 지수 시간 가설, 양자 색역학 등 수학 및 과학적 난제에 대한 모델 결과물을 공유했습니다. 이번 발표는 연구자들이 이러한 결과를 검증하고 후속 연구를 진행할 수 있도록 학계와 협력하는 방안을 담고 있습니다.",
+      "key_points": [
+        "Kakeya 추측, Exponential Time Hypothesis, quantum chromodynamics 등 과학적 문제에 대한 모델 결과 공유",
+        "연구자들이 모델의 결과를 검증하고 이를 바탕으로 연구를 확장할 수 있는 방법 제시",
+        "학계와의 협력을 통한 과학적 이해 증진 도모"
+      ],
+      "tags": [
+        "OpenAI",
+        "Research",
+        "Scientific Understanding"
+      ]
+    },
+    {
+      "source_key": "anthropic",
+      "source_name": "Anthropic News",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "category": "Announcements",
+      "published_at_kst": "2026-10-26T00:00:00+09:00",
+      "published_date": "2026-10-26",
+      "original_description": "",
+      "release_type": "announcement",
+      "rank": 8,
+      "summary": "Anthropic이 미국 증권거래위원회(SEC)에 기업공개(IPO)를 위한 S-1 서류를 제출했습니다. 이는 Anthropic의 상장을 위한 공식적인 절차의 시작을 의미합니다.",
+      "key_points": [
+        "Anthropic이 SEC에 S-1 서류를 제출함",
+        "제출 목적은 기업공개(IPO)를 위한 것임",
+        "상장 절차를 위한 공식적인 행정 단계 진입"
+      ],
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "SEC"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Expanding Claude availability and deployment choice on Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-10-23T00:00:00+09:00",
+      "published_date": "2026-10-23",
+      "original_description": "Today, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives developers more choice in how they run their models, helping them consolidate AI workloads on Google Cloud by pairing direct access to Anthropic’s platform alongside our existing, in-boundary Google-managed deployment option.",
+      "release_type": "engineering_update",
+      "rank": 9,
+      "summary": "Google Cloud에서 Anthropic이 직접 관리하는 Claude 모델 배포 옵션이 일반 제공(GA)됩니다. 이를 통해 개발자는 기존의 Google 관리형 옵션과 더불어 더 넓은 선택지를 갖게 되어 Google Cloud 내에서 AI 워크로드를 통합할 수 있습니다.",
+      "key_points": [
+        "Anthropic이 직접 관리하는 Claude 모델 배포 옵션의 GA(General Availability) 발표",
+        "개발자에게 모델 실행 방식에 대한 더 많은 선택권 제공",
+        "기존 Google 관리형 옵션과 결합하여 Google Cloud 내 AI 워크로드 통합 용이"
+      ],
+      "tags": [
+        "Google Cloud",
+        "Anthropic",
+        "Claude"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-10-22T00:00:00+09:00",
+      "published_date": "2026-10-22",
+      "original_description": "Today, we are launching OpenAI models in Google Cloud’s model garden. Google Cloud is now the only hyperscale cloud provider offering access to Gemini, Claude, and GPT, alongside more than 200 first-party, third-party, and open models on a unified enterprise AI platform.",
+      "release_type": "engineering_update",
+      "rank": 10,
+      "summary": "Google Cloud가 Model Garden에 OpenAI 모델을 출시하며 모델 선택의 폭과 유연성을 확장합니다. 이로써 Google Cloud는 Gemini, Claude, GPT를 모두 제공하는 유일한 하이퍼스케일 클라우드 제공업체가 되었습니다.",
+      "key_points": [
+        "Google Cloud Model Garden에 OpenAI 모델 도입",
+        "Gemini, Claude, GPT를 모두 제공하는 유일한 하이퍼스케일 클라우드 확보",
+        "200개 이상의 퍼스트 파티, 서드 파티 및 오픈 모델을 통합된 엔터프라이즈 AI 플랫폼에서 제공"
+      ],
+      "tags": [
+        "Google Cloud",
+        "OpenAI",
+        "Model Garden"
+      ]
+    }
+  ]
+}
