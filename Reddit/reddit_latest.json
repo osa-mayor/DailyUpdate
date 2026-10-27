@@ -1,59 +1,60 @@
 {
   "source": "reddit",
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27T04:58:00.801084+09:00",
-  "count": 4,
-  "daily_summary": "오늘의 논의는 AI 모델의 의사결정 신뢰성과 정렬(Alignment) 문제에 집중되었습니다. 불완전한 정보 상황에서의 결정 방식과 사용자의 오류에 휘둘리지 않는 논리적 모델 구축에 대한 기술적 화두가 던져졌습니다. 또한, 개인용 AI 애플리케이션 출시와 학술 논문 심사 일정 공유 등 실무적이고 커뮤니티 중심적인 소식도 함께 다뤄졌습니다.",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T04:52:16.383124+09:00",
+  "count": 6,
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 로컬 하드웨어 자원을 활용한 모델 구동과 에이전트의 무한 루프 방지를 위한 회로 차단기 구현 등 실무적인 최적화 방안이 활발히 논의되었습니다. 또한, AI 에이전트가 직접 문서를 편집하거나 실시간 데이터를 관리하는 자가 호스팅 위키와 같은 차세대 문서 관리 도구에 대한 관심도 높았습니다. 소형 모델의 온디바이스 활용 가능성과 AI 시스템의 의사결정 신뢰성 확보를 위한 방법론 등 기술적 깊이가 있는 주제들이 주목받았습니다.",
   "daily_key_points": [
-    "증거가 부족하거나 모순될 때 임의의 결론 대신 결정을 유보하는 fail-closed 방식의 중요성이 논의되었습니다.",
-    "사용자의 아첨(sycophancy)을 배제하고 논리적 정답을 고수하는 '논쟁적 LLM'의 유용성과 그 경계에 대한 탐색이 이루어졌습니다.",
-    "로컬 환경에서도 구동 가능한 최적화된 AI DM 앱 출시와 학술적 논문 심사 프로세스 공유가 이루어졌습니다."
+    "로컬 하드웨어 클러스터링을 통한 대규모 모델 구동 및 온디바이스 배포를 위한 소형 옴니 모델의 활용 가능성이 논의되었습니다.",
+    "LangChain 에이전트의 무한 루프 문제를 해결하기 위한 로컬 회로 차단기 구현과 AI 에이전트용 실시간 데이터 위키 등 자동화 도구 사례가 공유되었습니다.",
+    "AI 시스템이 불완전하거나 모순된 정보에 직면했을 때 신뢰할 수 있는 결정을 내리기 위한 프레임워크와 방법론에 대한 기술적 탐구가 이루어졌습니다."
   ],
   "daily_tags": [
-    "LLM_Alignment",
-    "Decision_Framework",
-    "Local_LLM",
-    "AI_Ethics"
+    "LLM_Optimization",
+    "AI_Agents",
+    "OpenSource",
+    "OnDevice_AI",
+    "MLOps"
   ],
   "subreddits_covered": [
     "LanguageTechnology",
-    "LocalLLaMA"
+    "LocalLLaMA",
+    "OpenSourceAI"
   ],
   "source_modes_used": [
-    "new"
+    "new",
+    "rising"
   ],
   "run_stats": {
-    "candidate_count": 16,
-    "finalist_count": 4,
-    "summarization_wall_sec": 426.258,
-    "total_wall_sec": 502.759
+    "candidate_count": 24,
+    "finalist_count": 6,
+    "summarization_wall_sec": 211.949,
+    "total_wall_sec": 354.518
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘의 논의는 AI 모델의 의사결정 신뢰성과 정렬(Alignment) 문제에 집중되었습니다. 불완전한 정보 상황에서의 결정 방식과 사용자의 오류에 휘둘리지 않는 논리적 모델 구축에 대한 기술적 화두가 던져졌습니다. 또한, 개인용 AI 애플리케이션 출시와 학술 논문 심사 일정 공유 등 실무적이고 커뮤니티 중심적인 소식도 함께 다뤄졌습니다.\n\n🔥 1. My AI Dungeon Master app hit the Play Store! Open Dungeon Master\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자가 직접 개발한 오픈소스 AI 던전 마스터 앱인 Open Dungeon Master가 안드로이드와 PC용 클라이언트로 출시되었습니다. 16GB GPU급의 사양에서도 5e 규칙을 원활하게 실행할 수 있도록 설계되었으며, 개인 서버 운영부터 클라우드 AI 연결까지 폭넓은 유연성을 제공합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xg64zg/my_ai_dungeon_master_app_hit_the_play_store_open/\n\n🔥 2. [D] How should AI systems handle missing or conflicting evidence before making decisions?\nr/LanguageTechnology | 👍 0 | 💬 2\n📝 요약: AI 시스템이 불완전하거나 모순된 정보를 만났을 때 신뢰할 수 있는 결정을 내리는 방법에 대한 기술적 논의를 다룹니다. 특히 증거가 부족할 경우 결론을 내리지 않는 fail-closed 방식과 이를 위한 프레임워크의 필요성을 제안합니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xfsdbs/d_how_should_ai_systems_handle_missing_or/\n\n🔥 3. Would you consider an argumentative LLM useful?\nr/LocalLLaMA | 👍 1 | 💬 16\n📝 요약: 사용자의 요구에 무조건 맞추는 아첨(sycophancy)을 배제하고, 연구 결과와 논리에 따라 자신의 주장을 고수하는 논쟁적인 LLM의 유용성에 대해 질문하고 있습니다. 코딩이나 수학처럼 정답이 명확한 분야에서 모델이 사용자의 잘못된 지시를 거부하고 올바른 방향을 제시하는 것이 어느 정도까지 허용될 수 있는지에 대한 화두를 던집니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xg5z5k/would_you_consider_an_argumentative_llm_useful/\n\n🔥 4. ARR Oct Paper Reviewing\nr/LanguageTechnology | 👍 9 | 💬 7\n📝 요약: ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 로컬 하드웨어 자원을 활용한 모델 구동과 에이전트의 무한 루프 방지를 위한 회로 차단기 구현 등 실무적인 최적화 방안이 활발히 논의되었습니다. 또한, AI 에이전트가 직접 문서를 편집하거나 실시간 데이터를 관리하는 자가 호스팅 위키와 같은 차세대 문서 관리 도구에 대한 관심도 높았습니다. 소형 모델의 온디바이스 활용 가능성과 AI 시스템의 의사결정 신뢰성 확보를 위한 방법론 등 기술적 깊이가 있는 주제들이 주목받았습니다.\n\n🔥 1. Possible to run qwen 3.8 flash next on this setup with usable speeds?\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 사용자가 보유한 64GB Mac mini M5 Pro와 24GB MacBook Pro를 클러스터링하여 Qwen 3.8 Flash 모델을 실용적인 속도로 구동할 수 있는지 질문하고 있습니다. 총 84GB의 메모리 자원을 활용하는 방식과 Qwen 3.8 27B 모델 사용 사이의 선택지를 고민 중입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xh234g/possible_to_run_qwen_38_flash_next_on_this_setup/\n\n🔥 2. [D] How should AI systems handle missing or conflicting evidence before making decisions?\nr/LanguageTechnology | 👍 0 | 💬 5\n📝 요약: AI 시스템이 불완전하거나 모순된 정보를 만났을 때 신뢰할 수 있는 결정을 내리는 방법에 대한 기술적 논의를 다룹니다. 특히 증거가 부족할 경우 결론을 내리지 않는 fail-closed 방식과 이를 위한 프레임워크의 필요성을 제안합니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xfsdbs/d_how_should_ai_systems_handle_missing_or/\n\n🔥 3. How I handled runaway tool-retry loops in LangChain agents without external SaaS (built an open-source local circuit breaker)\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: LangChain 에이전트 운영 시 발생하는 무한 재시도 루프 문제를 해결하기 위해 외부 SaaS 없이 로컬에서 작동하는 오픈소스 회로 차단기(Circuit Breaker)를 구축한 사례입니다. 비용 효율적이고 독립적인 에이전트 제어 방식을 제안합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xh1thi/how_i_handled_runaway_toolretry_loops_in/\n\n🔥 4. LiquidAI/LFM3-Omni-2B-GGUF\nr/LocalLLaMA | 👍 26 | 💬 4\n📝 요약: LiquidAI의 LFM3-Omni-2B-GGUF 모델 출시를 환영하며, 특히 소형 모델임에도 폴란드어 TTS 및 STT를 지원하는 점이 혁신적이라는 평가입니다. 2B 규모의 컴팩트한 크기 덕분에 온디바이스 배포가 용이하다는 점이 큰 강점으로 꼽힙니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xh1rwn/liquidailfm3omni2bgguf/\n\n🔥 5. ARR Oct Paper Reviewing\nr/LanguageTechnology | 👍 10 | 💬 10\n📝 요약: ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/\n\n🔥 6. A self-hosted wiki with live Prometheus and SQL charts that AI agents can read and edit\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: 엔지니어링 팀의 문서 관리 문제를 해결하기 위해 개발된 셀프 호스팅 위키인 Oxynote가 공개되었습니다. 이 도구는 실시간 데이터 차트와 텍스트를 결합하여 문서의 최신성을 유지하며, AI 에이전트가 문서를 읽고 편집할 수 있는 기능을 제공합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xh1hdu/a_selfhosted_wiki_with_live_prometheus_and_sql/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1xg64zg",
+      "post_id": "1xh234g",
       "subreddit": "LocalLLaMA",
-      "title": "My AI Dungeon Master app hit the Play Store! Open Dungeon Master",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg64zg/my_ai_dungeon_master_app_hit_the_play_store_open/",
+      "title": "Possible to run qwen 3.8 flash next on this setup with usable speeds?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh234g/possible_to_run_qwen_38_flash_next_on_this_setup/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-26T19:10:32",
-      "korean_summary": "사용자가 직접 개발한 오픈소스 AI 던전 마스터 앱인 Open Dungeon Master가 안드로이드와 PC용 클라이언트로 출시되었습니다. 16GB GPU급의 사양에서도 5e 규칙을 원활하게 실행할 수 있도록 설계되었으며, 개인 서버 운영부터 클라우드 AI 연결까지 폭넓은 유연성을 제공합니다.",
+      "pub_date": "2026-10-27T19:24:27",
+      "korean_summary": "사용자가 보유한 64GB Mac mini M5 Pro와 24GB MacBook Pro를 클러스터링하여 Qwen 3.8 Flash 모델을 실용적인 속도로 구동할 수 있는지 질문하고 있습니다. 총 84GB의 메모리 자원을 활용하는 방식과 Qwen 3.8 27B 모델 사용 사이의 선택지를 고민 중입니다.",
       "external_article_summary": "",
       "key_points": [
-        "16GB GPU 환경에서도 구동 가능한 최적화를 통해 고가의 하드웨어 없이도 5e 룰셋 기반의 AI DM 플레이가 가능합니다.",
-        "개인 서버 관리부터 클라우드 AI 서비스 연결, 보안 터널을 통한 친구 초대 기능까지 포함하여 기술적 숙련도에 따른 다양한 사용 방식을 지원합니다.",
-        "오픈소스 프로젝트로서 사용자 데이터의 기기 내 보관을 우선시하며, 인간 DM 모드를 통해 AI 없이 원격 호스팅 용도로도 활용할 수 있습니다."
+        "64GB Mac mini와 24GB MacBook Pro를 결합하여 총 80GB 이상의 가용 메모리를 확보하려는 계획",
+        "두 기기를 클러스터링했을 때 Qwen 3.8 Flash 모델이 수용 가능한 속도로 구동될지에 대한 기술적 의문",
+        "현재 하드웨어 구성에서 Qwen 3.8 Flash 대신 27B 모델을 사용하는 것이 더 나은 대안인지에 대한 비교"
       ],
       "tags": [
-        "AI",
-        "Local_LLM",
-        "AI_Dungeon_Master",
-        "Cloud",
-        "OpenSource"
+        "Qwen",
+        "LLM Clustering",
+        "Mac M5 Pro"
       ],
       "source_modes": [
         "new"
@@ -73,7 +74,7 @@
       "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xfsdbs/d_how_should_ai_systems_handle_missing_or/",
       "external_link": null,
       "score": "0",
-      "comments_count": 2,
+      "comments_count": 5,
       "comment_sample_count": 0,
       "pub_date": "2026-10-26T09:46:39",
       "korean_summary": "AI 시스템이 불완전하거나 모순된 정보를 만났을 때 신뢰할 수 있는 결정을 내리는 방법에 대한 기술적 논의를 다룹니다. 특히 증거가 부족할 경우 결론을 내리지 않는 fail-closed 방식과 이를 위한 프레임워크의 필요성을 제안합니다.",
@@ -85,9 +86,44 @@
       ],
       "tags": [
         "AI",
-        "AI_Safety",
         "Decision_Making",
+        "AI_Safety",
         "NLP"
+      ],
+      "source_modes": [
+        "rising"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xh1thi",
+      "subreddit": "OpenSourceAI",
+      "title": "How I handled runaway tool-retry loops in LangChain agents without external SaaS (built an open-source local circuit breaker)",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xh1thi/how_i_handled_runaway_toolretry_loops_in/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-27T19:14:28",
+      "korean_summary": "LangChain 에이전트 운영 시 발생하는 무한 재시도 루프 문제를 해결하기 위해 외부 SaaS 없이 로컬에서 작동하는 오픈소스 회로 차단기(Circuit Breaker)를 구축한 사례입니다. 비용 효율적이고 독립적인 에이전트 제어 방식을 제안합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "LangChain 에이전트가 도구 호출 과정에서 발생하는 무한 루프 및 과도한 리소스 소모 문제를 해결하는 방법을 다룹니다.",
+        "외부 유료 서비스에 의존하지 않고 로컬 환경에서 실행 가능한 오픈소스 회로 차단기 메커니즘을 구현했습니다.",
+        "에이전트의 비정상적인 동작을 감지하고 자동으로 차단하여 비용과 연산 자원을 보호하는 것이 핵심입니다."
+      ],
+      "tags": [
+        "Agent",
+        "LangChain",
+        "OpenSource",
+        "AI_Agent",
+        "AI"
       ],
       "source_modes": [
         "new"
@@ -101,26 +137,28 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xg5z5k",
+      "post_id": "1xh1rwn",
       "subreddit": "LocalLLaMA",
-      "title": "Would you consider an argumentative LLM useful?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xg5z5k/would_you_consider_an_argumentative_llm_useful/",
+      "title": "LiquidAI/LFM3-Omni-2B-GGUF",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xh1rwn/liquidailfm3omni2bgguf/",
       "external_link": null,
-      "score": "1",
-      "comments_count": 16,
+      "score": "26",
+      "comments_count": 4,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-26T19:04:42",
-      "korean_summary": "사용자의 요구에 무조건 맞추는 아첨(sycophancy)을 배제하고, 연구 결과와 논리에 따라 자신의 주장을 고수하는 논쟁적인 LLM의 유용성에 대해 질문하고 있습니다. 코딩이나 수학처럼 정답이 명확한 분야에서 모델이 사용자의 잘못된 지시를 거부하고 올바른 방향을 제시하는 것이 어느 정도까지 허용될 수 있는지에 대한 화두를 던집니다.",
+      "pub_date": "2026-10-27T19:12:50",
+      "korean_summary": "LiquidAI의 LFM3-Omni-2B-GGUF 모델 출시를 환영하며, 특히 소형 모델임에도 폴란드어 TTS 및 STT를 지원하는 점이 혁신적이라는 평가입니다. 2B 규모의 컴팩트한 크기 덕분에 온디바이스 배포가 용이하다는 점이 큰 강점으로 꼽힙니다.",
       "external_article_summary": "",
       "key_points": [
-        "사용자의 프롬프트 주입이나 잘못된 요구에 휘둘리지 않고 원래의 아이디어와 논리에 정렬되도록 하는 비(non) LLM 기반의 정렬 시스템 개발",
-        "코딩이나 수학처럼 객관적인 정답이 존재하는 분야에서 모델이 사용자의 의견에 무조건 따르지 않고 논리적 우위를 유지하는 것에 대한 가치 판단",
-        "사용자가 로컬 LLM에 기대하는 역할과 모델이 자신의 알고리즘적 판단을 고수할 때 발생할 수 있는 경계에 대한 탐색"
+        "Llama.cpp와의 신속한 협업을 통해 출시된 2B 규모의 옴니 모델입니다.",
+        "프런티어 연구소의 오픈 모델 중 최초로 폴란드어 음성 합성(TTS) 및 음성 인식(STT)을 지원합니다.",
+        "모델 크기가 작아 온디바이스 환경에서의 실질적인 배포와 활용이 가능합니다."
       ],
       "tags": [
-        "AI Ethics",
-        "LLM",
-        "AI Alignment"
+        "OnDeviceAI",
+        "LiquidAI",
+        "Multimodal",
+        "Release",
+        "AI"
       ],
       "source_modes": [
         "new"
@@ -139,8 +177,8 @@
       "title": "ARR Oct Paper Reviewing",
       "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xf9nkh/arr_oct_paper_reviewing/",
       "external_link": null,
-      "score": "9",
-      "comments_count": 7,
+      "score": "10",
+      "comments_count": 10,
       "comment_sample_count": 0,
       "pub_date": "2026-10-25T18:20:19",
       "korean_summary": "ARR 10월 사이클의 논문 심사 배정 여부를 확인하고자 하는 질문 글입니다. 작성자는 다른 연구자들이 심사할 논문을 받았는지 궁금해하고 있습니다.",
@@ -150,9 +188,44 @@
         "심사 위원들의 배정 현황 확인 및 정보 공유 목적"
       ],
       "tags": [
-        "Academic Research",
+        "ARR",
         "Paper Review",
-        "ARR"
+        "Academic Research"
+      ],
+      "source_modes": [
+        "rising"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xh1hdu",
+      "subreddit": "OpenSourceAI",
+      "title": "A self-hosted wiki with live Prometheus and SQL charts that AI agents can read and edit",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xh1hdu/a_selfhosted_wiki_with_live_prometheus_and_sql/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-27T19:01:51",
+      "korean_summary": "엔지니어링 팀의 문서 관리 문제를 해결하기 위해 개발된 셀프 호스팅 위키인 Oxynote가 공개되었습니다. 이 도구는 실시간 데이터 차트와 텍스트를 결합하여 문서의 최신성을 유지하며, AI 에이전트가 문서를 읽고 편집할 수 있는 기능을 제공합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Prometheus 및 SQL 데이터베이스와 연동되어 실시간 차트를 제공하며, 데이터의 생동감을 통해 문서의 활용도를 높입니다.",
+        "Ollama, Claude, OpenAI 등 다양한 모델을 지원하며, MCP를 통해 AI 에이전트가 문서를 생성하거나 인프라를 문서화할 수 있습니다.",
+        "보안을 위해 읽기 전용 데이터베이스 연결만 허용하며, Apache-2.0 라이선스 하에 단일 Docker 이미지로 실행 가능합니다."
+      ],
+      "tags": [
+        "Agent",
+        "DevOps",
+        "OpenSource",
+        "Database",
+        "Infra"
       ],
       "source_modes": [
         "new"
