@@ -1,87 +1,215 @@
 {
   "source": "hacker_news",
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T04:34:24.492191+09:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T04:36:30.301333+09:00",
   "count": 10,
-  "daily_summary": "오늘의 기술 뉴스는 AI 모델의 실질적 가치 창출과 성능 향상, 그리고 이를 둘러싼 보안 및 윤리적 쟁점들이 주를 이루었습니다. 또한, 정부의 감시 체계와 기업의 대규모 구조조정 등 기술이 사회적 프라이버시와 고용 시장에 미치는 영향에 대한 논의가 활발히 진행되었습니다.",
+  "daily_summary": "오늘의 기술 뉴스는 대규모 보안 사고와 시스템 신뢰 체계의 취약성, 그리고 AI 모델의 성능 향상과 학술적 성과가 주요 화두였습니다. 특히 바이낸스 해킹과 macOS 인증서 문제 등 보안 관리의 중요성이 부각되었으며, Mistral의 대형 모델 공개와 OpenAI의 수학적 발견이 기술적 진보를 보여주었습니다.",
   "daily_key_points": [
-    "AI 코딩 도구와 대규모 언어 모델의 성능 향상이 기업 가치와 산업적 파급력을 결정하는 핵심 요소로 부상했습니다.",
-    "정부의 비밀 법원 판결 및 클라우드/메신저를 활용한 감시 기술이 민주적 절차와 프라이버시를 위협할 수 있다는 우려가 제기되었습니다.",
-    "대규모 인력 구조조정과 AI 기술의 급격한 발전이 실무 생산성 및 미래 고용 시장의 불확실성을 심화시키고 있습니다."
+    "바이낸스 해킹과 macOS 인증서 유출 등 엔드포인트 및 시스템 수준의 보안 취약점이 심각한 위협으로 드러났습니다.",
+    "Mistral의 1조 파라미터 모델 공개와 OpenAI의 수학·물리학적 발견은 AI 기술이 학술적 영역으로 확장되고 있음을 보여주었습니다.",
+    "대규모 인력 구조조정과 기술적 도구의 변화 등 기업의 전략적 결정이 산업 생태계에 미치는 영향이 논의되었습니다."
   ],
   "daily_tags": [
-    "AI",
-    "Cybersecurity",
-    "Privacy",
-    "TechEconomy"
+    "사이버보안",
+    "인공지능",
+    "소프트웨어엔지니어링",
+    "데이터프라이버시"
   ],
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 AI 모델의 실질적 가치 창출과 성능 향상, 그리고 이를 둘러싼 보안 및 윤리적 쟁점들이 주를 이루었습니다. 또한, 정부의 감시 체계와 기업의 대규모 구조조정 등 기술이 사회적 프라이버시와 고용 시장에 미치는 영향에 대한 논의가 활발히 진행되었습니다.\n\n📍 1. Anthropic S-1\n⭐ Score: 1700 | 💬 Comments: 1671\n📰 원문 요약: Anthropic의 S-1 공시를 통해 기업의 재무 구조와 성장 전략이 공개되었습니다. 특히 2분기 데이터센터 인프라와 수요 사이의 균형을 맞추며 높은 마진을 확보한 점이 기술적/경제적 성과로 분석됩니다. 또한 Claude Code와 같은 AI 코딩 도구가 시장에 빠르게 확산되며 실질적인 수요를 증명하고 있습니다.\n💬 토론 요약: AI에 대한 실질적인 수요가 존재하는지에 대한 의구심과, Anthropic이 이미 강력한 수요를 확보했다는 옹호 의견이 대립하고 있습니다. 또한 AI 코딩 도구가 산업 전반에 미치는 파급력과 그 지속 가능성에 대한 논의가 이어지고 있습니다.\n📌 종합 요약: Anthropic의 S-1 상장 서류 공개에 따라 기업 가치와 실질적인 AI 수요 사이의 관계가 핵심 쟁점으로 떠올랐습니다. 시장은 AI 코딩 도구와 같은 실질적인 Killer App의 등장과 그에 따른 수익성 확보 여부에 주목하고 있습니다.\n🗂️ 분류: 비즈니스/스타트업\n🔗 링크: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm\n💬 토론: https://news.ycombinator.com/item?id=50242939\n\n📍 2. Ghostty 1.4\n⭐ Score: 1261 | 💬 Comments: 401\n📰 원문 요약: Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 대폭 개선되었으며, Kitty 그래픽 구현을 100% 완료하여 애니메이션과 상대적 배치를 지원합니다. 또한, 악성 터미널 출력을 통한 파일 삭제나 메모리 오염을 방지하기 위한 보안 패치가 포함되었습니다.\n💬 토론 요약: libghostty를 통한 이식성 확보에 대한 기대와 함께, Kitty 터미널의 힌트 모드와 같은 특정 기능 부재가 Ghostty로의 전환을 망설이게 한다는 의견이 대립하고 있습니다.\n📌 종합 요약: Ghostty 터미널의 1.4.0 메이저 업데이트가 발표되었으며, 성능 최적화와 보안 취약점 해결이 핵심입니다. 커뮤니티에서는 새로운 라이브러리인 libghostty의 발전과 기존 터미널과의 기능 차이에 주목하고 있습니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://ghostty.org/docs/install/release-notes/1-4-0\n💬 토론: https://news.ycombinator.com/item?id=50261998\n\n📍 3. Three new discoveries in mathematics, computer science, and physics\n⭐ Score: 1143 | 💬 Comments: 690\n📰 원문 요약: 이번 발표는 조화 해석(Harmonic Analysis), 복잡도 이론(Complexity Theory), 양자장론(Quantum Field Theory) 분야의 새로운 발견을 포함합니다. 특히 지수 시간 가설(Exponential Time Hypothesis)이 거짓임을 입증하는 등 계산 복잡도 이론의 근간을 흔들 수 있는 수학적 성과가 핵심입니다. 이러한 발견은 향후 알고리즘 설계와 물리적 모델링의 한계를 재정의할 수 있는 잠재력을 가집니다.\n💬 토론 요약: 발표된 성과가 학문적 가치를 지닌다는 옹호와 연구 방식의 적절성에 대한 비판이 대립하고 있습니다. 특히 OpenAI의 연구 접근 방식과 테렌스 타오(Terence Tao)와 같은 저명한 학자들의 역할이 이번 성과에 미친 영향에 대해 논쟁이 이어지고 있습니다.\n📌 종합 요약: 수학, 컴퓨터 과학, 물리학 분야에서 이루어진 세 가지 새로운 발견에 대한 소식과 이에 대한 학계 및 커뮤니티의 반응을 다룹니다. 특히 복잡도 이론과 양자장론 등 심오한 학문적 성과가 OpenAI의 연구 역량과 결합되어 논의되고 있습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://openai.com/index/building-scientific-understanding-with-academic-communities/\n💬 토론: https://news.ycombinator.com/item?id=50251344\n\n📍 4. Today, we hacked what we'd set out to hack: the iPhone\n⭐ Score: 1123 | 💬 Comments: 732\n📰 원문 요약: Hexacon에서 공개된 이번 데모는 iMessage를 통한 원클릭 공격과 APT(Apple Persistent Threat)라 명명된 지속적 위협 기술을 포함합니다. 공격자는 타사 앱이 아닌 기본 메시징 시스템을 통해 침투하며, 사용자의 기기에서 루트 권한을 획득하는 것을 목표로 합니다.\n💬 토론 요약: 애플의 Lockdown 모드가 이러한 공격 벡터를 효과적으로 차단할 수 있는지에 대한 기술적 의문과, 탈취된 루트 권한이 애플의 업데이트나 원격 삭제를 방해할 가능성에 대한 우려가 대립하고 있습니다.\n📌 종합 요약: 아이폰의 보안 취약점을 공략하는 새로운 해킹 기술이 공개되었으며, 이에 따른 보안 모드와 권한 탈취의 영향에 대해 커뮤니티가 주목하고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://blog.calif.io/p/iphone\n💬 토론: https://news.ycombinator.com/item?id=50211474\n\n📍 5. Kimi K3.1 Pro and K3.1 Pro Highspeed\n⭐ Score: 1094 | 💬 Comments: 677\n📰 원문 요약: Kimi K3.1 Pro는 100만 토큰의 컨텍스트 윈도우를 지원하는 3T급 오픈 웨이트 모델로, 대규모 공동 RL(Reinforcement Learning) 최적화를 통해 코딩과 에이전트 성능을 극대화했습니다. 특히 Terminal-Bench 4.0에서 65.7%를 기록하며 GPT-6 Astra(58.2%)를 앞섰고, Kimi Code Bench 3.0에서도 이전 모델 대비 향상된 성능을 보여줍니다. 모델 가중치는 11월 4일까지 순차적으로 공개될 예정입니다.\n💬 토론 요약: 모델이 스스로를 Kimi로 식별하거나 때때로 ChatGPT로 오인하는 정체성 혼선 현상에 대한 관찰이 이어지고 있습니다. 또한 모델 공개 시 발생할 수 있는 사이버 보안 및 AI 정렬(Alignment) 방식에 대한 기술적 논의가 진행 중입니다.\n📌 종합 요약: Kimi가 강력한 성능의 오픈 웨이트 모델인 K3.1 Pro 시리즈를 공개하며 코딩과 에이전트 성능에서 독보적인 수치를 기록했습니다. 커뮤니티에서는 모델의 정체성 혼선 문제와 보안 측면의 접근 방식에 대해 주목하고 있습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://www.kimi.ai/blog/kimi-k3-1-pro\n💬 토론: https://news.ycombinator.com/item?id=50212065\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-10-29.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 대규모 보안 사고와 시스템 신뢰 체계의 취약성, 그리고 AI 모델의 성능 향상과 학술적 성과가 주요 화두였습니다. 특히 바이낸스 해킹과 macOS 인증서 문제 등 보안 관리의 중요성이 부각되었으며, Mistral의 대형 모델 공개와 OpenAI의 수학적 발견이 기술적 진보를 보여주었습니다.\n\n📍 1. Patrick Stewart has died\n⭐ Score: 3208 | 💬 Comments: 726\n📰 원문 요약: 뉴욕타임즈를 통해 보도된 배우 패트릭 스튜어트의 별세 소식은 그의 생애와 주요 경력을 다루고 있습니다. 그는 스타 트렉 시리즈 등 수많은 작품을 통해 독보적인 연기력을 선보였으며, 위키피디아 등 외부 자료를 통해 그의 업적이 기록되었습니다.\n💬 토론 요약: 사용자들은 그가 연기한 캐릭터가 보여준 리더십과 도덕적 가치에 대해 찬사를 보내고 있습니다. 또한 팬데믹 기간 중 셰익스피어 소네트를 낭독하며 대중에게 위로를 주었던 행보를 높게 평가하고 있습니다.\n📌 종합 요약: 배우 패트릭 스튜어트의 별세 소식이 전해지며 그가 남긴 예술적 업적과 삶의 태도에 대한 추모가 이어지고 있습니다. 커뮤니티에서는 그의 연기 철학과 사회적 영향력을 되새기는 반응이 주를 이룹니다.\n🗂️ 분류: 기타\n🔗 링크: https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html\n💬 토론: https://news.ycombinator.com/item?id=50294702\n\n📍 2. Binance-hacker-1029 – $5.6B stolen from Binance\n⭐ Score: 1709 | 💬 Comments: 1186\n📰 원문 요약: 바이낸스에서 약 56억 달러 규모의 자산이 탈취되는 보안 사고가 발생했습니다. 초기 조사 결과, 보안 사고의 원인은 DevOps 엔지니어의 노트북이 해킹되어 내부 권한이 탈취되었을 가능성이 높은 것으로 나타났습니다. 현재 탈취된 자산 중 약 24억 달러 규모의 자산은 Circle과 Tether에 의해 동결된 상태이며, 이 중 9억 7,115만 USDT가 이더리움 네트워크를 통해 이동한 기록이 확인되었습니다.\n💬 토론 요약: 탈취된 자산 중 약 24억 달러가 이미 동결되었다는 구체적인 자산 흐름에 대한 정보 공유와, 보안 사고의 책임이 DevOps 엔지니어의 개인 단말기 관리 소홀에 있는지 혹은 시스템적 결함에 있는지에 대한 쟁점이 대립하고 있습니다.\n📌 종합 요약: 바이낸스에서 발생한 56억 달러 규모의 대규모 해킹 사건과 그에 따른 자산 동결 현황을 다루고 있습니다. 보안 사고의 원인으로 DevOps 엔지니어의 단말기 침해 가능성이 제기되며 보안 관리의 중요성이 부각되었습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8\n💬 토론: https://news.ycombinator.com/item?id=50296470\n\n📍 3. We're releasing the weights of Mistral Large 4\n⭐ Score: 1659 | 💬 Comments: 428\n📰 원문 요약: Mistral Large 4(Le Chonk)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.\n💬 토론 요약: 사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.\n📌 종합 요약: Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://mistral.ai/news/mistral-large-4-oss/\n💬 토론: https://news.ycombinator.com/item?id=50289418\n\n📍 4. Why is this fingerprinting script creating bioweapons?\n⭐ Score: 1569 | 💬 Comments: 301\n📰 원문 요약: 작성자는 Playwright를 사용하여 Tranco Top Sites 리스트에 포함된 10,000개 웹사이트를 크롤링하며 브라우저 핑거프린팅 스크립트를 분석했습니다. 기술적으로는 HTML <canvas> 요소의 toDataURL 호출을 후킹하여 픽셀 데이터를 추출하는 방식을 활용했으며, 이를 통해 FingerprintJS나 Cloudflare Turnstile와 같은 기존 솔루션 외에도 정교하게 설계된 독자적인 핑거프린팅 스크립트들을 식별했습니다. 수집된 데이터는 fingerprint.garden에 저장되어 각 스크립트가 생성하는 고유한 캔버스 결과물을 시각적으로 비교할 수 있게 합니다.\n💬 토론 요약: 수집된 데이터가 워터마크처럼 식별자로 사용될 수 있다는 점에 주목하며, 특정 기술이 의도치 않게 사용자 추적 도구로 변질될 수 있다는 우려가 제기되었습니다. 또한 LLM이 보안 가이드라인을 우회하여 특정 코드를 생성하는 현상과 핑거프린팅 기술의 발전 양상을 연결 짓는 논의가 이어졌습니다.\n📌 종합 요약: 웹 브라우저 핑거프린팅 스크립트를 분석하여 수집된 데이터의 위험성을 경고하는 기술적 탐구 사례입니다. 10,000개 이상의 웹사이트를 크롤링하여 발견한 정교한 캔버스 핑거프린팅 기법과 그로 인한 프라이버시 침해 가능성을 다룹니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://nullpt.rs/fingerprinting-bioweapons\n💬 토론: https://news.ycombinator.com/item?id=50276998\n\n📍 5. Ghostty 1.4\n⭐ Score: 1348 | 💬 Comments: 439\n📰 원문 요약: Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 크게 개선되었으며, 애니메이션과 상대적 배치를 포함한 100% 완전한 Kitty 그래픽 구현을 지원하는 최초의 비-Kitty 터미널이 되었습니다. 또한 보안 취약점(GHSA) 해결을 통해 악성 터미널 출력으로 인한 크래시나 파일 접근 위험을 방지하는 패치가 포함되었습니다.\n💬 토론 요약: libghostty를 통한 라이브러리 이식성 확보에 대한 기술적 성과를 강조하는 의견과, Kitty의 힌트 모드와 같은 특정 기능 부재로 인해 전환을 망설이는 사용자들의 의견이 대립하고 있습니다.\n📌 종합 요약: Ghostty 터미널의 1.4.0 메이저 업데이트가 발표되었으며, 성능 최적화와 그래픽 구현 기능이 대폭 강화되었습니다. 커뮤니티에서는 새로운 라이브러리 구조와 기존 터미널과의 기능 차이에 대해 활발한 논의가 이루어지고 있습니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://ghostty.org/docs/install/release-notes/1-4-0\n💬 토론: https://news.ycombinator.com/item?id=50261998\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-10-31.md",
   "items": [
     {
       "rank": 1,
-      "story_id": "50242939",
-      "title": "Anthropic S-1",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "hn_url": "https://news.ycombinator.com/item?id=50242939",
-      "author": "SiNTEx",
-      "score": 1700,
-      "comments": 1671,
-      "rank_score": 1192.2265327380933,
-      "published_at_kst": "2026-10-26T22:04:50+09:00",
-      "published_date": "2026-10-26",
-      "summary": "Anthropic의 S-1 상장 서류 공개에 따라 기업 가치와 실질적인 AI 수요 사이의 관계가 핵심 쟁점으로 떠올랐습니다. 시장은 AI 코딩 도구와 같은 실질적인 Killer App의 등장과 그에 따른 수익성 확보 여부에 주목하고 있습니다.",
-      "story_text": "",
-      "external_article_summary": "Anthropic의 S-1 공시를 통해 기업의 재무 구조와 성장 전략이 공개되었습니다. 특히 2분기 데이터센터 인프라와 수요 사이의 균형을 맞추며 높은 마진을 확보한 점이 기술적/경제적 성과로 분석됩니다. 또한 Claude Code와 같은 AI 코딩 도구가 시장에 빠르게 확산되며 실질적인 수요를 증명하고 있습니다.",
-      "article_summary": "Anthropic의 S-1 공시를 통해 기업의 재무 구조와 성장 전략이 공개되었습니다. 특히 2분기 데이터센터 인프라와 수요 사이의 균형을 맞추며 높은 마진을 확보한 점이 기술적/경제적 성과로 분석됩니다. 또한 Claude Code와 같은 AI 코딩 도구가 시장에 빠르게 확산되며 실질적인 수요를 증명하고 있습니다.",
-      "discussion_summary": "AI에 대한 실질적인 수요가 존재하는지에 대한 의구심과, Anthropic이 이미 강력한 수요를 확보했다는 옹호 의견이 대립하고 있습니다. 또한 AI 코딩 도구가 산업 전반에 미치는 파급력과 그 지속 가능성에 대한 논의가 이어지고 있습니다.",
+      "story_id": "50294702",
+      "title": "Patrick Stewart has died",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50294702",
+      "author": "j4mie",
+      "score": 3208,
+      "comments": 726,
+      "rank_score": 2247.5850578282716,
+      "published_at_kst": "2026-10-30T04:41:39+09:00",
+      "published_date": "2026-10-30",
+      "summary": "배우 패트릭 스튜어트의 별세 소식이 전해지며 그가 남긴 예술적 업적과 삶의 태도에 대한 추모가 이어지고 있습니다. 커뮤니티에서는 그의 연기 철학과 사회적 영향력을 되새기는 반응이 주를 이룹니다.",
+      "story_text": "https://archive.ph/y4Egm https://en.wikipedia.org/wiki/Patrick_Stewart",
+      "external_article_summary": "뉴욕타임즈를 통해 보도된 배우 패트릭 스튜어트의 별세 소식은 그의 생애와 주요 경력을 다루고 있습니다. 그는 스타 트렉 시리즈 등 수많은 작품을 통해 독보적인 연기력을 선보였으며, 위키피디아 등 외부 자료를 통해 그의 업적이 기록되었습니다.",
+      "article_summary": "뉴욕타임즈를 통해 보도된 배우 패트릭 스튜어트의 별세 소식은 그의 생애와 주요 경력을 다루고 있습니다. 그는 스타 트렉 시리즈 등 수많은 작품을 통해 독보적인 연기력을 선보였으며, 위키피디아 등 외부 자료를 통해 그의 업적이 기록되었습니다.",
+      "discussion_summary": "사용자들은 그가 연기한 캐릭터가 보여준 리더십과 도덕적 가치에 대해 찬사를 보내고 있습니다. 또한 팬데믹 기간 중 셰익스피어 소네트를 낭독하며 대중에게 위로를 주었던 행보를 높게 평가하고 있습니다.",
       "key_points": [
-        "데이터센터 인프라 구축과 수요 예측의 일치가 수익성 확보의 핵심입니다.",
-        "AI 코딩 도구는 초기 시장 선점 효과를 통해 산업 전반으로 빠르게 확산 중입니다.",
-        "LLM 모델의 성능을 넘어 실질적인 비즈니스 가치를 창출하는 것이 기업 가치의 척도가 됩니다."
+        "패트릭 스튜어트의 별세로 인해 전 세계 팬들과 동료들의 추모가 이어지고 있습니다.",
+        "그의 캐릭터는 단호하면서도 자애로운 리더십의 전형을 보여주었다는 평가를 받습니다.",
+        "팬데믹 시기 예술을 통해 대중과 소통하며 정서적 안정을 제공한 점이 주목받고 있습니다."
       ],
-      "category": "비즈니스/스타트업",
+      "category": "기타",
       "comment_highlights": [
         {
-          "author": "trjordan",
-          "text": "Everything comes back to whether the demand is really there. Anthropic thinks it is. The got the demand / datacenter match right in Q2, got great margins, and committed hard. They…"
+          "author": "halflife",
+          "text": "Watching him in Star Trek TNG made me reevaluate how management of people should be done, his character was assertive but compassionate. High morals coupled with grounded reason.…"
         },
         {
-          "author": "gradus_ad",
-          "text": "The killer app is AI coding. Claude Code had first mover advantage, was a genuine revolution, and has diffused through the industry with incredible speed. I would imagine most of…"
+          "author": "maxcan",
+          "text": "One thing that doesn't get enough attention - when COVID lockdowns started, he just made reels reading Shakespeare's sonnets. It was such a lovely break from everything else on so…"
         }
       ],
       "tags": [
-        "Anthropic",
-        "LLM",
-        "AI Coding",
-        "S-1",
-        "AI Business"
+        "패트릭 스튜어트",
+        "추모",
+        "스타 트렉"
       ],
-      "domain": "sec.gov",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "domain": "nytimes.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
     },
     {
       "rank": 2,
+      "story_id": "50296470",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "hn_url": "https://news.ycombinator.com/item?id=50296470",
+      "author": "Tiberium",
+      "score": 1709,
+      "comments": 1186,
+      "rank_score": 1198.5136166848758,
+      "published_at_kst": "2026-10-30T06:38:59+09:00",
+      "published_date": "2026-10-30",
+      "summary": "바이낸스에서 발생한 56억 달러 규모의 대규모 해킹 사건과 그에 따른 자산 동결 현황을 다루고 있습니다. 보안 사고의 원인으로 DevOps 엔지니어의 단말기 침해 가능성이 제기되며 보안 관리의 중요성이 부각되었습니다.",
+      "story_text": "",
+      "external_article_summary": "바이낸스에서 약 56억 달러 규모의 자산이 탈취되는 보안 사고가 발생했습니다. 초기 조사 결과, 보안 사고의 원인은 DevOps 엔지니어의 노트북이 해킹되어 내부 권한이 탈취되었을 가능성이 높은 것으로 나타났습니다. 현재 탈취된 자산 중 약 24억 달러 규모의 자산은 Circle과 Tether에 의해 동결된 상태이며, 이 중 9억 7,115만 USDT가 이더리움 네트워크를 통해 이동한 기록이 확인되었습니다.",
+      "article_summary": "바이낸스에서 약 56억 달러 규모의 자산이 탈취되는 보안 사고가 발생했습니다. 초기 조사 결과, 보안 사고의 원인은 DevOps 엔지니어의 노트북이 해킹되어 내부 권한이 탈취되었을 가능성이 높은 것으로 나타났습니다. 현재 탈취된 자산 중 약 24억 달러 규모의 자산은 Circle과 Tether에 의해 동결된 상태이며, 이 중 9억 7,115만 USDT가 이더리움 네트워크를 통해 이동한 기록이 확인되었습니다.",
+      "discussion_summary": "탈취된 자산 중 약 24억 달러가 이미 동결되었다는 구체적인 자산 흐름에 대한 정보 공유와, 보안 사고의 책임이 DevOps 엔지니어의 개인 단말기 관리 소홀에 있는지 혹은 시스템적 결함에 있는지에 대한 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "56억 달러 규모의 자산 탈취 사고가 발생했으며 일부 자산은 이미 동결되었습니다.",
+        "DevOps 엔지니어의 단말기 침해가 보안 사고의 주요 원인으로 지목되었습니다.",
+        "중앙화 거래소의 엔드포인트 보안 및 권한 관리 체계의 취약성이 드러났습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "Tiberium",
+          "text": "About $2.4 billion out of this is already frozen by Circle and Tether. Some of the big ones: - 971.15M USDT (Ethereum): https://etherscan.io/tx/0x7baba482077843514d9c72bac0110ba09…"
+        },
+        {
+          "author": "madradavid",
+          "text": "Looks like a DevOps guy is going to take the blame for this: \"Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer’s lapto…"
+        }
+      ],
+      "tags": [
+        "Binance",
+        "Hacking",
+        "DevOps",
+        "Cybersecurity",
+        "Crypto"
+      ],
+      "domain": "arkm.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 3,
+      "story_id": "50289418",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "hn_url": "https://news.ycombinator.com/item?id=50289418",
+      "author": "kuberwastaken",
+      "score": 1659,
+      "comments": 428,
+      "rank_score": 1163.1184370756785,
+      "published_at_kst": "2026-10-29T23:13:21+09:00",
+      "published_date": "2026-10-29",
+      "summary": "Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.",
+      "story_text": "",
+      "external_article_summary": "Mistral Large 4(Le Chonk)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "article_summary": "Mistral Large 4(Le Chonk)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "discussion_summary": "사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.",
+      "key_points": [
+        "1조 파라미터 규모의 멀티모달 모델로 코딩과 보안 분야에서 강력한 성능을 제공합니다.",
+        "프리뷰 대비 입력/출력 토큰 비용을 절반 수준으로 낮추어 경제성을 확보했습니다.",
+        "유럽 기반의 데이터 주권과 오픈 웨이트 모델의 투명성을 강조합니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "Topfi",
+          "text": "They slashed pricing, it's now nearly half vs the preview (Input: $0.7/M Tokens, Output: $2.1/M Tokens vs Input: $1.36/M Tokens, Output: $4.18/M Tokens). At the original pricing i…"
+        },
+        {
+          "author": "3form",
+          "text": "\"Cyber benchmarks, while achieving an average refusal rate of 96.6% on malicious cyber requests, the highest we measure among open models.\" I feel like stating the obvious here an…"
+        }
+      ],
+      "tags": [
+        "Mistral",
+        "LLM",
+        "Open Source",
+        "Cybersecurity"
+      ],
+      "domain": "mistral.ai",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 4,
+      "story_id": "50276998",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "hn_url": "https://news.ycombinator.com/item?id=50276998",
+      "author": "hazebooth",
+      "score": 1569,
+      "comments": 301,
+      "rank_score": 1100.0131281052124,
+      "published_at_kst": "2026-10-29T02:13:29+09:00",
+      "published_date": "2026-10-29",
+      "summary": "웹 브라우저 핑거프린팅 스크립트를 분석하여 수집된 데이터의 위험성을 경고하는 기술적 탐구 사례입니다. 10,000개 이상의 웹사이트를 크롤링하여 발견한 정교한 캔버스 핑거프린팅 기법과 그로 인한 프라이버시 침해 가능성을 다룹니다.",
+      "story_text": "",
+      "external_article_summary": "작성자는 Playwright를 사용하여 Tranco Top Sites 리스트에 포함된 10,000개 웹사이트를 크롤링하며 브라우저 핑거프린팅 스크립트를 분석했습니다. 기술적으로는 HTML <canvas> 요소의 toDataURL 호출을 후킹하여 픽셀 데이터를 추출하는 방식을 활용했으며, 이를 통해 FingerprintJS나 Cloudflare Turnstile와 같은 기존 솔루션 외에도 정교하게 설계된 독자적인 핑거프린팅 스크립트들을 식별했습니다. 수집된 데이터는 fingerprint.garden에 저장되어 각 스크립트가 생성하는 고유한 캔버스 결과물을 시각적으로 비교할 수 있게 합니다.",
+      "article_summary": "작성자는 Playwright를 사용하여 Tranco Top Sites 리스트에 포함된 10,000개 웹사이트를 크롤링하며 브라우저 핑거프린팅 스크립트를 분석했습니다. 기술적으로는 HTML <canvas> 요소의 toDataURL 호출을 후킹하여 픽셀 데이터를 추출하는 방식을 활용했으며, 이를 통해 FingerprintJS나 Cloudflare Turnstile와 같은 기존 솔루션 외에도 정교하게 설계된 독자적인 핑거프린팅 스크립트들을 식별했습니다. 수집된 데이터는 fingerprint.garden에 저장되어 각 스크립트가 생성하는 고유한 캔버스 결과물을 시각적으로 비교할 수 있게 합니다.",
+      "discussion_summary": "수집된 데이터가 워터마크처럼 식별자로 사용될 수 있다는 점에 주목하며, 특정 기술이 의도치 않게 사용자 추적 도구로 변질될 수 있다는 우려가 제기되었습니다. 또한 LLM이 보안 가이드라인을 우회하여 특정 코드를 생성하는 현상과 핑거프린팅 기술의 발전 양상을 연결 짓는 논의가 이어졌습니다.",
+      "key_points": [
+        "Playwright를 활용한 대규모 웹 크롤링으로 10,000개 사이트의 핑거프린팅 데이터를 수집했습니다.",
+        "Canvas 핑거프린팅은 하드웨어와 브라우저 렌더링 차이를 이용해 사용자를 식별하는 기술입니다.",
+        "정교하게 설계된 스크립트는 단순한 식별을 넘어 독특한 디지털 워터마크 역할을 수행할 수 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "andai",
+          "text": "> Out of curiosity, I tried GLM-5.3 with the same prompt and it complied! I am noticing a trend here. Didn't HF say the same thing, when they got hacked, the only LLM that would a…"
+        },
+        {
+          "author": "jacquesm",
+          "text": "Nice sleuthing! We do a similar thing to mark documents that are still under embargo and one day I forgot to remove the watermark. The customer complained they had not received th…"
+        }
+      ],
+      "tags": [
+        "Fingerprinting",
+        "Browser Security",
+        "Privacy",
+        "Web Scraping"
+      ],
+      "domain": "nullpt.rs",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 5,
       "story_id": "50261998",
       "title": "Ghostty 1.4",
       "url": "https://ghostty.org/docs/install/release-notes/1-4-0",
       "hn_url": "https://news.ycombinator.com/item?id=50261998",
       "author": "deaux",
-      "score": 1261,
-      "comments": 401,
-      "rank_score": 884.4989356265856,
+      "score": 1348,
+      "comments": 439,
+      "rank_score": 945.4260324180736,
       "published_at_kst": "2026-10-28T01:51:22+09:00",
       "published_date": "2026-10-28",
-      "summary": "Ghostty 터미널의 1.4.0 메이저 업데이트가 발표되었으며, 성능 최적화와 보안 취약점 해결이 핵심입니다. 커뮤니티에서는 새로운 라이브러리인 libghostty의 발전과 기존 터미널과의 기능 차이에 주목하고 있습니다.",
+      "summary": "Ghostty 터미널의 1.4.0 메이저 업데이트가 발표되었으며, 성능 최적화와 그래픽 구현 기능이 대폭 강화되었습니다. 커뮤니티에서는 새로운 라이브러리 구조와 기존 터미널과의 기능 차이에 대해 활발한 논의가 이루어지고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 대폭 개선되었으며, Kitty 그래픽 구현을 100% 완료하여 애니메이션과 상대적 배치를 지원합니다. 또한, 악성 터미널 출력을 통한 파일 삭제나 메모리 오염을 방지하기 위한 보안 패치가 포함되었습니다.",
-      "article_summary": "Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 대폭 개선되었으며, Kitty 그래픽 구현을 100% 완료하여 애니메이션과 상대적 배치를 지원합니다. 또한, 악성 터미널 출력을 통한 파일 삭제나 메모리 오염을 방지하기 위한 보안 패치가 포함되었습니다.",
-      "discussion_summary": "libghostty를 통한 이식성 확보에 대한 기대와 함께, Kitty 터미널의 힌트 모드와 같은 특정 기능 부재가 Ghostty로의 전환을 망설이게 한다는 의견이 대립하고 있습니다.",
+      "external_article_summary": "Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 크게 개선되었으며, 애니메이션과 상대적 배치를 포함한 100% 완전한 Kitty 그래픽 구현을 지원하는 최초의 비-Kitty 터미널이 되었습니다. 또한 보안 취약점(GHSA) 해결을 통해 악성 터미널 출력으로 인한 크래시나 파일 접근 위험을 방지하는 패치가 포함되었습니다.",
+      "article_summary": "Ghostty 1.4.0은 172명의 기여자가 2,889개의 커밋을 통해 완성한 메이저 릴리스입니다. 성능 및 메모리 사용량이 크게 개선되었으며, 애니메이션과 상대적 배치를 포함한 100% 완전한 Kitty 그래픽 구현을 지원하는 최초의 비-Kitty 터미널이 되었습니다. 또한 보안 취약점(GHSA) 해결을 통해 악성 터미널 출력으로 인한 크래시나 파일 접근 위험을 방지하는 패치가 포함되었습니다.",
+      "discussion_summary": "libghostty를 통한 라이브러리 이식성 확보에 대한 기술적 성과를 강조하는 의견과, Kitty의 힌트 모드와 같은 특정 기능 부재로 인해 전환을 망설이는 사용자들의 의견이 대립하고 있습니다.",
       "key_points": [
         "성능 최적화와 더불어 Kitty 그래픽 프로토콜을 완벽하게 구현하여 시각적 완성도를 높였습니다.",
-        "악성 스크립트 실행 및 메모리 오염을 방지하기 위한 보안 취약점 해결이 이루어졌습니다.",
-        "libghostty 라이브러리 개발을 통해 다양한 플랫폼으로의 이식성을 확장하고 있습니다."
+        "보안 취약점 수정을 통해 악성 스크립트 실행 및 메모리 오염 위험을 차단했습니다.",
+        "라이브러리화된 Ghostty(libghostty)를 통해 다양한 플랫폼으로의 이식성을 확보했습니다."
       ],
       "category": "개발 도구",
       "comment_highlights": [
@@ -101,30 +229,74 @@
         "Software Update"
       ],
       "domain": "ghostty.org",
+      "repeated_in_window": true,
+      "repeated_days_ago": 2
+    },
+    {
+      "rank": 6,
+      "story_id": "50271640",
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50271640",
+      "author": "galadran",
+      "score": 1191,
+      "comments": 409,
+      "rank_score": 835.5048471479095,
+      "published_at_kst": "2026-10-28T20:03:40+09:00",
+      "published_date": "2026-10-28",
+      "summary": "eMudhra 인증서 유출 사고 이후에도 Apple의 macOS 시스템이 해당 인증서를 여전히 신뢰하고 있어 발생하는 보안 취약점을 다룹니다. 이로 인해 macOS 시스템 라이브러리를 사용하는 git 등 다양한 도구들이 위험에 노출되었습니다.",
+      "story_text": "",
+      "external_article_summary": "eMudhra 인증서가 탈취되었음에도 불구하고 Apple의 macOS 시스템이 이를 신뢰 목록에서 제거하지 않아 발생하는 보안 문제를 지적합니다. macOS의 시스템 수준 SSL 인증서 관리 방식이 git과 같은 시스템 제공 유틸리티에 직접적인 영향을 미치며, 이는 OS 수준의 /etc/ssl 경로에 저장된 인증서를 신뢰하는 모든 소프트웨어로 전파됩니다.",
+      "article_summary": "eMudhra 인증서가 탈취되었음에도 불구하고 Apple의 macOS 시스템이 이를 신뢰 목록에서 제거하지 않아 발생하는 보안 문제를 지적합니다. macOS의 시스템 수준 SSL 인증서 관리 방식이 git과 같은 시스템 제공 유틸리티에 직접적인 영향을 미치며, 이는 OS 수준의 /etc/ssl 경로에 저장된 인증서를 신뢰하는 모든 소프트웨어로 전파됩니다.",
+      "discussion_summary": "macOS가 시스템 수준의 인증서 관리 방식을 유지하는 것이 보안상 위험하다는 비판과, 시스템 기본 라이브러리를 사용하는 소프트웨어들이 OS의 신뢰 체계에 종속될 수밖에 없다는 기술적 우려가 대립하고 있습니다.",
+      "key_points": [
+        "eMudhra 인증서 유출로 인해 macOS 시스템 도구들의 보안 신뢰 체계가 무너졌습니다.",
+        "macOS의 시스템 제공 유틸리티는 OS 수준의 인증서 목록을 따르므로 취약한 인증서에 노출됩니다.",
+        "사용자가 Homebrew 등을 통해 별도로 설치한 도구라도 시스템 라이브러리를 참조할 경우 위험이 전이될 수 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "chrisweekly",
+          "text": "Right, so it's not just git, it's a bunch of system-provided utilities; macOS trusts bad certs, and these utils that trust the OS are affected. I use homebrew for my git and curl…"
+        },
+        {
+          "author": "jrochkind1",
+          "text": "That MacOS hasn't removed from OS-level /etc/ssl seems like a big deal, affecting more than just OS-supplied git. Is /etc/certs not used by most graphical Mac software, I guess? T…"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "macOS",
+        "eMudhra",
+        "SSL/TLS",
+        "git"
+      ],
+      "domain": "emudhra.we-have-a-problem.com",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
-      "rank": 3,
+      "rank": 7,
       "story_id": "50251344",
       "title": "Three new discoveries in mathematics, computer science, and physics",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
       "hn_url": "https://news.ycombinator.com/item?id=50251344",
       "author": "jonluca",
-      "score": 1143,
-      "comments": 690,
-      "rank_score": 802.0614419471302,
+      "score": 1158,
+      "comments": 708,
+      "rank_score": 812.5691566579595,
       "published_at_kst": "2026-10-27T06:35:28+09:00",
       "published_date": "2026-10-27",
-      "summary": "수학, 컴퓨터 과학, 물리학 분야에서 이루어진 세 가지 새로운 발견에 대한 소식과 이에 대한 학계 및 커뮤니티의 반응을 다룹니다. 특히 복잡도 이론과 양자장론 등 심오한 학문적 성과가 OpenAI의 연구 역량과 결합되어 논의되고 있습니다.",
+      "summary": "OpenAI가 수학, 컴퓨터 과학, 물리학 분야에서 이루어진 세 가지 새로운 발견을 발표했습니다. 커뮤니티에서는 이번 연구 성과와 OpenAI의 학술적 접근 방식에 대해 다양한 반응이 나오고 있습니다.",
       "story_text": "Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661",
-      "external_article_summary": "이번 발표는 조화 해석(Harmonic Analysis), 복잡도 이론(Complexity Theory), 양자장론(Quantum Field Theory) 분야의 새로운 발견을 포함합니다. 특히 지수 시간 가설(Exponential Time Hypothesis)이 거짓임을 입증하는 등 계산 복잡도 이론의 근간을 흔들 수 있는 수학적 성과가 핵심입니다. 이러한 발견은 향후 알고리즘 설계와 물리적 모델링의 한계를 재정의할 수 있는 잠재력을 가집니다.",
-      "article_summary": "이번 발표는 조화 해석(Harmonic Analysis), 복잡도 이론(Complexity Theory), 양자장론(Quantum Field Theory) 분야의 새로운 발견을 포함합니다. 특히 지수 시간 가설(Exponential Time Hypothesis)이 거짓임을 입증하는 등 계산 복잡도 이론의 근간을 흔들 수 있는 수학적 성과가 핵심입니다. 이러한 발견은 향후 알고리즘 설계와 물리적 모델링의 한계를 재정의할 수 있는 잠재력을 가집니다.",
-      "discussion_summary": "발표된 성과가 학문적 가치를 지닌다는 옹호와 연구 방식의 적절성에 대한 비판이 대립하고 있습니다. 특히 OpenAI의 연구 접근 방식과 테렌스 타오(Terence Tao)와 같은 저명한 학자들의 역할이 이번 성과에 미친 영향에 대해 논쟁이 이어지고 있습니다.",
+      "external_article_summary": "이번 발표는 조화 해석(Harmonic Analysis), 복잡도 이론(Complexity Theory), 양자장론(Quantum Field Theory) 분야의 새로운 발견을 다룹니다. 특히 지수 시간 가설(Exponential Time Hypothesis)이 거짓임을 입증하는 등 수학적 난제와 관련된 핵심적인 연구 결과가 포함되었습니다.",
+      "article_summary": "이번 발표는 조화 해석(Harmonic Analysis), 복잡도 이론(Complexity Theory), 양자장론(Quantum Field Theory) 분야의 새로운 발견을 다룹니다. 특히 지수 시간 가설(Exponential Time Hypothesis)이 거짓임을 입증하는 등 수학적 난제와 관련된 핵심적인 연구 결과가 포함되었습니다.",
+      "discussion_summary": "연구 성과에 대한 학술적 가치를 인정하는 옹호론과, OpenAI가 연구 방향을 조정하며 학술적 성과를 발표하는 방식에 대한 비판적 시각이 대립하고 있습니다. 테렌스 타오와 같은 저명한 학자들의 역할과 연구 기여도에 대한 논의도 함께 진행 중입니다.",
       "key_points": [
-        "조화 해석, 복잡도 이론, 양자장론 분야의 획기적인 수학적 발견이 발표되었습니다.",
-        "지수 시간 가설(ETH)의 허점을 드러내는 등 계산 복잡도 이론의 새로운 지평을 열었습니다.",
-        "OpenAI의 연구 방식과 학계 거장들의 기여도를 둘러싼 해석 차이가 존재합니다."
+        "조화 해석, 복잡도 이론, 양자장론 분야의 획기적인 연구 성과를 발표했습니다.",
+        "지수 시간 가설(ETH)의 허점을 밝히는 등 수학적 난제 해결에 기여했습니다.",
+        "OpenAI의 학술적 연구 방향과 연구 성과 발표 방식에 대한 논쟁이 존재합니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -138,122 +310,36 @@
         }
       ],
       "tags": [
+        "OpenAI",
         "Mathematics",
         "Complexity Theory",
-        "Quantum Field Theory",
-        "OpenAI"
+        "Quantum Field Theory"
       ],
       "domain": "openai.com",
       "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "repeated_days_ago": 2
     },
     {
-      "rank": 4,
-      "story_id": "50211474",
-      "title": "Today, we hacked what we'd set out to hack: the iPhone",
-      "url": "https://blog.calif.io/p/iphone",
-      "hn_url": "https://news.ycombinator.com/item?id=50211474",
-      "author": "pavel_lishin",
-      "score": 1123,
-      "comments": 732,
-      "rank_score": 788.0791437105659,
-      "published_at_kst": "2026-10-24T01:21:50+09:00",
-      "published_date": "2026-10-24",
-      "summary": "아이폰의 보안 취약점을 공략하는 새로운 해킹 기술이 공개되었으며, 이에 따른 보안 모드와 권한 탈취의 영향에 대해 커뮤니티가 주목하고 있습니다.",
-      "story_text": "",
-      "external_article_summary": "Hexacon에서 공개된 이번 데모는 iMessage를 통한 원클릭 공격과 APT(Apple Persistent Threat)라 명명된 지속적 위협 기술을 포함합니다. 공격자는 타사 앱이 아닌 기본 메시징 시스템을 통해 침투하며, 사용자의 기기에서 루트 권한을 획득하는 것을 목표로 합니다.",
-      "article_summary": "Hexacon에서 공개된 이번 데모는 iMessage를 통한 원클릭 공격과 APT(Apple Persistent Threat)라 명명된 지속적 위협 기술을 포함합니다. 공격자는 타사 앱이 아닌 기본 메시징 시스템을 통해 침투하며, 사용자의 기기에서 루트 권한을 획득하는 것을 목표로 합니다.",
-      "discussion_summary": "애플의 Lockdown 모드가 이러한 공격 벡터를 효과적으로 차단할 수 있는지에 대한 기술적 의문과, 탈취된 루트 권한이 애플의 업데이트나 원격 삭제를 방해할 가능성에 대한 우려가 대립하고 있습니다.",
-      "key_points": [
-        "iMessage를 활용한 원클릭 공격과 지속적 위협(APT) 기술이 공개되었습니다.",
-        "Lockdown 모드가 새로운 공격 벡터에 대해 어느 정도의 방어력을 제공할지가 핵심 쟁점입니다.",
-        "루트 권한 탈취가 기기 관리 및 보안 업데이트 프로세스에 미칠 영향이 우려됩니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "jeroenhd",
-          "text": "Very cool demos, but now I'm interested to know: does enabling Lockdown mode help at all against these exploits? It'll theoretically protect against a lot of common attack vectors…"
-        },
-        {
-          "author": "slowin",
-          "text": "#3 is so nice, I want root access to my phone. Does anyone know if doing this can lock Apple out from updating/removing it?"
-        }
-      ],
-      "tags": [
-        "iPhone",
-        "Exploit",
-        "iMessage",
-        "Security"
-      ],
-      "domain": "blog.calif.io",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 5,
-      "story_id": "50212065",
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "hn_url": "https://news.ycombinator.com/item?id=50212065",
-      "author": "Jowsey",
-      "score": 1094,
-      "comments": 677,
-      "rank_score": 767.7557441863821,
-      "published_at_kst": "2026-10-24T01:59:08+09:00",
-      "published_date": "2026-10-24",
-      "summary": "Kimi가 강력한 성능의 오픈 웨이트 모델인 K3.1 Pro 시리즈를 공개하며 코딩과 에이전트 성능에서 독보적인 수치를 기록했습니다. 커뮤니티에서는 모델의 정체성 혼선 문제와 보안 측면의 접근 방식에 대해 주목하고 있습니다.",
-      "story_text": "https://www.kimi.com/code/docs/en/kimi-code/models.html https://artificialanalysis.ai/models/kimi-k3-1-pro https://www.modelcompare.ai/blog/china-open-source-ai",
-      "external_article_summary": "Kimi K3.1 Pro는 100만 토큰의 컨텍스트 윈도우를 지원하는 3T급 오픈 웨이트 모델로, 대규모 공동 RL(Reinforcement Learning) 최적화를 통해 코딩과 에이전트 성능을 극대화했습니다. 특히 Terminal-Bench 4.0에서 65.7%를 기록하며 GPT-6 Astra(58.2%)를 앞섰고, Kimi Code Bench 3.0에서도 이전 모델 대비 향상된 성능을 보여줍니다. 모델 가중치는 11월 4일까지 순차적으로 공개될 예정입니다.",
-      "article_summary": "Kimi K3.1 Pro는 100만 토큰의 컨텍스트 윈도우를 지원하는 3T급 오픈 웨이트 모델로, 대규모 공동 RL(Reinforcement Learning) 최적화를 통해 코딩과 에이전트 성능을 극대화했습니다. 특히 Terminal-Bench 4.0에서 65.7%를 기록하며 GPT-6 Astra(58.2%)를 앞섰고, Kimi Code Bench 3.0에서도 이전 모델 대비 향상된 성능을 보여줍니다. 모델 가중치는 11월 4일까지 순차적으로 공개될 예정입니다.",
-      "discussion_summary": "모델이 스스로를 Kimi로 식별하거나 때때로 ChatGPT로 오인하는 정체성 혼선 현상에 대한 관찰이 이어지고 있습니다. 또한 모델 공개 시 발생할 수 있는 사이버 보안 및 AI 정렬(Alignment) 방식에 대한 기술적 논의가 진행 중입니다.",
-      "key_points": [
-        "100만 토큰 컨텍스트와 강화 학습(RL) 최적화를 통해 코딩 및 에이전트 작업 성능을 확보했습니다.",
-        "모델의 정체성이 상황에 따라 변하는 현상에 대한 사용자들의 의구심이 제기되었습니다.",
-        "오픈 웨이트 모델의 보안성과 AI 정렬 기술이 향후 핵심 쟁점이 될 전망입니다."
-      ],
-      "category": "AI/ML",
-      "comment_highlights": [
-        {
-          "author": "ranyume",
-          "text": "I did some tests. I found it interesting that in the reasoning content the model identifies itself as Kimi by moonshot and sometimes it assumes ChatGPT as identity. Then sometimes…"
-        },
-        {
-          "author": "arjie",
-          "text": "Fascinating that we’re converging on AI safety and alignment in time across jurisdictions. The cybersecurity approach taken here is interesting because should the model be opened…"
-        }
-      ],
-      "tags": [
-        "Kimi",
-        "LLM",
-        "Open Source",
-        "Reinforcement Learning"
-      ],
-      "domain": "kimi.ai",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 6,
+      "rank": 8,
       "story_id": "50245524",
       "title": "Microsoft offers mass buyouts for roughly a quarter of its workforce",
       "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/",
       "hn_url": "https://news.ycombinator.com/item?id=50245524",
       "author": "doctorzook",
-      "score": 1067,
-      "comments": 1150,
-      "rank_score": 749.0145159226165,
+      "score": 1082,
+      "comments": 1171,
+      "rank_score": 759.519940091041,
       "published_at_kst": "2026-10-27T00:35:12+09:00",
       "published_date": "2026-10-27",
       "summary": "Microsoft가 전체 인력의 약 4분의 1에 해당하는 대규모 희망퇴직 프로그램을 실시하며 조직 개편에 나섰습니다. 이에 대해 전직 직원들의 실무 생산성 저하 문제와 대규모 감원이 가져올 고용 시장의 충격이 주요 쟁점으로 떠오르고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Microsoft는 전체 직원의 약 25%에 해당하는 대규모 인력 구조조정을 위해 희망퇴직 프로그램을 제안했습니다. 이번 조치는 조직 효율성을 높이기 위한 전략적 결정으로, 약 6만 명 규모의 인력이 영향을 받을 수 있는 대규모 규모입니다. 기업은 조직 재편을 통해 운영 비용을 최적화하고 변화하는 시장 환경에 대응하려는 목적을 가지고 있습니다.",
-      "article_summary": "Microsoft는 전체 직원의 약 25%에 해당하는 대규모 인력 구조조정을 위해 희망퇴직 프로그램을 제안했습니다. 이번 조치는 조직 효율성을 높이기 위한 전략적 결정으로, 약 6만 명 규모의 인력이 영향을 받을 수 있는 대규모 규모입니다. 기업은 조직 재편을 통해 운영 비용을 최적화하고 변화하는 시장 환경에 대응하려는 목적을 가지고 있습니다.",
-      "discussion_summary": "잦은 조직 개편으로 인해 실무 생산성이 저하되었다는 전직 직원의 비판과, 대규모 감원이 향후 구직 시장에서 발생시킬 불확실성에 대한 우려가 대립하고 있습니다.",
+      "external_article_summary": "Microsoft는 전체 직원의 약 25%에 해당하는 대규모 인력 구조조정을 위해 희망퇴직 프로그램을 제안했습니다. 이번 조치는 조직 효율성을 높이기 위한 전략적 결정으로, 약 6만 명 규모의 인력이 영향을 받을 수 있는 대규모 규모입니다. 기업은 인력 최적화를 통해 비용을 절감하고 변화하는 비즈니스 환경에 대응하려는 목적을 가지고 있습니다.",
+      "article_summary": "Microsoft는 전체 직원의 약 25%에 해당하는 대규모 인력 구조조정을 위해 희망퇴직 프로그램을 제안했습니다. 이번 조치는 조직 효율성을 높이기 위한 전략적 결정으로, 약 6만 명 규모의 인력이 영향을 받을 수 있는 대규모 규모입니다. 기업은 인력 최적화를 통해 비용을 절감하고 변화하는 비즈니스 환경에 대응하려는 목적을 가지고 있습니다.",
+      "discussion_summary": "잦은 조직 개편으로 인해 실무 생산성이 저하되었다는 전직 직원의 비판과, 대규모 감원이 수용 시 향후 재취업에 미칠 불확실성이 크다는 우려가 대립하고 있습니다.",
       "key_points": [
         "전체 인력의 25%에 달하는 약 6만 명 규모의 대규모 인력 감축 가능성이 제기되었습니다.",
-        "잦은 조직 개편이 실무자의 업무 몰입도와 생산성을 저해한다는 내부 비판이 존재합니다.",
-        "대규모 퇴직금 수령 후 재취업 시장에서의 불확실성이 향후 커리어 관리의 핵심 변수가 될 전망입니다."
+        "잦은 조직 개편이 실무자의 업무 생산성을 저하시키는 요인으로 지목되었습니다.",
+        "퇴직금을 수령한 후 발생할 수 있는 고용 불안정성과 재취업 문제에 대한 우려가 존재합니다."
       ],
       "category": "비즈니스/스타트업",
       "comment_highlights": [
@@ -269,98 +355,11 @@
       "tags": [
         "Microsoft",
         "구조조정",
-        "고용시장",
-        "기업경영"
+        "고용시장"
       ],
       "domain": "seattletimes.com",
       "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 7,
-      "story_id": "50259604",
-      "title": "US Government is hiding a secret court ruling about how it spies on Americans",
-      "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/",
-      "hn_url": "https://news.ycombinator.com/item?id=50259604",
-      "author": "helterskelter2",
-      "score": 1055,
-      "comments": 424,
-      "rank_score": 740.3156267506773,
-      "published_at_kst": "2026-10-27T23:06:42+09:00",
-      "published_date": "2026-10-27",
-      "summary": "미 정부가 미국 시민을 대상으로 한 감시 방식을 규정하는 비밀 법원 판결을 은폐하고 있다는 의혹이 제기되었습니다. 이에 대해 민주주의 가치 훼손과 정보 공개 요구가 커뮤니티 내에서 격렬하게 충돌하고 있습니다.",
-      "story_text": "",
-      "external_article_summary": "미 정부는 Section 702 조항에 대한 비밀스러운 법적 해석을 통해 시민 감시 범위를 확장해 왔습니다. 와이든 의원은 여러 행정부가 이 해석을 비공개로 유지하며 감시 근거로 활용해 왔다고 경고했습니다. 이러한 비밀 판결은 법적 근거가 불투명한 상태에서 정보기관의 권한을 비대하게 만드는 구조적 문제를 안고 있습니다.",
-      "article_summary": "미 정부는 Section 702 조항에 대한 비밀스러운 법적 해석을 통해 시민 감시 범위를 확장해 왔습니다. 와이든 의원은 여러 행정부가 이 해석을 비공개로 유지하며 감시 근거로 활용해 왔다고 경고했습니다. 이러한 비밀 판결은 법적 근거가 불투명한 상태에서 정보기관의 권한을 비대하게 만드는 구조적 문제를 안고 있습니다.",
-      "discussion_summary": "비밀 법원이 민주주의의 근간을 해치므로 폐지되어야 한다는 비판과, 국가 안보를 위해 정보 공개를 거부하는 행정부의 관행이 투명성을 저해한다는 쟁점이 대립하고 있습니다.",
-      "key_points": [
-        "Section 702 조항에 대한 비밀스러운 법적 해석이 감시의 근거로 활용되고 있습니다.",
-        "비공개 판결을 통한 정부의 권한 확대가 민주적 절차를 위협한다는 비판이 제기되었습니다.",
-        "국가 안보를 명분으로 한 정보 은폐가 법적 투명성을 저해하는 핵심 이슈로 떠올랐습니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "edot",
-          "text": "\"Wyden has also warned about a classified interpretation of Section 702 that he says multiple administrations have relied on and refused to declassify. “When it is eventually decl…"
-        },
-        {
-          "author": "TheCoelacanth",
-          "text": "Secret courts are anathema to democracy and need to be abolished."
-        }
-      ],
-      "tags": [
-        "정부 감시",
-        "Section 702",
-        "프라이버시",
-        "민주주의"
-      ],
-      "domain": "wired.com",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
-    },
-    {
-      "rank": 8,
-      "story_id": "50272749",
-      "title": "Evidence of a spying operation by ICE against left-wing social movements",
-      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/",
-      "hn_url": "https://news.ycombinator.com/item?id=50272749",
-      "author": "zzzeek",
-      "score": 1009,
-      "comments": 792,
-      "rank_score": 709.0266669065252,
-      "published_at_kst": "2026-10-28T21:49:45+09:00",
-      "published_date": "2026-10-28",
-      "summary": "미국 이민세관집행국(ICE)이 좌파 사회 운동 단체를 감시하기 위해 기술적 수단을 활용했다는 의혹이 제기되었습니다. 클라우드 플랫폼과 메신저 보안 취약점을 이용한 감시 방식이 드러나며 프라이버시 침해 논란이 일고 있습니다.",
-      "story_text": "",
-      "external_article_summary": "현지 활동가가 Fly.io 클라우드 플랫폼에 업로드한 번호판 검색 도구가 포함된 Signal 채팅방이 침투당하면서 감시가 시작되었습니다. HSI 요원들은 해당 웹사이트의 DNS 기록을 검토하여 활동가들의 활동을 추적하고 정보를 수집했습니다. 이번 사건은 공공 클라우드 인프라와 메신저 데이터가 수사 기관의 감시 도구로 활용될 수 있음을 보여줍니다.",
-      "article_summary": "현지 활동가가 Fly.io 클라우드 플랫폼에 업로드한 번호판 검색 도구가 포함된 Signal 채팅방이 침투당하면서 감시가 시작되었습니다. HSI 요원들은 해당 웹사이트의 DNS 기록을 검토하여 활동가들의 활동을 추적하고 정보를 수집했습니다. 이번 사건은 공공 클라우드 인프라와 메신저 데이터가 수사 기관의 감시 도구로 활용될 수 있음을 보여줍니다.",
-      "discussion_summary": "클라우드 플랫폼의 DNS 기록을 통한 추적 방식이 수사 과정에서 정당한 절차였는지에 대한 의문과, 애국법(Patriot Act)이 이러한 광범위한 감시 작전의 근거가 되었을 가능성에 대한 비판이 대립하고 있습니다.",
-      "key_points": [
-        "클라우드 플랫폼(Fly.io)에 배포된 도구의 DNS 기록이 수사 기관의 추적 단서로 활용되었습니다.",
-        "메신저 플랫폼의 보안과 클라우드 인프라 관리 방식이 국가 감시 작전의 취약점으로 작용했습니다.",
-        "수사 기관의 정보 수집 범위와 애국법(Patriot Act)의 영향력이 프라이버시 보호와 충돌하고 있습니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "multiplegeorges",
-          "text": "> After a local activist uploaded a license-plate search tool on Fly.io, a developer-focused public cloud platform, to an infiltrated Signal chat, HSI agents reviewed website DNS…"
-        },
-        {
-          "author": "uxp100",
-          "text": "Not clear how central the patriot act was to this operation, but it does pop up here. Russ Feingold was the only Senator to vote against the Patriot act. I really do think about t…"
-        }
-      ],
-      "tags": [
-        "ICE",
-        "Privacy",
-        "Cloud Security",
-        "Surveillance"
-      ],
-      "domain": "wired.com",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_days_ago": 2
     },
     {
       "rank": 9,
@@ -369,20 +368,20 @@
       "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "hn_url": "https://news.ycombinator.com/item?id=50261319",
       "author": "acossta",
-      "score": 1009,
-      "comments": 571,
-      "rank_score": 708.2047416974139,
+      "score": 1041,
+      "comments": 591,
+      "rank_score": 730.6150519904652,
       "published_at_kst": "2026-10-28T01:06:01+09:00",
       "published_date": "2026-10-28",
-      "summary": "Google DeepMind가 발표한 새로운 AI 모델 Genie 4에 대해 기술적 완성도와 생성 오류를 둘러싼 커뮤니티의 논쟁이 이어지고 있습니다. 생성된 영상 속 객체의 일관성 문제와 기술적 진보 사이의 간극이 핵심 쟁점입니다.",
+      "summary": "Google DeepMind가 발표한 새로운 비디오 생성 모델 Genie 4에 대해 기술적 완성도와 생성 오류를 둘러싼 커뮤니티의 논쟁이 이어지고 있습니다. 기술적 진보를 높게 평가하는 시각과 생성된 영상 내 객체 일관성 문제를 지적하는 시각이 공존합니다.",
       "story_text": "",
-      "external_article_summary": "Google DeepMind는 비디오 생성 모델인 Genie 4를 공개하며 시각적 일관성과 물리적 상호작용을 구현하는 데 집중했습니다. 모델은 프레임 간 객체 유지 능력을 보여주지만, 일부 샘플에서 화면 밖으로 사라진 객체가 재등장할 때 세부 사항이 변하는 등의 아티팩트가 관찰됩니다. 이는 비디오 생성 AI의 고질적인 문제인 시공간적 일관성 확보를 위한 알고리즘적 과제를 보여줍니다.",
-      "article_summary": "Google DeepMind는 비디오 생성 모델인 Genie 4를 공개하며 시각적 일관성과 물리적 상호작용을 구현하는 데 집중했습니다. 모델은 프레임 간 객체 유지 능력을 보여주지만, 일부 샘플에서 화면 밖으로 사라진 객체가 재등장할 때 세부 사항이 변하는 등의 아티팩트가 관찰됩니다. 이는 비디오 생성 AI의 고질적인 문제인 시공간적 일관성 확보를 위한 알고리즘적 과제를 보여줍니다.",
-      "discussion_summary": "샘플 영상에서 객체의 디테일이 변하거나 구조가 바뀌는 등 명백한 오류가 존재한다는 비판과, 지난 3년 사이 비약적인 기술 발전을 이룬 성과라는 옹호가 대립하고 있습니다.",
+      "external_article_summary": "Google DeepMind의 Genie 4는 텍스트나 이미지를 기반으로 상호작용 가능한 가상 환경을 생성하는 차세대 비디오 생성 모델입니다. 이 모델은 프레임 간의 일관성을 유지하며 복잡한 물리적 움직임을 구현하는 데 초점을 맞추고 있습니다. 특히 비디오 생성 과정에서 객체의 연속성을 확보하기 위한 아키텍처적 최적화가 적용되었습니다.",
+      "article_summary": "Google DeepMind의 Genie 4는 텍스트나 이미지를 기반으로 상호작용 가능한 가상 환경을 생성하는 차세대 비디오 생성 모델입니다. 이 모델은 프레임 간의 일관성을 유지하며 복잡한 물리적 움직임을 구현하는 데 초점을 맞추고 있습니다. 특히 비디오 생성 과정에서 객체의 연속성을 확보하기 위한 아키텍처적 최적화가 적용되었습니다.",
+      "discussion_summary": "영상 속 객체가 프레임 밖으로 나갔다 돌아올 때 형태가 변하거나 중복 생성되는 등 일관성 결여를 지적하는 비판이 있습니다. 반면, 지난 3년 사이 비약적인 발전을 이룬 기술적 성과라는 점을 강조하며 모델의 잠재력을 옹호하는 의견이 대립하고 있습니다.",
       "key_points": [
-        "프레임 전환 시 객체의 세부 정보가 변하는 일관성 문제가 지적되었습니다.",
-        "기술적 오류를 지적하는 비판론과 발전 속도에 주목하는 옹호론이 맞서고 있습니다.",
-        "비디오 생성 모델의 물리적 법칙 준수와 객체 유지 능력이 향후 핵심 과제입니다."
+        "프레임 간 객체 일관성 유지와 물리적 법칙 구현이 핵심 기술 과제로 남아 있습니다.",
+        "생성된 영상 내 객체의 형태 변화와 중복 생성 문제가 주요 비판 지점입니다.",
+        "비디오 생성 모델의 비약적인 발전 속도와 실용성 사이의 간극이 논쟁의 중심입니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -399,53 +398,53 @@
         "DeepMind",
         "Genie4",
         "Video Generation",
-        "Computer Vision"
+        "AI Model"
       ],
       "domain": "deepmind.google",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_in_window": true,
+      "repeated_days_ago": 2
     },
     {
       "rank": 10,
-      "story_id": "50207910",
-      "title": "Apple Music 404 Not Found",
-      "url": "https://music.apple.com/this-url-doesnt-exist",
-      "hn_url": "https://news.ycombinator.com/item?id=50207910",
-      "author": "frizlab",
-      "score": 940,
-      "comments": 277,
-      "rank_score": 659.6882863341071,
-      "published_at_kst": "2026-10-23T21:28:47+09:00",
-      "published_date": "2026-10-23",
-      "summary": "Apple Music 서비스 내에 숨겨진 고전 게임 기능이 발견되어 사용자들 사이에서 화제가 되고 있습니다. 과거의 인터페이스에 대한 향수와 숨겨진 기능의 발견이 결합되어 커뮤니티의 관심을 끌고 있습니다.",
-      "story_text": "https://www.macrumors.com/2026/10/23/apple-music-has-a-hidde...",
-      "external_article_summary": "Apple Music 서비스의 '설정 > 정보' 메뉴에서 중앙 버튼을 5초간 길게 누르면 실행되는 숨겨진 벽돌 깨기 게임이 발견되었습니다. 이 기능은 과거 iPod의 인터페이스를 계승한 형태로, 사용자 인터페이스(UI)의 물리적 조작감을 디지털 환경에 녹여낸 것이 특징입니다.",
-      "article_summary": "Apple Music 서비스의 '설정 > 정보' 메뉴에서 중앙 버튼을 5초간 길게 누르면 실행되는 숨겨진 벽돌 깨기 게임이 발견되었습니다. 이 기능은 과거 iPod의 인터페이스를 계승한 형태로, 사용자 인터페이스(UI)의 물리적 조작감을 디지털 환경에 녹여낸 것이 특징입니다.",
-      "discussion_summary": "사용자들은 숨겨진 게임 기능의 발견에 즐거움을 표하는 동시에, 과거 클릭 휠 방식의 직관적인 UI가 현대 기술 환경에서 사라진 것에 대한 아쉬움을 드러내고 있습니다.",
+      "story_id": "50276792",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "hn_url": "https://news.ycombinator.com/item?id=50276792",
+      "author": "acossta",
+      "score": 1011,
+      "comments": 800,
+      "rank_score": 709.7057582841204,
+      "published_at_kst": "2026-10-29T02:01:23+09:00",
+      "published_date": "2026-10-29",
+      "summary": "Google의 새로운 Gemini 4 모델 라인업 발표와 이에 따른 모델 계층화 전략에 대한 기술적 논의를 다룹니다. 사용자들은 모델의 복잡한 구조와 실질적인 활용성 사이의 간극에 주목하고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 성능과 효율성을 최적화한 모델 라인업을 제시했습니다. 이번 발표는 모델의 크기와 용도에 따라 세분화된 아키텍처를 통해 다양한 컴퓨팅 환경에 대응하는 것을 목표로 합니다.",
+      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 성능과 효율성을 최적화한 모델 라인업을 제시했습니다. 이번 발표는 모델의 크기와 용도에 따라 세분화된 아키텍처를 통해 다양한 컴퓨팅 환경에 대응하는 것을 목표로 합니다.",
+      "discussion_summary": "모델의 명칭과 구조가 지나치게 복잡하여 사용자가 직관적으로 프롬프트를 작성하기 어렵다는 비판과, 성능 중심의 Ultra 모델부터 효율 중심의 Pro 모델까지 계층화된 모델 라인업이 필요하다는 의견이 대립하고 있습니다.",
       "key_points": [
-        "Apple Music 설정 메뉴 내에 숨겨진 벽돌 깨기 게임 기능이 존재합니다.",
-        "과거 iPod의 클릭 휠 인터페이스가 가졌던 사용자 경험에 대한 향수가 나타나고 있습니다.",
-        "현대적인 터치 인터페이스로 변화하며 사라진 물리적 조작감의 가치가 재조명되었습니다."
+        "Gemini 4 모델의 복잡한 명칭 체계가 사용자 경험을 저해할 수 있다는 우려가 존재합니다.",
+        "최상위 성능의 Ultra 모델과 범용적인 Pro 모델로 이어지는 계층적 모델 전략이 논의의 핵심입니다.",
+        "프론티어 모델의 미래는 특정 용도에 맞춘 소수의 계층화된 모델로 수렴할 가능성이 높습니다."
       ],
-      "category": "기타",
+      "category": "AI/ML",
       "comment_highlights": [
         {
-          "author": "robot_jesus",
-          "text": "I can't believe no one I've seen has called out the secret game! Go to Settings>About and then hold the center button for 5 seconds. I used to play so much of this bricks game in…"
+          "author": "827a",
+          "text": "At this point if a Google PM handed me $100 and said \"go figure out how to issue a prompt to Gemini 4 Argon\" I'm only ~30% sure I could figure out how. The Gemini app in my phone…"
         },
         {
-          "author": "sherburt3",
-          "text": "Really is heartbreaking that the click wheel is such an incredible and satisfying user interface but technology has evolved such that we have no need for it anymore."
+          "author": "RajuChacha108",
+          "text": "It is pretty clear at this point that the frontier models need only handful of tiered models. 1. Ultra - The best and the most expensive for showing off and government. 2. Pro - A…"
         }
       ],
       "tags": [
-        "Apple Music",
-        "Hidden Feature",
-        "UI/UX"
+        "Gemini 4",
+        "LLM",
+        "Google AI"
       ],
-      "domain": "music.apple.com",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "domain": "blog.google",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
     }
   ]
 }
