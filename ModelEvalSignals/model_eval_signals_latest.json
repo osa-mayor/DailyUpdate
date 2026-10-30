@@ -1,106 +1,108 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29T04:43:45.226267+09:00",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T04:46:13.382559+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face에서 다양한 규모의 텍스트 생성 모델들이 트렌드로 부상하였으며, LiveCodeBench 벤치마크를 통해 O4-Mini 및 Gemini 시리즈 모델들의 코딩 성능이 확인되었습니다.",
+  "daily_summary": "NVIDIA, Mistral AI, Baidu 등 주요 기업의 신규 모델 공개와 LiveCodeBench를 통한 코딩 성능 벤치마크 결과가 주요 흐름을 형성했습니다.",
   "daily_key_points": [
-    "LiquidAI, Nanbeige, DeepSeek 등 다양한 규모(1.7B~33B+)의 텍스트 생성 모델들이 Hugging Face 트렌드에 진입",
-    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적 기록",
-    "GGUF 포맷 및 특정 파라미터 규모의 모델들에 대한 사용자 관심 증가"
+    "NVIDIA의 ASR 특화 모델 및 Mistral/Baidu의 멀티모달(OCR/Image-to-Text) 모델 공개",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들의 상위권 성적 기록",
+    "음성 인식, OCR, 코딩 등 특정 작업에 최적화된 전문 모델들의 트렌드 지속"
   ],
   "daily_tags": [
-    "LLM",
     "HuggingFace",
-    "LiveCodeBench"
+    "LiveCodeBench",
+    "ASR",
+    "OCR",
+    "Multimodal"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서 다양한 규모의 텍스트 생성 모델들이 트렌드로 부상하였으며, LiveCodeBench 벤치마크를 통해 O4-Mini 및 Gemini 시리즈 모델들의 코딩 성능이 확인되었습니다.\n\n📍 1. LiquidAI/LFM3-1.7B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: LiquidAI에서 출시한 1.7B 규모의 text-generation 모델인 LFM3-1.7B가 Hugging Face에서 주목받고 있습니다. 약 8,892회의 다운로드와 354개의 likes를 기록하며 모델 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/LiquidAI/LFM3-1.7B\n\n📍 2. Nanbeige/Nanbeige4.3-33B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 주목받으며 높은 다운로드 수를 기록하고 있습니다. 33B 파라미터 규모의 text-generation 모델로, 최근 사용자들의 관심을 끌고 있습니다.\n🔗 링크: https://huggingface.co/Nanbeige/Nanbeige4.3-33B\n\n📍 3. ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 1,966억 개의 파라미터를 가진 text-generation 태그의 모델입니다.\n🔗 링크: https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-29.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: NVIDIA, Mistral AI, Baidu 등 주요 기업의 신규 모델 공개와 LiveCodeBench를 통한 코딩 성능 벤치마크 결과가 주요 흐름을 형성했습니다.\n\n📍 1. nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: NVIDIA에서 공개한 NVIDIA-Nemotron-3.5-Transcribe-30B-A4B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 자동 음성 인식(ASR) 작업을 위해 설계된 30B 규모의 모델입니다.\n🔗 링크: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B\n\n📍 2. mistralai/Mistral-Large-4-1T-A52B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Mistral AI에서 공개한 Mistral-Large-4-1T-A52B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 image-text-to-text 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B\n\n📍 3. baidu/Unlimited-OCR-2\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Baidu에서 공개한 Unlimited-OCR-2 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 OCR 관련 모델입니다.\n🔗 링크: https://huggingface.co/baidu/Unlimited-OCR-2\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-10-31.md",
   "items": [
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "LiquidAI/LFM3-1.7B",
-      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-29T02:16:37+09:00",
-      "published_date": "2026-10-29",
-      "original_description": "likes=354, downloads=8892, pipeline_tag=text-generation",
+      "published_at_kst": "2026-10-30T08:04:39+09:00",
+      "published_date": "2026-10-30",
+      "original_description": "likes=483, downloads=15980, pipeline_tag=automatic-speech-recognition",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 354,
-        "downloads": 8892,
-        "num_parameters": 1728801536,
-        "pipeline_tag": "text-generation"
+        "likes": 483,
+        "downloads": 15980,
+        "num_parameters": 33697781029,
+        "pipeline_tag": "automatic-speech-recognition"
       },
       "rank": 1,
-      "summary": "LiquidAI에서 출시한 1.7B 규모의 text-generation 모델인 LFM3-1.7B가 Hugging Face에서 주목받고 있습니다. 약 8,892회의 다운로드와 354개의 likes를 기록하며 모델 트렌드에 진입했습니다.",
+      "summary": "NVIDIA에서 공개한 NVIDIA-Nemotron-3.5-Transcribe-30B-A4B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 자동 음성 인식(ASR) 작업을 위해 설계된 30B 규모의 모델입니다.",
       "key_points": [
-        "LiquidAI에서 공개한 1.7B 파라미터 규모의 text-generation 모델입니다.",
-        "Hugging Face에서 8,892회의 다운로드와 354개의 likes를 기록하며 트렌딩 중입니다.",
-        "텍스트 생성(text-generation) 파이프라인을 지원하는 경량 모델입니다."
+        "NVIDIA에서 출시한 30B 규모의 automatic-speech-recognition 모델입니다.",
+        "Hugging Face에서 15,980회의 다운로드와 483개의 likes를 기록하며 트렌딩 중입니다.",
+        "약 33.7B 파라미터를 보유한 음성 인식 특화 모델입니다."
       ],
       "tags": [
-        "LiquidAI",
-        "LFM3-1.7B",
-        "text-generation"
+        "NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+        "automatic-speech-recognition",
+        "ASR"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "Nanbeige/Nanbeige4.3-33B",
-      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "title": "mistralai/Mistral-Large-4-1T-A52B",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-28T10:59:01+09:00",
-      "published_date": "2026-10-28",
-      "original_description": "likes=711, downloads=7412, pipeline_tag=text-generation",
+      "published_at_kst": "2026-10-29T23:51:07+09:00",
+      "published_date": "2026-10-29",
+      "original_description": "likes=1325, downloads=1239, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 711,
-        "downloads": 7412,
-        "num_parameters": 33118977024,
-        "pipeline_tag": "text-generation"
+        "likes": 1325,
+        "downloads": 1239,
+        "num_parameters": 0,
+        "pipeline_tag": "image-text-to-text"
       },
       "rank": 2,
-      "summary": "Nanbeige/Nanbeige4.3-33B 모델이 Hugging Face에서 주목받으며 높은 다운로드 수를 기록하고 있습니다. 33B 파라미터 규모의 text-generation 모델로, 최근 사용자들의 관심을 끌고 있습니다.",
+      "summary": "Mistral AI에서 공개한 Mistral-Large-4-1T-A52B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 image-text-to-text 파이프라인을 지원합니다.",
       "key_points": [
-        "Nanbeige/Nanbeige4.3-33B 모델의 Hugging Face 트렌딩 기록",
-        "7,412회의 다운로드와 711개의 likes를 기록하며 높은 관심을 받음",
-        "33B 규모의 파라미터를 가진 text-generation 태그 모델"
+        "Mistral-Large-4-1T-A52B 모델의 Hugging Face 공개",
+        "1,325개의 likes와 1,239회의 downloads를 기록하며 트렌드 형성",
+        "image-text-to-text 기능을 지원하는 멀티모달 모델"
       ],
       "tags": [
-        "Nanbeige",
-        "text-generation",
-        "LLM"
+        "Mistral-Large-4-1T-A52B",
+        "image-text-to-text",
+        "Hugging Face"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "title": "baidu/Unlimited-OCR-2",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
       "category": "Model Trending",
-      "published_at_kst": "2026-10-28T08:16:05+09:00",
-      "published_date": "2026-10-28",
-      "original_description": "likes=430, downloads=1377570, pipeline_tag=text-generation",
+      "published_at_kst": "2026-10-29T18:18:46+09:00",
+      "published_date": "2026-10-29",
+      "original_description": "likes=442, downloads=24276, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 430,
-        "downloads": 1377570,
-        "num_parameters": 196613849600,
-        "pipeline_tag": "text-generation"
+        "likes": 442,
+        "downloads": 24276,
+        "num_parameters": 3343978497,
+        "pipeline_tag": "image-text-to-text"
       },
       "rank": 3,
-      "summary": "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 1,966억 개의 파라미터를 가진 text-generation 태그의 모델입니다.",
+      "summary": "Baidu에서 공개한 Unlimited-OCR-2 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 OCR 관련 모델입니다.",
       "key_points": [
-        "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF 모델의 높은 인기도 확인",
-        "누적 다운로드 수 1,377,570회를 기록하며 활발히 사용됨",
-        "약 196.6B 규모의 파라미터를 보유한 text-generation 모델"
+        "Baidu에서 개발한 Unlimited-OCR-2 모델이 Hugging Face에서 트렌딩 중입니다.",
+        "약 3.34B 파라미터를 가진 image-text-to-text 태그의 모델입니다.",
+        "높은 다운로드 수(24,276회)를 기록하며 관련 분야에서 활용도가 높습니다."
       ],
       "tags": [
-        "DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
-        "text-generation",
-        "Hugging Face"
+        "Baidu",
+        "Unlimited-OCR-2",
+        "OCR"
       ]
     },
     {
