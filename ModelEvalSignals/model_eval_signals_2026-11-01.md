@@ -1,0 +1,132 @@
+# Model & Eval Signals (2026-11-01)
+
+## 오늘의 요약
+Hugging Face의 신규 모델 공개로 인한 텍스트 생성 및 음성 인식 분야의 활발한 움직임과 LiveCodeBench 벤치마크를 통한 코딩 모델 성능 검증이 주요 흐름입니다.
+
+### 오늘의 핵심 포인트
+- XHToken 및 ccore의 4B급 소형 모델들이 높은 다운로드 수를 기록하며 텍스트 생성 분야에서 주목받음
+- NVIDIA의 Nemotron-3.5-Transcribe 모델 공개로 음성 인식(ASR) 특화 모델의 기술 동향 확인
+- LiveCodeBench 벤치마크를 통해 O4-Mini 및 Gemini 시리즈 등 주요 모델들의 코딩 성능 지표 업데이트
+
+**오늘의 태그**: LLM_Trending, HuggingFace, LiveCodeBench
+
+## 1. [XHToken/Spark-X2.6-4B](https://huggingface.co/XHToken/Spark-X2.6-4B)
+**Source**: HF Model Trending | **Signal Type**: model_trending | **Category**: Model Trending
+
+### 요약
+XHToken에서 공개한 Spark-X2.6-4B 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 4.1B 파라미터를 가진 이 모델은 text-generation 태스크를 위한 모델입니다.
+
+### 핵심 포인트
+- XHToken의 Spark-X2.6-4B 모델이 높은 관심을 받고 있음
+- 약 4.1B 규모의 파라미터를 보유한 text-generation 모델
+- 14,515회의 다운로드와 936개의 likes를 기록함
+
+**태그**: XHToken, Spark-X2.6-4B, text-generation
+
+**Metrics**: {"likes": 936, "downloads": 14515, "num_parameters": 4112079360, "pipeline_tag": "text-generation"}
+
+### 원문 설명
+likes=936, downloads=14515, pipeline_tag=text-generation
+
+---
+
+## 2. [ccore/Qwen3.5-4B-3D-Coder](https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder)
+**Source**: HF Model Trending | **Signal Type**: model_trending | **Category**: Model Trending
+
+### 요약
+ccore/Qwen3.5-4B-3D-Coder 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 약 4.5B 파라미터를 가진 이 모델은 최근 사용자들 사이에서 활발히 활용되고 있습니다.
+
+### 핵심 포인트
+- ccore/Qwen3.5-4B-3D-Coder 모델의 높은 관심도 반영
+- 29,615회의 downloads와 382개의 likes 기록
+- 약 4.5B 규모의 파라미터를 보유한 모델
+
+**태그**: Qwen3.5-4B-3D-Coder, Hugging Face, Model Trending
+
+**Metrics**: {"likes": 382, "downloads": 29615, "num_parameters": 4539265536, "pipeline_tag": ""}
+
+### 원문 설명
+likes=382, downloads=29615, pipeline_tag=
+
+---
+
+## 3. [nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B](https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B)
+**Source**: HF Model Trending | **Signal Type**: model_trending | **Category**: Model Trending
+
+### 요약
+NVIDIA에서 공개한 NVIDIA-Nemotron-3.5-Transcribe-30B-A4B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 automatic-speech-recognition 태그를 가진 음성 인식 특화 모델입니다.
+
+### 핵심 포인트
+- NVIDIA에서 출시한 30B 규모의 automatic-speech-recognition 모델입니다.
+- 24,357회의 downloads를 기록하며 높은 관심을 받고 있습니다.
+- 모델 파라미터 수는 약 33.7B입니다.
+
+**태그**: NVIDIA-Nemotron-3.5-Transcribe-30B-A4B, automatic-speech-recognition, ASR
+
+**Metrics**: {"likes": 535, "downloads": 24357, "num_parameters": 33697781029, "pipeline_tag": "automatic-speech-recognition"}
+
+### 원문 설명
+likes=535, downloads=24357, pipeline_tag=automatic-speech-recognition
+
+---
+
+## 4. [LiveCodeBench top model: O4-Mini (High)](https://livecodebench.github.io/leaderboard.html)
+**Source**: LiveCodeBench | **Signal Type**: benchmark_snapshot | **Category**: Benchmark Leaderboard
+
+### 요약
+LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.
+
+### 핵심 포인트
+- LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함
+- 테스트에 사용된 문제 수는 총 4개임
+- avg_pass@1 지표는 25.0을 기록함
+
+**태그**: LiveCodeBench, O4-Mini (High), benchmark_snapshot
+
+**Metrics**: {"avg_pass_at_1": 25.0, "problem_count": 4, "model": "O4-Mini (High)"}
+
+### 원문 설명
+avg_pass@1=25.0, problems=4
+
+---
+
+## 5. [LiveCodeBench top model: Gemini-2.5-Pro-06-05](https://livecodebench.github.io/leaderboard.html)
+**Source**: LiveCodeBench | **Signal Type**: benchmark_snapshot | **Category**: Benchmark Leaderboard
+
+### 요약
+LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.
+
+### 핵심 포인트
+- Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨
+- 테스트 결과 avg_pass@1 지표에서 25.0을 달성함
+- 총 4개의 문제를 대상으로 벤치마크가 수행됨
+
+**태그**: LiveCodeBench, Gemini-2.5-Pro-06-05, benchmark_snapshot
+
+**Metrics**: {"avg_pass_at_1": 25.0, "problem_count": 4, "model": "Gemini-2.5-Pro-06-05"}
+
+### 원문 설명
+avg_pass@1=25.0, problems=4
+
+---
+
+## 6. [LiveCodeBench top model: Gemini-2.5-Flash-04-17](https://livecodebench.github.io/leaderboard.html)
+**Source**: LiveCodeBench | **Signal Type**: benchmark_snapshot | **Category**: Benchmark Leaderboard
+
+### 요약
+LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.
+
+### 핵심 포인트
+- LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함
+- 4개의 문제를 대상으로 테스트가 진행됨
+- avg_pass@1 지표에서 25.0%의 성능을 보임
+
+**태그**: LiveCodeBench, Gemini-2.5-Flash-04-17, benchmark_snapshot
+
+**Metrics**: {"avg_pass_at_1": 25.0, "problem_count": 4, "model": "Gemini-2.5-Flash-04-17"}
+
+### 원문 설명
+avg_pass@1=25.0, problems=4
+
+---
+
