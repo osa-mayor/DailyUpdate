@@ -1,0 +1,239 @@
+{
+  "source": "reddit",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T04:52:08.113650+09:00",
+  "count": 6,
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 모델 가중치 내부에 연산 장치를 구현하는 혁신적인 기술적 시도와 AI 에이전트 운영을 위한 오픈소스 스택 개발 등 기술적 심화 주제가 주목받았습니다. 또한, 로컬 LLM 구동을 위한 하드웨어 구성 고민과 AI 노이즈 제거가 음성 전사 정확도에 미치는 영향 등 실무적인 실험 결과들도 활발히 공유되었습니다.",
+  "daily_key_points": [
+    "Qwen 모델 가중치 내부에 NPU를 컴파일하여 외부 도구 없이 모델 내부에서 프로그램을 실행하는 실험적 성과가 발표되었습니다.",
+    "AI 에이전트의 프로덕션 환경 운영을 위해 실행 루프와 인프라를 통합 관리하는 오픈소스 스택 개발이 진행 중입니다.",
+    "AI 노이즈 제거 기술이 오히려 음성 전사(ASR)의 정확도를 떨어뜨릴 수 있다는 실무적 실험 결과가 공유되었습니다."
+  ],
+  "daily_tags": [
+    "LLM",
+    "OpenSource",
+    "AI_Agent",
+    "MachineLearning",
+    "Hardware"
+  ],
+  "subreddits_covered": [
+    "LanguageTechnology",
+    "LocalLLaMA",
+    "OpenSourceAI"
+  ],
+  "source_modes_used": [
+    "new",
+    "top_day"
+  ],
+  "run_stats": {
+    "candidate_count": 24,
+    "finalist_count": 6,
+    "summarization_wall_sec": 266.341,
+    "total_wall_sec": 401.051
+  },
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 모델 가중치 내부에 연산 장치를 구현하는 혁신적인 기술적 시도와 AI 에이전트 운영을 위한 오픈소스 스택 개발 등 기술적 심화 주제가 주목받았습니다. 또한, 로컬 LLM 구동을 위한 하드웨어 구성 고민과 AI 노이즈 제거가 음성 전사 정확도에 미치는 영향 등 실무적인 실험 결과들도 활발히 공유되었습니다.\n\n🔥 1. An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: Qwen 3.5-4B 모델의 가중치 내부에 NPU를 컴파일하여 Karpathy의 stories260k 프로그램을 실행하는 혁신적인 기술적 성과가 발표되었습니다. 이는 외부 도구 없이 모델의 메모리 내에서 다른 LLM을 구동하는 실험적인 시도입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/\n\n🔥 2. First-time conference attendee at AACL-IJCNLP 2026 (Hengqin), going solo, looking for guidance and people to meet\nr/LanguageTechnology | 👍 5 | 💬 4\n📝 요약: AACL-IJCNLP 2026 학술 대회에 처음으로 혼자 참석하게 된 사용자가 관련 가이드와 현장에서 만날 사람들을 찾고 있습니다. 첫 학회 참석을 앞두고 실질적인 조언과 네트워킹 기회를 얻고자 하는 목적을 담고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xk98fv/firsttime_conference_attendee_at_aaclijcnlp_2026/\n\n🔥 3. Lor: an open-source multiplayer AI workspace for teams\nr/OpenSourceAI | 👍 3 | 💬 0\n📝 요약: 팀 단위 협업을 위해 설계된 오픈 소스 멀티플레이어 AI 워크스페이스인 Lor가 소개되었습니다. 여러 사용자가 동시에 작업할 수 있는 환경을 제공하여 팀 프로젝트 효율성을 높이는 데 중점을 둡니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xjs970/lor_an_opensource_multiplayer_ai_workspace_for/\n\n🔥 4. Mac Studio M5U 256gb 2TB\nr/LocalLLaMA | 👍 4 | 💬 15\n📝 요약: 사용자가 코딩 및 비즈니스 자동화를 위해 256GB RAM을 탑재한 Mac Studio M5U 구매를 고민하며 조언을 구하고 있습니다. 현재 M4 Pro MacBook Pro를 사용 중이며, 로컬 환경에서 Qwen 및 DeepSeek 모델을 구동하려는 계획을 가지고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/\n\n🔥 5. Tested whether AI noise cleaning improves transcription accuracy for Hindi-English audio. It makes it worse.\nr/LanguageTechnology | 👍 1 | 💬 1\n📝 요약: 힌디어-영어 혼용 오디오의 전사 정확도를 높이기 위해 AI 노이즈 제거를 적용했으나, 오히려 정확도가 떨어지는 현상을 실험을 통해 확인했습니다. 노이즈 제거 과정에서 세부 정보가 손실되어 ASR 모델이 잘못된 단어로 빈틈을 채우는 문제가 발생했습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xk97wj/tested_whether_ai_noise_cleaning_improves/\n\n🔥 6. building an open-source AI agent stack\nr/OpenSourceAI | 👍 2 | 💬 12\n📝 요약: 사용자가 AI 에이전트를 프로덕션 환경에서 안정적으로 운영하기 위해 개발 중인 오픈소스 스택인 Dispach를 소개했습니다. 모델 선택을 넘어 실행 루프, 컨텍스트 관리, 인프라 등 복잡한 에이전트 운영 문제를 통합적으로 해결하는 것을 목표로 합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xk4ncq/building_an_opensource_ai_agent_stack/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "items": [
+    {
+      "source": "reddit",
+      "post_id": "1xkiuut",
+      "subreddit": "LocalLLaMA",
+      "title": "An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
+      "external_link": null,
+      "score": "Error",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T19:18:53",
+      "korean_summary": "Qwen 3.5-4B 모델의 가중치 내부에 NPU를 컴파일하여 Karpathy의 stories260k 프로그램을 실행하는 혁신적인 기술적 성과가 발표되었습니다. 이는 외부 도구 없이 모델의 메모리 내에서 다른 LLM을 구동하는 실험적인 시도입니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Qwen 3.5-4B 모델 가중치 내부에 행렬 곱셈, 소프트맥스, 어텐션을 수행하는 NPU를 구현하여 외부 도구 없이 모델 내부에서 작동하게 함",
+        "Karpathy의 stories260k C 프로그램을 NPU 형태로 컴파일하여 Qwen 모델의 메모리 내에서 실행하는 데 성공함",
+        "현재 최적화 및 크기 축소 작업이 진행 중이며, 향후 상세한 기술 블로그가 공개될 예정임"
+      ],
+      "tags": [
+        "NPU",
+        "EdgeAI",
+        "LLM"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "playwright",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xk98fv",
+      "subreddit": "LanguageTechnology",
+      "title": "First-time conference attendee at AACL-IJCNLP 2026 (Hengqin), going solo, looking for guidance and people to meet",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xk98fv/firsttime_conference_attendee_at_aaclijcnlp_2026/",
+      "external_link": null,
+      "score": "5",
+      "comments_count": 4,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T12:42:27",
+      "korean_summary": "AACL-IJCNLP 2026 학술 대회에 처음으로 혼자 참석하게 된 사용자가 관련 가이드와 현장에서 만날 사람들을 찾고 있습니다. 첫 학회 참석을 앞두고 실질적인 조언과 네트워킹 기회를 얻고자 하는 목적을 담고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "AACL-IJCNLP 2026 횡기(Hengqin) 학회에 처음으로 단독 참석 예정",
+        "학회 참석을 위한 실질적인 가이드 및 조언 요청",
+        "현장에서 교류할 수 있는 사람들을 찾기 위한 네트워킹 목적"
+      ],
+      "tags": [
+        "AACL-IJCNLP",
+        "네트워킹",
+        "학술대회"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xjs970",
+      "subreddit": "OpenSourceAI",
+      "title": "Lor: an open-source multiplayer AI workspace for teams",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xjs970/lor_an_opensource_multiplayer_ai_workspace_for/",
+      "external_link": null,
+      "score": "3",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-30T21:40:59",
+      "korean_summary": "팀 단위 협업을 위해 설계된 오픈 소스 멀티플레이어 AI 워크스페이스인 Lor가 소개되었습니다. 여러 사용자가 동시에 작업할 수 있는 환경을 제공하여 팀 프로젝트 효율성을 높이는 데 중점을 둡니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "팀 협업에 최적화된 오픈 소스 기반의 멀티플레이어 AI 작업 공간입니다.",
+        "여러 명의 사용자가 실시간으로 상호작용하며 AI를 활용할 수 있는 환경을 제공합니다.",
+        "오픈 소스 프로젝트로서 팀 프로젝트의 생산성을 높이는 것을 목표로 합니다."
+      ],
+      "tags": [
+        "AI",
+        "OpenSource",
+        "Collaboration",
+        "AI_Workspace"
+      ],
+      "source_modes": [
+        "top_day"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xkip46",
+      "subreddit": "LocalLLaMA",
+      "title": "Mac Studio M5U 256gb 2TB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/",
+      "external_link": null,
+      "score": "4",
+      "comments_count": 15,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T19:12:25",
+      "korean_summary": "사용자가 코딩 및 비즈니스 자동화를 위해 256GB RAM을 탑재한 Mac Studio M5U 구매를 고민하며 조언을 구하고 있습니다. 현재 M4 Pro MacBook Pro를 사용 중이며, 로컬 환경에서 Qwen 및 DeepSeek 모델을 구동하려는 계획을 가지고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "코딩 및 비즈니스 자동화 목적으로 256GB RAM 사양의 Mac Studio 구매를 검토 중임",
+        "Qwen 3.8+ 및 DeepSeek 4+와 같은 대규모 로컬 모델 구동을 목표로 함",
+        "기존 M4 Pro MacBook Pro를 주 개발 장비로 유지하며 보조 장비로 활용할 계획임"
+      ],
+      "tags": [
+        "Local AI",
+        "Mac Studio",
+        "LLM"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xk97wj",
+      "subreddit": "LanguageTechnology",
+      "title": "Tested whether AI noise cleaning improves transcription accuracy for Hindi-English audio. It makes it worse.",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xk97wj/tested_whether_ai_noise_cleaning_improves/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 1,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T12:41:38",
+      "korean_summary": "힌디어-영어 혼용 오디오의 전사 정확도를 높이기 위해 AI 노이즈 제거를 적용했으나, 오히려 정확도가 떨어지는 현상을 실험을 통해 확인했습니다. 노이즈 제거 과정에서 세부 정보가 손실되어 ASR 모델이 잘못된 단어로 빈틈을 채우는 문제가 발생했습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "노이즈 제거 후 전사 결과가 원본보다 더 왜곡되거나 의미 없는 문장으로 변하는 현상이 관찰되었습니다.",
+        "신경망 기반 노이즈 제거가 필터링이 아닌 재구성을 수행하면서, ASR 모델이 의존하는 미세한 디테일을 제거하여 잘못된 예측을 유도할 수 있습니다.",
+        "코드 스위칭(언어 혼용) 상황에서 원본 오디오가 노이즈 제거된 오디오보다 더 정확하게 문맥을 파악하는 경향을 보였습니다."
+      ],
+      "tags": [
+        "AI",
+        "Speech_Recognition",
+        "ASR",
+        "AI_Audio"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xk4ncq",
+      "subreddit": "OpenSourceAI",
+      "title": "building an open-source AI agent stack",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xk4ncq/building_an_opensource_ai_agent_stack/",
+      "external_link": null,
+      "score": "2",
+      "comments_count": 12,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T08:16:39",
+      "korean_summary": "사용자가 AI 에이전트를 프로덕션 환경에서 안정적으로 운영하기 위해 개발 중인 오픈소스 스택인 Dispach를 소개했습니다. 모델 선택을 넘어 실행 루프, 컨텍스트 관리, 인프라 등 복잡한 에이전트 운영 문제를 통합적으로 해결하는 것을 목표로 합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Dispach는 에이전트 하네스와 인프라를 결합하여 개발자가 핵심 기능 구축에 집중할 수 있도록 돕는 셀프 호스팅 가능 모델 불가지론적 스택입니다.",
+        "동일한 모델을 사용하더라도 하네스 설계에 따라 작업 성공률과 추론 비용이 크게 달라질 수 있음을 실험을 통해 확인하고 있습니다.",
+        "에이전트 배포 시 발생하는 복잡한 운영 문제를 해결하고 개발자 경험을 개선하는 것을 주요 과제로 삼고 있습니다."
+      ],
+      "tags": [
+        "Infrastructure",
+        "AI",
+        "AI Agent",
+        "Rust",
+        "Benchmark"
+      ],
+      "source_modes": [
+        "top_day"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    }
+  ]
+}

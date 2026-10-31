@@ -1,20 +1,20 @@
 {
   "source": "reddit",
-  "date": "2026-10-31",
-  "generated_at": "2026-10-31T04:55:03.880773+09:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T04:52:08.113650+09:00",
   "count": 6,
-  "daily_summary": "오늘 Reddit AI 커뮤니티에서는 오픈 소스 모델의 실용성과 프라이버시 보호를 위한 로컬 실행 환경 구축에 대한 논의가 활발했습니다. 또한, PDF 파싱 성능 향상을 위한 OXR 모델 공개와 vLLM의 디스크 오프로드 기능 도입 등 기술적 최적화와 효율적인 모델 관리 도구에 대한 소식이 주목받았습니다.",
+  "daily_summary": "오늘 Reddit AI/ML 커뮤니티에서는 모델 가중치 내부에 연산 장치를 구현하는 혁신적인 기술적 시도와 AI 에이전트 운영을 위한 오픈소스 스택 개발 등 기술적 심화 주제가 주목받았습니다. 또한, 로컬 LLM 구동을 위한 하드웨어 구성 고민과 AI 노이즈 제거가 음성 전사 정확도에 미치는 영향 등 실무적인 실험 결과들도 활발히 공유되었습니다.",
   "daily_key_points": [
-    "OXR 모델은 레이아웃 분석과 텍스트 인식을 결합하여 복잡한 구조의 PDF 데이터를 정확하게 추출하는 성능을 보여주었습니다.",
-    "사용자들은 데이터 보안과 비용 절감을 위해 빅테크 의존도를 낮추고 오픈 소스 모델을 로컬 환경에서 운용하는 것에 높은 관심을 보였습니다.",
-    "vLLM의 PLE 디스크 오프로드 기능과 ShipAI 같은 관리 도구의 등장은 메모리 제약 극복 및 원격 AI 모델 관리의 편의성을 높이고 있습니다."
+    "Qwen 모델 가중치 내부에 NPU를 컴파일하여 외부 도구 없이 모델 내부에서 프로그램을 실행하는 실험적 성과가 발표되었습니다.",
+    "AI 에이전트의 프로덕션 환경 운영을 위해 실행 루프와 인프라를 통합 관리하는 오픈소스 스택 개발이 진행 중입니다.",
+    "AI 노이즈 제거 기술이 오히려 음성 전사(ASR)의 정확도를 떨어뜨릴 수 있다는 실무적 실험 결과가 공유되었습니다."
   ],
   "daily_tags": [
-    "OpenSourceAI",
     "LLM",
-    "NLP",
-    "LocalLLaMA",
-    "MachineLearning"
+    "OpenSource",
+    "AI_Agent",
+    "MachineLearning",
+    "Hardware"
   ],
   "subreddits_covered": [
     "LanguageTechnology",
@@ -23,37 +23,38 @@
   ],
   "source_modes_used": [
     "new",
-    "rising"
+    "top_day"
   ],
   "run_stats": {
     "candidate_count": 24,
     "finalist_count": 6,
-    "summarization_wall_sec": 265.491,
-    "total_wall_sec": 457.816
+    "summarization_wall_sec": 266.341,
+    "total_wall_sec": 401.051
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI 커뮤니티에서는 오픈 소스 모델의 실용성과 프라이버시 보호를 위한 로컬 실행 환경 구축에 대한 논의가 활발했습니다. 또한, PDF 파싱 성능 향상을 위한 OXR 모델 공개와 vLLM의 디스크 오프로드 기능 도입 등 기술적 최적화와 효율적인 모델 관리 도구에 대한 소식이 주목받았습니다.\n\n🔥 1. AI and Tech Stocks are in Free Fall\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: AI 및 기술주 주가가 급격한 하락세를 보이고 있다는 소식이 전해졌습니다. 시장의 변동성이 커지며 관련 기술주들에 대한 우려가 제기되는 상황입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xjpd9o/ai_and_tech_stocks_are_in_free_fall/\n\n🔥 2. Reading order is the part of PDF parsing that quietly breaks downstream NLP\nr/LanguageTechnology | 👍 1 | 💬 3\n📝 요약: PDF 문서의 읽기 순서 오류가 NLP 작업에 미치는 문제를 해결하기 위해 개발된 1.3B 규모의 문서 파싱 모델 OXR이 공개되었습니다. 이 모델은 레이아웃 분석과 텍스트 인식을 동시에 수행하여 표, 수식, 코드 등을 포함한 구조화된 데이터를 정확하게 추출합니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xj860k/reading_order_is_the_part_of_pdf_parsing_that/\n\n🔥 3. What’s the reason you went open source for AI? Privacy, money, not trusting big tech?\nr/OpenSourceAI | 👍 6 | 💬 20\n📝 요약: 사용자들이 AI 분야에서 오픈 소스를 선택하는 주요 동기와 그 실효성에 대해 질문하는 글입니다. 데이터 프라이버시 보호, 빅테크 기업에 대한 의존성 탈피, 비용 절감 등이 주요 이유로 거론됩니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xjiq9d/whats_the_reason_you_went_open_source_for_ai/\n\n🔥 4. vLLM now has PLE disk offload support on nightly\nr/LocalLLaMA | 👍 12 | 💬 1\n📝 요약: vLLM의 나이틀리(nightly) 빌드에 PLE 디스크 오프로드 기능이 추가되었습니다. 이를 통해 모델 추론 시 메모리 제약을 극복할 수 있는 새로운 가능성이 열렸습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/\n\n🔥 5. What exactly is the ground truth for speech alignment task?\nr/LanguageTechnology | 👍 1 | 💬 0\n📝 요약: 음성 정렬(Speech Alignment) 작업에서 인간이 주석을 단 데이터셋을 진정한 정답(Ground Truth)으로 간주할 수 있는지에 대한 의문을 제기하고 있습니다. 성능 평가의 기준과 최고 수준의 정렬 모델을 구축하는 방법, 그리고 그 성능을 검증하는 방식에 대한 기술적 고민을 담고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xhxsc3/what_exactly_is_the_ground_truth_for_speech/\n\n🔥 6. ShipAI – Open-source Electron control plane for remote server telemetry and Ollama AI management over SSH\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: ShipAI는 SSH를 통해 원격 서버의 텔레메트리를 제어하고 Ollama AI를 관리할 수 있는 오픈소스 Electron 기반 컨트롤 플레인입니다. 사용자가 원격 환경에서도 효율적으로 AI 모델을 관리할 수 있도록 설계되었습니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xjp26q/shipai_opensource_electron_control_plane_for/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI/ML 커뮤니티에서는 모델 가중치 내부에 연산 장치를 구현하는 혁신적인 기술적 시도와 AI 에이전트 운영을 위한 오픈소스 스택 개발 등 기술적 심화 주제가 주목받았습니다. 또한, 로컬 LLM 구동을 위한 하드웨어 구성 고민과 AI 노이즈 제거가 음성 전사 정확도에 미치는 영향 등 실무적인 실험 결과들도 활발히 공유되었습니다.\n\n🔥 1. An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: Qwen 3.5-4B 모델의 가중치 내부에 NPU를 컴파일하여 Karpathy의 stories260k 프로그램을 실행하는 혁신적인 기술적 성과가 발표되었습니다. 이는 외부 도구 없이 모델의 메모리 내에서 다른 LLM을 구동하는 실험적인 시도입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/\n\n🔥 2. First-time conference attendee at AACL-IJCNLP 2026 (Hengqin), going solo, looking for guidance and people to meet\nr/LanguageTechnology | 👍 5 | 💬 4\n📝 요약: AACL-IJCNLP 2026 학술 대회에 처음으로 혼자 참석하게 된 사용자가 관련 가이드와 현장에서 만날 사람들을 찾고 있습니다. 첫 학회 참석을 앞두고 실질적인 조언과 네트워킹 기회를 얻고자 하는 목적을 담고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xk98fv/firsttime_conference_attendee_at_aaclijcnlp_2026/\n\n🔥 3. Lor: an open-source multiplayer AI workspace for teams\nr/OpenSourceAI | 👍 3 | 💬 0\n📝 요약: 팀 단위 협업을 위해 설계된 오픈 소스 멀티플레이어 AI 워크스페이스인 Lor가 소개되었습니다. 여러 사용자가 동시에 작업할 수 있는 환경을 제공하여 팀 프로젝트 효율성을 높이는 데 중점을 둡니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xjs970/lor_an_opensource_multiplayer_ai_workspace_for/\n\n🔥 4. Mac Studio M5U 256gb 2TB\nr/LocalLLaMA | 👍 4 | 💬 15\n📝 요약: 사용자가 코딩 및 비즈니스 자동화를 위해 256GB RAM을 탑재한 Mac Studio M5U 구매를 고민하며 조언을 구하고 있습니다. 현재 M4 Pro MacBook Pro를 사용 중이며, 로컬 환경에서 Qwen 및 DeepSeek 모델을 구동하려는 계획을 가지고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/\n\n🔥 5. Tested whether AI noise cleaning improves transcription accuracy for Hindi-English audio. It makes it worse.\nr/LanguageTechnology | 👍 1 | 💬 1\n📝 요약: 힌디어-영어 혼용 오디오의 전사 정확도를 높이기 위해 AI 노이즈 제거를 적용했으나, 오히려 정확도가 떨어지는 현상을 실험을 통해 확인했습니다. 노이즈 제거 과정에서 세부 정보가 손실되어 ASR 모델이 잘못된 단어로 빈틈을 채우는 문제가 발생했습니다.\n🔗 Reddit: https://www.reddit.com/r/LanguageTechnology/comments/1xk97wj/tested_whether_ai_noise_cleaning_improves/\n\n🔥 6. building an open-source AI agent stack\nr/OpenSourceAI | 👍 2 | 💬 12\n📝 요약: 사용자가 AI 에이전트를 프로덕션 환경에서 안정적으로 운영하기 위해 개발 중인 오픈소스 스택인 Dispach를 소개했습니다. 모델 선택을 넘어 실행 루프, 컨텍스트 관리, 인프라 등 복잡한 에이전트 운영 문제를 통합적으로 해결하는 것을 목표로 합니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xk4ncq/building_an_opensource_ai_agent_stack/\n\n출처: Reddit (r/LanguageTechnology, r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1xjpd9o",
+      "post_id": "1xkiuut",
       "subreddit": "LocalLLaMA",
-      "title": "AI and Tech Stocks are in Free Fall",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpd9o/ai_and_tech_stocks_are_in_free_fall/",
+      "title": "An LLM inside an LLM - Same guy who put a RISK-V CPU inside Qwen has now made Karpathy's stories260k run on an NPU compiled inside Qwen 3.5-4B's weights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-30T19:47:04",
-      "korean_summary": "AI 및 기술주 주가가 급격한 하락세를 보이고 있다는 소식이 전해졌습니다. 시장의 변동성이 커지며 관련 기술주들에 대한 우려가 제기되는 상황입니다.",
+      "pub_date": "2026-10-31T19:18:53",
+      "korean_summary": "Qwen 3.5-4B 모델의 가중치 내부에 NPU를 컴파일하여 Karpathy의 stories260k 프로그램을 실행하는 혁신적인 기술적 성과가 발표되었습니다. 이는 외부 도구 없이 모델의 메모리 내에서 다른 LLM을 구동하는 실험적인 시도입니다.",
       "external_article_summary": "",
       "key_points": [
-        "AI 및 기술 섹터 주식의 급격한 가격 하락 발생",
-        "시장 변동성 확대에 따른 기술주 중심의 매도세 관찰"
+        "Qwen 3.5-4B 모델 가중치 내부에 행렬 곱셈, 소프트맥스, 어텐션을 수행하는 NPU를 구현하여 외부 도구 없이 모델 내부에서 작동하게 함",
+        "Karpathy의 stories260k C 프로그램을 NPU 형태로 컴파일하여 Qwen 모델의 메모리 내에서 실행하는 데 성공함",
+        "현재 최적화 및 크기 축소 작업이 진행 중이며, 향후 상세한 기술 블로그가 공개될 예정임"
       ],
       "tags": [
-        "Market Trend",
-        "Tech Stocks",
-        "AI"
+        "NPU",
+        "EdgeAI",
+        "LLM"
       ],
       "source_modes": [
         "new"
@@ -67,95 +68,26 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xj860k",
+      "post_id": "1xk98fv",
       "subreddit": "LanguageTechnology",
-      "title": "Reading order is the part of PDF parsing that quietly breaks downstream NLP",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xj860k/reading_order_is_the_part_of_pdf_parsing_that/",
+      "title": "First-time conference attendee at AACL-IJCNLP 2026 (Hengqin), going solo, looking for guidance and people to meet",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xk98fv/firsttime_conference_attendee_at_aaclijcnlp_2026/",
       "external_link": null,
-      "score": "1",
-      "comments_count": 3,
+      "score": "5",
+      "comments_count": 4,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-30T06:43:20",
-      "korean_summary": "PDF 문서의 읽기 순서 오류가 NLP 작업에 미치는 문제를 해결하기 위해 개발된 1.3B 규모의 문서 파싱 모델 OXR이 공개되었습니다. 이 모델은 레이아웃 분석과 텍스트 인식을 동시에 수행하여 표, 수식, 코드 등을 포함한 구조화된 데이터를 정확하게 추출합니다.",
+      "pub_date": "2026-10-31T12:42:27",
+      "korean_summary": "AACL-IJCNLP 2026 학술 대회에 처음으로 혼자 참석하게 된 사용자가 관련 가이드와 현장에서 만날 사람들을 찾고 있습니다. 첫 학회 참석을 앞두고 실질적인 조언과 네트워킹 기회를 얻고자 하는 목적을 담고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "OXR 모델은 레이아웃 분석과 인식/읽기 순서 예측을 결합하여 표, 수식, 코드 등 13가지 유형의 요소를 구조화된 Markdown 또는 JSON 형식으로 반환합니다.",
-        "모델은 타겟팅된 데이터 학습 방식을 통해 성능을 최적화했으며, olmOCR-Bench 등 주요 벤치마크에서 최고 성능을 기록했습니다.",
-        "로컬 실행을 위해 24GB 이상의 NVIDIA GPU가 필요하며, 다중 열 레이아웃 처리가 향후 개선 과제로 남아 있습니다."
+        "AACL-IJCNLP 2026 횡기(Hengqin) 학회에 처음으로 단독 참석 예정",
+        "학회 참석을 위한 실질적인 가이드 및 조언 요청",
+        "현장에서 교류할 수 있는 사람들을 찾기 위한 네트워킹 목적"
       ],
       "tags": [
-        "DocumentParsing",
-        "NLP",
-        "AI",
-        "Benchmark",
-        "Release"
-      ],
-      "source_modes": [
-        "rising"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1xjiq9d",
-      "subreddit": "OpenSourceAI",
-      "title": "What’s the reason you went open source for AI? Privacy, money, not trusting big tech?",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xjiq9d/whats_the_reason_you_went_open_source_for_ai/",
-      "external_link": null,
-      "score": "6",
-      "comments_count": 20,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-30T15:39:39",
-      "korean_summary": "사용자들이 AI 분야에서 오픈 소스를 선택하는 주요 동기와 그 실효성에 대해 질문하는 글입니다. 데이터 프라이버시 보호, 빅테크 기업에 대한 의존성 탈피, 비용 절감 등이 주요 이유로 거론됩니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "데이터 보안 및 프라이버시를 위해 로컬 환경에서 모델을 실행하려는 수요가 높습니다.",
-        "빅테크 기업의 독점적 영향력에서 벗어나고 지속적인 구독 비용을 절감하려는 목적이 있습니다.",
-        "오픈 소스 전환이 실제 작업 환경에서 성공적으로 안착했는지에 대한 실질적인 경험 공유를 요청하고 있습니다."
-      ],
-      "tags": [
-        "LLM",
-        "Rust",
-        "OpenSourceAI",
-        "OpenSource",
-        "DataPrivacy"
-      ],
-      "source_modes": [
-        "rising"
-      ],
-      "rank_score": 0.0,
-      "detail_fetch_mode": "json_api",
-      "external_article_url": null,
-      "external_article_extraction_method": null,
-      "fallback_used": false,
-      "generation_mode": "one-shot"
-    },
-    {
-      "source": "reddit",
-      "post_id": "1xjpbcg",
-      "subreddit": "LocalLLaMA",
-      "title": "vLLM now has PLE disk offload support on nightly",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/",
-      "external_link": null,
-      "score": "12",
-      "comments_count": 1,
-      "comment_sample_count": 0,
-      "pub_date": "2026-10-30T19:45:05",
-      "korean_summary": "vLLM의 나이틀리(nightly) 빌드에 PLE 디스크 오프로드 기능이 추가되었습니다. 이를 통해 모델 추론 시 메모리 제약을 극복할 수 있는 새로운 가능성이 열렸습니다.",
-      "external_article_summary": "",
-      "key_points": [
-        "vLLM 나이틀리 버전에 PLE 디스크 오프로드 기능이 도입되었습니다.",
-        "해당 기능은 모델 가중치를 디스크로 오프로드하여 메모리 효율성을 높이는 데 기여할 수 있습니다."
-      ],
-      "tags": [
-        "LLM",
-        "Inference",
-        "vLLM"
+        "AACL-IJCNLP",
+        "네트워킹",
+        "학술대회"
       ],
       "source_modes": [
         "new"
@@ -169,31 +101,30 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xhxsc3",
-      "subreddit": "LanguageTechnology",
-      "title": "What exactly is the ground truth for speech alignment task?",
-      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xhxsc3/what_exactly_is_the_ground_truth_for_speech/",
+      "post_id": "1xjs970",
+      "subreddit": "OpenSourceAI",
+      "title": "Lor: an open-source multiplayer AI workspace for teams",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xjs970/lor_an_opensource_multiplayer_ai_workspace_for/",
       "external_link": null,
-      "score": "1",
+      "score": "3",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-28T19:22:29",
-      "korean_summary": "음성 정렬(Speech Alignment) 작업에서 인간이 주석을 단 데이터셋을 진정한 정답(Ground Truth)으로 간주할 수 있는지에 대한 의문을 제기하고 있습니다. 성능 평가의 기준과 최고 수준의 정렬 모델을 구축하는 방법, 그리고 그 성능을 검증하는 방식에 대한 기술적 고민을 담고 있습니다.",
+      "pub_date": "2026-10-30T21:40:59",
+      "korean_summary": "팀 단위 협업을 위해 설계된 오픈 소스 멀티플레이어 AI 워크스페이스인 Lor가 소개되었습니다. 여러 사용자가 동시에 작업할 수 있는 환경을 제공하여 팀 프로젝트 효율성을 높이는 데 중점을 둡니다.",
       "external_article_summary": "",
       "key_points": [
-        "인간이 작업한 데이터셋이 음성 정렬 작업의 절대적인 정답(Ground Truth)이 될 수 있는지에 대한 근본적인 의문",
-        "MFA나 CTC와 같은 기존 정렬 방식의 성능 평가 기준과 데이터 신뢰도 문제",
-        "최고 수준의 정렬 모델을 구축하는 방법론과 성능을 객관적으로 검증하는 방법에 대한 기술적 갈증"
+        "팀 협업에 최적화된 오픈 소스 기반의 멀티플레이어 AI 작업 공간입니다.",
+        "여러 명의 사용자가 실시간으로 상호작용하며 AI를 활용할 수 있는 환경을 제공합니다.",
+        "오픈 소스 프로젝트로서 팀 프로젝트의 생산성을 높이는 것을 목표로 합니다."
       ],
       "tags": [
-        "Speech Alignment",
-        "Rust",
         "AI",
-        "Machine Learning",
-        "Ground Truth"
+        "OpenSource",
+        "Collaboration",
+        "AI_Workspace"
       ],
       "source_modes": [
-        "rising"
+        "top_day"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",
@@ -204,30 +135,98 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xjp26q",
-      "subreddit": "OpenSourceAI",
-      "title": "ShipAI – Open-source Electron control plane for remote server telemetry and Ollama AI management over SSH",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xjp26q/shipai_opensource_electron_control_plane_for/",
+      "post_id": "1xkip46",
+      "subreddit": "LocalLLaMA",
+      "title": "Mac Studio M5U 256gb 2TB",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkip46/mac_studio_m5u_256gb_2tb/",
       "external_link": null,
-      "score": "1",
-      "comments_count": 0,
+      "score": "4",
+      "comments_count": 15,
       "comment_sample_count": 0,
-      "pub_date": "2026-10-30T19:34:59",
-      "korean_summary": "ShipAI는 SSH를 통해 원격 서버의 텔레메트리를 제어하고 Ollama AI를 관리할 수 있는 오픈소스 Electron 기반 컨트롤 플레인입니다. 사용자가 원격 환경에서도 효율적으로 AI 모델을 관리할 수 있도록 설계되었습니다.",
+      "pub_date": "2026-10-31T19:12:25",
+      "korean_summary": "사용자가 코딩 및 비즈니스 자동화를 위해 256GB RAM을 탑재한 Mac Studio M5U 구매를 고민하며 조언을 구하고 있습니다. 현재 M4 Pro MacBook Pro를 사용 중이며, 로컬 환경에서 Qwen 및 DeepSeek 모델을 구동하려는 계획을 가지고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "Electron 프레임워크를 활용한 데스크톱 컨트롤 플레인 인터페이스 제공",
-        "SSH를 통한 원격 서버 텔레메트리 모니터링 및 관리 기능",
-        "Ollama를 활용한 AI 모델 관리 및 원격 서버 제어 최적화"
+        "코딩 및 비즈니스 자동화 목적으로 256GB RAM 사양의 Mac Studio 구매를 검토 중임",
+        "Qwen 3.8+ 및 DeepSeek 4+와 같은 대규모 로컬 모델 구동을 목표로 함",
+        "기존 M4 Pro MacBook Pro를 주 개발 장비로 유지하며 보조 장비로 활용할 계획임"
+      ],
+      "tags": [
+        "Local AI",
+        "Mac Studio",
+        "LLM"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xk97wj",
+      "subreddit": "LanguageTechnology",
+      "title": "Tested whether AI noise cleaning improves transcription accuracy for Hindi-English audio. It makes it worse.",
+      "url": "https://www.reddit.com/r/LanguageTechnology/comments/1xk97wj/tested_whether_ai_noise_cleaning_improves/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 1,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T12:41:38",
+      "korean_summary": "힌디어-영어 혼용 오디오의 전사 정확도를 높이기 위해 AI 노이즈 제거를 적용했으나, 오히려 정확도가 떨어지는 현상을 실험을 통해 확인했습니다. 노이즈 제거 과정에서 세부 정보가 손실되어 ASR 모델이 잘못된 단어로 빈틈을 채우는 문제가 발생했습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "노이즈 제거 후 전사 결과가 원본보다 더 왜곡되거나 의미 없는 문장으로 변하는 현상이 관찰되었습니다.",
+        "신경망 기반 노이즈 제거가 필터링이 아닌 재구성을 수행하면서, ASR 모델이 의존하는 미세한 디테일을 제거하여 잘못된 예측을 유도할 수 있습니다.",
+        "코드 스위칭(언어 혼용) 상황에서 원본 오디오가 노이즈 제거된 오디오보다 더 정확하게 문맥을 파악하는 경향을 보였습니다."
       ],
       "tags": [
         "AI",
-        "RemoteManagement",
-        "Ollama",
-        "OpenSource"
+        "Speech_Recognition",
+        "ASR",
+        "AI_Audio"
       ],
       "source_modes": [
-        "rising"
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xk4ncq",
+      "subreddit": "OpenSourceAI",
+      "title": "building an open-source AI agent stack",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xk4ncq/building_an_opensource_ai_agent_stack/",
+      "external_link": null,
+      "score": "2",
+      "comments_count": 12,
+      "comment_sample_count": 0,
+      "pub_date": "2026-10-31T08:16:39",
+      "korean_summary": "사용자가 AI 에이전트를 프로덕션 환경에서 안정적으로 운영하기 위해 개발 중인 오픈소스 스택인 Dispach를 소개했습니다. 모델 선택을 넘어 실행 루프, 컨텍스트 관리, 인프라 등 복잡한 에이전트 운영 문제를 통합적으로 해결하는 것을 목표로 합니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "Dispach는 에이전트 하네스와 인프라를 결합하여 개발자가 핵심 기능 구축에 집중할 수 있도록 돕는 셀프 호스팅 가능 모델 불가지론적 스택입니다.",
+        "동일한 모델을 사용하더라도 하네스 설계에 따라 작업 성공률과 추론 비용이 크게 달라질 수 있음을 실험을 통해 확인하고 있습니다.",
+        "에이전트 배포 시 발생하는 복잡한 운영 문제를 해결하고 개발자 경험을 개선하는 것을 주요 과제로 삼고 있습니다."
+      ],
+      "tags": [
+        "Infrastructure",
+        "AI",
+        "AI Agent",
+        "Rust",
+        "Benchmark"
+      ],
+      "source_modes": [
+        "top_day"
       ],
       "rank_score": 0.0,
       "detail_fetch_mode": "json_api",
