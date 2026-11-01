@@ -1,0 +1,812 @@
+{
+  "source": "community",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:03:10.920913+09:00",
+  "count": 26,
+  "daily_summary": "오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_key_points": [
+    "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+  ],
+  "daily_tags": [
+    "AI",
+    "LLM",
+    "프랑스",
+    "Agent",
+    "Cybersecurity"
+  ],
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Patrick Stewart has died\n📝 배우 패트릭 스튜어트의 별세 소식이 전해지며 그가 남긴 예술적 업적과 삶의 태도에 대한 추모가 이어지고 있습니다. 커뮤니티에서는 그의 연기 철학과 사회적 영향력을 되새기는 반응이 주를 이룹워크.\n\n📍 GeekNews / Hada · 전 Meta 연구원, 해적판 도서를 토렌트로 받은 뒤 ‘소송 때문에’ 삭제\n📝 이번 사건은 대규모 언어 모델(LLM) 학습을 위한 데이터 수집 과정에서 발생하는 저작권 침해와 데이터셋의 적법성 문제를 정면으로 다루고 있습니다. 향후 AI 모델 학습용 데이터의 출처와 배포 경로에 대한 법적 책임 공방이 더욱 치열해질 것으로 전망됩니다.\n\n📍 Reddit · llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU\n📝 2006년형 아이팟 비디오 5.5G 모델에서 llama2.c의 TinyStories 모델을 구동하는 데 성공한 기술적 시도가 공유되었습니다. FPU가 없는 저사양 하드웨어의 한계를 극복하기 위해 정수 연산과 룩업 테이블을 활용한 최적화가 이루어졌습니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "items": [
+    {
+      "id": "hacker-news-50294702",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Patrick Stewart has died",
+      "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+      "summary": "배우 패트릭 스튜어트의 별세 소식이 전해지며 그가 남긴 예술적 업적과 삶의 태도에 대한 추모가 이어지고 있습니다. 커뮤니티에서는 그의 연기 철학과 사회적 영향력을 되새기는 반응이 주를 이룹워크.",
+      "article_summary": "뉴욕타임즈 보도에 따르면 배우 패트릭 스튜어트가 별세했습니다. 그는 스타 트렉 시리즈 등 다양한 작품을 통해 독보적인 연기력을 선보였으며, 위키피디아 등 기록을 통해 그의 생애와 예술적 성취가 확인됩니다.",
+      "external_article_summary": "뉴욕타임즈 보도에 따르면 배우 패트릭 스튜어트가 별세했습니다. 그는 스타 트렉 시리즈 등 다양한 작품을 통해 독보적인 연기력을 선보였으며, 위키피디아 등 기록을 통해 그의 생애와 예술적 성취가 확인됩니다.",
+      "discussion_summary": "그의 캐릭터가 보여준 단호하면서도 자애로운 리더십이 현대적 관리 방식에 영감을 주었다는 찬사가 이어지고 있습니다. 또한 팬들은 팬데믹 기간 중 셰익스피어 소네트를 낭독하며 대중에게 위로를 전했던 그의 행보를 높게 평가합니다.",
+      "key_points": [
+        "패트릭 스튜어트의 별세로 인한 전 세계적인 추모 물결이 일고 있습니다.",
+        "그의 캐릭터는 확고한 도덕성과 이성적인 리더십의 전형을 보여주었습니다.",
+        "팬들은 그가 어려운 시기에 보여준 예술적 헌신을 기억하고 있습니다."
+      ],
+      "tags": [
+        "패트릭 스튜어트",
+        "별세",
+        "스타 트렉"
+      ],
+      "published_at_kst": "2026-10-30T04:41:39+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50294702",
+      "rank": 1,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50294702"
+      },
+      "score": 3303,
+      "comments_count": 753
+    },
+    {
+      "id": "hacker-news-50319510",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summary": "Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 개발되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 양질의 콘텐츠를 소비하려는 시도입니다.",
+      "article_summary": "개발자는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건을 추출하여 영상 추천 데이터를 정제했습니다. Claude Code와 Opus 5.5를 활용해 6,454개의 영상을 선별하고, 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하는 방식의 UI를 구축했습니다. 이 서비스는 썸네일 최적화와 키보드 단축키를 지원하며, 데이터 내보내기 기능을 통해 사용자가 직접 개인화된 버전을 만들 수 있도록 설계되었습니다.",
+      "external_article_summary": "개발자는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건을 추출하여 영상 추천 데이터를 정제했습니다. Claude Code와 Opus 5.5를 활용해 6,454개의 영상을 선별하고, 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하는 방식의 UI를 구축했습니다. 이 서비스는 썸네일 최적화와 키보드 단축키를 지원하며, 데이터 내보내기 기능을 통해 사용자가 직접 개인화된 버전을 만들 수 있도록 설계되었습니다.",
+      "discussion_summary": "콘텐츠 추천 시스템이 중앙 집중형에서 개인화된 피드 분산형으로 변화할 수 있는 기회라는 긍정적 전망이 제시되었습니다. 또한, 이와 유사한 방식으로 도서 추천 서비스를 만드는 등 데이터 기반의 큐레이션 서비스 확장에 대한 기대감이 나타나고 있습니다.",
+      "key_points": [
+        "LLM을 활용해 방대한 커뮤니티 데이터를 정제하고 서비스로 구현하는 자동화된 개발 프로세스를 보여줍니다.",
+        "중앙 집중식 알고리즘 대신 커뮤니티의 신뢰를 기반으로 한 콘텐츠 큐레이션 모델을 제시합니다.",
+        "사용자 계정 없이 로컬 세션을 활용하는 프라이버시 중심의 UI/UX 설계를 적용했습니다."
+      ],
+      "tags": [
+        "HackerNews",
+        "LLM",
+        "Content Curation",
+        "Automation"
+      ],
+      "published_at_kst": "2026-11-01T04:56:53+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50319510",
+      "rank": 2,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50319510"
+      },
+      "score": 1957,
+      "comments_count": 489
+    },
+    {
+      "id": "hacker-news-50296470",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "summary": "바이낸스에서 발생한 56억 달러 규모의 대규모 해킹 사건과 그에 따른 자산 동결 현황을 다루고 있습니다. 보안 사고의 원인으로 DevOps 엔지니어의 기기 탈취 가능성이 제기되며 보안 관리의 중요성이 부각되었습니다.",
+      "article_summary": "바이낸스에서 약 56억 달러 규모의 자산이 탈취되는 보안 사고가 발생했습니다. 초기 조사 결과, 보안 사고의 원인은 DevOps 엔지니어의 노트북이 해킹되어 내부 권한이 노출되었을 가능성이 있는 것으로 나타났습니다. 현재 탈취된 자산 중 약 24억 달러 규모의 자산은 Circle과 Tether에 의해 동결된 상태이며, 이 중 9억 7,115만 USDT가 이더리움 네트워크를 통해 이동한 기록이 확인되었습니다.",
+      "external_article_summary": "바이낸스에서 약 56억 달러 규모의 자산이 탈취되는 보안 사고가 발생했습니다. 초기 조사 결과, 보안 사고의 원인은 DevOps 엔지니어의 노트북이 해킹되어 내부 권한이 노출되었을 가능성이 있는 것으로 나타났습니다. 현재 탈취된 자산 중 약 24억 달러 규모의 자산은 Circle과 Tether에 의해 동결된 상태이며, 이 중 9억 7,115만 USDT가 이더리움 네트워크를 통해 이동한 기록이 확인되었습니다.",
+      "discussion_summary": "탈취된 자산 중 약 24억 달러가 이미 동결되었다는 구체적인 자산 흐름에 대한 정보 공유와, 보안 사고의 책임이 DevOps 엔지니어의 개인 기기 관리 소홀에 있는지 혹은 시스템적 결함에 있는지에 대한 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "56억 달러 규모의 자산 탈취 사고가 발생했으며 일부 자산은 이미 동결되었습니다.",
+        "DevOps 엔지니어의 노트북이 탈취되어 보안 사고가 발생했을 가능성이 제기되었습니다.",
+        "엔지니어 개인의 보안 관리 실패와 기업 차원의 인프라 보안 체계 사이의 책임 소재가 핵심 쟁점입니다."
+      ],
+      "tags": [
+        "Binance",
+        "Hacking",
+        "DevOps",
+        "Cybersecurity",
+        "Crypto"
+      ],
+      "published_at_kst": "2026-10-30T06:38:59+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50296470",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50296470"
+      },
+      "score": 1757,
+      "comments_count": 1256
+    },
+    {
+      "id": "hacker-news-50289418",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "summary": "Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.",
+      "article_summary": "Mistral Large 4(Le Chonk)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 제공합니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 입지를 강화했습니다.",
+      "external_article_summary": "Mistral Large 4(Le Chonk)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 제공합니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 입지를 강화했습니다.",
+      "discussion_summary": "사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하고 있습니다. 또한, 악성 요청에 대한 거부율이 96.6%에 달하는 높은 보안 수치가 실질적인 보안 성능을 의미하는지에 대한 기술적 논쟁이 존재합니다.",
+      "key_points": [
+        "1조 파라미터 규모의 멀티모달 모델로 코딩과 보안 분야에서 강력한 성능을 제공합니다.",
+        "강화 학습을 통해 추론 효율성을 높여 인퍼런스 비용을 낮추고 성능을 최적화했습니다.",
+        "유럽 기반의 데이터 주권 확보와 오픈 웨이트 모델로서의 신뢰성을 강조합니다."
+      ],
+      "tags": [
+        "Mistral",
+        "LLM",
+        "Open Source",
+        "Cybersecurity"
+      ],
+      "published_at_kst": "2026-10-29T23:13:21+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50289418",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50289418"
+      },
+      "score": 1714,
+      "comments_count": 438
+    },
+    {
+      "id": "hacker-news-50276998",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "summary": "웹 브라우저 핑거프린팅 스크립트를 분석하여 수집된 데이터의 위험성을 경고하는 기술적 탐구와 이에 대한 커뮤니티의 반응을 다룹니다.",
+      "article_summary": "작성자는 Playwright를 사용하여 Tranco Top 10,000 사이트를 크롤링하며 브라우저 핑거프린팅 스크립트를 역공학했습니다. canvas.toDataURL() 호출과 navigator.webdriver 속성을 활용해 핑거프린팅용 캔버스 데이터를 수집했으며, 이를 fingerprint.garden에 집계했습니다. 분석 결과 FingerprintJS나 Cloudflare Turnstile 같은 기존 솔루션 외에도 매우 정교하거나 독특한 형태의 캔버스 렌더링 스크립트들이 발견되었습니다.",
+      "external_article_summary": "작성자는 Playwright를 사용하여 Tranco Top 10,000 사이트를 크롤링하며 브라우저 핑거프린팅 스크립트를 역공학했습니다. canvas.toDataURL() 호출과 navigator.webdriver 속성을 활용해 핑거프린팅용 캔버스 데이터를 수집했으며, 이를 fingerprint.garden에 집계했습니다. 분석 결과 FingerprintJS나 Cloudflare Turnstile 같은 기존 솔루션 외에도 매우 정교하거나 독특한 형태의 캔버스 렌더링 스크립트들이 발견되었습니다.",
+      "discussion_summary": "수집된 데이터가 워터마킹처럼 식별자로 쓰일 수 있다는 점에 주목하며, 특정 LLM 모델이 보안 가이드라인을 우회하여 유사한 결과를 내놓는 현상에 대한 우려가 제기되었습니다. 또한 문서 보안을 위한 워터마킹 기술이 의도치 않게 정보를 노출할 수 있다는 실무적 사례가 공유되었습니다.",
+      "key_points": [
+        "Playwright와 캔버스 렌더링 기법을 결합한 대규모 브라우저 핑거프린팅 데이터 수집.",
+        "식별 가능한 픽셀 데이터를 생성하는 스크립트가 보안 및 프라이버시 위협이 될 수 있음.",
+        "자동화된 봇 탐지와 사용자 식별을 위한 기술적 수단이 데이터 유출로 이어질 가능성."
+      ],
+      "tags": [
+        "Fingerprinting",
+        "Browser Security",
+        "Reverse Engineering",
+        "Privacy"
+      ],
+      "published_at_kst": "2026-10-29T02:13:29+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50276998",
+      "rank": 5,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50276998"
+      },
+      "score": 1592,
+      "comments_count": 308
+    },
+    {
+      "id": "hacker-news-50271640",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Apple's git still trusts the compromised eMudhra certificates",
+      "url": "https://emudhra.we-have-a-problem.com/apple.html",
+      "summary": "eMudhra 인증서 유출 사고 이후에도 Apple의 macOS 시스템이 해당 인증서를 여전히 신뢰함에 따라 Git 등 시스템 도구의 보안이 위협받고 있습니다. 사용자들은 OS 레벨의 인증서 관리 방식이 다양한 개발 도구에 미치는 영향에 대해 우려하고 있습니다.",
+      "article_summary": "eMudhra의 인증서 보안 사고 이후 Apple의 macOS 시스템이 유출된 인증서를 여전히 신뢰 목록에 유지하고 있는 문제가 제기되었습니다. 이로 인해 macOS 시스템 기본 인증서 저장소(/etc/ssl 등)를 참조하는 Git과 같은 시스템 제공 유틸리티들이 보안 취약점에 노출되었습니다. 시스템 레벨의 인증서 관리 방식이 OS 기본 도구뿐만 아니라 이를 기반으로 동작하는 다양한 소프트웨어의 신뢰 체계에 영향을 미치고 있습니다.",
+      "external_article_summary": "eMudhra의 인증서 보안 사고 이후 Apple의 macOS 시스템이 유출된 인증서를 여전히 신뢰 목록에 유지하고 있는 문제가 제기되었습니다. 이로 인해 macOS 시스템 기본 인증서 저장소(/etc/ssl 등)를 참조하는 Git과 같은 시스템 제공 유틸리티들이 보안 취약점에 노출되었습니다. 시스템 레벨의 인증서 관리 방식이 OS 기본 도구뿐만 아니라 이를 기반으로 동작하는 다양한 소프트웨어의 신뢰 체계에 영향을 미치고 있습니다.",
+      "discussion_summary": "macOS가 시스템 레벨의 인증서 목록을 즉각 업데이트하지 않아 발생하는 보안 위협에 대한 비판과, OS 기본 도구와 사용자 설치 도구 간의 신뢰 범위 설정에 대한 기술적 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "eMudhra 인증서 유출로 인해 macOS 시스템 도구의 보안 신뢰 체계가 무너졌습니다.",
+        "시스템 기본 인증서 저장소를 사용하는 Git, curl 등 다양한 유틸리티가 위험에 노출되었습니다.",
+        "OS 레벨의 인증서 관리 방식이 사용자 설치 소프트웨어의 보안까지 결정짓는 구조적 문제가 존재합니다."
+      ],
+      "tags": [
+        "Apple",
+        "macOS",
+        "Git",
+        "eMudhra",
+        "Certificate"
+      ],
+      "published_at_kst": "2026-10-28T20:03:40+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50271640",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50271640"
+      },
+      "score": 1200,
+      "comments_count": 413
+    },
+    {
+      "id": "hacker-news-50276792",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "summary": "Google의 새로운 Gemini 4 모델 라인업 발표와 이에 따른 모델 계층화 전략에 대한 기술적 논의를 다룹니다. 사용자들은 모델의 복잡한 구조와 실질적인 활용성 사이의 간극에 주목하고 있습니다.",
+      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 성능과 효율성을 최적화한 모델 라인업을 제시했습니다. 이번 발표는 모델의 크기와 용도에 따라 세분화된 아키텍처를 통해 다양한 컴퓨팅 환경에 대응하는 것을 목표로 합니다.",
+      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 성능과 효율성을 최적화한 모델 라인업을 제시했습니다. 이번 발표는 모델의 크기와 용도에 따라 세분화된 아키텍처를 통해 다양한 컴퓨팅 환경에 대응하는 것을 목표로 합니다.",
+      "discussion_summary": "모델의 명칭과 구조가 지나치게 복잡하여 사용자가 직관적으로 기능을 파악하기 어렵다는 비판과, 성능 중심의 Ultra 모델부터 효율 중심의 Pro 모델까지 계층화된 모델 라인업이 필요하다는 의견이 대립하고 있습니다.",
+      "key_points": [
+        "Gemini 4 모델 라인업의 복잡한 명칭 체계가 사용자 경험을 저해할 수 있다는 우려가 존재합니다.",
+        "최상위 성능의 Ultra 모델과 범용적인 Pro 모델로 이어지는 계층적 모델 전략이 논의의 핵심입니다.",
+        "프론티어 모델의 미래는 특정 용도에 최적화된 소수의 계층형 모델로 수렴할 가능성이 높습니다."
+      ],
+      "tags": [
+        "Gemini 4",
+        "LLM",
+        "Google AI"
+      ],
+      "published_at_kst": "2026-10-29T02:01:23+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50276792",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50276792"
+      },
+      "score": 1016,
+      "comments_count": 801
+    },
+    {
+      "id": "hacker-news-50300683",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summary": "Cursor Marketplace에 등록된 Claude Code VS Code 확장 프로그램에서 백도어가 발견되어 보안 경고가 발생했습니다. Anthropic은 이번 사건이 자사 시스템 침해는 아니며 Cursor 플랫폼을 통한 악성 코드 유포임을 명시했습니다.",
+      "article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code 확장 프로그램에 백도어를 심어 사용자 환경을 위협했습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램의 버전을 확인하여 악성 코드가 포함된 버전인지 점검해야 합니다.",
+      "external_article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code 확장 프로그램에 백도어를 심어 사용자 환경을 위협했습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램의 버전을 확인하여 악성 코드가 포함된 버전인지 점검해야 합니다.",
+      "discussion_summary": "Anthropic 직원이 직접 개입하여 이번 사고가 자사 시스템 침해가 아닌 Cursor 플랫폼의 보안 허점임을 명확히 밝히고 있습니다. 사용자들은 악성 확장 프로그램의 영향 범위를 확인하며 피해 방지를 위한 대응책을 공유하고 있습니다.",
+      "key_points": [
+        "Cursor Marketplace를 통해 배포된 Claude Code 확장 프로그램에 백도어가 포함되었습니다.",
+        "이번 보안 사고는 Anthropic 시스템이 아닌 Cursor 플랫폼의 접근 권한을 악용한 공격입니다.",
+        "사용자는 설치된 확장 프로그램의 무결성을 즉시 확인하고 보안 업데이트를 적용해야 합니다."
+      ],
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "Backdoor",
+        "VS Code",
+        "Security"
+      ],
+      "published_at_kst": "2026-10-30T16:09:12+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50300683",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50300683"
+      },
+      "score": 987,
+      "comments_count": 551
+    },
+    {
+      "id": "hacker-news-50314654",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Serbia just elected the world's brainiest parliament",
+      "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+      "summary": "세르비아에서 고학력 전문가 중심의 의회가 선출된 사건과 이에 따른 정치적 역량 및 전문성 논쟁을 다룹니다.",
+      "article_summary": "세르비아 선거에서 학생 운동 세력이 주도하여 고학력 전문가들이 대거 의회로 진출하는 이례적인 결과가 나타났습니다. 이번 선거 결과는 학문적 성취가 높은 인물들이 정치적 의사결정 과정에 대거 참여하게 된 상황을 보여줍니다.",
+      "external_article_summary": "세르비아 선거에서 학생 운동 세력이 주도하여 고학력 전문가들이 대거 의회로 진출하는 이례적인 결과가 나타났습니다. 이번 선거 결과는 학문적 성취가 높은 인물들이 정치적 의사결정 과정에 대거 참여하게 된 상황을 보여줍니다.",
+      "discussion_summary": "새로운 정치 세력의 다양성 확보를 성과로 보는 옹호론과, 박사급 전문가들의 과도한 자신감이 정치적 판단 오류를 야기할 수 있다는 비판론이 대립하고 있습니다.",
+      "key_points": [
+        "학생 운동 세력의 성공적인 정치 진출로 의회의 인적 구성이 변화했습니다.",
+        "전문가 집단의 정치 참여가 가져올 정부 구성 방식에 대한 불확실성이 존재합니다.",
+        "고학력자의 정치적 의사결정 시 발생할 수 있는 오만함과 실무적 역량 사이의 충돌이 쟁점입니다."
+      ],
+      "tags": [
+        "세르비아",
+        "선거",
+        "전문가 정치"
+      ],
+      "published_at_kst": "2026-10-31T19:21:30+09:00",
+      "category": "정책/사회 이슈",
+      "canonical_path": "/community/hacker-news-50314654",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50314654"
+      },
+      "score": 889,
+      "comments_count": 493
+    },
+    {
+      "id": "hacker-news-50282454",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "summary": "StackOverflow의 월간 질문 수가 1,000건 미만으로 급감하며 개발자 커뮤니티의 변화를 보여주고 있습니다. AI 기술의 등장과 기존의 하락세가 맞물리며 지식 공유 플랫폼의 위기가 현실화되었습니다.",
+      "article_summary": "StackOverflow의 데이터에 따르면 월간 질문 생성 수가 1,000건 미만으로 떨어지는 심각한 하락세를 보였습니다. 이는 AI 기반 코딩 어시스턴트의 보급과 더불어 기존부터 이어져 온 질문 수 감소 추세가 결합된 결과로 분석됩니다. 데이터 분석 결과, AI가 등장하기 전부터 이미 질문 수는 급격히 감소하고 있었습니다.",
+      "external_article_summary": "StackOverflow의 데이터에 따르면 월간 질문 생성 수가 1,000건 미만으로 떨어지는 심각한 하락세를 보였습니다. 이는 AI 기반 코딩 어시스턴트의 보급과 더불어 기존부터 이어져 온 질문 수 감소 추세가 결합된 결과로 분석됩니다. 데이터 분석 결과, AI가 등장하기 전부터 이미 질문 수는 급격히 감소하고 있었습니다.",
+      "discussion_summary": "AI가 질문 감소의 결정적 원인이라는 분석과, AI 등장 이전부터 이미 시작된 하락세가 AI에 의해 가속화되었다는 분석이 대립하고 있습니다. 또한 과거와 달리 개발자들이 더 이상 StackOverflow를 방문하지 않는 현상에 대한 우려가 제기되었습니다.",
+      "key_points": [
+        "StackOverflow의 월간 질문 수가 1,000건 미만으로 급감하며 플랫폼의 영향력이 약화되었습니다.",
+        "AI 코딩 도구의 발전이 기존의 질문 감소 추세를 가속화하는 촉매제 역할을 했습니다.",
+        "지식 공유 플랫폼이 AI 기반의 자동 답변 시스템과 어떻게 공존할 것인지가 핵심 과제로 떠올랐습니다."
+      ],
+      "tags": [
+        "StackOverflow",
+        "AI",
+        "Software Development",
+        "Knowledge Sharing"
+      ],
+      "published_at_kst": "2026-10-29T08:35:02+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50282454",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50282454"
+      },
+      "score": 847,
+      "comments_count": 753
+    },
+    {
+      "id": "hada-36409",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "전 Meta 연구원, 해적판 도서를 토렌트로 받은 뒤 ‘소송 때문에’ 삭제",
+      "url": "https://news.hada.io/topic?id=36409",
+      "summary": "이번 사건은 대규모 언어 모델(LLM) 학습을 위한 데이터 수집 과정에서 발생하는 저작권 침해와 데이터셋의 적법성 문제를 정면으로 다루고 있습니다. 향후 AI 모델 학습용 데이터의 출처와 배포 경로에 대한 법적 책임 공방이 더욱 치열해질 것으로 전망됩니다.",
+      "article_summary": "전 Meta 연구원 Stephen Roller가 저작권이 있는 도서 데이터셋인 'Books3'를 토렌트를 통해 내려받고 배포했다는 증언이 제기되었습니다. 저작권자들은 이러한 행위가 Meta의 Llama 모델 학습 데이터 확보 과정과 직결된다며 데이터 출처에 대한 엄격한 조사를 요구하고 있습니다. 법원은 지난해 도서 데이터를 활용한 Llama 학습을 공정 이용(Fair Use) 범위 내에 있다고 판단한 바 있으나, 이번 증언은 데이터 수집의 적법성에 새로운 쟁점을 던지고 있습니다.",
+      "external_article_summary": "전 Meta 연구원 Stephen Roller가 저작권이 있는 도서 데이터셋인 'Books3'를 토렌트를 통해 내려받고 배포했다는 증언이 제기되었습니다. 저작권자들은 이러한 행위가 Meta의 Llama 모델 학습 데이터 확보 과정과 직결된다며 데이터 출처에 대한 엄격한 조사를 요구하고 있습니다. 법원은 지난해 도서 데이터를 활용한 Llama 학습을 공정 이용(Fair Use) 범위 내에 있다고 판단한 바 있으나, 이번 증언은 데이터 수집의 적법성에 새로운 쟁점을 던지고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "전 Meta 연구원이 저작권 침해 의혹이 있는 Books3 데이터셋을 토렌트로 수집했다는 증언이 나왔습니다.",
+        "저작권자들은 Meta가 학습 데이터 확보 과정에서 불법적인 경로를 활용했을 가능성을 제기하며 조사를 요구 중입니다.",
+        "법원의 공정 이용 판단에도 불구하고, 데이터 수집 방식의 윤리성과 적법성이 향후 소송의 핵심 변수가 될 전망입니다."
+      ],
+      "tags": [
+        "Llama",
+        "AI학습데이터",
+        "Books3",
+        "Meta",
+        "저작권"
+      ],
+      "published_at_kst": "2026-11-02T03:57:17+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36409",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36409"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36408",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "프랑스 의원들, 인터넷 트래픽 1GB당 0.055유로 과세안 승인",
+      "url": "https://news.hada.io/topic?id=36408",
+      "summary": "이번 과세안은 데이터 트래픽 발생량에 직접적인 세금을 부과하여 디지털 인프라 비용을 수익자에게 전가하려는 시도입니다. 이는 향후 글로벌 빅테크 기업의 네트워크 비용 부담과 국가별 디지털 과세 정책의 선례가 될 수 있습니다.",
+      "article_summary": "프랑스 하원은 2027년 예산법안 심의 과정에서 디지털 데이터 송출량에 따라 과세하는 수정안을 찬성 11표, 반대 10표로 가결했습니다. 해당 안은 프랑스 내 네트워크 진입 지점에서 발생하는 물리적 데이터량을 기준으로 1GB당 0.055유로를 부과하는 방식을 담고 있습니다. 발의 측은 이 제도가 글로벌 디지털 대기업의 데이터 트래픽 비용을 분담시키는 데 목적이 있다고 설명했습니다.",
+      "external_article_summary": "프랑스 하원은 2027년 예산법안 심의 과정에서 디지털 데이터 송출량에 따라 과세하는 수정안을 찬성 11표, 반대 10표로 가결했습니다. 해당 안은 프랑스 내 네트워크 진입 지점에서 발생하는 물리적 데이터량을 기준으로 1GB당 0.055유로를 부과하는 방식을 담고 있습니다. 발의 측은 이 제도가 글로벌 디지털 대기업의 데이터 트래픽 비용을 분담시키는 데 목적이 있다고 설명했습니다.",
+      "discussion_summary": "데이터 송출량에 따른 과세가 글로벌 빅테크 기업에 실질적인 부담을 줄 것이라는 찬성 측과, 새로운 과세 체계의 형평성 및 기술적 복잡성을 우려하는 반대 측이 팽팽하게 맞섰습니다.",
+      "key_points": [
+        "프랑스 하원은 1GB당 0.055유로를 부과하는 디지털 데이터 송출 과세안을 통과시켰습니다.",
+        "과세 기준은 프랑스 내 네트워크 진입 지점에서 측정되는 물리적 데이터량입니다.",
+        "이번 조치는 데이터 트래픽을 대량으로 발생시키는 글로벌 디지털 기업을 주요 타깃으로 합니다."
+      ],
+      "tags": [
+        "빅테크",
+        "프랑스",
+        "디지털과세",
+        "데이터트래픽"
+      ],
+      "published_at_kst": "2026-11-02T03:54:17+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36408",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36408"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36407",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Anthropic, IPO 이후 정크 등급 중 상위 등급 받을 전망",
+      "url": "https://news.hada.io/topic?id=36407",
+      "summary": "Anthropic의 신용 등급 전망은 AI 기업의 막대한 자본 지출과 수익 모델 사이의 균형을 보여줍니다. 이는 상장 시점의 재무 건전성이 기술적 우위만큼이나 중요한 기업 가치 결정 요소가 될 것임을 의미합니다.",
+      "article_summary": "Blackstone은 Anthropic이 향후 IPO를 거친 후 투기 등급 중 상위 구간인 BB 등급을 받을 것으로 전망했습니다. 기존에는 2027년 이전 투자적격등급(Investment Grade) 진입을 예상했으나, 최근 시장 상황을 반영하여 정크 등급 최상위 수준의 신용도를 예측했습니다. 이는 기업의 재무 구조와 시장 가치 평가가 상장 시점의 신용 등급에 직접적인 영향을 미칠 것임을 시사합니다.",
+      "external_article_summary": "Blackstone은 Anthropic이 향후 IPO를 거친 후 투기 등급 중 상위 구간인 BB 등급을 받을 것으로 전망했습니다. 기존에는 2027년 이전 투자적격등급(Investment Grade) 진입을 예상했으나, 최근 시장 상황을 반영하여 정크 등급 최상위 수준의 신용도를 예측했습니다. 이는 기업의 재무 구조와 시장 가치 평가가 상장 시점의 신용 등급에 직접적인 영향을 미칠 것임을 시사합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Blackstone은 Anthropic이 IPO 이후 BB 등급의 신용등급을 받을 것으로 예측했습니다.",
+        "기존의 2027년 이전 투자적격등급 진입 전망이 정크 등급 최상위 구간 전망으로 수정되었습니다.",
+        "신용평가사의 확정 등급이 아니므로 향후 재무 지표에 따라 변동될 수 있습니다."
+      ],
+      "tags": [
+        "신용등급",
+        "IPO",
+        "Blackstone",
+        "Anthropic"
+      ],
+      "published_at_kst": "2026-11-02T03:51:17+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36407",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36407"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36406",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Minecraft 속 AI 에이전트 군집, 문명 건설에 실패하고 관료주의에 빠지다",
+      "url": "https://news.hada.io/topic?id=36406",
+      "summary": "멀티 에이전트 시스템이 복잡한 목표를 수행할 때, 개별 에이전트의 국소적 최적화와 의사결정 비용이 전체 시스템의 목표 달성을 저해할 수 있음을 보여줍니다. 이는 향후 자율형 AI 군집 설계 시 목표 정렬과 효율적인 거버넌스 구조가 핵심 과제임을 시사합니다.",
+      "article_summary": "Y Combinator와 Olam Labs가 진행한 'Civ50' 실험에서 50개의 AI 에이전트는 3시간 내에 번성하는 문명을 건설하라는 과제를 부여받았습니다. 그러나 에이전트들은 초기 목표인 문명 건설 대신 자원 확보와 생존을 위한 조심스러운 움직임에 매몰되었습니다. 특히 4개의 에이전트가 밀 블록 하나를 관리하기 위해 과도한 관료적 절차를 거치는 등 효율적인 목표 달치 대신 복잡한 의사결정 루프에 빠지는 현상이 관찰되었습니다.",
+      "external_article_summary": "Y Combinator와 Olam Labs가 진행한 'Civ50' 실험에서 50개의 AI 에이전트는 3시간 내에 번성하는 문명을 건설하라는 과제를 부여받았습니다. 그러나 에이전트들은 초기 목표인 문명 건설 대신 자원 확보와 생존을 위한 조심스러운 움직임에 매몰되었습니다. 특히 4개의 에이전트가 밀 블록 하나를 관리하기 위해 과도한 관료적 절차를 거치는 등 효율적인 목표 달치 대신 복잡한 의사결정 루프에 빠지는 현상이 관찰되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "50개의 AI 에이전트가 참여한 Civ50 실험에서 문명 건설 목표 달성에 실패했습니다.",
+        "에이전트들이 초기 목표를 포기하고 생존과 관료적 절차에 매몰되는 현상이 발생했습니다.",
+        "자원 활용 과정에서 발생하는 과도한 의사결정 비용이 시스템 전체의 효율을 저하시켰습니다."
+      ],
+      "tags": [
+        "AI",
+        "Civ50",
+        "AI 에이전트",
+        "멀티 에이전트 시스템",
+        "AI 거버넌스"
+      ],
+      "published_at_kst": "2026-11-02T03:48:17+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36406",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36406"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36405",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show GN: EBS Gurapinggala Teacher - 거짓말 에이전트",
+      "url": "https://news.hada.io/topic?id=36405",
+      "summary": "이 프로젝트는 AI가 생성하는 허위 정보를 역으로 교육적 도구로 활용하는 실험적인 접근 방식을 보여줍니다. 기술적으로는 생성형 AI의 환각 현상을 통제된 교육 환경 내에서 실험적 변수로 전환하려는 시도라는 점에서 의미가 있습니다.",
+      "article_summary": "EBS Gurapinggala Teacher는 학생들의 AI 상호작용 실험을 위해 개발된 거짓말 생성 AI 에이전트와 교사용 모니터링 대시보드 프로젝트입니다. 이 시스템은 AI가 의도적으로 거짓 정보를 생성하는 환경을 구축하여 학생들의 비판적 사고를 유도하는 데 목적이 있습니다. GitHub 저장소를 통해 공개된 이 도구는 학생의 대화 데이터와 교사의 관리 기능을 결합한 교육용 실험 프레임워크를 제공합니다.",
+      "external_article_summary": "EBS Gurapinggala Teacher는 학생들의 AI 상호작용 실험을 위해 개발된 거짓말 생성 AI 에이전트와 교사용 모니터링 대시보드 프로젝트입니다. 이 시스템은 AI가 의도적으로 거짓 정보를 생성하는 환경을 구축하여 학생들의 비판적 사고를 유도하는 데 목적이 있습니다. GitHub 저장소를 통해 공개된 이 도구는 학생의 대화 데이터와 교사의 관리 기능을 결합한 교육용 실험 프레임워크를 제공합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "EBS에서 학생 대상 AI 실험을 목적으로 개발한 거짓말 에이전트 및 모니터링 도구입니다.",
+        "AI가 의도적으로 거짓말을 하는 환경을 통해 학생들의 비판적 사고 능력을 테스트합니다.",
+        "GitHub를 통해 프로젝트 소스 코드가 공개되어 있습니다."
+      ],
+      "tags": [
+        "에이전트",
+        "AI 교육",
+        "생성형 AI",
+        "EBS"
+      ],
+      "published_at_kst": "2026-11-02T03:41:19+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36405",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36405"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36404",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Tangled, 프런트엔드 접근성 전문가를 고용하라",
+      "url": "https://news.hada.io/topic?id=36404",
+      "summary": "UI 설계 시 최소 폰트 크기와 행간 설정이 확대 시의 가독성에 미치는 영향을 간과하면 접근성 위반이 발생할 수 있습니다. 개발자는 텍스트 확대 환경에서도 레이아웃이 깨지지 않도록 유연한 단위와 구조를 설계해야 합니다.",
+      "article_summary": "Tangled의 새로운 UI는 12px 글자 크기와 16px 줄 높이를 적용했으나, 텍스트 확대 시 문자가 잘리는 접근성 결함이 발견되었습니다. WCAG 2.2 가이드라인은 최소 글자 크기를 명시하지 않지만, 텍스트를 200%까지 확대해도 콘텐츠와 기능이 유지되어야 함을 강조합니다. 이러한 설계는 가독성과 접근성 측면에서 심각한 문제를 야기할 수 있습니다.",
+      "external_article_summary": "Tangled의 새로운 UI는 12px 글자 크기와 16px 줄 높이를 적용했으나, 텍스트 확대 시 문자가 잘리는 접근성 결함이 발견되었습니다. WCAG 2.2 가이드라인은 최소 글자 크기를 명시하지 않지만, 텍스트를 200%까지 확대해도 콘텐츠와 기능이 유지되어야 함을 강조합니다. 이러한 설계는 가독성과 접근성 측면에서 심각한 문제를 야기할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Tangled의 새 UI는 12px 글자 크기와 16px 줄 높이를 사용하여 텍스트 확대 시 문자가 잘리는 문제가 발생합니다.",
+        "WCAG 2.2 기준에 따르면 텍스트를 200% 확대하더라도 콘텐츠의 손실이나 기능 저하가 없어야 합니다.",
+        "접근성을 고려한 프런트엔드 설계는 단순히 디자인을 구현하는 것을 넘어 다양한 사용자 환경을 보장해야 합니다."
+      ],
+      "tags": [
+        "Frontend",
+        "Web Accessibility",
+        "UI/UX"
+      ],
+      "published_at_kst": "2026-11-02T03:01:59+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36404",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36404"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36403",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "프랑스 디지털세, 비영리 단체 VideoLAN의 존립을 위협할 수 있음",
+      "url": "https://news.hada.io/topic?id=36403",
+      "summary": "정부의 디지털세 도입이 비영리 오픈소스 재단에 예기치 못한 재정적 압박을 가하며 기술 생태계의 지속 가능성 문제를 야기하고 있습니다. 이는 과세 대상의 정의와 비영리 단체의 운영 방식 사이의 법적 충돌 가능성을 시사합니다.",
+      "article_summary": "프랑스 의회에서 통과된 새로운 디지털세 법안으로 인해 비영리 단체인 VideoLAN이 연간 100만 유로 이상의 막대한 세금 부담을 안게 될 위기에 처했습니다. 해당 세금은 이미 의회 표결을 통과한 상태지만, 구체적인 과세 방식이나 정확한 시행 시점은 아직 명시되지 않았습니다. VideoLAN 측은 이번 과세가 단체의 존립을 위협할 수 있는 심각한 경제적 타격이 될 것이라고 경고했습니다.",
+      "external_article_summary": "프랑스 의회에서 통과된 새로운 디지털세 법안으로 인해 비영리 단체인 VideoLAN이 연간 100만 유로 이상의 막대한 세금 부담을 안게 될 위기에 처했습니다. 해당 세금은 이미 의회 표결을 통과한 상태지만, 구체적인 과세 방식이나 정확한 시행 시점은 아직 명시되지 않았습니다. VideoLAN 측은 이번 과세가 단체의 존립을 위협할 수 있는 심각한 경제적 타격이 될 것이라고 경고했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "프랑스 의회의 디지털세 통과로 인해 VideoLAN은 연간 100만 유로 이상의 비용을 부담할 위험에 처했습니다.",
+        "현재 세금 부과에 대한 법안은 통과되었으나 구체적인 과세 방식과 시행 시점은 확정되지 않았습니다.",
+        "비영리 단체에 대한 디지털세 적용이 오픈소스 소프트웨어 생태계에 미칠 영향이 우려됩니다."
+      ],
+      "tags": [
+        "디지털세",
+        "세금",
+        "프랑스",
+        "오픈소스",
+        "VideoLAN"
+      ],
+      "published_at_kst": "2026-11-02T02:50:10+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36403",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36403"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36402",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "프랑스, 콘텐츠 제공업체에 다운로드세 도입(GB당 0.055유로)",
+      "url": "https://news.hada.io/topic?id=36402",
+      "summary": "이번 조치는 대규모 트래픽을 발생시키는 플랫폼 기업에 네트워크 인프라 유지 비용을 직접 부과하려는 시도입니다. 이는 데이터 전송량에 따른 과세 체계를 구축하여 통신 인프라 비용을 콘텐츠 제공업체와 분담하려는 정책적 변화를 의미합니다.",
+      "article_summary": "프랑스 정부가 콘텐츠 제공업체를 대상으로 데이터 사용량에 따른 '다운로드세' 도입을 추진합니다. 해당 세금은 데이터 전송량 1GB당 0.055유로를 부과하는 방식으로 설계되었습니다. 이는 대규모 트래픽을 유발하는 글로벌 콘텐츠 기업의 네트워크 비용 분담을 목적으로 합니다.",
+      "external_article_summary": "프랑스 정부가 콘텐츠 제공업체를 대상으로 데이터 사용량에 따른 '다운로드세' 도입을 추진합니다. 해당 세금은 데이터 전송량 1GB당 0.055유로를 부과하는 방식으로 설계되었습니다. 이는 대규모 트래픽을 유발하는 글로벌 콘텐츠 기업의 네트워크 비용 분담을 목적으로 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "프랑스가 콘텐츠 제공업체를 대상으로 GB당 0.055유로의 다운로드세를 도입합니다.",
+        "데이터 전송량에 비례하여 세금을 부과하는 방식이 핵심입니다.",
+        "대규모 트래픽을 유발하는 기업의 네트워크 비용 책임을 강화하는 정책입니다."
+      ],
+      "tags": [
+        "다운로드세",
+        "콘텐츠제공업체",
+        "프랑스",
+        "네트워크비용"
+      ],
+      "published_at_kst": "2026-11-02T02:47:10+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36402",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36402"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36401",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Lenovo의 ‘암호화’ 지문 인식 USB, 실제로는 케이스에 담긴 암호화되지 않은 SD 카드",
+      "url": "https://news.hada.io/topic?id=36401",
+      "summary": "이번 사건은 하드웨어 보안 기능이 데이터 암호화와 별개로 작동할 때 발생하는 치명적인 설계 결함을 보여줍니다. 물리적 접근이 가능한 상황에서 암호화되지 않은 저장 매체를 사용하는 것은 보안 제품으로서의 본질적인 가치를 상실한 것입니다.",
+      "article_summary": "보안 연구원 Xusheng Li는 AES-256 암호화 기능을 탑재했다고 홍보된 Lenovo ThinkPlus FU100 USB 드라이브의 취약점을 발견했습니다. 조사 결과, 해당 기기 내부에는 암호화되지 않은 일반 SD 카드가 탑재되어 있어 데이터가 평문 상태로 저장되어 있었습니다. 지문 인식 기능은 단순히 USB 연결만 제어할 뿐, 저장된 데이터 자체를 보호하는 암호화 로직은 구현되지 않은 것으로 밝혀졌습니다.",
+      "external_article_summary": "보안 연구원 Xusheng Li는 AES-256 암호화 기능을 탑재했다고 홍보된 Lenovo ThinkPlus FU100 USB 드라이브의 취약점을 발견했습니다. 조사 결과, 해당 기기 내부에는 암호화되지 않은 일반 SD 카드가 탑재되어 있어 데이터가 평문 상태로 저장되어 있었습니다. 지문 인식 기능은 단순히 USB 연결만 제어할 뿐, 저장된 데이터 자체를 보호하는 암호화 로직은 구현되지 않은 것으로 밝혀졌습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Lenovo ThinkPlus FU100은 AES-256 암호화를 지원한다고 주장했으나 실제로는 암호화되지 않은 SD 카드를 사용했습니다.",
+        "지문 인식 기능은 단순한 인터페이스 제어 역할만 수행하며 데이터 보호를 위한 암호화 로직은 포함되지 않았습니다.",
+        "기기를 물리적으로 분해할 경우 저장된 모든 데이터가 보호 없이 노출될 수 있는 심각한 보안 취약점이 존재합니다."
+      ],
+      "tags": [
+        "보안취약점",
+        "USB",
+        "데이터보호",
+        "Lenovo"
+      ],
+      "published_at_kst": "2026-11-02T02:44:09+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36401",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36401"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36400",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Flock이 계약 해지를 무시하자 경찰서장이 카메라 전원을 차단함",
+      "url": "https://news.hada.io/topic?id=36400",
+      "summary": "공공 안전을 위한 기술 도입이 계약 종료 후 장비 철거 문제와 맞물리며 법적·물리적 갈등으로 번진 사례입니다. 이는 하드웨어와 소프트웨어가 결합된 서비스 계약에서 계약 해지 시 물리적 자산 회수 및 관리 주체에 대한 명확한 가이드라인이 필요함을 시사합니다.",
+      "article_summary": "미네소타주 플리머스 시의회가 Flock과의 계약 해지를 만장일치로 의결했으나, 업체 측이 장비 철거 요구에 응답하지 않자 경찰서장이 직접 카메라 전원선을 분리하도록 지시했습니다. 시 당국은 이미 사용자 계정 정지와 공식적인 계약 해지 통보를 완료했음에도 불구하고, 일주일 넘게 본사 및 법무 부서로부터 어떠한 답변도 받지 못한 상태입니다. 이번 조치는 계약 종료 후에도 물리적 장비가 철거되지 않는 상황을 해결하기 위한 강제적인 물리적 차단 방식이었습니다.",
+      "external_article_summary": "미네소타주 플리머스 시의회가 Flock과의 계약 해지를 만장일치로 의결했으나, 업체 측이 장비 철거 요구에 응답하지 않자 경찰서장이 직접 카메라 전원선을 분리하도록 지시했습니다. 시 당국은 이미 사용자 계정 정지와 공식적인 계약 해지 통보를 완료했음에도 불구하고, 일주일 넘게 본사 및 법무 부서로부터 어떠한 답변도 받지 못한 상태입니다. 이번 조치는 계약 종료 후에도 물리적 장비가 철거되지 않는 상황을 해결하기 위한 강제적인 물리적 차단 방식이었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "플리머스 시의회는 Flock과의 계약 해지를 만장일치로 결정했으나 업체가 철거 요구를 무시했습니다.",
+        "시 당국은 계정 정지 등 행정적 조치를 마쳤음에도 본사로부터 답변을 받지 못하자 직접 전원을 차단했습니다.",
+        "계약 종료 후 하드웨어 철거를 둘러싼 지자체와 기술 기업 간의 갈등이 발생했습니다."
+      ],
+      "tags": [
+        "Flock",
+        "계약해지",
+        "공공안전기술",
+        "지자체갈등"
+      ],
+      "published_at_kst": "2026-11-02T02:41:09+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36400",
+      "rank": 10,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36400"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "reddit-1xlboqi",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "llama2.c on a 2006 iPod @ 80 MHz w/ 64 MB ram and no FPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlboqi/llama2c_on_a_2006_ipod_80_mhz_w_64_mb_ram_and_no/",
+      "summary": "2006년형 아이팟 비디오 5.5G 모델에서 llama2.c의 TinyStories 모델을 구동하는 데 성공한 기술적 시도가 공유되었습니다. FPU가 없는 저사양 하드웨어의 한계를 극복하기 위해 정수 연산과 룩업 테이블을 활용한 최적화가 이루어졌습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "ARM7TDMI 80 MHz 및 64 MB RAM 사양의 구형 하드웨어에서 구동하기 위해 정수 연산 기반의 커스텀 플러그인을 개발했습니다.",
+        "FPU 부재를 해결하고자 exp/softmax를 위한 룩업 테이블과 RMSNorm을 위한 정수 제곱근 방식을 도입했습니다.",
+        "향후 듀얼 코어 활용 및 로컬 음악 추천 기능을 갖춘 아이팟 테마 모델 개발을 목표로 하고 있습니다."
+      ],
+      "tags": [
+        "Optimization",
+        "LLM",
+        "EmbeddedAI"
+      ],
+      "published_at_kst": "2026-11-01T19:15:26",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xlboqi",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "Error",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xhtav5",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Introducing papr-embed: schema-native embeddings, and open-weights embeddings for code retrieval",
+      "url": "https://www.reddit.com/r/Rag/comments/1xhtav5/introducing_paprembed_schemanative_embeddings_and/",
+      "summary": "코드 검색 및 스키마 기반 임베딩 모델인 papr-embed 시리즈가 출시되었습니다. 특히 오픈 웨이트 모델인 papr-embed-code-1은 MTEB 코드 리더보드에서 압도적인 성능을 기록하며 효율적인 코드 검색 능력을 입증했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "papr-embed-code-1은 4B 및 0.6B 파라미터 모델로 제공되며, MTEB의 다양한 코드 관련 리더보드에서 1위를 차지하는 등 뛰어난 제로샷 성능을 보여줍니다.",
+        "papr-embed-schema-1은 사용자가 도메인 특성을 스키마로 정의하면 벡터에 명시적이고 검사 가능한 차원으로 반영하는 스키마 네이티브 임베딩 기능을 제공합니다.",
+        "모든 모델은 Papr API를 통해 사용 가능하며, 코드 모델은 Hugging Face에 오픈 웨이트(Apache-2.0)로 공개되어 재현 가능한 성능을 제공합니다."
+      ],
+      "tags": [
+        "Code-Retrieval",
+        "Cloud",
+        "OpenSource",
+        "AI",
+        "Python"
+      ],
+      "published_at_kst": "2026-10-28T16:43:26",
+      "category": "Rag",
+      "canonical_path": "/community/reddit-1xhtav5",
+      "rank": null,
+      "subreddit": "Rag",
+      "score": "2",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xlblzo",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "AI Launcher for Android: an open-source launcher your coding agent customizes",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xlblzo/ai_launcher_for_android_an_opensource_launcher/",
+      "summary": "코딩 에이전트가 사용자의 환경에 맞춰 커스터마이징할 수 있는 오픈소스 안드로이드 런처가 소개되었습니다. 사용자의 코딩 작업 효율을 높이기 위해 설계된 새로운 형태의 모바일 인터페이스입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "코딩 에이전트가 직접 UI와 기능을 최적화하는 오픈소스 안드로이드 런처 개발",
+        "모바일 환경에서 코딩 작업 및 에이전트와의 상호작용을 용이하게 설계",
+        "사용자 맞춤형 인터페이스를 제공하는 오픈소스 프로젝트로서의 가치"
+      ],
+      "tags": [
+        "OpenSource",
+        "AI",
+        "AI Agent",
+        "Agent",
+        "Android"
+      ],
+      "published_at_kst": "2026-11-01T19:12:28",
+      "category": "OpenSourceAI",
+      "canonical_path": "/community/reddit-1xlblzo",
+      "rank": null,
+      "subreddit": "OpenSourceAI",
+      "score": "1",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xlakqc",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Context translation",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlakqc/context_translation/",
+      "summary": "게임 리버스 엔지니어링 방지를 위한 보안 조치에 대응하여, 모델에 전달되는 컨텍스트를 익명화하는 번역 레이어 도입 아이디어를 제안합니다. 에이전트가 수행하는 실제 작업 내용이 모델에 직접 노출되지 않도록 가상의 데이터로 치환하고 이를 다시 복원하는 방식입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "모델이 수행 중인 작업의 구체적인 정보(URL, 이름 등)를 가상의 데이터로 치환하여 모델에 전달하는 번역 레이어 개념 제안",
+        "에이전트가 수행하는 실제 작업과 모델이 받는 컨텍스트 사이의 간극을 유지하여 보안 및 역설계 방지 도모",
+        "모델에 전달된 가상 데이터를 다시 원래의 작업 내용으로 복원하는 매커니즘의 필요성 언급"
+      ],
+      "tags": [
+        "AI Security",
+        "Agent Architecture",
+        "Context Obfuscation",
+        "Agent"
+      ],
+      "published_at_kst": "2026-11-01T18:31:48",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xlakqc",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "0",
+      "comments_count": 6,
+      "comments": []
+    },
+    {
+      "id": "reddit-1n6mu58",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "🚀 Weekly /RAG Launch Showcase",
+      "url": "https://www.reddit.com/r/Rag/comments/1n6mu58/weekly_rag_launch_showcase/",
+      "summary": "RAG 기술과 관련된 새로운 프로젝트, 저장소, 데모, 블로그 포스트 또는 제품 출시를 공유하는 주간 이벤트입니다. 규모에 상관없이 모든 형태의 RAG 관련 성과물을 환영하는 게시물입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "RAG 관련 프로젝트, 오픈소스 저장소, 데모, 블로그 포스트 등 모든 형태의 출시를 공유할 수 있습니다.",
+        "규모에 관계없이 모든 개발자와 사용자의 참여를 독려하는 주간 쇼케이스입니다."
+      ],
+      "tags": [
+        "AI Development",
+        "RAG",
+        "Open Source"
+      ],
+      "published_at_kst": "2025-09-02T15:37:28",
+      "category": "Rag",
+      "canonical_path": "/community/reddit-1n6mu58",
+      "rank": null,
+      "subreddit": "Rag",
+      "score": "31",
+      "comments_count": 164,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xlaen0",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "I wanted VLC with the interface of Plex, so I spent two months learning and arguing with AI coding tools until it existed",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xlaen0/i_wanted_vlc_with_the_interface_of_plex_so_i/",
+      "summary": "사용자가 Plex와 같은 편리한 인터페이스를 갖춘 단순한 로컬 미디어 플레이어를 만들기 위해 AI 코딩 도구를 활용하여 Kinema를 개발한 경험담입니다. 서버나 계정 없이 로컬 파일 중심의 기능을 구현하기 위해 AI와 수많은 시행착오를 거치며 소프트웨어를 구축했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Plex의 인터페이스와 VLC의 단순함을 결합하기 위해 AI 코딩 도구를 활용하여 계정이나 서버가 필요 없는 Kinema를 개발함",
+        "AI가 잘못된 정보를 제공하거나 오류를 일으키는 상황을 관리하기 위해 규칙 파일을 작성하고 자동화된 테스트를 도입하는 등 정교한 개발 과정을 거침",
+        "사용자 경험을 위해 AI의 추측을 배제하고 하드웨어와 파일 정보에 기반한 확실한 정보만 제공하도록 설계함"
+      ],
+      "tags": [
+        "Release",
+        "미디어플레이어",
+        "AI",
+        "오픈소스",
+        "AI코딩"
+      ],
+      "published_at_kst": "2026-11-01T18:25:14",
+      "category": "OpenSourceAI",
+      "canonical_path": "/community/reddit-1xlaen0",
+      "rank": null,
+      "subreddit": "OpenSourceAI",
+      "score": "9",
+      "comments_count": 2,
+      "comments": []
+    }
+  ]
+}
