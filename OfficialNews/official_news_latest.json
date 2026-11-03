@@ -1,67 +1,159 @@
 {
   "source": "official_news",
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03T04:47:22.865689+09:00",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T04:43:16.624294+09:00",
   "count": 10,
-  "daily_summary": "주요 AI 기업들의 모델 고도화와 클라우드 생태계 확장, 그리고 사회적 책임 및 실생활 적용을 위한 기술적 진보가 핵심 흐름입니다.",
+  "daily_summary": "오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini 4, Genie 4, Robotics 모델 등) 출시를 통한 물리적 세계 및 과학적 연구의 혁신, OpenAI의 엔지니어링 및 보안 강화, 그리고 Anthropic의 IPO 준비 등 AI 산업의 기술적 진보와 기업 전략 변화를 중심으로 전개되었습니다.",
   "daily_key_points": [
-    "Google Cloud의 모델 선택권 확대: OpenAI와 Anthropic 모델을 모두 수용하며 하이퍼스케일 클라우드로서의 입지 강화",
-    "차세대 AI 모델 및 시뮬레이션 기술 공개: Gemini 4 Carbon, Genie 4 등 물리적 추론과 실시간 상호작용이 가능한 모델 발표",
-    "AI의 사회적 책임 및 실생활 적용: 에너지망 보호, 청소년 안전, 실생활 과업 수행 능력(LifeVal) 등 현실 세계와의 접점 확대"
+    "Google DeepMind의 차세대 모델(Gemini 4 Carbon, Genie 4) 및 로보틱스 모델 출시를 통한 물리적 시뮬레이션과 추론 능력의 비약적 발전",
+    "OpenAI의 엔지니어링 워크플로우 가속화 및 보안 버그 바운티 강화를 통한 실질적 활용과 보안 생태계 구축",
+    "Anthropic의 IPO를 위한 S-1 서류 제출 등 주요 AI 기업들의 기업 가치 및 시장 확장 전략 가시화"
   ],
   "daily_tags": [
-    "AI Model",
-    "Cloud Ecosystem",
-    "AI Safety",
+    "AI Agents",
+    "Generative Models",
     "Robotics",
-    "IPO"
+    "Engineering AI",
+    "Corporate Strategy"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 주요 AI 기업들의 모델 고도화와 클라우드 생태계 확장, 그리고 사회적 책임 및 실생활 적용을 위한 기술적 진보가 핵심 흐름입니다.\n\n📍 1. Introducing the Grid Protectors Program\n🗂️ 소스: OpenAI News | 분류: Global Affairs\n📝 요약: OpenAI가 전력망 신뢰성을 확보하고 소비자 전기 요금을 보호하기 위한 Grid Protectors Program을 도입합니다. 이 프로그램은 향후 구축될 컴퓨팅 캠퍼스가 전력망에 미치는 영향을 관리하기 위해 유틸리티 기업들과 협력하는 것을 목표로 합니다.\n🔗 링크: https://openai.com/index/grid-protectors-program\n\n📍 2. LifeVal\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: OpenAI가 일상적인 과업 수행 능력을 측정하는 새로운 벤치마크인 LifeVal을 발표했습니다. 이 벤치마크는 육아 지원부터 금융 관리, 정부 서류 작업에 이르기까지 AI가 실생활 문제를 얼마나 잘 해결하는지 평가합니다.\n🔗 링크: https://openai.com/index/lifeval\n\n📍 3. Genie 4: A new generation of world simulation\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 발표한 Genie 4는 실시간 상호작용이 가능한 차세대 월드 시뮬레이션 모델입니다. Gemini 모델을 기반으로 정교한 물리 엔진, 자연스러운 인체 움직임, 네이티브 오디오를 결합하여 현실적인 가상 세계를 구현합니다.\n🔗 링크: https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/\n\n📍 4. Gemini 4 Carbon: Our next frontier model\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 차세대 프런티어 모델인 Gemini 4 Carbon을 공개했습니다. 이 모델은 최첨단 사이버 보안 기능과 장기적 추론 능력을 갖춘 가장 강력한 모델입니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 5. Beyond tree cover: mapping the worldâs forest types\n🗂️ 소스: Google DeepMind | 분류: Research\n📝 요약: Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.\n🔗 링크: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-03.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini 4, Genie 4, Robotics 모델 등) 출시를 통한 물리적 세계 및 과학적 연구의 혁신, OpenAI의 엔지니어링 및 보안 강화, 그리고 Anthropic의 IPO 준비 등 AI 산업의 기술적 진보와 기업 전략 변화를 중심으로 전개되었습니다.\n\n📍 1. Agentic cheminformatics with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.\n🔗 링크: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/\n\n📍 2. Introducing Physical-Engineering’s Last Exam for agents\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud AI가 물리 공학 분야의 에이전트 성능을 평가하기 위한 새로운 벤치마크인 PLE를 도입했습니다. 이 벤치마크는 실제 기계, 전기, 토목 및 구조 공학 과제를 통해 최첨단 AI 에이전트의 능력을 검증합니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents\n\n📍 3. Accelerating engineering for the physical world\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: ChatGPT와 Codex가 물리적 세계를 위한 엔지니어링 워크플로우를 어떻게 가속화하는지 소개합니다. CAD, PCB 설계, 시뮬레이션 등 다양한 엔지니어링 분야에서의 활용 방안을 다룹니다.\n🔗 링크: https://openai.com/index/accelerating-engineering-for-the-physical-world\n\n📍 4. Heimstaden is changing residential real estate management with AI\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Heimstaden이 ChatGPT Enterprise와 Codex를 활용하여 유럽 전역의 주거용 부동산 관리 방식을 혁신하고 있습니다. 이를 통해 운영 비용을 절감하고 직원들의 업무 역량을 강화하고 있습니다.\n🔗 링크: https://openai.com/index/heimstaden\n\n📍 5. Rewarding defenders with bigger bug bounties\n🗂️ 소스: OpenAI News | 분류: Security\n📝 요약: OpenAI가 보안 버그 바운티 보상 규모를 확대하고 독립 보안 연구자들을 위한 새로운 보너스 제도를 도입합니다. 보고서 품질, 충성도, 우선순위 캠페인에 따른 보너스를 통해 방어자들에게 더 큰 보상을 제공할 예정입니다.\n🔗 링크: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-04.md",
   "items": [
     {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Introducing the Grid Protectors Program",
-      "url": "https://openai.com/index/grid-protectors-program",
-      "category": "Global Affairs",
-      "published_at_kst": "2026-11-03T00:00:00+09:00",
-      "published_date": "2026-11-03",
-      "original_description": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "release_type": "announcement",
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "category": "Science",
+      "published_at_kst": "2026-11-30T00:00:00+09:00",
+      "published_date": "2026-11-30",
+      "original_description": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "release_type": "official_update",
       "rank": 1,
-      "summary": "OpenAI가 전력망 신뢰성을 확보하고 소비자 전기 요금을 보호하기 위한 Grid Protectors Program을 도입합니다. 이 프로그램은 향후 구축될 컴퓨팅 캠퍼스가 전력망에 미치는 영향을 관리하기 위해 유틸리티 기업들과 협력하는 것을 목표로 합니다.",
+      "summary": "Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.",
       "key_points": [
-        "OpenAI의 새로운 Grid Protectors Program 도입",
-        "전력 유틸리티 기업과의 협력을 통한 전력망 신뢰성 지원",
-        "미래 컴퓨팅 캠퍼스 운영에 따른 소비자 전기 요금 보호"
+        "Google Antigravity와 Cheminformatics Skills를 활용한 신약 개발 워크플로우 가속화",
+        "효율적인 화합물 검색 기능 제공",
+        "새로운 강직성 매크로사이클(rigidified macrocycles) 설계 및 제안"
       ],
       "tags": [
-        "OpenAI",
-        "Grid Protectors Program",
-        "Energy"
+        "Google DeepMind",
+        "Google Antigravity",
+        "Cheminformatics"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Introducing Physical-Engineering’s Last Exam for agents",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-11-04T00:00:00+09:00",
+      "published_date": "2026-11-04",
+      "original_description": "Discover PLE, a new benchmark evaluating frontier AI agents on real-world mechanical, electrical, civil, and structural engineering tasks.",
+      "release_type": "engineering_update",
+      "rank": 2,
+      "summary": "Google Cloud AI가 물리 공학 분야의 에이전트 성능을 평가하기 위한 새로운 벤치마크인 PLE를 도입했습니다. 이 벤치마크는 실제 기계, 전기, 토목 및 구조 공학 과제를 통해 최첨단 AI 에이전트의 능력을 검증합니다.",
+      "key_points": [
+        "새로운 벤치마크 PLE(Physical-Engineering’s Last Exam) 공개",
+        "실제 세계의 기계, 전기, 토목, 구조 공학 작업 중심의 평가",
+        "최첨단 AI 에이전트의 물리 공학적 문제 해결 능력 검증"
+      ],
+      "tags": [
+        "Google Cloud AI",
+        "PLE",
+        "AI Agents"
       ]
     },
     {
       "source_key": "openai",
       "source_name": "OpenAI News",
-      "title": "LifeVal",
-      "url": "https://openai.com/index/lifeval",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
       "category": "Research",
-      "published_at_kst": "2026-11-02T18:00:00+09:00",
-      "published_date": "2026-11-02",
-      "original_description": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "published_at_kst": "2026-11-03T21:00:00+09:00",
+      "published_date": "2026-11-03",
+      "original_description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "release_type": "research_release",
-      "rank": 2,
-      "summary": "OpenAI가 일상적인 과업 수행 능력을 측정하는 새로운 벤치마크인 LifeVal을 발표했습니다. 이 벤치마크는 육아 지원부터 금융 관리, 정부 서류 작업에 이르기까지 AI가 실생활 문제를 얼마나 잘 해결하는지 평가합니다.",
+      "rank": 3,
+      "summary": "ChatGPT와 Codex가 물리적 세계를 위한 엔지니어링 워크플로우를 어떻게 가속화하는지 소개합니다. CAD, PCB 설계, 시뮬레이션 등 다양한 엔지니어링 분야에서의 활용 방안을 다룹니다.",
       "key_points": [
-        "LifeVal 벤치마크 도입",
-        "일상적인 과업 수행 능력 측정 목적",
-        "육아, 금융, 행정 업무 등 실생활 밀착형 작업 평가"
+        "ChatGPT와 Codex를 활용한 엔지니어링 워크플로우 가속화",
+        "CAD 및 PCB 설계 분야에서의 활용 가능성",
+        "시뮬레이션 등 물리적 세계를 위한 엔지니어링 작업 효율화"
       ],
       "tags": [
         "OpenAI",
-        "LifeVal",
-        "Benchmark"
+        "ChatGPT",
+        "Codex"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "category": "Official Release",
+      "published_at_kst": "2026-11-03T17:00:00+09:00",
+      "published_date": "2026-11-03",
+      "original_description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "release_type": "official_update",
+      "rank": 4,
+      "summary": "Heimstaden이 ChatGPT Enterprise와 Codex를 활용하여 유럽 전역의 주거용 부동산 관리 방식을 혁신하고 있습니다. 이를 통해 운영 비용을 절감하고 직원들의 업무 역량을 강화하고 있습니다.",
+      "key_points": [
+        "Heimstaden의 ChatGPT Enterprise 및 Codex 도입",
+        "부동산 관리 프로세스 혁신 및 운영 비용 절감",
+        "유럽 전역 직원의 업무 역량 강화"
+      ],
+      "tags": [
+        "Heimstaden",
+        "ChatGPT Enterprise",
+        "Codex"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "category": "Security",
+      "published_at_kst": "2026-11-03T03:00:00+09:00",
+      "published_date": "2026-11-03",
+      "original_description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "release_type": "safety_update",
+      "rank": 5,
+      "summary": "OpenAI가 보안 버그 바운티 보상 규모를 확대하고 독립 보안 연구자들을 위한 새로운 보너스 제도를 도입합니다. 보고서 품질, 충성도, 우선순위 캠페인에 따른 보너스를 통해 방어자들에게 더 큰 보상을 제공할 예정입니다.",
+      "key_points": [
+        "OpenAI의 Security Bug Bounty 보상 금액 상향 조정",
+        "보고서 품질 및 충성도에 따른 보너스 제도 도입",
+        "독립 보안 연구자를 위한 우선순위 캠페인 보너스 신설"
+      ],
+      "tags": [
+        "OpenAI",
+        "Security",
+        "Bug Bounty"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "What Google Cloud announced in AI this month",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-11-03T00:00:00+09:00",
+      "published_date": "2026-11-03",
+      "original_description": "Learn about the latest announcements, innovations, and guides when it comes to Google Cloud AI.",
+      "release_type": "engineering_update",
+      "rank": 6,
+      "summary": "Google Cloud의 최신 AI 관련 발표와 혁신 사례를 소개합니다. 이번 달에 공개된 새로운 기능과 가이드를 통해 Google Cloud AI의 발전 과정을 확인할 수 있습니다.",
+      "key_points": [
+        "Google Cloud AI의 최신 발표 내용 확인",
+        "AI 분야의 혁신 및 기술 업데이트 제공",
+        "사용자를 위한 최신 가이드 및 정보 공유"
+      ],
+      "tags": [
+        "Google Cloud",
+        "AI",
+        "Machine Learning"
       ]
     },
     {
@@ -74,7 +166,7 @@
       "published_date": "2026-10-31",
       "original_description": "Genie 4 introduces real-time interactive world simulation with native audio, advanced physics, natural human motion, and steering powered by Gemini models.",
       "release_type": "product_release",
-      "rank": 3,
+      "rank": 7,
       "summary": "Google DeepMind가 발표한 Genie 4는 실시간 상호작용이 가능한 차세대 월드 시뮬레이션 모델입니다. Gemini 모델을 기반으로 정교한 물리 엔진, 자연스러운 인체 움직임, 네이티브 오디오를 결합하여 현실적인 가상 세계를 구현합니다.",
       "key_points": [
         "Gemini 모델을 활용한 정교한 제어(steering) 기능 제공",
@@ -97,7 +189,7 @@
       "published_date": "2026-10-31",
       "original_description": "Gemini 4 Carbon is our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
       "release_type": "product_release",
-      "rank": 4,
+      "rank": 8,
       "summary": "Google DeepMind가 차세대 프런티어 모델인 Gemini 4 Carbon을 공개했습니다. 이 모델은 최첨단 사이버 보안 기능과 장기적 추론 능력을 갖춘 가장 강력한 모델입니다.",
       "key_points": [
         "Google DeepMind의 가장 강력한 모델인 Gemini 4 Carbon 출시",
@@ -111,52 +203,6 @@
       ]
     },
     {
-      "source_key": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "Beyond tree cover: mapping the worldâs forest types",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "category": "Research",
-      "published_at_kst": "2026-10-31T00:00:00+09:00",
-      "published_date": "2026-10-31",
-      "original_description": "Explore Forest Typology (ForTy) 2020: a global 10-meter map categorizing Earth's land into six distinct forest and land-use types, plus an annual time series.",
-      "release_type": "research_release",
-      "rank": 5,
-      "summary": "Google DeepMind가 발표한 Forest Typology (ForTy) 2020은 지구의 토지를 6가지 산림 및 토지 이용 유형으로 분류한 글로벌 10미터 해상도 지도입니다. 이 데이터는 연간 시계열 정보를 포함하여 전 세계 산림 유형을 정밀하게 매핑합니다.",
-      "key_points": [
-        "Forest Typology (ForTy) 2020: 10미터 해상도의 글로벌 산림 유형 지도",
-        "지구의 토지를 6가지의 서로 다른 산림 및 토지 이용 유형으로 분류",
-        "연간 시계열 데이터를 제공하여 시간에 따른 변화 파악 가능"
-      ],
-      "tags": [
-        "Google DeepMind",
-        "Forest Typology",
-        "Remote Sensing"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "category": "Safety",
-      "published_at_kst": "2026-10-30T18:00:00+09:00",
-      "published_date": "2026-10-30",
-      "original_description": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "release_type": "safety_update",
-      "rank": 6,
-      "summary": "OpenAI가 ChatGPT 내 폭력 방지를 위해 안전 장치를 강화하고 청소년을 위한 새로운 보호 조치를 도입합니다. 또한 공공 안전 보고에 대한 새로운 약속을 통해 안전 관리 체계를 공고히 합니다.",
-      "key_points": [
-        "ChatGPT 내 폭력 방지를 위한 안전 장치 확대",
-        "청소년 사용자를 위한 조기 개입 및 보호 조치 강화",
-        "공공 안전 보고에 대한 새로운 약속 및 투명성 확보"
-      ],
-      "tags": [
-        "OpenAI",
-        "ChatGPT",
-        "Safety"
-      ]
-    },
-    {
       "source_key": "google_cloud_ai",
       "source_name": "Google Cloud AI",
       "title": "Gemini Robotics Embodied Reasoning 2 is now available on Google Cloud",
@@ -166,7 +212,7 @@
       "published_date": "2026-10-28",
       "original_description": "Discover how Gemini Robotics Embodied Reasoning 2 on Google Cloud brings advanced spatial-temporal reasoning and physical AI to enterprise robotics.",
       "release_type": "engineering_update",
-      "rank": 7,
+      "rank": 9,
       "summary": "Google Cloud에서 Gemini Robotics Embodied Reasoning 2를 새롭게 출시했습니다. 이 모델은 기업용 로보틱스 분야에 고도화된 시공간 추론과 물리적 AI 기술을 제공합니다.",
       "key_points": [
         "Google Cloud를 통한 Gemini Robotics Embodied Reasoning 2 가용성 확보",
@@ -189,7 +235,7 @@
       "published_date": "2026-10-26",
       "original_description": "",
       "release_type": "announcement",
-      "rank": 8,
+      "rank": 10,
       "summary": "Anthropic이 미국 증권거래위원회(SEC)에 Class A 보통주 상장을 위한 S-1 등록 서류를 제출했습니다. 이는 Anthropic의 기업공개(IPO)를 위한 절차의 일환입니다.",
       "key_points": [
         "Anthropic이 SEC에 S-1 등록 서류를 제출함",
@@ -200,52 +246,6 @@
         "Anthropic",
         "IPO",
         "SEC"
-      ]
-    },
-    {
-      "source_key": "google_cloud_ai",
-      "source_name": "Google Cloud AI",
-      "title": "Expanding Claude availability and deployment choice on Google Cloud",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
-      "category": "AI & Machine Learning",
-      "published_at_kst": "2026-10-23T00:00:00+09:00",
-      "published_date": "2026-10-23",
-      "original_description": "Today, we’re announcing the general availability of an Anthropic-managed deployment option for Claude Models on Google Cloud. This gives developers more choice in how they run their models, helping them consolidate AI workloads on Google Cloud by pairing direct access to Anthropic’s platform alongside our existing, in-boundary Google-managed deployment option.",
-      "release_type": "engineering_update",
-      "rank": 9,
-      "summary": "Google Cloud에서 Anthropic이 직접 관리하는 Claude 모델 배포 옵션이 일반 제공(GA)됩니다. 이를 통해 개발자는 기존의 Google 관리형 옵션과 더불어 더 넓은 선택지를 갖게 되어 Google Cloud 내에서 AI 워크로드를 통합할 수 있습니다.",
-      "key_points": [
-        "Anthropic이 직접 관리하는 Claude 모델 배포 옵션의 GA(General Availability) 발표",
-        "개발자에게 모델 실행 방식에 대한 더 많은 선택권 제공",
-        "기존 Google 관리형 옵션과 결합하여 Google Cloud 내 AI 워크로드 통합 용이"
-      ],
-      "tags": [
-        "Google Cloud",
-        "Anthropic",
-        "Claude"
-      ]
-    },
-    {
-      "source_key": "google_cloud_ai",
-      "source_name": "Google Cloud AI",
-      "title": "Google Cloud expands model choice and flexibility, bringing OpenAI models to customers",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
-      "category": "AI & Machine Learning",
-      "published_at_kst": "2026-10-22T00:00:00+09:00",
-      "published_date": "2026-10-22",
-      "original_description": "Today, we are launching OpenAI models in Google Cloud’s model garden. Google Cloud is now the only hyperscale cloud provider offering access to Gemini, Claude, and GPT, alongside more than 200 first-party, third-party, and open models on a unified enterprise AI platform.",
-      "release_type": "engineering_update",
-      "rank": 10,
-      "summary": "Google Cloud가 Model Garden에 OpenAI 모델을 출시하며 모델 선택의 폭과 유연성을 확장합니다. 이로써 Google Cloud는 Gemini, Claude, GPT를 모두 제공하는 유일한 하이퍼스케일 클라우드 제공업체가 되었습니다.",
-      "key_points": [
-        "Google Cloud Model Garden에 OpenAI 모델 도입",
-        "Gemini, Claude, GPT를 모두 제공하는 유일한 하이퍼스케일 클라우드 확보",
-        "200개 이상의 퍼스트 파티, 서드 파티 및 오픈 모델을 통합된 엔터프라이즈 AI 플랫폼에서 제공"
-      ],
-      "tags": [
-        "Google Cloud",
-        "OpenAI",
-        "Model Garden"
       ]
     }
   ]
