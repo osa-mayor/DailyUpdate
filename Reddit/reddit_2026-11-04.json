@@ -1,0 +1,169 @@
+{
+  "source": "reddit",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T04:51:25.311962+09:00",
+  "count": 4,
+  "daily_summary": "오늘의 주요 주제는 개인용 하드웨어 사양에 따른 로컬 LLM 구동 가능 범위와 최적의 모델 선택에 대한 논의였습니다. 또한, 벡터 검색 성능을 위한 데이터베이스 비교와 코드 기반의 비디오 생성 모델과 같은 최신 AI 기술 트렌드가 주목받았습니다.",
+  "daily_key_points": [
+    "제한된 메모리 환경(16GB~32GB)에서 효율적인 LLM 구동을 위한 양자화 기술 및 하드웨어 활용 방안이 활발히 논의되었습니다.",
+    "PostgreSQL과 MariaDB 간의 벡터 검색 성능 비교를 통해 AI 워크로드에 최적화된 데이터베이스 선택의 중요성이 강조되었습니다.",
+    "27B 파라미터와 512K 컨텍스트를 지원하는 SenseNova 6.8과 같이 코드 기반의 편집 가능한 영상 생성 기술이 등장했습니다."
+  ],
+  "daily_tags": [
+    "LocalLLM",
+    "AI_Hardware",
+    "Vector_Database",
+    "Generative_Video"
+  ],
+  "subreddits_covered": [
+    "LocalLLaMA",
+    "OpenSourceAI"
+  ],
+  "source_modes_used": [
+    "new"
+  ],
+  "run_stats": {
+    "candidate_count": 23,
+    "finalist_count": 4,
+    "summarization_wall_sec": 158.388,
+    "total_wall_sec": 266.152
+  },
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘의 주요 주제는 개인용 하드웨어 사양에 따른 로컬 LLM 구동 가능 범위와 최적의 모델 선택에 대한 논의였습니다. 또한, 벡터 검색 성능을 위한 데이터베이스 비교와 코드 기반의 비디오 생성 모델과 같은 최신 AI 기술 트렌드가 주목받았습니다.\n\n🔥 1. New Mac Mini M6 (16GB RAM) – What local LLMs can I realistically run? Looking for advice on runtimes and fine-tuning.\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 16GB 통합 메모리를 탑재한 Mac Mini M6 환경에서 로컬 LLM을 구동하기 위한 실질적인 가이드를 요청하는 글입니다. 모델 선택, 추론 엔진 활용, 그리고 제한된 메모리 환경에서의 파인튜닝 가능 여부에 대해 질문하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xn2yhf/new_mac_mini_m6_16gb_ram_what_local_llms_can_i/\n\n🔥 2. Postgres vs MariaDB: Vector Search and AI Workload Benchmarks\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: PostgreSQL과 MariaDB의 벡터 검색 및 AI 워크로드 성능을 비교 분석한 벤치마크 결과에 관한 게시물입니다. 데이터베이스 엔진별로 AI 관련 작업에서 나타나는 성능 차이를 다루고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xn0n4u/postgres_vs_mariadb_vector_search_and_ai_workload/\n\n🔥 3. What do people with normal hardware : 32GB ram 16GB VRAM run?\nr/LocalLLaMA | 👍 19 | 💬 38\n📝 요약: 32GB RAM과 16GB VRAM을 보유한 일반적인 하드웨어 사양에서 어떤 LLM 모델을 구동할 수 있는지에 대한 질문입니다. 코딩 및 일반 비서 용도로 활용 가능한 모델과 최신 기술 트렌드에 대한 요약을 요청하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/\n\n🔥 4. SenseNova 6.8 Code2Video: a model that makes editable videos through code. 27B, 512K context\nr/OpenSourceAI | 👍 2 | 💬 0\n📝 요약: SenseNova 6.8 Code2Video는 코드를 통해 편집 가능한 영상을 생성할 수 있는 새로운 모델입니다. 27B 파라미터 규모와 512K의 대규모 컨텍스트 창을 지원하는 것이 특징입니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xmy9p6/sensenova_68_code2video_a_model_that_makes/\n\n출처: Reddit (r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "items": [
+    {
+      "source": "reddit",
+      "post_id": "1xn2yhf",
+      "subreddit": "LocalLLaMA",
+      "title": "New Mac Mini M6 (16GB RAM) – What local LLMs can I realistically run? Looking for advice on runtimes and fine-tuning.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2yhf/new_mac_mini_m6_16gb_ram_what_local_llms_can_i/",
+      "external_link": null,
+      "score": "Error",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-11-03T19:42:53",
+      "korean_summary": "16GB 통합 메모리를 탑재한 Mac Mini M6 환경에서 로컬 LLM을 구동하기 위한 실질적인 가이드를 요청하는 글입니다. 모델 선택, 추론 엔진 활용, 그리고 제한된 메모리 환경에서의 파인튜닝 가능 여부에 대해 질문하고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "16GB 메모리 환경에서 7B/8B 모델의 적합성과 양자화 기술을 통한 대형 모델 구동 가능성 문의",
+        "llama.cpp, LM Studio, Ollia, MLX 등 다양한 추론 엔진 중 Apple Silicon에 최적화된 도구 추천 요청",
+        "LoRA/QLoRA를 활용한 로컬 파인튜닝의 실용성과 코딩 어시스턴트 및 에이전트 워크플로우 구축 방안 탐색"
+      ],
+      "tags": [
+        "AI",
+        "LLM",
+        "Agent",
+        "Security",
+        "Machine Learning"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "playwright",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xn0n4u",
+      "subreddit": "OpenSourceAI",
+      "title": "Postgres vs MariaDB: Vector Search and AI Workload Benchmarks",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xn0n4u/postgres_vs_mariadb_vector_search_and_ai_workload/",
+      "external_link": null,
+      "score": "1",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-11-03T18:18:53",
+      "korean_summary": "PostgreSQL과 MariaDB의 벡터 검색 및 AI 워크로드 성능을 비교 분석한 벤치마크 결과에 관한 게시물입니다. 데이터베이스 엔진별로 AI 관련 작업에서 나타나는 성능 차이를 다루고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "PostgreSQL과 MariaDB 간의 벡터 검색 성능 비교 분석",
+        "AI 워크로드 환경에서의 데이터베이스 효율성 검증",
+        "벡터 데이터 처리를 위한 최적의 데이터베이스 선택 기준 제시"
+      ],
+      "tags": [
+        "AI",
+        "VectorSearch",
+        "MariaDB",
+        "Benchmark",
+        "PostgreSQL"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xn2jyz",
+      "subreddit": "LocalLLaMA",
+      "title": "What do people with normal hardware : 32GB ram 16GB VRAM run?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
+      "external_link": null,
+      "score": "19",
+      "comments_count": 38,
+      "comment_sample_count": 0,
+      "pub_date": "2026-11-03T19:28:09",
+      "korean_summary": "32GB RAM과 16GB VRAM을 보유한 일반적인 하드웨어 사양에서 어떤 LLM 모델을 구동할 수 있는지에 대한 질문입니다. 코딩 및 일반 비서 용도로 활용 가능한 모델과 최신 기술 트렌드에 대한 요약을 요청하고 있습니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "32GB RAM 및 16GB VRAM 사양의 일반 사용자 환경에서 구동 가능한 모델 범위 문의",
+        "코딩 및 일반적인 AI 비서 용도로 적합한 모델 추천 요청",
+        "최근 급변하는 LLM 기술 트렌드와 하드웨어 활용법에 대한 정보 갈구"
+      ],
+      "tags": [
+        "LLM",
+        "LocalAI",
+        "Hardware"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    },
+    {
+      "source": "reddit",
+      "post_id": "1xmy9p6",
+      "subreddit": "OpenSourceAI",
+      "title": "SenseNova 6.8 Code2Video: a model that makes editable videos through code. 27B, 512K context",
+      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xmy9p6/sensenova_68_code2video_a_model_that_makes/",
+      "external_link": null,
+      "score": "2",
+      "comments_count": 0,
+      "comment_sample_count": 0,
+      "pub_date": "2026-11-03T16:54:08",
+      "korean_summary": "SenseNova 6.8 Code2Video는 코드를 통해 편집 가능한 영상을 생성할 수 있는 새로운 모델입니다. 27B 파라미터 규모와 512K의 대규모 컨텍스트 창을 지원하는 것이 특징입니다.",
+      "external_article_summary": "",
+      "key_points": [
+        "코드를 활용하여 사용자가 편집 가능한 형태의 비디오를 생성하는 기술을 제공합니다.",
+        "27B 파라미터 모델로 강력한 성능을 갖추었으며 512K의 매우 긴 컨텍스트 길이를 지원합니다."
+      ],
+      "tags": [
+        "SenseNova",
+        "Code2Video",
+        "GenerativeAI"
+      ],
+      "source_modes": [
+        "new"
+      ],
+      "rank_score": 0.0,
+      "detail_fetch_mode": "json_api",
+      "external_article_url": null,
+      "external_article_extraction_method": null,
+      "fallback_used": false,
+      "generation_mode": "one-shot"
+    }
+  ]
+}
