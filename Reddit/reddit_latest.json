@@ -1,59 +1,59 @@
 {
   "source": "reddit",
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T04:51:25.311962+09:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T05:25:28.320055+09:00",
   "count": 4,
-  "daily_summary": "오늘의 주요 주제는 개인용 하드웨어 사양에 따른 로컬 LLM 구동 가능 범위와 최적의 모델 선택에 대한 논의였습니다. 또한, 벡터 검색 성능을 위한 데이터베이스 비교와 코드 기반의 비디오 생성 모델과 같은 최신 AI 기술 트렌드가 주목받았습니다.",
+  "daily_summary": "오늘 Reddit AI 커뮤니티에서는 새로운 대규모 언어 모델(LLM)의 등장과 더불어 AI 기술이 소프트웨어를 넘어 하드웨어로 확장되는 과정에 대한 논의가 활발했습니다. 또한, AI를 활용한 비즈니스 모델 혁신과 파편화된 커스텀 엔진 생태계를 해결하기 위한 기술적 제안들이 주요 화두로 다뤄졌습니다.",
   "daily_key_points": [
-    "제한된 메모리 환경(16GB~32GB)에서 효율적인 LLM 구동을 위한 양자화 기술 및 하드웨어 활용 방안이 활발히 논의되었습니다.",
-    "PostgreSQL과 MariaDB 간의 벡터 검색 성능 비교를 통해 AI 워크로드에 최적화된 데이터베이스 선택의 중요성이 강조되었습니다.",
-    "27B 파라미터와 512K 컨텍스트를 지원하는 SenseNova 6.8과 같이 코드 기반의 편집 가능한 영상 생성 기술이 등장했습니다."
+    "3,200만 달러를 투입해 개발된 65B 규모의 밀집 LLM인 Ripple-65B가 공개되며 모델 학습 및 칩 설계 분야의 경쟁이 가시화되었습니다.",
+    "AI 기술이 소프트웨어에 국한되지 않고 진정한 AI 네이티브 하드웨어로 진화하기 위한 새로운 인터페이스와 하드웨어 결합 방식에 대한 논의가 이루어졌습니다.",
+    "커스텀 엔진의 파편화 문제를 해결하기 위해 핵심 기술을 모듈화하여 재사용 가능한 데이터베이스로 만드는 생태계 구축 아이디어가 제안되었습니다."
   ],
   "daily_tags": [
-    "LocalLLM",
+    "LLM",
     "AI_Hardware",
-    "Vector_Database",
-    "Generative_Video"
+    "AI_Business",
+    "OpenSource"
   ],
   "subreddits_covered": [
     "LocalLLaMA",
-    "OpenSourceAI"
+    "artificial"
   ],
   "source_modes_used": [
     "new"
   ],
   "run_stats": {
-    "candidate_count": 23,
+    "candidate_count": 16,
     "finalist_count": 4,
-    "summarization_wall_sec": 158.388,
-    "total_wall_sec": 266.152
+    "summarization_wall_sec": 175.958,
+    "total_wall_sec": 340.449
   },
-  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘의 주요 주제는 개인용 하드웨어 사양에 따른 로컬 LLM 구동 가능 범위와 최적의 모델 선택에 대한 논의였습니다. 또한, 벡터 검색 성능을 위한 데이터베이스 비교와 코드 기반의 비디오 생성 모델과 같은 최신 AI 기술 트렌드가 주목받았습니다.\n\n🔥 1. New Mac Mini M6 (16GB RAM) – What local LLMs can I realistically run? Looking for advice on runtimes and fine-tuning.\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 16GB 통합 메모리를 탑재한 Mac Mini M6 환경에서 로컬 LLM을 구동하기 위한 실질적인 가이드를 요청하는 글입니다. 모델 선택, 추론 엔진 활용, 그리고 제한된 메모리 환경에서의 파인튜닝 가능 여부에 대해 질문하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xn2yhf/new_mac_mini_m6_16gb_ram_what_local_llms_can_i/\n\n🔥 2. Postgres vs MariaDB: Vector Search and AI Workload Benchmarks\nr/OpenSourceAI | 👍 1 | 💬 0\n📝 요약: PostgreSQL과 MariaDB의 벡터 검색 및 AI 워크로드 성능을 비교 분석한 벤치마크 결과에 관한 게시물입니다. 데이터베이스 엔진별로 AI 관련 작업에서 나타나는 성능 차이를 다루고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xn0n4u/postgres_vs_mariadb_vector_search_and_ai_workload/\n\n🔥 3. What do people with normal hardware : 32GB ram 16GB VRAM run?\nr/LocalLLaMA | 👍 19 | 💬 38\n📝 요약: 32GB RAM과 16GB VRAM을 보유한 일반적인 하드웨어 사양에서 어떤 LLM 모델을 구동할 수 있는지에 대한 질문입니다. 코딩 및 일반 비서 용도로 활용 가능한 모델과 최신 기술 트렌드에 대한 요약을 요청하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/\n\n🔥 4. SenseNova 6.8 Code2Video: a model that makes editable videos through code. 27B, 512K context\nr/OpenSourceAI | 👍 2 | 💬 0\n📝 요약: SenseNova 6.8 Code2Video는 코드를 통해 편집 가능한 영상을 생성할 수 있는 새로운 모델입니다. 27B 파라미터 규모와 512K의 대규모 컨텍스트 창을 지원하는 것이 특징입니다.\n🔗 Reddit: https://www.reddit.com/r/OpenSourceAI/comments/1xmy9p6/sensenova_68_code2video_a_model_that_makes/\n\n출처: Reddit (r/LocalLLaMA, r/OpenSourceAI)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
+  "chat_message": "🤖 오늘의 Reddit AI Trends\n\n📌 오늘의 요약: 오늘 Reddit AI 커뮤니티에서는 새로운 대규모 언어 모델(LLM)의 등장과 더불어 AI 기술이 소프트웨어를 넘어 하드웨어로 확장되는 과정에 대한 논의가 활발했습니다. 또한, AI를 활용한 비즈니스 모델 혁신과 파편화된 커스텀 엔진 생태계를 해결하기 위한 기술적 제안들이 주요 화두로 다뤄졌습니다.\n\n🔥 1. Ripple-65B Preview, 65B dense LLM trained from scratch\nr/LocalLLaMA | 👍 Error | 💬 0\n📝 요약: 팔로알토 소재 기업이 3,200만 달러를 투입하여 처음부터 학습시킨 65B 규모의 밀집(dense) LLM인 Ripple-65B를 공개했습니다. 이 기업은 장기적으로 칩 설계 분야에도 집중할 계획입니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xnyd20/ripple65b_preview_65b_dense_llm_trained_from/\n\n🔥 2. We Made $74K Redesigning Websites in October\nr/artificial | 👍 0 | 💬 3\n📝 요약: 웹 디자인 회사를 운영하는 작성자가 가격 전략과 영업 방식의 변화를 통해 월 매출을 2만 달러에서 7만 4천 달러로 대폭 끌어올린 성공 사례를 공유했습니다. 고객 수를 늘리는 대신 가치 중심의 고가 전략과 AI를 활용한 맞춤형 제안 방식을 도입한 것이 핵심입니다.\n🔗 Reddit: https://www.reddit.com/r/artificial/comments/1xnw2gv/we_made_74k_redesigning_websites_in_october/\n\n🔥 3. Custom engine epidemic: an idea on how anyone could benefit (or how to gently stop it)\nr/LocalLLaMA | 👍 8 | 💬 25\n📝 요약: 특정 하드웨어에만 최적화된 파편화된 커스텀 엔진 개발 현상을 해결하기 위해, 이를 모듈화하여 재사용 가능한 데이터베이스로 만드는 아이디어가 제안되었습니다. 개별 엔진의 핵심 기술을 추출하여 저장함으로써 누구나 자신의 환경에 맞는 최적의 추론 엔진을 쉽게 구축할 수 있는 생태계를 지향합니다.\n🔗 Reddit: https://www.reddit.com/r/LocalLLaMA/comments/1xnxsdd/custom_engine_epidemic_an_idea_on_how_anyone/\n\n🔥 4. ai has been stuck in software. what would ai native hardware actually need to be?\nr/artificial | 👍 5 | 💬 8\n📝 요약: AI 기술이 소프트웨어에만 머물러 있다는 점을 지적하며, 진정한 AI 네이티브 하드웨어의 형태와 인터페이스에 대한 의문을 제기하는 글입니다. 과거 GUI나 터치스크린처럼 하드웨어와 소프트웨어가 결합된 혁신이 AI 시대에도 재현될 수 있을지 논의를 유도하고 있습니다.\n🔗 Reddit: https://www.reddit.com/r/artificial/comments/1xnvouu/ai_has_been_stuck_in_software_what_would_ai/\n\n출처: Reddit (r/LocalLLaMA, r/artificial)\nhttps://www.reddit.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/reddit",
   "items": [
     {
       "source": "reddit",
-      "post_id": "1xn2yhf",
+      "post_id": "1xnyd20",
       "subreddit": "LocalLLaMA",
-      "title": "New Mac Mini M6 (16GB RAM) – What local LLMs can I realistically run? Looking for advice on runtimes and fine-tuning.",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2yhf/new_mac_mini_m6_16gb_ram_what_local_llms_can_i/",
+      "title": "Ripple-65B Preview, 65B dense LLM trained from scratch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnyd20/ripple65b_preview_65b_dense_llm_trained_from/",
       "external_link": null,
       "score": "Error",
       "comments_count": 0,
       "comment_sample_count": 0,
-      "pub_date": "2026-11-03T19:42:53",
-      "korean_summary": "16GB 통합 메모리를 탑재한 Mac Mini M6 환경에서 로컬 LLM을 구동하기 위한 실질적인 가이드를 요청하는 글입니다. 모델 선택, 추론 엔진 활용, 그리고 제한된 메모리 환경에서의 파인튜닝 가능 여부에 대해 질문하고 있습니다.",
+      "pub_date": "2026-11-04T20:05:06",
+      "korean_summary": "팔로알토 소재 기업이 3,200만 달러를 투입하여 처음부터 학습시킨 65B 규모의 밀집(dense) LLM인 Ripple-65B를 공개했습니다. 이 기업은 장기적으로 칩 설계 분야에도 집중할 계획입니다.",
       "external_article_summary": "",
       "key_points": [
-        "16GB 메모리 환경에서 7B/8B 모델의 적합성과 양자화 기술을 통한 대형 모델 구동 가능성 문의",
-        "llama.cpp, LM Studio, Ollia, MLX 등 다양한 추론 엔진 중 Apple Silicon에 최적화된 도구 추천 요청",
-        "LoRA/QLoRA를 활용한 로컬 파인튜닝의 실용성과 코딩 어시스턴트 및 에이전트 워크플로우 구축 방안 탐색"
+        "팔로알토 소재 기업이 3,200만 달러의 비용을 들여 학습시킨 65B 규모의 밀집 LLM인 Ripple-65B를 발표했습니다.",
+        "해당 기업은 향후 장기적인 목표 중 하나로 칩 설계(chip design)를 설정하고 있습니다.",
+        "공개된 정보에는 NVIDIA, Meta 등 다른 기업들의 대규모 모델들과 비교되는 벤치마크 관련 내용이 포함되어 있습니다."
       ],
       "tags": [
-        "AI",
+        "AI_Training",
         "LLM",
-        "Agent",
-        "Security",
-        "Machine Learning"
+        "Chip_Design",
+        "AI",
+        "Benchmark"
       ],
       "source_modes": [
         "new"
@@ -67,28 +67,26 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xn0n4u",
-      "subreddit": "OpenSourceAI",
-      "title": "Postgres vs MariaDB: Vector Search and AI Workload Benchmarks",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xn0n4u/postgres_vs_mariadb_vector_search_and_ai_workload/",
+      "post_id": "1xnw2gv",
+      "subreddit": "artificial",
+      "title": "We Made $74K Redesigning Websites in October",
+      "url": "https://www.reddit.com/r/artificial/comments/1xnw2gv/we_made_74k_redesigning_websites_in_october/",
       "external_link": null,
-      "score": "1",
-      "comments_count": 0,
+      "score": "0",
+      "comments_count": 3,
       "comment_sample_count": 0,
-      "pub_date": "2026-11-03T18:18:53",
-      "korean_summary": "PostgreSQL과 MariaDB의 벡터 검색 및 AI 워크로드 성능을 비교 분석한 벤치마크 결과에 관한 게시물입니다. 데이터베이스 엔진별로 AI 관련 작업에서 나타나는 성능 차이를 다루고 있습니다.",
+      "pub_date": "2026-11-04T18:36:54",
+      "korean_summary": "웹 디자인 회사를 운영하는 작성자가 가격 전략과 영업 방식의 변화를 통해 월 매출을 2만 달러에서 7만 4천 달러로 대폭 끌어올린 성공 사례를 공유했습니다. 고객 수를 늘리는 대신 가치 중심의 고가 전략과 AI를 활용한 맞춤형 제안 방식을 도입한 것이 핵심입니다.",
       "external_article_summary": "",
       "key_points": [
-        "PostgreSQL과 MariaDB 간의 벡터 검색 성능 비교 분석",
-        "AI 워크로드 환경에서의 데이터베이스 효율성 검증",
-        "벡터 데이터 처리를 위한 최적의 데이터베이스 선택 기준 제시"
+        "단순히 고객 수를 늘리는 대신 프로젝트 단가를 높이고, 전문적인 영업 기술(톤 조절, 가치 전달, 프레임 제어 등)을 연마하여 수익성을 극대화했습니다.",
+        "고용량 콜드 이메일 캠페인과 AI 도구를 결합하여 잠재 고객의 웹사이트 문제를 분석하고, AI로 제작한 디자인 초안을 미리 보여주는 방식으로 전환율을 높였습니다."
       ],
       "tags": [
-        "AI",
-        "VectorSearch",
-        "MariaDB",
-        "Benchmark",
-        "PostgreSQL"
+        "AI 자동화",
+        "영업 기술",
+        "비즈니스 전략",
+        "AI"
       ],
       "source_modes": [
         "new"
@@ -102,26 +100,28 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xn2jyz",
+      "post_id": "1xnxsdd",
       "subreddit": "LocalLLaMA",
-      "title": "What do people with normal hardware : 32GB ram 16GB VRAM run?",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
+      "title": "Custom engine epidemic: an idea on how anyone could benefit (or how to gently stop it)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnxsdd/custom_engine_epidemic_an_idea_on_how_anyone/",
       "external_link": null,
-      "score": "19",
-      "comments_count": 38,
+      "score": "8",
+      "comments_count": 25,
       "comment_sample_count": 0,
-      "pub_date": "2026-11-03T19:28:09",
-      "korean_summary": "32GB RAM과 16GB VRAM을 보유한 일반적인 하드웨어 사양에서 어떤 LLM 모델을 구동할 수 있는지에 대한 질문입니다. 코딩 및 일반 비서 용도로 활용 가능한 모델과 최신 기술 트렌드에 대한 요약을 요청하고 있습니다.",
+      "pub_date": "2026-11-04T19:43:13",
+      "korean_summary": "특정 하드웨어에만 최적화된 파편화된 커스텀 엔진 개발 현상을 해결하기 위해, 이를 모듈화하여 재사용 가능한 데이터베이스로 만드는 아이디어가 제안되었습니다. 개별 엔진의 핵심 기술을 추출하여 저장함으로써 누구나 자신의 환경에 맞는 최적의 추론 엔진을 쉽게 구축할 수 있는 생태계를 지향합니다.",
       "external_article_summary": "",
       "key_points": [
-        "32GB RAM 및 16GB VRAM 사양의 일반 사용자 환경에서 구동 가능한 모델 범위 문의",
-        "코딩 및 일반적인 AI 비서 용도로 적합한 모델 추천 요청",
-        "최근 급변하는 LLM 기술 트렌드와 하드웨어 활용법에 대한 정보 갈구"
+        "파편화된 커스텀 엔진들을 분석하여 커널, 최적화 기법, 전략 등 재사용 가능한 서브 모듈로 분해하고 데이터베이스화하는 방안 제안",
+        "사용자가 특정 하드웨어, 양자화 방식, 모델에 맞춰 최적의 모듈 조합을 선택하여 맞춤형 추론 엔진을 구축할 수 있는 시스템 구축",
+        "에이전트 기술과 남는 컴퓨팅 자원을 활용하여 자동화된 분석 및 벤치마킹을 수행함으로써 오픈소스 커뮤니티의 자원 분산을 방지"
       ],
       "tags": [
+        "Open Source",
+        "Agent",
         "LLM",
-        "LocalAI",
-        "Hardware"
+        "Database",
+        "AI"
       ],
       "source_modes": [
         "new"
@@ -135,25 +135,27 @@
     },
     {
       "source": "reddit",
-      "post_id": "1xmy9p6",
-      "subreddit": "OpenSourceAI",
-      "title": "SenseNova 6.8 Code2Video: a model that makes editable videos through code. 27B, 512K context",
-      "url": "https://www.reddit.com/r/OpenSourceAI/comments/1xmy9p6/sensenova_68_code2video_a_model_that_makes/",
+      "post_id": "1xnvouu",
+      "subreddit": "artificial",
+      "title": "ai has been stuck in software. what would ai native hardware actually need to be?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xnvouu/ai_has_been_stuck_in_software_what_would_ai/",
       "external_link": null,
-      "score": "2",
-      "comments_count": 0,
+      "score": "5",
+      "comments_count": 8,
       "comment_sample_count": 0,
-      "pub_date": "2026-11-03T16:54:08",
-      "korean_summary": "SenseNova 6.8 Code2Video는 코드를 통해 편집 가능한 영상을 생성할 수 있는 새로운 모델입니다. 27B 파라미터 규모와 512K의 대규모 컨텍스트 창을 지원하는 것이 특징입니다.",
+      "pub_date": "2026-11-04T18:22:28",
+      "korean_summary": "AI 기술이 소프트웨어에만 머물러 있다는 점을 지적하며, 진정한 AI 네이티브 하드웨어의 형태와 인터페이스에 대한 의문을 제기하는 글입니다. 과거 GUI나 터치스크린처럼 하드웨어와 소프트웨어가 결합된 혁신이 AI 시대에도 재현될 수 있을지 논의를 유도하고 있습니다.",
       "external_article_summary": "",
       "key_points": [
-        "코드를 활용하여 사용자가 편집 가능한 형태의 비디오를 생성하는 기술을 제공합니다.",
-        "27B 파라미터 모델로 강력한 성능을 갖추었으며 512K의 매우 긴 컨텍스트 길이를 지원합니다."
+        "과거의 컴퓨팅 혁신이 소프트웨어와 하드웨어의 결합에서 왔듯이, AI 역시 새로운 하드웨어 인터페이스가 필요할 것이라는 주장",
+        "현재의 채팅 방식이 AI를 위한 최적의 인터페이스인지에 대한 의문과 새로운 하드웨어의 역할에 대한 탐구",
+        "스마트폰이나 노트북과 차별화되는 AI 전용 기기만의 고유한 기능과 경계 설정에 대한 논의"
       ],
       "tags": [
-        "SenseNova",
-        "Code2Video",
-        "GenerativeAI"
+        "AI 하드웨어",
+        "HCI",
+        "미래 기술",
+        "AI"
       ],
       "source_modes": [
         "new"
