@@ -1,0 +1,757 @@
+{
+  "source": "community",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T05:25:33.299531+09:00",
+  "count": 24,
+  "daily_summary": "오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_key_points": [
+    "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+  ],
+  "daily_tags": [
+    "LLM",
+    "AI",
+    "Security",
+    "Automation",
+    "Cybersecurity"
+  ],
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Astra can read and write weights to improve Qwen\n📝 LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.\n\n📍 GeekNews / Hada · GitBook 침해 사고 발생\n📝 이번 사고는 AI 에이전트를 활용한 고도화된 공격이 인프라 자격 증명을 탈취할 수 있음을 보여준 사례입니다. 기업은 AI 서비스 도입 시 데이터 유출 위험을 고려하여 API 토큰 관리와 접근 제어 정책을 더욱 엄격히 수립해야 합니다.\n\n📍 Reddit · Ripple-65B Preview, 65B dense LLM trained from scratch\n📝 팔로알토 소재 기업이 3,200만 달러를 투입하여 처음부터 학습시킨 65B 규모의 밀집(dense) LLM인 Ripple-65B를 공개했습니다. 이 기업은 장기적으로 칩 설계 분야에도 집중할 계획입니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "items": [
+    {
+      "id": "hacker-news-50341174",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "summary": "LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.",
+      "article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
+      "external_article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
+      "discussion_summary": "기술의 실질적인 가치를 판단하기 위해 논문을 정독해야 한다는 신중론과, 도구 없이 가중치를 직접 편집하는 기술적 성과에 경악하는 옹호론이 대립하고 있습니다.",
+      "key_points": [
+        "LLM이 가중치를 직접 편집하여 모델의 추능 루프를 해결하고 성능을 최적화합니다.",
+        "가중치의 극소량(0.016%)만 수정하여 수학 점수를 5배 이상 높이는 효율성을 입증했습니다.",
+        "기존의 Adam과 같은 심볼릭 옵티마이저를 넘어 LLM이 직접 가중치를 최적화하는 시대가 올 수 있습니다."
+      ],
+      "tags": [
+        "LLM",
+        "Weight-Space Programming",
+        "Model Optimization",
+        "Deep Learning"
+      ],
+      "published_at_kst": "2026-11-03T03:21:28+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50341174",
+      "rank": 1,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50341174"
+      },
+      "score": 2938,
+      "comments_count": 890
+    },
+    {
+      "id": "hacker-news-50319510",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "summary": "Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 공개되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 지식 중심의 피드를 제공하는 것이 핵심입니다.",
+      "article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
+      "external_article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
+      "discussion_summary": "사용자들은 인플루언서나 클릭베이트 없는 순수 지식 콘텐츠를 제공한다는 점을 높게 평가하고 있습니다. 동시에 콘텐츠의 최신성을 확보하기 위해 오래된 영상과 새로운 영상을 구분하는 정렬 기능이 필요하다는 제언이 나오고 있습니다.",
+      "key_points": [
+        "LLM 기반의 자동화된 데이터 파이프라인을 통해 수만 개의 댓글에서 고품질 영상 리스트를 추출했습니다.",
+        "개인정보를 수집하지 않는 로컬 세션 기반의 추천 방식과 커뮤니티 검증 중심의 콘텐츠 큐레이션을 지향합니다.",
+        "알고리즘 중심의 콘텐츠 소비 시대에 데이터 분산과 개인화된 피드 구축의 가능성을 보여주었습니다."
+      ],
+      "tags": [
+        "LLM",
+        "Data Mining",
+        "Content Curation",
+        "Automation"
+      ],
+      "published_at_kst": "2026-11-01T04:56:53+09:00",
+      "category": "개발 도구",
+      "canonical_path": "/community/hacker-news-50319510",
+      "rank": 2,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50319510"
+      },
+      "score": 2876,
+      "comments_count": 637
+    },
+    {
+      "id": "hacker-news-50326821",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "summary": "Hacker News에서 언급된 도서 데이터를 수집하여 시각화한 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.",
+      "article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
+      "external_article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
+      "discussion_summary": "사용자들은 특정 도서가 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서의 가치를 재조명하는 의견이 제시되었습니다.",
+      "key_points": [
+        "Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트를 자동 생성했습니다.",
+        "2007년부터 축적된 16,500여 권의 도서 언급 데이터를 기반으로 작동합니다.",
+        "단순 언급 횟수를 집계하므로 칭찬과 비판이 구분되지 않는 데이터 정제 이슈가 존재합니다."
+      ],
+      "tags": [
+        "LLM",
+        "Data Pipeline",
+        "Hacker News",
+        "Automation"
+      ],
+      "published_at_kst": "2026-11-02T00:58:28+09:00",
+      "category": "데이터/DB",
+      "canonical_path": "/community/hacker-news-50326821",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50326821"
+      },
+      "score": 1851,
+      "comments_count": 305
+    },
+    {
+      "id": "hacker-news-50289418",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "summary": "Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.",
+      "article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "external_article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "discussion_summary": "사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.",
+      "key_points": [
+        "1조 파라미터 규모의 멀티모달 모델로 코딩과 보안 분야에서 압도적인 성능을 제공합니다.",
+        "프리뷰 대비 입력/출력 토큰 비용을 절반 수준으로 낮추어 경제성을 확보했습니다.",
+        "유럽 기반의 데이터 주권과 오픈 웨이트 모델의 투명성을 강조합니다."
+      ],
+      "tags": [
+        "Mistral",
+        "LLM",
+        "Open Weight",
+        "Cybersecurity",
+        "AI Economics"
+      ],
+      "published_at_kst": "2026-10-29T23:13:21+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50289418",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50289418"
+      },
+      "score": 1730,
+      "comments_count": 441
+    },
+    {
+      "id": "hacker-news-50337608",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "summary": "심각한 커널 취약점 CVE-2026-98432에 대한 Ubuntu의 패치 지연이 커뮤니티의 거센 비판을 받고 있습니다. 보안 구독 모델을 운영하는 기업형 배포판이 커뮤니티 기반 배포판보다 대응이 늦다는 점이 신뢰도 위기로 번지고 있습니다.",
+      "article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
+      "external_article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
+      "discussion_summary": "Ubuntu의 보안 우선순위 설정이 적절하지 않다는 비판과, 이미 패치가 포함된 커널이 'proposed' 저장소에 배포되어 있으니 수동으로 가져다 쓸 수 있다는 기술적 반론이 대립하고 있습니다.",
+      "key_points": [
+        "CVSS 9.8 점수의 커널 취약점으로 인해 전 세계 거의 모든 Linux 서버가 원격 공격 위험에 노출되었습니다.",
+        "기업용 보안 서비스를 제공하는 Ubuntu가 커뮤니티 기반의 Debian이나 Arch Linux보다 패치 배포가 늦어 신뢰도 문제가 발생했습니다.",
+        "보안 패치 우선순위 설정 방식과 기업의 책임감 사이의 괴리가 운영 체제 선택의 결정적 요인이 될 수 있습니다."
+      ],
+      "tags": [
+        "Ubuntu",
+        "Linux Kernel",
+        "CVE-2026-98432",
+        "Cybersecurity",
+        "Open Source"
+      ],
+      "published_at_kst": "2026-11-02T23:52:00+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50337608",
+      "rank": 5,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50337608"
+      },
+      "score": 1621,
+      "comments_count": 679
+    },
+    {
+      "id": "hacker-news-50276998",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "summary": "특정 핑거프린팅 스크립트가 의도치 않게 위험한 생물 무기 제조 정보를 생성할 수 있다는 보안 취약점을 다룹니다. LLM의 안전 가드레일이 특정 프롬프트에 의해 우회될 수 있음을 보여주는 사례입니다.",
+      "article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
+      "external_article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
+      "discussion_summary": "LLM 모델의 안전 가드레일이 특정 프롬프트에 취약하다는 점에 대한 우려와, 워터마킹 기술이 실무에서 관리 실수로 인해 정보 유출로 이어질 수 있다는 실무적 관점이 대립합니다.",
+      "key_points": [
+        "핑거프린팅 스크립트가 LLM의 안전 가드레일을 우회하여 위험한 정보를 생성하는 취약점을 노출합니다.",
+        "특정 모델(GLM-5.3 등)에서 유사한 프롬프트가 통용되는 등 LLM 보안 정책의 일관성 문제가 제기됩니다.",
+        "문서 워터마킹과 같은 식별 기술이 관리 부주의와 결합할 경우 보안 사고로 이어질 수 있습니다."
+      ],
+      "tags": [
+        "LLM",
+        "Fingerprinting",
+        "Security",
+        "AI Safety"
+      ],
+      "published_at_kst": "2026-10-29T02:13:29+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50276998",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50276998"
+      },
+      "score": 1604,
+      "comments_count": 310
+    },
+    {
+      "id": "hacker-news-50354960",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "summary": "Postman이 사용자 동의 없이 AI 플러그인을 자동 설치하고 API 데이터를 공유하려 한다는 보안 이슈가 제기되었습니다. 개발자 도구로서의 신뢰도가 하락하며 커뮤니티 내에서 거센 비판이 일고 있습니다.",
+      "article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
+      "external_article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
+      "discussion_summary": "사용자 몰래 데이터를 수집하는 행위가 프라이버시 침해라는 비판과, 기업의 수익 모델 변화로 인해 도구의 본질이 변질되었다는 실망감이 대립하고 있습니다. 많은 사용자가 보안 위험을 이유로 대체 도구로의 이주를 고려하고 있습니다.",
+      "key_points": [
+        "Postman의 자동 AI 플러그인 설치 및 API 데이터 수집 방식이 보안 위협으로 지목되었습니다.",
+        "템플릿 변수를 통해 노출되는 민감한 인증 정보와 쿼리 파라미터가 로그에 포함될 위험이 있습니다.",
+        "개발자 도구의 신뢰를 저해하는 기업의 데이터 수집 정책에 대해 커뮤니티의 반발이 거셉니다."
+      ],
+      "tags": [
+        "Postman",
+        "API",
+        "Privacy",
+        "Security"
+      ],
+      "published_at_kst": "2026-11-04T02:22:37+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50354960",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50354960"
+      },
+      "score": 1464,
+      "comments_count": 477
+    },
+    {
+      "id": "hacker-news-50351111",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "summary": "Astra의 Qwen 모델 가중치 수정 방식이 과장되었다는 비판이 제기되었습니다. 연구 성과를 과하게 포장했다는 전문가들의 지적과 함께 기술적 실체에 대한 논쟁이 이어지고 있습니다.",
+      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
+      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
+      "discussion_summary": "연구 성과를 과하게 홍보했다는 비판과 연구 과정에서 발생할 수 있는 일반적인 과장이라는 옹호가 대립하고 있습니다. 특히 기계 해석 가능성 연구자들은 원문이 기술적 실체를 왜곡하여 독자를 오도하고 있다는 점을 구체적으로 비판합니다.",
+      "key_points": [
+        "Astra의 Qwen 가중치 수정 방식이 기술적 실체보다 과장되어 발표되었습니다.",
+        "기계 해석 가능성(Mechanistic Interpretability) 전문가들은 원문의 논리가 연구 윤리적 관점에서 부적절하다고 지적합니다.",
+        "모델 가중치 수정 기술의 실제 효용성과 연구 성과 포장 사이의 경계가 쟁점입니다."
+      ],
+      "tags": [
+        "LLM",
+        "Mechanistic Interpretability",
+        "Qwen",
+        "AI Research"
+      ],
+      "published_at_kst": "2026-11-03T21:21:17+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50351111",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50351111"
+      },
+      "score": 1014,
+      "comments_count": 206
+    },
+    {
+      "id": "hacker-news-50300683",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summary": "Cursor Marketplace에 등록된 Claude Code VS Code 확장 프로그램에서 백도어가 발견되어 보안 경고가 발생했습니다. Anthropic은 이번 사건이 자사 시스템 침해는 아니며 Cursor 플랫폼을 통한 악성 코드 유포임을 명시했습니다.",
+      "article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
+      "external_article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
+      "discussion_summary": "Anthropic 측은 이번 사고가 자사 시스템 보안과는 무관함을 강조하며 책임 소재를 명확히 하고 있습니다. 사용자들은 악성 확장 프로그램이 유포된 경로인 Cursor 플랫폼의 보안 관리 체계에 대해 우려를 표하고 있습니다.",
+      "key_points": [
+        "Cursor Marketplace를 통해 배포된 Claude Code 확장 프로그램에 백도어가 포함되었습니다.",
+        "이번 보안 사고는 Anthropic 시스템 침해가 아닌 플랫폼 권한을 이용한 외부 공격입니다.",
+        "사용자는 설치된 VS Code 확장 프로그램의 무결성을 즉시 점검해야 합니다."
+      ],
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "VS Code",
+        "Backdoor",
+        "Security"
+      ],
+      "published_at_kst": "2026-10-30T16:09:12+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50300683",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50300683"
+      },
+      "score": 1010,
+      "comments_count": 553
+    },
+    {
+      "id": "hacker-news-50339288",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "summary": "단순히 차량 내 시간을 변경하기 위해 내비게이션 시스템의 펌웨어를 추출하고 탈옥(Jailbreaking)을 시도한 기술적 과정을 다룹니다. 사용자의 집요한 디버깅 과정과 그에 따른 보안 취약점 노출이 커뮤니티의 관심을 끌었습니다.",
+      "article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
+      "external_article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
+      "discussion_summary": "작성자의 집요한 문제 해결 방식에 대한 감탄과 함께, SD 카드 교체와 같은 더 간단한 방법이 있었을 것이라는 실용적 비판이 대립하고 있습니다. 또한, 기술적 기록이 향후 유지보수를 위해 중요하다는 조언이 이어지고 있습니다.",
+      "key_points": [
+        "임베디드 시스템의 펌웨어 추출 및 탈옥을 통한 제어권 확보 과정을 다룹니다.",
+        "단순한 기능 수정을 위해 시스템 전체의 보안을 해제하는 행위의 기술적 가치를 논의합니다.",
+        "폐쇄적인 하드웨어 환경에서 사용자의 커스텀 권한 확보가 갖는 의미를 시사합니다."
+      ],
+      "tags": [
+        "Jailbreaking",
+        "Embedded System",
+        "Firmware",
+        "Reverse Engineering"
+      ],
+      "published_at_kst": "2026-11-03T01:29:19+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50339288",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50339288"
+      },
+      "score": 918,
+      "comments_count": 363
+    },
+    {
+      "id": "hada-36604",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "GitBook 침해 사고 발생",
+      "url": "https://news.hada.io/topic?id=36604",
+      "summary": "이번 사고는 AI 에이전트를 활용한 고도화된 공격이 인프라 자격 증명을 탈취할 수 있음을 보여준 사례입니다. 기업은 AI 서비스 도입 시 데이터 유출 위험을 고려하여 API 토큰 관리와 접근 제어 정책을 더욱 엄격히 수립해야 합니다.",
+      "article_summary": "11월 2일 19:00 CET, GitBook 인프라에 대한 AI 에이전트 기반의 정교한 표적 공격이 발생했습니다. 공격자는 일부 인프라 자격 증명에 무단 접근하여 Git Sync 시크릿, GitBook 및 외부 서비스 API 토큰, 그리고 GitBook Assistant에 입력된 사용자 질문 데이터에 접근했을 가능성이 있습니다. GitBook은 즉각적인 대응을 위해 앱과 인증 필요 문서 사이트를 중단했으며, 인프라 전체의 자격 증명 교체 및 고객 API 토큰 무효화 조치를 완료했습니다.",
+      "external_article_summary": "11월 2일 19:00 CET, GitBook 인프라에 대한 AI 에이전트 기반의 정교한 표적 공격이 발생했습니다. 공격자는 일부 인프라 자격 증명에 무단 접근하여 Git Sync 시크릿, GitBook 및 외부 서비스 API 토큰, 그리고 GitBook Assistant에 입력된 사용자 질문 데이터에 접근했을 가능성이 있습니다. GitBook은 즉각적인 대응을 위해 앱과 인증 필요 문서 사이트를 중단했으며, 인프라 전체의 자격 증명 교체 및 고객 API 토큰 무효화 조치를 완료했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 에이전트를 이용한 정교한 표적 공격으로 인해 GitBook 인프라 자격 증명이 유출되었습니다.",
+        "공격자는 Git Sync 시크릿, API 토큰, GitBook Assistant에 입력된 사용자 질문 데이터에 접근했을 가능성이 있습니다.",
+        "GitBook은 즉시 서비스 일부를 중단하고 모든 인프라 자격 증명 교체 및 고객 API 토큰 무효화 조치를 시행했습니다."
+      ],
+      "tags": [
+        "보안사고",
+        "GitBook",
+        "AI에이전트",
+        "데이터유출"
+      ],
+      "published_at_kst": "2026-11-05T03:44:45+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36604",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36604"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36603",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Ask HN: Cleveland 지역 아마추어 무선 동호회에 아는 분이 있나요?",
+      "url": "https://news.hada.io/topic?id=36603",
+      "summary": "사용 가능한 무선 통신 장비가 자원 순환 없이 폐기될 위기에 처한 상황을 보여줍니다. 아마추어 무선 커뮤니티 내의 원활한 장비 인계와 데이터 기반의 접수 시스템 확인이 시급한 과제로 제시되었습니다.",
+      "article_summary": "클리블랜드 지역의 한 거주자가 집에서 반출해야 하는 대량의 아마추어 무선 장비를 처분하기 위해 도움을 요청했습니다. 상당수의 장비가 미사용 새 제품임에도 불구하고, 현재 적절한 수거처를 찾지 못하면 쓰레기 수거함에 버려질 위기에 처해 있습니다. 작성자는 Cuyahoga Amateur Radio Club 웹 양식을 통해 장비 정보를 제출했으나, 접수 여부가 불투명하여 해당 동호회 관계자의 확인을 간곡히 요청하고 있습니다.",
+      "external_article_summary": "클리블랜드 지역의 한 거주자가 집에서 반출해야 하는 대량의 아마추어 무선 장비를 처분하기 위해 도움을 요청했습니다. 상당수의 장비가 미사용 새 제품임에도 불구하고, 현재 적절한 수거처를 찾지 못하면 쓰레기 수거함에 버려질 위기에 처해 있습니다. 작성자는 Cuyahoga Amateur Radio Club 웹 양식을 통해 장비 정보를 제출했으나, 접수 여부가 불투명하여 해당 동호회 관계자의 확인을 간곡히 요청하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "집에서 반출해야 하는 대량의 무선 장비가 있으며, 이를 처리하지 못하면 폐기될 예정입니다.",
+        "Cuyahoga Amateur Radio Club 웹 양식으로 정보를 보냈으나 접수 여부가 확인되지 않아 우려되는 상황입니다.",
+        "해당 동호회 관계자를 알고 있다면 웹 양식 접수 내역을 확인해 달라는 요청이 전달되었습니다."
+      ],
+      "tags": [
+        "장비 처분",
+        "클리블랜드",
+        "아마추어 무선"
+      ],
+      "published_at_kst": "2026-11-05T03:41:45+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36603",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36603"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36602",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "AMD, 4분기 매출에서 사상 처음 Intel 추월 전망",
+      "url": "https://news.hada.io/topic?id=36602",
+      "summary": "데이터센터와 AI 가속기 중심의 사업 구조 개편이 AMD의 매출 성장을 견인하며 인텔과의 격차를 벌리고 있습니다. 이는 클라이언트 시장의 변동성을 서버와 AI 인프라 매출로 상쇄하는 고수익 구조로의 전환을 의미합니다.",
+      "article_summary": "AMD는 2026년 4분기 매출을 약 170억 달러로 전망하며. 이는 인텔의 예상치인 150억~160억 달러를 상회하는 수치입니다. 3분기 매출이 사상 최대인 133억 7,700만 달러를 기록한 배경에는 Epyc 서버 CPU와 Instinct AI 가속기의 강력한 수요가 있었습니다. 데이터센터 부문은 전년 대비 97% 성장하며 전체 매출의 le 64%를 차지하는 핵심 동력이 되었습니다.",
+      "external_article_summary": "AMD는 2026년 4분기 매출을 약 170억 달러로 전망하며. 이는 인텔의 예상치인 150억~160억 달러를 상회하는 수치입니다. 3분기 매출이 사상 최대인 133억 7,700만 달러를 기록한 배경에는 Epyc 서버 CPU와 Instinct AI 가속기의 강력한 수요가 있었습니다. 데이터센터 부문은 전년 대비 97% 성장하며 전체 매출의 le 64%를 차지하는 핵심 동력이 되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AMD는 2026년 4분기 매출 170억 달러를 전망하며 인텔의 분기 매출을 사상 처음으로 추월할 것으로 보입니다.",
+        "Epyc 서버 CPU와 Instinct AI 가속기 수요가 급증하며 3분기 매출이 133억 7,700만 달러로 사상 최대치를 기록했습니다.",
+        "데이터센터 매출 비중이 전체의 64%에 달하며, 향후 AI 사업 확대를 통해 2027년에는 이 비중이 80%를 넘어설 전망입니다."
+      ],
+      "tags": [
+        "반도체 시장",
+        "AMD",
+        "데이터센터",
+        "AI 가속기",
+        "Intel"
+      ],
+      "published_at_kst": "2026-11-05T03:38:45+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36602",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36602"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36600",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "소소한 즐거움 삼아, AI에 조금 저항하기",
+      "url": "https://news.hada.io/topic?id=36600",
+      "summary": "고객 응대 자동화 과정에서 발생하는 정형화된 문체는 문제 해결 여부와 관계없이 고객에게 불신을 심어줄 수 있습니다. 기술적 정확도만큼이나 인간적인 맥락이 담긴 소통이 고객 경험(CX) 관리의 핵심임을 보여주는 사례입니다.",
+      "article_summary": "영국의 Ocado 고객이 캘린더 파일 오류를 신고하자, 고객센터는 기술팀에 전달했다는 정형화된 답변을 보냈으나. 이는 AI가 작성한 듯한 과도한 동조로 인해 신뢰를 잃었습니다. 고객이 낮은 만족도 점수와 함께 AI 응대에 대한 항의를 제기하자, 기업은 사람이 직접 작성한 상세한 기술 진단 답변을 통해 사과했습니다. 이 과정에서 문법적 완결성보다 인간적인 문체와 구체적인 피드백이 고객의 신뢰를 회복하는 데 결정적인 역할을 했습니다.",
+      "external_article_summary": "영국의 Ocado 고객이 캘린더 파일 오류를 신고하자, 고객센터는 기술팀에 전달했다는 정형화된 답변을 보냈으나. 이는 AI가 작성한 듯한 과도한 동조로 인해 신뢰를 잃었습니다. 고객이 낮은 만족도 점수와 함께 AI 응대에 대한 항의를 제기하자, 기업은 사람이 직접 작성한 상세한 기술 진단 답변을 통해 사과했습니다. 이 과정에서 문법적 완결성보다 인간적인 문체와 구체적인 피드백이 고객의 신뢰를 회복하는 데 결정적인 역할을 했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI가 작성한 듯한 정형화된 고객 응대는 문제 해결에 대한 신뢰도를 떨어뜨리는 역효과를 낳습니다.",
+        "고객의 불만 제기 이후 사람이 직접 작성한 구체적인 기술 진단 답변이 신뢰 회복의 계기가 되었습니다.",
+        "완벽한 문법보다 상황에 맞는 인간적인 문체와 실질적인 피드백이 고객 만족에 더 큰 영향을 미칩니다."
+      ],
+      "tags": [
+        "고객서비스",
+        "고객경험",
+        "AI",
+        "AI응대"
+      ],
+      "published_at_kst": "2026-11-05T02:40:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36600",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36600"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36599",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "검증은 지식이 아니다: 과학에는 정답 이상의 것이 필요하다",
+      "url": "https://news.hada.io/topic?id=36599",
+      "summary": "과학적 검증은 단순한 결과의 일치 여부를 넘어 인간의 비판적 이해와 책임이 결합된 과정이어야 합니다. AI 시대의 과학은 알고리즘의 효율성보다 지식의 근거를 확보하고 사회적 가치를 반영하는 주체적 판단력을 유지하는 데 초점을 맞춰야 합니다.",
+      "article_summary": "AI가 생성한 결과물의 정확성만을 기준으로 과학적 가치를 판단하는 것은 지식의 발전과 인간의 책임성을 저해할 위험이 있습니다. 과학적 이해는 단순히 정답을 맞히는 것을 넘어, 결과가 실패했을 때 근거를 추적하고 문제를 해결할 수 있는 주체의 책임이 수반되어야 합니다. 특히 가치중립적 이상에 매몰되어 윤리적 판단을 배제하는 것은 인간의 개입 없이 알고리즘적 절차만으로 진리에 도달할 수 있다는 위험한 AI 과학 담론을 강화할 수 있습니다.",
+      "external_article_summary": "AI가 생성한 결과물의 정확성만을 기준으로 과학적 가치를 판단하는 것은 지식의 발전과 인간의 책임성을 저해할 위험이 있습니다. 과학적 이해는 단순히 정답을 맞히는 것을 넘어, 결과가 실패했을 때 근거를 추적하고 문제를 해결할 수 있는 주체의 책임이 수반되어야 합니다. 특히 가치중립적 이상에 매몰되어 윤리적 판단을 배제하는 것은 인간의 개입 없이 알고리즘적 절차만으로 진리에 도달할 수 있다는 위험한 AI 과학 담론을 강화할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 결과의 정확성에만 매몰되면 지식을 비판하고 수정하며 발전시키는 인간의 책임성이 상실될 수 있습니다.",
+        "진정한 과학적 이해는 정답을 얻는 것을 넘어 실패 시 근거를 따지고 문제를 해결할 수 있는 주체가 존재할 때 완성됩니다.",
+        "가치중립적 이상을 앞세워 윤리를 배제하는 태도는 인간의 판단 없이도 진리에 도달할 수 있다는 AI 만능주의를 정당화할 위험이 있습니다."
+      ],
+      "tags": [
+        "AI 윤리",
+        "책임성",
+        "과학 철학"
+      ],
+      "published_at_kst": "2026-11-05T02:37:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36599",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36599"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36598",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "GitHub Pull Requests, Git 작업 및 Issues 장애",
+      "url": "https://news.hada.io/topic?id=36598",
+      "summary": "GitHub의 핵심 서비스들이 동시에 영향을 받은 이번 장애는 개발 워크플로우 전반에 걸친 가용성 저하를 야기했습니다. 서비스 복구는 완료되었으나, 향후 발표될 근본 원인 분석(RCA) 결과에 따라 인프라 안정성 확보가 핵심 과제가 될 전망입니다.",
+      "article_summary": "2026년 11월 4일, GitHub에서 API Requests, Git 작업, Issues, Pull Requests, Actions를 포함한 5개 서비스에서 간헐적 실패와 성능 저하가 발생했습니다. 장애 영향은 11:30 UTC에 주요 서비스들의 가용성 문제가 완화되었으며, 이후 11:43 UTC에 Actions 성능 저하가 해결되었습니다. 최종적으로 11:50 UTC에 모든 서비스가 정상화되었으며 현재는 안정성 모니터링 단계에 있습니다.",
+      "external_article_summary": "2026년 11월 4일, GitHub에서 API Requests, Git 작업, Issues, Pull Requests, Actions를 포함한 5개 서비스에서 간헐적 실패와 성능 저하가 발생했습니다. 장애 영향은 11:30 UTC에 주요 서비스들의 가용성 문제가 완화되었으며, 이후 11:43 UTC에 Actions 성능 저하가 해결되었습니다. 최종적으로 11:50 UTC에 모든 서비스가 정상화되었으며 현재는 안정성 모니터링 단계에 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "GitHub의 API, Git, Issues, Pull Requests, Actions 등 5개 서비스에서 성능 저하 및 요청 실패가 발생했습니다.",
+        "장애는 11:30 UTC부터 단계적으로 완화되어 11:50 UTC에 모든 서비스가 정상화되었습니다.",
+        "현재 모든 서비스는 안정화되었으며 GitHub 측의 상세 근본 원인 분석이 대기 중입니다."
+      ],
+      "tags": [
+        "Service Outage",
+        "DevOps",
+        "GitHub"
+      ],
+      "published_at_kst": "2026-11-05T01:42:47+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36598",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36598"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36597",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "미국 유권자들, 주민투표에서 데이터센터에 압도적 반대",
+      "url": "https://news.hada.io/topic?id=36597",
+      "summary": "데이터센터의 급격한 확장이 지역 사회의 에너지 및 수자원 인프라와 충돌하며 사회적 갈등이 심화되고 있습니다. 이는 향후 데이터센터 부지 선정과 운영 방식에 있어 지역 주민과의 합의가 핵심적인 변수가 될 것임을 시사합니다.",
+      "article_summary": "미국 내 일부 지역 유권자들이 주민투표를 통해 데이터센터 건설에 대해 압도적인 반대 의사를 표명했습니다. 이번 투표 결과는 지역 사회의 자원 소비와 환경적 영향에 대한 시민들의 우려를 반영하고 있습니다. 데이터센터 확충이 지역 경제와 인프라에 미치는 영향이 주요 쟁점으로 부각되었습니다.",
+      "external_article_summary": "미국 내 일부 지역 유권자들이 주민투표를 통해 데이터센터 건설에 대해 압도적인 반대 의사를 표명했습니다. 이번 투표 결과는 지역 사회의 자원 소비와 환경적 영향에 대한 시민들의 우려를 반영하고 있습니다. 데이터센터 확충이 지역 경제와 인프라에 미치는 영향이 주요 쟁점으로 부각되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "미국 유권자들이 주민투표를 통해 데이터센터 건설에 대해 강력한 반대 의사를 전달했습니다.",
+        "데이터센터의 전력 및 자원 소비 문제가 지역 사회의 주요 갈등 원인으로 작용하고 있습니다.",
+        "향후 데이터센터 인프라 확충 과정에서 지역 사회와의 상생 모델 구축이 필수적입니다."
+      ],
+      "tags": [
+        "주민투표",
+        "미국",
+        "데이터센터",
+        "인프라"
+      ],
+      "published_at_kst": "2026-11-05T01:39:47+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36597",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36597"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36596",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "북한의 가짜 채용 면접이 Binance의 63억 달러 탈취로 이어짐",
+      "url": "https://news.hada.io/topic?id=36596",
+      "summary": "이번 사건은 개발 환경의 신뢰를 악용한 공급망 공격과 사회공학적 기법이 결합했을 때 발생하는 막대한 경제적 피해를 보여줍니다. 개발 도구와 오픈소스 구성요소에 대한 검증 체계가 보안의 핵심 취약점이 될 수 있음을 시사합니다.",
+      "article_summary": "북한 해커 조직이 가짜 채용 면접 과정을 통해 Binance 소프트웨어 엔지니어의 업무용 컴퓨터를 감염시키고 63억 달러 규모의 암호화폐를 탈취했습니다. 이번 공격은 단순 피싱을 넘어 공급망 공격, 사회공학, 개발 도구 변조, 내부 AI 도구 침해를 결합한 정교한 다단계 공격 방식으로 진행되었습니다. 공격자는 면접 과제로 제공된 코드 저장소를 통해 정상적인 pyenv 구성요소를 악성 버전으로 교체했으며, 단말 보안 도구가. 이를 탐지하지 못하는 허점을 이용해 내부 시스템에 침투했습니다.",
+      "external_article_summary": "북한 해커 조직이 가짜 채용 면접 과정을 통해 Binance 소프트웨어 엔지니어의 업무용 컴퓨터를 감염시키고 63억 달러 규모의 암호화폐를 탈취했습니다. 이번 공격은 단순 피싱을 넘어 공급망 공격, 사회공학, 개발 도구 변조, 내부 AI 도구 침해를 결합한 정교한 다단계 공격 방식으로 진행되었습니다. 공격자는 면접 과제로 제공된 코드 저장소를 통해 정상적인 pyenv 구성요소를 악성 버전으로 교체했으며, 단말 보안 도구가. 이를 탐지하지 못하는 허점을 이용해 내부 시스템에 침투했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "북한 공격자들이 가짜 채용 면접을 통해 Binance 엔지니어의 단말을 장악하고 63억 달러 규모의 자산을 탈취했습니다.",
+        "공격자는 면접 과제용 코드 저장소에 악성 pyenv 구성요소를 심어 단말 보안 도구의 탐지를 우회했습니다.",
+        "이번 사건은 사회공학적 기법과 공급망 공격, 내부 AI 도구 침해를 결합한 고도로 설계된 다단계 공격입니다."
+      ],
+      "tags": [
+        "사이버 보안",
+        "공급망 공격",
+        "북한 해킹",
+        "사회공학",
+        "Binance"
+      ],
+      "published_at_kst": "2026-11-05T01:36:47+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36596",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36596"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36595",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Kimi K3.1 Pro 가중치 공개",
+      "url": "https://news.hada.io/topic?id=36595",
+      "summary": "대규모 파라미터와 MoE 구조를 결합하여 에이전트 역량을 극대화한 고성능 모델의 공개입니다. 방대한 컨텍스트 창과 강화학습을 통해 전문적인 작업 수행 능력을 확보한 것이 기술적 핵심입니다.",
+      "article_summary": "Kimi K3.1 Pro 모델의 가중치가 공개되었습니다. 이 모델은 총 2.8조 개의 파라미터를 보유한 텍�스트 및 이미지 처리용 공개 가중치 에이전트 모델입니다. MoE(Mixture-of-Experts) 구조를 채택하여 활성 파라미터는 1,040억 개이며, 약 100만 토큰의 컨텍스트 창을 지원합니다. Kimi K3를 기반으로 수백 개의 하위 작업 영역에서 대규모 공동 강화학습을 수행하여 코딩, 3D 제작, 금융 연구 등에서 성능을 개선했습니다.",
+      "external_article_summary": "Kimi K3.1 Pro 모델의 가중치가 공개되었습니다. 이 모델은 총 2.8조 개의 파라미터를 보유한 텍�스트 및 이미지 처리용 공개 가중치 에이전트 모델입니다. MoE(Mixture-of-Experts) 구조를 채택하여 활성 파라미터는 1,040억 개이며, 약 100만 토큰의 컨텍스트 창을 지원합니다. Kimi K3를 기반으로 수백 개의 하위 작업 영역에서 대규모 공동 강화학습을 수행하여 코딩, 3D 제작, 금융 연구 등에서 성능을 개선했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Kimi K3.1 Pro는 총 2.8조 파라미터와 100만 토큰의 컨텍스트 창을 갖춘 공개 가중치 에이전트 모델입니다.",
+        "MoE 구조를 통해 1,040억 개의 활성 파라미터를 사용하며 효율적인 연산을 수행합니다.",
+        "수백 개의 하위 작업 영역에서 진행된 대규모 공동 강화학습을 통해 코딩, 3D 제작, 금융 연구 역량을 강화했습니다."
+      ],
+      "tags": [
+        "Kimi K3.1 Pro",
+        "LLM",
+        "MoE",
+        "AI 에이전트"
+      ],
+      "published_at_kst": "2026-11-05T00:57:32+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36595",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36595"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-36594",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "민주당, 미국 하원 다수당 차지",
+      "url": "https://news.hada.io/topic?id=36594",
+      "summary": "미국 의회 권력 구조가 민주당 중심으로 재편됨에 따라 트럼프 행정부의 정책에 대한 강력한 견제와 조사가 이루어질 전망입니다. 민주당은 확보한 위원회 권한을 통해 전임 행정부의 정책과 관련 사업들을 정밀 조사할 수 있는 법적 토대를 마련하게 되었습니다.",
+      "article_summary": "NBC News 예측에 따르면 민주당이 하원 과반 기준인 218석을 크게 상회하는 약 255석을 확보하며 다수당 지위를 탈환할 전망입니다. 이번 결과로 민주당은 상원까지 장악하며 양원 모두를 확보할 것으로 예상됩니다. 특히 트럼프가 승리했던 지역구에서 민주당이 대거 승리하며 정책 심판 성격이 강하게 나타났습니다.",
+      "external_article_summary": "NBC News 예측에 따르면 민주당이 하원 과반 기준인 218석을 크게 상회하는 약 255석을 확보하며 다수당 지위를 탈환할 전망입니다. 이번 결과로 민주당은 상원까지 장악하며 양원 모두를 확보할 것으로 예상됩니다. 특히 트럼프가 승리했던 지역구에서 민주당이 대거 승리하며 정책 심판 성격이 강하게 나타났습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "민주당이 하원 약 255석을 확보하며 과반을 달성하고 상원까지 탈환할 것으로 예측됩니다.",
+        "이번 선거 결과는 이민 정책, 대외 전쟁, 관세 등 트럼프 행정부의 주요 정책에 대한 유권자들의 심판으로 해석됩니다.",
+        "민주당은 하원 위원회 권한을 통해 트럼프 행정부와 그 가족의 사업 등을 조사할 수 있는 동력을 얻었습니다."
+      ],
+      "tags": [
+        "미국정치",
+        "민주당",
+        "미국선거",
+        "하원탈환"
+      ],
+      "published_at_kst": "2026-11-05T00:34:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-36594",
+      "rank": 10,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=36594"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "reddit-1xnyd20",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Ripple-65B Preview, 65B dense LLM trained from scratch",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnyd20/ripple65b_preview_65b_dense_llm_trained_from/",
+      "summary": "팔로알토 소재 기업이 3,200만 달러를 투입하여 처음부터 학습시킨 65B 규모의 밀집(dense) LLM인 Ripple-65B를 공개했습니다. 이 기업은 장기적으로 칩 설계 분야에도 집중할 계획입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "팔로알토 소재 기업이 3,200만 달러의 비용을 들여 학습시킨 65B 규모의 밀집 LLM인 Ripple-65B를 발표했습니다.",
+        "해당 기업은 향후 장기적인 목표 중 하나로 칩 설계(chip design)를 설정하고 있습니다.",
+        "공개된 정보에는 NVIDIA, Meta 등 다른 기업들의 대규모 모델들과 비교되는 벤치마크 관련 내용이 포함되어 있습니다."
+      ],
+      "tags": [
+        "AI_Training",
+        "LLM",
+        "Chip_Design",
+        "AI",
+        "Benchmark"
+      ],
+      "published_at_kst": "2026-11-04T20:05:06",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xnyd20",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "Error",
+      "comments_count": 0,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xnw2gv",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "We Made $74K Redesigning Websites in October",
+      "url": "https://www.reddit.com/r/artificial/comments/1xnw2gv/we_made_74k_redesigning_websites_in_october/",
+      "summary": "웹 디자인 회사를 운영하는 작성자가 가격 전략과 영업 방식의 변화를 통해 월 매출을 2만 달러에서 7만 4천 달러로 대폭 끌어올린 성공 사례를 공유했습니다. 고객 수를 늘리는 대신 가치 중심의 고가 전략과 AI를 활용한 맞춤형 제안 방식을 도입한 것이 핵심입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "단순히 고객 수를 늘리는 대신 프로젝트 단가를 높이고, 전문적인 영업 기술(톤 조절, 가치 전달, 프레임 제어 등)을 연마하여 수익성을 극대화했습니다.",
+        "고용량 콜드 이메일 캠페인과 AI 도구를 결합하여 잠재 고객의 웹사이트 문제를 분석하고, AI로 제작한 디자인 초안을 미리 보여주는 방식으로 전환율을 높였습니다."
+      ],
+      "tags": [
+        "AI 자동화",
+        "영업 기술",
+        "비즈니스 전략",
+        "AI"
+      ],
+      "published_at_kst": "2026-11-04T18:36:54",
+      "category": "artificial",
+      "canonical_path": "/community/reddit-1xnw2gv",
+      "rank": null,
+      "subreddit": "artificial",
+      "score": "0",
+      "comments_count": 3,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xnxsdd",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "Custom engine epidemic: an idea on how anyone could benefit (or how to gently stop it)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnxsdd/custom_engine_epidemic_an_idea_on_how_anyone/",
+      "summary": "특정 하드웨어에만 최적화된 파편화된 커스텀 엔진 개발 현상을 해결하기 위해, 이를 모듈화하여 재사용 가능한 데이터베이스로 만드는 아이디어가 제안되었습니다. 개별 엔진의 핵심 기술을 추출하여 저장함으로써 누구나 자신의 환경에 맞는 최적의 추론 엔진을 쉽게 구축할 수 있는 생태계를 지향합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "파편화된 커스텀 엔진들을 분석하여 커널, 최적화 기법, 전략 등 재사용 가능한 서브 모듈로 분해하고 데이터베이스화하는 방안 제안",
+        "사용자가 특정 하드웨어, 양자화 방식, 모델에 맞춰 최적의 모듈 조합을 선택하여 맞춤형 추론 엔진을 구축할 수 있는 시스템 구축",
+        "에이전트 기술과 남는 컴퓨팅 자원을 활용하여 자동화된 분석 및 벤치마킹을 수행함으로써 오픈소스 커뮤니티의 자원 분산을 방지"
+      ],
+      "tags": [
+        "Open Source",
+        "Agent",
+        "LLM",
+        "Database",
+        "AI"
+      ],
+      "published_at_kst": "2026-11-04T19:43:13",
+      "category": "LocalLLaMA",
+      "canonical_path": "/community/reddit-1xnxsdd",
+      "rank": null,
+      "subreddit": "LocalLLaMA",
+      "score": "8",
+      "comments_count": 25,
+      "comments": []
+    },
+    {
+      "id": "reddit-1xnvouu",
+      "source": "reddit",
+      "source_name": "Reddit",
+      "title": "ai has been stuck in software. what would ai native hardware actually need to be?",
+      "url": "https://www.reddit.com/r/artificial/comments/1xnvouu/ai_has_been_stuck_in_software_what_would_ai/",
+      "summary": "AI 기술이 소프트웨어에만 머물러 있다는 점을 지적하며, 진정한 AI 네이티브 하드웨어의 형태와 인터페이스에 대한 의문을 제기하는 글입니다. 과거 GUI나 터치스크린처럼 하드웨어와 소프트웨어가 결합된 혁신이 AI 시대에도 재현될 수 있을지 논의를 유도하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "과거의 컴퓨팅 혁신이 소프트웨어와 하드웨어의 결합에서 왔듯이, AI 역시 새로운 하드웨어 인터페이스가 필요할 것이라는 주장",
+        "현재의 채팅 방식이 AI를 위한 최적의 인터페이스인지에 대한 의문과 새로운 하드웨어의 역할에 대한 탐구",
+        "스마트폰이나 노트북과 차별화되는 AI 전용 기기만의 고유한 기능과 경계 설정에 대한 논의"
+      ],
+      "tags": [
+        "AI 하드웨어",
+        "HCI",
+        "미래 기술",
+        "AI"
+      ],
+      "published_at_kst": "2026-11-04T18:22:28",
+      "category": "artificial",
+      "canonical_path": "/community/reddit-1xnvouu",
+      "rank": null,
+      "subreddit": "artificial",
+      "score": "5",
+      "comments_count": 8,
+      "comments": []
+    }
+  ]
+}
