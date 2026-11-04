@@ -1,22 +1,22 @@
 {
   "source": "official_news",
-  "date": "2026-11-04",
-  "generated_at": "2026-11-04T04:43:16.624294+09:00",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T05:15:32.504415+09:00",
   "count": 10,
-  "daily_summary": "오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini 4, Genie 4, Robotics 모델 등) 출시를 통한 물리적 세계 및 과학적 연구의 혁신, OpenAI의 엔지니어링 및 보안 강화, 그리고 Anthropic의 IPO 준비 등 AI 산업의 기술적 진보와 기업 전략 변화를 중심으로 전개되었습니다.",
+  "daily_summary": "오늘의 주요 발표는 차세대 AI 모델(Gemini 4, Genie 4)의 공개와 물리적 세계 및 엔지니어링 분야로 확장되는 AI 에이전트 기술의 진보, 그리고 Anthropic의 IPO 추진과 같은 기업들의 전략적 움직임으로 요약됩니다.",
   "daily_key_points": [
-    "Google DeepMind의 차세대 모델(Gemini 4 Carbon, Genie 4) 및 로보틱스 모델 출시를 통한 물리적 시뮬레이션과 추론 능력의 비약적 발전",
-    "OpenAI의 엔지니어링 워크플로우 가속화 및 보안 버그 바운티 강화를 통한 실질적 활용과 보안 생태계 구축",
-    "Anthropic의 IPO를 위한 S-1 서류 제출 등 주요 AI 기업들의 기업 가치 및 시장 확장 전략 가시화"
+    "Google DeepMind의 차세대 모델(Gemini 4 Carbon, Genie 4) 공개를 통한 월드 시뮬레이션 및 강력한 추론 능력 확보",
+    "물리 공학, 로보틱스, 엔지니어링 워크플로우 등 실세계 물리적 상호작용을 위한 AI 에이전트 기술의 고도화",
+    "Anthropic의 IPO를 위한 S-1 서류 제출 및 기업 보안/클라우드 환경에서의 AI 모델 활용 확대"
   ],
   "daily_tags": [
     "AI Agents",
     "Generative Models",
     "Robotics",
     "Engineering AI",
-    "Corporate Strategy"
+    "Corporate News"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini 4, Genie 4, Robotics 모델 등) 출시를 통한 물리적 세계 및 과학적 연구의 혁신, OpenAI의 엔지니어링 및 보안 강화, 그리고 Anthropic의 IPO 준비 등 AI 산업의 기술적 진보와 기업 전략 변화를 중심으로 전개되었습니다.\n\n📍 1. Agentic cheminformatics with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.\n🔗 링크: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/\n\n📍 2. Introducing Physical-Engineering’s Last Exam for agents\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud AI가 물리 공학 분야의 에이전트 성능을 평가하기 위한 새로운 벤치마크인 PLE를 도입했습니다. 이 벤치마크는 실제 기계, 전기, 토목 및 구조 공학 과제를 통해 최첨단 AI 에이전트의 능력을 검증합니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents\n\n📍 3. Accelerating engineering for the physical world\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: ChatGPT와 Codex가 물리적 세계를 위한 엔지니어링 워크플로우를 어떻게 가속화하는지 소개합니다. CAD, PCB 설계, 시뮬레이션 등 다양한 엔지니어링 분야에서의 활용 방안을 다룹니다.\n🔗 링크: https://openai.com/index/accelerating-engineering-for-the-physical-world\n\n📍 4. Heimstaden is changing residential real estate management with AI\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Heimstaden이 ChatGPT Enterprise와 Codex를 활용하여 유럽 전역의 주거용 부동산 관리 방식을 혁신하고 있습니다. 이를 통해 운영 비용을 절감하고 직원들의 업무 역량을 강화하고 있습니다.\n🔗 링크: https://openai.com/index/heimstaden\n\n📍 5. Rewarding defenders with bigger bug bounties\n🗂️ 소스: OpenAI News | 분류: Security\n📝 요약: OpenAI가 보안 버그 바운티 보상 규모를 확대하고 독립 보안 연구자들을 위한 새로운 보너스 제도를 도입합니다. 보고서 품질, 충성도, 우선순위 캠페인에 따른 보너스를 통해 방어자들에게 더 큰 보상을 제공할 예정입니다.\n🔗 링크: https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-04.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 발표는 차세대 AI 모델(Gemini 4, Genie 4)의 공개와 물리적 세계 및 엔지니어링 분야로 확장되는 AI 에이전트 기술의 진보, 그리고 Anthropic의 IPO 추진과 같은 기업들의 전략적 움직임으로 요약됩니다.\n\n📍 1. Agentic cheminformatics with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.\n🔗 링크: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/\n\n📍 2. Daybreak Red is now available in AWS GovCloud (US-East)\n🗂️ 소스: OpenAI News | 분류: Product\n📝 요약: Daybreak Red가 AWS GovCloud (US-East) 환경에서 사용 가능해졌습니다. 이번 출시를 통해 승인된 고객들은 Amazon Bedrock을 통해 GPT-5.6 Cyber 모델을 활용할 수 있습니다.\n🔗 링크: https://openai.com/index/daybreak-red-aws-govcloud\n\n📍 3. Introducing Physical-Engineering’s Last Exam for agents\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud AI가 물리 공학 분야의 에이전트 성능을 평가하기 위한 새로운 벤치마크인 PLE를 도입했습니다. 이 벤치마크는 실제 기계, 전기, 토목 및 구조 공학 과제를 통해 최첨단 AI 에이전트의 능력을 검증합니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents\n\n📍 4. Accelerating engineering for the physical world\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: ChatGPT와 Codex가 물리적 세계를 위한 엔지니어링 워크플로우를 어떻게 가속화하는지 소개합니다. CAD, PCB 설계, 시뮬레이션 등 다양한 엔지니어링 분야에서의 활용 방안을 다룹니다.\n🔗 링크: https://openai.com/index/accelerating-engineering-for-the-physical-world\n\n📍 5. How Cisco defends at machine speed with OpenAI\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Cisco가 네트워크 인텔리전스와 OpenAI 모델을 결합하여 기업 보안을 강화하는 방안을 공개했습니다. 이를 통해 더욱 적응력 있는 방어 체계를 구축하는 방법을 다룹니다.\n🔗 링크: https://openai.com/index/cisco-cyber\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-05.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -42,6 +42,29 @@
       ]
     },
     {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "category": "Product",
+      "published_at_kst": "2026-11-04T16:00:00+09:00",
+      "published_date": "2026-11-04",
+      "original_description": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "release_type": "product_release",
+      "rank": 2,
+      "summary": "Daybreak Red가 AWS GovCloud (US-East) 환경에서 사용 가능해졌습니다. 이번 출시를 통해 승인된 고객들은 Amazon Bedrock을 통해 GPT-5.6 Cyber 모델을 활용할 수 있습니다.",
+      "key_points": [
+        "Daybreak Red의 AWS GovCloud (US-East) 가용성 확보",
+        "Amazon Bedrock을 통한 GPT-5.6 Cyber 모델 제공",
+        "승인된 고객을 대상으로 한 사이버 보안 작업 지원"
+      ],
+      "tags": [
+        "OpenAI",
+        "AWS GovCloud",
+        "GPT-5.6 Cyber"
+      ]
+    },
+    {
       "source_key": "google_cloud_ai",
       "source_name": "Google Cloud AI",
       "title": "Introducing Physical-Engineering’s Last Exam for agents",
@@ -51,7 +74,7 @@
       "published_date": "2026-11-04",
       "original_description": "Discover PLE, a new benchmark evaluating frontier AI agents on real-world mechanical, electrical, civil, and structural engineering tasks.",
       "release_type": "engineering_update",
-      "rank": 2,
+      "rank": 3,
       "summary": "Google Cloud AI가 물리 공학 분야의 에이전트 성능을 평가하기 위한 새로운 벤치마크인 PLE를 도입했습니다. 이 벤치마크는 실제 기계, 전기, 토목 및 구조 공학 과제를 통해 최첨단 AI 에이전트의 능력을 검증합니다.",
       "key_points": [
         "새로운 벤치마크 PLE(Physical-Engineering’s Last Exam) 공개",
@@ -74,7 +97,7 @@
       "published_date": "2026-11-03",
       "original_description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
       "release_type": "research_release",
-      "rank": 3,
+      "rank": 4,
       "summary": "ChatGPT와 Codex가 물리적 세계를 위한 엔지니어링 워크플로우를 어떻게 가속화하는지 소개합니다. CAD, PCB 설계, 시뮬레이션 등 다양한 엔지니어링 분야에서의 활용 방안을 다룹니다.",
       "key_points": [
         "ChatGPT와 Codex를 활용한 엔지니어링 워크플로우 가속화",
@@ -90,47 +113,24 @@
     {
       "source_key": "openai",
       "source_name": "OpenAI News",
-      "title": "Heimstaden is changing residential real estate management with AI",
-      "url": "https://openai.com/index/heimstaden",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
       "category": "Official Release",
       "published_at_kst": "2026-11-03T17:00:00+09:00",
       "published_date": "2026-11-03",
-      "original_description": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "original_description": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
       "release_type": "official_update",
-      "rank": 4,
-      "summary": "Heimstaden이 ChatGPT Enterprise와 Codex를 활용하여 유럽 전역의 주거용 부동산 관리 방식을 혁신하고 있습니다. 이를 통해 운영 비용을 절감하고 직원들의 업무 역량을 강화하고 있습니다.",
-      "key_points": [
-        "Heimstaden의 ChatGPT Enterprise 및 Codex 도입",
-        "부동산 관리 프로세스 혁신 및 운영 비용 절감",
-        "유럽 전역 직원의 업무 역량 강화"
-      ],
-      "tags": [
-        "Heimstaden",
-        "ChatGPT Enterprise",
-        "Codex"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "category": "Security",
-      "published_at_kst": "2026-11-03T03:00:00+09:00",
-      "published_date": "2026-11-03",
-      "original_description": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "release_type": "safety_update",
       "rank": 5,
-      "summary": "OpenAI가 보안 버그 바운티 보상 규모를 확대하고 독립 보안 연구자들을 위한 새로운 보너스 제도를 도입합니다. 보고서 품질, 충성도, 우선순위 캠페인에 따른 보너스를 통해 방어자들에게 더 큰 보상을 제공할 예정입니다.",
+      "summary": "Cisco가 네트워크 인텔리전스와 OpenAI 모델을 결합하여 기업 보안을 강화하는 방안을 공개했습니다. 이를 통해 더욱 적응력 있는 방어 체계를 구축하는 방법을 다룹니다.",
       "key_points": [
-        "OpenAI의 Security Bug Bounty 보상 금액 상향 조정",
-        "보고서 품질 및 충성도에 따른 보너스 제도 도입",
-        "독립 보안 연구자를 위한 우선순위 캠페인 보너스 신설"
+        "Cisco의 네트워크 인텔리전스와 OpenAI 모델의 결합",
+        "기업 보안 강화를 위한 기술적 접근",
+        "더욱 적응력 있는 방어 체계 구축"
       ],
       "tags": [
+        "Cisco",
         "OpenAI",
-        "Security",
-        "Bug Bounty"
+        "Cybersecurity"
       ]
     },
     {
