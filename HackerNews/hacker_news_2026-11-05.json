@@ -1,0 +1,454 @@
+{
+  "source": "hacker_news",
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T05:06:47.910936+09:00",
+  "count": 10,
+  "daily_summary": "오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 기술적 성과와 그에 따른 과장 논란이 주요 화두였습니다. 또한, 데이터 기반의 큐레이션 서비스와 대규모 모델 출시, 그리고 기업용 소프트웨어의 보안 및 프라이버시 침해 이슈가 커뮤니티 내에서 활발히 논의되었습니다.",
+  "daily_key_points": [
+    "LLM이 가중치를 직접 편집하여 성능을 최적화하는 기술이 공개되었으나, 연구 성과가 과장되었다는 전문가들의 비판이 제기되었습니다.",
+    "Mistral의 1조 파라미터급 모델 출시와 함께, 기업용 도구(Postman, Ubuntu)의 보안 정책 및 패치 지연에 대한 신뢰도 문제가 부각되었습니다.",
+    "Hacker News 데이터를 활용한 자동화된 콘텐츠 큐레이션 서비스들이 등장하며 데이터 기반의 지식 공유 가능성을 보여주었습니다."
+  ],
+  "daily_tags": [
+    "LLM",
+    "AI_Security",
+    "Open_Source",
+    "Data_Science"
+  ],
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 기술적 성과와 그에 따른 과장 논란이 주요 화두였습니다. 또한, 데이터 기반의 큐레이션 서비스와 대규모 모델 출시, 그리고 기업용 소프트웨어의 보안 및 프라이버시 침해 이슈가 커뮤니티 내에서 활발히 논의되었습니다.\n\n📍 1. Astra can read and write weights to improve Qwen\n⭐ Score: 2938 | 💬 Comments: 890\n📰 원문 요약: GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.\n💬 토론 요약: 기술의 실질적인 가치를 판단하기 위해 논문을 정독해야 한다는 신중론과, 도구 없이 가중치를 직접 편집하는 기술적 성과에 경악하는 옹호론이 대립하고 있습니다.\n📌 종합 요약: LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://rikiyat.github.io/blog/weight-space-programming/\n💬 토론: https://news.ycombinator.com/item?id=50341174\n\n📍 2. HackerTube: YouTube built from videos recommended by HN\n⭐ Score: 2876 | 💬 Comments: 637\n📰 원문 요약: HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.\n💬 토론 요약: 사용자들은 인플루언서나 클릭베이트 없는 순수 지식 콘텐츠를 제공한다는 점을 높게 평가하고 있습니다. 동시에 콘텐츠의 최신성을 확보하기 위해 오래된 영상과 새로운 영상을 구분하는 정렬 기능이 필요하다는 제언이 나오고 있습니다.\n📌 종합 요약: Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 공개되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 지식 중심의 피드를 제공하는 것이 핵심입니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://karpathy.bearblog.dev/hacker-tube/\n💬 토론: https://news.ycombinator.com/item?id=50319510\n\n📍 3. Show HN: HackerBooks – HackerTube, but for books mentioned on HN\n⭐ Score: 1851 | 💬 Comments: 305\n📰 원문 요약: HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.\n💬 토론 요약: 사용자들은 특정 도서가 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서의 가치를 재조명하는 의견이 제시되었습니다.\n📌 종합 요약: Hacker News에서 언급된 도서 데이터를 수집하여 시각화한 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.\n🗂️ 분류: 데이터/DB\n🔗 링크: https://hackerbooks.org\n💬 토론: https://news.ycombinator.com/item?id=50326821\n\n📍 4. We're releasing the weights of Mistral Large 4\n⭐ Score: 1730 | 💬 Comments: 441\n📰 원문 요약: Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.\n💬 토론 요약: 사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.\n📌 종합 요약: Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://mistral.ai/news/mistral-large-4-oss/\n💬 토론: https://news.ycombinator.com/item?id=50289418\n\n📍 5. WTF Ubuntu?\n⭐ Score: 1621 | 💬 Comments: 679\n📰 원문 요약: CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.\n💬 토론 요약: Ubuntu의 보안 우선순위 설정이 적절하지 않다는 비판과, 이미 패치가 포함된 커널이 'proposed' 저장소에 배포되어 있으니 수동으로 가져다 쓸 수 있다는 기술적 반론이 대립하고 있습니다.\n📌 종합 요약: 심각한 커널 취약점 CVE-2026-98432에 대한 Ubuntu의 패치 지연이 커뮤니티의 거센 비판을 받고 있습니다. 보안 구독 모델을 운영하는 기업형 배포판이 커뮤니티 기반 배포판보다 대응이 늦다는 점이 신뢰도 위기로 번지고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://chalmovsky.com/posts/wtf-ubuntu\n💬 토론: https://news.ycombinator.com/item?id=50337608\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-05.md",
+  "items": [
+    {
+      "rank": 1,
+      "story_id": "50341174",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "hn_url": "https://news.ycombinator.com/item?id=50341174",
+      "author": "dbreunig",
+      "score": 2938,
+      "comments": 890,
+      "rank_score": 2058.637703328241,
+      "published_at_kst": "2026-11-03T03:21:28+09:00",
+      "published_date": "2026-11-03",
+      "summary": "LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.",
+      "story_text": "",
+      "external_article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
+      "article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
+      "discussion_summary": "기술의 실질적인 가치를 판단하기 위해 논문을 정독해야 한다는 신중론과, 도구 없이 가중치를 직접 편집하는 기술적 성과에 경악하는 옹호론이 대립하고 있습니다.",
+      "key_points": [
+        "LLM이 가중치를 직접 편집하여 모델의 추능 루프를 해결하고 성능을 최적화합니다.",
+        "가중치의 극소량(0.016%)만 수정하여 수학 점수를 5배 이상 높이는 효율성을 입증했습니다.",
+        "기존의 Adam과 같은 심볼릭 옵티마이저를 넘어 LLM이 직접 가중치를 최적화하는 시대가 올 수 있습니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "yurimo",
+          "text": "Respectfully to the authors and to everyone here, I ask you to actually read the paper before losing your mind, or at the very least plug it into Claude. It is a cool project but…"
+        },
+        {
+          "author": "vessenes",
+          "text": "This is insane. Astra can, without tooling, determine what games small networks are trained on, can edit the weights of networks directly to improve outcomes, and can hand edit a…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Weight-Space Programming",
+        "Model Optimization",
+        "Deep Learning"
+      ],
+      "domain": "rikiyat.github.io",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 2,
+      "story_id": "50319510",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "hn_url": "https://news.ycombinator.com/item?id=50319510",
+      "author": "karpathy",
+      "score": 2876,
+      "comments": 637,
+      "rank_score": 2015.1375014850032,
+      "published_at_kst": "2026-11-01T04:56:53+09:00",
+      "published_date": "2026-11-01",
+      "summary": "Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 공개되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 지식 중심의 피드를 제공하는 것이 핵심입니다.",
+      "story_text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/",
+      "external_article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
+      "article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
+      "discussion_summary": "사용자들은 인플루언서나 클릭베이트 없는 순수 지식 콘텐츠를 제공한다는 점을 높게 평가하고 있습니다. 동시에 콘텐츠의 최신성을 확보하기 위해 오래된 영상과 새로운 영상을 구분하는 정렬 기능이 필요하다는 제언이 나오고 있습니다.",
+      "key_points": [
+        "LLM 기반의 자동화된 데이터 파이프라인을 통해 수만 개의 댓글에서 고품질 영상 리스트를 추출했습니다.",
+        "개인정보를 수집하지 않는 로컬 세션 기반의 추천 방식과 커뮤니티 검증 중심의 콘텐츠 큐레이션을 지향합니다.",
+        "알고리즘 중심의 콘텐츠 소비 시대에 데이터 분산과 개인화된 피드 구축의 가능성을 보여주었습니다."
+      ],
+      "category": "개발 도구",
+      "comment_highlights": [
+        {
+          "author": "theptip",
+          "text": "I think there is a massive opportunity for this kind of feed disaggregation. Used to be the recommender and indexing of content was hard, now I believe we can likely build our own…"
+        },
+        {
+          "author": "minimaxa",
+          "text": "You know what I like about this? It's 100% pure nerd content, no sneaky influencer videos or clickbaity news. It does need a new-to-old sort though, which is easy to add in. If yo…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Data Mining",
+        "Content Curation",
+        "Automation"
+      ],
+      "domain": "karpathy.bearblog.dev",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 3,
+      "story_id": "50326821",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "hn_url": "https://news.ycombinator.com/item?id=50326821",
+      "author": "roansh",
+      "score": 1851,
+      "comments": 305,
+      "rank_score": 1297.4170755305856,
+      "published_at_kst": "2026-11-02T00:58:28+09:00",
+      "published_date": "2026-11-02",
+      "summary": "Hacker News에서 언급된 도서 데이터를 수집하여 시각화한 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.",
+      "story_text": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
+      "external_article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
+      "article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
+      "discussion_summary": "사용자들은 특정 도서가 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서의 가치를 재조명하는 의견이 제시되었습니다.",
+      "key_points": [
+        "Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트를 자동 생성했습니다.",
+        "2007년부터 축적된 16,500여 권의 도서 언급 데이터를 기반으로 작동합니다.",
+        "단순 언급 횟수를 집계하므로 칭찬과 비판이 구분되지 않는 데이터 정제 이슈가 존재합니다."
+      ],
+      "category": "데이터/DB",
+      "comment_highlights": [
+        {
+          "author": "sarreph",
+          "text": "On the subject of reading (since the 'decline' in literacy is being raised in this thread) -- especially if you haven't read in a while and are thinking about reading but are mayb…"
+        },
+        {
+          "author": "bazzargh",
+          "text": "A couple of missing ones (that I expected to have been mentioned, aren't there as far as I can tell, and I found them on here with a quick google): https://en.wikipedia.org/wiki/T…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Data Pipeline",
+        "Hacker News",
+        "Automation"
+      ],
+      "domain": "hackerbooks.org",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 4,
+      "story_id": "50289418",
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "hn_url": "https://news.ycombinator.com/item?id=50289418",
+      "author": "kuberwastaken",
+      "score": 1730,
+      "comments": 441,
+      "rank_score": 1212.8273929646234,
+      "published_at_kst": "2026-10-29T23:13:21+09:00",
+      "published_date": "2026-10-29",
+      "summary": "Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.",
+      "story_text": "",
+      "external_article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
+      "discussion_summary": "사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.",
+      "key_points": [
+        "1조 파라미터 규모의 멀티모달 모델로 코딩과 보안 분야에서 압도적인 성능을 제공합니다.",
+        "프리뷰 대비 입력/출력 토큰 비용을 절반 수준으로 낮추어 경제성을 확보했습니다.",
+        "유럽 기반의 데이터 주권과 오픈 웨이트 모델의 투명성을 강조합니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "Topfi",
+          "text": "They slashed pricing, it's now nearly half vs the preview (Input: $0.7/M Tokens, Output: $2.1/M Tokens vs Input: $1.36/M Tokens, Output: $4.18/M Tokens). At the original pricing i…"
+        },
+        {
+          "author": "3form",
+          "text": "\"Cyber benchmarks, while achieving an average refusal rate of 96.6% on malicious cyber requests, the highest we measure among open models.\" I feel like stating the obvious here an…"
+        }
+      ],
+      "tags": [
+        "Mistral",
+        "LLM",
+        "Open Weight",
+        "Cybersecurity",
+        "AI Economics"
+      ],
+      "domain": "mistral.ai",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 5,
+      "story_id": "50337608",
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "hn_url": "https://news.ycombinator.com/item?id=50337608",
+      "author": "chalmovsky",
+      "score": 1621,
+      "comments": 679,
+      "rank_score": 1136.656627839451,
+      "published_at_kst": "2026-11-02T23:52:00+09:00",
+      "published_date": "2026-11-02",
+      "summary": "심각한 커널 취약점 CVE-2026-98432에 대한 Ubuntu의 패치 지연이 커뮤니티의 거센 비판을 받고 있습니다. 보안 구독 모델을 운영하는 기업형 배포판이 커뮤니티 기반 배포판보다 대응이 늦다는 점이 신뢰도 위기로 번지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
+      "article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
+      "discussion_summary": "Ubuntu의 보안 우선순위 설정이 적절하지 않다는 비판과, 이미 패치가 포함된 커널이 'proposed' 저장소에 배포되어 있으니 수동으로 가져다 쓸 수 있다는 기술적 반론이 대립하고 있습니다.",
+      "key_points": [
+        "CVSS 9.8 점수의 커널 취약점으로 인해 전 세계 거의 모든 Linux 서버가 원격 공격 위험에 노출되었습니다.",
+        "기업용 보안 서비스를 제공하는 Ubuntu가 커뮤니티 기반의 Debian이나 Arch Linux보다 패치 배포가 늦어 신뢰도 문제가 발생했습니다.",
+        "보안 패치 우선순위 설정 방식과 기업의 책임감 사이의 괴리가 운영 체제 선택의 결정적 요인이 될 수 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "BoppreH",
+          "text": "Worse yet, the Ubuntu security incident page[0] lists \"Ubuntu Priority: High\" (as opposed to Critical, which would trigger an out-of-schedule patch). There's a \"Why this priority?…"
+        },
+        {
+          "author": "throw0101c",
+          "text": "For the record, the kernels with the fixes are in the \"proposed\" repos for each LTS release: * https://launchpad.net/ubuntu/+source/linux You can pull them down with a \"-t\" added…"
+        }
+      ],
+      "tags": [
+        "Ubuntu",
+        "Linux Kernel",
+        "CVE-2026-98432",
+        "Cybersecurity",
+        "Open Source"
+      ],
+      "domain": "chalmovsky.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 6,
+      "story_id": "50276998",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons",
+      "hn_url": "https://news.ycombinator.com/item?id=50276998",
+      "author": "hazebooth",
+      "score": 1604,
+      "comments": 310,
+      "rank_score": 1124.5219378736538,
+      "published_at_kst": "2026-10-29T02:13:29+09:00",
+      "published_date": "2026-10-29",
+      "summary": "특정 핑거프린팅 스크립트가 의도치 않게 위험한 생물 무기 제조 정보를 생성할 수 있다는 보안 취약점을 다룹니다. LLM의 안전 가드레일이 특정 프롬프트에 의해 우회될 수 있음을 보여주는 사례입니다.",
+      "story_text": "",
+      "external_article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
+      "article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
+      "discussion_summary": "LLM 모델의 안전 가드레일이 특정 프롬프트에 취약하다는 점에 대한 우려와, 워터마킹 기술이 실무에서 관리 실수로 인해 정보 유출로 이어질 수 있다는 실무적 관점이 대립합니다.",
+      "key_points": [
+        "핑거프린팅 스크립트가 LLM의 안전 가드레일을 우회하여 위험한 정보를 생성하는 취약점을 노출합니다.",
+        "특정 모델(GLM-5.3 등)에서 유사한 프롬프트가 통용되는 등 LLM 보안 정책의 일관성 문제가 제기됩니다.",
+        "문서 워터마킹과 같은 식별 기술이 관리 부주의와 결합할 경우 보안 사고로 이어질 수 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "andai",
+          "text": "> Out of curiosity, I tried GLM-5.3 with the same prompt and it complied! I am noticing a trend here. Didn't HF say the same thing, when they got hacked, the only LLM that would a…"
+        },
+        {
+          "author": "jacquesm",
+          "text": "Nice sleuthing! We do a similar thing to mark documents that are still under embargo and one day I forgot to remove the watermark. The customer complained they had not received th…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Fingerprinting",
+        "Security",
+        "AI Safety"
+      ],
+      "domain": "nullpt.rs",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 7,
+      "story_id": "50354960",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "hn_url": "https://news.ycombinator.com/item?id=50354960",
+      "author": "sidgarimella",
+      "score": 1464,
+      "comments": 477,
+      "rank_score": 1026.6508832197474,
+      "published_at_kst": "2026-11-04T02:22:37+09:00",
+      "published_date": "2026-11-04",
+      "summary": "Postman이 사용자 동의 없이 AI 플러그인을 자동 설치하고 API 데이터를 공유하려 한다는 보안 이슈가 제기되었습니다. 개발자 도구로서의 신뢰도가 하락하며 커뮤니티 내에서 거센 비판이 일고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
+      "article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
+      "discussion_summary": "사용자 몰래 데이터를 수집하는 행위가 프라이버시 침해라는 비판과, 기업의 수익 모델 변화로 인해 도구의 본질이 변질되었다는 실망감이 대립하고 있습니다. 많은 사용자가 보안 위험을 이유로 대체 도구로의 이주를 고려하고 있습니다.",
+      "key_points": [
+        "Postman의 자동 AI 플러그인 설치 및 API 데이터 수집 방식이 보안 위협으로 지목되었습니다.",
+        "템플릿 변수를 통해 노출되는 민감한 인증 정보와 쿼리 파라미터가 로그에 포함될 위험이 있습니다.",
+        "개발자 도구의 신뢰를 저해하는 기업의 데이터 수집 정책에 대해 커뮤니티의 반발이 거셉니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "pants2",
+          "text": "It's a shame what happened to Postman. It started as an excellent little developer tool for testing APIs. Then for some reason they raised over $400M in funding and hired 1,500+ e…"
+        },
+        {
+          "author": "primitivesuave",
+          "text": "Postman logs detailed information on every single API request you make through its tool, including query parameters. If you use the templating syntax `{{some_secret}}` to fill in…"
+        }
+      ],
+      "tags": [
+        "Postman",
+        "API",
+        "Privacy",
+        "Security"
+      ],
+      "domain": "github.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 8,
+      "story_id": "50351111",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "hn_url": "https://news.ycombinator.com/item?id=50351111",
+      "author": "syllogism",
+      "score": 1014,
+      "comments": 206,
+      "rank_score": 711.3998156379796,
+      "published_at_kst": "2026-11-03T21:21:17+09:00",
+      "published_date": "2026-11-03",
+      "summary": "Astra의 Qwen 모델 가중치 수정 방식이 과장되었다는 비판이 제기되었습니다. 연구 성과를 과하게 포장했다는 전문가들의 지적과 함께 기술적 실체에 대한 논쟁이 이어지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
+      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
+      "discussion_summary": "연구 성과를 과하게 홍보했다는 비판과 연구 과정에서 발생할 수 있는 일반적인 과장이라는 옹호가 대립하고 있습니다. 특히 기계 해석 가능성 연구자들은 원문이 기술적 실체를 왜곡하여 독자를 오도하고 있다는 점을 구체적으로 비판합니다.",
+      "key_points": [
+        "Astra의 Qwen 가중치 수정 방식이 기술적 실체보다 과장되어 발표되었습니다.",
+        "기계 해석 가능성(Mechanistic Interpretability) 전문가들은 원문의 논리가 연구 윤리적 관점에서 부적절하다고 지적합니다.",
+        "모델 가중치 수정 기술의 실제 효용성과 연구 성과 포장 사이의 경계가 쟁점입니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "x313",
+          "text": "I work in this field (mech interp research) and I agree, the original post is definitely misleading. Some overselling in research is normal but it's a bit much. First, the key res…"
+        },
+        {
+          "author": "bushido",
+          "text": "Speaking for myself. I’ve been aware of a lot of concepts around training, but stayed away from it until very recently. A few weeks ago, I formed a hypothesis that I could get a s…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Mechanistic Interpretability",
+        "Qwen",
+        "AI Research"
+      ],
+      "domain": "honnibal.dev",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 9,
+      "story_id": "50300683",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "hn_url": "https://news.ycombinator.com/item?id=50300683",
+      "author": "_chall",
+      "score": 1010,
+      "comments": 553,
+      "rank_score": 708.8951494060242,
+      "published_at_kst": "2026-10-30T16:09:12+09:00",
+      "published_date": "2026-10-30",
+      "summary": "Cursor Marketplace에 등록된 Claude Code VS Code 확장 프로그램에서 백도어가 발견되어 보안 경고가 발생했습니다. Anthropic은 이번 사건이 자사 시스템 침해는 아니며 Cursor 플랫폼을 통한 악성 코드 유포임을 명시했습니다.",
+      "story_text": "https://cursor.com/blog/claude-code-extension-security-notic...",
+      "external_article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
+      "article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
+      "discussion_summary": "Anthropic 측은 이번 사고가 자사 시스템 보안과는 무관함을 강조하며 책임 소재를 명확히 하고 있습니다. 사용자들은 악성 확장 프로그램이 유포된 경로인 Cursor 플랫폼의 보안 관리 체계에 대해 우려를 표하고 있습니다.",
+      "key_points": [
+        "Cursor Marketplace를 통해 배포된 Claude Code 확장 프로그램에 백도어가 포함되었습니다.",
+        "이번 보안 사고는 Anthropic 시스템 침해가 아닌 플랫폼 권한을 이용한 외부 공격입니다.",
+        "사용자는 설치된 VS Code 확장 프로그램의 무결성을 즉시 점검해야 합니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "felixrieseberg",
+          "text": "Felix from Anthropic here. We’re working with Cursor on this incident, but it wasn’t a compromise of Anthropic’s systems or employee laptops. A malicious actor used access to Curs…"
+        },
+        {
+          "author": "jonas21",
+          "text": "This is from the Cursor blog [1] linked in the description, but repeating it here in case it's useful to anyone: ------ Check whether you are impacted The malicious extension appe…"
+        }
+      ],
+      "tags": [
+        "Claude Code",
+        "Cursor",
+        "VS Code",
+        "Backdoor",
+        "Security"
+      ],
+      "domain": "phorion.io",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 10,
+      "story_id": "50339288",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "hn_url": "https://news.ycombinator.com/item?id=50339288",
+      "author": "xx_ns",
+      "score": 918,
+      "comments": 363,
+      "rank_score": 644.3691461602909,
+      "published_at_kst": "2026-11-03T01:29:19+09:00",
+      "published_date": "2026-11-03",
+      "summary": "단순히 차량 내 시간을 변경하기 위해 내비게이션 시스템의 펌웨어를 추출하고 탈옥(Jailbreaking)을 시도한 기술적 과정을 다룹니다. 사용자의 집요한 디버깅 과정과 그에 따른 보안 취약점 노출이 커뮤니티의 관심을 끌었습니다.",
+      "story_text": "",
+      "external_article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
+      "article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
+      "discussion_summary": "작성자의 집요한 문제 해결 방식에 대한 감탄과 함께, SD 카드 교체와 같은 더 간단한 방법이 있었을 것이라는 실용적 비판이 대립하고 있습니다. 또한, 기술적 기록이 향후 유지보수를 위해 중요하다는 조언이 이어지고 있습니다.",
+      "key_points": [
+        "임베디드 시스템의 펌웨어 추출 및 탈옥을 통한 제어권 확보 과정을 다룹니다.",
+        "단순한 기능 수정을 위해 시스템 전체의 보안을 해제하는 행위의 기술적 가치를 논의합니다.",
+        "폐쇄적인 하드웨어 환경에서 사용자의 커스텀 권한 확보가 갖는 의미를 시사합니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "bambax",
+          "text": "> I refused to believe that there was no option to change the time (...) I decided to fetch the firmware and dig into it That must be one of the most iconic HN sentences ever."
+        },
+        {
+          "author": "tom1337890",
+          "text": "Awesome write up. Love it. And good thing you documented it, since in half a year you'll need it again. My takeaway: You should have just gotten the SD card and trusted the previo…"
+        }
+      ],
+      "tags": [
+        "Jailbreaking",
+        "Embedded System",
+        "Firmware",
+        "Reverse Engineering"
+      ],
+      "domain": "blog.nns.ee",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    }
+  ]
+}
