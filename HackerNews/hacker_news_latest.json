@@ -1,21 +1,21 @@
 {
   "source": "hacker_news",
-  "date": "2026-11-05",
-  "generated_at": "2026-11-05T05:06:47.910936+09:00",
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T04:41:44.286703+09:00",
   "count": 10,
-  "daily_summary": "오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 기술적 성과와 그에 따른 과장 논란이 주요 화두였습니다. 또한, 데이터 기반의 큐레이션 서비스와 대규모 모델 출시, 그리고 기업용 소프트웨어의 보안 및 프라이버시 침해 이슈가 커뮤니티 내에서 활발히 논의되었습니다.",
+  "daily_summary": "오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 새로운 연구와 그에 따른 기술적 진실성 논쟁이 주요 화두였습니다. 또한, 과거의 레거시 코드와 현대적 라이브러리 간의 충돌로 발생하는 보안 취약점, 그리고 기업용 도구의 사용자 권한 침해 문제 등 소프트웨어 설계와 보안 사이의 갈등이 두드러졌습니다.",
   "daily_key_points": [
-    "LLM이 가중치를 직접 편집하여 성능을 최적화하는 기술이 공개되었으나, 연구 성과가 과장되었다는 전문가들의 비판이 제기되었습니다.",
-    "Mistral의 1조 파라미터급 모델 출시와 함께, 기업용 도구(Postman, Ubuntu)의 보안 정책 및 패치 지연에 대한 신뢰도 문제가 부각되었습니다.",
-    "Hacker News 데이터를 활용한 자동화된 콘텐츠 큐레이션 서비스들이 등장하며 데이터 기반의 지식 공유 가능성을 보여주었습니다."
+    "LLM이 가중치를 직접 편집하여 성능을 최적화하는 새로운 패러다임이 제시되었으나, 연구 성과가 과장되었다는 기술적 비판이 제기되었습니다.",
+    "과거의 관습적 설계와 현대적 라이브러리 로직이 충돌하며 발생하는 보안 취약점이 레거시 소프트웨어의 위험성을 경고하고 있습니다.",
+    "기업용 소프트웨어가 사용자 동의 없이 권한을 획득하거나 워크플로우를 강제 점유하는 행위가 심각한 보안 및 신뢰 이슈로 부각되었습니다."
   ],
   "daily_tags": [
     "LLM",
-    "AI_Security",
-    "Open_Source",
-    "Data_Science"
+    "Cybersecurity",
+    "Software Engineering",
+    "Technical Debt"
   ],
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 기술적 성과와 그에 따른 과장 논란이 주요 화두였습니다. 또한, 데이터 기반의 큐레이션 서비스와 대규모 모델 출시, 그리고 기업용 소프트웨어의 보안 및 프라이버시 침해 이슈가 커뮤니티 내에서 활발히 논의되었습니다.\n\n📍 1. Astra can read and write weights to improve Qwen\n⭐ Score: 2938 | 💬 Comments: 890\n📰 원문 요약: GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.\n💬 토론 요약: 기술의 실질적인 가치를 판단하기 위해 논문을 정독해야 한다는 신중론과, 도구 없이 가중치를 직접 편집하는 기술적 성과에 경악하는 옹호론이 대립하고 있습니다.\n📌 종합 요약: LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://rikiyat.github.io/blog/weight-space-programming/\n💬 토론: https://news.ycombinator.com/item?id=50341174\n\n📍 2. HackerTube: YouTube built from videos recommended by HN\n⭐ Score: 2876 | 💬 Comments: 637\n📰 원문 요약: HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.\n💬 토론 요약: 사용자들은 인플루언서나 클릭베이트 없는 순수 지식 콘텐츠를 제공한다는 점을 높게 평가하고 있습니다. 동시에 콘텐츠의 최신성을 확보하기 위해 오래된 영상과 새로운 영상을 구분하는 정렬 기능이 필요하다는 제언이 나오고 있습니다.\n📌 종합 요약: Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 공개되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 지식 중심의 피드를 제공하는 것이 핵심입니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://karpathy.bearblog.dev/hacker-tube/\n💬 토론: https://news.ycombinator.com/item?id=50319510\n\n📍 3. Show HN: HackerBooks – HackerTube, but for books mentioned on HN\n⭐ Score: 1851 | 💬 Comments: 305\n📰 원문 요약: HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.\n💬 토론 요약: 사용자들은 특정 도서가 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서의 가치를 재조명하는 의견이 제시되었습니다.\n📌 종합 요약: Hacker News에서 언급된 도서 데이터를 수집하여 시각화한 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.\n🗂️ 분류: 데이터/DB\n🔗 링크: https://hackerbooks.org\n💬 토론: https://news.ycombinator.com/item?id=50326821\n\n📍 4. We're releasing the weights of Mistral Large 4\n⭐ Score: 1730 | 💬 Comments: 441\n📰 원문 요약: Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.\n💬 토론 요약: 사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.\n📌 종합 요약: Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://mistral.ai/news/mistral-large-4-oss/\n💬 토론: https://news.ycombinator.com/item?id=50289418\n\n📍 5. WTF Ubuntu?\n⭐ Score: 1621 | 💬 Comments: 679\n📰 원문 요약: CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.\n💬 토론 요약: Ubuntu의 보안 우선순위 설정이 적절하지 않다는 비판과, 이미 패치가 포함된 커널이 'proposed' 저장소에 배포되어 있으니 수동으로 가져다 쓸 수 있다는 기술적 반론이 대립하고 있습니다.\n📌 종합 요약: 심각한 커널 취약점 CVE-2026-98432에 대한 Ubuntu의 패치 지연이 커뮤니티의 거센 비판을 받고 있습니다. 보안 구독 모델을 운영하는 기업형 배포판이 커뮤니티 기반 배포판보다 대응이 늦다는 점이 신뢰도 위기로 번지고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://chalmovsky.com/posts/wtf-ubuntu\n💬 토론: https://news.ycombinator.com/item?id=50337608\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-05.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 LLM이 모델 가중치를 직접 수정하여 성능을 최적화하는 새로운 연구와 그에 따른 기술적 진실성 논쟁이 주요 화두였습니다. 또한, 과거의 레거시 코드와 현대적 라이브러리 간의 충돌로 발생하는 보안 취약점, 그리고 기업용 도구의 사용자 권한 침해 문제 등 소프트웨어 설계와 보안 사이의 갈등이 두드러졌습니다.\n\n📍 1. Astra can read and write weights to improve Qwen\n⭐ Score: 2949 | 💬 Comments: 892\n📰 원문 요약: GPT-6 Astra는 가중치 공간 프로그래밍(Weight-Space Programming)을 통해 모델의 기능을 파악하고 직접 가중치를 수정합니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 전체 가중치의 0.016%만을 수정하여 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 활용해 가중치를 직접 편집하는 방식입니다.\n💬 토론 요약: 기술의 혁신성에 감탄하며 놀라움을 표하는 반응과, 논문의 세부 내용을 면밀히 검토하지 않은 채 과도하게 해석하는 것에 대해 경계하는 비판적 시각이 대립하고 있습니다.\n📌 종합 요약: LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://rikiyat.github.io/blog/weight-space-programming/\n💬 토론: https://news.ycombinator.com/item?id=50341174\n\n📍 2. Show HN: HackerBooks – HackerTube, but for books mentioned on HN\n⭐ Score: 1858 | 💬 Comments: 306\n📰 원문 요약: HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자가 직접 다운로드할 수 있습니다.\n💬 토론 요약: 문해력 저하와 독서 습관에 대한 담론이 이어지는 가운데, 특정 도서가 누락되었거나 매칭이 잘못된 점에 대한 데이터 정확성 문제가 제기되었습니다.\n📌 종합 요약: Hacker News에서 언급된 도서 데이터를 기반으로 구축된 도서 추천 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://hackerbooks.org\n💬 토론: https://news.ycombinator.com/item?id=50326821\n\n📍 3. sshole\n⭐ Score: 1749 | 💬 Comments: 469\n📰 원문 요약: 1980년대 Unix의 /etc/passwd 파일에서 비밀번호가 없는 계정을 나타내기 위해 사용된 '*' 문자가 현대의 보안 취약점으로 이어지는 과정을 설명합니다. 과거에는 crypt() 함수가 오류 발생 시 NULL을 반환했으나, 현대의 musl libc와 같은 라이브러리는 프로그램 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 시스템에 저장된 비밀번호가 '*'인 계정의 경우, 암호화 함수가 오류를 반환하더라도 그것이 유효한 비밀번호로 인식되어 인증을 통과하는 보안 구멍이 발생합니다.\n💬 토론 요약: 특수 문자를 제어 신호로 사용하는 'In-band signaling' 방식이 보안상 위험하다는 비판과, 시스템 안정성을 위해 NULL 대신 특정 값을 반환하는 설계가 의도치 않은 취약점을 만들었다는 기술적 쟁점이 대립합니다.\n📌 종합 요약: 과거 Unix 시스템의 비밀번호 관리 방식과 현대 라이브러리 구현 사이의 설계 결함이 결합되어 발생한 보안 취약점 사례를 다룹니다. 특정 특수 문자가 시스템 오류와 비밀번호 값 사이에서 중복 사용되며 발생한 논리적 허점을 설명합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://sshhole.com\n💬 토론: https://news.ycombinator.com/item?id=50378228\n\n📍 4. Postman silently auto-installs AI plugins and attempts to share all API data\n⭐ Score: 1510 | 💬 Comments: 489\n📰 원문 요약: Postman 데스크톱 앱 실행 시 Codex 및 Claude 플러그인이 자동으로 설치되며, 시스템의 startup hook을 통해 사용자 권한을 획득하려는 시도가 발견되었습니다. 설치된 `hooks/codex-hooks.json` 파일은 세션 시작 시 `postman:api-engineer` 스킬을 로드하도록 설정하여, 사용자의 명시적 요청 없이도 API 엔지니어링 작업을 Postman으로 유도합니다. 또한 설치 프로그램의 `approvePostmanHook` 로직은 시스템 수준에서 자신의 훅을 승인하려 시도하여 보안 경계를 침범합니다.\n💬 토론 요약: Postman이 단순한 API 테스트 도구를 넘어 사용자 워크플로우를 강제로 장악하려 한다는 비판과, 대규모 투자를 받은 이후 도구의 본질이 변질되었다는 우려가 대립하고 있습니다. 또한 API 요청 시 포함된 쿼리 파라미터나 비밀 정보가 로그에 남을 수 있다는 프라이버시 위험성이 지적되었습니다.\n📌 종합 요약: Postman이 사용자 동의 없이 AI 플러그인을 자동 설치하고 API 데이터를 공유하려 시도하는 보안 문제가 제기되었습니다. 개발 도구가 사용자 워크플로우를 강제로 점유하려는 행위에 대해 커뮤니티의 비판이 거셉니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/postmanlabs/postman-app-support/issues/14370\n💬 토론: https://news.ycombinator.com/item?id=50354960\n\n📍 5. AI is forcing us to pay off 40 years of technical debt\n⭐ Score: 1247 | 💬 Comments: 729\n📰 원문 요약: 최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거에 단순한 프로그램 충돌로 치부되었던 버그들이 치명적인 보안 위협으로 변모하고 있다고 경고합니다.\n💬 토론 요약: 국가적 차원의 스파이 활동이나 기업 간 첩보 활동을 위해 은닉된 백도어와 제로데이 취약점들이 이번 과정을 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석할지에 대한 철학적 논쟁이 이어지고 있습니다.\n📌 종합 요약: AI 기술의 발전이 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점을 드러내며 기술 부채 해결을 강제하고 있습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\n💬 토론: https://news.ycombinator.com/item?id=50364336\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-06.md",
   "items": [
     {
       "rank": 1,
@@ -24,20 +24,20 @@
       "url": "https://rikiyat.github.io/blog/weight-space-programming/",
       "hn_url": "https://news.ycombinator.com/item?id=50341174",
       "author": "dbreunig",
-      "score": 2938,
-      "comments": 890,
-      "rank_score": 2058.637703328241,
+      "score": 2949,
+      "comments": 892,
+      "rank_score": 2066.338375974263,
       "published_at_kst": "2026-11-03T03:21:28+09:00",
       "published_date": "2026-11-03",
       "summary": "LLM이 직접 신경망 가중치를 읽고 수정하여 성능을 최적화하는 'Weight-Space Programming' 기술이 공개되었습니다. 이 기술은 기존의 경사 하강법 없이도 모델의 문제를 진단하고 성능을 비약적으로 향상시킵니다.",
       "story_text": "",
-      "external_article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
-      "article_summary": "GPT-6 Astra는 가중치 자체를 분석하여 네트워크의 목적을 파악하고 직접 수정하는 'Weight-Space Programming' 능력을 보여줍니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 가중치의 0.016%만을 수정함으로써 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 통해 가중치 공간에서 직접 최적화를 수행하는 방식입니다.",
-      "discussion_summary": "기술의 실질적인 가치를 판단하기 위해 논문을 정독해야 한다는 신중론과, 도구 없이 가중치를 직접 편집하는 기술적 성과에 경악하는 옹호론이 대립하고 있습니다.",
+      "external_article_summary": "GPT-6 Astra는 가중치 공간 프로그래밍(Weight-Space Programming)을 통해 모델의 기능을 파악하고 직접 가중치를 수정합니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 전체 가중치의 0.016%만을 수정하여 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 활용해 가중치를 직접 편집하는 방식입니다.",
+      "article_summary": "GPT-6 Astra는 가중치 공간 프로그래밍(Weight-Space Programming)을 통해 모델의 기능을 파악하고 직접 가중치를 수정합니다. Qwen3.5-0.8B 모델의 수학 능력을 개선하기 위해 전체 가중치의 0.016%만을 수정하여 MATH-500 점수를 7.9%에서 48.1%로 끌어올렸습니다. 이는 별도의 학습 루프 없이 모델의 추론 능력을 활용해 가중치를 직접 편집하는 방식입니다.",
+      "discussion_summary": "기술의 혁신성에 감탄하며 놀라움을 표하는 반응과, 논문의 세부 내용을 면밀히 검토하지 않은 채 과도하게 해석하는 것에 대해 경계하는 비판적 시각이 대립하고 있습니다.",
       "key_points": [
-        "LLM이 가중치를 직접 편집하여 모델의 추능 루프를 해결하고 성능을 최적화합니다.",
-        "가중치의 극소량(0.016%)만 수정하여 수학 점수를 5배 이상 높이는 효율성을 입증했습니다.",
-        "기존의 Adam과 같은 심볼릭 옵티마이저를 넘어 LLM이 직접 가중치를 최적화하는 시대가 올 수 있습니다."
+        "LLM이 가중치를 직접 편집하여 모델의 성능을 최적화하는 새로운 패러다임이 등장했습니다.",
+        "가중치의 극소량(0.016%)만 수정하여 수학적 추론 능력을 5배 이상 향상시키는 성과를 거두었습니다.",
+        "기존의 Adam과 같은 심볼릭 옵티마이저를 넘어 LLM이 직접 최적화를 수행하는 시대가 올 수 있습니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -54,7 +54,7 @@
         "LLM",
         "Weight-Space Programming",
         "Model Optimization",
-        "Deep Learning"
+        "Astra"
       ],
       "domain": "rikiyat.github.io",
       "repeated_in_window": true,
@@ -62,70 +62,27 @@
     },
     {
       "rank": 2,
-      "story_id": "50319510",
-      "title": "HackerTube: YouTube built from videos recommended by HN",
-      "url": "https://karpathy.bearblog.dev/hacker-tube/",
-      "hn_url": "https://news.ycombinator.com/item?id=50319510",
-      "author": "karpathy",
-      "score": 2876,
-      "comments": 637,
-      "rank_score": 2015.1375014850032,
-      "published_at_kst": "2026-11-01T04:56:53+09:00",
-      "published_date": "2026-11-01",
-      "summary": "Hacker News의 추천 데이터를 기반으로 고품질 영상 콘텐츠를 제공하는 새로운 YouTube 클론 서비스인 HackerTube가 공개되었습니다. 기존 플랫폼의 자극적인 알고리즘에서 벗어나 커뮤니티 검증을 거친 지식 중심의 피드를 제공하는 것이 핵심입니다.",
-      "story_text": "YouTube-style UI over 6,454 videos sourced from 39,834 HN comments since 2007. https://hackertube.org/",
-      "external_article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
-      "article_summary": "HackerTube는 2007년부터 2026년까지 Hacker News 댓글 중 약 4만 건의 추천 데이터를 추출하여 6,454개의 엄선된 영상을 선별한 서비스입니다. 개발자는 Claude Code와 Opus 5.5를 활용해 데이터 필터링, 스팸 제거, UI 구현을 단 2시간 만에 완료했습니다. 서비스는 사용자 계정 없이 브라우저 로컬 세션에 상태를 저장하며, 썸네일 최적화와 키보드 단축키를 지원하는 YouTube 스타일의 UI를 갖추고 있습니다.",
-      "discussion_summary": "사용자들은 인플루언서나 클릭베이트 없는 순수 지식 콘텐츠를 제공한다는 점을 높게 평가하고 있습니다. 동시에 콘텐츠의 최신성을 확보하기 위해 오래된 영상과 새로운 영상을 구분하는 정렬 기능이 필요하다는 제언이 나오고 있습니다.",
-      "key_points": [
-        "LLM 기반의 자동화된 데이터 파이프라인을 통해 수만 개의 댓글에서 고품질 영상 리스트를 추출했습니다.",
-        "개인정보를 수집하지 않는 로컬 세션 기반의 추천 방식과 커뮤니티 검증 중심의 콘텐츠 큐레이션을 지향합니다.",
-        "알고리즘 중심의 콘텐츠 소비 시대에 데이터 분산과 개인화된 피드 구축의 가능성을 보여주었습니다."
-      ],
-      "category": "개발 도구",
-      "comment_highlights": [
-        {
-          "author": "theptip",
-          "text": "I think there is a massive opportunity for this kind of feed disaggregation. Used to be the recommender and indexing of content was hard, now I believe we can likely build our own…"
-        },
-        {
-          "author": "minimaxa",
-          "text": "You know what I like about this? It's 100% pure nerd content, no sneaky influencer videos or clickbaity news. It does need a new-to-old sort though, which is easy to add in. If yo…"
-        }
-      ],
-      "tags": [
-        "LLM",
-        "Data Mining",
-        "Content Curation",
-        "Automation"
-      ],
-      "domain": "karpathy.bearblog.dev",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 3,
       "story_id": "50326821",
       "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
       "url": "https://hackerbooks.org",
       "hn_url": "https://news.ycombinator.com/item?id=50326821",
       "author": "roansh",
-      "score": 1851,
-      "comments": 305,
-      "rank_score": 1297.4170755305856,
+      "score": 1858,
+      "comments": 306,
+      "rank_score": 1302.318054324276,
       "published_at_kst": "2026-11-02T00:58:28+09:00",
       "published_date": "2026-11-02",
-      "summary": "Hacker News에서 언급된 도서 데이터를 수집하여 시각화한 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.",
+      "summary": "Hacker News에서 언급된 도서 데이터를 기반으로 구축된 도서 추천 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.",
       "story_text": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
-      "external_article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
-      "article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 언급된 약 16,500권의 도서 데이터를 기반으로 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자에게 다운로드 가능한 형태로 제공됩니다.",
-      "discussion_summary": "사용자들은 특정 도서가 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서의 가치를 재조명하는 의견이 제시되었습니다.",
+      "external_article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자가 직접 다운로드할 수 있습니다.",
+      "article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 각 도서는 언급된 원문 댓글로 연결되는 링크를 제공합니다. 매일 데이터가 재배열되어 새로운 추천 목록을 생성하며, 전체 데이터는 사용자가 직접 다운로드할 수 있습니다.",
+      "discussion_summary": "문해력 저하와 독서 습관에 대한 담론이 이어지는 가운데, 특정 도서가 누락되었거나 매칭이 잘못된 점에 대한 데이터 정확성 문제가 제기되었습니다.",
       "key_points": [
         "Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트를 자동 생성했습니다.",
-        "2007년부터 축적된 16,500여 권의 도서 언급 데이터를 기반으로 작동합니다.",
-        "단순 언급 횟수를 집계하므로 칭찬과 비판이 구분되지 않는 데이터 정제 이슈가 존재합니다."
+        "Hacker News의 댓글 데이터를 기반으로 16,500여 권의 도서 목록을 추출했습니다.",
+        "단순 언급 횟수를 기준으로 하기에 칭찬과 비판이 구분되지 않는 데이터 정제 이슈가 존재합니다."
       ],
-      "category": "데이터/DB",
+      "category": "개발 도구",
       "comment_highlights": [
         {
           "author": "sarreph",
@@ -147,157 +104,70 @@
       "repeated_days_ago": 1
     },
     {
-      "rank": 4,
-      "story_id": "50289418",
-      "title": "We're releasing the weights of Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4-oss/",
-      "hn_url": "https://news.ycombinator.com/item?id=50289418",
-      "author": "kuberwastaken",
-      "score": 1730,
-      "comments": 441,
-      "rank_score": 1212.8273929646234,
-      "published_at_kst": "2026-10-29T23:13:21+09:00",
-      "published_date": "2026-10-29",
-      "summary": "Mistral이 1조 개의 파라미터를 가진 멀티모달 모델인 Mistral Large 4(Le Chonk)의 가중치를 공개하며 오픈 웨이트 모델의 새로운 기준을 제시했습니다. 코딩과 사이버 보안 성능을 극대화하면서도 추론 효율성을 높여 비용 효율적인 배포가 가능하도록 설계되었습니다.",
+      "rank": 3,
+      "story_id": "50378228",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "hn_url": "https://news.ycombinator.com/item?id=50378228",
+      "author": "josemrb",
+      "score": 1749,
+      "comments": 469,
+      "rank_score": 1226.8457595753557,
+      "published_at_kst": "2026-11-05T21:19:02+09:00",
+      "published_date": "2026-11-05",
+      "summary": "과거 Unix 시스템의 비밀번호 관리 방식과 현대 라이브러리 구현 사이의 설계 결함이 결합되어 발생한 보안 취약점 사례를 다룹니다. 특정 특수 문자가 시스템 오류와 비밀번호 값 사이에서 중복 사용되며 발생한 논리적 허점을 설명합니다.",
       "story_text": "",
-      "external_article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
-      "article_summary": "Mistral Large 4(Le Ch점)는 1조 개의 파라미터를 보유한 플래그십 멀티모달 모델로, 강화 학습(RL)을 통해 코딩 및 방어적 사이버 보안 성능을 대폭 개선했습니다. 유럽 인프라에서 처음부터 학습되어 데이터 주권(Sovereign AI)을 보장하며, 세 가지 추론 모드를 통해 성능과 비용 사이의 균형을 맞춘 것이 특징입니다. 특히 코딩 벤치마크에서 최고 수준의 성능을 기록하며 오픈 웨이트 모델로서의 경쟁력을 확보했습니다.",
-      "discussion_summary": "사용자들은 이전 프리뷰 버전 대비 약 50%가량 인하된 파격적인 가격 정책에 주목하며 긍정적인 반응을 보이고 있습니다. 한편으로는 사이버 보안 벤치마크에서 악성 요청 거부율이 96.6%에 달하는 점이 실질적인 보안 성능을 의미하는지에 대한 기술적 의구심이 제기되고 있습니다.",
+      "external_article_summary": "1980년대 Unix의 /etc/passwd 파일에서 비밀번호가 없는 계정을 나타내기 위해 사용된 '*' 문자가 현대의 보안 취약점으로 이어지는 과정을 설명합니다. 과거에는 crypt() 함수가 오류 발생 시 NULL을 반환했으나, 현대의 musl libc와 같은 라이브러리는 프로그램 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 시스템에 저장된 비밀번호가 '*'인 계정의 경우, 암호화 함수가 오류를 반환하더라도 그것이 유효한 비밀번호로 인식되어 인증을 통과하는 보안 구멍이 발생합니다.",
+      "article_summary": "1980년대 Unix의 /etc/passwd 파일에서 비밀번호가 없는 계정을 나타내기 위해 사용된 '*' 문자가 현대의 보안 취약점으로 이어지는 과정을 설명합니다. 과거에는 crypt() 함수가 오류 발생 시 NULL을 반환했으나, 현대의 musl libc와 같은 라이브러리는 프로그램 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 시스템에 저장된 비밀번호가 '*'인 계정의 경우, 암호화 함수가 오류를 반환하더라도 그것이 유효한 비밀번호로 인식되어 인증을 통과하는 보안 구멍이 발생합니다.",
+      "discussion_summary": "특수 문자를 제어 신호로 사용하는 'In-band signaling' 방식이 보안상 위험하다는 비판과, 시스템 안정성을 위해 NULL 대신 특정 값을 반환하는 설계가 의도치 않은 취약점을 만들었다는 기술적 쟁점이 대립합니다.",
       "key_points": [
-        "1조 파라미터 규모의 멀티모달 모델로 코딩과 보안 분야에서 압도적인 성능을 제공합니다.",
-        "프리뷰 대비 입력/출력 토큰 비용을 절반 수준으로 낮추어 경제성을 확보했습니다.",
-        "유럽 기반의 데이터 주권과 오픈 웨이트 모델의 투명성을 강조합니다."
-      ],
-      "category": "AI/ML",
-      "comment_highlights": [
-        {
-          "author": "Topfi",
-          "text": "They slashed pricing, it's now nearly half vs the preview (Input: $0.7/M Tokens, Output: $2.1/M Tokens vs Input: $1.36/M Tokens, Output: $4.18/M Tokens). At the original pricing i…"
-        },
-        {
-          "author": "3form",
-          "text": "\"Cyber benchmarks, while achieving an average refusal rate of 96.6% on malicious cyber requests, the highest we measure among open models.\" I feel like stating the obvious here an…"
-        }
-      ],
-      "tags": [
-        "Mistral",
-        "LLM",
-        "Open Weight",
-        "Cybersecurity",
-        "AI Economics"
-      ],
-      "domain": "mistral.ai",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 5,
-      "story_id": "50337608",
-      "title": "WTF Ubuntu?",
-      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
-      "hn_url": "https://news.ycombinator.com/item?id=50337608",
-      "author": "chalmovsky",
-      "score": 1621,
-      "comments": 679,
-      "rank_score": 1136.656627839451,
-      "published_at_kst": "2026-11-02T23:52:00+09:00",
-      "published_date": "2026-11-02",
-      "summary": "심각한 커널 취약점 CVE-2026-98432에 대한 Ubuntu의 패치 지연이 커뮤니티의 거센 비판을 받고 있습니다. 보안 구독 모델을 운영하는 기업형 배포판이 커뮤니티 기반 배포판보다 대응이 늦다는 점이 신뢰도 위기로 번지고 있습니다.",
-      "story_text": "",
-      "external_article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
-      "article_summary": "CVE-2026-984lık은 CVSS 점수 9.8을 기록한 Linux 커널 TCP 코드의 치명적인 취약점으로, 2016년부터 존재해 온 원격 루트 권한 탈취 버그입니다. Debian은 10월 16일에 패치를 완료했으나, Ubuntu는 2주가 지난 시점까지 모든 LTS 버전을 포함한 모든 릴리스에 패치를 적용하지 않았습니다. Anthropic은 이미 이 취약점을 이용해 서버의 루트 권한을 획득하는 실질적인 익스플로잇을 구축한 상태입니다.",
-      "discussion_summary": "Ubuntu의 보안 우선순위 설정이 적절하지 않다는 비판과, 이미 패치가 포함된 커널이 'proposed' 저장소에 배포되어 있으니 수동으로 가져다 쓸 수 있다는 기술적 반론이 대립하고 있습니다.",
-      "key_points": [
-        "CVSS 9.8 점수의 커널 취약점으로 인해 전 세계 거의 모든 Linux 서버가 원격 공격 위험에 노출되었습니다.",
-        "기업용 보안 서비스를 제공하는 Ubuntu가 커뮤니티 기반의 Debian이나 Arch Linux보다 패치 배포가 늦어 신뢰도 문제가 발생했습니다.",
-        "보안 패치 우선순위 설정 방식과 기업의 책임감 사이의 괴리가 운영 체제 선택의 결정적 요인이 될 수 있습니다."
+        "과거의 관습적인 특수 문자 '*'가 현대 라이브러리의 오류 처리 로직과 충돌하며 보안 취약점을 유발합니다.",
+        "crypt() 함수가 오류 시 NULL을 반환하던 방식이 현대적 라이브러리에서 '*'로 대체되며 인증 우회 가능성이 생겼습니다.",
+        "데이터 값과 제어 신호를 동일한 채널에서 사용하는 설계 방식은 예기치 못한 보안 허점을 만들 수 있습니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
+        {
+          "author": "mpyne",
+          "text": "OK, I think I see what’s going on with this, in this configuration. The goal from an attacker’s perspective is to get this to be true: `$ret = crypt($pw, $hash); $ret == $hash` wh…"
+        },
         {
           "author": "BoppreH",
-          "text": "Worse yet, the Ubuntu security incident page[0] lists \"Ubuntu Priority: High\" (as opposed to Critical, which would trigger an out-of-schedule patch). There's a \"Why this priority?…"
-        },
-        {
-          "author": "throw0101c",
-          "text": "For the record, the kernels with the fixes are in the \"proposed\" repos for each LTS release: * https://launchpad.net/ubuntu/+source/linux You can pull them down with a \"-t\" added…"
+          "text": "In-band signaling[1] strikes again. * should not have been used as special value, neither for \"no password\" in /etc/passwd nor \"error while hashing the password\" in crypt. I'm afr…"
         }
       ],
       "tags": [
-        "Ubuntu",
-        "Linux Kernel",
-        "CVE-2026-98432",
-        "Cybersecurity",
-        "Open Source"
-      ],
-      "domain": "chalmovsky.com",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
-    },
-    {
-      "rank": 6,
-      "story_id": "50276998",
-      "title": "Why is this fingerprinting script creating bioweapons?",
-      "url": "https://nullpt.rs/fingerprinting-bioweapons",
-      "hn_url": "https://news.ycombinator.com/item?id=50276998",
-      "author": "hazebooth",
-      "score": 1604,
-      "comments": 310,
-      "rank_score": 1124.5219378736538,
-      "published_at_kst": "2026-10-29T02:13:29+09:00",
-      "published_date": "2026-10-29",
-      "summary": "특정 핑거프린팅 스크립트가 의도치 않게 위험한 생물 무기 제조 정보를 생성할 수 있다는 보안 취약점을 다룹니다. LLM의 안전 가드레일이 특정 프롬프트에 의해 우회될 수 있음을 보여주는 사례입니다.",
-      "story_text": "",
-      "external_article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
-      "article_summary": "사용자 식별을 위한 핑거프린팅 스크립트가 특정 조건에서 생물 무기 제조와 관련된 위험한 정보를 출력하는 현상을 분석합니다. 이는 LLM의 안전 필터링 로직이 특정 입력 패턴에 의해 무력화될 수 있음을 시사하며, 데이터 워터마킹 기술이 의도치 않은 정보 유출로 이어질 수 있는 구조적 위험을 포함합니다.",
-      "discussion_summary": "LLM 모델의 안전 가드레일이 특정 프롬프트에 취약하다는 점에 대한 우려와, 워터마킹 기술이 실무에서 관리 실수로 인해 정보 유출로 이어질 수 있다는 실무적 관점이 대립합니다.",
-      "key_points": [
-        "핑거프린팅 스크립트가 LLM의 안전 가드레일을 우회하여 위험한 정보를 생성하는 취약점을 노출합니다.",
-        "특정 모델(GLM-5.3 등)에서 유사한 프롬프트가 통용되는 등 LLM 보안 정책의 일관성 문제가 제기됩니다.",
-        "문서 워터마킹과 같은 식별 기술이 관리 부주의와 결합할 경우 보안 사고로 이어질 수 있습니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "andai",
-          "text": "> Out of curiosity, I tried GLM-5.3 with the same prompt and it complied! I am noticing a trend here. Didn't HF say the same thing, when they got hacked, the only LLM that would a…"
-        },
-        {
-          "author": "jacquesm",
-          "text": "Nice sleuthing! We do a similar thing to mark documents that are still under embargo and one day I forgot to remove the watermark. The customer complained they had not received th…"
-        }
-      ],
-      "tags": [
-        "LLM",
-        "Fingerprinting",
+        "Unix",
         "Security",
-        "AI Safety"
+        "Linux",
+        "crypt",
+        "Software Design"
       ],
-      "domain": "nullpt.rs",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "domain": "sshhole.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
     },
     {
-      "rank": 7,
+      "rank": 4,
       "story_id": "50354960",
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
       "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
       "hn_url": "https://news.ycombinator.com/item?id=50354960",
       "author": "sidgarimella",
-      "score": 1464,
-      "comments": 477,
-      "rank_score": 1026.6508832197474,
+      "score": 1510,
+      "comments": 489,
+      "rank_score": 1058.8583216173315,
       "published_at_kst": "2026-11-04T02:22:37+09:00",
       "published_date": "2026-11-04",
-      "summary": "Postman이 사용자 동의 없이 AI 플러그인을 자동 설치하고 API 데이터를 공유하려 한다는 보안 이슈가 제기되었습니다. 개발자 도구로서의 신뢰도가 하락하며 커뮤니티 내에서 거센 비판이 일고 있습니다.",
+      "summary": "Postman이 사용자 동의 없이 AI 플러그인을 자동 설치하고 API 데이터를 공유하려 시도하는 보안 문제가 제기되었습니다. 개발 도구가 사용자 워크플로우를 강제로 점유하려는 행위에 대해 커뮤니티의 비판이 거셉니다.",
       "story_text": "",
-      "external_article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
-      "article_summary": "Postman이 사용자 모르게 AI 기능을 위한 플러그인을 설치하고, 쿼리 파라미터를 포함한 모든 API 요청 로그를 수집하는 행위가 발견되었습니다. 특히 {{some_secret}}과 같은 템플릿 구문을 통해 전달되는 민감한 데이터까지 로그에 남을 수 있어 보안 취약점이 우려됩니다. 과거 단순한 API 테스트 도구였던 Postman이 대규모 펀딩 이후 기업형 모델로 변질되었다는 지적이 나옵니다.",
-      "discussion_summary": "사용자 몰래 데이터를 수집하는 행위가 프라이버시 침해라는 비판과, 기업의 수익 모델 변화로 인해 도구의 본질이 변질되었다는 실망감이 대립하고 있습니다. 많은 사용자가 보안 위험을 이유로 대체 도구로의 이주를 고려하고 있습니다.",
+      "external_article_summary": "Postman 데스크톱 앱 실행 시 Codex 및 Claude 플러그인이 자동으로 설치되며, 시스템의 startup hook을 통해 사용자 권한을 획득하려는 시도가 발견되었습니다. 설치된 `hooks/codex-hooks.json` 파일은 세션 시작 시 `postman:api-engineer` 스킬을 로드하도록 설정하여, 사용자의 명시적 요청 없이도 API 엔지니어링 작업을 Postman으로 유도합니다. 또한 설치 프로그램의 `approvePostmanHook` 로직은 시스템 수준에서 자신의 훅을 승인하려 시도하여 보안 경계를 침범합니다.",
+      "article_summary": "Postman 데스크톱 앱 실행 시 Codex 및 Claude 플러그인이 자동으로 설치되며, 시스템의 startup hook을 통해 사용자 권한을 획득하려는 시도가 발견되었습니다. 설치된 `hooks/codex-hooks.json` 파일은 세션 시작 시 `postman:api-engineer` 스킬을 로드하도록 설정하여, 사용자의 명시적 요청 없이도 API 엔지니어링 작업을 Postman으로 유도합니다. 또한 설치 프로그램의 `approvePostmanHook` 로직은 시스템 수준에서 자신의 훅을 승인하려 시도하여 보안 경계를 침범합니다.",
+      "discussion_summary": "Postman이 단순한 API 테스트 도구를 넘어 사용자 워크플로우를 강제로 장악하려 한다는 비판과, 대규모 투자를 받은 이후 도구의 본질이 변질되었다는 우려가 대립하고 있습니다. 또한 API 요청 시 포함된 쿼리 파라미터나 비밀 정보가 로그에 남을 수 있다는 프라이버시 위험성이 지적되었습니다.",
       "key_points": [
-        "Postman의 자동 AI 플러그인 설치 및 API 데이터 수집 방식이 보안 위협으로 지목되었습니다.",
-        "템플릿 변수를 통해 노출되는 민감한 인증 정보와 쿼리 파라미터가 로그에 포함될 위험이 있습니다.",
-        "개발자 도구의 신뢰를 저해하는 기업의 데이터 수집 정책에 대해 커뮤니티의 반발이 거셉니다."
+        "Postman이 사용자 동의 없이 AI 에이전트와 연동되는 플러그인을 자동 설치하여 보안 경계를 위협합니다.",
+        "설치된 훅(hook)이 시스템 명령을 가로채 사용자의 API 작업 흐름을 강제로 Postman으로 유도합니다.",
+        "API 클라이언트가 사용자 워크플로우를 독점하려는 행위는 신뢰 관계를 무너뜨리는 심각한 보안 이슈입니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -312,35 +182,123 @@
       ],
       "tags": [
         "Postman",
+        "AI Plugin",
+        "Security",
         "API",
-        "Privacy",
-        "Security"
+        "Privacy"
       ],
       "domain": "github.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 5,
+      "story_id": "50364336",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "hn_url": "https://news.ycombinator.com/item?id=50364336",
+      "author": "pseudolus",
+      "score": 1247,
+      "comments": 729,
+      "rank_score": 874.8779133602427,
+      "published_at_kst": "2026-11-04T20:52:17+09:00",
+      "published_date": "2026-11-04",
+      "summary": "AI 기술의 발전이 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점을 드러내며 기술 부채 해결을 강제하고 있습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.",
+      "story_text": "",
+      "external_article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거에 단순한 프로그램 충돌로 치부되었던 버그들이 치명적인 보안 위협으로 변모하고 있다고 경고합니다.",
+      "article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거에 단순한 프로그램 충돌로 치부되었던 버그들이 치명적인 보안 위협으로 변모하고 있다고 경고합니다.",
+      "discussion_summary": "국가적 차원의 스파이 활동이나 기업 간 첩보 활동을 위해 은닉된 백도어와 제로데이 취약점들이 이번 과정을 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석할지에 대한 철학적 논쟁이 이어지고 있습니다.",
+      "key_points": [
+        "AI 기반의 자동화된 공격 도구는 과거에 방치되었던 레거시 소프트웨어의 기술 부채를 실질적인 보안 위협으로 전환합니다.",
+        "단순한 메모리 오류나 프로그램 충돌로 여겨졌던 버그가 현대적 공격 환경에서는 데이터 탈취와 코드 실행을 가능케 하는 통로가 됩니다.",
+        "현대적 보안 체계를 유지하기 위해서는 과거의 코드를 단순히 유지하는 것을 넘어 근본적인 구조적 개선이 필요합니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "Arbortheus",
+          "text": "I hope some of these backdoors and/or 0-days being kept under wraps by nation states or corporate espionage companies (Pegasus et al) are being found incidentally through all this…"
+        },
+        {
+          "author": "Balgair",
+          "text": "Aside: I think I need some help here.[0] I remember reading Godel Escher Bach back in the day, and there is the parable of the record player between the tortoise and the rabbit. A…"
+        }
+      ],
+      "tags": [
+        "AI",
+        "PHP",
+        "Technical Debt",
+        "Cybersecurity",
+        "Legacy Software"
+      ],
+      "domain": "spectrum.ieee.org",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
-      "rank": 8,
+      "rank": 6,
+      "story_id": "50371246",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "hn_url": "https://news.ycombinator.com/item?id=50371246",
+      "author": "Rasbora",
+      "score": 1236,
+      "comments": 416,
+      "rank_score": 867.0614397075581,
+      "published_at_kst": "2026-11-05T05:45:18+09:00",
+      "published_date": "2026-11-05",
+      "summary": "백악관 네트워크에서 주거용 프록시(Residential Proxy)로 악용되는 감염 기기들이 발견되었습니다. 보안 위협이 공공 기관의 네트워크로까지 확장된 상황에 대해 커뮤니티가 주목하고 있습니다.",
+      "story_text": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet...",
+      "external_article_summary": "백악관 네트워크 내의 기기들이 외부 공격자들에 의해 주거용 프록시 노드로 악용되고 있는 정황이 포착되었습니다. 공격자들은 감염된 기기를 통해 사용자 몰래 대역폭을 점유하며 수익을 창출하는 방식을 사용합니다. 이는 보안이 철저해야 할 정부 기관의 IP가 범죄 활동의 경유지로 활용될 수 있음을 보여주는 사례입니다.",
+      "article_summary": "백악관 네트워크 내의 기기들이 외부 공격자들에 의해 주거용 프록시 노드로 악용되고 있는 정황이 포착되었습니다. 공격자들은 감염된 기기를 통해 사용자 몰래 대역폭을 점유하며 수익을 창출하는 방식을 사용합니다. 이는 보안이 철저해야 할 정부 기관의 IP가 범죄 활동의 경유지로 활용될 수 있음을 보여주는 사례입니다.",
+      "discussion_summary": "감염된 기기가 사용자에게 대역폭 비용을 전가하는 방식이 위험하다는 비판과, 백악관 IP와 같은 고위 신뢰 IP가 프록시로 활용될 때의 가치가 매우 높다는 냉소적인 반응이 대립하고 있습니다.",
+      "key_points": [
+        "백악관 네트워크 내 기기가 외부의 주거용 프록시 서비스로 악용되는 보안 취약점이 발견되었습니다.",
+        "감염된 기기는 사용자 모르게 대역폭을 소모하며 공격자의 수익 모델로 활용됩니다.",
+        "정부 기관의 신뢰도 높은 IP가 범죄용 프록시로 쓰일 경우 보안 탐지를 우회할 위험이 큽니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "btown",
+          "text": "The danger here, of course, is that while these compromised devices are currently being monetized in a relatively benign way (other than bandwidth costs to the user, which to be s…"
+        },
+        {
+          "author": "hackernud3s",
+          "text": "Those are better than residential proxies. Those are White House proxies. I would pay $10/GB for those babies."
+        }
+      ],
+      "tags": [
+        "Residential Proxy",
+        "Network Security",
+        "White House",
+        "Cybersecurity"
+      ],
+      "domain": "layer3intel.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 7,
       "story_id": "50351111",
       "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
       "url": "https://honnibal.dev/blog/astra-read-write-misleading",
       "hn_url": "https://news.ycombinator.com/item?id=50351111",
       "author": "syllogism",
-      "score": 1014,
-      "comments": 206,
-      "rank_score": 711.3998156379796,
+      "score": 1034,
+      "comments": 209,
+      "rank_score": 725.4041322592152,
       "published_at_kst": "2026-11-03T21:21:17+09:00",
       "published_date": "2026-11-03",
       "summary": "Astra의 Qwen 모델 가중치 수정 방식이 과장되었다는 비판이 제기되었습니다. 연구 성과를 과하게 포장했다는 전문가들의 지적과 함께 기술적 실체에 대한 논쟁이 이어지고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
-      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 바꾸는 것이 아니라 기존 가중치를 미세 조정하는 수준임을 지적합니다. 특히 특정 연구 결과가 모델의 성능 향상을 직접적으로 유도하는 핵심 메커니즘인 것처럼 묘사된 점이 논란의 중심입니다.",
-      "discussion_summary": "연구 성과를 과하게 홍보했다는 비판과 연구 과정에서 발생할 수 있는 일반적인 과장이라는 옹호가 대립하고 있습니다. 특히 기계 해석 가능성 연구자들은 원문이 기술적 실체를 왜곡하여 독자를 오도하고 있다는 점을 구체적으로 비판합니다.",
+      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 핵심은 모델의 가중치를 직접 수정하여 성능을 높이는 메커니즘이 기존의 학습 방식이나 해석 가능성 연구와 어떻게 다른지, 그리고 그 과정에서 발생한 수치적 개선이 실제 아키텍처의 혁신인지에 대한 검증입니다.",
+      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구적 관점에서 과장된 측면이 있습니다. 핵심은 모델의 가중치를 직접 수정하여 성능을 높이는 메커니즘이 기존의 학습 방식이나 해석 가능성 연구와 어떻게 다른지, 그리고 그 과정에서 발생한 수치적 개선이 실제 아키텍처의 혁신인지에 대한 검증입니다.",
+      "discussion_summary": "기계 해석 가능성(Mechanistic Interpretability) 연구자가 원문이 기술적 사실을 오도하고 있다고 비판하는 반면, 일부 사용자는 새로운 학습 가설로서의 가능성을 언급하며 대립하고 있습니다.",
       "key_points": [
-        "Astra의 Qwen 가중치 수정 방식이 기술적 실체보다 과장되어 발표되었습니다.",
-        "기계 해석 가능성(Mechanistic Interpretability) 전문가들은 원문의 논리가 연구 윤리적 관점에서 부적절하다고 지적합니다.",
-        "모델 가중치 수정 기술의 실제 효용성과 연구 성과 포장 사이의 경계가 쟁점입니다."
+        "Astra의 Qwen 가중치 수정 방식이 연구 성과를 과장하여 전달했다는 비판이 존재합니다.",
+        "기계 해석 가능성 전문가들은 해당 연구가 기술적 실체를 왜곡하고 있다고 지적합니다.",
+        "모델 가중치 직접 수정 방식의 유효성과 연구 윤리 사이의 쟁점이 핵심입니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -357,77 +315,33 @@
         "LLM",
         "Mechanistic Interpretability",
         "Qwen",
-        "AI Research"
+        "Model Weights"
       ],
       "domain": "honnibal.dev",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
-    },
-    {
-      "rank": 9,
-      "story_id": "50300683",
-      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
-      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-      "hn_url": "https://news.ycombinator.com/item?id=50300683",
-      "author": "_chall",
-      "score": 1010,
-      "comments": 553,
-      "rank_score": 708.8951494060242,
-      "published_at_kst": "2026-10-30T16:09:12+09:00",
-      "published_date": "2026-10-30",
-      "summary": "Cursor Marketplace에 등록된 Claude Code VS Code 확장 프로그램에서 백도어가 발견되어 보안 경고가 발생했습니다. Anthropic은 이번 사건이 자사 시스템 침해는 아니며 Cursor 플랫폼을 통한 악성 코드 유포임을 명시했습니다.",
-      "story_text": "https://cursor.com/blog/claude-code-extension-security-notic...",
-      "external_article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
-      "article_summary": "악성 행위자가 Cursor Marketplace의 권한을 이용해 Claude Code VS Code 확장 프로그램에 백도어를 심었습니다. Anthropic 관계자는 이번 사고가 Anthropic의 서버나 직원 노트북이 해킹된 것이 아니라, Cursor 플랫폼의 접근 권한을 악용한 결과라고 설명했습니다. 사용자는 설치된 확장 프로그램이 악성 버전인지 확인하고 즉시 조치해야 합니다.",
-      "discussion_summary": "Anthropic 측은 이번 사고가 자사 시스템 보안과는 무관함을 강조하며 책임 소재를 명확히 하고 있습니다. 사용자들은 악성 확장 프로그램이 유포된 경로인 Cursor 플랫폼의 보안 관리 체계에 대해 우려를 표하고 있습니다.",
-      "key_points": [
-        "Cursor Marketplace를 통해 배포된 Claude Code 확장 프로그램에 백도어가 포함되었습니다.",
-        "이번 보안 사고는 Anthropic 시스템 침해가 아닌 플랫폼 권한을 이용한 외부 공격입니다.",
-        "사용자는 설치된 VS Code 확장 프로그램의 무결성을 즉시 점검해야 합니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "felixrieseberg",
-          "text": "Felix from Anthropic here. We’re working with Cursor on this incident, but it wasn’t a compromise of Anthropic’s systems or employee laptops. A malicious actor used access to Curs…"
-        },
-        {
-          "author": "jonas21",
-          "text": "This is from the Cursor blog [1] linked in the description, but repeating it here in case it's useful to anyone: ------ Check whether you are impacted The malicious extension appe…"
-        }
-      ],
-      "tags": [
-        "Claude Code",
-        "Cursor",
-        "VS Code",
-        "Backdoor",
-        "Security"
-      ],
-      "domain": "phorion.io",
       "repeated_in_window": true,
       "repeated_days_ago": 1
     },
     {
-      "rank": 10,
+      "rank": 8,
       "story_id": "50339288",
       "title": "Jailbreaking my car's navigation system just so I can change the time",
       "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
       "hn_url": "https://news.ycombinator.com/item?id=50339288",
       "author": "xx_ns",
-      "score": 918,
-      "comments": 363,
-      "rank_score": 644.3691461602909,
+      "score": 943,
+      "comments": 382,
+      "rank_score": 661.8844104967541,
       "published_at_kst": "2026-11-03T01:29:19+09:00",
       "published_date": "2026-11-03",
-      "summary": "단순히 차량 내 시간을 변경하기 위해 내비게이션 시스템의 펌웨어를 추출하고 탈옥(Jailbreaking)을 시도한 기술적 과정을 다룹니다. 사용자의 집요한 디버깅 과정과 그에 따른 보안 취약점 노출이 커뮤니티의 관심을 끌었습니다.",
+      "summary": "단순히 차량 내 시간을 변경하기 위해 내비게이션 시스템의 펌웨어를 추출하고 탈옥(Jailbreaking)을 시도한 사례가 화제가 되었습니다. 사용자의 제어권을 확보하려는 시도와 제조사의 폐쇄적 시스템 사이의 갈등을 보여줍니다.",
       "story_text": "",
-      "external_article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
-      "article_summary": "사용자는 차량 내비게이션 시스템에서 시간을 설정하는 옵션이 없다는 점을 확인한 후, 시스템 펌웨어를 직접 추출하여 내부 로직을 분석했습니다. 펌웨어 분석을 통해 시스템 권한을 획득하고 제어권을 확보하는 과정을 상세히 기록했습니다. 이는 임베디드 시스템의 폐쇄적인 구조와 사용자 제어권 사이의 충돌을 보여주는 사례입니다.",
-      "discussion_summary": "작성자의 집요한 문제 해결 방식에 대한 감탄과 함께, SD 카드 교체와 같은 더 간단한 방법이 있었을 것이라는 실용적 비판이 대립하고 있습니다. 또한, 기술적 기록이 향후 유지보수를 위해 중요하다는 조언이 이어지고 있습니다.",
+      "external_article_summary": "사용자는 차량 내 시간 설정 옵션이 부재하자 직접 펌웨어를 추출하여 시스템을 분석하는 방식을 선택했습니다. 펌웨어 내부를 분석하여 시스템 권한을 획득함으로써 하드웨어 제약 사항을 해결하려 시도했습니다. 이는 제조사가 제공하지 않는 기능을 사용자가 직접 수정하기 위해 임베디드 시스템의 취약점을 공략한 사례입니다.",
+      "article_summary": "사용자는 차량 내 시간 설정 옵션이 부재하자 직접 펌웨어를 추출하여 시스템을 분석하는 방식을 선택했습니다. 펌웨어 내부를 분석하여 시스템 권한을 획득함으로써 하드웨어 제약 사항을 해결하려 시도했습니다. 이는 제조사가 제공하지 않는 기능을 사용자가 직접 수정하기 위해 임베디드 시스템의 취약점을 공략한 사례입니다.",
+      "discussion_summary": "사용자의 정당한 소유권 행사를 지지하는 의견과 제조사의 보안 및 안정성을 해칠 수 있다는 우려가 대립하고 있습니다. 또한 저가형 애프터마켓 장비의 기능적 한계로 인해 발생하는 사용자 불편에 대한 공감이 이어지고 있습니다.",
       "key_points": [
-        "임베디드 시스템의 펌웨어 추출 및 탈옥을 통한 제어권 확보 과정을 다룹니다.",
-        "단순한 기능 수정을 위해 시스템 전체의 보안을 해제하는 행위의 기술적 가치를 논의합니다.",
-        "폐쇄적인 하드웨어 환경에서 사용자의 커스텀 권한 확보가 갖는 의미를 시사합니다."
+        "사용자 편의를 위한 펌웨어 추출 및 시스템 탈옥 시도.",
+        "제조사의 폐쇄적 소프트웨어 정책과 사용자 제어권 사이의 충돌.",
+        "임베디드 시스템의 보안 취약점과 커스텀 펌웨어의 위험성."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -436,17 +350,102 @@
           "text": "> I refused to believe that there was no option to change the time (...) I decided to fetch the firmware and dig into it That must be one of the most iconic HN sentences ever."
         },
         {
-          "author": "tom1337890",
-          "text": "Awesome write up. Love it. And good thing you documented it, since in half a year you'll need it again. My takeaway: You should have just gotten the SD card and trusted the previo…"
+          "author": "strenholme",
+          "text": "My car came with a cheap low-quality aftermarket combination car stereo and GPS. It would only play music from discs (no USB support), didn’t even support variable bitrate MP3s, a…"
         }
       ],
       "tags": [
         "Jailbreaking",
         "Embedded System",
         "Firmware",
-        "Reverse Engineering"
+        "Automotive"
       ],
       "domain": "blog.nns.ee",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 9,
+      "story_id": "50340088",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "hn_url": "https://news.ycombinator.com/item?id=50340088",
+      "author": "aarushyadav",
+      "score": 836,
+      "comments": 392,
+      "rank_score": 586.9921428835607,
+      "published_at_kst": "2026-11-03T02:16:17+09:00",
+      "published_date": "2026-11-03",
+      "summary": "입 모양을 움직이지 않고도 뇌 속의 언어를 텍imal로 변환하는 스마트 글래스 기술이 공개되었습니다. RF(무선 주파수) 센싱 기술을 활용해 소음 없이 컴퓨터와 소통하는 혁신적인 인터페이스를 지향합니다.",
+      "story_text": "Hi HN, we're Aarush and Arnav from The Subvocal Company (YC F26) ( https://subvocal.company/ ). We’re building smart glasses that let you talk to your computer without talking out loud. You can mouth words silently and discreetly and the glasses decode them to text at the speed of speech. Here's a video of Dave from YC trying it out: https://www.youtube.com/watch?v=9QdX1eObVYI (Edit: you don't actually have to move your lips or even open your mouth for this to work! Since the RF can see inside your mouth the system can be fine tuned on \"internal speech\". This isn't the automatic tongue movements that occur when \"thinking\" words to yourself, but more like mouthing with your lips closed. It's a bit weird to do, but with practice, we have been able to get it down pretty well.) Arnav and I were studying CS at Georgia Tech at the beginning of the year, with no experience in silent speech or sensing. We were both AI-native builders and power users of Wispr Flow. What bugged us was not being able to use these tools in the library (or an office) or in public. At Stanford’s TreeHacks in February, we decided to build the most technically ridiculous thing we could think of. We’d read about AlterEgo, a silent speech system out of MIT’s Media Lab, and wanted to recreate it in 36 hours. We built a crude prototype, sticking EMG electrodes onto my face: https://drive.google.com/file/d/1mwhv5HZMz3UTevdrgwS5O7g2jWV... We got it to kind of work at a letter level in a very janky way. It wasn’t good enough to win the hackathon, but convinced us to go all in. The first time I typed a sentence without anyone noticing, I felt the magic of the technology. We quickly realized EMG (reading muscle electrical signals) wouldn’t work: - Signal changes due to sweat - Electrical interference - Placement variability - Most importantly, no one wants to stick electrodes onto their face!! So we switched to RF and built the glasses you see now. They emit radio waves, similar to Bluetooth, that pass through your face. As they cross the tongue, lips and soft palate, they’re modulated by silent mouthing. We train foundation models on this data to decode these perturbations to text. Despite prior academic research, getting this to work was a huge engineering challenge. First we built an extremely low noise RF sensing stack. Then we had to place antennas so their fields overlapped maximally with the articulators. Our first attempt on glasses failed completely, so we reverted to old habits and taped antennas on our face: https://drive.google.com/file/d/1ks0dS0eZiTV9EqSFsyB_w5BBjpc... Since taping antennas consistently in the same spot and angle was hard, we created this weird but effective head rig to hold them in place: https://drive.google.com/file/d/1rhzNFpdDzr7oHk0isFY70dkoV4C... This worked, but obviously wasn’t a product yet. So we worked deep in simulations to design glasses that could hold the antennas. That evolved into our design now, with antennas embedded within the frames. Once we established there was a signal, the next hurdle was cross-user generalization. Everyone’s facial anatomy, and hence RF signal patterns, are vastly different. We tried algorithmic workarounds but realized the only lever was to massively scale pretraining data. So that’s what we did. We set up booths in our office and paid people to read prompts wearing our glasses, to pretrain our models on. This produced a beautiful scaling curve, with errors falling quickly as we scaled our dataset and cross-user performance becoming genuinely compelling (as you see in the video above; Dave only had a short 20-sentence calibration). We always heard about building things from first principles but never understood it before this. We tried tackling it top down but completely failed. Only when we broke each component (the antenna, electronics, ML) down to its fundamentals to understand and optimize it did we get it to work really well. Over the next few months we’re continuing R&D to turn our prototype glasses into the slick product on our website and ship in Q1 2027. We’re also scaling up our dataset to improve performance on edge cases. For anyone who loves voice dictation but hates using it around people, we’ve opened preorders for our first batch of 500 units, with a $200 discount off the final price. Allocation is running out quickly, so get yours at https://subvocal.co/preorder !",
+      "external_article_summary": "Subvocal 팀은 RF(무선 주파수)를 이용해 입술, 혀, 입천장의 움직임에 따른 미세한 신호 변화를 감지하는 스마트 글래스를 개발했습니다. 기존 EMG(근전도) 방식의 한계인 땀이나 전극 부착 문제를 해결하기 위해, 안테나에서 방출된 전파가 안면 조직을 통과하며 발생하는 변조를 감지하는 아키텍처를 채택했습니다. 이렇게 수집된 데이터는 파운데이션 모델(Foundation Model)로 학습되어 사용자의 무음 발화(Silent Speech)를 텍스트로 정밀하게 디코딩합니다.",
+      "article_summary": "Subvocal 팀은 RF(무선 주파수)를 이용해 입술, 혀, 입천장의 움직임에 따른 미세한 신호 변화를 감지하는 스마트 글래스를 개발했습니다. 기존 EMG(근전도) 방식의 한계인 땀이나 전극 부착 문제를 해결하기 위해, 안테나에서 방출된 전파가 안면 조직을 통과하며 발생하는 변조를 감지하는 아키텍처를 채택했습니다. 이렇게 수집된 데이터는 파운데이션 모델(Foundation Model)로 학습되어 사용자의 무음 발화(Silent Speech)를 텍스트로 정밀하게 디코딩합니다.",
+      "discussion_summary": "사용자들은 이 기술이 장애인 접근성 향상과 핸즈프리 컴퓨팅에 혁신적일 것이라며 긍정적인 반응을 보이고 있습니다. 동시에 안경 프레임의 형태나 코 높이 등 개인의 신체적 특징에 따른 착용 편의성과 센서 정밀도 유지 문제를 우려하는 제언이 이어지고 있습니다.",
+      "key_points": [
+        "RF 센싱 기술을 통해 입술을 움직이지 않는 무음 발화까지 감지할 수 있는 기술적 가능성을 제시했습니다.",
+        "기존 생체 신호 방식의 불편함을 극선형 안테나 설계와 파운데이션 모델 학습으로 극복했습니다.",
+        "개인별 안면 구조 차이에 따른 하드웨어 호환성 확보가 상용화의 핵심 과제로 꼽힙니다."
+      ],
+      "category": "개발 도구",
+      "comment_highlights": [
+        {
+          "author": "vessenes",
+          "text": "Just preordered -- glasses request: there's no way to say it nicely, I have a big nose. With a high bridge. Many glasses are really tough to get properly placed; may I request you…"
+        },
+        {
+          "author": "sourpanda",
+          "text": "I think this is incredibly cool and straight out of a sci-fi novel! I think this is phenomenal for accessibility and for hands-free computing in general. I also agree with other c…"
+        }
+      ],
+      "tags": [
+        "Subvocal",
+        "RF Sensing",
+        "Human-Computer Interaction",
+        "Smart Glasses"
+      ],
+      "domain": "news.ycombinator.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 10,
+      "story_id": "50354358",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=50354358",
+      "author": "nharada",
+      "score": 832,
+      "comments": 245,
+      "rank_score": 584.0515994607797,
+      "published_at_kst": "2026-11-04T01:47:29+09:00",
+      "published_date": "2026-11-04",
+      "summary": "800달러 수준의 저렴한 비용으로 제작된 오픈 소스 룸 스케일 그리퍼 로봇인 Stringman이 공개되었습니다. 제작자와 사용자들은 이 로봇의 구조적 특징과 안전성에 대해 활발한 기술적 대화를 나누고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Stringman은 800달러의 제작 비용을 가진 오픈 소스 로봇으로, 와이어와 윈치를 이용해 공간 내에서 물체를 잡는 그리퍼 방식을 채택했습니다. 제작자는 고속 윈치를 활용한 캔틸레버 구조의 설계를 통해 효율적인 움직임을 구현했습니다. 시스템은 장력 제한(tension limit) 기능을 통해 안전성을 확보하도록 설계되었습니다.",
+      "article_summary": "Stringman은 800달러의 제작 비용을 가진 오픈 소스 로봇으로, 와이어와 윈치를 이용해 공간 내에서 물체를 잡는 그리퍼 방식을 채택했습니다. 제작자는 고속 윈치를 활용한 캔틸레버 구조의 설계를 통해 효율적인 움직임을 구현했습니다. 시스템은 장력 제한(tension limit) 기능을 통해 안전성을 확보하도록 설계되었습니다.",
+      "discussion_summary": "제작자는 장력 제한 설계를 통해 인명 피해 가능성을 낮췄다고 설명하며 기술적 안전성을 강조했습니다. 사용자들은 실제 작업 환경에서의 활용 사례를 공유하며 로봇의 구조적 안정성과 실용성에 대해 논의하고 있습니다.",
+      "key_points": [
+        "800달러라는 저렴한 비용으로 구현된 오픈 소스 로봇 하드웨어입니다.",
+        "고속 윈치와 장력 제한 설계를 통해 안전성과 구동 효율을 동시에 고려했습니다.",
+        "사용자 커뮤니티를 통해 다양한 환경에서의 하드웨어 확장 가능성을 검증하고 있습니다."
+      ],
+      "category": "기타",
+      "comment_highlights": [
+        {
+          "author": "histk_garden",
+          "text": "I made a big one for my garden. It is like a that scene in honey i shrunk the kids with Rick Moranis laying in that cantilevered flying cot thing but i use 2 high speed winches an…"
+        },
+        {
+          "author": "nhnifong",
+          "text": "Hi there, I'm Nathaniel, the creator of this robot. Thanks for posting it :) If you have any questions feel free to ask. Can it kill you? no probably not. The tension limit kicks…"
+        }
+      ],
+      "tags": [
+        "Open Source",
+        "Robotics",
+        "Hardware"
+      ],
+      "domain": "neufangled.com",
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
