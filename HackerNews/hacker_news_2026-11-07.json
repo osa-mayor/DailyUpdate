@@ -1,0 +1,453 @@
+{
+  "source": "hacker_news",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T04:43:55.888199+09:00",
+  "count": 10,
+  "daily_summary": "오늘의 기술 뉴스는 과거의 관습과 현대적 설계가 충돌하며 발생하는 보안 취약점과 AI 기술 발전에 따른 레거시 코드의 기술 부채 해결 문제를 주요하게 다루었습니다. 또한, AI 에이전트의 프라이버시 유출 문제와 오픈 소스 하드웨어/소프트웨어의 창의적 활용 사례들이 주목받았습니다.",
+  "daily_key_points": [
+    "과거의 관습적 특수 문자와 현대 라이브러리의 에러 처리 로직이 충돌하여 발생하는 인증 우회 취약점이 보안 업계의 화두가 되었습니다.",
+    "AI 기술의 고도화는 40년 된 레거시 소프트웨어의 구조적 결함을 드러내며 강제적인 기술 부채 해결을 촉구하고 있습니다.",
+    "AI 에이전트와 자동화 도구가 사용자 정보를 외부로 유출하거나 연구 성과를 과장하는 등 새로운 프라이버시 및 윤리적 쟁점을 생성하고 있습니다."
+  ],
+  "daily_tags": [
+    "보안취약점",
+    "AI에이전트",
+    "레거시코드",
+    "오픈소스",
+    "프라이버시"
+  ],
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 과거의 관습과 현대적 설계가 충돌하며 발생하는 보안 취약점과 AI 기술 발전에 따른 레거시 코드의 기술 부채 해결 문제를 주요하게 다루었습니다. 또한, AI 에이전트의 프라이버시 유출 문제와 오픈 소스 하드웨어/소프트웨어의 창의적 활용 사례들이 주목받았습니다.\n\n📍 1. sshole\n⭐ Score: 2893 | 💬 Comments: 709\n📰 원문 요약: 1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일의 해시 필드에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 해시 값이 '*'로 설정된 계정에서 어떤 비밀번호를 입력하더라도 인증을 통과하게 되는 보안 허점이 발생합니다.\n💬 토론 요약: 특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 공격자가 $ret = crypt($pw, $hash) 구조에서 $ret와 $hash가 일치하게 만드는 것이 핵심 쟁점입니다.\n📌 종합 요약: 과거 Unix 시스템의 관습과 현대 라이브러리의 설계 결함이 결합하여 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 과거의 특수 문자와 일치하면서 발생하는 인증 우회 가능성을 설명합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://sshhole.com\n💬 토론: https://news.ycombinator.com/item?id=50378228\n\n📍 2. Show HN: HackerBooks – HackerTube, but for books mentioned on HN\n⭐ Score: 1863 | 💬 Comments: 306\n📰 원문 요약: HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 매일 데이터가 재배열되어 새로운 도서 목록을 제공합니다. 각 도서는 언급된 원문 댓글로 연결되는 링크를 포함하며, 데이터는 About 페이지를 통해 누구나 다운로드할 수 있습니다.\n💬 토론 요약: 사용자들은 특정 유명 도서가 목록에서 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서 습관을 다시 형성하려는 시도로 해석하는 의견이 존재합니다.\n📌 종합 요약: Hacker News에서 언급된 도서 데이터를 기반으로 구축된 도서 추천 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.\n🗂️ 분류: 개발 도구\n🔗 링크: https://hackerbooks.org\n💬 토론: https://news.ycombinator.com/item?id=50326821\n\n📍 3. Claude Code sends your email address to websites\n⭐ Score: 1523 | 💬 Comments: 479\n📰 원문 요약: Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때, HTTP 요청의 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 현상이 발견되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송됨에 따라 스팸 공격의 타겟이 될 위험이 크며, 이는 에이전트 기반 도구의 설계상 결함으로 지적됩니다.\n💬 토론 요약: 사용자 정보에 대한 Claude의 접근 권한이 과도하다는 비판과 함께, 특정 API(예: SEC API)와의 상호작용 과정에서 발생하는 기술적 요구사항인지에 대한 의문이 대립하고 있습니다.\n📌 종합 요약: Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 심각한 프라이버시 문제가 제기되었습니다. 이로 인해 사용자의 개인정보가 스팸 메일 발송자들에게 노출되는 보안 취약점이 확인되었습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/anthropics/claude-code/issues/107757\n💬 토론: https://news.ycombinator.com/item?id=50385272\n\n📍 4. AI is forcing us to pay off 40 years of technical debt\n⭐ Score: 1287 | 💬 Comments: 746\n📰 원문 요약: 최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP와 같은 레거시 소프트웨어의 구조적 결함을 노립니다. 보안 전문가들은 AI를 활용한 공격이 정교해짐에 따라 인간이 작성한 과거의 코드가 가진 보안 허점이 대규모로 노출될 것이라고 경고합니다.\n💬 토론 요약: 국가적 차원의 스파이 활동이나 기업 간 첩보 활동을 위해 은닉된 백도어와 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석해야 하는지에 대한 철학적 논쟁이 이어지고 있습니다.\n📌 종합 요약: AI 기술의 발전으로 인해 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점이 드러나며 기술 부채를 해결해야 하는 시점이 도래했습니다. 최근 발견된 PHP2Shell 취약점은 오래된 코드와 메모리 관리 방식이 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\n💬 토론: https://news.ycombinator.com/item?id=50364336\n\n📍 5. Residential proxies detected on White House network\n⭐ Score: 1263 | 💬 Comments: 432\n📰 원문 요약: Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 감지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 탈출(exit) 활동이 확인되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 네트워크를 경유지로 제공하고 있을 가능성이 높습니다.\n💬 토론 요약: 감염된 기기가 대역폭 비용을 소모하는 점을 우려하는 보안적 관점과, 백악관 IP라는 희소성 때문에 해당 프록시가 고가에 거래될 것이라는 냉소적인 반응이 대립하고 있습니다.\n📌 종합 요약: 백악관 네트워크에서 거주용 프록시(Residential Proxy) 트래픽이 감지되어 보안 위협이 제기되었습니다. 감염된 기기를 통해 외부 공격자가 백악관 IP를 경유지로 사용하는 상황에 대해 커뮤니티가 주목하고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://layer3intel.com/blog/residential-proxies-white-house-network\n💬 토론: https://news.ycombinator.com/item?id=50371246\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-07.md",
+  "items": [
+    {
+      "rank": 1,
+      "story_id": "50378228",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "hn_url": "https://news.ycombinator.com/item?id=50378228",
+      "author": "josemrb",
+      "score": 2893,
+      "comments": 709,
+      "rank_score": 2027.0695794910105,
+      "published_at_kst": "2026-11-05T21:19:02+09:00",
+      "published_date": "2026-11-05",
+      "summary": "과거 Unix 시스템의 관습과 현대 라이브러리의 설계 결함이 결합하여 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 과거의 특수 문자와 일치하면서 발생하는 인증 우회 가능성을 설명합니다.",
+      "story_text": "Related: https://hachyderm.io/@damienmiller/117563026759098135 / https://news.ycombinator.com/item?id=50377221 https://www.openssh.org/releasenotes.html#10.6p2 https://alpinelinux.org/posts/2026-11-05-openssh-password-au...",
+      "external_article_summary": "1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일의 해시 필드에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 해시 값이 '*'로 설정된 계정에서 어떤 비밀번호를 입력하더라도 인증을 통과하게 되는 보안 허점이 발생합니다.",
+      "article_summary": "1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일의 해시 필드에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 해시 값이 '*'로 설정된 계정에서 어떤 비밀번호를 입력하더라도 인증을 통과하게 되는 보안 허점이 발생합니다.",
+      "discussion_summary": "특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 공격자가 $ret = crypt($pw, $hash) 구조에서 $ret와 $hash가 일치하게 만드는 것이 핵심 쟁점입니다.",
+      "key_points": [
+        "과거의 관습적인 '*' 문자 사용이 현대 라이브러리의 에러 처리 로직과 충돌하며 보안 취약점을 생성했습니다.",
+        "crypt() 함수가 오류 시 NULL 대신 '*'를 반환하도록 설계된 것이 인증 우회의 통로가 되었습니다.",
+        "데이터 값과 제어 신호를 동일한 채널에서 사용하는 설계 방식의 위험성을 보여줍니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "mpyne",
+          "text": "OK, I think I see what’s going on with this, in this configuration. The goal from an attacker’s perspective is to get this to be true: `$ret = crypt($pw, $hash); $ret == $hash` wh…"
+        },
+        {
+          "author": "BoppreH",
+          "text": "In-band signaling[1] strikes again. * should not have been used as special value, neither for \"no password\" in /etc/passwd nor \"error while hashing the password\" in crypt. I'm afr…"
+        }
+      ],
+      "tags": [
+        "Unix",
+        "OpenSSH",
+        "crypt",
+        "Security Vulnerability",
+        "Linux"
+      ],
+      "domain": "sshhole.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 2,
+      "story_id": "50326821",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "hn_url": "https://news.ycombinator.com/item?id=50326821",
+      "author": "roansh",
+      "score": 1863,
+      "comments": 306,
+      "rank_score": 1305.818054324276,
+      "published_at_kst": "2026-11-02T00:58:28+09:00",
+      "published_date": "2026-11-02",
+      "summary": "Hacker News에서 언급된 도서 데이터를 기반으로 구축된 도서 추천 서비스인 HackerBooks가 공개되었습니다. LLM을 활용해 데이터 파이프라인부터 웹사이트 구축까지 자동화한 것이 특징입니다.",
+      "story_text": "Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5). It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page. To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc. It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.",
+      "external_article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 매일 데이터가 재배열되어 새로운 도서 목록을 제공합니다. 각 도서는 언급된 원문 댓글로 연결되는 링크를 포함하며, 데이터는 About 페이지를 통해 누구나 다운로드할 수 있습니다.",
+      "article_summary": "HackerBooks는 2007년부터 현재까지 Hacker News 댓글에서 최소 두 번 이상 언급된 약 16,500권의 도서 데이터를 수집하여 구축되었습니다. Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트 전체를 개발했으며, 매일 데이터가 재배열되어 새로운 도서 목록을 제공합니다. 각 도서는 언급된 원문 댓글로 연결되는 링크를 포함하며, 데이터는 About 페이지를 통해 누구나 다운로드할 수 있습니다.",
+      "discussion_summary": "사용자들은 특정 유명 도서가 목록에서 누락된 점을 지적하며 데이터의 완전성을 검토하고 있습니다. 또한 문해력 저하와 같은 사회적 맥락에서 독서 습관을 다시 형성하려는 시도로 해석하는 의견이 존재합니다.",
+      "key_points": [
+        "Claude 3.5 Opus를 활용해 데이터 파이프라인과 웹사이트를 자동 구축했습니다.",
+        "Hacker News의 댓글 데이터를 기반으로 16,500여 권의 도서 관계망을 구축했습니다.",
+        "단순 언급 횟수를 기준으로 하기에 칭찬과 비판이 혼재될 수 있는 데이터 특성을 가집니다."
+      ],
+      "category": "개발 도구",
+      "comment_highlights": [
+        {
+          "author": "sarreph",
+          "text": "On the subject of reading (since the 'decline' in literacy is being raised in this thread) -- especially if you haven't read in a while and are thinking about reading but are mayb…"
+        },
+        {
+          "author": "bazzargh",
+          "text": "A couple of missing ones (that I expected to have been mentioned, aren't there as far as I can tell, and I found them on here with a quick google): https://en.wikipedia.org/wiki/T…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Data Pipeline",
+        "Hacker News",
+        "Automation"
+      ],
+      "domain": "hackerbooks.org",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 3,
+      "story_id": "50385272",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "hn_url": "https://news.ycombinator.com/item?id=50385272",
+      "author": "motoroco",
+      "score": 1523,
+      "comments": 479,
+      "rank_score": 1068.0635338901286,
+      "published_at_kst": "2026-11-06T07:17:15+09:00",
+      "published_date": "2026-11-06",
+      "summary": "Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 심각한 프라이버시 문제가 제기되었습니다. 이로 인해 사용자의 개인정보가 스팸 메일 발송자들에게 노출되는 보안 취약점이 확인되었습니다.",
+      "story_text": "",
+      "external_article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때, HTTP 요청의 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 현상이 발견되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송됨에 따라 스팸 공격의 타겟이 될 위험이 크며, 이는 에이전트 기반 도구의 설계상 결함으로 지적됩니다.",
+      "article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때, HTTP 요청의 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 현상이 발견되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송됨에 따라 스팸 공격의 타겟이 될 위험이 크며, 이는 에이전트 기반 도구의 설계상 결함으로 지적됩니다.",
+      "discussion_summary": "사용자 정보에 대한 Claude의 접근 권한이 과도하다는 비판과 함께, 특정 API(예: SEC API)와의 상호작용 과정에서 발생하는 기술적 요구사항인지에 대한 의문이 대립하고 있습니다.",
+      "key_points": [
+        "Claude Code의 User-Agent 헤더에 사용자 이메일이 평문으로 포함되어 외부로 유출됩니다.",
+        "에이전트가 웹 검색을 수행할 때 사용자 식별 정보를 포함하는 것은 심각한 프라이버시 침해입니다.",
+        "개인정보 보호를 위해 해당 기능을 즉시 제거하거나 옵트인(Opt-in) 방식으로 변경해야 합니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "varenc",
+          "text": "Many people report seeing this behavior when using the SEC API specifically which makes me think that service is requesting this. Maybe email is required by the SEC API? --- UPDAT…"
+        },
+        {
+          "author": "grey-area",
+          "text": "Biggest questions here, which I think need answering: Should Claude have access to user details? I’d say no, unless explicitly entered manually into a chat. Should Claude have acc…"
+        }
+      ],
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Privacy Leak",
+        "User-Agent",
+        "AI Security"
+      ],
+      "domain": "github.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 4,
+      "story_id": "50364336",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "hn_url": "https://news.ycombinator.com/item?id=50364336",
+      "author": "pseudolus",
+      "score": 1287,
+      "comments": 746,
+      "rank_score": 902.8848195555398,
+      "published_at_kst": "2026-11-04T20:52:17+09:00",
+      "published_date": "2026-11-04",
+      "summary": "AI 기술의 발전으로 인해 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점이 드러나며 기술 부채를 해결해야 하는 시점이 도래했습니다. 최근 발견된 PHP2Shell 취약점은 오래된 코드와 메모리 관리 방식이 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.",
+      "story_text": "",
+      "external_article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP와 같은 레거시 소프트웨어의 구조적 결함을 노립니다. 보안 전문가들은 AI를 활용한 공격이 정교해짐에 따라 인간이 작성한 과거의 코드가 가진 보안 허점이 대규모로 노출될 것이라고 경고합니다.",
+      "article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP와 같은 레거시 소프트웨어의 구조적 결함을 노립니다. 보안 전문가들은 AI를 활용한 공격이 정교해짐에 따라 인간이 작성한 과거의 코드가 가진 보안 허점이 대규모로 노출될 것이라고 경고합니다.",
+      "discussion_summary": "국가적 차원의 스파이 활동이나 기업 간 첩보 활동을 위해 은닉된 백도어와 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석해야 하는지에 대한 철학적 논쟁이 이어지고 있습니다.",
+      "key_points": [
+        "AI 기반의 자동화된 공격 도구는 과거 인간이 작성한 레거시 코드의 보안 허점을 빠르게 찾아내어 기술 부채를 강제로 해결하게 만듭니다.",
+        "PHP2Shell과 같은 메모리 관리 오류는 단순한 프로그램 충돌을 넘어 시스템 권한 탈취로 이어질 수 있는 심각한 보안 위협입니다.",
+        "현대적 보안 체계를 유지하기 위해서는 과거의 코드를 현대적 보안 표준에 맞게 재설계하거나 교체하는 작업이 필수적입니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "Arbortheus",
+          "text": "I hope some of these backdoors and/or 0-days being kept under wraps by nation states or corporate espionage companies (Pegasus et al) are being found incidentally through all this…"
+        },
+        {
+          "author": "Balgair",
+          "text": "Aside: I think I need some help here.[0] I remember reading Godel Escher Bach back in the day, and there is the parable of the record player between the tortoise and the rabbit. A…"
+        }
+      ],
+      "tags": [
+        "PHP",
+        "Security",
+        "Technical Debt",
+        "Vulnerability"
+      ],
+      "domain": "spectrum.ieee.org",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 5,
+      "story_id": "50371246",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "hn_url": "https://news.ycombinator.com/item?id=50371246",
+      "author": "Rasbora",
+      "score": 1263,
+      "comments": 432,
+      "rank_score": 885.9212213184006,
+      "published_at_kst": "2026-11-05T05:45:18+09:00",
+      "published_date": "2026-11-05",
+      "summary": "백악관 네트워크에서 거주용 프록시(Residential Proxy) 트래픽이 감지되어 보안 위협이 제기되었습니다. 감염된 기기를 통해 외부 공격자가 백악관 IP를 경유지로 사용하는 상황에 대해 커뮤니티가 주목하고 있습니다.",
+      "story_text": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet...",
+      "external_article_summary": "Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 감지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 탈출(exit) 활동이 확인되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 네트워크를 경유지로 제공하고 있을 가능성이 높습니다.",
+      "article_summary": "Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 감지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 탈출(exit) 활동이 확인되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 네트워크를 경유지로 제공하고 있을 가능성이 높습니다.",
+      "discussion_summary": "감염된 기기가 대역폭 비용을 소모하는 점을 우려하는 보안적 관점과, 백악관 IP라는 희소성 때문에 해당 프록시가 고가에 거래될 것이라는 냉소적인 반응이 대립하고 있습니다.",
+      "key_points": [
+        "백악관 네트워크 내 기기가 프록시 서비스의 경유지로 악용되고 있습니다.",
+        "특정 시간대에 집중된 트래픽 패턴은 개인 기기 감염 가능성을 시사합니다.",
+        "공격자가 신뢰할 수 있는 기관의 IP를 확보함으로써 추적을 피하는 수단으로 활용할 수 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "btown",
+          "text": "The danger here, of course, is that while these compromised devices are currently being monetized in a relatively benign way (other than bandwidth costs to the user, which to be s…"
+        },
+        {
+          "author": "hackernud3s",
+          "text": "Those are better than residential proxies. Those are White House proxies. I would pay $10/GB for those babies."
+        }
+      ],
+      "tags": [
+        "Residential Proxy",
+        "Cybersecurity",
+        "White House",
+        "Network Security"
+      ],
+      "domain": "layer3intel.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 6,
+      "story_id": "50351111",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "hn_url": "https://news.ycombinator.com/item?id=50351111",
+      "author": "syllogism",
+      "score": 1038,
+      "comments": 209,
+      "rank_score": 728.2041322592152,
+      "published_at_kst": "2026-11-03T21:21:17+09:00",
+      "published_date": "2026-11-03",
+      "summary": "Astra의 Qwen 모델 가중치 수정 방식이 과장되었다는 비판이 제기되었습니다. 연구 성과를 과하게 포장했다는 전문가들의 지적과 함께 기술적 실체에 대한 논쟁이 이어지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구의 핵심을 왜곡했다는 비판을 받고 있습니다. 특히 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 개선하는 것이 아니라 기존 연구를 과장한 것이라고 지적합니다.",
+      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구의 핵심을 왜곡했다는 비판을 받고 있습니다. 특히 기계 해석 가능성(Mechanistic Interpretability) 연구 분야의 전문가들은 해당 방식이 모델의 근본적인 구조를 개선하는 것이 아니라 기존 연구를 과장한 것이라고 지적합니다.",
+      "discussion_summary": "연구 성과를 과하게 홍보했다는 비판과 연구 과정에서 발생할 수 있는 일반적인 과장이라는 옹호가 대립하고 있습니다. 특히 기술적 실체가 실제 모델 성능 향상으로 이어지는지에 대한 구체적인 검증이 쟁점입니다.",
+      "key_points": [
+        "Astra의 Qwen 가중치 수정 방식이 연구의 본질을 왜곡하고 과장되었다는 비판이 제기되었습니다.",
+        "기계 해석 가능성(Mechanistic Interpretability) 전문가들은 해당 연구의 기술적 타당성에 의문을 표하고 있습니다.",
+        "연구 성과를 발표할 때 기술적 실체와 마케팅적 과장 사이의 경계 설정이 중요함을 시사합니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "x313",
+          "text": "I work in this field (mech interp research) and I agree, the original post is definitely misleading. Some overselling in research is normal but it's a bit much. First, the key res…"
+        },
+        {
+          "author": "bushido",
+          "text": "Speaking for myself. I’ve been aware of a lot of concepts around training, but stayed away from it until very recently. A few weeks ago, I formed a hypothesis that I could get a s…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Mechanistic Interpretability",
+        "Qwen",
+        "AI Research"
+      ],
+      "domain": "honnibal.dev",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 7,
+      "story_id": "50339288",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "hn_url": "https://news.ycombinator.com/item?id=50339288",
+      "author": "xx_ns",
+      "score": 949,
+      "comments": 386,
+      "rank_score": 666.0875274079089,
+      "published_at_kst": "2026-11-03T01:29:19+09:00",
+      "published_date": "2026-11-03",
+      "summary": "단순히 차량 내 시간을 변경하기 위해 내비게이션 시스템의 펌웨어를 추출하고 탈옥(Jailbreaking)을 시도한 사례가 화제가 되었습니다. 사용자는 시스템의 폐쇄적인 구조를 극복하기 위해 직접 펌웨어를 분석하는 과정을 거쳤습니다.",
+      "story_text": "",
+      "external_article_summary": "사용자는 차량 내비게이션 시스템의 시간 설정 기능이 부재하자, 펌웨어를 직접 추출하여 시스템 내부를 분석하는 방식으로 탈옥을 수행했습니다. 이 과정에서 하드웨어 제약과 소프트웨어의 폐쇄성을 극복하기 위해 펌웨어 덤프를 통한 리버스 엔지니어링 기법이 활용되었습니다. 이는 제조사가 제공하지 않는 기능을 사용자가 직접 구현하기 위한 기술적 시도입니다.",
+      "article_summary": "사용자는 차량 내비게이션 시스템의 시간 설정 기능이 부재하자, 펌웨어를 직접 추출하여 시스템 내부를 분석하는 방식으로 탈옥을 수행했습니다. 이 과정에서 하드웨어 제약과 소프트웨어의 폐쇄성을 극복하기 위해 펌웨어 덤프를 통한 리버스 엔지니어링 기법이 활용되었습니다. 이는 제조사가 제공하지 않는 기능을 사용자가 직접 구현하기 위한 기술적 시도입니다.",
+      "discussion_summary": "사용자가 펌웨어를 직접 분석하여 문제를 해결하려는 시도에 대해 기술적 성취를 높게 평가하는 반응과, 저가형 애프터마켓 장비의 기능적 한계로 인해 발생하는 불편함을 지적하는 의견이 대립하고 있습니다.",
+      "key_points": [
+        "사용자는 시스템의 시간 설정 기능을 확보하기 위해 펌웨어를 추출하고 분석하는 탈옥 과정을 수행했습니다.",
+        "제조사가 제공하지 않는 기능을 사용자가 직접 구현하기 위해 리버스 엔지니어링을 활용했습니다.",
+        "하드웨어의 폐쇄적인 소프트웨어 구조가 사용자 경험을 저해하는 주요 원인으로 지목되었습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "bambax",
+          "text": "> I refused to believe that there was no option to change the time (...) I decided to fetch the firmware and dig into it That must be one of the most iconic HN sentences ever."
+        },
+        {
+          "author": "strenholme",
+          "text": "My car came with a cheap low-quality aftermarket combination car stereo and GPS. It would only play music from discs (no USB support), didn’t even support variable bitrate MP3s, a…"
+        }
+      ],
+      "tags": [
+        "Jailbreaking",
+        "Firmware",
+        "Reverse Engineering",
+        "Embedded Systems"
+      ],
+      "domain": "blog.nns.ee",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 8,
+      "story_id": "50354358",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=50354358",
+      "author": "nharada",
+      "score": 839,
+      "comments": 246,
+      "rank_score": 588.9528165009883,
+      "published_at_kst": "2026-11-04T01:47:29+09:00",
+      "published_date": "2026-11-04",
+      "summary": "800달러 수준의 저렴한 비용으로 제작 가능한 오픈 소스 룸 스케일 그리퍼 로봇인 Stringman이 공개되었습니다. 제작자가 직접 커뮤니티와 소통하며 기술적 안전성과 활용 가능성을 설명하고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Stringman은 800달러의 예산으로 구축된 오픈 소스 로봇 프로젝트로, 와이어와 윈치를 이용해 공간 내에서 움직이는 그리퍼 시스템을 갖추고 있습니다. 고속 윈치 시스템을 활용하여 가동 범위를 확보하며, 장치 자체의 장력 제한(tension limit) 설계를 통해 안전성을 확보한 것이 특징입니다. 사용자가 직접 제작할 수 있는 오픈 소스 하드웨어로서의 가치를 지닙니다.",
+      "article_summary": "Stringman은 800달러의 예산으로 구축된 오픈 소스 로봇 프로젝트로, 와이어와 윈치를 이용해 공간 내에서 움직이는 그리퍼 시스템을 갖추고 있습니다. 고속 윈치 시스템을 활용하여 가동 범위를 확보하며, 장치 자체의 장력 제한(tension limit) 설계를 통해 안전성을 확보한 것이 특징입니다. 사용자가 직접 제작할 수 있는 오픈 소스 하드웨어로서의 가치를 지닙니다.",
+      "discussion_summary": "제작자가 직접 참여하여 장치 안전성에 대한 질문에 답변하며 기술적 신뢰도를 높이고 있습니다. 일부 사용자는 개인 정원용 대형 모델 제작 경험을 공유하며 확장 가능성에 주목하고 있습니다.",
+      "key_points": [
+        "800달러라는 저렴한 비용으로 구현 가능한 오픈 소스 로봇 하드웨어입니다.",
+        "고속 윈치와 장력 제한 설계를 통해 안전성과 가동 범위를 동시에 확보했습니다.",
+        "사용자 커뮤니티를 통해 다양한 환경에 맞춘 하드웨어 확장 가능성을 보여줍니다."
+      ],
+      "category": "기타",
+      "comment_highlights": [
+        {
+          "author": "histk_garden",
+          "text": "I made a big one for my garden. It is like a that scene in honey i shrunk the kids with Rick Moranis laying in that cantilevered flying cot thing but i use 2 high speed winches an…"
+        },
+        {
+          "author": "nhnifong",
+          "text": "Hi there, I'm Nathaniel, the creator of this robot. Thanks for posting it :) If you have any questions feel free to ask. Can it kill you? no probably not. The tension limit kicks…"
+        }
+      ],
+      "tags": [
+        "Open Source",
+        "Robotics",
+        "Hardware"
+      ],
+      "domain": "neufangled.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 9,
+      "story_id": "50383740",
+      "title": "Search for everyone",
+      "url": "https://kagi.com/changelog#11820",
+      "hn_url": "https://news.ycombinator.com/item?id=50383740",
+      "author": "elashri",
+      "score": 733,
+      "comments": 406,
+      "rank_score": 514.921206366443,
+      "published_at_kst": "2026-11-06T05:03:34+09:00",
+      "published_date": "2026-11-06",
+      "summary": "Kagi가 계정 없이도 검색을 이용할 수 있는 기능을 출시하며 검색 엔진의 접근성을 높였습니다. 이에 대해 유료 구독 모델의 가격 부담과 세이프서치 기능 도입에 대한 사용자들의 피드백이 이어지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Kagi는 기존 유료 구독 모델을 유지하면서도 계정 생성 없이 검색 기능을 사용할 수 있는 새로운 접근 방식을 도입했습니다. 이번 업데이트는 검색 엔진의 진입 장벽을 낮추는 동시에, 사용자 데이터 보호와 검색 품질 사이의 균형을 맞추는 데 중점을 둡니다.",
+      "article_summary": "Kagi는 기존 유료 구독 모델을 유지하면서도 계정 생성 없이 검색 기능을 사용할 수 있는 새로운 접근 방식을 도입했습니다. 이번 업데이트는 검색 엔진의 진입 장벽을 낮추는 동시에, 사용자 데이터 보호와 검색 품질 사이의 균형을 맞추는 데 중점을 둡니다.",
+      "discussion_summary": "계정 없는 검색 기능 도입에 따라 DNS 기반의 강제 세이프서치 옵션을 도입해달라는 기술적 제안과, 월 10달러라는 구독 비용이 검색 엔진 서비스로서는 지나치게 높다는 가격 저항이 대립하고 있습니다.",
+      "key_points": [
+        "계정 없이 검색이 가능한 환경을 구축하여 서비스 접근성을 확장했습니다.",
+        "DNS 기반의 세이프서치 기능 도입을 통해 필터링 정책을 강화해달라는 요구가 있습니다.",
+        "유료 구독 모델의 가격 정책이 신규 사용자 유입의 주요 변수로 작용하고 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "Nition",
+          "text": "If anyone from Kagi is reading this: Now that you have search without an account, is there any chance we can finally get a DNS-based enforced safesearch option like every other ma…"
+        },
+        {
+          "author": "leokennis",
+          "text": "I was a Kagi user for a while and enjoyed it. But ultimately $10/month is too much for a search engine. I understand that price also includes the AI stuff, but I’d rather use some…"
+        }
+      ],
+      "tags": [
+        "Kagi",
+        "Search Engine",
+        "Privacy",
+        "Subscription Model"
+      ],
+      "domain": "kagi.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 10,
+      "story_id": "50363461",
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "hn_url": "https://news.ycombinator.com/item?id=50363461",
+      "author": "jameslk",
+      "score": 722,
+      "comments": 197,
+      "rank_score": 506.98648010920834,
+      "published_at_kst": "2026-11-04T19:10:27+09:00",
+      "published_date": "2026-11-04",
+      "summary": "구글 Gemini의 유료 구독자라 하더라도 채팅 기록이 모델 학습에 사용될 수 있으며, 이를 방지하려면 대화 기록 저장 기능을 꺼야 한다는 사실이 알려졌습니다. 사용자의 프라이버시 보호와 데이터 활용 사이의 정책적 차이가 논란이 되고 있습니다.",
+      "story_text": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn not to enter confidential information . https://support.google.com/gemini/answer/16836988 “[Gemini app activity] is used to improve Google services for everyone, including by training generative AI models, if your Keep Activity setting is on.“ https://support.google.com/gemini/answer/13594961?hl=en#human_review “A subset of chats are reviewed by human reviewers” https://support.google.com/gemini/answer/13594961?hl=en#pn_retain_data “Chats reviewed by human reviewers [...] are not deleted when you delete your activity. Instead, they are retained for up to three years.” https://support.google.com/gemini/answer/13594961?hl=en#pn_data_usage “Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine-learning technologies.” To disable their training on your chat sessions, you need to turn off “Keep Activity” in Gemini’s settings. Turning that off means you’ll lose any chat sessions after 72 hours. I learned this too late, thinking that having a paid subscription = not being turned into the product. Apparently paying is not enough. Thank you to this user on HN for mentioning in another thread: https://news.ycombinator.com/item?id=50355424",
+      "external_article_summary": "Gemini의 'Gemini 앱 활동(Keep Activity)' 설정이 활성화되어 있으면 사용자의 채팅 기록이 생성형 AI 모델 학습에 활용됩니다. 구글은 데이터 검토를 위해 일부 대화를 인간 검토자가 직접 읽을 수 있다고 명시하고 있으며, 검토된 데이터는 활동 기록을 삭제하더라도 최대 리테인(retain) 정책에 따라 3년간 보관됩니다. 학습 방지를 위해서는 설정을 꺼야 하지만, 이 경우 72시간 이후 모든 대화 세션이 삭제되는 제약이 있습니다.",
+      "article_summary": "Gemini의 'Gemini 앱 활동(Keep Activity)' 설정이 활성화되어 있으면 사용자의 채팅 기록이 생성형 AI 모델 학습에 활용됩니다. 구글은 데이터 검토를 위해 일부 대화를 인간 검토자가 직접 읽을 수 있다고 명시하고 있으며, 검토된 데이터는 활동 기록을 삭제하더라도 최대 리테인(retain) 정책에 따라 3년간 보관됩니다. 학습 방지를 위해서는 설정을 꺼야 하지만, 이 경우 72시간 이후 모든 대화 세션이 삭제되는 제약이 있습니다.",
+      "discussion_summary": "사용자 데이터가 인간 검토자에게 노출될 수 있다는 보안 위험에 대한 비판과, 유료 구독자조차 데이터 학습의 대상으로 활용되는 현 상황에 대한 우려가 대립하고 있습니다. 특히 Gemini가 이메일이나 갤러리 등 개인 앱 데이터에 접근할 경우 발생할 수 있는 프라이버시 침해 가능성이 주요 쟁점으로 거론됩니다.",
+      "key_points": [
+        "유료 구독자라 하더라도 대화 기록 저장 설정을 끄지 않으면 데이터가 모델 학습에 사용됩니다.",
+        "인간 검토자가 확인한 대화 데이터는 사용자 활동 기록을 삭제하더라도 최대 3년간 보관됩니다.",
+        "학습을 방지하기 위해 기록 저장 기능을 끌 경우 72시간 이후 모든 대화 세션이 삭제됩니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "fny",
+          "text": "\"These chat transcripts may even be read by human reviewers.\" PSA: This is true of all the frontier model providers even if you disable activity tracking. They are all constantly…"
+        },
+        {
+          "author": "devsda",
+          "text": "> Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google If Gemini has access to app data like gallery, mail etc that can also be subjected…"
+        }
+      ],
+      "tags": [
+        "Gemini",
+        "LLM",
+        "Privacy",
+        "Google"
+      ],
+      "domain": "news.ycombinator.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    }
+  ]
+}
