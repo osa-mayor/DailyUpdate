@@ -1,1386 +1,1392 @@
 {
   "source": "product_hunt",
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T04:35:56.293088+09:00",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T04:21:18.097090+09:00",
   "count": 30,
-  "daily_summary": "오늘의 트렌드는 웹사이트를 AI 에이전트로 변환하거나 AI 에이전트가 정보를 읽기 최적화된 환경을 구축하는 등, AI와 인간/에이전트 간의 상호작용을 자동화하는 도구들이 주를 이루었습니다. 또한 기존의 복잡한 업무 프로세스를 텍스트 기반의 직관적인 인터페이스로 전환하여 효율성을 극대화하는 솔루션들이 주목받았습니다.",
+  "daily_summary": "오늘의 트렌드는 AI를 활용한 콘텐츠 제작 효율화와 업무 자동화가 주를 이루었습니다. 특히 이미지·비디오 생성부터 코드 리뷰, 웹 모니터링까지 특정 워크플로우를 자동화하여 인간의 개입을 최소화하는 전문화된 AI 도구들이 주목받았습니다.",
   "daily_key_points": [
-    "AI 에이전트가 직접 판매, 예약, 코드 리뷰 등을 수행하며 업무 워크플로우를 자동화하는 도구들이 등장했습니다.",
-    "전통적인 SEO를 넘어 AI 답변 엔진(GEO)에 최적화되거나 AI 모델 간의 전환을 지원하는 등 AI 시대에 맞춘 새로운 운영 체제들이 주목받았습니다.",
-    "복잡한 대시보드 대신 텍스트 입력만으로 비즈니스 전반을 관리하거나 트랙패드 제어와 같은 직관적인 사용자 경험을 제공하는 유틸리티들이 발표되었습니다."
+    "AI를 통한 고품질 영상 및 이미지 생성 기술이 비용 효율성과 편집 편의성을 중심으로 발전하고 있습니다.",
+    "코드 리뷰 및 웹 검색 자동화와 같이 엔지니어링과 모니터링 업무의 생산성을 높이는 전문 도구들이 등장했습니다.",
+    "단순한 기능 수행을 넘어 개인의 가치관을 반영하거나 협업 환경을 구축하는 등 인간의 삶과 업무 방식에 깊이 관여하는 서비스들이 나타났습니다."
   ],
   "daily_tags": [
-    "AI Agent",
-    "Automation",
-    "Productivity",
-    "SEO/GEO",
-    "UX/UI"
+    "AI_Automation",
+    "Content_Creation",
+    "Productivity_Tools",
+    "Developer_Tools"
   ],
-  "chat_message": "🚀 오늘의 Top Product\n\n📌 오늘의 요약: 오늘의 트렌드는 웹사이트를 AI 에이전트로 변환하거나 AI 에이전트가 정보를 읽기 최적화된 환경을 구축하는 등, AI와 인간/에이전트 간의 상호작용을 자동화하는 도구들이 주를 이루었습니다. 또한 기존의 복잡한 업무 프로세스를 텍스트 기반의 직관적인 인터페이스로 전환하여 효율성을 극대화하는 솔루션들이 주목받았습니다.\n\n📦 1. Tobira Site Agent\n📝 설명: 웹사이트를 AI 에이전트로 변환하여 AI 채팅 환경 내에서 직접 판매와 예약을 수행하는 도구. URL 입력만으로 10분 만에 웹사이트를 AI 에이전트로 전환. ChatGPT, Claude, Grok 등 AI 채팅창 내에서 고객 응대, 협상, 예약, 주문 수행. 사용자가 웹사이트를 직접 방문하지 않고 AI 채팅창을 이용할 때도, AI가 대신 영업과 예약을 진행하여 리드 전환율을 높여줍니다. 바로 써볼 기능으로는 자사 웹사이트 URL을 입력하여 에이전트 생성하기.\n\n📦 2. Turnstone\n📝 설명: 보유 중인 다양한 AI 모델을 하나로 연결하여 사용량 제한 없이 활용하는 통합 AI 에이전트. 개인용 AI 구독, API 키, 셀프 호스팅 모델을 모두 연결 가능. 특정 모델의 사용량 제한 도달 시 다른 모델로 자동 전환되어 작업 지속. 여러 AI 서비스를 개별적으로 관리할 필요 없이, 이미 가진 자원을 활용해 끊김 없는 AI 작업 환경을 구축할 수 있습니다. 바로 써볼 기능으로는 보유 중인 API 키 또는 구독 서비스 연결하기.\n\n📦 3. Wonder Dev View\n📝 설명: Claude Code와 Codex 에이전트를 병렬로 실행하여 코드 리뷰와 디자인 검토를 자동화하는 개발 도구. Claude Code 및 Codex 에이전트의 병렬 워크트리 실행 지원. 에이전트 간 상호 코드 리뷰 기능 제공. 여러 AI 에이전트를 동시에 가동하여 코드 작성부터 리뷰, 디자인 검증까지 개발 워크플로우를 자동화할 수 있습니다. 바로 써볼 기능으로는 병렬 워크트리 환경 설정하기.\n\n📦 4. Rankfender v3.0\n📝 설명: SEO와 AI 에이전트 최적화를 하나로 통합한 차세대 마케팅 운영 체제. 키워드 리서치, 순위 추적, 백링크 분석 등 전통적 SEO 기능을 하나의 플랫폼으로 통합. ChatGPT, Claude, Perplexity 등 주요 AI 에이전트가 브랜드를 어떻게 언급하는지 분석하는 차별화된 기능. 여러 SEO 도구를 번갈아 사용할 필요 없이, AI 시대에 맞춰 검색 엔진과 AI 답변 엔진 모두에서 브랜드 노출을 최적화할 수 있습니다. 바로 써볼 기능으로는 AI Overviews(SGE)를 포함한 키워드 순위 추적 기능 테스트.\n\n📦 5. Mechvibes 3\n📝 설명: 사용자 정의 사운드로 키보드와 마우스 타이핑 경험을 새롭게 바꾸는 오픈소스 소프트웨어. 키보드 입력 및 마우스 클릭 시 커스텀 사운드 재생. 기계식 스위치부터 타자기까지 다양한 커뮤니티 라이브러리 제공. 타이핑이나 클릭 시 들리는 소리를 통해 물리적인 키보드를 사용하는 듯한 청각적 피드백과 즐거움을 얻을 수 있습니다. 바로 써볼 기능으로는 커뮤니티 라이브러리에서 취향에 맞는 사운드 팩 적용하기.\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
+  "chat_message": "🚀 오늘의 Top Product\n\n📌 오늘의 요약: 오늘의 트렌드는 AI를 활용한 콘텐츠 제작 효율화와 업무 자동화가 주를 이루었습니다. 특히 이미지·비디오 생성부터 코드 리뷰, 웹 모니터링까지 특정 워크플로우를 자동화하여 인간의 개입을 최소화하는 전문화된 AI 도구들이 주목받았습니다.\n\n📦 1. ChatGPT Images 2.6\n📝 설명: AI를 활용한 초고속 이미지 생성, 정밀 편집 및 애니메이션 제작 도구. 더 빨라진 이미지 생성 속도와 정밀한 편집 기능. 캐릭터 및 제품 일관성을 유지하는 편집 기능. 이미지 생성부터 애니메이션 제작까지 하나의 워크플로우로 해결할 수 있어 콘텐츠 제작 효율이 극대화됩니다. 바로 써볼 기능으로는 GIF 생성 기능을 통한 루핑 애니메이션 만들기.\n\n📦 2. Exa Monitors v2\n📝 설명: AI 에이전트를 위한 스케줄 기반 웹 검색 및 자동 알림 서비스. 특정 주제에 대한 웹 검색을 스케줄에 따라 자동 수행. 새롭고 관련 있는 정보 발견 시에만 웹훅(Webhook) 호출. 사용자가 직접 검색할 필요 없이 AI 에이전트가 필요한 정보만 선별하여 전달받을 수 있어 모니터링 업무를 자동화할 수 있습니다. 바로 써볼 기능으로는 관심 있는 뉴스나 가격 변동 감시 설정하기.\n\n📦 3. LiveReview\n📝 설명: 위험도를 분석하여 저위험 PR을 자동 승인하고 시니어 리뷰어의 부담을 줄여주는 코드 리뷰 자동화 도구. 위험도 점수 기반의 자동 승인(Auto-Approve) 시스템. LLM, 사고 학습 ML, 코드 그래프 분석 기술 결합. 반복적인 저위험 코드 리뷰 업무를 자동화하여 엔지니어링 팀의 생산성을 높이고, 위험도가 높은 변경사항에만 집중할 수 있게 합니다. 바로 써볼 기능으로는 위험도 점수 산출 로직 확인.\n\n📦 4. Quest\n📝 설명: 개인의 가치와 목표에 맞춰 삶의 방향을 제안하는 퍼스널 AI 어드바이저. 단순 업무 수행을 넘어 사용자의 성격, 가치관, 야망을 이해하는 맞춤형 AI. 단순 기억을 넘어 성찰과 의사결정을 돕는 조언자 역할. 중요한 선택의 순간에 자신의 가치관과 일치하는 결정을 내릴 수 있도록 심리적, 전략적 가이드를 제공받을 수 있습니다. 바로 써볼 기능으로는 자신의 핵심 가치와 목표를 입력하여 페르소나 구축하기.\n\n📦 5. GPT‑6 Cyber\n📝 설명: 보안 전문가를 위해 설계된 OpenAI의 차세대 사이버 보안 특화 모델. 강력한 보안 연구와 정렬(Alignment) 기술이 결합된 사이버 보안 전용 모델. Linux 커널 연구를 지원할 만큼 검증된 성능 보유. 사이버 보안 전문가 및 방어자들에게 고도화된 보안 연구와 실질적인 방어 역량을 제공합니다. 바로 써볼 기능으로는 Daybreak Red 고객 권한 확인.\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/products",
   "items": [
     {
       "rank": 1,
-      "name": "Tobira Site Agent",
-      "url": "https://www.producthunt.com/products/tobira-ai",
-      "service_url": "https://www.producthunt.com/r/LMNUHW4VUH6RGV",
-      "website": "https://www.producthunt.com/r/LMNUHW4VUH6RGV",
-      "votes": 291,
-      "tagline": "Turn your website into an AI agent that sells to AI agents",
-      "summary": "웹사이트를 AI 에이전트로 변환하여 AI 채팅 환경 내에서 직접 판매와 예약을 수행하는 도구",
+      "name": "ChatGPT Images 2.6",
+      "url": "https://www.producthunt.com/products/openai",
+      "service_url": "https://www.producthunt.com/r/ZYSSWGXHU4P32K",
+      "website": "https://www.producthunt.com/r/ZYSSWGXHU4P32K",
+      "votes": 191,
+      "tagline": "Create, edit, and animate images with AI",
+      "summary": "AI를 활용한 초고속 이미지 생성, 정밀 편집 및 애니메이션 제작 도구",
       "key_points": [
-        "URL 입력만으로 10분 만에 웹사이트를 AI 에이전트로 전환",
-        "ChatGPT, Claude, Grok 등 AI 채팅창 내에서 고객 응대, 협상, 예약, 주문 수행",
-        "AI 에이전트가 웹사이트 정보를 더 빠르게 읽고 액션을 취할 수 있도록 최적화"
+        "더 빨라진 이미지 생성 속도와 정밀한 편집 기능",
+        "캐릭터 및 제품 일관성을 유지하는 편집 기능",
+        "네이티브 GIF 생성 및 SVG 내보내기 지원"
       ],
       "tags": [
         "AI",
-        "Sales",
-        "Automation",
-        "Marketing",
-        "Agent",
+        "Design",
+        "ContentCreation",
+        "Animation",
         "AI Tool",
         "Chat",
-        "Email"
+        "Vision",
+        "DevTool",
+        "API"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "사용자가 웹사이트를 직접 방문하지 않고 AI 채팅창을 이용할 때도, AI가 대신 영업과 예약을 진행하여 리드 전환율을 높여줍니다.",
+      "practical_relevance": "이미지 생성부터 애니메이션 제작까지 하나의 워크플로우로 해결할 수 있어 콘텐츠 제작 효율이 극대화됩니다.",
       "recommended_actions": [
-        "자사 웹사이트 URL을 입력하여 에이전트 생성하기",
-        "생성된 에이전트가 고객 응대 및 예약 기능을 제대로 수행하는지 테스트하기",
-        "개인 AI API 키를 연결하여 서비스 활성화하기"
+        "GIF 생성 기능을 통한 루핑 애니메이션 만들기",
+        "일관성 유지 기능을 활용한 캐릭터/제품 편집",
+        "SVG 내보내기를 통한 벡터 그래픽 활용"
       ],
       "risks_and_limits": [
-        "개인 AI API 키를 직접 사용해야 하므로 API 사용량에 따른 비용 발생 가능성 있음",
-        "AI의 협상 및 주문 기능이 비즈니스 로직과 일치하는지 검증 필요"
+        "생성된 이미지의 저작권 및 상업적 이용 규정 확인 필요",
+        "복잡도 제어 기능에 따른 결과물 품질 편차 가능성"
       ],
-      "uncertainty_note": "사용자의 개인 AI 키를 사용할 때 발생하는 비용 구조와 보안 정책에 대한 상세 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Tobira_Site_Agent.jpg",
+      "uncertainty_note": "API 및 Codex 환경에서의 구체적인 성능 지표와 비용 구조는 명시되지 않았습니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 3,
+      "local_image_path": "images/ph_2026-11-07_ChatGPT_Images_2.6.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Tobira_Site_Agent_media_0.jpg",
-        "images/ph_2026-11-06_Tobira_Site_Agent_media_1.jpg",
-        "images/ph_2026-11-06_Tobira_Site_Agent_media_2.jpg"
+        "images/ph_2026-11-07_ChatGPT_Images_2.6_media_1.jpg",
+        "images/ph_2026-11-07_ChatGPT_Images_2.6_media_2.jpg",
+        "images/ph_2026-11-07_ChatGPT_Images_2.6_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/59debe7f-d14c-40a1-82f0-50694beaebf0.jpeg?auto=format"
+        "https://ph-files.imgix.net/c47c6fd8-2a7c-4605-a78e-92fb686de1a0.jpeg?auto=format"
       ]
     },
     {
       "rank": 2,
-      "name": "Turnstone",
-      "url": "https://www.producthunt.com/products/turnstone",
-      "service_url": "https://www.producthunt.com/r/ELRJVLJUXTAYTL",
-      "website": "https://www.producthunt.com/r/ELRJVLJUXTAYTL",
-      "votes": 192,
-      "tagline": "Grok Bot alternative that runs on your AI, completely free",
-      "summary": "보유 중인 다양한 AI 모델을 하나로 연결하여 사용량 제한 없이 활용하는 통합 AI 에이전트",
+      "name": "Exa Monitors v2",
+      "url": "https://www.producthunt.com/products/exa-ai",
+      "service_url": "https://www.producthunt.com/r/TAD4DNQRSJ5L2K",
+      "website": "https://www.producthunt.com/r/TAD4DNQRSJ5L2K",
+      "votes": 170,
+      "tagline": "Web search on a schedule that calls your agent, $2/1k runs",
+      "summary": "AI 에이전트를 위한 스케줄 기반 웹 검색 및 자동 알림 서비스",
       "key_points": [
-        "개인용 AI 구독, API 키, 셀프 호스팅 모델을 모두 연결 가능",
-        "특정 모델의 사용량 제한 도달 시 다른 모델로 자동 전환되어 작업 지속",
-        "Mac 및 iPhone 환경 지원"
+        "특정 주제에 대한 웹 검색을 스케줄에 따라 자동 수행",
+        "새롭고 관련 있는 정보 발견 시에만 웹훅(Webhook) 호출",
+        "이전 검색 내용을 기억하여 중복 알림 방지 및 비용 효율성 개선"
       ],
       "tags": [
         "AI",
-        "Productivity",
         "Automation",
-        "Cross-Platform",
+        "DevTool",
+        "WebSearch",
         "Agent",
         "AI Tool",
         "API"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "여러 AI 서비스를 개별적으로 관리할 필요 없이, 이미 가진 자원을 활용해 끊김 없는 AI 작업 환경을 구축할 수 있습니다.",
+      "practical_relevance": "사용자가 직접 검색할 필요 없이 AI 에이전트가 필요한 정보만 선별하여 전달받을 수 있어 모니터링 업무를 자동화할 수 있습니다.",
       "recommended_actions": [
-        "보유 중인 API 키 또는 구독 서비스 연결하기",
-        "Mac/iPhone 기기 간 동기화 확인하기",
-        "모델 간 자동 전환 기능 테스트하기"
+        "관심 있는 뉴스나 가격 변동 감시 설정하기",
+        "웹훅을 연결하여 AI 에이전트 워크플로우에 통합하기",
+        "Python SDK를 사용하여 자동화 스크립트 작성하기"
       ],
       "risks_and_limits": [
-        "사용자가 직접 보유한 API 비용이나 구독료는 별도로 발생함",
-        "연결된 모델의 성능에 따라 에이전트의 답변 품질이 달라질 수 있음"
+        "웹훅 호출 방식이므로 수신 서버(Endpoint)가 준비되어 있어야 함",
+        "검색 대상의 복잡도에 따라 결과의 정확도가 달라질 수 있음"
       ],
-      "uncertainty_note": "사용자가 직접 연결하는 모델들의 보안 및 데이터 프라이버시 처리 방식에 대한 상세 정보가 필요합니다.",
+      "uncertainty_note": "사용자의 특정 워크플로우에 따른 구체적인 API 호출 제한이나 상세 비용 구조는 공식 문서를 통한 추가 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Turnstone.jpg",
+      "local_image_path": "images/ph_2026-11-07_Exa_Monitors_v2.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Turnstone_media_0.jpg",
-        "images/ph_2026-11-06_Turnstone_media_1.jpg",
-        "images/ph_2026-11-06_Turnstone_media_2.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/edaa1eef-4c2a-40c7-a724-cbccbf4b6cdc.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 3,
-      "name": "Wonder Dev View",
-      "url": "https://www.producthunt.com/products/wonder-dev-view",
-      "service_url": "https://www.producthunt.com/r/RJGZPEQMUG2EJU",
-      "website": "https://www.producthunt.com/r/RJGZPEQMUG2EJU",
-      "votes": 134,
-      "tagline": "Run many Claude Code and Codex agents in parallel",
-      "summary": "Claude Code와 Codex 에이전트를 병렬로 실행하여 코드 리뷰와 디자인 검토를 자동화하는 개발 도구",
-      "key_points": [
-        "Claude Code 및 Codex 에이전트의 병렬 워크트리 실행 지원",
-        "에이전트 간 상호 코드 리뷰 기능 제공",
-        "프리뷰 모드에서 요소를 선택하여 즉각적인 코드 수정 요청 가능"
-      ],
-      "tags": [
-        "DevTool",
-        "AI-Agent",
-        "Automation",
-        "Coding",
-        "Agent",
-        "Design"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "여러 AI 에이전트를 동시에 가동하여 코드 작성부터 리뷰, 디자인 검증까지 개발 워크플로우를 자동화할 수 있습니다.",
-      "recommended_actions": [
-        "병렬 워크트리 환경 설정하기",
-        "에이전트 간 코드 리뷰 작업 할당하기",
-        "프리뷰 모드에서 UI 요소 변경 테스트하기"
-      ],
-      "risks_and_limits": [
-        "사용 중인 Claude/Codex 구독 권한 및 API 비용 발생 여부 확인 필요",
-        "병렬 실행 시 발생할 수 있는 리소스 관리 및 충돌 주의"
-      ],
-      "uncertainty_note": "사용자의 기존 구독 플랜이 에이전트 실행에 어떻게 적용되는지 구체적인 연동 방식 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Wonder_Dev_View.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_Wonder_Dev_View_media_0.jpg",
-        "images/ph_2026-11-06_Wonder_Dev_View_media_1.jpg",
-        "images/ph_2026-11-06_Wonder_Dev_View_media_2.jpg"
+        "images/ph_2026-11-07_Exa_Monitors_v2_media_0.jpg",
+        "images/ph_2026-11-07_Exa_Monitors_v2_media_1.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 4,
-      "name": "Rankfender v3.0",
-      "url": "https://www.producthunt.com/products/rankfender",
-      "service_url": "https://www.producthunt.com/r/XXAKEEHHHA4XOR",
-      "website": "https://www.producthunt.com/r/XXAKEEHHHA4XOR",
-      "votes": 124,
-      "tagline": "The SEO/GEO operating system, built for people and AI agents",
-      "summary": "SEO와 AI 에이전트 최적화를 하나로 통합한 차세대 마케팅 운영 체제",
+      "rank": 3,
+      "name": "LiveReview",
+      "url": "https://www.producthunt.com/products/livereview",
+      "service_url": "https://www.producthunt.com/r/UKG4GEUB6PLHOQ",
+      "website": "https://www.producthunt.com/r/UKG4GEUB6PLHOQ",
+      "votes": 167,
+      "tagline": "Free, Risk-Aware Code Review: Auto Approve Low-Risk Changes",
+      "summary": "위험도를 분석하여 저위험 PR을 자동 승인하고 시니어 리뷰어의 부담을 줄여주는 코드 리뷰 자동화 도구",
       "key_points": [
-        "키워드 리서치, 순위 추적, 백링크 분석 등 전통적 SEO 기능을 하나의 플랫폼으로 통합",
-        "ChatGPT, Claude, Perplexity 등 주요 AI 에이전트가 브랜드를 어떻게 언급하는지 분석하는 차별화된 기능",
-        "사용자가 직접 작업하거나 AI 에이전트(Claude, ChatGPT)를 연결하여 자동화된 전략 실행 가능"
+        "위험도 점수 기반의 자동 승인(Auto-Approve) 시스템",
+        "LLM, 사고 학습 ML, 코드 그래프 분석 기술 결합",
+        "Meta의 내부 시스템에서 영감을 받은 검증된 접근 방식"
       ],
       "tags": [
-        "SEO",
-        "AI-Agent",
-        "Marketing-Automation",
-        "Analytics",
-        "Agent",
+        "DevTool",
+        "Automation",
+        "AI",
+        "CodeReview",
+        "OpenSource",
         "AI Tool",
-        "Chat"
+        "LLM"
       ],
       "confidence": "상",
       "adoption_complexity": "중",
-      "practical_relevance": "여러 SEO 도구를 번갈아 사용할 필요 없이, AI 시대에 맞춰 검색 엔진과 AI 답변 엔진 모두에서 브랜드 노출을 최적화할 수 있습니다.",
+      "practical_relevance": "반복적인 저위험 코드 리뷰 업무를 자동화하여 엔지니어링 팀의 생산성을 높이고, 위험도가 높은 변경사항에만 집중할 수 있게 합니다.",
       "recommended_actions": [
-        "AI Overviews(SGE)를 포함한 키워드 순위 추적 기능 테스트",
-        "주요 AI 어시스턴트들의 브랜드 언급 현황 분석",
-        "Claude 또는 ChatGPT를 연결하여 AI 에이전트 워크플로우 설정"
+        "위험도 점수 산출 로직 확인",
+        "셀프 호스팅 환경 구축 및 보안 검토",
+        "기존 워크플로우와의 자동 승인 연동 테스트"
       ],
       "risks_and_limits": [
-        "AI 에이전트 연동 시 외부 API 사용에 따른 데이터 보안 및 권한 설정 확인 필요",
-        "기존 전문 SEO 도구 대비 특정 심층 분석 기능의 차이점 검토 필요"
+        "자동 승인 시 발생할 수 있는 잠재적 프로덕션 이슈 검토 필요",
+        "셀프 호스팅 환경에서의 운영 리소스 고려"
       ],
-      "uncertainty_note": "AI 에이전트 연동 시 발생하는 구체적인 비용 체계나 데이터 동기화 방식에 대한 상세 정보가 필요합니다.",
+      "uncertainty_note": "현재 제공되는 구체적인 통합 가능 플랫폼(GitHub, GitLab 등)과 상세한 보안 프로토콜에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Rankfender_v3.0.jpg",
+      "local_image_path": "images/ph_2026-11-07_LiveReview.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Rankfender_v3.0_media_1.jpg",
-        "images/ph_2026-11-06_Rankfender_v3.0_media_2.jpg",
-        "images/ph_2026-11-06_Rankfender_v3.0_media_3.jpg"
+        "images/ph_2026-11-07_LiveReview_media_1.jpg",
+        "images/ph_2026-11-07_LiveReview_media_2.jpg",
+        "images/ph_2026-11-07_LiveReview_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/d97eeb47-fb22-4d58-96c8-b595a79bb18e.jpeg?auto=format"
+        "https://ph-files.imgix.net/414f9ad7-5744-45ec-bad7-17247b3ca1fd.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Quest",
+      "url": "https://www.producthunt.com/products/quest-d8e9c4e8-cc0d-4b07-baee-e3dbf712c279",
+      "service_url": "https://www.producthunt.com/r/FFHQV6QCOEHH7N",
+      "website": "https://www.producthunt.com/r/FFHQV6QCOEHH7N",
+      "votes": 142,
+      "tagline": "Your personal AI advisor for a more intentional life",
+      "summary": "개인의 가치와 목표에 맞춰 삶의 방향을 제안하는 퍼스널 AI 어드바이저",
+      "key_points": [
+        "단순 업무 수행을 넘어 사용자의 성격, 가치관, 야망을 이해하는 맞춤형 AI",
+        "단순 기억을 넘어 성찰과 의사결정을 돕는 조언자 역할",
+        "외부의 지시가 아닌 사용자가 스스로의 길을 찾도록 돕는 철학적 접근"
+      ],
+      "tags": [
+        "AI Advisor",
+        "Personal Development",
+        "Decision Making",
+        "Self-Reflection",
+        "AI Tool"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "중요한 선택의 순간에 자신의 가치관과 일치하는 결정을 내릴 수 있도록 심리적, 전략적 가이드를 제공받을 수 있습니다.",
+      "recommended_actions": [
+        "자신의 핵심 가치와 목표를 입력하여 페르소나 구축하기",
+        "중요한 결정을 앞두고 AI와 심층적인 대화 나누기",
+        "일상적인 고민을 공유하며 삶의 방향성 점검하기"
+      ],
+      "risks_and_limits": [
+        "개인적인 가치관과 동기를 다루므로 데이터 프라이버시 및 보안 확인 필요",
+        "객관적 사실 전달보다 주관적 조언에 특화되어 있어 정보 검색용으로는 부적합할 수 있음"
+      ],
+      "uncertainty_note": "사용자의 개인 데이터를 어느 정도 수준까지 저장하고 활용하는지에 대한 구체적인 보안 정책 확인이 필요합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Quest.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Quest_media_1.jpg",
+        "images/ph_2026-11-07_Quest_media_2.jpg",
+        "images/ph_2026-11-07_Quest_media_3.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/ed3c6493-ecef-43d6-a154-acc8e09f7fbe.jpeg?auto=format"
       ]
     },
     {
       "rank": 5,
-      "name": "Mechvibes 3",
-      "url": "https://www.producthunt.com/products/mechvibes",
-      "service_url": "https://www.producthunt.com/r/5WQ7ID2VTZR7X5",
-      "website": "https://www.producthunt.com/r/5WQ7ID2VTZR7X5",
-      "votes": 111,
-      "tagline": "Give your keyboard and mouse any sound you like",
-      "summary": "사용자 정의 사운드로 키보드와 마우스 타이핑 경험을 새롭게 바꾸는 오픈소스 소프트웨어",
+      "name": "GPT‑6 Cyber",
+      "url": "https://www.producthunt.com/products/openai",
+      "service_url": "https://www.producthunt.com/r/EQ2CDO3EYPSTVU",
+      "website": "https://www.producthunt.com/r/EQ2CDO3EYPSTVU",
+      "votes": 120,
+      "tagline": "OpenAI’s cyber model, with vetted access for defenders",
+      "summary": "보안 전문가를 위해 설계된 OpenAI의 차세대 사이버 보안 특화 모델",
       "key_points": [
-        "키보드 입력 및 마우스 클릭 시 커스텀 사운드 재생",
-        "기계식 스위치부터 타자기까지 다양한 커뮤니티 라이브러리 제공",
-        "Windows, Linux, Mac을 지원하는 무료 오픈소스 소프트웨어"
+        "강력한 보안 연구와 정렬(Alignment) 기술이 결합된 사이버 보안 전용 모델",
+        "Linux 커널 연구를 지원할 만큼 검증된 성능 보유",
+        "신원 확인 및 MFA를 거친 소수의 검증된 고객(Daybreak Red) 대상으로 우선 출시"
       ],
       "tags": [
-        "Productivity",
-        "Customization",
-        "OpenSource",
-        "Audio"
+        "Cybersecurity",
+        "AI-Model",
+        "Security-Research",
+        "AI Tool",
+        "Security"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "타이핑이나 클릭 시 들리는 소리를 통해 물리적인 키보드를 사용하는 듯한 청각적 피드백과 즐거움을 얻을 수 있습니다.",
+      "adoption_complexity": "상",
+      "practical_relevance": "사이버 보안 전문가 및 방어자들에게 고도화된 보안 연구와 실질적인 방어 역량을 제공합니다.",
       "recommended_actions": [
-        "커뮤니티 라이브러리에서 취향에 맞는 사운드 팩 적용하기",
-        "브라우저를 통해 나만의 커스텀 사운드 제작하기",
-        "다양한 OS 환경에서 설치 및 호환성 테스트하기"
+        "Daybreak Red 고객 권한 확인",
+        "신원 확인 및 MFA 설정 준비",
+        "향후 일반 액세스 확대 일정 모니터링"
       ],
       "risks_and_limits": [
-        "모든 앱에서 작동하므로 작업 중 의도치 않은 소음이 발생할 수 있음",
-        "사운드 재생 방식에 따라 시스템 리소스 사용량이 발생할 수 있음"
+        "현재 소수의 검증된 고객에게만 제한적으로 제공됨",
+        "공개 가격 정책이 아직 발표되지 않음"
       ],
-      "uncertainty_note": "사용자의 하드웨어 사양에 따른 사운드 지연 시간(Latency) 여부는 명시되지 않았습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Mechvibes_3.jpg",
+      "uncertainty_note": "정확한 가격 정책과 일반 사용자 대상의 광범위한 출시 일정은 아직 미정입니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 3,
+      "local_image_path": "images/ph_2026-11-07_GPT‑6_Cyber.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Mechvibes_3_media_0.jpg",
-        "images/ph_2026-11-06_Mechvibes_3_media_1.jpg",
-        "images/ph_2026-11-06_Mechvibes_3_media_2.jpg"
+        "images/ph_2026-11-07_GPT‑6_Cyber_media_0.jpg",
+        "images/ph_2026-11-07_GPT‑6_Cyber_media_1.jpg",
+        "images/ph_2026-11-07_GPT‑6_Cyber_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 6,
-      "name": "EdgeBar",
-      "url": "https://www.producthunt.com/products/edgebar",
-      "service_url": "https://www.producthunt.com/r/U6F4QOW3RM6SV4",
-      "website": "https://www.producthunt.com/r/U6F4QOW3RM6SV4",
-      "votes": 93,
-      "tagline": "Control your Mac’s volume and brightness from the trackpad",
-      "summary": "맥북 트랙패드 가장자리를 활용해 직관적으로 볼륨과 밝기를 조절하는 유틸리티",
+      "name": "Google Omni 1.2 Flash",
+      "url": "https://www.producthunt.com/products/google-omni-1-2-flash",
+      "service_url": "https://www.producthunt.com/r/EAQRQBPBLUGUTY",
+      "website": "https://www.producthunt.com/r/EAQRQBPBLUGUTY",
+      "votes": 96,
+      "tagline": "Gemini Omni 1.2 Flash: 15s AI video at $0.07 per second",
+      "summary": "초당 0.07달러로 15초 분량의 고품질 AI 영상을 생성 및 편집하는 Google의 차세대 비디오 모델",
       "key_points": [
-        "트랙패드 가장자리 슬라이드로 볼륨 및 밝기 조절",
-        "햅틱 피드백과 키보드와 동일한 온스크린 디스플레이 지원",
-        "메뉴 바 상주형이며 CPU 점유율이 매우 낮음"
+        "최대 15초 길이의 영상 생성 및 멀티턴 편집 기능 지원",
+        "이전 버전 대비 30% 저렴해진 비용과 향상된 캐릭터/스타일 일관성",
+        "360p/720p 초안 작성 후 1080p/4K로 업스케일 가능"
       ],
       "tags": [
-        "Mac",
-        "Productivity",
-        "Utility"
+        "AI Video",
+        "Content Creation",
+        "Google Cloud",
+        "Generative AI",
+        "AI Tool",
+        "Video",
+        "API"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "키보드에 손을 뻗지 않고도 트랙패드만으로 미디어와 화면 설정을 즉각 제어할 수 있어 작업 흐름이 끊기지 않습니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "저렴한 비용으로 고품질 영상 소스를 빠르게 생성하고, 재생성 없이 대화형 편집이 가능해 콘텐츠 제작 효율이 극대화됩니다.",
       "recommended_actions": [
-        "오른쪽 가장자리 슬라이드로 볼륨 조절해보기",
-        "왼쪽 가장자리 슬라이드로 밝기 조절해보기",
-        "우측 상단 더블 탭으로 음소거 기능 테스트하기"
+        "720p 해상도로 저렴하게 영상 초안 생성하기",
+        "멀티턴 편집 기능을 활용해 기존 영상 수정하기",
+        "생성된 영상을 4K로 업스케일하여 최종 결과물 만들기"
       ],
       "risks_and_limits": [
-        "트랙패드 가장자리를 사용하므로 의도치 않은 입력이 발생할 수 있음",
-        "일회성 구매($9) 모델로 초기 비용 발생"
+        "초당 과금 방식이므로 긴 영상 제작 시 비용 관리에 유의 필요",
+        "최종 고해상도 결과물은 업스케일 과정을 거쳐야 함"
       ],
-      "uncertainty_note": "트랙패드 모델이나 OS 버전에 따른 햅틱 피드백의 정밀도 차이가 있을 수 있습니다.",
+      "uncertainty_note": "사용자의 워크플로우에 따른 최종적인 총 제작 비용과 업스케일 시 품질 저하 여부를 확인해야 합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_EdgeBar.jpg",
+      "local_image_path": "images/ph_2026-11-07_Google_Omni_1.2_Flash.jpg",
       "local_media": [
-        "images/ph_2026-11-06_EdgeBar_media_1.jpg",
-        "images/ph_2026-11-06_EdgeBar_media_2.jpg",
-        "images/ph_2026-11-06_EdgeBar_media_3.jpg"
+        "images/ph_2026-11-07_Google_Omni_1.2_Flash_media_0.jpg",
+        "images/ph_2026-11-07_Google_Omni_1.2_Flash_media_1.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/107ba604-867d-46c9-b593-3da670c6d1c8.jpeg?auto=format"
+        "https://ph-files.imgix.net/f68b22ac-b242-450e-bff5-a41618c29147.gif?auto=format"
       ]
     },
     {
       "rank": 7,
-      "name": "Meadow",
-      "url": "https://www.producthunt.com/products/meadow-3",
-      "service_url": "https://www.producthunt.com/r/KD2FP5YECF3KLS",
-      "website": "https://www.producthunt.com/r/KD2FP5YECF3KLS",
-      "votes": 89,
-      "tagline": "Hidden songs on your walk, chosen by people, not algorithms",
-      "summary": "특정 장소에 사람들이 남긴 음악을 발견하고 심는 위치 기반 음악 공유 서비스",
+      "name": "seam",
+      "url": "https://www.producthunt.com/products/seam-2",
+      "service_url": "https://www.producthunt.com/r/HR47JBOCYFZV7K",
+      "website": "https://www.producthunt.com/r/HR47JBOCYFZV7K",
+      "votes": 87,
+      "tagline": "Turn your Mac's notch into a Dynamic Island",
+      "summary": "Mac의 노치를 활용해 다양한 기능을 수행하는 다이내믹 아일랜드 스타일의 생산성 도구",
       "key_points": [
-        "알고리즘 대신 사람이 직접 선택한 음악을 특정 장소에 심고 듣는 방식",
-        "Live Activities를 통해 주머니 속에서도 간편하게 음악 수집 가능",
-        "수집한 곡을 Garden에 보관하거나 Apple Music 플레이리스트로 변환"
+        "Mac 노치를 활용한 다이내믹 아일랜드 인터페이스 제공",
+        "음성 받아쓰기, 음악 제어, 타이머 등 다양한 기능 통합",
+        "Claude Code 작업 완료 알림 등 개발 워크플로우 지원"
       ],
       "tags": [
-        "Music",
-        "Location-based",
-        "Social",
-        "iOS"
+        "Productivity",
+        "Mac",
+        "Utility",
+        "DevTool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "새로운 장소를 방문할 때마다 그곳에 담긴 사람들의 감성을 음악으로 경험할 수 있으며, 나만의 음악 정원을 가꾸는 재미를 제공합니다.",
+      "practical_relevance": "Mac 사용자에게 익숙한 인터페이스를 통해 음악 제어 및 타이머 등 일상적인 작업을 직관적으로 관리할 수 있습니다.",
       "recommended_actions": [
-        "TestFlight를 통해 iPhone에 앱 설치하기",
-        "산책하며 주변에 심어진 음악 수집하기",
-        "나만의 음악을 특정 장소에 심어보기"
+        "48시간 무료 체험을 통한 인터페이스 적응",
+        "음성 받아쓰기 기능 테스트",
+        "음악 및 타이머 컨트롤 기능 활용"
       ],
       "risks_and_limits": [
-        "현재 TestFlight를 통한 iPhone 사용자 대상 베타 서비스임",
-        "위치 기반 서비스이므로 GPS 활성화가 필요함"
+        "노치가 있는 Mac 모델에서 최적의 경험 제공",
+        "일회성 구매($19.90) 정책 확인 필요"
       ],
-      "uncertainty_note": "현재 TestFlight를 통한 무료 테스트 단계이므로 향후 정식 출시 시 가격 정책이나 서비스 범위가 변경될 수 있습니다.",
+      "uncertainty_note": "노치가 없는 구형 Mac 모델에서의 작동 여부는 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Meadow.jpg",
+      "local_image_path": "images/ph_2026-11-07_seam.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Meadow_media_0.jpg",
-        "images/ph_2026-11-06_Meadow_media_1.jpg",
-        "images/ph_2026-11-06_Meadow_media_2.jpg"
+        "images/ph_2026-11-07_seam_media_0.jpg",
+        "images/ph_2026-11-07_seam_media_1.jpg",
+        "images/ph_2026-11-07_seam_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/ed3e2ea7-af54-42e6-8897-55fd5b2ea71c.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Rex (Beta)",
+      "url": "https://www.producthunt.com/products/superlogical",
+      "service_url": "https://www.producthunt.com/r/EYQQV7LWZ6MOGL",
+      "website": "https://www.producthunt.com/r/EYQQV7LWZ6MOGL",
+      "votes": 85,
+      "tagline": "Building the multiplexer for all work",
+      "summary": "모든 업무를 하나로 연결하는 네이티브 멀티플레이어 터미널 멀티플렉서",
+      "key_points": [
+        "macOS 및 iOS를 지원하는 네이티브 앱 환경 제공",
+        "웹에서도 접근 가능한 유연한 워크플로우",
+        "협업이 가능한 멀티플레이어 기능 탑재"
+      ],
+      "tags": [
+        "DevTool",
+        "Terminal",
+        "Collaboration",
+        "Productivity"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "터미널 환경을 데스크톱과 웹 어디서든 동기화하고, 팀원과 실시간으로 작업 환경을 공유하며 협업할 수 있습니다.",
+      "recommended_actions": [
+        "네이티브 앱 설치 및 환경 설정",
+        "웹 브라우저를 통한 원격 접속 테스트",
+        "멀티플레이어 기능을 활용한 협업 워크플로우 구축"
+      ],
+      "risks_and_limits": [
+        "현재 베타 버전이므로 기능적 불안정성이 있을 수 있음",
+        "네이티브 앱과 웹 간의 동기화 성능 차이 확인 필요"
+      ],
+      "uncertainty_note": "베타 단계이므로 상세한 보안 정책 및 멀티플레이어 협업 방식의 구체적인 구현 수준을 확인해야 합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Rex_(Beta).jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Rex_(Beta)_media_0.jpg",
+        "images/ph_2026-11-07_Rex_(Beta)_media_1.jpg"
       ],
       "video_links": []
     },
     {
-      "rank": 8,
-      "name": "DALI AI by SupplyzPro",
-      "url": "https://www.producthunt.com/products/supplyzpro-the-conversational-erp",
-      "service_url": "https://www.producthunt.com/r/Z4NJ6O6UCMBXQL",
-      "website": "https://www.producthunt.com/r/Z4NJ6O6UCMBXQL",
+      "rank": 9,
+      "name": "Muse Realtime Avatar",
+      "url": "https://www.producthunt.com/products/meta-ai",
+      "service_url": "https://www.producthunt.com/r/CEQNYNERKKN54Y",
+      "website": "https://www.producthunt.com/r/CEQNYNERKKN54Y",
       "votes": 83,
-      "tagline": "The ERP you never need to open",
-      "summary": "텍스트 입력만으로 영업, 재고, 결제를 관리하는 AI 기반 올인원 ERP",
+      "tagline": "Turn voice chats with Muse into live video calls",
+      "summary": "음성 대화를 실시간 전신 영상 통화로 변환하는 AI 아바타 서비스",
       "key_points": [
-        "판매, 구매, 재고, 송장, 공급업체 관리를 하나로 통합",
-        "복잡한 대시보드 대신 텍스트 기반의 간편한 인터페이스 제공",
-        "AI를 활용한 비즈니스 워크스페이스 구축"
+        "음성 스트림 하나로 입술, 표정, 제스처, 자세를 동기화하는 실시간 애니메이션",
+        "약 870ms의 초저지연 응답 속도로 자연스러운 대화 가능",
+        "단순 얼굴 애니메이션을 넘어 손과 전신 움직임을 포함한 일관된 캐릭터 구현"
       ],
       "tags": [
         "AI",
-        "ERP",
-        "BusinessAutomation",
-        "SaaS",
-        "AI Tool",
-        "Sales"
-      ],
-      "confidence": "중",
-      "adoption_complexity": "하",
-      "practical_relevance": "별도의 복잡한 ERP 시스템을 열지 않고도 텍스트를 통해 비즈니스 운영 전반을 직관적으로 관리할 수 있습니다.",
-      "recommended_actions": [
-        "WhatsApp 링크를 통한 서비스 접속 및 초기 설정",
-        "텍스트 명령어를 통한 재고 및 판매 데이터 입력 테스트",
-        "기존 비즈니스 프로세스와의 정합성 확인"
-      ],
-      "risks_and_limits": [
-        "텍스트 기반 인터페이스의 데이터 시각화 및 상세 관리 기능 제한 가능성",
-        "비즈니스 규모 확장에 따른 기능 확장성 확인 필요"
-      ],
-      "uncertainty_note": "제공된 정보가 메신저 기반의 인터페이스에 집중되어 있어, 상세한 관리 기능과 데이터 보안 수준을 확인해야 합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_DALI_AI_by_SupplyzPro.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_DALI_AI_by_SupplyzPro_media_1.jpg",
-        "images/ph_2026-11-06_DALI_AI_by_SupplyzPro_media_2.jpg",
-        "images/ph_2026-11-06_DALI_AI_by_SupplyzPro_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/7b338ae2-cf57-417b-9cd2-4a44acf03325.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 9,
-      "name": "Enhanced for Todoist",
-      "url": "https://www.producthunt.com/products/enhanced-for-todoist",
-      "service_url": "https://www.producthunt.com/r/TFK2ZLO6FNZRQ6",
-      "website": "https://www.producthunt.com/r/TFK2ZLO6FNZRQ6",
-      "votes": 82,
-      "tagline": "More ways to organise, plan and focus with Todoist",
-      "summary": "Todoist 사용자를 위한 강력한 기능이 추가된 새로운 프론트엔드 대시보드",
-      "key_points": [
-        "편집 가능한 테이블 및 저장 가능한 프로젝트 뷰 제공",
-        "업무량 추정 및 유연한 타임프레임 관리 기능",
-        "가이드형 리뷰 및 작업 연동 뽀모도로 타이머 탑재"
-      ],
-      "tags": [
-        "Productivity",
-        "Task Management",
-        "Open Source",
-        "Workflow"
+        "Avatar",
+        "Realtime",
+        "Video-Communication",
+        "Agent",
+        "Chat",
+        "Video"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "기존 Todoist의 기능을 확장하여 더 체계적인 계획 수립과 집중력 있는 업무 관리를 가능하게 합니다.",
+      "practical_relevance": "단순한 말하는 얼굴을 넘어 실제 사람과 영상 통화를 하는 듯한 몰입감 넘치는 상호작용을 제공합니다.",
       "recommended_actions": [
-        "데모 버전을 통해 로그인 없이 인터페이스 경험하기",
-        "편집 가능한 테이블로 프로젝트 구조 시각화하기",
-        "뽀모도로 타이머로 작업 집중도 테스트하기"
+        "실시간 음성-영상 동기화 성능 테스트",
+        "전신 제스처 및 캐릭터 일관성 확인",
+        "기존 AI 아바타 서비스(Runway, HeyGen)와의 비교 체험"
       ],
       "risks_and_limits": [
-        "기존 Todoist 계정과의 동기화 방식 및 데이터 보안 확인 필요",
-        "기능의 완전한 활용을 위해 Todoist 계정 연동이 필수적일 수 있음"
+        "사용자의 네트워크 환경에 따른 지연 시간 변동 가능성",
+        "전신 움직임 구현 시 하드웨어 리소스 요구량 확인 필요"
       ],
-      "uncertainty_note": "기존 Todoist 계정의 모든 데이터가 실시간으로 완벽하게 동기화되는지 확인이 필요합니다.",
+      "uncertainty_note": "Meta의 Muse 에이전트와의 구체적인 연동 방식 및 사용자 인터페이스에 대한 상세 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Enhanced_for_Todoist.jpg",
+      "local_image_path": "images/ph_2026-11-07_Muse_Realtime_Avatar.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Enhanced_for_Todoist_media_0.jpg",
-        "images/ph_2026-11-06_Enhanced_for_Todoist_media_1.jpg",
-        "images/ph_2026-11-06_Enhanced_for_Todoist_media_2.jpg"
+        "images/ph_2026-11-07_Muse_Realtime_Avatar_media_0.jpg",
+        "images/ph_2026-11-07_Muse_Realtime_Avatar_media_1.jpg",
+        "images/ph_2026-11-07_Muse_Realtime_Avatar_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 10,
-      "name": "chalk",
-      "url": "https://www.producthunt.com/products/chalk-546d9cf8-cdc3-4b80-9b88-f441167c8f6e",
-      "service_url": "https://www.producthunt.com/r/RPZOYOCZ477VJD",
-      "website": "https://www.producthunt.com/r/RPZOYOCZ477VJD",
-      "votes": 81,
-      "tagline": "learn anything, anywhere",
-      "summary": "화면 위에서 직접 가르쳐주는 대화형 학습 및 프로젝트 가이드 도구",
+      "name": "The Writer's Quarter",
+      "url": "https://www.producthunt.com/products/the-writer-s-quarter",
+      "service_url": "https://www.producthunt.com/r/VU3QLCOX7R3I5B",
+      "website": "https://www.producthunt.com/r/VU3QLCOX7R3I5B",
+      "votes": 83,
+      "tagline": "AI-Free Writing & Novel Planning Software",
+      "summary": "AI 없이 오직 작가의 창의성에 집중할 수 있는 시각적 소설 집필 워크스페이스",
       "key_points": [
-        "화면 캡처 및 인터랙티브 가이드: Mac 화면의 요소를 직접 가리키며 단계별 학습 제공",
-        "맞춤형 커리큘럼 생성: 학습 목표에 따른 보드 생성 및 실습 중심의 코스 설계",
-        "멀티 플랫폼 지원: 브라우저 기반의 보드 및 코스 기능 제공"
+        "AI 생성 기능이 배제된 순수 창작 환경 제공",
+        "캐릭터 설정 및 스토리 구조를 관리하는 시각적 도구",
+        "원고 집필과 설정 간의 유기적 연결성 유지"
       ],
       "tags": [
-        "EdTech",
+        "Writing",
+        "Novel-Planning",
+        "Creativity",
         "Productivity",
-        "Learning",
-        "MacApp",
         "AI Tool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "단순한 읽기 중심 학습에서 벗어나, 실제 화면 위에서 실습하며 문제를 해결하는 직관적인 학습 경험을 제공합니다.",
+      "practical_relevance": "AI의 개입 없이 작가 고유의 문체와 아이디어를 온전히 유지하며, 복잡한 소설 설정을 체계적으로 관리할 수 있습니다.",
       "recommended_actions": [
-        "⌘⌥ 단축키를 사용하여 화면 속 요소에 대해 질문하기",
-        "학습하고 싶은 주제를 말하여 맞춤형 코스 생성하기",
-        "브라우저에서 생성된 보드와 코스 활용하기"
+        "캐릭터 프로필 빌딩 기능 활용하기",
+        "스토리 플롯 시각적 구조 설계하기",
+        "원고 집필 및 설정 연결성 테스트하기"
       ],
       "risks_and_limits": [
-        "Mac 전용 단축키 기능이 포함되어 있어 운영체제 호환성 확인 필요",
-        "무료 시작 모델이므로 고급 기능 사용 시 유료 전환 가능성 있음"
+        "AI 보조 기능(자동 생성, 문장 교정 등)이 필요할 경우 적합하지 않음",
+        "시각적 워크스페이스의 인터페이스가 개인의 집필 습관과 맞는지 확인 필요"
       ],
-      "uncertainty_note": "상세한 유료 플랜 정책과 타 소프트웨어와의 연동 범위는 명시되지 않았습니다.",
+      "uncertainty_note": "상세한 기능적 워크플로우와 플랫폼 지원 환경(웹/데스크톱 등)에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_chalk.jpg",
+      "local_image_path": "images/ph_2026-11-07_The_Writer's_Quarter.jpg",
       "local_media": [
-        "images/ph_2026-11-06_chalk_media_1.jpg",
-        "images/ph_2026-11-06_chalk_media_2.jpg",
-        "images/ph_2026-11-06_chalk_media_3.jpg"
+        "images/ph_2026-11-07_The_Writer's_Quarter_media_1.jpg",
+        "images/ph_2026-11-07_The_Writer's_Quarter_media_2.jpg",
+        "images/ph_2026-11-07_The_Writer's_Quarter_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/42cff875-4f62-4679-b1b5-b71d5e68b973.jpeg?auto=format",
-        "https://ph-files.imgix.net/fe5d8c63-3fd8-445d-9697-e341fdb56d14.jpeg?auto=format"
+        "https://ph-files.imgix.net/bae6e354-059a-49b8-8c6d-448e8abe7938.jpeg?auto=format"
       ]
     },
     {
       "rank": 11,
-      "name": "Pauta",
-      "url": "https://www.producthunt.com/products/pauta",
-      "service_url": "https://www.producthunt.com/r/GSNLNLDJL3ZT4U",
-      "website": "https://www.producthunt.com/r/GSNLNLDJL3ZT4U",
-      "votes": 76,
-      "tagline": "Your private memory for every conversation",
-      "summary": "개인정보 유출 걱정 없이 대화를 기록하고 요약하는 오프라인 AI 메모 도구",
+      "name": "Fleeep",
+      "url": "https://www.producthunt.com/products/fleeep",
+      "service_url": "https://www.producthunt.com/r/OTTCJ3I5YJRYVY",
+      "website": "https://www.producthunt.com/r/OTTCJ3I5YJRYVY",
+      "votes": 82,
+      "tagline": "The notes app for people who make things.",
+      "summary": "흩어진 영감과 아이디어를 한곳에 모으는 창작자용 통합 노트 앱",
       "key_points": [
-        "회의, 인터뷰, 음성 메모의 자동 기록 및 전사 기능",
-        "데이터를 기기에 저장하는 완전 오프라인 작업 방식",
-        "대화 내용을 요약 및 실행 가능한 액션 아이템으로 변환"
+        "스크린샷, 북마크, 메모 등 분산된 아이디어를 한 곳에서 관리",
+        "모바일과 데스크톱 간의 원활한 동기화 지원",
+        "온라인과 오프라인 환경 모두에서 사용 가능"
       ],
       "tags": [
         "Productivity",
-        "AI",
-        "Privacy",
-        "Transcription",
-        "Automation",
-        "AI Tool"
+        "Note-taking",
+        "Creative Tools"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "민감한 대화 내용을 외부 서버에 저장하지 않고도 AI의 요약 기능을 활용할 수 있어 보안이 중요한 전문가에게 유용합니다.",
+      "practical_relevance": "여러 곳에 흩어져 있는 아이디어 조각들을 하나의 작업 공간으로 통합하여 창작 흐름을 끊김 없이 유지할 수 있습니다.",
       "recommended_actions": [
-        "중요한 미팅 녹음 및 전사 테스트",
-        "생성된 요약본과 액션 아이템 검토",
-        "오프라인 환경에서의 데이터 보안성 확인"
+        "기존에 흩어진 스크린샷과 북마크 가져오기",
+        "모바일과 PC 간의 동기화 상태 확인하기",
+        "오프라인 모드에서 아이디어 기록해보기"
       ],
       "risks_and_limits": [
-        "외부 AI 연결 시 데이터 노출 범위 확인 필요",
-        "기기 성능에 따른 로컬 처리 속도 차이 가능성"
+        "기존에 사용하던 다른 노트 앱과의 데이터 이전 편의성 확인 필요",
+        "방대한 양의 데이터 저장 시 성능 유지 여부 확인 필요"
       ],
-      "uncertainty_note": "로컬 환경에서의 AI 모델 구동 방식과 외부 AI 연결 시의 데이터 처리 정책에 대한 상세 정보가 필요합니다.",
+      "uncertainty_note": "상세한 데이터 가져오기(import) 기능 및 외부 서비스 연동 범위에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Pauta.jpg",
+      "local_image_path": "images/ph_2026-11-07_Fleeep.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Pauta_media_1.jpg",
-        "images/ph_2026-11-06_Pauta_media_2.jpg",
-        "images/ph_2026-11-06_Pauta_media_3.jpg"
+        "images/ph_2026-11-07_Fleeep_media_1.jpg",
+        "images/ph_2026-11-07_Fleeep_media_2.jpg",
+        "images/ph_2026-11-07_Fleeep_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/9871b257-3103-4615-b1cf-415e55f150d3.jpeg?auto=format"
+        "https://ph-files.imgix.net/c1438b14-2f8e-4ab0-ba92-339b38028892.jpeg?auto=format"
       ]
     },
     {
       "rank": 12,
-      "name": "axel.md",
-      "url": "https://www.producthunt.com/products/axel-3",
-      "service_url": "https://www.producthunt.com/r/7QBNO4SPNFWPBT",
-      "website": "https://www.producthunt.com/r/7QBNO4SPNFWPBT",
-      "votes": 74,
-      "tagline": "Agent orchestration in the terminal, designed for Rex",
-      "summary": "터미널 환경에서 Claude Code와 Codex 등 다양한 AI 에이전트를 효율적으로 관리하고 실행하는 오케스트레이션 도구",
+      "name": "Instagram Edits for Desktop",
+      "url": "https://www.producthunt.com/products/instagram",
+      "service_url": "https://www.producthunt.com/r/TPRFPBACJLO5RW",
+      "website": "https://www.producthunt.com/r/TPRFPBACJLO5RW",
+      "votes": 81,
+      "tagline": "Instagram's free desktop video editor with AI agents",
+      "summary": "AI 에이전트와 전문 편집 기능을 결합한 데스크톱용 인스타그램 영상 편집 도구",
       "key_points": [
-        "터미널 기반의 스레드 및 이름 지정 에이전트 관리 기능",
-        "Rex 환경에서의 Claude Code, Codex, OpenCode 에이전트 오케스트레이션",
-        "Tailscale을 통한 원격 머신 연결 및 지속 가능한 세션 지원"
+        "MCP를 통한 AI 어시스턴트 연결 및 자동 컷 편집 기능",
+        "멀티 트랙 타임라인, 키프레임, 컬러 그레이딩 등 전문 편집 도구 제공",
+        "4K 워터마크 없는 내보내기 및 인스타그램 직접 게시 지원"
       ],
       "tags": [
-        "DevTool",
-        "AI-Agent",
-        "Terminal",
-        "Automation",
+        "VideoEditing",
+        "AI",
+        "Instagram",
+        "CreativeTools",
         "Agent",
         "AI Tool",
-        "Design"
+        "Video"
       ],
-      "confidence": "중",
-      "adoption_complexity": "상",
-      "practical_relevance": "터미널 환경을 벗어나지 않고도 여러 AI 에이전트를 체계적으로 제어할 수 있어 개발 워크플로우의 연속성을 유지할 수 있습니다.",
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "AI를 활용해 초안 편집 시간을 단축하면서도, 전문적인 색감과 오디오 조절을 통해 고품질 영상을 제작할 수 있습니다.",
       "recommended_actions": [
-        "Rex 환경 설정 및 Tailscale 연결 확인",
-        "터미널 내 에이전트 스레드 생성 및 테스트",
-        "Claude Code 등 외부 에이전트와의 연동 확인"
+        "AI 에이전트를 연결하여 러프 컷 자동 생성해보기",
+        "멀티 트랙 타임라인과 키프레임으로 세부 편집 진행하기",
+        "인스타그램 음악 라이브러리를 활용한 최종 영상 완성하기"
       ],
       "risks_and_limits": [
-        "Rex 및 Tailscale 등 특정 인프라 환경에 대한 의존도가 높음",
-        "터미널 숙련도에 따라 초기 설정 및 사용 난이도가 높을 수 있음"
+        "AI 에이전트 연동을 위한 MCP 호환성 확인 필요",
+        "핵심 편집 기능 외 추가 기능에 대한 구독 여부 확인 필요"
       ],
-      "uncertainty_note": "Rex 환경에 대한 구체적인 요구 사양과 에이전트 간의 상호작용 방식에 대한 상세 정보가 필요합니다.",
+      "uncertainty_note": "AI 에이전트 연동 시 사용 가능한 구체적인 어시스턴트 목록과 MCP 설정 방식에 대한 상세 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_axel.md.jpg",
+      "local_image_path": "images/ph_2026-11-07_Instagram_Edits_for_Desktop.jpg",
       "local_media": [
-        "images/ph_2026-11-06_axel.md_media_0.jpg",
-        "images/ph_2026-11-06_axel.md_media_1.jpg",
-        "images/ph_2026-11-06_axel.md_media_2.jpg"
+        "images/ph_2026-11-07_Instagram_Edits_for_Desktop_media_0.jpg",
+        "images/ph_2026-11-07_Instagram_Edits_for_Desktop_media_1.jpg",
+        "images/ph_2026-11-07_Instagram_Edits_for_Desktop_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 13,
-      "name": "Datastripes Data Stories",
-      "url": "https://www.producthunt.com/products/datastripes",
-      "service_url": "https://www.producthunt.com/r/B2BRINIF6PPVVP",
-      "website": "https://www.producthunt.com/r/B2BRINIF6PPVVP",
-      "votes": 74,
-      "tagline": "Turn any spreadsheet into a data story in seconds",
-      "summary": "엑셀 파일을 업로드하면 데이터 분석부터 시각화, 스토리텔링까지 자동으로 완성해주는 도구",
+      "name": "ClarifierAI for Chrome",
+      "url": "https://www.producthunt.com/products/clarifierai-rewrite-text-2",
+      "service_url": "https://www.producthunt.com/r/CYPGOTWEMKSBYK",
+      "website": "https://www.producthunt.com/r/CYPGOTWEMKSBYK",
+      "votes": 79,
+      "tagline": "Use AI for writing & translating in your Chrome",
+      "summary": "브라우저 어디서든 선택한 텍스트를 즉시 교정하고 번역하는 AI 글쓰기 도구",
       "key_points": [
-        "CSV/Excel 파일을 활용한 자동 데이터 분석 및 인사이트 도출",
-        "헤드라인, 차트, 자연어 기반의 분석 결과 자동 생성",
-        "브랜드 컬러 적용 및 8가지 포맷으로 간편한 결과물 발행"
+        "선택한 텍스트에 대해 즉각적인 재작성, 문법 교정, 번역 기능 제공",
+        "정중하게 만들기, 요약하기 등 다양한 글쓰기 스타일 지원",
+        "119개 언어를 지원하며 모든 텍스트 입력 필드에서 작동"
       ],
       "tags": [
-        "DataAnalysis",
-        "Automation",
-        "NoCode",
-        "Visualization",
-        "AI Tool",
-        "Design"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "데이터 분석가, 디자이너, 작가의 역할 없이도 혼자서 전문적인 데이터 리포트를 빠르게 제작할 수 있습니다.",
-      "recommended_actions": [
-        "보유 중인 CSV/Excel 파일 업로드하기",
-        "생성된 데이터 스토리의 결론이 데이터와 일치하는지 검토하기",
-        "원하는 브랜드 컬러를 적용하여 결과물 발행하기"
-      ],
-      "risks_and_limits": [
-        "데이터의 복잡도에 따라 자동 생성된 분석 내용의 정확성 검증 필요",
-        "데이터 보안 및 개인정보 포함 파일 업로드 시 주의 필요"
-      ],
-      "uncertainty_note": "데이터 보안 정책 및 대용량 파일 처리 용량에 대한 구체적인 정보가 명시되지 않았습니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Datastripes_Data_Stories.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_Datastripes_Data_Stories_media_1.jpg",
-        "images/ph_2026-11-06_Datastripes_Data_Stories_media_2.jpg",
-        "images/ph_2026-11-06_Datastripes_Data_Stories_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/64ff9106-eadb-4ba5-9cd3-ce556cf0d975.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 14,
-      "name": "refern.",
-      "url": "https://www.producthunt.com/products/refern",
-      "service_url": "https://www.producthunt.com/r/TIZLGEEHIU5EVJ",
-      "website": "https://www.producthunt.com/r/TIZLGEEHIU5EVJ",
-      "votes": 73,
-      "tagline": "Every visual reference you work from, in one place.",
-      "summary": "모든 시각적 레퍼런스를 한곳에 모아 작업 효율을 높이는 통합 라이브러리",
-      "key_points": [
-        "이미지, 영상, 작업 파일, 웹 페이지를 하나의 라이브러리로 통합 관리",
-        "태그 및 색상 기반의 직관적인 검색 기능 제공",
-        "드로잉 앱 위에 파일을 고정(Pin)하여 작업 중 즉시 참조 가능"
-      ],
-      "tags": [
-        "DesignTool",
+        "AI",
         "Productivity",
-        "CreativeWorkflow",
-        "Video",
-        "Vision"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "여러 곳에 흩어진 작업 소스를 한곳에서 관리하고, 작업 화면 위에 바로 띄워 작업 흐름을 끊지 않고 참조할 수 있습니다.",
-      "recommended_actions": [
-        "자주 사용하는 레퍼런스 파일을 라이브러리에 업로드하기",
-        "색상 및 태그를 활용해 나만의 분류 체계 만들기",
-        "드로잉 앱 위에서 핀(Pin) 기능을 활용해 실시간 참조하기"
-      ],
-      "risks_and_limits": [
-        "파일은 사용자 개인 폴더에 저장되므로 저장소 용량 관리가 필요함",
-        "OS별(Windows, macOS, Linux) 기능 차이가 있는지 확인 필요"
-      ],
-      "uncertainty_note": "파일 저장 방식과 클라우드 동기화 지원 여부에 대한 상세 정보가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_refern..jpg",
-      "local_media": [
-        "images/ph_2026-11-06_refern._media_1.jpg",
-        "images/ph_2026-11-06_refern._media_2.jpg",
-        "images/ph_2026-11-06_refern._media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/93c4c19f-44e9-4d55-936a-7e900153a2ee.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 15,
-      "name": "Thunderduck Inc.",
-      "url": "https://www.producthunt.com/products/thunderduck-inc",
-      "service_url": "https://www.producthunt.com/r/SCNLOLZ34ZR2N3",
-      "website": "https://www.producthunt.com/r/SCNLOLZ34ZR2N3",
-      "votes": 72,
-      "tagline": "Modular Data Warehouse for Agentic Data Teams",
-      "summary": "AI 에이전트를 위한 격리된 엔진 기반의 모듈형 데이터 웨어하우스",
-      "key_points": [
-        "DuckDB 기반의 AI 에이전트 최적화 데이터 웨어하우스",
-        "ETL 없이 Postgres, BigQuery, Iceberg, S3 데이터를 단일 SQL로 통합 조회",
-        "에이전트별 독립된 엔진 제공 및 실행 전 쿼리 비용 예측 기능"
-      ],
-      "tags": [
-        "DataWarehouse",
-        "AI-Agents",
-        "DuckDB",
-        "DataEngineering",
-        "Analytics",
-        "Agent",
+        "ChromeExtension",
+        "Writing",
+        "Translation",
         "AI Tool"
       ],
       "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "데이터 엔지니어링(ETL) 과정 없이 다양한 소스의 데이터를 즉시 쿼리할 수 있어, AI 에이전트 기반의 데이터 팀이 데이터 준비 시간을 획기적으로 줄일 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "웹 서핑이나 이메일 작성 중 별도의 창 이동 없이 브라우저 내에서 즉시 글을 다듬고 번역할 수 있어 작업 흐름이 끊기지 않습니다.",
       "recommended_actions": [
-        "다양한 데이터 소스(S3, BigQuery 등) 연결 테스트",
-        "에이전트별 격리된 엔진 성능 확인",
-        "실행 전 쿼리 비용 예측 기능 검증"
+        "작성 중인 글을 더 정중하거나 짧게 다듬기",
+        "외국어 텍스트를 즉시 번역하기",
+        "문법 오류 및 문장 구조 개선하기"
       ],
       "risks_and_limits": [
-        "DuckDB 기반 엔진의 대규모 데이터 처리 성능 및 확장성 확인 필요",
-        "다양한 소스 통합 시 데이터 일관성 및 네트워크 지연 시간 고려"
+        "선택한 텍스트 영역에만 국한된 기능이므로 전체 문서 관리에는 한계가 있을 수 있음",
+        "개인정보나 민감한 정보가 포함된 텍스트 입력 시 보안 정책 확인 필요"
       ],
-      "uncertainty_note": "데이터 소스 간의 실시간 동기화 방식과 대규모 데이터셋에서의 쿼리 성능 수치가 명시되지 않았습니다.",
+      "uncertainty_note": "구체적인 요금 체계나 사용량 제한(쿼리 제한 등)에 대한 정보가 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Thunderduck_Inc..jpg",
+      "local_image_path": "images/ph_2026-11-07_ClarifierAI_for_Chrome.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Thunderduck_Inc._media_1.jpg",
-        "images/ph_2026-11-06_Thunderduck_Inc._media_2.jpg",
-        "images/ph_2026-11-06_Thunderduck_Inc._media_3.jpg"
+        "images/ph_2026-11-07_ClarifierAI_for_Chrome_media_0.jpg",
+        "images/ph_2026-11-07_ClarifierAI_for_Chrome_media_1.jpg",
+        "images/ph_2026-11-07_ClarifierAI_for_Chrome_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 14,
+      "name": "Sendoff",
+      "url": "https://www.producthunt.com/products/sendoff-2",
+      "service_url": "https://www.producthunt.com/r/YLDMPZGFTOR2AI",
+      "website": "https://www.producthunt.com/r/YLDMPZGFTOR2AI",
+      "votes": 78,
+      "tagline": "Say \"send it.\" to automatically email your list",
+      "summary": "AI를 통해 뉴스레터와 공지 메일을 자동 발송하는 셀프 호스팅 이메일 솔루션",
+      "key_points": [
+        "Claude 및 Codex를 활용한 자동 이메일 생성 및 발송",
+        "사용자 개인의 Cloudflare 및 AWS 계정에 직접 설치하는 셀프 호스팅 방식",
+        "Amazon SES를 통한 안정적인 이메일 전송 인프라 활용"
+      ],
+      "tags": [
+        "Automation",
+        "AI",
+        "DevTool",
+        "Email",
+        "Self-Hosted",
+        "AI Tool"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "자신의 클라우드 인프라를 사용하므로 데이터 보안과 비용 효율성을 동시에 확보하며 AI 기반의 자동화된 이메일 발송이 가능합니다.",
+      "recommended_actions": [
+        "자신의 AWS/Cloudflare 계정 설정 확인",
+        "Amazon SES 연동 및 발송 권한 확보",
+        "AI 프롬프트를 통한 이메일 생성 테스트"
+      ],
+      "risks_and_limits": [
+        "사용자 직접 호스팅 방식이므로 클라우드 설정 및 유지보수 역량이 필요함",
+        "AWS/Cloudflare 계정 관리 및 비용 발생 가능성"
+      ],
+      "uncertainty_note": "사용자의 클라우드 환경에 직접 설치하는 방식이므로 기술적 숙련도에 따라 구축 난이도가 다를 수 있습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Sendoff.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Sendoff_media_0.jpg",
+        "images/ph_2026-11-07_Sendoff_media_1.jpg",
+        "images/ph_2026-11-07_Sendoff_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 15,
+      "name": "kayet",
+      "url": "https://www.producthunt.com/products/kayet",
+      "service_url": "https://www.producthunt.com/r/B5MM4CIBUHA56Y",
+      "website": "https://www.producthunt.com/r/B5MM4CIBUHA56Y",
+      "votes": 76,
+      "tagline": "the minimalistic text editor for macOS",
+      "summary": "macOS 사용자를 위한 미니멀하고 집중력 있는 텍스트 에디터",
+      "key_points": [
+        "macOS 전용 텍stone 에디터",
+        "불필요한 요소를 제거한 미니멀한 디자인",
+        "글쓰기에만 집중할 수 있는 환경 제공"
+      ],
+      "tags": [
+        "Productivity",
+        "macOS",
+        "Writing",
+        "Minimalism"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "복잡한 기능 대신 깔끔한 인터페이스를 선호하는 사용자에게 최적의 글쓰기 환경을 제공합니다.",
+      "recommended_actions": [
+        "macOS 환경에서 인터페이스 확인하기",
+        "글쓰기 흐름에 방해가 없는지 테스트하기"
+      ],
+      "risks_and_limits": [
+        "macOS 전용이므로 다른 OS에서는 사용 불가",
+        "고급 편집 기능이나 플러그인이 부족할 수 있음"
+      ],
+      "uncertainty_note": "상세한 기능 목록과 지원하는 텍스트 포맷에 대한 정보가 부족합니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_kayet.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_kayet_media_0.jpg",
+        "images/ph_2026-11-07_kayet_media_1.jpg",
+        "images/ph_2026-11-07_kayet_media_2.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/ad998dd8-04b0-40f5-8c42-3a61f8cdb99e.jpeg?auto=format"
+        "https://ph-files.imgix.net/60d8dd21-8fe6-4dbe-96b4-0f2676c9ea32.jpeg?auto=format"
       ]
     },
     {
       "rank": 16,
-      "name": "Cursor Craft",
-      "url": "https://www.producthunt.com/products/cursor-craft",
-      "service_url": "https://www.producthunt.com/r/BCO35XHIOIH5EM",
-      "website": "https://www.producthunt.com/r/BCO35XHIOIH5EM",
-      "votes": 71,
-      "tagline": "Custom cursors for Mac",
-      "summary": "클릭 한 번으로 맥의 커서를 취향대로 바꾸는 커스텀 커서 관리 앱",
+      "name": "Switchy",
+      "url": "https://www.producthunt.com/products/switchy",
+      "service_url": "https://www.producthunt.com/r/FXHNI2Q6JPLMVW",
+      "website": "https://www.producthunt.com/r/FXHNI2Q6JPLMVW",
+      "votes": 75,
+      "tagline": "Mac controls, deploys, 2FA & AI limits in your menu bar",
+      "summary": "배포 상태, 2FA, AI 사용량 등 개발 필수 정보를 맥 메뉴 바 하나로 통합 관리하는 도구",
       "key_points": [
-        "다양한 테마(미니멀, 네이처, 네온, 고양이, 애니메이션 등)의 커서 팩 제공",
-        "브라우징부터 설치, 전환까지 한 번에 가능한 원클릭 인터페이스",
-        "무료 및 프리미엄 커서 팩 선택 가능"
+        "배포 상태, 로컬 서버, 2FA 코드, AI(Claude/Codex) 제한 수치를 메뉴 바에서 즉시 확인",
+        "macOS 14+ 및 Apple Silicon 최적화된 네이티브 앱",
+        "계정 생성이나 카드 등록 없이 7일간 무료 체험 가능"
       ],
       "tags": [
-        "Customization",
+        "DevTool",
+        "Productivity",
         "macOS",
-        "Design",
-        "Productivity"
+        "AI Tool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "복잡한 설정 과정 없이 사용자의 개성을 반영한 커스텀 커서를 손쉽게 적용하여 데스크탑 환경을 꾸밀 수 있습니다.",
+      "practical_relevance": "여러 창을 열지 않고도 메뉴 바에서 핵심 개발 지표와 보안 코드를 확인할 수 있어 작업 흐름이 끊기지 않습니다.",
       "recommended_actions": [
-        "원하는 스타일의 커서 팩 탐색하기",
-        "원클릭 설치 기능 테스트하기",
-        "무료 팩을 활용한 커서 전환 경험하기"
+        "7일 무료 체험을 통해 메뉴 바 통합 환경 경험하기",
+        "주요 AI 모델(Claude/Codex) 사용량 모니터링하기",
+        "2FA 코드 및 배포 상태 실시간 확인하기"
       ],
       "risks_and_limits": [
-        "프리미엄 팩 이용 시 별도의 비용 발생 가능성",
-        "macOS 시스템 설정과의 호환성 확인 필요"
+        "7일 체험 기간 종료 후 $4.99의 일회성 결제 필요",
+        "macOS 14 이상 버전 및 Apple Silicon 환경에서만 작동"
       ],
-      "uncertainty_note": "프리미엄 팩의 구체적인 가격 정책과 모든 macOS 버전에서의 안정적인 동작 여부는 확인이 필요합니다.",
+      "uncertainty_note": "사용 중인 다른 개발 도구와의 구체적인 연동 방식이나 데이터 동기화 범위는 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Cursor_Craft.jpg",
+      "local_image_path": "images/ph_2026-11-07_Switchy.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Cursor_Craft_media_0.jpg",
-        "images/ph_2026-11-06_Cursor_Craft_media_1.jpg",
-        "images/ph_2026-11-06_Cursor_Craft_media_2.jpg"
+        "images/ph_2026-11-07_Switchy_media_0.jpg",
+        "images/ph_2026-11-07_Switchy_media_1.jpg",
+        "images/ph_2026-11-07_Switchy_media_2.jpg"
       ],
       "video_links": []
     },
     {
       "rank": 17,
-      "name": "Codiclens",
-      "url": "https://www.producthunt.com/products/codiclens-local-ai-powerd-mac-launcher",
-      "service_url": "https://www.producthunt.com/r/RA6YMLIN5K2L5Z",
-      "website": "https://www.producthunt.com/r/RA6YMLIN5K2L5Z",
-      "votes": 70,
-      "tagline": "Local AI powerd Mac launcher and file finder",
-      "summary": "파일 이름이 아닌 내용으로 검색하고 실행하는 로컬 기반 AI 맥 런처",
+      "name": "Deal Pilot",
+      "url": "https://www.producthunt.com/products/deal-pilot",
+      "service_url": "https://www.producthunt.com/r/TLWTIL7DWQSQPM",
+      "website": "https://www.producthunt.com/r/TLWTIL7DWQSQPM",
+      "votes": 73,
+      "tagline": "AI SDR that books meetings in Japan, the US & SE Asia",
+      "summary": "일본, 미국, 동남아 시장을 타겟으로 미팅을 자동 예약하는 AI SDR 솔루션",
       "key_points": [
-        "파일 이름이 아닌 파일 내부 콘텐츠를 기반으로 한 지능형 검색",
-        "100% 로컬 실행으로 개인정보 보호 및 보안 강화",
-        "오픈 소스 기반의 무료 맥 전용 런처"
+        "국가 및 직무별 의사결정권자 발굴 및 검증",
+        "영어, 일본어, 중국어 맞춤형 콜드 이메일 작성",
+        "미팅 예약 시까지 이어지는 자동 후속 작업(Follow-up)"
       ],
       "tags": [
-        "Productivity",
+        "Sales Automation",
         "AI",
-        "macOS",
-        "OpenSource",
-        "Search",
-        "AI Tool"
+        "Lead Generation",
+        "Global Expansion",
+        "AI Tool",
+        "Email"
       ],
       "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "파일 이름을 기억하지 못해도 내용만으로 원하는 앱이나 파일을 즉시 찾을 수 있어 작업 흐름이 빨라집니다.",
+      "adoption_complexity": "중",
+      "practical_relevance": "글로벌 시장 진출 시 현지 언어와 타겟팅에 대한 부담 없이 효율적으로 잠재 고객 미팅을 확보할 수 있습니다.",
       "recommended_actions": [
-        "자주 사용하는 파일과 앱을 대상으로 검색 성능 테스트하기",
-        "로컬 환경에서의 검색 속도 및 반응성 확인하기"
+        "타겟 국가 및 직무 설정하기",
+        "현지 언어(영어/일본어/중국어) 개인화 메일 생성하기",
+        "자동 후속 이메일 워크플로우 실행하기"
       ],
       "risks_and_limits": [
-        "로컬 리소스(CPU/RAM) 사용량에 따른 시스템 성능 영향 확인 필요",
-        "맥(macOS) 전용 도구이므로 타 OS 사용 불가"
+        "현지 문화적 맥락이 반영된 정교한 메시지인지 검토 필요",
+        "이메일 스팸 필터링 및 도메인 평판 관리 주의"
       ],
-      "uncertainty_note": "로컬 인덱싱 과정에서 발생하는 시스템 부하 정도와 지원하는 파일 형식의 범위를 확인해야 합니다.",
+      "uncertainty_note": "현재 제공되는 타겟 국가 외의 지역이나 다른 언어 지원 여부는 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Codiclens.jpg",
+      "local_image_path": "images/ph_2026-11-07_Deal_Pilot.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Codiclens_media_1.jpg",
-        "images/ph_2026-11-06_Codiclens_media_2.jpg",
-        "images/ph_2026-11-06_Codiclens_media_3.jpg"
+        "images/ph_2026-11-07_Deal_Pilot_media_1.jpg",
+        "images/ph_2026-11-07_Deal_Pilot_media_2.jpg",
+        "images/ph_2026-11-07_Deal_Pilot_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/cdbaa553-b104-4a58-bcd5-949c8eca52a2.jpeg?auto=format"
+        "https://ph-files.imgix.net/c847c830-7b35-4709-a52f-5b9536dcad5f.jpeg?auto=format",
+        "https://ph-files.imgix.net/e9b78895-deeb-4830-8a62-45c501b86c3d.jpeg?auto=format"
       ]
     },
     {
       "rank": 18,
-      "name": "pwned.coffee",
-      "url": "https://www.producthunt.com/products/pwned-coffee",
-      "service_url": "https://www.producthunt.com/r/L5JM67PP76ZJW6",
-      "website": "https://www.producthunt.com/r/L5JM67PP76ZJW6",
-      "votes": 69,
-      "tagline": "A live board of security flaws",
-      "summary": "최신 보안 취약점과 사고를 실시간으로 요약하여 제공하는 보안 대시보드",
+      "name": "Trace by Context.dev",
+      "url": "https://www.producthunt.com/products/context-dev",
+      "service_url": "https://www.producthunt.com/r/5RK3D7YQJWFI4V",
+      "website": "https://www.producthunt.com/r/5RK3D7YQJWFI4V",
+      "votes": 72,
+      "tagline": "Weekly web scraping API benchmark",
+      "summary": "매주 업데이트되는 실시간 웹 스크래핑 API 성능 비교 벤치마크 서비스",
       "key_points": [
-        "매시간 업데이트되는 실시간 보안 취약점 및 사고 보드",
-        "복잡한 설명 대신 무엇을 해야 하는지 명확한 한 줄 가이드 제공",
-        "보안 위협 상황을 직관적으로 파악할 수 있는 간결한 인터페이스"
+        "매주 금요일 새로운 샘플로 진행되는 최신 API 성능 테스트",
+        "페이지 접근성, 지연 시간(Latency), 문서 품질, 비용 등 다각도 분석",
+        "신뢰 구간 및 페이지 단위의 상세 데이터 제공"
       ],
       "tags": [
-        "Security",
-        "Dashboard",
-        "Monitoring",
-        "AI Tool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "보안 전문가나 개발자가 복잡한 보안 리포트를 일일이 읽지 않고도, 현재 발생한 위협과 즉각적인 대응 방안을 빠르게 파악할 수 있습니다.",
-      "recommended_actions": [
-        "실시간 보드를 통해 현재 가장 시급한 보안 이슈 확인하기",
-        "제공되는 '한 줄 가이드'를 바탕으로 즉각적인 대응 조치 검토하기"
-      ],
-      "risks_and_limits": [
-        "정보가 매우 간결하므로 상세한 기술적 분석이 필요한 경우 추가 조사가 필요할 수 있음",
-        "제공되는 가이드가 사용자의 특정 환경에 완벽히 부합하는지 검증해야 함"
-      ],
-      "uncertainty_note": "제공되는 정보의 출처와 가이드의 신뢰도 수준을 확인해야 합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_pwned.coffee.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_pwned.coffee_media_0.jpg",
-        "images/ph_2026-11-06_pwned.coffee_media_1.jpg",
-        "images/ph_2026-11-06_pwned.coffee_media_2.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 19,
-      "name": "Kodivo",
-      "url": "https://www.producthunt.com/products/kodivo",
-      "service_url": "https://www.producthunt.com/r/NLJJ3AO3REQEOK",
-      "website": "https://www.producthunt.com/r/NLJJ3AO3REQEOK",
-      "votes": 67,
-      "tagline": "Learn coding with AI and PHP through swipeable cards",
-      "summary": "스와이프 방식의 카드 학습을 통해 AI와 PHP 코딩을 쉽고 재미있게 배우는 도구",
-      "key_points": [
-        "스와이프형 카드를 활용한 짧고 직관적인 코딩 레슨",
-        "AI 에이전트 작동 원리 및 PHP 코드 예제 학습",
-        "연습 문제와 상세한 해설을 통한 자기 주도 학습"
-      ],
-      "tags": [
-        "EdTech",
-        "Coding",
-        "AI",
-        "PHP",
         "DevTool",
-        "Agent",
-        "AI Tool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "짧은 시간 동안 카드 스와이프 방식으로 코딩 지식을 습득할 수 있어 학습 효율이 높으며, 기존 AI 도구와 연동하여 학습 흐름을 이어갈 수 있습니다.",
-      "recommended_actions": [
-        "스와이프 카드로 기초 레슨 시작하기",
-        "연습 문제를 통한 코드 이해도 테스트하기",
-        "MCP를 설정하여 Claude Code와 학습 데이터 연동하기"
-      ],
-      "risks_and_limits": [
-        "카드 방식의 특성상 심도 있는 프로젝트 실습에는 한계가 있을 수 있음",
-        "외부 AI 도구(Codex, Claude Code) 연동 시 추가 설정이 필요할 수 있음"
-      ],
-      "uncertainty_note": "사용자의 학습 진척도가 외부 AI 도구와 실시간으로 어떻게 동기화되는지에 대한 상세 메커니즘 확인이 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Kodivo.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_Kodivo_media_1.jpg",
-        "images/ph_2026-11-06_Kodivo_media_2.jpg",
-        "images/ph_2026-11-06_Kodivo_media_3.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/c052fccf-7792-488e-a556-1999274f4a4d.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 20,
-      "name": "Make0 Brain OSS",
-      "url": "https://www.producthunt.com/products/make0-brain",
-      "service_url": "https://www.producthunt.com/r/TAHHMDHVABTS2O",
-      "website": "https://www.producthunt.com/r/TAHHMDHVABTS2O",
-      "votes": 67,
-      "tagline": "Sync context across all your agents",
-      "summary": "여러 AI 에이전트 간의 맥락을 동기화하는 오픈소스 공용 메모리 저장소",
-      "key_points": [
-        "에이전트 간 맥락(Context) 불일치 문제 해결",
-        "모든 에이전트가 읽고 쓸 수 있는 공용 메모리 저장소 제공",
-        "사용자 주권 중심의 메모리 관리 및 오픈소스(MIT 라이선스) 제공"
-      ],
-      "tags": [
-        "AI",
-        "OpenSource",
-        "Automation",
-        "Productivity",
-        "Agent",
-        "AI Tool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "여러 AI 에이전트를 동시에 사용할 때 발생하는 반복적인 설명 과정을 줄여 작업 효율을 극대화할 수 있습니다.",
-      "recommended_actions": [
-        "오픈소스 코드 저장소 확인 및 클론",
-        "기존 에이전트 워크플로우에 메모리 스토어 연동 테스트",
-        "멀티 에이전트 환경에서의 데이터 동기화 성능 검증"
-      ],
-      "risks_and_limits": [
-        "여러 에이전트가 동시에 접근할 때의 데이터 충돌 및 정합성 관리 필요",
-        "개인 메모리 데이터의 보안 및 관리 책임"
-      ],
-      "uncertainty_note": "구체적인 기술 스택과 기존 에이전트 프레임워크와의 연동 방식에 대한 상세 문서가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Make0_Brain_OSS.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_Make0_Brain_OSS_media_2.jpg",
-        "images/ph_2026-11-06_Make0_Brain_OSS_media_3.jpg",
-        "images/ph_2026-11-06_Make0_Brain_OSS_media_4.jpg"
-      ],
-      "video_links": [
-        "https://ph-files.imgix.net/752a050c-3974-497b-a2e1-dcf00a892680.jpeg?auto=format",
-        "https://ph-files.imgix.net/dc3f115e-9d21-43ef-915d-c1d02a5615f3.jpeg?auto=format"
-      ]
-    },
-    {
-      "rank": 21,
-      "name": "Plainmail",
-      "url": "https://www.producthunt.com/products/plainmail",
-      "service_url": "https://www.producthunt.com/r/UN2PGCCE5R7LTQ",
-      "website": "https://www.producthunt.com/r/UN2PGCCE5R7LTQ",
-      "votes": 66,
-      "tagline": "Real email on every domain you own, for $5 a month flat",
-      "summary": "월 5달러로 최대 50개 도메인과 100개 메일함을 운영할 수 있는 간편한 이메일 호스팅 서비스",
-      "key_points": [
-        "월 $5 고정 가격으로 최대 50개 도메인 및 100개 메일함 제공",
-        "Cloudflare, Vercel, Porkbun의 DNS 레코드(MX, SPF, DKIM, DMARC) 자동 설정",
-        "표준 IMAP/SMTP 지원으로 Apple Mail, Gmail, Outlook 등 기존 앱과 호환"
-      ],
-      "tags": [
-        "Email",
-        "SaaS",
-        "DevTool",
-        "Productivity",
+        "WebScraping",
+        "Analytics",
+        "Benchmark",
         "AI Tool",
         "API"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "여러 도메인을 소유한 개인이나 개발자가 복잡한 설정 없이 저렴한 비용으로 전문적인 이메일 환경을 구축할 수 있습니다.",
+      "practical_relevance": "최적의 웹 스크래핑 API를 선택할 수 있도록 객관적인 데이터 기반의 의사결정을 도와줍니다.",
       "recommended_actions": [
-        "보유 중인 도메인(Cloudflare, Vercel, Porkbun) 연결 테스트",
-        "기존 메일 앱(Outlook, Apple Mail 등)에 계정 등록",
-        "CLI 또는 API를 통한 메일 관리 자동화 시도"
+        "매주 금요일 업데이트되는 최신 벤치마크 리포트 확인하기",
+        "현재 사용 중인 API와 비교 분석하기",
+        "비용 대비 품질(Cost per page) 지표 검토하기"
       ],
       "risks_and_limits": [
-        "대량 메일 발송(Bulk mail) 용도가 아닌 개인 간 소통용으로 설계됨",
-        "제공되는 25GB 용량 내에서 모든 도메인/메일함이 공유됨"
+        "매주 샘플이 바뀌므로 특정 시점의 데이터가 장기적인 성능을 보장하지 않을 수 있음",
+        "사용자의 특정 워크로드와 벤치마크 환경 간의 차이가 존재할 수 있음"
       ],
-      "uncertainty_note": "사용 중인 도메인 등록처가 Cloudflare, Vercel, Porkbun이 아닐 경우 자동 설정 지원 여부를 확인해야 합니다.",
+      "uncertainty_note": "벤치마크에 사용되는 구체적인 웹사이트 샘플과 테스트 환경에 대한 상세 정보가 필요합니다.",
+      "repeated_in_window": true,
+      "repeated_days_ago": 3,
+      "local_image_path": "images/ph_2026-11-07_Trace_by_Context.dev.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Trace_by_Context.dev_media_0.jpg",
+        "images/ph_2026-11-07_Trace_by_Context.dev_media_1.jpg",
+        "images/ph_2026-11-07_Trace_by_Context.dev_media_2.jpg"
+      ],
+      "video_links": []
+    },
+    {
+      "rank": 19,
+      "name": "Capnot",
+      "url": "https://www.producthunt.com/products/capnot",
+      "service_url": "https://www.producthunt.com/r/NANZHGOOMCEIDX",
+      "website": "https://www.producthunt.com/r/NANZHGOOMCEIDX",
+      "votes": 72,
+      "tagline": "Make Screen Demos Clear, Even on Mute",
+      "summary": "화면 녹화 편집 없이 실시간으로 자막과 주석을 추가하는 맥용 데모 도구",
+      "key_points": [
+        "모든 앱 위에 겹쳐서 사용하는 자막, 주석, 포인터 도구 제공",
+        "실시간 음성 캡션 및 커서 추적 말풍선 기능",
+        "화면 공유/녹화 중 즉각적인 화살표, 박스, 블러 처리 가능"
+      ],
+      "tags": [
+        "Productivity",
+        "ScreenRecording",
+        "Mac",
+        "VideoEditing"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "별도의 영상 편집 과정 없이 녹화와 동시에 전문적인 데모 영상을 만들 수 있어 작업 시간을 획기적으로 단축해 줍니다.",
+      "recommended_actions": [
+        "실시간 음성 캡션 기능 테스트하기",
+        "커서를 따라다니는 말풍선 설정해보기",
+        "민감한 정보 보호를 위한 블러 기능 사용해보기"
+      ],
+      "risks_and_limits": [
+        "macOS 전용 도구이므로 Windows 사용자는 사용 불가",
+        "실시간 작업 방식이므로 녹화 중 실수 시 수정이 어려울 수 있음"
+      ],
+      "uncertainty_note": "구독 모델이 아니라고 명시되어 있으나, 향후 유료 기능 도입 여부는 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Plainmail.jpg",
+      "local_image_path": "images/ph_2026-11-07_Capnot.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Plainmail_media_1.jpg",
-        "images/ph_2026-11-06_Plainmail_media_2.jpg",
-        "images/ph_2026-11-06_Plainmail_media_3.jpg"
+        "images/ph_2026-11-07_Capnot_media_1.jpg",
+        "images/ph_2026-11-07_Capnot_media_2.jpg",
+        "images/ph_2026-11-07_Capnot_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/f0222d1f-d563-4ebc-814e-7f09dc2909fa.jpeg?auto=format"
+        "https://ph-files.imgix.net/12fc09f7-dc86-4d24-bc88-b47552332b96.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Dino Kids",
+      "url": "https://www.producthunt.com/products/dino-kids",
+      "service_url": "https://www.producthunt.com/r/ERNMFDRDUIMC5O",
+      "website": "https://www.producthunt.com/r/ERNMFDRDUIMC5O",
+      "votes": 70,
+      "tagline": "Free, ad-free learning app for kids 3+ in five languages",
+      "summary": "광고와 결제 없이 5개 국어를 지원하는 3세 이상 아동용 무료 학습 앱",
+      "key_points": [
+        "색칠하기, 글자 쓰기, 수학, 피아노 등 다양한 학습 콘텐츠 제공",
+        "광고, 인앱 결제, 계정 생성 없이 완전히 무료로 이용 가능",
+        "베트남어, 일본어, 영어, 한국어, 중국어 5개 언어 지원"
+      ],
+      "tags": [
+        "Education",
+        "Kids",
+        "Language Learning",
+        "Free"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "유료 결제나 광고 노출에 대한 걱정 없이 아이들에게 안전하고 유익한 학습 환경을 제공할 수 있습니다.",
+      "recommended_actions": [
+        "아이의 연령에 맞는 학습 콘텐츠 탐색",
+        "오프라인 사용을 위한 콘텐츠 사전 다운로드",
+        "5개 국어 중 학습에 필요한 언어 설정"
+      ],
+      "risks_and_limits": [
+        "오프라인 사용을 위해서는 반드시 사전에 콘텐츠를 다운로드해야 함",
+        "계정 기반이 아니므로 기기 변경 시 데이터 이전 여부 확인 필요"
+      ],
+      "uncertainty_note": "기기 변경 시 기존 학습 데이터나 진행 상황이 유지되는지 여부가 명시되어 있지 않습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Dino_Kids.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Dino_Kids_media_0.jpg",
+        "images/ph_2026-11-07_Dino_Kids_media_1.jpg",
+        "images/ph_2026-11-07_Dino_Kids_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/beaad69e-8f20-424e-bc90-f09471bb5a64.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Dino Kids",
+      "url": "https://www.producthunt.com/products/dino-kids",
+      "service_url": "https://www.producthunt.com/r/ERNMFDRDUIMC5O",
+      "website": "https://www.producthunt.com/r/ERNMFDRDUIMC5O",
+      "votes": 70,
+      "tagline": "Free, ad-free learning app for kids 3+ in five languages",
+      "summary": "광고와 결제 없이 5개 국어를 지원하는 3세 이상 아동용 무료 학습 앱",
+      "key_points": [
+        "색칠하기, 글자 쓰기, 수학, 피아노 등 다양한 학습 콘텐츠 제공",
+        "광고, 인앱 결제, 계정 생성 없이 완전히 무료로 이용 가능",
+        "베트남어, 일본어, 영어, 한국어, 중국어 5개 언어 지원"
+      ],
+      "tags": [
+        "Education",
+        "Kids",
+        "Language Learning",
+        "Free"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "유료 결제나 광고 노출에 대한 걱정 없이 아이들에게 안전하고 유익한 학습 환경을 제공할 수 있습니다.",
+      "recommended_actions": [
+        "아이의 연령에 맞는 학습 콘텐츠 탐색",
+        "오프라인 사용을 위한 콘텐츠 사전 다운로드",
+        "5개 국어 중 학습에 필요한 언어 설정"
+      ],
+      "risks_and_limits": [
+        "오프라인 사용을 위해서는 반드시 사전에 콘텐츠를 다운로드해야 함",
+        "계정 기반이 아니므로 기기 변경 시 데이터 이전 여부 확인 필요"
+      ],
+      "uncertainty_note": "기기 변경 시 기존 학습 데이터나 진행 상황이 유지되는지 여부가 명시되어 있지 않습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Dino_Kids.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Dino_Kids_media_0.jpg",
+        "images/ph_2026-11-07_Dino_Kids_media_1.jpg",
+        "images/ph_2026-11-07_Dino_Kids_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/beaad69e-8f20-424e-bc90-f09471bb5a64.jpeg?auto=format"
       ]
     },
     {
       "rank": 22,
-      "name": "Winq",
-      "url": "https://www.producthunt.com/products/winq",
-      "service_url": "https://www.producthunt.com/r/IGLHTOHLAXOHCS",
-      "website": "https://www.producthunt.com/r/IGLHTOHLAXOHCS",
-      "votes": 66,
-      "tagline": "Focus on a window or display you're looking at",
-      "summary": "시선 추적 기술을 통해 바라보는 창을 자동으로 포커스하는 macOS 생산성 도구",
+      "name": "Duly",
+      "url": "https://www.producthunt.com/products/duly-life-organizer",
+      "service_url": "https://www.producthunt.com/r/LN2J6B7S4DBEFB",
+      "website": "https://www.producthunt.com/r/LN2J6B7S4DBEFB",
+      "votes": 68,
+      "tagline": "Press the orb, ramble, and everything gets organized",
+      "summary": "말하는 대로 정리되는 AI 기반 음성 메모 및 할 일 관리 도구",
       "key_points": [
-        "Mac 카메라를 활용한 시선 및 머리 움직임 기반의 윈도우 포커싱",
-        "사용자가 바라보는 위치로 포인터를 이동시켜 작업 흐름 유지",
-        "온디바이스 처리 방식으로 개인정보 보호 및 보안 강화"
-      ],
-      "tags": [
-        "Productivity",
-        "macOS",
-        "Eye-Tracking",
-        "Workflow",
-        "AI Tool",
-        "DevTool"
-      ],
-      "confidence": "상",
-      "adoption_complexity": "하",
-      "practical_relevance": "멀티 모니터를 사용하거나 키보드 작업에 집중해야 하는 개발자 및 전문가들이 마우스 이동 시간을 줄이고 작업 흐름을 끊김 없이 유지할 수 있습니다.",
-      "recommended_actions": [
-        "카메라 권한 허용 후 시선 추적 정확도 테스트하기",
-        "멀티 모니터 환경에서 윈도우 전환 흐름 확인하기",
-        "타이핑 및 마우스 사용 시 포커스 유지 기능 검증하기"
-      ],
-      "risks_and_limits": [
-        "카메라를 상시 사용하므로 배터리 소모 및 발열 발생 가능성",
-        "사용자의 시선 움직임에 따른 의도치 않은 포커스 변경 가능성"
-      ],
-      "uncertainty_note": "하드웨어 사양에 따른 시선 추적 정밀도와 배터리 효율에 대한 구체적인 데이터가 필요합니다.",
-      "repeated_in_window": false,
-      "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Winq.jpg",
-      "local_media": [
-        "images/ph_2026-11-06_Winq_media_1.jpg",
-        "images/ph_2026-11-06_Winq_media_2.jpg",
-        "images/ph_2026-11-06_Winq_media_3.jpg"
-      ],
-      "video_links": []
-    },
-    {
-      "rank": 23,
-      "name": "Mmory",
-      "url": "https://www.producthunt.com/products/mmory",
-      "service_url": "https://www.producthunt.com/r/7ITWCWAU7UHVER",
-      "website": "https://www.producthunt.com/r/7ITWCWAU7UHVER",
-      "votes": 66,
-      "tagline": "Mmory is a private voice memory app for iPhone",
-      "summary": "아이폰 내에서 모든 기록과 답변이 이루어지는 프라이빗 음성 메모 앱",
-      "key_points": [
-        "음성 또는 타이핑을 통한 간편한 생각 기록",
-        "기기 내(On-device) 전사 및 답변 처리로 강력한 개인정보 보호",
-        "기록된 내용을 나중에 질문하고 답변받는 대화형 메모 기능"
+        "음성 입력을 통한 자동 할 일 목록 및 메모 생성",
+        "자연스러운 대화형 인터페이스(Orb) 제공",
+        "아이폰 및 아이패드 최적화"
       ],
       "tags": [
         "Productivity",
         "AI",
-        "Privacy",
+        "Voice-to-Text",
         "iOS"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "개인적인 생각을 안전하게 기록하고, 나중에 AI에게 질문하여 필요한 정보를 빠르게 다시 찾을 수 있습니다.",
+      "practical_relevance": "복잡한 입력 과정 없이 말 한마디로 할 일, 아이디어, 메모를 즉시 구조화하여 생산성을 높여줍니다.",
       "recommended_actions": [
-        "음성으로 생각 기록해보기",
-        "기록된 내용에 대해 질문해보기",
-        "기기 내 처리 방식 확인하기"
+        "음성으로 할 일 목록 만들기",
+        "아이디어 및 메모 기록하기",
+        "기존 메모 수정 및 정리하기"
       ],
       "risks_and_limits": [
-        "아이폰 전용 앱이므로 타 플랫폼과의 동기화 여부 확인 필요",
-        "기기 성능에 따른 처리 속도 차이 가능성"
+        "iOS/iPadOS 환경에 국한된 사용성",
+        "음성 인식 정확도에 따른 결과물 차이 가능성"
       ],
-      "uncertainty_note": "기기 내 처리 방식이 모든 데이터(음성 파일 포함)에 완벽히 적용되는지 확인이 필요합니다.",
+      "uncertainty_note": "상세한 유료 플랜 정책 및 데이터 동기화 범위에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Mmory.jpg",
+      "local_image_path": "images/ph_2026-11-07_Duly.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Mmory_media_0.jpg",
-        "images/ph_2026-11-06_Mmory_media_1.jpg",
-        "images/ph_2026-11-06_Mmory_media_2.jpg"
+        "images/ph_2026-11-07_Duly_media_1.jpg",
+        "images/ph_2026-11-07_Duly_media_2.jpg",
+        "images/ph_2026-11-07_Duly_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/03c7f42a-fc31-4128-b165-c5a6111d7c28.jpeg?auto=format"
+        "https://ph-files.imgix.net/59a47b9f-2b76-4374-9d2c-b7564e375ffd.jpeg?auto=format"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Standflow",
+      "url": "https://www.producthunt.com/products/standflow",
+      "service_url": "https://www.producthunt.com/r/EH4R533C7KLDHS",
+      "website": "https://www.producthunt.com/r/EH4R533C7KLDHS",
+      "votes": 67,
+      "tagline": "Sit, stand, perch, and move on a rhythm from your menu bar",
+      "summary": "맥 메뉴바에서 간편하게 자세 변화를 유도하는 스탠딩 데스크 타이머",
+      "key_points": [
+        "앉기, 서기, 걸터앉기 등 다양한 자세 변화를 유도하는 주기적 타이머",
+        "20-8-2 가이드라인 기반 프리셋 및 사용자 맞춤형 사이클 설정 기능",
+        "로컬 데이터 저장 방식으로 개인정보 보호 및 데이터 보안 강화"
+      ],
+      "tags": [
+        "Productivity",
+        "Health",
+        "macOS",
+        "Wellness",
+        "AI Tool"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "한 자세로 오래 머무는 습관을 방지하고, 맥 메뉴바에서 직관적으로 움직임을 유도하여 건강한 업무 환경을 만들어줍니다.",
+      "recommended_actions": [
+        "Easy Start 프리셋으로 나만의 움직임 리듬 만들기",
+        "메뉴바에서 사이클 링을 드래그하여 맞춤형 루틴 설정하기",
+        "일일 스탠딩 목표 설정 및 대시보드 확인하기"
+      ],
+      "risks_and_limits": [
+        "macOS 전용 앱이므로 다른 운영체제에서는 사용 불가",
+        "물리적인 움직임을 유도하는 것이므로 작업 중 즉각적인 움직임이 어려울 수 있음"
+      ],
+      "uncertainty_note": "제공된 정보에는 macOS의 특정 버전 요구사항이나 상세한 데이터 백업 방식에 대한 정보가 포함되어 있지 않습니다.",
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "local_image_path": "images/ph_2026-11-07_Standflow.jpg",
+      "local_media": [
+        "images/ph_2026-11-07_Standflow_media_0.jpg",
+        "images/ph_2026-11-07_Standflow_media_1.jpg",
+        "images/ph_2026-11-07_Standflow_media_2.jpg"
+      ],
+      "video_links": [
+        "https://ph-files.imgix.net/6c8de520-5f1a-4265-90ab-18b7b777947e.jpeg?auto=format"
       ]
     },
     {
       "rank": 24,
-      "name": "Openroster",
-      "url": "https://www.producthunt.com/products/openroster",
-      "service_url": "https://www.producthunt.com/r/WJVOKB2CCZDDU2",
-      "website": "https://www.producthunt.com/r/WJVOKB2CCZDDU2",
-      "votes": 65,
-      "tagline": "Which \"Open\" companies are actually open source",
-      "summary": "이름만 'Open'인 기업과 진짜 오픈소스 기업을 구분해주는 디렉토리 서비스",
+      "name": "PacerTrip",
+      "url": "https://www.producthunt.com/products/pacertrip",
+      "service_url": "https://www.producthunt.com/r/6GVLVAT7EARNFS",
+      "website": "https://www.producthunt.com/r/6GVLVAT7EARNFS",
+      "votes": 66,
+      "tagline": "Pick a marathon abroad. We plan the trip around race day.",
+      "summary": "전 세계 마라톤 대회를 탐색하고 맞춤형 여행 일정까지 계획하는 러너 전용 여행 플래너",
       "key_points": [
-        "이름에 'Open'이 포함된 기업 및 오픈 빌드 기업 디렉토리 제공",
-        "라이선스, 저장소, GitHub, OpenSSF, 패키지 통계를 통한 오픈소스 여부 검증",
-        "스타 성장률 기반의 주간 오픈 프로젝트 랭킹 제공"
+        "전 세계 142개국 3,000개 이상의 마라톤 대회 정보 통합 제공",
+        "현지 통화 환산 및 접수 시작일 알림 기능으로 대회 신청 편의성 증대",
+        "AI 기반의 레이스 주간 일정 생성 및 거리별 숙소 정리 기능"
       ],
       "tags": [
-        "DevTool",
-        "OpenSource",
-        "Directory",
+        "Travel",
+        "Running",
+        "AI",
+        "Planning",
         "AI Tool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "기업의 이름이 아닌 실제 오픈소스 기여도와 투명성을 데이터로 확인할 수 있어, 신뢰할 수 있는 오픈소스 생태계 파악에 유용합니다.",
+      "practical_relevance": "해외 마라톤 참가를 위해 여러 사이트를 뒤질 필요 없이, 앱 하나로 접수부터 여행 일정까지 원스톱으로 해결할 수 있습니다.",
       "recommended_actions": [
-        "관심 있는 기업의 실제 오픈소스 여부 확인하기",
-        "주간 랭킹을 통해 급성장하는 오픈 프로젝트 탐색하기"
+        "가고 싶은 국가의 마라톤 일정 및 참가비 확인하기",
+        "접수 시작일 알림 설정하여 티켓 확보하기",
+        "AI가 제안하는 레이스 주간 일정 검토하기"
       ],
       "risks_and_limits": [
-        "데이터가 실시간 라이선스 변경 사항을 즉각 반영하는지 확인 필요",
-        "기업의 이름만으로 필터링되므로 모든 관련 기업이 포함되지 않을 수 있음"
+        "대회 접수 및 결제는 외부 사이트에서 이루어질 수 있으므로 최종 확인 필요",
+        "AI 생성 일정의 실제 현지 상황 반영 여부 확인 필요"
       ],
-      "uncertainty_note": "제공되는 통계 데이터의 업데이트 주기와 데이터 소스의 정확성을 확인해야 합니다.",
+      "uncertainty_note": "대회 접수 대행 서비스인지, 단순 정보 제공 플랫폼인지에 대한 명확한 구분 확인이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Openroster.jpg",
+      "local_image_path": "images/ph_2026-11-07_PacerTrip.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Openroster_media_0.jpg",
-        "images/ph_2026-11-06_Openroster_media_1.jpg",
-        "images/ph_2026-11-06_Openroster_media_2.jpg"
+        "images/ph_2026-11-07_PacerTrip_media_0.jpg",
+        "images/ph_2026-11-07_PacerTrip_media_1.jpg",
+        "images/ph_2026-11-07_PacerTrip_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/a02e0ca7-c50b-4def-88a5-cbc98fa224e4.jpeg?auto=format"
+      ]
     },
     {
       "rank": 25,
-      "name": "PostMyPace",
-      "url": "https://www.producthunt.com/products/postmypace",
-      "service_url": "https://www.producthunt.com/r/ATHUSO6VSZSN5R",
-      "website": "https://www.producthunt.com/r/ATHUSO6VSZSN5R",
-      "votes": 64,
-      "tagline": "Turn your run into a ready-to-post Instagram Story or Reel",
-      "summary": "러닝 기록을 감각적인 인스타그램 스토리나 릴스로 즉시 변환해주는 앱",
+      "name": "Scriblive",
+      "url": "https://www.producthunt.com/products/scriblive",
+      "service_url": "https://www.producthunt.com/r/FHCNEFZAW2AZEX",
+      "website": "https://www.producthunt.com/r/FHCNEFZAW2AZEX",
+      "votes": 16,
+      "tagline": "Turn your kid's drawing into a 45-second cartoon",
+      "summary": "아이의 그림을 단 한 장의 사진으로 45초 분량의 애니메이션으로 변환해주는 AI 서비스",
       "key_points": [
-        "80개 이상의 러너 전용 디자인 템플릿 제공",
-        "Apple Health 및 Health Connect를 통한 운동 데이터 자동 연동",
-        "거리, 시간, 페이스 등 핵심 기록과 사진을 결합한 쉬운 공유"
+        "아이의 그림을 촬영하여 업로드하는 간편한 방식",
+        "별도의 프롬프트나 편집 없이 AI가 자동으로 플롯과 애니메이션 생성",
+        "아이의 목소리를 담아 더욱 특별한 스토리텔링 가능"
       ],
       "tags": [
-        "Fitness",
-        "SocialMedia",
-        "MobileApp",
-        "Design"
+        "AI",
+        "Animation",
+        "Parenting",
+        "Creative",
+        "AI Tool",
+        "Prompting"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "운동 기록을 일일이 편집할 필요 없이, 전문적인 디자인의 콘텐츠로 만들어 SNS에 바로 공유할 수 있습니다.",
+      "practical_relevance": "복잡한 편집 기술 없이도 아이의 창작물을 생동감 넘치는 영상 콘텐츠로 만들어 부모와 아이에게 특별한 경험을 제공합니다.",
       "recommended_actions": [
-        "80여 종의 템플릿 중 취향에 맞는 디자인 선택하기",
-        "Apple Health 또는 Health Connect 연동하여 데이터 불러오기",
-        "러닝 사진을 추가하여 나만의 스토리 완성하기"
+        "아이의 그림 사진 찍기",
+        "생성된 45초 애니메이션 확인하기",
+        "아이의 목소리로 스토리 입히기"
       ],
       "risks_and_limits": [
-        "데이터 수동 입력 기능이 있으나 자동 연동 여부에 따라 작업 흐름이 달라질 수 있음",
-        "iOS 및 Android 기기에서 사용 가능"
+        "결과물이 생성되기까지 최대 1시간 정도의 시간이 소요될 수 있음",
+        "사용자의 세밀한 편집이나 프롬프트 제어 기능은 제한적임"
       ],
-      "uncertainty_note": "무료 버전의 기능 제한이나 유료 구독 모델의 상세 내용은 명시되지 않았습니다.",
+      "uncertainty_note": "정확한 생성 소요 시간과 서비스 이용 요금 체계에 대한 정보가 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_PostMyPace.jpg",
+      "local_image_path": "images/ph_2026-11-07_Scriblive.jpg",
       "local_media": [
-        "images/ph_2026-11-06_PostMyPace_media_0.jpg",
-        "images/ph_2026-11-06_PostMyPace_media_1.jpg",
-        "images/ph_2026-11-06_PostMyPace_media_2.jpg"
+        "images/ph_2026-11-07_Scriblive_media_1.jpg",
+        "images/ph_2026-11-07_Scriblive_media_2.jpg",
+        "images/ph_2026-11-07_Scriblive_media_3.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/ad230bdc-1cae-4ca7-8729-dfc90a759d7e.jpeg?auto=format"
+      ]
     },
     {
       "rank": 26,
-      "name": "MacDupl",
-      "url": "https://www.producthunt.com/products/macdupl-run-every-acc-in-its-own-app",
-      "service_url": "https://www.producthunt.com/r/N4IOOLNNRBSEOT",
-      "website": "https://www.producthunt.com/r/N4IOOLNNRBSEOT",
-      "votes": 64,
-      "tagline": "Run every account in its own app",
-      "summary": "로그아웃 없이 여러 계정을 독립된 앱처럼 동시에 사용할 수 있는 Mac용 멀티 계정 관리 도구",
+      "name": "Dietfit",
+      "url": "https://www.producthunt.com/products/dietfit",
+      "service_url": "https://www.producthunt.com/r/LT5ONGJVE72BVQ",
+      "website": "https://www.producthunt.com/r/LT5ONGJVE72BVQ",
+      "votes": 13,
+      "tagline": "AI calorie tracker that helps you eat smarter, not less",
+      "summary": "단순 칼로리 측정을 넘어 개인 맞춤형 코칭을 제공하는 AI 식단 관리 솔루션",
       "key_points": [
-        "기존 Mac 앱을 별도의 복사본으로 실행하여 계정별 독립 데이터 유지",
-        "업무용과 개인용 계정을 로그아웃 없이 사이드 바이 사이드로 사용 가능",
-        "0.2.0 업데이트: 개별 창 관리, 로그인 유지 업데이트, 메뉴 바 패널 제공"
+        "높은 정확도를 자랑하는 AI 기반 식단 스캔 기능",
+        "사진 속 식재료를 직접 편집할 수 있는 인터랙티브 스캔 기능",
+        "사용자의 식단 기록, 목표, 활동량을 반영한 개인형 AI 코치 'Sara'"
       ],
       "tags": [
+        "AI",
+        "Health",
+        "Nutrition",
         "Productivity",
-        "Mac",
-        "Multi-Account"
+        "AI Tool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "여러 계정을 전환하며 작업해야 하는 사용자에게 로그아웃의 번거로움 없이 즉각적인 계정 전환 환경을 제공합니다.",
+      "practical_relevance": "단순히 먹은 것을 기록하는 것을 넘어, 개인의 맥락을 이해하는 AI 코치를 통해 더 똑똑한 식습관을 형성할 수 있습니다.",
       "recommended_actions": [
-        "기존 앱을 복제하여 계정별 독립 환경 구축하기",
-        "메뉴 바 패널을 통한 빠른 접근 시도하기",
-        "업데이트 기능을 통해 로그인 상태 유지 확인하기"
+        "AI 스캔 기능으로 음식 사진 찍어보기",
+        "팝업창을 통해 식재료 세부 정보 편집해보기",
+        "AI 코치 Sara에게 개인 맞춤형 가이드 요청하기"
       ],
       "risks_and_limits": [
-        "앱 복제 방식이 시스템 리소스(RAM/CPU)에 미치는 영향 확인 필요",
-        "지원되지 않는 특정 앱에서의 동작 여부 확인 필요"
+        "AI 모델의 특성상 사진만으로 모든 식재료와 양을 완벽히 식별하기 어려울 수 있음",
+        "개인화된 코칭을 위해 사용자의 활동량 및 목표 데이터 입력이 필수적임"
       ],
-      "uncertainty_note": "모든 Mac용 앱이 이 복제 방식에서 완벽하게 호환되는지는 명시되어 있지 않습니다.",
+      "uncertainty_note": "Cal AI와의 비교 테스트 결과가 구체적으로 어떤 환경에서 이루어졌는지에 대한 상세 데이터가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_MacDupl.jpg",
+      "local_image_path": "images/ph_2026-11-07_Dietfit.jpg",
       "local_media": [
-        "images/ph_2026-11-06_MacDupl_media_0.jpg",
-        "images/ph_2026-11-06_MacDupl_media_1.jpg",
-        "images/ph_2026-11-06_MacDupl_media_2.jpg"
+        "images/ph_2026-11-07_Dietfit_media_0.jpg",
+        "images/ph_2026-11-07_Dietfit_media_1.jpg",
+        "images/ph_2026-11-07_Dietfit_media_2.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/5dc67726-da6c-4a4b-aabc-fdf294ccad2b.jpeg?auto=format"
+      ]
     },
     {
       "rank": 27,
-      "name": "Pressure",
-      "url": "https://www.producthunt.com/products/pressure",
-      "service_url": "https://www.producthunt.com/r/S5IPBWQSKLJCNA",
-      "website": "https://www.producthunt.com/r/S5IPBWQSKLJCNA",
-      "votes": 63,
-      "tagline": "Need a second opinion? Have two agents debate your topic",
-      "summary": "서로 다른 AI 모델 간의 토론을 통해 최적의 결론을 도출하는 의사결정 지원 도구",
+      "name": "CostGraph",
+      "url": "https://www.producthunt.com/products/costgraph-2",
+      "service_url": "https://www.producthunt.com/r/TS2MZIVJ7KW3ES",
+      "website": "https://www.producthunt.com/r/TS2MZIVJ7KW3ES",
+      "votes": 9,
+      "tagline": "The AI that finds, explains and fixes cloud waste",
+      "summary": "AI를 통해 클라우드 비용 낭비를 탐지하고 해결책을 제시하는 비용 최적화 도구",
       "key_points": [
-        "서로 다른 연구소의 두 AI 에이전트가 특정 주제에 대해 논쟁",
-        "논쟁 결과로 입장, 양보 사항, 결론, 미결 과제를 포함한 요약 제공",
-        "웹, Claude 커넥터, CLI(Claude Code/Codex) 등 다양한 환경 지원"
+        "AI 기반의 클라우드 비용 낭비 탐지",
+        "비용 발생 원인에 대한 상세한 설명 제공",
+        "낭비되는 클라우드 자원 자동 수정 및 최적화"
       ],
       "tags": [
+        "DevOps",
+        "Cloud",
         "AI",
-        "DecisionSupport",
-        "Productivity",
-        "DevTool",
-        "Agent",
+        "FinOps",
+        "Automation",
         "AI Tool"
       ],
-      "confidence": "상",
+      "confidence": "중",
       "adoption_complexity": "하",
-      "practical_relevance": "중요한 결정이나 아이디어 검증 시, 단일 모델의 편향을 피하고 다각적인 관점에서 문제를 검토할 수 있습니다.",
+      "practical_relevance": "클라우드 인프라 운영 비용을 절감하고, 복잡한 비용 분석 과정을 AI로 간소화할 수 있습니다.",
       "recommended_actions": [
-        "웹에서 가입 없이 즉시 토론 시작하기",
-        "Claude 커넥터로 워크플로우에 연결하기",
-        "CLI를 설치하여 개발 환경(Claude Code/Codex)에 통합하기"
+        "클라우드 비용 리포트 생성 기능 확인",
+        "AI가 제안하는 비용 절감 가이드 검토",
+        "자동 수정(Fix) 기능의 안전성 테스트"
       ],
       "risks_and_limits": [
-        "AI 모델 간의 논쟁이 항상 논리적 완결성을 보장하지는 않음",
-        "제공되는 요약본을 바탕으로 최종 판단은 사용자가 직접 내려야 함"
+        "자동 수정 기능 적용 시 인프라 설정 변경에 따른 영향도 확인 필요",
+        "클라우드 권한 부여에 따른 보안 정책 검토 필요"
       ],
-      "uncertainty_note": "사용되는 구체적인 AI 모델 종류와 상세한 API 연동 방식에 대한 정보가 필요합니다.",
+      "uncertainty_note": "제공되는 상세 기능과 지원하는 클라우드 서비스 범위(AWS, Azure, GCP 등)에 대한 정보가 부족합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Pressure.jpg",
+      "local_image_path": "images/ph_2026-11-07_CostGraph.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Pressure_media_0.jpg",
-        "images/ph_2026-11-06_Pressure_media_1.jpg",
-        "images/ph_2026-11-06_Pressure_media_2.jpg"
+        "images/ph_2026-11-07_CostGraph_media_1.jpg",
+        "images/ph_2026-11-07_CostGraph_media_2.jpg",
+        "images/ph_2026-11-07_CostGraph_media_3.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/e00890b7-352e-4143-9671-fbdea58fc5dd.jpeg?auto=format"
+      ]
     },
     {
       "rank": 28,
-      "name": "Moatly",
-      "url": "https://www.producthunt.com/products/moatly-2",
-      "service_url": "https://www.producthunt.com/r/SP3XNTZRTSK22W",
-      "website": "https://www.producthunt.com/r/SP3XNTZRTSK22W",
-      "votes": 63,
-      "tagline": "Measures your product's moat and the threats testing it",
-      "summary": "제품의 방어력(Moat)과 잠재적 위협을 실시간 데이터로 분석하는 전략 도구",
+      "name": "Thumbwise",
+      "url": "https://www.producthunt.com/products/thumbwise",
+      "service_url": "https://www.producthunt.com/r/Z67LOZLDDXZ7AC",
+      "website": "https://www.producthunt.com/r/Z67LOZLDDXZ7AC",
+      "votes": 9,
+      "tagline": "Organize iPhone apps on your Mac",
+      "summary": "Mac에서 iPhone 앱 레이아웃을 쉽고 정교하게 정리하는 도구",
       "key_points": [
-        "GitHub, AI 에이전트 레지스트리, 플랫폼 릴리스 노트 등 공개 데이터를 기반으로 분석",
-        "제품의 방어력(Moat) 강도와 외부 위협 압력을 시각화",
-        "클론 제품이나 AI 에이전트의 등장에 대비한 전략적 움직임 제안"
+        "USB를 통해 Mac에서 iPhone 앱 배치 및 위젯 설정 가능",
+        "기존 레이아웃 자동 백업 및 복구 기능 제공",
+        "AI 어시스턴트(Thumbwise MCP)를 통한 맞춤형 자동 배치 지원"
       ],
       "tags": [
-        "Product Strategy",
-        "Competitive Intelligence",
-        "AI",
-        "Analytics",
-        "Agent",
+        "Productivity",
+        "iOS",
+        "Automation",
+        "Mac",
         "AI Tool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "제품이 시장에서 얼마나 독보적인지 객관적으로 파악하고, 경쟁자나 플랫폼의 기능 업데이트에 따른 위협을 미리 대비할 수 있습니다.",
+      "practical_relevance": "작은 iPhone 화면 대신 넓은 Mac 화면에서 앱과 폴더를 자유롭게 배치하여 정리 시간을 획기적으로 단축할 수 있습니다.",
       "recommended_actions": [
-        "현재 제품의 Moat 점수 확인하기",
-        "잠재적 위협 요소(Threat Pressure) 분석하기",
-        "다음 전략적 움직임(Next Moves) 가이드 검토하기"
+        "USB로 iPhone 연결하여 현재 레이아웃 읽기",
+        "Mac에서 원하는 위치에 앱 및 위젯 배치하기",
+        "AI 어시스턴트를 활용한 자동 레이아웃 생성 시도하기"
       ],
       "risks_and_limits": [
-        "공개된 데이터(Public Evidence)를 기반으로 하므로 비공개 내부 지표는 반영되지 않음",
-        "분석 결과가 실제 시장 경쟁력을 100% 보장하지는 않음"
+        "기능 활성화를 위해 $14.99의 일회성 결제가 필요함",
+        "USB 연결을 통한 물리적 연결이 필요함"
       ],
-      "uncertainty_note": "분석에 사용되는 데이터 소스의 업데이트 주기와 구체적인 알고리즘 산출 방식에 대한 확인이 필요합니다.",
+      "uncertainty_note": "AI 어시스턴트(Thumbwise MCP)의 구체적인 작동 방식과 데이터 보안 수준에 대한 상세 정보가 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Moatly.jpg",
+      "local_image_path": "images/ph_2026-11-07_Thumbwise.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Moatly_media_0.jpg",
-        "images/ph_2026-11-06_Moatly_media_1.jpg",
-        "images/ph_2026-11-06_Moatly_media_2.jpg"
+        "images/ph_2026-11-07_Thumbwise_media_1.jpg",
+        "images/ph_2026-11-07_Thumbwise_media_2.jpg",
+        "images/ph_2026-11-07_Thumbwise_media_3.jpg"
       ],
-      "video_links": []
+      "video_links": [
+        "https://ph-files.imgix.net/41a90314-79cf-469a-901f-289ae6aa9329.jpeg?auto=format"
+      ]
     },
     {
       "rank": 29,
-      "name": "Any Video to Text",
-      "url": "https://www.producthunt.com/products/any-video-to-text",
-      "service_url": "https://www.producthunt.com/r/HR5O75MMTH7BFU",
-      "website": "https://www.producthunt.com/r/HR5O75MMTH7BFU",
-      "votes": 62,
-      "tagline": "Paste a video link, get the transcript in seconds",
-      "summary": "SNS 영상 링크만 붙여넣으면 즉시 텍스트로 변환해주는 초간편 트랜스크립트 도구",
+      "name": "Moneta",
+      "url": "https://www.producthunt.com/products/moneta-2",
+      "service_url": "https://www.producthunt.com/r/YRGMR5544UWOE3",
+      "website": "https://www.producthunt.com/r/YRGMR5544UWOE3",
+      "votes": 7,
+      "tagline": "Your work is the content. Moneta turns it into posts.",
+      "summary": "업무 기록을 자동으로 빌드 인 퍼블릭(Build-in-public) 콘텐츠로 변환해주는 자동화 도구",
       "key_points": [
-        "TikTok, YouTube, Instagram 등 SNS 링크 및 파일 업로드 지원",
-        "AI 음성 인식 및 자막 추출을 통한 텍스트 변환",
-        "인터뷰/팟캐스트용 화자 구분 및 요약/레시피 카드 기능 제공"
+        "업무 과정이 담긴 폴더를 기반으로 콘텐츠 생성",
+        "Claude Code, Codex 등 기존 AI 에이전트와 연동 가능",
+        "매일 글을 쓰는 번거로움 없이 꾸준한 배포 지원"
       ],
       "tags": [
-        "Productivity",
-        "AI",
-        "Video-to-Text",
         "Automation",
-        "AI Tool",
-        "Video"
+        "ContentCreation",
+        "Productivity",
+        "DevTools",
+        "Agent",
+        "DevTool"
       ],
       "confidence": "상",
       "adoption_complexity": "하",
-      "practical_relevance": "영상 내용을 일일이 타이핑할 필요 없이 링크 복사만으로 빠르게 텍스트화하여 업무나 학습 효율을 높일 수 있습니다.",
+      "practical_relevance": "작업 흐름을 방해하지 않으면서도 작업 결과물을 자연스럽게 SNS 콘텐츠로 전환하여 홍보 효율을 높여줍니다.",
       "recommended_actions": [
-        "SNS 영상 링크를 붙여넣어 텍스트 추출해보기",
-        "파일 업로드로 화자 구분 기능 테스트하기",
-        "추출된 내용을 요약하거나 SRT/VTT 파일로 다운로드하기"
+        "Mac의 작업 폴더를 Moneta와 연결하기",
+        "기존 AI 에이전트(Claude Code 등)를 활용해 포스트 생성하기",
+        "일회성 결제($20)로 평생 기능 사용하기"
       ],
       "risks_and_limits": [
-        "무료 사용 시 하루 5회 제한 및 가입 없이 사용 가능",
-        "2시간 이상의 긴 영상이나 대량 작업은 크레딧 결제 필요"
+        "작업 내용이 외부로 노출될 수 있으므로 보안 주의 필요",
+        "AI 에이전트 활용 능력에 따라 콘텐츠 품질이 달라질 수 있음"
       ],
-      "uncertainty_note": "무료 버전에서 제공되는 화자 구분 기능의 정확도와 상세 기능 포함 여부를 확인해야 합니다.",
+      "uncertainty_note": "사용자의 작업 폴더를 AI 에이전트가 읽는 방식과 보안 수준에 대한 구체적인 설명이 필요합니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_Any_Video_to_Text.jpg",
+      "local_image_path": "images/ph_2026-11-07_Moneta.jpg",
       "local_media": [
-        "images/ph_2026-11-06_Any_Video_to_Text_media_0.jpg",
-        "images/ph_2026-11-06_Any_Video_to_Text_media_1.jpg",
-        "images/ph_2026-11-06_Any_Video_to_Text_media_2.jpg"
+        "images/ph_2026-11-07_Moneta_media_0.jpg",
+        "images/ph_2026-11-07_Moneta_media_2.jpg",
+        "images/ph_2026-11-07_Moneta_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/810097b0-aff5-4215-860c-6d84730498aa.jpeg?auto=format"
+        "https://ph-files.imgix.net/b6aced2f-29bc-42d9-9224-54d9684d28b4.jpeg?auto=format"
       ]
     },
     {
       "rank": 30,
-      "name": "LiveShortly",
-      "url": "https://www.producthunt.com/products/liveshortly",
-      "service_url": "https://www.producthunt.com/r/ZGSK4JRZ3IHZ57",
-      "website": "https://www.producthunt.com/r/ZGSK4JRZ3IHZ57",
-      "votes": 62,
-      "tagline": "Watch, steer, share and approve your coding agent, live",
-      "summary": "코딩 에이전트의 작업 과정을 실시간으로 모니터링하고 제어하는 오픈소스 협업 도구",
+      "name": "MicroNotch",
+      "url": "https://www.producthunt.com/products/micronotch",
+      "service_url": "https://www.producthunt.com/r/K6UIG7FIHONRWD",
+      "website": "https://www.producthunt.com/r/K6UIG7FIHONRWD",
+      "votes": 7,
+      "tagline": "On-device dictation and everyday tools in your Mac’s notch",
+      "summary": "맥북 노치 영역을 활용해 생산성 도구와 온디바이스 음성 받아쓰기를 제공하는 유틸리티",
       "key_points": [
-        "에이전트의 프롬프트, 도구 호출, 코드 변경 사항(diff) 실시간 시각화",
-        "모바일로 위험한 명령 승인 및 실시간 코멘트 가능",
-        "세션 기록 재생 및 다른 에이전트로의 포크(Fork) 지원"
+        "노치 영역을 활용한 클립보드, 메모, 타이머 등 다양한 도구 제공",
+        "클라우드 없이 로컬에서 작동하는 개인정보 보호 중심의 MicroVoice 음성 전사",
+        "AI 코딩 세션을 위한 전용 코드 모드 및 사용자 맞춤형 테마 지원"
       ],
       "tags": [
+        "Productivity",
+        "Mac",
+        "Utility",
+        "AI",
         "DevTool",
-        "AI-Agent",
-        "OpenSource",
-        "Collaboration",
-        "Agent",
-        "Prompting"
+        "AI Tool",
+        "API"
       ],
       "confidence": "상",
-      "adoption_complexity": "중",
-      "practical_relevance": "에이전트가 코드를 작성하는 과정을 투명하게 관찰하며, 원격에서도 안전하게 승인하거나 협업할 수 있습니다.",
+      "adoption_complexity": "하",
+      "practical_relevance": "화면 공간을 차지하지 않고 맥북 상단 노치 영역을 활용해 작업 흐름을 끊지 않고 필수 도구에 접근할 수 있습니다.",
       "recommended_actions": [
-        "생성된 공유 링크를 통해 에이전트 작업 과정 관찰하기",
-        "모바일 환경에서 위험한 명령 승인/거절 테스트하기",
-        "완료된 세션을 포크하여 다른 에이전트 환경에 적용하기"
+        "3일 무료 체험을 통한 노치 레이아웃 적합성 확인",
+        "MicroVoice 모델 다운로드 및 영어 음성 전사 테스트",
+        "코드 모드를 활용한 AI 코딩 워크플로우 실험"
       ],
       "risks_and_limits": [
-        "셀프 호스팅 방식이므로 초기 환경 설정이 필요할 수 있음",
-        "에이전트의 작업 권한 설정에 따른 보안 리스크 관리 필요"
+        "MicroVoice 기능은 영어만 지원됨",
+        "노치 디자인이 적용된 맥북 모델에서 최적의 경험 제공"
       ],
-      "uncertainty_note": "상세한 설치 방법과 지원하는 에이전트 프레임워크의 종류를 확인해야 합니다.",
+      "uncertainty_note": "한국어 음성 전사 지원 여부 및 다른 언어 지원 범위는 명시되지 않았습니다.",
       "repeated_in_window": false,
       "repeated_days_ago": null,
-      "local_image_path": "images/ph_2026-11-06_LiveShortly.jpg",
+      "local_image_path": "images/ph_2026-11-07_MicroNotch.jpg",
       "local_media": [
-        "images/ph_2026-11-06_LiveShortly_media_1.jpg",
-        "images/ph_2026-11-06_LiveShortly_media_2.jpg"
+        "images/ph_2026-11-07_MicroNotch_media_1.jpg",
+        "images/ph_2026-11-07_MicroNotch_media_2.jpg",
+        "images/ph_2026-11-07_MicroNotch_media_3.jpg"
       ],
       "video_links": [
-        "https://ph-files.imgix.net/58c52d0d-47a3-40b3-b18e-aaec04e32950.jpeg?auto=format"
+        "https://ph-files.imgix.net/b7da8cd0-1bea-401c-b544-30207855e9f5.jpeg?auto=format"
       ]
     }
   ]
