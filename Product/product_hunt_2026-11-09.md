@@ -1,0 +1,1238 @@
+# 🚀 Product Hunt Daily Top 30 (2026-11-09)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트의 효율성을 극대화하기 위한 인프라와 자동화 도구, 그리고 개발자 생산성을 높이는 클라우드 기반 환경에 집중되었습니다. 특히 AI가 직접 코딩하거나 작업을 수행할 수 있도록 돕는 Mac 기반 클라우드 환경과 실시간 데이터 추출 기술이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트가 즉각적인 액션을 수행할 수 있도록 돕는 데이터 구조화 및 클라우드 인프라 솔루션이 등장했습니다.
+- 기존의 무거운 브라우저나 복잡한 워크플로우를 대체하는 가볍고 직관적인 Mac 네이티브 도구들이 주목받았습니다.
+- AI 제품 창업자와 개발자를 위한 GTM 자동화 및 실시간 서비스 상태 모니터링 등 실무 중심의 도구들이 출시되었습니다.
+
+**오늘의 태그**: AI Agent, Developer Tools, Mac Productivity, Automation
+
+## 1. [Sage2 by Levanto Labs](https://www.producthunt.com/products/sagecraft)
+**Votes**: 158 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn live talk into structured data and instant actions
+**서비스 링크**: https://www.producthunt.com/r/ZVZ33J42Q2NP4A
+
+**태그**: DevTool, AI, Automation, NLP, API
+
+<img src="images/ph_2026-11-08_Sage2_by_Levanto_Labs.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실시간 대화를 구조화된 데이터로 변환하여 즉각적인 액션을 가능하게 하는 개발자용 API
+
+### 🔑 주요 기능
+- 자연어로부터 날짜, 금액, 기간 등 정형 데이터 추출
+- 대화 흐름에 따른 실시간 사용자 의도 추적
+- 대화 진전에 따른 자동화된 의사결정 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+대화형 애플리케이션 개발 시 복잡한 자연어 처리 과정을 생략하고, 추출된 데이터를 바탕으로 즉각적인 비즈니스 로직을 실행할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- API를 통한 데이터 추출 테스트
+- 실시간 의도 추적 기능 구현
+- 대화 기반 자동화 워크플로우 구축
+
+### ⚠️ 사용 전 확인할 점
+- 자연어 해석의 정확도 및 문맥 파악 한계 가능성
+- 실시간 스트리밍 데이터 처리 시의 지연 시간 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 API의 구체적인 언어 지원 범위와 데이터 보안 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Sage2_by_Levanto_Labs_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Sage2_by_Levanto_Labs_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Sage2_by_Levanto_Labs_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d0c03c99-d9c2-409e-9efa-8346a5ac2022.jpeg?auto=format)
+
+---
+
+## 2. [AXL](https://www.producthunt.com/products/axl-2)
+**Votes**: 153 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: GTM copilot for AI product founders: 1,200+ actions via MCP
+**서비스 링크**: https://www.producthunt.com/r/I2M2MPP6UQVT6W
+
+**태그**: GTM, AI, CRM, Automation, SaaS, AI Tool, Chat, Video, Marketing, Sales, Email
+
+<img src="images/ph_2026-11-08_AXL.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 제품 창업자를 위한 올인원 GTM(Go-To-Market) 코파일럿
+
+### 🔑 주요 기능
+- 리드 캡처부터 CRM, 이메일, 콜까지 포함된 통합 GTM 시스템
+- 100만 건의 딜 데이터를 학습한 AI 모델 기반의 정교한 리드 스코어링
+- MCP를 통해 ChatGPT, Claude, Cursor와 연동되는 1,200개 이상의 액션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 복잡한 통합 작업 없이 마케팅과 영업 도구를 하나로 통합하여, AI가 실시간 리드 데이터를 바탕으로 최적의 영업 타이밍을 제안합니다.
+
+### ✅ 지금 바로 써볼 기능
+- MCP를 통한 AI 에이전트(Claude, Cursor 등) 연동 테스트
+- 통합 대시보드에서 리드 스코어링 결과 확인
+- 웹페이지, 퀴즈, 웨비나 등 기본 마케팅 도구 설정
+
+### ⚠️ 사용 전 확인할 점
+- 모든 기능이 하나의 시스템에 통합되어 있어 기존에 사용하던 개별 툴과의 데이터 이전 작업이 필요할 수 있음
+- AI 모델의 스코어링 결과에 대한 사용자 검증 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자 규모에 따른 가격 정책 및 기존 CRM/마케팅 툴과의 데이터 마이그레이션 편의성을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_AXL_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_AXL_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_AXL_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d2e1779a-5f83-4b09-bb6b-02956616ffe7.jpeg?auto=format)
+
+---
+
+## 3. [Inkling 2 Small](https://www.producthunt.com/products/tinker-2)
+**Votes**: 151 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A model that can see and refine what it builds
+**서비스 링크**: https://www.producthunt.com/r/R4MZ6WWP7QAB6Z
+
+**태그**: AI, Coding, Agent, MLOps, AI Tool
+
+<img src="images/ph_2026-11-08_Inkling_2_Small.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코딩과 시각적 작업에 최적화된 고성능 MoE 모델
+
+### 🔑 주요 기능
+- 594B 파라미터 규모의 MoE(Mixture-of-Experts) 모델로 17B 활성 파라미터 활용
+- 장기 코딩 작업, 시각적 작업 및 에이전트 기능에 특화
+- Tinker 플랫폼을 통해 추론 및 미세 조정(Fine-tuning) 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코딩 프로젝트나 시각적 이해가 필요한 에이전트 개발 시 효율적인 작업 수행이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- Tinker 플랫폼에서 모델 추론 테스트하기
+- 특정 작업에 맞춘 미세 조정(Fine-tuning) 시도하기
+- 코딩 및 시각적 작업 성능 검증하기
+
+### ⚠️ 사용 전 확인할 점
+- 모델 규모가 크므로 작업 환경에 따른 리소스 요구사항 확인 필요
+- 특정 도메인 작업에서의 성능 편차 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Tinker 플랫폼 이용 시 발생하는 구체적인 비용 체계와 하드웨어 요구 사양에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Inkling_2_Small_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Inkling_2_Small_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Inkling_2_Small_media_2.jpg)
+
+---
+
+## 4. [Deduplication ](https://www.producthunt.com/products/hacker-noon)
+**Votes**: 114 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Which Meaning Owns the Word? 
+**서비스 링크**: https://www.producthunt.com/r/R664WMF3WWTS65
+
+**태그**: Analytics, Linguistics, DataViz, TechTrends, AI Tool
+
+<img src="images/ph_2026-11-08_Deduplication_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+기술 용어의 의미 변화와 주도권 싸움을 데이터로 보여주는 언어 분석 도구
+
+### 🔑 주요 기능
+- AI, 크립토, 클라우드 등 14개 분야 719개 중복 용어 분석
+- 위키피디아 페이지뷰를 활용한 실시간 의미 점수 산정
+- 원래 의미와 새로운 기술적 의미 사이의 주도권 변화 추적
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기술 용어가 시대에 따라 어떻게 의미가 변하고 있는지, 어떤 분야에서 특정 단어가 점유율을 높이고 있는지 시각적으로 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 워드 클라우드를 통해 용어 변화 시각화 살펴보기
+- 리더보드를 통해 분야별 용어 점유율 확인하기
+- 특정 용어 페이지에서 의미 변화 추이 탐색하기
+
+### ⚠️ 사용 전 확인할 점
+- 위키피디아 데이터에 의존하므로 실제 언어 사용량과 차이가 있을 수 있음
+- 분석 대상이 특정 기술 분야의 용어 변화에 국한됨
+
+### 🧭 확인이 더 필요한 정보
+분석에 사용된 14개 필드 외의 다른 분야에 대한 확장 가능 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Deduplication__media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Deduplication__media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Deduplication__media_2.jpg)
+
+---
+
+## 5. [NoMac](https://www.producthunt.com/products/nomac)
+**Votes**: 109 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your AI agent's own Mac, billed per minute. No subscription
+**서비스 링크**: https://www.producthunt.com/r/LV54W7UK6JWYO7
+
+**태그**: DevTool, AI, iOS, Cloud, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-11-08_NoMac.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+AI 에이전트를 위한 클라우드 기반 Apple Silicon Mac 환경 제공
+
+### 🔑 주요 기능
+- Claude Code, Cursor 등 AI 에이전트 전용 클라우드 Mac 환경 제공
+- Xcode 및 iOS 시뮬레이터가 포함된 Apple Silicon 환경을 30초 내 구축
+- 구독 없이 사용한 시간만큼만 과금되는 종량제 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+AI 에이전트가 iOS 앱 개발부터 빌드, TestFlight 배포까지 수행할 수 있는 인프라를 저렴하고 간편하게 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI 에이전트(Cursor 등)와 연동하여 코드 빌드 테스트
+- 클라우드 환경에서 iOS 시뮬레이터 실시간 모니터링
+- 종량제 크레딧 충전 후 자동화 워크플로우 실행
+
+### ⚠️ 사용 전 확인할 점
+- 사용 중단 시 인스턴스 종료 및 데이터 보존 정책 확인 필요
+- 사전 충전된 크레딧 기반이므로 과도한 자동화 실행 시 비용 발생 가능성
+
+### 🧭 확인이 더 필요한 정보
+사용자 데이터의 영구 저장 여부와 인스턴스 종료 후의 파일 관리 방식에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_NoMac_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_NoMac_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_NoMac_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/308b3ea8-b03e-4bc9-9923-a0c69da3c0ab.jpeg?auto=format)
+
+---
+
+## 6. [Archie](https://www.producthunt.com/products/archie-3)
+**Votes**: 103 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Mac Screenshot Manager & Notch Shelf
+**서비스 링크**: https://www.producthunt.com/r/W3WAASP4DI3V2G
+
+**태그**: Productivity, Mac, Screenshot, Workflow
+
+<img src="images/ph_2026-11-08_Archie.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 노치 영역을 활용해 스크린샷을 편리하게 관리하고 바로 활용하는 도구
+
+### 🔑 주요 기능
+- 맥북 노치(Notch) 영역을 활용한 스크린샷 보관
+- 편집 및 드래그 앤 드롭이 용이한 워크플로우 제공
+- 데스크탑을 깔끔하게 유지하는 가벼운 앱
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스크린샷을 파일로 저장하고 찾는 번거로움 없이, 노치에 보관된 이미지를 필요한 곳에 즉시 드래그하여 작업 시간을 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 스크린샷을 노치로 가져오는 방식 확인하기
+- 노치에 저장된 이미지를 다른 앱으로 드래그해보기
+- 기존 스크린샷 관리 방식과 비교해보기
+
+### ⚠️ 사용 전 확인할 점
+- 노치 디자인이 없는 맥 모델에서는 사용성이 다를 수 있음
+- 스크린샷 파일이 로컬에 어떻게 저장되는지 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+노치 영역의 공간 활용 방식과 상세한 편집 기능 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Archie_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Archie_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Archie_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ffb30c6b-8043-43ff-8b3f-11fe94369ed4.jpeg?auto=format)
+
+---
+
+## 7. [outages.live](https://www.producthunt.com/products/polylane)
+**Votes**: 93 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A free live outage feed for your agents
+**서비스 링크**: https://www.producthunt.com/r/SO7EMFRAKO7TPP
+**재등장**: 최근 7일 내 재등장 (마지막 등장 2일 전)
+
+**태그**: DevTool, Monitoring, Productivity, Agent, AI Tool, API
+
+<img src="images/ph_2026-11-08_outages.live.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+로그인 없이 즉시 사용하는 클라우드 및 개발 도구 통합 장애 알림 피드
+
+### 🔑 주요 기능
+- 클라우드, AI, 결제 등 주요 서비스의 공식 상태 페이지를 하나의 피드로 통합
+- 로그인이나 API 키 없이 무료로 사용 가능한 개발자 친화적 도구
+- MCP, RSS, Atom, JSON Feed, Slack 등 다양한 방식으로 실시간 정보 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+코드 디버깅 전 서비스 장애 여부를 즉시 확인하여 불필요한 리소스 낭비를 방지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- RSS나 Slack을 통해 실시간 피드 구독하기
+- 코딩 에이전트에 MCP를 통해 장애 컨텍스트 연결하기
+- 통합 피드를 통해 서비스 상태 모니터링하기
+
+### ⚠️ 사용 전 확인할 점
+- 공식 상태 페이지를 기반으로 하므로 데이터 업데이트 주기에 따른 미세한 지연이 있을 수 있음
+- 로그인 없이 제공되므로 개인화된 알림 설정에 제한이 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공되는 피드의 업데이트 주기와 서비스별 데이터 정확도는 각 공식 페이지의 업데이트 속도에 의존합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_outages.live_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_outages.live_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_outages.live_media_2.jpg)
+
+---
+
+## 8. [Zigzag Browser](https://www.producthunt.com/products/zigzag-browser)
+**Votes**: 91 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The polished, native Mac browser for life after Arc
+**서비스 링크**: https://www.producthunt.com/r/GUMMVH7DF5TXYG
+
+**태그**: Browser, Mac, Productivity, OpenSource, AI Tool
+
+<img src="images/ph_2026-11-08_Zigzag_Browser.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Arc 브라우저의 사용자 경험을 계승하면서도 압도적으로 가벼운 WebKit 기반 네이티브 Mac 브라우저
+
+### 🔑 주요 기능
+- Arc의 사이드바와 스페이스 기능을 유지하여 익숙한 전환 가능
+- Chromium이 아닌 WebKit 기반으로 설계되어 앱 용량이 18MB로 매우 가벼움
+- 계정 생성이나 AI 기능 없이 오픈 소스로 운영되는 개인정보 보호 중심 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+Arc의 기능은 유지하면서 무거운 리소스 점유율에서 벗어나고 싶은 Mac 사용자에게 최적의 대안을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 브라우저 데이터 가져오기 기능을 통한 빠른 전환
+- 컬러 스페이스와 스플릿 뷰 기능 활용하기
+- 기존 Chrome 확장 프로그램(1Password 등) 설치 및 연동
+
+### ⚠️ 사용 전 확인할 점
+- Chromium 기반이 아니므로 일부 Chrome 전용 확장 프로그램의 호환성 확인 필요
+- Arc와 유사한 UX를 제공하지만 세부적인 기능 차이가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+WebKit 기반 환경에서 모든 웹 사이트의 렌더링 및 확장 프로그램 호환성이 완벽한지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Zigzag_Browser_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Zigzag_Browser_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Zigzag_Browser_media_2.jpg)
+
+---
+
+## 9. [DocsAlot for customer support](https://www.producthunt.com/products/docsalot-2)
+**Votes**: 89 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Slack and Discord bot that answers your customers questions
+**서비스 링크**: https://www.producthunt.com/r/KH3KUD3PZ5P7SH
+
+**태그**: Customer Support, Automation, Slack, Discord, AI
+
+<img src="images/ph_2026-11-08_DocsAlot_for_customer_support.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+기존 지식 베이스를 활용해 Slack과 Discord에서 고객 질문에 자동 응답하는 봇
+
+### 🔑 주요 기능
+- Slack 및 Discord 플랫폼 지원
+- 기존 지식 베이스(Knowledge-base) 기반 답변 생성
+- 고객 지원 업무 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+고객 문의에 일일이 답변할 필요 없이, 이미 작성된 문서를 바탕으로 봇이 즉각 응답하여 지원 팀의 업무 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 지식 베이스 데이터 준비
+- Slack 또는 Discord에 봇 연동
+- 자동 응답 정확도 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 기존 문서의 품질에 따라 답변 정확도가 결정됨
+- 복잡하거나 맥락이 중요한 질문에 대한 대응 한계 가능성
+
+### 🧭 확인이 더 필요한 정보
+기존 지식 베이스를 어떤 형식(PDF, Notion, URL 등)으로 업로드할 수 있는지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_DocsAlot_for_customer_support_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_DocsAlot_for_customer_support_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_DocsAlot_for_customer_support_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/3eb12ff5-ccc7-45d2-b030-824372c85379.jpeg?auto=format)
+
+---
+
+## 10. [NotchIsland](https://www.producthunt.com/products/notchisland-2)
+**Votes**: 84 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Free, open-source Dynamic Island for the MacBook notch
+**서비스 링크**: https://www.producthunt.com/r/YYUJDCIEYXK6IE
+
+**태그**: Productivity, macOS, OpenSource, Utility, AI Tool
+
+<img src="images/ph_2026-11-08_NotchIsland.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 노치를 활용해 실시간 알림과 제어 기능을 제공하는 오픈소스 다이내믹 아일랜드
+
+### 🔑 주요 기능
+- 맥북 노치 영역을 활용한 직관적인 알림 및 상태 표시
+- 음악 재생, 타이머, 에어팟 배터리, 다운로드 등 실시간 정보 제공
+- 클립보드 히스토리, 파일 셸프, 앱 검색 및 계산기 등 생산성 도구 통합
+
+### 🙋 사용자에게 어떤 점이 좋은가
+노치 영역을 유휴 공간이 아닌 유용한 대시보드로 변모시켜, 작업 흐름을 방해하지 않고도 중요한 정보를 즉각 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 마우스 호버로 실시간 상태 정보 확인하기
+- 클릭하여 퀵 토글 및 미팅 Join 버튼 활용하기
+- Option-Space를 눌러 런처 기능 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 13 이상의 운영체제 필요
+- 노치 디자인이 없는 맥북 모델에서는 기능 활용이 제한적임
+
+### 🧭 확인이 더 필요한 정보
+하드웨어 사양에 따른 배터리 소모량이나 시스템 리소스 점유율은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_NotchIsland_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_NotchIsland_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_NotchIsland_media_2.jpg)
+
+---
+
+## 11. [Tilde ](https://www.producthunt.com/products/tilde-for-mac)
+**Votes**: 84 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Finder replacement & file manager for mac
+**서비스 링크**: https://www.producthunt.com/r/EDUF7QWRY4NIX6
+
+**태그**: Productivity, Mac, FileManagement, Workflow
+
+<img src="images/ph_2026-11-08_Tilde_.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자 정의 레이아웃과 워크스페이스로 파일 관리를 혁신하는 맥 전용 Finder 대체 앱
+
+### 🔑 주요 기능
+- 사용자 정의 분할 레이아웃을 통한 폴더 브라우징
+- 상태나 클라이언트별 커스텀 속성을 활용한 파일 정리
+- 저장된 워크스페이스를 통한 탭 및 레이아웃 복구 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 폴더 구조를 효율적으로 관리하고, 작업 환경을 저장하여 맥에서의 파일 탐색 시간을 획기적으로 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신만의 분할 레이아웃 설정하기
+- 클라이언트별 커스텀 속성 적용해보기
+- 워크스페이스 저장 기능으로 작업 환경 구축하기
+
+### ⚠️ 사용 전 확인할 점
+- 기존 Finder와의 데이터 호환성 및 마이그레이션 확인 필요
+- mac OS 전용이므로 다른 OS 사용자는 사용 불가
+
+### 🧭 확인이 더 필요한 정보
+상세한 기능 목록이 'too much to list'로 언급되어 있어 전체 기능 범위를 파악하기 어렵습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Tilde__media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Tilde__media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Tilde__media_2.jpg)
+
+---
+
+## 12. [Agent Clan](https://www.producthunt.com/products/agent-clan)
+**Votes**: 84 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Command your Claude Code and Codex agents with gestures
+**서비스 링크**: https://www.producthunt.com/r/FM5JX2VIU22Z3M
+
+**태그**: AI, DevTool, Automation, UX, Productivity, Agent
+
+<img src="images/ph_2026-11-08_Agent_Clan.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+제스처와 음성으로 Claude Code 및 Codex 에이전트를 제어하는 3D 인터랙티브 워크플로우 도구
+
+### 🔑 주요 기능
+- 손동작(제스처)을 통한 직관적인 3D 에이전트 제어
+- 음성 명령과 핸드 트래킹을 결합한 몰입형 작업 환경
+- 에이전트 간 작업 분배 및 권한 승인/거절의 간편한 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코딩 에이전트 작업을 마치 게임을 하듯 직관적인 제스처로 관리할 수 있어 작업 흐름이 더욱 역동적이고 편리해집니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제스처를 이용한 에이전트 소환 및 선택 기능 테스트
+- 음성 명령과 핸드 트래킹의 결합 사용해보기
+- 화면 요소 전달 및 작업 분배 기능 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- 하드웨어(카메라/마우스) 및 운영체제 호환성 확인 필요
+- 제스처 기반 인터페이스에 대한 사용자 숙련도 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 하드웨어 사양에 따른 제스처 인식 정확도와 구체적인 시스템 요구사항을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Agent_Clan_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Agent_Clan_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Agent_Clan_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/37fa1b59-ff9e-48e7-a7c2-b329bb5ad371.jpeg?auto=format)
+
+---
+
+## 13. [Keypause](https://www.producthunt.com/products/keypause)
+**Votes**: 81 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn off your Mac's keyboard while you clean it
+**서비스 링크**: https://www.producthunt.com/r/PPX32XU3L6UEPT
+
+**태그**: Mac, Utility, Productivity, AI Tool
+
+<img src="images/ph_2026-11-08_Keypause.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 키보드 청소 시 오타를 방지하기 위해 키 입력을 즉시 차단하는 유틸리티
+
+### 🔑 주요 기능
+- 클릭 한 번으로 모든 키보드 입력 잠금
+- 키보드 청소 시 발생하는 오입력 및 설정 변경 방지
+- 맥 메뉴 바에서 간편하게 제어 가능한 직관적인 인터페이스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+키보드 청소 중 의도치 않은 키 입력이나 설정 변경을 막아주어 하드웨어를 안전하고 깨끗하게 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 메뉴 바에서 잠금 기능 실행하기
+- 키보드 청소 진행하기
+- 청소 완료 후 잠금 해제하기
+
+### ⚠️ 사용 전 확인할 점
+- 키 잠금 상태에서 다른 입력 장치(마우스 등)의 동작 여부 확인 필요
+- 특정 시스템 단축키가 잠금 기능에 의해 작동하지 않을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+잠금 기능이 활성화된 상태에서 시스템 제어권이 어떻게 관리되는지에 대한 상세 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Keypause_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Keypause_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Keypause_media_2.jpg)
+
+---
+
+## 14. [Textly](https://www.producthunt.com/products/textly-capture-copy-paste)
+**Votes**: 81 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Capture Text & Tables from Anywhere on Your Mac
+**서비스 링크**: https://www.producthunt.com/r/5MCKG5K5ZIJPBP
+
+**태그**: Productivity, Automation, Mac, Data Extraction, Video
+
+<img src="images/ph_2026-11-08_Textly.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+화면 어디서든 텍스트와 표를 즉시 추출하여 데이터 작업을 자동화하는 Mac용 도구
+
+### 🔑 주요 기능
+- 복사 불가능한 영역(영상, PDF, 앱 등)에서 텍스트 및 표 데이터 추출
+- 표 구조를 유지한 채 CSV, Markdown, TSV 형식으로 내보내기 지원
+- 클립보드 히스토리 및 즉시 번역 기능 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+수동 타이핑이나 표 재작성 시간을 획기적으로 줄여주어 데이터 정리 및 문서 작업 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 화면 캡처 기능을 통한 텍스트 추출 테스트
+- 스크린샷 내 표를 CSV/Markdown으로 변환해보기
+- 클립보드 히스토리 기능 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용 도구이므로 Windows/Linux 환경에서는 사용 불가
+- 이미지 해상도나 폰트에 따라 추출 정확도가 달라질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+정확한 가격 정책 및 유료 플랜의 상세 기능 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Textly_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Textly_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Textly_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/eeef0448-3e14-4151-8f18-18e3d72734cb.jpeg?auto=format)
+
+---
+
+## 15. [Frameboy by World Labs](https://www.producthunt.com/products/marble-by-world-labs)
+**Votes**: 78 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Interactive world exploration with Atlas
+**서비스 링크**: https://www.producthunt.com/r/ZWDWXSQTYCO2EA
+
+**태그**: AI, WorldModel, GenerativeAI, Interactive
+
+<img src="images/ph_2026-11-08_Frameboy_by_World_Labs.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+World Labs의 Atlas 모델을 통해 실시간으로 가상 세계를 탐험하는 브라우저 데모
+
+### 🔑 주요 기능
+- World Labs의 Atlas 월드 모델 기반 실시간 브라우저 데모
+- 클라우드 GPU를 통한 실시간 뷰 생성 및 스트리밍
+- 최대 15fps의 속도로 제공되는 인터랙티브한 카메라 이동 경험
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 설치 없이 브라우저만으로 차세대 월드 모델이 생성하는 가상 환경을 직접 체험하고 탐험할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 큐레이팅된 장면 내에서 카메라 이동해보기
+- 실시간 생성되는 뷰의 디테일 확인하기
+- 브라우저 환경에서의 스트리밍 성능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 최대 15fps로 제한된 프레임 레이트로 인해 부드러움이 다소 부족할 수 있음
+- 클라우드 GPU 기반 스트리밍이므로 네트워크 환경에 따라 성능 차이가 발생할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자의 하드웨어 사양보다는 네트워크 대역폭이 사용자 경험에 미치는 영향이 클 것으로 보입니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Frameboy_by_World_Labs_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Frameboy_by_World_Labs_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Frameboy_by_World_Labs_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d548302b-3264-4688-b600-df2b22218828.jpeg?auto=format)
+
+---
+
+## 16. [Memorias](https://www.producthunt.com/products/memorias-3)
+**Votes**: 75 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: An AI biographer that turns your stories into a book
+**서비스 링크**: https://www.producthunt.com/r/QBKB3D2WTMT3FE
+
+**태그**: AI, Writing, Productivity, Life-Logging, AI Tool
+
+<img src="images/ph_2026-11-08_Memorias.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+당신의 목소리를 담아 한 권의 자서전으로 완성하는 AI 전기 작가
+
+### 🔑 주요 기능
+- 대화형 AI 질문을 통한 자연스러운 스토리텔링 유도
+- 음성 기록을 기반으로 한 타임라인 생성 및 챕터 자동 구성
+- 사용자의 실제 발언을 바탕으로 한 철저한 사실 검증
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글쓰기 부담 없이 말하는 것만으로도 전문적인 자서전을 만들 수 있으며, 구독료 없이 사용한 만큼만 결제하여 경제적입니다.
+
+### ✅ 지금 바로 써볼 기능
+- AI와 대화하며 인생의 주요 에피소드 이야기하기
+- 생성된 타임라인과 챕터 구성 확인하기
+- 개인 사진을 추가하여 책의 완성도 높이기
+
+### ⚠️ 사용 전 확인할 점
+- 음성 인식 품질에 따라 텍�트의 정확도가 달라질 수 있음
+- 구독형이 아닌 크레딧 기반 결제 방식이므로 사용량에 따른 비용 관리 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자당 필요한 크레딧의 구체적인 가격 체계와 세션당 제한 사항에 대한 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Memorias_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Memorias_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Memorias_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/7c94d2e6-fb36-48b5-b1a6-0949664cf080.jpeg?auto=format)
+
+---
+
+## 17. [NotchX](https://www.producthunt.com/products/notch-11)
+**Votes**: 74 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Turn your MacBook's notch into a hub for music and calls
+**서비스 링크**: https://www.producthunt.com/r/44VEOAOAAS3CS3
+
+**태그**: Productivity, MacBook, Utility
+
+<img src="images/ph_2026-11-08_NotchX.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 노치 영역을 활용해 음악, 메시지, 통화 정보를 한눈에 확인하는 라이브 허브
+
+### 🔑 주요 기능
+- 맥북 카메라 노치 영역을 실시간 정보 허브로 변환
+- Slack, Teams, 메시지 등 주요 알림 및 통화 제어 기능 제공
+- 음악 재생 상태, 다음 일정, 날씨 등 핵심 정보 시각화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+화면 공간을 효율적으로 활용하면서도 업무 흐름을 방해받지 않고 실시간 알림과 미디어 상태를 확인할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 14일 무료 체험을 통한 노치 활용도 확인
+- Slack 및 Teams 연동을 통한 업무 알림 관리
+- 음악 재생 및 통화 수신/거절 기능 테스트
+
+### ⚠️ 사용 전 확인할 점
+- 14일 무료 체험 종료 후 $9.99의 일회성 결제 필요
+- 노치 디자인이 적용된 맥북 모델에서만 사용 가능
+
+### 🧭 확인이 더 필요한 정보
+사용자의 맥북 모델 사양에 따른 노치 가시성 및 호환성 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_NotchX_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_NotchX_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_NotchX_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/4e8344dd-1c00-4004-9962-d9e2d4bc80c8.jpeg?auto=format)
+
+---
+
+## 18. [Orbi](https://www.producthunt.com/products/orbi-2)
+**Votes**: 10 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: The second brain for content teams
+**서비스 링크**: https://www.producthunt.com/r/4GMTMDQAG5DIPC
+
+**태그**: Content Creation, AI Agents, Marketing Automation, Analytics, Agent, AI Tool, Design
+
+<img src="images/ph_2026-11-08_Orbi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+콘텐츠 팀을 위한 AI 기반 전략 수립 및 자동 제작 솔루션
+
+### 🔑 주요 기능
+- 니치 시장의 트렌드 분석 및 성과 예측 기능
+- 브랜드 고유의 목소리를 유지하는 콘텐츠 생성
+- 기획부터 스크립트 작성, 편집, 발행까지 이어지는 에이전트 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+콘텐츠 기획의 불확실성을 줄이고, 브랜드 정체성을 유지하면서 제작 시간을 획기적으로 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 니치 시장 트렌드 분석 기능 테스트
+- 기존 푸티지를 활용한 자동 편집 및 스크립트 생성 기능 시도
+- 아이디어 점수 측정 및 성과 예측 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- AI가 생성한 콘텐츠의 브랜드 일치도 검토 필요
+- 사용자 푸티지(Footage) 품질에 따른 결과물 차이 가능성
+
+### 🧭 확인이 더 필요한 정보
+제공되는 에이전트의 자동화 범위와 외부 플랫폼(SNS 등)과의 직접적인 연동 수준을 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Orbi_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Orbi_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Orbi_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6fafb324-8045-4fd1-bb20-56ff978af461.jpeg?auto=format)
+
+---
+
+## 19. [mamitsu](https://www.producthunt.com/products/mamitsu)
+**Votes**: 10 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: An API and MCP that watches social videos and returns JSON
+**서비스 링크**: https://www.producthunt.com/r/ZBUIV74APGL3PR
+
+**태그**: DevTool, Automation, AI, DataExtraction, Video, API
+
+<img src="images/ph_2026-11-08_mamitsu.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+소셜 미디어 영상을 분석하여 핵심 정보를 JSON 데이터로 변환해주는 API 및 MCP 서버
+
+### 🔑 주요 기능
+- 영상, 오디오, 캡션 및 텍스트를 종합적으로 분석하는 멀티모달 기능
+- 포스트 내 제품, 재료, 단계별 절차 등을 구조화된 데이터로 추출
+- API 및 MCP 서버 형태로 제공되어 개발 워크플로우에 즉시 통합 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+소셜 미디어의 비정형 영상 콘텐츠를 정형 데이터로 자동 변환하여 데이터 수집 및 분석 자동화를 실현할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- API를 통한 영상 데이터 추출 테스트
+- MCP 서버를 활용한 AI 에이전트 연동
+- 비정형 포스트의 JSON 구조화 성능 확인
+
+### ⚠️ 사용 전 확인할 점
+- 영상 품질이나 배경 음악에 따른 데이터 추출 정확도 차이 가능성
+- 지원하는 소셜 미디어 플랫폼의 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+지원하는 구체적인 소셜 미디어 플랫폼 목록과 API 호출 제한 정책에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_mamitsu_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_mamitsu_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_mamitsu_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/404a4ab8-0ea9-4d45-8d63-6a6f352ff873.jpeg?auto=format)
+
+---
+
+## 20. [ReleaseStack](https://www.producthunt.com/products/releasestack)
+**Votes**: 8 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Creator & Brand Partnership Platform
+**서비스 링크**: https://www.producthunt.com/r/JLWIK7IOR5FMCS
+
+**태그**: Marketing, CreatorEconomy, Collaboration, Management, AI Tool
+
+<img src="images/ph_2026-11-08_ReleaseStack.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+캠페인 기획부터 크리에이터 섭외, 성과 추적까지 한 곳에서 관리하는 브랜드 파트너십 플랫폼
+
+### 🔑 주요 기능
+- 구조화된 캠페인 브리프 작성 기능
+- X(구 트위터) 기반의 검증된 크리에이터 발굴
+- 명확한 조건이 포함된 오퍼 발송 및 통합 워크스페이스 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+브랜드와 크리에이터 간의 협업 과정을 파편화된 도구 없이 하나의 워크스페이스에서 체계적으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 캠페인 브리프 템플릿 작성해보기
+- X에서 적합한 크리에이터 검색하기
+- 협업 조건이 포함된 오퍼 발송하기
+
+### ⚠️ 사용 전 확인할 점
+- X 플랫폼 의존도가 높을 수 있음
+- 플랫폼 외부 크리에이터와의 협업 관리 범위 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+X 외의 다른 소셜 미디어 플랫폼과의 연동 및 데이터 동기화 여부는 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_ReleaseStack_media_0.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f34ec56f-6654-4615-bb57-442b53c70bca.jpeg?auto=format)
+
+---
+
+## 21. [Wazza Pro](https://www.producthunt.com/products/wazza-pro)
+**Votes**: 6 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: AI production pipeline for film and animation studios
+**서비스 링크**: https://www.producthunt.com/r/X5ZPYTS5IECNM5
+
+**태그**: AI, FilmProduction, Automation, VFX, Workflow, AI Tool
+
+<img src="images/ph_2026-11-08_Wazza_Pro.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+영화 및 애니메이션 제작 전 과정을 아우르는 AI 기반 통합 프로덕션 파이프라인
+
+### 🔑 주요 기능
+- 사전 제작부터 포스트 프로덕션까지 아우르는 하이브리드 워크플로우 지원
+- 스트리밍 서비스 규격에 맞춘 마스터 파일 검수 및 자동 수정 기능
+- 40개 이상의 AI 도구와 단계별 비용 가시성 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+스튜디오의 제작 공정을 자동화하여 최종 결과물의 품질을 보장하고, 작업 단계별 비용을 실시간으로 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 40여 가지 AI 도구를 활용한 제작 공정 테스트
+- 스트리밍 배포 규격 검수 기능 실행
+- 스크립트에서 보드 제작까지의 워크플로우 계획
+
+### ⚠️ 사용 전 확인할 점
+- 전문적인 영상/애니메이션 제작 환경에 특화되어 있어 진입 장벽이 높을 수 있음
+- AI 도구 사용에 따른 비용 발생 구조 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 기존 소프트웨어와의 구체적인 호환성 및 워크플로우 통합 방식에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Wazza_Pro_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Wazza_Pro_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Wazza_Pro_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/50143195-b826-48b4-99ed-9da77ef5697e.jpeg?auto=format)
+
+---
+
+## 22. [Riff Calendar](https://www.producthunt.com/products/riff-calendar)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The calendar you zoom like a map
+**서비스 링크**: https://www.producthunt.com/r/52IHYU3YCU7Q2I
+
+**태그**: Productivity, Calendar, iOS, UX
+
+<img src="images/ph_2026-11-08_Riff_Calendar.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+지도처럼 확대/축소하며 일정 관리를 직관적으로 해결하는 캘린더 앱
+
+### 🔑 주요 기능
+- 지도처럼 줌인/줌아웃하여 반년 단위부터 하루 단위까지 자유롭게 이동
+- 화면 전환 없이 빈 시간을 찾아 즉시 일정을 추가하는 직관적 UI
+- iCloud, Google, Exchange 등 기존 iPhone 캘린더와 연동
+
+### 🙋 사용자에게 어떤 점이 좋은가
+일정의 범위를 넓게 보거나 좁게 보는 과정을 매끄럽게 연결하여, 시간 관리의 맥락을 놓치지 않게 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 줌 기능을 이용해 주간/월간 일정 흐름 파악하기
+- 빈 슬롯을 길게 눌러 즉시 일정 등록해보기
+- 기존 사용 중인 Google/iCloud 계정 연결하기
+
+### ⚠️ 사용 전 확인할 점
+- 기존 캘린더 앱의 기능(알림 설정, 반복 일정 등)과의 상세 기능 차이 확인 필요
+- 모바일 환경에서의 줌 제스처 숙련도에 따른 사용감 차이
+
+### 🧭 확인이 더 필요한 정보
+데스크톱 버전 지원 여부 및 상세한 동기화 속도에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Riff_Calendar_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Riff_Calendar_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Riff_Calendar_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/5fe121b2-91ad-4912-b2c5-633fe62f3b2c.jpeg?auto=format)
+
+---
+
+## 23. [Calcupedia](https://www.producthunt.com/products/calcupedia)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: 2,500+ calculators for your website and AI agents
+**서비스 링크**: https://www.producthunt.com/r/B6GANKQ77KLRKH
+
+**태그**: DevTool, AI, Productivity, Automation, Agent, AI Tool
+
+<img src="images/ph_2026-11-08_Calcupedia.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+웹사이트 임베딩과 AI 에이전트 연결이 가능한 2,500개 이상의 계산기 라이브러리
+
+### 🔑 주요 기능
+- 2,500개 이상의 다양한 계산기 및 단위 변환기 제공
+- 한 줄의 코드로 웹사이트에 간편하게 임베딩 가능
+- Claude 및 MCP 클라이언트를 통한 AI 에이전트 연동 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹사이트 운영자는 복잡한 계산 기능을 즉시 도입할 수 있고, AI 사용자는 AI가 계산 오류 없이 정확한 수식을 사용하도록 만들 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 필요한 계산기 검색 및 웹사이트 임베딩 테스트
+- Claude 등 AI 에이전트에 연결하여 수식 정확도 확인
+- 무료 사이트에서 계산기 기능 미리 사용해보기
+
+### ⚠️ 사용 전 확인할 점
+- 임베딩 시 웹사이트 디자인과의 호환성 확인 필요
+- AI 연동 시 사용 중인 MCP 클라이언트와의 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+무료 사용 범위와 유료 플랜의 상세 기능 차이에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Calcupedia_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Calcupedia_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Calcupedia_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/867e222f-7cd3-41dc-be26-0fcd406b3e58.jpeg?auto=format)
+
+---
+
+## 24. [Hostinvo](https://www.producthunt.com/products/hostinvo)
+**Votes**: 5 | **도입 난이도**: 상 | **신뢰도**: 상
+**Tagline**: Self-hosted Billing & Automation for Hosting Providers
+**서비스 링크**: https://www.producthunt.com/r/IMFFOQUDBCSN3G
+
+**태그**: Automation, Hosting, Self-Hosted, Billing, DevOps, AI Tool
+
+<img src="images/ph_2026-11-08_Hostinvo.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자체 서버에 설치하여 데이터 주권을 확보하는 호스팅 비즈니스 자동화 솔루션
+
+### 🔑 주요 기능
+- Stripe, PayPal 등을 통한 반복 결제 및 인보이스 관리
+- cPanel, WHM, Plesk 프로비저닝 자동화
+- 화이트 라벨 클라이언트 포털 및 WHMCS 데이터 가져오기 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+호스팅 사업자가 외부 SaaS에 의존하지 않고 자신의 서버에서 결제부터 고객 관리까지 모든 비즈니스 프로세스를 직접 운영할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- Docker를 이용한 설치 및 환경 구성
+- 기존 WHMCS 데이터 임포트 기능 테스트
+- 결제 게이트웨이 연동 및 자동화 워크플로우 설정
+
+### ⚠️ 사용 전 확인할 점
+- 자체 서버 운영에 따른 관리 책임 및 보안 유지 필요
+- 직접 설치형이므로 서버 환경 설정 및 백업 관리가 필수적임
+
+### 🧭 확인이 더 필요한 정보
+상세한 시스템 요구 사양 및 서버 리소스 소모량에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Hostinvo_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Hostinvo_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Hostinvo_media_2.jpg)
+
+---
+
+## 25. [Imajourn](https://www.producthunt.com/products/numatics)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Imajourn turns sound into shape
+**서비스 링크**: https://www.producthunt.com/r/CCWGFRAOFF4OZV
+
+**태그**: Creative, Audio, Visualizer, iOS
+
+<img src="images/ph_2026-11-08_Imajourn.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+소리를 시각적인 예술적 패턴으로 변환하는 몰입형 사운드 시각화 앱
+
+### 🔑 주요 기능
+- 소리 에너지를 물결이나 모래 패턴 같은 시각적 형태로 변환
+- 허밍이나 터치를 통한 실시간 상호작용 지원
+- 3D 공간 내 소리 이동 및 물리적 패턴 시뮬레이션
+
+### 🙋 사용자에게 어떤 점이 좋은가
+소리를 시각적 예술로 변환하여 새로운 감각적 경험을 제공하며, 광고나 추적 없이 깔끔한 사용자 환경을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 직접 허밍을 하여 실시간 패턴 변화 관찰하기
+- 화면을 터치하여 소리와 상호작용하기
+- Pro 버전을 통한 고급 기능 탐색하기
+
+### ⚠️ 사용 전 확인할 점
+- Pro 기능은 별도의 일회성 구매가 필요함
+- iPhone 및 iPad 환경에 최적화되어 있음
+
+### 🧭 확인이 더 필요한 정보
+Pro 버전의 구체적인 기능 차이와 가격 정책은 앱 내에서 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Imajourn_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Imajourn_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Imajourn_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/c7350fb7-bf13-4b25-b8bf-4fdf8ba8f556.jpeg?auto=format)
+
+---
+
+## 26. [Kigumi](https://www.producthunt.com/products/kigumi)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Good food. Great company. Less planning.
+**서비스 링크**: https://www.producthunt.com/r/HEABUGZ2PKBOLR
+
+**태그**: Food, Planning, Collaboration, Lifestyle
+
+<img src="images/ph_2026-11-08_Kigumi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+그룹의 취향과 식단을 고려한 간편한 공동 식사 계획 및 쇼핑 리스트 관리 도구
+
+### 🔑 주요 기능
+- 그룹 구성원의 입맛과 식단 요구사항을 반영한 식사 계획
+- 큐레이션된 레시피 카탈로그 제공
+- 선택한 레시피를 하나의 통합 쇼핑 리스트로 자동 정리
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 명의 식사 메뉴를 정하고 장을 보는 번거로운 과정을 자동화하여 계획 시간을 단축해 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 큐레이션된 레시피 카탈로그 탐색하기
+- 그룹 구성원의 식단 요구사항 설정하기
+- 통합 쇼핑 리스트 생성 및 공유하기
+
+### ⚠️ 사용 전 확인할 점
+- 레시피의 다양성이 사용자의 세부 취향을 모두 충족하는지 확인 필요
+- 오프라인 장보기 시 리스트 동기화 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+현재 제공되는 레시피 카탈로그의 규모와 상세한 식단 필터링 기능 범위를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Kigumi_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Kigumi_media_2.jpg)
+![Screenshot](images/ph_2026-11-08_Kigumi_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/807cba3c-412e-4af1-8fb9-1fc72caf7552.jpeg?auto=format)
+
+---
+
+## 27. [genko.me](https://www.producthunt.com/products/genko-me)
+**Votes**: 4 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: A headless CMS built around the writing screen
+**서비스 링크**: https://www.producthunt.com/r/TAG7YLQQS5VB7O
+
+**태그**: CMS, Writing, DevTool, Astro, Headless, API
+
+<img src="images/ph_2026-11-08_genko.me.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+글쓰기 중심의 인터페이스와 API를 결합한 헤드리스 CMS
+
+### 🔑 주요 기능
+- 초안 작성을 위한 최적화된 에디터 중심의 워크플로우
+- Astro 컴포넌트 지원 및 다국어 콘텐츠 관리
+- MCP(Model Context Protocol)를 통한 외부 콘텐츠 및 미디어 연동
+
+### 🙋 사용자에게 어떤 점이 좋은가
+글쓰기 작업과 콘텐츠 배포를 분리하여, 작가는 에디터에 집중하고 개발자는 API를 통해 세련된 웹사이트를 구축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 에디터의 글쓰기 경험 테스트하기
+- Astro 프레임워크와의 연동성 확인하기
+- 다국어 설정 및 MCP 클라이언트 연동 시도하기
+
+### ⚠️ 사용 전 확인할 점
+- 3명까지는 무료이지만, 팀 규모 확장 시 비용 구조 확인 필요
+- Astro 프레임워크 사용 시 가장 최적화된 환경일 수 있음
+
+### 🧭 확인이 더 필요한 정보
+Astro 외의 다른 프레임워크(Next.js 등)에서의 배포 편의성은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_genko.me_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_genko.me_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_genko.me_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/fd6953d0-a0f5-4ce4-9573-f93a710476e8.jpeg?auto=format)
+
+---
+
+## 28. [Animdock Tools](https://www.producthunt.com/products/animdock-tools)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Free Online Tools for Video Creators
+**서비스 링크**: https://www.producthunt.com/r/2QTSDXXTTBW73U
+
+**태그**: VideoEditing, Productivity, Privacy, Subtitles, Video
+
+<img src="images/ph_2026-11-08_Animdock_Tools.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+업로드 없이 브라우저에서 즉시 실행되는 프라이빗 영상 자막 생성 도구
+
+### 🔑 주요 기능
+- 파일 업로드 없는 브라우저 기반의 프라이빗 작업 환경
+- 99개 언어를 지원하는 오디오/비디오 기반 SRT 자막 변환
+- 세로형, 가로형, 단어별 캡션 등 다양한 스타일 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+영상을 서버에 업로드할 필요가 없어 개인정보 보호에 유리하며, 영상 제작자가 원하는 스타일의 자막을 빠르게 생성할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 99개 언어 지원을 통한 다국어 자막 생성 테스트
+- 다양한 캡션 스타일(세로/가로/단어별) 적용해보기
+- 로컬 브라우저 환경에서의 보안성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 브라우저 기반 도구이므로 대용량 파일 처리 시 시스템 리소스 영향 가능성
+- 로컬 실행 방식에 따른 브라우저 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+파일을 서버에 업로드하지 않는 방식이 구체적으로 어떤 기술(WebAssembly 등)을 사용하는지 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Animdock_Tools_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Animdock_Tools_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Animdock_Tools_media_2.jpg)
+
+---
+
+## 29. [Shipcontent](https://www.producthunt.com/products/shipcontent)
+**Votes**: 4 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Turn your SaaS product into marketing posts with one command
+**서비스 링크**: https://www.producthunt.com/r/N43MDD6V45G4BS
+
+**태그**: SaaS, Marketing Automation, Content Generation, Self-hosted, Marketing
+
+<img src="images/ph_2026-11-08_Shipcontent.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+SaaS 제품 정보를 한 번의 명령으로 마케팅용 콘텐츠로 변환해주는 셀프 호스팅 엔진
+
+### 🔑 주요 기능
+- SaaS 제품 데이터를 기반으로 자동 콘텐츠 생성
+- 캐러셀(Carousel) 및 모션 릴(Motion Reels) 형식 지원
+- 셀프 호스팅 방식으로 운영 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품의 핵심 정보를 입력하면 마케팅용 시각 자료를 즉시 생성해주어 콘텐츠 제작 시간을 획기적으로 단축할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 제품 팩트(Facts) 데이터 준비하기
+- 원클릭 명령어를 통한 콘텐츠 생성 테스트
+- 생성된 캐러셀 및 모션 릴 디자인 확인
+
+### ⚠️ 사용 전 확인할 점
+- 셀프 호스팅 환경 구축 및 유지 관리 필요
+- 입력된 제품 데이터의 품질에 따라 결과물 품질이 결정됨
+
+### 🧭 확인이 더 필요한 정보
+셀프 호스팅 환경의 기술적 요구 사양과 지원하는 프레임워크에 대한 정보가 추가로 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Shipcontent_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Shipcontent_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Shipcontent_media_2.jpg)
+
+---
+
+## 30. [Superliner Notes (Beta)](https://www.producthunt.com/products/superliner)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Superliner is a native graph outliner for the Mac
+**서비스 링크**: https://www.producthunt.com/r/YIUIYPXSPUNOCW
+
+**태그**: Productivity, Mac, Note-taking, Graph-based
+
+<img src="images/ph_2026-11-08_Superliner_Notes_(Beta).jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥(Mac) 환경에 최적화된 네이티브 그래프 기반 아웃라이너
+
+### 🔑 주요 기능
+- 계층적 구조를 가진 네이티브 그래프 아웃라이너
+- 각 노트가 개별 페이지로 열리는 유연한 구조
+- 로컬 파일 기반의 데이터 관리 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+맥 사용자에게 익숙한 네이티브 환경에서 노트 간 연결과 계층 구조를 동시에 관리할 수 있습니다. 데이터가 로컬 파일로 저장되어 보안과 소유권 측면에서 유리합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 노트 간 연결(Link) 기능 테스트
+- 아웃라인 내 중첩(Nest) 구조 활용
+- 로컬 파일 저장 방식 확인
+
+### ⚠️ 사용 전 확인할 점
+- 현재 베타 버전이므로 기능적 불안정성이 있을 수 있음
+- 맥(Mac) 전용 앱이므로 타 OS 사용자는 사용 불가
+
+### 🧭 확인이 더 필요한 정보
+베타 버전이므로 향후 기능 확장성 및 모바일 동기화 지원 여부가 불투명합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-08_Superliner_Notes_(Beta)_media_0.jpg)
+![Screenshot](images/ph_2026-11-08_Superliner_Notes_(Beta)_media_1.jpg)
+![Screenshot](images/ph_2026-11-08_Superliner_Notes_(Beta)_media_2.jpg)
+
+---
+
