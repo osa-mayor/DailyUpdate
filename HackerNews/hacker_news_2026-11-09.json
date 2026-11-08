@@ -1,0 +1,451 @@
+{
+  "source": "hacker_news",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T04:29:39.230541+09:00",
+  "count": 10,
+  "daily_summary": "오늘의 기술 뉴스는 레거시 시스템의 설계 결함과 현대적 보안 위협 사이의 충돌, 그리고 AI 기술 발전에 따른 프라이버시 및 기술 부채 문제를 중점적으로 다루었습니다. 또한, 새로운 터미널 라이브러리 출시와 웹 기반 에뮬레이션 기술 등 소프트웨어 생태계의 변화도 주목받았습니다.",
+  "daily_key_points": [
+    "과거의 설계 관습과 현대 라이브러리의 차이로 인한 인증 우회 및 AI 기반 자동화 공격에 따른 레거시 소프트웨어의 취약성 노출이 심각한 보안 이슈로 부각되었습니다.",
+    "AI 에이전트 도구의 개인정보 유출 문제와 연구 성과 과장 논란을 통해 기술적 엄밀함과 프라이버시 보호의 중요성이 강조되었습니다.",
+    "테슬라의 생산 전략 변화와 웹 브라우저 기반의 고성능 에뮬레이션 기술 등 소프트웨어와 하드웨어의 경계를 넘나드는 기술적 변화가 관찰되었습니다."
+  ],
+  "daily_tags": [
+    "보안취약점",
+    "AI프라이버시",
+    "레거시코드",
+    "소프트웨어엔지니어링"
+  ],
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 레거시 시스템의 설계 결함과 현대적 보안 위협 사이의 충돌, 그리고 AI 기술 발전에 따른 프라이버시 및 기술 부채 문제를 중점적으로 다루었습니다. 또한, 새로운 터미널 라이브러리 출시와 웹 기반 에뮬레이션 기술 등 소프트웨어 생태계의 변화도 주목받았습니다.\n\n📍 1. sshole\n⭐ Score: 2972 | 💬 Comments: 747\n📰 원문 요약: 1980년대 Unix에서는 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 불일치 등 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정의 경우, 암호화 함수가 오류를 반환하면 인증 로직이 이를 유효한 비밀번호로 오인하여 로그인이 허용되는 보안 허점이 발생합니다.\n💬 토론 요약: 특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 관점과, 설계 단계부터 특수 문자를 에러 값으로 지정해서는 안 된다는 기술적 쟁점이 대립합니다.\n📌 종합 요약: 과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 시스템 설정값과 일치하며 발생하는 인증 우회 가능성을 설명합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://sshhole.com\n💬 토론: https://news.ycombinator.com/item?id=50378228\n\n📍 2. Claude Code sends your email address to websites\n⭐ Score: 1598 | 💬 Comments: 530\n📰 원문 요약: Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 외부 사이트에 전송하는 현상이 보고되었습니다. 사용자의 명시적 동의 없이 개인 식별 정보가 HTTP 요청 헤더에 노면되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report #107757을 통해 제기되었으며, 에이전트 기반의 자동화 도구가 개인정보 보호를 저해할 수 있음을 보여줍니다.\n💬 토론 요약: 사용자 정보에 대한 Claude의 접근 권한이 과도하다는 비판과, 특정 API(예: SEC API) 호출 시 발생하는 기술적 요구사항일 수 있다는 분석이 대립하고 있습니다. 프라이버시 보호를 위해 해당 기능을 즉시 제거해야 한다는 주장과 서비스 운영상의 필요성을 검토해야 한다는 의견이 공존합니다.\n📌 종합 요약: Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 심각한 프라이버시 문제가 발생했습니다. 이로 인해 사용자의 개인정보가 스팸 메일 발송자들에게 노출되는 보안 취약점이 확인되었습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/anthropics/claude-code/issues/107757\n💬 토론: https://news.ycombinator.com/item?id=50385272\n\n📍 3. AI is forcing us to pay off 40 years of technical debt\n⭐ Score: 1301 | 💬 Comments: 749\n📰 원문 요약: 최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거 인간이 작성한 코드에 내재된 기술 부채를 해결하는 것이 시급하다고 경고합니다.\n💬 토론 요약: 국가적 차원의 스파이 활동이나 기업 간 첩보를 위해 은닉된 백도어와 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 의견이 있습니다. 또한 기술적 복잡성과 논리적 구조에 대한 철학적 비유를 통해 소프트웨어의 본질적 한계를 고찰하는 논의가 이어지고 있습니다.\n📌 종합 요약: AI 기술의 발전이 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점을 드러내며 기술 부채 해결을 강제하고 있습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\n💬 토론: https://news.ycombinator.com/item?id=50364336\n\n📍 4. Residential proxies detected on White House network\n⭐ Score: 1268 | 💬 Comments: 437\n📰 원문 요약: Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 탐지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 출구 활동이 기록되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 외부 트래픽 경유지로 악용되고 있을 가능성이 높습니다.\n💬 토론 요약: 감염된 기기가 대역폭 비용을 소모하는 수준의 경미한 악용을 넘어 더 큰 위협이 될 수 있다는 우려와, 백악관 IP를 경유지로 활용할 수 있는 상황 자체가 가진 보안적 가치에 대한 냉소적인 반응이 대립하고 있습니다.\n📌 종합 요약: 백악관 네트워크에서 거주용 프록시(Residential Proxy) 트래픽이 탐지되어 보안 위협이 제기되었습니다. 감염된 기기를 통해 외부 공격자가 백악관 IP를 경유지로 사용하는 상황에 대해 커뮤니티가 주목하고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://layer3intel.com/blog/residential-proxies-white-house-network\n💬 토론: https://news.ycombinator.com/item?id=50371246\n\n📍 5. Tesla to wind down Cybertruck production\n⭐ Score: 1147 | 💬 Comments: 2069\n📰 원문 요약: 일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 비전의 핵심인 사이버캡 생산량을 늘리기 위한 조치입니다. 사이버트럭은 2023년 말 인도 시작 이후 2024년 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치인 연간 25만 대에 크게 못 미치는 실적을 보였습니다.\n💬 토론 요약: 판매 부진에 따른 합리적인 결정이라는 비판과, 사이버트럭의 V2L(Vehicle to Load) 기능을 활용한 비상 전력 공급 등 실사용 가치에 대한 옹호가 대립하고 있습니다.\n📌 종합 요약: 테슬라가 사이버트럭 생산을 2027년 중반에 종료하고 로보택시용 사이버캡 생산에 집중할 계획입니다. 낮은 판매 실적과 생산 효율성 문제를 해결하기 위한 전략적 결정으로 풀이됩니다.\n🗂️ 분류: 비즈니스/스타트업\n🔗 링크: https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817\n💬 토론: https://news.ycombinator.com/item?id=50391456\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-09.md",
+  "items": [
+    {
+      "rank": 1,
+      "story_id": "50378228",
+      "title": "sshole",
+      "url": "https://sshhole.com",
+      "hn_url": "https://news.ycombinator.com/item?id=50378228",
+      "author": "josemrb",
+      "score": 2972,
+      "comments": 747,
+      "rank_score": 2082.385220893392,
+      "published_at_kst": "2026-11-05T21:19:02+09:00",
+      "published_date": "2026-11-05",
+      "summary": "과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 시스템 설정값과 일치하며 발생하는 인증 우회 가능성을 설명합니다.",
+      "story_text": "Related: https://hachyderm.io/@damienmiller/117563026759098135 / https://news.ycombinator.com/item?id=50377221 https://www.openssh.org/releasenotes.html#10.6p2 https://alpinelinux.org/posts/2026-11-05-openssh-password-au...",
+      "external_article_summary": "1980년대 Unix에서는 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 불일치 등 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정의 경우, 암호화 함수가 오류를 반환하면 인증 로직이 이를 유효한 비밀번호로 오인하여 로그인이 허용되는 보안 허점이 발생합니다.",
+      "article_summary": "1980년대 Unix에서는 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 불일치 등 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 막기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정의 경우, 암호화 함수가 오류를 반환하면 인증 로직이 이를 유효한 비밀번호로 오인하여 로그인이 허용되는 보안 허점이 발생합니다.",
+      "discussion_summary": "특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 관점과, 설계 단계부터 특수 문자를 에러 값으로 지정해서는 안 된다는 기술적 쟁점이 대립합니다.",
+      "key_points": [
+        "암호화 함수가 오류 시 반환하는 특수 문자가 시스템의 비밀번호 설정값과 일치할 때 인증 우회가 발생합니다.",
+        "musl libc와 같은 라이브러리가 안정성을 위해 NULL 대신 '*'를 반환하도록 설계한 것이 취약점의 원인이 되었습니다.",
+        "데이터 값과 제어 신호를 동일한 채널에서 사용하는 설계 방식의 위험성을 보여주는 사례입니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "mpyne",
+          "text": "OK, I think I see what’s going on with this, in this configuration. The goal from an attacker’s perspective is to get this to be true: `$ret = crypt($pw, $hash); $ret == $hash` wh…"
+        },
+        {
+          "author": "BoppreH",
+          "text": "In-band signaling[1] strikes again. * should not have been used as special value, neither for \"no password\" in /etc/passwd nor \"error while hashing the password\" in crypt. I'm afr…"
+        }
+      ],
+      "tags": [
+        "Unix",
+        "OpenSSH",
+        "crypt",
+        "Security Vulnerability",
+        "Linux"
+      ],
+      "domain": "sshhole.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 2,
+      "story_id": "50385272",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "hn_url": "https://news.ycombinator.com/item?id=50385272",
+      "author": "motoroco",
+      "score": 1598,
+      "comments": 530,
+      "rank_score": 1120.4824286063724,
+      "published_at_kst": "2026-11-06T07:17:15+09:00",
+      "published_date": "2026-11-06",
+      "summary": "Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 심각한 프라이버시 문제가 발생했습니다. 이로 인해 사용자의 개인정보가 스팸 메일 발송자들에게 노출되는 보안 취약점이 확인되었습니다.",
+      "story_text": "",
+      "external_article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 외부 사이트에 전송하는 현상이 보고되었습니다. 사용자의 명시적 동의 없이 개인 식별 정보가 HTTP 요청 헤더에 노면되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report #107757을 통해 제기되었으며, 에이전트 기반의 자동화 도구가 개인정보 보호를 저해할 수 있음을 보여줍니다.",
+      "article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 외부 사이트에 전송하는 현상이 보고되었습니다. 사용자의 명시적 동의 없이 개인 식별 정보가 HTTP 요청 헤더에 노면되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report #107757을 통해 제기되었으며, 에이전트 기반의 자동화 도구가 개인정보 보호를 저해할 수 있음을 보여줍니다.",
+      "discussion_summary": "사용자 정보에 대한 Claude의 접근 권한이 과도하다는 비판과, 특정 API(예: SEC API) 호출 시 발생하는 기술적 요구사항일 수 있다는 분석이 대립하고 있습니다. 프라이버시 보호를 위해 해당 기능을 즉시 제거해야 한다는 주장과 서비스 운영상의 필요성을 검토해야 한다는 의견이 공존합니다.",
+      "key_points": [
+        "Claude Code의 User-Agent 헤더에 사용자 이메일 주소가 포함되어 외부로 유출되는 보안 취약점이 발견되었습니다.",
+        "에이전트 기반 도구가 웹 검색 시 사용자 식별 정보를 헤더에 노출하는 것은 심각한 프라이버시 침해 요소입니다.",
+        "향lı후 AI 에이전트 도구의 개인정보 보호를 위한 옵트인(Opt-in) 방식 도입과 헤더 정보 최소화가 필수적입니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "varenc",
+          "text": "Many people report seeing this behavior when using the SEC API specifically which makes me think that service is requesting this. Maybe email is required by the SEC API? --- UPDAT…"
+        },
+        {
+          "author": "grey-area",
+          "text": "Biggest questions here, which I think need answering: Should Claude have access to user details? I’d say no, unless explicitly entered manually into a chat. Should Claude have acc…"
+        }
+      ],
+      "tags": [
+        "Claude Code",
+        "Anthropic",
+        "Privacy Violation",
+        "User-Agent",
+        "AI Agent"
+      ],
+      "domain": "github.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 3,
+      "story_id": "50364336",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "hn_url": "https://news.ycombinator.com/item?id=50364336",
+      "author": "pseudolus",
+      "score": 1301,
+      "comments": 749,
+      "rank_score": 912.686021961959,
+      "published_at_kst": "2026-11-04T20:52:17+09:00",
+      "published_date": "2026-11-04",
+      "summary": "AI 기술의 발전이 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점을 드러내며 기술 부채 해결을 강제하고 있습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.",
+      "story_text": "",
+      "external_article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거 인간이 작성한 코드에 내재된 기술 부채를 해결하는 것이 시급하다고 경고합니다.",
+      "article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress와 Drupal 환경을 위협할 수 있는 심각한 보안 이슈입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 전문가들은 AI를 활용한 자동화된 공격이 가능해짐에 따라, 과거 인간이 작성한 코드에 내재된 기술 부채를 해결하는 것이 시급하다고 경고합니다.",
+      "discussion_summary": "국가적 차원의 스파이 활동이나 기업 간 첩보를 위해 은닉된 백도어와 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 의견이 있습니다. 또한 기술적 복잡성과 논리적 구조에 대한 철학적 비유를 통해 소프트웨어의 본질적 한계를 고찰하는 논의가 이어지고 있습니다.",
+      "key_points": [
+        "AI 기반의 자동화된 공격 도구는 과거의 레거시 소프트웨어에 내재된 보안 취약점을 빠르게 노출시킵니다.",
+        "단순한 프로그램 충돌로 치부되던 Out-of-memory 오류가 심각한 보안 위협으로 변질될 수 있습니다.",
+        "현대적 보안 위협에 대응하기 위해 40년간 쌓인 기술 부채를 해결하는 것이 필수적입니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "Arbortheus",
+          "text": "I hope some of these backdoors and/or 0-days being kept under wraps by nation states or corporate espionage companies (Pegasus et al) are being found incidentally through all this…"
+        },
+        {
+          "author": "Balgair",
+          "text": "Aside: I think I need some help here.[0] I remember reading Godel Escher Bach back in the day, and there is the parable of the record player between the tortoise and the rabbit. A…"
+        }
+      ],
+      "tags": [
+        "PHP",
+        "Technical Debt",
+        "Cybersecurity",
+        "Legacy Software"
+      ],
+      "domain": "spectrum.ieee.org",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 4,
+      "story_id": "50371246",
+      "title": "Residential proxies detected on White House network",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "hn_url": "https://news.ycombinator.com/item?id=50371246",
+      "author": "Rasbora",
+      "score": 1268,
+      "comments": 437,
+      "rank_score": 889.4246656731128,
+      "published_at_kst": "2026-11-05T05:45:18+09:00",
+      "published_date": "2026-11-05",
+      "summary": "백악관 네트워크에서 거주용 프록시(Residential Proxy) 트래픽이 탐지되어 보안 위협이 제기되었습니다. 감염된 기기를 통해 외부 공격자가 백악관 IP를 경유지로 사용하는 상황에 대해 커뮤니티가 주목하고 있습니다.",
+      "story_text": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet...",
+      "external_article_summary": "Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 탐지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 출구 활동이 기록되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 외부 트래픽 경유지로 악용되고 있을 가능성이 높습니다.",
+      "article_summary": "Krebson Security의 조사 결과, 백악관 네트워크(AS2650)에서 28개의 서로 다른 거주용 프록시 서비스가 탐지되었습니다. 10월 5일부터 11월 3일 사이, 6개의 IP 주소를 통해 총 236회의 프록시 출구 활동이 기록되었습니다. 특히 활동 시간이 미국 동부 시간 기준 저녁 시간대에 집중된 점으로 보아, 특정 사용자의 기기가 프록시 SDK에 의해 감염되어 외부 트래픽 경유지로 악용되고 있을 가능성이 높습니다.",
+      "discussion_summary": "감염된 기기가 대역폭 비용을 소모하는 수준의 경미한 악용을 넘어 더 큰 위협이 될 수 있다는 우려와, 백악관 IP를 경유지로 활용할 수 있는 상황 자체가 가진 보안적 가치에 대한 냉소적인 반응이 대립하고 있습니다.",
+      "key_points": [
+        "백악관 소유 네트워크(AS2650) 내 기기가 거주용 프록시 출구로 악용되었습니다.",
+        "특정 시간대에 집중된 트래픽 패턴은 개인 기기의 감염 가능성을 시사합니다.",
+        "공개된 프록시 서비스를 통해 누구나 백악관 IP를 경유지로 사용할 수 있는 보안 허점이 드러났습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "btown",
+          "text": "The danger here, of course, is that while these compromised devices are currently being monetized in a relatively benign way (other than bandwidth costs to the user, which to be s…"
+        },
+        {
+          "author": "hackernud3s",
+          "text": "Those are better than residential proxies. Those are White House proxies. I would pay $10/GB for those babies."
+        }
+      ],
+      "tags": [
+        "Residential Proxy",
+        "Cybersecurity",
+        "Network Security",
+        "White House"
+      ],
+      "domain": "layer3intel.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 5,
+      "story_id": "50391456",
+      "title": "Tesla to wind down Cybertruck production",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+      "hn_url": "https://news.ycombinator.com/item?id=50391456",
+      "author": "PLenz",
+      "score": 1147,
+      "comments": 2069,
+      "rank_score": 805.1905911658778,
+      "published_at_kst": "2026-11-06T21:13:51+09:00",
+      "published_date": "2026-11-06",
+      "summary": "테슬라가 사이버트럭 생산을 2027년 중반에 종료하고 로보택시용 사이버캡 생산에 집중할 계획입니다. 낮은 판매 실적과 생산 효율성 문제를 해결하기 위한 전략적 결정으로 풀이됩니다.",
+      "story_text": "",
+      "external_article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 비전의 핵심인 사이버캡 생산량을 늘리기 위한 조치입니다. 사이버트럭은 2023년 말 인도 시작 이후 2024년 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치인 연간 25만 대에 크게 못 미치는 실적을 보였습니다.",
+      "article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 비전의 핵심인 사이버캡 생산량을 늘리기 위한 조치입니다. 사이버트럭은 2023년 말 인도 시작 이후 2024년 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치인 연간 25만 대에 크게 못 미치는 실적을 보였습니다.",
+      "discussion_summary": "판매 부진에 따른 합리적인 결정이라는 비판과, 사이버트럭의 V2L(Vehicle to Load) 기능을 활용한 비상 전력 공급 등 실사용 가치에 대한 옹호가 대립하고 있습니다.",
+      "key_points": [
+        "판매 목표치 미달과 생산 효율성 저하로 인해 사이버트럭 생산이 중단될 예정입니다.",
+        "테슬라는 사이버트럭 생산 라인을 로보택시 모델인 사이버캡 생산으로 전환할 계획입니다.",
+        "특수 부품 제조 역량을 갖춘 텍사스 공장의 향후 운영 방향이 주목받고 있습니다."
+      ],
+      "category": "비즈니스/스타트업",
+      "comment_highlights": [
+        {
+          "author": "brightball",
+          "text": "After Helene knocked out power in parts of my area for a little over 14 days, I found out that a friend of ours used his cybertruck to power his house through the entire mess. He'…"
+        },
+        {
+          "author": "paxy",
+          "text": "- Federal EV tax credits are over. - The emissions credit market (where Tesla made most of its money) is dead due to lowered standards. - Manufacturing costs haven't come down. -…"
+        }
+      ],
+      "tags": [
+        "Tesla",
+        "Cybertruck",
+        "Electric Vehicles",
+        "Robotaxi"
+      ],
+      "domain": "nbcnews.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 6,
+      "story_id": "50403052",
+      "title": "Need for Speed Underground 2 online in the browser",
+      "url": "https://nfsu2.xyz/",
+      "hn_url": "https://news.ycombinator.com/item?id=50403052",
+      "author": "fluxusars",
+      "score": 1096,
+      "comments": 275,
+      "rank_score": 768.8861202597151,
+      "published_at_kst": "2026-11-07T18:36:36+09:00",
+      "published_date": "2026-11-07",
+      "summary": "과거의 명작 레이싱 게임인 Need for Speed Underground 2를 웹 브라우저 환경에서 구동할 수 있게 구현한 프로젝트가 화제를 모으고 있습니다. 기술적 구현에 대한 놀라움과 저작권 문제에 대한 우려가 공존하고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "nfsu2.xyz 도메인을 통해 제공되는 이 프로젝트는 과거의 PC 게임을 현대적인 웹 브라우저 환경에서 실행할 수 있도록 에뮬레이션 기술을 적용했습니다. 사용자는 별도의 설치 과정 없이 모바일과 데스크톱 브라우저에서 원활하게 게임을 플레이할 수 있습니다. 이는 웹 기술의 발전이 과거의 소프트웨어를 재현하는 데 있어 강력한 도구가 될 수 있음을 보여줍니다.",
+      "article_summary": "nfsu2.xyz 도메인을 통해 제공되는 이 프로젝트는 과거의 PC 게임을 현대적인 웹 브라우저 환경에서 실행할 수 있도록 에뮬레이션 기술을 적용했습니다. 사용자는 별도의 설치 과정 없이 모바일과 데스크톱 브라우저에서 원활하게 게임을 플레이할 수 있습니다. 이는 웹 기술의 발전이 과거의 소프트웨어를 재현하는 데 있어 강력한 도구가 될 수 있음을 보여줍니다.",
+      "discussion_summary": "과거의 향수를 불러일으키는 기술적 성취에 대한 감탄과 함께, 저작권 침해 및 불법 복제 문제에 대한 법적 우려가 대립하고 있습니다.",
+      "key_points": [
+        "웹 브라우저 기반의 에뮬레이션을 통해 구형 게임을 현대적 기기에서 구동하는 기술적 성과를 보여줍니다.",
+        "사용자들은 설치 없이 모바일에서도 원활하게 작동하는 높은 호환성에 주목하고 있습니다.",
+        "저작권이 있는 소프트웨어를 웹상에 배포하는 행위에 대한 법적 책임 문제가 핵심 쟁점입니다."
+      ],
+      "category": "기타",
+      "comment_highlights": [
+        {
+          "author": "macNchz",
+          "text": "I played this when it was new, taking turns at the keyboard of my friend’s gaming PC. Kind of wild to revisit on my phone today and have it work perfectly. I wish the circumstance…"
+        },
+        {
+          "author": "popcar2",
+          "text": "Been playing it the last few days along with a few races with friends, it's pretty wild that this is even possible. The only downside is that this website isn't legal and now that…"
+        }
+      ],
+      "tags": [
+        "Web Emulation",
+        "Retro Gaming",
+        "Copyright"
+      ],
+      "domain": "nfsu2.xyz",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    },
+    {
+      "rank": 7,
+      "story_id": "50399933",
+      "title": "Libghostty 1.0",
+      "url": "https://mitchellh.com/writing/libghostty-1-0",
+      "hn_url": "https://news.ycombinator.com/item?id=50399933",
+      "author": "mfiguiere",
+      "score": 1064,
+      "comments": 191,
+      "rank_score": 746.3772486116083,
+      "published_at_kst": "2026-11-07T08:30:52+09:00",
+      "published_date": "2026-11-07",
+      "summary": "새로운 터미널 에뮬레이터인 Libghostty 1.0이 출시되었으며, 이는 Zig 언어로 작성된 고성능 터미널 라이브러리입니다. 개발자들은 이 라이브러리가 차세대 터미널 생태계의 기반이 될 가능성에 주목하고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Libghostty 1.0은 Zig 프로그래밍 언어를 기반으로 설계된 고성능 터미널 에뮬레이터 라이브러리입니다. 이 라이브러리는 단순한 에뮬레이터를 넘어, 차세대 터미널 및 에이전트 기반 코딩 도구들을 구축할 수 있는 프레임워크 역할을 수행하도록 설계되었습니다. 특히 C 인터페이스를 제공하여 다양한 프로그래밍 환경과의 호환성을 확보하고 있습니다.",
+      "article_summary": "Libghostty 1.0은 Zig 프로그래밍 언어를 기반으로 설계된 고성능 터미널 에뮬레이터 라이브러리입니다. 이 라이브러리는 단순한 에뮬레이터를 넘어, 차세대 터미널 및 에이전트 기반 코딩 도구들을 구축할 수 있는 프레임워크 역할을 수행하도록 설계되었습니다. 특히 C 인터페이스를 제공하여 다양한 프로그래밍 환경과의 호환성을 확보하고 있습니다.",
+      "discussion_summary": "새로운 터미널 도구들이 이 라이브러리를 기반으로 구축될 것이라는 기대와 함께, C 인터페이스를 통한 객체 관리 방식 등 설계 구조에 대한 기술적 논의가 이어지고 있습니다.",
+      "key_points": [
+        "Zig 언어를 사용하여 성능과 안전성을 동시에 확보한 터미널 라이브러리입니다.",
+        "단순한 에뮬레이터를 넘어 새로운 코딩 도구와 터미널 생태계를 위한 기반 기술로 활용될 수 있습니다.",
+        "C 인터페이스를 통해 외부 프로젝트와의 연동 및 확장이 용이하도록 설계되었습니다."
+      ],
+      "category": "개발 도구",
+      "comment_highlights": [
+        {
+          "author": "jdorfman",
+          "text": "> “And a whole wave of new terminals and \"agentic\" coding tools, such as herdr and cmux, have been built on it rather than writing yet another emulator.” Mitchell could have easil…"
+        },
+        {
+          "author": "smj-edison",
+          "text": "I'm currently working on my own Zig project (an interpreter) and right now I'm working on designing a C interface for it. Seeing things mentioned like having objects as opaque han…"
+        }
+      ],
+      "tags": [
+        "Libghostty",
+        "Zig",
+        "Terminal Emulator",
+        "Open Source"
+      ],
+      "domain": "mitchellh.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 8,
+      "story_id": "50351111",
+      "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+      "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+      "hn_url": "https://news.ycombinator.com/item?id=50351111",
+      "author": "syllogism",
+      "score": 1041,
+      "comments": 209,
+      "rank_score": 730.3041322592152,
+      "published_at_kst": "2026-11-03T21:21:17+09:00",
+      "published_date": "2026-11-03",
+      "summary": "Astra의 Qwen 모델 가중치 수정 방식이 연구 성과를 과장했다는 비판이 제기되었습니다. 기계 해석 가능성(Mechanistic Interpretability) 연구자들을 중심으로 기술적 정확성에 대한 논쟁이 발생했습니다.",
+      "story_text": "",
+      "external_article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구의 핵심을 왜곡했다는 지적을 받습니다. 특히 모델의 내부 가중치를 직접 수정하여 성능을 높이는 방식이 기존의 학습 방식이나 모델 구조를 어떻게 변화시키는지에 대한 기술적 엄밀함이 부족하다는 점이 쟁점입니다.",
+      "article_summary": "Astra가 Qwen 모델의 가중치를 읽고 쓰는 방식으로 성능을 개선했다는 주장이 제기되었으나, 이는 연구의 핵심을 왜곡했다는 지적을 받습니다. 특히 모델의 내부 가중치를 직접 수정하여 성능을 높이는 방식이 기존의 학습 방식이나 모델 구조를 어떻게 변화시키는지에 대한 기술적 엄밀함이 부족하다는 점이 쟁점입니다.",
+      "discussion_summary": "연구 성과를 과도하게 홍보했다는 비판과 연구 과정에서 발생할 수 있는 일반적인 과장이라는 옹호가 대립하고 있습니다. 특히 기계 해석 가능성 분야의 전문가들은 원문이 기술적 실체를 오도하고 있다는 점을 구체적으로 지적합니다.",
+      "key_points": [
+        "Astra의 가중치 수정 방식이 모델의 성능 향상을 과장하여 설명했다는 비판이 존재합니다.",
+        "기계 해석 가능성(Mechanistic Interpretability) 연구 관점에서 기술적 엄밀함이 부족하다는 지적이 핵심입니다.",
+        "연구 성과 발표 시 기술적 메커니즘을 정확하게 전달하는 것이 신뢰도 유지에 필수적입니다."
+      ],
+      "category": "AI/ML",
+      "comment_highlights": [
+        {
+          "author": "x313",
+          "text": "I work in this field (mech interp research) and I agree, the original post is definitely misleading. Some overselling in research is normal but it's a bit much. First, the key res…"
+        },
+        {
+          "author": "bushido",
+          "text": "Speaking for myself. I’ve been aware of a lot of concepts around training, but stayed away from it until very recently. A few weeks ago, I formed a hypothesis that I could get a s…"
+        }
+      ],
+      "tags": [
+        "LLM",
+        "Mechanistic Interpretability",
+        "Qwen",
+        "AI Research"
+      ],
+      "domain": "honnibal.dev",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 9,
+      "story_id": "50354358",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "hn_url": "https://news.ycombinator.com/item?id=50354358",
+      "author": "nharada",
+      "score": 843,
+      "comments": 247,
+      "rank_score": 591.7540286238494,
+      "published_at_kst": "2026-11-04T01:47:29+09:00",
+      "published_date": "2026-11-04",
+      "summary": "800달러 수준의 저렴한 비용으로 제작된 오픈 소스 룸 스케일 그리퍼 로봇인 Stringman이 공개되었습니다. 제작자와 사용자들 사이에서 하드웨어의 안전성과 실용성에 대한 기술적 논의가 이어지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Stringman은 800달러의 제작 비용을 가진 오픈 소스 로봇으로, 와이어와 윈치를 이용해 공간 내에서 물체를 잡는 그리퍼 역할을 수행합니다. 고속 윈치 시스템을 활용하여 캔틸레버 구조처럼 작동하며, 장치 자체의 장력 제한(tension limit) 설계를 통해 안전성을 확보한 것이 특징입니다.",
+      "article_summary": "Stringman은 800달러의 제작 비용을 가진 오픈 소스 로봇으로, 와이어와 윈치를 이용해 공간 내에서 물체를 잡는 그리퍼 역할을 수행합니다. 고속 윈치 시스템을 활용하여 캔틸레버 구조처럼 작동하며, 장치 자체의 장력 제한(tension limit) 설계를 통해 안전성을 확보한 것이 특징입니다.",
+      "discussion_summary": "제작자는 장력 제한 설계를 통해 인명 사고 위험이 낮음을 설명하며 기술적 안전성을 강조합니다. 사용자들은 실제 정원 환경 등에 적용하는 사례를 공유하며 하드웨어의 확장성과 실용성에 대해 의견을 나누고 있습니다.",
+      "key_points": [
+        "800달러라는 저렴한 비용으로 구현된 오픈 소스 로봇 하드웨어입니다.",
+        "고속 윈치와 장력 제한 설계를 통해 안전한 구동을 목표로 합니다.",
+        "사용자가 직접 제작하고 확장할 수 있는 오픈 소스 하드웨어 생태계를 지향합니다."
+      ],
+      "category": "기타",
+      "comment_highlights": [
+        {
+          "author": "histk_garden",
+          "text": "I made a big one for my garden. It is like a that scene in honey i shrunk the kids with Rick Moranis laying in that cantilevered flying cot thing but i use 2 high speed winches an…"
+        },
+        {
+          "author": "nhnifong",
+          "text": "Hi there, I'm Nathaniel, the creator of this robot. Thanks for posting it :) If you have any questions feel free to ask. Can it kill you? no probably not. The tension limit kicks…"
+        }
+      ],
+      "tags": [
+        "Open Source",
+        "Robotics",
+        "Hardware"
+      ],
+      "domain": "neufangled.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 10,
+      "story_id": "50403097",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "hn_url": "https://news.ycombinator.com/item?id=50403097",
+      "author": "infwhispers",
+      "score": 823,
+      "comments": 437,
+      "rank_score": 577.9246656731128,
+      "published_at_kst": "2026-11-07T18:46:03+09:00",
+      "published_date": "2026-11-07",
+      "summary": "애플이 모든 Mac에 탑재한 사용자 및 주변 인물 식별 기능에 대한 보안 취약점과 프라이버시 침해 우려를 다룹니다. 사용자 데이터가 의도치 않게 수집될 수 있다는 점이 핵심 쟁점입니다.",
+      "story_text": "",
+      "external_article_summary": "2022년 이후 출시된 모든 Mac에는 사용자 주변 인물 관계를 그래프 형태로 구축하는 데 특화된 데몬(Daemon) 프로세스들이 포함되어 있습니다. 이 시스템은 사용자의 신원과 주변 인물 간의 관계를 식별하는 알고리즘을 통해 개인의 사회적 네트워크를 데이터화합니다. 문서화되지 않은 이 기능은 사용자의 명시적 동의 없이도 작동할 수 있는 구조를 가지고 있습니다.",
+      "article_summary": "2022년 이후 출시된 모든 Mac에는 사용자 주변 인물 관계를 그래프 형태로 구축하는 데 특화된 데몬(Daemon) 프로세스들이 포함되어 있습니다. 이 시스템은 사용자의 신원과 주변 인물 간의 관계를 식별하는 알고리즘을 통해 개인의 사회적 네트워크를 데이터화합니다. 문서화되지 않은 이 기능은 사용자의 명시적 동의 없이도 작동할 수 있는 구조를 가지고 있습니다.",
+      "discussion_summary": "데이터 수집이 개인의 프라이버시를 침해한다는 비판과, 과거에는 흥미로운 데이터였을 수 있으나 현재는 피로감을 주는 감시 체계라는 비판이 대립하고 있습니다. 특히 Siri Recap과 같은 기능처럼 사용자 동의가 불분명한 데이터 활용 방식에 대해 강한 거부감이 나타나고 있습니다.",
+      "key_points": [
+        "Mac에 내장된 문서화되지 않은 데몬이 사용자 주변 인물 관계를 그래프 데이터로 구축합니다.",
+        "사용자의 명시적 선택(Opt-in) 없이 개인의 사회적 관계가 식별될 수 있는 위험이 존재합니다.",
+        "개인정보 보호와 기능적 편의성 사이의 윤리적 경계에 대한 논쟁이 심화되고 있습니다."
+      ],
+      "category": "보안/프라이버시",
+      "comment_highlights": [
+        {
+          "author": "thomascountz",
+          "text": "At one point in my life, I would've found this data fascinating (if it were opt-in, perhaps)! Now, I find it exhausting. A similar discussion came up recently with Siri Recap[1],…"
+        },
+        {
+          "author": "elgertam",
+          "text": "> What if I told you that every Mac since 2022 ships a pair of daemons whose only purpose in life is to build a graph about you and the people around you: who you are, who you kno…"
+        }
+      ],
+      "tags": [
+        "Apple",
+        "Privacy",
+        "macOS",
+        "Data Collection"
+      ],
+      "domain": "8rank.ai",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
+    }
+  ]
+}
