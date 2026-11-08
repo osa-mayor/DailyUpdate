@@ -1,21 +1,22 @@
 {
   "source": "official_news",
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T04:37:21.413046+09:00",
-  "count": 10,
-  "daily_summary": "오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini Omni 1.2 Flash, Genie 4) 및 벤치마크(PLE) 발표, OpenAI의 과학적 역량 측정(BioBasicsBench) 및 보안 강화, 그리고 Anthropic의 IPO를 위한 S-1 서류 제출 등 AI 기술의 실질적 응용과 기업의 전략적 움직임이 주를 이루었습니다.",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T04:38:10.852859+09:00",
+  "count": 9,
+  "daily_summary": "오늘의 주요 발표는 Google DeepMind와 OpenAI를 중심으로 AI 에이전트의 실질적인 역량 검증(벤치마크)과 비디오 생성 및 물리 시뮬레이션 등 생성형 AI의 고도화된 응용 분야에 집중되었습니다.",
   "daily_key_points": [
-    "Google DeepMind/Cloud: 비디오 생성(Gemini Omni 1.2 Flash), 월드 시뮬레이션(Genie 4), 물리 공학 벤치마크(PLE) 등 강력한 AI 모델 및 평가 체계 발표",
-    "OpenAI: AI 에이전트의 과학적 실험 수행 능력을 측정하는 BioBasicsBench 공개 및 보안 강화를 위한 Hacktron과의 파트너십 체결",
-    "Anthropic: 기업공개(IPO)를 위한 SEC S-1 등록 서류 제출로 상장 절차 착수"
+    "Google DeepMind의 Gemini Omni 1.2 Flash 및 Genie 4 발표를 통한 고성능 비디오 생성 및 실시간 월드 시뮬레이션 기술 공개",
+    "AI 에이전트의 과학적 역량(BioBasicsBench) 및 물리 공학(PLE) 능력을 측정하기 위한 전문화된 벤치마크 도입",
+    "화학 정보학(Antigravity) 및 보안(Hacktron 파트너십) 등 AI의 실무적 활용과 보안 강화 움직임"
   ],
   "daily_tags": [
     "AI Agent",
-    "Generative AI",
-    "AI Benchmark",
-    "Corporate News"
+    "Generative Video",
+    "Benchmark",
+    "Google DeepMind",
+    "OpenAI"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 소식은 Google DeepMind와 Google Cloud의 차세대 AI 모델(Gemini Omni 1.2 Flash, Genie 4) 및 벤치마크(PLE) 발표, OpenAI의 과학적 역량 측정(BioBasicsBench) 및 보안 강화, 그리고 Anthropic의 IPO를 위한 S-1 서류 제출 등 AI 기술의 실질적 응용과 기업의 전략적 움직임이 주를 이루었습니다.\n\n📍 1. Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips\n🗂️ 소스: Google DeepMind | 분류: Official Release\n📝 요약: Google DeepMind가 출시한 Gemini Omni 1.2 Flash는 15초 분량의 네이티브 비디오 생성 및 편집 기능을 제공합니다. 이전보다 향상된 일관성을 갖추면서도 가격은 30% 낮아져 효율성을 높였습니다.\n🔗 링크: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Agentic cheminformatics with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.\n🔗 링크: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/\n\n📍 3. Partnering with Hacktron to find vulnerabilities in OpenAI’s systems\n🗂️ 소스: OpenAI News | 분류: Security\n📝 요약: OpenAI가 시스템 취약점을 식별하고 보안을 강화하기 위해 Hacktron과 파트너십을 체결했습니다. 이번 협력을 통해 서드파티 서비스와의 연결성을 테스트하고 최첨단 AI를 활용하여 방어 체계를 강화할 계획입니다.\n🔗 링크: https://openai.com/index/partnering-with-hacktron\n\n📍 4. Measuring how AI agents handle everyday wet-lab science\n🗂️ 소스: OpenAI News | 분류: Publication\n📝 요약: OpenAI가 AI 에이전트의 실험 데이터 해석 및 일상적인 wet-lab 과학 수행 능력을 측정하기 위한 BioBasicsBench를 발표했습니다. 이 벤치마크는 100개의 태스크를 통해 AI 에이전트의 과학적 역량을 평가합니다.\n🔗 링크: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science\n\n📍 5. Cult.fit builds operational muscle with Codex\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Cult.fit이 Codex를 활용하여 전사적 운영 역량을 강화하고 업무 방식을 혁신하고 있습니다. 이를 통해 다양한 부서의 팀들이 자체적인 도구를 구축하고 업무 속도를 높이고 있습니다.\n🔗 링크: https://openai.com/index/cultfit-builds-with-codex\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-08.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 발표는 Google DeepMind와 OpenAI를 중심으로 AI 에이전트의 실질적인 역량 검증(벤치마크)과 비디오 생성 및 물리 시뮬레이션 등 생성형 AI의 고도화된 응용 분야에 집중되었습니다.\n\n📍 1. Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips\n🗂️ 소스: Google DeepMind | 분류: Official Release\n📝 요약: Google DeepMind가 출시한 Gemini Omni 1.2 Flash는 15초 분량의 네이티브 비디오 생성 및 편집 기능을 제공합니다. 이전보다 향상된 일관성을 갖추면서도 가격은 30% 낮아져 효율성을 높였습니다.\n🔗 링크: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Agentic cheminformatics with Google Antigravity\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 Google Antigravity는 화학 정보학 분야의 에이전트 기반 워크플로우를 가속화하는 기술입니다. 이 기술은 화합물 검색 및 새로운 강직성 매크로사이클(rigidified macrocycles) 제안을 통해 신약 개발 과정을 효율화합니다.\n🔗 링크: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/\n\n📍 3. Partnering with Hacktron to find vulnerabilities in OpenAI’s systems\n🗂️ 소스: OpenAI News | 분류: Security\n📝 요약: OpenAI가 시스템 취약점을 식별하고 보안을 강화하기 위해 Hacktron과 파트너십을 체결했습니다. 이번 협력을 통해 서드파티 서비스와의 연결성을 테스트하고 최첨단 AI를 활용하여 방어 체계를 강화할 계획입니다.\n🔗 링크: https://openai.com/index/partnering-with-hacktron\n\n📍 4. Measuring how AI agents handle everyday wet-lab science\n🗂️ 소스: OpenAI News | 분류: Publication\n📝 요약: OpenAI가 AI 에이전트의 실험 데이터 해석 및 일상적인 wet-lab 과학 수행 능력을 측정하기 위한 BioBasicsBench를 발표했습니다. 이 벤치마크는 100개의 태스크를 통해 AI 에이전트의 과학적 역량을 평가합니다.\n🔗 링크: https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science\n\n📍 5. Cult.fit builds operational muscle with Codex\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Cult.fit이 Codex를 활용하여 전사적 운영 역량을 강화하고 업무 방식을 혁신하고 있습니다. 이를 통해 다양한 부서의 팀들이 자체적인 도구를 구축하고 업무 속도를 높이고 있습니다.\n🔗 링크: https://openai.com/index/cultfit-builds-with-codex\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-09.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -222,29 +223,6 @@
         "Google DeepMind",
         "Genie 4",
         "World Simulation"
-      ]
-    },
-    {
-      "source_key": "anthropic",
-      "source_name": "Anthropic News",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "category": "Announcements",
-      "published_at_kst": "2026-10-26T00:00:00+09:00",
-      "published_date": "2026-10-26",
-      "original_description": "",
-      "release_type": "announcement",
-      "rank": 10,
-      "summary": "Anthropic이 미국 증권거래위원회(SEC)에 Class A 보통주 상장을 위한 S-1 등록 서류를 제출했습니다. 이는 Anthropic의 기업공개(IPO)를 위한 절차의 일환입니다.",
-      "key_points": [
-        "Anthropic이 SEC에 S-1 등록 서류를 제출함",
-        "제출된 서류는 Class A 보통주 상장을 위한 것임",
-        "이번 조치는 Anthropic의 기업공개(IPO)를 목적으로 함"
-      ],
-      "tags": [
-        "Anthropic",
-        "IPO",
-        "SEC"
       ]
     }
   ]
