@@ -1,0 +1,192 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:52:04.990274+09:00",
+  "count": 6,
+  "daily_summary": "Hugging Face에서는 Qwen 기반의 멀티모달 및 텍스트 생성 모델들이 높은 관심을 받고 있으며, LiveCodeBench에서는 Gemini와 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+  "daily_key_points": [
+    "Qwen 기반의 27B 및 9B 파라미터 규모 모델들이 Hugging Face에서 높은 다운로드와 관심을 기록함",
+    "이미지와 텍스트를 동시에 처리하는 멀티모달(image-text-to-text) 파이프라인 모델의 트렌드 확인",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록함"
+  ],
+  "daily_tags": [
+    "Qwen",
+    "LiveCodeBench",
+    "Multimodal",
+    "LLM-Trending"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 Qwen 기반의 멀티모달 및 텍스트 생성 모델들이 높은 관심을 받고 있으며, LiveCodeBench에서는 Gemini와 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DavidAU에서 공개한 Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 약 26.9B 파라미터를 가진 image-text-to-text 파이프라인 모델입니다.\n🔗 링크: https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n\n📍 2. xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 약 9.4B 파라미터를 가진 이 모델은 text-generation 태그로 분류되어 있습니다.\n🔗 링크: https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\n\n📍 3. Qwen/Qwen3.8-27B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Qwen/Qwen3.8-27B 모델이 높은 다운로드 수와 좋아요를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 image-text-to-text 파이프라인을 지원합니다.\n🔗 링크: https://huggingface.co/Qwen/Qwen3.8-27B\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-10.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-09T14:11:45+09:00",
+      "published_date": "2026-11-09",
+      "original_description": "likes=2759, downloads=1530688, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 2759,
+        "downloads": 1530688,
+        "num_parameters": 26895998464,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 1,
+      "summary": "DavidAU에서 공개한 Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 약 26.9B 파라미터를 가진 image-text-to-text 파이프라인 모델입니다.",
+      "key_points": [
+        "약 153만 회 이상의 높은 다운로드 수를 기록하며 트렌딩 중인 모델입니다.",
+        "26.9B 규모의 파라미터를 보유한 Qwen 기반 모델입니다.",
+        "image-text-to-text 파이프라인 태그를 가진 멀티모달 성격의 모델입니다."
+      ],
+      "tags": [
+        "Qwen",
+        "GGUF",
+        "image-text-to-text"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-08T12:48:02+09:00",
+      "published_date": "2026-11-08",
+      "original_description": "likes=1020, downloads=11755, pipeline_tag=text-generation",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 1020,
+        "downloads": 11755,
+        "num_parameters": 9409813744,
+        "pipeline_tag": "text-generation"
+      },
+      "rank": 2,
+      "summary": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 약 9.4B 파라미터를 가진 이 모델은 text-generation 태그로 분류되어 있습니다.",
+      "key_points": [
+        "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델의 높은 다운로드 수(11,755회)와 좋아요(1,020회) 기록",
+        "약 9.4B 규모의 파라미터를 보유한 text-generation 모델",
+        "Hugging Face 내 모델 트렌드 반영"
+      ],
+      "tags": [
+        "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "text-generation",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "Qwen/Qwen3.8-27B",
+      "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-07T13:42:17+09:00",
+      "published_date": "2026-11-07",
+      "original_description": "likes=19472, downloads=7508158, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 19472,
+        "downloads": 7508158,
+        "num_parameters": 27781427952,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 3,
+      "summary": "Qwen/Qwen3.8-27B 모델이 높은 다운로드 수와 좋아요를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 image-text-to-text 파이프라인을 지원합니다.",
+      "key_points": [
+        "Qwen/Qwen3.8-27B 모델의 높은 사용자 관심도(likes 19,472, downloads 7,508,158) 확인",
+        "약 27.8B 파라미터를 보유한 모델 규모",
+        "image-text-to-text 기능을 지원하는 멀티모달 모델"
+      ],
+      "tags": [
+        "Qwen",
+        "Multimodal",
+        "LLM"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
