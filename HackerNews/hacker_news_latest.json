@@ -1,22 +1,21 @@
 {
   "source": "hacker_news",
-  "date": "2026-11-10",
-  "generated_at": "2026-11-10T04:39:49.337801+09:00",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T05:40:38.683783+09:00",
   "count": 10,
-  "daily_summary": "오늘의 기술 뉴스는 AI 에이전트의 도입 과정에서 발생하는 보안 및 프라이버시 이슈와 기업의 리스크 관리 전략을 중심으로 전개되었습니다. 또한, 과거의 레거시 시스템과 현대적 설계 방식이 충돌하며 발생하는 보안 취약점과 기술 부채 해결의 필요성이 주요 화두로 떠올랐습니다.",
+  "daily_summary": "오늘의 기술 뉴스는 AI 에이전트의 보안 및 프라이버시 이슈와 기업의 AI 도입 전략 사이의 갈등을 주요하게 다루었습니다. 또한, 과거의 시스템 관습이 현대의 보안 취약점으로 이어지는 사례와 고전 기술의 현대적 재현 등 기술적 설계와 운영의 균형에 대한 논의가 활발했습니다.",
   "daily_key_points": [
-    "AI 에이전트 도구가 사용자 정보를 유출하거나 기업의 핵심 시스템 보안을 위협할 수 있다는 우려가 제기되었습니다.",
-    "과거의 설계 관습과 현대 라이브러리 간의 충돌로 인한 보안 취약점이 기술적 쟁점으로 부각되었습니다.",
-    "기업들은 AI 도입 시 비용 효율성과 데이터 보안 사이의 균형을 맞추기 위한 전략적 결정을 내리고 있습니다."
+    "AI 에이전트의 웹 브라우징 및 코딩 도구 사용 시 발생하는 개인정보 유출과 기업 보안 정책 간의 충돌이 심화되고 있습니다.",
+    "과거의 시스템 관습과 현대 라이브러리 설계의 차이로 인해 발생하는 인증 우회와 같은 구조적 보안 취약점이 주목받았습니다.",
+    "기업들은 AI 도입 과정에서 비용 효율성, 데이터 보안, 그리고 핵심 비즈니스 운영 환경의 안정성을 확보하는 것을 최우선 과제로 삼고 있습니다."
   ],
   "daily_tags": [
     "AI_Security",
     "Cybersecurity",
-    "Technical_Debt",
-    "Software_Design",
-    "Privacy"
+    "Software_Engineering",
+    "Tech_Trends"
   ],
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 AI 에이전트의 도입 과정에서 발생하는 보안 및 프라이버시 이슈와 기업의 리스크 관리 전략을 중심으로 전개되었습니다. 또한, 과거의 레거시 시스템과 현대적 설계 방식이 충돌하며 발생하는 보안 취약점과 기술 부채 해결의 필요성이 주요 화두로 떠올랐습니다.\n\n📍 1. sshole\n⭐ Score: 2992 | 💬 Comments: 749\n📰 원문 요약: 1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 일으키면, 입력한 비밀번호와 저장된 값이 일치하는 것으로 간주되어 인증이 통과되는 보안 허점이 발생합니다.\n💬 토론 요약: 특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 관점과, 설계 단계에서 특수 문자의 중복 사용을 피했어야 한다는 기술적 쟁점이 대립합니다.\n📌 종합 요약: 과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 특수 문자가 시스템 계정의 비밀번호와 일치하며 발생하는 인증 우회 문제를 설명합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://sshhole.com\n💬 토론: https://news.ycombinator.com/item?id=50378228\n\n📍 2. Claude Code sends your email address to websites\n⭐ Score: 1609 | 💬 Comments: 533\n📰 원문 요약: Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 요청 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 HTTP 헤더를 통해 외부 서버로 전송됨에 따라, 스팸 메일 수신 등 보안 위협이 발생할 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report(#107757)를 통해 제기되었으며, 에이전트 기반의 자동화 도구가 사용자 익명성을 해치는 방식에 대한 기술적 비판을 받고 있습니다.\n💬 토론 요약: 사용자 정보가 명시적 동의 없이 자동 전송되는 것은 심각한 프라이버시 침해라는 비판과, 특정 API(예: SEC API) 요구사항에 따른 현상일 수 있다는 기술적 의구심이 대립하고 있습니다. 또한, 에이전트가 사용자 세부 정보에 접근할 권한을 가져야 하는지에 대한 근본적인 설계 철학 문제가 논쟁의 핵심입니다.\n📌 종합 요약: Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 보안 결함이 발견되었습니다. 이로 인해 사용자의 개인정보가 제3자에게 노출되어 스팸 메일 공격에 악용될 수 있다는 우려가 커지고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/anthropics/claude-code/issues/107757\n💬 토론: https://news.ycombinator.com/item?id=50385272\n\n📍 3. AI is forcing us to pay off 40 years of technical debt\n⭐ Score: 1306 | 💬 Comments: 749\n📰 원문 요약: 최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 다행히 패치가 배포되어 대규모 피해는 막았으나, 이는 인간이 작성한 수십 년 된 레거시 코드가 AI 시대의 공격에 노출되고 있음을 시사합니다.\n💬 토론 요약: 국가적 차원의 스파이 활동이나 기업 간 첩보를 위해 은닉된 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석할지에 대한 철학적 논쟁이 이어지고 있습니다.\n📌 종합 요약: AI 기술의 발전으로 인해 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점이 드러나며 기술 부채를 해결해야 하는 시점이 도래했습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability\n💬 토론: https://news.ycombinator.com/item?id=50364336\n\n📍 4. Need for Speed Underground 2 online in the browser\n⭐ Score: 1160 | 💬 Comments: 290\n📰 원문 요약: 해당 프로젝트는 웹 브라우저 기반의 에뮬레이션 기술을 활용하여 NFSU2 게임을 구동하며, 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원합니다. 사용자는 settings.ini 파일을 직접 편집하여 설정을 변경할 수 있으며, 터치 컨트롤과 키보드 입력을 모두 지원하는 반응형 UI를 갖추고 있습니다. 또한, 게임 내 메뉴와 조작 방식을 웹 환경에 맞춰 최적화하여 모바일 기기에서도 원활한 플레이가 가능하도록 설계되었습니다.\n💬 토론 요약: 과거의 향수를 느끼며 모바일에서도 완벽하게 작동하는 기술력에 감탄하는 옹호 의견과, 저작권법을 위반한 비공식 사이트라는 법적 문제에 대한 우려가 대립하고 있습니다.\n📌 종합 요약: 고전 레이싱 게임인 Need for Speed Underground 2를 웹 브라우저 환경에서 구동할 수 있는 프로젝트가 공개되었습니다. 사용자는 별도의 설치 없이 클라우드 세이브와 모드 적용 기능을 통해 모바일과 PC를 오가며 게임을 즐길 수 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://nfsu2.xyz/\n💬 토론: https://news.ycombinator.com/item?id=50403052\n\n📍 5. Tesla to wind down Cybertruck production\n⭐ Score: 1158 | 💬 Comments: 2101\n📰 원문 요약: 일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 축소할 것이라고 밝혔습니다. 이는 연간 25만 대를 예상했던 초기 전망과 달리, 2024년 미국 내 판매량이 20,237대로 전년 대비 48% 급감한 실적에 따른 결정입니다. 테슬라는 사이버트럭 생산 라인을 정리하여 차세대 로보택시 모델인 사이버캡의 생산량을 늘리는 데 집중할 계획입니다.\n💬 토론 요약: 실제 재난 상황에서 사이버트럭의 V2L(Vehicle to Load) 기능을 통한 가정용 전력 공급 능력을 높게 평가하는 옹호론과, 전기차 세액 공제 종료 및 제조 원가 절감 실패로 인한 시장 경쟁력 상실을 지적하는 비판론이 대립하고 있습니다.\n📌 종합 요약: 테슬라가 판매 부진을 이유로 2027년 중반 사이버트럭 생산 중단을 결정했습니다. 이는 로보택시인 사이버캡 생산 역량을 확보하기 위한 전략적 선택으로 풀이됩니다.\n🗂️ 분류: 비즈니스/스타트업\n🔗 링크: https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817\n💬 토론: https://news.ycombinator.com/item?id=50391456\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-10.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 AI 에이전트의 보안 및 프라이버시 이슈와 기업의 AI 도입 전략 사이의 갈등을 주요하게 다루었습니다. 또한, 과거의 시스템 관습이 현대의 보안 취약점으로 이어지는 사례와 고전 기술의 현대적 재현 등 기술적 설계와 운영의 균형에 대한 논의가 활발했습니다.\n\n📍 1. sshole\n⭐ Score: 2997 | 💬 Comments: 751\n📰 원문 요약: 1980년대 Unix에서는 비밀번호가 없는 계정을 위해 /etc/passwd 파일에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 반환하면, 시스템이 이를 유효한 비밀번호 일치로 오인하는 보안 허점이 발생합니다.\n💬 토론 요약: 특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 기술적 관점이 대립합니다.\n📌 종합 요약: 과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 시스템 설정값과 충돌하며 발생하는 인증 우회 가능성을 설명합니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://sshhole.com\n💬 토론: https://news.ycombinator.com/item?id=50378228\n\n📍 2. Claude Code sends your email address to websites\n⭐ Score: 1613 | 💬 Comments: 535\n📰 원문 요약: Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 일부 사용자는 특정 API(SEC API 등)와의 상호작용 과정에서 발생하는 현상일 가능성을 제기하고 있습니다.\n💬 토론 요약: 사용자 정보를 명시적 동의 없이 외부로 노출하는 설계는 즉각 수정되어야 한다는 비판과, 특정 서비스의 API 요구사항에 따른 기술적 현상일 수 있다는 분석이 대립하고 있습니다.\n📌 종합 요약: Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 보안 결함이 발견되었습니다. 이로 인해 개인정보 노출 및 스팸 메일 피해가 발생할 수 있다는 우려가 커지고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://github.com/anthropics/claude-code/issues/107757\n💬 토론: https://news.ycombinator.com/item?id=50385272\n\n📍 3. Foldable Flight: The Best Paper Airplanes\n⭐ Score: 1172 | 💬 Comments: 167\n📰 원문 요약: foldableflight.com 사이트는 다양한 종이비행기 모델을 제공하며, 검색 결과 109개의 모델이 매칭되는 데이터베이스를 갖추고 있습니다. 사용자는 난이도별로 분류된 모델 중 'Very Easy'와 같이 1분 내외로 제작 가능한 모델부터 정교한 설계가 필요한 모델까지 선택할 수 있습니다.\n💬 토론 요약: 사용자들은 특정 모델의 제작 난이도와 영상 가이드의 실용성에 대해 각자의 경험을 공유하고 있습니다. 제작 과정의 간편함과 개인적인 추억을 회상하는 등 감성적인 측면과 실용적인 측면이 공존하는 반응을 보입니다.\n📌 종합 요약: 종이비행기 제작법을 다루는 웹사이트의 인기 게시글로, 다양한 난이도의 종이비행기 설계법과 제작 가이드를 제공합니다. 사용자들은 각 모델의 제작 난이도와 개인적인 경험을 공유하며 소통하고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://www.foldableflight.com\n💬 토론: https://news.ycombinator.com/item?id=50424581\n\n📍 4. Need for Speed Underground 2 online in the browser\n⭐ Score: 1168 | 💬 Comments: 292\n📰 원문 요약: nfsu2.xyz 도메인을 통해 제공되는 이 프로젝트는 웹 브라우저 상에서 원작의 게임 플레이를 재현합니다. 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원하며, settings.ini 파일 수정 및 모드(Mods) 적용 기능을 통해 사용자 커스텀이 가능합니다. 또한 터치 컨트롤과 키보드 입력을 모두 지원하여 데스크톱과 모바일 환경 모두에 최적화된 UI를 제공합니다.\n💬 토론 요약: 과거의 향수를 불러일으키는 기술적 구현에 대해 놀랍다는 긍정적인 반응이 있는 반면, 저작권 문제로 인한 사이트의 법적 정당성 및 서비스 지속 가능성에 대한 우려가 대립하고 있습니다.\n📌 종합 요약: 고전 레이싱 게임인 Need for Speed Underground 2가 웹 브라우저 환경에서 구동 가능하도록 구현되었습니다. 사용자는 별도의 설치 없이 클라우드 세이브와 모드 적용 기능을 통해 모바일과 PC를 오가며 게임을 즐길 수 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://nfsu2.xyz/\n💬 토론: https://news.ycombinator.com/item?id=50403052\n\n📍 5. Tesla to wind down Cybertruck production\n⭐ Score: 1162 | 💬 Comments: 2112\n📰 원문 요약: 일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 모델인 사이버캡의 생산량을 확보하기 위한 조치이며, 사이버트럭은 2024년 미국 내 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치에 크게 못 미쳤습니다. 머스크는 연간 25만 대 판매를 예측했으나, 독특한 디자인과 높은 제조 비용 등으로 인해 실질적인 판매 성과를 거두지 못했습니다.\n💬 토론 요약: 실제 정전 상황에서 사이버트럭의 V2L(Vehicle to Load) 기능을 활용해 가전제품을 구동한 긍정적 사례가 언급되는 반면, 전기차 세액 공제 축소와 제조 원가 절감 실패로 인한 사업성 악화를 지적하는 비판이 대립하고 있습니다.\n📌 종합 요약: 테슬라가 사이버트럭 생산을 2027년 중반에 종료하고 로보택시인 사이버캡 생산에 집중할 계획입니다. 낮은 판매 실적과 생산 효율성 문제를 해결하기 위한 전략적 결정으로 풀이됩니다.\n🗂️ 분류: 비즈니스/스타트업\n🔗 링크: https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817\n💬 토론: https://news.ycombinator.com/item?id=50391456\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-11.md",
   "items": [
     {
       "rank": 1,
@@ -25,20 +24,20 @@
       "url": "https://sshhole.com",
       "hn_url": "https://news.ycombinator.com/item?id=50378228",
       "author": "josemrb",
-      "score": 2992,
-      "comments": 749,
-      "rank_score": 2096.386021961959,
+      "score": 2997,
+      "comments": 751,
+      "rank_score": 2099.886820897185,
       "published_at_kst": "2026-11-05T21:19:02+09:00",
       "published_date": "2026-11-05",
-      "summary": "과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 특수 문자가 시스템 계정의 비밀번호와 일치하며 발생하는 인증 우회 문제를 설명합니다.",
+      "summary": "과거 Unix 시스템의 관습과 현대 라이브러리의 설계 차이로 인해 발생한 보안 취약점 이슈를 다룹니다. 특정 암호화 함수가 오류 시 반환하는 값이 시스템 설정값과 충돌하며 발생하는 인증 우회 가능성을 설명합니다.",
       "story_text": "Related: https://hachyderm.io/@damienmiller/117563026759098135 / https://news.ycombinator.com/item?id=50377221 https://www.openssh.org/releasenotes.html#10.6p2 https://alpinelinux.org/posts/2026-11-05-openssh-password-au...",
-      "external_article_summary": "1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 일으키면, 입력한 비밀번호와 저장된 값이 일치하는 것으로 간주되어 인증이 통과되는 보안 허점이 발생합니다.",
-      "article_summary": "1980년대 Unix 시스템은 비밀번호가 없는 계정을 식별하기 위해 /etc/passwd 파일에 '*' 문자를 사용했습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 일으키면, 입력한 비밀번호와 저장된 값이 일치하는 것으로 간주되어 인증이 통과되는 보안 허점이 발생합니다.",
-      "discussion_summary": "특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 관점과, 설계 단계에서 특수 문자의 중복 사용을 피했어야 한다는 기술적 쟁점이 대립합니다.",
+      "external_article_summary": "1980년대 Unix에서는 비밀번호가 없는 계정을 위해 /etc/passwd 파일에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 반환하면, 시스템이 이를 유효한 비밀번호 일치로 오인하는 보안 허점이 발생합니다.",
+      "article_summary": "1980년대 Unix에서는 비밀번호가 없는 계정을 위해 /etc/passwd 파일에 '*' 문자를 사용하는 관습이 있었습니다. 현대의 crypt() 함수는 알고리즘 오류 발생 시 NULL을 반환하지만, musl libc와 같은 일부 라이브러리는 시스템 충돌을 방지하기 위해 NULL 대신 '*' 문자를 반환하도록 설계되었습니다. 이로 인해 비밀번호가 '*'로 설정된 계정에서 암호화 함수가 오류를 반환하면, 시스템이 이를 유효한 비밀번호 일치로 오인하는 보안 허점이 발생합니다.",
+      "discussion_summary": "특수 문자를 에러 신호로 사용하는 '인밴드 시그널링(In-band signaling)' 방식이 보안 취약점을 야기했다는 비판이 제기되었습니다. 이에 대해 시스템 안정성을 위해 NULL 대신 특정 문자를 반환하는 설계가 불가피했다는 기술적 관점이 대립합니다.",
       "key_points": [
-        "암호화 함수가 오류 시 반환하는 특수 문자가 시스템 계정의 비밀번호와 일치할 때 인증 우회가 가능합니다.",
-        "과거의 관습과 현대 라이브러리의 에러 처리 방식이 충돌하며 발생한 설계상의 결함입니다.",
-        "데이터 값과 제어 신호를 동일한 채널에서 사용하는 방식은 보안상 위험을 초래할 수 있습니다."
+        "과거의 관습적인 '*' 문자 사용이 현대 라이브러리의 에러 처리 로직과 충돌하며 보안 취약점을 생성했습니다.",
+        "암호화 함수가 오류 시 반환하는 값이 시스템의 특수 값과 일치할 경우 인증 우회가 가능해집니다.",
+        "설계 단계에서 데이터 값과 제어 신호를 분리하지 않는 인밴드 시그널링 방식의 위험성을 보여줍니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -52,10 +51,10 @@
         }
       ],
       "tags": [
-        "OpenSSH",
         "Unix",
-        "Security Vulnerability",
+        "OpenSSH",
         "crypt",
+        "Security",
         "Linux"
       ],
       "domain": "sshhole.com",
@@ -69,20 +68,20 @@
       "url": "https://github.com/anthropics/claude-code/issues/107757",
       "hn_url": "https://news.ycombinator.com/item?id=50385272",
       "author": "motoroco",
-      "score": 1609,
-      "comments": 533,
-      "rank_score": 1128.184118751688,
+      "score": 1613,
+      "comments": 535,
+      "rank_score": 1130.9852402483211,
       "published_at_kst": "2026-11-06T07:17:15+09:00",
       "published_date": "2026-11-06",
-      "summary": "Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 보안 결함이 발견되었습니다. 이로 인해 사용자의 개인정보가 제3자에게 노출되어 스팸 메일 공격에 악용될 수 있다는 우려가 커지고 있습니다.",
+      "summary": "Anthropic의 Claude Code가 웹 검색 과정에서 사용자의 이메일 주소를 User-Agent 헤더에 포함해 외부로 유출하는 보안 결함이 발견되었습니다. 이로 인해 개인정보 노출 및 스팸 메일 피해가 발생할 수 있다는 우려가 커지고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 요청 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 HTTP 헤더를 통해 외부 서버로 전송됨에 따라, 스팸 메일 수신 등 보안 위협이 발생할 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report(#107757)를 통해 제기되었으며, 에이전트 기반의 자동화 도구가 사용자 익명성을 해치는 방식에 대한 기술적 비판을 받고 있습니다.",
-      "article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 요청 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 HTTP 헤더를 통해 외부 서버로 전송됨에 따라, 스팸 메일 수신 등 보안 위협이 발생할 수 있는 구조적 결함입니다. 해당 이슈는 GitHub의 Bug Report(#107757)를 통해 제기되었으며, 에이전트 기반의 자동화 도구가 사용자 익명성을 해치는 방식에 대한 기술적 비판을 받고 있습니다.",
-      "discussion_summary": "사용자 정보가 명시적 동의 없이 자동 전송되는 것은 심각한 프라이버시 침해라는 비판과, 특정 API(예: SEC API) 요구사항에 따른 현상일 수 있다는 기술적 의구심이 대립하고 있습니다. 또한, 에이전트가 사용자 세부 정보에 접근할 권한을 가져야 하는지에 대한 근본적인 설계 철학 문제가 논쟁의 핵심입니다.",
+      "external_article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 일부 사용자는 특정 API(SEC API 등)와의 상호작용 과정에서 발생하는 현상일 가능성을 제기하고 있습니다.",
+      "article_summary": "Claude Code(버전 2.1.318)가 웹 검색 기능을 수행할 때 User-Agent 헤더에 사용자의 이메일 주소를 포함하여 전송하는 프라이버시 침해 문제가 보고되었습니다. 사용자의 동의 없이 식별 가능한 개인정보가 외부 서버로 전송되어 스팸 공격의 타겟이 될 수 있는 구조적 결함입니다. 일부 사용자는 특정 API(SEC API 등)와의 상호작용 과정에서 발생하는 현상일 가능성을 제기하고 있습니다.",
+      "discussion_summary": "사용자 정보를 명시적 동의 없이 외부로 노출하는 설계는 즉각 수정되어야 한다는 비판과, 특정 서비스의 API 요구사항에 따른 기술적 현상일 수 있다는 분석이 대립하고 있습니다.",
       "key_points": [
-        "Claude Code의 User-Agent 헤더에 사용자 이메일이 포함되어 외부로 유출되는 보안 취약점이 확인되었습니다.",
-        "에이전트 기반 도구가 사용자 동의 없이 식별 정보를 전송하는 설계 방식에 대한 프라이버시 우려가 제기되었습니다.",
-        "향후 AI 에이전트의 자동화 기능과 사용자 개인정보 보호 사이의 균형을 맞추는 보안 가이드라인이 필요합니다."
+        "Claude Code의 User-Agent 헤더에 사용자 이메일이 포함되어 외부 사이트에 노출되는 보안 취약점이 확인되었습니다.",
+        "에이전트 기반 도구가 사용자 식별 정보를 포함하는 것은 프라이버시 보호 원칙에 위배됩니다.",
+        "향후 AI 에이전트의 웹 브라우징 기능 구현 시 개인정보 마스킹 및 익명성 확보가 필수적인 과제로 떠올랐습니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -98,7 +97,7 @@
       "tags": [
         "Claude Code",
         "Anthropic",
-        "Privacy Violation",
+        "Privacy",
         "User-Agent",
         "AI Agent"
       ],
@@ -108,46 +107,45 @@
     },
     {
       "rank": 3,
-      "story_id": "50364336",
-      "title": "AI is forcing us to pay off 40 years of technical debt",
-      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-      "hn_url": "https://news.ycombinator.com/item?id=50364336",
-      "author": "pseudolus",
-      "score": 1306,
-      "comments": 749,
-      "rank_score": 916.186021961959,
-      "published_at_kst": "2026-11-04T20:52:17+09:00",
-      "published_date": "2026-11-04",
-      "summary": "AI 기술의 발전으로 인해 지난 40년간 축적된 레거시 소프트웨어의 보안 취약점이 드러나며 기술 부채를 해결해야 하는 시점이 도래했습니다. 특히 PHP2Shell과 같은 취약점은 오래된 코드 구조가 현대적 공격에 얼마나 취약한지를 보여주는 사례입니다.",
+      "story_id": "50424581",
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "hn_url": "https://news.ycombinator.com/item?id=50424581",
+      "author": "vismit2000",
+      "score": 1172,
+      "comments": 167,
+      "rank_score": 821.9371891938209,
+      "published_at_kst": "2026-11-09T21:19:22+09:00",
+      "published_date": "2026-11-09",
+      "summary": "종이비행기 제작법을 다루는 웹사이트의 인기 게시글로, 다양한 난이도의 종이비행기 설계법과 제작 가이드를 제공합니다. 사용자들은 각 모델의 제작 난이도와 개인적인 경험을 공유하며 소통하고 있습니다.",
       "story_text": "",
-      "external_article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 다행히 패치가 배포되어 대규모 피해는 막았으나, 이는 인간이 작성한 수십 년 된 레거시 코드가 AI 시대의 공격에 노출되고 있음을 시사합니다.",
-      "article_summary": "최근 발견된 PHP2Shell 취약점은 NASA와 위키피디아 등 주요 사이트가 사용하는 WordPress나 Drupal 환경에서 데이터 유출 및 악성 코드 실행을 가능하게 하는 심각한 보안 위협입니다. 이 취약점은 데이터 크기가 할당된 메모리보다 클 때 발생하는 Out-of-memory 오류를 악용하며, 1994년에 개발된 PHP의 레거시 구조에서 기인했습니다. 다행히 패치가 배포되어 대규모 피해는 막았으나, 이는 인간이 작성한 수십 년 된 레거시 코드가 AI 시대의 공격에 노출되고 있음을 시사합니다.",
-      "discussion_summary": "국가적 차원의 스파이 활동이나 기업 간 첩보를 위해 은닉된 제로데이 취약점들이 이번 기회를 통해 우연히 발견되기를 바라는 기대와, 기술적 복잡성 속에서 보안 위협을 어떻게 해석할지에 대한 철학적 논쟁이 이어지고 있습니다.",
+      "external_article_summary": "foldableflight.com 사이트는 다양한 종이비행기 모델을 제공하며, 검색 결과 109개의 모델이 매칭되는 데이터베이스를 갖추고 있습니다. 사용자는 난이도별로 분류된 모델 중 'Very Easy'와 같이 1분 내외로 제작 가능한 모델부터 정교한 설계가 필요한 모델까지 선택할 수 있습니다.",
+      "article_summary": "foldableflight.com 사이트는 다양한 종이비행기 모델을 제공하며, 검색 결과 109개의 모델이 매칭되는 데이터베이스를 갖추고 있습니다. 사용자는 난이도별로 분류된 모델 중 'Very Easy'와 같이 1분 내외로 제작 가능한 모델부터 정교한 설계가 필요한 모델까지 선택할 수 있습니다.",
+      "discussion_summary": "사용자들은 특정 모델의 제작 난이도와 영상 가이드의 실용성에 대해 각자의 경험을 공유하고 있습니다. 제작 과정의 간편함과 개인적인 추억을 회상하는 등 감성적인 측면과 실용적인 측면이 공존하는 반응을 보입니다.",
       "key_points": [
-        "AI 기반의 자동화된 공격 도구는 과거의 기술 부채와 레거시 소프트웨어의 취약점을 빠르게 파고듭니다.",
-        "메모리 할당 오류와 같은 고전적인 버그가 현대적 보안 위협의 통로가 될 수 있습니다.",
-        "현대적 보안 체계를 구축하기 위해서는 수십 년간 쌓인 소프트웨어 아키텍처의 근본적인 정비가 필요합니다."
+        "난이도와 제작 시간에 따라 분류된 다양한 종이비행기 설계 모델을 제공합니다.",
+        "사용자는 웹사이트의 검색 기능을 통해 목적에 맞는 종이비행기를 쉽게 찾을 수 있습니다.",
+        "제작 가이드 영상과 설계도를 통해 초보자도 쉽게 따라 할 수 있는 환경을 구축했습니다."
       ],
-      "category": "보안/프라이버시",
+      "category": "기타",
       "comment_highlights": [
         {
-          "author": "Arbortheus",
-          "text": "I hope some of these backdoors and/or 0-days being kept under wraps by nation states or corporate espionage companies (Pegasus et al) are being found incidentally through all this…"
+          "author": "literallyanythi",
+          "text": "Scrolled down the page, saw this \"Very Easy\" 1 minute plane https://www.foldableflight.com/planes/mystic Started watching the video not planning on actually making it, saw that it…"
         },
         {
-          "author": "Balgair",
-          "text": "Aside: I think I need some help here.[0] I remember reading Godel Escher Bach back in the day, and there is the parable of the record player between the tortoise and the rabbit. A…"
+          "author": "intrasight",
+          "text": "I have a story to share. In 1978 as a preteen, my mother made me take piano lessons. God bless her for trying. Anyway, while waiting for my class in the lobby of the music school,…"
         }
       ],
       "tags": [
-        "PHP",
-        "Security",
-        "Technical Debt",
-        "Legacy Software"
+        "종이비행기",
+        "DIY",
+        "취미"
       ],
-      "domain": "spectrum.ieee.org",
-      "repeated_in_window": true,
-      "repeated_days_ago": 1
+      "domain": "foldableflight.com",
+      "repeated_in_window": false,
+      "repeated_days_ago": null
     },
     {
       "rank": 4,
@@ -156,20 +154,20 @@
       "url": "https://nfsu2.xyz/",
       "hn_url": "https://news.ycombinator.com/item?id=50403052",
       "author": "fluxusars",
-      "score": 1160,
-      "comments": 290,
-      "rank_score": 813.7019969801514,
+      "score": 1168,
+      "comments": 292,
+      "rank_score": 819.3040517827051,
       "published_at_kst": "2026-11-07T18:36:36+09:00",
       "published_date": "2026-11-07",
-      "summary": "고전 레이싱 게임인 Need for Speed Underground 2를 웹 브라우저 환경에서 구동할 수 있는 프로젝트가 공개되었습니다. 사용자는 별도의 설치 없이 클라우드 세이브와 모드 적용 기능을 통해 모바일과 PC를 오가며 게임을 즐길 수 있습니다.",
+      "summary": "고전 레이싱 게임인 Need for Speed Underground 2가 웹 브라우저 환경에서 구동 가능하도록 구현되었습니다. 사용자는 별도의 설치 없이 클라우드 세이브와 모드 적용 기능을 통해 모바일과 PC를 오가며 게임을 즐길 수 있습니다.",
       "story_text": "",
-      "external_article_summary": "해당 프로젝트는 웹 브라우저 기반의 에뮬레이션 기술을 활용하여 NFSU2 게임을 구동하며, 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원합니다. 사용자는 settings.ini 파일을 직접 편집하여 설정을 변경할 수 있으며, 터치 컨트롤과 키보드 입력을 모두 지원하는 반응형 UI를 갖추고 있습니다. 또한, 게임 내 메뉴와 조작 방식을 웹 환경에 맞춰 최적화하여 모바일 기기에서도 원활한 플레이가 가능하도록 설계되었습니다.",
-      "article_summary": "해당 프로젝트는 웹 브라우저 기반의 에뮬레이션 기술을 활용하여 NFSU2 게임을 구동하며, 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원합니다. 사용자는 settings.ini 파일을 직접 편집하여 설정을 변경할 수 있으며, 터치 컨트롤과 키보드 입력을 모두 지원하는 반응형 UI를 갖추고 있습니다. 또한, 게임 내 메뉴와 조작 방식을 웹 환경에 맞춰 최적화하여 모바일 기기에서도 원활한 플레이가 가능하도록 설계되었습니다.",
-      "discussion_summary": "과거의 향수를 느끼며 모바일에서도 완벽하게 작동하는 기술력에 감탄하는 옹호 의견과, 저작권법을 위반한 비공식 사이트라는 법적 문제에 대한 우려가 대립하고 있습니다.",
+      "external_article_summary": "nfsu2.xyz 도메인을 통해 제공되는 이 프로젝트는 웹 브라우저 상에서 원작의 게임 플레이를 재현합니다. 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원하며, settings.ini 파일 수정 및 모드(Mods) 적용 기능을 통해 사용자 커스텀이 가능합니다. 또한 터치 컨트롤과 키보드 입력을 모두 지원하여 데스크톱과 모바일 환경 모두에 최적화된 UI를 제공합니다.",
+      "article_summary": "nfsu2.xyz 도메인을 통해 제공되는 이 프로젝트는 웹 브라우저 상에서 원작의 게임 플레이를 재현합니다. 클라우드 세이브 기능을 통해 기기 간 데이터 동기화를 지원하며, settings.ini 파일 수정 및 모드(Mods) 적용 기능을 통해 사용자 커스텀이 가능합니다. 또한 터치 컨트롤과 키보드 입력을 모두 지원하여 데스크톱과 모바일 환경 모두에 최적화된 UI를 제공합니다.",
+      "discussion_summary": "과거의 향수를 불러일으키는 기술적 구현에 대해 놀랍다는 긍정적인 반응이 있는 반면, 저작권 문제로 인한 사이트의 법적 정당성 및 서비스 지속 가능성에 대한 우려가 대립하고 있습니다.",
       "key_points": [
-        "웹 브라우저 환경에서 구동되는 고전 게임 에뮬레이션 기술이 구현되었습니다.",
-        "클라우드 세이브와 모드 편집 기능을 통해 사용자 편의성을 높였습니다.",
-        "저작권 침해 문제와 기술적 구현 사이의 윤리적 쟁점이 존재합니다."
+        "웹 브라우저 기반의 에뮬레이션 기술을 통해 고전 게임을 설치 없이 구동합니다.",
+        "클라우드 세이브와 모드 적용 기능을 통해 사용자 편의성을 높였습니다.",
+        "저작권 침해 여부와 서비스 유지 가능성이 주요 쟁점으로 떠올랐습니다."
       ],
       "category": "기타",
       "comment_highlights": [
@@ -183,9 +181,9 @@
         }
       ],
       "tags": [
-        "Web Emulation",
-        "NFS Underground 2",
-        "Cloud Save"
+        "Web Technology",
+        "Retro Gaming",
+        "Emulation"
       ],
       "domain": "nfsu2.xyz",
       "repeated_in_window": true,
@@ -198,20 +196,20 @@
       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
       "hn_url": "https://news.ycombinator.com/item?id=50391456",
       "author": "PLenz",
-      "score": 1158,
-      "comments": 2101,
-      "rank_score": 812.8951933654309,
+      "score": 1162,
+      "comments": 2112,
+      "rank_score": 815.6967592052848,
       "published_at_kst": "2026-11-06T21:13:51+09:00",
       "published_date": "2026-11-06",
-      "summary": "테슬라가 판매 부진을 이유로 2027년 중반 사이버트럭 생산 중단을 결정했습니다. 이는 로보택시인 사이버캡 생산 역량을 확보하기 위한 전략적 선택으로 풀이됩니다.",
+      "summary": "테슬라가 사이버트럭 생산을 2027년 중반에 종료하고 로보택시인 사이버캡 생산에 집중할 계획입니다. 낮은 판매 실적과 생산 효율성 문제를 해결하기 위한 전략적 결정으로 풀이됩니다.",
       "story_text": "",
-      "external_article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 축소할 것이라고 밝혔습니다. 이는 연간 25만 대를 예상했던 초기 전망과 달리, 2024년 미국 내 판매량이 20,237대로 전년 대비 48% 급감한 실적에 따른 결정입니다. 테슬라는 사이버트럭 생산 라인을 정리하여 차세대 로보택시 모델인 사이버캡의 생산량을 늘리는 데 집중할 계획입니다.",
-      "article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 축소할 것이라고 밝혔습니다. 이는 연간 25만 대를 예상했던 초기 전망과 달리, 2024년 미국 내 판매량이 20,237대로 전년 대비 48% 급감한 실적에 따른 결정입니다. 테슬라는 사이버트럭 생산 라인을 정리하여 차세대 로보택시 모델인 사이버캡의 생산량을 늘리는 데 집중할 계획입니다.",
-      "discussion_summary": "실제 재난 상황에서 사이버트럭의 V2L(Vehicle to Load) 기능을 통한 가정용 전력 공급 능력을 높게 평가하는 옹호론과, 전기차 세액 공제 종료 및 제조 원가 절감 실패로 인한 시장 경쟁력 상실을 지적하는 비판론이 대립하고 있습니다.",
+      "external_article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 모델인 사이버캡의 생산량을 확보하기 위한 조치이며, 사이버트럭은 2024년 미국 내 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치에 크게 못 미쳤습니다. 머스크는 연간 25만 대 판매를 예측했으나, 독특한 디자인과 높은 제조 비용 등으로 인해 실질적인 판매 성과를 거두지 못했습니다.",
+      "article_summary": "일론 머스크는 2027년 중반 텍사스 기가팩토리의 사이버트럭 생산을 단계적으로 중단할 것이라고 밝혔습니다. 이는 로보택시 모델인 사이버캡의 생산량을 확보하기 위한 조치이며, 사이버트럭은 2024년 미국 내 판매량이 전년 대비 48% 감소한 20,237대를 기록하는 등 목표치에 크게 못 미쳤습니다. 머스크는 연간 25만 대 판매를 예측했으나, 독특한 디자인과 높은 제조 비용 등으로 인해 실질적인 판매 성과를 거두지 못했습니다.",
+      "discussion_summary": "실제 정전 상황에서 사이버트럭의 V2L(Vehicle to Load) 기능을 활용해 가전제품을 구동한 긍정적 사례가 언급되는 반면, 전기차 세액 공제 축소와 제조 원가 절감 실패로 인한 사업성 악화를 지적하는 비판이 대립하고 있습니다.",
       "key_points": [
-        "판매 목표 미달로 인해 2027년 중반 사이버트럭 생산 중단이 결정되었습니다.",
-        "생산 라인 재배치를 통해 로보택시인 사이버캡의 생산량을 확보할 계획입니다.",
-        "전기차 시장의 정책 변화와 제조 원가 문제가 향후 수익성에 변수로 작용할 전망입니다."
+        "테슬라는 사이버캡 생산 역량 확보를 위해 사이버트럭 생산 라인을 점진적으로 축소할 예정입니다.",
+        "판매 목표치에 미달하는 낮은 시장 수요와 높은 제조 비용이 생산 중단의 주요 원인으로 분석됩니다.",
+        "로보택시 중심의 차세대 모빌리티 전략으로의 완전한 전환을 시사합니다."
       ],
       "category": "비즈니스/스타트업",
       "comment_highlights": [
@@ -227,7 +225,7 @@
       "tags": [
         "Tesla",
         "Cybertruck",
-        "EV",
+        "Electric Vehicles",
         "Robotaxi"
       ],
       "domain": "nbcnews.com",
@@ -241,20 +239,20 @@
       "url": "https://mitchellh.com/writing/libghostty-1-0",
       "hn_url": "https://news.ycombinator.com/item?id=50399933",
       "author": "mfiguiere",
-      "score": 1084,
-      "comments": 200,
-      "rank_score": 760.3909914724177,
+      "score": 1088,
+      "comments": 204,
+      "rank_score": 763.1969029937414,
       "published_at_kst": "2026-11-07T08:30:52+09:00",
       "published_date": "2026-11-07",
-      "summary": "새로운 터미널 에뮬레이터인 Libghostty 1.0이 출시되었으며, 이를 기반으로 한 다양한 개발 도구 생태계가 형성될 것으로 기대됩니다. 커뮤니티에서는 새로운 프로그래밍 언어인 Zig를 활용한 라이브러리의 설계 방식과 확장성에 주목하고 있습니다.",
+      "summary": "새로운 터미널 에뮬레이터인 Libghostty 1.0이 출시되었으며, 이를 기반으로 한 다양한 개발 도구 생태계가 형성될 것으로 기대됩니다. 커뮤니티에서는 새로운 터미널 라이브러리의 활용성과 기술적 설계에 대해 활발한 논의가 이루어지고 있습니다.",
       "story_text": "",
-      "external_article_summary": "Libghostty 1.0은 Zig 언어로 작성된 고성능 터미널 에뮬레이터 라이브러리입니다. 이 라이브러리는 단순한 에뮬레이터를 넘어 차세대 코딩 도구나 에이전트형 도구들을 구축할 수 있는 기반 프레임워크 역할을 수행합니다. 특히 C 인터페이스를 제공하여 다양한 프로젝트에서 라이브러리 형태로 쉽게 통합할 수 있도록 설계되었습니다.",
-      "article_summary": "Libghostty 1.0은 Zig 언어로 작성된 고성능 터미널 에뮬레이터 라이브러리입니다. 이 라이브러리는 단순한 에뮬레이터를 넘어 차세대 코딩 도구나 에이전트형 도구들을 구축할 수 있는 기반 프레임워크 역할을 수행합니다. 특히 C 인터페이스를 제공하여 다양한 프로젝트에서 라이브러리 형태로 쉽게 통합할 수 있도록 설계되었습니다.",
-      "discussion_summary": "새로운 터미널 도구들이 라이브러리 형태로 등장하며 기존 에뮬레이터 개발 방식과 차별화되는 점에 대해 논의하고 있습니다. 또한 Zig 언어를 사용한 인터페이스 설계가 향후 다른 프로젝트와의 호환성 및 확장성에 미칠 영향에 대해 기술적인 의견이 오가고 있습니다.",
+      "external_article_summary": "Libghostty 1.0은 차세대 터미널 에뮬레이터로서, 개발자가 직접 에뮬레이터를 처음부터 작성하는 대신 이를 기반으로 새로운 도구를 구축할 수 있도록 설계되었습니다. 특히 Zig 언어를 사용하여 성능과 안전성을 확보하였으며, 라이브러리 형태로 제공되어 herdr나 cmux 같은 에이전트형 코딩 도구 개발에 활용될 수 있는 아키텍처를 갖추고 있습니다.",
+      "article_summary": "Libghostty 1.0은 차세대 터미널 에뮬레이터로서, 개발자가 직접 에뮬레이터를 처음부터 작성하는 대신 이를 기반으로 새로운 도구를 구축할 수 있도록 설계되었습니다. 특히 Zig 언어를 사용하여 성능과 안전성을 확보하였으며, 라이브러리 형태로 제공되어 herdr나 cmux 같은 에이전트형 코딩 도구 개발에 활용될 수 있는 아키텍처를 갖추고 있습니다.",
+      "discussion_summary": "기존 터미널 에뮬레이터를 직접 만드는 대신 라이브러리를 활용해 새로운 도구를 구축하는 방식에 대한 기술적 효용성이 논의되고 있습니다. 또한, C 인터페이스 설계와 객체의 불투명 핸들(opaque handle) 처리 방식 등 저수준 프로그래밍 인터페이스의 설계 방향에 대한 의견이 오가고 있습니다.",
       "key_points": [
-        "Zig 언어를 기반으로 구축된 고성능 터미널 에뮬레이터 라이브러리입니다.",
-        "단순한 터미널 사용을 넘어 새로운 코딩 도구와 에이전트형 도구의 기반이 됩니다.",
-        "C 인터페이스를 통해 다양한 프로그래밍 환경에서의 통합과 확장을 지원합니다."
+        "Libghostty는 라이브러리 중심의 설계를 통해 차세대 터미널 도구 생태계를 구축하는 것을 목표로 합니다.",
+        "Zig 언어를 활용한 고성능 및 안전한 시스템 프로그래밍 환경을 제공합니다.",
+        "에뮬레이터 자체를 만드는 대신 이를 기반으로 한 에이전트형 코딩 도구로의 확장이 가능합니다."
       ],
       "category": "개발 도구",
       "comment_highlights": [
@@ -284,20 +282,20 @@
       "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
       "hn_url": "https://news.ycombinator.com/item?id=50418016",
       "author": "karimf",
-      "score": 918,
-      "comments": 1177,
-      "rank_score": 644.8385107819832,
+      "score": 974,
+      "comments": 1260,
+      "rank_score": 683.9418981007894,
       "published_at_kst": "2026-11-09T07:20:09+09:00",
       "published_date": "2026-11-09",
       "summary": "Nvidia CEO 젠슨 황의 개인적 스캔들과 관련한 사과문이 공개되며 기업 경영진의 윤리적 책임에 대한 논쟁이 발생했습니다. 커뮤니티에서는 경영진의 도덕성과 기업 가치 사이의 상관관계를 두고 다양한 반응이 나타나고 있습니다.",
       "story_text": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-aff... , https://archive.ph/Hxn5h https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-a... , https://archive.ph/atMcp https://www.cnn.com/2026/11/08/business/nvidia-investigation... Statement from Nvidia board of directors - https://news.ycombinator.com/item?id=50416801 - Nov 2026 (374 comments)",
-      "external_article_summary": "Nvidia 이사회와 젠슨 황 CEO 사이의 관계 및 개인적 이슈가 담긴 사과문이 공개되었습니다. 이번 사안은 기업의 거버넌스와 경영진의 개인적 행위가 기업의 대외적 신뢰도에 미치는 영향을 보여줍니다. 관련 보도에 따르면 이사회는 이번 사태가 기업 운영에 미칠 영향을 분석하고 있습니다.",
-      "article_summary": "Nvidia 이사회와 젠슨 황 CEO 사이의 관계 및 개인적 이슈가 담긴 사과문이 공개되었습니다. 이번 사안은 기업의 거버넌스와 경영진의 개인적 행위가 기업의 대외적 신뢰도에 미치는 영향을 보여줍니다. 관련 보도에 따르면 이사회는 이번 사태가 기업 운영에 미칠 영향을 분석하고 있습니다.",
-      "discussion_summary": "경영진의 진정성 있는 사과라는 긍정적 평가와, 기업의 리더십이 개인적 문제로 인해 흔들릴 수 있다는 비판이 대립하고 있습니다. 특히 병렬 처리 기술을 개척한 인물이 단일 스레드(Single Thread)를 관리하지 못한 점을 빗댄 풍자적 비판이 제기되었습니다.",
+      "external_article_summary": "Nvidia 이사회가 발표한 성명과 젠슨 황의 직원 대상 서신을 통해 CEO의 사생활 문제가 기업 거버넌스에 미치는 영향이 다뤄졌습니다. 이번 사안은 단순한 개인적 일탈을 넘어 기업의 신뢰도와 직결되는 경영진 리스크 관리 측면에서 분석되고 있습니다.",
+      "article_summary": "Nvidia 이사회가 발표한 성명과 젠슨 황의 직원 대상 서신을 통해 CEO의 사생활 문제가 기업 거버넌스에 미치는 영향이 다뤄졌습니다. 이번 사안은 단순한 개인적 일탈을 넘어 기업의 신뢰도와 직결되는 경영진 리스크 관리 측면에서 분석되고 있습니다.",
+      "discussion_summary": "비즈니스 리더로서 진정성 있는 사과를 했다는 옹호와, 경영진의 도덕적 결함이 기업의 미래 가치를 훼손할 수 있다는 비판이 대립하고 있습니다. 특히 병렬 처리 기술의 선구자가 단일 스레드(Single Thread)를 관리하지 못했다는 식의 냉소적인 비유가 화제가 되었습니다.",
       "key_points": [
-        "CEO의 사과문이 기업 경영진의 윤리적 책임에 대한 새로운 논쟁을 촉발했습니다.",
-        "기술적 성취와 개인적 도덕성 사이의 괴리를 지적하는 커뮤니티의 풍자가 이어지고 있습니다.",
-        "경영진의 개인적 이슈가 기업의 거버넌스 및 브랜드 가치에 미치는 영향이 핵심 쟁점입니다."
+        "CEO의 사생활 이슈가 기업의 공식적인 거버넌스 문제로 격상되었습니다.",
+        "경영진의 윤리적 태도가 기업 브랜드 가치에 미치는 영향이 핵심 쟁점입니다.",
+        "개인적 일탈과 전문적 성취를 분리해서 바라봐야 한다는 시각이 존재합니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -317,8 +315,8 @@
         "Leadership"
       ],
       "domain": "nvidianews.nvidia.com",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
     },
     {
       "rank": 8,
@@ -327,22 +325,22 @@
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "hn_url": "https://news.ycombinator.com/item?id=50415628",
       "author": "TheWiggles",
-      "score": 871,
-      "comments": 469,
-      "rank_score": 611.5458198084111,
+      "score": 896,
+      "comments": 488,
+      "rank_score": 629.0577087468424,
       "published_at_kst": "2026-11-09T03:16:07+09:00",
       "published_date": "2026-11-09",
-      "summary": "골드만삭스가 뱅커와 트레이더들의 업무에서 Claude Code 사용을 중단하기로 결정하며 AI 에이전트 도입에 제동이 걸렸습니다. 비용 관리와 보안 이슈가 기업용 AI 도입의 핵심 쟁점으로 떠오르고 있습니다.",
+      "summary": "골드만삭스가 뱅커와 트레이더들의 Claude Code 사용을 중단하며 AI 에이전트 도입에 제동을 걸었습니다. 비용 관리와 보안 이슈가 기업용 AI 도입의 핵심 과제로 떠오르고 있습니다.",
       "story_text": "",
-      "external_article_summary": "골드만삭스는 내부 뱅커와 트레이더들의 업무 환경에서 Claude Code를 제거하기로 결정했습니다. 이는 코딩 에이전트가 핵심 비즈니스 로직과 데이터가 흐르는 프라이머리 시스템에서 작동할 때 발생할 수 있는 리스크를 관리하려는 조치입니다. 기업들은 AI 모델의 높은 API 호출 비용과 소비 기반 과금 모델로 인한 예산 초과 문제를 해결해야 하는 과제에 직면해 있습니다.",
-      "article_summary": "골드만삭스는 내부 뱅커와 트레이더들의 업무 환경에서 Claude Code를 제거하기로 결정했습니다. 이는 코딩 에이전트가 핵심 비즈니스 로직과 데이터가 흐르는 프라이머리 시스템에서 작동할 때 발생할 수 있는 리스크를 관리하려는 조치입니다. 기업들은 AI 모델의 높은 API 호출 비용과 소비 기반 과금 모델로 인한 예산 초과 문제를 해결해야 하는 과제에 직면해 있습니다.",
-      "discussion_summary": "AI 에이전트를 핵심 업무 시스템에 직접 운영하는 것에 대한 보안 및 운영 리스크 우려와, 예산 부족 및 과도한 API 비용 발생에 따른 비용 통제 측면의 비판이 대립하고 있습니다.",
+      "external_article_summary": "골드만삭스는 내부 뱅커와 트레이더들의 업무 환경에서 Claude Code 사용을 중단하기로 결정했습니다. 이는 코딩 에이전트가 핵심 비즈니스 로직과 민감한 데이터가 흐르는 운영 환경에서 작동하는 것에 대한 리스크를 관리하려는 조치입니다. 기업들은 AI 모델의 높은 API 호출 비용과 데이터 보안 사이의 균형을 맞추는 데 어려움을 겪고 있습니다.",
+      "article_summary": "골드만삭스는 내부 뱅커와 트레이더들의 업무 환경에서 Claude Code 사용을 중단하기로 결정했습니다. 이는 코딩 에이전트가 핵심 비즈니스 로직과 민감한 데이터가 흐르는 운영 환경에서 작동하는 것에 대한 리스크를 관리하려는 조치입니다. 기업들은 AI 모델의 높은 API 호출 비용과 데이터 보안 사이의 균형을 맞추는 데 어려움을 겪고 있습니다.",
+      "discussion_summary": "운영 환경에서 코딩 에이전트를 직접 실행하는 것에 대한 보안 및 안정성 우려와, 예산 초과 및 소비 기반 과금 모델로 인한 비용 통제 문제가 주요 쟁점으로 대립하고 있습니다.",
       "key_points": [
-        "기업용 AI 에이전트의 핵심 비즈니스 시스템 도입에 따른 운영 리스크 관리 필요성.",
-        "LLM 사용량에 따른 소비 기반 과금 모델이 기업 예산 관리에 미치는 영향.",
-        "AI 도구의 보안 정책과 비용 효율성 사이의 균형 확보가 중요함."
+        "핵심 비즈니스 운영 환경에서 AI 코딩 에이전트를 직접 실행하는 것에 대한 리스크 관리.",
+        "LLM 사용량 증가에 따른 예산 초과와 소비 기반 과금 모델의 비용 압박.",
+        "기업용 AI 도입 시 보안 정책과 비용 효율성 사이의 전략적 선택 필요성."
       ],
-      "category": "비즈니스/스타트업",
+      "category": "AI/ML",
       "comment_highlights": [
         {
           "author": "lukebuehler",
@@ -357,11 +355,12 @@
         "Goldman Sachs",
         "Claude Code",
         "AI Agent",
-        "LLM Cost"
+        "LLM Cost",
+        "Enterprise AI"
       ],
       "domain": "thestateofai.com",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
     },
     {
       "rank": 9,
@@ -370,20 +369,20 @@
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
       "hn_url": "https://news.ycombinator.com/item?id=50403097",
       "author": "infwhispers",
-      "score": 862,
-      "comments": 458,
-      "rank_score": 605.2387150630182,
+      "score": 865,
+      "comments": 468,
+      "rank_score": 607.3451808305339,
       "published_at_kst": "2026-11-07T18:46:03+09:00",
       "published_date": "2026-11-07",
-      "summary": "애플이 모든 Mac에 탑재한 사용자 및 주변 인물 식별 기능에 대한 기술적 분석과 프라이버시 침해 우려를 다룹니다. 사용자 데이터를 기반으로 관계 그래프를 구축하는 백그라운드 프로세스의 존재가 논란이 되고 있습니다.",
+      "summary": "애플 Mac에 내장된 사용자 및 주변 인물 식별 기능이 프라이버시를 침해할 수 있다는 기술적 분석과 이에 대한 커뮤니티의 우려를 다룹니다.",
       "story_text": "",
-      "external_article_summary": "2022년 이후 출시된 모든 Mac에는 사용자의 사회적 관계를 파악하기 위한 데몬(daemon) 프로세스가 포함되어 있습니다. 이 시스템은 사용자의 위치, 주변 기기와의 상호작용 등을 활용해 사용자와 주변 인물의 관계를 그래프 형태로 구축하는 알고리즘을 실행합니다. 이는 문서화되지 않은 기능으로, 사용자의 신원과 주변 인물 간의 관계를 식별하는 데 목적이 있습니다.",
-      "article_summary": "2022년 이후 출시된 모든 Mac에는 사용자의 사회적 관계를 파악하기 위한 데몬(daemon) 프로세스가 포함되어 있습니다. 이 시스템은 사용자의 위치, 주변 기기와의 상호작용 등을 활용해 사용자와 주변 인물의 관계를 그래프 형태로 구축하는 알고리즘을 실행합니다. 이는 문서화되지 않은 기능으로, 사용자의 신원과 주변 인물 간의 관계를 식별하는 데 목적이 있습니다.",
-      "discussion_summary": "데이터 수집이 사용자 편의를 위한 유용한 기능이라는 시각과, 사용자의 명시적 동의 없이 개인의 사회적 관계를 프로파일링하는 심각한 프라이버시 침해라는 비판이 대립하고 있습니다.",
+      "external_article_summary": "2022년 이후 출시된 모든 Mac에는 사용자와 주변 인물 간의 관계를 그래프 형태로 구축하는 데 특화된 데몬(daemon) 프로세스들이 포함되어 있습니다. 이 시스템은 사용자의 사회적 관계망을 파악하기 위해 기기 내부에서 은밀하게 작동하며, 수집된 데이터는 사용자의 정체성과 주변 인물 정보를 분류하는 데 사용됩니다.",
+      "article_summary": "2022년 이후 출시된 모든 Mac에는 사용자와 주변 인물 간의 관계를 그래프 형태로 구축하는 데 특화된 데몬(daemon) 프로세스들이 포함되어 있습니다. 이 시스템은 사용자의 사회적 관계망을 파악하기 위해 기기 내부에서 은밀하게 작동하며, 수집된 데이터는 사용자의 정체성과 주변 인물 정보를 분류하는 데 사용됩니다.",
+      "discussion_summary": "데이터 수집이 사용자 편의를 위한 것이라 하더라도 프라이버시 침해 우려가 크다는 비판과, 이러한 식별 기능이 사용자 경험을 저해하는 피로감을 준다는 의견이 대립하고 있습니다.",
       "key_points": [
-        "Mac에 내장된 백그라운드 데몬이 사용자 주변 인물 식별 및 관계 그래프를 구축합니다.",
-        "사용자의 명시적 선택(opt-in) 없이 이루어지는 데이터 수집에 대한 윤리적 문제가 제기됩니다.",
-        "개인정보 보호와 기능적 편의성 사이의 기술적 경계에 대한 논쟁이 심화되고 있습니다."
+        "Mac에 내장된 데몬 프로세스가 사용자 주변 인물 관계를 그래프 데이터로 구축합니다.",
+        "사용자의 명시적 동의 없이 개인의 사회적 관계망이 식별될 수 있는 위험이 존재합니다.",
+        "개인정보 수집 기술이 고도화됨에 따라 기술적 편의성과 프라이버시 보호 사이의 충돌이 심화되고 있습니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -399,8 +398,8 @@
       "tags": [
         "Apple",
         "Privacy",
-        "Data Collection",
-        "macOS"
+        "macOS",
+        "Data Collection"
       ],
       "domain": "8rank.ai",
       "repeated_in_window": true,
@@ -408,44 +407,44 @@
     },
     {
       "rank": 10,
-      "story_id": "50406670",
-      "title": "What I run on my $10 USD OpenStick homelab",
-      "url": "https://blog.bosscher.ch/posts/openstick/",
-      "hn_url": "https://news.ycombinator.com/item?id=50406670",
-      "author": "LaurensBER",
-      "score": 813,
-      "comments": 137,
-      "rank_score": 570.5781761055471,
-      "published_at_kst": "2026-11-08T03:12:12+09:00",
-      "published_date": "2026-11-08",
-      "summary": "단돈 10달러짜리 OpenStick 하드웨어를 활용한 초저가 홈랩 구축 사례와 그 효율성을 다룹니다. 저사양 기기에서도 적절한 소프트웨어 선택을 통해 다양한 서비스를 운영할 수 있음을 보여줍니다.",
+      "story_id": "50429068",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "hn_url": "https://news.ycombinator.com/item?id=50429068",
+      "author": "lairv",
+      "score": 856,
+      "comments": 976,
+      "rank_score": 601.2653459956127,
+      "published_at_kst": "2026-11-10T03:01:10+09:00",
+      "published_date": "2026-11-10",
+      "summary": "Anthropic의 새로운 모델인 Claude Fable 5.2와 Mythos 5.2 출시 소식과 이에 대한 사용자들의 성능 평가를 다룹니다. 모델 간의 균형 잡힌 성능 향상과 복잡한 프로토타이핑 작업에서의 능력이 주요 화두입니다.",
       "story_text": "",
-      "external_article_summary": "작성자는 10달러 상당의 OpenStick 하드웨어를 활용하여 개인용 홈랩을 구축하는 방법을 공유합니다. 하드웨어의 제한된 자원 내에서 효율적인 서비스 운영을 위해 최적화된 소프트웨어 스택을 선택하는 것이 핵심입니다. 이는 과거 LAMP 스택을 활용해 수백 명의 동시 접속자를 처리하던 서버 구축 방식과 기술적 맥락을 같이 합니다.",
-      "article_summary": "작성자는 10달러 상당의 OpenStick 하드웨어를 활용하여 개인용 홈랩을 구축하는 방법을 공유합니다. 하드웨어의 제한된 자원 내에서 효율적인 서비스 운영을 위해 최적화된 소프트웨어 스택을 선택하는 것이 핵심입니다. 이는 과거 LAMP 스택을 활용해 수백 명의 동시 접속자를 처리하던 서버 구축 방식과 기술적 맥락을 같이 합니다.",
-      "discussion_summary": "과거의 서버 구축 방식과 현대의 저사양 하드웨어 활용 방식 사이의 기술적 유사성에 대한 향수가 나타납니다. 또한 하드웨어 비용 대비 RAM 가격의 비중이 높은 환경에서 소프트웨어 최적화가 얼마나 중요한지에 대한 논의가 이루어집니다.",
+      "external_article_summary": "Anthropic은 새로운 모델 시리즈인 Fable 5.2와 Mythos 5.2를 공개했습니다. 특히 Fable 5.2는 Anthropic 엔지니어가 빈 폴더 상태에서 프로토타입 운영체제를 설계하는 실험을 진행할 만큼 강력한 코딩 및 시스템 설계 능력을 보여주었습니다. 이 모델은 1,000개 이상의 하위 작업을 조율하며 복잡한 문제를 해결하는 능력을 갖추고 있습니다.",
+      "article_summary": "Anthropic은 새로운 모델 시리즈인 Fable 5.2와 Mythos 5.2를 공개했습니다. 특히 Fable 5.2는 Anthropic 엔지니어가 빈 폴더 상태에서 프로토타입 운영체제를 설계하는 실험을 진행할 만큼 강력한 코딩 및 시스템 설계 능력을 보여주었습니다. 이 모델은 1,000개 이상의 하위 작업을 조율하며 복잡한 문제를 해결하는 능력을 갖추고 있습니다.",
+      "discussion_summary": "사용자들은 이전 모델 대비 향상된 모델 간의 성능 균형에 대해 긍정적으로 평가하고 있습니다. 특히 상위 모델인 Opus 5.5의 성능이 충분히 강력해짐에 따라 Fable 모델에 대한 의존도나 소외감이 줄어들었다는 반응이 나타나고 있습니다.",
       "key_points": [
-        "저가형 하드웨어에서도 소프트웨어 최적화를 통해 유의미한 홈랩 운영이 가능합니다.",
-        "하드웨어의 물리적 한계를 극복하기 위해 경량화된 소프트웨어 스택을 선택하는 것이 핵심입니다.",
-        "과거의 서버 아키텍처와 현대의 초소형 기기 활용 방식 사이의 기술적 공통점을 확인할 수 있습니다."
+        "Fable 5.2는 복잡한 시스템 설계와 수천 개의 하위 작업을 조율할 수 있는 능력을 갖추고 있습니다.",
+        "모델 라인업 간의 성능 격차가 최적화되어 사용자가 상황에 맞는 모델을 선택하기 용이해졌습니다.",
+        "LLM의 에이전트적 능력이 프로토타입 운영체제 설계와 같은 고난도 작업에서 검증되고 있습니다."
       ],
-      "category": "인프라/클라우드",
+      "category": "AI/ML",
       "comment_highlights": [
         {
-          "author": "rwmj",
-          "text": "Back when I hosted Perl (Apache, mod_perl, \"LAMP stack\") websites for a living our standard server build looked remarkably similar. We hosted websites for hundreds of concurrent u…"
+          "author": "postalcoder",
+          "text": "I’ve had a chance to use fable 5.2. Some observations: - Anthropic is finally well balanced across models. Meaning: Opus 5.5 is so good that I do not feel Fable FOMO as I did when…"
         },
         {
-          "author": "LaurensBER",
-          "text": "I've had a lot of fun with this little gadget and it's pretty cool to see how much you can host on a cheap gadget if you pick the right software! Given how expensive RAM is these…"
+          "author": "mirmor23",
+          "text": "> As an experiment, one Anthropic engineer gave Fable 5.2 the task of designing a prototype operating system. Starting from an empty folder, the model coordinated over 1,000 subag…"
         }
       ],
       "tags": [
-        "OpenStick",
-        "Homelab",
-        "Edge Computing",
-        "Software Optimization"
+        "Anthropic",
+        "Claude",
+        "LLM",
+        "Software Engineering"
       ],
-      "domain": "blog.bosscher.ch",
+      "domain": "anthropic.com",
       "repeated_in_window": false,
       "repeated_days_ago": null
     }
