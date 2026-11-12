@@ -1,106 +1,107 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-11-12",
-  "generated_at": "2026-11-12T05:07:39.024627+09:00",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T04:38:44.861512+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face를 중심으로 다양한 규모와 목적(이미지 생성, 양자화, 대형 언어 모델)을 가진 모델들이 트렌드를 주도하고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+  "daily_summary": "Hugging Face에서는 새로운 텍스트 생성 및 이미지 생성 모델들이 높은 관심을 받고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 벤치마크에서 상위권을 기록했습니다.",
   "daily_key_points": [
-    "Hugging Face에서 이미지 생성(MiniMax-H3-Image) 및 양자화(Qwen3.8-27B GGUF) 모델이 높은 관심을 받음",
-    "65B 규모의 대형 모델(Ripple-65B-Preview)이 트렌드에 진입하며 성능 주목",
-    "LiveCodeBench 벤치마크에서 Gemini 시리즈와 O4-Mini 모델이 상위권 성적 기록"
+    "DeepSeek-V4-Pro 및 MiniMax-H3-Image 모델이 Hugging Face에서 높은 트렌드와 다운로드 수를 기록함",
+    "LiveCodeBench 벤치마크에서 O4-Mini와 Gemini 시리즈 모델들이 상위 성적을 거둠",
+    "텍스트 생성 및 이미지 생성(text-to-image) 분야의 모델 업데이트가 활발함"
   ],
   "daily_tags": [
     "HuggingFace",
+    "LiveCodeBench",
     "LLM_Trending",
-    "LiveCodeBench"
+    "Image_Generation"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face를 중심으로 다양한 규모와 목적(이미지 생성, 양자화, 대형 언어 모델)을 가진 모델들이 트렌드를 주도하고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. MiniMaxAI/MiniMax-H3-Image\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: MiniMaxAI에서 공개한 MiniMax-H3-Image 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 이미지 생성 모델입니다.\n🔗 링크: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image\n\n📍 2. DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DavidAU에서 공개한 Qwen3.8-27B 기반의 GGUF 양자화 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 27B 규모의 모델입니다.\n🔗 링크: https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF\n\n📍 3. ricursiveAI/Ripple-65B-Preview\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: ricursiveAI에서 공개한 Ripple-65B-Preview 모델이 Hugging Face에서 주목받고 있습니다. 약 65B 파라미터를 가진 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.\n🔗 링크: https://huggingface.co/ricursiveAI/Ripple-65B-Preview\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-12.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 새로운 텍스트 생성 및 이미지 생성 모델들이 높은 관심을 받고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 코딩 성능 벤치마크에서 상위권을 기록했습니다.\n\n📍 1. xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 약 9.4B 파라미터를 가진 이 모델은 텍스트 생성(text-generation) 태그로 분류되어 있습니다.\n🔗 링크: https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic\n\n📍 2. MiniMaxAI/MiniMax-H3-Image\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: MiniMaxAI에서 공개한 MiniMax-H3-Image 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 이미지 생성 모델입니다.\n🔗 링크: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image\n\n📍 3. Comfy-Org/MiniMax-H3-Image\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Comfy-Org에서 공개한 MiniMax-H3-Image 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 모델입니다.\n🔗 링크: https://huggingface.co/Comfy-Org/MiniMax-H3-Image\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-13.md",
   "items": [
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "MiniMaxAI/MiniMax-H3-Image",
-      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "title": "xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-11T16:10:27+09:00",
-      "published_date": "2026-11-11",
-      "original_description": "likes=667, downloads=142989, pipeline_tag=text-to-image",
+      "published_at_kst": "2026-11-12T20:45:21+09:00",
+      "published_date": "2026-11-12",
+      "original_description": "likes=4673, downloads=18933, pipeline_tag=text-generation",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 667,
-        "downloads": 142989,
-        "num_parameters": 0,
-        "pipeline_tag": "text-to-image"
+        "likes": 4673,
+        "downloads": 18933,
+        "num_parameters": 9409813744,
+        "pipeline_tag": "text-generation"
       },
       "rank": 1,
-      "summary": "MiniMaxAI에서 공개한 MiniMax-H3-Image 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 이미지 생성 모델입니다.",
+      "summary": "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델이 Hugging Face에서 높은 관심을 받고 있습니다. 약 9.4B 파라미터를 가진 이 모델은 텍스트 생성(text-generation) 태그로 분류되어 있습니다.",
       "key_points": [
-        "MiniMax-H3-Image 모델의 높은 사용자 유입 확인",
-        "14만 건 이상의 높은 다운로드 수 기록",
-        "text-to-image 태그를 사용하는 이미지 생성 모델"
+        "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic 모델의 높은 다운로드 수 기록",
+        "약 9.4B 규모의 파라미터를 보유한 text-generation 태그 모델",
+        "4,673개의 likes와 18,933회의 downloads를 기록하며 트렌드 형성"
       ],
       "tags": [
-        "MiniMax-H3-Image",
-        "text-to-image",
+        "DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+        "text-generation",
         "Hugging Face"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
-      "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF",
+      "title": "MiniMaxAI/MiniMax-H3-Image",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-11T08:39:53+09:00",
-      "published_date": "2026-11-11",
-      "original_description": "likes=2894, downloads=1532273, pipeline_tag=image-text-to-text",
+      "published_at_kst": "2026-11-12T10:52:59+09:00",
+      "published_date": "2026-11-12",
+      "original_description": "likes=842, downloads=306718, pipeline_tag=text-to-image",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 2894,
-        "downloads": 1532273,
-        "num_parameters": 26895998464,
-        "pipeline_tag": "image-text-to-text"
+        "likes": 842,
+        "downloads": 306718,
+        "num_parameters": 0,
+        "pipeline_tag": "text-to-image"
       },
       "rank": 2,
-      "summary": "DavidAU에서 공개한 Qwen3.8-27B 기반의 GGUF 양자화 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 27B 규모의 모델입니다.",
+      "summary": "MiniMaxAI에서 공개한 MiniMax-H3-Image 모델이 Hugging Face에서 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 이미지 생성 모델입니다.",
       "key_points": [
-        "Qwen3.8-27B 모델을 기반으로 한 GGUF 포맷의 모델입니다.",
-        "150만 회 이상의 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
-        "image-text-to-text 파이프라인 태그를 보유하고 있습니다."
+        "MiniMaxAI의 text-to-image 모델인 MiniMax-H3-Image가 공개되었습니다.",
+        "30만 회 이상의 높은 다운로드 수를 기록하며 모델 트렌드를 형성하고 있습니다.",
+        "842개의 likes를 기록하며 사용자들의 관심을 받고 있습니다."
       ],
       "tags": [
-        "Qwen3.8",
-        "GGUF",
-        "image-text-to-text"
+        "MiniMax-H3-Image",
+        "text-to-image",
+        "MiniMaxAI"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "ricursiveAI/Ripple-65B-Preview",
-      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "title": "Comfy-Org/MiniMax-H3-Image",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-10T18:31:23+09:00",
-      "published_date": "2026-11-10",
-      "original_description": "likes=509, downloads=7112, pipeline_tag=",
+      "published_at_kst": "2026-11-11T21:10:29+09:00",
+      "published_date": "2026-11-11",
+      "original_description": "likes=285, downloads=835593, pipeline_tag=text-to-image",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 509,
-        "downloads": 7112,
-        "num_parameters": 64782689360,
-        "pipeline_tag": ""
+        "likes": 285,
+        "downloads": 835593,
+        "num_parameters": 0,
+        "pipeline_tag": "text-to-image"
       },
       "rank": 3,
-      "summary": "ricursiveAI에서 공개한 Ripple-65B-Preview 모델이 Hugging Face에서 주목받고 있습니다. 약 65B 파라미터를 가진 이 모델은 최근 높은 다운로드 수를 기록하며 트렌드에 진입했습니다.",
+      "summary": "Comfy-Org에서 공개한 MiniMax-H3-Image 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 text-to-image 파이프라인을 지원하는 모델입니다.",
       "key_points": [
-        "ricursiveAI의 65B 규모 모델인 Ripple-65B-Preview 공개",
-        "7,112회의 downloads와 509개의 likes를 기록하며 높은 관심을 받음",
-        "약 64.78B 파라미터를 보유한 대규모 언어 모델"
+        "Comfy-Org에서 배포한 MiniMax-H3-Image 모델의 트렌드 확인",
+        "835,593회의 높은 다운로드 수를 기록하며 사용자 관심을 받음",
+        "text-to-image 파이프라인을 활용하는 모델임"
       ],
       "tags": [
-        "ricursiveAI",
-        "Ripple-65B-Preview",
-        "LLM"
+        "MiniMax-H3-Image",
+        "text-to-image",
+        "Comfy-Org"
       ]
     },
     {
