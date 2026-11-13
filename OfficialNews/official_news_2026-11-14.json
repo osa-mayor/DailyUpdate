@@ -1,0 +1,227 @@
+{
+  "source": "official_news",
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T04:42:04.777498+09:00",
+  "count": 9,
+  "daily_summary": "오늘의 주요 발표는 AI 에이전트의 실질적인 활용과 산업별 특화 모델의 확장에 집중되었습니다. Google과 OpenAI는 결제, 코딩, 워크플로우 자동화를 지원하는 에이전트 기술을 선보였으며, 의료, 생물학, 기상 등 전문 과학 분야로의 AI 적용 사례가 두드러졌습니다.",
+  "daily_key_points": [
+    "에이전틱 워크플로우 및 결제 기능을 갖춘 AI 에이전트(Gemini 4 Hydrogen, ChatGPT Wallet)의 진화",
+    "생물학(AlphaGenome 2), 기상(PARDIG/SatWeave), 의료(Gemini for healthcare) 등 전문 과학 및 산업 분야로의 AI 확장",
+    "비디오 생성(Gemini Omni 1.2 Flash) 및 제품 개선 자동화(Wave) 등 실무 생산성 도구의 정식 출시 및 활용"
+  ],
+  "daily_tags": [
+    "AI Agent",
+    "Generative AI",
+    "Scientific AI",
+    "Automation"
+  ],
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: 오늘의 주요 발표는 AI 에이전트의 실질적인 활용과 산업별 특화 모델의 확장에 집중되었습니다. Google과 OpenAI는 결제, 코딩, 워크플로우 자동화를 지원하는 에이전트 기술을 선보였으며, 의료, 생물학, 기상 등 전문 과학 분야로의 AI 적용 사례가 두드러졌습니다.\n\n📍 1. Introducing Gemini 4 Hydrogen\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 에이전틱 워크플로우(agentic workflows)를 위한 데일리 드라이버인 Gemini 4 Hydrogen을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Opening the datasets behind our AI weather models\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.\n🔗 링크: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/\n\n📍 3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 AlphaGenome 2는 단일 세포 생물학과 인간 유전학을 연결하는 차세대 DNA 서열 모델입니다. 이 모델은 유전적 변이가 인간 세포 유형에 미치는 영향을 예측하여 질병 이해를 돕습니다.\n🔗 링크: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n📍 4. Introducing ChatGPT Wallet\n🗂️ 소스: OpenAI News | 분류: Product\n📝 요약: OpenAI가 ChatGPT Work, Codex, dots 환경에서 사용할 수 있는 ChatGPT Wallet을 출시했습니다. 이 기능은 사용자의 승인을 통해 에이전트가 안전하게 결제를 완료할 수 있도록 지원합니다.\n🔗 링크: https://openai.com/index/introducing-chatgpt-wallet\n\n📍 5. How Amplitude ships product improvements in 1–2 days with OpenAI\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Amplitude는 OpenAI 모델을 기반으로 구축된 프로액티브 제품 에이전트인 Wave를 통해 제품 개선 주기를 1~2일로 단축했습니다. Wave는 무엇을 개발할지 식별하고, 코딩 에이전트를 통해 변경 사항 배포를 도우며, 그 영향을 측정하는 역할을 합니다.\n🔗 링크: https://openai.com/business/customer-stories/amplitude\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-14.md",
+  "items": [
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+      "category": "Models",
+      "published_at_kst": "2026-11-30T00:00:00+09:00",
+      "published_date": "2026-11-30",
+      "original_description": "Today, we’re introducing Gemini 4 Hydrogen, our daily driver for agentic workflows",
+      "release_type": "product_release",
+      "rank": 1,
+      "summary": "Google DeepMind가 에이전틱 워크플로우(agentic workflows)를 위한 데일리 드라이버인 Gemini 4 Hydrogen을 발표했습니다.",
+      "key_points": [
+        "Google DeepMind의 새로운 모델인 Gemini 4 Hydrogen 출시",
+        "에이전틱 워크플로우를 위한 데일리 드라이버로 설계됨"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "Gemini 4 Hydrogen",
+        "AI Agent"
+      ]
+    },
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "Opening the datasets behind our AI weather models",
+      "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "category": "Science",
+      "published_at_kst": "2026-11-30T00:00:00+09:00",
+      "published_date": "2026-11-30",
+      "original_description": "Google DeepMind introduces PARDIG and SatWeave: open, multi-decade foundational datasets enabling global precipitation mapping and geostationary satellite mosaics.",
+      "release_type": "official_update",
+      "rank": 2,
+      "summary": "Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.",
+      "key_points": [
+        "Google DeepMind가 새로운 기초 데이터셋인 PARDIG와 SatWeave를 도입함",
+        "수십 년간의 데이터를 포함하여 전 지구적 강수량 매핑 및 위성 모자이크 제작이 가능함",
+        "AI 기상 모델 연구를 위한 오픈 데이터셋으로서의 역할을 수행함"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "PARDIG",
+        "SatWeave"
+      ]
+    },
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "category": "Science",
+      "published_at_kst": "2026-11-30T00:00:00+09:00",
+      "published_date": "2026-11-30",
+      "original_description": "AlphaGenome 2 is our next-generation DNA sequence model that bridges single-cell biology and human genetics, predicting how variants affect human cell types.",
+      "release_type": "official_update",
+      "rank": 3,
+      "summary": "Google DeepMind가 발표한 AlphaGenome 2는 단일 세포 생물학과 인간 유전학을 연결하는 차세대 DNA 서열 모델입니다. 이 모델은 유전적 변이가 인간 세포 유형에 미치는 영향을 예측하여 질병 이해를 돕습니다.",
+      "key_points": [
+        "단일 세포 생물학과 인간 유전학 사이의 간극을 메우는 차세대 DNA 서열 모델",
+        "유전적 변이가 인간 세포 유형에 미치는 영향을 예측",
+        "질병에 대한 이해를 높이기 위한 기술적 토대 제공"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "AlphaGenome 2",
+        "DNA sequence model"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "category": "Product",
+      "published_at_kst": "2026-11-14T00:00:00+09:00",
+      "published_date": "2026-11-14",
+      "original_description": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "release_type": "product_release",
+      "rank": 4,
+      "summary": "OpenAI가 ChatGPT Work, Codex, dots 환경에서 사용할 수 있는 ChatGPT Wallet을 출시했습니다. 이 기능은 사용자의 승인을 통해 에이전트가 안전하게 결제를 완료할 수 있도록 지원합니다.",
+      "key_points": [
+        "ChatGPT Work, Codex, dots 환경을 위한 새로운 결제 방식 도입",
+        "사용자 승인을 통한 에이전트의 구매 기능 제공",
+        "기존 카드 보호 기능을 활용한 보안 결제 지원"
+      ],
+      "tags": [
+        "OpenAI",
+        "ChatGPT Wallet",
+        "AI Agent"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/business/customer-stories/amplitude",
+      "category": "Official Release",
+      "published_at_kst": "2026-11-13T05:00:00+09:00",
+      "published_date": "2026-11-13",
+      "original_description": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "release_type": "official_update",
+      "rank": 5,
+      "summary": "Amplitude는 OpenAI 모델을 기반으로 구축된 프로액티브 제품 에이전트인 Wave를 통해 제품 개선 주기를 1~2일로 단축했습니다. Wave는 무엇을 개발할지 식별하고, 코딩 에이전트를 통해 변경 사항 배포를 도우며, 그 영향을 측정하는 역할을 합니다.",
+      "key_points": [
+        "OpenAI 모델을 기반으로 구축된 Amplitude의 프로액티브 제품 에이전트 Wave 출시",
+        "제품 개발 아이디어 식별부터 코딩 에이전트를 통한 배포, 영향력 측정까지의 워크플로우 지원",
+        "제품 개선 주기를 1~2일 이내로 단축하는 효율성 제공"
+      ],
+      "tags": [
+        "Amplitude",
+        "OpenAI",
+        "Wave"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "category": "Official Release",
+      "published_at_kst": "2026-11-12T18:30:00+09:00",
+      "published_date": "2026-11-12",
+      "original_description": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "release_type": "official_update",
+      "rank": 6,
+      "summary": "Holiday Extras가 Codex를 활용하여 고객 전문 지식을 더 나은 애플리케이션으로 전환하고 있습니다. 이를 통해 예약 전환율을 높이고 새로운 성장 가능성을 확보하고 있습니다.",
+      "key_points": [
+        "Holiday Extras의 Codex 활용 사례 발표",
+        "고객 전문 지식을 활용한 애플리케이션 고도화",
+        "예약 전환율 향상 및 비즈니스 성장 도모"
+      ],
+      "tags": [
+        "OpenAI",
+        "Codex",
+        "Holiday Extras"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Introducing Gemini for healthcare",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-11-11T00:00:00+09:00",
+      "published_date": "2026-11-11",
+      "original_description": "Today, we are announcing Gemini for healthcare. This purpose-built industry solution extends the universal Gemini agent, we introduced last month at Gemini at Work.",
+      "release_type": "engineering_update",
+      "rank": 7,
+      "summary": "Google Cloud가 의료 분야에 특화된 Gemini for healthcare를 발표했습니다. 이 솔루션은 지난달 Gemini at Work에서 소개된 범용 Gemini 에이전트를 확장하여 구축된 산업 맞춤형 솔루션입니다.",
+      "key_points": [
+        "Google Cloud의 새로운 의료 특화 솔루션인 Gemini for healthcare 출시",
+        "지난달 발표된 범용 Gemini 에이전트의 기능을 확장하여 설계됨",
+        "의료 산업의 요구사항에 맞춘 목적 기반 솔루션 제공"
+      ],
+      "tags": [
+        "Google Cloud",
+        "Gemini",
+        "Healthcare"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "New survey finds enterprises trapped between legacy software and AI modernization",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/new-survey-finds-enterprises-trapped-between-legacy-software-and-ai-modernization",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-11-10T00:00:00+09:00",
+      "published_date": "2026-11-10",
+      "original_description": "New survey reveals how enterprise reliance on legacy software acts as an innovation tax, holding back AI adoption and modernization.",
+      "release_type": "engineering_update",
+      "rank": 8,
+      "summary": "새로운 설문 조사 결과, 기업들이 기존 레거시 소프트웨어와 AI 현대화 사이에서 어려움을 겪고 있는 것으로 나타났습니다. 레거시 소프트웨어에 대한 의존도가 혁신 비용을 발생시키며 AI 도입과 현대화를 저해하는 요소로 작용하고 있습니다.",
+      "key_points": [
+        "기업의 레거시 소프트웨어 의존도가 혁신을 방해하는 '혁신세(innovation tax)'로 작용",
+        "기존 시스템이 AI 도입 및 현대화 과정을 지연시키는 주요 원인으로 분석",
+        "레거시 소프트웨어와 AI 현대화 사이의 격차가 기업의 발전을 가로막음"
+      ],
+      "tags": [
+        "AI",
+        "Legacy Software",
+        "Digital Transformation"
+      ]
+    },
+    {
+      "source_key": "google_cloud_ai",
+      "source_name": "Google Cloud AI",
+      "title": "Gemini Omni 1.2 Flash: Fast, cost-effective, and reliable video generation and editing now generally available",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-omni-1-2-flash-generally-available",
+      "category": "AI & Machine Learning",
+      "published_at_kst": "2026-11-06T00:00:00+09:00",
+      "published_date": "2026-11-06",
+      "original_description": "Gemini Omni 1.2 Flash is now generally available on Google Cloud: fast, cost-effective, and reliable video generation and editing via API.",
+      "release_type": "engineering_update",
+      "rank": 9,
+      "summary": "Google Cloud에서 Gemini Omni 1.2 Flash가 정식 출시되었습니다. 이 모델은 API를 통해 빠르고 비용 효율적이며 신뢰할 수 있는 비디오 생성 및 편집 기능을 제공합니다.",
+      "key_points": [
+        "Gemini Omni 1.2 Flash 정식 출시(GA)",
+        "API를 통한 빠르고 비용 효율적인 비디오 생성 및 편집 기능 제공",
+        "신뢰할 수 있는 비디오 작업 워크플로우 지원"
+      ],
+      "tags": [
+        "Google Cloud",
+        "Gemini Omni 1.2 Flash",
+        "Video Generation"
+      ]
+    }
+  ]
+}
