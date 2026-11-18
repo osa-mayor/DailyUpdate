@@ -1,22 +1,21 @@
 {
   "source": "official_news",
-  "date": "2026-11-18",
-  "generated_at": "2026-11-18T04:39:09.199673+09:00",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T04:49:54.115172+09:00",
   "count": 9,
-  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 한 차세대 AI 모델(Gemini 4, GPT-6.2) 및 산업 특화형(의료, 법률, 생물학) 솔루션 발표가 주를 이루었으며, AI 기술이 실질적인 전문 영역과 공공 부문으로 확장되는 양상을 보였습니다.",
+  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4, GPT-6.2) 및 특화 모델(칩 설계, 의료, 기상)의 출시가 이어졌으며, AI 에이전트와 샌드박스 기술을 통한 실질적인 워크플로우 혁신과 산업별 맞춤형 솔루션 도입이 가속화되고 있습니다.",
   "daily_key_points": [
-    "Google DeepMind와 OpenAI의 차세대 모델 발표: 에이전틱 워크플로우를 위한 Gemini 4 Hydrogen, 코딩 및 컴퓨터 사용 능력이 강화된 GPT-6.2 Astra/Sol 출시",
-    "산업별 전문 AI 솔루션 확장: 의료(Gemini for healthcare), 법률(Astra for Law), 생물학(AlphaGenome 2) 등 특정 도메인에 최적화된 모델 및 데이터셋 공개",
-    "AI 도입의 글로벌 확장 및 기업 과제: 칠레 정부와의 파트너십을 통한 공공 부문 협력과 레거시 소프트웨어로 인한 기업들의 AI 현대화 병목 현상 확인"
+    "Google DeepMind와 OpenAI의 차세대 모델(Gemini 4, GPT-6.2) 출시를 통한 에이전틱 워크플로우 및 코딩/컴퓨터 사용 능력 강화",
+    "칩 설계(GPT-6 Astra), 의료(Gemini for healthcare), 기상(PARDIG/SatWeave) 등 특정 산업 및 연구 분야로의 AI 적용 확대",
+    "기업들의 레거시 소프트웨어 탈피와 AI 현대화 사이의 과제 및 Google Cloud의 AI 플랫폼 리더십 입증"
   ],
   "daily_tags": [
-    "AI 모델",
-    "에이전틱 AI",
-    "산업 특화 AI",
-    "Google DeepMind",
-    "OpenAI"
+    "AI Model Release",
+    "Agentic Workflow",
+    "Industry-Specific AI",
+    "AI Infrastructure"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 한 차세대 AI 모델(Gemini 4, GPT-6.2) 및 산업 특화형(의료, 법률, 생물학) 솔루션 발표가 주를 이루었으며, AI 기술이 실질적인 전문 영역과 공공 부문으로 확장되는 양상을 보였습니다.\n\n📍 1. Introducing Gemini 4 Hydrogen\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 에이전틱 워크플로우(agentic workflows)를 위한 데일리 드라이버인 Gemini 4 Hydrogen을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Opening the datasets behind our AI weather models\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.\n🔗 링크: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/\n\n📍 3. AlphaGenome 2: Deciphering how cells read DNA to better understand disease\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 발표한 AlphaGenome 2는 단일 세포 생물학과 인간 유전학을 연결하는 차세대 DNA 서열 모델입니다. 이 모델은 유전적 변이가 인간 세포 유형에 미치는 영향을 예측하여 질병 이해를 돕습니다.\n🔗 링크: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/\n\n📍 4. Introducing GPT-6.2 Astra and Sol\n🗂️ 소스: OpenAI News | 분류: Product\n📝 요약: OpenAI가 새로운 모델인 GPT-6.2 Astra 및 Sol을 출시했습니다. 이번 업데이트는 ChatGPT Work, Codex, API 전반에서 전문적인 결과물, 코딩, 컴퓨터 사용 능력 및 비용 효율성을 개선하는 데 중점을 두었습니다.\n🔗 링크: https://openai.com/index/introducing-gpt-6-2-astra-sol\n\n📍 5. Google Cloud is a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms\n🗂️ 소스: Google Cloud AI | 분류: AI & Machine Learning\n📝 요약: Google Cloud가 2026 Gartner Magic Quadrant for AI Application Development Platforms에서 Leader로 선정되었습니다. 이는 3회 연속 달성한 성과이며, 실행 능력(Ability to Execute) 축에서 가장 높은 위치를 차지했습니다.\n🔗 링크: https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-is-a-leader-in-the-2026-gartner-magic-quadrant\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-18.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4, GPT-6.2) 및 특화 모델(칩 설계, 의료, 기상)의 출시가 이어졌으며, AI 에이전트와 샌드박스 기술을 통한 실질적인 워크플로우 혁신과 산업별 맞춤형 솔루션 도입이 가속화되고 있습니다.\n\n📍 1. Introducing Gemini 4 Hydrogen\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 에이전틱 워크플로우(agentic workflows)를 위한 데일리 드라이버인 Gemini 4 Hydrogen을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Genie 4 is now available\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n📍 3. Opening the datasets behind our AI weather models\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.\n🔗 링크: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/\n\n📍 4. Inside the Codex sandbox\n🗂️ 소스: OpenAI News | 분류: Engineering\n📝 요약: Codex가 macOS, Linux, Windows 환경에서 사용자의 제어 하에 파일 시스템 및 네트워크 제한을 준수하며 명령어를 실행하는 방식에 대해 설명합니다. 보안이 유지된 샌드박스 환경에서 코드가 어떻게 실행되는지 기술적인 메커니즘을 다룹니다.\n🔗 링크: https://openai.com/index/inside-the-codex-sandbox\n\n📍 5. Advancing chip design with OpenAI models\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: OpenAI의 GPT-6 Astra 모델을 활용하여 칩 설계를 고도화하는 연구 성과가 발표되었습니다. 이 모델은 Jalapeño 실리콘에 사용된 회로 최적화 및 RISC-V 코어 설계 개선에 기여하며 AI 기반 칩 설계의 가능성을 보여주었습니다.\n🔗 링크: https://openai.com/index/advancing-chip-design-with-our-models\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-19.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -43,6 +42,29 @@
     {
       "source_key": "deepmind",
       "source_name": "Google DeepMind",
+      "title": "Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "category": "Models",
+      "published_at_kst": "2026-11-30T00:00:00+09:00",
+      "published_date": "2026-11-30",
+      "original_description": "We are rolling out a new Project Genie experience to eligible Google AI Ultra subscribers, opening access to our new Genie 4 world model.",
+      "release_type": "product_release",
+      "rank": 2,
+      "summary": "Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.",
+      "key_points": [
+        "새로운 Project Genie 경험 도입",
+        "Genie 4 월드 모델에 대한 접근 권한 제공",
+        "Google AI Ultra 구독자 대상 순차적 배포"
+      ],
+      "tags": [
+        "Google DeepMind",
+        "Genie 4",
+        "World Model"
+      ]
+    },
+    {
+      "source_key": "deepmind",
+      "source_name": "Google DeepMind",
       "title": "Opening the datasets behind our AI weather models",
       "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
       "category": "Science",
@@ -50,7 +72,7 @@
       "published_date": "2026-11-30",
       "original_description": "Google DeepMind introduces PARDIG and SatWeave: open, multi-decade foundational datasets enabling global precipitation mapping and geostationary satellite mosaics.",
       "release_type": "official_update",
-      "rank": 2,
+      "rank": 3,
       "summary": "Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.",
       "key_points": [
         "Google DeepMind가 새로운 기초 데이터셋인 PARDIG와 SatWeave를 도입함",
@@ -64,26 +86,49 @@
       ]
     },
     {
-      "source_key": "deepmind",
-      "source_name": "Google DeepMind",
-      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "category": "Science",
-      "published_at_kst": "2026-11-30T00:00:00+09:00",
-      "published_date": "2026-11-30",
-      "original_description": "AlphaGenome 2 is our next-generation DNA sequence model that bridges single-cell biology and human genetics, predicting how variants affect human cell types.",
-      "release_type": "official_update",
-      "rank": 3,
-      "summary": "Google DeepMind가 발표한 AlphaGenome 2는 단일 세포 생물학과 인간 유전학을 연결하는 차세대 DNA 서열 모델입니다. 이 모델은 유전적 변이가 인간 세포 유형에 미치는 영향을 예측하여 질병 이해를 돕습니다.",
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "category": "Engineering",
+      "published_at_kst": "2026-11-18T17:00:00+09:00",
+      "published_date": "2026-11-18",
+      "original_description": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "release_type": "engineering_update",
+      "rank": 4,
+      "summary": "Codex가 macOS, Linux, Windows 환경에서 사용자의 제어 하에 파일 시스템 및 네트워크 제한을 준수하며 명령어를 실행하는 방식에 대해 설명합니다. 보안이 유지된 샌드박스 환경에서 코드가 어떻게 실행되는지 기술적인 메커니즘을 다룹니다.",
       "key_points": [
-        "단일 세포 생물학과 인간 유전학 사이의 간극을 메우는 차세대 DNA 서열 모델",
-        "유전적 변이가 인간 세포 유형에 미치는 영향을 예측",
-        "질병에 대한 이해를 높이기 위한 기술적 토대 제공"
+        "Codex의 샌드박스 실행 메커니즘 공개",
+        "macOS, Linux, Windows를 아우르는 크로스 플랫폼 지원",
+        "사용자가 제어하는 파일 시스템 및 네트워크 제한 적용"
       ],
       "tags": [
-        "Google DeepMind",
-        "AlphaGenome 2",
-        "DNA sequence model"
+        "OpenAI",
+        "Codex",
+        "Sandbox"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "category": "Research",
+      "published_at_kst": "2026-11-18T09:00:00+09:00",
+      "published_date": "2026-11-18",
+      "original_description": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "release_type": "research_release",
+      "rank": 5,
+      "summary": "OpenAI의 GPT-6 Astra 모델을 활용하여 칩 설계를 고도화하는 연구 성과가 발표되었습니다. 이 모델은 Jalapeño 실리콘에 사용된 회로 최적화 및 RISC-V 코어 설계 개선에 기여하며 AI 기반 칩 설계의 가능성을 보여주었습니다.",
+      "key_points": [
+        "GPT-6 Astra 모델을 활용한 AI 기반 칩 설계 기술 진전",
+        "Jalapeño 실리콘에 사용된 최적화 회로 설계",
+        "RISC-V 코어 설계 개선 및 성능 향상"
+      ],
+      "tags": [
+        "OpenAI",
+        "GPT-6 Astra",
+        "Chip Design"
       ]
     },
     {
@@ -96,7 +141,7 @@
       "published_date": "2026-11-18",
       "original_description": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
       "release_type": "product_release",
-      "rank": 4,
+      "rank": 6,
       "summary": "OpenAI가 새로운 모델인 GPT-6.2 Astra 및 Sol을 출시했습니다. 이번 업데이트는 ChatGPT Work, Codex, API 전반에서 전문적인 결과물, 코딩, 컴퓨터 사용 능력 및 비용 효율성을 개선하는 데 중점을 두었습니다.",
       "key_points": [
         "GPT-6.2 Astra 및 Sol 모델 출시",
@@ -119,7 +164,7 @@
       "published_date": "2026-11-18",
       "original_description": "For the third time in a row, Google Cloud is recognized as a Leader in the 2026 Gartner Magic Quadrant for AI Application Development Platforms, positioned highest overall on the Ability to Execute axis.",
       "release_type": "engineering_update",
-      "rank": 5,
+      "rank": 7,
       "summary": "Google Cloud가 2026 Gartner Magic Quadrant for AI Application Development Platforms에서 Leader로 선정되었습니다. 이는 3회 연속 달성한 성과이며, 실행 능력(Ability to Execute) 축에서 가장 높은 위치를 차지했습니다.",
       "key_points": [
         "Google Cloud가 2026 Gartner Magic Quadrant for AI Application Development Platforms에서 Leader로 선정됨",
@@ -130,52 +175,6 @@
         "Google Cloud",
         "Gartner",
         "AI Application Development Platforms"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "category": "Global Affairs",
-      "published_at_kst": "2026-11-17T09:00:00+09:00",
-      "published_date": "2026-11-17",
-      "original_description": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "release_type": "announcement",
-      "rank": 6,
-      "summary": "OpenAI와 칠레 정부가 책임감 있는 AI 도입과 공공 부문 역량 강화를 위해 파트너십을 체결했습니다. 이번 협력을 통해 현지 스타트업의 AI 애플리케이션 개발 지원도 함께 이루어질 예정입니다.",
-      "key_points": [
-        "OpenAI와 칠레 정부 간의 전략적 파트너십 체결",
-        "책임감 있는 AI 도입 및 공공 부문 기술 역량 강화 지원",
-        "현지 스타트업의 AI 애플리케이션 개발 지원"
-      ],
-      "tags": [
-        "OpenAI",
-        "Chile",
-        "AI Partnership"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "category": "Company",
-      "published_at_kst": "2026-11-17T09:00:00+09:00",
-      "published_date": "2026-11-17",
-      "original_description": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "release_type": "announcement",
-      "rank": 7,
-      "summary": "OpenAI의 Astra for Law가 24개 법률 분야를 아우르는 평가에서 1위를 기록했습니다. 이제 모든 ChatGPT Enterprise 고객이 해당 기능에 대한 액세스 권한을 요청할 수 있습니다.",
-      "key_points": [
-        "Astra for Law가 24개 법률 분야 평가에서 1위 달성",
-        "법률 지능 분야에서의 선도적 성능 입증",
-        "ChatGPT Enterprise 고객 대상 액세스 권한 제공"
-      ],
-      "tags": [
-        "OpenAI",
-        "Astra for Law",
-        "ChatGPT Enterprise"
       ]
     },
     {
