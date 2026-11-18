@@ -1,0 +1,191 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T04:52:04.879025+09:00",
+  "count": 6,
+  "daily_summary": "Hugging Face에서는 멀티모달 및 TTS 모델들이 주목받고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+  "daily_key_points": [
+    "Hugging Face에서 image-text-to-text 및 text-to-speech 파이프라인 지원 모델들이 트렌드로 부상",
+    "Tencent의 Hy4-flash 등 멀티모달 모델의 주목도 상승",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들의 상위권 성적 기록"
+  ],
+  "daily_tags": [
+    "HuggingFace",
+    "Multimodal",
+    "LiveCodeBench"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 멀티모달 및 TTS 모델들이 주목받고 있으며, LiveCodeBench에서는 Gemini 및 O4-Mini 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. harness-hub/Qwen3.8-27B-pi-adapted\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: harness-hub/Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted\n\n📍 2. n4ze3m/tiny-voca\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: n4ze3m/tiny-voca 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-speech 파이프라인을 지원하는 모델입니다.\n🔗 링크: https://huggingface.co/n4ze3m/tiny-voca\n\n📍 3. tencent/Hy4-flash\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Tencent에서 공개한 Hy4-flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다.\n🔗 링크: https://huggingface.co/tencent/Hy4-flash\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-19.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-19T01:16:14+09:00",
+      "published_date": "2026-11-19",
+      "original_description": "likes=373, downloads=377, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 373,
+        "downloads": 377,
+        "num_parameters": 0,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 1,
+      "summary": "harness-hub/Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.",
+      "key_points": [
+        "harness-hub/Qwen3.8-27B-pi-adapted 모델의 출시 및 트렌드 확인",
+        "likes 373회, downloads 377회를 기록하며 사용자 관심을 유도",
+        "image-text-to-text 태그를 사용하는 멀티모달 관련 모델로 분류"
+      ],
+      "tags": [
+        "Qwen3.8-27B-pi-adapted",
+        "image-text-to-text",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "n4ze3m/tiny-voca",
+      "url": "https://huggingface.co/n4ze3m/tiny-voca",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-18T22:48:01+09:00",
+      "published_date": "2026-11-18",
+      "original_description": "likes=282, downloads=4430, pipeline_tag=text-to-speech",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 282,
+        "downloads": 4430,
+        "num_parameters": 0,
+        "pipeline_tag": "text-to-speech"
+      },
+      "rank": 2,
+      "summary": "n4ze3m/tiny-voca 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 text-to-speech 파이프라인을 지원하는 모델입니다.",
+      "key_points": [
+        "n4ze3m/tiny-voca 모델의 downloads가 4430회를 기록하며 트렌드에 진입했습니다.",
+        "해당 모델은 text-to-speech 태그를 사용하는 음성 합성 모델입니다.",
+        "likes 282회를 기록하며 사용자들의 관심을 받고 있습니다."
+      ],
+      "tags": [
+        "n4ze3m/tiny-voca",
+        "text-to-speech",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "tencent/Hy4-flash",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-18T13:24:08+09:00",
+      "published_date": "2026-11-18",
+      "original_description": "likes=217, downloads=159, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 217,
+        "downloads": 159,
+        "num_parameters": 220251201958,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 3,
+      "summary": "Tencent에서 공개한 Hy4-flash 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다.",
+      "key_points": [
+        "Tencent에서 출시한 Hy4-flash 모델이 Hugging Face 트렌드에 진입했습니다.",
+        "해당 모델의 pipeline_tag는 image-text-to-text로 분류됩니다.",
+        "모델 파라미터 규모는 약 220B 수준입니다."
+      ],
+      "tags": [
+        "Tencent",
+        "Hy4-flash",
+        "image-text-to-text"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
