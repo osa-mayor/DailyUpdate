@@ -1,0 +1,192 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T04:43:35.186561+09:00",
+  "count": 6,
+  "daily_summary": "Hugging Face를 중심으로 멀티모달(Image-to-Text, Text-to-Video) 모델들이 주목받고 있으며, LiveCodeBench 벤치마크에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁이 이어지고 있습니다.",
+  "daily_key_points": [
+    "Hugging Face에서 Qwen 및 SenseNova 계열의 멀티모달(image-text-to-text) 모델과 Apple의 FastFrames-L(text-to-video) 모델이 트렌드로 부상",
+    "LiveCodeBench 벤치마크에서 O4-Mini(High)와 Gemini-2.5 시리즈 모델들이 상위권 성적 기록",
+    "새로운 비디오 생성 모델 및 코딩 특화 모델에 대한 기술적 관심 증가"
+  ],
+  "daily_tags": [
+    "Multimodal",
+    "Text-to-Video",
+    "LiveCodeBench",
+    "HuggingFace"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face를 중심으로 멀티모달(Image-to-Text, Text-to-Video) 모델들이 주목받고 있으며, LiveCodeBench 벤치마크에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁이 이어지고 있습니다.\n\n📍 1. harness-hub/Qwen3.8-27B-pi-adapted\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted\n\n📍 2. sensenova/SenseNova-Loop-9B\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: sensenova/SenseNova-Loop-9B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 9B 규모의 모델입니다.\n🔗 링크: https://huggingface.co/sensenova/SenseNova-Loop-9B\n\n📍 3. apple/FastFrames-L\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Apple에서 공개한 text-to-video 모델인 FastFrames-L이 Hugging Face에서 주목받고 있습니다. 현재 485개의 likes를 기록하며 새로운 비디오 생성 모델로서의 관심을 받고 있습니다.\n🔗 링크: https://huggingface.co/apple/FastFrames-L\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-21.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-20T22:55:42+09:00",
+      "published_date": "2026-11-20",
+      "original_description": "likes=850, downloads=1874, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 850,
+        "downloads": 1874,
+        "num_parameters": 0,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 1,
+      "summary": "Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.",
+      "key_points": [
+        "harness-hub/Qwen3.8-27B-pi-adapted 모델의 출시 및 트렌드 확인",
+        "850개의 likes와 1,874회의 downloads를 기록하며 사용자 관심을 유도",
+        "image-text-to-text 태그를 사용하는 멀티모달 관련 모델로 분류"
+      ],
+      "tags": [
+        "Qwen3.8-27B-pi-adapted",
+        "image-text-to-text",
+        "Hugging Face"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "sensenova/SenseNova-Loop-9B",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-20T14:34:36+09:00",
+      "published_date": "2026-11-20",
+      "original_description": "likes=437, downloads=1631, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 437,
+        "downloads": 1631,
+        "num_parameters": 9656254576,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 2,
+      "summary": "sensenova/SenseNova-Loop-9B 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 9B 규모의 모델입니다.",
+      "key_points": [
+        "sensenova/SenseNova-Loop-9B 모델의 출시 및 트렌드 확인",
+        "image-text-to-text 태그를 가진 멀티모달 모델",
+        "약 9.6B 파라미터를 보유한 모델 규모"
+      ],
+      "tags": [
+        "SenseNova-Loop-9B",
+        "image-text-to-text",
+        "LLM"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "apple/FastFrames-L",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-20T11:22:20+09:00",
+      "published_date": "2026-11-20",
+      "original_description": "likes=485, downloads=0, pipeline_tag=text-to-video",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 485,
+        "downloads": 0,
+        "num_parameters": 0,
+        "pipeline_tag": "text-to-video"
+      },
+      "rank": 3,
+      "summary": "Apple에서 공개한 text-to-video 모델인 FastFrames-L이 Hugging Face에서 주목받고 있습니다. 현재 485개의 likes를 기록하며 새로운 비디오 생성 모델로서의 관심을 받고 있습니다.",
+      "key_points": [
+        "apple/FastFrames-L 모델이 Hugging Face에 공개됨",
+        "pipeline_tag는 text-to-video 분야임",
+        "현재 485 likes를 기록하며 트렌딩 중"
+      ],
+      "tags": [
+        "FastFrames-L",
+        "text-to-video",
+        "Apple"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
