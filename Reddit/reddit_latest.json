@@ -1,7 +1,7 @@
 {
   "source": "reddit",
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T04:57:01.107429+09:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T04:47:35.108639+09:00",
   "count": 0,
   "daily_summary": "",
   "daily_key_points": [],
@@ -12,7 +12,7 @@
     "candidate_count": 0,
     "finalist_count": 0,
     "summarization_wall_sec": 0.0,
-    "total_wall_sec": 103.639
+    "total_wall_sec": 155.509
   },
   "chat_message": "",
   "items": []
