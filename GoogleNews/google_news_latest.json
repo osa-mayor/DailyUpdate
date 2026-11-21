@@ -1,342 +1,342 @@
 {
   "source": "google_news",
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T04:41:21.365708+09:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T04:45:01.547286+09:00",
   "count": 10,
-  "daily_summary": "오늘의 AI 뉴스는 Anthropic의 상장 이후 발생한 기술주 매도세와 함께, AI 산업의 초점이 인프라 구축에서 실질적인 수익 모델(Monetization) 및 효율성 검증 단계로 전환되고 있음을 보여주었습니다. 또한, AI를 활용한 수학적 난제 해결, 양자 컴퓨팅 최적화, 교육 혁신 등 AI 기술이 기초 과학과 사회 시스템 전반에 깊숙이 침투하며 실질적인 가치를 증명하는 과정이 핵심 흐름으로 나타났습니다.",
+  "daily_summary": "오늘의 AI 뉴스는 막대한 인프라 투자 대비 실질적인 수익 모델(ROI)을 증명해야 하는 경제적 압박과 시장의 변동성이 핵심 흐름이었습니다. 기술적으로는 단순한 모델 크기 경쟁을 넘어 효율적인 추론 비용 절감과 자율적 AI 에이전트의 신뢰성 확보가 중요한 과제로 부상했습니다. 또한, AI 인프라의 지리적 편중과 뇌 과학적 메커니즘의 차이 등 기술적 패권과 근본적 원리에 대한 논의도 활발히 이루어졌습니다.",
   "daily_key_points": [
-    "AI 산업의 패러다임이 단순한 모델 규모 확장 경쟁에서 추론 비용 최적화와 실질적인 에이전트(Agentic Workflow) 활용 능력 중심으로 이동하고 있습니다.",
-    "거대 모델 운영에 따른 막대한 인프라 비용과 수익성 사이의 간극이 기업 가치 산정의 핵심 변수로 부상하며 시장의 변동성을 키우고 있습니다.",
-    "AI 기술이 수학적 증명, 양자 오류 정정, 교육 및 과학 연구 등 전문 영역에서 복잡한 난제를 해결하는 강력한 도구로 자리 잡고 있습니다."
+    "AI 산업은 막대한 자본 지출(CAPEX)이 실질적인 비즈니스 수익으로 전환되지 못하는 '수익성 병목 현상'과 시장의 리프라이싱 국면에 직면해 있습니다.",
+    "AI 에이전트의 자율성 증가와 복잡한 인프라 통합은 예측 불가능한 시스템적 오류와 연쇄적 붕괴 위험이라는 새로운 기술적 과제를 던지고 있습니다.",
+    "AI 모델의 학습 데이터와 컴퓨팅 자원이 특정 국가에 집중됨에 따라 발생하는 기술적 종속과 언어적·문화적 불균형 문제가 심화되고 있습니다."
   ],
   "daily_tags": [
-    "AI_Economics",
-    "LLM_Efficiency",
-    "Agentic_Workflow",
-    "Tech_Market_Volatility",
-    "AI_Science"
+    "AI_ROI",
+    "AI_Agent",
+    "Market_Correction",
+    "AI_Infrastructure",
+    "Sovereign_AI"
   ],
-  "chat_message": "🌏 오늘의 Google News Tech Digest\n\n📌 오늘의 요약: 오늘의 AI 뉴스는 Anthropic의 상장 이후 발생한 기술주 매도세와 함께, AI 산업의 초점이 인프라 구축에서 실질적인 수익 모델(Monetization) 및 효율성 검증 단계로 전환되고 있음을 보여주었습니다. 또한, AI를 활용한 수학적 난제 해결, 양자 컴퓨팅 최적화, 교육 혁신 등 AI 기술이 기초 과학과 사회 시스템 전반에 깊숙이 침투하며 실질적인 가치를 증명하는 과정이 핵심 흐름으로 나타났습니다.\n\n📍 1. Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues - The New York Times\n🗂️ 분류: AI & LLM | 출처: The New York Times\n📝 요약: AI 및 테크 섹터 전반의 매도세가 이어지며 Anthropic의 기업 가치와 주식 가치가 하락세를 보이고 있습니다. 이는 개별 모델의 성능 이슈보다는 거시 경제적 요인과 AI 산업 전반의 밸류에이션 조정이 맞물린 결과로 분석됩니다.\n🔗 링크: https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html\n\n📍 2. Tech Rout Deepens as Anthropic Stock Slides - WSJ\n🗂️ 분류: AI & LLM | 출처: WSJ\n📝 요약: 최근 기술주 하락세가 심화되는 가운데, Anthropic의 기업 가치 하락이 AI 산업 전반의 투자 심리 위축을 가속화하고 있습니다. 이는 LLM(Large Language Model) 모델의 성능 경쟁을 넘어, 수익 모델의 실현 가능성과 시장의 기대치 사이의 간극을 보여주는 사례입니다.\n🔗 링크: https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5\n\n📍 3. Anthropic's post-debut stumble delivers reality check for AI trade - Reuters\n🗂️ 분류: AI & LLM | 출처: Reuters\n📝 요약: Anthropic의 시장 데뷔 이후 겪고 있는 성장통은 AI 산업 전반에 걸쳐 막대한 자본 투입 대비 실질적인 수익 모델과 효율성 검증이 필요함을 시사합니다. 단순한 모델 성능 경쟁을 넘어, 기업용 AI 시장에서의 실질적인 가치 증명 단계로 진입했음을 보여줍니다.\n🔗 링크: https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/\n\n📍 4. SpaceX’s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models - CNBC\n🗂️ 분류: AI & LLM | 출처: CNBC\n📝 요약: SpaceX의 AI 코딩 플랫폼인 Cursor가 지정학적 리스크를 이유로 중국 Moonshot AI의 Kimi K2.5 모델 기반으로 구축된 Composer 2 모델의 단계적 폐기를 검토 중입니다. 이는 미국 의회 조사 결과에 따른 조치로, 미국 기술 스택 내 중국산 AI 모델 침투에 대한 안보 우려가 반영된 결정입니다.\n🔗 링크: https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html\n\n📍 5. Dartmouth to Pilot New Approaches to AI in Education - Dartmouth\n🗂️ 분류: AI & LLM | 출처: Dartmouth\n📝 요약: 다트머스 대학교(Dartmouth)가 AI 기술의 급격한 변화에 대응하기 위해 연구, 교육 과정 설계, 컴퓨팅 인프라 확충을 아우르는 포괄적인 AI 전략을 발표했습니다. 이번 전략은 단순한 기술 도입을 넘어, 윤리적 가이드라인 수립과 인간 중심의 교육 역량 강화를 목표로 하는 다학제적 혁신을 지향합니다.\n🔗 링크: https://home.dartmouth.edu/news/2026/11/dartmouth-pilot-new-approaches-ai-education\n\n📍 6. Harvard-led team receives $12 million in federal funds to advance quantum computing with AI - Harvard Gazette\n🗂️ 분류: AI & LLM | 출처: Harvard Gazette\n📝 요약: 하버드 대학교 연구팀이 미국 에너지부(DOE)로부터 1,200만 달러의 연구비를 지원받아 AI 기반의 결함 허용(Fault-tolerant) 양자 컴퓨팅 기술 개발에 착수했습니다. 이번 ASQC 프로젝트는 AI를 활용해 양자 오류 정정(QEC) 시스템을 최적화함으로써, 과학적 난제 해결을 위한 실용적인 양자 컴퓨터 구현을 목표로 합니다.\n🔗 링크: https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/\n\n📍 7. AI just solved the ‘real’ Navier-Stokes problem - Scientific American\n🗂️ 분류: AI & LLM | 출처: Scientific American\n📝 요약: 뉴욕대(NYU)의 Tristan Buckmaster 교수와 Anthropic의 Levent Alpöge가 AI를 활용하여 나비에-스토크스(Navier-Stokes) 방정식의 '블로우업(blowup)' 문제를 해결하는 새로운 증명을 발표했습니다. 이는 지난 9월 OpenAI가 제시했던 수학적 허점을 보완하며, 물리적으로 실현 가능한 방식으로 유체의 무한 속도 발생 가능성을 입증하려는 시도입니다.\n🔗 링크: https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/\n\n📍 8. AI stocks are selling off after Anthropic’s record IPO, and Wall Street is split on whether this is the top - Fortune\n🗂️ 분류: AI & LLM | 출처: Fortune\n📝 요약: Anthropic의 기록적인 IPO 이후 AI 관련 주식들이 급락하며 시장의 변동성이 커진 가운데, 월가에서는 현재의 하락이 기술적 조정인지 혹은 거품의 정점인지에 대한 의견이 팽팽하게 갈리고 있습니다. AI 투자가 S&P 500 이익 성장의 절반을 견인해온 상황에서, 시장의 초점은 인프라 구축에서 실질적인 수익 창출(Monetization)로 이동하고 있습니다.\n🔗 링크: https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/\n\n📍 9. AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers - The Guardian\n🗂️ 분류: AI & LLM | 출처: The Guardian\n📝 요약: AI 경제로의 전환 과정에서 저임금 노동자들이 겪는 심리적·경제적 압박을 '인지적 세금(Cognitive Taxation)'으로 정의하며, 이것이 인간의 핵심 자산인 '브레인 캐피털(Brain Capital)'을 어떻게 잠식하는지 분석합니다. 기술적 자동화가 가져오는 불확실성과 생계 불안이 인지 능력을 저하시켜, 미래 경제의 핵심인 인간의 판단력과 창의성을 저해하는 구조적 위험을 경고합니다.\n🔗 링크: https://www.theguardian.com/technology/2026/nov/20/ai-low-paid-workers-cognitive-tax\n\n📍 10. AI Agents Should Not Access Financial Accounts Just Yet - Bank Policy Institute\n🗂️ 분류: AI & LLM | 출처: Bank Policy Institute\n📝 요약: AI Agent 기술의 급격한 발전으로 인해 금융 계좌 접근 권한을 가진 에이전트 개발이 가속화되고 있으나, 현재의 Risk Management 체계는 금융 보안 요구사항을 충족하기에 역부족입니다. 금융 기관은 에이전트의 오작동이나 사기 피해를 방지하기 위해 검증되지 않은 에이전트의 계좌 접근을 엄격히 제한해야 합니다.\n🔗 링크: https://bpi.com/ai-agents-should-not-access-financial-accounts-just-yet/\n\n출처: Google News\nhttps://news.google.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/google-news",
+  "chat_message": "🌏 오늘의 Google News Tech Digest\n\n📌 오늘의 요약: 오늘의 AI 뉴스는 막대한 인프라 투자 대비 실질적인 수익 모델(ROI)을 증명해야 하는 경제적 압박과 시장의 변동성이 핵심 흐름이었습니다. 기술적으로는 단순한 모델 크기 경쟁을 넘어 효율적인 추론 비용 절감과 자율적 AI 에이전트의 신뢰성 확보가 중요한 과제로 부상했습니다. 또한, AI 인프라의 지리적 편중과 뇌 과학적 메커니즘의 차이 등 기술적 패권과 근본적 원리에 대한 논의도 활발히 이루어졌습니다.\n\n📍 1. The AI boom had a really bad week — and it's raising loud alarms - NPR\n🗂️ 분류: AI & LLM | 출처: NPR\n📝 요약: 최근 AI 산업은 막대한 자본 투입 대비 실질적인 수익 모델(ROI) 증명에 어려움을 겪으며 시장의 불확실성이 증폭되었습니다. 기술적 낙관론과 경제적 현실 사이의 괴리가 커지면서, 단순한 모델 성능 경쟁을 넘어 실질적인 비즈니스 가치를 창출해야 한다는 압박이 거세지고 있습니다.\n🔗 링크: https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia\n\n📍 2. Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm - Yahoo Finance\n🗂️ 분류: AI & LLM | 출처: Yahoo Finance\n📝 요약: AI 인프라에 투입된 막대한 자본이 실질적인 수익(ROI)으로 전환되지 못할 것이라는 의구심이 커지며 Nvidia를 포함한 AI 관련주가 급락했습니다. 시장은 기술적 성숙도보다 과잉된 밸류에이션과 자본 지출(CAPEX)의 지속 가능성에 초점을 맞추며 거대한 리프라이싱(Repricing) 국면에 진입했습니다.\n🔗 링크: https://finance.yahoo.com/technology/ai/articles/ai-bubble-finally-popping-nvidia-140106035.html\n\n📍 3. Goldman Sachs admits the 'AI unwind' has spiraled into something more dangerous — and it's watching for 3 signs of bottom - Fortune\n🗂️ 분류: AI & LLM | 출처: Fortune\n📝 요약: AI 거품 붕괴 우려가 단순한 섹터 조정을 넘어 광범위한 성장 둔화로 확산되며 S&P 500과 Nasdaq이 급락하는 시장 변동성이 발생했습니다. Goldman Sachs는 시장의 바닥(Bottom)을 확인하기 위한 세 가지 핵심 지표로 AI 수익성 증명, Fed의 통화정책 변화, 그리고 투자자 포지셔닝의 급격한 변화를 제시했습니다.\n🔗 링크: https://fortune.com/2026/11/21/goldman-sachs-sp-500-correction-ai-unwind-bottom-three-conditions-hedge-funds-positioning/\n\n📍 4. Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions. - The New York Times\n🗂️ 분류: AI & LLM | 출처: The New York Times\n📝 요약: 최근 빈번해진 대규모 Tech Outages는 단순한 시스템 오류를 넘어, AI 기술이 인프라와 사회 시스템에 깊숙이 통합됨에 따라 발생할 더 큰 혼란의 전조 현상입니다. AI가 자율적인 의사결정을 내리는 Agent 형태로 진화함에 따라, 기술적 복잡성이 증가하고 연쇄적인 시스템 붕괴 위험이 커지고 있습니다.\n🔗 링크: https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html\n\n📍 5. Trump Wants AI Data Centers In West Virginia. The Gulf Wants Them Too, And Needs His Permission. - Forbes\n🗂️ 분류: AI & LLM | 출처: Forbes\n📝 요약: 트럼프 행정부의 에너지 정책과 AI 데이터 센터 구축 전략이 충돌하며, 미국 내 에너지 자립과 글로벌 데이터 센터 수요 사이의 지정학적 경쟁이 심화되고 있습니다. 웨스트버지니아의 풍부한 에너지 자원과 걸프 지역의 막대한 자본 및 인프라가 AI 연산 인프라 확보를 위해 대립하는 양상을 보입니다.\n🔗 링크: https://www.forbes.com/sites/guneyyildiz/2026/11/21/trump-wants-ai-data-centers-in-west-virginia-the-gulf-wants-them-too-and-needs-his-permission/\n\n📍 6. Your 401(k) is full of AI. How to deal with the volatility - CNN\n🗂️ 분류: AI & LLM | 출처: CNN\n📝 요약: 최근 S&P 500 지수의 급격한 변동성은 AI 산업에 대한 과도한 집중도가 은퇴 계좌(401(k)) 내에 잠재되어 있음을 경고하고 있습니다. 투자자들이 여러 인덱스 펀드를 보유하더라도 실제로는 소수의 빅테크 기업에 자산이 집중되는 '가짜 분산(False Diversification)' 위험에 노출되어 있습니다.\n🔗 링크: https://www.cnn.com/2026/11/21/business/ai-stocks-volatility-investing\n\n📍 7. AI may not work like the human brain after all, scientists discover - ScienceDaily\n🗂️ 분류: AI & LLM | 출처: ScienceDaily\n📝 요약: York University 연구진은 기존 AI 모델이 뇌의 시각 처리 방식을 모방하는 것처럼 보이지만, 실제 내부 메커니즘은 생물학적 뇌와 근본적으로 다를 수 있음을 입증했습니다. 연구팀은 '역예측 테스트(Reverse Predictivity Testing)'를 통해 AI가 뇌의 반응을 예측할 수는 있어도, 뇌가 AI의 내부 동작을 예측할 수는 없다는 비대칭적 차이를 발견했습니다.\n🔗 링크: https://www.sciencedaily.com/releases/2026/11/261120075701.htm\n\n📍 8. America, China, and the Costs of the Bipolar AI Race - Time Magazine\n🗂️ 분류: AI & LLM | 출처: Time Magazine\n📝 요약: 미국과 중국 중심의 양극화된 AI 패권 경쟁이 전 세계적인 기술 격차와 문화적 균질화 문제를 야기하고 있습니다. 인프라, 데이터, 연구 역량이 특정 두 국가에 집중됨에 따라 나머지 국가들은 기술적 종속과 언어적 소외라는 위기에 직면해 있습니다.\n🔗 링크: https://time.com/article/2026/11/21/america-china-and-the-costs-of-the-bipolar-ai-race/\n\n📍 9. AI Is Still So Riddled With Errors That It's Erasing Any Productivity Gains That Would Make It Useful in the Workplace - Futurism\n🗂️ 분류: AI & LLM | 출처: Futurism\n📝 요약: 생성형 AI가 제공하는 생산성 향상 효과가 AI 출력물의 오류를 검증하고 수정하는 데 소요되는 막대한 시간과 비용에 의해 상쇄되고 있습니다. 특히 AI 결과물의 정확성을 확인하는 과정에서 발생하는 '검증 부담(Verification Burden)'이 업무 효율을 저해하는 핵심 요인으로 지목됩니다.\n🔗 링크: https://futurism.com/future-society/ai-errors-productivity-verification-burden-useful\n\n📍 10. Three breaches, endless leaks: Your AI supply chain needs canaries - Dragos\n🗂️ 분류: AI & LLM | 출처: Dragos\n📝 요약: Dragos의 연구팀이 5개월간 200만 개의 Canary(미끼) 프롬프트를 AI 서비스에 주입하여 수행한 조사 결과, AI 공급망 내에서 데이터 유출과 보안 침해 사례가 광범위하게 발생하고 있음이 밝혀졌습니다. 특히 AI Router와 저가형 호스팅 제공업체를 통한 데이터 탈취, 그리고 ZDR(Zero Data Retention) 설정이 무력화되는 심각한 보안 결함이 확인되었습니다.\n🔗 링크: https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens\n\n출처: Google News\nhttps://news.google.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/google-news",
   "items": [
     {
       "category": "AI & LLM",
-      "title": "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues - The New York Times",
-      "link": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
-      "original_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XYVdGdzl2am5CT1o3QlFFV2duR2dJZzNpbjlrYWg2cU4tVHJwZ0I4WWhaVmd3ZHQ0cTVyRklGcHprTlk0UFEzenE2T2ZNZ1pvNXdKbDBySkFDXzA5cktobkRxaTcxdkZzWGtfXzVzLXZqeEhnSDk5VEROWGRsNzQ?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 18:44:04 GMT",
-      "source": "The New York Times",
+      "title": "The AI boom had a really bad week — and it's raising loud alarms - NPR",
+      "link": "https://www.npr.org/2026/11/21/nx-s1-6048729/ai-stock-markets-anthropic-nvidia",
+      "original_link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWmRxSU1kdTl4dm94SzFXeVY5ZnhrNGpBZEI3OHZzZHhvQzBVRUpzakQxWEgyYmJSMVJMcDZKTk5va1pzRm1OQXlLTzU3NWNEcklOcHZXOW1Gc25iUVVrVHhmRDdlTzVmMEQ0R3FWOXQ5VXU5YWdETEJvRHo1N3NGaWMyejY?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 10:00:00 GMT",
+      "source": "NPR",
       "summary_data": {
-        "summary": "AI 및 테크 섹터 전반의 매도세가 이어지며 Anthropic의 기업 가치와 주식 가치가 하락세를 보이고 있습니다. 이는 개별 모델의 성능 이슈보다는 거시 경제적 요인과 AI 산업 전반의 밸류에이션 조정이 맞물린 결과로 분석됩니다.",
-        "technical_value": "Anthropic은 Claude 시리즈와 같은 고성양 LLM(Large Language Model)을 통해 독자적인 기술력을 입증해 왔으나, 시장은 현재 모델의 추론 능력(Reasoning)이나 Context Window 확장성보다는 수익 모델의 실현 가능성에 주목하고 있습니다. 기술적 관점에서는 AI 인프라 비용과 모델 학습/추론 효율성 사이의 균형이 기업 가치 산정의 핵심 변수로 작용하고 있습니다.",
+        "summary": "최근 AI 산업은 막대한 자본 투입 대비 실질적인 수익 모델(ROI) 증명에 어려움을 겪으며 시장의 불확실성이 증폭되었습니다. 기술적 낙관론과 경제적 현실 사이의 괴리가 커지면서, 단순한 모델 성능 경쟁을 넘어 실질적인 비즈니스 가치를 창출해야 한다는 압박이 거세지고 있습니다.",
+        "technical_value": "현재의 AI 시장은 거대 언어 모델(LLM)의 파라미터 규모 경쟁에서 벗어나, 추론 비용(Inference Cost) 절감과 효율적인 Agentic Workflow 구현이라는 실무적 과제에 직면해 있습니다. 하드웨어 인프라(GPU)에 대한 과도한 의존도를 낮추기 위해 모델 경량화(Quantization, Distillation) 및 효율적인 아키텍처 설계가 핵심 경쟁력으로 부상하고 있습니다. 또한, 단순 챗봇을 넘어 복잡한 작업을 수행하는 AI Agent의 신뢰성 확보가 기술적 변곡점으로 작용하고 있습니다.",
         "key_points": [
-          "AI 및 빅테크 섹터의 전반적인 Sell-off 현상으로 인해 Anthropic의 주식 가치가 하락 압력을 받고 있습니다.",
-          "시장 참여자들은 AI 모델의 기술적 우위만큼이나 거시 경제적 변동성에 따른 기술주 밸류에이션 조정을 반영하고 있습니다.",
-          "향후 AI 기업의 가치는 단순한 모델 성능을 넘어, 실제 비즈니스 워크플로우에 적용 가능한 Agent 및 서비스화 역량에 의해 결정될 전망입니다."
+          "막대한 인프라 투자 대비 가시적인 수익 모델(ROI) 부재가 시장의 변동성을 심화시키고 있습니다.",
+          "LLM의 성능 향상이 반드시 비즈니스 가치로 직결되지 않는 '수익성 병목 현상'이 발생하고 있습니다.",
+          "단순한 모델 크기 경쟁에서 벗어나, 특정 도메인에 특화된 효율적인 모델과 Agent 기술의 실용성이 중요해지고 있습니다."
         ],
         "tags": [
-          "Anthropic",
+          "AI_Economy",
           "LLM",
-          "AI_Stock",
+          "ROI",
+          "AI_Agent",
           "Tech_Market"
         ]
       },
-      "summary": "AI 및 테크 섹터 전반의 매도세가 이어지며 Anthropic의 기업 가치와 주식 가치가 하락세를 보이고 있습니다. 이는 개별 모델의 성능 이슈보다는 거시 경제적 요인과 AI 산업 전반의 밸류에이션 조정이 맞물린 결과로 분석됩니다.",
+      "summary": "최근 AI 산업은 막대한 자본 투입 대비 실질적인 수익 모델(ROI) 증명에 어려움을 겪으며 시장의 불확실성이 증폭되었습니다. 기술적 낙관론과 경제적 현실 사이의 괴리가 커지면서, 단순한 모델 성능 경쟁을 넘어 실질적인 비즈니스 가치를 창출해야 한다는 압박이 거세지고 있습니다.",
       "tags": [
-        "LLM",
-        "AI_Stock",
-        "Tech_Market",
-        "Anthropic",
-        "AI"
+        "ROI",
+        "AI_Economy",
+        "AI_Agent",
+        "AI",
+        "LLM"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Tech Rout Deepens as Anthropic Stock Slides - WSJ",
-      "link": "https://www.wsj.com/finance/stocks/nasdaq-set-for-fresh-decline-as-ai-selloff-intensifies-e974bbb5",
-      "original_link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSnNEc3dZb2JfSWJYeFFoREFsNXdMS2RyNklRUU9rRUJmajZscVdUTWc5dENvODEwWUQwdHNFcGpPazhndE1MSFJaYnV1Vmota2R5N0YtRVhZS2ZtZmxTZUtnOVgzaXp3X0g5N1hxMExRbFRKWVF4VWJ3OWhqcFVBZlBzWFo0WlVyUTZfZDZSME5WZUsxcEFMbk9ubVlFbWc?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 17:35:00 GMT",
-      "source": "WSJ",
+      "title": "Is the AI Bubble Finally Popping? Nvidia Crashes 48% as Wall Street Experts Sound the Alarm - Yahoo Finance",
+      "link": "https://finance.yahoo.com/technology/ai/articles/ai-bubble-finally-popping-nvidia-140106035.html",
+      "original_link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ05sOXJ6MlFuUncyTjgxWG1zcXpCbDhzRUwzYVA4ZFo5bkZ4NEt0SGxLZnFobjBKODU3SzlWV0I5MElCSDd2ODEwaTcwNnFCM0lMRDhXQklvVTdLcFp0YlJzUXRKVGNsUHJiaVNiek5zREpSeUtZRkZsblZQclR3Ml9NNmR0d3V6VVZ4dWpnbk54MnJqRDkzV0x5aVI?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 14:01:06 GMT",
+      "source": "Yahoo Finance",
       "summary_data": {
-        "summary": "최근 기술주 하락세가 심화되는 가운데, Anthropic의 기업 가치 하락이 AI 산업 전반의 투자 심리 위축을 가속화하고 있습니다. 이는 LLM(Large Language Model) 모델의 성능 경쟁을 넘어, 수익 모델의 실현 가능성과 시장의 기대치 사이의 간극을 보여주는 사례입니다.",
-        "technical_value": "Anthropic의 Claude 시리즈와 같은 최첨단 LLM 모델은 높은 추론 성능을 제공하지만, 이를 운영하기 위한 막대한 컴퓨팅 자원과 인프라 비용이 기업 가치 산정의 핵심 변수로 작용하고 있습니다. 시장은 단순한 모델의 파라미터 규모 확장을 넘어, Agentic Workflow(에이전트 기반 워크플로우)와 같은 실질적인 비즈니스 자동화 효율성을 요구하고 있습니다. 따라서 향후 기술적 가치는 모델의 성능 지표뿐만 아니라, 추론 비용(Inference Cost) 최적화와 효율적인 아키텍처 설계 능력에 의해 결정될 전망입니다.",
+        "summary": "AI 인프라에 투입된 막대한 자본이 실질적인 수익(ROI)으로 전환되지 못할 것이라는 의구심이 커지며 Nvidia를 포함한 AI 관련주가 급락했습니다. 시장은 기술적 성숙도보다 과잉된 밸류에이션과 자본 지출(CAPEX)의 지속 가능성에 초점을 맞추며 거대한 리프라이싱(Repricing) 국면에 진입했습니다.",
+        "technical_value": "Nvidia의 주가는 10월 고점 대비 약 47.5% 하락하며 125.53달러를 기록했고, 이는 AI 칩 수요의 둔화와 SEC의 회계 조사 가능성 등 거버넌스 리스크가 복합적으로 작용했습니다. CoreWeave(80% 하락)와 Oracle(70% 하락) 등 AI 인프라 및 클라우드 관련 기업들의 동반 폭락은 데이터 센터 구축 속도 조절과 자금 조달 비용 상승이 기술 투자 사이클에 미치는 영향을 보여줍니다. 현재 시장의 핵심 변수는 AI 모델의 추론 및 학습을 위한 컴퓨팅 파워가 실제 기업의 이익(Profit)으로 전환되는 '수익화 증명' 단계에 있습니다.",
         "key_points": [
-          "AI 모델 성능에 대한 시장의 기대치가 실질적인 수익성 지표로 전이되며 기술주 전반의 변동성이 확대되었습니다.",
-          "Anthropic의 주가 하락은 LLM 모델의 고도화가 반드시 기업 가치의 선형적 상승으로 이어지지 않을 수 있음을 시사합니다.",
-          "향후 AI 산업은 모델의 규모(Scale) 경쟁에서 효율적인 추론과 실질적인 Agent 활용 능력 중심으로 패러다임이 전환될 가능성이 높습니다."
+          "AI 인프라에 투입된 수조 달러의 자본이 실질적인 수익 모델로 연결되지 못할 것이라는 우려가 시장의 하락 압력을 주도하고 있습니다.",
+          "Nvidia의 실적 호조에도 불구하고 주가가 급락한 것은 미래 성장성에 대한 기대치와 현재의 현금 흐름 사이의 괴리를 반영하는 리프라이싱 현상입니다.",
+          "금리 인상 기조와 자본 비용 상승은 데이터 센터 확장을 위한 대규모 부채 조달을 어렵게 만들며 AI 하이퍼스케일러들의 CAPEX 계획에 제약을 가하고 있습니다.",
+          "Anthropic의 IPO 이후 나타난 변동성은 AI 개발사들의 자본 조달 능력과 시장의 신뢰도가 기술적 성과와 별개로 움직일 수 있음을 시사합니다."
         ],
         "tags": [
-          "Anthropic",
-          "LLM",
-          "AI_Market",
-          "Tech_Stock"
+          "Nvidia",
+          "AI_Bubble",
+          "CAPEX",
+          "Semiconductor",
+          "Market_Correction"
         ]
       },
-      "summary": "최근 기술주 하락세가 심화되는 가운데, Anthropic의 기업 가치 하락이 AI 산업 전반의 투자 심리 위축을 가속화하고 있습니다. 이는 LLM(Large Language Model) 모델의 성능 경쟁을 넘어, 수익 모델의 실현 가능성과 시장의 기대치 사이의 간극을 보여주는 사례입니다.",
+      "summary": "AI 인프라에 투입된 막대한 자본이 실질적인 수익(ROI)으로 전환되지 못할 것이라는 의구심이 커지며 Nvidia를 포함한 AI 관련주가 급락했습니다. 시장은 기술적 성숙도보다 과잉된 밸류에이션과 자본 지출(CAPEX)의 지속 가능성에 초점을 맞추며 거대한 리프라이싱(Repricing) 국면에 진입했습니다.",
       "tags": [
-        "Tech_Stock",
-        "LLM",
-        "Anthropic",
-        "AI_Market"
+        "Market_Correction",
+        "Startup",
+        "Nvidia",
+        "Infra",
+        "Semiconductor"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Anthropic's post-debut stumble delivers reality check for AI trade - Reuters",
-      "link": "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/",
-      "original_link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWtIWXhnWHpsWWZSZ2dFVFRFSXBHaUxOWlp1VnFSZEoycGRtMDE1NVhuM2NEa2ZUTHlLN0lFbG5aX295SThLcFVXMEV3VmJidHF2amdDelVYWWprLXRsNWpodU9LcERma2xnc2pWaTZGbmNHZnYwREdjQnBOcGR0S0JSdnZTaC1aYmtBWXdRXzJiVDhHbFBEZ3lDdWhzS3Q3dnFMY3d3cjZIdw?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 18:16:04 GMT",
-      "source": "Reuters",
+      "title": "Goldman Sachs admits the 'AI unwind' has spiraled into something more dangerous — and it's watching for 3 signs of bottom - Fortune",
+      "link": "https://fortune.com/2026/11/21/goldman-sachs-sp-500-correction-ai-unwind-bottom-three-conditions-hedge-funds-positioning/",
+      "original_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWElreEFzaFE1QnFoaU1hSW50bzh5aXAtZnRSclhUMGY0WFFKOGo3YUJPZ05BR3lGeVpIMXZyQ3RVOURMLU8xNEw1aVo0NnFkZjRIbVRRWXd4UVpkU05PV2lTM1FNUnBwa3NYS3FyOWgzV2JVc0VEZEtkUUtianY3bDMwcGtkN2NoXzA2Y2JfUVRTYXNSLVo4UGw0ZEdMSEY1YWx0VWxHWG93V1J2V3FHTmdLRW1BenBob0NsZk1n?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 14:47:00 GMT",
+      "source": "Fortune",
       "summary_data": {
-        "summary": "Anthropic의 시장 데뷔 이후 겪고 있는 성장통은 AI 산업 전반에 걸쳐 막대한 자본 투입 대비 실질적인 수익 모델과 효율성 검증이 필요함을 시사합니다. 단순한 모델 성능 경쟁을 넘어, 기업용 AI 시장에서의 실질적인 가치 증명 단계로 진입했음을 보여줍니다.",
-        "technical_value": "LLM(Large Language Model)의 성능 고도화가 막대한 컴퓨팅 자원과 비용을 요구함에 따라, 모델의 추론 효율성(Inference Efficiency)과 비용 대비 성능(Price-to-Performance)이 핵심 지표로 부상하고 있습니다. Anthropic과 같은 선도 기업들은 단순 파라미터 크기 경쟁이 아닌, Agentic Workflow(에이전트 중심의 작업 흐름) 환경에서 모델이 얼마나 안정적이고 경제적으로 작동하는지를 입증해야 하는 과제에 직면해 있습니다. 이는 향후 모델 최적화 및 분산 학습 프레임워크의 중요성을 증대시킵니다.",
+        "summary": "AI 거품 붕괴 우려가 단순한 섹터 조정을 넘어 광범위한 성장 둔화로 확산되며 S&P 500과 Nasdaq이 급락하는 시장 변동성이 발생했습니다. Goldman Sachs는 시장의 바닥(Bottom)을 확인하기 위한 세 가지 핵심 지표로 AI 수익성 증명, Fed의 통화정책 변화, 그리고 투자자 포지셔닝의 급격한 변화를 제시했습니다.",
+        "technical_value": "AI 관련 주식 바스켓은 10월 6일 고점 대비 32% 하락했으며, Anthropic과 OpenAI의 결합 매출 성장률이 2분기 75%에서 3분기 48%로 급감하며 수익성 모델에 대한 의구심이 커졌습니다. Anthropic의 40배에 달하는 매출 대비 밸류에이션(Trailing Sales)과 막대한 적자 폭 확대는 AI 투자가 실제 현금 흐름으로 전환되는 속도에 대한 시장의 불신을 반영합니다. 또한, AI 자본 지출(CapEx)이 S&P 500 이익 성장의 약 50%를 견인했던 구조적 의존도가 높아짐에 따라, AI 생태계 내 하드웨어(Nvidia, Broadcom 등)와 소프트웨어 간의 상관관계가 분리되는 양상을 보이고 있습니다.",
         "key_points": [
-          "AI 모델의 성능 향상이 반드시 비례하는 수익성으로 이어지지 않는 '수익성 격차(Profitability Gap)' 문제가 산업의 핵심 리스크로 부상했습니다.",
-          "LLM의 거대화에 따른 인프라 비용 상승은 기업들의 AI 도입 속도를 조절하게 만드는 경제적 제약 요소로 작용하고 있습니다.",
-          "단순 챗봇을 넘어 복잡한 Task를 수행하는 Agent 기술의 실효성이 향후 AI 트레이드의 향방을 결정할 기술적 분수령이 될 것입니다."
+          "AI 수익성 검증: Anthropic과 OpenAI 간의 가격 경쟁 심화로 인해 결합 손실액이 79억 달러에서 84억 달러로 증가하며 AI 모델의 수익 모델(Monetization)에 대한 의구심이 증폭되었습니다.",
+          "통화정책 및 매크로 변수: Fed의 금리 인상 가능성과 인플레이션 압력이 지속되는 가운데, 10년물 국채 수익률이 5%에 근접하며 위험 자산에 대한 할인율이 상승하고 있습니다.",
+          "투자 포지셔닝 변화: 헤지펀드의 순 레버리지가 2025년 4월 이후 최저 수준으로 떨어졌으나, 여전히 ETF 등 대중적 포지션은 높은 수준을 유지하고 있어 시장의 변동성이 지속될 수 있습니다."
         ],
         "tags": [
-          "Anthropic",
-          "LLM",
-          "AI Economics",
-          "Agent",
-          "AI Infrastructure"
+          "AI_Bubble",
+          "Goldman_Sachs",
+          "S&P500",
+          "Monetization",
+          "Macroeconomics"
         ]
       },
-      "summary": "Anthropic의 시장 데뷔 이후 겪고 있는 성장통은 AI 산업 전반에 걸쳐 막대한 자본 투입 대비 실질적인 수익 모델과 효율성 검증이 필요함을 시사합니다. 단순한 모델 성능 경쟁을 넘어, 기업용 AI 시장에서의 실질적인 가치 증명 단계로 진입했음을 보여줍니다.",
+      "summary": "AI 거품 붕괴 우려가 단순한 섹터 조정을 넘어 광범위한 성장 둔화로 확산되며 S&P 500과 Nasdaq이 급락하는 시장 변동성이 발생했습니다. Goldman Sachs는 시장의 바닥(Bottom)을 확인하기 위한 세 가지 핵심 지표로 AI 수익성 증명, Fed의 통화정책 변화, 그리고 투자자 포지셔닝의 급격한 변화를 제시했습니다.",
       "tags": [
-        "LLM",
-        "AI Economics",
-        "Agent",
-        "AI Infrastructure",
-        "Anthropic"
+        "Macroeconomics",
+        "AI_Bubble",
+        "S&P500",
+        "AI",
+        "Goldman_Sachs"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "SpaceX’s subsidiary Cursor tells lawmakers it's considering phasing out Chinese AI models - CNBC",
-      "link": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html",
-      "original_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUDVoNmlWZGIxdGFNWnNNSXYyZmZ6RUt2V00wZkktQmUxdThobUx3VUxrUDhYUnJPaEtvX1dfTTJLRnB1R3Jua3E2SVZXN2s3Wnl5OWdId3JuTmJ1NlRfaW14c0pvVUo5VWx6UmpUWmhSM3pkWGdsM3Bsc0xNTGJNV0JkT1lZUdIBiwFBVV95cUxNVFNfT0hzd0lkQjZTUjlfMVY0VVZybzBfcWtTdEVnVm9GNWZkbEt4dmJvZHhzZ0dIdXRUa1pRY1pOTUpXRUdGekRWa2Y0NmgtQ0hUbkFMeTJtM2dVbUs3MTVBcUlmaFJZR0JaSVIydTBIN0NDVmhPSXp0YUd2cmh5RlB2cTlDTENqNUtV?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 14:04:17 GMT",
-      "source": "CNBC",
+      "title": "Tech Outages Are Only the Beginning. A.I. Will Bring More Disruptions. - The New York Times",
+      "link": "https://www.nytimes.com/2026/11/21/us/politics/tech-outages-ai-disruptions.html",
+      "original_link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM0M2dXVZWU9jNzEySnF2YXRxeE1lSWEyTzdISXBGc2dqdEFjZWJmaGUyVmVwbktreFZ2eHB5VmNEWVdLZzVCMDJONHpVNDB2eHNmWFJlLTdDNzFqdEJBU0VhRGt6anhxaHltazE0UG5IcWNyYlFQR3ZjWm9CYXRLMzhkZGFZUQ?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 17:40:46 GMT",
+      "source": "The New York Times",
       "summary_data": {
-        "summary": "SpaceX의 AI 코딩 플랫폼인 Cursor가 지정학적 리스크를 이유로 중국 Moonshot AI의 Kimi K2.5 모델 기반으로 구축된 Composer 2 모델의 단계적 폐기를 검토 중입니다. 이는 미국 의회 조사 결과에 따른 조치로, 미국 기술 스택 내 중국산 AI 모델 침투에 대한 안보 우려가 반영된 결정입니다.",
-        "technical_value": "Cursor의 코딩 모델인 Composer 2는 중국 Moonshot AI의 Kimi K2.5를 기반으로 최적화된 모델로, 높은 가성비와 성능을 바탕으로 개발되었습니다. 미국 의회 보고서는 중국 모델의 낮은 비용과 커스텀 용이성, 그리고 프런티어급 성능이 글로벌 시장 점유율 확보의 핵심 동력임을 지적했습니다. 또한, 중국 기업들이 구형 모델을 활용해 신규 모델을 학습시키는 'Distillation(지식 증류)' 기법과 원격 칩 액세스를 통한 기술 격차 축소 전략을 사용하고 있음을 경고했습니다.",
+        "summary": "최근 빈번해진 대규모 Tech Outages는 단순한 시스템 오류를 넘어, AI 기술이 인프라와 사회 시스템에 깊숙이 통합됨에 따라 발생할 더 큰 혼란의 전조 현상입니다. AI가 자율적인 의사결정을 내리는 Agent 형태로 진화함에 따라, 기술적 복잡성이 증가하고 연쇄적인 시스템 붕괴 위험이 커지고 있습니다.",
+        "technical_value": "AI가 단순한 도구를 넘어 자율적인 작업을 수행하는 Agent로 발전함에 따라, 기존의 분산 시스템(Distributed Systems)과 같은 복잡한 상호작용이 발생합니다. 특히 LLM(Large Language Model) 기반의 자동화 시스템이 인프라 관리나 금융 거래 등 핵심 워크플로우에 통합될 경우, 예측 불가능한 피드백 루프(Feedback Loop)가 발생할 수 있습니다. 이는 기존의 단일 장애점(Single Point of Failure) 문제를 넘어, 알고리즘 간의 상호작용이 초래하는 시스템적 리스크를 관리해야 함을 의미합니다.",
         "key_points": [
-          "Cursor는 기존에 사용하던 중국 Moonshot AI의 Kimi K2.5 기반 Composer 2 모델을 단계적으로 교체할 계획입니다.",
-          "미국 의회는 중국산 AI 모델의 낮은 가격과 성능이 미국 기술 스택에 대한 의존도를 높이는 것을 경계하고 있습니다.",
-          "미국 정부는 국가적 차원의 'Open-weight(오픈 웨이트) 이니셔티브'를 통해 미국 주도의 모델 생태계를 구축하려 합니다.",
-          "중국 기업들이 해외 데이터 센터를 통해 Nvidia 칩에 원격 접속하거나 Distillation 기법을 사용하는 것을 차단하기 위한 규제가 강화되고 있습니다."
+          "AI Agent의 자율성이 증가할수록 인간의 통제를 벗어난 예기치 못한 시스템적 오류가 발생할 가능성이 높아집니다.",
+          "디지털 인프라와 AI가 결합된 복잡한 네트워크 구조는 한 지점의 장애가 전체 생태계로 확산되는 연쇄적 붕괴(Cascading Failure)를 유발할 수 있습니다.",
+          "기술적 복잡성이 임계치를 넘어서면 기존의 모니터링 및 복구 프로토콜이 무용지물이 될 수 있어, 새로운 차원의 Resilience(회복 탄력성) 설계가 필요합니다."
         ],
         "tags": [
-          "Cursor",
-          "SpaceX",
+          "AI_Agent",
+          "System_Reliability",
           "LLM",
-          "Moonshot AI",
-          "Geopolitics",
-          "Open-weight"
+          "Infrastructure_Risk"
         ]
       },
-      "summary": "SpaceX의 AI 코딩 플랫폼인 Cursor가 지정학적 리스크를 이유로 중국 Moonshot AI의 Kimi K2.5 모델 기반으로 구축된 Composer 2 모델의 단계적 폐기를 검토 중입니다. 이는 미국 의회 조사 결과에 따른 조치로, 미국 기술 스택 내 중국산 AI 모델 침투에 대한 안보 우려가 반영된 결정입니다.",
+      "summary": "최근 빈번해진 대규모 Tech Outages는 단순한 시스템 오류를 넘어, AI 기술이 인프라와 사회 시스템에 깊숙이 통합됨에 따라 발생할 더 큰 혼란의 전조 현상입니다. AI가 자율적인 의사결정을 내리는 Agent 형태로 진화함에 따라, 기술적 복잡성이 증가하고 연쇄적인 시스템 붕괴 위험이 커지고 있습니다.",
       "tags": [
-        "SpaceX",
+        "Infrastructure_Risk",
+        "AI_Agent",
+        "LLM",
+        "System_Reliability"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "Trump Wants AI Data Centers In West Virginia. The Gulf Wants Them Too, And Needs His Permission. - Forbes",
+      "link": "https://www.forbes.com/sites/guneyyildiz/2026/11/21/trump-wants-ai-data-centers-in-west-virginia-the-gulf-wants-them-too-and-needs-his-permission/",
+      "original_link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNai1Mbml4SElaOU9odDRwWjJ0UjVDcGE4Nmdic0hhaWVqOXZpNGZ0NmxGbzZ6dWVfbEQ1by12cXRDTkV6SWhOczdSdXhNTkFKb1FDT0pkS2VVbE9vd0pxcnNvN1JfUlotMnB2V3VkMVN3UDJwRzNBSzY1a3BjZFZBQkZPM1R0RWI0Y0ZhUzFaSkh6SXNGd0xQanhUWVg5TFJVYnR5S2NGZU9NZGtteU5tbmZieEhDQnZub1B6RFJXSWRYUl9HSzJnaUtKSmdDYkVXSUdCRFFERldaNjdIRndF?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 18:41:06 GMT",
+      "source": "Forbes",
+      "summary_data": {
+        "summary": "트럼프 행정부의 에너지 정책과 AI 데이터 센터 구축 전략이 충돌하며, 미국 내 에너지 자립과 글로벌 데이터 센터 수요 사이의 지정학적 경쟁이 심화되고 있습니다. 웨스트버지니아의 풍부한 에너지 자원과 걸프 지역의 막대한 자본 및 인프라가 AI 연산 인프라 확보를 위해 대립하는 양상을 보입니다.",
+        "technical_value": "AI 모델 학습 및 추론을 위한 대규모 데이터 센터 구축은 막대한 전력 공급(Power Supply)과 냉각 인프라가 핵심이며, 이는 국가적 에너지 그리드(Grid) 설계와 직결됩니다. 웨스트버지니아의 화석 연료 기반 전력망과 걸프 지역의 에너지 자본이 결합될 경우, 초거대 LLM(Large Language Model) 운영을 위한 안정적인 전력 확보가 가능해집니다. 향후 데이터 센터의 입지 선정은 단순한 지리적 요건을 넘어, 전력 밀도(Power Density)와 에너지 수급의 안정성을 결정짓는 기술적 변수가 될 것입니다.",
+        "key_points": [
+          "트럼프의 에너지 정책은 웨스트버지니아와 같은 전통적 에너지 생산 지역에 AI 데이터 센터를 유치하여 지역 경제와 전력망을 결합하려는 전략을 가집니다.",
+          "걸프 지역의 에너지 자본과 인프라는 AI 연산에 필요한 막대한 전력을 확보하기 위해 미국의 정책적 승인과 에너지 규제 완화를 필요로 합니다.",
+          "AI 데이터 센터의 입지 결정은 전력망(Grid)의 안정성과 에너지 비용 효율성이 핵심적인 기술적 의사결정 요소로 작용합니다."
+        ],
+        "tags": [
+          "AI Data Center",
+          "Energy Policy",
+          "LLM Infrastructure",
+          "Geopolitics"
+        ]
+      },
+      "summary": "트럼프 행정부의 에너지 정책과 AI 데이터 센터 구축 전략이 충돌하며, 미국 내 에너지 자립과 글로벌 데이터 센터 수요 사이의 지정학적 경쟁이 심화되고 있습니다. 웨스트버지니아의 풍부한 에너지 자원과 걸프 지역의 막대한 자본 및 인프라가 AI 연산 인프라 확보를 위해 대립하는 양상을 보입니다.",
+      "tags": [
+        "LLM Infrastructure",
         "Geopolitics",
-        "Open-weight",
-        "Security",
+        "AI",
+        "Energy Policy",
+        "AI Data Center"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "Your 401(k) is full of AI. How to deal with the volatility - CNN",
+      "link": "https://www.cnn.com/2026/11/21/business/ai-stocks-volatility-investing",
+      "original_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBQNUpLbERtV0lEQTJqc0NmWG9mY3FiYUZrRDlGOV92QU1WcWFjYjZtZDFnU1dUazZwRUlKa0t0M2M5Y0l2Q1RuSGVaYkVMNVJBZjB4cXpud3V6dGRFRWs1bkhMR0VUMkwtc3pzOEk5eUtGdjhTcFlKTlFR?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 11:00:15 GMT",
+      "source": "CNN",
+      "summary_data": {
+        "summary": "최근 S&P 500 지수의 급격한 변동성은 AI 산업에 대한 과도한 집중도가 은퇴 계좌(401(k)) 내에 잠재되어 있음을 경고하고 있습니다. 투자자들이 여러 인덱스 펀드를 보유하더라도 실제로는 소수의 빅테크 기업에 자산이 집중되는 '가짜 분산(False Diversification)' 위험에 노출되어 있습니다.",
+        "technical_value": "S&P 500 지수는 시가총액 가중 방식(Market Cap-weighted)을 따르므로, Apple(8%), Microsoft(6%), Nvidia(5%)와 같은 거대 기업의 변동성이 지수 전체의 변동성으로 직결됩니다. 현재 상위 10개 종목이 지수 가치의 약 40%를 차지하며, 이는 닷컴 버블 당시 상위 10개 종목 비중인 29%를 크게 상회하는 수준입니다. 이러한 구조적 집중도는 특정 섹터의 하락이 전체 포트폴리오의 붕괴로 이어지는 시스템적 리스크를 증폭시킵니다.",
+        "key_points": [
+          "시가총액 가중 방식의 인덱스 펀드는 특정 거대 기업의 성장에 따라 지수 구성이 결정되므로, 기술주 중심의 쏠림 현상이 심화될 수 있습니다.",
+          "S&P 500, Nasdaq, 대형 성장주 펀드를 동시에 보유하는 것은 서로 다른 자산에 투자하는 것이 아니라 동일한 기술주에 중복 투자하는 위험을 초래합니다.",
+          "진정한 분산 투자는 단순히 여러 펀드를 보유하는 것이 아니라, 상관관계가 낮은 자산군(채권, 원자재, 부동산 등)을 통해 특정 섹터에 대한 의존도를 낮추는 것입니다.",
+          "시장 조정기에는 패닉 셀링을 지양하고, 자신의 포트폴리오가 특정 기술주(AI/Semiconductor)에 얼마나 노출되어 있는지 정밀하게 분석하는 것이 필요합니다."
+        ],
+        "tags": [
+          "S&P 500",
+          "AI Bubble",
+          "Portfolio Diversification",
+          "Market Cap-weighted Index",
+          "Risk Management"
+        ]
+      },
+      "summary": "최근 S&P 500 지수의 급격한 변동성은 AI 산업에 대한 과도한 집중도가 은퇴 계좌(401(k)) 내에 잠재되어 있음을 경고하고 있습니다. 투자자들이 여러 인덱스 펀드를 보유하더라도 실제로는 소수의 빅테크 기업에 자산이 집중되는 '가짜 분산(False Diversification)' 위험에 노출되어 있습니다.",
+      "tags": [
+        "AI Bubble",
+        "S&P 500",
+        "Market Cap-weighted Index",
+        "AI",
+        "Portfolio Diversification"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "AI may not work like the human brain after all, scientists discover - ScienceDaily",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261120075701.htm",
+      "original_link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaS1OaGZZX0NqZndfaW1HQ01LQmZxU0lIaUhmTVdEdFZPSVpJUlVudjBFVFR2eFdmY3F6U2FTbThfbU9lOE5kUmowYUJuOUl5d1c3TEM3dWxsUG9WQUFVZVB6dkFSTDk4eWFOTHhPWQ?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 15:25:56 GMT",
+      "source": "ScienceDaily",
+      "summary_data": {
+        "summary": "York University 연구진은 기존 AI 모델이 뇌의 시각 처리 방식을 모방하는 것처럼 보이지만, 실제 내부 메커니즘은 생물학적 뇌와 근본적으로 다를 수 있음을 입증했습니다. 연구팀은 '역예측 테스트(Reverse Predictivity Testing)'를 통해 AI가 뇌의 반응을 예측할 수는 있어도, 뇌가 AI의 내부 동작을 예측할 수는 없다는 비대칭적 차이를 발견했습니다.",
+        "technical_value": "연구팀은 기존의 단방향 테스트(AI가 뇌 활동을 예측하는 방식)를 넘어, 뇌의 신경 반응이 AI 모델 내부의 특징(Internal Features)을 역으로 예측할 수 있는지 검증하는 'Reverse Predictivity Testing' 방법론을 도입했습니다. 1,320장의 자연 사진과 300장의 합성 이미지를 활용한 실험 결과, AI 모델은 뉴런의 반응을 성공적으로 예측했으나, 뉴런의 반응을 통해 AI의 내부 상태를 예측하는 데는 실패하며 두 시스템 간의 불일치를 드러냈습니다. 이는 AI가 뇌와 유사한 결과값을 도출하더라도, 그 과정에서 사용하는 내부 전략(Internal Strategies)은 생물학적 뇌와 완전히 다를 수 있음을 기술적으로 증명한 것입니다.",
+        "key_points": [
+          "기존 AI 모델은 뇌의 시각적 반응을 모방할 수 있지만, 이는 결과값의 일치일 뿐 내부 연산 메커니즘이 뇌와 동일함을 의미하지 않습니다.",
+          "연구팀이 개발한 'Reverse Predictivity Testing'은 AI 모델의 내부 특징과 실제 뇌 활동 사이의 상호 호환성을 검증하는 새로운 진단 지표를 제공합니다.",
+          "AI가 뇌와 다른 내부 전략을 사용할 경우, 이를 기반으로 한 신경과학 연구나 임상적 결론(자폐증, PTSD 연구 등)이 왜곡될 위험이 있습니다.",
+          "연구팀은 개발자들이 모델의 생물학적 유사성을 평가할 수 있도록 공개적인 테스트 툴킷(Testing Toolkit)을 배포했습니다."
+        ],
+        "tags": [
+          "Artificial Neural Networks",
+          "Neuroscience",
+          "Computer Vision",
+          "Reverse Predictivity Testing"
+        ]
+      },
+      "summary": "York University 연구진은 기존 AI 모델이 뇌의 시각 처리 방식을 모방하는 것처럼 보이지만, 실제 내부 메커니즘은 생물학적 뇌와 근본적으로 다를 수 있음을 입증했습니다. 연구팀은 '역예측 테스트(Reverse Predictivity Testing)'를 통해 AI가 뇌의 반응을 예측할 수는 있어도, 뇌가 AI의 내부 동작을 예측할 수는 없다는 비대칭적 차이를 발견했습니다.",
+      "tags": [
+        "Release",
+        "Artificial Neural Networks",
+        "Neuroscience",
+        "AI",
+        "Reverse Predictivity Testing"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "America, China, and the Costs of the Bipolar AI Race - Time Magazine",
+      "link": "https://time.com/article/2026/11/21/america-china-and-the-costs-of-the-bipolar-ai-race/",
+      "original_link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZUxsX2V6UmtTT2R6Nnk3a1A3WVpxNkxYalhkZ1J1MHM1OG4xN2FGb1p5VVBSOHkzdWNyYk53VVRCQURLUTZ3STU0TFVid1kxeW5Jd1A4dDFCdmUyVTU2TFJrZENueWI5S0NzenhjWmpmWi1mdFFHbkM0a1NIUDRDZkxCZ0lMMnhfdlVuaXB0UXE?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 12:00:07 GMT",
+      "source": "Time Magazine",
+      "summary_data": {
+        "summary": "미국과 중국 중심의 양극화된 AI 패권 경쟁이 전 세계적인 기술 격차와 문화적 균질화 문제를 야기하고 있습니다. 인프라, 데이터, 연구 역량이 특정 두 국가에 집중됨에 따라 나머지 국가들은 기술적 종속과 언어적 소외라는 위기에 직면해 있습니다.",
+        "technical_value": "2022년부터 2026년 6월 사이 전 세계 신규 AI 컴퓨팅 용량의 72%가 미국에 집중되었으며, 중국이 10%를 차지하여 물리적 인프라의 양극화가 심화되었습니다. 데이터 측면에서는 Common Crawl 데이터 중 영어 비중이 43%에 달하는 반면, 5억 명 이상이 사용하는 힌디어는 0.2%에 불과해 LLM(Large Language Model) 학습 데이터의 불균형이 심각합니다. 또한, 토큰(Token) 기반 과금 체계에서 비영어권 언어는 더 많은 토큰을 소모하는 '언어적 세금' 문제가 발생하며 이는 모델의 효율성과 경제적 격차로 직결됩니다.",
+        "key_points": [
+          "컴퓨팅 인프라와 R&D 역량의 편중으로 인해 전 세계 AI 거버넌스가 미국과 중국의 결정에 종속되는 양극화 현상이 심화되고 있습니다.",
+          "영어 중심의 학습 데이터와 정렬(Alignment) 과정은 특정 문화적 가치를 강요하며, 비영어권 사용자의 언어적 뉘앙스를 소실시키는 문화적 균질화를 초래합니다.",
+          "인도(Sarvam), 캐나다(Cohere), 프랑스(Mistral), UAE(Jais) 등 중견국들이 주권적 모델(Sovereign Models) 구축을 시도하고 있으나, 기존 오픈 웨이트(Open-weight) 모델의 편향성을 계승할 위험이 존재합니다.",
+          "RLHF(Reinforcement Learning from Human Feedback)와 같은 정렬 기술이 특정 언어와 인구 집단에 편중되어 있어, 전 세계의 다양한 사회적 규범을 반영하는 데 한계가 있습니다."
+        ],
+        "tags": [
+          "AI Sovereignty",
+          "LLM",
+          "Digital Divide",
+          "AI Ethics",
+          "Computing Infrastructure"
+        ]
+      },
+      "summary": "미국과 중국 중심의 양극화된 AI 패권 경쟁이 전 세계적인 기술 격차와 문화적 균질화 문제를 야기하고 있습니다. 인프라, 데이터, 연구 역량이 특정 두 국가에 집중됨에 따라 나머지 국가들은 기술적 종속과 언어적 소외라는 위기에 직면해 있습니다.",
+      "tags": [
+        "Computing Infrastructure",
+        "AI Ethics",
+        "AI Sovereignty",
+        "Benchmark",
         "Infra"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Dartmouth to Pilot New Approaches to AI in Education - Dartmouth",
-      "link": "https://home.dartmouth.edu/news/2026/11/dartmouth-pilot-new-approaches-ai-education",
-      "original_link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbi1yZ1YyQ3dGblVWMEVmaWM0ZG1NNFMxQnlNYjNYU2FhRWdyaUpudEVQdEZvZUxZbEdPX2JWNGlDR3NHTW40NGZTMHdNRF9jUHVCVnJhaHdLX015VU1LUnBILXRGRDZHZk5ZY25GSkFQdHMyOU9BMWxpRE1uNENNaTNsc29hZk5tQ0dr?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 19:11:15 GMT",
-      "source": "Dartmouth",
+      "title": "AI Is Still So Riddled With Errors That It's Erasing Any Productivity Gains That Would Make It Useful in the Workplace - Futurism",
+      "link": "https://futurism.com/future-society/ai-errors-productivity-verification-burden-useful",
+      "original_link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN2RhNFc5dTNVSW5hUGJ1Q01fVGwybmRMNmJ2aEJhTGN6LVpEeTcyeFFxY2pGU25vOTJDVnd4WE92cnJtdk5yc3JXc0VGV0ttTDZSNWRhSzVwZnZYeC1jMjJhRGMwaDZlV05Lamc4SnU2Rk41bmt1UmFVcFozVUswX25nbkw2YnlzTUN5YlVn?oc=5",
+      "pub_date": "Sat, 21 Nov 2026 11:51:00 GMT",
+      "source": "Futurism",
       "summary_data": {
-        "summary": "다트머스 대학교(Dartmouth)가 AI 기술의 급격한 변화에 대응하기 위해 연구, 교육 과정 설계, 컴퓨팅 인프라 확충을 아우르는 포괄적인 AI 전략을 발표했습니다. 이번 전략은 단순한 기술 도입을 넘어, 윤리적 가이드라인 수립과 인간 중심의 교육 역량 강화를 목표로 하는 다학제적 혁신을 지향합니다.",
-        "technical_value": "고성능 컴퓨팅 자원 확보를 위해 매사추세츠 그린 고성능 컴퓨팅 센터(Massachusetts Green High Performance Computing Center)의 GPU를 원격으로 활용하여, 연구자들이 대규모 LLM(Large Language Model) 학습 및 고도화된 AI 애플리케이션 개발을 위한 에너지 효율적인 연산 환경을 확보했습니다. 또한, AI Research Catalyst Grants를 통해 AI를 연구 도구로 활용하거나 AI 자체를 비판적으로 분석하는 융합 연구 프로젝트에 시드 머니를 투입합니다. 교육 측면에서는 AI-resilient learning(AI 환경에서도 학습 효과를 유지하는 방식)과 AI-augmented learning(AI를 활용해 학습을 증강하는 방식) 사이의 균형을 맞추는 새로운 교수법 실험을 지원합니다.",
+        "summary": "생성형 AI가 제공하는 생산성 향상 효과가 AI 출력물의 오류를 검증하고 수정하는 데 소요되는 막대한 시간과 비용에 의해 상쇄되고 있습니다. 특히 AI 결과물의 정확성을 확인하는 과정에서 발생하는 '검증 부담(Verification Burden)'이 업무 효율을 저해하는 핵심 요인으로 지목됩니다.",
+        "technical_value": "AI가 생성한 결과물을 검토하는 과정은 단순한 창작 작업과 달리 오류의 존재 여부나 위치를 예측하기 어렵다는 특성을 가집니다. 이는 인간이 최종 책임(Responsibility)을 지면서도 권한(Authority)은 시스템에 일부 위임한 상태에서 발생하는 인지적 비용(Cogn능적 비용)을 발생시킵니다. 결과적으로 AI를 활용한 'Workslop(저품질 결과물)' 생성은 업무의 완결성을 낮추고, 이를 재검토하는 데 더 많은 리소스를 투입하게 만드는 역설적 상황을 초래합니다.",
         "key_points": [
-          "고성능 GPU 인프라의 원격 접근 권한을 확대하여 연구자들이 대규모 연산이 필요한 AI 모델링 및 데이터 분석을 수행할 수 있는 환경을 구축했습니다.",
-          "AI 연구 촉매제 Grant를 통해 의학, 공학, 인문학 등 다양한 학문 분야에서 AI를 활용한 융합 연구와 사회적 영향 분석을 지원합니다.",
-          "AI를 활용한 새로운 학위 과정(Major/Minor) 설계와 기존 교육 과정을 AI 시대에 맞게 재설계하는 교수법 혁신에 집중 투자합니다.",
-          "윤리적 가이드라인 수립을 통해 학내 모든 구성원이 일관된 원칙 아래 AI를 사용하고, 기술 도입이 인간의 역량 저하가 아닌 성장을 이끌도록 관리합니다."
+          "검증 부담(Verification Burden) 현상으로 인해 AI를 통한 생산성 이득이 인간의 검토 시간으로 인해 상쇄됩니다.",
+          "AI가 생성한 결과물은 끝점이 모호하여, 작업자가 언제 검증을 멈춰야 할지 결정하기 어려운 인지적 난제를 야기합니다.",
+          "AI를 강제로 사용하게 된 환경에서는 저품질의 결과물(Workslop)이 양산되며, 이는 후속 작업자에게 더 큰 업무 부하를 전가합니다.",
+          "AI를 사용하지 않는 인력보다 AI 결과물을 검증하려는 인력이 더 많은 시간을 소모하는 비효율적 구조가 관찰됩니다."
         ],
         "tags": [
-          "AI Strategy",
-          "High Performance Computing",
-          "LLM",
-          "EdTech",
-          "AI Ethics"
+          "Generative AI",
+          "Productivity",
+          "Verification Burden",
+          "Human-AI Interaction"
         ]
       },
-      "summary": "다트머스 대학교(Dartmouth)가 AI 기술의 급격한 변화에 대응하기 위해 연구, 교육 과정 설계, 컴퓨팅 인프라 확충을 아우르는 포괄적인 AI 전략을 발표했습니다. 이번 전략은 단순한 기술 도입을 넘어, 윤리적 가이드라인 수립과 인간 중심의 교육 역량 강화를 목표로 하는 다학제적 혁신을 지향합니다.",
+      "summary": "생성형 AI가 제공하는 생산성 향상 효과가 AI 출력물의 오류를 검증하고 수정하는 데 소요되는 막대한 시간과 비용에 의해 상쇄되고 있습니다. 특히 AI 결과물의 정확성을 확인하는 과정에서 발생하는 '검증 부담(Verification Burden)'이 업무 효율을 저해하는 핵심 요인으로 지목됩니다.",
       "tags": [
-        "High Performance Computing",
-        "AI Ethics",
-        "LLM",
+        "Generative AI",
+        "Productivity",
+        "Verification Burden",
         "AI",
-        "EdTech"
+        "Human-AI Interaction"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Harvard-led team receives $12 million in federal funds to advance quantum computing with AI - Harvard Gazette",
-      "link": "https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/",
-      "original_link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQZ3Z5VVlfcTZiU2JTWjhOUWNMX2RnWEM5Z2Y3QzZkaUdjVmc0UlNoWFA4bG55Tk5aQllkU2MyOHoxWU4xRVFZMzNPT3UzTUxwX3RUd2JSejNrdGdxdnJpWllBQkczTjlrVFZpY0tldUw2NnNPVjFndHFYRkRVXzg3RS1fODE1U1Y3S3ZYRnZQc2RvNzM0cXk0Q2JHaDR4UjdqQ1FhLXJVRXJHS2tzTjc2enowWTdTRWpnYnFBck1Ta3E0NjdmZHZUYU5RQUM3US13cnJJNw?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 19:05:21 GMT",
-      "source": "Harvard Gazette",
+      "title": "Three breaches, endless leaks: Your AI supply chain needs canaries - Dragos",
+      "link": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "original_link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9YanUzRTNzek5SRVI4N21MZS1YbEdQT3NscGx1aHBvM3FyYVVxWlRaYkxSTFQtRFRBN2xoWlRBV0tsak1sWEU1ejNhY0xzVVhWLVUxQ0x0eU02QkZuX1dZOUEwLU1qc0dpV2FVNTREWjBhZHRw?oc=5",
+      "pub_date": "Thu, 19 Nov 2026 14:20:21 GMT",
+      "source": "Dragos",
       "summary_data": {
-        "summary": "하버드 대학교 연구팀이 미국 에너지부(DOE)로부터 1,200만 달러의 연구비를 지원받아 AI 기반의 결함 허용(Fault-tolerant) 양자 컴퓨팅 기술 개발에 착수했습니다. 이번 ASQC 프로젝트는 AI를 활용해 양자 오류 정정(QEC) 시스템을 최적화함으로써, 과학적 난제 해결을 위한 실용적인 양자 컴퓨터 구현을 목표로 합니다.",
-        "technical_value": "연구팀은 AI 모델을 활용해 양자 시뮬레이션, 재료 과학, 화학 등 특정 도메인에 최적화된 Error Correction Codes(오류 정정 코드)와 Decoder(디코더)를 설계합니다. 이미 연구진은 Neural-network decoder를 통해 기존 대비 오류율을 최대 17배 낮추고 연산 속도를 수천 배 향상시킨 성과를 입증했습니다. 또한, LLM(Large Language Model)을 활용해 수치 계산 및 최적화 문제를 위한 최첨단 양자 회로(Quantum Circuits)를 설계하는 하이브리드 접근 방식을 적용합니다.",
+        "summary": "Dragos의 연구팀이 5개월간 200만 개의 Canary(미끼) 프롬프트를 AI 서비스에 주입하여 수행한 조사 결과, AI 공급망 내에서 데이터 유출과 보안 침해 사례가 광범위하게 발생하고 있음이 밝혀졌습니다. 특히 AI Router와 저가형 호스팅 제공업체를 통한 데이터 탈취, 그리고 ZDR(Zero Data Retention) 설정이 무력화되는 심각한 보안 결함이 확인되었습니다.",
+        "technical_value": "연구팀은 2026년 7월부터 11월까지 약 200만 개의 고유 URL과 Credential이 포함된 프롬프트를 AI 서비스에 전송하여 데이터 흐름을 추적했습니다. 조사 결과, 일부 호스팅 제공업체는 ZDR(데이터를 저장하지 않는 설정)을 무시하거나 버그로 인해 프롬프트를 저장했으며, 공격자는 탈취한 AWS Key를 사용하여 S3 버킷 탐색, Secrets Manager 접근, AWS Bedrock API 키 생성 등 자동화된 공격을 수행했습니다. 특히 공격자는 'ARTEX'라는 LLM 기반 Penetration Testing 프레임워크를 사용하여 탈취한 자격 증명의 유효성을 검증하고 권한을 유지하는 고도화된 수법을 보였습니다.",
         "key_points": [
-          "AI 기반의 Application-Aware QEC(애플리케이션 인지형 양자 오류 정정) 시스템을 구축하여 특정 과학적 문제에 최적화된 결함 허용 기술을 개발합니다.",
-          "학계(Harvard, MIT, Cornell)와 국립 연구소(Los Alamos, Berkeley), 그리고 산업계(NVIDIA, Anthropic, QuEra)가 협력하는 거대 규모의 연구 생태계를 구축합니다.",
-          "양자 하드웨어의 불안정성을 극복하기 위해 AI 모델이 오류 패턴을 학습하고, 이를 통해 더 큰 규모의 Qubit(큐비트) 확장이 가능한 구조를 설계합니다."
+          "AI Router와 저가형 Marketplace를 거치는 과정에서 프롬프트와 응답 데이터가 중간 단계의 조직이나 공격자에게 노출되는 구조적 취약점이 존재합니다.",
+          "ZDR(Zero Data Retention) 설정이 활성화된 상태에서도 제공업체의 시스템 오류나 의도적인 데이터 보관으로 인해 민감한 데이터가 유출될 수 있습니다.",
+          "공격자는 탈취한 AWS Key를 통해 즉각적으로 권한을 테스트하고, ARTEX와 같은 LLM 기반 Agent를 활용해 자동화된 침투 및 권한 확장을 시도합니다.",
+          "저가형 AI 호스팅 업체들이 비용 절감을 위해 소비자용 구독 플랜을 공유하거나 보안이 취약한 경로를 사용하는 것이 데이터 유출의 주요 원인으로 지목되었습니다."
         ],
         "tags": [
-          "Quantum Computing",
-          "AI",
-          "Error Correction",
-          "LLM",
-          "Harvard"
+          "AI Supply Chain",
+          "LLM Security",
+          "Data Leakage",
+          "Cloud Security",
+          "Zero Data Retention"
         ]
       },
-      "summary": "하버드 대학교 연구팀이 미국 에너지부(DOE)로부터 1,200만 달러의 연구비를 지원받아 AI 기반의 결함 허용(Fault-tolerant) 양자 컴퓨팅 기술 개발에 착수했습니다. 이번 ASQC 프로젝트는 AI를 활용해 양자 오류 정정(QEC) 시스템을 최적화함으로써, 과학적 난제 해결을 위한 실용적인 양자 컴퓨터 구현을 목표로 합니다.",
+      "summary": "Dragos의 연구팀이 5개월간 200만 개의 Canary(미끼) 프롬프트를 AI 서비스에 주입하여 수행한 조사 결과, AI 공급망 내에서 데이터 유출과 보안 침해 사례가 광범위하게 발생하고 있음이 밝혀졌습니다. 특히 AI Router와 저가형 호스팅 제공업체를 통한 데이터 탈취, 그리고 ZDR(Zero Data Retention) 설정이 무력화되는 심각한 보안 결함이 확인되었습니다.",
       "tags": [
-        "Quantum Computing",
-        "Error Correction",
-        "LLM",
-        "AI",
-        "Harvard"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "AI just solved the ‘real’ Navier-Stokes problem - Scientific American",
-      "link": "https://www.scientificamerican.com/article/ai-just-solved-the-real-navier-stokes-problem/",
-      "original_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNN0lXY2ZoX0FLUjdFTVpjekNKYUpQenNFS3dvcjd2Zkp5MjBBa1FReW9TZVdPeFJ0aU1vdWZxSnhMTUV4RlVPb0l0VjZqSHo5R0V4Wks2ME9PTFhVTVAtOEFKd05LZElTQ0k1eGNZWmI4MWZxcjhhMzJCemhxRzFIaW5JTk0tSDUwQ2plMEl2VWdnVzQ?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 17:00:00 GMT",
-      "source": "Scientific American",
-      "summary_data": {
-        "summary": "뉴욕대(NYU)의 Tristan Buckmaster 교수와 Anthropic의 Levent Alpöge가 AI를 활용하여 나비에-스토크스(Navier-Stokes) 방정식의 '블로우업(blowup)' 문제를 해결하는 새로운 증명을 발표했습니다. 이는 지난 9월 OpenAI가 제시했던 수학적 허점을 보완하며, 물리적으로 실현 가능한 방식으로 유체의 무한 속도 발생 가능성을 입증하려는 시도입니다.",
-        "technical_value": "이번 연구는 유체 역학의 핵심인 나비에-스토크스 방정식이 특정 조건에서 해가 발산(blowup)할 수 있음을 AI-aided proof(AI 지원 증명) 방식으로 입증했습니다. 기존 OpenAI의 해법이 수학적 조건은 충족하나 비현실적인 외력을 가정한 '루프홀(loophole)' 문제를 안고 있었던 반면, Buckmaster와 Alpöge의 접근법은 물리적 타당성을 확보하며 수학적 엄밀성을 높였습니다. 연구진은 연구 보안을 위해 정제되지 않은 형태의 증명을 우선 공개했으나, 향후 정식 인증서를 포함한 완전한 결과물을 배포할 예정입니다.",
-        "key_points": [
-          "AI를 활용한 수학적 증명 방식이 복잡한 비선형 편미분 방정식인 나비계-스토크스 문제 해결의 핵심 도구로 부상했습니다.",
-          "OpenAI의 기존 해법이 가졌던 '비현실적인 외력 설정'이라는 논리적 허점을 극복하고 물리적 실현 가능성을 확보하는 데 집중했습니다.",
-          "수학적 난제 해결 과정에서 연구자 간의 데이터 보안 및 성과 가로채기(scooping) 문제가 기술 경쟁의 주요 변수로 작용하고 있습니다."
-        ],
-        "tags": [
-          "Navier-Stokes",
-          "AI-aided Proof",
-          "Fluid Dynamics",
-          "Mathematical Physics",
-          "Anthropic"
-        ]
-      },
-      "summary": "뉴욕대(NYU)의 Tristan Buckmaster 교수와 Anthropic의 Levent Alpöge가 AI를 활용하여 나비에-스토크스(Navier-Stokes) 방정식의 '블로우업(blowup)' 문제를 해결하는 새로운 증명을 발표했습니다. 이는 지난 9월 OpenAI가 제시했던 수학적 허점을 보완하며, 물리적으로 실현 가능한 방식으로 유체의 무한 속도 발생 가능성을 입증하려는 시도입니다.",
-      "tags": [
-        "Fluid Dynamics",
-        "Mathematical Physics",
-        "Navier-Stokes",
-        "AI-aided Proof",
-        "Anthropic"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "AI stocks are selling off after Anthropic’s record IPO, and Wall Street is split on whether this is the top - Fortune",
-      "link": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/",
-      "original_link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQXYtcjN1bXdZQmdkQVUwLTZ3WThBSUVCV1BOR0R4RV9PTlNCeEQzWDRGZ01qbWVGZU5sb011NUc3cWs0dkZnQU9ZZ1BabkktY05zdnhhZHBCaEVldk5qX1V6SFh3SEJnZGRLMVpxYzBBWkZNUm9DY2FQZjRLS1A3bjBTVEEzRU96THZqVnZlcnJzQXFJRUdV?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 15:19:00 GMT",
-      "source": "Fortune",
-      "summary_data": {
-        "summary": "Anthropic의 기록적인 IPO 이후 AI 관련 주식들이 급락하며 시장의 변동성이 커진 가운데, 월가에서는 현재의 하락이 기술적 조정인지 혹은 거품의 정점인지에 대한 의견이 팽팽하게 갈리고 있습니다. AI 투자가 S&P 500 이익 성장의 절반을 견인해온 상황에서, 시장의 초점은 인프라 구축에서 실질적인 수익 창출(Monetization)로 이동하고 있습니다.",
-        "technical_value": "Anthropic은 813.4억 달러를 조달하며 역사상 최대 규모의 IPO를 기록했으나, 상장 직후 주가가 11% 하락하며 AI 생태계 내 종목 간 차별화가 심화되었습니다. Goldman Sachs에 따르면 AI 관련 자본 지출(Capex)은 S&P s500 이익 성장의 약 50%를 차지하며 지수 수익률을 트렌드 대비 25% 상향시켰습니다. 현재 시장은 인프라 중심의 투자가 실제 매출과 주주 수익으로 연결되는 '수익화 단계'로 진입하며 밸류에이션 재평가를 겪고 있습니다.",
-        "key_points": [
-          "Anthropic의 성공적인 IPO에도 불구하고 AI 관련주 전반의 매도세가 이어지며 AI 생태계 내 종목 간 상관관계가 약화되었습니다.",
-          "시장 분석가들은 AI 투자의 핵심 쟁점이 '투자의 지속성'에서 '투자 대비 수익(ROI) 및 매출 창출 능력'으로 전환되었다고 분석합니다.",
-          "S&P 500이 200일 이동평균선을 하향 돌파하며 변동성이 커진 가운데, 향후 AI 투자의 흐름은 인프라 기업에서 AI 활용 수익을 내는 하이퍼스케일러(Hyperscalers)로 이동할 전망입니다.",
-          "Goldman Sachs는 2027년까지 S&P 500이 8,700포인트에 도달할 것으로 낙관하며, AI 투자가 인프라에서 애플리케이션 단계로 전환되는 과정에서의 성장을 예측합니다."
-        ],
-        "tags": [
-          "Anthropic",
-          "AI_Monetization",
-          "S&P500",
-          "AI_Infrastructure",
-          "Market_Volatility"
-        ]
-      },
-      "summary": "Anthropic의 기록적인 IPO 이후 AI 관련 주식들이 급락하며 시장의 변동성이 커진 가운데, 월가에서는 현재의 하락이 기술적 조정인지 혹은 거품의 정점인지에 대한 의견이 팽팽하게 갈리고 있습니다. AI 투자가 S&P 500 이익 성장의 절반을 견인해온 상황에서, 시장의 초점은 인프라 구축에서 실질적인 수익 창출(Monetization)로 이동하고 있습니다.",
-      "tags": [
-        "Market_Volatility",
-        "S&P500",
-        "Infra",
-        "AI_Infrastructure",
-        "Anthropic"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "AI is imposing a hidden ‘cognitive tax’ on the lowest-paid workers - The Guardian",
-      "link": "https://www.theguardian.com/technology/2026/nov/20/ai-low-paid-workers-cognitive-tax",
-      "original_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOG1BVUZwbUdpX19kN1RqMHVaV21wQm9TVTNpcUZLbE9oRmNHZ09qdndkOWw4eGlpVkNzRVFQc2ZwZ2dIMkp0bEZta0JtcGhVNWgzTVk4ZTV6ZU5sbnkyYnphUVhVeDFrR0RwN2ZHdk9kdE9uaEYzbjkyNHkzbkJOQW8yaDYxVnFnRTNGTQ?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 13:09:00 GMT",
-      "source": "The Guardian",
-      "summary_data": {
-        "summary": "AI 경제로의 전환 과정에서 저임금 노동자들이 겪는 심리적·경제적 압박을 '인지적 세금(Cognitive Taxation)'으로 정의하며, 이것이 인간의 핵심 자산인 '브레인 캐피털(Brain Capital)'을 어떻게 잠식하는지 분석합니다. 기술적 자동화가 가져오는 불확실성과 생계 불안이 인지 능력을 저하시켜, 미래 경제의 핵심인 인간의 판단력과 창의성을 저해하는 구조적 위험을 경고합니다.",
-        "technical_value": "경제학적 관점에서 인간의 지적 역량을 'Brain Capital'로 정의하고, 이를 유지하기 위한 사회적 인프라의 중요성을 수치로 제시합니다. 2024년 Journal of Economic Psychology에 발표된 112,000명 대상 분석에 따르면, 경제적 압박 완화는 생산성을 7% 향상시키는 등 인지적 부하(Cognitive Load)와 경제적 성과 사이의 상관관계를 입증합니다. 또한, AI 도입으로 인한 스케줄링의 가변성과 AI 도구 관리(Overseeing) 과정에서 발생하는 정신적 피로도가 인적 자본의 질을 떨어뜨리는 핵심 변수로 작용함을 보여줍니다.",
-        "key_points": [
-          "AI 경제에서는 루틴한 업무가 자동화됨에 따라 인간 고유의 판단력과 창의성인 'Brain Capital'의 가치가 급증하지만, 생계 불안이 이를 잠식하는 'Cognitive Taxation' 현상이 발생합니다.",
-          "불안정한 소득과 주거 문제는 마치 스마트폰의 백그라운드 앱처럼 인지적 자원을 지속적으로 소모하여, 새로운 기술을 학습하고 적응할 수 있는 뇌의 가소성을 저하시킵니다.",
-          "단순한 현금성 복지(Universal High Income)는 일시적 효과에 그치며, 보육·주거·교통 등 필수 서비스의 보편적 제공(Universal Basic Services)이 인지적 부하를 줄이는 근본적인 해결책입니다."
-        ],
-        "tags": [
-          "AI Economy",
-          "Brain Capital",
-          "Cognitive Taxation",
-          "Future of Work",
-          "Economic Policy"
-        ]
-      },
-      "summary": "AI 경제로의 전환 과정에서 저임금 노동자들이 겪는 심리적·경제적 압박을 '인지적 세금(Cognitive Taxation)'으로 정의하며, 이것이 인간의 핵심 자산인 '브레인 캐피털(Brain Capital)'을 어떻게 잠식하는지 분석합니다. 기술적 자동화가 가져오는 불확실성과 생계 불안이 인지 능력을 저하시켜, 미래 경제의 핵심인 인간의 판단력과 창의성을 저해하는 구조적 위험을 경고합니다.",
-      "tags": [
-        "Brain Capital",
-        "Cognitive Taxation",
+        "AI Supply Chain",
+        "Startup",
         "Security",
-        "Infra",
-        "AI Economy"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "AI Agents Should Not Access Financial Accounts Just Yet - Bank Policy Institute",
-      "link": "https://bpi.com/ai-agents-should-not-access-financial-accounts-just-yet/",
-      "original_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1IY050b2wtdGJZbDF3TzFJQTUzY2JYUUtjclJVQUJPMEZITXBaeW9aaExnaEE2WlVPa1B4NDZZamZ1WG15X0lLUzJpOU1zLWM5T3lXcWRlTTJ0Q3JRY25vckZ1NkhxX055Y1FEVDdWMTM5aDBCYjNEcFVhbDA?oc=5",
-      "pub_date": "Fri, 20 Nov 2026 18:54:58 GMT",
-      "source": "Bank Policy Institute",
-      "summary_data": {
-        "summary": "AI Agent 기술의 급격한 발전으로 인해 금융 계좌 접근 권한을 가진 에이전트 개발이 가속화되고 있으나, 현재의 Risk Management 체계는 금융 보안 요구사항을 충족하기에 역부족입니다. 금융 기관은 에이전트의 오작동이나 사기 피해를 방지하기 위해 검증되지 않은 에이전트의 계좌 접근을 엄격히 제한해야 합니다.",
-        "technical_value": "AI Agent의 아키텍처는 추론 엔진인 LLM(Large Language Model)과 실행 프레임워크인 Harness(Harness/Body 구조)의 결합으로 정의됩니다. Planner, Tool Router, Context Manager, Scheduler 등이 포함된 Harness가 LLM의 추론 결과를 바탕으로 외부 API나 웹 브라우저를 제어하며, 이 과정에서 발생하는 수천 번의 루프(Loop)와 복잡한 상태 관리(State Management)가 에이전트의 유연성을 제공하지만 동시에 예측 불가능한 위험 요소를 생성합니다.",
-        "key_points": [
-          "LLM은 의사결정의 '두뇌' 역할을 수행하고, Harness는 계획 수립(Planning), 도구 실행(Tool Execution), 컨텍스트 관리(Context Management)를 담당하는 '신체' 역할을 수행합니다.",
-          "에이전트가 이메일 확인부터 결제까지 자동화하는 과정에서 발생하는 수많은 Tool Call과 루프는 에이전트가 잘못된 정보를 바탕으로 판단하거나 의도치 않은 동작을 수행할 위험을 증폭시킵니다.",
-          "현재의 Risk Management 기술은 에이전트의 복잡한 실행 흐름을 실시간으로 검증하고 제어하기에 미흡하므로, 금융권에서는 승인되지 않은 채널을 통한 에이전트 접근을 차단하는 정책이 필수적입니다."
-        ],
-        "tags": [
-          "AI Agent",
-          "LLM",
-          "FinTech",
-          "Risk Management",
-          "Cybersecurity"
-        ]
-      },
-      "summary": "AI Agent 기술의 급격한 발전으로 인해 금융 계좌 접근 권한을 가진 에이전트 개발이 가속화되고 있으나, 현재의 Risk Management 체계는 금융 보안 요구사항을 충족하기에 역부족입니다. 금융 기관은 에이전트의 오작동이나 사기 피해를 방지하기 위해 검증되지 않은 에이전트의 계좌 접근을 엄격히 제한해야 합니다.",
-      "tags": [
-        "FinTech",
-        "Security",
-        "LLM",
-        "Cybersecurity",
-        "Agent"
+        "Agent",
+        "LLM Security"
       ]
     }
   ]
