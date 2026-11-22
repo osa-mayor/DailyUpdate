@@ -1,21 +1,22 @@
 {
   "source": "official_news",
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T04:45:29.175570+09:00",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T05:06:31.971457+09:00",
   "count": 7,
-  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, GPT-6 Astra) 및 특화 모델(Genie 4)의 발표가 이어졌으며, AI의 활용 분야가 기상 예측, 신약 개발, 금융 연구 등 전문 과학 및 산업 영역으로 심화되는 양상을 보였습니다.",
+  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 새로운 AI 모델(Gemini 4 Neon, Genie 4, GPT-6 Astra)의 출시와 성능 향상, 그리고 AI 보안 및 평가 지표에 대한 기술적 진보가 발표되었습니다. 또한, 기상 모델을 위한 데이터셋 공개와 클라우드 플랫폼의 시장 리더십 확보 등 AI 생태계 전반의 확장이 이루어졌습니다.",
   "daily_key_points": [
-    "Google DeepMind의 차세대 모델(Gemini 4 Neon, Genie 4) 및 기상 모델용 기초 데이터셋(PARDIG, SatWeave) 공개",
-    "OpenAI의 보안 강화(적대적 증류 대응) 및 전문 분야(금융, 신약 개발) 성능 평가 벤치마크/모델 발표",
-    "Google Cloud의 Gartner AI 애플리케이션 개발 플랫폼 부문 리더 선정"
+    "Google DeepMind의 신규 모델(Gemini 4 Neon, Genie 4) 및 기상 모델용 기초 데이터셋(PARDIG, SatWeave) 공개",
+    "OpenAI의 모델 보안(적대적 증류 대응) 및 평가 지표(Perplexity)에 대한 기술적 접근 방식 제시",
+    "GPT-6 Astra의 금융 연구 성능 향상 확인 및 Google Cloud의 AI 애플리케이션 개발 플랫폼 리더 선정"
   ],
   "daily_tags": [
     "AI Model Release",
-    "Scientific AI",
     "AI Security",
-    "Industry Application"
+    "Machine Learning Research",
+    "Google DeepMind",
+    "OpenAI"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, GPT-6 Astra) 및 특화 모델(Genie 4)의 발표가 이어졌으며, AI의 활용 분야가 기상 예측, 신약 개발, 금융 연구 등 전문 과학 및 산업 영역으로 심화되는 양상을 보였습니다.\n\n📍 1. Introducing Gemini 4 Neon\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind에서 새로운 모델인 Gemini 4 Neon을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Genie 4 is now available\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n📍 3. Opening the datasets behind our AI weather models\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.\n🔗 링크: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/\n\n📍 4. Combatting adversarial distillation\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: OpenAI는 모델의 능력을 추출하려는 적대적 증류(adversarial distillation) 공격에 대응하기 위한 계층적 접근 방식을 공개했습니다. 이 방식은 모델 학습, 안전 장치, 탐지 및 집행을 결합하여 모델의 역량을 보호합니다.\n🔗 링크: https://openai.com/index/combatting-adversarial-distillation\n\n📍 5. Hebbia sees improvements in financial research with GPT-6 Astra\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Hebbia가 금융 연구 역량 강화를 위해 GPT-6 Astra를 테스트했습니다. 사전 출시 평가 결과, 소스 커버리지와 인용 관련성, 그리고 결과물 제시 품질 면에서 향상된 성능을 확인했습니다.\n🔗 링크: https://openai.com/business/customer-stories/hebbia\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-22.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 새로운 AI 모델(Gemini 4 Neon, Genie 4, GPT-6 Astra)의 출시와 성능 향상, 그리고 AI 보안 및 평가 지표에 대한 기술적 진보가 발표되었습니다. 또한, 기상 모델을 위한 데이터셋 공개와 클라우드 플랫폼의 시장 리더십 확보 등 AI 생태계 전반의 확장이 이루어졌습니다.\n\n📍 1. Introducing Gemini 4 Neon\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind에서 새로운 모델인 Gemini 4 Neon을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Genie 4 is now available\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n📍 3. Opening the datasets behind our AI weather models\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind가 전 지구적 강수량 매핑과 정지 궤도 위성 모자이크 제작을 지원하는 기초 데이터셋인 PARDIG와 SatWeave를 공개했습니다. 이 데이터셋들은 수십 년간 축적된 데이터를 바탕으로 구축되어 AI 기상 모델의 발전을 돕습니다.\n🔗 링크: https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/\n\n📍 4. Perplexity and Intelligence\n🗂️ 소스: OpenAI News | 분류: Research\n📝 요약: AI 모델의 발전 정도를 측정하는 지표로서 perplexity의 역할과 중요성을 다룹니다. 개발자들이 새로운 역량을 평가하기 위해 perplexity를 어떻게 공통된 접근 방식으로 활용할 수 있는지 설명합니다.\n🔗 링크: https://openai.com/index/perplexity-and-intelligence\n\n📍 5. Combatting adversarial distillation\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: OpenAI는 모델의 능력을 추출하려는 적대적 증류(adversarial distillation) 공격에 대응하기 위한 계층적 접근 방식을 공개했습니다. 이 방식은 모델 학습, 안전 장치, 탐지 및 집행을 결합하여 모델의 역량을 보호합니다.\n🔗 링크: https://openai.com/index/combatting-adversarial-distillation\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-23.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -88,6 +89,29 @@
     {
       "source_key": "openai",
       "source_name": "OpenAI News",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "category": "Research",
+      "published_at_kst": "2026-11-22T09:00:00+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "release_type": "research_release",
+      "rank": 4,
+      "summary": "AI 모델의 발전 정도를 측정하는 지표로서 perplexity의 역할과 중요성을 다룹니다. 개발자들이 새로운 역량을 평가하기 위해 perplexity를 어떻게 공통된 접근 방식으로 활용할 수 있는지 설명합니다.",
+      "key_points": [
+        "AI 모델의 발전을 측정하는 지표로서의 perplexity 분석",
+        "새로운 AI 역량 평가를 위한 개발자 간의 공통 접근 방식 제안",
+        "Perplexity를 통한 모델 성능 평가의 유용성"
+      ],
+      "tags": [
+        "Perplexity",
+        "AI Evaluation",
+        "Model Benchmarking"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
       "title": "Combatting adversarial distillation",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "category": "Official Release",
@@ -95,7 +119,7 @@
       "published_date": "2026-11-20",
       "original_description": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
       "release_type": "official_update",
-      "rank": 4,
+      "rank": 5,
       "summary": "OpenAI는 모델의 능력을 추출하려는 적대적 증류(adversarial distillation) 공격에 대응하기 위한 계층적 접근 방식을 공개했습니다. 이 방식은 모델 학습, 안전 장치, 탐지 및 집행을 결합하여 모델의 역량을 보호합니다.",
       "key_points": [
         "적대적 증류 공격으로부터 모델 능력을 보호하기 위한 계층적 접근 방식 도입",
@@ -118,7 +142,7 @@
       "published_date": "2026-11-20",
       "original_description": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
       "release_type": "official_update",
-      "rank": 5,
+      "rank": 6,
       "summary": "Hebbia가 금융 연구 역량 강화를 위해 GPT-6 Astra를 테스트했습니다. 사전 출시 평가 결과, 소스 커버리지와 인용 관련성, 그리고 결과물 제시 품질 면에서 향상된 성능을 확인했습니다.",
       "key_points": [
         "Hebbia의 금융 연구 분야 GPT-6 Astra 테스트 진행",
@@ -129,29 +153,6 @@
         "OpenAI",
         "Hebbia",
         "GPT-6 Astra"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "Can AI help scientists identify promising drug candidates?",
-      "url": "https://openai.com/index/introducing-medchembench",
-      "category": "Research",
-      "published_at_kst": "2026-11-20T09:00:00+09:00",
-      "published_date": "2026-11-20",
-      "original_description": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
-      "release_type": "research_release",
-      "rank": 6,
-      "summary": "OpenAI가 신약 개발 초기 단계에서 AI 모델의 역량을 평가하기 위한 MedChemBench를 소개합니다. 이 벤치마크는 AI가 분자 구조를 해석하고 실험적 근거를 바탕으로 유망한 화합물을 선택하는 능력을 측정합니다.",
-      "key_points": [
-        "MedChemBench는 초기 신약 발굴 단계에서의 AI 모델 성능을 평가합니다.",
-        "분자 구조 해석 및 실험적 근거를 통한 추론 능력을 검증합니다.",
-        "AI가 유망한 화합물을 선택하는 능력을 중점적으로 다룹니다."
-      ],
-      "tags": [
-        "OpenAI",
-        "MedChemBench",
-        "Drug Discovery"
       ]
     },
     {
