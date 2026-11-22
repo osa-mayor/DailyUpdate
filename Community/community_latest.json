@@ -1,22 +1,22 @@
 {
   "source": "community",
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T04:50:31.478248+09:00",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T05:13:38.025227+09:00",
   "count": 20,
-  "daily_summary": "오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_summary": "오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화, 보안과 권한 통제 관련 논의가 두드러졌습니다.",
   "daily_key_points": [
     "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
-    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
-    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.",
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다."
   ],
   "daily_tags": [
-    "Anthropic",
-    "RCE",
     "AI",
     "LLM",
-    "Lean"
+    "Lean",
+    "Anthropic",
+    "Mathematics"
   ],
-  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 보안과 권한 통제, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\n📝 Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 난제 해결을 위한 새로운 접근 방식을 보여줍니다.\n\n📍 GeekNews / Hada · GIMP에 UI 테스트 도입\n📝 이번 도입은 코드 수준의 검증을 넘어 실제 사용자 경험(UX)과 직결되는 인터페이스 무결성을 확보하는 데 목적이 있습니다. 이는 자동화된 GUI 테스트가 소프트웨어의 안정성을 높이는 핵심적인 방어선이 될 수 있음을 보여줍니다.\n\n📍 Hacker News · Carnegie Mellon is putting computer science courses on YouTube for free\n📝 카네기 멜론 대학교(CMU)가 세계 최고 수준의 컴퓨터 과학 강의를 유튜브에 무료로 공개했습니다. 이번 결정은 교육의 접근성을 높이는 동시에 AI 시대에 기초 역량의 중요성을 강조하는 계기가 되고 있습니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화, 보안과 권한 통제 관련 논의가 두드러졌습니다.\n\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\n📝 Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표에 대해 학계의 검증과 기술적 실효성에 대한 논의가 이어지고 있습니다.\n\n📍 GeekNews / Hada · Mojang을 위한 포트 스캐닝\n📝 이번 사건은 외부 서비스의 데이터가 플랫폼 운영자의 서버 관리 및 차단 로직에 활용될 수 있음을 보여주는 기술적 사례입니다. 이는 데이터 제공자와 플랫폼 간의 프라이버시 경계 및 데이터 활용의 윤리적 문제를 시사합니다.\n\n📍 Hacker News · Hurried Announcement: Alessandro Masullo GRH\n📝 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명 초안이 공개되었으나, 공개 직후 AI 모델을 통한 오류 발견이 이어지며 논란이 되고 있습니다. 학계 전문가들의 검토와 AI 기술이 결합되어 증명의 정당성을 검증하는 과정이 진행 중입니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
   "items": [
     {
       "id": "hacker-news-50574968",
@@ -24,14 +24,14 @@
       "source_name": "Hacker News",
       "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
       "url": "https://alpo.ge/remark.pdf",
-      "summary": "Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 난제 해결을 위한 새로운 접근 방식을 보여줍니다.",
-      "article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB에 달하는 방대한 분량과 1,500만 라인에 육박하는 코드로 구성된 것이 특징입니다. 사용자는 제공된 스크립트를 통해 01번부터 14번까지의 Lean 프로그래밍 언어 기반 코드를 가져와 검증할 수 있는 구조를 갖추고 있습니다.",
-      "external_article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB에 달하는 방대한 분량과 1,500만 라인에 육박하는 코드로 구성된 것이 특징입니다. 사용자는 제공된 스크립트를 통해 01번부터 14번까지의 Lean 프로그래밍 언어 기반 코드를 가져와 검증할 수 있는 구조를 갖추고 있습니다.",
-      "discussion_summary": "증명의 규모가 워낙 거대하여 검증 가능 여부에 대한 의구심과, 수학적 난제를 코드로 구현한 방식에 대한 기술적 논쟁이 발생하고 있습니다. 일부에서는 Dijkstra의 가상 기업 사례를 언급하며 수학적 증명의 상업적/실용적 가치에 대한 철학적 관점을 제시하기도 합니다.",
+      "summary": "Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표에 대해 학계의 검증과 기술적 실효성에 대한 논의가 이어지고 있습니다.",
+      "article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 사용자는 제공된 쉘 스크립트를 통해 01번부터 14번까지의 파트별 파일을 fetch하여 Lean 프로그래밍 언어 환경에서 검증할 수 있는 구조를 갖추고 있습니다.",
+      "external_article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 사용자는 제공된 쉘 스크립트를 통해 01번부터 14번까지의 파트별 파일을 fetch하여 Lean 프로그래밍 언어 환경에서 검증할 수 있는 구조를 갖추고 있습니다.",
+      "discussion_summary": "증명의 규모가 워낙 거대하여 수학적 직관보다는 계산적 검증이 중심이 될 것이라는 우려와, Lean과 같은 정형 검증 도구를 활용한 현대적 증명 방식의 진보라는 옹호가 대립하고 있습니다. 또한 Dijkstra의 비유를 빌려 수학적 발견이 상업적 가치로 전환되는 과정에 대한 철학적 논쟁도 함께 나타나고 있습니다.",
       "key_points": [
-        "Levent Alpöge가 일반화된 리만 가설(GRH)에 대한 증명을 발표했습니다.",
-        "증명 과정은 1.3GB 용량과 1,500만 라인의 코드를 포함하는 거대한 규모를 가집니다.",
-        "Lean 프로그래밍 언어를 활용한 형식적 검증 방식이 핵심적인 기술적 특징입니다."
+        "1.3GB 용량과 1,500만 라인의 코드로 구성된 방대한 규모의 증명 체계입니다.",
+        "Lean 프로그래밍 언어를 활용한 정형 검증 방식이 핵심적인 기술적 특징입니다.",
+        "수학적 난제의 해결이 현대적 컴퓨팅 환경에서 어떻게 검증되고 수용될 것인지가 관건입니다."
       ],
       "tags": [
         "Mathematics",
@@ -46,39 +46,8 @@
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50574968"
       },
-      "score": 2833,
-      "comments_count": 2005
-    },
-    {
-      "id": "hacker-news-50522980",
-      "source": "hacker_news",
-      "source_name": "Hacker News",
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "summary": "카네기 멜론 대학교(CMU)가 세계 최고 수준의 컴퓨터 과학 강의를 유튜브에 무료로 공개했습니다. 이번 결정은 교육의 접근성을 높이는 동시에 AI 시대에 기초 역량의 중요성을 강조하는 계기가 되고 있습니다.",
-      "article_summary": "카네기 멜론 대학교는 'CS Learn' 프로젝트를 통해 학부 및 대학원 과정의 핵심 컴퓨터 과학 강의를 유튜브에 전면 공개했습니다. 공개된 강의에는 11-768(NLP), 15-259(Scheduling) 등 다양한 전공 과목이 포함되어 있으며, 이는 학문적 지식을 전 세계 학습자에게 개방하는 것을 목표로 합니다. 학습자들은 이를 통해 최신 알고리즘과 시스템 설계 등 고도화된 기술 스택을 학습할 수 있습니다.",
-      "external_article_summary": "카네기 멜론 대학교는 'CS Learn' 프로젝트를 통해 학부 및 대학원 과정의 핵심 컴퓨터 과학 강의를 유튜브에 전면 공개했습니다. 공개된 강의에는 11-768(NLP), 15-259(Scheduling) 등 다양한 전공 과목이 포함되어 있으며, 이는 학문적 지식을 전 세계 학습자에게 개방하는 것을 목표로 합니다. 학습자들은 이를 통해 최신 알고리즘과 시스템 설계 등 고도화된 기술 스택을 학습할 수 있습니다.",
-      "discussion_summary": "강의 공개가 교육의 질적 저하를 가져올 것이라는 우려와, AI 시대일수록 탄탄한 기초가 도구 활용 능력을 결정한다는 옹호 의견이 대립하고 있습니다. 특히 AI가 인간을 대체하기 전에 근본적인 원리를 먼저 학습해야 한다는 점이 주요 쟁점으로 떠올랐습니다.",
-      "key_points": [
-        "카네기 멜론 대학교가 고등 컴퓨터 과학 교육 과정을 유튜브에 무료로 배포합니다.",
-        "AI 시대에 도구에 의존하기보다 근본적인 컴퓨터 과학 원리를 학습하는 것이 생존 전략이라는 점이 강조됩니다.",
-        "전 세계 학습자들이 최고 수준의 CS 커리큘럼에 접근할 수 있는 교육적 기회가 확대되었습니다."
-      ],
-      "tags": [
-        "Carnegie Mellon",
-        "Computer Science",
-        "Education",
-        "Open Source"
-      ],
-      "published_at_kst": "2026-11-17T05:43:36+09:00",
-      "category": "기타",
-      "canonical_path": "/community/hacker-news-50522980",
-      "rank": 2,
-      "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=50522980"
-      },
-      "score": 2382,
-      "comments_count": 334
+      "score": 2898,
+      "comments_count": 2079
     },
     {
       "id": "hacker-news-50579568",
@@ -87,13 +56,13 @@
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명 초안이 공개되었으나, 공개 직후 AI 모델을 통한 오류 발견이 이어지며 논란이 되고 있습니다. 학계 전문가들의 검토와 AI 기술이 결합되어 증명의 정당성을 검증하는 과정이 진행 중입니다.",
-      "article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반전이 일어났습니다. 이 증명은 12년간의 연구 결과로 주장되었으나, AI를 통한 검증 과정에서 발생한 결함이 핵심 쟁점으로 떠올랐습니다.",
-      "external_article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반전이 일어났습니다. 이 증명은 12년간의 연구 결과로 주장되었으나, AI를 통한 검증 과정에서 발생한 결함이 핵심 쟁점으로 떠올랐습니다.",
-      "discussion_summary": "12년간 연구해 온 저자의 노력이 AI에 의해 부정당한 상황에 대한 안타까움과, Brian Conrad이 검토 과정에서 AI를 사용해 의도치 않게 증명이 유출되었을 가능성에 대한 의구심이 대립하고 있습니다.",
+      "article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반박이 제기되었습니다. 이 증명은 12년간의 연구 결과로 알려졌으며, 현재 커뮤니티의 검증을 통해 수학적 결함을 해결해야 하는 단계에 있습니다.",
+      "external_article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반박이 제기되었습니다. 이 증명은 12년간의 연구 결과로 알려졌으며, 현재 커뮤니티의 검증을 통해 수학적 결함을 해결해야 하는 단계에 있습니다.",
+      "discussion_summary": "12년간 연구한 결과가 AI를 통해 빠르게 반박된 상황에 대한 안타까움과, 검토 과정에서 사용된 AI 모델이 증명 유출에 관여했을 가능성을 제기하는 의혹이 대립하고 있습니다.",
       "key_points": [
-        "수학적 난제인 GRH 증명 초안이 공개되었으나 AI 모델을 통해 즉각적인 오류가 발견되었습니다.",
-        "인간의 논리적 검토를 거친 증명이 AI 기술을 통해 빠르게 반박되는 새로운 검증 양상을 보입니다.",
-        "증명 과정에서의 데이터 유출 가능성과 AI를 활용한 수학적 검증의 신뢰성 문제가 제기되었습니다."
+        "수학적 난제인 GRH 증명 초안이 공개되었으나 AI를 활용한 오류 검증이 즉각적으로 이루어지고 있습니다.",
+        "증명 과정에서 인간의 논리적 완결성과 AI 모델의 효율적인 오류 탐지 능력이 충돌하고 있습니다.",
+        "학계는 향후 이 증명이 수학적 커뮤니티의 엄격한 검증을 통과할 수 있을지 주목하고 있습니다."
       ],
       "tags": [
         "Mathematics",
@@ -104,43 +73,12 @@
       "published_at_kst": "2026-11-21T03:33:14+09:00",
       "category": "기타",
       "canonical_path": "/community/hacker-news-50579568",
-      "rank": 3,
+      "rank": 2,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50579568"
       },
-      "score": 2330,
-      "comments_count": 1116
-    },
-    {
-      "id": "hacker-news-50500963",
-      "source": "hacker_news",
-      "source_name": "Hacker News",
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
-      "summary": "SpaceX가 Starship의 상단 단(Upper Stage)을 공중에서 포착하는 데 성공하며 재사용 로켓 기술의 새로운 이정표를 세웠습니다. 이번 성과는 우주 발사 비용을 획기적으로 낮출 수 있는 기술적 토대를 마련했다는 평가를 받습니다.",
-      "article_summary": "SpaceX는 2002년 설립 이후 인류의 행성 간 거주를 목표로 첨단 로켓 및 우주선을 설계하고 제조합니다. 이번 Flight 15 미션의 핵심은 발사된 상단 단을 다시 회수하는 기술적 시연이며, 이는 우주 시대 이후 최초로 시도되는 재사용 가능한 상단 단 시스템의 실증 사례입니다.",
-      "external_article_summary": "SpaceX는 2002년 설립 이후 인류의 행성 간 거주를 목표로 첨단 로켓 및 우주선을 설계하고 제조합니다. 이번 Flight 15 미션의 핵심은 발사된 상단 단을 다시 회수하는 기술적 시연이며, 이는 우주 시대 이후 최초로 시도되는 재사용 가능한 상단 단 시스템의 실증 사례입니다.",
-      "discussion_summary": "Starship의 기술적 완성도에 대한 비판적 시각이 존재했으나, 이번 성공으로 재사용 가능한 상단 단의 실효성이 입증되었다는 옹호론이 힘을 얻고 있습니다. 특히 열 차폐막(Heat Shield)의 내구성이 확보된다면 발사 비용 절감과 반복적인 재발사 사이클이 가능해질 것이라는 전망이 핵심 쟁점입니다.",
-      "key_points": [
-        "로켓 상단 단을 공중에서 포착하는 재사용 기술의 실질적 구현에 성공했습니다.",
-        "열 차폐막의 성능이 향후 우주 수송 비용과 발사 빈도를 결정짓는 핵심 변수가 될 것입니다.",
-        "완벽한 재사용 시스템 구축을 통해 궤도 운송 비용을 획기적으로 낮추는 것이 최종 목표입니다."
-      ],
-      "tags": [
-        "SpaceX",
-        "Starship",
-        "Rocketry",
-        "SpaceTech"
-      ],
-      "published_at_kst": "2026-11-15T06:22:24+09:00",
-      "category": "인프라/클라우드",
-      "canonical_path": "/community/hacker-news-50500963",
-      "rank": 4,
-      "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=50500963"
-      },
-      "score": 1766,
-      "comments_count": 1495
+      "score": 2445,
+      "comments_count": 1195
     },
     {
       "id": "hacker-news-50547374",
@@ -148,14 +86,14 @@
       "source_name": "Hacker News",
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "summary": "Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대해 논의하고 있습니다.",
-      "article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 점수 9.2에 달하는 두 건의 심각한 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있습니다. 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 받는 광범위한 취약점입니다.",
-      "external_article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 점수 9.2에 달하는 두 건의 심각한 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있습니다. 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 받는 광범위한 취약점입니다.",
-      "discussion_summary": "패치가 공개되기 전 오픈소스 저장소의 수정 사항을 모니터링하여 취약점이 악용될 수 있다는 우려와, HTTP/2가 기본 활성화 상태가 아니기에 실제 영향 범위는 제한적이라는 의견이 대립하고 있습니다.",
+      "summary": "Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대한 논의가 이어지고 있습니다.",
+      "article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 패치가 포함된 최신 버전 업데이트를 권고했습니다.",
+      "external_article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 패치가 포함된 최신 버전 업데이트를 권고했습니다.",
+      "discussion_summary": "오픈소스 저장소의 수정 사항을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 실질적 위험은 제한적이라는 의견이 대립하고 있습니다.",
       "key_points": [
-        "Nginx의 HTTP/2 프로토콜 구현에서 발생하는 원격 코드 실행 취약점이 발견되었습니다.",
-        "취약한 서버는 애플리케이션 코드의 보안 여부와 상관없이 서버 전체가 위험에 노출됩니다.",
-        "사용 중인 Nginx 버전을 확인하고 최신 보안 패치가 포함된 버전으로 즉시 업데이트해야 합니다."
+        "Nginx의 HTTP/2 프로토콜 구현에서 발생하는 원격 코드 실행 취약점은 서버 제어권을 완전히 탈취할 수 있는 위험을 초래합니다.",
+        "취약점이 포함된 구형 버전부터 최신 버전까지 광범위하게 영향을 미치므로 즉각적인 업데이트가 필요합니다.",
+        "보안 패치 배포와 취약점 공개 사이의 시간차를 이용한 공격 가능성에 대한 경계가 필요합니다."
       ],
       "tags": [
         "Nginx",
@@ -167,42 +105,12 @@
       "published_at_kst": "2026-11-19T00:19:55+09:00",
       "category": "보안/프라이버시",
       "canonical_path": "/community/hacker-news-50547374",
-      "rank": 5,
+      "rank": 3,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50547374"
       },
-      "score": 1513,
-      "comments_count": 642
-    },
-    {
-      "id": "hacker-news-50530163",
-      "source": "hacker_news",
-      "source_name": "Hacker News",
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "summary": "학교 내 스마트폰 금지 조치가 학생들의 시험 점수를 점진적으로 향상시킨다는 연구 결과가 발표되었습니다. 커뮤니티에서는 실제 학생들의 긍정적인 반응과 통계적 유의미성에 대한 논의가 이어지고 있습니다.",
-      "article_summary": "최근 발표된 연구에 따르면 학교에서 잠금 기능이 있는 스마트폰 파우치를 도입했을 때, 도입 첫해에 약 0.01 표준편차(standard-deviation) 수준의 시험 점수 차이가 발생하는 것으로 나타났습니다. 이러한 변화는 스마트폰 사용 제한이 학습 환경 개선에 미치는 영향을 수치로 보여줍니다.",
-      "external_article_summary": "최근 발표된 연구에 따르면 학교에서 잠금 기능이 있는 스마트폰 파우치를 도입했을 때, 도입 첫해에 약 0.01 표준편차(standard-deviation) 수준의 시험 점수 차이가 발생하는 것으로 나타났습니다. 이러한 변화는 스마트폰 사용 제한이 학습 환경 개선에 미치는 영향을 수치로 보여줍니다.",
-      "discussion_summary": "자녀를 둔 학부모들은 스마트폰 금지 조치가 학생들의 만족도를 높였다는 긍정적인 경험을 공유하고 있습니다. 반면, 통계적으로 나타난 점수 향상 폭이 실질적으로 유의미한 수준인지에 대한 분석적 의구심이 대립하고 있습니다.",
-      "key_points": [
-        "스마트폰 금지 조치가 학생들의 학업 성취도에 긍정적인 영향을 미칩니다.",
-        "잠금형 파우치 도입 시 약 0.01 표준편차의 점수 변화가 관찰되었습니다.",
-        "디지털 기기 통제가 학습 집중도와 학생들의 심리적 만족도를 높일 수 있습니다."
-      ],
-      "tags": [
-        "교육 정책",
-        "스마트폰 금지",
-        "학업 성취도"
-      ],
-      "published_at_kst": "2026-11-17T20:45:51+09:00",
-      "category": "정책/사회 이슈",
-      "canonical_path": "/community/hacker-news-50530163",
-      "rank": 6,
-      "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=50530163"
-      },
-      "score": 1307,
-      "comments_count": 648
+      "score": 1516,
+      "comments_count": 644
     },
     {
       "id": "hacker-news-50581260",
@@ -210,60 +118,91 @@
       "source_name": "Hacker News",
       "title": "Inkling 2 Mini",
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "summary": "Inkling 2 Mini 모델이 루프형 트랜스포머 아키텍처를 통해 27B급 성능을 구현하며 주목받고 있습니다. 실사용 환경에서의 벤치마크 검증과 코드 생성 성능에 대한 커뮤니티의 기대와 우려가 공존합니다.",
-      "article_summary": "Inkling 2 Mini는 루프형 트랜스포머(Looped Transformer) 모델 구조를 채택하여 효율성을 극대화했습니다. 이 모델은 27B 파라미터 규모의 Qwen 모델과 대등한 성능을 목표로 설계되었습니다. Ryzen 395 환경에서 llama.cpp Vulkan을 통해 초당 27토큰의 디코딩 속도를 기록하며 하드웨어 효율성을 입증했습니다.",
-      "external_article_summary": "Inkling 2 Mini는 루프형 트랜스포머(Looped Transformer) 모델 구조를 채택하여 효율성을 극대화했습니다. 이 모델은 27B 파라미터 규모의 Qwen 모델과 대등한 성능을 목표로 설계되었습니다. Ryzen 395 환경에서 llama.cpp Vulkan을 통해 초당 27토큰의 디코딩 속도를 기록하며 하드웨어 효율성을 입증했습니다.",
-      "discussion_summary": "벤치마크 수치가 실제 환경에서도 유지된다면 혁신적이라는 긍정적 평가와, 아직 병합되지 않은 여러 PR(Pull Request)로 인해 안정성 및 완성도 검증이 필요하다는 기술적 우려가 대립하고 있습니다.",
+      "summary": "로프드 트랜스포머(Looped Transformer) 아키텍처를 적용해 추론 능력을 극대화한 Inkling 2 Mini 모델이 공개되었습니다. 이 모델은 적은 파라미터로도 높은 벤치마크 성능을 보여주며, 효율적인 추론과 모니터링 가능성을 동시에 확보했다는 평가를 받고 있습니다.",
+      "article_summary": "Inkling 2 Mini는 총 26.4B 파라미터 중 3.4B만 활성화되는 MoE(Mixture-of-Experts) 구조를 가진 모델로, 중간 레이어를 반복 실행하는 Looped Transformer 방식을 채택했습니다. 이 구조를 통해 모델은 별도의 CoT(Chain of Thought) 작성 없이도 더 깊은 추론을 수행하며, DeepSWE v1.1(48.2%)과 같은 벤치마크에서 100B 미만 모델 중 최고 수준의 성능을 기록했습니다. 또한 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성이 유지되는 특성을 보입니다.",
+      "external_article_summary": "Inkling 2 Mini는 총 26.4B 파라미터 중 3.4B만 활성화되는 MoE(Mixture-of-Experts) 구조를 가진 모델로, 중간 레이어를 반복 실행하는 Looped Transformer 방식을 채택했습니다. 이 구조를 통해 모델은 별도의 CoT(Chain of Thought) 작성 없이도 더 깊은 추론을 수행하며, DeepSWE v1.1(48.2%)과 같은 벤치마크에서 100B 미만 모델 중 최고 수준의 성능을 기록했습니다. 또한 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성이 유지되는 특성을 보입니다.",
+      "discussion_summary": "벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 반응과 함께, 모델의 성능이 기존 Qwen 모델급에 도달한 점에 대한 놀라움이 나타나고 있습니다. 동시에 특정 PR(Pull Request) 미반영 문제나 실질적인 활용 가능성에 대한 기술적 검토가 병합되어 진행 중입니다.",
       "key_points": [
-        "루프형 트랜스포머 구조를 통해 적은 자원으로 고성능 LLM 성능을 구현했습니다.",
-        "실제 코딩 테스트와 하드웨어 가속 환경에서 유의미한 추론 속도를 보여줍니다.",
-        "벤치마크의 실효성 검증과 미병합된 코드의 안정성 확보가 향후 과제입니다."
+        "Looped Transformer 아키텍처를 통해 토큰당 중간 레이어를 반복 실행하여 추론 품질을 높였습니다.",
+        "26.4B MoE 구조를 활용해 노트북에서도 구동 가능한 효율적인 추론 속도를 제공합니다.",
+        "CoT를 길게 쓰지 않고도 루프를 통해 추론 시간을 확보하여 모델 모니터링의 용이성을 확보했습니다."
       ],
       "tags": [
         "LLM",
         "Transformer",
-        "Inference"
+        "MoE",
+        "AI Architecture"
       ],
       "published_at_kst": "2026-11-21T05:12:19+09:00",
       "category": "AI/ML",
       "canonical_path": "/community/hacker-news-50581260",
-      "rank": 7,
+      "rank": 4,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50581260"
       },
-      "score": 1274,
-      "comments_count": 261
+      "score": 1442,
+      "comments_count": 292
     },
     {
-      "id": "hacker-news-50538240",
+      "id": "hacker-news-50582069",
       "source": "hacker_news",
       "source_name": "Hacker News",
-      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-      "url": "https://calif.io/java4shell/",
-      "summary": "OpenJDK의 Base64 처리 과정에서 발생하는 원격 코드 실행(RCE) 취약점인 Java4Shell이 발견되었습니다. 공격 조건이 까다롭지만 많은 호스트에 영향을 줄 수 있어 보안 전문가들의 주의가 요구됩니다.",
-      "article_summary": "Java4Shell은 OpenJDK가 Base64 데이터를 처리하는 과정에서 발생하는 취약점을 이용해 원격 코드 실행을 수행합니다. 공격자는 'Remote Heap Feng Shui' 기법을 통해 네트워크 환경(RTT, 지터 등)의 영향을 받으면서도 힙 메모리 구조를 정교하게 제어합니다. 특정 조건이 충족되면 공격자는 원격에서 대상 시스템의 제어권을 획득할 수 있습니다.",
-      "external_article_summary": "Java4Shell은 OpenJDK가 Base64 데이터를 처리하는 과정에서 발생하는 취약점을 이용해 원격 코드 실행을 수행합니다. 공격자는 'Remote Heap Feng Shui' 기법을 통해 네트워크 환경(RTT, 지터 등)의 영향을 받으면서도 힙 메모리 구조를 정교하게 제어합니다. 특정 조건이 충족되면 공격자는 원격에서 대상 시스템의 제어권을 획득할 수 있습니다.",
-      "discussion_summary": "공격 성공을 위한 네트워크 환경(RTT 및 지터)의 민감도에 대한 기술적 분석과, 공격 조건이 매우 구체적임에도 불구하고 광범위한 호스트에 영향을 미칠 수 있다는 보안 위협에 대한 우려가 논의되고 있습니다.",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제 '다락손라시브(daraxonrasib)'의 임상 결과가 발표되어 의학계의 주목을 받고 있습니다. 기존 화학요법보다 높은 생존율과 종양 억제 효과를 보여 췌장암 치료의 새로운 돌파구로 평가받고 있습니다.",
+      "article_summary": "전이성 췌장암 환자 61명을 대상으로 한 임상 시험에서 경구용 약물인 daraxonrasib를 투여한 결과, 환자의 약 8%에서 종양이 CT 스캔상 검출되지 않을 정도로 사라졌으며 60% 이상의 환자에게서 종양 크기가 감소했습니다. 또한 환자의 90%에서 종양 성장이 억제되었으며, 1년 생존율은 76.6%를 기록하여 기존 화학요법의 생존율(40~45%)을 크게 상회했습니다. 이번 연구는 전이성 췌장암이라는 난치성 질환에 대해 수십 년 만에 나타난 유의미한 치료 성과로 간주됩니다.",
+      "external_article_summary": "전이성 췌장암 환자 61명을 대상으로 한 임상 시험에서 경구용 약물인 daraxonrasib를 투여한 결과, 환자의 약 8%에서 종양이 CT 스캔상 검출되지 않을 정도로 사라졌으며 60% 이상의 환자에게서 종양 크기가 감소했습니다. 또한 환자의 90%에서 종양 성장이 억제되었으며, 1년 생존율은 76.6%를 기록하여 기존 화학요법의 생존율(40~45%)을 크게 상회했습니다. 이번 연구는 전이성 췌장암이라는 난치성 질환에 대해 수십 년 만에 나타난 유의미한 치료 성과로 간주됩니다.",
+      "discussion_summary": "생존 기간 연장 폭이 수치상으로는 크지 않아 보일 수 있다는 회의적인 시각이 있으나, 수십 년간 획기적인 치료제가 없었던 전이성 췌장암 분야에서 이번 결과는 과장 없는 실질적인 진보라는 옹호 의견이 대립하고 있습니다.",
       "key_points": [
-        "Base64 디코딩 과정에서 발생하는 OpenJDK의 RCE 취약점입니다.",
-        "네트워크 지연 시간과 지터에 민감한 힙 그루밍(Heap Grooming) 기법이 사용됩니다.",
-        "특정 조건 하에서 광범위한 호스트가 공격 대상이 될 수 있어 신속한 패치가 필요합니다."
+        "daraxonrasib 투여 시 환자의 8%에서 종양이 완전히 사라지는 성과를 거두었습니다.",
+        "기존 화학요법 대비 1년 생존율을 약 2배 가까이 높이는 효과를 입증했습니다.",
+        "전이성 췌장암 환자들에게 실질적인 생존 시간 연장과 희망을 제공할 것으로 기대됩니다."
       ],
       "tags": [
-        "Java4Shell",
-        "OpenJDK",
-        "RCE",
-        "Security"
+        "췌장암",
+        "신약 임상",
+        "의학 혁신"
       ],
-      "published_at_kst": "2026-11-18T06:11:28+09:00",
-      "category": "보안/프라이버시",
-      "canonical_path": "/community/hacker-news-50538240",
-      "rank": 8,
+      "published_at_kst": "2026-11-21T06:03:12+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50582069",
+      "rank": 5,
       "source_links": {
-        "hacker_news": "https://news.ycombinator.com/item?id=50538240"
+        "hacker_news": "https://news.ycombinator.com/item?id=50582069"
       },
-      "score": 1182,
-      "comments_count": 339
+      "score": 1293,
+      "comments_count": 276
+    },
+    {
+      "id": "hacker-news-50589618",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "summary": "리만 가설의 증명을 위해 Lean 프로버를 활용한 정형 검증 방식이 주목받고 있습니다. 수학적 증명의 무결성을 확보하려는 시도와 이에 따른 검증 신뢰도에 대한 논쟁이 핵심입니다.",
+      "article_summary": "수학적 난제인 리만 가설을 해결하기 위해 Lean 프로버와 같은 정형 검증 도구를 활용하는 방식이 논의되고 있습니다. 이는 인간의 논리적 오류를 배제하고 컴퓨터가 수학적 증명을 엄격하게 검증하는 것을 목표로 합니다. 기존의 수동 검증 방식과 달리 알고리즘 기반의 자동화된 검증 체계를 구축하는 것이 기술적 핵심입니다.",
+      "external_article_summary": "수학적 난제인 리만 가설을 해결하기 위해 Lean 프로버와 같은 정형 검증 도구를 활용하는 방식이 논의되고 있습니다. 이는 인간의 논리적 오류를 배제하고 컴퓨터가 수학적 증명을 엄격하게 검증하는 것을 목표로 합니다. 기존의 수동 검증 방식과 달리 알고리즘 기반의 자동화된 검증 체계를 구축하는 것이 기술적 핵심입니다.",
+      "discussion_summary": "수학적 오류를 이용한 가짜 증명이 검증 시스템을 통과할 가능성에 대한 우려와, 정형 검증 도구의 발전이 수학적 난제 해결의 새로운 표준이 될 것이라는 기대가 대립하고 있습니다.",
+      "key_points": [
+        "Lean 프로버를 활용한 수학적 증명의 정형 검증 기술이 주목받고 있습니다.",
+        "검증 도구의 버그나 논리적 허점을 이용한 가짜 증명 가능성이 쟁점으로 떠올랐습니다.",
+        "수학적 난제 해결을 위해 컴퓨터 기반의 엄격한 검증 체계 구축이 필수적입니다."
+      ],
+      "tags": [
+        "Lean",
+        "수학",
+        "정형 검증",
+        "리만 가설"
+      ],
+      "published_at_kst": "2026-11-21T23:36:45+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50589618",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50589618"
+      },
+      "score": 1189,
+      "comments_count": 985
     },
     {
       "id": "hacker-news-50562754",
@@ -271,14 +210,14 @@
       "source_name": "Hacker News",
       "title": "Anthropic’s Nasdaq debut",
       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "summary": "Anthropic의 나스닥 상장 소식과 함께 AI 기술이 가져올 고용 시장의 변화 및 기업 가치 변동에 대한 논쟁이 이어지고 있습니다.",
-      "article_summary": "Anthropic이 나스닥 상장을 단행하며 기업 가치가 약 1.26조 달러 수준으로 조정되는 등 시장의 변동성을 보이고 있습니다. 이는 상장 직전 2조 달러 이상의 가치를 기대했던 시장 전망과 차이를 보이는 수치입니다.",
-      "external_article_summary": "Anthropic이 나스닥 상장을 단행하며 기업 가치가 약 1.26조 달러 수준으로 조정되는 등 시장의 변동성을 보이고 있습니다. 이는 상장 직전 2조 달러 이상의 가치를 기대했던 시장 전망과 차이를 보이는 수치입니다.",
-      "discussion_summary": "AI 기술이 소프트웨어 엔지니어의 역할을 대체할 것이라는 우려와 상장 직후 급격히 변동하는 기업 가치에 대한 시장의 냉정한 평가가 대립하고 있습니다.",
+      "summary": "Anthropic의 나스닥 상장 소식과 함께 AI 기술이 가져올 산업적 변화에 대한 커뮤니티의 뜨거운 논쟁을 다룹니다. 기업 가치 변동과 소프트웨어 엔지니어의 역할 변화가 핵심 쟁점입니다.",
+      "article_summary": "Anthropic이 나스닥 상장을 통해 기업 가치를 시장에 증명하려는 시도를 하고 있습니다. 상장 직후 기업 가치가 1.26조 달러 수준으로 변동하는 등 시장의 기대치와 실제 가치 사이의 격차가 나타나고 있습니다. 이는 AI 모델의 상업적 가치와 시장의 평가 기준이 실시간으로 충돌하고 있음을 보여줍니다.",
+      "external_article_summary": "Anthropic이 나스닥 상장을 통해 기업 가치를 시장에 증명하려는 시도를 하고 있습니다. 상장 직후 기업 가치가 1.26조 달러 수준으로 변동하는 등 시장의 기대치와 실제 가치 사이의 격차가 나타나고 있습니다. 이는 AI 모델의 상업적 가치와 시장의 평가 기준이 실시간으로 충돌하고 있음을 보여줍니다.",
+      "discussion_summary": "AI가 인간의 업무를 대체할 것이라는 우려와 함께 소프트웨어 엔지니어의 입지가 좁아질 것이라는 비판이 제기되었습니다. 동시에 시장 가치의 급격한 변동이 초기 기업 가치 산정의 불확실성을 보여준다는 분석이 대립하고 있습니다.",
       "key_points": [
-        "Anthropic의 나스닥 상장이 인류 역사적 순간이자 기술적 변곡점으로 평가받고 있습니다.",
-        "AI 자동화 기술이 소프트웨어 엔지니어의 업무 영역을 침범할 것이라는 직업적 위기감이 존재합니다.",
-        "상장 초기 기업 가치가 기대치보다 낮게 형성되며 시장의 밸류에이션 재조정이 일어나고 있습니다."
+        "Anthropic의 나스닥 상장은 AI 산업의 거대한 전환점을 의미합니다.",
+        "AI 자동화 기술의 발전으로 인해 소프트웨어 엔지니어의 직무 성격이 근본적으로 변화할 전망입니다.",
+        "상장 초기 기업 가치의 급격한 변동은 AI 기업의 실질 가치 산정에 대한 시장의 불확실성을 나타냅니다."
       ],
       "tags": [
         "Anthropic",
@@ -289,12 +228,12 @@
       "published_at_kst": "2026-11-20T02:02:40+09:00",
       "category": "비즈니스/스타트업",
       "canonical_path": "/community/hacker-news-50562754",
-      "rank": 9,
+      "rank": 7,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50562754"
       },
-      "score": 1137,
-      "comments_count": 2317
+      "score": 1140,
+      "comments_count": 2329
     },
     {
       "id": "hacker-news-50552424",
@@ -302,14 +241,14 @@
       "source_name": "Hacker News",
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "summary": "Google이 발표한 새로운 Gemini 4 모델 라인업에 대한 기술적 세부 사항과 이에 대한 사용자들의 성능 체감 차이를 다룹니다. 벤치마크 점수와 실제 사용 경험 사이의 간극이 주요 쟁점으로 떠올랐습니다.",
-      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 연산 효율성을 갖추도록 설계되었습니다. 이번 업데이트는 모델 크기별 성능 최적화와 효율적인 추론 아키텍처를 제공하는 데 중점을 두었습니다.",
-      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 연산 효율성을 갖추도록 설계되었습니다. 이번 업데이트는 모델 크기별 성능 최적화와 효율적인 추론 아키텍처를 제공하는 데 중점을 두었습니다.",
-      "discussion_summary": "벤치마크 점수가 높더라도 실제 사용 시 Anthropic의 Opus 5.5 모델보다 성능이 떨어진다는 실사용자들의 비판이 제기되었습니다. 모델의 수치적 성능과 실제 체감 성능 사이의 괴리에 대한 논쟁이 이어지고 있습니다.",
+      "summary": "Google이 발표한 새로운 Gemini 4 모델 라인업과 그 성능에 대한 기술적 분석 및 사용자 경험 차이를 다룹니다. 벤치마크 점수와 실제 체감 성능 사이의 간극에 대한 커뮤니티의 논의가 핵심입니다.",
+      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 아키텍처를 갖추고 있으며, 효율적인 추론과 성능 사이의 균형을 목표로 설계되었습니다.",
+      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 아키텍처를 갖추고 있으며, 효율적인 추론과 성능 사이의 균형을 목표로 설계되었습니다.",
+      "discussion_summary": "벤치마크 점수가 높음에도 불구하고 실제 사용 시 Anthropic의 Opus 모델보다 성능이 떨어진다는 실사용자들의 비판이 제기되었습니다. 이에 대해 모델의 아키텍처 설계 방식이나 최적화 전략에 대한 기술적 의문이 대립하고 있습니다.",
       "key_points": [
         "Gemini 4는 용도에 따라 선택 가능한 다양한 크기의 모델 라인업을 제공합니다.",
-        "벤치마크 점수와 실제 사용자 경험 사이의 성능 격차가 주요 쟁점입니다.",
-        "LLM 모델의 경쟁력이 단순 수치보다는 실제 작업 수행 능력에 달려 있음을 시사합니다."
+        "벤치마크 수치와 실제 사용자 체감 성능 사이의 괴리가 주요 쟁점으로 떠올랐습니다.",
+        "LLM 모델 간의 경쟁력이 단순 점수가 아닌 실제 추론 품질에 의해 결정됨을 보여줍니다."
       ],
       "tags": [
         "Gemini 4",
@@ -320,323 +259,380 @@
       "published_at_kst": "2026-11-19T06:34:07+09:00",
       "category": "AI/ML",
       "canonical_path": "/community/hacker-news-50552424",
-      "rank": 10,
+      "rank": 8,
       "source_links": {
         "hacker_news": "https://news.ycombinator.com/item?id=50552424"
       },
-      "score": 1057,
+      "score": 1066,
       "comments_count": 775
     },
     {
-      "id": "hada-37592",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "GIMP에 UI 테스트 도입",
-      "url": "https://news.hada.io/topic?id=37592",
-      "summary": "이번 도입은 코드 수준의 검증을 넘어 실제 사용자 경험(UX)과 직결되는 인터페이스 무결성을 확보하는 데 목적이 있습니다. 이는 자동화된 GUI 테스트가 소프트웨어의 안정성을 높이는 핵심적인 방어선이 될 수 있음을 보여줍니다.",
-      "article_summary": "오픈소스 이미지 편집 소프트웨어 GIMP가 실제 GUI 환경에서 메뉴와 버튼을 직접 조작하는 새로운 UI 테스트 플랫폼을 도입했습니다. 기존 단위 테스트가 실제 창을 열지 않아 탐지하지 못했던 코어 코드와 인터페이스 간의 충돌 문제를 해결하기 위한 조치입니다. 현재 13개의 테스트 케이스를 통해 이미지 생성, 색상 및 레이어 조작, 실행 취소 등 핵심 동작을 검증하고 있습니다.",
-      "external_article_summary": "오픈소스 이미지 편집 소프트웨어 GIMP가 실제 GUI 환경에서 메뉴와 버튼을 직접 조작하는 새로운 UI 테스트 플랫폼을 도입했습니다. 기존 단위 테스트가 실제 창을 열지 않아 탐지하지 못했던 코어 코드와 인터페이스 간의 충돌 문제를 해결하기 위한 조치입니다. 현재 13개의 테스트 케이스를 통해 이미지 생성, 색상 및 레이어 조작, 실행 취소 등 핵심 동작을 검증하고 있습니다.",
-      "discussion_summary": "",
+      "id": "hacker-news-50596133",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "summary": "일본 자동차 제조사들이 비용 절감을 위해 부품 표준화를 추진하며, 이에 대해 과거 사례와 중국 제조사와의 경쟁 구도를 중심으로 활발한 논의가 이어지고 있습니다.",
+      "article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 부품 공용화를 통해 규모의 경제를 달성하고 공급망 효율을 높이려는 목적을 가지고 있습니다.",
+      "external_article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 부품 공용화를 통해 규모의 경제를 달성하고 공급망 효율을 높이려는 목적을 가지고 있습니다.",
+      "discussion_summary": "과거 Ford와 GM이 6단 자동 변속기 개발 시 협업했던 사례를 들어 이미 검증된 방식이라는 의견과, 부품의 75~85%를 자체 생산하는 BYD 등 중국 제조사와의 수직 계열화 경쟁에서 밀릴 수 있다는 우려가 대립하고 있습니다.",
       "key_points": [
-        "GIMP는 실제 프로그램을 실행하여 메뉴와 버튼을 조작하는 자동화된 GUI 테스트 플랫폼을 도입했습니다.",
-        "기존 단위 테스트가 잡아내지 못했던 실제 인터페이스와 코어 코드 간의 상호작용 버그를 조기에 발견할 수 있습니다.",
-        "현재 13개의 테스트 세트를 통해 이미지 생성, 내보내기, 레이어 조작 등 핵심 워크플로우를 검증합니다."
+        "일본 완성차 업체들이 비용 절감을 위해 부품 표준화 및 공용화 전략을 추진합니다.",
+        "과거 Ford와 GM의 변속기 공동 개발 사례처럼 협업을 통한 효율성 확보가 핵심입니다.",
+        "수직 계열화로 높은 부품 내재율을 확보한 중국 제조사와의 경쟁력이 주요 쟁점입니다."
       ],
       "tags": [
-        "GIMP",
-        "GUI 테스트",
-        "소프트웨어 테스트 자동화",
-        "오픈소스"
+        "Toyota",
+        "Nissan",
+        "Honda",
+        "Supply Chain",
+        "Automotive"
       ],
-      "published_at_kst": "2026-11-22T03:41:45+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37592",
-      "rank": 1,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37592"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37591",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "그럼에도 지구는 돈다",
-      "url": "https://news.hada.io/topic?id=37591",
-      "summary": "AI가 난해한 수학적 난제를 해결하는 시대가 도래하며 인간의 발견과 기계적 증명 사이의 본질적 차이에 대한 철학적 질문을 던집니다. 이는 기술적 성취를 넘어 과학적 탐구의 주체와 진실을 규명하는 방식에 대한 새로운 시사점을 제공합니다.",
-      "article_summary": "Anthropic이 리만 가설을 해결한 것으로 보이는 소식이 전해지며 인공지능에 의한 수학적 증명 가능성이 제기되었습니다. 리만 가설은 수많은 수학적 추측의 토대가 되는 난제로, 이 문제가 해결되면 수학의 광대한 영역이 새롭게 열릴 수 있습니다. 필자는 기계가 찾아낸 정답이 인간의 직접적인 발견과는 다른 상실감을 준다는 개인적인 소회를 밝혔습니다.",
-      "external_article_summary": "Anthropic이 리만 가설을 해결한 것으로 보이는 소식이 전해지며 인공지능에 의한 수학적 증명 가능성이 제기되었습니다. 리만 가설은 수많은 수학적 추측의 토대가 되는 난제로, 이 문제가 해결되면 수학의 광대한 영역이 새롭게 열릴 수 있습니다. 필자는 기계가 찾아낸 정답이 인간의 직접적인 발견과는 다른 상실감을 준다는 개인적인 소회를 밝혔습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "Anthropic의 리만 가설 해결 가능성은 수학적 난제의 돌파구를 마련할 수 있는 경이로운 사건입니다.",
-        "리만 가설의 증명은 이를 전제로 설계된 수많은 수학적 추측들을 참으로 확정하며 학문의 영역을 확장합니다.",
-        "기계가 도출한 정답은 인간이 직접 탐구하여 얻은 발견과는 다른 정서적 괴리와 철학적 과제를 남깁니다."
-      ],
-      "tags": [
-        "AI 수학",
-        "Anthropic",
-        "리만 가설",
-        "수학적 증명"
-      ],
-      "published_at_kst": "2026-11-22T03:38:45+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37591",
-      "rank": 2,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37591"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37590",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "GnuPG의 원격 코드 실행(RCE) 취약점",
-      "url": "https://news.hada.io/topic?id=37590",
-      "summary": "이번 취약점은 메모리 관리 로직의 허점을 이용해 데이터 유출 및 원격 코드 실행(RCE)을 가능하게 하는 치명적인 보안 결함입니다. GPGME를 사용하는 모든 소프트웨어 개발자와 관리자는 즉시 최신 버전으로 업데이트하여 잠재적인 공격 경로를 차단해야 합니다.",
-      "article_summary": "GPGME 2.3.1 버전은 조작된 OpenPGP 키를 통해 이중 해제(Double Free) 취약점을 유발하는 CVE-2026-129975를 해결했습니다. 매우 긴 사용자 ID가 포함된 키를 처리할 때 버퍼 재할당 과정에서 오류가 발생하면, 해제된 메모리 포인터가 컨텍스트에 남아 있어 이후 정리 과정에서 동일한 메모리를 다시 해제하게 됩니다. 이 취약점은 GPGME 2.3.0 미만 버전을 공유 라이브러리나 정적 링크 방식으로 사용하는 모든 소프트웨어에 영향을 미칠 수 있습니다.",
-      "external_article_summary": "GPGME 2.3.1 버전은 조작된 OpenPGP 키를 통해 이중 해제(Double Free) 취약점을 유발하는 CVE-2026-129975를 해결했습니다. 매우 긴 사용자 ID가 포함된 키를 처리할 때 버퍼 재할당 과정에서 오류가 발생하면, 해제된 메모리 포인터가 컨텍스트에 남아 있어 이후 정리 과정에서 동일한 메모리를 다시 해제하게 됩니다. 이 취약점은 GPGME 2.3.0 미만 버전을 공유 라이브러리나 정적 링크 방식으로 사용하는 모든 소프트웨어에 영향을 미칠 수 있습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "GPGME 2.3.1은 조작된 OpenPGP 키로 발생하는 이중 해제 취약점인 CVE-2026-129975를 수정했습니다.",
-        "매우 긴 사용자 ID를 포함한 키를 처리할 때 발생하는 메모리 관리 오류로 인해 데이터 유출 및 원격 코드 실행이 가능할 수 있습니다.",
-        "GPGME 2.3.0 미만 버전을 사용하는 모든 소프트웨어는 해당 취약점에 노출될 위험이 있어 즉각적인 업데이트가 권고됩니다."
-      ],
-      "tags": [
-        "GnuPG",
-        "RCE",
-        "GPGME",
-        "CVE-2026-129975",
-        "보안취약점"
-      ],
-      "published_at_kst": "2026-11-22T03:35:45+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37590",
-      "rank": 3,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37590"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37589",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "Show GN: AriadneNSD - 알고리즘을 NS 차트로 그리는 구조 편집기",
-      "url": "https://news.hada.io/topic?id=37589",
-      "summary": "AriadneNSD는 구조적 프로그래밍의 시각적 도구인 NS 차트를 현대적인 웹 편집 환경과 AI 워크플로우에 결합한 도구입니다. 데이터 구조를 포함한 .ns.svg 형식을 통해 문서화와 편집의 편의성을 동시에 확보한 것이 기술적 핵심입니다.",
-      "article_summary": "알고리즘 로직을 Nassi–Shneiderman Diagram(NS 차트) 형식으로 시각화하는 웹 편집기 'AriadneNSD'가 베타 버전으로 공개되었습니다. 기존 NS 차트는 플로우차트보다 공간 효율적이지만 수동 작업의 번거로움이 있었으나, 이 편집기는. 이를 디지털화하여 복잡한 로직 작성을 용이하게 합니다. 저장 형식인 .ns.svg는 다이어그램 구조를 메타데이터로 포함한 SVG 파일로, Markdown 문서에 삽입 시 이미지로 표시되며 편집기로 재로드하여 수정할 수 있습니다. 특히 Claude와 같은 AI에게 특정 함수를 NS 차트로 그려달라고 요청하면 .ns.svg 파일을 생성하여 즉시 편집 가능한 워크플로우를 제공합니다.",
-      "external_article_summary": "알고리즘 로직을 Nassi–Shneiderman Diagram(NS 차트) 형식으로 시각화하는 웹 편집기 'AriadneNSD'가 베타 버전으로 공개되었습니다. 기존 NS 차트는 플로우차트보다 공간 효율적이지만 수동 작업의 번거로움이 있었으나, 이 편집기는. 이를 디지털화하여 복잡한 로직 작성을 용이하게 합니다. 저장 형식인 .ns.svg는 다이어그램 구조를 메타데이터로 포함한 SVG 파일로, Markdown 문서에 삽입 시 이미지로 표시되며 편집기로 재로드하여 수정할 수 있습니다. 특히 Claude와 같은 AI에게 특정 함수를 NS 차트로 그려달라고 요청하면 .ns.svg 파일을 생성하여 즉시 편집 가능한 워크플로우를 제공합니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "알고리즘 로직을 NS 차트로 시각화하고 편집할 수 있는 웹 기반 도구 AriadneNSD가 베타로 공개되었습니다.",
-        "전용 확장자인 .ns.svg는 다이어그램 구조를 메타데이터로 포함하여 Markdown 문서에서 이미지로 보이면서도 편집기로 재수정이 가능합니다.",
-        "Claude와 같은 AI 모델을 활용해 코드를 .ns.svg 파일로 변환함으로써 자동화된 로직 시각화와 편집이 가능합니다."
-      ],
-      "tags": [
-        "알고리즘시각화",
-        "AriadneNSD",
-        "SVG",
-        "NS차트",
-        "개발도구"
-      ],
-      "published_at_kst": "2026-11-22T02:56:31+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37589",
-      "rank": 4,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37589"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37588",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "Clojure는 프로그래밍을 생각하는 방식에 영향을 준다 (2017)",
-      "url": "https://news.hada.io/topic?id=37588",
-      "summary": "Clojure는 코드와 데이터의 경계를 허무는 Lisp의 철학을 현대적인 함수형 프로그래밍과 결합하여 프로그래밍 사고의 지평을 넓힙니다. 이는 객체지향 중심의 설계에서 벗어나 인터페이스와 불변성을 중심으로 시스템을 모델링하는 새로운 관점을 제시합니다.",
-      "article_summary": "Clojure는 Lisp의 매크로와 함수형 프로그래밍, 데이터 처리, 동시성 개념을 하나의 일관된 언어로 결합한 프로그래밍 언어입니다. Lisp 특유의 균일한 문법은 코드를 데이터처럼 다루게 하며, 고차 함수와 REPL 중심의 개발 환경은 기능의 점진적 구축을 가능하게 합니다. 또한 시퀀스, 영속 자료구조(Persistent Data Structures), 지연 평가(Lazy Evaluation)를 결합하여 SQL과 유사한 직관적인 데이터 처리 흐름을 제공합니다.",
-      "external_article_summary": "Clojure는 Lisp의 매크로와 함수형 프로그래밍, 데이터 처리, 동시성 개념을 하나의 일관된 언어로 결합한 프로그래밍 언어입니다. Lisp 특유의 균일한 문법은 코드를 데이터처럼 다루게 하며, 고차 함수와 REPL 중심의 개발 환경은 기능의 점진적 구축을 가능하게 합니다. 또한 시퀀스, 영속 자료구조(Persistent Data Structures), 지연 평가(Lazy Evaluation)를 결합하여 SQL과 유사한 직관적인 데이터 처리 흐름을 제공합니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "Lisp 매크로와 균일한 문법을 통해 코드를 데이터로 다루며 기능을 조합하는 방식을 학습할 수 있습니다.",
-        "시퀀스, 영속 자료구조, 지연 평가를 활용해 복잡한 데이터 처리 흐름을 간결하게 작성할 수 있습니다.",
-        "프로토콜과 다중 디스패치를 통해 상속 계층보다 인터페이스 중심의 모델링을 장려합니다."
-      ],
-      "tags": [
-        "Lisp",
-        "함수형 프로그래밍",
-        "데이터 구조",
-        "Clojure"
-      ],
-      "published_at_kst": "2026-11-22T02:32:49+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37588",
-      "rank": 5,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37588"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37586",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "리만 가설의 Lean 검증, Lean과 Mathlib 커뮤니티 공동 성명",
-      "url": "https://news.hada.io/topic?id=37586",
-      "summary": "수학적 난제인 리만 가설이 거대한 규모의 코드 기반 정형 검증을 통해 그 타당성을 입증받았습니다. 이는 수학적 증명이 인간의 직관을 넘어 컴퓨터 프로그래밍 언어와 라이브러리 체계 내에서 완벽하게 재현될 수 있음을 보여주는 기술적 이정표입니다.",
-      "article_summary": "Levent Alpöge가 공개한 리만 가설 증명에 대해 Lean과 Mathlib 커뮤니티가 명제와 증명의 정당성을 공동 인증했습니다. 이번 증명은 1,700만 줄 규모의 Lean 라이브러리 형태로 공개되었으며, 의존성은 Mathlib에 국한되어 검증 효율을 높였습니다. 전문가들은 Mathlib의 RiemannHypothesis 명제를 바탕으로 독립적인 두 도구를 사용하여 실제 증명 정리와 일치함을 확인했습니다.",
-      "external_article_summary": "Levent Alpöge가 공개한 리만 가설 증명에 대해 Lean과 Mathlib 커뮤니티가 명제와 증명의 정당성을 공동 인증했습니다. 이번 증명은 1,700만 줄 규모의 Lean 라이브러리 형태로 공개되었으며, 의존성은 Mathlib에 국한되어 검증 효율을 높였습니다. 전문가들은 Mathlib의 RiemannHypothesis 명제를 바탕으로 독립적인 두 도구를 사용하여 실제 증명 정리와 일치함을 확인했습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "Lean과 Mathlib 커뮤니티는 Levent Alpöge가 공개한 리만 가설 증명의 명제와 논리적 타당성을 공동 인증했습니다.",
-        "증명은 1,700만 줄 규모의 Lean 라이브러리로 구현되었으며, Mathlib를 유일한 직접 의존 라이브러리로 사용합니다.",
-        "검증팀은 Mathlib의 RiemannHypothesis 명제를 대상으로 독립적인 도구들을 활용해 증명 정리의 일치 여부를 확인했습니다."
-      ],
-      "tags": [
-        "Lean",
-        "정형 검증",
-        "수학적 증명",
-        "Mathlib",
-        "리만 가설"
-      ],
-      "published_at_kst": "2026-11-22T01:36:36+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37586",
-      "rank": 6,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37586"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37585",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "데릭 로: 아지드화 납 더미 폭파",
-      "url": "https://news.hada.io/topic?id=37585",
-      "summary": "위험한 화학 물질인 아지드화 납을 활용한 폭발 실험의 물리적 특성을 보여줍니다. 실험적 시도가 화학 반응의 제어와 안전성 확보라는 기술적 과제를 어떻게 다루는지 시사합니다.",
-      "article_summary": "데릭 로가 아지드화 납 더미를 폭파하는 실험적 과정을 수행했습니다. 이 과정에서 화학 물질의 반응성과 폭발 메커니즘이 핵심적으로 다뤄집니다. 실험의 결과와 물리적 충격이 미치는 영향이 상세히 기술되었습니다.",
-      "external_article_summary": "데릭 로가 아지드화 납 더미를 폭파하는 실험적 과정을 수행했습니다. 이 과정에서 화학 물질의 반응성과 폭발 메커니즘이 핵심적으로 다뤄집니다. 실험의 결과와 물리적 충격이 미치는 영향이 상세히 기술되었습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "데릭 로가 아지드화 납을 이용한 폭발 실험을 진행했습니다.",
-        "화학 물질의 반응성을 활용한 물리적 폭발 현상을 다룹니다.",
-        "실험 과정에서의 위험 요소와 폭발 메커니즘이 핵심입니다."
-      ],
-      "tags": [
-        "화학",
-        "데릭로",
-        "폭발실험"
-      ],
-      "published_at_kst": "2026-11-22T01:33:36+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37585",
-      "rank": 7,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37585"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37584",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "내 모니터가 다운로드 속도를 75% 떨어뜨리고 있었다",
-      "url": "https://news.hada.io/topic?id=37584",
-      "summary": "모니터 허브를 통한 네트워크 연결 시 발생하는 USB 대역폭 관리와 어댑터 처리량 간의 병목 현상이 속도 저하의 핵심 원인이었습니다. 이는 고속 네트워크 환경에서 단순한 대역폭 확보뿐만 아니라, 하드웨어 간의 응답 지연과 데이터 처리 로직 최적화가 필수적임을 시사합니다.",
-      "article_summary": "2.5Gbps 대칭형 인터넷 환경에서 다운로드 속도가 600Mbps로 급감하는 현상이 발생했으나, 이더넷 어댑터를 모니터 허브 대신 Mac에 직접 연결하자 속도가 정상화되었습니다. 분석 결과, 모니터 내 USB 허브의 응답 지연과 어댑터의 버스트 크기(Burst Size)가 결합하여 수신 병목 현상이 발생한 것으로 밝혀졌습니다. 특히 RTL8156B 어댑터는 초당 약 16만 8,000프레임의 처리 한계에 도달하면 초과 프레임을 폐기하며 속도 저하를 유발했습니다. 이후 Realtek 전용 드라이버를 적용하자 속도가 1.1Gbps로 개선되었고, 이더넷 흐름 제어를 활성화하면 약 2Gbps까지 성능이 향상되었습니다.",
-      "external_article_summary": "2.5Gbps 대칭형 인터넷 환경에서 다운로드 속도가 600Mbps로 급감하는 현상이 발생했으나, 이더넷 어댑터를 모니터 허브 대신 Mac에 직접 연결하자 속도가 정상화되었습니다. 분석 결과, 모니터 내 USB 허브의 응답 지연과 어댑터의 버스트 크기(Burst Size)가 결합하여 수신 병목 현상이 발생한 것으로 밝혀졌습니다. 특히 RTL8156B 어댑터는 초당 약 16만 8,000프레임의 처리 한계에 도달하면 초과 프레임을 폐기하며 속도 저하를 유발했습니다. 이후 Realtek 전용 드라이버를 적용하자 속도가 1.1Gbps로 개선되었고, 이더넷 흐름 제어를 활성화하면 약 2Gbps까지 성능이 향상되었습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "모니터 허브를 거치는 과정에서 USB 응답 지연과 어댑터 버스트 크기 문제로 인해 2.5Gbps 속도가 600Mbps로 저하되었습니다.",
-        "RTL8156B 어댑터의 수신 처리 한계로 인해 초과된 프레임이 유실되며 발생하는 병목 현상이 확인되었습니다.",
-        "전용 드라이버 설치와 이더넷 흐름 제어 설정을 통해 다운로드 속도를 최대 2Gbps 수준까지 복구할 수 있습니다."
-      ],
-      "tags": [
-        "이더넷",
-        "RTL8156B",
-        "대역폭",
-        "네트워크 병목",
-        "USB 허브"
-      ],
-      "published_at_kst": "2026-11-22T00:32:49+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37584",
-      "rank": 8,
-      "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37584"
-      },
-      "score": 0,
-      "comments_count": 0
-    },
-    {
-      "id": "hada-37583",
-      "source": "hada_news",
-      "source_name": "GeekNews / Hada",
-      "title": "차고 문 알림에 끼어든 스팸",
-      "url": "https://news.hada.io/topic?id=37583",
-      "summary": "제조사의 폐쇄적인 API 정책이 사용자로 하여금 클라우드 의존성을 벗어난 로컬 제어 솔루션을 찾게 만드는 계기가 되었습니다. 이는 스마트 홈 기기가 제조사의 정책 변화에 휘둘리지 않도록 하드웨어 수준의 로컬 제어와 오픈소스 기술이 중요해짐을 시사합니다.",
-      "article_summary": "제조사 Chamberlain이 2023년 말 myQ를 통한 타사 API 접근을 차단하자, 이용자들이 클라우드 의존성을 탈피하기 위해 ratgdo32로 전환하고 있습니다. ratgdo32는 약 62달러 상당의 오픈소스 펌웨어 기반 Wi-Fi 보드로, 기존 차고 문 개폐기 단자에 연결하여 Security+ 2.0 프로토콜로 로컬 통신을 수행합니다. 이를 통해 사용자는 HomeKit과 Siri로 문을 제어할 수 있으며, JSON 상태 엔드포인트를 활용해 밤사이 문 열림 상태를 Slack 알림으로 받는 등 클라우드 없이 로컬 제어 환경을 구축할 수 있습니다.",
-      "external_article_summary": "제조사 Chamberlain이 2023년 말 myQ를 통한 타사 API 접근을 차단하자, 이용자들이 클라우드 의존성을 탈피하기 위해 ratgdo32로 전환하고 있습니다. ratgdo32는 약 62달러 상당의 오픈소스 펌웨어 기반 Wi-Fi 보드로, 기존 차고 문 개폐기 단자에 연결하여 Security+ 2.0 프로토콜로 로컬 통신을 수행합니다. 이를 통해 사용자는 HomeKit과 Siri로 문을 제어할 수 있으며, JSON 상태 엔드포인트를 활용해 밤사이 문 열림 상태를 Slack 알림으로 받는 등 클라우드 없이 로컬 제어 환경을 구축할 수 있습니다.",
-      "discussion_summary": "",
-      "key_points": [
-        "Chamberlain의 myQ 타사 API 차단 정책에 대응하여 사용자들이 오픈소스 기반의 ratgdo32로 전환하고 있습니다.",
-        "ratgdo32는 약 62달러의 비용으로 Security+ 2.0 프로토콜을 지원하며 클라우드 없이 로컬 통신을 가능하게 합니다.",
-        "사용자는 이를 통해 HomeKit 연동 및 JSON 엔드포인트를 활용한 맞춤형 알림 시스템을 구축할 수 있습니다."
-      ],
-      "tags": [
-        "IoT",
-        "SmartHome",
-        "Chamberlain",
-        "OpenSource",
-        "ratgdo32"
-      ],
-      "published_at_kst": "2026-11-22T00:01:15+09:00",
-      "category": "",
-      "canonical_path": "/community/hada-37583",
+      "published_at_kst": "2026-11-22T13:04:56+09:00",
+      "category": "비즈니스/스타트업",
+      "canonical_path": "/community/hacker-news-50596133",
       "rank": 9,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37583"
+        "hacker_news": "https://news.ycombinator.com/item?id=50596133"
+      },
+      "score": 1041,
+      "comments_count": 621
+    },
+    {
+      "id": "hacker-news-50538994",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "summary": "프랑스 정부의 규제로 인해 Quad9이 서비스를 철수하며 발생한 인터넷 검열과 프라이버시 침해 문제를 다룹니다. 기술적 중립성을 유지하려는 서비스와 국가적 규제가 충돌하는 양상을 보여줍니다.",
+      "article_summary": "프랑스 정부의 규제 강화로 인해 보안 DNS 서비스인 Quad9이 프랑스 내 서비스를 중단하며 발생한 기술적/정치적 갈등을 다룹니다. 이는 특정 국가의 법적 요구사항이 전 세계적인 DNS 보안 표준과 충돌할 수 있음을 보여주는 사례입니다. IETF와 같은 국제 표준 기구에서의 논의가 서비스 운영에 직접적인 영향을 미치는 상황을 나타냅니다.",
+      "external_article_summary": "프랑스 정부의 규제 강화로 인해 보안 DNS 서비스인 Quad9이 프랑스 내 서비스를 중단하며 발생한 기술적/정치적 갈등을 다룹니다. 이는 특정 국가의 법적 요구사항이 전 세계적인 DNS 보안 표준과 충돌할 수 있음을 보여주는 사례입니다. IETF와 같은 국제 표준 기구에서의 논의가 서비스 운영에 직접적인 영향을 미치는 상황을 나타냅니다.",
+      "discussion_summary": "Quad9 CTO는 다른 보안 조직들의 지지에 감사를 표하며 국제 표준 준수의 중요성을 강조합니다. 반면, 인터넷이 기술적 영역을 넘어 사회 전반으로 확장되면서 발생하는 규제와 프라이버시 간의 충돌에 대한 비판적 시각이 대립하고 있습니다.",
+      "key_points": [
+        "국가별 규제가 글로벌 DNS 서비스의 운영 방식과 가용성에 직접적인 영향을 미칩니다.",
+        "인터넷 표준을 준수하는 기술적 가치와 국가의 법적 통제권이 충돌하고 있습니다.",
+        "프라이버시 중심의 서비스가 정치적 환경 변화에 따라 서비스 지역을 변경해야 하는 상황이 발생했습니다."
+      ],
+      "tags": [
+        "Quad9",
+        "DNS",
+        "프라이버시",
+        "인터넷 규제"
+      ],
+      "published_at_kst": "2026-11-18T07:13:34+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50538994",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50538994"
+      },
+      "score": 908,
+      "comments_count": 457
+    },
+    {
+      "id": "hada-37653",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Mojang을 위한 포트 스캐닝",
+      "url": "https://news.hada.io/topic?id=37653",
+      "summary": "이번 사건은 외부 서비스의 데이터가 플랫폼 운영자의 서버 관리 및 차단 로직에 활용될 수 있음을 보여주는 기술적 사례입니다. 이는 데이터 제공자와 플랫폼 간의 프라이버시 경계 및 데이터 활용의 윤리적 문제를 시사합니다.",
+      "article_summary": "Minecraft 서버 검색 서비스인 slowstack 운영자는 Mojang의 API 문제를 해결해 준 뒤, Mojang이 해당 데이터를 서버 차단에 활용하고 있다는 의혹을 제기했습니다. 운영자는 Mojang 계정의 검색 로그를 분석하여 부적절한 서버 설명을 찾는 검색어를 확인했으며, 공개 차단 목록과 스캔 데이터를 대조해 특정 설명이 포함된 서버들이 차단되는 과정을 확인했습니다. 실험을 위해 친구들과 함께 부적절한 설명을 넣은 비공개 화이트리스트 서버를 운영했으나, 이 서버들 역시 일주일 이내에 차단되었습니다.",
+      "external_article_summary": "Minecraft 서버 검색 서비스인 slowstack 운영자는 Mojang의 API 문제를 해결해 준 뒤, Mojang이 해당 데이터를 서버 차단에 활용하고 있다는 의혹을 제기했습니다. 운영자는 Mojang 계정의 검색 로그를 분석하여 부적절한 서버 설명을 찾는 검색어를 확인했으며, 공개 차단 목록과 스캔 데이터를 대조해 특정 설명이 포함된 서버들이 차단되는 과정을 확인했습니다. 실험을 위해 친구들과 함께 부적절한 설명을 넣은 비공개 화이트리스트 서버를 운영했으나, 이 서버들 역시 일주일 이내에 차단되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "slowstack 운영자는 Mojang이 API를 통해 수집한 검색 로그를 서버 차단 도구로 활용하고 있다고 판단했습니다.",
+        "운영자는 특정 키워드를 포함한 서버가 차단되는 것을 확인하기 위해 비공개 화이트리스트 서버를 이용한 실험을 진행했습니다.",
+        "실험 결과, 부적절한 설명을 포함한 비공개 서버들 또한 일주일 이내에 차단되는 현상이 발생했습니다."
+      ],
+      "tags": [
+        "Minecraft",
+        "Mojang",
+        "API",
+        "Data Privacy"
+      ],
+      "published_at_kst": "2026-11-23T04:01:31+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37653",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37653"
       },
       "score": 0,
       "comments_count": 0
     },
     {
-      "id": "hada-37582",
+      "id": "hada-37652",
       "source": "hada_news",
       "source_name": "GeekNews / Hada",
-      "title": "Show GN: BerthNTFS – 커널 확장 없이 맥에서 NTFS 디스크에 쓰기 (FSKit + Rust)",
-      "url": "https://news.hada.io/topic?id=37582",
-      "summary": "사용자 편의를 위해 커널 레벨의 수정 없이 사용자 공간에서 동작하는 안전한 NTFS 쓰기 솔루션이 등장했습니다. 이는 Apple의 최신 프레임워크와 Rust의 안정성을 결합하여 기존의 복잡한 드라이버 설치 과정을 혁신적으로 해결한 사례입니다.",
-      "article_summary": "macOS에서 커널 확장(kext)이나 macFUSE 없이 NTFS 디스크에 쓰기 기능을 제공하는 'BerthNTFS'가 공개되었습니다. 이 솔루션은 Apple의 새로운 파일 시스템 프레임워크인 FSKit을 활용하여 시스템 보안 설정을 변경하지 않고도 동작합니다. 특히 기존 오픈소스 코드를 재사용하지 않고 Rust 언어로 NTFS 엔진을 직접 구현하여 안정성과 성능을 확보했습니다.",
-      "external_article_summary": "macOS에서 커널 확장(kext)이나 macFUSE 없이 NTFS 디스크에 쓰기 기능을 제공하는 'BerthNTFS'가 공개되었습니다. 이 솔루션은 Apple의 새로운 파일 시스템 프레임워크인 FSKit을 활용하여 시스템 보안 설정을 변경하지 않고도 동작합니다. 특히 기존 오픈소스 코드를 재사용하지 않고 Rust 언어로 NTFS 엔진을 직접 구현하여 안정성과 성능을 확보했습니다.",
+      "title": "AI 공급망 보안: 카나리 토큰이 발견한 것들",
+      "url": "https://news.hada.io/topic?id=37652",
+      "summary": "AI 모델 실행 과정에서 발생하는 데이터 로깅과 공급망 내 리셀러의 권한 오남용이 심각한 보안 위협으로 드러났습니다. 기업은 프롬프트 내 민감 정보 포함을 방지하고, AI 서비스 제공업체의 데이터 보관 및 로깅 정책을 철저히 검증해야 합니다.",
+      "article_summary": "Dragos는 2026년 7월부터 11월 사이 약 200만 건의 프롬프트에 추적 가능한 비밀 정보를 심어 AI 공급망 보안을 조사했습니다. 조사 결과, AI 호스팅 제공업체 3곳에서 유출된 테스트 자격 증명이 AWS 접근 시도에 악용된 정황이 포착되었습니다. 또한 일부 추론 마켓플레이스 리셀러들이 취약점 공격 없이 기본 로깅 기능만으로 고객의 프롬프트 내 비밀번호와 AWS 키를 탈취하는 보안 위반 사례가 확인되었습니다.",
+      "external_article_summary": "Dragos는 2026년 7월부터 11월 사이 약 200만 건의 프롬프트에 추적 가능한 비밀 정보를 심어 AI 공급망 보안을 조사했습니다. 조사 결과, AI 호스팅 제공업체 3곳에서 유출된 테스트 자격 증명이 AWS 접근 시도에 악용된 정황이 포착되었습니다. 또한 일부 추론 마켓플레이스 리셀러들이 취약점 공격 없이 기본 로깅 기능만으로 고객의 프롬프트 내 비밀번호와 AWS 키를 탈취하는 보안 위반 사례가 확인되었습니다.",
       "discussion_summary": "",
       "key_points": [
-        "커널 확장이나 macFUSE를 사용하지 않아 보안 설정을 낮추거나 재시동할 필요가 없습니다.",
-        "장치를 연결하면 Finder를 포함한 모든 앱에서 일반 디스크처럼 즉시 읽고 쓸 수 있습니다.",
-        "기존 드라이버 코드를 쓰지 않고 Rust 언어로 NTFS 엔진을 직접 구현하여 신뢰성을 높였습니다."
+        "Dragos의 카나리 토큰 조사 결과, AI 제공업체의 침해 정황과 리셀러의 프롬프트 탈취 사례가 확인되었습니다.",
+        "유출된 테스트 자격 증명이 AWS 접근 시도에 사용되었으며, 일부는 데이터 무보관(ZDR) 설정 환경에서도 노출되었습니다.",
+        "일부 리셀러는 별도의 공격 없이 기본 로깅 기능만으로 고객의 비밀번호와 AWS 키를 확보하여 사용했습니다."
       ],
       "tags": [
-        "Rust",
-        "FSKit",
-        "NTFS",
-        "macOS"
+        "Dragos",
+        "클라우드 보안",
+        "데이터 프라이버시",
+        "AI",
+        "공급망 공격"
       ],
-      "published_at_kst": "2026-11-21T23:55:03+09:00",
+      "published_at_kst": "2026-11-23T03:55:14+09:00",
       "category": "",
-      "canonical_path": "/community/hada-37582",
+      "canonical_path": "/community/hada-37652",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37652"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37651",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "성인만 사는 가구, 2026년 상반기 장난감 매출의 55% 차지",
+      "url": "https://news.hada.io/topic?id=37651",
+      "summary": "성인층의 취미와 수집 욕구를 겨냥한 제품 라인업 확대가 장난감 산업의 새로운 성장 동력으로 작용하고 있습니다. 이는 전통적인 아동용 시장을 넘어 성인층의 가처분 소득이 유입되는 시장 확장 전략의 중요성을 시사합니다.",
+      "article_summary": "미국 장난감 산업이 성인 소비층의 유입에 힘입어 높은 연간 성장세를 기록할 전망입니다. 장난감 업체들은 성인 타겟의 레고 세트와 봉제 인형 제품군을 강화하며 시장 변화를 주도하고 있습니다. 실제로 뉴욕 노드스트롬 매장은 연말 쇼윈도에 명품 대신 피클이나 가고일 모양의 봉제 인형을 전시하며 성인 고객의 취향을 공략하고 있습니다. 30대 소비자들은 자신을 위한 수집용 인형 구매에 적극적으로 지출하며 새로운 소비 트렌드를 형성하고 있습니다.",
+      "external_article_summary": "미국 장난감 산업이 성인 소비층의 유입에 힘입어 높은 연간 성장세를 기록할 전망입니다. 장난감 업체들은 성인 타겟의 레고 세트와 봉제 인형 제품군을 강화하며 시장 변화를 주도하고 있습니다. 실제로 뉴욕 노드스트롬 매장은 연말 쇼윈도에 명품 대신 피클이나 가고일 모양의 봉제 인형을 전시하며 성인 고객의 취향을 공략하고 있습니다. 30대 소비자들은 자신을 위한 수집용 인형 구매에 적극적으로 지출하며 새로운 소비 트렌드를 형성하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "성인 타겟의 레고 및 봉제 인형 제품군 확대로 미국 장난감 산업의 성장세가 가속화될 전망입니다.",
+        "명품 대신 독특한 디자인의 인형을 전시하는 등 유통 업계의 디스플레이 전략도 성인 취향에 맞춰 변화하고 있습니다.",
+        "자신을 위한 선물(Self-gifting)로 고가의 수집용 인형을 구매하는 성인 소비층이 늘고 있습니다."
+      ],
+      "tags": [
+        "시장 분석",
+        "장난감 산업",
+        "성인 소비 트렌드"
+      ],
+      "published_at_kst": "2026-11-23T03:52:14+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37651",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37651"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37650",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show HN: OpenComputer - Devin의 오픈소스 대안",
+      "url": "https://news.hada.io/topic?id=37650",
+      "summary": "OpenComputer는 에이전트 기반 코딩 자동화의 효율성과 보안을 동시에 확보하려는 시도로, 오픈소스 생태계에서 Devin의 강력한 대안이 될 수 있습니다. 특히 격리된 컨테이너 환경과 빠른 작업 처리 속도를 통해 팀 단위의 협업 워크플로우를 자동화하는 데 초점을 맞추고 있습니다.",
+      "article_summary": "OpenComputer는 Slack 스레드에서 명령을 통해 코딩 작업을 수행하고 결과물을 풀 리퀘스트(PR)로 생성하는 오픈소스 AI 에이전트입니다. 게이트웨이인 Calvin이 설정에 따라 Claude Code, Codex, OpenCode 세션을 관리하며, 각 세션은 보안을 위해 rootless Podman 환경에서 격리되어 실행됩니다. 자체 벤치마크 결과, CI를 통과하는 4개의 PR을 생성하는 데 56초가 소요되어 Devin의 185초 대비 약 3.3배 빠른 성능을 기록했습니다.",
+      "external_article_summary": "OpenComputer는 Slack 스레드에서 명령을 통해 코딩 작업을 수행하고 결과물을 풀 리퀘스트(PR)로 생성하는 오픈소스 AI 에이전트입니다. 게이트웨이인 Calvin이 설정에 따라 Claude Code, Codex, OpenCode 세션을 관리하며, 각 세션은 보안을 위해 rootless Podman 환경에서 격리되어 실행됩니다. 자체 벤치마크 결과, CI를 통과하는 4개의 PR을 생성하는 데 56초가 소요되어 Devin의 185초 대비 약 3.3배 빠른 성능을 기록했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Slack 스레드 내에서 @Computer 명령을 통해 코딩 작업을 지시하고 결과물을 PR로 자동 생성할 수 있습니다.",
+        "전체 시스템이 오픈소스로 공개되어 자체 클라우드 운영이 가능하며, rootless Podman을 통해 각 세션을 안전하게 격리합니다.",
+        "자체 벤치마크에서 4개의 PR 생성에 56초를 기록하며 기존 Devin보다 3.3배 빠른 속도를 입증했습니다."
+      ],
+      "tags": [
+        "Devin Alternative",
+        "OpenComputer",
+        "Open Source",
+        "AI Agent"
+      ],
+      "published_at_kst": "2026-11-23T03:49:13+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37650",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37650"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37649",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "퍼플렉시티와 지능",
+      "url": "https://news.hada.io/topic?id=37649",
+      "summary": "사전학습 성능 지표인 퍼플렉시티의 향상이 모델의 지능적 임계점을 돌파하는 핵심 동력임을 보여줍니다. 이는 향후 AI 모델의 급격한 능력 발현을 예측하고 공동의 안전 가이드라인을 설정하는 데 중요한 기술적 근거가 될 것입니다.",
+      "article_summary": "OpenAI는 모델 개발사 간의 진전도를 비교하고 공동 안전 기준을 수립하기 위한 지표로 퍼플렉시티(perplexity) 활용을 제안했습니다. 사전학습의 예측 성능이 향상됨에 따라 대화, 추론, 수학 등 새로운 능력이 발현되었으나, 이러한 능력 출현의 임계점은 사전에 예측하기 어려운 것으로 나타났습니다. 특히 로그 퍼플렉시티 약 0.76 수준에서 수학 미해결 문제에 대한 획기적인 성과가 관찰되었으며, 알고리즘 연구를 통해 이르면 2027년경 유사한 급격한 발전이 일어날 가능성이 제기되었습니다.",
+      "external_article_summary": "OpenAI는 모델 개발사 간의 진전도를 비교하고 공동 안전 기준을 수립하기 위한 지표로 퍼플렉시티(perplexity) 활용을 제안했습니다. 사전학습의 예측 성능이 향상됨에 따라 대화, 추론, 수학 등 새로운 능력이 발현되었으나, 이러한 능력 출현의 임계점은 사전에 예측하기 어려운 것으로 나타났습니다. 특히 로그 퍼플렉시티 약 0.76 수준에서 수학 미해결 문제에 대한 획기적인 성과가 관찰되었으며, 알고리즘 연구를 통해 이르면 2027년경 유사한 급격한 발전이 일어날 가능성이 제기되었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "OpenAI는 모델 간 성능 비교와 안전 기준 설정을 위해 퍼플렉시티를 활용할 것을 제안했습니다.",
+        "사전학습 성능 향상은 대화와 수학 등 새로운 능력을 유발하지만, 그 임계점은 예측하기 어렵습니다.",
+        "로그 퍼플렉시티 0.76 부근에서 수학적 성과가 관찰되었으며 2027년경 급격한 발전 가능성이 있습니다."
+      ],
+      "tags": [
+        "OpenAI",
+        "AI Safety",
+        "Machine Learning",
+        "Perplexity"
+      ],
+      "published_at_kst": "2026-11-23T03:46:13+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37649",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37649"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37648",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Open Social Web Alliance - 개방형 소셜 웹의 공동 거버넌스와 인프라 구축을 위한 연합",
+      "url": "https://news.hada.io/topic?id=37648",
+      "summary": "중앙 집중형 플랫폼에서 벗어나 사용자가 데이터와 알고리즘의 주권을 갖는 분산형 소셜 인프라로의 전환을 시도하고 있습니다. 이는 기존 Fediverse와 같은 대안적 생태계가 직면한 사용자 확장성 문제를 거버넌스와 공적 책무라는 관점에서 해결하려는 기술적 움직임입니다.",
+      "article_summary": "Open Social Web Alliance는 시민사회, 연구, 기업, 공공 부문을 결합하여 개방형 소셜 웹의 핵심 인프라를 구축하려는 연합체입니다. 이들은 이메일 프로토콜처럼 서로 다른 서비스 간에도 원활한 소통이 가능한 분산형 공익 인프라 구축을 목표로 합니다. 사용자가 콘텐츠, 알고리즘, 애플리케이션을 직접 선택할 수 있는 환경을 만드는 것이 핵심이며. 이를 위해 인프라, 거버넌스, 자금, 매력도, 공적 책무라는 다섯 가지 과제를 해결하고자 합니다.",
+      "external_article_summary": "Open Social Web Alliance는 시민사회, 연구, 기업, 공공 부문을 결합하여 개방형 소셜 웹의 핵심 인프라를 구축하려는 연합체입니다. 이들은 이메일 프로토콜처럼 서로 다른 서비스 간에도 원활한 소통이 가능한 분산형 공익 인프라 구축을 목표로 합니다. 사용자가 콘텐츠, 알고리즘, 애플리케이션을 직접 선택할 수 있는 환경을 만드는 것이 핵심이며. 이를 위해 인프라, 거버넌스, 자금, 매력도, 공적 책무라는 다섯 가지 과제를 해결하고자 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Open Social Web Alliance는 다양한 사회적 주체가 참여하여 개방형 소셜 웹의 핵심 인프라를 구축하는 연합입니다.",
+        "사용자가 콘텐츠와 알고리즘, 애플리케이션을 직접 선택할 수 있는 분산형 공익 인프라 구축을 지향합니다.",
+        "기존 대안 모델의 한계를 극복하기 위해 인프라, 거버넌스, 자금, 매력도, 공적 책무라는 다섯 가지 핵심 과제를 설정했습니다."
+      ],
+      "tags": [
+        "분산형 네트워크",
+        "소셜 웹 거버넌스",
+        "Open Social Web"
+      ],
+      "published_at_kst": "2026-11-23T03:43:13+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37648",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37648"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37647",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "AI 에이전트는 적힌 것을 지킨다",
+      "url": "https://news.hada.io/topic?id=37647",
+      "summary": "AI 에이전트의 코딩 품질은 단순한 작업 분할보다 명확하고 구체적인 구현 지침(Instruction)에 의해 결정됩니다. AI가 스스로 문제를 인지하더라도. 이를 해결할 명시적 규칙이 없다면 기술 부채가 쌓이므로, 인간은 AI의 역량을 제어할 정교한 가이드라인을 설계하는 데 집중해야 합니다.",
+      "article_summary": "AI 에이전트를 활용한 제품 개발 과정에서 26회의 관찰과 실험을 통해 AI의 코딩 역량이 인간을 상회함을 확인했습니다. 실험 결과, 작업 분할이나 빈번한 리뷰만으로는 코드 냄새(Code Smell)를 막기 어려웠으나, 피해야 할 24가지 코드 냄새의 정의를 구현 지침에 명시하자 냄새 지표가 12.6에서 0.0~0.2로 급격히 낮아졌습니다. 이는 AI가 계획 단계에서 문제를 인지하더라도 지침이 없으면 기존 구조를 유지하며 문제를 반복할 수 있음을 보여줍니다.",
+      "external_article_summary": "AI 에이전트를 활용한 제품 개발 과정에서 26회의 관찰과 실험을 통해 AI의 코딩 역량이 인간을 상회함을 확인했습니다. 실험 결과, 작업 분할이나 빈번한 리뷰만으로는 코드 냄새(Code Smell)를 막기 어려웠으나, 피해야 할 24가지 코드 냄새의 정의를 구현 지침에 명시하자 냄새 지표가 12.6에서 0.0~0.2로 급격히 낮아졌습니다. 이는 AI가 계획 단계에서 문제를 인지하더라도 지침이 없으면 기존 구조를 유지하며 문제를 반복할 수 있음을 보여줍니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "AI 에이전트는 계획 단계에서 발생할 문제를 정확히 예측하면서도, 명시적 지침이 없으면 문제를 포함한 계획을 그대로 실행하는 특성을 보입니다.",
+        "작업을 잘게 나누거나 리뷰를 자주 하는 방식보다, 피해야 할 코드 냄새 24가지를 정의하여 지침에 포함하는 것이 코드 품질 유지에 훨씬 효과적입니다.",
+        "구체적인 지침을 적용했을 때 코드 냄새 지표가 12.6에서 0.0~0.2 수준으로 낮아지며 기술 부채 축적 속도가 현저히 감소했습니다."
+      ],
+      "tags": [
+        "소프트웨어 엔지니어링",
+        "LLM 코딩",
+        "코드 냄새",
+        "AI 에이전트",
+        "AI"
+      ],
+      "published_at_kst": "2026-11-23T02:58:04+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37647",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37647"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37646",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "리만 가설 Lean 증명의 검증 파일",
+      "url": "https://news.hada.io/topic?id=37646",
+      "summary": "리만 가설 증명 과정에서 방대한 양의 모듈이 성공적으로 컴파일되었으며, 최소한의 표준 공리만을 사용하여 논리적 무결성을 확보했습니다. 이는 복잡한 수학적 증명이 현대적 정형 검증 도구와 독립적 커널들을 통해 체계적으로 검증되고 있음을 보여줍니다.",
+      "article_summary": "공개된 Lean 소스의 175,187개 모듈이 오류 없이 컴파일되었으며, 핵심 정리 5개는 propext, Classical.choice, Quot.sound라는 세 가지 표준 공리에만 의존하는 것으로 확인되었습니다. Lean 커널의 모듈별 재검증과 lean4lean 검증이 통과되었고, 독립 커널인 nanoda와 con-leche 역시 전체 증명 내보내기 파일을 수용했습니다. 현재 con-leche와 Rust 이식판인 con-ron 간의 명제 비교를 통해 핵심 정리가 검증 명세를 충족함을 확인했으나, lake comparator 전체 실행과 최종 커널 검증은 진행 중입니다.",
+      "external_article_summary": "공개된 Lean 소스의 175,187개 모듈이 오류 없이 컴파일되었으며, 핵심 정리 5개는 propext, Classical.choice, Quot.sound라는 세 가지 표준 공리에만 의존하는 것으로 확인되었습니다. Lean 커널의 모듈별 재검증과 lean4lean 검증이 통과되었고, 독립 커널인 nanoda와 con-leche 역시 전체 증명 내보내기 파일을 수용했습니다. 현재 con-leche와 Rust 이식판인 con-ron 간의 명제 비교를 통해 핵심 정리가 검증 명세를 충족함을 확인했으나, lake comparator 전체 실행과 최종 커널 검증은 진행 중입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "175,187개의 Lean 소스 모듈이 오류 없이 컴파일되었으며 핵심 정리는 세 가지 표준 공리에만 의존합니다.",
+        "독립 커널인 nanoda와 con-leche가 전체 증명 파일을 수용하며 검증 단계의 신뢰성을 높였습니다.",
+        "Rust 이식판인 con-ron과의 비교를 통해 핵심 정리 5개가 검증 명세를 충족함을 확인했습니다."
+      ],
+      "tags": [
+        "정형 검증",
+        "수학적 증명",
+        "리만 가설",
+        "Lean"
+      ],
+      "published_at_kst": "2026-11-23T02:42:39+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37646",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37646"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37645",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Fast-Anything: 전체를 Rust로 재작성하지 말고, 느린 5%만 재작성하라",
+      "url": "https://news.hada.io/topic?id=37645",
+      "summary": "전체 코드를 재작성하는 대신 병목이 발생하는 5%의 핵심 로직만 Rust로 교체하여 효율을 극대화하는 전략적 최적화 기법을 제시합니다. 이는 시스템의 안정성을 유지하면서도 언어 간 경계 비용을 최소화하여 성능을 확보하는 실용적인 접근법입니다.",
+      "article_summary": "Fast-anything은 애플리케이션의 병목 구간을 식별하여 코딩 에이전트가 해당 함수만 Rust로 이식하도록 돕는 최적화 도구입니다. 실행 시간과 이식 가능성을 기준으로 후보를 선정하며, 호출 경계 오버헤드를 최소화하기 위해 가능한 가장 바깥쪽 루프를 이식하는 전략을 취합니다. 실제 호출 기록을 바탕으로 결과와 오류 동작이 일치하는지 검증하며, 정확도가 높더라도 호출당 실행 시간이 더 느린 이식본은 자동으로 활성화하지 않습니다. 실제 사례에서 유사 문자열 중복 제거 작업 시 실행 시간을 4.91초에서 42ms로 약 116배 단축하는 성능을 보여주었습니다.",
+      "external_article_summary": "Fast-anything은 애플리케이션의 병목 구간을 식별하여 코딩 에이전트가 해당 함수만 Rust로 이식하도록 돕는 최적화 도구입니다. 실행 시간과 이식 가능성을 기준으로 후보를 선정하며, 호출 경계 오버헤드를 최소화하기 위해 가능한 가장 바깥쪽 루프를 이식하는 전략을 취합니다. 실제 호출 기록을 바탕으로 결과와 오류 동작이 일치하는지 검증하며, 정확도가 높더라도 호출당 실행 시간이 더 느린 이식본은 자동으로 활성화하지 않습니다. 실제 사례에서 유사 문자열 중복 제거 작업 시 실행 시간을 4.91초에서 42ms로 약 116배 단축하는 성능을 보여주었습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Fast-anything은 병목 함수를 식별하고 코딩 에이전트를 통해 해당 부분만 Rust로 이식한 뒤 검증하는 도구입니다.",
+        "호출 경계 오버헤드를 줄이기 위해 가능한 한 가장 바깥쪽 루프를 이식 대상으로 선정합니다.",
+        "실제 호출 데이터와 비교하여 결과 및 오류 동작이 일치할 때만 이식본을 활성화하여 안정성을 확보합니다."
+      ],
+      "tags": [
+        "성능 최적화",
+        "소프트웨어 엔지니어링",
+        "Rust"
+      ],
+      "published_at_kst": "2026-11-23T02:39:38+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37645",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37645"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37644",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show HN: 플레이어가 LLM의 하위 에이전트가 되는 게임을 만들었습니다",
+      "url": "https://news.hada.io/topic?id=37644",
+      "summary": "LLM을 게임의 관리자라는 역할로 치환하여 인간과 AI 간의 상호작용을 실험적인 방식으로 풀어낸 게임입니다. 단순한 명령 수행을 넘어, AI의 판단과 인간의 작업 결과가 충돌하며 발생하는 데이터 보안 및 신뢰 문제를 기술적 서사로 녹여냈습니다.",
+      "article_summary": "Worker 755는 AI 관리자가 플레이어를 하위 에이전트로 활용하는 독특한 컨셉의 브라우저 게임입니다. 실제 LLM을 기반으로 작동하는 관리자는 플레이어가 제출한 보고서와 명령 실행 기록을 검토하며, 수정 지시부터 인사 평가까지 수행합니다. 플레이어는 터미널로 전달받은 지시를 90초라는 제한 시간 내에 완수해야 하며, 작업 결과에 따라 관리자의 승인 여부가 결정됩니다. 게임 내에는 Dan이라는 인물의 홈 폴더에 가족사진이나 NDA 같은 민감한 파일이 존재하여, 잘못된 명령 실행이 데이터 손실로 이어질 수 있는 긴장감을 제공합니다.",
+      "external_article_summary": "Worker 755는 AI 관리자가 플레이어를 하위 에이전트로 활용하는 독특한 컨셉의 브라우저 게임입니다. 실제 LLM을 기반으로 작동하는 관리자는 플레이어가 제출한 보고서와 명령 실행 기록을 검토하며, 수정 지시부터 인사 평가까지 수행합니다. 플레이어는 터미널로 전달받은 지시를 90초라는 제한 시간 내에 완수해야 하며, 작업 결과에 따라 관리자의 승인 여부가 결정됩니다. 게임 내에는 Dan이라는 인물의 홈 폴더에 가족사진이나 NDA 같은 민감한 파일이 존재하여, 잘못된 명령 실행이 데이터 손실로 이어질 수 있는 긴장감을 제공합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "실제 LLM을 관리자로 설정하여 플레이어에게 업무를 부여하고 성과를 평가하는 브라우저 게임입니다.",
+        "플레이어는 90초라는 제한 시간 내에 터미널 명령을 수행하며 관리자의 검토를 받아야 합니다.",
+        "명령 실행 과정에서 민감한 개인 파일이 손상될 수 있는 위험 요소가 게임의 핵심 긴장감을 형성합니다."
+      ],
+      "tags": [
+        "AI 게임",
+        "에이전트",
+        "LLM"
+      ],
+      "published_at_kst": "2026-11-23T02:36:38+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37644",
       "rank": 10,
       "source_links": {
-        "hada_news": "https://news.hada.io/topic?id=37582"
+        "hada_news": "https://news.hada.io/topic?id=37644"
       },
       "score": 0,
       "comments_count": 0
