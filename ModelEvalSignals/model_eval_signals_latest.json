@@ -1,20 +1,21 @@
 {
   "source": "model_eval_signals",
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T04:47:21.834105+09:00",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T05:08:25.122462+09:00",
   "count": 6,
-  "daily_summary": "Hugging Face에서는 멀티모달(image-text-to-text) 기능을 갖춘 Inkling-2-Mini 및 Qwen 계열 모델이 주목받고 있으며, LiveCodeBench에서는 O4-Mini와 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+  "daily_summary": "멀티모달 기능을 갖춘 Inkling-2-Mini 계열 모델들이 GGUF 포맷 등으로 높은 관심을 받으며 트렌드를 형성하고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록했습니다.",
   "daily_key_points": [
-    "Inkling-2-Mini 및 Qwen3.8-27B-pi-adapted 등 image-text-to-text 파이프라인 지원 모델의 트렌드 상승",
-    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 시리즈 모델들의 상위권 성적 기록",
-    "GGUF 포맷 및 멀티모달 태스크 중심의 모델 배포 및 활용 활성화"
+    "Inkling-2-Mini 모델 시리즈(GGUF, Uncensored 등)가 멀티모달 기능과 높은 다운로드 수로 주목받음",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 모델들이 상위권 성적 기록",
+    "GGUF 포맷을 통한 이미지-텍스트 멀티모달 모델의 배포 및 활용 활성화"
   ],
   "daily_tags": [
+    "Inkling-2-Mini",
     "Multimodal",
     "LiveCodeBench",
-    "HuggingFace_Trending"
+    "GGUF"
   ],
-  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: Hugging Face에서는 멀티모달(image-text-to-text) 기능을 갖춘 Inkling-2-Mini 및 Qwen 계열 모델이 주목받고 있으며, LiveCodeBench에서는 O4-Mini와 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.\n\n📍 1. unsloth/Inkling-2-Mini-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: unsloth/Inkling-2-Mini-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 GGUF 포맷의 모델입니다.\n🔗 링크: https://huggingface.co/unsloth/Inkling-2-Mini-GGUF\n\n📍 2. harness-hub/Qwen3.8-27B-pi-adapted\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.\n🔗 링크: https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted\n\n📍 3. thinkingmachines/Inkling-2-Mini\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: thinkingmachines에서 공개한 Inkling-2-Mini 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 약 26.4B 파라미터를 가진 image-text-to-text 태스크용 모델입니다.\n🔗 링크: https://huggingface.co/thinkingmachines/Inkling-2-Mini\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-22.md",
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: 멀티모달 기능을 갖춘 Inkling-2-Mini 계열 모델들이 GGUF 포맷 등으로 높은 관심을 받으며 트렌드를 형성하고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록했습니다.\n\n📍 1. unsloth/Inkling-2-Mini-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: unsloth/Inkling-2-Mini-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 GGUF 포맷의 모델입니다.\n🔗 링크: https://huggingface.co/unsloth/Inkling-2-Mini-GGUF\n\n📍 2. thinkingmachines/Inkling-2-Mini\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Hugging Face에서 높은 관심을 받고 있는 thinkingmachines/Inkling-2-Mini 모델이 공개되었습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/thinkingmachines/Inkling-2-Mini\n\n📍 3. AtomicChat/Inkling-2-Mini-Uncensored-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: AtomicChat에서 공개한 Inkling-2-Mini-Uncensored-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 갖춘 것이 특징입니다.\n🔗 링크: https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-23.md",
   "items": [
     {
       "source_key": "hf_trending",
@@ -22,22 +23,22 @@
       "title": "unsloth/Inkling-2-Mini-GGUF",
       "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-21T17:35:20+09:00",
-      "published_date": "2026-11-21",
-      "original_description": "likes=537, downloads=238152, pipeline_tag=image-text-to-text",
+      "published_at_kst": "2026-11-22T13:22:49+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=851, downloads=805993, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 537,
-        "downloads": 238152,
+        "likes": 851,
+        "downloads": 805993,
         "num_parameters": 26070390272,
         "pipeline_tag": "image-text-to-text"
       },
       "rank": 1,
       "summary": "unsloth/Inkling-2-Mini-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 GGUF 포맷의 모델입니다.",
       "key_points": [
-        "unsloth/Inkling-2-Mini-GGUF 모델의 downloads가 238,152회를 기록하며 높은 관심을 받고 있습니다.",
-        "해당 모델은 image-text-to-text 파이프라인 태그를 가진 멀티모달 성격의 모델입니다.",
-        "모델의 파라미터 규모는 약 26B(26,070,390,272) 수준입니다."
+        "unsloth/Inkling-2-Mini-GGUF 모델의 누적 다운로드 수가 805,993회를 기록했습니다.",
+        "해당 모델은 image-text-to-text 태그를 가진 멀티모달 성격의 모델입니다.",
+        "모델 파라미터 규모는 약 26B(26,070,390,272) 수준입니다."
       ],
       "tags": [
         "unsloth",
@@ -48,59 +49,59 @@
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "harness-hub/Qwen3.8-27B-pi-adapted",
-      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "title": "thinkingmachines/Inkling-2-Mini",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-21T13:31:16+09:00",
-      "published_date": "2026-11-21",
-      "original_description": "likes=915, downloads=2383, pipeline_tag=image-text-to-text",
+      "published_at_kst": "2026-11-22T07:23:18+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=4750, downloads=23543, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 915,
-        "downloads": 2383,
-        "num_parameters": 0,
+        "likes": 4750,
+        "downloads": 23543,
+        "num_parameters": 26388646440,
         "pipeline_tag": "image-text-to-text"
       },
       "rank": 2,
-      "summary": "Qwen3.8-27B-pi-adapted 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 것이 특징입니다.",
+      "summary": "Hugging Face에서 높은 관심을 받고 있는 thinkingmachines/Inkling-2-Mini 모델이 공개되었습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
       "key_points": [
-        "harness-hub/Qwen3.8-27B-pi-adapted 모델의 출시 및 트렌드 확인",
-        "915개의 likes와 2,383회의 downloads를 기록하며 사용자 관심을 유도",
-        "image-text-to-text 태그를 사용하는 멀티모달 관련 모델로 분류"
+        "likes 4,750회, downloads 23,543회를 기록하며 높은 관심을 받고 있습니다.",
+        "약 26.4B 파라미터를 가진 모델입니다.",
+        "image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다."
       ],
       "tags": [
-        "Qwen3.8-27B-pi-adapted",
+        "thinkingmachines/Inkling-2-Mini",
         "image-text-to-text",
-        "Hugging Face"
+        "multimodal"
       ]
     },
     {
       "source_key": "hf_trending",
       "source_name": "HF Model Trending",
-      "title": "thinkingmachines/Inkling-2-Mini",
-      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
       "category": "Model Trending",
-      "published_at_kst": "2026-11-21T07:55:20+09:00",
-      "published_date": "2026-11-21",
-      "original_description": "likes=2060, downloads=7944, pipeline_tag=image-text-to-text",
+      "published_at_kst": "2026-11-22T02:57:39+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=452, downloads=129693, pipeline_tag=image-text-to-text",
       "signal_type": "model_trending",
       "metrics": {
-        "likes": 2060,
-        "downloads": 7944,
-        "num_parameters": 26388646440,
+        "likes": 452,
+        "downloads": 129693,
+        "num_parameters": 26070385152,
         "pipeline_tag": "image-text-to-text"
       },
       "rank": 3,
-      "summary": "thinkingmachines에서 공개한 Inkling-2-Mini 모델이 Hugging Face에서 주목받고 있습니다. 이 모델은 약 26.4B 파라미터를 가진 image-text-to-text 태스크용 모델입니다.",
+      "summary": "AtomicChat에서 공개한 Inkling-2-Mini-Uncensored-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 갖춘 것이 특징입니다.",
       "key_points": [
-        "모델명은 thinkingmachines/Inkling-2-Mini이며, 약 26.4B 파라미터를 보유하고 있습니다.",
-        "pipeline_tag는 image-text-to-text로 멀티모달 작업에 특화되어 있습니다.",
-        "현재 2,060개의 likes와 7,944회의 downloads를 기록하며 트렌딩 중입니다."
+        "Inkling-2-Mini-Uncensored-GGUF 모델은 약 26B 파라미터를 보유하고 있습니다.",
+        "129,693회의 높은 다운로드 수를 기록하며 사용자들의 관심을 받고 있습니다.",
+        "pipeline_tag는 image-text-to-text로, 시각 정보와 텍스트를 결합한 작업에 최적화되어 있습니다."
       ],
       "tags": [
-        "Inkling-2-Mini",
+        "Inkling-2-Mini-Uncensored-GGUF",
         "image-text-to-text",
-        "multimodal"
+        "GGUF"
       ]
     },
     {

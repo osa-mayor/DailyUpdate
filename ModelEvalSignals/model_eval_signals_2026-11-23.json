@@ -1,0 +1,192 @@
+{
+  "source": "model_eval_signals",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T05:08:25.122462+09:00",
+  "count": 6,
+  "daily_summary": "멀티모달 기능을 갖춘 Inkling-2-Mini 계열 모델들이 GGUF 포맷 등으로 높은 관심을 받으며 트렌드를 형성하고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록했습니다.",
+  "daily_key_points": [
+    "Inkling-2-Mini 모델 시리즈(GGUF, Uncensored 등)가 멀티모달 기능과 높은 다운로드 수로 주목받음",
+    "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 모델들이 상위권 성적 기록",
+    "GGUF 포맷을 통한 이미지-텍스트 멀티모달 모델의 배포 및 활용 활성화"
+  ],
+  "daily_tags": [
+    "Inkling-2-Mini",
+    "Multimodal",
+    "LiveCodeBench",
+    "GGUF"
+  ],
+  "chat_message": "🧪 오늘의 Model & Eval Signals\n\n📌 오늘의 요약: 멀티모달 기능을 갖춘 Inkling-2-Mini 계열 모델들이 GGUF 포맷 등으로 높은 관심을 받으며 트렌드를 형성하고 있으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록했습니다.\n\n📍 1. unsloth/Inkling-2-Mini-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: unsloth/Inkling-2-Mini-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 GGUF 포맷의 모델입니다.\n🔗 링크: https://huggingface.co/unsloth/Inkling-2-Mini-GGUF\n\n📍 2. thinkingmachines/Inkling-2-Mini\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: Hugging Face에서 높은 관심을 받고 있는 thinkingmachines/Inkling-2-Mini 모델이 공개되었습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.\n🔗 링크: https://huggingface.co/thinkingmachines/Inkling-2-Mini\n\n📍 3. AtomicChat/Inkling-2-Mini-Uncensored-GGUF\n🗂️ 소스: HF Model Trending | 유형: model_trending\n📝 요약: AtomicChat에서 공개한 Inkling-2-Mini-Uncensored-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 갖춘 것이 특징입니다.\n🔗 링크: https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF\n\n📍 4. LiveCodeBench top model: O4-Mini (High)\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n📍 5. LiveCodeBench top model: Gemini-2.5-Pro-06-05\n🗂️ 소스: LiveCodeBench | 유형: benchmark_snapshot\n📝 요약: LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.\n🔗 링크: https://livecodebench.github.io/leaderboard.html\n\n출처: Model & Eval Signals\nHugging Face Trending, LiveCodeBench, SWE-bench, METR\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/ModelEvalSignals/model_eval_signals_2026-11-23.md",
+  "items": [
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "unsloth/Inkling-2-Mini-GGUF",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-22T13:22:49+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=851, downloads=805993, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 851,
+        "downloads": 805993,
+        "num_parameters": 26070390272,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 1,
+      "summary": "unsloth/Inkling-2-Mini-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 image-text-to-text 파이프라인을 지원하는 GGUF 포맷의 모델입니다.",
+      "key_points": [
+        "unsloth/Inkling-2-Mini-GGUF 모델의 누적 다운로드 수가 805,993회를 기록했습니다.",
+        "해당 모델은 image-text-to-text 태그를 가진 멀티모달 성격의 모델입니다.",
+        "모델 파라미터 규모는 약 26B(26,070,390,272) 수준입니다."
+      ],
+      "tags": [
+        "unsloth",
+        "GGUF",
+        "image-text-to-text"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "thinkingmachines/Inkling-2-Mini",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-22T07:23:18+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=4750, downloads=23543, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 4750,
+        "downloads": 23543,
+        "num_parameters": 26388646440,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 2,
+      "summary": "Hugging Face에서 높은 관심을 받고 있는 thinkingmachines/Inkling-2-Mini 모델이 공개되었습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 제공합니다.",
+      "key_points": [
+        "likes 4,750회, downloads 23,543회를 기록하며 높은 관심을 받고 있습니다.",
+        "약 26.4B 파라미터를 가진 모델입니다.",
+        "image-text-to-text 파이프라인을 지원하는 멀티모달 모델입니다."
+      ],
+      "tags": [
+        "thinkingmachines/Inkling-2-Mini",
+        "image-text-to-text",
+        "multimodal"
+      ]
+    },
+    {
+      "source_key": "hf_trending",
+      "source_name": "HF Model Trending",
+      "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "category": "Model Trending",
+      "published_at_kst": "2026-11-22T02:57:39+09:00",
+      "published_date": "2026-11-22",
+      "original_description": "likes=452, downloads=129693, pipeline_tag=image-text-to-text",
+      "signal_type": "model_trending",
+      "metrics": {
+        "likes": 452,
+        "downloads": 129693,
+        "num_parameters": 26070385152,
+        "pipeline_tag": "image-text-to-text"
+      },
+      "rank": 3,
+      "summary": "AtomicChat에서 공개한 Inkling-2-Mini-Uncensored-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 멀티모달 기능을 갖춘 것이 특징입니다.",
+      "key_points": [
+        "Inkling-2-Mini-Uncensored-GGUF 모델은 약 26B 파라미터를 보유하고 있습니다.",
+        "129,693회의 높은 다운로드 수를 기록하며 사용자들의 관심을 받고 있습니다.",
+        "pipeline_tag는 image-text-to-text로, 시각 정보와 텍스트를 결합한 작업에 최적화되어 있습니다."
+      ],
+      "tags": [
+        "Inkling-2-Mini-Uncensored-GGUF",
+        "image-text-to-text",
+        "GGUF"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: O4-Mini (High)",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "O4-Mini (High)"
+      },
+      "rank": 4,
+      "summary": "LiveCodeBench 벤치마크에서 O4-Mini (High) 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 O4-Mini (High) 모델이 상위권을 기록함",
+        "테스트에 사용된 문제 수는 총 4개임",
+        "avg_pass@1 지표는 25.0을 기록함"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "O4-Mini (High)",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Pro-06-05",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Pro-06-05"
+      },
+      "rank": 5,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Pro-06-05 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 테스트를 진행했습니다.",
+      "key_points": [
+        "Gemini-2.5-Pro-06-05 모델이 LiveCodeBench에서 top model로 기록됨",
+        "테스트 결과 avg_pass@1 지표에서 25.0을 달성함",
+        "총 4개의 문제를 대상으로 벤치마크가 수행됨"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Pro-06-05",
+        "benchmark_snapshot"
+      ]
+    },
+    {
+      "source_key": "livecodebench",
+      "source_name": "LiveCodeBench",
+      "title": "LiveCodeBench top model: Gemini-2.5-Flash-04-17",
+      "url": "https://livecodebench.github.io/leaderboard.html",
+      "category": "Benchmark Leaderboard",
+      "published_at_kst": "2025-04-07T09:00:00+09:00",
+      "published_date": "2025-04-07",
+      "original_description": "avg_pass@1=25.0, problems=4",
+      "signal_type": "benchmark_snapshot",
+      "metrics": {
+        "avg_pass_at_1": 25.0,
+        "problem_count": 4,
+        "model": "Gemini-2.5-Flash-04-17"
+      },
+      "rank": 6,
+      "summary": "LiveCodeBench 벤치마크에서 Gemini-2.5-Flash-04-17 모델이 상위 성적을 기록했습니다. 해당 모델은 4개의 문제를 대상으로 avg_pass@1 25.0%를 달성했습니다.",
+      "key_points": [
+        "LiveCodeBench 벤치마크 결과 Gemini-2.5-Flash-04-17 모델이 상위권을 기록함",
+        "4개의 문제를 대상으로 테스트가 진행됨",
+        "avg_pass@1 지표에서 25.0%의 성능을 보임"
+      ],
+      "tags": [
+        "LiveCodeBench",
+        "Gemini-2.5-Flash-04-17",
+        "benchmark_snapshot"
+      ]
+    }
+  ]
+}
