@@ -1,0 +1,1238 @@
+# 🚀 Product Hunt Daily Top 30 (2026-11-23)
+
+## 오늘의 요약
+오늘의 트렌드는 AI 에이전트가 단순한 보조를 넘어 코딩, 영업, 고객 응대 등 전문적인 업무를 자율적으로 수행하는 '에이전트 중심의 자동화'가 주를 이루었습니다. 또한, 개인의 데이터를 로컬에 안전하게 관리하며 AI 워크플로우에 연결하거나, 복잡한 개발 과정 없이 창의적인 결과물을 만드는 도구들이 주목받았습니다.
+
+### 오늘의 핵심 포인트
+- AI 에이전트가 코딩, 마케팅, 고객 응대 등 특정 직무를 대신 수행하며 업무 생산성을 극대화하는 도구들이 대거 등장했습니다.
+- 사용자의 기존 콘텐츠나 로컬 데이터를 기반으로 신뢰할 수 있는 답변을 생성하거나 개인 지식 베이스를 구축하는 개인화된 AI 솔루션이 강조되었습니다.
+- 복잡한 프로그래밍이나 편집 기술 없이도 고퀄리티의 게임, 영상, 영업 결과물을 만들 수 있는 창작 및 영업 자동화 도구들이 주목받았습니다.
+
+**오늘의 태그**: AI 에이전트, 업무 자동화, 생산성 도구, AI 마케팅, 노코드
+
+## 1. [Rankhog](https://www.producthunt.com/products/rankhog)
+**Votes**: 226 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Get customers from Reddit on autopilot
+**서비스 링크**: https://www.producthunt.com/r/HVFQNHONLRBAJZ
+
+**태그**: Automation, Marketing, AI, Reddit, GrowthHacking, Chat
+
+<img src="images/ph_2026-11-22_Rankhog.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+레딧(Reddit)에서 잠재 고객을 자동으로 찾아 맞춤형 답변을 달아주는 자동화 마케팅 도구
+
+### 🔑 주요 기능
+- 서브레딧별 규칙을 준수하며 인간적인 속도로 답변 작성
+- 사용자 계정 기반의 자동화 및 계정 생성/워밍업 기능 제공
+- Claude, ChatGPT, Cursor 등 다양한 MCP 클라이언트와 연동 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+레딧을 통해 잠재 고객을 발굴하는 데 드는 시간을 획기적으로 줄여주며, AI를 활용해 자연스러운 소통이 가능합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 7일 무료 체험을 통해 자동화 품질 테스트하기
+- 자신의 비즈니스에 맞는 서브레딧 타겟팅 설정하기
+- Claude나 ChatGPT 등 기존 워크플로우에 연동하기
+
+### ⚠️ 사용 전 확인할 점
+- 자동화된 답변이 레딧 커뮤니티의 스팸 정책에 걸릴 위험이 있음
+- 계정 생성 및 워밍업 기능 사용 시 플랫폼 정책 위반 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+레딧의 스팸 방지 알고리즘이 자동화된 계정 활동을 어떻게 감지할지에 대한 구체적인 대응책은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Rankhog_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Rankhog_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Rankhog_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/mcp-draft-media/e9e750f2-a006-4464-82f9-b7b4c44693c4.jpeg?auto=format)
+
+---
+
+## 2. [Yoroll](https://www.producthunt.com/products/yoroll)
+**Votes**: 222 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Build playable stories without a game engine
+**서비스 링크**: https://www.producthunt.com/r/XKLWN5SDJ5RSLW
+
+**태그**: NoCode, AI, Storytelling, GameDev, CreativeTool, AI Tool, Video, Vision
+
+<img src="images/ph_2026-11-22_Yoroll.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코딩 없이 스크립트만으로 인터랙티브 시네마틱 게임을 만드는 AI 스토리텔링 도구
+
+### 🔑 주요 기능
+- 게임 엔진이나 프로그래밍 지식 없이 스토리 제작 가능
+- 스크립트, 이미지, 영상을 활용한 시네마틱 연출
+- 플레이어의 선택에 따른 분기형 스토리라인 구축
+
+### 🙋 사용자에게 어떤 점이 좋은가
+창작자가 복잡한 개발 과정 대신 연출과 스토리에만 집중하여 자신만의 인터랙티브 영화를 만들 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유한 스크립트나 시나리오 입력하기
+- AI를 활용해 장면 연출 및 이미지 생성하기
+- 플레이어 선택지를 추가하여 분기형 스토리 완성하기
+
+### ⚠️ 사용 전 확인할 점
+- 전통적인 게임 엔진에 비해 복잡한 게임 메커닉 구현은 어려울 수 있음
+- AI 생성 콘텐츠의 품질이 최종 결과물의 시각적 완성도를 결정함
+
+### 🧭 확인이 더 필요한 정보
+AI가 생성하는 에셋의 저작권 정책 및 상세 연출 자유도에 대한 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Yoroll_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Yoroll_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Yoroll_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/e3de00d0-b549-4e7e-b8f9-34222a09983e.jpeg?auto=format)
+
+---
+
+## 3. [Resurf](https://www.producthunt.com/products/resurf-2)
+**Votes**: 140 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Personal Knowledge Base & Bookmark Manager for Mac
+**서비스 링크**: https://www.producthunt.com/r/VXIIBY4W6WDWZU
+
+**태그**: Productivity, KnowledgeBase, Mac, AI-Integration, Local-First, AI Tool, Vision
+
+<img src="images/ph_2026-11-22_Resurf.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mac과 iOS를 위한 로컬 기반의 개인 지식 저장소 및 북마크 관리 도구
+
+### 🔑 주요 기능
+- Mac, iPhone, iPad를 지원하는 완전 로컬 기반의 개인 컨텍스트 라이브러리
+- 메모, 링크, 이미지, 문서를 한곳에 저장하고 관리
+- MCP 또는 CLI를 통해 AI에게 저장된 컨텍스트를 손쉽게 전달
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개인적인 데이터를 클라우드가 아닌 로컬에 안전하게 보관하면서, 저장된 정보를 AI 워크플로우에 즉시 연결하여 생산성을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 중요한 문서와 링크를 로컬 라이브러리에 저장하기
+- CLI를 통해 저장된 컨텍스트를 터미널 환경에서 활용하기
+- MCP를 설정하여 AI 모델에 개인 지식 전달하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 저장 방식이므로 기기 분실이나 고장 시 데이터 백업 전략이 필수적임
+- CLI 및 MCP 활용 시 일정 수준의 기술적 숙련도가 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+기기 간 동기화 방식(로컬 네트워크 기반인지 등)에 대한 구체적인 메커니즘 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Resurf_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Resurf_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Resurf_media_2.jpg)
+
+---
+
+## 4. [Daymaker](https://www.producthunt.com/products/daymaker)
+**Votes**: 115 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Gifts so personal, your prospects take the meeting.
+**서비스 링크**: https://www.producthunt.com/r/22SNOV53PPMTPX
+
+**태그**: Sales, Automation, Personalization, Marketing, AI Tool
+
+<img src="images/ph_2026-11-22_Daymaker.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+잠재 고객의 관심사를 분석하여 맞춤형 선물을 보내 미팅 성사율을 높이는 영업 자동화 도구
+
+### 🔑 주요 기능
+- 잠재 고객의 관심사 조사 및 맞춤형 선물 추천
+- 브랜딩이 적용된 선물 패키징 및 배송 자동화
+- 미팅 성사를 목적으로 하는 타겟팅된 영업 캠페인
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순한 콜드 메일 대신 개인화된 선물을 통해 잠재 고객의 주의를 끌고 미팅 수락 확률을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 잠재 고객 리스트 업로드
+- 추천된 맞춤형 선물 제안 확인
+- 브랜딩 및 배송 옵션 설정
+
+### ⚠️ 사용 전 확인할 점
+- 선물 비용 및 배송비 등 운영 비용 발생 가능성
+- 선물 발송이 스팸으로 인식될 위험성
+
+### 🧭 확인이 더 필요한 정보
+구체적인 서비스 요금 체계와 배송 가능 지역에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Daymaker_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Daymaker_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Daymaker_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ab500b8b-b48b-41bc-8d64-9b6dd37ae07f.jpeg?auto=format)
+
+---
+
+## 5. [oovi](https://www.producthunt.com/products/oovi)
+**Votes**: 105 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your own team of AI on your desktop
+**서비스 링크**: https://www.producthunt.com/r/YLKKXHEBGSFA4O
+
+**태그**: AI Agents, Automation, Productivity, Workflow, AI Tool
+
+<img src="images/ph_2026-11-22_oovi.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인용 AI 에이전트 팀을 데스크톱에서 운영하는 자동화 워크플로우 도구
+
+### 🔑 주요 기능
+- 기획, 조사, 집필, 검토 등 역할별로 분업화된 AI 봇 팀 운영
+- 사용자가 각 단계의 결과물을 직접 확인하고 승인하는 워크플로우
+- 개인 AI 키를 사용하거나 구독형 크레딧 방식으로 이용 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 업무를 역할 분담된 AI 팀에게 맡겨 작업 시간을 단축하고, 최종 승인 과정을 통해 결과물의 품질을 직접 제어할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 역할별 AI 봇의 협업 프로세스 관찰하기
+- 개인 AI 키를 연결하여 무료로 기능 테스트하기
+- 작업 승인 및 피드백 루프 경험하기
+
+### ⚠️ 사용 전 확인할 점
+- 개인 AI 키 사용 시 API 비용이 별도로 발생할 수 있음
+- AI 봇 간의 협업 과정에서 발생하는 결과물의 일관성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 개인 AI 키를 사용할 때와 구독형 크레딧을 사용할 때의 기능적 차이 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_oovi_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_oovi_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_oovi_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/dc5005ee-50e9-48c0-a744-a26f8fbaadb8.jpeg?auto=format)
+
+---
+
+## 6. [Webless Agents](https://www.producthunt.com/products/webless)
+**Votes**: 97 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Agents you want to put in front of customers
+**서비스 링크**: https://www.producthunt.com/r/VH6EKEDCE4QLCA
+
+**태그**: AI, Automation, Customer Support, Sales, Agent, AI Tool, Chat
+
+<img src="images/ph_2026-11-22_Webless_Agents.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 기존 콘텐츠를 기반으로 신뢰할 수 있는 고객 응대 에이전트를 구축하는 도구
+
+### 🔑 주요 기능
+- 사용자가 작성한 공개 콘텐츠를 기반으로 답변을 생성하여 할루시네이션 방지
+- 자연어 설명을 통한 간편한 에이전트 구축 및 설정
+- 질문 답변부터 잠재 고객 발굴, 견적 발송, 미팅 예약까지 자동화
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹사이트 챗봇의 신뢰도 문제를 해결하며, 고객 응대부터 영업 단계까지의 업무를 자동화하여 팀의 업무 효율을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자연어로 원하는 결과값 설명하기
+- 기존 콘텐츠를 연결하여 에이전트 학습시키기
+- 설정된 지침(Instruction) 검토 및 수정하기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트가 참조하는 원본 콘텐츠의 정확도에 따라 답변 품질이 결정됨
+- 복잡한 워크플로우를 구현하기 위한 세부 설정 역량이 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+제공된 콘텐츠 외의 외부 데이터 연동 범위와 상세 워크플로우 자동화 기능의 깊이는 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Webless_Agents_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Webless_Agents_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Webless_Agents_media_2.jpg)
+
+---
+
+## 7. [Creavit Studio 4.0](https://www.producthunt.com/products/creavit-studio)
+**Votes**: 91 | **도입 난이도**: 중 | **신뢰도**: 상
+**Tagline**: Screen recording, iPhone camera and cinematic demos for Mac
+**서비스 링크**: https://www.producthunt.com/r/DO2TIU7I4GF4GO
+
+**태그**: VideoProduction, Mac, ContentCreation, ScreenRecording, AI Tool
+
+<img src="images/ph_2026-11-22_Creavit_Studio_4.0.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Mac 사용자를 위한 고퀄리티 제품 데모 및 시네마틱 화면 녹화 솔루션
+
+### 🔑 주요 기능
+- iPhone과 연동한 세로형 포트레이트 캡처 및 시네마틱 3D 장면 연출
+- Smooth Scroll 및 Smooth Typing 등 자연스러운 화면 움직임 효과
+- 콘텐츠 플래너와 자동 FX 기능을 통한 효율적인 스토리텔링 워크플로우
+
+### 🙋 사용자에게 어떤 점이 좋은가
+제품 소개 영상을 제작할 때 별도의 복잡한 편집 과정 없이도 전문가 수준의 시네마틱한 데모 영상을 빠르게 만들 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- QR 페어링을 통한 iPhone 카메라 연동 테스트
+- Smooth Scroll/Typing 기능을 활용한 화면 녹화
+- 3D MacBook/iPhone 장면을 활용한 시네마틱 데모 제작
+
+### ⚠️ 사용 전 확인할 점
+- Mac 전용으로 설계되어 있어 Windows 환경에서는 사용이 제한적임
+- 고급 기능을 활용하기 위한 기기 간 연동 설정 숙련도 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 가격 정책 및 유료 기능과 무료 기능의 구분 범위가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Creavit_Studio_4.0_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Creavit_Studio_4.0_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Creavit_Studio_4.0_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a253204b-9014-4b40-b6d9-8b5e683bc6ce.jpeg?auto=format)
+
+---
+
+## 8. [Omi CLI](https://www.producthunt.com/products/omi-cli)
+**Votes**: 90 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: AI coding agents that work while you're away.
+**서비스 링크**: https://www.producthunt.com/r/GWUUBKQHSYM563
+
+**태그**: DevTool, AI, Automation, CLI, Agent, AI Tool
+
+<img src="images/ph_2026-11-22_Omi_CLI.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+터미널을 닫아도 백그라운드에서 스스로 코드를 작성하고 테스트하는 AI 코딩 에이전트
+
+### 🔑 주요 기능
+- 코드 읽기, 버그 수정, 테스트 실행 및 브라우저 검증 자동화
+- 터미널 종료 후에도 작업이 지속되는 백그라운드 및 클라우드 에이전트 지원
+- 병렬 서브 에이전트를 통한 작업 분할 및 13종의 다양한 모델 선택 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 자리를 비운 사이에도 AI가 복잡한 코딩 작업을 수행하여 개발 생산성을 극대화할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- npm i -g @builditomi/cli 명령어로 즉시 설치
+- 기존 레포지토리에 코딩 작업 지시해보기
+- 다양한 AI 모델을 활용한 작업 결과 비교
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트가 생성한 코드의 품질과 보안을 위한 수동 리뷰 필요
+- 클라우드 에이전트 사용 시 발생할 수 있는 비용 및 권한 관리
+
+### 🧭 확인이 더 필요한 정보
+사용하는 모델 및 클라우드 기능에 따른 구체적인 비용 체계 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Omi_CLI_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Omi_CLI_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Omi_CLI_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/mcp-draft-media/238a7ec6-3848-4e71-8366-dca7fe2ce32d.jpeg?auto=format)
+
+---
+
+## 9. [Ulika](https://www.producthunt.com/products/ulika)
+**Votes**: 86 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Visual editor for sites built with Claude, Cursor, or Codex
+**서비스 링크**: https://www.producthunt.com/r/RMUGMIHZYR2MRX
+
+**태그**: NoCode, WebDesign, DevOps, MarketingTool, AI Tool, Vision, DevTool, Marketing
+
+<img src="images/ph_2026-11-22_Ulika.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코드 수정 없이 웹사이트의 문구와 이미지를 직접 편집할 수 있는 비주얼 에디터
+
+### 🔑 주요 기능
+- Claude, Cursor, Codex로 구축된 React/Vite/Next 사이트와 연동
+- 개발자 도움 없이 마케터나 운영자가 직접 콘텐츠 수정 가능
+- 코드 수정 없이 즉시 배포할 수 있는 워크플로우 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자에게 티켓을 발행하는 번거로움 없이, 비개발 직군이 실시간으로 웹사이트 콘텐츠를 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 현재 운영 중인 React/Next 사이트 연동 테스트
+- 텍스트 및 이미지 편집 기능 사용해보기
+- 오픈 베타 버전 무료 체험하기
+
+### ⚠️ 사용 전 확인할 점
+- 코드 기반 사이트와의 연동 방식 및 보안성 확인 필요
+- 현재 오픈 베타 단계이므로 기능적 안정성 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+코드 수정 없이 배포될 때 기존 소스 코드와의 동기화 방식 및 충돌 방지 메커니즘에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Ulika_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Ulika_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Ulika_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/850c86cc-c7ba-4934-a845-9e0f9d81df19.jpeg?auto=format)
+
+---
+
+## 10. [Mockreel](https://www.producthunt.com/products/mockreel)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: your screen recording, but in a 3D phone. free, no signup
+**서비스 링크**: https://www.producthunt.com/r/JMDEOIWLDDDOHB
+
+**태그**: DesignTool, Marketing, VideoProduction, NoCode, Video
+
+<img src="images/ph_2026-11-22_Mockreel.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+로그인 없이 브라우저에서 즉시 만드는 고퀄리티 3D 디바이스 목업 영상 제작 도구
+
+### 🔑 주요 기능
+- 회원가입이나 설치 없이 브라우저에서 바로 실행 가능
+- iPhone, MacBook, iPad 등 다양한 3D 디바이스 프레임 제공
+- 화면 녹화나 스크린샷을 넣으면 자동으로 고해상도(최대 4K) 영상 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+앱 출시나 홍보를 위해 전문적인 디바이스 목업 영상이 필요한 개발자와 마케터가 비용과 번거로움 없이 고퀄리티 결과물을 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 보유 중인 앱 화면 녹화 파일 업로드하기
+- 원하는 디바이스 프레임과 카메라 움직임 선택하기
+- 헤드라인 문구 추가 후 4K MP4 파일로 내보내기
+
+### ⚠️ 사용 전 확인할 점
+- 별도의 계정 관리가 없으므로 작업 내용이 브라우저 세션 종료 시 사라질 수 있음
+- 클라우드 서버가 아닌 브라우저 기반 작업이므로 기기 성능이나 브라우저 환경에 영향을 받을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자 데이터가 서버에 저장되는지 여부와 대용량 파일 처리 시 브라우저 안정성에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Mockreel_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Mockreel_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Mockreel_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d04f9ac7-8eab-4ccf-812f-1d3efaad273f.jpeg?auto=format)
+
+---
+
+## 11. [Copy Haste](https://www.producthunt.com/products/copy-haste)
+**Votes**: 79 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Your clipboard, sorted into Text, Code, Links, Media & more
+**서비스 링크**: https://www.producthunt.com/r/SUORZF2SYS5RYG
+
+**태그**: Productivity, macOS, Utility, DevTool
+
+<img src="images/ph_2026-11-22_Copy_Haste.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+복사한 항목을 유형별로 자동 분류하여 찾는 시간을 줄여주는 스마트 클립보드 관리자
+
+### 🔑 주요 기능
+- 텍스트, 코드, 링크, 파일, 미디어 등 유형별 자동 컬럼 분류
+- 코드 문법 하이라이팅 및 20개 이상의 색상 포맷 감지
+- 개인정보 보호를 위한 로컬 저장 방식 및 계정 생성 불필요
+
+### 🙋 사용자에게 어떤 점이 좋은가
+단순 나열 방식의 클립보드 히스토리에서 벗어나, 필요한 데이터 유형을 즉각적으로 찾아 작업 효율을 높일 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 복사한 항목이 유형별로 잘 분류되는지 확인하기
+- 자주 사용하는 항목을 Pin 기능으로 고정해보기
+- 코드 하이라이팅 기능 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 전용 소프트웨어로 다른 OS에서는 사용 불가
+- 로컬 저장 방식이므로 기기 변경 시 데이터 이전 방식 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+상세한 가격 정책 및 유료 플랜 여부가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Copy_Haste_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Copy_Haste_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Copy_Haste_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/f230c7dd-1de8-45d3-8ac2-47d8f073bfcc.jpeg?auto=format)
+
+---
+
+## 12. [Wispim](https://www.producthunt.com/products/wispim-online-teleprompter)
+**Votes**: 77 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The teleprompter that follows your voice
+**서비스 링크**: https://www.producthunt.com/r/RXLYIKOAUUHADC
+
+**태그**: VideoProduction, ContentCreation, Productivity, SocialMedia, AI Tool, Prompting
+
+<img src="images/ph_2026-11-22_Wispim.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 음성 속도에 맞춰 실시간으로 움직이는 스마트 텔레프롬프터
+
+### 🔑 주요 기능
+- 음성 인식 기술을 통한 실시간 스크립트 동기화
+- 사용자의 일시정지 및 속도 조절에 유연하게 대응
+- SNS(Instagram, TikTok) 및 다양한 OS 환경 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+대본을 읽는 속도를 맞출 필요 없이 자연스러운 말하기가 가능하며, 영상 촬영 시 시선 처리를 자연스럽게 도와줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 목소리 톤에 맞춘 스크립트 동기화 테스트
+- 모바일 및 데스크톱 환경에서의 플로팅 스크립트 사용성 확인
+
+### ⚠️ 사용 전 확인할 점
+- 주변 소음이 심할 경우 음성 인식 정확도가 떨어질 수 있음
+- 사용 중인 카메라 앱과의 레이어(Overlay) 호환성 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+다양한 기기 환경에서의 구체적인 오버레이 기능 작동 방식과 상세 호환성 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Wispim_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Wispim_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Wispim_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/d09bcaae-ae3b-4012-8410-d3ef801311c7.jpeg?auto=format)
+
+---
+
+## 13. [Slotify](https://www.producthunt.com/products/slotify-2)
+**Votes**: 76 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Schedule game nights without leaving Discord
+**서비스 링크**: https://www.producthunt.com/r/ZJRAOP2RZ2O53F
+
+**태그**: Discord, Productivity, Automation, Social
+
+<img src="images/ph_2026-11-22_Slotify.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+디스코드 내에서 간편하게 게임 모임 시간을 조율하는 스케줄링 봇
+
+### 🔑 주요 기능
+- 디스코드 채널 내에서 즉시 실행 가능한 스케줄링 기능
+- 개별 링크를 통한 간편한 자유 시간 투표
+- 최적의 시간 자동 산출 및 디스코드 이벤트 자동 생성
+
+### 🙋 사용자에게 어떤 점이 좋은가
+별도의 외부 일정 관리 도구로 이동할 필요 없이 디스코드 안에서 모든 모임 일정을 확정할 수 있어 편리합니다.
+
+### ✅ 지금 바로 써볼 기능
+- /slotify 명령어로 투표 시작하기
+- 개인별 자유 시간 입력하기
+- 확정된 시간을 디스코드 이벤트로 전환하기
+
+### ⚠️ 사용 전 확인할 점
+- 디스코드 서버 권한 설정 필요 여부 확인
+- 개인별 링크를 통한 데이터 수집 방식 확인
+
+### 🧭 확인이 더 필요한 정보
+사용자 개인 정보가 어떻게 처리되는지에 대한 구체적인 보안 정책 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Slotify_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Slotify_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Slotify_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/a41c3904-f8f8-4175-8b66-e74bdbeb4fba.jpeg?auto=format)
+
+---
+
+## 14. [TeaserKit](https://www.producthunt.com/products/teaserkit)
+**Votes**: 73 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: your coding agent directs your launch video
+**서비스 링크**: https://www.producthunt.com/r/Z7T4PLU64AYRCX
+
+**태그**: DevTool, Automation, VideoGen, AI-Agent, Agent, AI Tool, Video
+
+<img src="images/ph_2026-11-22_TeaserKit.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+코딩 에이전트가 직접 제품 홍보 영상을 제작하도록 돕는 자동화 디렉터
+
+### 🔑 주요 기능
+- Claude Code, Cursor 등 코딩 에이전트와 연동하여 영상 제작 자동화
+- 코드 저장소나 웹사이트를 기반으로 컨셉, 스타일, 음악이 포함된 영상 생성
+- 로컬 Studio 앱 제공 및 일회성 구매 방식
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발자가 코드를 짜는 동시에 제품 홍보 영상을 자동으로 만들 수 있어, 출시 준비 시간을 획기적으로 단축해 줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 한 줄 명령어로 설치하여 에이전트와 연결하기
+- 로컬 Studio 앱에서 생성된 영상 스타일 확인하기
+- 기존 코드 저장소를 연결하여 데모 영상 생성해보기
+
+### ⚠️ 사용 전 확인할 점
+- 에이전트(Cursor, Claude Code 등)의 작업 방식에 따라 결과물 품질이 달라질 수 있음
+- 로컬 환경 설치 및 에이전트 권한 설정 필요
+
+### 🧭 확인이 더 필요한 정보
+사용 중인 특정 코딩 에이전트와의 호환성 및 최종 렌더링 품질에 대한 구체적인 벤치마크가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_TeaserKit_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_TeaserKit_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_TeaserKit_media_2.jpg)
+
+---
+
+## 15. [Pushback](https://www.producthunt.com/products/pushback-flight-tracker)
+**Votes**: 72 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: The flight tracker that knows which lounge you can use
+**서비스 링크**: https://www.producthunt.com/r/XFBROXM4KGBSLT
+
+**태그**: Travel, Productivity, Mobile App
+
+<img src="images/ph_2026-11-22_Pushback.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+사용자의 등급과 카드를 기반으로 라운지 이용 가능 여부와 연결편 정보를 제공하는 스마트 항공 트래커
+
+### 🔑 주요 기능
+- 사용자의 멤버십 상태 및 신용카드 혜택에 따른 라운지 이용 정보 제공
+- 연결편 성공 여부 및 좌석 정보를 3D로 시각화하여 제공
+- 지연 발생 시 보상 가능 여부 확인 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+항공 여행 시 복잡한 혜택 정보를 일일이 확인할 필요 없이, 자신의 자격에 맞는 라운지와 좌석 정보를 한눈에 파악할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 자신의 항공사/카드 등급 연동하기
+- 실시간 연결편 및 3D 좌석 정보 확인하기
+- 지연 시 보상 규정 체크하기
+
+### ⚠️ 사용 전 확인할 점
+- 현재 출시 초기 단계로 서비스 안정성 확인 필요
+- 개인 카드 및 항공사 계정 정보 입력에 따른 보안 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+사용자의 카드 및 항공사 등급 정보를 어떤 방식으로 연동하고 보안을 유지하는지에 대한 상세 정보가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Pushback_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Pushback_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Pushback_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/9905fb2e-e1fc-436f-ae68-5c7ea6468246.jpeg?auto=format)
+
+---
+
+## 16. [Do It For Them Wallpaper Maker](https://www.producthunt.com/products/do-it-for-them-wallpaper-maker)
+**Votes**: 70 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Photo wallpapers for the people you do it for
+**서비스 링크**: https://www.producthunt.com/r/KGUPC67OJMHXIB
+
+**태그**: Design, Personalization, CreativeTool, Video
+
+<img src="images/ph_2026-11-22_Do_It_For_Them_Wallpaper_Maker.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+소중한 사진을 감각적인 콜라주 월페이퍼로 만들어주는 브라우저 기반 디자인 도구
+
+### 🔑 주요 기능
+- 사진을 테이프 콜라주 스타일의 레이아웃으로 배치
+- 폰, 데스크탑, 화상 회의 배경, 소셜 배너 등 다양한 규격 지원
+- 텍스트 추가 및 브라우저 내 자유로운 레이아웃 편집 가능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+소중한 사람이나 순간이 담긴 사진을 디지털 기기 곳곳에 감성적인 디자인으로 배치하여 개인화된 환경을 만들 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 워터마크 버전으로 레이아웃 구성해보기
+- 자신만의 문구 추가하여 커스텀 디자인하기
+- 다양한 기기용 규격에 맞춰 사진 배치해보기
+
+### ⚠️ 사용 전 확인할 점
+- 무료 버전은 워터마크가 포함됨
+- 워터마크 없는 고해상도(300 DPI) 및 대형 인쇄용 PDF는 유료 결제 필요
+
+### 🧭 확인이 더 필요한 정보
+유료 결제 시 제공되는 5개의 내보내기 권한이 일회성인지 혹은 누적 방식인지 명확하지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Do_It_For_Them_Wallpaper_Maker_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Do_It_For_Them_Wallpaper_Maker_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Do_It_For_Them_Wallpaper_Maker_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/ac34a804-27a4-4bed-9d2f-48e72434d19e.jpeg?auto=format)
+
+---
+
+## 17. [30yr-uptime](https://www.producthunt.com/products/30yr-uptime)
+**Votes**: 68 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Claude Code mod for taking care of your body
+**서비스 링크**: https://www.producthunt.com/r/WEHAOZA53IZPU4
+
+**태그**: DevTool, HealthTech, Productivity, Workflow, AI Tool
+
+<img src="images/ph_2026-11-22_30yr-uptime.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+Claude Code 대기 시간을 건강한 스트레칭 시간으로 바꿔주는 개발자용 모드
+
+### 🔑 주요 기능
+- Claude의 응답 대기 시간을 활용한 움직임 유도
+- 목, 허리, 손목 등 신체 부위별 16가지 맞춤형 동작 제공
+- 로컬 실행 방식으로 토큰 소모 및 개인정보 유출 걱정 없음
+
+### 🙋 사용자에게 어떤 점이 좋은가
+개발 중 발생하는 강제적인 휴식 시간을 활용해 거북목이나 신체 경직을 예방할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 45분 간격의 움직임 알림 설정하기
+- 15초 이상 소요되는 작업 시 나타나는 픽셀 캐릭터 동작 따라하기
+- 필요 시 'Skip' 기능을 통해 작업 흐름 유지하기
+
+### ⚠️ 사용 전 확인할 점
+- 작업 흐름(Flow)이 끊길 수 있으므로 집중이 필요한 시점에는 주의 필요
+- Claude Code 환경에 설치 및 설정이 선행되어야 함
+
+### 🧭 확인이 더 필요한 정보
+Claude Code 환경에서의 구체적인 설치 방법과 로컬 실행 환경에 대한 상세 사양이 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_30yr-uptime_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_30yr-uptime_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_30yr-uptime_media_2.jpg)
+
+---
+
+## 18. [DeNotch](https://www.producthunt.com/products/denotch)
+**Votes**: 68 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Hide the MacBook notch and tame your menu bar
+**서비스 링크**: https://www.producthunt.com/r/A723IINOD4ZOQE
+
+**태그**: Productivity, macOS, Utility, AI Tool
+
+<img src="images/ph_2026-11-22_DeNotch.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+맥북 노치 가림 기능과 메뉴바 정리를 결합한 생산성 도구
+
+### 🔑 주요 기능
+- 다양한 배경화면(Dynamic/Aerial 포함)에 대응하는 블랙 바를 통한 노치 가리기
+- 메뉴바 아이콘 정리 및 상황에 따른 앱 아이콘 표시 기능
+- CPU, 배터리, 네트워크 등 실시간 위젯을 제공하는 필(Pill) 형태의 대시보드
+
+### 🙋 사용자에게 어떤 점이 좋은가
+노치로 인한 화면 간섭을 해결하고, 복잡한 메뉴바를 깔끔하게 정리하여 시각적 몰입감을 높여줍니다.
+
+### ✅ 지금 바로 써볼 기능
+- 노치 가리기 기능으로 화면 일체감 확인하기
+- 메뉴바 아이콘 숨기기 및 배치 기능 설정하기
+- 실시간 위젯(CPU, 배터리 등) 활용하기
+
+### ⚠️ 사용 전 확인할 점
+- macOS 26 이상의 버전에서만 작동함
+- 현재 베타 버전 상태임
+
+### 🧭 확인이 더 필요한 정보
+macOS 26 버전의 출시 일정 및 해당 소프트웨어의 호환성 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_DeNotch_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_DeNotch_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_DeNotch_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/bb5d637d-80ab-499e-a5ef-0e44b99497b2.jpeg?auto=format)
+
+---
+
+## 19. [Zapyso](https://www.producthunt.com/products/zapyso)
+**Votes**: 67 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Free meeting notes and dictation that stay on your Mac
+**서비스 링크**: https://www.producthunt.com/r/4IF373ZI2ZYN7T
+
+**태그**: Productivity, AI, Privacy, Mac
+
+<img src="images/ph_2026-11-22_Zapyso.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+개인정보 유출 걱정 없이 Mac에서 바로 실행되는 온디바이스 회의 기록 및 요약 도구
+
+### 🔑 주요 기능
+- 봇 참여 없이 Mac 자체에서 녹음하여 보안성 극대화
+- Zoom, Teams, Google Meet 등 다양한 화상 회의 자동 감지
+- 온디바이스(On-device) 방식의 음성 인식 및 요약으로 데이터 외부 유출 방지
+
+### 🙋 사용자에게 어떤 점이 좋은가
+회의 내용이 클라우드에 저장되지 않아 보안이 중요한 업무에 적합하며, 별도 계정 없이 즉시 사용할 수 있어 편리합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 화상 회의 중 자동 녹음 및 요약 기능 테스트
+- Command(⌘) 키를 활용한 앱 간 받아쓰기 기능 활용
+
+### ⚠️ 사용 전 확인할 점
+- Apple Silicon(M 시리즈) 및 macOS 15 이상의 환경 필수
+- 온디바이스 연산으로 인해 Mac의 시스템 자원(CPU/RAM) 사용량 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+Apple Silicon 및 macOS 15 환경에서의 구체적인 성능 저하 여부는 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Zapyso_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Zapyso_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Zapyso_media_2.jpg)
+
+---
+
+## 20. [Raccoon Kids](https://www.producthunt.com/products/raccoon-kids)
+**Votes**: 65 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Gamify Chores for Kids: no more nagging, just a cute raccoon
+**서비스 링크**: https://www.producthunt.com/r/5ZJUPTGHYNOIVO
+
+**태그**: Family, Gamification, Productivity, Kids
+
+<img src="images/ph_2026-11-22_Raccoon_Kids.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+귀여운 너구리 캐릭터와 게임 요소를 결합하여 아이들의 집안일을 즐거운 놀이로 바꾸는 서비스
+
+### 🔑 주요 기능
+- 자동 알림 기능을 통한 부모의 잔소리 감소
+- 사진 인증 및 부모 승인 기반의 신뢰도 높은 작업 확인
+- 완료된 작업에 대해 코인을 지급하고 보상으로 교환하는 게임화 요소
+
+### 🙋 사용자에게 어떤 점이 좋은가
+매일 반복되는 집안일 독촉 문제를 아이들이 스스로 움직이게 만드는 재미있는 보상 체계로 해결할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아이와 함께 보상으로 바꿀 코인 항목 설정하기
+- 아이의 성향에 맞는 귀여운 너구리 캐릭터 확인하기
+- 집안일 사진 인증 프로세스 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 아이의 자발적인 참여가 지속될 수 있는지 확인 필요
+- 부모의 승인 과정이 번거로울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 보상 체계(코인 교환 방식)와 플랫폼 지원 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_2.jpg)
+
+---
+
+## 21. [Raccoon Kids](https://www.producthunt.com/products/raccoon-kids)
+**Votes**: 65 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Gamify Chores for Kids: no more nagging, just a cute raccoon
+**서비스 링크**: https://www.producthunt.com/r/5ZJUPTGHYNOIVO
+
+**태그**: Family, Gamification, Productivity, Kids
+
+<img src="images/ph_2026-11-22_Raccoon_Kids.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+귀여운 너구리 캐릭터와 게임 요소를 결합하여 아이들의 집안일을 즐거운 놀이로 바꾸는 서비스
+
+### 🔑 주요 기능
+- 자동 알림 기능을 통한 부모의 잔소리 감소
+- 사진 인증 및 부모 승인 기반의 신뢰도 높은 작업 확인
+- 완료된 작업에 대해 코인을 지급하고 보상으로 교환하는 게임화 요소
+
+### 🙋 사용자에게 어떤 점이 좋은가
+매일 반복되는 집안일 독촉 문제를 아이들이 스스로 움직이게 만드는 재미있는 보상 체계로 해결할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 아이와 함께 보상으로 바꿀 코인 항목 설정하기
+- 아이의 성향에 맞는 귀여운 너구리 캐릭터 확인하기
+- 집안일 사진 인증 프로세스 테스트하기
+
+### ⚠️ 사용 전 확인할 점
+- 아이의 자발적인 참여가 지속될 수 있는지 확인 필요
+- 부모의 승인 과정이 번거로울 수 있음
+
+### 🧭 확인이 더 필요한 정보
+구체적인 보상 체계(코인 교환 방식)와 플랫폼 지원 범위에 대한 정보가 부족합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Raccoon_Kids_media_2.jpg)
+
+---
+
+## 22. [Verge: Corner Controls](https://www.producthunt.com/products/verge-corner-controls)
+**Votes**: 63 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Swipe a screen corner to set brightness, volume and more
+**서비스 링크**: https://www.producthunt.com/r/IPEHVLQVM2RBG6
+
+**태그**: Android, Productivity, Utility, Privacy
+
+<img src="images/ph_2026-11-22_Verge_Corner_Controls.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+화면 모서리 스와이프로 밝기, 볼륨 등을 제어하는 직관적인 안드로이드 컨트롤 앱
+
+### 🔑 주요 기능
+- 화면 네 모서리를 활용한 직관적인 제어 방식
+- 밝기 조절(0% 미만 엑스트라 딤 포함), 볼륨, 앱 실행, 플래시 등 지원
+- 광고, 계정, 인터넷 권한, 접근성 서비스가 필요 없는 개인정보 보호 중심 설계
+
+### 🙋 사용자에게 어떤 점이 좋은가
+기존의 시스템 설정을 번거로운 메뉴 진입 없이 화면 모서리 스와이프만으로 빠르게 조작할 수 있어 조작 편의성이 극대화됩니다.
+
+### ✅ 지금 바로 써볼 기능
+- 모서리 스와이프로 화면 밝기 및 볼륨 조절해보기
+- 플래시 및 방해 금지 모드 등 퀵 툴 활용하기
+- 백 제스처 간섭 여부 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 기존의 시스템 제스처(뒤로 가기 등)와 충돌이 없는지 확인 필요
+- 특정 기기나 화면 비율에 따라 스와이프 영역이 다르게 느껴질 수 있음
+
+### 🧭 확인이 더 필요한 정보
+사용자의 기기 모델 및 안드로이드 버전에 따른 제스처 간섭 여부는 직접 테스트가 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Verge_Corner_Controls_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Verge_Corner_Controls_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Verge_Corner_Controls_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/mcp-draft-media/5cd1f9e0-149f-43b4-b3d5-b874b256b35a.jpeg?auto=format)
+
+---
+
+## 23. [Squint](https://www.producthunt.com/products/squint)
+**Votes**: 63 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Explains whatever you're looking at, now on Mac
+**서비스 링크**: https://www.producthunt.com/r/HWTEFOUJ6RVPVZ
+
+**태그**: Productivity, AI, DesktopApp, Workflow, Agent, AI Tool, Chat
+
+<img src="images/ph_2026-11-22_Squint.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+화면 속 무엇이든 드래그하여 즉시 설명을 듣는 데스크톱 AI 비서
+
+### 🔑 주요 기능
+- 화면 영역 지정 방식으로 앱 전환 없이 즉각적인 답변 제공
+- Mac, Windows, Linux를 지원하는 멀티 플랫폼 호환성
+- 사용자 언어 지원 및 코딩 에이전트용 복사 기능 탑재
+
+### 🙋 사용자에게 어떤 점이 좋은가
+웹 서핑이나 작업 중 궁금한 점이 생겼을 때 창을 옮길 필요 없이 화면 위에서 바로 답을 얻을 수 있어 작업 흐름이 끊기지 않습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 단축키를 설정하여 화면 영역 지정 기능 사용해보기
+- 자신의 모국어로 답변 설정하여 가독성 높이기
+- 코드 복사 기능을 활용해 코딩 에이전트와 연동하기
+
+### ⚠️ 사용 전 확인할 점
+- 화면 캡처 방식이므로 개인정보나 민감한 정보가 포함된 화면 작업 시 주의 필요
+- 무료 플랜의 사용량 제한 여부 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+무료 플랜의 구체적인 기능 제한 범위와 유료 플랜의 가격 정책은 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Squint_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Squint_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Squint_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/6a830879-d95e-40b0-81c4-c5f75adeda56.jpeg?auto=format)
+
+---
+
+## 24. [Leapdeck](https://www.producthunt.com/products/leapdeck)
+**Votes**: 60 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Leap to any Mac Space from a key or your iPhone
+**서비스 링크**: https://www.producthunt.com/r/6SN2WK6K5JKHOY
+
+**태그**: Productivity, Mac, Automation, Workflow, AI Tool
+
+<img src="images/ph_2026-11-22_Leapdeck.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+키보드나 아이폰을 통해 맥(Mac)의 데스크탑 스페이스로 즉시 이동하는 생산성 도구
+
+### 🔑 주요 기능
+- 키보드 단축키, 메뉴바 클릭, 아이폰 터치로 원하는 스페이스로 즉시 이동
+- SIP(시스템 무결성 보호)를 유지하며 보안과 계정 생성 없이 사용 가능
+- 구독형이 아닌 일회성 구매 방식의 Pro 버전 제공
+
+### 🙋 사용자에게 어떤 점이 좋은가
+여러 개의 데스크탑 스페이스를 사용하는 맥 사용자라면, 번거로운 전환 과정 없이 원하는 작업 공간으로 즉각 이동하여 작업 흐름을 유지할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 버전을 설치하여 기본 단축키 기능 테스트하기
+- 아이폰과 연동하여 모바일로 데스크탑 제어해보기
+
+### ⚠️ 사용 전 확인할 점
+- Pro 버전의 고급 기능(위젯, Siri 등)은 별도 구매 필요
+- 아이폰 연동 시 추가적인 설정 과정이 필요할 수 있음
+
+### 🧭 확인이 더 필요한 정보
+Pro 버전의 상세 기능과 하드웨어 호환성에 대한 구체적인 요구사항은 공식 페이지 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Leapdeck_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Leapdeck_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Leapdeck_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/2bf8a57c-2bd0-48fb-b8c4-5a9784992fbd.jpeg?auto=format)
+
+---
+
+## 25. [Perfstaq](https://www.producthunt.com/products/perfstaq)
+**Votes**: 50 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Are you a top 1% developer? Prove it in one command
+**서비스 링크**: https://www.producthunt.com/r/3S3HS72UH5FO7X
+
+**태그**: DevTool, Verification, Productivity, AI Tool
+
+<img src="images/ph_2026-11-22_Perfstaq.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+로컬 개발 기록을 분석하여 개발 실력을 검증하고 증명하는 도구
+
+### 🔑 주요 기능
+- 로컬 Git 기록 및 AI 코딩 세션(Claude, Cursor 등) 분석을 통한 실력 검증
+- 데이터가 로컬에만 머무는 프라이버시 중심 설계
+- GitHub 스팟 체크를 통한 커밋 신뢰성 확보
+
+### 🙋 사용자에게 어떤 점이 좋은가
+자신의 실제 코딩 숙련도를 객관적인 데이터로 증명하여 클라이언트나 채용 시장에서 신뢰를 얻을 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 한 줄 명령어로 로컬 개발 데이터 스캔하기
+- 자신의 개발 순위(Top 1% 등) 확인하기
+- 공유용 인증 카드 및 검증 링크 생성하기
+
+### ⚠️ 사용 전 확인할 점
+- 로컬 데이터 스캔 시 개인정보 및 민감한 코드 노출 여부 확인 필요
+- GitHub 스팟 체크 방식이 실제 실력을 완벽히 대변하는지에 대한 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+로컬 데이터가 외부로 유출되지 않는 구체적인 기술적 메커니즘에 대한 상세 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Perfstaq_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Perfstaq_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Perfstaq_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/mcp-draft-media/2c08c095-d973-46b9-9818-e6afd15f2a45.jpeg?auto=format)
+
+---
+
+## 26. [COKIQ](https://www.producthunt.com/products/cokiq)
+**Votes**: 29 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Cookie consent for Indian websites, with a DPDP Act profile
+**서비스 링크**: https://www.producthunt.com/r/YLUTDKZ27Z6FOB
+
+**태그**: Privacy, Compliance, MarketingTech, DataProtection, AI Tool, API
+
+<img src="images/ph_2026-11-22_COKIQ.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+인도 DPDP법 준수를 지원하는 쿠키 동의 및 트래커 관리 솔루션
+
+### 🔑 주요 기능
+- 인도 DPDP법 및 EU/UK/US 규제 프로필 제공
+- 쿠키, 태그, 픽셀 스캔 및 사용자 선택 전 트래커 실행 차단
+- Google Consent Mode v2 연동 및 데이터 기록 내보내기 지원
+
+### 🙋 사용자에게 어떤 점이 좋은가
+인도 시장을 타겟팅하는 웹사이트 운영자가 복잡한 개인정보 보호법을 준수하면서도 구글 광고 및 분석 설정을 손쉽게 관리할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 무료 플랜으로 단일 사이트 적용 테스트
+- GTM 템플릿을 통한 기존 태그 관리 환경 연동
+- DPDP법 프로필 설정 및 데이터 기록 기능 확인
+
+### ⚠️ 사용 전 확인할 점
+- 무료 플랜은 단일 사이트만 지원하므로 확장 시 비용 발생
+- 인도 법규 특화 서비스이므로 타 지역 적용 시 프로필 설정 확인 필요
+
+### 🧭 확인이 더 필요한 정보
+제공되는 API와 앱의 상세 기능 및 기술적 호환성에 대한 구체적인 명세 확인이 필요합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_COKIQ_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_COKIQ_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_COKIQ_media_2.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/b95e098d-b12c-4625-a7cc-e94a4bbd83e0.jpeg?auto=format)
+
+---
+
+## 27. [Size](https://www.producthunt.com/products/size)
+**Votes**: 13 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: A trading survival game on live market prices
+**서비스 링크**: https://www.producthunt.com/r/72LEGUZP5FI7XL
+
+**태그**: Trading, Gaming, FinTech, Competition
+
+<img src="images/ph_2026-11-22_Size.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+실시간 시장 가격을 기반으로 경쟁하는 트레이딩 서바이벌 게임
+
+### 🔑 주요 기능
+- 실시간 시장 가격을 활용한 경쟁형 캐시 게임
+- 단계별 탈락 방식의 서바이벌 트레이딩 시스템
+- 데모 및 연습 모드를 통한 실전 대비 기능
+
+### 🙋 사용자에게 어떤 점이 좋은가
+실제 시장 변동성을 활용해 트레이딩 실력을 겨루며, 연습 모드를 통해 리스크 없이 게임 방식을 익힐 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 데모 모드로 게임 방식 체험하기
+- 연습 모드에서 트레이딩 전략 테스트하기
+- 실제 캐시 게임 참여 전 규정 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 현금 참여 시 발생하는 진입 및 지급 조건 확인 필요
+- 실제 시장 가격을 사용하므로 시장 변동성에 따른 손실 위험 존재
+
+### 🧭 확인이 더 필요한 정보
+상세한 진입 금액 및 수익 배분(payout) 조건에 대한 구체적인 규정이 명시되어 있지 않습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Size_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Size_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Size_media_2.jpg)
+
+---
+
+## 28. [MindPal MCP](https://www.producthunt.com/products/mindpal-ai)
+**Votes**: 7 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: ChatGPT & Claude build AI tools your clients use
+**서비스 링크**: https://www.producthunt.com/r/R62DBSYPSQGJWJ
+
+**태그**: AI-Agent, Automation, NoCode, Workflow, DevTool, Agent, AI Tool, Chat
+
+<img src="images/ph_2026-11-22_MindPal_MCP.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+자연어로 AI 에이전트와 워크플로우를 구축하여 클라이언트용 도구로 즉시 배포하는 MCP 도구
+
+### 🔑 주요 기능
+- ChatGPT, Claude, Cursor 등 주요 AI 환경과 연동 가능
+- 자연어 명령만으로 지식 기반의 AI 에이전트 및 워크플로우 생성
+- 생성된 AI 도구를 링크 형태로 팀이나 클라이언트에게 즉시 공유 및 배포
+
+### 🙋 사용자에게 어떤 점이 좋은가
+복잡한 코딩 없이 대화만으로 실용적인 AI 도구를 만들어 고객에게 서비스할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 기존 LLM(ChatGPT, Claude 등)에 MindPal MCP 연결하기
+- 보유한 지식 데이터를 활용해 맞춤형 AI 에이전트 구축하기
+- 생성된 AI 도구를 링크로 배포하여 피드백 확인하기
+
+### ⚠️ 사용 전 확인할 점
+- 사용 중인 지식 데이터의 보안 및 프라이버시 정책 확인 필요
+- 복잡한 로직 구현 시 자연어 명령만으로 한계가 있을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+MindPal 플랜별로 제공되는 기능의 범위와 배포 가능한 도구 수의 차이를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_MindPal_MCP_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_MindPal_MCP_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_MindPal_MCP_media_3.jpg)
+
+### 🎬 관련 영상
+- [🎥 영상 보기](https://ph-files.imgix.net/mcp-draft-media/dbbb5f1b-44bc-4b55-8561-cda9f311647f.jpeg?auto=format)
+
+---
+
+## 29. [Hakanow](https://www.producthunt.com/products/hakanow)
+**Votes**: 5 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Run hackathons builders love, from sign-up to prizes
+**서비스 링크**: https://www.producthunt.com/r/HRVNJUYDDS3DYG
+
+**태그**: NoCode, EventManagement, Hackathon, Collaboration
+
+<img src="images/ph_2026-11-22_Hakanow.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+참가자 모집부터 심사 및 경품 지급까지 해커톤의 전 과정을 관리하는 올인원 플랫폼
+
+### 🔑 주요 기능
+- 참가자 등록, 팀 빌딩, 프로젝트 제출까지 이어지는 원스톱 워크플로우
+- 가중치 기반 루브릭을 활용한 체계적인 심사 및 점수 관리
+- 경품 추적 및 최종 당첨 확인까지 포함된 투명한 운영 프로세스
+
+### 🙋 사용자에게 어떤 점이 좋은가
+해커톤 운영 시 발생하는 복잡한 행정 절차를 자동화하여 운영 효율을 높이고, 참가자들에게는 매끄러운 이벤트 경험을 제공합니다.
+
+### ✅ 지금 바로 써볼 기능
+- 해커톤 이벤트 생성 및 등록 기능 테스트
+- 심사 루브릭 설정 및 점수 산출 기능 확인
+- 팀 빌딩 및 제출 프로세스 흐름 파악
+
+### ⚠️ 사용 전 확인할 점
+- 플랫폼 내 커뮤니티 활성화 여부 확인 필요
+- 대규모 인원 동시 접속 시 안정성 검토 필요
+
+### 🧭 확인이 더 필요한 정보
+플랫폼의 구체적인 요금 체계와 대규모 이벤트 지원 기능에 대한 정보가 명시되지 않았습니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Hakanow_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Hakanow_media_2.jpg)
+![Screenshot](images/ph_2026-11-22_Hakanow_media_3.jpg)
+
+---
+
+## 30. [Roughs](https://www.producthunt.com/products/roughs)
+**Votes**: 4 | **도입 난이도**: 하 | **신뢰도**: 상
+**Tagline**: Share design work, from early ideas to finished projects
+**서비스 링크**: https://www.producthunt.com/r/YLOA7OUUFVXGJE
+
+**태그**: Design, Community, Inspiration, AI Tool
+
+<img src="images/ph_2026-11-22_Roughs.jpg" width="80" style="border-radius: 10px; margin-bottom: 20px;">
+
+### 📌 이 서비스 한눈에 보기
+초기 아이디어부터 완성작까지, 광고 없이 디자인 영감을 나누는 디자이너 전용 커뮤니티
+
+### 🔑 주요 기능
+- 아이디어 단계부터 최종 프로젝트까지 디자인 작업물 공유 가능
+- 광고와 방해 요소 없는 순수한 디자인 탐색 및 발견 환경 제공
+- 현재 초대 기반의 소규모 커뮤니티로 운영 중
+
+### 🙋 사용자에게 어떤 점이 좋은가
+디자이너가 작업 과정을 공유하며 영감을 얻고, 다른 이들의 창의적인 실험을 방해 없이 감상할 수 있습니다.
+
+### ✅ 지금 바로 써볼 기능
+- 대기 명단(Waitlist)에 등록하여 초대 권한 확보하기
+- 자신의 초기 디자인 실험 작업물 정리하기
+
+### ⚠️ 사용 전 확인할 점
+- 현재 초대 기반(Invite-only) 서비스로 즉시 가입이 제한될 수 있음
+- 초기 단계 서비스로 기능 및 커뮤니티 규모가 작을 수 있음
+
+### 🧭 확인이 더 필요한 정보
+현재 서비스가 초대 기반으로 운영되고 있어 일반 사용자의 즉각적인 접근 가능 여부를 확인해야 합니다.
+
+### 📸 스크린샷 및 갤러리
+![Screenshot](images/ph_2026-11-22_Roughs_media_0.jpg)
+![Screenshot](images/ph_2026-11-22_Roughs_media_1.jpg)
+![Screenshot](images/ph_2026-11-22_Roughs_media_2.jpg)
+
+---
+
