@@ -1,0 +1,644 @@
+{
+  "source": "community",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T05:00:08.107408+09:00",
+  "count": 20,
+  "daily_summary": "오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+  "daily_key_points": [
+    "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+    "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+    "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+  ],
+  "daily_tags": [
+    "Mathematics",
+    "젠슨 황",
+    "Anthropic",
+    "CVE",
+    "Formal Verification"
+  ],
+  "chat_message": "💬 오늘의 커뮤니티 반응\n\n📌 요약: 오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.\n\n- 보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.\n- AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.\n- MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다.\n\n🔎 대표 항목\n📍 Hacker News · Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\n📝 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 증명이 발표되어 학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 검증 방식에 대한 새로운 논쟁을 불러일으키고 있습니다.\n\n📍 GeekNews / Hada · Cyberleek이 게시한 GTA 6 Xbox 빌드 실행 파일\n📝 게임 개발사의 보안 관리 체계가 무너진 상황에서 핵심 빌드 파일이 유출된 심각한 보안 사고입니다. 이는 향후 게임 출시 일정과 저작권 보호에 있어 막대한 영향을 미칠 수 있습니다.\n\n📍 Hacker News · Hurried Announcement: Alessandro Masullo GRH\n📝 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명안이 발표되었으나, 공개 직후 AI 모델을 통한 오류 발견으로 논란이 되고 있습니다. 학계 전문가들의 검토와 AI의 분석 결과가 충돌하며 증명의 유효성을 두고 논쟁이 벌어지고 있습니다.\n\n\n👉 전체 보기\nhttps://pyosignal.pages.dev/community",
+  "items": [
+    {
+      "id": "hacker-news-50574968",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 증명이 발표되어 학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 검증 방식에 대한 새로운 논쟁을 불러일으키고 있습니다.",
+      "article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)을 증명했다고 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 이는 기존의 종이 기반 증명을 넘어 Lean과 같은 정형 검증 도구를 활용한 현대적 수학 증명의 형태를 보여줍니다.",
+      "external_article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)을 증명했다고 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 이는 기존의 종이 기반 증명을 넘어 Lean과 같은 정형 검증 도구를 활용한 현대적 수학 증명의 형태를 보여줍니다.",
+      "discussion_summary": "증명의 규모가 1,500만 라인에 달할 정도로 거대하다는 점에 대해 기술적 검증의 난이도를 우려하는 시각과, 수학적 정교함을 갖춘 새로운 시대의 증명 방식이라는 시각이 대립하고 있습니다.",
+      "key_points": [
+        "일반화된 리만 가설(GRH)에 대한 새로운 증명 시도가 공개되었습니다.",
+        "증명 데이터는 1.3GB 용량과 1,500만 라인의 코드로 구성된 거대한 규모를 가집니다.",
+        "수학적 난제를 해결하기 위한 정형 검증 및 코드 기반 증명의 가능성을 제시합니다."
+      ],
+      "tags": [
+        "Mathematics",
+        "Riemann Hypothesis",
+        "Formal Verification"
+      ],
+      "published_at_kst": "2026-11-20T23:16:21+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50574968",
+      "rank": 1,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50574968"
+      },
+      "score": 2919,
+      "comments_count": 2099
+    },
+    {
+      "id": "hacker-news-50579568",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명안이 발표되었으나, 공개 직후 AI 모델을 통한 오류 발견으로 논란이 되고 있습니다. 학계 전문가들의 검토와 AI의 분석 결과가 충돌하며 증명의 유효성을 두고 논쟁이 벌어지고 있습니다.",
+      "article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. Brian Conrad의 피드백을 거쳐 완성도를 높이려던 계획이었으나, 초안이 공개된 지 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아냈습니다. 현재 이 증명은 수정 단계에 있으며, 커뮤니티의 검증을 통해 수학적 정당성을 확보해야 하는 상황입니다.",
+      "external_article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. Brian Conrad의 피드백을 거쳐 완성도를 높이려던 계획이었으나, 초안이 공개된 지 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아냈습니다. 현재 이 증명은 수정 단계에 있으며, 커뮤니티의 검증을 통해 수학적 정당성을 확보해야 하는 상황입니다.",
+      "discussion_summary": "12년간 연구해 온 저자의 노력이 AI에 의해 부정당한 상황에 대한 안타까움과, Brian Conrad이 검토 과정에서 사용한 AI가 의도치 않게 증명 내용을 유출했을 가능성에 대한 의구심이 대립하고 있습니다.",
+      "key_points": [
+        "Alessandro Masullo가 제안한 GRH 증명 초안이 공개되었으나 AI 모델을 통해 즉각적인 오류가 발견되었습니다.",
+        "수학적 난제 해결 과정에서 인간의 검토와 AI의 분석 속도 차이가 새로운 변수로 등장했습니다.",
+        "증명의 최종 수용 여부는 커뮤니티의 엄격한 검증과 발견된 오류의 해결 여부에 달려 있습니다."
+      ],
+      "tags": [
+        "Mathematics",
+        "GRH",
+        "AI",
+        "Proof"
+      ],
+      "published_at_kst": "2026-11-21T03:33:14+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50579568",
+      "rank": 2,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50579568"
+      },
+      "score": 2450,
+      "comments_count": 1218
+    },
+    {
+      "id": "hacker-news-50547374",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "summary": "Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대해 논의하고 있습니다.",
+      "article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 업데이트를 통해 해당 문제들을 해결했습니다.",
+      "external_article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 업데이트를 통해 해당 문제들을 해결했습니다.",
+      "discussion_summary": "오픈소스 저장소의 패치 내역을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 위험도가 관리 가능한 수준이라는 의견이 대립하고 있습니다.",
+      "key_points": [
+        "Nginx의 HTTP/2 프로토콜 구현에서 발생하는 원격 코드 실행 취약점은 서버 제어권을 완전히 탈취할 수 있는 위험을 초래합니다.",
+        "취약점이 포함된 패치가 공개된 후 공격자가 이를 역공학하여 악용할 수 있는 윈도우 타임이 존재합니다.",
+        "영향을 받는 서버는 즉시 최신 버전의 Nginx로 업데이트하거나 HTTP/2 설정을 검토해야 합니다."
+      ],
+      "tags": [
+        "Nginx",
+        "RCE",
+        "HTTP/2",
+        "CVE",
+        "Vulnerability"
+      ],
+      "published_at_kst": "2026-11-19T00:19:55+09:00",
+      "category": "보안/프라이버시",
+      "canonical_path": "/community/hacker-news-50547374",
+      "rank": 3,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50547374"
+      },
+      "score": 1517,
+      "comments_count": 646
+    },
+    {
+      "id": "hacker-news-50581260",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "summary": "새로운 루프형 트랜스포머 아키텍처를 적용한 Inkling 2 Mini 모델이 발표되었습니다. 이 모델은 적은 파라미터로도 높은 추론 성능을 내며, 노트북에서도 구동 가능한 효율성을 목표로 합니다.",
+      "article_summary": "Inkling 2 Mini는 26.4B 전체 파라미터 중 3.4B만 활성화하는 MoE(Mixture-of-Experts) 구조를 가진 루프형 트랜스포머 모델입니다. 중간 레이어를 토큰당 3회 반복 실행하는 루프 방식을 통해 별도의 CoT(Chain of Thought) 작성 없이도 추론 능력을 높였으며, DeepSWE v1.1(48.2%) 등 100B 미만 모델 중 최고 수준의 벤치마크 성능을 기록했습니다. 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성을 유지하는 것이 특징입니다.",
+      "external_article_summary": "Inkling 2 Mini는 26.4B 전체 파라미터 중 3.4B만 활성화하는 MoE(Mixture-of-Experts) 구조를 가진 루프형 트랜스포머 모델입니다. 중간 레이어를 토큰당 3회 반복 실행하는 루프 방식을 통해 별도의 CoT(Chain of Thought) 작성 없이도 추론 능력을 높였으며, DeepSWE v1.1(48.2%) 등 100B 미만 모델 중 최고 수준의 벤치마크 성능을 기록했습니다. 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성을 유지하는 것이 특징입니다.",
+      "discussion_summary": "벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 평가와 함께, 특정 하드웨어 환경에서의 구동 속도 및 미병합된 PR(Pull Request) 등 기술적 구현 완성도에 대한 검토가 이루어지고 있습니다.",
+      "key_points": [
+        "루프형 아키텍처를 통해 토큰 생성 시 중간 레이어를 반복 실행하여 추론 품질을 높였습니다.",
+        "26.4B MoE 모델로서 효율적인 연산과 높은 벤치마크 성능을 동시에 확보했습니다.",
+        "CoT를 길게 쓰지 않고도 모델 내부의 루프를 통해 추론 시간을 확보하는 새로운 접근 방식을 제시합니다."
+      ],
+      "tags": [
+        "LLM",
+        "Transformer",
+        "MoE",
+        "Machine Learning"
+      ],
+      "published_at_kst": "2026-11-21T05:12:19+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50581260",
+      "rank": 4,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50581260"
+      },
+      "score": 1473,
+      "comments_count": 293
+    },
+    {
+      "id": "hacker-news-50582069",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "summary": "수십 년 만에 췌장암 치료의 획기적인 돌파구로 평가받는 신약 개발 소식과 이에 대한 커뮤니티의 분석을 다룹니다. 생존 기간 연장 수치에 대한 실질적 해석과 치료법의 역사적 의미를 중심으로 논의가 진행 중입니다.",
+      "article_summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제가 개발되어 수십 년 만의 유의미한 진전으로 주목받고 있습니다. 기존의 가혹한 화학요법을 대체하거나 보완할 수 있는 이 치료법은 환자의 생존 기간을 기존 약 6개월에서 약 즘 13개월로 연장하는 성과를 보였습니다. 이는 전이성 췌장암 분야에서 매우 드문 혁신적 성과로 평가받습니다.",
+      "external_article_summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제가 개발되어 수십 년 만의 유의미한 진전으로 주목받고 있습니다. 기존의 가혹한 화학요법을 대체하거나 보완할 수 있는 이 치료법은 환자의 생존 기간을 기존 약 6개월에서 약 즘 13개월로 연장하는 성과를 보였습니다. 이는 전이성 췌장암 분야에서 매우 드문 혁신적 성과로 평가받습니다.",
+      "discussion_summary": "생존 기간이 6개월에서 13개월로 늘어난 것이 일반인에게는 미미해 보일 수 있다는 회의적 시각과, 수십 년간 정체되었던 치료 옵션에서 이 정도의 진전은 엄청난 도약이라는 옹호론이 대립하고 있습니다.",
+      "key_points": [
+        "전이성 췌장암 치료를 위한 새로운 경구용 약물 개발이 이루어졌습니다.",
+        "생존 기간 연장 폭에 대한 의학적 가치와 일반적 체감 사이의 간극이 쟁점입니다.",
+        "기존 화학요법의 고통을 줄일 수 있는 새로운 치료 옵션의 확보가 핵심입니다."
+      ],
+      "tags": [
+        "의학",
+        "바이오테크",
+        "신약개발"
+      ],
+      "published_at_kst": "2026-11-21T06:03:12+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50582069",
+      "rank": 5,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50582069"
+      },
+      "score": 1379,
+      "comments_count": 320
+    },
+    {
+      "id": "hacker-news-50596133",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "summary": "일본 자동차 제조사들이 비용 절감을 위해 부품 표준화를 추진하며, 이에 대해 과거 사례와 중국 제조사와의 경쟁 구도를 중심으로 활발한 논의가 이어지고 있습니다.",
+      "article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 과거 Ford와 GM이 2002년 6단 자동 변속기 설계를 공동 작업했던 사례와 유사한 협력 모델을 지향합니다. 제조사 간 부품 공유를 통해 규모의 경제를 달성하고 공급망 효율성을 높이는 것이 핵심 목적입니다.",
+      "external_article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 과거 Ford와 GM이 2002년 6단 자동 변속기 설계를 공동 작업했던 사례와 유사한 협력 모델을 지향합니다. 제조사 간 부품 공유를 통해 규모의 경제를 달성하고 공급망 효율성을 높이는 것이 핵심 목적입니다.",
+      "discussion_summary": "과거 Ford와 GM의 협력 사례처럼 이미 검증된 전략이라는 옹호와, 부품의 75~85%를 자체 생산하며 수직 계열화를 이룬 BYD 등 중국 제조사와의 경쟁에서 불리할 수 있다는 비판이 대립하고 있습니다.",
+      "key_points": [
+        "일본 완성차 업체들이 비용 절감을 위해 부품 표준화 및 공동 개발을 추진합니다.",
+        "과거 Ford와 GM의 변속기 공동 개발 사례가 이번 전략의 기술적 선례로 언급됩니다.",
+        "중국 BYD와 같은 수직 계열화 모델 대비 경쟁 우위를 확보하는 것이 관건입니다."
+      ],
+      "tags": [
+        "Toyota",
+        "Nissan",
+        "Honda",
+        "Supply Chain",
+        "Automotive"
+      ],
+      "published_at_kst": "2026-11-22T13:04:56+09:00",
+      "category": "비즈니스/스타트업",
+      "canonical_path": "/community/hacker-news-50596133",
+      "rank": 6,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50596133"
+      },
+      "score": 1365,
+      "comments_count": 726
+    },
+    {
+      "id": "hacker-news-50611576",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "summary": "Nvidia 이사회가 젠슨 황을 CEO로 복귀시키며 경영권 구조에 대한 논쟁이 발생했습니다. 기업의 공식적인 거버넌스와 실제 의사결정 구조 사이의 괴리에 대한 커뮤니티의 분석이 이어지고 있습니다.",
+      "article_summary": "Nvidia 이사회가 젠슨 황을 CEO 직위로 복귀시켰으며, 이는 기업의 지배구조와 경영권 유지 방식을 재확인하는 조치입니다. 이번 결정은 2023년 OpenAI 사태와 유사하게 명목상의 거버넌스 구조와 실제 운영 구조가 다를 수 있음을 시사합니다. 이사회는 경영 안정성과 전략적 연속성을 확보하기 위해 이번 복귀를 결정했습니다.",
+      "external_article_summary": "Nvidia 이사회가 젠슨 황을 CEO 직위로 복귀시켰으며, 이는 기업의 지배구조와 경영권 유지 방식을 재확인하는 조치입니다. 이번 결정은 2023년 OpenAI 사태와 유사하게 명목상의 거버넌스 구조와 실제 운영 구조가 다를 수 있음을 시사합니다. 이사회는 경영 안정성과 전략적 연속성을 확보하기 위해 이번 복귀를 결정했습니다.",
+      "discussion_summary": "젠슨 황의 강력한 리더십이 기업 성장의 핵심이라는 옹호론과, 과거의 엄격한 관리 방식이 직장 내 괴롭힘으로 비춰질 수 있다는 비판이 대립하고 있습니다. 또한 기업의 공식적인 지배구조가 실제 의사결정 체계와 일치하지 않는 현상에 대한 우려가 제기되었습니다.",
+      "key_points": [
+        "공식적인 거버넌스 구조와 실제 경영권 사이의 괴리가 기업 운영의 핵심 변수로 작용합니다.",
+        "젠슨 황의 리더십 스타일을 둘러싼 조직 문화와 경영 효율성 사이의 논쟁이 존재합니다.",
+        "CEO의 복귀는 기업의 전략적 방향성을 유지하기 위한 이사회의 결정적 조치입니다."
+      ],
+      "tags": [
+        "Nvidia",
+        "젠슨 황",
+        "기업 거버넌스",
+        "경영권"
+      ],
+      "published_at_kst": "2026-11-23T23:00:18+09:00",
+      "category": "비즈니스/스타트업",
+      "canonical_path": "/community/hacker-news-50611576",
+      "rank": 7,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50611576"
+      },
+      "score": 1268,
+      "comments_count": 2395
+    },
+    {
+      "id": "hacker-news-50589618",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "summary": "수학적 난제인 리만 가설을 Lean 프로버를 통해 검증하려는 시도와 이에 대한 커뮤니티의 기술적 논쟁을 다룹니다. 수학적 증명의 엄밀성과 자동화된 검증 도구의 신뢰성을 중심으로 논의가 진행 중입니다.",
+      "article_summary": "수학적 정리를 형식화하고 검증하는 Lean 프로버를 활용하여 리만 가설(Riemann Hypothesis)의 증명을 검증하려는 시도가 제기되었습니다. 이는 복잡한 수학적 논리를 컴퓨터가 이해할 수 있는 코드로 변환하여 논리적 오류를 찾아내는 과정입니다. 기존의 수동 증명 방식과 달리, 알고리즘적 검증을 통해 수학적 정리에 대한 무결성을 확보하는 것이 핵심입니다.",
+      "external_article_summary": "수학적 정리를 형식화하고 검증하는 Lean 프로버를 활용하여 리만 가설(Riemann Hypothesis)의 증명을 검증하려는 시도가 제기되었습니다. 이는 복잡한 수학적 논리를 컴퓨터가 이해할 수 있는 코드로 변환하여 논리적 오류를 찾아내는 과정입니다. 기존의 수동 증명 방식과 달리, 알고리즘적 검증을 통해 수학적 정리에 대한 무결성을 확보하는 것이 핵심입니다.",
+      "discussion_summary": "검증 도구의 버그를 이용한 허위 증명이 발생할 가능성에 대한 우려와, 독립적인 검증 도구들이 서로를 교차 검증함으로써 오류를 걸러낼 수 있다는 기술적 신뢰 사이의 쟁점이 대립하고 있습니다.",
+      "key_points": [
+        "Lean 프로버를 활용한 수학적 증명의 형식적 검증 시도가 이루어지고 있습니다.",
+        "검증 도구 자체의 버그나 잘못된 구현이 증명의 신뢰성을 해칠 수 있다는 비판이 존재합니다.",
+        "수학적 난제 해결을 위해 자동화된 형식 검증 시스템의 정교함이 필수적입니다."
+      ],
+      "tags": [
+        "Lean Prover",
+        "Mathematics",
+        "Formal Verification",
+        "Riemann Hypothesis"
+      ],
+      "published_at_kst": "2026-11-21T23:36:45+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50589618",
+      "rank": 8,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50589618"
+      },
+      "score": 1237,
+      "comments_count": 1043
+    },
+    {
+      "id": "hacker-news-50552424",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "summary": "Google이 발표한 새로운 Gemini 4 모델 라인업에 대한 기술적 세부 사항과 성능에 대한 사용자들의 실질적인 체감 성능 차이를 다룹니다.",
+      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드와 컴퓨팅 자원에 최적화된 아키텍처를 갖추고 있으며, 벤치마크 점수뿐만 아니라 실제 추론 효율성을 고려하여 설계되었습니다.",
+      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드와 컴퓨팅 자원에 최적화된 아키텍처를 갖추고 있으며, 벤치마크 점수뿐만 아니라 실제 추론 효율성을 고려하여 설계되었습니다.",
+      "discussion_summary": "벤치마크 점수가 높음에도 불구하고 실제 사용 경험에서는 Anthropic의 Opus 모델보다 성능이 낮게 느껴진다는 실사용자들의 비판이 제기되었습니다. 이에 대해 모델의 규모와 실제 체감 성능 사이의 상관관계에 대한 의문이 핵심 쟁점으로 떠올랐습니다.",
+      "key_points": [
+        "Gemini 4는 용도에 따라 선택 가능한 다양한 크기의 모델 라인업을 제공합니다.",
+        "벤치마크 수치와 실제 사용자 경험 사이의 성능 격차에 대한 논쟁이 존재합니다.",
+        "모델의 규모(Size)와 실제 추론 성능 간의 최적화가 향후 중요한 과제로 꼽힙니다."
+      ],
+      "tags": [
+        "Gemini 4",
+        "LLM",
+        "Google AI",
+        "Anthropic"
+      ],
+      "published_at_kst": "2026-11-19T06:34:07+09:00",
+      "category": "AI/ML",
+      "canonical_path": "/community/hacker-news-50552424",
+      "rank": 9,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50552424"
+      },
+      "score": 1070,
+      "comments_count": 775
+    },
+    {
+      "id": "hacker-news-50597612",
+      "source": "hacker_news",
+      "source_name": "Hacker News",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "summary": "Anthropic의 데이터 센터 전력 공급원이 화석 연료에 편중될 것이라는 전망과 이에 따른 환경적 책임 문제가 제기되었습니다. AI 인프라 확장이 지역 사회의 환경 오염과 외부 효과를 초래한다는 비판이 핵심입니다.",
+      "article_summary": "2028년 기준으로 Anthropic의 전력 공급 중 87%는 가스, 11%는 석탄에서 발생할 것으로 예측됩니다. 이는 LLM 모델 학습과 추론을 위한 거대 인프라 구축 과정에서 발생하는 에너지 소비와 탄소 배출 문제를 수치로 보여줍니다.",
+      "external_article_summary": "2028년 기준으로 Anthropic의 전력 공급 중 87%는 가스, 11%는 석탄에서 발생할 것으로 예측됩니다. 이는 LLM 모델 학습과 추론을 위한 거대 인프라 구축 과정에서 발생하는 에너지 소비와 탄소 배출 문제를 수치로 보여줍니다.",
+      "discussion_summary": "Anthropic이 Memphis 지역의 오염을 유발하는 등 지역 사회에 피해를 주는 행태를 보인다는 비판과, 의사 결정권자와 거리가 먼 지역 사회로 외부 비용이 전가되는 것을 막기 위해 강력한 규제가 필요하다는 주장이 대립하고 있습니다.",
+      "key_points": [
+        "2028년 Anthropic 전력의 98%가 가스와 석탄 등 화석 연료에서 공급될 전망입니다.",
+        "AI 인프라 구축 과정에서 발생하는 환경 오염 비용이 지역 사회로 전가되는 문제가 발생합니다.",
+        "AI 기업의 에너지 정책과 사회적 책임에 대한 규제 필요성이 대두되고 있습니다."
+      ],
+      "tags": [
+        "Anthropic",
+        "AI 인프라",
+        "에너지 정책",
+        "환경 오염"
+      ],
+      "published_at_kst": "2026-11-22T17:57:34+09:00",
+      "category": "기타",
+      "canonical_path": "/community/hacker-news-50597612",
+      "rank": 10,
+      "source_links": {
+        "hacker_news": "https://news.ycombinator.com/item?id=50597612"
+      },
+      "score": 1018,
+      "comments_count": 995
+    },
+    {
+      "id": "hada-37727",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Cyberleek이 게시한 GTA 6 Xbox 빌드 실행 파일",
+      "url": "https://news.hada.io/topic?id=37727",
+      "summary": "게임 개발사의 보안 관리 체계가 무너진 상황에서 핵심 빌드 파일이 유출된 심각한 보안 사고입니다. 이는 향후 게임 출시 일정과 저작권 보호에 있어 막대한 영향을 미칠 수 있습니다.",
+      "article_summary": "Cyberleek이 GTA 6의 Xbox 빌드로 추정되는 실행 파일을 온라인에 게시했습니다. 해당 파일은 개발 단계의 데이터가 포함되었을 가능성이 있는 실행 파일 형태로 유출되었습니다. 이번 유출은 게임 개발 프로세스의 보안 취약성을 드러내는 사례로 주목받고 있습니다.",
+      "external_article_summary": "Cyberleek이 GTA 6의 Xbox 빌드로 추정되는 실행 파일을 온라인에 게시했습니다. 해당 파일은 개발 단계의 데이터가 포함되었을 가능성이 있는 실행 파일 형태로 유출되었습니다. 이번 유출은 게임 개발 프로세스의 보안 취약성을 드러내는 사례로 주목받고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Cyberleek이 GTA 6 Xbox 빌드로 추정되는 실행 파일을 게시했습니다.",
+        "유출된 파일은 게임의 내부 구조를 포함하고 있을 가능성이 큽니다.",
+        "이번 사건은 대형 게임사의 보안 관리 실태에 대한 경각심을 불러일으킵니다."
+      ],
+      "tags": [
+        "GTA 6",
+        "보안 사고",
+        "Cyberleek",
+        "게임 유출"
+      ],
+      "published_at_kst": "2026-11-24T03:37:06+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37727",
+      "rank": 1,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37727"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37726",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "새로운 Docker: 신뢰를 기반으로 실행하도록 설계",
+      "url": "https://news.hada.io/topic?id=37726",
+      "summary": "Docker는 자율성을 가진 AI 에이전트 시대에 맞춰 단순 실행 환경 제공을 넘어 보안과 거버넌스를 아우르는 신뢰 플랫폼으로 진화하고 있습니다. 이는 에이전트가 스스로 의사결정을 내리는 환경에서 발생할 수 있는 보안 위협을 제어하기 위한 기술적 대응입니다.",
+      "article_summary": "Docker가 새로운 브랜드를 공개하며 컨테이너 기술을 넘어 AI 에이전트의 보안, 격리, 거버넌스를 제공하는 방향으로 정체성을 확장합니다. 이번 변화의 핵심은 에이전트를 단순한 워크로드가 아닌 스스로 작업과 접근 권한을 결정하는 '행위자(Actor)'로 정의하는 데 있습니다. Docker는 소프트웨어 공급망, 실행 환경, 생태계를 신뢰의 기반으로 삼아 자율적인 에이전트를 통제할 수 있는 전용 솔루션을 구축하고자 합니다.",
+      "external_article_summary": "Docker가 새로운 브랜드를 공개하며 컨테이너 기술을 넘어 AI 에이전트의 보안, 격리, 거버넌스를 제공하는 방향으로 정체성을 확장합니다. 이번 변화의 핵심은 에이전트를 단순한 워크로드가 아닌 스스로 작업과 접근 권한을 결정하는 '행위자(Actor)'로 정의하는 데 있습니다. Docker는 소프트웨어 공급망, 실행 환경, 생태계를 신뢰의 기반으로 삼아 자율적인 에이전트를 통제할 수 있는 전용 솔루션을 구축하고자 합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Docker는 컨테이너 기술을 기반으로 AI 에이전트의 보안과 거버넌스를 관리하는 새로운 브랜드 전략을 공개했습니다.",
+        "에이전트를 자율적인 행위자로 규정하고, 이들의 작업 범위와 접근 권한을 통제할 수 있는 격리 환경을 제공합니다.",
+        "소프트웨어 공급망과 실행 환경을 결합하여 자체 기술과 파트너 생태계를 아우르는 신뢰 체계를 구축합니다."
+      ],
+      "tags": [
+        "Governance",
+        "Security",
+        "Docker",
+        "Container",
+        "AI Agent"
+      ],
+      "published_at_kst": "2026-11-24T03:34:06+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37726",
+      "rank": 2,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37726"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37724",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Ladybird 브라우저, 알파 버전 공개",
+      "url": "https://news.hada.io/topic?id=37724",
+      "summary": "기존 엔진에 의존하지 않는 독자적인 브라우저 엔진 개발은 웹 생태계의 독점 구조를 깨려는 기술적 시도입니다. 초기 단계의 불안정성에도 불구하고, 완전한 독립형 엔진을 구축함으로써 웹 표준의 다양성을 확보하려는 목적을 가집니다.",
+      "article_summary": "Ladybird 브라우저가 macOS와 Linux를 대상으로 하는 첫 알파 버전을 공개했습니다. 이 브라우저는 기존의 Chromium이나 WebKit 엔진을 포크하지 않고, 처음부터 독자적으로 설계한 자체 브라우저 엔진을 탑재한 것이 특징입니다. 현재 알파 단계이므로 웹사이트 호환성 문제나 브라우저 충돌이 발생할 수 있으며, 사용자는 오류 신고 및 충돌 보고서 전송 여부를 직접 선택할 수 있습니다.",
+      "external_article_summary": "Ladybird 브라우저가 macOS와 Linux를 대상으로 하는 첫 알파 버전을 공개했습니다. 이 브라우저는 기존의 Chromium이나 WebKit 엔진을 포크하지 않고, 처음부터 독자적으로 설계한 자체 브라우저 엔진을 탑재한 것이 특징입니다. 현재 알파 단계이므로 웹사이트 호환성 문제나 브라우저 충돌이 발생할 수 있으며, 사용자는 오류 신고 및 충돌 보고서 전송 여부를 직접 선택할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Ladybird는 기존 엔진을 사용하지 않고 처음부터 자체 개발한 엔진을 탑재한 브라우저입니다.",
+        "알파 버전 특성상 웹사이트 호환성 문제나 브라우저 충돌이 발생할 수 있습니다.",
+        "현재 보안이 완벽히 보장되지 않으므로 보안 연구자들의 취약점 제보를 요청하고 있습니다."
+      ],
+      "tags": [
+        "Ladybird",
+        "브라우저 엔진",
+        "오픈소스",
+        "웹 기술"
+      ],
+      "published_at_kst": "2026-11-24T02:31:33+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37724",
+      "rank": 3,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37724"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37723",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Win4wine - Wine에서 Windows 셸을 Linux 데스크톱으로 실행",
+      "url": "https://news.hada.io/topic?id=37723",
+      "summary": "이 프로젝트는 기존 Windows의 UI 구성 요소를 Linux 데스크톱 환경에 이식하여 레트로한 사용자 경험을 제공하는 데 목적이 있습니다. Wine의 호환성을 활용해 운영체제 간의 경계를 UI 수준에서 통합하려는 기술적 시도로 평가됩니다.",
+      "article_summary": "Win4wine은 Wine 환경에서 Windows XP의 explorer.exe를 패치하여 Linux 데스크톱 셸로 활용하는 프로젝트입니다. bridge-wm 기술을 통해 Linux 창에 XP 스타일의 테두리를 적용하고 작업 표시줄, Alt+Tab, 최소화/최대화 기능을 통합하여 Linux 앱을 XP 환경처럼 관리합니다. 사용자가 보유한 XP ISO에서 파일을 추출하여 구동하며, ReactOS 셸 및 실험적인 Windows 7 셸도 지원합니다. Wine 11.0의 WoW64 기술을 활용해 32비트와 64비트 Windows 앱을 모두 실행할 수 있습니다.",
+      "external_article_summary": "Win4wine은 Wine 환경에서 Windows XP의 explorer.exe를 패치하여 Linux 데스크톱 셸로 활용하는 프로젝트입니다. bridge-wm 기술을 통해 Linux 창에 XP 스타일의 테두리를 적용하고 작업 표시줄, Alt+Tab, 최소화/최대화 기능을 통합하여 Linux 앱을 XP 환경처럼 관리합니다. 사용자가 보유한 XP ISO에서 파일을 추출하여 구동하며, ReactOS 셸 및 실험적인 Windows 7 셸도 지원합니다. Wine 11.0의 WoW64 기술을 활용해 32비트와 64비트 Windows 앱을 모두 실행할 수 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Windows XP의 explorer.exe를 패치하여 Linux 데스크톱 셸로 사용하는 Wine 기반 프로젝트입니다.",
+        "bridge-wm을 통해 Linux 창에 XP 스타일 테두리를 입히고 작업 표시줄과 트레이 아이콘을 통합 관리합니다.",
+        "사용자의 XP ISO 파일을 활용하며 ReactOS 및 Windows 7 셸에 대한 지원도 포함합니다."
+      ],
+      "tags": [
+        "Linux",
+        "Windows XP",
+        "Desktop Environment",
+        "Win4wine",
+        "Wine"
+      ],
+      "published_at_kst": "2026-11-24T01:42:29+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37723",
+      "rank": 4,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37723"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37722",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Nospeaker - 햅틱 모터로 MacBook 트랙패드가 말하게 만들기",
+      "url": "https://news.hada.io/topic?id=37722",
+      "summary": "하드웨어의 물리적 진동을 소리로 변환하는 창의적인 접근을 통해 트랙패드를 스피커로 재정의한 기술적 시도입니다. 모터의 설계 목적과 소리 재생 사이의 한계로 인해 음질이 로봇처럼 들릴 수 있으나, 하드웨어 제어의 새로운 가능성을 보여줍니다.",
+      "article_summary": "Nospeaker는 트랙패드의 햅틱 모터를 초당 최대 4,000회 구동하여 유리 표면을 진동시킴으로써 스피커 없이 소리를 재생하는 기술입니다. macOS 음성 데이터에서 두 개의 포먼트와 음높이를 추출해 모터 구동 신호로 변환하는 로직을 사용하며. 이를 통해 음성뿐 아니라 음악과 악기 연주 기능도 구현합니다. 이 기능은 Force Touch 트랙패드가 탑재된 기기에서 작동하며, Apple Silicon 환경에서는 macOS 12 이상, Intel 환경에서는 macOS 3 이상이 필요합니다.",
+      "external_article_summary": "Nospeaker는 트랙패드의 햅틱 모터를 초당 최대 4,000회 구동하여 유리 표면을 진동시킴으로써 스피커 없이 소리를 재생하는 기술입니다. macOS 음성 데이터에서 두 개의 포먼트와 음높이를 추출해 모터 구동 신호로 변환하는 로직을 사용하며. 이를 통해 음성뿐 아니라 음악과 악기 연주 기능도 구현합니다. 이 기능은 Force Touch 트랙패드가 탑재된 기기에서 작동하며, Apple Silicon 환경에서는 macOS 12 이상, Intel 환경에서는 macOS 3 이상이 필요합니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "트랙패드 햅틱 모터를 초당 4,000회 구동하여 유리판을 진동시켜 소리를 재생합니다.",
+        "음성에서 추출한 포먼트와 음높이 데이터를 활용해 말하기, 노래, 악기 연주 기능을 제공합니다.",
+        "Force Touch 트랙패드가 필수적이며 Apple Silicon과 Intel Mac의 OS 요구 사양이 다릅니다."
+      ],
+      "tags": [
+        "트랙패드",
+        "햅틱 기술",
+        "Apple Silicon",
+        "macOS",
+        "Nospeaker"
+      ],
+      "published_at_kst": "2026-11-24T01:39:28+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37722",
+      "rank": 5,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37722"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37721",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Nvidia, Jensen Huang을 CEO로 복귀시킴",
+      "url": "https://news.hada.io/topic?id=37721",
+      "summary": "젠슨 황의 복귀는 기업 경영권 회복과 동시에 국가 안보 및 수출 통제라는 정치적 리스크를 동시에 안고 있습니다. 향후 진행될 독립위원회의 조사 결과와 정부의 규제 준수 여부가 기업 가치 유지의 핵심 변수가 될 전망입니다.",
+      "article_summary": "Nvidia 이사회는 젠슨 황(Jensen Huang)의 CEO 복귀를 만장일치로 의결하며 즉각적인 직무 수행을 승인했습니다. 이번 결정은 미국 정부 고위층과의 협의를 거쳐 복귀가 국가 안보에 위협이 되지 않는다는 판단하에 이루어졌습니다. 황은 과거 스파이 의혹 및 사생활 관련 논란으로 사임했으나, 복귀와 별개로 독립위원회의 조사는 지속될 예정입니다. 복귀 발표 직후 Nvidia 주가는 33% 급등하며 시장의 기대를 반영했습니다.",
+      "external_article_summary": "Nvidia 이사회는 젠슨 황(Jensen Huang)의 CEO 복귀를 만장일치로 의결하며 즉각적인 직무 수행을 승인했습니다. 이번 결정은 미국 정부 고위층과의 협의를 거쳐 복귀가 국가 안보에 위협이 되지 않는다는 판단하에 이루어졌습니다. 황은 과거 스파이 의혹 및 사생활 관련 논란으로 사임했으나, 복귀와 별개로 독립위원회의 조사는 지속될 예정입니다. 복귀 발표 직후 Nvidia 주가는 33% 급등하며 시장의 기대를 반영했습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "Nvidia 이사회는 젠슨 황의 CEO 복귀를 만장일치로 의결하여 즉시 효력을 발생시켰습니다.",
+        "미 정부 고위층과의 협의를 통해 이번 복귀가 국가 안보 위험을 초래하지 않음을 확인했습니다.",
+        "사생활 논란으로 인한 사임 이후 복귀가 결정되었으나, 독립위원회의 조사는 계속 진행됩니다."
+      ],
+      "tags": [
+        "Nvidia",
+        "미국 정부",
+        "젠슨 황",
+        "기업 지배구조"
+      ],
+      "published_at_kst": "2026-11-24T01:36:28+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37721",
+      "rank": 6,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37721"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37719",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "보안 지옥의 다음 단계",
+      "url": "https://news.hada.io/topic?id=37719",
+      "summary": "취약점 보고의 양적 팽창이 소프트웨어 유지관리의 질적 저하와 운영 비용 상승을 초래하는 새로운 보안 위협으로 부상하고 있습니다. 형식적인 CVE 점수 중심의 보안 관리를 넘어, 실제 공격 경로와 소프트웨어 구조를 고려한 실질적인 영향도 평가 체계가 필요합니다.",
+      "article_summary": "최근 취약점 보고가 급증하면서 프로젝트 유지관리자는 단순 코드 수정을 넘어 중요도 판단, 패치 검증, 회귀 테스트에 이르는 막대한 운영 부담을 안게 되었습니다. 특히 ReDoS(정규 표현식 서비스 거부 공격)와 같은 성능 버그는 실제 공격 경로와 소프트웨어 활용 방식에 따라 취약성 여부가 결정되므로. 이를 판단하는 데 고도의 전문 지식이 요구됩니다. 또한 CVE 식별자와 보안 스캐너가 실제 영향력을 정밀하게 반영하지 못해, 영향이 없는 패키지까지 불필요한 업데이트를 강제하는 문제가 발생하고 있습니다.",
+      "external_article_summary": "최근 취약점 보고가 급증하면서 프로젝트 유지관리자는 단순 코드 수정을 넘어 중요도 판단, 패치 검증, 회귀 테스트에 이르는 막대한 운영 부담을 안게 되었습니다. 특히 ReDoS(정규 표현식 서비스 거부 공격)와 같은 성능 버그는 실제 공격 경로와 소프트웨어 활용 방식에 따라 취약성 여부가 결정되므로. 이를 판단하는 데 고도의 전문 지식이 요구됩니다. 또한 CVE 식별자와 보안 스캐너가 실제 영향력을 정밀하게 반영하지 못해, 영향이 없는 패키지까지 불필요한 업데이트를 강제하는 문제가 발생하고 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "취약점 보고의 폭증은 수정 작업뿐만 아니라 중요도 판단과 패치 검증 등 유지관리자의 운영 부담을 가중시킵니다.",
+        "ReDoS와 같은 성능 관련 버그는 실제 취약성 여부가 공격 경로와 사용 방식에 따라 달라지므로 전문적인 판단이 필수적입니다.",
+        "기존 CVE와 보안 스캐너는 실제 영향력을 충분히 반영하지 못해 불필요한 업데이트와 버전 변경을 유발하는 부작용이 있습니다."
+      ],
+      "tags": [
+        "CVE",
+        "보안 취약점",
+        "ReDoS",
+        "소프트웨어 유지관리"
+      ],
+      "published_at_kst": "2026-11-24T00:32:32+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37719",
+      "rank": 7,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37719"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37718",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "GTA 6, 모든 플레이어의 개인 행동 프로필 구축 의혹",
+      "url": "https://news.hada.io/topic?id=37718",
+      "summary": "이번 의혹은 게임 플레이 데이터가 단순한 게임 경험 개선을 넘어 개인의 심리적 특성과 소비 성향을 분석하는 정밀한 프로파일링 도구로 활용될 수 있음을 시사합니다. 이는 게임사의 데이터 수집 범위와 개인정보 보호 사이의 기술적·윤리적 갈등을 심화시킬 수 있습니다.",
+      "article_summary": "전직 Rockstar North 엔지니어로 알려진 X 계정 @make_claude는 GTA 6가 플레이어의 행동 데이터를 개인 식별 정보와 결합해 수집한다는 의혹을 제기했습니다. Take-Two의 내부 시스템인 'Lens'는 게임 내 입력을 밀리초(ms) 단위로 기록하며. 이를 콘솔 계정, 플랫폼 ID, IP 주소와 연결해 개인 프로필을 구축합니다. 수집된 데이터는 자회사 Vantage Analytics로 전달되어 충동 조절, 위험 감수 성향, 의사결정 속도 및 소비 성향을 예측하는 모델로 활용될 가능성이 있습니다.",
+      "external_article_summary": "전직 Rockstar North 엔지니어로 알려진 X 계정 @make_claude는 GTA 6가 플레이어의 행동 데이터를 개인 식별 정보와 결합해 수집한다는 의혹을 제기했습니다. Take-Two의 내부 시스템인 'Lens'는 게임 내 입력을 밀리초(ms) 단위로 기록하며. 이를 콘솔 계정, 플랫폼 ID, IP 주소와 연결해 개인 프로필을 구축합니다. 수집된 데이터는 자회사 Vantage Analytics로 전달되어 충동 조절, 위험 감수 성향, 의사결정 속도 및 소비 성향을 예측하는 모델로 활용될 가능성이 있습니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "전직 Rockstar North 엔지니어가 GTA 6의 플레이어 행동 데이터가 개인별 프로필로 수집된다는 의혹을 제기했습니다.",
+        "Take-Two의 'Lens' 시스템은 밀리초 단위의 게임 입력을 수집하고 이를 IP 주소 및 플랫폼 ID와 연결합니다.",
+        "수집된 데이터는 충동 조절, 위험 감수, 의사결정 속도 등 개인의 심리적 성향을 추정하는 데 사용될 수 있습니다."
+      ],
+      "tags": [
+        "GTA 6",
+        "플레이어 프로파일링",
+        "Take-Two",
+        "데이터 프라이버시"
+      ],
+      "published_at_kst": "2026-11-23T23:38:37+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37718",
+      "rank": 8,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37718"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37717",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Jensen Huang, NVIDIA CEO로 복귀",
+      "url": "https://news.hada.io/topic?id=37717",
+      "summary": "젠슨 황의 경영 복귀는 NVIDIA의 전략적 연속성을 확보하고 대외적 신뢰를 회복하기 위한 결정입니다. 이번 조치는 경영권 안정과 국가 안보 이슈를 동시에 해결하며 기업의 기술 리더십을 공고히 하는 데 목적이 있습니다.",
+      "article_summary": "NVIDIA 이사회는 젠슨 황(Jensen Huang)의 사장, CEO 및 이사회 이사직 복귀를 만장일치로 결정하며 즉시 효력을 발생시켰습니다. 이사회는 심도 있는 논의를 통해 황의 경영 능력과 투명성을 확인했으며, 미국 정부 고위층과의 협의를 통해 국가 안보 위험이 없음을 확인했습니다. 황이 외국 정보 활동의 표적이 되었다는 의혹에 대한 독립 이사 위원회의 조사는 복귀와 별개로 지속될 예정입니다.",
+      "external_article_summary": "NVIDIA 이사회는 젠슨 황(Jensen Huang)의 사장, CEO 및 이사회 이사직 복귀를 만장일치로 결정하며 즉시 효력을 발생시켰습니다. 이사회는 심도 있는 논의를 통해 황의 경영 능력과 투명성을 확인했으며, 미국 정부 고위층과의 협의를 통해 국가 안보 위험이 없음을 확인했습니다. 황이 외국 정보 활동의 표적이 되었다는 의혹에 대한 독립 이사 위원회의 조사는 복귀와 별개로 지속될 예정입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "NVIDIA 이사회는 젠슨 황의 사장, CEO 및 이사직 복귀를 만만일치로 승인했습니다.",
+        "미국 정부 고위층의 의견을 바탕으로 황의 복귀가 국가 안보에 위협이 되지 않음을 확인했습니다.",
+        "외국 정보 활동 관련 조사는 황의 협조 아래 독립 위원회에 의해 지속적으로 진행됩니다."
+      ],
+      "tags": [
+        "기업 거버넌스",
+        "NVIDIA",
+        "젠슨 황",
+        "경영권 복귀"
+      ],
+      "published_at_kst": "2026-11-23T23:35:37+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37717",
+      "rank": 9,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37717"
+      },
+      "score": 0,
+      "comments_count": 0
+    },
+    {
+      "id": "hada-37716",
+      "source": "hada_news",
+      "source_name": "GeekNews / Hada",
+      "title": "Show GN: LOY - 온라인에서 즐기는 러이끄라통/이펭 축제",
+      "url": "https://news.hada.io/topic?id=37716",
+      "summary": "전통적인 풍등 축제가 현대적 시각 효과와 결합하여 독특한 문화적 경험을 제공합니다. 이는 전통 의례가 시각적 미학을 통해 어떻게 대중에게 전달되는지를 보여주는 사례입니다.",
+      "article_summary": "11월 24일 태국의 전통 축제인 러이끄라통과 이펭 축제가 개최됩니다. 이번 축제는 하늘을 수많은 풍등으로 가득 채우며 애니메이션 라푼젤의 한 장면과 같은 시각적 장관을 연출합니다. 전통적인 풍습을 통해 빛과 소망을 나누는 태국의 대표적인 문화 행사입니다.",
+      "external_article_summary": "11월 24일 태국의 전통 축제인 러이끄라통과 이펭 축제가 개최됩니다. 이번 축제는 하늘을 수많은 풍등으로 가득 채우며 애니메이션 라푼젤의 한 장면과 같은 시각적 장관을 연출합니다. 전통적인 풍습을 통해 빛과 소망을 나누는 태국의 대표적인 문화 행사입니다.",
+      "discussion_summary": "",
+      "key_points": [
+        "11월 24일 태국에서 유명한 러이끄라통 및 이펭 축제가 열립니다.",
+        "수많은 풍등이 하늘을 수놓으며 환상적인 시각적 장면을 연출합니다.",
+        "전통 축제의 아름다움을 통해 문화적 가치를 공유하는 행사입니다."
+      ],
+      "tags": [
+        "태국축제",
+        "이펭",
+        "러이끄라통"
+      ],
+      "published_at_kst": "2026-11-23T23:20:52+09:00",
+      "category": "",
+      "canonical_path": "/community/hada-37716",
+      "rank": 10,
+      "source_links": {
+        "hada_news": "https://news.hada.io/topic?id=37716"
+      },
+      "score": 0,
+      "comments_count": 0
+    }
+  ]
+}
