@@ -1,0 +1,923 @@
+{
+  "source": "huggingface_papers",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T04:11:22.467744+09:00",
+  "count": 22,
+  "daily_summary": "오늘의 연구는 대규모 모델의 효율적인 아키텍처 설계와 에이전트의 실질적인 작업 수행 능력 향상에 집중되었습니다. 특히 초장기 컨텍스트 처리, 물리적 법칙을 준수하는 월드 모델, 그리고 3D 공간 추론과 같은 고도화된 지각 능력을 확보하려는 시도들이 돋보였습니다.",
+  "daily_key_points": [
+    "MoE와 혁신적인 메모리 구조를 통해 파라미터 효율성을 극대화하면서도 초장기 컨텍스트와 고속 추론을 동시에 달성하는 연구들이 주목받았습니다.",
+    "에이전트가 현실 세계의 물리 법칙을 준수하거나, 재방문 환경에서의 공간 기억을 유지하는 등 실질적인 상호작용 능력을 검증하는 벤치마크와 방법론이 제시되었습니다.",
+    "이미지 초해상도나 3D 추론과 같이 시각적 복원과 공간적 이해가 필요한 영역에서 MLLM의 추론 능력을 결합하는 새로운 접근법들이 발표되었습니다."
+  ],
+  "daily_tags": [
+    "LLM_Efficiency",
+    "Embodied_AI",
+    "Agentic_Workflow",
+    "Multimodal_Reasoning"
+  ],
+  "chat_message": "🔥 오늘의 논문\n\n📌 오늘의 요약: 오늘의 연구는 대규모 모델의 효율적인 아키텍처 설계와 에이전트의 실질적인 작업 수행 능력 향상에 집중되었습니다. 특히 초장기 컨텍스트 처리, 물리적 법칙을 준수하는 월드 모델, 그리고 3D 공간 추론과 같은 고도화된 지각 능력을 확보하려는 시도들이 돋보였습니다.\n\n📍 1. cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction\n📝 설명: Birkhoff polytope 내 기하학적 수축을 통해 다중 잔차 스트림 간의 혼합 균형을 맞추는 효율적인 Hyper-Connection 기법. Birkhoff polytope 내 기하학적 수축을 통한 스트림 혼합(Under-mixing vs Over-mixing) 문제 해결. 추가 파라미터 없이 스트림 간 차별성과 혼합 정도를 조절하는 이론적 프레임워크 제공. 대규모 모델 학습 시 잔차 연결(Residual Connection)의 효율적인 관리가 어려울 때, 스트림 간의 정보 융합과 독립성을 수학적으로 제어할 수 있는 방법론을 제공합니다.\n\n📍 2. Non-penetrating World Models\n📝 설명: 비디오 월드 모델의 물리적 객체 침투 문제를 해결하기 위해 DiT의 잠재 상태를 활용한 경량 제어 프레임워크를 제안합니다. 물리적 객체 침투 문제를 평가하기 위한 NoPeBench 벤치마크 구축. DiT의 은닉 상태를 활용해 충돌 가능성을 예측하는 경량 프레임워크 NoPeWorld 제안. 로봇 제어나 가상 환경 시뮬레이션 시, 생성 모델이 물리 법칙을 무시하는 문제를 최소한의 비용으로 해결할 수 있는 실용적인 방법론을 제시합니다.\n\n📍 3. Clover-35B-A3B-Preview Technical Report\n📝 설명: Gated Delta Networks를 활용해 추론 성능과 생성 속도를 극대화한 35B 규모의 MoE 확산 언어 모델(Diffusion LM) 발표. Gated Delta Networks를 통한 순환 메모리와 양방향 어텐션의 결합. 35B 전체 파라미터 중 3B만 활성화하는 MoE 구조로 고속 생성 구현. 매우 적은 활성 파라미터로도 높은 에이전트 성능과 초고속 토큰 생성을 동시에 달성할 수 있는 새로운 아키텍처 방향성을 제시합니다. 기존 언어 모델의 생성 방식과 효율성 사이의 트레이드오프를 해결하기 위해 새로운 MoE 확산 언어 모델인 Clover-35B-A3B-Preview를 제안합니다. 이 모델은 35B 전체 파라미터 중 3B만 활성화하는 MoE 구조를 채택하여 효율적인 추론을 지원합니다. Gated Delta Networks를 도입하여 과거 문맥의 순환 메모리와 현재 블록 내 양방향 어텐션을 결합함으로써 확산 방식의 제약을 극복했습니다.\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/papers",
+  "items": [
+    {
+      "rank": 1,
+      "title": "cmHC: Balancing Stream Mixing in Hyper-Connections via Geometric Contraction",
+      "paper_id": "2611.27193",
+      "url": "https://huggingface.co/papers/2611.27193",
+      "arxiv_url": "https://arxiv.org/abs/2611.27193",
+      "upvotes": 85,
+      "summary": "Birkhoff polytope 내 기하학적 수축을 통해 다중 잔차 스트림 간의 혼합 균형을 맞추는 효율적인 Hyper-Connection 기법",
+      "korean_abstract": "기존의 Manifold-constrained Hyper-Connections(mHC)는 잔차 행렬을 Birkhoff polytope 내로 제한하여 다중 스트림 간의 혼합을 안정화합니다. 그러나 스트림 간 혼합이 너무 적으면 독립적인 스트림으로 퇴화하고, 너무 과하면 스트림 간 구분이 모호해지는 트레이드오프 문제가 발생합니다. 본 논문은 이러한 문제를 해결하기 위해 Birkhoff polytope를 기하학적으로 수축시켜 최적의 혼합을 유도하는 cmHC를 제안합니다. cmHC는 새로운 파라미터 없이도 스트림 혼합을 보장하며, 얕은 레이어에서의 적절한 수축을 통해 과도한 혼합을 방지합니다. 실험 결과, 대규모 MoE 및 Dense 모델에서 안정적인 학습과 확장성을 입증하였으며 NPU 최적화를 통해 실행 지연 시간도 크게 단축했습니다.",
+      "key_points": [
+        "Birkhoff polytope 내 기하학적 수축을 통한 스트림 혼합(Under-mixing vs Over-mixing) 문제 해결",
+        "추가 파라미터 없이 스트림 간 차별성과 혼합 정도를 조절하는 이론적 프레임워크 제공",
+        "대규모 모델(Dense, MoE) 학습 시 안정적인 그래디언트 전파 및 확장성 확보"
+      ],
+      "tags": [
+        "Deep Learning",
+        "Model Architecture",
+        "Optimization",
+        "Large Scale Training",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "대규모 모델 학습 시 잔차 연결(Residual Connection)의 효율적인 관리가 어려울 때, 스트림 간의 정보 융합과 독립성을 수학적으로 제어할 수 있는 방법론을 제공합니다.",
+      "recommended_actions": [
+        "기존 mHC 구조를 가진 모델에 cmHC의 기하학적 수축 로직 적용 테스트",
+        "모델 레이어 깊이에 따른 수축 계수(Contraction factor) 변화에 따른 성능 민감도 분석",
+        "MoE 구조에서 전문가(Expert) 간 정보 혼합 효율성 검증"
+      ],
+      "risks_and_limits": [
+        "수학적 제약 조건(Birkhoff polytope)에 의존하므로 구현 시 수치적 안정성 확보 필요",
+        "특정 하드웨어(NPU) 최적화가 포함되어 있어 일반적인 GPU 환경에서의 성능 차이 존재 가능"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27193.png",
+      "local_image_path": "images/cmHC_Balancing_Stream_Mixing_in_Hyper-Connections_via_Geometric_Contraction_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 2,
+      "title": "Non-penetrating World Models",
+      "paper_id": "2611.27963",
+      "url": "https://huggingface.co/papers/2611.27963",
+      "arxiv_url": "https://arxiv.org/abs/2611.27963",
+      "upvotes": 54,
+      "summary": "비디오 월드 모델의 물리적 객체 침투 문제를 해결하기 위해 DiT의 잠재 상태를 활용한 경량 제어 프레임워크를 제안합니다.",
+      "korean_abstract": null,
+      "key_points": [
+        "물리적 객체 침투 문제를 평가하기 위한 NoPeBench 벤치마크 구축",
+        "DiT의 은닉 상태를 활용해 충돌 가능성을 예측하는 경량 프레임워크 NoPeWorld 제안",
+        "기존 모델의 가중치를 고정한 채 작은 예측 헤드만 학습하여 효율적인 제어 달성"
+      ],
+      "tags": [
+        "World Models",
+        "Diffusion Transformer",
+        "Physics-based AI",
+        "Video Generation",
+        "RAG",
+        "Vision",
+        "Video",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "로봇 제어나 가상 환경 시뮬레이션 시, 생성 모델이 물리 법칙을 무시하는 문제를 최소한의 비용으로 해결할 수 있는 실용적인 방법론을 제시합니다.",
+      "recommended_actions": [
+        "제공된 NoPeBench를 사용하여 기존 비디오 생성 모델의 물리적 정밀도 테스트",
+        "사전 학습된 DiT 모델에 제안된 방식의 예측 헤드를 결합하여 성능 비교",
+        "다양한 물리 엔진 환경에서의 제로샷 일반화 성능 검증"
+      ],
+      "risks_and_limits": [
+        "액션 교체 과정에서 원래 의도했던 움직임의 자연스러움이 저하될 가능성",
+        "복잡한 물리 상호작용(마찰, 탄성 등)이 포함된 환경에서의 한계"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27963.png",
+      "local_image_path": "images/Non-penetrating_World_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 3,
+      "title": "Clover-35B-A3B-Preview Technical Report",
+      "paper_id": "2611.24636",
+      "url": "https://huggingface.co/papers/2611.24636",
+      "arxiv_url": "https://arxiv.org/abs/2611.24636",
+      "upvotes": 36,
+      "summary": "Gated Delta Networks를 활용해 추론 성능과 생성 속도를 극대화한 35B 규모의 MoE 확산 언어 모델(Diffusion LM) 발표",
+      "korean_abstract": "기존 언어 모델의 생성 방식과 효율성 사이의 트레이드오프를 해결하기 위해 새로운 MoE 확산 언어 모델인 Clover-35B-A3B-Preview를 제안합니다. 이 모델은 35B 전체 파라미터 중 3B만 활성화하는 MoE 구조를 채택하여 효율적인 추론을 지원합니다. Gated Delta Networks를 도입하여 과거 문맥의 순환 메모리와 현재 블록 내 양방향 어텐션을 결합함으로써 확산 방식의 제약을 극복했습니다. 실험 결과, SWE-bench Verified 등 주요 에이전트 벤치마크에서 뛰어난 성능을 기록했으며, 단일 GPU 환경에서 초당 680토큰이라는 압도적인 생성 속도를 달성했습니다. 또한, 의사결정 모델 변형을 통해 다중 질문에 대한 정확도를 높이는 성과를 보였습니다.",
+      "key_points": [
+        "Gated Delta Networks를 통한 순환 메모리와 양방향 어텐션의 결합",
+        "35B 전체 파라미터 중 3B만 활성화하는 MoE 구조로 고속 생성 구현",
+        "에이전트 작업(SWE-bench 등) 및 고속 추론 환경에서의 탁월한 성능"
+      ],
+      "tags": [
+        "MoE",
+        "Diffusion-LM",
+        "Agent",
+        "Efficient-Inference",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "매우 적은 활성 파라미터로도 높은 에이전트 성능과 초고속 토큰 생성을 동시에 달성할 수 있는 새로운 아키텍처 방향성을 제시합니다.",
+      "recommended_actions": [
+        "Gated Delta Networks의 메모리 관리 방식과 어텐션 결합 메커니즘 분석",
+        "MoE 기반 확산 모델의 추론 속도와 품질 간의 상관관계 검증",
+        "에이전트 워크로드에서의 실질적인 비용 대비 성능(Cost-efficiency) 계산"
+      ],
+      "risks_and_limits": [
+        "확산 모델 특유의 블록 크기 설정 및 학습 안정성 문제 가능성",
+        "특수 아키텍처 사용에 따른 기존 하드웨어 가속 최적화의 복잡성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24636.png",
+      "local_image_path": "images/Clover-35B-A3B-Preview_Technical_Report_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 4,
+      "title": "Reading the Unreadable: Text-Aware Image Super-Resolution Needs Reasoning",
+      "paper_id": "2611.15449",
+      "url": "https://huggingface.co/papers/2611.15449",
+      "arxiv_url": "https://arxiv.org/abs/2611.15449",
+      "upvotes": 21,
+      "summary": "텍스트 복원 성능 향상을 위해 MLLM의 추론 능력을 활용하는 새로운 방식의 이미지 초해상도(SR) 프레임워크 제안",
+      "korean_abstract": "기존의 텍스트 인식형 이미지 초해상도(TAISR) 기술은 시각적 정보에만 의존하여 심하게 손상된 텍스트를 복원하는 데 한계가 있었습니다. 연구진은 텍스트 복원이 단순한 시각적 복원을 넘어 문맥적 추론이 필요함을 입증하기 위해 새로운 벤치마크와 평가지표를 도입했습니다. 실험 결과, 기존 모델들은 추론이 필요한 텍스트에서 성능이 급격히 저하되는 문제를 보였습니다. 이를 해결하기 위해 외부 MLLM이 텍스트를 추론하고 그 결과를 기존 SR 모델에 전달하는 'Reasoning Transfer via Captioning (RTC)' 방식을 제안합니다. 결과적으로 RTC는 별도의 학습 없이도 기존 모델들의 텍스트 복원 성능을 크게 향상시켰습니다.",
+      "key_points": [
+        "추론이 필요한 텍스트와 국소적 정보로 복원 가능한 텍스트를 구분하는 벤치마크(ReasonText) 개발",
+        "텍스트 검출 오류를 배제하고 복원 품질을 측정하는 새로운 지표(GTTCA) 제안",
+        "MLLM의 추론 능력을 기존 SR 모델에 주입하는 학습 불필요(Training-free) 플러그인 RTC 제안"
+      ],
+      "tags": [
+        "Super-Resolution",
+        "MLLM",
+        "Text-to-Image",
+        "Reasoning",
+        "Multimodal",
+        "Vision",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "이미지 내 텍스트가 심하게 뭉개진 경우, 단순 픽셀 복원이 아닌 LLM의 문맥 추론 능력을 결합하는 것이 성능 향상의 핵심임을 시사합니다.",
+      "recommended_actions": [
+        "기존 텍스트 기반 SR 모델에 MLLM 캡셔닝 결과를 입력값으로 넣어 성능 변화 관찰",
+        "ReasonText 벤치마크를 활용하여 현재 모델의 추론 의존도 테스트",
+        "실제 서비스 환경에서 MLLM 추론 비용과 복원 품질 간의 트레이드오프 분석"
+      ],
+      "risks_and_limits": [
+        "외부 MLLM 사용에 따른 추론 지연 시간(Latency) 발생 가능성",
+        "MLLM이 잘못된 텍스트를 생성할 경우(Hallucination) 잘못된 정보가 이미지에 주입될 위험"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.15449.png",
+      "local_image_path": "images/Reading_the_Unreadable_Text-Aware_Image_Super-Resolution_Needs_Reasoning_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 5,
+      "title": "MemOnce: A Scalable Memory Architecture for Large Language Models",
+      "paper_id": "2611.27973",
+      "url": "https://huggingface.co/papers/2611.27973",
+      "arxiv_url": "https://arxiv.org/abs/2611.27973",
+      "upvotes": 17,
+      "summary": "고정 크기 메모리 압축과 희소 어텐션을 결합하여 초장기 컨텍스트에서도 선형 시간 복잡도와 낮은 메모리 점유율을 달리는 LLM 아키텍처",
+      "korean_abstract": "기존 Transformer는 컨텍스트가 길어질수록 KV 캐시가 선형적으로 증가하고 연산 복잡도가 제곱으로 늘어나는 문제가 있습니다. 반면 선형 시간 아키텍처는 메모리 압축은 효율적이지만 세부 정보를 유지하는 데 어려움이 있습니다. 이를 해결하기 위해 최종 레이어의 은닉 상태를 압축 저장하고 필요할 때 KV 캐시로 복원하는 'Memory encoder-decoder'와 효율적인 검색을 위한 'Memory sparse attention'을 제안합니다. 실험 결과, MemOnce는 1M 컨텍스트 환경에서 메모리 사용량을 획기적으로 줄이고 프리필 지연 시간을 단축하며 높은 처리량을 달성했습니다. 결과적으로 기존 Transformer 대비 확장성과 효율성 측면에서 뛰어난 성능을 입증했습니다.",
+      "key_points": [
+        "Memory encoder-decoder: 최종 레이어 은닉 상태를 압축 저장 후 KV 캐시로 동적 디코딩",
+        "Memory sparse attention: 레이어 간 공유되는 희소 인덱스를 통해 효율적인 메모리 검색 수행",
+        "Scalable Memory: 고정 크기 메모리 상태를 통해 선형 시간 복잡도와 낮은 GPU 메모리 점유율 달성"
+      ],
+      "tags": [
+        "LLM",
+        "Long-Context",
+        "Efficiency",
+        "Architecture",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "초장기 컨텍스트(Long-context) 처리가 필요한 에이전트나 대규모 데이터 분석 시 GPU 메모리 부족 문제를 해결할 수 있는 실질적인 대안을 제시합니다.",
+      "recommended_actions": [
+        "Qwen 등 기존 모델에 MemOnce 구조를 이식했을 때의 성능 저하 폭 측정",
+        "1M 이상의 초장기 컨텍스트 환경에서의 추론 속도 및 메모리 효율성 벤치마크",
+        "특정 도메인 지식 유지 능력이 기존 Transformer 대비 얼마나 유지되는지 검증"
+      ],
+      "risks_and_limits": [
+        "압축된 메모리 상태로 인한 세부 정보(Fine-grained details) 손실 가능성",
+        "새로운 아키텍처 도입에 따른 학습 및 최적화 복잡도 증가"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27973.png",
+      "local_image_path": "images/MemOnce_A_Scalable_Memory_Architecture_for_Large_Language_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 6,
+      "title": "Duopra: From Full-Duplex Conversation to Full-Duplex Agency",
+      "paper_id": "2611.25773",
+      "url": "https://huggingface.co/papers/2611.25773",
+      "arxiv_url": "https://arxiv.org/abs/2611.25773",
+      "upvotes": 11,
+      "summary": "대화의 흐름(Conversational Agency)과 작업 실행(Task Agency)을 동시에 최적화하여 실시간 도구 호출 및 수정 능력을 극대화한 풀-듀플렉스 에이전트 모델",
+      "korean_abstract": "기존의 풀-듀플렉스 모델은 자연스러운 대화는 가능하지만, 작업 수행을 위한 도구 호출 및 사용자 수정에 따른 인자 수정 능력이 부족했습니다. 특히 프론트엔드(대화 제어)와 백엔드(실행)가 분리된 구조에서는 미전송 요청이나 불완전한 요청이 실행 오류를 유발하는 문제가 있었습니다. 이를 해결하기 위해 Duopra는 대화 제어와 작업 실행을 동시에 학습하는 풀-듀플렉스 상호작용 모델을 제안합니다. 백엔드를 하나의 도구로 취급하며, 프로토콜 SFT, 풀-듀플렉스 RL, 그리고 싱커(Thinker) 업데이트에 따른 프로젝터 수리 과정을 결합한 3단계 학습 방식을 사용합니다. 실험 결과, 동일한 백엔드 환경에서 Pass@1 성능이 4.7%에서 44.7%로 대폭 향상되었으며 대화 제어와 작업 수행 능력을 동시에 확보했습니다.",
+      "key_points": [
+        "대화 제어(Conversational Agency)와 작업 실행(Task Agency)의 결합 모델 제안",
+        "백엔드를 도구로 취급하여 자연어 요청을 통해 실행하는 통합 액션 인터페이스 설계",
+        "SFT, RL, Projector-only repair를 결합한 3단계 특화 학습 전략 적용"
+      ],
+      "tags": [
+        "Agent",
+        "Full-Duplex",
+        "Reinforcement Learning",
+        "Tool-use",
+        "Vision",
+        "Audio",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "실시간 음성/대화형 에이전트 개발 시, 대화의 자연스러움을 유지하면서도 도구 호출(Tool Use)의 정확도와 사용자 수정 반영 능력을 높이는 아키텍처 설계에 중요한 영감을 제공합니다.",
+      "recommended_actions": [
+        "에이전트의 대화 제어 레이어와 실행 레이어 간의 인터페이스 규격 설계 실험",
+        "사용자 개입(Interruption) 시 실행 중인 작업의 상태를 어떻게 복구/수정할지에 대한 RL 환경 구축",
+        "LLM 기반 백엔드와 프론트엔드 간의 통신 프로토콜 최적화 테스트"
+      ],
+      "risks_and_limits": [
+        "대화 제어와 작업 실행 사이의 복잡한 상호작용으로 인해 학습 난이도가 매우 높음",
+        "실시간성(Low-latency)을 유지하면서 복잡한 작업 실행을 병행할 때의 연산 비용 문제"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25773.png",
+      "local_image_path": "images/Duopra_From_Full-Duplex_Conversation_to_Full-Duplex_Agency_img.jpg",
+      "local_figures": [
+        "images/Duopra_From_Full-Duplex_Conversation_to_Full-Duple_fig_1.png",
+        "images/Duopra_From_Full-Duplex_Conversation_to_Full-Duple_fig_2.png"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+      "paper_id": "2611.21485",
+      "url": "https://huggingface.co/papers/2611.21485",
+      "arxiv_url": "https://arxiv.org/abs/2611.21485",
+      "upvotes": 9,
+      "summary": "재방문 환경에서의 지속적 공간 기억 능력을 평가하기 위한 새로운 벤치마크 ReSpaceBench와 학습 데이터셋 RS-30K를 제안합니다.",
+      "korean_abstract": "에이전트가 반복되는 환경에서 신뢰성 있게 작동하려면 시점 변화와 환경 변화 속에서도 장소의 정체성을 유지하는 지속적 공간 이해 능력이 필수적입니다. 그러나 기존 평가는 서로 다른 방문 시점 간의 물리적 장소 식별 능력을 명확히 검증하지 못하는 한계가 있습니다. 본 논문은 590개 장면과 9개 태스크로 구성된 ReSpaceBench를 도입하여 공간 연관성 및 상태 추적 능력을 정밀하게 측정합니다. 32개 모델과 3개 에이전트 프레임워크를 평가한 결과, 최상위 제로샷 모델도 인간 성능에 비해 현저히 낮은 정확도를 보였으며 에이전트 방식이 직접 추론보다 우월하지 않음을 확인했습니다. 이를 해결하기 위해 합성 데이터를 활용한 RS-30K 데이터셋을 제공하며, Qwen3-VL-8B를 미세 조정했을 때 성능이 크게 향상됨을 입증했습니다.",
+      "key_points": [
+        "재방문 시 장소 식별 및 상태 추적을 위한 벤치마크 ReSpaceBench 개발",
+        "기존 에이전트 프레임워크가 반복적 공간 기억에서 겪는 한계(증거 누락, 잘못된 연관) 규명",
+        "공간 기억 성능 향상을 위한 합성 데이터셋 RS-30K 제공 및 모델 미세 조정 효과 검증"
+      ],
+      "tags": [
+        "Embodied AI",
+        "Spatial Memory",
+        "VLM",
+        "Benchmark",
+        "Agent",
+        "Reasoning",
+        "Video",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇이나 가상 에이전트 개발 시, 단순히 사물을 인식하는 것을 넘어 '이전에 왔던 곳'을 정확히 기억하고 변화를 감지하는 능력을 검증하는 데 유용합니다.",
+      "recommended_actions": [
+        "제공된 ReSpaceBench를 활용하여 현재 개발 중인 비디오 이해 모델의 공간 기억력 테스트",
+        "에이전트 기반 추론 방식이 단순 추론 대비 공간 기억에서 실질적 이점이 있는지 비교 실험",
+        "RS-30K 데이터셋을 활용하여 시각-언어 모델(VLM)의 공간 정체성 유지 능력 미세 조정"
+      ],
+      "risks_and_limits": [
+        "현재 모델들의 성능이 인간 수준에 비해 현저히 낮아 실무 적용 시 신뢰도 문제 발생 가능",
+        "에이전트 방식이 단순히 증거를 찾는 것만으로는 일관된 공간 기억을 보장하지 못함"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21485.png",
+      "local_image_path": "images/Lost_in_the_Hallway_Benchmarking_Persistent_Spatial_Memory_Across_Revisits_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 8,
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "paper_id": "2611.27915",
+      "url": "https://huggingface.co/papers/2611.27915",
+      "arxiv_url": "https://arxiv.org/abs/2611.27915",
+      "upvotes": 6,
+      "summary": "스테레오 비전 기하학을 활용하여 VLM의 3D 공간 추론 및 거리 측정 정확도를 혁신적으로 높인 모델 연구",
+      "korean_abstract": "기존의 VLM은 단안 이미지 기반의 의미론적 이해에 의존하여 실제 물리적 3D 공간의 거리 측정(Metric 3D)에서 모호함을 겪어왔습니다. 본 논문은 카메라 캘리브레이션이 적용된 스테레오 이미지를 활용하여 기하학적 제약 조건을 학습에 도입하는 StereoVLM을 제안합니다. 모델은 시각적 대응점 찾기부터 변위(disparity) 추정, 거리 측정 및 의미론적 추론에 이르는 계층적 학습 방식을 따릅니다. 실험 결과, 직접적인 깊이 학습보다 변위(disparity) 감독 방식이 미학습 환경에서 더 뛰어난 일반화 성능을 보였습니다. 또한 새로운 벤치마크인 Stereo3D-Bench를 통해 기하학적 정보가 공간 추론 성능을 실질적으로 향상함을 입증했습니다.",
+      "key_points": [
+        "스테레오 기하학적 제약을 활용한 최초의 3D 공간 추론용 VLM 프레임워크 제안",
+        "변위(Disparity) 감독 방식이 직접적인 깊이(Depth) 감독보다 미학습 환경에서 우수한 일반화 성능을 보임을 확인",
+        "점 단위 기하학부터 객체 단위 공간 추론까지 아우르는 Stereo3D-Bench 벤치마크 도입"
+      ],
+      "tags": [
+        "Vision",
+        "3D-Reconstruction",
+        "Robotics",
+        "Stereo-Vision",
+        "RAG",
+        "Reasoning",
+        "Benchmark",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 제어나 AR/VR처럼 정밀한 거리 측정이 필요한 실세계 애플리케이션에서 VLM의 공간 추론 신뢰도를 높이는 데 중요한 기술적 토대를 제공합니다.",
+      "recommended_actions": [
+        "단안 VLM 모델과 스테레오 기반 VLM의 거리 측정 정확도 및 일반화 성능 비교 실험",
+        "로봇 조작(Manipulation) 태스크에 스테레오 VLM을 적용하여 성공률 변화 측정",
+        "다양한 카메라 캘리브레이션 환경에서의 모델 강건성 테스트"
+      ],
+      "risks_and_limits": [
+        "정밀한 카메라 캘리브레이션이 선행되어야 하므로 하드웨어 의존성이 높음",
+        "실시간 스테레오 매칭 및 고해상도 이미지 처리에 따른 연산 비용 발생 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27915.png",
+      "local_image_path": "images/StereoVLM_Binocular_Vision-Language_Models_for_Metric_3D_Spatial_Reasoning_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 9,
+      "title": "AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control",
+      "paper_id": "2611.26613",
+      "url": "https://huggingface.co/papers/2611.26613",
+      "arxiv_url": "https://arxiv.org/abs/2611.26613",
+      "upvotes": 6,
+      "summary": "프론티어 에이전트의 로봇 제어 능력을 액션 단위로 정밀 분석하고, 실패 원인을 식별하는 비판적 프레임워크를 제안합니다.",
+      "korean_abstract": "최근 GPT-4o와 같은 멀티모달 에이전트가 저수준 수치 제어를 통한 직접적인 로봇 제어 능력을 보여주고 있습니다. 그러나 기존 벤치마크는 에피소드 단위의 성공률만 보고하여 구체적인 성공/실패 원인을 파악하기 어렵다는 문제가 있습니다. 본 논문은 12개 조작 벤치마크를 대상으로 에이전트의 액션 단위 분석을 수행하며, 의도 기반의 비판 프레임워크인 AgentRoboCritic을 도입합니다. 분석 결과, 프론티어 에이전트는 폐루프 복구와 제로샷 조작 능력이 뛰어나지만, 파지(grasping)와 정렬 같은 물리적 실행 단계에서 한계를 보였습니다. 최종적으로 12,844개의 주석이 달린 데이터셋과 정밀도가 향상된 오픈소스 비판 모델 Muse-Glimmer-30B를 공개합니다.",
+      "key_points": [
+        "에피소드 단위가 아닌 액션 단위의 정밀한 실패 모드 분석 프레임워크(AgentRoboCritic) 제안",
+        "프론티어 에이전트의 강점(의미론적 접지, 폐루프 복구)과 약점(물리적 실행 병목) 규명",
+        "12,844개의 액션 주석 데이터셋 및 고성능 비판 모델(Muse-Glimmer-30B) 공개"
+      ],
+      "tags": [
+        "Robot Control",
+        "Multimodal Agent",
+        "Error Analysis",
+        "Embodied AI",
+        "Agent",
+        "Multimodal",
+        "Benchmark",
+        "Evaluation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 제어 에이전트 개발 시 단순히 성공률만 보는 것이 아니라, 어떤 물리적 동작에서 실패하는지 정밀하게 디버깅할 수 있는 방법론을 제공합니다.",
+      "recommended_actions": [
+        "제공된 Muse-Glimmer-30B 모델을 활용하여 기존 로봇 제어 로그의 실패 원인 자동 분류 실험",
+        "에이전트의 의도(Intent)와 실제 액션 간의 괴리를 측정하는 지표 도입 검토",
+        "물리적 제어(Grasping/Alignment) 실패 시 에이전트의 복구 능력을 정량화하는 테스트 수행"
+      ],
+      "risks_and_limits": [
+        "실제 물리 환경의 복잡한 역학적 변수를 완벽히 반영하기에는 시뮬레이션/데이터 기반 분석의 한계가 있음",
+        "에이전트의 의도 기술(Intent-stating)이 실제 물리적 성공을 보장하지는 않음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26613.png",
+      "local_image_path": "images/AgentRoboCritic_Understanding_the_Capability_of_Frontier_Agents_on_Direct_Robot_Control_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 10,
+      "title": "AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation",
+      "paper_id": "2611.24077",
+      "url": "https://huggingface.co/papers/2611.24077",
+      "arxiv_url": "https://arxiv.org/abs/2611.24077",
+      "upvotes": 5,
+      "summary": "실패 사례를 스스로 학습 데이터로 변환하여 UAV의 비행 성공률을 높이는 재귀적 자기 개선 프레임워크",
+      "korean_abstract": "UAV를 위한 VLA 모델은 자연어 명령 수행 능력을 갖추었으나 폐쇄 루프 비행 중 빈번한 실패를 겪는 문제가 있습니다. 기존의 수동 라벨링이나 규칙 기반 플래너는 대규모 실패 복구 데이터를 생성하는 데 한계가 있습니다. 본 논문은 정책이 자신의 실패로부터 반복적으로 학습하는 AeroRSI 프레임워크를 제안합니다. 실패 시점의 행동을 복구하고, 그 이후의 비행을 통해 복구의 유효성을 검증하는 방식으로 신뢰할 수 있는 감독 신호를 생성합니다. 실험 결과, 추가적인 인간 라벨링 없이도 성공률을 크게 높이고 충돌을 절반으로 줄이며 SOTA 성능을 달성했습니다.",
+      "key_points": [
+        "실패를 스스로 판단하고 복구하는 재귀적 자기 개선(Recursive Self-Improvement) 메커니즘",
+        "실패 시점의 행동을 신뢰할 수 있는 감독 신호로 변환하는 데이터 정제 전략",
+        "추가적인 인간 라벨링이나 추론 비용 증가 없는 효율적인 학습 루프"
+      ],
+      "tags": [
+        "UAV",
+        "Self-Improvement",
+        "VLA",
+        "Reinforcement Learning",
+        "Vision",
+        "Inference",
+        "Distillation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "데이터 라벨링 비용이 높은 로보틱스/드론 분야에서 자동화된 데이터 생성 및 학습 루프를 구축하는 실질적인 방법론을 제시합니다.",
+      "recommended_actions": [
+        "제공된 GitHub 코드를 활용하여 TravelUAV 환경에서 베이스라인 모델 재현",
+        "실패 시점의 데이터가 학습에 미치는 영향력을 분석하기 위한 Ablation Study 수행",
+        "규칙 기반 제안(Rule-based proposals)과 모델 생성 액션의 혼합 비율 실험"
+      ],
+      "risks_and_limits": [],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24077.png",
+      "local_image_path": "images/AeroRSI_Recursive_Self-Improvement_for_Aerial_Vision-Language_Navigation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 11,
+      "title": "Moving Generality from Model to Modeler: LLM Agents for PHM on a Deployment-Style Benchmark",
+      "paper_id": "2611.25252",
+      "url": "https://huggingface.co/papers/2611.25252",
+      "arxiv_url": "https://arxiv.org/abs/2611.25252",
+      "upvotes": 4,
+      "summary": "모델 자체의 범용성보다 데이터에 맞춰 모델을 설계하는 '에이전트(Modeler)'의 역량이 성능을 결정함을 입증한 연구",
+      "korean_abstract": "PHM(고장 예지 및 건전성 관리) 분야에서는 새로운 장비에 적응하는 모델의 범용성이 필수적입니다. 기존에는 범용 모델 개발에 집중했으나, 본 연구는 에이전트가 각 작업에 맞는 모델을 직접 구축하는 방식의 효용성을 검증하고자 합니다. 이를 위해 24개 데이터셋을 활용한 배포형 벤치마크인 NextUnit-Bench를 제안하고, LLM 에이전트의 성능을 기존 AutoML 및 기존 논문 구현체와 비교했습니다. 실험 결과, 최상위 에이전트는 데이터 기반의 맞춤형 설계를 통해 기존 방식들을 압도하는 성능을 보였습니다. 결론적으로 범용성은 모델이 아닌, 모델을 만드는 에이전트의 설계 능력으로 이동하고 있음을 확인했습니다.",
+      "key_points": [
+        "데이터 기반의 맞춤형 설계를 수행하는 LLM 에이전트가 기존 AutoML 및 고정된 모델보다 우수한 성능을 보임",
+        "에이전트 간 성능 차이는 도메인 툴킷이 아닌, 데이터로부터 학습하여 도출한 '설계 계획(Plan)'의 차이에서 발생함",
+        "에이전트가 생성한 설계안(Plan)이 성능의 핵심이며, 이를 실행할 수 있는 구현 능력이 성능 유지의 관건임"
+      ],
+      "tags": [
+        "LLM-Agent",
+        "PHM",
+        "AutoML",
+        "Model-Design",
+        "Agent",
+        "Benchmark"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "모델 아키텍처를 고정하는 대신, 데이터 특성에 맞춰 모델을 설계하는 '에이전트 기반 워크플로우'가 차세대 AI 개발의 핵심이 될 수 있음을 시사합니다.",
+      "recommended_actions": [
+        "데이터 특성에 따른 모델링 전략(Plan)을 생성하는 LLM 에이전트 워크플로우 구축 실험",
+        "생성된 설계안을 코드로 변환하여 실행하는 자동화 파이프라인 테스트",
+        "에이전트가 생성한 설계안의 범용성과 재현성 검증"
+      ],
+      "risks_and_limits": [
+        "에이전트가 생성한 설계안을 실행할 수 있는 로컬/경량 모델의 성능 제약",
+        "데이터에 과적합된 설계가 새로운 환경(Unseen units)에서 가질 수 있는 일반화 위험"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25252.png",
+      "local_image_path": "images/Moving_Generality_from_Model_to_Modeler_LLM_Agents_for_PHM_on_a_Deployment-Style_Benchmark_img.jpg",
+      "local_figures": [
+        "images/Moving_Generality_from_Model_to_Modeler_LLM_Agents_fig_1.png"
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "Intent Contracts: Taking Tools Away from Agents",
+      "paper_id": "2611.24025",
+      "url": "https://huggingface.co/papers/2611.24025",
+      "arxiv_url": "https://arxiv.org/abs/2611.24025",
+      "upvotes": 4,
+      "summary": "에이전트의 권한 남용을 방지하기 위해 계획 모델(Planner)로부터 도구 실행 권한을 분리하고 '의도 계약(Intent Contract)'을 통해 실행을 제어하는 프레임워크 제안",
+      "korean_abstract": "LLM 에이전트가 도구를 직접 사용하는 방식은 사용자 의도를 벗어난 권한 남용 위험을 내포합니다. 이를 해결하기 위해 계획 모델이 도구를 직접 갖지 않고, 오직 목표와 사용자 인용구, 범위를 포함한 '의도 계약'만을 제출하는 새로운 권한 인터페이스를 제안합니다. 검증 코드가 계약을 확인하면, 신뢰할 수 있는 소형 모델이 계약 내용을 바탕으로 실제 도구 호출을 수행합니다. 실험 결과, 이 방식은 계획 모델이 사용자 요청 외의 작업을 수행하는 것을 효과적으로 제한하며, 모든 상태 변경이 계약된 목표 범위 내에서 이루어지도록 관리합니다. 다만, 모호한 참조로 인한 잘못된 객체 선택 문제는 여전히 해결 과제로 남았습니다.",
+      "key_points": [
+        "계획 모델(Planner)과 실행 모델(Trusted Model)의 권한 분리를 통한 보안 강화",
+        "사용자 인용구와 범위를 포함한 '의도 계약(Intent Contract)' 기반의 도구 호출 메커니즘",
+        "계획 모델의 영향력을 로그로 남는 계약 범위 내로 제한하여 권한 남용 방지"
+      ],
+      "tags": [
+        "Agent",
+        "Security",
+        "LLM-Ops",
+        "Authorization",
+        "Reasoning",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "에이전트에게 API 권한을 직접 부여할 때 발생하는 보안 위협을 구조적으로 차단할 수 있는 설계 패턴을 제시합니다.",
+      "recommended_actions": [
+        "Planner-Executor 구조를 적용한 소규모 에이전트 워크플로우 프로토타이핑",
+        "사용자 입력(Prompt)과 실행 범위(Scope) 간의 정합성을 검증하는 로직 설계 실험",
+        "모호한 객체 참조 시 발생하는 오류율 측정 실험"
+      ],
+      "risks_and_limits": [
+        "환경 상태를 알 수 없는 경우, 모호한 참조로 인해 잘못된 객체가 수정될 위험 존재",
+        "계획 모델이 의도적으로 악의적인 계약을 작성할 경우에 대한 방어력 검증 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24025.png",
+      "local_image_path": "images/Intent_Contracts_Taking_Tools_Away_from_Agents_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 13,
+      "title": "PURE: A Diagnostic Benchmark for Multi-Granularity Multimodal Identity Matching",
+      "paper_id": "2611.22343",
+      "url": "https://huggingface.co/papers/2611.22343",
+      "arxiv_url": "https://arxiv.org/abs/2611.22343",
+      "upvotes": 4,
+      "summary": "멀티모달 모델의 정교한 개체 식별 능력을 평가하기 위해 설계된 다중 입도(Multi-Granularity) 진단 벤치마크 PURE를 제안합니다.",
+      "korean_abstract": "기존의 개체 매칭 작업은 최종 정확도에만 집중하여, 속성 차이(색상, 크기 등)에 따른 세부 매칭 능력을 구분하기 어려웠습니다. 본 논문은 이커머스 도메인을 배경으로 지각, 이해, 추론, 근거 기반 판단의 네 가지 차원을 포함하는 PURE 벤치마크를 도입합니다. 14개 태스크와 1,457개의 전문가 검증 문항을 통해 10종의 최신 MLLM 성능을 평가했습니다. 실험 결과, 모델들은 이해 능력은 높으나 근거 기반 판단 능력이 부족하며, 변형(variant) 수준의 규칙 적용에 취약함을 발견했습니다. 이는 단순 정확도가 가릴 수 있는 모델의 세부적인 추론 결함을 드러냅니다.",
+      "key_points": [
+        "다중 입도(Base vs Variant)를 고려한 멀티모달 개체 매칭 벤치마크 PURE 제안",
+        "지각, 이해, 추론, 근거 기반 판단의 4가지 핵심 역량 차원 정의",
+        "이커머스 도메인의 복잡한 속성 차이를 반영한 1,457개 전문가 검증 문항 구축"
+      ],
+      "tags": [
+        "Multimodal",
+        "Benchmark",
+        "Entity Matching",
+        "E-commerce",
+        "Reasoning"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "상품 매칭, 중복 제거 등 실무에서 발생하는 '유사하지만 다른' 데이터 처리 시 모델의 판단 오류를 정밀하게 진단할 수 있습니다.",
+      "recommended_actions": [
+        "현재 사용 중인 MLLM을 PURE 벤치마크에 적용하여 변형 수준(Variant-level) 판단 능력 테스트",
+        "시각적 차이 국소화(Localization) 능력이 매칭 정확도에 미치는 영향 분석",
+        "멀티모달 증거 활용 시 발생하는 오판(Conflict) 사례 수집 및 데이터 정제 전략 수립"
+      ],
+      "risks_and_limits": [
+        "이커머스 도메인에 특화된 벤치마크로 타 도메인 일반화 가능성 확인 필요",
+        "모델이 시각적 차이를 식별하는 능력과 규칙을 적용하는 능력 사이의 상관관계 분석 필요"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22343.png",
+      "local_image_path": "images/PURE_A_Diagnostic_Benchmark_for_Multi-Granularity_Multimodal_Identity_Matching_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 14,
+      "title": "Learning Video Foresight Reasoning from Unlabeled Videos via On-Policy Self-Distillation",
+      "paper_id": "2611.26954",
+      "url": "https://huggingface.co/papers/2611.26954",
+      "arxiv_url": "https://arxiv.org/abs/2611.26954",
+      "upvotes": 3,
+      "summary": "추가적인 레이블이나 외부 LLM 없이 비디오 데이터 자체만으로 미래 예측 능력을 학습하는 자기주도형 프레임워크",
+      "korean_abstract": "비디오 예측 추론은 현재 관찰된 영상으로부터 미래의 사건이나 행동을 예측하는 능력을 요구합니다. 기존 방식은 외부 모델이나 수동 주석에 의존하여 확장성이 떨어지며, 미래 영상의 불필요한 컨텍스트 정보까지 학습하는 문제가 있었습니다. 이를 해결하기 위해 본 논문은 별도의 주석 없이 과거-미래 비디오 쌍을 활용하는 On-policy self-distillation 프레임워크인 Future-OPSD를 제안합니다. 특히 예측에 유의미한 정보만을 학습하도록 'foresight score'를 기반으로 한 대조적 이점(contrastive privilege advantage)을 최적화합니다. 실험 결과, 일반적인 비디오 이해 능력을 유지하면서도 예측 및 계획 작업에서 성능을 크게 향상시켰습니다.",
+      "key_points": [
+        "외부 주석이나 LLM 없이 비디오 데이터만 사용하는 자기주도적 학습 프레임워크 제안",
+        "미래 영상 내 불필요한 컨텍스트를 억제하고 의사결정에 중요한 정보만 학습하는 foresight score 도입",
+        "Teacher-Student 증류 방식을 통해 결정적 정보는 증폭하고 무관한 정보는 억제하는 최적화 기법 적용"
+      ],
+      "tags": [
+        "Video-Understanding",
+        "Self-Supervised",
+        "Future-Prediction",
+        "Agent",
+        "Reasoning",
+        "Vision",
+        "Video",
+        "Distillation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "데이터 라벨링 비용 없이 대규모 비디오 데이터를 활용해 에이전트의 미래 예측 및 계획 능력을 고도화할 수 있습니다.",
+      "recommended_actions": [
+        "제공된 코드를 활용하여 기존 비디오 모델에 Future-OPSD 프레임워크 적용 테스트",
+        "다양한 도메인의 비디오 데이터셋에 대한 self-supervision 성능 변화 관찰",
+        "특정 태스크(Planning vs Prediction)에 따른 foresight score의 변별력 검증"
+      ],
+      "risks_and_limits": [
+        "학습 과정에서 생성되는 surrogate lower-bound의 최적화 안정성 확인 필요",
+        "매우 긴 비디오 시퀀스에서의 컨텍스트 처리 효율성 문제"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26954.png",
+      "local_image_path": "images/Learning_Video_Foresight_Reasoning_from_Unlabeled_Videos_via_On-Policy_Self-Distillation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 15,
+      "title": "Exploited Before It Was Fixed? Vulnerability Timelines from Open, Machine-Readable Evidence",
+      "paper_id": "2611.22479",
+      "url": "https://huggingface.co/papers/2611.22479",
+      "arxiv_url": "https://arxiv.org/abs/2611.22479",
+      "upvotes": 3,
+      "summary": "취약점 노출부터 패치까지의 타임라인 분석을 통해 데이터 출처와 정밀도가 보안 지표 신뢰도에 미치는 영향을 규명함",
+      "korean_abstract": "취약점 관리 및 악용 사례 분석을 위해 공개된 기계 판독형 데이터를 활용하는 연구가 필요해졌습니다. 기존 데이터는 중복된 기록, 날짜 정밀도 부족, 출처 추적의 어려움 등의 문제를 안고 있습니다. 본 연구는 가장 이른 증거를 선택하고 출처 추적성을 보장하는 'Vulnerability-Lookup' 증거 모델을 제안합니다. 분석 결과, 많은 악용 사례가 카탈로그 목록에서 유래하며 패치 증거는 상대적으로 부족함을 확인했습니다. 또한 데이터 수집 과정에서의 분류 오류가 측정 결과에 큰 왜곡을 줄 수 있음을 밝혀냈습니다.",
+      "key_points": [
+        "취약점 생애주기 이벤트를 위한 정밀한 증거 모델(Vulnerability-Lookup) 도입",
+        "데이터 출처(Provenance)와 날짜 정밀도가 취약점 분석 신뢰도에 미치는 영향 확인",
+        "카탈로그 데이터의 대량 임포트 및 잘못된 분류가 분석 결과에 미치는 체계적 오류 식별"
+      ],
+      "tags": [
+        "Vulnerability Management",
+        "Data Integrity",
+        "Security Analytics"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "보안 지표를 산출할 때 단순히 날짜를 집계하는 것이 아니라, 데이터의 출처와 중복 여부를 검증하는 것이 정확한 보안 대응 전략 수립에 필수적임을 시사합니다.",
+      "recommended_actions": [
+        "보안 취약점 데이터셋 구축 시 중복된 카탈로그 데이터 필터링 로직 적용",
+        "취약점 노출-패치 간 간격 계산 시 데이터 소스의 신뢰도 가중치 부여",
+        "날짜 정밀도(시간 단위 vs 일 단위)에 따른 통계적 왜곡 여부 검토"
+      ],
+      "risks_and_limits": [
+        "제한된 수의 취약점 식별자를 대상으로 한 분석으로 일반화에 주의 필요",
+        "벤더 측의 공식 날짜 데이터 부재로 인한 완전한 생애주기 측정의 한계"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22479.png",
+      "local_image_path": "images/Exploited_Before_It_Was_Fixed_Vulnerability_Timelines_from_Open,_Machine-Readable_Evidence_img.jpg",
+      "local_figures": [
+        "images/Exploited_Before_It_Was_Fixed_Vulnerability_Timeli_fig_1.png"
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "Prune to Expand: Training Prompt Enhancers with Less to Imitate",
+      "paper_id": "2611.27229",
+      "url": "https://huggingface.co/papers/2611.27229",
+      "arxiv_url": "https://arxiv.org/abs/2611.27229",
+      "upvotes": 3,
+      "summary": "불필요한 캡션 정보를 제거하여 프롬프트 확장 모델의 사용자 의도 정렬 성능을 높이는 P2E 방법론 제안",
+      "korean_abstract": "이미지 생성 품질을 높이기 위해 짧은 프롬프트를 상세하게 확장하는 Prompt Enhancement(PE) 기술이 널리 사용됩니다. 기존에는 상세한 캡션을 학습 데이터로 사용했으나, 이는 사용자 의도와 무관한 중복 정보를 포함하여 학습 효율을 저해할 수 있습니다. 본 논문은 캡션의 정보량과 생성 성능 사이의 상관관계가 낮다는 점을 발견하고, 이를 해결하기 위한 Prune to Expand(P2E)를 제안합니다. P2E는 사용자 요구사항과 핵심 시각 구조를 유지하면서 불필요한 문장을 선택적으로 제거하는 텍스트 기반 정제 기법입니다. 실험 결과, P2E는 기존 SFT 방식보다 인간의 선호도와 시각적 품질 측면에서 더 우수한 성능을 보였습니다.",
+      "key_points": [
+        "상세 캡션이 반드시 우수한 프롬프트 확장 학습 데이터는 아니라는 역설적 발견",
+        "사용자 의도와 무관한 중복 정보를 제거하는 P2E(Prune to Expand) 알고리즘 제안",
+        "텍스트 기반의 단순한 정제만으로도 인간 선호도 및 이미지 품질 향상 입증"
+      ],
+      "tags": [
+        "Prompt Engineering",
+        "Image Generation",
+        "Data Pruning",
+        "NLP",
+        "Vision",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "하",
+      "practical_relevance": "LLM을 이용한 프롬프트 엔지니어링 시, 데이터 정제 단계에서 '정보량'보다 '의도 정렬'이 더 중요하다는 실무적 인사이트를 제공합니다.",
+      "recommended_actions": [
+        "기존 SFT 데이터셋에 P2E 방식의 문장 삭제 로직을 적용하여 성능 변화 관찰",
+        "사용자 의도(Intent)와 시각적 디테일(Detail) 간의 가중치를 조절하며 실험",
+        "다양한 이미지 생성 모델(Stable Diffusion 등)에 적용하여 범용성 검증"
+      ],
+      "risks_and_limits": [
+        "문장 삭제 기준(deletion bound) 설정에 따라 정보 손실 위험 존재",
+        "텍스트 기반 정제이므로 시각적 맥락이 완전히 배제될 경우 품질 저하 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27229.png",
+      "local_image_path": "images/Prune_to_Expand_Training_Prompt_Enhancers_with_Less_to_Imitate_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 17,
+      "title": "Search From the Start: Search-Native Pretraining for Language Models",
+      "paper_id": "2611.26809",
+      "url": "https://huggingface.co/papers/2611.26809",
+      "arxiv_url": "https://arxiv.org/abs/2611.26809",
+      "upvotes": 2,
+      "summary": "사전 학습 단계부터 검색 능력을 내재화하여 지식 집약적 작업 성능을 극대화하는 새로운 사전 학습 방법론 제안",
+      "korean_abstract": "최근 언어 모델은 추론 시 검색 도구를 활용하지만, 사전 학습은 여전히 정적인 텍스트 예측에 집중되어 있어 검색 능력은 주로 사후 학습 단계에서 도입됩니다. 본 논문은 일반 텍스트 코퍼스에 웹 검색 쿼리와 검색 결과 데이터를 대규모로 증강하는 'Search-Native Pretraining' 방식을 제안합니다. 이 방식을 통해 모델은 사전 학습 과정에서 검색 호출 생성과 검색된 증거를 통합하는 법을 학습합니다. 실험 결과, 제안된 QueryLM은 지식 집약적 작업에서 기존 모델보다 우수한 성능과 높은 제어력을 보여주었습니다. 특히 1.4B 규모의 모델이 동일 연산량(FLOPs)의 3.3B 모델 성능을 능가하며 사전 학습 단계의 중요성을 입증했습니다.",
+      "key_points": [
+        "사전 학습 단계에서 검색 쿼리 및 검색 결과 데이터를 결합한 데이터 증강 기법 도입",
+        "모델이 검색 호출 생성 및 검색된 증거를 활용하는 능력을 사전 학습 시점에 확보",
+        "사후 미세 조정(SFT) 이후에도 유지되는 강력한 지식 활용 및 제어 능력 입증"
+      ],
+      "tags": [
+        "Pretraining",
+        "RAG",
+        "Search-Native",
+        "LLM",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "RAG 시스템 구축 시 사후 학습에만 의존하는 대신, 모델의 근본적인 지식 활용 능력을 높이는 효율적인 학습 경로를 제시합니다.",
+      "recommended_actions": [
+        "기존 정적 데이터셋에 검색 쿼리-응답 쌍을 결합한 데이터 증강 파이프라인 구축 실험",
+        "사전 학습 단계의 검색 데이터 비중 변화에 따른 모델 성능 변화 측정",
+        "소형 모델(1B~3B)에 검색 내재화 학습 적용 시의 효율성 검증"
+      ],
+      "risks_and_limits": [
+        "대규모 검색 데이터 증강을 위한 인덱싱 및 데이터 정제 비용 발생",
+        "사전 학습 데이터의 검색 의존도가 높아질 경우 일반적인 언어 생성 능력이 저하될 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26809.png",
+      "local_image_path": "images/Search_From_the_Start_Search-Native_Pretraining_for_Language_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 18,
+      "title": "Taking Apart and Putting Together: Tracking Objects Through Physical Transformations",
+      "paper_id": "2611.27398",
+      "url": "https://huggingface.co/papers/2611.27398",
+      "arxiv_url": "https://arxiv.org/abs/2611.27398",
+      "upvotes": 2,
+      "summary": "물리적 조립 및 분해 과정을 추적하여 객체의 상태 변화와 관계를 실시간으로 파악하는 새로운 비디오 트래킹 프레임워크 제안",
+      "korean_abstract": "기존 비디오 객체 추적 기술은 객체의 외형 변화에는 대응하지만, 조립이나 분해와 같은 물리적 상태 변화에 따른 의미적 정체성 업데이트에는 한계가 있습니다. 본 논문은 객체의 결합 및 분리 과정을 추적하고 상태 그래프를 유지하는 'Transformation Tracking and Understanding (TTs)' 과제를 정의합니다. 이를 해결하기 위해 제안된 TIPO 프레임워크는 생성-평가-판단(generate-evaluate-judge) 파이프라인을 통해 분리 및 병합 후보를 생성하고 MLLM을 활용해 시각적 검증을 수행합니다. 연구진은 새로운 벤치마크 데이터셋인 VISTA를 구축하여 성능을 검증했습니다. 실험 결과, TIPO는 기존 방식보다 훨씬 빠르면서도 상태 그래프 정확도 면에서 SOTA를 달성했습니다.",
+      "key_points": [
+        "물리적 조립/분해를 고려한 새로운 추적 과제(TTU) 및 데이터셋(VISTA) 제안",
+        "TIPO: 제안된 마스크를 기반으로 병합/분리 후보를 생성하고 MLLM으로 검증하는 학습 불필요(training-free) 프레임워크",
+        "기존 방식 대비 6~15배 빠른 속도와 높은 상태 그래프 정확도 달성"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Object Tracking",
+        "Robotics",
+        "Multimodal LLM",
+        "Video",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "로봇 공학이나 자동화 제조 공정에서 물체가 조립/분해되는 복잡한 환경의 시각적 이해를 구현할 때 핵심적인 기술적 토대를 제공합니다.",
+      "recommended_actions": [
+        "제공된 VISTA 데이터셋을 활용하여 기존 SAM 2 모델과의 성능 차이 비교 실험",
+        "TIPO의 generate-evaluate-judge 파이프라인이 실제 실시간 환경에서 지연 시간(latency)을 얼마나 유발하는지 테스트",
+        "다양한 조립/분해 시나리오(예: 레고, 가구 조립)에 대한 일반화 성능 검증"
+      ],
+      "risks_and_limits": [
+        "MLLM을 통한 시각적 검증 단계가 포함되어 있어 연산 비용 및 추론 속도에 영향을 줄 수 있음",
+        "복잡한 겹침(occlusion)이 발생하는 환경에서의 분리/병합 정확도 불확실성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27398.png",
+      "local_image_path": "images/Taking_Apart_and_Putting_Together_Tracking_Objects_Through_Physical_Transformations_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 19,
+      "title": "GameWM: Toward Next-Generation Video Games with Interaction-Centric World Models",
+      "paper_id": "2611.19247",
+      "url": "https://huggingface.co/papers/2611.19247",
+      "arxiv_url": "https://arxiv.org/abs/2611.19247",
+      "upvotes": 2,
+      "summary": "게임 엔진의 규칙과 비디오 모델의 생성 능력을 분리하여, 동일한 게임 로직 위에서 무한한 시각적/상호작용적 다양성을 제공하는 차세대 게임 프레임워크.",
+      "korean_abstract": "기존의 생성형 비디오 모델 기반 게임은 모델을 단순 렌더러로 사용하여 생성 능력을 충분히 활용하지 못하는 한계가 있었습니다. 이를 해결하기 위해 본 논문은 게임 엔진과 비디오 모델(VM)의 역할을 명확히 분리하는 GameWM 설계를 제안합니다. GameWM-engine은 규칙, 상태, 카메라 등 정확성이 필요한 핵심 로직을 담당하고, GameWM-VM은 세계의 시각적 디테일과 복잡한 상호작용 생성을 담당합니다. 이를 위해 상호작용 중심의 데이터 엔진, 캐릭터/장면 설정을 위한 인터페이스, 그리고 실시간 플레이를 위한 다양한 규모의 모델 패밀리를 구축했습니다. 결과적으로 플레이어는 동일한 게임 메커니즘을 유지하면서도 각자 고유한 캐릭터와 세계관을 가진 새로운 경험을 얻을 수 있습니다.",
+      "key_points": [
+        "엔진(규칙/상태)과 VM(시각/상호작용)의 명확한 역할 분담을 통한 생성 능력 극대화",
+        "상호작용 중심의 데이터 엔진 및 캐릭터/장면 설정을 위한 전용 인터페이스 구축",
+        "5B~33B 파라미터 규모의 모델 패밀리와 실시간 플레이를 위한 인과적(Causal) 변형 모델 제공"
+      ],
+      "tags": [
+        "Generative Video",
+        "Game Engine",
+        "World Models",
+        "Real-time Rendering",
+        "Vision",
+        "Video"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "게임 로직의 일관성을 유지하면서도 생성형 AI를 통해 에셋 제작 비용을 줄이고 플레이어마다 다른 시각적 경험을 제공하는 새로운 아키텍처를 제시합니다.",
+      "recommended_actions": [
+        "간단한 물리 엔진과 비디오 모델을 결합한 프로토타입 구현 실험",
+        "상호작용 데이터셋이 비디오 모델의 물리적 일관성에 미치는 영향 분석",
+        "실시간 추론 속도 확보를 위한 모델 경량화 및 최적화 테스트"
+      ],
+      "risks_and_limits": [
+        "실시간 렌더링 수준의 고해상도 비디오 생성 시 발생하는 연산 비용 문제",
+        "엔진의 상태와 VM의 생성 결과 간의 시각적/물리적 불일치(Hallucination) 가능성"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19247.png",
+      "local_image_path": "images/GameWM_Toward_Next-Generation_Video_Games_with_Interaction-Centric_World_Models_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 20,
+      "title": "Explicit Style Extraction for Personalized Long-Form Text Generation",
+      "paper_id": "2611.27211",
+      "url": "https://huggingface.co/papers/2611.27211",
+      "arxiv_url": "https://arxiv.org/abs/2611.27211",
+      "upvotes": 2,
+      "summary": "사용자 스타일을 명시적 프로필로 추출하여 장문 텍스트 생성의 품질을 높이는 SP-Refine 프레임워크 제안",
+      "korean_abstract": "개인화된 장문 생성은 사용자의 과거 글쓰기 방식을 모방하는 것이 핵심이지만, 기존 RAG 방식은 모델이 스타일 요소를 임의로 판단하는 데 의존합니다. 이를 해결하기 위해 7개 카테고리, 28개 스타일 측면을 정의한 StylePrism 분류 체계를 도입했습니다. 제안하는 SP-Refine 방법론은 스타일 프로필을 먼저 생성한 후, 이를 바탕으로 초안 작성 및 두 차례의 반복 수정을 거치는 명시적 추출 과정을 거칩니다. 실험 결과, SP-Refine은 기존 RAG 기반 방식보다 ROUGE 및 METEOR 지표에서 압도적인 성능 향상을 보였습니다. 특히 추출된 프로필이 수사적 구조부터 마무리 방식까지 구체적이고 검증 가능한 습관을 포착함을 확인했습니다.",
+      "key_points": [
+        "StylePrism: 28개의 세부 스타일 측면을 정의한 체계적인 스타일 분류 체계 구축",
+        "SP-Refine: 프로필 생성 -> 초안 작성 -> 반복 수정을 거치는 명시적 스타일 추출 워크플로",
+        "성능 향상: 기존 RAG 방식 대비 장문 생성 작업에서 높은 텍스트 유사도 및 품질 달성"
+      ],
+      "tags": [
+        "LLM",
+        "Personalization",
+        "Prompt Engineering",
+        "Text Generation",
+        "RAG",
+        "Vision",
+        "Evaluation",
+        "Inference"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "단순히 예시 문장을 프롬프트에 넣는 것을 넘어, 스타일을 구조화된 데이터(Profile)로 변환하여 에이전트의 제어력을 높이는 전략을 배울 수 있습니다.",
+      "recommended_actions": [
+        "LLM의 스타일 추출 능력을 테스트하기 위해 28개 카테l 분류 체계를 프롬프트 엔지니어링에 적용해보기",
+        "Few-shot 예시를 직접 넣는 방식과 추출된 프로필을 가이드로 사용하는 방식의 성능 비교 실험",
+        "에이전트 워크플로에 '초안 작성 -> 프로필 기반 수정' 루프를 구현하여 결과물 변화 관찰"
+      ],
+      "risks_and_limits": [
+        "추출된 프로필만으로는 샘플 데이터 없이 고품질 글쓰기가 어렵다는 의존성 존재",
+        "반복적인 수정 단계로 인해 추론 비용(Inference Cost)이 증가할 수 있음"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27211.png",
+      "local_image_path": "images/Explicit_Style_Extraction_for_Personalized_Long-Form_Text_Generation_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 21,
+      "title": "Motion-Aware Reward Modeling for Instruction-Guided Video Editing",
+      "paper_id": "2611.22495",
+      "url": "https://huggingface.co/papers/2611.22495",
+      "arxiv_url": "https://arxiv.org/abs/2611.22495",
+      "upvotes": 1,
+      "summary": "비디오 편집 시 움직임이 사라지는 '모션 붕괴' 문제를 해결하기 위해 프레임 간 역동성을 명시적으로 모델링한 보상 모델 제안",
+      "korean_abstract": "지시어 기반 비디오 편집에서 기존 보상 모델은 시간적 일관성을 높이려다 움직임이 사라지는 '모션 붕괴(motion collapse)' 현상을 유발합니다. 연구 결과, 기존의 학습된 보상 모델과 VLM 판별기는 움직임이 억제된 결과물을 높은 점수로 평가하는 취약점을 보였습니다. 이를 해결하기 위해 프레임 간 차이(RGB frame-difference) 스트림을 결합하고, 움직임 억제 및 가짜 움직임 네거티브 샘플을 활용한 선호도 학습을 제안합니다. 또한 증류(distillation) 기법을 통해 인간의 품질 판단과의 정렬을 유지했습니다. 실험 결과, 제안 모델은 모션 억제 후보를 선택하는 오류를 0%로 줄이면서도 인간의 품질 평가와 높은 상관관계를 달성했습니다.",
+      "key_points": [
+        "모션 억제(motion-suppressed) 결과물을 선호하는 기존 보상 모델의 취약점 규명",
+        "프레임 간 차이(RGB frame-difference)를 활용한 명시적 모션 모델링 도입",
+        "모션 억제 및 가짜 움직임 네거티브를 활용한 선호도 학습 및 증류 기법 적용"
+      ],
+      "tags": [
+        "Video Editing",
+        "Reward Modeling",
+        "Computer Vision",
+        "RLHF",
+        "Video",
+        "Evaluation",
+        "Distillation",
+        "Safety"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "중",
+      "practical_relevance": "비디오 생성/편집 모델의 RLHF(인간 피드백 기반 강화학습) 과정에서 움직임이 사라지는 문제를 방지하는 데 직접적인 가이드를 제공합니다.",
+      "recommended_actions": [
+        "기존 비디오 생성 파이프라인에 프레임 차이(difference) 기반 보상 항 추가 실험",
+        "학습 데이터셋에 의도적인 모션 억제 샘플을 포함하여 강건성 테스트",
+        "보상 모델이 움직임과 정적 품질 사이의 균형을 어떻게 유지하는지 분석"
+      ],
+      "risks_and_limits": [
+        "모션 강도를 과도하게 높일 경우 발생할 수 있는 아티팩트(artifact) 가능성",
+        "프레임 차이 계산 방식에 따른 연산 비용 및 노이즈 민감도"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.22495.png",
+      "local_image_path": "images/Motion-Aware_Reward_Modeling_for_Instruction-Guided_Video_Editing_img.jpg",
+      "local_figures": []
+    },
+    {
+      "rank": 22,
+      "title": "Autoregressive View Model",
+      "paper_id": "2611.23417",
+      "url": "https://huggingface.co/papers/2611.23417",
+      "arxiv_url": "https://arxiv.org/abs/2611.23417",
+      "upvotes": 0,
+      "summary": "명시적 3D 모델 없이 비디오 확산 모델을 활용하여 카메라 경로에 따른 일관된 장면을 생성하는 자기회귀 방식의 뷰 생성 모델",
+      "korean_abstract": "기존의 3D 재구성 방식은 명시적인 3D 표현을 구축해야 하는 복잡함이 있었습니다. 본 논문은 3D 모델 없이도 카메라 경로를 따라 장면을 스트림 형태로 생성하는 Autoregressive View Model(AVM)을 제안합니다. AVM은 사전 학습된 양방향 비디오 확산 트랜스포머를 Flow Matching 방식으로 미세 조정하고, 생성된 결과물을 다시 학습에 사용하는 인-컨텍스트(in-context) 인터페이스를 사용합니다. 800만 개의 장면과 비디오 클립을 활용한 대규모 학습을 통해 카메라 제어, 시각적 품질, 장기 일관성 등 다양한 벤치마크에서 우수한 성능을 입증했습니다. 결과적으로 AVM은 단일 인터페이스를 통해 다양한 입력과 출력 설정에 유연하게 적응할 수 있음을 보여주었습니다.",
+      "key_points": [
+        "명시적 3D 표현 없이 비디오 확산 모델을 이용한 자기회귀적 뷰 생성",
+        "입력 이미지/비디오와 생성된 이력을 결합한 인-컨텍스트(in-context) 인터페이스 활용",
+        "Flow Matching 기반 미세 조정 및 생성된 결과물을 이용한 인과적 모델링(Causal tuning) 적용"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Video Generation",
+        "Diffusion Model",
+        "3D Reconstruction",
+        "Vision",
+        "Video",
+        "Benchmark",
+        "Evaluation"
+      ],
+      "confidence": "상",
+      "adoption_complexity": "상",
+      "practical_relevance": "3D 모델링 과정 없이 비디오/이미지만으로 정교한 카메라 워킹이 포함된 장면을 생성할 수 있어, 콘텐츠 제작 파이프라인의 효율성을 극대화할 수 있습니다.",
+      "recommended_actions": [
+        "제시된 N-in-1-out 포뮬레이션의 데이터 구성 방식 분석",
+        "사전 학습된 비디오 확산 모델을 활용한 자기회귀적 생성 실험",
+        "장기 생성 시 발생하는 드리프트(drift) 현상과 해결책 비교"
+      ],
+      "risks_and_limits": [
+        "명시적 3D 구조가 없으므로 매우 복잡한 기하학적 구조에서 정밀도가 떨어질 가능성",
+        "자기회귀적 생성 특성상 생성 길이가 길어질수록 누적되는 오차(drift) 위험"
+      ],
+      "repeated_in_window": false,
+      "repeated_days_ago": null,
+      "image_url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23417.png",
+      "local_image_path": "images/Autoregressive_View_Model_img.jpg",
+      "local_figures": []
+    }
+  ]
+}
