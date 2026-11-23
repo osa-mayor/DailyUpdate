@@ -1,21 +1,21 @@
 {
   "source": "hacker_news",
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T04:50:04.056694+09:00",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T04:43:27.407539+09:00",
   "count": 10,
-  "daily_summary": "오늘은 일반화된 리만 가설(GRH) 증명 주장을 둘러싼 수학적 난제 해결과 AI를 활용한 정형 검증 방식에 대한 논쟁이 기술 커뮤니티의 핵심 화두였습니다. 또한 Nginx의 심각한 RCE 취약점 보안 이슈와 차세대 AI 모델(Gemini 4, Inkling 2 Mini)의 성능 및 아키텍처에 대한 기술적 분석이 활발히 이루어졌습니다.",
+  "daily_summary": "오늘의 기술 뉴스는 일반화된 리만 가설(GRH)에 대한 거대 규모의 코드 기반 증명 발표와 이에 따른 AI 및 정형 검증 도구의 역할에 대한 뜨거운 논쟁이 주도했습니다. 또한 Nginx의 심각한 RCE 취약점 보안 이슈와 효율적인 추론 성능을 갖춘 새로운 루프형 트랜스포머 모델 발표가 기술 커뮤니티의 관심을 끌었습니다.",
   "daily_key_points": [
-    "수학적 난제인 리만 가설의 증명 시도가 현대적 컴퓨팅 환경과 정형 검증 도구(Lean)를 통해 검증되는 과정에서 학계의 뜨거운 논쟁이 발생했습니다.",
-    "Nginx의 HTTP/2 프로토콜 취약점으로 인한 심각한 원격 코드 실행(RCE) 위험이 발견되어 즉각적인 보안 패치와 업데이트가 권고되었습니다.",
-    "Looped Transformer와 MoE 구조를 활용한 차세대 AI 모델들이 공개되며, 효율적인 추론과 높은 벤치마크 성능 사이의 기술적 경쟁이 심화되고 있습니다."
+    "수학적 난제인 리만 가설의 증명을 둘러싸고 거대 규모의 코드 기반 증명 방식과 AI를 활용한 검증 방식이 새로운 논쟁을 불러일으켰습니다.",
+    "Nginx의 HTTP/2 프로토콜에서 발견된 심각한 원격 코드 실행(RCE) 취약점으로 인해 즉각적인 보안 패치와 업데이트가 권고되었습니다.",
+    "루프형 아키텍처를 적용한 Inkling 2 Mini 모델이 발표되어, 적은 파라미터로도 높은 추론 성능을 내는 효율적인 AI 모델의 가능성을 제시했습니다."
   ],
   "daily_tags": [
-    "수학적_증명",
-    "AI_모델",
+    "수학적_검증",
     "사이버보안",
-    "LLM_아키텍처"
+    "AI_아키텍처",
+    "소프트웨어_엔지니어링"
   ],
-  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘은 일반화된 리만 가설(GRH) 증명 주장을 둘러싼 수학적 난제 해결과 AI를 활용한 정형 검증 방식에 대한 논쟁이 기술 커뮤니티의 핵심 화두였습니다. 또한 Nginx의 심각한 RCE 취약점 보안 이슈와 차세대 AI 모델(Gemini 4, Inkling 2 Mini)의 성능 및 아키텍처에 대한 기술적 분석이 활발히 이루어졌습니다.\n\n📍 1. Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\n⭐ Score: 2898 | 💬 Comments: 2079\n📰 원문 요약: Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 사용자는 제공된 쉘 스크립트를 통해 01번부터 14번까지의 파트별 파일을 fetch하여 Lean 프로그래밍 언어 환경에서 검증할 수 있는 구조를 갖추고 있습니다.\n💬 토론 요약: 증명의 규모가 워낙 거대하여 수학적 직관보다는 계산적 검증이 중심이 될 것이라는 우려와, Lean과 같은 정형 검증 도구를 활용한 현대적 증명 방식의 진보라는 옹호가 대립하고 있습니다. 또한 Dijkstra의 비유를 빌려 수학적 발견이 상업적 가치로 전환되는 과정에 대한 철학적 논쟁도 함께 나타나고 있습니다.\n📌 종합 요약: Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표에 대해 학계의 검증과 기술적 실효성에 대한 논의가 이어지고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://alpo.ge/remark.pdf\n💬 토론: https://news.ycombinator.com/item?id=50574968\n\n📍 2. Hurried Announcement: Alessandro Masullo GRH\n⭐ Score: 2445 | 💬 Comments: 1195\n📰 원문 요약: Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반박이 제기되었습니다. 이 증명은 12년간의 연구 결과로 알려졌으며, 현재 커뮤니티의 검증을 통해 수학적 결함을 해결해야 하는 단계에 있습니다.\n💬 토론 요약: 12년간 연구한 결과가 AI를 통해 빠르게 반박된 상황에 대한 안타까움과, 검토 과정에서 사용된 AI 모델이 증명 유출에 관여했을 가능성을 제기하는 의혹이 대립하고 있습니다.\n📌 종합 요약: 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명 초안이 공개되었으나, 공개 직후 AI 모델을 통한 오류 발견이 이어지며 논란이 되고 있습니다. 학계 전문가들의 검토와 AI 기술이 결합되어 증명의 정당성을 검증하는 과정이 진행 중입니다.\n🗂️ 분류: 기타\n🔗 링크: https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\n💬 토론: https://news.ycombinator.com/item?id=50579568\n\n📍 3. Unauthenticated remote code execution in Nginx\n⭐ Score: 1516 | 💬 Comments: 644\n📰 원문 요약: Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 패치가 포함된 최신 버전 업데이트를 권고했습니다.\n💬 토론 요약: 오픈소스 저장소의 수정 사항을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 실질적 위험은 제한적이라는 의견이 대립하고 있습니다.\n📌 종합 요약: Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대한 논의가 이어지고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities\n💬 토론: https://news.ycombinator.com/item?id=50547374\n\n📍 4. Inkling 2 Mini\n⭐ Score: 1442 | 💬 Comments: 292\n📰 원문 요약: Inkling 2 Mini는 총 26.4B 파라미터 중 3.4B만 활성화되는 MoE(Mixture-of-Experts) 구조를 가진 모델로, 중간 레이어를 반복 실행하는 Looped Transformer 방식을 채택했습니다. 이 구조를 통해 모델은 별도의 CoT(Chain of Thought) 작성 없이도 더 깊은 추론을 수행하며, DeepSWE v1.1(48.2%)과 같은 벤치마크에서 100B 미만 모델 중 최고 수준의 성능을 기록했습니다. 또한 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성이 유지되는 특성을 보입니다.\n💬 토론 요약: 벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 반응과 함께, 모델의 성능이 기존 Qwen 모델급에 도달한 점에 대한 놀라움이 나타나고 있습니다. 동시에 특정 PR(Pull Request) 미반영 문제나 실질적인 활용 가능성에 대한 기술적 검토가 병합되어 진행 중입니다.\n📌 종합 요약: 로프드 트랜스포머(Looped Transformer) 아키텍처를 적용해 추론 능력을 극대화한 Inkling 2 Mini 모델이 공개되었습니다. 이 모델은 적은 파라미터로도 높은 벤치마크 성능을 보여주며, 효율적인 추론과 모니터링 가능성을 동시에 확보했다는 평가를 받고 있습니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://thinkingmachines.ai/news/inkling-2-mini/\n💬 토론: https://news.ycombinator.com/item?id=50581260\n\n📍 5. Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'\n⭐ Score: 1293 | 💬 Comments: 276\n📰 원문 요약: 전이성 췌장암 환자 61명을 대상으로 한 임상 시험에서 경구용 약물인 daraxonrasib를 투여한 결과, 환자의 약 8%에서 종양이 CT 스캔상 검출되지 않을 정도로 사라졌으며 60% 이상의 환자에게서 종양 크기가 감소했습니다. 또한 환자의 90%에서 종양 성장이 억제되었으며, 1년 생존율은 76.6%를 기록하여 기존 화학요법의 생존율(40~45%)을 크게 상회했습니다. 이번 연구는 전이성 췌장암이라는 난치성 질환에 대해 수십 년 만에 나타난 유의미한 치료 성과로 간주됩니다.\n💬 토론 요약: 생존 기간 연장 폭이 수치상으로는 크지 않아 보일 수 있다는 회의적인 시각이 있으나, 수십 년간 획기적인 치료제가 없었던 전이성 췌장암 분야에서 이번 결과는 과장 없는 실질적인 진보라는 옹호 의견이 대립하고 있습니다.\n📌 종합 요약: 전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제 '다락손라시브(daraxonrasib)'의 임상 결과가 발표되어 의학계의 주목을 받고 있습니다. 기존 화학요법보다 높은 생존율과 종양 억제 효과를 보여 췌장암 치료의 새로운 돌파구로 평가받고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib\n💬 토론: https://news.ycombinator.com/item?id=50582069\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-23.md",
+  "chat_message": "🟠 오늘의 Top Hacker News\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 일반화된 리만 가설(GRH)에 대한 거대 규모의 코드 기반 증명 발표와 이에 따른 AI 및 정형 검증 도구의 역할에 대한 뜨거운 논쟁이 주도했습니다. 또한 Nginx의 심각한 RCE 취약점 보안 이슈와 효율적인 추론 성능을 갖춘 새로운 루프형 트랜스포머 모델 발표가 기술 커뮤니티의 관심을 끌었습니다.\n\n📍 1. Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]\n⭐ Score: 2919 | 💬 Comments: 2099\n📰 원문 요약: Levent Alpöge는 일반화된 리만 가설(GRH)을 증명했다고 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 이는 기존의 종이 기반 증명을 넘어 Lean과 같은 정형 검증 도구를 활용한 현대적 수학 증명의 형태를 보여줍니다.\n💬 토론 요약: 증명의 규모가 1,500만 라인에 달할 정도로 거대하다는 점에 대해 기술적 검증의 난이도를 우려하는 시각과, 수학적 정교함을 갖춘 새로운 시대의 증명 방식이라는 시각이 대립하고 있습니다.\n📌 종합 요약: 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 증명이 발표되어 학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 검증 방식에 대한 새로운 논쟁을 불러일으키고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://alpo.ge/remark.pdf\n💬 토론: https://news.ycombinator.com/item?id=50574968\n\n📍 2. Hurried Announcement: Alessandro Masullo GRH\n⭐ Score: 2450 | 💬 Comments: 1218\n📰 원문 요약: Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. Brian Conrad의 피드백을 거쳐 완성도를 높이려던 계획이었으나, 초안이 공개된 지 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아냈습니다. 현재 이 증명은 수정 단계에 있으며, 커뮤니티의 검증을 통해 수학적 정당성을 확보해야 하는 상황입니다.\n💬 토론 요약: 12년간 연구해 온 저자의 노력이 AI에 의해 부정당한 상황에 대한 안타까움과, Brian Conrad이 검토 과정에서 사용한 AI가 의도치 않게 증명 내용을 유출했을 가능성에 대한 의구심이 대립하고 있습니다.\n📌 종합 요약: 수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명안이 발표되었으나, 공개 직후 AI 모델을 통한 오류 발견으로 논란이 되고 있습니다. 학계 전문가들의 검토와 AI의 분석 결과가 충돌하며 증명의 유효성을 두고 논쟁이 벌어지고 있습니다.\n🗂️ 분류: 기타\n🔗 링크: https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/\n💬 토론: https://news.ycombinator.com/item?id=50579568\n\n📍 3. Unauthenticated remote code execution in Nginx\n⭐ Score: 1517 | 💬 Comments: 646\n📰 원문 요약: Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 업데이트를 통해 해당 문제들을 해결했습니다.\n💬 토론 요약: 오픈소스 저장소의 패치 내역을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 위험도가 관리 가능한 수준이라는 의견이 대립하고 있습니다.\n📌 종합 요약: Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대해 논의하고 있습니다.\n🗂️ 분류: 보안/프라이버시\n🔗 링크: https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities\n💬 토론: https://news.ycombinator.com/item?id=50547374\n\n📍 4. Inkling 2 Mini\n⭐ Score: 1473 | 💬 Comments: 293\n📰 원문 요약: Inkling 2 Mini는 26.4B 전체 파라미터 중 3.4B만 활성화하는 MoE(Mixture-of-Experts) 구조를 가진 루프형 트랜스포머 모델입니다. 중간 레이어를 토큰당 3회 반복 실행하는 루프 방식을 통해 별도의 CoT(Chain of Thought) 작성 없이도 추론 능력을 높였으며, DeepSWE v1.1(48.2%) 등 100B 미만 모델 중 최고 수준의 벤치마크 성능을 기록했습니다. 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성을 유지하는 것이 특징입니다.\n💬 토론 요약: 벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 평가와 함께, 특정 하드웨어 환경에서의 구동 속도 및 미병합된 PR(Pull Request) 등 기술적 구현 완성도에 대한 검토가 이루어지고 있습니다.\n📌 종합 요약: 새로운 루프형 트랜스포머 아키텍처를 적용한 Inkling 2 Mini 모델이 발표되었습니다. 이 모델은 적은 파라미터로도 높은 추론 성능을 내며, 노트북에서도 구동 가능한 효율성을 목표로 합니다.\n🗂️ 분류: AI/ML\n🔗 링크: https://thinkingmachines.ai/news/inkling-2-mini/\n💬 토론: https://news.ycombinator.com/item?id=50581260\n\n📍 5. Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'\n⭐ Score: 1379 | 💬 Comments: 320\n📰 원문 요약: 전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제가 개발되어 수십 년 만의 유의미한 진전으로 주목받고 있습니다. 기존의 가혹한 화학요법을 대체하거나 보완할 수 있는 이 치료법은 환자의 생존 기간을 기존 약 6개월에서 약 즘 13개월로 연장하는 성과를 보였습니다. 이는 전이성 췌장암 분야에서 매우 드문 혁신적 성과로 평가받습니다.\n💬 토론 요약: 생존 기간이 6개월에서 13개월로 늘어난 것이 일반인에게는 미미해 보일 수 있다는 회의적 시각과, 수십 년간 정체되었던 치료 옵션에서 이 정도의 진전은 엄청난 도약이라는 옹호론이 대립하고 있습니다.\n📌 종합 요약: 수십 년 만에 췌장암 치료의 획기적인 돌파구로 평가받는 신약 개발 소식과 이에 대한 커뮤니티의 분석을 다룹니다. 생존 기간 연장 수치에 대한 실질적 해석과 치료법의 역사적 의미를 중심으로 논의가 진행 중입니다.\n🗂️ 분류: 기타\n🔗 링크: https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib\n💬 토론: https://news.ycombinator.com/item?id=50582069\n\n출처: Hacker News\nhttps://news.ycombinator.com/\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/HackerNews/hacker_news_2026-11-24.md",
   "items": [
     {
       "rank": 1,
@@ -24,36 +24,35 @@
       "url": "https://alpo.ge/remark.pdf",
       "hn_url": "https://news.ycombinator.com/item?id=50574968",
       "author": "iamronaldo",
-      "score": 2898,
-      "comments": 2079,
-      "rank_score": 2030.8920369518084,
+      "score": 2919,
+      "comments": 2099,
+      "rank_score": 2045.5949077871135,
       "published_at_kst": "2026-11-20T23:16:21+09:00",
       "published_date": "2026-11-20",
-      "summary": "Levent Alpöge가 일반화된 리만 가설(GRH)을 증명했다는 주장이 제기되어 수학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표에 대해 학계의 검증과 기술적 실효성에 대한 논의가 이어지고 있습니다.",
+      "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 증명이 발표되어 학계와 기술 커뮤니티의 이목이 집중되고 있습니다. 거대한 규모의 코드와 증명 형식을 갖춘 이번 발표는 수학적 검증 방식에 대한 새로운 논쟁을 불러일으키고 있습니다.",
       "story_text": "Related: Hurried Announcement: Alessandro Masullo GRH - https://news.ycombinator.com/item?id=50579568",
-      "external_article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 사용자는 제공된 쉘 스크립트를 통해 01번부터 14번까지의 파트별 파일을 fetch하여 Lean 프로그래밍 언어 환경에서 검증할 수 있는 구조를 갖추고 있습니다.",
-      "article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)의 증명을 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 사용자는 제공된 쉘 스크립트를 통해 01번부터 14번까지의 파트별 파일을 fetch하여 Lean 프로그래밍 언어 환경에서 검증할 수 있는 구조를 갖추고 있습니다.",
-      "discussion_summary": "증명의 규모가 워낙 거대하여 수학적 직관보다는 계산적 검증이 중심이 될 것이라는 우려와, Lean과 같은 정형 검증 도구를 활용한 현대적 증명 방식의 진보라는 옹호가 대립하고 있습니다. 또한 Dijkstra의 비유를 빌려 수학적 발견이 상업적 가치로 전환되는 과정에 대한 철학적 논쟁도 함께 나타나고 있습니다.",
+      "external_article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)을 증명했다고 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 이는 기존의 종이 기반 증명을 넘어 Lean과 같은 정형 검증 도구를 활용한 현대적 수학 증명의 형태를 보여줍니다.",
+      "article_summary": "Levent Alpöge는 일반화된 리만 가설(GRH)을 증명했다고 주장하며 관련 자료를 공개했습니다. 이번 증명은 약 1.3GB 용량에 달하며, 약 1,500만 라인의 코드로 구성된 방대한 규모를 특징으로 합니다. 이는 기존의 종이 기반 증명을 넘어 Lean과 같은 정형 검증 도구를 활용한 현대적 수학 증명의 형태를 보여줍니다.",
+      "discussion_summary": "증명의 규모가 1,500만 라인에 달할 정도로 거대하다는 점에 대해 기술적 검증의 난이도를 우려하는 시각과, 수학적 정교함을 갖춘 새로운 시대의 증명 방식이라는 시각이 대립하고 있습니다.",
       "key_points": [
-        "1.3GB 용량과 1,500만 라인의 코드로 구성된 방대한 규모의 증명 체계입니다.",
-        "Lean 프로그래밍 언어를 활용한 정형 검증 방식이 핵심적인 기술적 특징입니다.",
-        "수학적 난제의 해결이 현대적 컴퓨팅 환경에서 어떻게 검증되고 수용될 것인지가 관건입니다."
+        "일반화된 리만 가설(GRH)에 대한 새로운 증명 시도가 공개되었습니다.",
+        "증명 데이터는 1.3GB 용량과 1,500만 라인의 코드로 구성된 거대한 규모를 가집니다.",
+        "수학적 난제를 해결하기 위한 정형 검증 및 코드 기반 증명의 가능성을 제시합니다."
       ],
       "category": "기타",
       "comment_highlights": [
         {
-          "author": "amai",
-          "text": "„Dijkstra described a fictional company of which he served as chairman. The company was called Mathematics, Inc., a company that he imagined having commercialized the production o…"
-        },
-        {
           "author": "djoldman",
           "text": "These proofs really are quite huge. The proof is 1.3GB, ~15M lines of code: mkdir -p riemann_proof && cd riemann_proof # fetch parts 01–14 for i in {01..14}; do curl -fSL -o lean.…"
+        },
+        {
+          "author": "amai",
+          "text": "„Dijkstra described a fictional company of which he served as chairman. The company was called Mathematics, Inc., a company that he imagined having commercialized the production o…"
         }
       ],
       "tags": [
         "Mathematics",
         "Riemann Hypothesis",
-        "Lean",
         "Formal Verification"
       ],
       "domain": "alpo.ge",
@@ -67,20 +66,20 @@
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "hn_url": "https://news.ycombinator.com/item?id=50579568",
       "author": "jasondavies",
-      "score": 2445,
-      "comments": 1195,
-      "rank_score": 1713.6260213803532,
+      "score": 2450,
+      "comments": 1218,
+      "rank_score": 1717.1317358388444,
       "published_at_kst": "2026-11-21T03:33:14+09:00",
       "published_date": "2026-11-21",
-      "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명 초안이 공개되었으나, 공개 직후 AI 모델을 통한 오류 발견이 이어지며 논란이 되고 있습니다. 학계 전문가들의 검토와 AI 기술이 결합되어 증명의 정당성을 검증하는 과정이 진행 중입니다.",
+      "summary": "수학계의 난제인 일반화된 리만 가설(GRH)에 대한 새로운 증명안이 발표되었으나, 공개 직후 AI 모델을 통한 오류 발견으로 논란이 되고 있습니다. 학계 전문가들의 검토와 AI의 분석 결과가 충돌하며 증명의 유효성을 두고 논쟁이 벌어지고 있습니다.",
       "story_text": "Related: Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf] - https://news.ycombinator.com/item?id=50574968",
-      "external_article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반박이 제기되었습니다. 이 증명은 12년간의 연구 결과로 알려졌으며, 현재 커뮤니티의 검증을 통해 수학적 결함을 해결해야 하는 단계에 있습니다.",
-      "article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. 초기에는 Brian Conrad의 검토를 거쳐 인간의 논리만으로 작성된 것으로 발표되었으나, 공개 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아내며 반박이 제기되었습니다. 이 증명은 12년간의 연구 결과로 알려졌으며, 현재 커뮤니티의 검증을 통해 수학적 결함을 해결해야 하는 단계에 있습니다.",
-      "discussion_summary": "12년간 연구한 결과가 AI를 통해 빠르게 반박된 상황에 대한 안타까움과, 검토 과정에서 사용된 AI 모델이 증명 유출에 관여했을 가능성을 제기하는 의혹이 대립하고 있습니다.",
+      "external_article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. Brian Conrad의 피드백을 거쳐 완성도를 높이려던 계획이었으나, 초안이 공개된 지 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아냈습니다. 현재 이 증명은 수정 단계에 있으며, 커뮤니티의 검증을 통해 수학적 정당성을 확보해야 하는 상황입니다.",
+      "article_summary": "Alessandro Masullo가 제안한 GRH(Generalized Riemann Hypothesis) 증명 초안이 공개되었습니다. Brian Conrad의 피드백을 거쳐 완성도를 높이려던 계획이었으나, 초안이 공개된 지 8시간 만에 여러 수학자가 AI 모델을 활용해 증명 과정에서의 오류를 찾아냈습니다. 현재 이 증명은 수정 단계에 있으며, 커뮤니티의 검증을 통해 수학적 정당성을 확보해야 하는 상황입니다.",
+      "discussion_summary": "12년간 연구해 온 저자의 노력이 AI에 의해 부정당한 상황에 대한 안타까움과, Brian Conrad이 검토 과정에서 사용한 AI가 의도치 않게 증명 내용을 유출했을 가능성에 대한 의구심이 대립하고 있습니다.",
       "key_points": [
-        "수학적 난제인 GRH 증명 초안이 공개되었으나 AI를 활용한 오류 검증이 즉각적으로 이루어지고 있습니다.",
-        "증명 과정에서 인간의 논리적 완결성과 AI 모델의 효율적인 오류 탐지 능력이 충돌하고 있습니다.",
-        "학계는 향후 이 증명이 수학적 커뮤니티의 엄격한 검증을 통과할 수 있을지 주목하고 있습니다."
+        "Alessandro Masullo가 제안한 GRH 증명 초안이 공개되었으나 AI 모델을 통해 즉각적인 오류가 발견되었습니다.",
+        "수학적 난제 해결 과정에서 인간의 검토와 AI의 분석 속도 차이가 새로운 변수로 등장했습니다.",
+        "증명의 최종 수용 여부는 커뮤니티의 엄격한 검증과 발견된 오류의 해결 여부에 달려 있습니다."
       ],
       "category": "기타",
       "comment_highlights": [
@@ -97,7 +96,7 @@
         "Mathematics",
         "GRH",
         "AI",
-        "Proof Verification"
+        "Proof"
       ],
       "domain": "math216.wordpress.com",
       "repeated_in_window": true,
@@ -110,20 +109,20 @@
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "hn_url": "https://news.ycombinator.com/item?id=50547374",
       "author": "speedping",
-      "score": 1516,
-      "comments": 644,
-      "rank_score": 1063.1407750950389,
+      "score": 1517,
+      "comments": 646,
+      "rank_score": 1063.8417038883501,
       "published_at_kst": "2026-11-19T00:19:55+09:00",
       "published_date": "2026-11-19",
-      "summary": "Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대한 논의가 이어지고 있습니다.",
+      "summary": "Nginx의 HTTP/2 프로토콜 취약점으로 인해 서버 권한을 탈취할 수 있는 심각한 원격 코드 실행(RCE) 보안 문제가 발견되었습니다. 보안 전문가들은 즉각적인 패치 적용을 권고하며, 커뮤니티에서는 취약점 노출 시점과 영향 범위에 대해 논의하고 있습니다.",
       "story_text": "https://www.cve.org/CVERecord?id=CVE-2026-123633 https://www.cve.org/CVERecord?id=CVE-2026-123007",
-      "external_article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 패치가 포함된 최신 버전 업데이트를 권고했습니다.",
-      "article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 패치가 포함된 최신 버전 업데이트를 권고했습니다.",
-      "discussion_summary": "오픈소스 저장소의 수정 사항을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 실질적 위험은 제한적이라는 의견이 대립하고 있습니다.",
+      "external_article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 업데이트를 통해 해당 문제들을 해결했습니다.",
+      "article_summary": "Wiz Research와 여러 보안 연구팀이 Nginx에서 CVSS 4.0 기준 9.2점의 심각도를 가진 두 가지 RCE 취약점(CVE-2026-123633, CVE-2026-123007)을 발견했습니다. 이 취약점들은 HTTP/2 기능이 활성화된 서버를 대상으로 하며, 특히 CVE-2026-123007은 2015년 출시된 Nginx 1.9.5 버전부터 영향을 미칩니다. 공격자는 이를 통해 서버 제어권을 획득하거나 데이터를 탈취할 수 있으며, F5는 보안 업데이트를 통해 해당 문제들을 해결했습니다.",
+      "discussion_summary": "오픈소스 저장소의 패치 내역을 모니터링하여 취약점을 악용할 수 있는 위험이 있다는 비판과, HTTP/2가 기본 활성화 상태가 아니며 전체 서버 중 약 12%만 사용하므로 위험도가 관리 가능한 수준이라는 의견이 대립하고 있습니다.",
       "key_points": [
         "Nginx의 HTTP/2 프로토콜 구현에서 발생하는 원격 코드 실행 취약점은 서버 제어권을 완전히 탈취할 수 있는 위험을 초래합니다.",
-        "취약점이 포함된 구형 버전부터 최신 버전까지 광범위하게 영향을 미치므로 즉각적인 업데이트가 필요합니다.",
-        "보안 패치 배포와 취약점 공개 사이의 시간차를 이용한 공격 가능성에 대한 경계가 필요합니다."
+        "취약점이 포함된 패치가 공개된 후 공격자가 이를 역공학하여 악용할 수 있는 윈도우 타임이 존재합니다.",
+        "영향을 받는 서버는 즉시 최신 버전의 Nginx로 업데이트하거나 HTTP/2 설정을 검토해야 합니다."
       ],
       "category": "보안/프라이버시",
       "comment_highlights": [
@@ -141,7 +140,7 @@
         "RCE",
         "HTTP/2",
         "CVE",
-        "Cybersecurity"
+        "Vulnerability"
       ],
       "domain": "wiz.io",
       "repeated_in_window": true,
@@ -154,20 +153,20 @@
       "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
       "hn_url": "https://news.ycombinator.com/item?id=50581260",
       "author": "jasondavies",
-      "score": 1442,
-      "comments": 292,
-      "rank_score": 1011.1040517827051,
+      "score": 1473,
+      "comments": 293,
+      "rank_score": 1032.8050739302016,
       "published_at_kst": "2026-11-21T05:12:19+09:00",
       "published_date": "2026-11-21",
-      "summary": "로프드 트랜스포머(Looped Transformer) 아키텍처를 적용해 추론 능력을 극대화한 Inkling 2 Mini 모델이 공개되었습니다. 이 모델은 적은 파라미터로도 높은 벤치마크 성능을 보여주며, 효율적인 추론과 모니터링 가능성을 동시에 확보했다는 평가를 받고 있습니다.",
+      "summary": "새로운 루프형 트랜스포머 아키텍처를 적용한 Inkling 2 Mini 모델이 발표되었습니다. 이 모델은 적은 파라미터로도 높은 추론 성능을 내며, 노트북에서도 구동 가능한 효율성을 목표로 합니다.",
       "story_text": "",
-      "external_article_summary": "Inkling 2 Mini는 총 26.4B 파라미터 중 3.4B만 활성화되는 MoE(Mixture-of-Experts) 구조를 가진 모델로, 중간 레이어를 반복 실행하는 Looped Transformer 방식을 채택했습니다. 이 구조를 통해 모델은 별도의 CoT(Chain of Thought) 작성 없이도 더 깊은 추론을 수행하며, DeepSWE v1.1(48.2%)과 같은 벤치마크에서 100B 미만 모델 중 최고 수준의 성능을 기록했습니다. 또한 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성이 유지되는 특성을 보입니다.",
-      "article_summary": "Inkling 2 Mini는 총 26.4B 파라미터 중 3.4B만 활성화되는 MoE(Mixture-of-Experts) 구조를 가진 모델로, 중간 레이어를 반복 실행하는 Looped Transformer 방식을 채택했습니다. 이 구조를 통해 모델은 별도의 CoT(Chain of Thought) 작성 없이도 더 깊은 추론을 수행하며, DeepSWE v1.1(48.2%)과 같은 벤치마크에서 100B 미만 모델 중 최고 수준의 성능을 기록했습니다. 또한 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성이 유지되는 특성을 보입니다.",
-      "discussion_summary": "벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 반응과 함께, 모델의 성능이 기존 Qwen 모델급에 도달한 점에 대한 놀라움이 나타나고 있습니다. 동시에 특정 PR(Pull Request) 미반영 문제나 실질적인 활용 가능성에 대한 기술적 검토가 병합되어 진행 중입니다.",
+      "external_article_summary": "Inkling 2 Mini는 26.4B 전체 파라미터 중 3.4B만 활성화하는 MoE(Mixture-of-Experts) 구조를 가진 루프형 트랜스포머 모델입니다. 중간 레이어를 토큰당 3회 반복 실행하는 루프 방식을 통해 별도의 CoT(Chain of Thought) 작성 없이도 추론 능력을 높였으며, DeepSWE v1.1(48.2%) 등 100B 미만 모델 중 최고 수준의 벤치마크 성능을 기록했습니다. 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성을 유지하는 것이 특징입니다.",
+      "article_summary": "Inkling 2 Mini는 26.4B 전체 파라미터 중 3.4B만 활성화하는 MoE(Mixture-of-Experts) 구조를 가진 루프형 트랜스포머 모델입니다. 중간 레이어를 토큰당 3회 반복 실행하는 루프 방식을 통해 별도의 CoT(Chain of Thought) 작성 없이도 추론 능력을 높였으며, DeepSWE v1.1(48.2%) 등 100B 미만 모델 중 최고 수준의 벤치마크 성능을 기록했습니다. 루프 횟수가 늘어날수록 추론 시간 지평이 확장되면서도 CoT의 가독성을 유지하는 것이 특징입니다.",
+      "discussion_summary": "벤치마크 성능이 실제 환경에서도 유지된다면 매우 혁신적이라는 긍정적인 평가와 함께, 특정 하드웨어 환경에서의 구동 속도 및 미병합된 PR(Pull Request) 등 기술적 구현 완성도에 대한 검토가 이루어지고 있습니다.",
       "key_points": [
-        "Looped Transformer 아키텍처를 통해 토큰당 중간 레이어를 반복 실행하여 추론 품질을 높였습니다.",
-        "26.4B MoE 구조를 활용해 노트북에서도 구동 가능한 효율적인 추론 속도를 제공합니다.",
-        "CoT를 길게 쓰지 않고도 루프를 통해 추론 시간을 확보하여 모델 모니터링의 용이성을 확보했습니다."
+        "루프형 아키텍처를 통해 토큰 생성 시 중간 레이어를 반복 실행하여 추론 품질을 높였습니다.",
+        "26.4B MoE 모델로서 효율적인 연산과 높은 벤치마크 성능을 동시에 확보했습니다.",
+        "CoT를 길게 쓰지 않고도 모델 내부의 루프를 통해 추론 시간을 확보하는 새로운 접근 방식을 제시합니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -184,7 +183,7 @@
         "LLM",
         "Transformer",
         "MoE",
-        "AI Architecture"
+        "Machine Learning"
       ],
       "domain": "thinkingmachines.ai",
       "repeated_in_window": true,
@@ -197,20 +196,20 @@
       "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
       "hn_url": "https://news.ycombinator.com/item?id=50582069",
       "author": "rafaelc",
-      "score": 1293,
-      "comments": 276,
-      "rank_score": 906.7872052518561,
+      "score": 1379,
+      "comments": 320,
+      "rank_score": 967.0314323369389,
       "published_at_kst": "2026-11-21T06:03:12+09:00",
       "published_date": "2026-11-21",
-      "summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제 '다락손라시브(daraxonrasib)'의 임상 결과가 발표되어 의학계의 주목을 받고 있습니다. 기존 화학요법보다 높은 생존율과 종양 억제 효과를 보여 췌장암 치료의 새로운 돌파구로 평가받고 있습니다.",
+      "summary": "수십 년 만에 췌장암 치료의 획기적인 돌파구로 평가받는 신약 개발 소식과 이에 대한 커뮤니티의 분석을 다룹니다. 생존 기간 연장 수치에 대한 실질적 해석과 치료법의 역사적 의미를 중심으로 논의가 진행 중입니다.",
       "story_text": "",
-      "external_article_summary": "전이성 췌장암 환자 61명을 대상으로 한 임상 시험에서 경구용 약물인 daraxonrasib를 투여한 결과, 환자의 약 8%에서 종양이 CT 스캔상 검출되지 않을 정도로 사라졌으며 60% 이상의 환자에게서 종양 크기가 감소했습니다. 또한 환자의 90%에서 종양 성장이 억제되었으며, 1년 생존율은 76.6%를 기록하여 기존 화학요법의 생존율(40~45%)을 크게 상회했습니다. 이번 연구는 전이성 췌장암이라는 난치성 질환에 대해 수십 년 만에 나타난 유의미한 치료 성과로 간주됩니다.",
-      "article_summary": "전이성 췌장암 환자 61명을 대상으로 한 임상 시험에서 경구용 약물인 daraxonrasib를 투여한 결과, 환자의 약 8%에서 종양이 CT 스캔상 검출되지 않을 정도로 사라졌으며 60% 이상의 환자에게서 종양 크기가 감소했습니다. 또한 환자의 90%에서 종양 성장이 억제되었으며, 1년 생존율은 76.6%를 기록하여 기존 화학요법의 생존율(40~45%)을 크게 상회했습니다. 이번 연구는 전이성 췌장암이라는 난치성 질환에 대해 수십 년 만에 나타난 유의미한 치료 성과로 간주됩니다.",
-      "discussion_summary": "생존 기간 연장 폭이 수치상으로는 크지 않아 보일 수 있다는 회의적인 시각이 있으나, 수십 년간 획기적인 치료제가 없었던 전이성 췌장암 분야에서 이번 결과는 과장 없는 실질적인 진보라는 옹호 의견이 대립하고 있습니다.",
+      "external_article_summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제가 개발되어 수십 년 만의 유의미한 진전으로 주목받고 있습니다. 기존의 가혹한 화학요법을 대체하거나 보완할 수 있는 이 치료법은 환자의 생존 기간을 기존 약 6개월에서 약 즘 13개월로 연장하는 성과를 보였습니다. 이는 전이성 췌장암 분야에서 매우 드문 혁신적 성과로 평가받습니다.",
+      "article_summary": "전이성 췌장암 환자를 대상으로 한 새로운 경구용 치료제가 개발되어 수십 년 만의 유의미한 진전으로 주목받고 있습니다. 기존의 가혹한 화학요법을 대체하거나 보완할 수 있는 이 치료법은 환자의 생존 기간을 기존 약 6개월에서 약 즘 13개월로 연장하는 성과를 보였습니다. 이는 전이성 췌장암 분야에서 매우 드문 혁신적 성과로 평가받습니다.",
+      "discussion_summary": "생존 기간이 6개월에서 13개월로 늘어난 것이 일반인에게는 미미해 보일 수 있다는 회의적 시각과, 수십 년간 정체되었던 치료 옵션에서 이 정도의 진전은 엄청난 도약이라는 옹호론이 대립하고 있습니다.",
       "key_points": [
-        "daraxonrasib 투여 시 환자의 8%에서 종양이 완전히 사라지는 성과를 거두었습니다.",
-        "기존 화학요법 대비 1년 생존율을 약 2배 가까이 높이는 효과를 입증했습니다.",
-        "전이성 췌장암 환자들에게 실질적인 생존 시간 연장과 희망을 제공할 것으로 기대됩니다."
+        "전이성 췌장암 치료를 위한 새로운 경구용 약물 개발이 이루어졌습니다.",
+        "생존 기간 연장 폭에 대한 의학적 가치와 일반적 체감 사이의 간극이 쟁점입니다.",
+        "기존 화학요법의 고통을 줄일 수 있는 새로운 치료 옵션의 확보가 핵심입니다."
       ],
       "category": "기타",
       "comment_highlights": [
@@ -224,35 +223,122 @@
         }
       ],
       "tags": [
-        "췌장암",
-        "신약 임상",
-        "의학 혁신"
+        "의학",
+        "바이오테크",
+        "신약개발"
       ],
       "domain": "theguardian.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 6,
+      "story_id": "50596133",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "hn_url": "https://news.ycombinator.com/item?id=50596133",
+      "author": "zdw",
+      "score": 1365,
+      "comments": 726,
+      "rank_score": 957.4766779432599,
+      "published_at_kst": "2026-11-22T13:04:56+09:00",
+      "published_date": "2026-11-22",
+      "summary": "일본 자동차 제조사들이 비용 절감을 위해 부품 표준화를 추진하며, 이에 대해 과거 사례와 중국 제조사와의 경쟁 구도를 중심으로 활발한 논의가 이어지고 있습니다.",
+      "story_text": "",
+      "external_article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 과거 Ford와 GM이 2002년 6단 자동 변속기 설계를 공동 작업했던 사례와 유사한 협력 모델을 지향합니다. 제조사 간 부품 공유를 통해 규모의 경제를 달성하고 공급망 효율성을 높이는 것이 핵심 목적입니다.",
+      "article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 과거 Ford와 GM이 2002년 6단 자동 변속기 설계를 공동 작업했던 사례와 유사한 협력 모델을 지향합니다. 제조사 간 부품 공유를 통해 규모의 경제를 달성하고 공급망 효율성을 높이는 것이 핵심 목적입니다.",
+      "discussion_summary": "과거 Ford와 GM의 협력 사례처럼 이미 검증된 전략이라는 옹호와, 부품의 75~85%를 자체 생산하며 수직 계열화를 이룬 BYD 등 중국 제조사와의 경쟁에서 불리할 수 있다는 비판이 대립하고 있습니다.",
+      "key_points": [
+        "일본 완성차 업체들이 비용 절감을 위해 부품 표준화 및 공동 개발을 추진합니다.",
+        "과거 Ford와 GM의 변속기 공동 개발 사례가 이번 전략의 기술적 선례로 언급됩니다.",
+        "중국 BYD와 같은 수직 계열화 모델 대비 경쟁 우위를 확보하는 것이 관건입니다."
+      ],
+      "category": "비즈니스/스타트업",
+      "comment_highlights": [
+        {
+          "author": "johnohara",
+          "text": "Ford and GM have been doing this since 2002 with the GM–Ford 6-speed automatic transmission [0]. The companies worked together on the design and ultimately worked with Allison Tra…"
+        },
+        {
+          "author": "wcfields",
+          "text": "They’re (the Japanese makers) are getting cooked by the Chinese makers like BYD who make 75%-85% of their parts in-house[1]. Depending on the car, some estimates say that only the…"
+        }
+      ],
+      "tags": [
+        "Toyota",
+        "Nissan",
+        "Honda",
+        "Supply Chain",
+        "Automotive"
+      ],
+      "domain": "caranddriver.com",
+      "repeated_in_window": true,
+      "repeated_days_ago": 1
+    },
+    {
+      "rank": 7,
+      "story_id": "50611576",
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "hn_url": "https://news.ycombinator.com/item?id=50611576",
+      "author": "jaz",
+      "score": 1268,
+      "comments": 2395,
+      "rank_score": 890.7054008445645,
+      "published_at_kst": "2026-11-23T23:00:18+09:00",
+      "published_date": "2026-11-23",
+      "summary": "Nvidia 이사회가 젠슨 황을 CEO로 복귀시키며 경영권 구조에 대한 논쟁이 발생했습니다. 기업의 공식적인 거버넌스와 실제 의사결정 구조 사이의 괴리에 대한 커뮤니티의 분석이 이어지고 있습니다.",
+      "story_text": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-j...",
+      "external_article_summary": "Nvidia 이사회가 젠슨 황을 CEO 직위로 복귀시켰으며, 이는 기업의 지배구조와 경영권 유지 방식을 재확인하는 조치입니다. 이번 결정은 2023년 OpenAI 사태와 유사하게 명목상의 거버넌스 구조와 실제 운영 구조가 다를 수 있음을 시사합니다. 이사회는 경영 안정성과 전략적 연속성을 확보하기 위해 이번 복귀를 결정했습니다.",
+      "article_summary": "Nvidia 이사회가 젠슨 황을 CEO 직위로 복귀시켰으며, 이는 기업의 지배구조와 경영권 유지 방식을 재확인하는 조치입니다. 이번 결정은 2023년 OpenAI 사태와 유사하게 명목상의 거버넌스 구조와 실제 운영 구조가 다를 수 있음을 시사합니다. 이사회는 경영 안정성과 전략적 연속성을 확보하기 위해 이번 복귀를 결정했습니다.",
+      "discussion_summary": "젠슨 황의 강력한 리더십이 기업 성장의 핵심이라는 옹호론과, 과거의 엄격한 관리 방식이 직장 내 괴롭힘으로 비춰질 수 있다는 비판이 대립하고 있습니다. 또한 기업의 공식적인 지배구조가 실제 의사결정 체계와 일치하지 않는 현상에 대한 우려가 제기되었습니다.",
+      "key_points": [
+        "공식적인 거버넌스 구조와 실제 경영권 사이의 괴리가 기업 운영의 핵심 변수로 작용합니다.",
+        "젠슨 황의 리더십 스타일을 둘러싼 조직 문화와 경영 효율성 사이의 논쟁이 존재합니다.",
+        "CEO의 복귀는 기업의 전략적 방향성을 유지하기 위한 이사회의 결정적 조치입니다."
+      ],
+      "category": "비즈니스/스타트업",
+      "comment_highlights": [
+        {
+          "author": "015UUZn8aEvW",
+          "text": "One of the takeaways from this, and from the 2023 OpenAI saga, is that a firm's nominal governance structure isn't necessarily its real governance structure. Note that I'm not mak…"
+        },
+        {
+          "author": "hintymad",
+          "text": "It's worth mentioning NYT's recent article about Jensen. They dug through 30 years of Jensen’s harsh emails and tough meetings to cry \"workplace abuse\". That is a textbook case of…"
+        }
+      ],
+      "tags": [
+        "Nvidia",
+        "젠슨 황",
+        "기업 거버넌스",
+        "경영권"
+      ],
+      "domain": "cnbc.com",
       "repeated_in_window": false,
       "repeated_days_ago": null
     },
     {
-      "rank": 6,
+      "rank": 8,
       "story_id": "50589618",
       "title": "Lean verification of the Riemann Hypothesis",
       "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
       "hn_url": "https://news.ycombinator.com/item?id=50589618",
       "author": "g-b-r",
-      "score": 1189,
-      "comments": 985,
-      "rank_score": 834.3680969063807,
+      "score": 1237,
+      "comments": 1043,
+      "rank_score": 867.9852444305327,
       "published_at_kst": "2026-11-21T23:36:45+09:00",
       "published_date": "2026-11-21",
-      "summary": "리만 가설의 증명을 위해 Lean 프로버를 활용한 정형 검증 방식이 주목받고 있습니다. 수학적 증명의 무결성을 확보하려는 시도와 이에 따른 검증 신뢰도에 대한 논쟁이 핵심입니다.",
+      "summary": "수학적 난제인 리만 가설을 Lean 프로버를 통해 검증하려는 시도와 이에 대한 커뮤니티의 기술적 논쟁을 다룹니다. 수학적 증명의 엄밀성과 자동화된 검증 도구의 신뢰성을 중심으로 논의가 진행 중입니다.",
       "story_text": "",
-      "external_article_summary": "수학적 난제인 리만 가설을 해결하기 위해 Lean 프로버와 같은 정형 검증 도구를 활용하는 방식이 논의되고 있습니다. 이는 인간의 논리적 오류를 배제하고 컴퓨터가 수학적 증명을 엄격하게 검증하는 것을 목표로 합니다. 기존의 수동 검증 방식과 달리 알고리즘 기반의 자동화된 검증 체계를 구축하는 것이 기술적 핵심입니다.",
-      "article_summary": "수학적 난제인 리만 가설을 해결하기 위해 Lean 프로버와 같은 정형 검증 도구를 활용하는 방식이 논의되고 있습니다. 이는 인간의 논리적 오류를 배제하고 컴퓨터가 수학적 증명을 엄격하게 검증하는 것을 목표로 합니다. 기존의 수동 검증 방식과 달리 알고리즘 기반의 자동화된 검증 체계를 구축하는 것이 기술적 핵심입니다.",
-      "discussion_summary": "수학적 오류를 이용한 가짜 증명이 검증 시스템을 통과할 가능성에 대한 우려와, 정형 검증 도구의 발전이 수학적 난제 해결의 새로운 표준이 될 것이라는 기대가 대립하고 있습니다.",
+      "external_article_summary": "수학적 정리를 형식화하고 검증하는 Lean 프로버를 활용하여 리만 가설(Riemann Hypothesis)의 증명을 검증하려는 시도가 제기되었습니다. 이는 복잡한 수학적 논리를 컴퓨터가 이해할 수 있는 코드로 변환하여 논리적 오류를 찾아내는 과정입니다. 기존의 수동 증명 방식과 달리, 알고리즘적 검증을 통해 수학적 정리에 대한 무결성을 확보하는 것이 핵심입니다.",
+      "article_summary": "수학적 정리를 형식화하고 검증하는 Lean 프로버를 활용하여 리만 가설(Riemann Hypothesis)의 증명을 검증하려는 시도가 제기되었습니다. 이는 복잡한 수학적 논리를 컴퓨터가 이해할 수 있는 코드로 변환하여 논리적 오류를 찾아내는 과정입니다. 기존의 수동 증명 방식과 달리, 알고리즘적 검증을 통해 수학적 정리에 대한 무결성을 확보하는 것이 핵심입니다.",
+      "discussion_summary": "검증 도구의 버그를 이용한 허위 증명이 발생할 가능성에 대한 우려와, 독립적인 검증 도구들이 서로를 교차 검증함으로써 오류를 걸러낼 수 있다는 기술적 신뢰 사이의 쟁점이 대립하고 있습니다.",
       "key_points": [
-        "Lean 프로버를 활용한 수학적 증명의 정형 검증 기술이 주목받고 있습니다.",
-        "검증 도구의 버그나 논리적 허점을 이용한 가짜 증명 가능성이 쟁점으로 떠올랐습니다.",
-        "수학적 난제 해결을 위해 컴퓨터 기반의 엄격한 검증 체계 구축이 필수적입니다."
+        "Lean 프로버를 활용한 수학적 증명의 형식적 검증 시도가 이루어지고 있습니다.",
+        "검증 도구 자체의 버그나 잘못된 구현이 증명의 신뢰성을 해칠 수 있다는 비판이 존재합니다.",
+        "수학적 난제 해결을 위해 자동화된 형식 검증 시스템의 정교함이 필수적입니다."
       ],
       "category": "기타",
       "comment_highlights": [
@@ -266,79 +352,36 @@
         }
       ],
       "tags": [
-        "Lean",
-        "수학",
-        "정형 검증",
-        "리만 가설"
+        "Lean Prover",
+        "Mathematics",
+        "Formal Verification",
+        "Riemann Hypothesis"
       ],
       "domain": "leanprover-community.github.io",
-      "repeated_in_window": false,
-      "repeated_days_ago": null
-    },
-    {
-      "rank": 7,
-      "story_id": "50562754",
-      "title": "Anthropic’s Nasdaq debut",
-      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-      "hn_url": "https://news.ycombinator.com/item?id=50562754",
-      "author": "wslh",
-      "score": 1140,
-      "comments": 2329,
-      "rank_score": 800.326087063968,
-      "published_at_kst": "2026-11-20T02:02:40+09:00",
-      "published_date": "2026-11-20",
-      "summary": "Anthropic의 나스닥 상장 소식과 함께 AI 기술이 가져올 산업적 변화에 대한 커뮤니티의 뜨거운 논쟁을 다룹니다. 기업 가치 변동과 소프트웨어 엔지니어의 역할 변화가 핵심 쟁점입니다.",
-      "story_text": "",
-      "external_article_summary": "Anthropic이 나스닥 상장을 통해 기업 가치를 시장에 증명하려는 시도를 하고 있습니다. 상장 직후 기업 가치가 1.26조 달러 수준으로 변동하는 등 시장의 기대치와 실제 가치 사이의 격차가 나타나고 있습니다. 이는 AI 모델의 상업적 가치와 시장의 평가 기준이 실시간으로 충돌하고 있음을 보여줍니다.",
-      "article_summary": "Anthropic이 나스닥 상장을 통해 기업 가치를 시장에 증명하려는 시도를 하고 있습니다. 상장 직후 기업 가치가 1.26조 달러 수준으로 변동하는 등 시장의 기대치와 실제 가치 사이의 격차가 나타나고 있습니다. 이는 AI 모델의 상업적 가치와 시장의 평가 기준이 실시간으로 충돌하고 있음을 보여줍니다.",
-      "discussion_summary": "AI가 인간의 업무를 대체할 것이라는 우려와 함께 소프트웨어 엔지니어의 입지가 좁아질 것이라는 비판이 제기되었습니다. 동시에 시장 가치의 급격한 변동이 초기 기업 가치 산정의 불확실성을 보여준다는 분석이 대립하고 있습니다.",
-      "key_points": [
-        "Anthropic의 나스닥 상장은 AI 산업의 거대한 전환점을 의미합니다.",
-        "AI 자동화 기술의 발전으로 인해 소프트웨어 엔지니어의 직무 성격이 근본적으로 변화할 전망입니다.",
-        "상장 초기 기업 가치의 급격한 변동은 AI 기업의 실질 가치 산정에 대한 시장의 불확실성을 나타냅니다."
-      ],
-      "category": "비즈니스/스타트업",
-      "comment_highlights": [
-        {
-          "author": "capital_guy",
-          "text": "Genuinely a massive moment in human history. I'm nervous about what comes. as a SWE the gravy train is basically over in my view. they figured out how to make a program that does…"
-        },
-        {
-          "author": "cmiles8",
-          "text": "It’s been dropping ever since the first trade and appears to be down at $1.26T now. The fact that just a few weeks ago folks wanted $2T plus tells you how far off the original val…"
-        }
-      ],
-      "tags": [
-        "Anthropic",
-        "Nasdaq",
-        "AI",
-        "Software Engineering"
-      ],
-      "domain": "reuters.com",
       "repeated_in_window": true,
       "repeated_days_ago": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "story_id": "50552424",
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "hn_url": "https://news.ycombinator.com/item?id=50552424",
       "author": "yigitdemirag",
-      "score": 1066,
+      "score": 1070,
       "comments": 775,
-      "rank_score": 748.1962457560549,
+      "rank_score": 750.9962457560549,
       "published_at_kst": "2026-11-19T06:34:07+09:00",
       "published_date": "2026-11-19",
-      "summary": "Google이 발표한 새로운 Gemini 4 모델 라인업과 그 성능에 대한 기술적 분석 및 사용자 경험 차이를 다룹니다. 벤치마크 점수와 실제 체감 성능 사이의 간극에 대한 커뮤니티의 논의가 핵심입니다.",
+      "summary": "Google이 발표한 새로운 Gemini 4 모델 라인업에 대한 기술적 세부 사항과 성능에 대한 사용자들의 실질적인 체감 성능 차이를 다룹니다.",
       "story_text": "",
-      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 아키텍처를 갖추고 있으며, 효율적인 추론과 성능 사이의 균형을 목표로 설계되었습니다.",
-      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드에 최적화된 파라미터 규모와 아키텍처를 갖추고 있으며, 효율적인 추론과 성능 사이의 균형을 목표로 설계되었습니다.",
-      "discussion_summary": "벤치마크 점수가 높음에도 불구하고 실제 사용 시 Anthropic의 Opus 모델보다 성능이 떨어진다는 실사용자들의 비판이 제기되었습니다. 이에 대해 모델의 아키텍처 설계 방식이나 최적화 전략에 대한 기술적 의문이 대립하고 있습니다.",
+      "external_article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드와 컴퓨팅 자원에 최적화된 아키텍처를 갖추고 있으며, 벤치마크 점수뿐만 아니라 실제 추론 효율성을 고려하여 설계되었습니다.",
+      "article_summary": "Google은 새로운 Gemini 4 모델 시리즈를 공개하며 Lab, XL, L, M+ 등 다양한 규모의 모델 라인업을 제시했습니다. 각 모델은 특정 워크로드와 컴퓨팅 자원에 최적화된 아키텍처를 갖추고 있으며, 벤치마크 점수뿐만 아니라 실제 추론 효율성을 고려하여 설계되었습니다.",
+      "discussion_summary": "벤치마크 점수가 높음에도 불구하고 실제 사용 경험에서는 Anthropic의 Opus 모델보다 성능이 낮게 느껴진다는 실사용자들의 비판이 제기되었습니다. 이에 대해 모델의 규모와 실제 체감 성능 사이의 상관관계에 대한 의문이 핵심 쟁점으로 떠올랐습니다.",
       "key_points": [
         "Gemini 4는 용도에 따라 선택 가능한 다양한 크기의 모델 라인업을 제공합니다.",
-        "벤치마크 수치와 실제 사용자 체감 성능 사이의 괴리가 주요 쟁점으로 떠올랐습니다.",
-        "LLM 모델 간의 경쟁력이 단순 점수가 아닌 실제 추론 품질에 의해 결정됨을 보여줍니다."
+        "벤치마크 수치와 실제 사용자 경험 사이의 성능 격차에 대한 논쟁이 존재합니다.",
+        "모델의 규모(Size)와 실제 추론 성능 간의 최적화가 향후 중요한 과제로 꼽힙니다."
       ],
       "category": "AI/ML",
       "comment_highlights": [
@@ -362,91 +405,47 @@
       "repeated_days_ago": 1
     },
     {
-      "rank": 9,
-      "story_id": "50596133",
-      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "hn_url": "https://news.ycombinator.com/item?id=50596133",
-      "author": "zdw",
-      "score": 1041,
-      "comments": 621,
-      "rank_score": 730.9796426578449,
-      "published_at_kst": "2026-11-22T13:04:56+09:00",
+      "rank": 10,
+      "story_id": "50597612",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "hn_url": "https://news.ycombinator.com/item?id=50597612",
+      "author": "happosai",
+      "score": 1018,
+      "comments": 995,
+      "rank_score": 714.6711241772753,
+      "published_at_kst": "2026-11-22T17:57:34+09:00",
       "published_date": "2026-11-22",
-      "summary": "일본 자동차 제조사들이 비용 절감을 위해 부품 표준화를 추진하며, 이에 대해 과거 사례와 중국 제조사와의 경쟁 구도를 중심으로 활발한 논의가 이어지고 있습니다.",
+      "summary": "Anthropic의 데이터 센터 전력 공급원이 화석 연료에 편중될 것이라는 전망과 이에 따른 환경적 책임 문제가 제기되었습니다. AI 인프라 확장이 지역 사회의 환경 오염과 외부 효과를 초래한다는 비판이 핵심입니다.",
       "story_text": "",
-      "external_article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 부품 공용화를 통해 규모의 경제를 달성하고 공급망 효율을 높이려는 목적을 가지고 있습니다.",
-      "article_summary": "Toyota, Nissan, Honda는 생산 비용을 낮추기 위해 부품 표준화 전략을 도입합니다. 이는 부품 공용화를 통해 규모의 경제를 달성하고 공급망 효율을 높이려는 목적을 가지고 있습니다.",
-      "discussion_summary": "과거 Ford와 GM이 6단 자동 변속기 개발 시 협업했던 사례를 들어 이미 검증된 방식이라는 의견과, 부품의 75~85%를 자체 생산하는 BYD 등 중국 제조사와의 수직 계열화 경쟁에서 밀릴 수 있다는 우려가 대립하고 있습니다.",
+      "external_article_summary": "2028년 기준으로 Anthropic의 전력 공급 중 87%는 가스, 11%는 석탄에서 발생할 것으로 예측됩니다. 이는 LLM 모델 학습과 추론을 위한 거대 인프라 구축 과정에서 발생하는 에너지 소비와 탄소 배출 문제를 수치로 보여줍니다.",
+      "article_summary": "2028년 기준으로 Anthropic의 전력 공급 중 87%는 가스, 11%는 석탄에서 발생할 것으로 예측됩니다. 이는 LLM 모델 학습과 추론을 위한 거대 인프라 구축 과정에서 발생하는 에너지 소비와 탄소 배출 문제를 수치로 보여줍니다.",
+      "discussion_summary": "Anthropic이 Memphis 지역의 오염을 유발하는 등 지역 사회에 피해를 주는 행태를 보인다는 비판과, 의사 결정권자와 거리가 먼 지역 사회로 외부 비용이 전가되는 것을 막기 위해 강력한 규제가 필요하다는 주장이 대립하고 있습니다.",
       "key_points": [
-        "일본 완성차 업체들이 비용 절감을 위해 부품 표준화 및 공용화 전략을 추진합니다.",
-        "과거 Ford와 GM의 변속기 공동 개발 사례처럼 협업을 통한 효율성 확보가 핵심입니다.",
-        "수직 계열화로 높은 부품 내재율을 확보한 중국 제조사와의 경쟁력이 주요 쟁점입니다."
+        "2028년 Anthropic 전력의 98%가 가스와 석탄 등 화석 연료에서 공급될 전망입니다.",
+        "AI 인프라 구축 과정에서 발생하는 환경 오염 비용이 지역 사회로 전가되는 문제가 발생합니다.",
+        "AI 기업의 에너지 정책과 사회적 책임에 대한 규제 필요성이 대두되고 있습니다."
       ],
-      "category": "비즈니스/스타트업",
+      "category": "기타",
       "comment_highlights": [
         {
-          "author": "johnohara",
-          "text": "Ford and GM have been doing this since 2002 with the GM–Ford 6-speed automatic transmission [0]. The companies worked together on the design and ultimately worked with Allison Tra…"
+          "author": "contemporary343",
+          "text": "Anthropic is a legitimately bad actor here, particularly in leasing Colossus 1 given the local pollution it has caused in Memphis. It is particularly shocking that they've made no…"
         },
         {
-          "author": "wcfields",
-          "text": "They’re (the Japanese makers) are getting cooked by the Chinese makers like BYD who make 75%-85% of their parts in-house[1]. Depending on the car, some estimates say that only the…"
+          "author": "sollewitt",
+          "text": "This is why we need regulation. Without rules, the cost of the externalities is passed on entirely to communities very far from leadership decision makers or shareholders. The pro…"
         }
       ],
       "tags": [
-        "Toyota",
-        "Nissan",
-        "Honda",
-        "Supply Chain",
-        "Automotive"
+        "Anthropic",
+        "AI 인프라",
+        "에너지 정책",
+        "환경 오염"
       ],
-      "domain": "caranddriver.com",
+      "domain": "betterdatacenterproject.com",
       "repeated_in_window": false,
       "repeated_days_ago": null
-    },
-    {
-      "rank": 10,
-      "story_id": "50538994",
-      "title": "Quad9's withdrawal from France: A canary in the coal mine",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "hn_url": "https://news.ycombinator.com/item?id=50538994",
-      "author": "subset",
-      "score": 908,
-      "comments": 457,
-      "rank_score": 637.4380607552341,
-      "published_at_kst": "2026-11-18T07:13:34+09:00",
-      "published_date": "2026-11-18",
-      "summary": "프랑스 정부의 규제로 인해 Quad9이 서비스를 철수하며 발생한 인터넷 검열과 프라이버시 침해 문제를 다룹니다. 기술적 중립성을 유지하려는 서비스와 국가적 규제가 충돌하는 양상을 보여줍니다.",
-      "story_text": "",
-      "external_article_summary": "프랑스 정부의 규제 강화로 인해 보안 DNS 서비스인 Quad9이 프랑스 내 서비스를 중단하며 발생한 기술적/정치적 갈등을 다룹니다. 이는 특정 국가의 법적 요구사항이 전 세계적인 DNS 보안 표준과 충돌할 수 있음을 보여주는 사례입니다. IETF와 같은 국제 표준 기구에서의 논의가 서비스 운영에 직접적인 영향을 미치는 상황을 나타냅니다.",
-      "article_summary": "프랑스 정부의 규제 강화로 인해 보안 DNS 서비스인 Quad9이 프랑스 내 서비스를 중단하며 발생한 기술적/정치적 갈등을 다룹니다. 이는 특정 국가의 법적 요구사항이 전 세계적인 DNS 보안 표준과 충돌할 수 있음을 보여주는 사례입니다. IETF와 같은 국제 표준 기구에서의 논의가 서비스 운영에 직접적인 영향을 미치는 상황을 나타냅니다.",
-      "discussion_summary": "Quad9 CTO는 다른 보안 조직들의 지지에 감사를 표하며 국제 표준 준수의 중요성을 강조합니다. 반면, 인터넷이 기술적 영역을 넘어 사회 전반으로 확장되면서 발생하는 규제와 프라이버시 간의 충돌에 대한 비판적 시각이 대립하고 있습니다.",
-      "key_points": [
-        "국가별 규제가 글로벌 DNS 서비스의 운영 방식과 가용성에 직접적인 영향을 미칩니다.",
-        "인터넷 표준을 준수하는 기술적 가치와 국가의 법적 통제권이 충돌하고 있습니다.",
-        "프라이버시 중심의 서비스가 정치적 환경 변화에 따라 서비스 지역을 변경해야 하는 상황이 발생했습니다."
-      ],
-      "category": "보안/프라이버시",
-      "comment_highlights": [
-        {
-          "author": "johnhtodd",
-          "text": "(context: I'm the CTO at Quad9) It's really great seeing the support from other organizations in the same space as Quad9 on this topic. Currently sitting at IETF 127, and there is…"
-        },
-        {
-          "author": "hypfer",
-          "text": "I think a lot of discourse about these topics still assumes that the Internet is where the nerds and the good people live, which is why it fails. The Internet has eaten the world…"
-        }
-      ],
-      "tags": [
-        "Quad9",
-        "DNS",
-        "프라이버시",
-        "인터넷 규제"
-      ],
-      "domain": "blog.cloudflare.com",
-      "repeated_in_window": true,
-      "repeated_days_ago": 2
     }
   ]
 }
