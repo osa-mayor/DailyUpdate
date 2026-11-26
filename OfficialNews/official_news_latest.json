@@ -1,22 +1,22 @@
 {
   "source": "official_news",
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T04:44:39.235232+09:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T05:55:27.969408+09:00",
   "count": 7,
-  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, Genie 4) 및 에이전트 기술의 진화가 두드러졌으며, 보안(Shirudo)과 대규모 코드베이스 관리(iFood) 등 실무 적용 사례와 플랫폼 리더십(Google Cloud)이 함께 발표되었습니다.",
+  "daily_summary": "Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, GPT-6, Genie 4)의 발표와 함께, AI 에이전트가 단백질 설계, 코딩, 웹 조사 등 전문적인 실무 영역으로 확장되는 양상을 보였습니다.",
   "daily_key_points": [
-    "Google DeepMind의 신규 모델(Gemini 4 Neon, Genie 4) 및 양자 알고리즘 최적화 기술 발표",
-    "AI 에이전트의 실무 적용: 웹 조사(dot Aria) 및 대규모 코드베이스(iFood) 관리 사례",
-    "보안 및 플랫폼 경쟁력: OpenAI-Cisco의 오픈소스 런타임(Shirudo) 출시 및 Google Cloud의 Gartner 리더 선정"
+    "차세대 모델 출시: Gemini 4 Neon, Genie 4, GPT-6 등 고도화된 성능을 갖춘 신규 모델 발표",
+    "AI 에이전트의 실무 적용: 단백질 설계, 대규모 코드베이스 관리, 웹 조사 등 전문 영역에서의 에이전트 활용 사례 증가",
+    "AI 기술의 과학적 기여: 양자 알고리즘 최적화 및 생물학적 구조 설계 등 과학 연구 분야에서의 AI 역할 확대"
   ],
   "daily_tags": [
     "AI Model",
     "AI Agent",
-    "Quantum Computing",
-    "Software Engineering",
-    "Cybersecurity"
+    "Deep Learning",
+    "Scientific AI",
+    "Software Engineering"
   ],
-  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, Genie 4) 및 에이전트 기술의 진화가 두드러졌으며, 보안(Shirudo)과 대규모 코드베이스 관리(iFood) 등 실무 적용 사례와 플랫폼 리더십(Google Cloud)이 함께 발표되었습니다.\n\n📍 1. Introducing Gemini 4 Neon\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind에서 새로운 모델인 Gemini 4 Neon을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Finding faster quantum algorithms with agents and formal verification\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind는 에이전트 팀과 형식 검증(formal verification)을 결합하여 더 빠른 양자 알고리즘을 찾는 방법을 발표했습니다. 이 방식은 핵융합 에너지, 화학, 효소 모델링을 위한 양자 알고리즘 성능을 개선하는 데 기여합니다.\n🔗 링크: https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/\n\n📍 3. Genie 4 is now available\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n📍 4. How Intentful uses dots to make more time for growth\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Intentful가 출시한 dot Aria는 웹사이트 조사와 제안서 작성을 지원하는 AI 에이전트입니다. 이 도구는 메시지를 선제적으로 알리고 문제를 해결함으로써 사용자가 성장에 더 집중할 수 있는 시간을 확보해 줍니다.\n🔗 링크: https://openai.com/business/customer-stories/intentful-dots\n\n📍 5. How iFood scales coding agents across 15,000 repositories\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: iFood가 15,000개의 리포지토리에 걸쳐 코딩 에이전트를 확장 적용한 사례를 소개합니다. 대규모 코드베이스 환경에서 AI 에이전트를 효율적으로 운영하고 관리하는 전략을 다룹니다.\n🔗 링크: https://openai.com/business/customer-stories/ifood\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-25.md",
+  "chat_message": "🔵 오늘의 Official Releases\n\n📌 오늘의 요약: Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, GPT-6, Genie 4)의 발표와 함께, AI 에이전트가 단백질 설계, 코딩, 웹 조사 등 전문적인 실무 영역으로 확장되는 양상을 보였습니다.\n\n📍 1. Introducing Gemini 4 Neon\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind에서 새로운 모델인 Gemini 4 Neon을 발표했습니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=\n\n📍 2. Finding faster quantum algorithms with agents and formal verification\n🗂️ 소스: Google DeepMind | 분류: Science\n📝 요약: Google DeepMind는 에이전트 팀과 형식 검증(formal verification)을 결합하여 더 빠른 양자 알고리즘을 찾는 방법을 발표했습니다. 이 방식은 핵융합 에너지, 화학, 효소 모델링을 위한 양자 알고리즘 성능을 개선하는 데 기여합니다.\n🔗 링크: https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/\n\n📍 3. Genie 4 is now available\n🗂️ 소스: Google DeepMind | 분류: Models\n📝 요약: Google DeepMind가 새로운 월드 모델인 Genie 4를 공개했습니다. 해당 모델은 Google AI Ultra 구독자 중 자격 요건을 갖춘 사용자들을 대상으로 순차적으로 배포됩니다.\n🔗 링크: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/\n\n📍 4. GPT-6 models demonstrate intrinsic protein-design capabilities\n🗂️ 소스: OpenAI News | 분류: Science\n📝 요약: GPT-6 모델이 추론과 코드를 활용하여 단백질 구조 및 서열을 설계하는 능력을 입증했습니다. 실험실 테스트 결과, 다섯 가지 타겟에 걸쳐 결합 능력이 확인되었습니다.\n🔗 링크: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities\n\n📍 5. How Intentful uses dots to make more time for growth\n🗂️ 소스: OpenAI News | 분류: Official Release\n📝 요약: Intentful가 출시한 dot Aria는 웹사이트 조사와 제안서 작성을 지원하는 AI 에이전트입니다. 이 도구는 메시지를 선제적으로 알리고 문제를 해결함으로써 사용자가 성장에 더 집중할 수 있는 시간을 확보해 줍니다.\n🔗 링크: https://openai.com/business/customer-stories/intentful-dots\n\n출처: Official Releases\nOpenAI, Anthropic, Google DeepMind, Google Cloud AI, Mistral, Qwen\n\n👉 전체 리포트\nhttps://github.com/osa-mayor/DailyUpdate/blob/main/OfficialNews/official_news_2026-11-27.md",
   "items": [
     {
       "source_key": "deepmind",
@@ -89,6 +89,29 @@
     {
       "source_key": "openai",
       "source_name": "OpenAI News",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "category": "Science",
+      "published_at_kst": "2026-11-24T22:00:00+09:00",
+      "published_date": "2026-11-24",
+      "original_description": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "release_type": "official_update",
+      "rank": 4,
+      "summary": "GPT-6 모델이 추론과 코드를 활용하여 단백질 구조 및 서열을 설계하는 능력을 입증했습니다. 실험실 테스트 결과, 다섯 가지 타겟에 걸쳐 결합 능력이 확인되었습니다.",
+      "key_points": [
+        "GPT-6 모델의 고유한 단백질 설계 능력 입증",
+        "추론 및 코드를 활용한 단백질 구조와 서열 설계",
+        "실험실 테스트를 통해 5개 타겟에 대한 결합 증거 확보"
+      ],
+      "tags": [
+        "GPT-6",
+        "OpenAI",
+        "Protein Design"
+      ]
+    },
+    {
+      "source_key": "openai",
+      "source_name": "OpenAI News",
       "title": "How Intentful uses dots to make more time for growth",
       "url": "https://openai.com/business/customer-stories/intentful-dots",
       "category": "Official Release",
@@ -96,7 +119,7 @@
       "published_date": "2026-11-24",
       "original_description": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
       "release_type": "official_update",
-      "rank": 4,
+      "rank": 5,
       "summary": "Intentful가 출시한 dot Aria는 웹사이트 조사와 제안서 작성을 지원하는 AI 에이전트입니다. 이 도구는 메시지를 선제적으로 알리고 문제를 해결함으로써 사용자가 성장에 더 집중할 수 있는 시간을 확보해 줍니다.",
       "key_points": [
         "dot Aria를 통한 효율적인 리서치 및 제안서 작성 기능 제공",
@@ -119,7 +142,7 @@
       "published_date": "2026-11-24",
       "original_description": "",
       "release_type": "official_update",
-      "rank": 5,
+      "rank": 6,
       "summary": "iFood가 15,000개의 리포지토리에 걸쳐 코딩 에이전트를 확장 적용한 사례를 소개합니다. 대규모 코드베이스 환경에서 AI 에이전트를 효율적으로 운영하고 관리하는 전략을 다룹니다.",
       "key_points": [
         "iFood의 15,000개 리포지토리 대상 코딩 에이전트 확장 사례",
@@ -130,29 +153,6 @@
         "iFood",
         "AI Agents",
         "Software Engineering"
-      ]
-    },
-    {
-      "source_key": "openai",
-      "source_name": "OpenAI News",
-      "title": "OpenAI and Cisco introduce Shirudo",
-      "url": "https://openai.com/index/introducing-shirudo",
-      "category": "Security",
-      "published_at_kst": "2026-11-24T06:20:00+09:00",
-      "published_date": "2026-11-24",
-      "original_description": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
-      "release_type": "safety_update",
-      "rank": 6,
-      "summary": "OpenAI와 Cisco가 Linux용 오픈소스 런타임인 Shirudo를 발표했습니다. 이 도구는 패치를 적용하는 동안 실행 중인 시스템을 보호할 수 있도록 지원합니다.",
-      "key_points": [
-        "OpenAI와 Cisco가 협력하여 Shirudo를 도입함",
-        "Linux 환경을 위한 오픈소스 런타임 솔루션임",
-        "패치 배포 과정 중 실행 중인 시스템의 보안을 유지함"
-      ],
-      "tags": [
-        "OpenAI",
-        "Cisco",
-        "Shirudo"
       ]
     },
     {
