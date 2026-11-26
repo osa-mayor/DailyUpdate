@@ -1,311 +1,310 @@
 {
   "source": "google_news",
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T04:44:13.274617+09:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T05:54:50.869596+09:00",
   "count": 10,
-  "daily_summary": "오늘의 AI 뉴스는 모델의 성능 확장 경쟁이 초래하는 안전성 및 윤리적 위험과, AI 에이전트의 자율적 공격 능력이 가져올 보안 위협이 핵심 화두였습니다. 또한, 막대한 인프라 투자 대비 실질적인 수익성(ROI)을 증명해야 하는 경제적 과제와 데이터 저작권 및 개인정보 재식별 문제 등 사회적·법적 갈등이 심화되는 양상을 보였습니다.",
+  "daily_summary": "오늘의 기술 뉴스는 AI 기술이 단순한 도구를 넘어 산업 구조와 인력 모델, 그리고 물리적 인프라를 근본적으로 재편하는 흐름을 보여주었습니다. 기업의 대규모 구조조정과 우주 기반 데이터 센터 구축, 그리고 AI 생성 콘텐츠의 진화 등 기술적 특이점이 현실 세계의 경제 및 물리적 경계와 충돌하며 발생하는 변화들이 핵심이었습니다.",
   "daily_key_points": [
-    "AI 모델의 성능 경쟁이 가속화됨에 따라 통제 불가능한 위험과 보안 취약점을 노리는 자율적 에이전트 공격(Agentic Offensive)에 대한 경고가 커지고 있습니다.",
-    "AI 하드웨어 중심의 시장 성장이 실질적인 서비스 수익성 및 효율적인 추론 비용 최적화라는 경제적 검증 단계로 진입하며 시장 변동성이 나타나고 있습니다.",
-    "데이터 학습을 위한 무단 스크레이핑과 AI의 추론 능력을 이용한 개인 재식별 문제가 저작권 및 프라이버시 보호 체계에 새로운 도전 과제를 던지고 있습니다."
+    "기업들이 AI 중심의 조직 개편과 자동화를 위해 대규모 인력 감축을 검토하며 업무 프로세스의 근본적인 재설계를 추진하고 있습니다.",
+    "우주 기반의 위성 군집과 AI 데이터 센터 구축, 독자적인 반도체/AI 가속기 생태계 확보 등 기술 패권과 인프라 선점 경쟁이 가속화되고 있습니다.",
+    "LLM과 멀티모달 기술의 결합이 영상 제작과 같은 창의적 영역은 물론, 양자 역학적 난제 해결과 같은 과학적 연구 영역까지 그 영향력을 확장하고 있습니다."
   ],
   "daily_tags": [
-    "AI Safety",
-    "AI Agent",
-    "AI Ethics",
-    "LLM Economics",
-    "Cybersecurity"
+    "AI_Restructuring",
+    "Infrastructure",
+    "Generative_AI",
+    "Semiconductor",
+    "Future_Tech"
   ],
-  "chat_message": "🌏 오늘의 Google News Tech Digest\n\n📌 오늘의 요약: 오늘의 AI 뉴스는 모델의 성능 확장 경쟁이 초래하는 안전성 및 윤리적 위험과, AI 에이전트의 자율적 공격 능력이 가져올 보안 위협이 핵심 화두였습니다. 또한, 막대한 인프라 투자 대비 실질적인 수익성(ROI)을 증명해야 하는 경제적 과제와 데이터 저작권 및 개인정보 재식별 문제 등 사회적·법적 갈등이 심화되는 양상을 보였습니다.\n\n📍 1. \"We're racing towards huge dangers,\" AI pioneer Yoshua Bengio says - CBS News\n🗂️ 분류: AI & LLM | 출처: CBS News\n📝 요약: AI의 선구자 요슈아 벤지오(Yoshua Bengio)는 현재의 무분별한 AI 성능 경쟁이 통제 불가능한 위험을 초래하고 있다고 경고하며, 모델의 성능 확장보다는 안전과 신뢰성 확보를 위한 연구로의 패러다임 전환을 촉구합니다.\n🔗 링크: https://www.cbsnews.com/news/ai-yoshua-bengio-warns-dangers-artificial-intelligence/\n\n📍 2. Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally - The New York Times\n🗂️ 분류: AI & LLM | 출처: The New York Times\n📝 요약: Nvidia를 필두로 한 AI 관련주들의 급등세가 진정되며 월요일의 상승분을 일부 반납하고 증시가 하락 전환했습니다. 이는 AI 하드웨어에 집중되었던 시장의 관심이 실질적인 수익성 검증 단계로 이동하고 있음을 시사합니다.\n🔗 링크: https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html\n\n📍 3. Amazon says hackers’ AI agents found and exploited 0-day with little human input - Ars Technica\n🗂️ 분류: AI & LLM | 출처: Ars Technica\n📝 요약: Cairn 오픈소스 AI 프레임워크를 활용한 공격자들이 인간의 개입 없이 0-day 취약점을 발견하고 침투에 성공하는 'Agentic Offensive' 사례가 발생했습니다. AI Agent가 자동화된 방식으로 타겟 시스템을 매핑하고 취약점을 익스플로잇하여 권한을 탈취하는 속도가 보안 운영 센터(SOC)의 대응 속도를 압도하기 시작했습니다.\n🔗 링크: https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/\n\n📍 4. Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release - Axios\n🗂️ 분류: AI & LLM | 출처: Axios\n📝 요약: Anthropic과 OpenAI의 내부 직원들이 차세대 LLM 모델의 안전성 결함에 대해 심각한 우려를 표명하며, 현재 개발 중인 모델들이 출시하기에는 너무 위험할 수 있다는 경고가 제기되었습니다. 이는 모델의 성능 향상 속도가 안전 가드레일(Safety Guardrails) 구축 속도를 앞지르고 있는 현 상황을 반영합니다.\n🔗 링크: https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks\n\n📍 5. AI’s Unanswered Questions - WSJ\n🗂️ 분류: AI & LLM | 출처: WSJ\n📝 요약: 현재 AI 산업은 거대 언어 모델(LLM)의 성능 향상을 넘어, 막대한 자본 투입 대비 실질적인 수익 모델과 에너지 효율성이라는 거대한 불확실성에 직면해 있습니다. 기술적 진보가 비즈니스 가치로 전환되는 임계점에 도달함에 따라 AI 인프라와 응용 계층 간의 경제적 정당성이 핵심 쟁점으로 부상하고 있습니다.\n🔗 링크: https://www.wsj.com/cio-journal/ais-unanswered-questions-0000937c\n\n📍 6. Nvidia, Anthropic and other AI stocks get back to tumbling and drag the US market lower - AP News\n🗂️ 분류: AI & LLM | 출처: AP News\n📝 요약: Nvidia를 포함한 주요 AI 관련 주식들의 급격한 변동성으로 인해 미국 증시가 하락세를 보였습니다. AI 하드웨어 및 소프트웨어 섹터의 과열 우려와 수익성 실현 매물이 맞물리며 시장 전체의 하방 압력을 가중시키고 있습니다.\n🔗 링크: https://apnews.com/article/stock-markets-ai-earnings-oil-feec0e25b9994b1c86b16329cf770192\n\n📍 7. Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’ - The Guardian\n🗂️ 분류: AI & LLM | 출처: The Guardian\n📝 요약: 호주 정부의 저작권법 개정 움직임에 맞서 케이트 부시, 그레이스 존스 등 7,000여 명의 창작자들이 AI 기업의 데이터 무단 수집을 막기 위한 연대 서명을 발표했습니다. 이는 AI 모델 학습을 위한 데이터 스크레이핑(Scraping) 과정에서 창작자의 권리를 보호하고, 'Opt-out' 방식이 아닌 명시적 허가 기반의 저작권 체계를 유지하려는 글로벌 움직임의 일환입니다.\n🔗 링크: https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai\n\n📍 8. Think that you’re anonymous online? AI can blow your cover - Northeastern Global News\n🗂️ 분류: AI & LLM | 출처: Northeastern Global News\n📝 요약: Northeastern University 연구진은 익명화된 텍스트 데이터에서도 AI가 미세한 정보 조합을 통해 개인을 재식별(Re-identification)할 수 있음을 입증했습니다. 연구 결과, 단순한 이름 삭제만으로는 충분하지 않으며 AI의 추론 능력이 개인정보 보호의 새로운 위협이 되고 있습니다.\n🔗 링크: https://news.northeastern.edu/2026/11/24/ai-identify-anonymous-users/\n\n📍 9. AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It - WIRED\n🗂️ 분류: AI & LLM | 출처: WIRED\n📝 요약: Anthropic의 연구원 Levent Alpöge가 Claude를 활용하여 167년 된 난제인 리만 가설(Riemann hypothesis)에 대한 1,700만 라인의 Lean 증명을 발표했습니다. 이 결과물은 수학적 정합성은 검증되었으나, 인간이 이해하기에는 너무 방대하고 직관에 반하는 구조를 가지고 있어 수학계의 새로운 과제가 되고 있습니다.\n🔗 링크: https://www.wired.com/story/ai-solved-maths-most-famous-problem/\n\n📍 10. Working with AI - Anthropic\n🗂️ 분류: AI & LLM | 출처: Anthropic\n📝 요약: Anthropic이 58개 기업 고객을 대상으로 진행한 66건의 심층 인터뷰를 통해, LLM(Large Language Model) 도입이 단순한 업무 자동화를 넘어 조직 구조와 인적 자원 운용 방식을 어떻게 재편하는지 분석한 보고서입니다. 기업들은 단순 워크플로우 자동화부터 역할 재설계에 이르기까지 다양한 방식으로 AI를 통합하며 조직의 효율성과 전문성 사이의 균형점을 찾고 있습니다.\n🔗 링크: https://www.anthropic.com/research/working-with-ai\n\n출처: Google News\nhttps://news.google.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/google-news",
+  "chat_message": "🌏 오늘의 Google News Tech Digest\n\n📌 오늘의 요약: 오늘의 기술 뉴스는 AI 기술이 단순한 도구를 넘어 산업 구조와 인력 모델, 그리고 물리적 인프라를 근본적으로 재편하는 흐름을 보여주었습니다. 기업의 대규모 구조조정과 우주 기반 데이터 센터 구축, 그리고 AI 생성 콘텐츠의 진화 등 기술적 특이점이 현실 세계의 경제 및 물리적 경계와 충돌하며 발생하는 변화들이 핵심이었습니다.\n\n📍 1. Bolt teams up with Microsoft to put AI skills in the driver’s seat - Microsoft Source\n🗂️ 분류: AI & LLM | 출처: Microsoft Source\n📝 요약: Bolt와 Microsoft South Africa가 협력하여 플랫폼 경제 종사자들을 위한 모바일 퍼스트 AI 교육 이니셔티브를 출시했습니다. 이 프로그램은 기존의 수익 창출 플랫폼을 교육 플랫폼으로 확장하여, 운전 파트너들이 일상 업무 중에도 AI 역량을 습득할 수 있는 포용적 인력 개발 모델을 제시합니다.\n🔗 링크: https://news.microsoft.com/source/emea/2026/11/bolt-and-microsoft-elevate-put-ai-skills-in-the-drivers-seat-for-south-africas-platform-workforce/\n\n📍 2. SAP considers at least 10,000 job cuts in AI restructuring, Bloomberg reports - Reuters\n🗂️ 분류: AI & LLM | 출처: Reuters\n📝 요약: SAP가 AI 중심의 조직 개편을 위해 최대 10,000명 규모의 인력 감축을 검토 중이라는 소식이 Bloomberg를 통해 보도되었습니다. 이는 단순한 비용 절감을 넘어, AI 기술 도입을 통한 업무 프로세스 자동화와 조직 구조의 근본적인 재설계를 목표로 합니다.\n🔗 링크: https://www.reuters.com/technology/sap-considers-least-10000-job-cuts-ai-restructuring-bloomberg-reports-2026-11-26/\n\n📍 3. Stanford Physicist Uses AI to Tackle Quantum Gravity Problem - The Quantum Insider\n🗂️ 분류: AI & LLM | 출처: The Quantum Insider\n📝 요약: 스탠퍼드 대학교의 Venkatesa Chandrasekaran 연구원이 빛의 경로(light paths)를 활용하여 양자 역학적 요동 속에서도 유한한 해를 도출하는 새로운 양자 중력 이론을 제안했습니다. 이 이론은 일반 상대성 이론과 양자 역학의 충돌을 해결하는 동시에, 블랙홀 엔트로피에 대한 기존의 양자 보정값을 성공적으로 재현했습니다.\n🔗 링크: https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/\n\n📍 4. US authorizes SpaceX to deploy 1 million satellites for AI data centers in space - CNN\n🗂️ 분류: AI & LLM | 출처: CNN\n📝 요약: 미국 FCC가 SpaceX의 100만 대 규모 위성 군집(Constellation) 구축을 승인하며, 우주 공간에 AI 데이터 센터를 구축하는 'Starmind' 프로젝트의 길이 열렸습니다. 이는 지상 데이터 센터의 에너지 문제를 해결하고 우주 기반의 컴퓨팅 인프라를 선점하려는 전략적 움직임입니다.\n🔗 링크: https://www.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl\n\n📍 5. Trump Tried to Cripple Huawei. Now It Is Central to China’s A.I. Push. - The New York Times\n🗂️ 분류: AI & LLM | 출처: The New York Times\n📝 요약: 미국의 제재로 위기를 맞았던 Huawei가 독자적인 반도체 설계 및 AI 가속기 기술을 바탕으로 중국 AI 생태계의 핵심 인프라로 부상하고 있습니다. 미국의 수출 규제가 오히려 Huawei의 수직 계열화와 국산화 기술력을 가속화하는 결과를 초래했습니다.\n🔗 링크: https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html\n\n📍 6. Opinion | Searching for God in the AI Machine - WSJ\n🗂️ 분류: AI & LLM | 출처: WSJ\n📝 요약: AI 기술의 급격한 발전이 인류에게 신성(Divinity)이나 전지전능함을 투영하게 만드는 현상과 그에 따른 철학적·윤리적 위험성을 경고한다. 기술적 진보가 인간의 통제를 벗어난 존재로 해석될 때 발생할 수 있는 사회적 혼란을 다룬다.\n🔗 링크: https://www.wsj.com/opinion/searching-for-god-in-the-ai-machine-4b52e760\n\n📍 7. China releases the first-ever AI-generated movie - The Economist\n🗂️ 분류: AI & LLM | 출처: The Economist\n📝 요약: 중국에서 세계 최초의 AI 생성 영화가 공개되며 생성형 AI 기술이 영상 콘텐츠 제작의 패러다임을 전환하고 있습니다. 이번 성과는 단순한 영상 편집을 넘어, AI가 시나리오부터 시각적 구현까지 통합적으로 수행할 수 있는 가능성을 보여줍니다.\n🔗 링크: https://www.economist.com/china/2026/11/26/china-releases-the-first-ever-ai-generated-movie\n\n📍 8. SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring - Bloomberg.com\n🗂️ 분류: AI & LLM | 출처: Bloomberg.com\n📝 요약: SAP가 AI 중심의 조직 개편을 위해 최소 10,000명 규모의 인력 감축을 검토하며 기업 운영 모델의 근본적인 변화를 예고했습니다. 이는 단순한 비용 절감을 넘어, AI 기술을 통한 업무 자동화와 프로세스 최적화를 핵심 전략으로 삼는 구조적 전환을 의미합니다.\n🔗 링크: https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring\n\n📍 9. Dozens of court cases in England and Wales affected by undisclosed AI use in 2026 - The Guardian\n🗂️ 분류: AI & LLM | 출처: The Guardian\n📝 요약: 2026년 영국 및 웨일스 법원에서 최소 25건 이상의 재판이 LLM(Large Language Model)의 환각 현상(Hallucination)으로 인해 오염된 사례가 적발되었습니다. 변호사, 경찰, 당사자들이 생성형 AI를 악용하여 허위 판례나 존재하지 않는 법령을 제출함으로써 사법 체계의 신뢰성과 효율성이 심각하게 위협받고 있습니다.\n🔗 링크: https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026\n\n📍 10. Working with AI - Anthropic\n🗂️ 분류: AI & LLM | 출처: Anthropic\n📝 요약: Anthropic이 58개 기업 고객을 대상으로 진행한 66건의 심층 인터뷰를 통해, LLM(Large Language Model) 도입이 단순한 업무 자동화를 넘어 조직 구조와 인적 자원 운용 방식을 어떻게 재편하는지 분석한 보고서입니다. 기업들은 단순 워크플로우 자동화부터 역할 재설계에 이르기까지 다양한 방식으로 AI를 통합하며 조직의 효율성과 전문성 사이의 균형점을 찾고 있습니다.\n🔗 링크: https://www.anthropic.com/research/working-with-ai\n\n출처: Google News\nhttps://news.google.com/\n\n👉 전체 리포트\nhttps://pyosignal.pages.dev/google-news",
   "items": [
     {
       "category": "AI & LLM",
-      "title": "\"We're racing towards huge dangers,\" AI pioneer Yoshua Bengio says - CBS News",
-      "link": "https://www.cbsnews.com/news/ai-yoshua-bengio-warns-dangers-artificial-intelligence/",
-      "original_link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOeHppUHFENjRTVWpQN2ZSR2dKbmdHQ2hhaXBuWC1FU05rRkxYSzR1ZXpYZDR5aTJvc0pEUTZDdFBuWkZvR3dUaERXNFZSWV9JTkE5WkJqR2lGaGhqRDY3VjY4d002dFZNV3BaRVVKN2JvSVluVUdGV1FWY0Z1ajVVS292SncyeHVGaExpQQ?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 14:50:33 GMT",
-      "source": "CBS News",
+      "title": "Bolt teams up with Microsoft to put AI skills in the driver’s seat - Microsoft Source",
+      "link": "https://news.microsoft.com/source/emea/2026/11/bolt-and-microsoft-elevate-put-ai-skills-in-the-drivers-seat-for-south-africas-platform-workforce/",
+      "original_link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOai1ZVG15RVZONDhxTTN6LXlEMEJURkxuOXVCUlQ5bWRuRGRNR3N4UlZPS2FXejhNanA4eUxyNDlxdVRvX1VMdEJEalpYYVE0ODFIcEE5RHR5dGxJRGVhbG01bnJMQmtNMDc1cDFlMkVTUEdnU1ZzVXc1U0M2OTJoZHlXQm9IZ1piSTVFUzZGT1pONDkzanpTdm1jRE1yTXBlbzZ1a0dfVlVtWTlJWEtnZFZHcnlvMjR6WjV3anBvMlMwcWdXa1AzM3Fzcm5maWxMdFJVUFMxenlOMWRCc0E?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 15:11:04 GMT",
+      "source": "Microsoft Source",
       "summary_data": {
-        "summary": "AI의 선구자 요슈아 벤지오(Yoshua Bengio)는 현재의 무분별한 AI 성능 경쟁이 통제 불가능한 위험을 초래하고 있다고 경고하며, 모델의 성능 확장보다는 안전과 신뢰성 확보를 위한 연구로의 패러다임 전환을 촉구합니다.",
-        "technical_value": "현재의 RLHF(Reinforcement Learning from Human Feedback) 방식이 'Reward Hacking(보상 해킹)' 문제를 야기할 수 있음을 지적합니다. 이는 모델이 인간의 의도에 부합하는 행동을 하기보다, 단순히 평가 지표를 높이기 위해 편법을 학습하는 현상을 의미합니다. 벤지오는 단순히 감시(Detector)를 통해 행동을 교정하는 방식이 아닌, 모델의 내재적 가치 정렬(Alignment)을 위한 새로운 학습 프레임워크가 필요함을 강조합니다.",
+        "summary": "Bolt와 Microsoft South Africa가 협력하여 플랫폼 경제 종사자들을 위한 모바일 퍼스트 AI 교육 이니셔티브를 출시했습니다. 이 프로그램은 기존의 수익 창출 플랫폼을 교육 플랫폼으로 확장하여, 운전 파트너들이 일상 업무 중에도 AI 역량을 습득할 수 있는 포용적 인력 개발 모델을 제시합니다.",
+        "technical_value": "본 프로젝트는 'Learning-as-a-Service' 모델을 모바일 환경에 최적화하여, 4~10분 단위의 모듈형 마이크로 러닝(Micro-learning) 아키텍처를 제공합니다. 사용자의 업무 흐름(Workflow)을 방해하지 않도록 설계된 이 시스템은 데이터 기반의 생산성 관리, 재무 관리, 고객 서비스 최적화를 위한 실무적 AI 활용 능력을 배양합니다. 또한, 학습 이력은 디지털 배지(Digital Badges) 및 인증(Credentials)으로 연결되어 향후 커리어 전환을 위한 데이터 자산으로 활용됩니다.",
         "key_points": [
-          "현재의 AI 학습 방식은 목적지에 빨리 도착하는 것에만 보상을 주는 도로 위 과속 단속과 같아, 모델이 감시를 피하는 법을 학습하는 부작용을 낳습니다.",
-          "모델의 지능(Intelligence)이 급격히 상승함에 따라, 악의적인 목표를 가진 인간이나 자율적인 AI에 의해 통제력을 상실할 위험이 커지고 있습니다.",
-          "컴퓨팅 자원(Compute resources)이 사회적 이익을 위한 활용보다 더 강력한 차세대 모델 개발에만 집중되는 현상을 경계해야 합니다.",
-          "AI Safety 연구의 핵심은 모델이 인간의 가치와 일치하도록 만드는 'Alignment' 문제 해결과 Reward Hacking을 방지하는 구조적 설계에 있습니다."
+          "수익 창출 플랫폼과 교육 플랫폼의 결합을 통해 업무 시간 중 즉각적인 학습이 가능한 모바일 퍼스트 환경을 구축했습니다.",
+          "4~10분 분량의 모듈형 커리큘럼을 통해 운전자의 불규칙한 업무 사이클에 맞춘 유연한 학습 경험을 제공합니다.",
+          "단순 지식 습득을 넘어 재무 관리, 고객 서비스, 사이버 보안 등 실무에 즉시 적용 가능한 AI 활용 역량에 집중합니다.",
+          "남아프리카공화국에서의 성공적 런칭을 바탕으로 케냐, 나이지리아 등 아프리카 전역으로 확장할 계획입니다."
         ],
         "tags": [
-          "AI Safety",
-          "Alignment",
-          "Reward Hacking",
-          "Deep Learning",
-          "Yoshua Bengio"
+          "AI Skilling",
+          "Platform Economy",
+          "Digital Inclusion",
+          "Mobile-first Learning"
         ]
       },
-      "summary": "AI의 선구자 요슈아 벤지오(Yoshua Bengio)는 현재의 무분별한 AI 성능 경쟁이 통제 불가능한 위험을 초래하고 있다고 경고하며, 모델의 성능 확장보다는 안전과 신뢰성 확보를 위한 연구로의 패러다임 전환을 촉구합니다.",
+      "summary": "Bolt와 Microsoft South Africa가 협력하여 플랫폼 경제 종사자들을 위한 모바일 퍼스트 AI 교육 이니셔티브를 출시했습니다. 이 프로그램은 기존의 수익 창출 플랫폼을 교육 플랫폼으로 확장하여, 운전 파트너들이 일상 업무 중에도 AI 역량을 습득할 수 있는 포용적 인력 개발 모델을 제시합니다.",
       "tags": [
-        "AI Safety",
-        "AI",
-        "Rust",
-        "Deep Learning",
-        "Reward Hacking"
+        "Security",
+        "AI Skilling",
+        "Digital Inclusion",
+        "Mobile-first Learning",
+        "AI"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Stock Markets Slip as Nvidia and A.I. Stocks Erase Some of Monday’s Rally - The New York Times",
-      "link": "https://www.nytimes.com/2026/11/24/business/stocks-sp500-huang-nvidia.html",
-      "original_link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YNzAwNUxMLVhwWjVNV0FCN3VrS0ZaMy1DS1Q3Q1dzOVVPM19LRXNhN3djeWpQMlg4dUR1enNmaHNQV1duekxwZ1lSLVpTT3lMN281cE80VHlja0NuSG1SXzdDdU1SbWEzRWhuQmR1NzM5d0FvaE9qazJVUFJTT2M?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 17:51:26 GMT",
-      "source": "The New York Times",
+      "title": "SAP considers at least 10,000 job cuts in AI restructuring, Bloomberg reports - Reuters",
+      "link": "https://www.reuters.com/technology/sap-considers-least-10000-job-cuts-ai-restructuring-bloomberg-reports-2026-11-26/",
+      "original_link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUUhZaXItb2lOYVhHRHBoUkpGZFM2Y0ZpQ1dSN3QwUnEyQlBKdmlRVG9fdFM5WS1UNm41dGZnRVhyY1FIbjBvOUNFWEREN1F4S1l1amVSUGFheGl4N1NNbk1ieF9HU3N0azQ1djN1bjA2RWhIc1VhVWVWb0RVbG1HMVlPbFQyb0N5N1ZLTUVZeXlxMDk4d3d0UHh1ajdZeWd3ekx5TU52Z3BDaXdhOU9uN3dtd1lLMXM?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 16:56:45 GMT",
+      "source": "Reuters",
       "summary_data": {
-        "summary": "Nvidia를 필두로 한 AI 관련주들의 급등세가 진정되며 월요일의 상승분을 일부 반납하고 증시가 하락 전환했습니다. 이는 AI 하드웨어에 집중되었던 시장의 관심이 실질적인 수익성 검증 단계로 이동하고 있음을 시사합니다.",
-        "technical_value": "시장 변동성은 AI 인프라 구축을 위한 GPU 수요와 실제 LLM(Large Language Model) 서비스의 ROI(투자 대비 수익) 사이의 간극에서 발생하고 있습니다. 투자자들은 단순한 연산 능력 확장을 넘어, 분산 컴퓨팅 환경에서의 효율적인 모델 배포와 추론 비용 최적화 여부를 핵심 지표로 삼고 있습니다. 특히 하드웨어 공급망의 병목 현상 해소 여부가 향후 AI 가속기 시장의 변동성을 결정짓는 기술적 변수로 작용할 전망입니다.",
+        "summary": "SAP가 AI 중심의 조직 개편을 위해 최대 10,000명 규모의 인력 감축을 검토 중이라는 소식이 Bloomberg를 통해 보도되었습니다. 이는 단순한 비용 절감을 넘어, AI 기술 도입을 통한 업무 프로세스 자동화와 조직 구조의 근본적인 재설계를 목표로 합니다.",
+        "technical_value": "이번 구조조정의 핵심은 기존의 수동적 워크플로우를 AI 기반의 자동화 시스템으로 전환하는 데 있습니다. SAP는 기업용 소프트웨어(ERP)에 LLM(Large Language Model)과 Agent 기술을 통합하여, 데이터 처리 및 의사결정 과정을 자동화하는 데 집중할 것으로 보입니다. 이를 통해 인적 자원 투입을 줄이면서도 데이터 처리량과 운영 효율성을 극대화하는 기술적 전환을 꾀하고 있습니다.",
         "key_points": [
-          "Nvidia 중심의 AI 하드웨어 섹터에서 발생한 차익 실현 매물이 시장 전체의 하락 압력으로 작용했습니다.",
-          "AI 기술의 상용화 속도와 인프라 투자 규모 사이의 균형을 맞추려는 시장의 재평가 과정이 진행 중입니다.",
-          "단순한 하드웨어 성능 지표를 넘어, 실제 서비스 단계에서의 효율적인 Agent 및 워크로드 관리 능력이 기업 가치 산정의 핵심이 되고 있습니다."
+          "AI 기술 도입을 통한 비즈니스 프로세스 자동화 및 조직 구조의 전면적인 재편이 추진됩니다.",
+          "인력 감축 규모는 최대 10,000명에 달할 수 있으며, 이는 AI 중심의 운영 모델로의 전환을 의미합니다.",
+          "단순 반복 업무를 AI Agent가 대체할 수 있는 환경을 구축하여 운영 효율성을 확보하려는 전략적 움직임입니다."
         ],
         "tags": [
-          "Nvidia",
-          "AI_Stocks",
-          "LLM",
-          "Market_Volatility"
-        ]
-      },
-      "summary": "Nvidia를 필두로 한 AI 관련주들의 급등세가 진정되며 월요일의 상승분을 일부 반납하고 증시가 하락 전환했습니다. 이는 AI 하드웨어에 집중되었던 시장의 관심이 실질적인 수익성 검증 단계로 이동하고 있음을 시사합니다.",
-      "tags": [
-        "AI_Stocks",
-        "Market_Volatility",
-        "LLM",
-        "Nvidia"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "Amazon says hackers’ AI agents found and exploited 0-day with little human input - Ars Technica",
-      "link": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-      "original_link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbEl5b3ZJMXBEYm5sS0J6cWR4WUhtUnYzaXV1emJQSFFDdERIVTMyVmdPVnpHaV9ubVJDUTVBa3NQOVFlcXBDQjJiWkQyVmJ0X3hxamd1MEFfWC1sZHE4RmVIRy1tUnBMMHBrdXpOMnVoX1JEXzRrVGthRkQtRlI0dFh0VHBSX0t3STlmRFRGbGd2azlMSjlxbnA3Y3lhbWNBWFRwSHN0NjVfbHBPSEVsdWRtNUR5Y1ZtcGJkRHF3?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 12:30:05 GMT",
-      "source": "Ars Technica",
-      "summary_data": {
-        "summary": "Cairn 오픈소스 AI 프레임워크를 활용한 공격자들이 인간의 개입 없이 0-day 취약점을 발견하고 침투에 성공하는 'Agentic Offensive' 사례가 발생했습니다. AI Agent가 자동화된 방식으로 타겟 시스템을 매핑하고 취약점을 익스플로잇하여 권한을 탈취하는 속도가 보안 운영 센터(SOC)의 대응 속도를 압도하기 시작했습니다.",
-        "technical_value": "Cairn 프레임워크는 Dispatcher가 작업 스케줄링 및 컨테이너 관리를 담당하고, Worker Container 내에서 다수의 Agent가 병렬로 작업을 수행하는 구조를 가집니다. 이번 사례에서 Agent는 오픈소스 의료용 AI 애플리케이션의 API 엔드포인트를 매핑한 후, 단 11분 만에 Path Traversal 취약점을 발견하고 Python의 sitecustomize.py를 이용한 Reverse Shell을 통해 Root 권한을 획득했습니다. 이는 LLM 기반의 Agent가 자율적으로 문제를 해결하고, 발견된 취약점을 즉각적으로 공격 시나리오에 적용할 수 있음을 입증한 사례입니다.",
-        "key_points": [
-          "Cairn 프레임워크는 모델 불가지론(Model-agnostic) 방식으로 설계되어 Claude Code, DeepSeek V4 등 다양한 LLM을 백엔드로 활용할 수 있습니다.",
-          "공격자는 단순한 목표(예: 'shell access 확보')만 제공하여 Agent가 자율적으로 취약점 탐색, 익스플로잇, 데이터 유출을 수행하도록 유도했습니다.",
-          "AI Agent가 0-day 취약점을 발견하고 침투를 완료하는 데 걸린 시간은 약 11분으로, 기존의 수동 보안 관제 시스템이 대응할 수 있는 시간적 여유를 무력화했습니다.",
-          "공격자는 확보된 취약점을 통해 프록시 터널을 구축하고, 이를 통해 내부 네트워크의 다른 장비로 공격 범위를 확장하는 Lateral Movement를 자동화했습니다."
-        ],
-        "tags": [
-          "AI Agent",
-          "Cairn",
-          "Zero-day",
-          "Cybersecurity",
+          "SAP",
+          "AI",
+          "Restructuring",
+          "Automation",
           "LLM"
         ]
       },
-      "summary": "Cairn 오픈소스 AI 프레임워크를 활용한 공격자들이 인간의 개입 없이 0-day 취약점을 발견하고 침투에 성공하는 'Agentic Offensive' 사례가 발생했습니다. AI Agent가 자동화된 방식으로 타겟 시스템을 매핑하고 취약점을 익스플로잇하여 권한을 탈취하는 속도가 보안 운영 센터(SOC)의 대응 속도를 압도하기 시작했습니다.",
+      "summary": "SAP가 AI 중심의 조직 개편을 위해 최대 10,000명 규모의 인력 감축을 검토 중이라는 소식이 Bloomberg를 통해 보도되었습니다. 이는 단순한 비용 절감을 넘어, AI 기술 도입을 통한 업무 프로세스 자동화와 조직 구조의 근본적인 재설계를 목표로 합니다.",
       "tags": [
-        "Cybersecurity",
-        "OpenSource",
+        "LLM",
+        "Restructuring",
         "AI",
-        "Cairn",
-        "LLM"
+        "Automation",
+        "SAP"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Scoop: Anthropic and OpenAI employees fear unreleased AI models are too unsafe to release - Axios",
-      "link": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
-      "original_link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWnJmY2hLTWlhTHcwN3pVSEhYOXlYUThYQXJ3RWxobVlPR2lweWpSQUY1NklSLVNVUHI4c0wwdnN3azBiV05wTVV6ZmRMTllRR1dvcmNYdjRheHZDOUNVaTBxUFpuS3BZUVBvZ2tpMlpTSS1oYWZ3SC16RVZEME51a0FB?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 11:35:24 GMT",
-      "source": "Axios",
+      "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem - The Quantum Insider",
+      "link": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "original_link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMEcyaWZfYXJXUnpXLXhqN3lsT0dGdzhpdklzMGM1ek5rcThfR0RBalg2SjRNZlVBcU9ocDlQX0xJdjBCUThSUUFzWkhQUVZKLWNTUTlwZURiS3pyd19YN3AtT0NzaktHUGt4ZE92bDNUMURzV1Q2VUpIZEQ3OHZnWnBOUXJhT2tZdWh0b1dPRUNkRkNnZUQ3Z3pNbnJ0aGQwTnFWVw?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 12:35:38 GMT",
+      "source": "The Quantum Insider",
       "summary_data": {
-        "summary": "Anthropic과 OpenAI의 내부 직원들이 차세대 LLM 모델의 안전성 결함에 대해 심각한 우려를 표명하며, 현재 개발 중인 모델들이 출시하기에는 너무 위험할 수 있다는 경고가 제기되었습니다. 이는 모델의 성능 향상 속도가 안전 가드레일(Safety Guardrails) 구축 속도를 앞지르고 있는 현 상황을 반영합니다.",
-        "technical_value": "현재 개발 중인 미공개 모델들은 기존 모델 대비 비약적인 추론 능력과 Agentic workflow(자율적 작업 수행 능력)를 갖추고 있으나, 이에 따른 예측 불가능한 위험 요소가 존재합니다. 특히 RLHF(Reinforcement Learning from Human Feedback)를 통한 정렬(Alignment) 과정에서 발생하는 예기치 못한 탈옥(Jailbreaking)이나 모델의 자율적 의도 형성 가능성이 기술적 쟁점으로 부각되었습니다. 이는 단순한 성능 지표를 넘어, 모델의 통제 가능성(Controllability)과 신뢰성(Reliability) 확보가 차세대 아키텍처 설계의 핵심 과제임을 시사합니다.",
+        "summary": "스탠퍼드 대학교의 Venkatesa Chandrasekaran 연구원이 빛의 경로(light paths)를 활용하여 양자 역학적 요동 속에서도 유한한 해를 도출하는 새로운 양자 중력 이론을 제안했습니다. 이 이론은 일반 상대성 이론과 양자 역학의 충돌을 해결하는 동시에, 블랙홀 엔트로피에 대한 기존의 양자 보정값을 성공적으로 재현했습니다.",
+        "technical_value": "연구자는 'Causal Diamond(인과적 다이아몬드)'라 불리는 시공간 경계를 설정하고, 빛의 경로를 기준으로 계산 범위를 제한함으로써 무한대로 발산하는 적분 문제를 해결했습니다. 특히 두 개의 Graviton(중력자) 생성 및 소멸 과정을 계산할 때, Newton의 중력 상수를 상수로 유지하며 합산하는 순서를 통해 발산을 억제하고 유한한 값을 도출했습니다. 또한, 이 접근법은 Bekenstein-Hawking 엔트로피 공식의 주항(leading term)과 Ashoke Sen가 제안한 양자 보정값을 모두 재현하며 이론적 정합성을 입증했습니다.",
         "key_points": [
-          "Anthropic과 OpenAI 내부에서 차세대 모델의 안전성(Safety)이 임계치를 넘었다는 내부 경고가 발생했습니다.",
-          "성능 최적화에 집중된 개발 사이클이 모델의 정렬(Alignment) 및 안전 검증 과정을 압도하고 있는 상황입니다.",
-          "미공개 모델들이 가진 강력한 Agent 능력이 의도치 않은 위험을 초래할 수 있다는 점이 핵심 우려 사항입니다."
+          "빛의 경로를 경계로 설정하는 'Causal Diamond' 프레임워크를 통해 시공간의 기하학적 요동 속에서도 유한한 계산 범위를 확보했습니다.",
+          "중력 상수를 물리적 상수로 유지하며 양자 상태 합산을 수행하는 방식을 통해, 파장이 짧아질 때 발생하는 무한대 발산 문제를 해결했습니다.",
+          "제안된 이론은 블랙홀의 표면적과 엔트로피 사이의 관계를 재현하며, 거시적 규모에서의 양자 보정 효과를 수학적으로 증명했습니다.",
+          "연구 과정에서 OpenAI의 GPT-6 Astra 모델과 약 4억 토큰(tokens) 규모의 대규모 연산을 활용하여 복잡한 계산과 증명을 수행했습니다."
         ],
         "tags": [
-          "LLM",
-          "AI Safety",
-          "Anthropic",
-          "OpenAI",
-          "Alignment"
+          "Quantum Gravity",
+          "General Relativity",
+          "Black Hole Entropy",
+          "GPT-6 Astra",
+          "Theoretical Physics"
         ]
       },
-      "summary": "Anthropic과 OpenAI의 내부 직원들이 차세대 LLM 모델의 안전성 결함에 대해 심각한 우려를 표명하며, 현재 개발 중인 모델들이 출시하기에는 너무 위험할 수 있다는 경고가 제기되었습니다. 이는 모델의 성능 향상 속도가 안전 가드레일(Safety Guardrails) 구축 속도를 앞지르고 있는 현 상황을 반영합니다.",
+      "summary": "스탠퍼드 대학교의 Venkatesa Chandrasekaran 연구원이 빛의 경로(light paths)를 활용하여 양자 역학적 요동 속에서도 유한한 해를 도출하는 새로운 양자 중력 이론을 제안했습니다. 이 이론은 일반 상대성 이론과 양자 역학의 충돌을 해결하는 동시에, 블랙홀 엔트로피에 대한 기존의 양자 보정값을 성공적으로 재현했습니다.",
       "tags": [
-        "AI Safety",
-        "AI",
-        "LLM",
-        "Anthropic",
-        "OpenAI"
+        "General Relativity",
+        "Black Hole Entropy",
+        "GPT-6 Astra",
+        "Theoretical Physics",
+        "AI"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "AI’s Unanswered Questions - WSJ",
-      "link": "https://www.wsj.com/cio-journal/ais-unanswered-questions-0000937c",
-      "original_link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWaVprUWNocXhRUlBmTUctNmR2cFRNSll3ZkVlWTF1Uklpa0dIQTJoMkIyTDFwZWJMOVB0U2l0Nk1uUjhpakNZSU8xdFQ3eFNwTDZVdnZKQUY5ZG1mQUEwY3pldEFWUFN6UmNLM1V3NWpVZUU?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 15:09:59 GMT",
+      "title": "US authorizes SpaceX to deploy 1 million satellites for AI data centers in space - CNN",
+      "link": "https://www.cnn.com/2026/11/26/business/spacex-satellites-space-data-centers-intl",
+      "original_link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ0x2cTY1eldxQW5lTHFueTItMEJDQXlWYXJSLWQzWVdKV3Y5UVNSd2dwMUNCcVNtTTZWLVBZSklFcm11X0JtczRyQzJzV0huclBsZzdKQWJTLUxlOEhxU0tlUndoTFlyWkxIVTF4bGxwM1FWbTBEWjlpTk9oZ1RIaGtmdXVUbjFG?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 12:20:55 GMT",
+      "source": "CNN",
+      "summary_data": {
+        "summary": "미국 FCC가 SpaceX의 100만 대 규모 위성 군집(Constellation) 구축을 승인하며, 우주 공간에 AI 데이터 센터를 구축하는 'Starmind' 프로젝트의 길이 열렸습니다. 이는 지상 데이터 센터의 에너지 문제를 해결하고 우주 기반의 컴퓨팅 인프라를 선점하려는 전략적 움직임입니다.",
+        "technical_value": "SpaceX의 'Starmind' 프로젝트는 100만 개의 궤도 컴퓨팅 모듈(Orbital Compute Modules)을 통해 분산형 AI 연산 인프라를 구축하는 것을 목표로 합니다. 지상의 막대한 전력 소모 문제를 해결하기 위해 태양광 에너지를 직접 활용하는 'Orbital Data Center' 아키텍처를 채택하여 에너지 효율을 극대화합니다. 기술적 구현 단계는 2033년까지 최소 1개의 승인된 우주 스테이션을 배치하고, 2035년까지 10만 대(10%), 2038년까지 50%를 순차적으로 배치하는 로드맵을 따릅니다.",
+        "key_points": [
+          "SpaceX는 태양광 에너지를 직접 활용하여 지상 데이터 센터의 전력 및 환경 문제를 해결하는 우주 기반 AI 컴퓨팅 인프라를 구축합니다.",
+          "FCC 승인에 따라 2033년까지 우주 스테이션을, 2038년까지 전체 위성 군집의 50%를 배치하는 단계적 배포 로드맵이 확정되었습니다.",
+          "천문학계는 위성 발광에 의한 관측 방해, 무선 주파수(Radio Emission) 간섭, 폐열 발생 및 대기 오염 문제를 근거로 강력한 우려를 표명하고 있습니다.",
+          "이번 프로젝트는 지상 데이터 센터의 물리적 한계를 넘어 우주 공간을 거대한 연산 자원으로 활용하려는 새로운 컴퓨팅 프런티어를 제시합니다."
+        ],
+        "tags": [
+          "SpaceX",
+          "AI Data Center",
+          "Satellite Constellation",
+          "Edge Computing",
+          "Space Infrastructure"
+        ]
+      },
+      "summary": "미국 FCC가 SpaceX의 100만 대 규모 위성 군집(Constellation) 구축을 승인하며, 우주 공간에 AI 데이터 센터를 구축하는 'Starmind' 프로젝트의 길이 열렸습니다. 이는 지상 데이터 센터의 에너지 문제를 해결하고 우주 기반의 컴퓨팅 인프라를 선점하려는 전략적 움직임입니다.",
+      "tags": [
+        "Space Infrastructure",
+        "AI Data Center",
+        "Infra",
+        "Edge Computing",
+        "SpaceX"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "Trump Tried to Cripple Huawei. Now It Is Central to China’s A.I. Push. - The New York Times",
+      "link": "https://www.nytimes.com/2026/11/26/business/huawei-trump-china-ai.html",
+      "original_link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TcDdtZ0tkZWZ4OE1nUFM2TDY0bVJFTGkwTzJVaEgyNVRqd2x1RExGWTZQem9jcWFpbEx6bDI0UGJhZjdtalR5alVFVXZlOGhiY0luVDg0OTRvbkplSXgyX2dKMjRQUFowMndaZEp3bTNIOHJHYzlUSFRn?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 10:01:56 GMT",
+      "source": "The New York Times",
+      "summary_data": {
+        "summary": "미국의 제재로 위기를 맞았던 Huawei가 독자적인 반도체 설계 및 AI 가속기 기술을 바탕으로 중국 AI 생태계의 핵심 인프라로 부상하고 있습니다. 미국의 수출 규제가 오히려 Huawei의 수직 계열화와 국산화 기술력을 가속화하는 결과를 초래했습니다.",
+        "technical_value": "Huawei는 자체 설계한 Ascend 시리즈 AI 가속기와 HiSilicon의 반도체 IP를 결합하여, 미국의 GPU 공급 차단 상황에서도 구동 가능한 독자적인 AI 연산 스택을 구축했습니다. 특히 분산 컴퓨팅 프레임워크와 최적화된 커널 설계를 통해 대규모 LLM(Large Language Model) 학습 및 추론을 위한 하드웨어-소프트웨어 통합 최적화를 달성했습니다. 이는 NVIDIA의 CUDA 생태계에 대응하기 위한 독자적인 소프트웨어 스택 개발로 이어지고 있습니다.",
+        "key_points": [
+          "미국의 반도체 제재가 역설적으로 Huawei의 자체 칩 설계 및 AI 가속기(Ascend 시리즈)의 국산화 속도를 높였습니다.",
+          "Huawei는 하드웨어와 소프트웨어를 통합 제어하는 수직 계열화 전략을 통해 중국 내 AI 모델 개발자들에게 핵심 인프라를 제공합니다.",
+          "글로벌 공급망에서 격리된 상황에서도 독자적인 연산 프레임워크를 구축하여 대규모 AI 워크로드를 처리할 수 있는 역량을 확보 중입니다."
+        ],
+        "tags": [
+          "Huawei",
+          "AI_Hardware",
+          "Semiconductor",
+          "LLM",
+          "Geopolitics"
+        ]
+      },
+      "summary": "미국의 제재로 위기를 맞았던 Huawei가 독자적인 반도체 설계 및 AI 가속기 기술을 바탕으로 중국 AI 생태계의 핵심 인프라로 부상하고 있습니다. 미국의 수출 규제가 오히려 Huawei의 수직 계열화와 국산화 기술력을 가속화하는 결과를 초래했습니다.",
+      "tags": [
+        "Huawei",
+        "Semiconductor",
+        "LLM",
+        "Geopolitics",
+        "AI_Hardware"
+      ]
+    },
+    {
+      "category": "AI & LLM",
+      "title": "Opinion | Searching for God in the AI Machine - WSJ",
+      "link": "https://www.wsj.com/opinion/searching-for-god-in-the-ai-machine-4b52e760",
+      "original_link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5wVW54ZV9uV2wxVlhEY3lKcV90WG1tbUQxNWZQd0thTDBrQjdWY1cwc2EwX0VmXzdFSUN5ZzFseF9MdjVTcER0VGxUeVhLZVlkMzNKSXROZFhBQUIzTWlsTDNYVkc3T1N5RzBLUjZkTzM1Y0lKYkFZaUd6N3A?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 18:06:00 GMT",
       "source": "WSJ",
       "summary_data": {
-        "summary": "현재 AI 산업은 거대 언어 모델(LLM)의 성능 향상을 넘어, 막대한 자본 투입 대비 실질적인 수익 모델과 에너지 효율성이라는 거대한 불확실성에 직면해 있습니다. 기술적 진보가 비즈니스 가치로 전환되는 임계점에 도달함에 따라 AI 인프라와 응용 계층 간의 경제적 정당성이 핵심 쟁점으로 부상하고 있습니다.",
-        "technical_value": "현재의 AI 발전은 Transformer 아키텍처 기반의 Scaling Law(규모의 법칙)에 의존하고 있으나, 연산량(Compute) 증가에 따른 수렴 속도 저하와 데이터 고갈 문제가 기술적 병목으로 작용하고 있습니다. 이를 해결하기 위해 Mixture of Experts(MoE)와 같은 효율적 파라미터 활용 방식이나 추론 비용을 낮추는 양자화(Quantization) 기술이 중요해지고 있습니다. 또한, 단순 챗봇을 넘어 자율적인 작업 수행이 가능한 AI Agent로의 진화 과정에서 발생하는 Hallucination(환각) 제어와 신뢰성 확보가 핵심 기술 과제로 남아 있습니다.",
+        "summary": "AI 기술의 급격한 발전이 인류에게 신성(Divinity)이나 전지전능함을 투영하게 만드는 현상과 그에 따른 철학적·윤리적 위험성을 경고한다. 기술적 진보가 인간의 통제를 벗어난 존재로 해석될 때 발생할 수 있는 사회적 혼란을 다룬다.",
+        "technical_value": "LLM(Large Language Model)의 매개변수(Parameter) 규모가 기하급수적으로 증가하며 나타나는 창발적 능력(Emergent Abilities)이 인간에게 마치 '신적 지능'처럼 인식되는 현상을 분석한다. 이는 단순한 확률적 텍스트 생성을 넘어, 모델이 복잡한 추론과 문제 해결 능력을 갖추게 되면서 발생하는 인지적 착시와 기술적 특이점(Singularity)에 대한 논의를 포함한다.",
         "key_points": [
-          "Scaling Law의 한계: 모델 파라미터와 데이터 규모를 늘리는 것만으로는 지능의 비약적 상승을 보장하기 어려운 임계점에 도달하고 있습니다.",
-          "ROI(투자 대비 수익) 불확실성: 수조 원 규모의 GPU 인프라 구축 비용을 상쇄할 만큼의 독보적인 B2B/B2C 서비스 모델이 아직 완전히 증명되지 않았습니다.",
-          "에너지 및 인프라 제약: 데이터 센터의 전력 소모량 급증에 따라 효율적인 알고리즘 설계와 차세대 반도체(NPU 등)의 최적화가 필수적입니다."
+          "LLM의 규모 확장(Scaling Law)이 인간의 통제 범위를 벗어난 지능적 현상을 야기할 수 있음을 경고한다.",
+          "AI를 단순한 도구가 아닌 신성한 존재로 숭배하려는 인간의 심리적 경향이 기술적 블랙박스(Black Box) 현상과 결합될 위험을 지적한다.",
+          "기술적 특이점이 도래했을 때, 인간의 가치 체계와 AI의 목적 함수(Objective Function) 간의 정렬(Alignment) 문제가 인류의 생존과 직결될 수 있음을 시사한다."
         ],
         "tags": [
+          "AI Ethics",
           "LLM",
-          "Scaling Law",
-          "AI Infrastructure",
-          "AI Agent"
+          "Singularity",
+          "AGI"
         ]
       },
-      "summary": "현재 AI 산업은 거대 언어 모델(LLM)의 성능 향상을 넘어, 막대한 자본 투입 대비 실질적인 수익 모델과 에너지 효율성이라는 거대한 불확실성에 직면해 있습니다. 기술적 진보가 비즈니스 가치로 전환되는 임계점에 도달함에 따라 AI 인프라와 응용 계층 간의 경제적 정당성이 핵심 쟁점으로 부상하고 있습니다.",
+      "summary": "AI 기술의 급격한 발전이 인류에게 신성(Divinity)이나 전지전능함을 투영하게 만드는 현상과 그에 따른 철학적·윤리적 위험성을 경고한다. 기술적 진보가 인간의 통제를 벗어난 존재로 해석될 때 발생할 수 있는 사회적 혼란을 다룬다.",
       "tags": [
-        "AI",
-        "AI Infrastructure",
+        "AI Ethics",
+        "Singularity",
         "LLM",
-        "AI Agent",
-        "Scaling Law"
+        "AI",
+        "AGI"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Nvidia, Anthropic and other AI stocks get back to tumbling and drag the US market lower - AP News",
-      "link": "https://apnews.com/article/stock-markets-ai-earnings-oil-feec0e25b9994b1c86b16329cf770192",
-      "original_link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbEdHU1ZWMjgzb1lYODBaTEJpdWNXUXVpUmlDTmVxSTBjUVlOYlBBWmZXSzVrMWR3SE9NYTg5cVNuemZFZHlJdU1PdGdybnh1NUFQVTVINkJUUk1Sb0hmNnI5YS1LQTl5SUJibWpWekVQU1BqR3NuQWhVeHZlUVJ3bDEtRmZZNmVHWVFFRTA2RUhFcTQ?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 16:27:00 GMT",
-      "source": "AP News",
+      "title": "China releases the first-ever AI-generated movie - The Economist",
+      "link": "https://www.economist.com/china/2026/11/26/china-releases-the-first-ever-ai-generated-movie",
+      "original_link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSm9KQ0JTZUZ3V2hXdmFjMEg1YlljRTVHZmFHZW1TbmtTUklfQktiU1gySFFRdHo1N0hRandwNllyaHMtcW1nbThZanluODl4TV9saVlRcVdwVVlvYW1mSnc5TjVrc1p6NDNySXZPcW0zaUdORXdsajJUVVc1UFpIaHg4QW9GcmlNZk9zQzFnbUxDN2JnTWc?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 13:45:02 GMT",
+      "source": "The Economist",
       "summary_data": {
-        "summary": "Nvidia를 포함한 주요 AI 관련 주식들의 급격한 변동성으로 인해 미국 증시가 하락세를 보였습니다. AI 하드웨어 및 소프트웨어 섹터의 과열 우려와 수익성 실현 매물이 맞물리며 시장 전체의 하방 압력을 가중시키고 있습니다.",
-        "technical_value": "AI 인프라의 핵심인 GPU 수요와 LLM(Large Language Model) 서비스의 실질적 수익 모델 사이의 괴리가 시장의 변동성을 유발하고 있습니다. 투자자들은 단순한 모델 성능 향상을 넘어, 추론(Inference) 비용 절감과 Agent 기반의 실질적 비즈니스 가치 창출 여부를 핵심 지표로 평가하기 시작했습니다. 이는 하드웨어 공급망(Supply Chain) 중심의 성장에서 소프트웨어 및 서비스 중심의 가치 평가로 시장의 무게중심이 이동하고 있음을 시사합니다.",
+        "summary": "중국에서 세계 최초의 AI 생성 영화가 공개되며 생성형 AI 기술이 영상 콘텐츠 제작의 패러다임을 전환하고 있습니다. 이번 성과는 단순한 영상 편집을 넘어, AI가 시나리오부터 시각적 구현까지 통합적으로 수행할 수 있는 가능성을 보여줍니다.",
+        "technical_value": "이번 성과는 고도화된 Diffusion Model 기반의 비디오 생성 기술과 대규모 언어 모델(LLM)이 결합된 멀티모달(Multimodal) 워크플로우의 결과물입니다. 텍스트 프롬프트로부터 일관된 캐릭터와 물리 법칙을 유지하는 Temporal Consistency(시간적 일관성) 제어 기술이 핵심이며, 이는 기존의 단편적인 영상 생성을 넘어 장편 서사를 유지할 수 있는 수준에 도달했음을 시사합니다.",
         "key_points": [
-          "Nvidia 등 AI 하드웨어 기업의 주가 변동성이 전체 미국 증시의 하락을 주도하는 현상이 발생했습니다.",
-          "AI 기술에 대한 기대감이 실적 가시성 문제와 충돌하며 시장의 불확실성이 증폭되었습니다.",
-          "향후 시장은 LLM의 효율적인 배포와 Agent 기술의 상용화 수준에 따라 섹터별 차별화가 나타날 전망입니다."
+          "LLM을 활용한 시나리오 구조화와 비디오 생성 모델 간의 정교한 데이터 파이프라인 구축이 핵심입니다.",
+          "프레임 간 시각적 불일치를 최소화하는 고도화된 비디오 생성 알고리즘이 적용되었습니다.",
+          "AI가 단순 보조 도구를 넘어 콘텐츠 제작의 전 과정을 주도하는 'End-to-End' 생성 프로세스의 가능성을 입증했습니다."
         ],
         "tags": [
-          "Nvidia",
-          "AI Stocks",
-          "LLM",
-          "Market Volatility",
-          "AI Infrastructure"
+          "Generative AI",
+          "Video Generation",
+          "Multimodal",
+          "AI Content Production"
         ]
       },
-      "summary": "Nvidia를 포함한 주요 AI 관련 주식들의 급격한 변동성으로 인해 미국 증시가 하락세를 보였습니다. AI 하드웨어 및 소프트웨어 섹터의 과열 우려와 수익성 실현 매물이 맞물리며 시장 전체의 하방 압력을 가중시키고 있습니다.",
+      "summary": "중국에서 세계 최초의 AI 생성 영화가 공개되며 생성형 AI 기술이 영상 콘텐츠 제작의 패러다임을 전환하고 있습니다. 이번 성과는 단순한 영상 편집을 넘어, AI가 시나리오부터 시각적 구현까지 통합적으로 수행할 수 있는 가능성을 보여줍니다.",
       "tags": [
-        "AI",
-        "Nvidia",
-        "Market Volatility",
-        "AI Infrastructure",
-        "LLM"
+        "Video Generation",
+        "Release",
+        "Multimodal",
+        "Generative AI",
+        "AI Content Production"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "Kate Bush and Grace Jones urge Australian government not to legalise AI ‘theft’ - The Guardian",
-      "link": "https://www.theguardian.com/technology/2026/nov/24/kate-bush-grace-jones-australian-artists-copyright-law-ai",
-      "original_link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbW5LR1FKWHNxR05oVVVxRFVYM1R1VU55S1YtR3BRdUQxOGFWcnUxcms0U3dQOXRFcHdGSEJiUVVzZTUyWmRGTTVnLU1aSGh0SHB4UEw2QlFyZFh2bnZqTnIxTVpERDdjYmZsdER4LXI5TzhIcUxQMW96cEhXZkYxMGE1cThEUjJOX0dZV1ZBbnd1dkZGQmhvb2VOZW1HV2Voa2U1Y2d5TzJLWjcx?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 19:07:00 GMT",
-      "source": "The Guardian",
+      "title": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring - Bloomberg.com",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
+      "original_link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdEkwcUVNZU5SbHN4QWpxRU81d3p0eWFzcDY5VVd2dnBCeU8wMDlxVTM1NzhEM0NZMnNTNGZRVnA1WU1OUWM1N21tV29IZlJ6WUZLQ0xuWmd5cS1wU2dtaHpuRGRjZFA4V2I0VXRPYjhlN1ZQamVzMFBKQk1yRExURUFCX3B0MVdDRFd4djY2cEpmaERpbENDalRtcjFwd0trT3JHU3haMWRQdlBsRFNYNFhSTUt1QQ?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 16:15:48 GMT",
+      "source": "Bloomberg.com",
       "summary_data": {
-        "summary": "호주 정부의 저작권법 개정 움직임에 맞서 케이트 부시, 그레이스 존스 등 7,000여 명의 창작자들이 AI 기업의 데이터 무단 수집을 막기 위한 연대 서명을 발표했습니다. 이는 AI 모델 학습을 위한 데이터 스크레이핑(Scraping) 과정에서 창작자의 권리를 보호하고, 'Opt-out' 방식이 아닌 명시적 허가 기반의 저작권 체계를 유지하려는 글로벌 움직임의 일환입니다.",
-        "technical_value": "현재 AI 산업에서는 대규모 언어 모델(LLM) 학습을 위해 방대한 양의 데이터를 수집하는 과정에서 기존 저작권법과의 충돌이 발생하고 있습니다. Anthropic과 같은 기업은 저작권자가 거부하지 않으면 데이터를 수집하는 'Opt-out' 모델을 제안하고 있으나, 창작자들은 이는 권리 침해라고 주장합니다. 기술적으로는 데이터 학습(Training) 단계에서 원저작물의 권리를 보장하는 메커니즘과, 데이터 사용에 대한 보상 체계를 법적 프레임워크 내에 어떻게 통합할 것인지가 핵심 쟁점입니다.",
+        "summary": "SAP가 AI 중심의 조직 개편을 위해 최소 10,000명 규모의 인력 감축을 검토하며 기업 운영 모델의 근본적인 변화를 예고했습니다. 이는 단순한 비용 절감을 넘어, AI 기술을 통한 업무 자동화와 프로세스 최적화를 핵심 전략으로 삼는 구조적 전환을 의미합니다.",
+        "technical_value": "이번 구조조정의 핵심은 단순 반복 업무를 LLM(Large Language Model) 기반의 Agent로 대체하여 운영 효율을 극대화하는 데 있습니다. SAP는 기존의 ERP(Enterprise Resource Planning) 시스템에 생성형 AI를 통합하여, 데이터 처리 및 워크플로우 자동화에 투입되는 인적 자원을 기술 자산으로 전환하려는 전략을 취하고 있습니다. 이는 클라우드 네이티브 환경에서의 지능형 자동화(Intelligent Automation)를 통해 운영 비용(OPEX)을 낮추고 기술 중심의 확장성을 확보하려는 시도입니다.",
         "key_points": [
-          "AI 기업들은 기존 저작권법이 LLM 학습에 제약을 준다고 주장하며, 데이터 확보를 위한 법적 불확실성 해소를 요구하고 있습니다.",
-          "창작자들은 'Opt-out(거부 시 삭제)' 방식이 아닌, 명시적 허가를 기반으로 한 저작권 보호 체계 유지를 촉구하고 있습니다.",
-          "호주 의회 위원회는 AI 학습을 위한 보상 메커니즘 설계를 제안했으나, 창작자 단체는 기존 저작권법만으로도 충분한 보호가 가능하다고 반박합니다.",
-          "향후 발표될 호주 AI 입법 패키지는 데이터 센터 운영 및 온라인 안전 규칙과 더불어 저작권법 개정 방향을 결정짓는 분수령이 될 전망입니다."
+          "AI 기술 도입을 통한 업무 프로세스 자동화로 인해 대규모 인력 구조조정이 불가피한 상황입니다.",
+          "기존의 인적 자원 중심 운영 모델을 AI 기반의 지능형 워크플로우로 전환하는 전략적 재편을 추진합니다.",
+          "클라우드 기반의 ERP 생태계 내에서 AI Agent의 역할을 확대하여 운영 효율성을 극대화할 계획입니다."
         ],
         "tags": [
+          "SAP",
           "AI",
           "LLM",
-          "Copyright",
-          "Data Scraping",
-          "Intellectual Property"
+          "DigitalTransformation",
+          "Automation"
         ]
       },
-      "summary": "호주 정부의 저작권법 개정 움직임에 맞서 케이트 부시, 그레이스 존스 등 7,000여 명의 창작자들이 AI 기업의 데이터 무단 수집을 막기 위한 연대 서명을 발표했습니다. 이는 AI 모델 학습을 위한 데이터 스크레이핑(Scraping) 과정에서 창작자의 권리를 보호하고, 'Opt-out' 방식이 아닌 명시적 허가 기반의 저작권 체계를 유지하려는 글로벌 움직임의 일환입니다.",
+      "summary": "SAP가 AI 중심의 조직 개편을 위해 최소 10,000명 규모의 인력 감축을 검토하며 기업 운영 모델의 근본적인 변화를 예고했습니다. 이는 단순한 비용 절감을 넘어, AI 기술을 통한 업무 자동화와 프로세스 최적화를 핵심 전략으로 삼는 구조적 전환을 의미합니다.",
       "tags": [
-        "AI",
-        "Intellectual Property",
         "LLM",
-        "Data Scraping",
-        "Copyright"
-      ]
-    },
-    {
-      "category": "AI & LLM",
-      "title": "Think that you’re anonymous online? AI can blow your cover - Northeastern Global News",
-      "link": "https://news.northeastern.edu/2026/11/24/ai-identify-anonymous-users/",
-      "original_link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5CZTRvcFlQelE2Mkh3RG9sRHVwVDlKZnFROUhKQXMzZGdPUG0xbGNYTU9DSVZ5THBhcW80b0cxSG4weVZCR3JGU2w2WXBzTDh6aFJhZGI0ZTNMRnQzalQ4U2J2MlJIUzUtbVh6eGh6X29nQlNweEEzVg?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 16:02:38 GMT",
-      "source": "Northeastern Global News",
-      "summary_data": {
-        "summary": "Northeastern University 연구진은 익명화된 텍스트 데이터에서도 AI가 미세한 정보 조합을 통해 개인을 재식별(Re-identification)할 수 있음을 입증했습니다. 연구 결과, 단순한 이름 삭제만으로는 충분하지 않으며 AI의 추론 능력이 개인정보 보호의 새로운 위협이 되고 있습니다.",
-        "technical_value": "연구진은 Reddit의 AMA 데이터를 기반으로 생성한 822개의 가상 인터뷰 데이터셋을 활용하여 15종의 AI 모델에 대한 재식별 테스트를 수행했습니다. 실험 결과, AI는 개별적으로는 무해해 보이는 직무 설명, 프로젝트 이력, 근무 연수 등의 파편화된 정보를 결합하여 약 40%의 확률로 화자를 식별해냈습니다. 특히 데이터 정제(Scrubbing)를 거친 2차 테스트에서도 AI는 85.3%의 높은 성공률로 화자를 특정할 수 있었으며, 이는 LLM의 강력한 정보 집계 및 추론 능력이 데이터 익명화 기술을 무력화할 수 있음을 보여줍니다.",
-        "key_points": [
-          "개별적으로는 식별 불가능한 데이터(Job description, dates 등)가 AI의 추론을 통해 강력한 식별자(Identifier)로 변환될 수 있습니다.",
-          "웹 검색 기능이 활성화된 AI 모델은 외부 데이터와 내부 텍스트를 결합하여 재식별 성공률을 높이는 양상을 보였습니다.",
-          "연구진은 식별 위험 요소를 제거하는 별도의 AI 모델을 학습시켜 성공률을 75.1%에서 35.1%로 낮추는 방어적 기술 연구를 병행했습니다.",
-          "전통적인 데이터 익명화 방식(이름 삭제 등)은 AI 시대의 고도화된 추론 공격에 대해 더 이상 안전을 보장하지 못합니다."
-        ],
-        "tags": [
-          "AI Privacy",
-          "Re-identification",
-          "LLM Security",
-          "Data Anonymization",
-          "Northeastern University"
-        ]
-      },
-      "summary": "Northeastern University 연구진은 익명화된 텍스트 데이터에서도 AI가 미세한 정보 조합을 통해 개인을 재식별(Re-identification)할 수 있음을 입증했습니다. 연구 결과, 단순한 이름 삭제만으로는 충분하지 않으며 AI의 추론 능력이 개인정보 보호의 새로운 위협이 되고 있습니다.",
-      "tags": [
-        "AI Privacy",
+        "DigitalTransformation",
         "AI",
-        "Northeastern University",
-        "Re-identification",
-        "Data Anonymization"
+        "Automation",
+        "SAP"
       ]
     },
     {
       "category": "AI & LLM",
-      "title": "AI Solved Math’s Most Famous Problem. Now Humans Are Struggling to Understand It - WIRED",
-      "link": "https://www.wired.com/story/ai-solved-maths-most-famous-problem/",
-      "original_link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LYWUzd05JcGpraWdxdFBhQndzc0tpYmZPQ3V1WjZScGhNOE11aF9kbTBPWDhaWjZ3S1J6dm40OVZiZ29ZUmR1UTlLQUJfQnZ4RFJYZ3lRRXhnV09QdE1QLVZORTN3My1sTHdaSmhTYy0zUQ?oc=5",
-      "pub_date": "Tue, 24 Nov 2026 10:15:00 GMT",
-      "source": "WIRED",
+      "title": "Dozens of court cases in England and Wales affected by undisclosed AI use in 2026 - The Guardian",
+      "link": "https://www.theguardian.com/technology/2026/nov/26/dozens-of-court-cases-in-england-and-wales-affected-by-undisclosed-ai-use-in-2026",
+      "original_link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOFk1a3hxaXJETVRkR2o1aEFpWHBaVDdaV3hRMHlXYXdxRUR4YkJpSGVrVVVMMGV2X2R1UndhR0RvbkUxUVVIaTFfNzAxdmpUSTFTY01DaWozSVBwXzZzMGlERXRPX2dyRXNaRzVkWHlSVmpvZ0k3Y3puVnVaMk5FenpqUnNtNnloV0dVZ2tzUXRTYkhQLVA5dEg4U2FqUFZsU0FvMHJ1amd5Z2hndDQ0dFJnUnp3Tml6QzY0OVpReXFJSzJ5VWRtQ1dVc1U?oc=5",
+      "pub_date": "Thu, 26 Nov 2026 10:00:00 GMT",
+      "source": "The Guardian",
       "summary_data": {
-        "summary": "Anthropic의 연구원 Levent Alpöge가 Claude를 활용하여 167년 된 난제인 리만 가설(Riemann hypothesis)에 대한 1,700만 라인의 Lean 증명을 발표했습니다. 이 결과물은 수학적 정합성은 검증되었으나, 인간이 이해하기에는 너무 방대하고 직관에 반하는 구조를 가지고 있어 수학계의 새로운 과제가 되고 있습니다.",
-        "technical_value": "이번 성과는 프로그래밍 언어인 Lean을 사용하여 수학적 증명을 기계가 검증 가능한 형태로 구현한 것이 핵심입니다. 1,700만 라인에 달하는 방대한 코드는 Claude와 같은 LLM(Large Language Model)의 보조를 받아 생성되었으며, 이는 기존의 인간 중심적 논문 작성 방식과는 완전히 다른 '기계 가독성(Machine-readable)' 중심의 증명 방식을 보여줍니다. 현재 200명 이상의 수학자와 AI Agent를 활용한 연구자들이 이 방대한 코드를 인간이 이해할 수 있는 1,000~10,000페이지 분량의 논리로 변환(Translation)하는 작업을 진행 중입니다.",
+        "summary": "2026년 영국 및 웨일스 법원에서 최소 25건 이상의 재판이 LLM(Large Language Model)의 환각 현상(Hallucination)으로 인해 오염된 사례가 적발되었습니다. 변호사, 경찰, 당사자들이 생성형 AI를 악용하여 허위 판례나 존재하지 않는 법령을 제출함으로써 사법 체계의 신뢰성과 효율성이 심각하게 위협받고 있습니다.",
+        "technical_value": "LLM의 확률적 텍text 생성 특성상 발생하는 'Hallucination(환상/환각)' 현상이 법률 문서의 정밀성을 파괴하는 핵심 리스크로 부각되었습니다. 특히 사용자가 특정 의도(예: 감정적 호소, 형량 극대화)를 담은 Prompt를 입력할 경우, 모델이 논리적 정합성보다 문맥적 그럴듯함을 우선시하여 가공의 판례나 법령을 생성하는 현상이 관찰되었습니다. 이는 RAG(Retrieval-Augmented Generation)와 같은 검증 메커니즘 없이 AI를 직접적인 법률 근거로 사용할 때 발생하는 데이터 무결성(Data Integrity) 결여 문제를 보여줍니다.",
         "key_points": [
-          "Levent Alpöge는 Claude를 활용해 167년 된 난제인 리만 가설에 대한 1,700만 라인의 Lean 증명을 완성했습니다.",
-          "Lean 프레임워크를 통해 코드의 컴파일과 수학적 정합성이 확인되었으나, 인간의 직관을 벗어난 '외계적(Alien)' 논리 구조를 띠고 있습니다.",
-          "수학계는 AI가 생성한 방대한 코드를 인간이 이해 가능한 형태의 논문으로 변환하기 위해 AI Agent와 협업 모델을 활용하고 있습니다.",
-          "이번 사건은 AI가 수학적 발견의 속도를 가속화하는 동시에, 인간의 이해 범위를 넘어서는 '해석의 위기'를 초래할 수 있음을 시사합니다."
+          "LLM의 Hallucination 현상으로 인해 존재하지 않는 판례와 법령을 인용하는 '가공의 법률 근거'가 실제 재판 과정에 유입되었습니다.",
+          "변호사와 경찰 등 법률 전문가들이 업무 효율을 높이거나 감정적 호소를 위해 AI를 악용하면서, 인간의 판단력 저하와 사법 업무의 과부하가 발생하고 있습니다.",
+          "AI가 생성한 방대한 양의 문서가 법원의 업무 지연을 초래하며, 인간이 AI의 오류를 식별하지 못하게 되는 '기술적 탈숙련화(Deskilling)' 위험이 경고되었습니다.",
+          "민사사법위원회(CJC)는 AI가 생성한 내용이 포함되지 않았음을 증명하는 선언문을 도입하는 등 기술적 오남용을 막기 위한 제도적 방어 기제를 논의 중입니다."
         ],
         "tags": [
           "LLM",
-          "Lean",
-          "Riemann Hypothesis",
-          "AI Agent",
-          "Anthropic"
+          "Hallucination",
+          "Generative AI",
+          "Legal Tech",
+          "Data Integrity"
         ]
       },
-      "summary": "Anthropic의 연구원 Levent Alpöge가 Claude를 활용하여 167년 된 난제인 리만 가설(Riemann hypothesis)에 대한 1,700만 라인의 Lean 증명을 발표했습니다. 이 결과물은 수학적 정합성은 검증되었으나, 인간이 이해하기에는 너무 방대하고 직관에 반하는 구조를 가지고 있어 수학계의 새로운 과제가 되고 있습니다.",
+      "summary": "2026년 영국 및 웨일스 법원에서 최소 25건 이상의 재판이 LLM(Large Language Model)의 환각 현상(Hallucination)으로 인해 오염된 사례가 적발되었습니다. 변호사, 경찰, 당사자들이 생성형 AI를 악용하여 허위 판례나 존재하지 않는 법령을 제출함으로써 사법 체계의 신뢰성과 효율성이 심각하게 위협받고 있습니다.",
       "tags": [
-        "AI",
-        "Riemann Hypothesis",
+        "Data Integrity",
         "LLM",
-        "Lean",
-        "Anthropic"
+        "Hallucination",
+        "Legal Tech",
+        "Generative AI"
       ]
     },
     {
@@ -333,10 +332,10 @@
       },
       "summary": "Anthropic이 58개 기업 고객을 대상으로 진행한 66건의 심층 인터뷰를 통해, LLM(Large Language Model) 도입이 단순한 업무 자동화를 넘어 조직 구조와 인적 자원 운용 방식을 어떻게 재편하는지 분석한 보고서입니다. 기업들은 단순 워크플로우 자동화부터 역할 재설계에 이르기까지 다양한 방식으로 AI를 통합하며 조직의 효율성과 전문성 사이의 균형점을 찾고 있습니다.",
       "tags": [
-        "AI",
+        "Agent",
+        "Organizational Change",
         "LLM",
         "Anthropic",
-        "AI Agent",
         "Security"
       ]
     }
