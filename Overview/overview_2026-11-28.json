@@ -1,0 +1,136 @@
+{
+  "source": "overview",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T04:35:40.519560+09:00",
+  "count": 5,
+  "daily_summary": "차세대 AI 모델 발표와 함께 AI 에이전트가 전문적인 실무 영역과 복잡한 워크플로우로 확장되는 양상을 보였습니다. 연구 및 커뮤니티에서는 에이전트의 성능 검증을 위한 벤치마크와 멀티 플랫폼 환경에서의 안정성, 그리고 보안 및 권한 통제에 대한 논의가 활발히 이루어졌습니다.",
+  "daily_key_points": [
+    "Gemini 4 Neon, GPT-6 등 차세대 모델 출시와 함께 전문 업무를 수행하는 AI 에이전트 기술이 주목받고 있습니다.",
+    "멀티 플랫폼 환경에서의 에이전트 성능 측정과 장기적 워크플로우에서의 상태 유지 등 기술적 신뢰성 확보가 핵심 과제로 떠올랐습니다.",
+    "AI를 활용한 고품질 영상 제작, 콘텐츠 자동화 등 전문 영역의 생산성 도구들이 실질적인 업무 프로세스에 통합되고 있습니다."
+  ],
+  "daily_tags": [
+    "AI Agent",
+    "LLM",
+    "Automation",
+    "Benchmark",
+    "Multimodal"
+  ],
+  "chat_message": "🧭 오늘의 AI 업데이트\n\n📌 오늘 요약\n- Gemini 4 Neon, GPT-6 등 차세대 모델 출시와 함께 전문 업무를 수행하는 AI 에이전트 기술이 주목받고 있습니다.\n- 멀티 플랫폼 환경에서의 에이전트 성능 측정과 장기적 워크플로우에서의 상태 유지 등 기술적 신뢰성 확보가 핵심 과제로 떠올랐습니다.\n- AI를 활용한 고품질 영상 제작, 콘텐츠 자동화 등 전문 영역의 생산성 도구들이 실질적인 업무 프로세스에 통합되고 있습니다.\n\n🗞️ 대표 소식\n📍 Daily News\n• Introducing Gemini 4 Neon — Google DeepMind에서 새로운 모델인 Gemini 4 Neon을 발표했습니다. Google DeepMind의 새로운 모델 출시. Gemini 4 Neon 모델 소개.\n• Finding faster quantum algorithms with agents and formal verification — Google DeepMind는 에이전트 팀과 형식 검증(formal verification)을 결합하여 더 빠른 양자 알고리즘을 찾는 방법을 발표했습니다. 이 방식은 핵융합 에너지, 화학, 효소 모델링을 위한 양자 알고리즘 성능을 개선하는 데 기여합니다. 에이전트 팀과 형식 검증 기술을 활용한 양자 알고리즘 최적화. 핵융합 에너지, 화학 및 효소 모델링 분야의 알고리즘 개선.\n\n📍 Community\n• Nvidia Reinstates Jensen Huang as CEO — 개인적 스캔들로 사임했던 젠슨 황이 미국 정부의 개입과 이사회의 결정으로 CEO 직에 복귀했습니다. 이 결정으로 엔비디아 주가는 31% 급등하며 시장의 불확실성을 해소했습니다. 엔비디아 이사회는 미국 정부 관계자들과의 논의를 거쳐 젠슨 황의 CEO 복귀가 국가 안보에 위협이 되지 않는다고 판단하여 만장일치로 그를 복직시켰습니다. 젠슨 황은 지난 11월 초 불륜 스캔들과 중국 정보국 관계자와의 연루 의혹으로 사임했으나, 복귀 직후 주가는 31% 상승하며 186.64달러 선을 회복했습니다. 트럼프 대통령은 젠슨 황이 잘못을 저지르지 않았다고 언급하며 그가 업무에 매진할 것을 당부했습니다.\n\n📍 AI Research\n• Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instabili… — 장기 문맥 학습 시 발생하는 재귀적 상태 폭주 문제를 해결하여 안정적인 선형 어텐션 모델을 구현함. 선형 어텐션은 효율적인 장기 시퀀스 모델링을 가능하게 하지만, Gated DeltaNet-2(GDN-2)와 같은 모델은 긴 문맥 학습 시 학습 실패 문제를 겪습니다. 연구진은 이 문제가 삭제(erasure) 과정에서 읽기 방향과 수정 방향의 비대칭성으로 인해 발생하는 비정상적 연산자 누적 및 상태 폭주 때문임을 밝혀냈습니다. RNN 스타일의 선형 어텐션 모델을 사용할 때 발생하는 수치적 불안정성을 해결하여, 더 긴 문맥을 안정적으로 학습할 수 있는 가이드를 제공합니다.\n\n📍 Products\n• Wizstar R1 — 저렴한 비용으로 고품질 제품 홍보 영상을 제작할 수 있는 AI 비디오 생성 모델. 고가의 영상 제작 비용 없이도 제품, 캐릭터, 스타일을 반영한 상업적 수준의 영상을 빠르게 만들 수 있습니다. 최대 9개의 참조 이미지/영상을 조합한 5~15초 분량의 영상 생성. 네이티브 오디오가 포함된 애니메이션 및 3D 콘텐츠 특화.\n\n📍 Models\n• AtomicChat/Inkling-2-Mini-Uncensored-GGUF — AtomicChat에서 공개한 Inkling-2-Mini-Uncensored-GGUF 모델이 높은 다운로드 수를 기록하며 주목받고 있습니다. 이 모델은 이미지와 텍스트를 동시에 처리하는 image-text-to-text 파이프라인을 지원합니다. Inkling-2-Mini-Uncensored-GGUF 모델의 다운로드 수가 1,000,000회를 돌파하며 높은 관심을 받고 있습니다. 해당 모델은 약 26B 파라미터를 가진 image-text-to-text 태그의 모델입니다.\n\n👉 자세히 보기\nhttps://pyosignal.pages.dev/",
+  "items": [
+    {
+      "id": "daily-news",
+      "section": "daily_news",
+      "title": "Daily News",
+      "href": "/daily-news",
+      "summary": "Google DeepMind와 OpenAI를 중심으로 차세대 AI 모델(Gemini 4 Neon, GPT-6, Genie 4)의 발표와 함께, AI 에이전트가 단백질 설계, 코딩, 웹 조사 등 전문적인 실무 영역으로 확장되는 양상을 보였습니다.",
+      "key_points": [
+        "차세대 모델 출시: Gemini 4 Neon, Genie 4, GPT-6 등 고도화된 성능을 갖춘 신규 모델 발표",
+        "AI 에이전트의 실무 적용: 단백질 설계, 대규모 코드베이스 관리, 웹 조사 등 전문 영역에서의 에이전트 활용 사례 증가",
+        "AI 기술의 과학적 기여: 양자 알고리즘 최적화 및 생물학적 구조 설계 등 과학 연구 분야에서의 AI 역할 확대"
+      ],
+      "tags": [
+        "AI Model",
+        "AI Agent",
+        "Deep Learning",
+        "Scientific AI",
+        "Software Engineering"
+      ],
+      "count": 7,
+      "source_keys": [
+        "google_news",
+        "official_news"
+      ]
+    },
+    {
+      "id": "community",
+      "section": "community",
+      "title": "Community",
+      "href": "/community",
+      "summary": "오늘 커뮤니티 반응에서는 보안과 권한 통제, AI 에이전트와 LLM 실전 활용, 추론 효율과 성능 최적화 관련 논의가 두드러졌습니다.",
+      "key_points": [
+        "보안 사고, 권한 통제, 사용자 동의 같은 안전성 이슈가 반복적으로 언급됐습니다.",
+        "AI 에이전트와 LLM 활용 방식, 안전성, 권한 설계에 대한 논의가 두드러졌습니다.",
+        "MTP, 검색 최적화, 벤치마크처럼 성능을 실제로 끌어올리는 방법론에 관심이 집중됐습니다."
+      ],
+      "tags": [
+        "LLM",
+        "알고리즘",
+        "Open Source",
+        "OpenAI",
+        "1Password"
+      ],
+      "count": 20,
+      "source_keys": [
+        "community"
+      ]
+    },
+    {
+      "id": "ai-research",
+      "section": "ai_research",
+      "title": "AI Research",
+      "href": "/papers",
+      "summary": "오늘의 연구는 에이전트의 성능을 검증하기 위한 정교한 벤치마크 설계와 장기적인 워크플로우에서의 상태 관리 및 일관성 유지에 집중되었습니다. 또한, 비디오 생성 및 시각적 추론 분야에서 모델의 제어력과 효율성을 높이기 위한 새로운 방법론들이 주목받았습니다.",
+      "key_points": [
+        "에이전트의 전문성과 멀티 플랫폼 환경에서의 성능을 정밀하게 측정하기 위한 다양한 벤치마크 프레임워크가 제안되었습니다.",
+        "장기 비디오 생성 및 복잡한 워크플로우에서 캐릭터 일관성과 상태를 유지하기 위한 계층적 메모리 및 멀티 에이전트 협업 기법이 논의되었습니다.",
+        "실시간 인터랙션을 위한 추측형 스트리밍과 코드 기반 시각적 추론 등 모델의 응답성과 신뢰성을 높이는 기술적 대안들이 제시되었습니다."
+      ],
+      "tags": [
+        "AI Agent",
+        "Benchmark",
+        "Video Generation",
+        "Long-Context",
+        "Multi-Agent"
+      ],
+      "count": 20,
+      "source_keys": [
+        "hf"
+      ]
+    },
+    {
+      "id": "products",
+      "section": "products",
+      "title": "Products",
+      "href": "/products",
+      "summary": "오늘의 트렌드는 단순한 자동화를 넘어, AI 에이전트가 인간의 개입(전화, 피드백)과 유기적으로 상호작용하며 업무 내용을 유지하는 데 집중되었습니다. 또한, 기존 소프트웨어를 API로 변환하거나 코딩 과정을 교육하는 등 AI가 전문적인 업무 프로세스에 깊숙이 통합되는 양상을 보였습니다.",
+      "key_points": [
+        "AI 에이전트가 업무 수행 중 발생하는 결정 사항을 전화로 전달하거나 실시간 피드백을 받는 등 인간과의 협업 방식이 진화하고 있습니다.",
+        "코딩, 디자인, 콘텐츠 제작 등 전문 영역에서 작업 효율을 극대화하고 결과물의 품질을 검증하는 AI 도구들이 주목받았습니다.",
+        "클라우드와 로컬 환경의 경계를 허물며, 기존의 업무 프로세스를 API화하거나 브라우저 내에서 보안을 유지하며 작업하는 기술이 강조되었습니다."
+      ],
+      "tags": [
+        "AI 에이전트",
+        "업무 자동화",
+        "생산성 도구",
+        "AI 코딩",
+        "콘텐츠 제작"
+      ],
+      "count": 30,
+      "source_keys": [
+        "product_hunt"
+      ]
+    },
+    {
+      "id": "models",
+      "section": "models",
+      "title": "Models",
+      "href": "/model-benchmarks",
+      "summary": "Hugging Face에서는 멀티모달(Image-to-Text, Image-to-Video) 기능 중심의 신규 모델들이 주목받았으며, LiveCodeBench에서는 O4-Mini 및 Gemini 시리즈 모델들이 상위권 성적을 기록하며 코딩 성능 경쟁을 보여주었습니다.",
+      "key_points": [
+        "Inkling-2-Mini 시리즈 및 LTX-2.5 등 이미지/비디오 처리 파이프라인 지원 모델의 높은 관심",
+        "LiveCodeBench 벤치마크에서 O4-Mini 및 Gemini 모델들의 상위권 성적 기록",
+        "GGUF 포맷 및 멀티모달 기능을 갖춘 오픈 모델들의 활발한 배포"
+      ],
+      "tags": [
+        "Multimodal",
+        "LiveCodeBench",
+        "HuggingFace_Trending"
+      ],
+      "count": 6,
+      "source_keys": [
+        "model_eval_signals"
+      ]
+    }
+  ]
+}
